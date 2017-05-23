@@ -1,0 +1,2149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+	<!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	xmlns:dcterms="&dctermsns;"
+	xmlns:dctype="&dctypens;">
+
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label rdf:ID="title_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="title_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label rdf:ID="contributor_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="contributor_comment" xml:lang="es-ES"/>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label rdf:ID="creator_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="creator_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label rdf:ID="publisher_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="publisher_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label rdf:ID="subject_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="subject_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label rdf:ID="description_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="description_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label rdf:ID="date_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="date_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label rdf:ID="type_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="type_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label rdf:ID="format_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="format_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label rdf:ID="identifier_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="identifier_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label rdf:ID="language_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="language_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label rdf:ID="relation_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="relation_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label rdf:ID="source_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="source_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label rdf:ID="coverage_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="coverage_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label rdf:ID="rights_label" xml:lang="es-ES"/>
+  <rdfs:comment rdf:ID="rights_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;alternative">
+	<rdfs:label rdf:ID="alternative_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="alternative_comment" xml:lang="es-ES"/>
+	<dc:description rdf:ID="alternative_description" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;abstract">
+	<rdfs:label rdf:ID="abstract_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="abstract_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;tableOfContents">
+	<rdfs:label rdf:ID="tableOfContents_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="tableOfContents_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;created">
+	<rdfs:label rdf:ID="created_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="created_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;issued">
+	<rdfs:label rdf:ID="issued_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="issued_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;modified">
+	<rdfs:label rdf:ID="modified_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="modified_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<dcterms:DateScheme rdf:about="&dctermsns;W3CDTF">
+	<rdfs:comment rdf:ID="W3CDTF_comment" xml:lang="es-ES"/>
+</dcterms:DateScheme>
+
+<dcterms:DateScheme rdf:about="&dctermsns;Period">
+	<rdfs:label rdf:ID="Period_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="Period_comment" xml:lang="es-ES"/>
+</dcterms:DateScheme>
+
+<rdf:Property rdf:about="&dctermsns;extent">
+	<rdfs:label rdf:ID="extent_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="extent_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;medium">
+	<rdfs:label rdf:ID="medium_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="medium_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<dcterms:FormatScheme rdf:about="&dctermsns;IMT">
+	<rdfs:comment rdf:ID="IMT_comment" xml:lang="es-ES"/>
+</dcterms:FormatScheme>
+
+<dcterms:LanguageScheme rdf:about="&dctermsns;RFC1766">
+	<rdfs:comment rdf:ID="RFC1766_comment" xml:lang="es-ES"/>
+</dcterms:LanguageScheme>
+
+<dcterms:LanguageScheme rdf:about="&dctermsns;ISO639-2">
+	<rdfs:comment rdf:ID="ISO639-2_comment" xml:lang="es-ES"/>
+</dcterms:LanguageScheme>
+
+<rdf:Property rdf:about="&dctermsns;isPartOf">
+	<rdfs:label rdf:ID="isPartOf_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="isPartOf_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;hasPart">
+	<rdfs:label rdf:ID="hasPart_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="hasPart_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;isVersionOf">
+	<rdfs:label rdf:ID="isVersionOf_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="isVersionOf_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;hasVersion">
+	<rdfs:label rdf:ID="hasVersion_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="hasVersion_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;isFormatOf">
+	<rdfs:label rdf:ID="isFormatOf_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="isFormatOf_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;hasFormat">
+	<rdfs:label rdf:ID="hasFormat_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="hasFormat_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;references">
+	<rdfs:label rdf:ID="references_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="references_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;isReferencedBy">
+	<rdfs:label rdf:ID="isReferencedBy_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="isReferencedBy_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;requires">
+	<rdfs:label rdf:ID="requires_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="requires_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;isRequiredBy">
+	<rdfs:label rdf:ID="isRequiredBy_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="isRequiredBy_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;replaces">
+	<rdfs:label rdf:ID="replaces_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="replaces_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;isReplacedBy">
+	<rdfs:label rdf:ID="isReplacedBy_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="isReplacedBy_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;spatial">
+	<rdfs:label rdf:ID="spatial_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="spatial_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;temporal">
+	<rdfs:label rdf:ID="temporal_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="temporal_comment" xml:lang="es-ES"/>
+</rdf:Property>
+
+<dcterms:SpatialScheme rdf:about="&dctermsns;ISO3166">
+	<rdfs:comment rdf:ID="ISO3166_comment" xml:lang="es-ES"/>
+</dcterms:SpatialScheme>
+
+<dcterms:SpatialScheme rdf:about="&dctermsns;Box">
+	<rdfs:label rdf:ID="Box_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="Box_comment" xml:lang="es-ES"/>
+</dcterms:SpatialScheme>
+
+<dcterms:SpatialScheme rdf:about="&dctermsns;Point">
+	<rdfs:label rdf:ID="Point_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="Point_comment" xml:lang="es-ES"/>
+</dcterms:SpatialScheme>
+
+<dcterms:TypeScheme rdf:about="&dctermsns;DCMIType">
+	<rdfs:label rdf:ID="DCMIType_label" xml:lang="es-ES"/>
+	<rdfs:comment rdf:ID="DCMIType_comment" xml:lang="es-ES"/>
+</dcterms:TypeScheme> 
+
+<dcterms:IdentifierScheme rdf:about="&dctermsns;URI">
+	<rdfs:comment rdf:ID="URI_comment" xml:lang="es-ES"/>
+</dcterms:IdentifierScheme>
+
+
+<rdf:Description rdf:about="#title_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#title_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#type_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC
+	(DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.0)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Javi Masa
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	RedIRIS
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://rediris.es"/>
+	<dc:source rdf:resource="http://www.rediris.es/metadata/"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#alternative_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#alternative_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#alternative_description">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#abstract_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#abstract_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#tableOfContents_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#tableOfContents_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#created_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#created_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#issued_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#issued_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#modified_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#modified_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#W3CDTF_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Period_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Period_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#extent_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#extent_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#medium_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#medium_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#IMT_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#RFC1766_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#ISO639-2_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#isPartOf_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#isPartOf_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#hasPart_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#hasPart_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#isVersionOf_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#isVersionOf_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#hasVersion_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#hasVersion_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#isFormatOf_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#isFormatOf_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#hasFormat_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#hasFormat_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#references_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#references_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#isReferencedBy_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#isReferencedBy_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#requires_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#requires_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#isRequiredBy_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#isRequiredBy_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#replaces_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#replaces_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#isReplacedBy_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#isReplacedBy_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#spatial_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#spatial_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#temporal_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#temporal_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#ISO3166_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Box_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Box_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Point_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Point_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#DCMIType_label">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#DCMIType_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#URI_comment">
+	<dc:description xml:lang="es-ES">
+	Traducci&#0243;n del t&#0233;rmino de la DC (DC term translation)
+	</dc:description>
+	<dc:description xml:lang="es-ES">
+	Versi&#0243;n 1.0 (Version 1.1)
+	</dc:description>
+	<dc:creator xml:lang="es-ES">
+	Marcela Calderon
+	</dc:creator>	
+	<dc:publisher xml:lang="es-ES">
+	Universidad de Chile
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.ciw.cl/"/>
+	<dc:source rdf:resource="http://www.ciw.cl/proyectos/calificadoresDC.html"/>	
+	<dc:rights xml:lang="es-ES">
+	El editor niega cualquier responsabilidad de la correcci&#0243;n de esta traducci&#0243;n
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+			
+
+</rdf:RDF>

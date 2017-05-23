@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/DC/documents/wd/dcmes-xml-20000714.htm">
+   <dc:title>Dublin Core Metadata Initiative - Using Dublin Core in XML</dc:title>
+   <dc:description>The Dublin Core Element Set, v1.1, can be represented in many syntax formats.  This document explains how to encode the DCES in XML, provides a DTD to validate the documents and a method to link them from web pages.</dc:description>
+   <dc:creator>Dave Beckett</dc:creator>
+   <dc:creator>Eric Miller</dc:creator>
+   <dc:creator>Dan Brickley</dc:creator>
+   <dc:date>2000-07-14</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

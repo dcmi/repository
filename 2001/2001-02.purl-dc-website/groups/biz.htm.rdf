@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+
+ <rdf:Description about="http://purl.org/dc/groups/biz.htm">
+
+   <dc:title>Dublin Core Metadata Initiative - DCMI-Biz Interest Group</dc:title>
+
+   <dc:description>Working Group Charter: To provide a forum: To investigate metadata schemas 
+used in commercial business models (Business-to-Business, Business-to-Consumer); To promote the 
+use of Dublin Core in internal and cross company business environments; To identify business 
+sectors and commercial resources (e.g. information, services, catalogs, products) that could 
+benefit from the use of the DC standard; To highlight within the DC Community the commercial 
+ramifications of DC developments; To discuss the possible expansion of Dublin Core to accommodate 
+information vital to commercial requirements and uses. </dc:description>
+
+   <dc:date>2000-10-06</dc:date>
+
+   <dc:format>text/html</dc:format>
+
+   <dc:language>en</dc:language>
+
+   <dc:contributor>The Dublin Core Metadata Initiative</dc:contributor>
+
+ </rdf:Description>
+
+</rdf:RDF>
+
+
+
+
+

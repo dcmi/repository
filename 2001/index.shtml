@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DCMI Archives - 2001 Archive</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<!--#include virtual="/archives/menu.txt" -->
+<h1>2001 Archive</h1>
+
+<h2>Websites</h2>
+<ul>
+<li>October 2001: <a href="/archives/2001/10/public_html/">DC-2001: International Conference on Dublin Core and Metadata Applications website</a></li>
+<li>February 2001: <a href="/archives/2001/02/purl-dc-website/">PURL-DC Website</a></li>
+</ul>
+
+<h2>News and Announcements</h2>
+<ul>
+<li><a href="/archives/2001/news/index.shtml">General, Document, Meeting, and Project Announcements</a></li>
+</ul>
+
+<h2>Status Reports</h2>
+<p>Reports from the DCMI Directorate about the current state of the Dublin Core Metadata Initiative.</p>
+<ul>
+<li><a href="/archives/2001/statusreport/statusreport-200110.shtml">October 2001</a></li>
+<li><a href="/archives/2001/statusreport/statusreport-200106.shtml">May/June 2001</a></li>
+<li><a href="/archives/2001/statusreport/statusreport-200104.shtml">April 2001</a></li>
+</ul>
+
+<h2>Deliverables</h2>
+<ul>
+<li><a href="/archives/2001/deliverables/deliverables-200110.shtml">October 2001</a></li>
+<li><a href="/archives/2001/deliverables/deliverables-200109.shtml">September 2001</a></li>
+<li><a href="/archives/2001/deliverables/deliverables-200106.shtml">June 2001</a></li>
+</ul>
+
+<h2>DCMI Update Newsletter</h2>
+<p>The DCMI Update was published in 2000 and 2001, highlighting ongoing activities and other news and serving as a digest of the work of the Initiative. As the information was also contained in the Status Reports published by the Directorate from 2001, DCMI Update was discontinued at the end of 2001.</p>
+<ul>
+<li><a href="/archives/2001/newsletter/nl2001-10.shtml">October 2001</a></li>
+<li><a href="/archives/2001/newsletter/nl2001-07.shtml">July 2001</a></li>
+<li><a href="/archives/2001/newsletter/nl2001-05.shtml">May 2001</a></li>
+</ul>
+
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

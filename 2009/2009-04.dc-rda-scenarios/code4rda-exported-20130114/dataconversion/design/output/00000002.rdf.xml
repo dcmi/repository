@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:rda="http://RDVocab.info/Elements/" xmlns:frbr="http://purl.org/vocab/frbr/core#" xmlns:rdarole="http://RDVocab.info/roles/" xmlns:marcrelator="http://www.loc.gov/loc.terms/relators/" xmlns:rdakey="http://purl.org/net/rdakey/" xmlns:dcterms="http://purl.org/dc/terms/" xml:base="http://placeholder/">
+  <!--RDF generated from MODS XML using mods2rda stylesheet, see
+                http://code4rda.googlecode.com-->
+  <frbr:Manifestation rdf:about="manifestation/00000002">
+    <frbr:embodimentOf rdf:resource="expression/00000002"/>
+    <rda:titleProper rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Botanical materia medica and pharmacology</rda:titleProper>
+    <rda:parallelTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugs considered from a botanical, pharmaceutical, physiological, therapeutical and toxicological standpoint</rda:parallelTitle>
+    <rda:statementOfResponsibilityRelatingToTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">By S. H. Aurand.</rda:statementOfResponsibilityRelatingToTitle>
+  </frbr:Manifestation>
+  <frbr:Expression rdf:about="expression/00000002">
+    <frbr:embodiment rdf:resource="manifestation/00000002"/>
+    <frbr:realizationOf rdf:resource="work/00000002"/>
+    <rda:contentType rdf:resource="http://RDVocab.info/termList/RDAContentType/1020"/>
+  </frbr:Expression>
+  <frbr:Work rdf:about="work/00000002">
+    <frbr:realization rdf:resource="expression/00000002"/>
+    <rda:preferredTitleForTheWork rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Botanical materia medica and pharmacology</rda:preferredTitleForTheWork>
+    <marcrelator:CRE rdf:resource="person/00000002-1"/>
+    <frbr:creator rdf:resource="person/00000002-1"/>
+    <rdarole:author rdf:resource="person/00000002-1"/>
+    <frbr:subject rdf:resource="lcsh/botanymedical"/>
+    <dcterms:subject rdf:resource="lcsh/botanymedical"/>
+    <frbr:subject rdf:resource="lcsh/homeopathy"/>
+    <dcterms:subject rdf:resource="lcsh/homeopathy"/>
+    <rdakey:workTitleSimpleHash rdf:datatype="http://www.w3.org/2001/XMLSchema#string">botanicalmateriamedicaandpharmacology</rdakey:workTitleSimpleHash>
+  </frbr:Work>
+  <frbr:Person rdf:about="person/00000002-1">
+    <rda:preferredNameForThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aurand, Samuel Herbert</rda:preferredNameForThePerson>
+    <rda:dateAssociatedWithThePerson rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1854-</rda:dateAssociatedWithThePerson>
+    <rdakey:personNameSimpleHash rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aurandsamuelherbert1854</rdakey:personNameSimpleHash>
+  </frbr:Person>
+</rdf:RDF>

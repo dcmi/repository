@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/groups/qualifiervotingresults.htm">
+   <dc:title>Dublin Core Metadata Initiative - Qualifier Voting Results</dc:title>
+   <dc:description>This page will list the results of the Element Working Groups votes on qualifiers.</dc:description>
+   <dc:date>1999-12-03</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Dublin Core Metadata Initiative</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

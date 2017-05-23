@@ -1,0 +1,18 @@
+
+    <!--#include virtual="tool-head.shtml" -->
+    <!--#include virtual="/ssi/header.shtml" -->
+    <h1>Viewer-Generator Dublin Core metadata</h1>
+    <table cellspacing="0" class="noborder">
+<tr><td>Identifier:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.library.kr.ua/dc/lookatdce.html">http://www.library.kr.ua/dc/lookatdce.html</a></td></tr>
+<tr><td>Description:&nbsp;&nbsp;&nbsp;</td><td>An online form to test a URL for the presence of Dublin Core metadata. Also automatically generates Dublin Core metadata for a page that contains only traditional HTML metadata.</td></tr>
+<tr><td>Rights:&nbsp;&nbsp;&nbsp;</td><td>free online tool, rights hold by Chizhevsky RURL Kirovohrad</td></tr>
+<tr><td>Language:&nbsp;&nbsp;&nbsp;</td><td>eng, ukr, rus (ISO 639-2)</td></tr>
+<tr><td>Publisher:&nbsp;&nbsp;&nbsp;</td><td>Kirovohrad Regional Universal Research Library</td></tr>
+<tr><td>Location:&nbsp;&nbsp;&nbsp;</td><td>Ukraine</td></tr>
+<tr><td>Date:&nbsp;&nbsp;&nbsp;</td><td>2001</td></tr>
+</table>
+    <p><small>For an application profile see the <a href="/groups/tools/map.shtml">DCMI Tools
+    Application Profile</a></small>
+    <!--#include virtual="/ssi/footer.shtml" -->
+    </body>
+    </html>

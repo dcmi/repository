@@ -1,0 +1,198 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML TITLE="An advisory description of the element." LANG="en">
+<HEAD TITLE="An advisory description of the element.">
+<TITLE>Dublin Core and Z39.50</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<LINK REL="previous" HREF="index.htm">
+<LINK REL="contents" HREF="index.htm">
+<LINK REL="stylesheet" HREF="default.css" TYPE="text/css">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<DIV CLASS="head">
+<H1 ID="title">Dublin Core and Z39.50</H1>
+<DL>
+<DT>Version:</DT>
+<DD>Draft Version 1.2</DD>
+<DT>Creator:</DT>
+<DD>Ralph LeVan &lt;<A HREF="mailto:levan@oclc.org">levan@oclc.org</A>&gt;<BR>Research Scientist<BR>OCLC Online Computer Library Center, Inc.</DD>
+<DT>Date issued:</DT>
+<DD>1998-02-02</DD>
+<DT>Status of document:</DT>
+<DD>This document is a NOTE made available by the Dublin Core Metadata Initiative Directorate for discussion only. The publication of a NOTE by the Dublin Core implies no endorsement of any kind.</DD>
+<DT>Description of document:</DT>
+<DD>This document is substantially changed from the previous draft. It incorporates changes reflecting the results of the January meeting of the Z39.50 Implementors Group (<ACRONYM TITLE="Z39.50 Implementors Group">ZIG</ACRONYM>).</DD>
+<DD>This paper proposes a mechanism for using the Dublin Core for search and retrieval in Z39.50. Agreement for how to do this for the 15 basic elements of the Dublin Core within the constraints of Version 2 has been reached. Consensus agreement on how to use Dublin Core qualifiers and schemas with the new attribute architecture for Z39.50 awaits completion of development in both communities. This paper is not a tutorial on Z39.50. A minimal amount of understanding of Z39.50 will be necessary to understand the details of this discussion.</DD>
+</DL>
+</DIV>
+<HR TITLE="separator from head">
+<DIV CLASS="toc">
+<H2 ID="table-of-contents"><A NAME="contents"></A>Table of Contents</H2>
+<UL CLASS="toc">
+<LI CLASS="tocline2"><A HREF="#1">1. Searching Philosophy</A></LI>
+<LI CLASS="tocline2"><A HREF="#2">2. Dublin Core and Searching</A></LI>
+<UL CLASS="toc">
+<LI CLASS="tocline3">2.1 <A HREF="#2.1">Searching in Version 2</A></LI>
+<LI CLASS="tocline3">2.2 <A HREF="#2.2">Searching in Version 3</A>
+<UL>
+<LI CLASS="tocline4">2.2.1 <A HREF="#2.2.1">Use Attributes</A></LI>
+<LI CLASS="tocline4">2.2.2 <A HREF="#2.2.2">Fieldname Attributes</A></LI>
+<LI CLASS="tocline4">2.2.3 <A HREF="#2.2.3">ContentAuthority and Structure Attributes</A></LI>
+<LI CLASS="tocline4">2.2.4 <A HREF="#2.2.4">ContentAuthority Attributes</A></LI>
+<LI CLASS="tocline4">2.2.5 <A HREF="#2.2.5">Structure Attributes</A></LI>
+</UL>
+</LI>
+<LI CLASS="tocline3">2.3 <A HREF="#2.3">Guidance to Client Developers</A></LI>
+<LI CLASS="tocline3">2.4 <A HREF="#2.4">Guidance to Database Providers</A></LI>
+</UL>
+<LI CLASS="tocline2"><A HREF="#3">3. Dublin Core and Record Retrieval</A></LI>
+<LI CLASS="tocline2"><A HREF="#references">4. References</A></LI>
+</UL>
+</DIV>
+<HR TITLE="separator from table of contents">
+<DIV CLASS="body">
+<H2 ID="introduction"><A NAME="1"></A>1. Searching Philosophy</H2>
+<P>There are three broad philosophies for searching in Z39.50: <EM>Minimalism</EM>, <EM>Maximalism</EM> and <EM>Structuralism</EM>.</P>
+<P>Minimalism wants a small set of semantically fuzzy access points that support broad interoperability among a diverse set of implementors. Minimalists assume that it is easy for a database provider to identify an access point as corresponding to &quot;name&quot; (a semantically fuzzy concept). It is not always easy for a database provider to distinguish between a &quot;personal name&quot; and a &quot;corporate name&quot; (more semantically rigorous concepts). In addition, client implementors and their users are often unaware of or uninterested in the more specific access points. Minimalists are willing to give up some accuracy in their searches in exchange for improved chances of finding records in diverse databases. They are willing to trade precision for recall.</P>
+<P>Maximalism wants a large set of semantically unambiguous access points. For Maximalists, the specificity of the search is of primary importance. Maximalists are willing to give up interoperability with diverse databases that do not support the very specific access points that they require in exchange for more accuracy in the records retrieved. They are willing to trade recall for precision.</P>
+<P>Both Minimalists and Maximalists are trying for semantic interoperability. They make no assertions about the structure of the records.</P>
+<P>Structuralism wants to take advantage of the deep understanding Structuralists have of the records being searched. Because there are relatively fewer databases that have identically structured records, Structuralists further reduce their interoperability even more than the Maximalists in exchange for even greater search precision.</P>
+<P>This paper will propose mechanisms that will allow all three groups to search the way they want. In addition, this paper will make recommendations for database providers and client developers that will maximize interoperability while still providing the specificity that the Maximalists and Structuralists require.</P>
+<HR TITLE="separator from Searching Philosophy">
+<H2 ID="section"><A NAME="2"></A>2. Dublin Core and Searching</H2>
+<P>Making the Dublin Core usable for searching in Z39.50 appears initially to be trivial. All that is needed is to add the Dublin Core elements as Use attributes in a Z39.50 attribute set. The issues surrounding that decision turn out to be complex. Which attribute set should be used? Should a new attribute set be created or should an existing attribute set be extended? Which implementor community is the solution focused on: Version 2 or Version 3?</P>
+<P>The brief answer is that the 15 elements of the Dublin Core will be added as Use attributes in the Bib-1 attribute set for Z39.50 Version 2 clients and servers and that a new attribute set be created for use by Version 3 clients and servers. The new attribute set will depend on the capabilities described in the Z39.50 Draft Attribute Architecture <A HREF="#ref-1">[1]</A> and will provide access to the schemes and qualifiers being actively developed in the Dublin Core community.</P>
+<H3 ID="subsection"><A NAME="2.1"></A>2.1 Searching in Version 2</H3>
+<TABLE BORDER="1" CELLPADDING="4" CELLSPACING="2" SUMMARY="A textual description of the table."><CAPTION>The fifteen Dublin Core elements have been added as Use attributes to the Bib-1 attribute set:</CAPTION><THEAD>
+<TR>
+<TH ID="header1">Dublin Core Element</TH>
+<TH ID="header2" COLSPAN="2">Z39.50 Use Attribute</TH>
+</TR>
+</THEAD>
+<TR>
+<TD>-</TD>
+<TD AXIS="name" HEADERS="header2" ABBR="Provides an abbreviated string that describes the cell's content.">Name</TD>
+<TD AXIS="value" HEADERS="header2" ABBR="Provides an abbreviated string that describes the cell's content.">Value</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Title</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-Title</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1097</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Author</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-Contributor</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1098</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Subject</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-Subject</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1099</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Description</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-Description</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1100</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Publisher</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-Publisher</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1101</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Date</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-Date</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1102</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Resource Type</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-ResourceType</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1103</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Resource Identifier</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-ResourceIdentifire</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1104</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Language</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-Language</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1105</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Other Contributor</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-OtherContributor</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1106</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Format</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-Format</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1107</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Source</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-SourceIdentifier</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1108</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Relation</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-Relation</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1109</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Coverage</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-Coverage</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1110</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Rights Management</TD>
+<TD AXIS="name" ABBR="Provides an abbreviated string that describes the cell's content.">DC-RightsManagement</TD>
+<TD AXIS="value" ABBR="Provides an abbreviated string that describes the cell's content.">1111</TD>
+</TR>
+</TABLE>
+<P>The semantics for these new Use attributes are taken from Dublin Core Metadata Element Set: Reference Description <A HREF="#ref-2">[2]</A>.</P>
+<H3 ID="subsection"><A NAME="2.2"></A>2.2 Searching in Version 3</H3>
+<H4 ID="subsection"><A NAME="2.2.1"></A>2.2.1 Use Attributes</H4>
+<P>The primary list of Use attributes is: Title, Author, Subject, Description, Publisher, OtherContributor, Date, ResourceType, Format, ResourceIdentifier, SourceIdentifier, Language, Relation, Coverage and RightsManagement. The semantics for these attributes are specified in Dublin Core Metadata Element Set: Reference Description <A HREF="#ref-2">[2]</A>. The Dublin Core Use attributes are an enumerated list and will be assigned consecutive numbers starting at 1.</P>
+<P>The secondary list of Use attributes is only tentative and needs to be further developed by the Dublin Core community. They are:<BR>Title-Alternative<BR>Creator-PersonalName, Creator-CorporateName, Creator-Address, Creator-PersonalName-Address, Creator-CorporateName-Address<BR>Publisher-PersonalName, Publisher-CorporateName, Publisher-Address, Publisher-PersonalName-Address, Publisher-CorporateName-Address<BR>Contributor-PersonalName, Contributor-CorporateName, Contributor-Address, Contributor-PersonalName-Address, Contributor-CorporateName-Address<BR>Date-Creation, Date-Modification, Date-Publication, Date-Available, Date-Valid, Date-Acquisition, Date-Accepted, Date-DataGathering<BR>Relation-Creative, Relation-Mechanical, Relation-Version, Relation-Inclusion, Relation-Reference<BR>Coverage-PeriodName, Coverage-PlaceName, Coverage-t, Coverage-x, Coverage-y, Coverage-z, Coverage-Polygon, Coverage-Line and Coverage-3d</P>
+<P>The semantics for these attributes are specified in Dublin Core Qualifiers/Substructure <A HREF="#ref-3">[3]</A>. Numbering for the Title permutations will start at 100, Creator at 200, Publisher at 500, Contributor at 600, Date at 700, Relation at 1300 and Coverage at 1400.</P>
+<H4 ID="subsection"><A NAME="2.2.2"></A>2.2.2 Fieldname Attributes</H4>
+<P ID="subsection">The list of Fieldnames is only tentative and needs to be further developed by the Dublin Core community. They are: Title, Alternative, Creator, PersonalName, CorporateName, Address, Subject, Description, Publisher, Contributor, Date, Creation, Modification, Publication, Available, Valid, Acquisition, Accepted, DataGathering, ResourceType, Format, ResourceIdentifier, Source, Language, Relation, Coverage, PeriodName, PlaceName, T, X, Y, Z, Polygon, Line, ThreeD and RightsManagement. . The semantics for these attributes are specified in Dublin Core Qualifiers/Substructure <A HREF="#ref-3">[3]</A>. These attributes will have string values.</P>
+<H4 ID="subsection"><A NAME="2.2.3"></A>2.2.3 ContentAuthority and Structure Attributes</H4>
+<P>The concepts of ContentAuthority and Structure are unfortunately combined in the current Dublin Core documentation. This is because they only have one HTML attribute available to them for tagging this data: Scheme. The attributes listed below as ContentAuthority and Structure are all listed as Schemes in the Dublin Core documentation. The Dublin Core community recognizes the syntactic ambiguity and expects to be able to clarify the situation.</P>
+<H4 ID="subsection"><A NAME="2.2.4"></A>2.2.4 ContentAuthority Attributes</H4>
+<P>The list of ContentAuthorities is only tentative and needs to be further developed by the Dublin Core community. They are: LCNAF, LCSH, MeSH, AAT, DDC, LCC, NLM, UDC, MIME, DCPMT, IETF-RFC-1766, Z39.53, ISO-639-1 and ISO-639-2B. The semantics for these attributes are specified in Dublin Core Qualifiers/Substructure <A HREF="#ref-3">[3]</A>. These attributes will have string values.</P>
+<H4 ID="subsection"><A NAME="2.2.5"></A>2.2.5 Structure Attributes</H4>
+<P>The list of Structure attributes is: ISO-8601, ANSI-X3.30, IETF-RFC-822, URL, URN, ISBN, ISSN, SICI, FPI. The first three structure attributes are date formats. The others are standard identifier formats. FPI is a Formal Public Identifier <A HREF="#ref-4">[4]</A>. These attributes will have enumerated values. The actual values will depend on whether they are added to the Bib-1 or Dublin Core attribute sets.</P>
+<H3 ID="subsection"><A NAME="2.3"></A>2.3 Guidance to Client Developers</H3>
+<P>Developers of Maximalist clients should be aware that they have reduced the number of databases they can search because of the semantic precision they require in their searches. They should be prepared to use less semantically precise Use attributes if they receive an error code of 114 which means that the database does not support a particular Use attribute. The code will be accompanied by the value of the unsupported Use attribute. For example, a search using Author-PersonalName should be changed to simply Author. Client developers should be aware that some databases will automatically convert overly precise Use attributes to less precise attributes. If this is not desired, Version 3 clients can specify a SemanticAction of 1 along with the Use attribute, which means that no substitution should be performed.</P>
+<P>Similar advice applies to Structuralist client developers, except that the code for specifying an unsupported Fieldname attribute has not yet been specified.</P>
+<P>Minimalist client developers do not have a similar fall-back option. If they send in a search for Names and the database does not support such an access point, they might be able to change their fuzzy search into an OR'ing of more specific access points, such as PersonalName and CorporateName. But, this is not always straightforward. However, the next section describes how database providers can make this problem easier.</P>
+<H3 ID="subsection"><A NAME="2.4"></A>2.4 Guidance to Database Providers</H3>
+<P>Providers of Maximalist and Structuralist databases should be aware that maximum interoperability is available with Minimalist searching. It is strongly recommended that additional access points be made available by grouping semantically precise access points together as semantically fuzzy access points. For example, Publisher-PersonalName and Publisher-CorporateName should also be available as Publisher.</P>
+<HR TITLE="separator from Dublin Core and Searching">
+<H2 ID="section"><A NAME="3"></A>3. Dublin Core and Record Retrieval</H2>
+<P>Solutions have been developed for retrieving Dublin Core elements in three Z39.50 record syntaxes: USMARC, HTML and GRS-1.</P>
+<P>A description for encoding of Dublin Core elements in USMARC records was developed at the Library of Congress and is described in Dublin Core/MARC/GILS Crosswalk <A HREF="#ref-5">[5]</A>. These records can be retrieved using the USMARC record syntax (Object Identifier: 1.2.840.10003.5.10).</P>
+<P>HTML encoding of Dublin Core elements is described in A Proposed Convention for Embedding Metadata in HTML <A HREF="#ref-6">[6]</A> which describes how to encode Dublin Core elements in HTML 2.0. (Rules for encoding Dublin Core elements in HTML 4.0 is under active development but is not yet complete.) Z39.50 supports an HTML record syntax (Object Identifier:1.2.840.10003.5.109.3). HTML records can also be sent encapsulated in a GRS-1 record. When this is done, the HTML is contained in a single field in the record and the field is tagged with a variant type of HTML (variant class=2 (BodyPartType), type=1 (IANA), value=text/html).</P>
+<P>Dublin Core elements can also be retrieved directly in GRS-1 records. In the GRS-1 record syntax, elements have numeric tags consisting of two components: a tag type and value. There are two universally recognized tag types: M and G. The Dublin Core elements have been added to tagset-G. To embed a Dublin Core element in a GRS-1 record, the element is put into a field in the GRS-1 record and the field is given a tagType of 2 (tagset-G) and a tagValue from the list described in TagSet -G and -M Elements <A HREF="#ref-7">[7]</A>.</P>
+<HR TITLE="separator from Dublin Core and Record Retrieval">
+<H2 ID="references"><A NAME="references"></A>4. References</H2>
+<DL>
+<DT><A NAME="ref-1"></A>[1]</DT>
+<DD>Z39.50 Draft Attribute Architecture<BR><A HREF="http://lcweb.loc.gov/z3950/agency/orlando/attrarch.htm">http://lcweb.loc.gov/z3950/agency/orlando/attrarch.html</A></DD>
+<DT><A NAME="ref-2"></A>[2]</DT>
+<DD>Dublin Core Metadata Element Set: Reference Description<BR><A HREF="http://purl.oclc.org/documents/rec-dces-199809.htm#">http://purl.oclc.org/documents/rec-dces-199809.htm#</A></DD>
+<DT><A NAME="ref-3"></A>[3]</DT>
+<DD>Dublin Core Qualifiers/Substructure<BR><A HREF="http://www.loc.gov/marc/dcqualif.html">http://www.loc.gov/marc/dcqualif.html</A></DD>
+<DT><A NAME="ref-4"></A>[4]</DT>
+<DD>Formal Public Identifier<BR><A HREF="http://www.sil.org/sgml/tauber-fpi.html">http://www.sil.org/sgml/tauber-fpi.html</A></DD>
+<DT><A NAME="ref-5"></A>[5]</DT>
+<DD>Dublin Core/MARC/GILS Crosswalk<BR><A HREF="http://www.loc.gov/marc/dccross.html">http://www.loc.gov/marc/dccross.html</A></DD>
+<DT><A NAME="ref-6"></A>[6]</DT>
+<DD>A Proposed Convention for Embedding Metadata in HTML<BR><A HREF="http://purl.oclc.org/docs/metadata/dublin_core/approach.html">http://purl.oclc.org/docs/metadata/dublin_core/approach.html</A></DD>
+<DT><A NAME="ref-7"></A>[7]</DT>
+<DD>TagSet -G and -M Elements<BR><A HREF="http://lcweb.loc.gov/z3950/agency/defs/tag-gm.html">http://lcweb.loc.gov/z3950/agency/defs/tag-gm.html</A></DD>
+</DL>
+</DIV>
+</BODY>
+</HTML>

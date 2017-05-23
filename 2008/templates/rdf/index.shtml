@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>RDF</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1>RDF</h1>
+<dl>
+<dt>Structure:</dt>
+<dd>
+<pre>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;
+	 xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;&gt;
+ &lt;rdf:Description rdf:about=&quot;<strong>http://dublincore.org/path/to/html/document/</strong>&quot;&gt;
+   &lt;dc:title&gt;<strong>Page title goes here</strong>&lt;/dc:title&gt;
+   &lt;dc:description&gt;<strong>Description goes here.</strong>&lt;/dc:description&gt;
+   &lt;dc:date&gt;<strong>2003-MM-DD</strong>&lt;/dc:date&gt;
+   &lt;dc:format&gt;text/html&lt;/dc:format&gt;
+   &lt;dc:language&gt;en&lt;/dc:language&gt;
+   &lt;dc:publisher&gt;Dublin Core Metadata Initiative&lt;/dc:publisher&gt;
+ &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+</dd>
+<dt>Guidelines:</dt>
+<dd>An external RDF file needs to be created for each page added to the DCMI website. This RDF file must be linked from the actual HTML page (see code example below), and needs to contain information specific to the HTML file that it refers to. The name of the RDF file must correspond with the name of the HTML file (i.e., index.shtml/index.shtml.rdf; about.shtml/about.shtml.rdf). The value of the rdf:about parameter MUST match the HTML file name that this RDF is describing.</dd>
+<dt>Warnings:</dt>
+<dd>Make sure that the date is correct.</dd>
+<dt>Priority:</dt>
+<dd>[Priority 1] A Web content developer <strong>must</strong> address this checkpoint.</dd>
+</dl>
+<h3>Code to be inserted into the HEAD of the HTML page:</h3>
+<p><code>&lt;link rel=&quot;meta&quot; href=&quot;<strong>filename</strong>.shtml.rdf&quot; /&gt;</code></p>
+<p>
+<h3>Real World Source View Example:</h3>
+<pre>
+&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;
+	 xmlns:dc= &quot;http://purl.org/dc/elements/1.1/&quot;&gt;
+ &lt;rdf:Description rdf:about=&quot;<strong>http://dublincore.org/about/</strong>&quot;&gt;
+   &lt;dc:title&gt;<strong>About the Dublin Core Metadata Initiative</strong>&lt;/dc:title&gt;
+   &lt;dc:description&gt;<strong>Information about the history of the DCMI, contacts at DCMI,
+   organization of the DCMI, policies regarding intellectual property, privacy 
+   and open source software license and a list of other groups involved in 
+   metadata activities.</strong>&lt;/dc:description&gt;
+   &lt;dc:date&gt;<strong>2000-10-18</strong>&lt;/dc:date&gt;
+   &lt;dc:format&gt;text/html&lt;/dc:format&gt;
+   &lt;dc:language&gt;en&lt;/dc:language&gt;
+   &lt;dc:publisher&gt;Dublin Core Metadata Initiative&lt;/dc:publisher&gt;
+ &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+<dl>
+<dt>Template:</dt>
+<dd><a href="example.shtml.rdf">example.shtml.rdf</a></dd>
+</dl>
+</body>
+</html>

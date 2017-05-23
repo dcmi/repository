@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;">
+ 
+<rdf:Description rdf:about="http://dublincore.org/documents/dc-xml-guidelines/">
+	<dc:title xml:lang="en-US">Guidelines for implementing Dublin Core in XML</dc:title>
+	<dc:description xml:lang="en-US">
+	This document provides guidelines for people implementing Dublin Core metadata applications using XML. It considers both 
+	simple (unqualified) DC and qualified DC applications. In each case, the underlying metadata model is described (in a syntax 
+	neutral way), followed by some specific guidelines for XML implementations. Some guidance on the use of non-DC metadata 
+	within DC metadata applications is also provided.
+	</dc:description>
+	<dc:creator>Andy Powell, UKOLN, University of Bath</dc:creator>
+	<dc:creator rdf:resource="mailto:a.powell@ukoln.ac.uk"/>
+	<dc:creator>Pete Johnston, UKOLN, University of Bath</dc:creator>
+	<dc:creator rdf:resource="mailto:p.johnston@ukoln.ac.uk"/>
+	<dc:date>2003-02-04</dc:date>
+	<dc:format>text/html</dc:format>
+	<dc:language>en-US</dc:language>
+	<dc:publisher xml:lang="en-US">Dublin Core Metadata Initiative</dc:publisher>
+	<dcq:conformsTo rdf:resource="http://dublincore.org/documents/#recommendations"/>
+</rdf:Description>
+
+</rdf:RDF>

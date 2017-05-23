@@ -1,0 +1,188 @@
+<html>
+
+<head>
+<title>unsaved:///newpage3.htm</title>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<strong>
+
+<p>Date Ranges and DC.Date Subelement Definitions</strong> </p>
+
+<p>This report is a record of the efforts of the Date working group constituted following
+the Helsinki Dublin Core Metadata Workshop (DC-5) of October, 1997. The recommendations
+are provisional and can be expected to evolve in the light of further implementation
+experience. &nbsp; </p>
+
+<p><strong>Date Ranges</strong></p>
+
+<p>It is proposed that Date ranges be specified using a subset of the ISO 8601
+&quot;period of time&quot; specification as restricted to dates conformant with the W3C
+technical note specification (<a href="http://www.w3.org/TR/NOTE-datetime">http://www.w3.org/TR/NOTE-datetime</a>).
+A typical range is given as start and end dates separated by a '/' (slash) character.
+Either the start or end date may be missing. </p>
+
+<p>Examples include:</p>
+
+<p>&nbsp;&nbsp;&nbsp; 1992/1997 # starts in 1992 and ends in 1997 <br>
+&nbsp;&nbsp;&nbsp; 1998-01-05T08:15/1998-01-05T13:15 # a range of 5 hours in early 1998 <br>
+&nbsp;&nbsp;&nbsp; 1948/ # from 1948 (no end specified) <br>
+&nbsp;&nbsp;&nbsp; /1989 # until 1989 (no start specified) <br>
+&nbsp;&nbsp;&nbsp; Note that no consensus on this range format was reached.</p>
+
+<p><strong>DC.Date Subelements</strong> </p>
+
+<p>Used without a subelement designation (i.e., unqualified), a DC.Date element contains a
+date associated with the creation or availability of the resource. All DC.Date subelements
+are consistent with this definition, but allow increased precision. They are intended for
+those collections (e.g., libraries and archives) and searchers for whom the benefit to
+discovery may justify the extra cost in metadata creation and maintenance. </p>
+
+<p>These subelements may be seen as falling into the three groups below, with DC.Created
+and DC.Issued providing perhaps the most commonly required extra precision. Different
+syntaxes for specifying subelements exist; the abstract subelement notation below is not a
+valid syntax. </p>
+
+<table border="1" width="100%" height="100">
+  <tr>
+    <th width="33%" valign="middle" align="center" bgcolor="#FFFFFF" bordercolor="#000000"
+    bordercolorlight="#000000" bordercolordark="#000000" height="19">Resource Origination</th>
+    <th width="33%" valign="middle" align="center" bgcolor="#FFFFFF" bordercolor="#000000"
+    bordercolorlight="#000000" bordercolordark="#000000" height="19">Resource Release</th>
+    <th width="34%" valign="middle" align="center" bgcolor="#FFFFFF" bordercolor="#000000"
+    bordercolorlight="#000000" bordercolordark="#000000" height="19">Resource Transfer</th>
+  </tr>
+  <tr>
+    <td width="33%" height="19" valign="middle" align="center" bgcolor="#FFFFFF">DC.Date--&gt;Created</td>
+    <td width="33%" height="19" valign="middle" align="center" bgcolor="#FFFFFF">DC.Date--&gt;Issued</td>
+    <td width="34%" height="19" valign="middle" align="center" bgcolor="#FFFFFF">DC.Date--&gt;Accepted</td>
+  </tr>
+  <tr>
+    <td width="33%" height="19" valign="middle" align="center" bgcolor="#FFFFFF">DC.Date--&gt;DataGathered</td>
+    <td width="33%" height="19" valign="middle" align="center" bgcolor="#FFFFFF">DC.Date--&gt;Available</td>
+    <td width="34%" height="19" valign="middle" align="center" bgcolor="#FFFFFF">DC.Date--&gt;Acquired</td>
+  </tr>
+  <tr>
+    <td width="33%" height="19" valign="middle" align="center" bgcolor="#FFFFFF">DC.Date--&gt;Valid</td>
+    <td width="33%" height="19" valign="middle" align="center" bgcolor="#FFFFFF"></td>
+    <td width="34%" height="19" valign="middle" align="center" bgcolor="#FFFFFF"></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>1. DC.Date-&gt;Created </p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp; Date of creation of the resource. </p>
+
+<p>When DC.Date is insufficiently precise, use this subelement to distinguish a date that
+identifies just the creation of the present resource. Examples include the date that an
+article was written, a photograph taken, a piece of music composed, or a performance
+recorded. An HTML file created in 1997 as a transcription of an article written in 1875
+could have both </p>
+
+<p>&nbsp;&nbsp;&nbsp; DC.Date-&gt;Created: 1997 <br>
+&nbsp;&nbsp;&nbsp; DC.Source-&gt;Date-&gt;Created: 1875 </p>
+
+<p>Alternatively, a simpler description could include exactly one date as either </p>
+
+<p>&nbsp;&nbsp;&nbsp; DC.Date: 1997 </p>
+
+<p>or, depending on the metadata provider's preference, </p>
+
+<p>&nbsp;&nbsp;&nbsp; DC.Date: 1875 </p>
+
+<p>If you wished to describe different versions of a resource with one resource
+description, it would be appropriate to put the creation date of the latest version in
+DC.Date-&gt;Created. On the other hand, you might instead choose to describe each version
+with a separate resource description. &nbsp; </p>
+
+<p>2. DC.Date-&gt;Issued </p>
+
+<p>&nbsp;&nbsp;&nbsp; Date of formal issuance (e.g., publication) of the resource. </p>
+
+<p>When DC.Date is insufficiently precise, use this subelement to distinguish a release
+date that has recognized legal (e.g., copyright) or institutional (e.g., posting of a
+staff policy change) significance. For example, the description of a work published
+posthumously might have just &quot;DC.Date: 1997&quot;, just &quot;DC.Date: 1948&quot;, or
+both </p>
+
+<p>&nbsp;&nbsp;&nbsp; DC.Date-&gt;Issued: 1997 <br>
+&nbsp;&nbsp;&nbsp; DC.Date-&gt;Created: 1948 </p>
+
+<p>A government file, officially released in 1997, consisting of photographs taken in 1985
+of hundreds of meteorite fragments collected in 1952 could be described with the following
+metadata: </p>
+
+<p>&nbsp;&nbsp;&nbsp; DC.Date-&gt;Issued: 1997 <br>
+&nbsp;&nbsp;&nbsp; DC.Date-&gt;Created: 1985 <br>
+&nbsp;&nbsp;&nbsp; DC.Date-&gt;DataGathered: 1952 &nbsp; </p>
+
+<p>3. DC.Date-&gt;Accepted </p>
+
+<p>&nbsp;&nbsp;&nbsp; Date of acceptance (e.g., dissertation or treaty) of the resource. </p>
+
+<p>When DC.Date and DC.Date-&gt;Issued are insufficiently precise, use this subelement to
+indicate when the resource was formally adopted by a party that accepts or vouches for it.
+&nbsp; </p>
+
+<p>4. DC.Date-&gt;Available</p>
+
+<p>&nbsp;&nbsp;&nbsp; Date (often a range) that the resource will become or did become
+available. </p>
+
+<p>When DC.Date and DC.Date-&gt;Issued are insufficiently precise, use this subelement to
+indicate a start, end, or both start and end of a period during which access to the
+resource was or will be granted. It may be needed to indicate an availability period that
+will start or end in the future, or did come to an end in the past. For example, a journal
+collection ranging from 1955 to 1996 may be given as </p>
+
+<p>&nbsp;&nbsp;&nbsp; DC.Date-&gt;Available: 1955/1996 &nbsp; </p>
+
+<p>5. DC.Date-&gt;Acquired </p>
+
+<p>&nbsp;&nbsp;&nbsp; Date of acquistion or accession. </p>
+
+<p>When DC.Date and DC.Date-&gt;Issued are insufficiently precise, use this subelement to
+distinguish the time that a resource was acquired or accessioned in the context of a
+collection to which it belongs or in which it resides. For example, </p>
+
+<p>&nbsp;&nbsp;&nbsp; DC.Title: Treaty of 1645 <br>
+&nbsp;&nbsp;&nbsp; DC.Date-&gt;Issued: 1645 <br>
+&nbsp;&nbsp;&nbsp; DC.Date-&gt;Accepted: 1646 <br>
+&nbsp;&nbsp;&nbsp; DC.Date-&gt;Acquired: 1958 &nbsp; </p>
+
+<p>6. DC.Date-&gt;DataGathered</p>
+
+<p>&nbsp;&nbsp;&nbsp; Date of sampling of the information in the resource. </p>
+
+<p>When DC.Date and DC.Date-&gt;Created are insufficiently precise, use this subelement to
+distinguish the time of raw data creation as opposed to resource content (e.g.,
+intellectual content) creation, which belongs in DC.Date-&gt;Created. Examples include the
+date that a group of weather stations were sampled and a range of times during which
+radiation measurements were taken. To identify the date when a photograph was taken,
+DC.Date-&gt;Created is recommended. &nbsp; </p>
+
+<p>7. DC.Date-&gt;Valid </p>
+
+<p>&nbsp;&nbsp;&nbsp; Date (often a range) of validity of the resource. </p>
+
+<p>When DC.Date and DC.Date-&gt;Issued are insufficiently precise, use this subelement to
+indicate when the resource content may be considered to hold true. In a somewhat labored
+example, suppose a public transit system is in the practice of creating a new bus
+schedule, allowing two weeks for issuance of a print run, allowing two more weeks for
+printed copies of the schedule to be placed in distribution racks, and finally being
+required to do so at least one month in advance of drivers switching the timing on their
+routes. Metadata for such a bus schedule might include all of the following elements: </p>
+
+<p>&nbsp;&nbsp;&nbsp; DC.Description: City Bus Schedule <br>
+&nbsp;&nbsp;&nbsp; DC.Date-&gt;Created: 1997-11-01 <br>
+&nbsp;&nbsp;&nbsp; DC.Date-&gt;Issued: 1997-11-15 <br>
+&nbsp;&nbsp;&nbsp; DC.Date-&gt;Available: 1997-12-01/1998-06-01 <br>
+&nbsp;&nbsp;&nbsp; DC.Date-&gt;Valid: 1998-01-01/1998-06-01 &nbsp; </p>
+</body>
+</html>

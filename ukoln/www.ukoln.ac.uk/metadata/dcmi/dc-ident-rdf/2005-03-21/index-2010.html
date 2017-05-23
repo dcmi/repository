@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<base href="http://dublincore.org/" />
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+<title>Using the dc:identifier property in RDF</title>
+<meta http-equiv="Content-Type" content=
+"text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="http://dublincore.org/css/default.css"
+type="text/css" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+<meta name="dc.title" lang="en" content="Using the dc:identifier property in RDF" />
+<meta name="dc.creator" content="Pete Johnston" />
+<meta name="dcterms.issued" scheme="dcterms.W3CDTF" content=
+"2005-03-21" />
+<meta name="dcterms.abstract" content=
+"This document describes the use of the dc:identifier when encoding Dublin Core metadata using the Resource Description framework (RDF)." />
+<meta name="dc.format" scheme="dcterms.IMT" content="text/html" />
+<meta name="dc.type" scheme="dcterms.DCMIType" content="Text" />
+
+
+</head>
+<body>
+
+<!--
+<div class="menu">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"
+bgcolor="#FF6600" summary="navigation header">
+<tr>
+<td width="70"><a href="/index.shtml"><img src=
+"/images/header/logo_sm.gif" width="150" height="70" alt=
+"Dublin Core Metadata Initiative logo" border="0" /></a></td>
+<td width="100%" height="70" align="right" valign="top">
+<table width="328" cellspacing="0" cellpadding="0" border="0"
+summary="navigation links">
+<tr>
+<td width="82" height="30"><a href="/about/"><img src=
+"/images/menu/about.gif" width="82" height="30" alt=
+"About the Initiative" border="0" /></a></td>
+<td width="82" height="30"><a href="/documents/"><img src=
+"/images/menu/documents.gif" width="82" height="30" alt="Documents"
+border="0" /></a></td>
+<td width="82" height="30"><a href="/groups/"><img src=
+"/images/menu/groups.gif" width="82" height="30" alt=
+"Working Groups" border="0" /></a></td>
+<td width="82" height="30"><a href="/resources/"><img src=
+"/images/menu/resources.gif" width="82" height="30" alt="Resources"
+border="0" /></a></td>
+</tr>
+
+<tr>
+<td width="82" height="30"><a href="/news/"><img src=
+"/images/menu/news.gif" width="82" height="30" alt=
+"Dublin Core Metadata Initiative News" border="0" /></a></td>
+<td width="82" height="30"><a href="/tools/"><img src=
+"/images/menu/tools.gif" width="82" height="30" alt=
+"Tools and Software" border="0" /></a></td>
+<td width="82" height="30"><a href="/meetings/"><img src=
+"/images/menu/meetings.gif" width="82" height="30" alt="Meetings"
+border="0" /></a></td>
+<td width="82" height="30"><a href="/projects/"><img src=
+"/images/menu/projects.gif" width="82" height="30" alt="Projects"
+border="0" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" height="30"><a href="/index.shtml"><img src=
+"/images/header/dcmi_sm.gif" width="329" height="30" alt=
+"Dublin Core Metadata Initiative" border="0" /></a></td>
+</tr>
+</table>
+</div>
+
+<div class="search">
+<table width="100%" cellspacing="0" cellpadding="6" border="0"
+summary="bread crumbs">
+<tr>
+<td class="crumb"><a href="http://dublincore.org/">Home</a>
+&gt;&nbsp;<a href="http://dublincore.org/documents/">
+Documents</a>&nbsp;&gt;&nbsp;</td>
+<td align="right">
+<form action="http://dublincore.org/search/searchServlet" method=
+"post"><input type="hidden" name="predicate" value="all" /> <input
+type="hidden" name="matchType" value="exact phrase" /> <input type=
+"hidden" name="searchCase" value="N" />
+
+<table cellspacing="0" cellpadding="2" border="0" summary=
+"keyword search">
+<tr>
+<td nowrap="nowrap"><input type="text" value="Enter keyword" name=
+"searchTerm" size="20" onfocus=
+"if(this.value=='Enter keyword')this.value='';" onblur=
+"if(this.value=='')this.value='Enter keyword';" /> &nbsp;</td>
+<td><input type="submit" name="submit" value="Search" /></td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+</div>
+
+<hr noshade="noshade" size="1" title=
+"separator from menu and keyword search" />
+
+-->
+
+<table width="100%" border="0" summary=
+"A layout table with descriptive information about this document.">
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Title:</strong></div>
+</td>
+<td width="76%">
+<div align="left">
+<h2>Using the dc:identifier property in RDF</h2>
+</div>
+</td>
+</tr>
+
+<tr>
+<td height="22" width="24%" valign="top">
+<div align="left"><strong>Creator:</strong></div>
+</td>
+<td height="22" width="76%">
+<div align="left">Pete Johnston</div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Date Issued:</strong></div>
+</td>
+<td width="76%">
+<div align="left">2005-03-21</div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Identifier:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-ident-rdf/2005-03-21/">
+http://www.ukoln.ac.uk/metadata/dcmi/dc-ident-rdf/2005-03-21/</a></div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Replaces:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Is Replaced By:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Latest Version:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-ident-rdf/">
+http://www.ukoln.ac.uk/metadata/dcmi/dc-ident-rdf/</a></div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top"><strong>Description of
+Document:</strong></td>
+<td width="76%">This document describes the use of the dc:identifier when encoding Dublin Core metadata using the Resource Description framework (RDF).</td>
+</tr>
+
+<tr>
+<td valign="top" colspan="2">
+<hr />
+</td>
+</tr>
+</table>
+
+<div>
+
+<h3>URI references and RDF</h3>
+
+<p>An RDF triple is made up of three components [<a href="#RDFCAS">RDFCAS</a>]:</p>
+
+<ol>
+<li>the <strong>subject</strong>, which is either an RDF URI reference or a blank node</li>
+<li>the <strong>predicate</strong>, which is a an RDF URI reference</li>
+<li>the <strong>object</strong>, which is an RDF URI reference, a literal or a blank node</li>
+</ol>
+
+<p>Each URI reference identifies a <strong>resource</strong>. A resource may be anything: a network-accessible object, a physical object, or an abstract concept. The URI references that occur as predicates in RDF triples always refer to conceptual resources known as <strong>properties</strong>, types of relationship between two things.</p>
+
+<p>A blank node is just a unique node that can be used in one or more RDF statements, but has no intrinsic name.</p>
+
+<h3>The Dublin Core Identifier property</h3>
+
+<p>The Dublin Core Metadata Element Set [<a href="#DCMES">DCMES</a>] provides a property <code>Resource Identifier</code>, identified by the URI reference <code>http://purl.org/dc/elements/1.1/identifier</code> and often referred to using the QName <code>dc:identifier</code>. DCMI defines the property as follows:</p>
+
+<blockquote>
+<p><small><strong>Definition:</strong> An unambiguous reference to the resource within a given context.</small></p>
+<p><small><strong>Comment:</strong> Recommended best practice is to identify the resource by means of a string or number conforming to a formal identification system. Formal identification systems include but are not limited to the Uniform Resource Identifier (URI) (including the Uniform Resource Locator (URL)), the Digital Object Identifier (DOI) and the International Standard Book Number (ISBN).</small></p>
+</blockquote>
+
+<h3>Resources and <code>dc:identifier</code> in RDF</h3>
+
+<p>In Dublin Core metadata, a resource may be identified by a URI reference, a literal, or by a second resource.</p>
+
+<h4>URI references as identifiers</h4>
+
+<p>RDF itself is based on the use of URI references to identify (or "denote") resources. If a resource is identified by a URI reference, that is expressed using the "built-in" conventions of RDF and the RDF/XML syntax, rather than by making an explicit statement using the <code>dc:identifier</code> property.</p>
+
+<p>The DCMI recommendation <em>Expressing Simple Dublin Core in RDF/XML</em> [<a href="#SDCRDF">SDCRDF</a>] offers the following advice for encoding the identifier(s) of a resource in RDF/XML:</p>
+
+<blockquote>
+<p><small>Resources may have no, one or several identifiers and some of these may be URIs.</small></p>
+
+<p><small>If a resource has at least one URI, the most appropriate one should be used as the value of the <code>rdf:about</code> attribute of the <code>rdf:Description</code> tag [...]</small></p>
+</blockquote>
+
+<p>In this case the use of the <code>dc:identifier</code> RDF property is not required and no <code>dc:identifier</code> predicate appears in the RDF graph. The following RDF/XML (Example 1) uses this convention</p>
+
+<blockquote>
+<p><small><code>
+&lt;?xml version="1.0"?&gt;<br />
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;<br />
+  &lt;rdf:Description rdf:about="http://example.org/"&gt;<br />
+&nbsp;&nbsp;&lt;dc:title&gt;My resource&lt;/dc:title&gt;<br />
+&lt;/rdf:Description&gt;<br />
+&lt;/rdf:RDF&gt;
+</code></small></p>
+</blockquote>
+
+<p>and results in the following RDF graph:</p>
+
+<div align="center">
+<p><img alt="RDF graph for example 1" src="http://www.ukoln.ac.uk/metadata/dcmi/dc-ident-rdf/2004-04-17/img/example1.png"/></p>
+</div>
+
+<p>This represents a single statement which conveys the information:</p>
+
+<blockquote>
+<p><small>The resource denoted by the URI reference <code>http://example.org/</code> has a title "My resource" (a plain literal).</small></p>
+</blockquote>
+
+<h4>Literals as identifiers</h4>
+
+<p>The <em>Expressing Simple Dublin Core in RDF/XML</em> document also says:</p>
+
+<blockquote>
+<p><small>There may be more than one Identifier element for the resource containing URIs or other identifiers. If a URI identifier is available and appropriate to use, it should be made the value of the rdf:about attribute of the rdf:Description element as described above. The other Identifier element values should be encoded in the same manner as the other elements as described below.</small></p>
+</blockquote>
+
+<p>So if the above resource also had an ISBN, it could be represented as follows (Example 2):</p>
+
+<blockquote>
+<p><small><code>
+&lt;?xml version="1.0"?&gt;<br />
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;<br />
+&lt;rdf:Description rdf:about="http://example.org/"&gt;<br />
+&nbsp;&nbsp;&lt;dc:identifier&gt;ISBN 0333776267&lt;/dc:identifier&gt;<br />
+&nbsp;&nbsp;&lt;dc:title&gt;My resource&lt;/dc:title&gt;<br />
+&lt;/rdf:Description&gt;<br />
+&lt;/rdf:RDF&gt;
+</code></small></p>
+</blockquote>
+
+<div align="center">
+<p><img alt="RDF graph for example 2" src="http://www.ukoln.ac.uk/metadata/dcmi/dc-ident-rdf/2004-04-17/img/example2.png"/></p>
+</div>
+
+<p>This represents two statements and conveys the information:</p>
+
+<blockquote>
+<p><small>The resource denoted by the URI reference <code>http://example.org/</code> has</small></p>
+<ul>
+<li><small>a title "My resource" (a plain literal)</small></li>
+<li><small>an identifier "ISBN 0333776267" (a plain literal)</small></li>
+</ul>
+</blockquote>
+
+<h4>Resources as identifiers</h4>
+
+<p>The DCMI proposed recommendation <em>Expressing Qualified Dublin Core in RDF/XML</em> [<a href="#QDCRDF">QDCRDF</a>] offers a third variation (Example 3):</p>
+
+<blockquote>
+<p><small><code>
+&lt;?xml version="1.0"?&gt;<br />
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;<br />
+&lt;rdf:Description&gt;<br />
+&nbsp;&nbsp;&lt;dc:identifier rdf:resource="http://example.org/"/&gt;<br />
+&nbsp;&nbsp;&lt;dc:title&gt;My resource&lt;/dc:title&gt;<br />
+&lt;/rdf:Description&gt;<br />
+&lt;/rdf:RDF&gt;
+</code></small></p>
+</blockquote>
+
+<div align="center">
+<p><img alt="RDF graph for example 3" src="http://www.ukoln.ac.uk/metadata/dcmi/dc-ident-rdf/2004-04-17/img/example3.png"/></p>
+</div>
+
+<p>This represents two statements and conveys the information:</p>
+
+<blockquote>
+<p><small>There exists a resource that</small></p>
+<ul>
+<li><small>has an identifier, a second resource denoted by the URI reference <code>http://example.org/</code></small></li>
+<li><small>has a title "My resource" (a plain literal)</small></li>
+</ul>
+</blockquote>
+
+<p>This is <strong>not</strong> the same information as in the first example above. The first example says that the subject of the statements is identified by the URI reference <code>http://example.org/</code>; the third example says that the subject has as an identifier a second resource identified by the URI reference <code>http://example.org/</code>. For example, if the subject was a person, then this second resource might be their passport or (if a <code>mailto:</code> URI was used) their personal email mailbox. The URI denotes that second resource, but the resource acts as an identifier for the person.</p>
+
+<p>Suppose, having discovered the XML fragment in example 1, a Dublin Core RDF application then reads the following:</p>
+
+<blockquote>
+<p><small><code>
+&lt;?xml version="1.0"?&gt;<br />
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;<br />
+&lt;rdf:Description rdf:about="http://example.org/"&gt;<br />
+&nbsp;&nbsp;&lt;dc:title&gt;My Website&lt;/dc:title&gt;<br />
+&lt;/rdf:Description&gt;<br />
+&lt;/rdf:RDF&gt;
+</code></small></p>
+</blockquote>
+
+<p>then the application can merge those two graphs and obtain two statements about that single resource:</p>
+
+<div align="center">
+<p><img alt="RDF graph for example 1a" src="http://www.ukoln.ac.uk/metadata/dcmi/dc-ident-rdf/2004-04-17/img/example1a.png"/></p>
+</div>
+
+<blockquote>
+<p><small>The resource denoted by the URI reference <code>http://example.org/</code> has</small></p>
+<ul>
+<li><small>a title "My resource" (a plain literal)</small></li>
+<li><small>a title "My Website" (a plain literal)</small></li>
+</ul>
+</blockquote>
+
+<p>However, if, having discovered the XML fragment in example 3, an application then reads the following:</p>
+
+<blockquote>
+<p><small><code>
+&lt;?xml version="1.0"?&gt;<br />
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;<br />
+&lt;rdf:Description&gt;<br />
+&nbsp;&nbsp;&lt;dc:identifier rdf:resource="http://example.org/"/&gt;<br />
+&nbsp;&nbsp;&lt;dc:title&gt;My Website&lt;/dc:title&gt;<br />
+&lt;/rdf:Description&gt;<br />
+&lt;/rdf:RDF&gt;
+</code></small></p>
+</blockquote>
+
+<p>then it can only conclude that there are two resources which both have the resource <code>http://example.org/</code> as identifier. It may seen logical to assume that this is sufficient to infer that the subject of these two statements is the same resource. However, the definition of the <code>dc:identifier</code> property includes a significant qualifying clause, "within a given context". Unless the application has additional information that confirms that the "context" in which the <code>dc:identifier</code> property is used is the same, it can not infer that the subject resources are the same. Consider the example above of a <code>mailto:</code> URI that denotes a mailbox. In one context, that resource might be used as the identifier of a person, as suggested above. But in another context, it may be used as the identifier of an email account. Making the assumption that the subject resources are the same resource could lead to incorrect conclusions: the date on which an email account was created is unlikely to be the same date as the person was created!</p>
+
+<h4>Multiple identifiers for a single resource</h4>
+
+<p>The conventions described in the three preceding sections can be used in combination. Example 2 above illustrates this by expressing the fact that a resource is identified both by a URI reference and by a literal. However the case where it is known that two different URI references denote the same resource can not be expressed in this way.</p>
+
+<p>Neither RDF nor RDF Schema provide a mechanism for indicating this, but the Web Ontology Language (OWL) introduces an additional set of primitives, including a property <code>owl:sameAs</code> that enables an author to declare two individuals to be identical.</p>
+
+<blockquote>
+<p><small><code>
+&lt;?xml version="1.0"?&gt;<br />
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xmlns:dc="http://purl.org/dc/elements/1.1/"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xmlns:owl ="http://www.w3.org/2002/07/owl#"&gt;<br />
+&lt;rdf:Description rdf:about="http://example.org/"&gt;<br />
+&nbsp;&nbsp;&lt;owl:sameAs rdf:resource="http://your.example.org/"/&gt;<br />
+&nbsp;&nbsp;&lt;dc:title&gt;My resource&lt;/dc:title&gt;<br />
+&lt;/rdf:Description&gt;<br />
+&lt;/rdf:RDF&gt;
+</code></small></p>
+</blockquote>
+
+<div align="center">
+<p><img alt="RDF graph for example 4" src="http://www.ukoln.ac.uk/metadata/dcmi/dc-ident-rdf/2004-04-17/img/example4.png"/></p>
+</div>
+
+<h3>Summary</h3>
+
+<p>Careful attention should be paid when deploying the <code>dc:identifier</code> property in RDF.</p>
+
+<p>First, the triple</p>
+
+<blockquote>
+<p><small><code>
+_:x &lt;http://purl.org/dc/elements/1.1/identifier&gt; &lt;http://example.org/&gt;
+</code></small></p>
+</blockquote>
+
+<p>says that the resource is identified by a second resource denoted by the URI reference <code>http://example.org/</code>. It does <strong>not</strong> say that that URI reference denotes the subject resource.</p>
+
+<p>Second, the definition of the <code>dc:identifier</code> property is such that it should <strong>not</strong> be assumed that because two subject resources share the same resource as the value of a <code>dc:identifier</code> property, those two subject resources are the same resource. Because the use of <code>dc:identifier</code> is by definition context-dependent, it is inappropriate to draw that conclusion without additional information about the context of use of the <code>dc:identifier</code> property.</p>
+
+<p>Third, to state that two different URI references denote the same resource requires the use of the <code>owl:sameAs</code> property.</p>
+
+<a id="secX" name="secX"></a>
+<h3>References</h3>
+
+<!--
+<p class="reference"><a id="RDFCAS" name="RDFCAS">[RDFCAS]</a>&nbsp;&nbsp;Powell, Andy and Harry Wagner. <em>Namespace Policy for the Dublin Core Metadata Initiative (DCMI)</em>, (November 2001)<br />
+<code><a href="http://dublincore.org/documents/dcmi-namespace/">http://dublincore.org/documents/dcmi-namespace/</a></code></p>
+
+<p class="reference"><a id="DCMES" name="DCMES">[DCMES]</a>&nbsp;&nbsp;Powell, Andy and Harry Wagner. <em>Namespace Policy for the Dublin Core Metadata Initiative (DCMI)</em>, (November 2001)<br />
+<code><a href="http://dublincore.org/documents/dcmi-namespace/">http://dublincore.org/documents/dcmi-namespace/</a></code></p>
+
+<p class="reference"><a id="SDCRDF" name="SDCRDF">[SDCRDF]</a>&nbsp;&nbsp;Powell, Andy and Harry Wagner. <em>Namespace Policy for the Dublin Core Metadata Initiative (DCMI)</em>, (November 2001)<br />
+<code><a href="http://dublincore.org/documents/dcmi-namespace/">http://dublincore.org/documents/dcmi-namespace/</a></code></p>
+
+<p class="reference"><a id="QDCRDF" name="QDCRDF">[QDCRDF]</a>&nbsp;&nbsp;Powell, Andy and Harry Wagner. <em>Namespace Policy for the Dublin Core Metadata Initiative (DCMI)</em>, (November 2001)<br />
+<code><a href="http://dublincore.org/documents/dcmi-namespace/">http://dublincore.org/documents/dcmi-namespace/</a></code></p>
+-->
+
+</div>
+
+
+<hr size="1" title="separator from page content" />
+
+</body>
+</html>
+

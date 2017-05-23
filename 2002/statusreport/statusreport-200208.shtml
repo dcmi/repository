@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DCMI Status Report - August 2002</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+<link rel="meta" href="statusreport-200208.shtml.rdf" />
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>DCMI Status Report - August 2002</h1>
+<h3>Events and progress reports</h3>
+<p>DC-2002 will be held in Florence, Italy, 13-17 October 2002. For further details, see the conference Web site at <a href="http://www.bncf.net/dc2002/">http://www.bncf.net/dc2002/</a>. The event will consist of a set of Tutorials, Conference sessions with reviewed papers, Working Group meetings and Special Topic workshops (Corporate Circles, TEL project, Accessibility, Semantic Web Advanced Development, Recordkeeping and Cultural Heritage).</p>
+<p>Reports on status and progress of DCMI have been published in D-Lib Magazine in February 2002 (<a href="http://www.dlib.org/dlib/february02/weibel/02weibel.html">http://www.dlib.org/dlib/february02/weibel/02weibel.html</a>) and in a DCMI Status Report in April 2002 (<a href="/news/communications/statusreport-200204.shtml">http://dublincore.org/news/communications/statusreport-200204.shtml</a>).</p>
+<h3>Organizational developments</h3>
+<p>The DCMI Board of Trustees (<a href="/about/trustees/">http://dublincore.org/about/trustees/</a>) met in a face-to-face meeting in April 2002 in Lund, Sweden. The Board discussed budget and funding options and approaches to extend the DCMI community into the corporate world.</p>
+<p>The DCMI Usage Board had its mid-tem meeting in May 2002, in Bath, UK, sponsored by JISC. Proposals were discussed from the Education, Libraries, Government, Citation and Type working groups. Approaches towards the registration of controlled vocabularies and evaluation of Application Profiles were also discussed.</p>
+<p>As a first tangible result of the Memorandum of Understanding between the Dublin Core Metadata Initiative (DCMI) and the IEEE Learning Technology Standards Committee (<a href="http://www.ischool.washington.edu/sasutton/dc-ed/DCMI-IEEE-MOU.rtf">http://www.ischool.washington.edu/sasutton/dc-ed/DCMI-IEEE-MOU.rtf</a>), an article entitled &quot;Metadata Principles and Practicalities&quot;, was published in the April 2002 issue of D-Lib (<a href="http://www.dlib.org/dlib/april02/weibel/04weibel.html">http://www.dlib.org/dlib/april02/weibel/04weibel.html</a>). This paper, authored by Erik Duval, Wayne Hodgins, Stuart Sutton and Stu Weibel, emerged as part of a plan to bring the metadata efforts of DCMI and the IEEE LOM closer together. It reflects what the leaders of both groups feel to be common principles shared by the two communities.</p>
+<p>After the publication of version 1.1 of the Dublin Core Metadata Element Set as CEN Workshop Agreement (<a href="http://www.cenorm.be/isss/cwa_download_area/cwa13874.pdf">http://www.cenorm.be/isss/cwa_download_area/cwa13874.pdf</a>) in March 2000 and as American National Standard Z39.85 (<a href="http://www.niso.org/standards/resources/Z39-85.pdf">http://www.niso.org/standards/resources/Z39-85.pdf</a>) in October 2001, the specification will be progressed through ISO to become an International Standard. An updated RFC2413 has also been published (<a href="http://www.ietf.org/internet-drafts/draft-kunze-rfc2413bis-01.txt">http://www.ietf.org/internet-drafts/draft-kunze-rfc2413bis-01.txt</a>).</p>
+<h3>Technical developments</h3>
+<p>As part of its mission to maintain the Dublin Core semantics, the Usage Board has revised the DCMI documentation. An mechanism was designed and implemented that allows better maintenance of the definitions of elements, qualifiers and schemes, together with an audit trail of Usage Board decisions. The new documentation is available at <a href="/usage/">http://dublincore.org/usage/</a>.</p>
+<p>The two specifications on how to express Dublin Core metadata in RDF/XML will become DCMI Recommendations in August 2002. Final texts are available at <a href="/documents/2002/07/31/dcmes-xml/">http://dublincore.org/documents/2002/07/31/dcmes-xml/</a> and <a href="/documents/2002/05/15/dcq-rdf-xml/">http://dublincore.org/documents/2002/05/15/dcq-rdf-xml/</a>.</p>
+<p>In the first half of 2002, guidelines for the expression of Dublin Core metadata have progressed to Proposed Recommendation (<a href="/documents/2002/07/23/dc-xml-guidelines/">http://dublincore.org/documents/2002/07/23/dc-xml-guidelines/</a>). A number of XML schemas were developed in co-operation with the Open Archives Initiative, one for simple Dublin Core (<a href="/schemas/xmls/simpledc20020312.xsd">http://dublincore.org/schemas/xmls/simpledc20020312.xsd</a>) and three schemas (corresponding with the three DCMI namespaces) for qualified Dublin Core (<a href="http://www.ukoln.ac.uk/metadata/dcmi/xmlschema/">http://www.ukoln.ac.uk/metadata/dcmi/xmlschema/</a>).</p>
+<p>The Registry working group has released an updated version of the DCMI Registry in July 2002 in 21 languages. See: <a href="http://wip.dublincore.org:8080/dcregistry/index.html">http://wip.dublincore.org:8080/dcregistry/index.html</a>.</p>
+<p><strong>Makx Dekkers/2002-08-21</strong></p>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

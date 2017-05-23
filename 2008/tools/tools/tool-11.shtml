@@ -1,0 +1,18 @@
+
+    <!--#include virtual="tool-head.shtml" -->
+    <!--#include virtual="/ssi/header.shtml" -->
+    <h1>Scorpion</h1>
+    <table cellspacing="0" class="noborder">
+<tr><td>Identifier:&nbsp;&nbsp;&nbsp;</td><td><a href="http://purl.oclc.org/scorpion">http://purl.oclc.org/scorpion</a></td></tr>
+<tr><td>Description:&nbsp;&nbsp;&nbsp;</td><td>The Scorpion Open Source project offers software that implements a system for automatically classifying Web-accessible text documents. Scorpion is intended for use by investigators who have a machine-readable subject classification scheme or thesaurus and wish to incorporate it into an automatic classification system.</td></tr>
+<tr><td>Rights:&nbsp;&nbsp;&nbsp;</td><td>free tool for download and local installation, under http://www.oclc.org/research/software/license/v2final.htm, rights hold by OCLC</td></tr>
+<tr><td>Language:&nbsp;&nbsp;&nbsp;</td><td>eng (ISO 639-2)</td></tr>
+<tr><td>Publisher:&nbsp;&nbsp;&nbsp;</td><td>OCLC</td></tr>
+<tr><td>Location:&nbsp;&nbsp;&nbsp;</td><td>USA</td></tr>
+<tr><td>Date:&nbsp;&nbsp;&nbsp;</td><td>2008</td></tr>
+</table>
+    <p><small>For an application profile see the <a href="/groups/tools/map.shtml">DCMI Tools
+    Application Profile</a></small>
+    <!--#include virtual="/ssi/footer.shtml" -->
+    </body>
+    </html>

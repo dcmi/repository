@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<constraints name="simple constraints" 
+  xmlns="http://purl.org/net/sodc/cl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://purl.org/net/sodc/cl ../sodc-cl.xsd">
+
+  <profile uri="http://example.com/profile/simple#book">
+    <constraint property="http://purl.org/dc/elements/1.1/title">
+      <cardinality>1</cardinality>
+    </constraint>
+    <constraint property="http://purl.org/dc/elements/1.1/title">
+      <value>
+        <plainliteral/>
+      </value>
+    </constraint>
+    <constraint property="http://purl.org/dc/elements/1.1/creator">
+      <mincardinality>1</mincardinality>
+    </constraint>
+    <constraint property="http://purl.org/dc/elements/1.1/creator">
+      <value>
+        <uri/>
+      </value>
+    </constraint>
+  </profile>
+  
+  <profile uri="http://example.com/profile/simple#person">
+    <constraint property="http://xmlns.com/foaf/0.1/name">
+      <mincardinality>1</mincardinality>
+    </constraint>
+    <constraint property="http://xmlns.com/foaf/0.1/name">
+      <value>
+        <plainliteral/>
+      </value>
+    </constraint>
+  </profile>
+  
+</constraints>

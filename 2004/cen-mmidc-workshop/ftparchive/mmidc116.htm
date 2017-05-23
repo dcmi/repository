@@ -1,0 +1,2039 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>Guidelines for machine-processable representation of Dublin Core Application Profiles</TITLE>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.title" content="Guidelines for machine-processable representation of Dublin Core Application Profiles. Draft CWA. July 2004"/>
+<meta name="DC.date" content="2004-07-15" />
+<meta name="DC.format" content="text/html" />
+<meta name="DC.contributor" content="CEN/ISSS Workshop on Metadata for Multimedia Information - Dublin Core" />
+<meta name="DC.contributor" content="MMI-DC" />
+<meta name="DC.contributor" content="CEN/ISSS MMI-DC WI4 Project Team" />
+<meta name="DC.contributor" content="Baker, Thomas" />
+<meta name="DC.contributor" content="Dekkers, Makx" />
+<meta name="DC.contributor" content="Heery, Rachel" />
+<meta name="DC.contributor" content="Duval, Erik" />
+<meta name="DC.language" content="en" />
+<meta name="DC.identifier" content="ftp.cenorm.be/public/ws-mmi-dc/mmidc116.htm" />
+<meta name="DC.identifier" content="ISSS/WS-MMI-DC/116" />
+<meta name="DC.description" content="This is a Draft CWA under the 2004 Workplan of the CEN/ISSS Workshop on Dublin Core Metadata for Multimedia Information - Dublin Core (MMI-DC) of the European Committee for Standardization CEN. The Draft CWA is submitted to the MMI-DC workshop for public comment in July 2004. Following discussion at the MMI-DC meeting in September 2004, the Draft CWA will be finalised for publication in December 2004." />
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080">
+
+<FONT FACE="Arial" SIZE=2><P>ISSS/WS-MMI-DC/116</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+</FONT><B><FONT FACE="Arial" SIZE=6><P ALIGN="CENTER">Guidelines for machine-processable representation of Dublin Core Application Profiles</P>
+<P ALIGN="CENTER">Draft CWA</P>
+<P ALIGN="CENTER">July 2004</P>
+</B></FONT><FONT FACE="Arial" SIZE=2></FONT>
+<TABLE CELLSPACING=0 BORDER=0 CELLPADDING=9 WIDTH=821>
+<TR><TD WIDTH="14%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Contributor:</FONT></TD>
+<TD WIDTH="86%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>CEN/ISSS MMI-DC WI4 Project Team</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Modified:</FONT></TD>
+<TD WIDTH="86%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>15 July 2004</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>Description:</FONT></TD>
+<TD WIDTH="86%" VALIGN="TOP">
+<FONT FACE="Arial" SIZE=2><P>This is a Draft CWA under the 2004 Workplan of the CEN/ISSS Workshop on Dublin Core Metadata for Multimedia Information - Dublin Core (MMI-DC) of the European Committee for Standardization CEN. </P>
+<P>The Draft CWA is submitted to the MMI-DC workshop for public comment in July 2004. Following discussion at the MMI-DC meeting in September 2004, the Draft CWA will be finalised for publication in December 2004.</P>
+<P>&nbsp;</P>
+<P>&nbsp;</FONT></TD>
+</TR>
+</TABLE>
+
+<FONT FACE="Arial" SIZE=2><P>&nbsp;</P>
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674061">Contents</A></P>
+</FONT><FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674061"><FONT FACE="Arial" SIZE=3>Contents&#9;</FONT><A HREF="#_Toc77674061">*</A></A><DIR>
+<DIR>
+
+<FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674062"><FONT FACE="Arial" SIZE=3>Foreword&#9;</FONT><A HREF="#_Toc77674062">*</A></A></P>
+<FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674063"><FONT FACE="Arial" SIZE=3>Introduction&#9;</FONT><A HREF="#_Toc77674063">*</A></A></P>
+<FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674064"><FONT FACE="Arial" SIZE=3>1</FONT>&#9;<FONT FACE="Arial" SIZE=3>Scope&#9;</FONT><A HREF="#_Toc77674064">*</A></A></P>
+<FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674065"><FONT FACE="Arial" SIZE=3>2</FONT>&#9;<FONT FACE="Arial" SIZE=3>Definitions and terminology&#9;</FONT><A HREF="#_Toc77674065">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674066"><FONT FACE="Arial" SIZE=2>2.1</FONT>&#9;<FONT FACE="Arial" SIZE=2>Definitions&#9;</FONT><A HREF="#_Toc77674066">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674067"><FONT FACE="Arial" SIZE=2>2.2</FONT>&#9;<FONT FACE="Arial" SIZE=2>Terminology&#9;</FONT><A HREF="#_Toc77674067">*</A></A></P>
+<FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674068"><FONT FACE="Arial" SIZE=3>3</FONT>&#9;<FONT FACE="Arial" SIZE=3>Usage scenarios&#9;</FONT><A HREF="#_Toc77674068">*</A></A></P>
+<FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674069"><FONT FACE="Arial" SIZE=3>4</FONT>&#9;<FONT FACE="Arial" SIZE=3>Choice of representation language for DCAPs&#9;</FONT><A HREF="#_Toc77674069">*</A></A></P>
+<FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674070"><FONT FACE="Arial" SIZE=3>5</FONT>&#9;<FONT FACE="Arial" SIZE=3>Good practice&#9;</FONT><A HREF="#_Toc77674070">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674071"><FONT FACE="Arial" SIZE=2>5.1</FONT>&#9;<FONT FACE="Arial" SIZE=2>Declaring property usage&#9;</FONT><A HREF="#_Toc77674071">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674072"><FONT FACE="Arial" SIZE=2>5.2</FONT>&#9;<FONT FACE="Arial" SIZE=2>Identifying terms&#9;</FONT><A HREF="#_Toc77674072">*</A></A></P>
+<FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674073"><FONT FACE="Arial" SIZE=3>6</FONT>&#9;<FONT FACE="Arial" SIZE=3>DCAP Data Model&#9;</FONT><A HREF="#_Toc77674073">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674074"><FONT FACE="Arial" SIZE=2>6.1</FONT>&#9;<FONT FACE="Arial" SIZE=2>Definitions for the DCAP Data Model&#9;</FONT><A HREF="#_Toc77674074">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674075"><FONT FACE="Arial" SIZE=2>6.2</FONT>&#9;<FONT FACE="Arial" SIZE=2>DCAP Property Usage&#9;</FONT><A HREF="#_Toc77674075">*</A></A></P>
+<FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674076"><FONT FACE="Arial" SIZE=3>7</FONT>&#9;<FONT FACE="Arial" SIZE=3>Bibliography&#9;</FONT><A HREF="#_Toc77674076">*</A></A></P>
+<FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674077"><FONT FACE="Arial" SIZE=3>Appendix A.</FONT>&#9;<FONT FACE="Arial" SIZE=3> Attributes of data model entities&#9;</FONT><A HREF="#_Toc77674077">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674078"><FONT FACE="Arial" SIZE=2>A.1</FONT>&#9;<FONT FACE="Arial" SIZE=2>Dublin Core Application Profile&#9;</FONT><A HREF="#_Toc77674078">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674079"><FONT FACE="Arial" SIZE=2>A.2</FONT>&#9;<FONT FACE="Arial" SIZE=2>Agency&#9;</FONT><A HREF="#_Toc77674079">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674080"><FONT FACE="Arial" SIZE=2>A.3</FONT>&#9;<FONT FACE="Arial" SIZE=2>Schema Document&#9;</FONT><A HREF="#_Toc77674080">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674081"><FONT FACE="Arial" SIZE=2>A.4</FONT>&#9;<FONT FACE="Arial" SIZE=2>Metadata Vocabulary&#9;</FONT><A HREF="#_Toc77674081">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674082"><FONT FACE="Arial" SIZE=2>A.5</FONT>&#9;<FONT FACE="Arial" SIZE=2>Property&#9;</FONT><A HREF="#_Toc77674082">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674083"><FONT FACE="Arial" SIZE=2>A.6</FONT>&#9;<FONT FACE="Arial" SIZE=2>Class&#9;</FONT><A HREF="#_Toc77674083">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674084"><FONT FACE="Arial" SIZE=2>A.7</FONT>&#9;<FONT FACE="Arial" SIZE=2>Instance/Individual&#9;</FONT><A HREF="#_Toc77674084">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674085"><FONT FACE="Arial" SIZE=2>A.8</FONT>&#9;<FONT FACE="Arial" SIZE=2>Binding Schema&#9;</FONT><A HREF="#_Toc77674085">*</A></A></P>
+<FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674086"><FONT FACE="Arial" SIZE=3>Appendix B.</FONT>&#9;<FONT FACE="Arial" SIZE=3> Example DCAPs expressed using RDF Schema&#9;</FONT><A HREF="#_Toc77674086">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674087"><FONT FACE="Arial" SIZE=2>B.1</FONT>&#9;<FONT FACE="Arial" SIZE=2>The RDN-DC Dublin Core Application Profile&#9;</FONT><A HREF="#_Toc77674087">*</A></A></P>
+<FONT FACE="Arial" SIZE=2><P></FONT><A HREF="#_Toc77674088"><FONT FACE="Arial" SIZE=2>B.2</FONT>&#9;<FONT FACE="Arial" SIZE=2>The Renardus Dublin Core Application Profile&#9;</FONT><A HREF="#_Toc77674088">*</A></A></P>
+<FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674089"><FONT FACE="Arial" SIZE=3>Appendix C.</FONT>&#9;<FONT FACE="Arial" SIZE=3> Expressing DCAPs using OWL&#9;</FONT><A HREF="#_Toc77674089">*</A></A></P>
+<FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674090"><FONT FACE="Arial" SIZE=3>Appendix D.</FONT>&#9;<FONT FACE="Arial" SIZE=3>Comparison of the IEEE/LOM and DC data models&#9;</FONT><A HREF="#_Toc77674090">*</A></A></P>
+<FONT FACE="Arial" SIZE=3><P></FONT><A HREF="#_Toc77674091"><FONT FACE="Arial" SIZE=3>Appendix E.</FONT>&#9;<FONT FACE="Arial" SIZE=3> Issues arising from a GIS perspective&#9;</FONT><A HREF="#_Toc77674091">*</A></A></P>
+<FONT FACE="Arial" SIZE=2></DIR>
+</DIR>
+</P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674062">Foreword</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><B><FONT FACE="Arial" SIZE=2><P>Normally the Foreword is drafted by the CEN/ISSS secretariat.</P><DIR>
+<DIR>
+<DIR>
+
+</B></FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674063">Introduction</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>The function of a Dublin Core Application Profile (DCAP) is to specify which terms an organization, information provider, or community uses in its metadata. A DCAP identifies the ‘properties’ (also known as elements and element refinements) used by an application to describe a resource. A DCAP should reference a property it uses by citing the globally unique identifier as assigned to the property by its owner. Optionally the DCAP documents how other terms (in particular encoding schemes) constrain, encode, or interpret the values of ‘properties’ for application-specific purposes. A DCAP should also reference these encoding schemes by citing a globally unique identifier. </P>
+<P>The intended effect of documenting usage of properties and other terms in this manner is to promote interoperability within the constraints of the Dublin Core model and to encourage harmonization of usage and convergence on "emerging semantics" around its edges.</P>
+<P>In order for DCAPs to be used effectively, it is essential that the content of the DCAP is structured in a precise and rigorous way, and that the content is based on sound modelling. In order to move forward consensus on a common data model, the CEN MMI-DC Working Group has drawn up these guidelines, which propose a detailed data model as the basis for both human readable and machine-processable DCAPs. These guidelines build on and extend the previous CEN Workshop Agreement (CWA) 14855:  Dublin Core Application Profile Guidelines. </P>
+<P>CWA 14855 gives guidance for representing a DCAP as a document specifying the metadata terms used in an application [CWA14855]. It describes a normalized documentational form for presenting usage information in a readable and well-structured manner. Such DCAPs are intended primarily for human consumption, whether "as plain text files or as Web pages, word-processing files, PowerPoint, or indeed as ink on paper". With an eye towards the potential for machine-to-machine use of DCAPs, however, CWA 14855 mandates "enough structure to ensure that DCAPs will be convertible as straightforwardly as possible into expressions that use schema languages, such as RDF, for automatic processing by machines." However, it should be noted that CWA 14855 states "there can be no assumption that documentational DCAPs will be convertible into machine-understandable forms without the use of ad-hoc heuristics or manual intervention."</P>
+<P>Building on CWA 14855, this CWA suggests a machine-processable representation of a DCAP using the conventions of the Resource Description Framework [RDF] in order to enable the DCAP to be exchanged between applications. </P>
+<P>As a formalization of the relationships between metadata properties, RDF lends itself to providing information about usage of properties within applications. So, for example, DCAPs expressed as RDF might be indexed in registries to provide usage information amongst a federation of data providers or even within a single organization. Initial experiences in a research context suggests that "application profile registries" might be constructed on the basis of a distributed architecture in which content providers maintain schemas for their own metadata, and those schemas are harvested and merged into a central index for discovery and re-use by others. Such processes remain the object of ongoing experimentation and research. The deployment of such systems presupposes the existence of an underlying common data model.  </P>
+<P>Proposing such a model with regard to the expression of DCAPs is the object of this CWA. After some background discussion, this CWA outlines a DCAP data model indicating the characteristics of an Application Profile. The attributes of the various entities within the data model are listed, and some examples are given of machine-processable schemas constructed using RDF conventions. As an appendix, the guidelines address interoperability issues between DC and IEEE/LOM [IEEE/LOM], identifying areas of commonality and areas of difference. Guidance will be given as to current positions of the two communities regarding re-use of data elements. Within a further appendix, observations will be given from a GIS perspective.</P>
+</FONT><FONT FACE="Lucida Console" SIZE=2>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc374930449"><A NAME="_Toc77674064">1&#9;Scope</A></A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>Since the release of CWA 14485, significant work has been carried out defining a DCMI Abstract Model. This has been made available as a DCMI Working Draft [POWELL]. The DCMI Abstract Model provides a reference model against which guidelines for encoding DC metadata can be compared. Although there are some outstanding issues related to the Abstract Model, this work has clarified many aspects of the nature of a DC description.</P>
+<P>Alignment with this work suggests the use of more precise terminology when describing DCAPs. CWA 14855 defines a DCAP as a declaration specifying which metadata <B><I>terms </B></I>an organization, information provider, or user community uses in its metadata. A DCAP identifies the source of metadata terms used. Optionally, CWA 14855 states, a DCAP may provide additional documentation on how the <B><I>terms </B></I>are constrained, encoded, or interpreted for application-specific purposes. </P>
+<P>However taking the DCMI Abstract model into account we can be more precise in our language within the definition of a DCAP. A DCAP is primarily concerned with declaring ‘<B><I>property usages’</B></I>, and the DCAP specifies and optionally constrains or restricts the use of properties. These changes in terminology are outlined below in the following sections: Definitions &amp; Terminology, DCAP Data Model.  </P>
+<P>Given the limited timescale and effort, these DCAP Guidelines are concerned with modelling DCAPs that are used as the basis for metadata describing a <B><I>single</B> <B>resource</B></I>, and do not address the more complex case relating to metadata describing multiple resources as outlined in the DCMI Abstract Model. In summary, this CWA will focus on the expression of stable, well structured, non-complex DCAPs. </P>
+<P>Both human readable DCAPs as discussed in CWA 14855, and machine-processable representations of DCAPs outlined in this CWA are intended to relate to the same DCAP model. However, due to the difference in the underlying representations, there are some differences in the information provided by each. CWA 14855 permits some flexibility in the presentation of human readable DCAPs by introducing a Principle of Readability that allows for additional prose to be included in the representation of the DCAP to provide context. </P>
+<P>The Principle of Readability allows for redundant inclusion of information within a DCAP in order to enable the reader to gather comprehensive information from one single document. Following this principle, the human-readable representation of a "property usage" can include information about the property that is "used". Therefore, for a usage of dc:title that makes the title property mandatory, but keeps the DCMI definition of property, it is helpful for a human-readable representation to include the DCMI definition of title, rather than just a terse URIref, whereas in a machine-processable DCAP, such information regarding the definition of dc:title would be redundant. </P>
+<P>Similarly, a human-readable DCAP might include details of the relationships between properties, whereas this information is redundant in a machine-processable DCAP. However, in both cases these relationships should also be expressed in the metadata vocabulary from which the property usages are derived. </P>
+<P>The presence of contextual information within a human readable DCAP means there can be no assumption that such DCAPs will be convertible into machine-understandable forms without the use of ad-hoc heuristics or manual intervention.</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674065">2&#9;Definitions and terminology</A></P>
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674066">2.1&#9;Definitions</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>Existing definitions have been taken from CWA 14855:</P>
+<B><P>Dublin Core Application Profile (DCAP):</B> A DCAP is a declaration specifying at a minimum which metadata terms an organization, information provider, or user community uses within a particular application. Optionally the DCAP may describe how those terms have been customized or adapted to a particular application. By definition, a DCAP is based in part on Dublin Core metadata vocabularies and follows the DCMI Grammatical Principles [DCMI-PRINCIPLES]. </P>
+<B><P>DCMI Grammatical Principles:</B> As maintained by the Dublin Core Metadata Initiative, DCMI grammatical principles specify a typology of metadata terms – Elements, Element Refinements, Encoding Schemes, and Vocabulary Terms – along with their interrelationships and functions [DCMI-PRINCIPLES]. A DCAP is based on the simple model of a resource described with a flat set of properties. This is consistent with DCMI grammatical principles, which do not themselves specify models that are more elaborate.</P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674067">2.2&#9;Terminology</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>There have been some changes in terminology since CWA 14855, to align the proposed DCAP Data Model with the draft DCMI Abstract Model, and to achieve more precision. Whereas CWA 14855 refers to a DCAP as consisting of ‘term usages’, covering usage of the various terms as defined by the DCMI Grammatical Principles, (Elements, Element Refinements, Encoding Schemes), these guidelines prefer to characterise a DCAP as a set of ‘property usages’, where the values of the properties can be constrained by encoding schemes. Note, the object of "usage" statements in the DCAP model are always properties</P>
+<P>As stated in the DCMI Abstract Model [POWELL}, within DCMI <I>element</I> is typically used as a synonym for <I>property</I>; and element refinement is a property of a resource that shares the meaning of a particular DCMI property but with narrower semantics.</FONT><FONT FACE="Verdana" SIZE=2> </P>
+</FONT><FONT FACE="Arial" SIZE=2><P>The concept of "property" is therefore narrower than "term", however the same constraints can be described within a property usage as those outlined in ‘term usage’ within CWA 14855. Additional documentation, labels, constraints, and obligations can be associated with such a property usage, including specification of constraints on the permitted values for the property, in other words it is possible to specify encoding schemes as part of the property usage.</P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674068">3&#9;Usage scenarios</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>Human readable DCAPs as specified in CWA 14855 provide a recommended common format to assist users to declare DCAPs in documents in a well-structured way. This enables new implementers, system designers, and metadata creators to find information about existing DCAPs by comparing across documents with a similar structure. In addition, expressing DCAPs in an agreed common structure supports input to simple database tools for comparing DCAPs.</P>
+<P>Achieving consensus on expressing application profiles in a machine-processable way will encourage exchange of DCAPs in a machine-to-machine manner between applications. Enabling predictable exchange of application profiles will encourage re-use of existing application profiles, and provide means for tools to automatically download and process such profiles. </P>
+<P>Example use cases that rely on well-structured machine-processable DCAPs are:</P>
+
+<UL>
+<LI>A federation of service providers want to share their metadata by means of an aggregator service. The aggregator will convert between instance metadata based on a variety of DCAPs in use across the federation. The service providers build a central store of machine-processable DCAPs in use across the federation. This registry of DCAPs informs development of transformations of instance metadata to a normalized view.</LI>
+<LI>A large corporation wishes to provide a registry of application profiles in use across the organisation to encourage re-use of existing data elements. The aim is for the registry to harvest machine processable DCAPs and automatically ingest them to the registry store.</LI></UL>
+
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674069">4&#9;Choice of representation language for DCAPs</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>It is possible to represent a DCAP in different ways, the decision will depend on the functionality required: representation for a human reader will differ from representation for a computer program, as will representation for different automated processes. So, a DCAP might be structured as a MS Word document, or within an MS Access database for cataloguers to access for informational purposes. A DCAP might be expressed as an XML Schema as a means of constraining an XML document structure (e.g. for validation of instance metadata), or a DCAP might be represented using RDF conventions specifying the use of properties in RDF statements about resources (e.g. for building a registry of DCAPs). </P>
+<P>There are several reasons why RDF has been chosen as a basis for the data model and sample schemas in these guidelines. Historically, RDF has informed the development and clarification of a data model for DCMI (indeed, to a certain degree the reverse might be said as well). In particular, several research projects have experimented with using RDF to model application profiles [BAKER, MEG-REGISTRY, CORES, JISC-REGISTRY]. This CWA focuses on providing machine-processable identification of the property usages within a DCAP. A language is required which allows statements to be made about resources and to express constraints on use of properties. RDF offers a framework for this. However, it should be noted that the RDF Vocabulary Description Language, RDF Schema,  [RDFS] does not include the concept of ‘usage’ central to DCAPs, so DCAP schemas need to include application specific language that is not part of RDFS.</P>
+<P>There may be functional requirements for other expressions of a DCAP within an application. For example, an XML Schema  [XML-SCHEMA] could provide a structured expression of the terms identified by a DCAP to support validation of instance metadata. An XML schema provides a document "template" for metadata instances and it may make sense to express a given DCAP as an XML schema - for example, to support the validation of metadata records or to dynamically configure a metadata-editing environment. It should be noted that XML Schema is not capable of expressing property usages; rather it supports description of the structure of instance metadata conforming to a particular DCAP.</P>
+<P>There is also potential for representing DCAPs using OWL (Web Ontology Language) [OWL] - a W3C schema language with a vocabulary of modelling constructs richer than those provided by RDF Schema. Specifically, OWL supports the formal expression of usage constraints of the sort often described in DCAPs. However adopting OWL for representation of DCAPs would be innovative, the sort of work perhaps better done in the context of basic research. See Appendix C for more discussion of the use of OWL within the context of DCAPs.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674070">5&#9;Good practice</A></P>
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674071">5.1&#9;Declaring property usage</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>The distinguishing feature of a DCAP is the declaration of <B><I>property usage</B></I>. Whilst DCAPs declare usage of properties, the properties themselves are identified, declared, and defined ‘elsewhere’ in a metadata vocabulary. The ‘property’ is distinct, specified in a <B><I>metadata vocabulary</B></I>, and should be distinguished from the property usage, specified in the DCAP. Specification of the property usage includes information that is not logically associated with the property itself, such as obligation, occurrences, which will vary across different usages of the same property. </P>
+<P>The guidelines provided in this CWA, therefore, also cover the notion of metadata vocabulary, but do not give detailed guidelines for declaring metadata vocabularies. Emerging practice suggests that properties should be declared and identified in metadata vocabularies expressed as RDF Schemas.  </P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674072">5.2&#9;Identifying terms</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>All references to terms within a DCAP (both the properties used and the encoding schemes) should be in the form of URI references [URI]. Unless a term is assigned a URI reference, it cannot be referred to unambiguously in a DCAP, whether represented within a human readable or machine-processable form.</P>
+<P>For identification of terms to which a URI has been officially assigned, for example by DCMI or by another organisation, that URI should be used to identify the term. For example, the Dublin Core element &quot;Audience&quot; should be cited as &quot;http://purl.org/dc/terms/audience&quot;. </P>
+<P>It may be that in constructing the DCAP this is first time a URI has been required to identify a term. For identification of terms that have not already been assigned a URI, then the term must be identified and declared (whether by the organisation constructing the DCAP, or another organisation) in a metadata vocabulary elsewhere by means of a document or schema. Within that document or schema it might be appropriate to annotate such a term with a "status indicator" indicating that the term is being used in a particular application, but is not yet stable.</P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674073">6&#9;DCAP Data Model</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>This DCAP data model is rooted in the DCMI Grammatical Principles and the draft DCMI Abstract Model, and builds on experience within various projects [MEG-REGISTRY, CORES]. However, it is not endorsed nor published as a DCMI document. Deployment of this model is currently being explored within the context of an application profile registry [JISC-REGISTRY].</P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674074">6.1&#9;Definitions for the DCAP Data Model</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><STRONG><P>Resource. A Resource </STRONG>is anything that has identity. </P>
+<B><P>M</B><STRONG>etadata vocabulary. A Metadata Vocabulary </STRONG>is a set of metadata terms (properties, classes, and instances of those classes) managed as a coherent unit by an agency.</P>
+<STRONG><P>Property. A Property</STRONG> is a type of relationship between two resources. A Property is declared as a term within exactly one Metadata Vocabulary. A Property may be related to another property by a <STRONG>sub-property</STRONG> relationship: this states that all resources related by the first property are also related by the second property.</P>
+<STRONG><P>Property Usage. A Property Usage</STRONG> is a description of how a previously declared property from a metadata vocabulary is deployed in the context of an application.</P>
+<B><P>C</B><STRONG>lass. A Class</STRONG> is a set of resources. A Class is declared as a term within exactly one Metadata Vocabulary. A Class may be related to another class by a <STRONG>sub-class</STRONG> relationship: this states that all instances of the first class are also instances of the second class. A Resource is related to one or more Classes by a T<STRONG>ype</STRONG> relationship, and is said to be an <STRONG>instance</STRONG> of those classes. If a class represents a controlled vocabulary, then the individual terms or values in that controlled vocabulary are instances of that class. </P>
+<B><P>Datatype</B>. A <STRONG>datatype</STRONG> consists of a set of character strings (the lexical space), a set of values (the value space) and a mapping from the lexical space to the value space.</P>
+<B><P>Schema Document.</B> A S<STRONG>chema Document</STRONG> is a document containing a machine-readable description of a Metadata Vocabulary or Dublin Core Application Profile. </P>
+<B><P>Agency. </B>An <STRONG>Agency</STRONG> is an entity responsible for managing one or more Metadata Vocabularies or Application Profiles and their components</P>
+<B><P>Binding Schema. </B>A Binding Schema is a document containing a machine-readable description of how to structure a metadata record conforming to a DC Application Profile.</P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674075">6.2&#9;DCAP Property Usage</A></P>
+</FONT><FONT FACE="Arial" SIZE=4><P>6.2.1&#9;Characteristics of Property Usage</P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>A DCAP is a set of <B>Property Usages</B>. Each Property Usage must reference an existing Property from a Metadata Vocabulary. A Property Usage</P>
+
+<UL>
+<LI>must <B>use</B> at least one property from an existing metadata vocabulary; </LI>
+<LI>may provide <B>additional documentation</B> on how the property is interpreted in the context of this application; </LI>
+<LI>may provide an application-specific <B>label</B> for the property </LI>
+<LI>may specify <B>obligation</B> for the use of the property (whether it is mandatory, optional, conditional) </LI>
+<LI>may specify <B>constraints on the occurrence</B> of the property </LI>
+<LI>may specify <B>constraints on the permitted values</B> of the property i.e. may specify "encoding schemes" for the property. Values may be specified to be either: </LI></UL>
+
+
+<UL>
+<LI>instances of specified <B>classes</B>; or </LI>
+<LI>instances of specified literal <B>datatypes</B> (Note: DCMI currently models all DCMI-recommended encoding schemes as classes, not datatypes)</LI></UL>
+
+
+<UL>
+<LI>A <B>schema document</B> describes one DCAP and its constituent property usages.</LI>
+<LI>A DCAP may be associated with one or more <B>binding schemas</B> (e.g. a set of XML Schemas) that describe the structure of a metadata record conforming to this DCAP</LI></UL>
+
+<P>The relationships between the entities above are illustrated in Figure 1.</P>
+<P><IMG SRC="mmidc116_Image3.gif" WIDTH=791 HEIGHT=594></P>
+<B><P ALIGN="CENTER">Figure 1: Dublin Core Application Profile</P><DIR>
+<DIR>
+<DIR>
+
+</B></FONT><FONT FACE="Arial" SIZE=4><P>6.2.2&#9;Attributes of Property Usage</P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>Note: The names of RDF Classes, Properties, and Datatypes are listed below as QNames. The prefixes are assumed to be associated with Namespace Names as follows:</P>
+
+<UL>
+<B><LI>dc:</B>&#9;&#9;&#9;</FONT><A HREF="http://purl.org/dc/elements/1.1/"><FONT FACE="Arial" SIZE=2>http://purl.org/dc/elements/1.1/</FONT></A></LI>
+<B><FONT FACE="Arial" SIZE=2><LI>dcterms:</B>&#9;</FONT><A HREF="http://purl.org/dc/terms/"><FONT FACE="Arial" SIZE=2>http://purl.org/dc/terms/</FONT></A></LI>
+<FONT FACE="Arial" SIZE=2><LI>dcmitype:&#9;</FONT><A HREF="http://purl.org/dc/dcmitype/"><FONT FACE="Arial" SIZE=2>http://purl.org/dc/dcmitype/</FONT></A></LI>
+<FONT FACE="Arial" SIZE=2><LI>rdf:&#9;&#9;&#9;</FONT><A HREF="http://www.w3.org/1999/02/22-rdf-syntax-ns"><FONT FACE="Arial" SIZE=2>http://www.w3.org/1999/02/22-rdf-syntax-ns#</FONT></A></LI>
+<FONT FACE="Arial" SIZE=2><LI>rdfs:&#9;&#9;&#9;</FONT><A HREF="http://www.w3.org/2000/01/rdf-schema"><FONT FACE="Arial" SIZE=2>http://www.w3.org/2000/01/rdf-schema#</FONT></A></LI>
+<FONT FACE="Arial" SIZE=2><LI>xsd:&#9;&#9;&#9;</FONT><A HREF="http://www.w3.org/2001/XMLSchema"><FONT FACE="Arial" SIZE=2>http://www.w3.org/2001/XMLSchema#</FONT></A></LI>
+<FONT FACE="Arial" SIZE=2><LI>dcap:&#9;&#9;</FONT><A HREF="http://example.org/dcap/"><FONT FACE="Arial" SIZE=2>http://example.org/dcap/</FONT></A><FONT FACE="Arial" SIZE=2> (Final URI to be confirmed)</LI></UL>
+
+
+</FONT><FONT FACE="Lucida Console" SIZE=2><P>&nbsp;</P></FONT>
+<P ALIGN="CENTER"><CENTER><TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" WIDTH=850>
+<TR><TD WIDTH="13%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Attribute Name</B></FONT></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Definition</B></FONT></TD>
+<TD WIDTH="18%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">RDF property</B></FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Obligation</B></FONT></TD>
+<TD WIDTH="14%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Occurrence</B></FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Value</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="13%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Property Usage URI</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A URI Reference which identifies the property usage</FONT></TD>
+<TD WIDTH="18%" VALIGN="MIDDLE">&nbsp;</TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>URI</FONT></TD>
+</TR>
+<TR><TD WIDTH="13%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Used Property</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A property which is used in this DC Application Profile</FONT></TD>
+<TD WIDTH="18%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:uses</B></I></FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>rdf:Property</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="13%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Label</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A human-readable label assigned to the property, in the context of this DC application profile</FONT></TD>
+<TD WIDTH="18%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdfs:label</B></I></FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="13%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Status</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An indicator of the status of the property usage.</FONT></TD>
+<TD WIDTH="18%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:status</B></I></FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:TermStatus</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="13%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Definition</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A statement of the concept and essential nature of the property, as it is used in this DC Application Profile</FONT></TD>
+<TD WIDTH="18%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdfs:comment</B></I></FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="13%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Comments</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Additional information about the property or its use specific to this DC Application Profile</FONT></TD>
+<TD WIDTH="18%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:description</B></I></FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="13%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Obligation</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An indication of whether a statement using the property is required to occur when describing this subject type in a metadata record conforming to this DC Application Profile</FONT></TD>
+<TD WIDTH="18%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:obligation</B></I></FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:Obligation</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="13%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Condition</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A description of the condition or conditions according to which a statement using the property should be present when describing this subject type in a metadata record conforming to this DC Application Profile</FONT></TD>
+<TD WIDTH="18%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:condition</B></I></FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Conditional<BR>
+(Mandatory if Obligation = Conditional)</FONT></TD>
+<TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="13%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Occurrences</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>The maximum permitted number of occurrences of statements using the property to describe this subject type in a metadata record conforming to this DC Application Profile</FONT></TD>
+<TD WIDTH="18%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:maxOccurs</B></I></FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:int or "unbounded"</FONT></TD>
+</TR>
+<TR><TD WIDTH="13%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Uses Encoding Scheme (Datatype)</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A datatype of which the literal value of the property is an instance, when the property is used in a metadata record conforming to this DC Application Profile</FONT></TD>
+<TD WIDTH="18%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:encoding<BR>
+Scheme</B></I></FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=unbounded</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>rdfs:Datatype</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="13%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Uses Encoding Scheme (Object Type)</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A class of which the value of the property is an instance, when the property is used in a metadata record conforming to this DC Application Profile</FONT></TD>
+<TD WIDTH="18%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:encoding<BR>
+Scheme</B></I></FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=unbounded</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>rdfs:Class</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="13%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Is Member Of</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>The DCAP of which this Property Usage is a member.</FONT></TD>
+<TD WIDTH="18%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:isMemberOf</B></I></FONT></TD>
+<TD WIDTH="11%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:DCAP</B></FONT></EM></TD>
+</TR>
+</TABLE>
+</CENTER></P>
+
+<FONT FACE="Lucida Console" SIZE=2>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674076">7&#9;Bibliography</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>[BAKER] Thomas Baker, Makx Dekkers, Rachel Heery, Manjula Patel, Gauri Salokhe, What terms does your metadata use? Application profiles as machine-understandable narratives. Journal of Digital Information 2:2 (November 2001), </FONT><A HREF="http://jodi.ecs.soton.ac.uk/Articles/v02/i02/Baker"><FONT FACE="Arial" SIZE=2>http://jodi.ecs.soton.ac.uk/Articles/v02/i02/Baker</FONT></A><FONT FACE="Arial" SIZE=2>. </P>
+<P>[CORES] Rachel Heery, Pete Johnston, Csaba Fulop, Andras Micsik, Metadata schema registries in the partially Semantic Web: the CORES experience, </FONT><A HREF="http://www.siderean.com/dc2003/102_Paper29.pdf"><FONT FACE="Arial" SIZE=2>http://www.siderean.com/dc2003/102_Paper29.pdf</FONT></A></P>
+<FONT FACE="Arial" SIZE=2><P>[CWA14855] Dublin Core Application Profile Guidelines, CEN Workshop Agreement CWA 14855, November 2003, http://www.cenorm.be/isss/cwa14855/.</P>
+<P>[DCES] Dublin Core Metadata Element Set, Version 1.1: Reference Description, </FONT><A HREF="http://dublincore.org/documents/dces/"><FONT FACE="Arial" SIZE=2>http://dublincore.org/documents/dces/</FONT></A></P>
+<FONT FACE="Arial" SIZE=2><P>[DCMI-PRINCIPLES] DCMI Grammatical Principles, </FONT><A HREF="http://dublincore.org/usage/documents/principles/"><FONT FACE="Arial" SIZE=2>http://dublincore.org/usage/documents/principles/</FONT></A></P>
+<FONT FACE="Arial" SIZE=2><P>[IEEE-LOM] IEEE 1484.12.1–2002 Standard for Learning Object Metadata.</P>
+<P>[JISC-REGISTRY] JISC IE Metadata Schema Registry, Model for Dublin Core Application Profile (DCAP), Draft 6 June 2004. </FONT><A HREF="http://www.ukoln.ac.uk/projects/iemsr/wp2/dcap/"><FONT FACE="Arial" SIZE=2>http://www.ukoln.ac.uk/projects/iemsr/wp2/dcap/</FONT></A></P>
+<FONT FACE="Arial" SIZE=2><P>[JOHNSTON] Pete Johnston. Functional Requirements for MEG Registry. </FONT><A HREF="http://www.ukoln.ac.uk/metadata/education/regproj/funcreq/"><FONT FACE="Arial" SIZE=2>http://www.ukoln.ac.uk/metadata/education/regproj/funcreq/</FONT></A></P>
+<FONT FACE="Arial" SIZE=2><P>[MEG-REGISTRY] Rachel Heery, Pete Johnston, Dave Beckett, Damian Steer, The MEG Registry and SCART: Complementary Tools for Creation, Discovery and Re-use of Metadata Schemas. In: Proceedings of the International Conference on Dublin Core and Metadata for e-Communities, 2002. Florence: Firenze University Press, 2002, pp. 125-132. </FONT><A HREF="http://www.bncf.net/dc2002/program/ft/paper14.pdf"><FONT FACE="Arial" SIZE=2>http://www.bncf.net/dc2002/program/ft/paper14.pdf</FONT></A><FONT FACE="Arial" SIZE=2>.</P>
+<P>[OWL] OWL Web Ontology Language Semantics and Abstract Syntax. W3C Recommendation, 10 February 2004. </FONT><A HREF="http://www.w3.org/TR/owl-semantics/"><FONT FACE="Arial" SIZE=2>http://www.w3.org/TR/owl-semantics/</FONT></A></P>
+<FONT FACE="Arial" SIZE=2><P>[POWELL] Andy Powell, Mikael Nilsson, Ambj&ouml;rn Naeve, Pete Johnston. DCMI Abstract Model. DCMI Working Draft, 4 February 2004. </FONT><A HREF="http://www.ukoln.ac.uk/metadata/dcmi/abstract-model/"><FONT FACE="Arial" SIZE=2>http://www.ukoln.ac.uk/metadata/dcmi/abstract-model/</FONT></A><FONT FACE="Arial" SIZE=2> </P>
+<P>[RDF-SCHEMA] Brickley, Dan, and Guha, R.V, editors. RDF Vocabulary Description Language 1.0: RDF Schema. W3C Recommendation 10 February 2004, </FONT><A HREF="http://www.w3.org/TR/rdf-schema/"><FONT FACE="Arial" SIZE=2>http://www.w3.org/TR/rdf-schema/</FONT></A><FONT FACE="Arial" SIZE=2>. </P>
+<P>[RDN] The Resource Discovery Network </FONT><A HREF="http://www.rdn.ac.uk/"><U><FONT FACE="Arial" SIZE=2 COLOR="#0000ff">http://www.rdn.ac.uk/</U></FONT></A><FONT FACE="Arial" SIZE=2> </P>
+<P>[RDN-CAT-GUIDE] Michael Day and Peter Cliff. RDN cataloguing guidelines. Version 1.1. http://www.rdn.ac.uk/publications/cat-guide/ </P>
+<P>[URI] T. Berners-Lee, R. Fielding, L. Masinter, Uniform Resource Identifiers (URI): Generic Syntax, August 1998. </FONT><A HREF="http://www.ietf.org/rfc/rfc2396.txt"><FONT FACE="Arial" SIZE=2>http://www.ietf.org/rfc/rfc2396.txt</FONT></A></P>
+<FONT FACE="Arial" SIZE=2><P> [XML-SCHEMA] Thompson, Henry S. et al., editors. XML Schema Part 1: Structure. W3C Recommendation 2 May 2001, </FONT><A HREF="http://www.w3.org/TR/xmlschema-1/"><FONT FACE="Arial" SIZE=2>http://www.w3.org/TR/xmlschema-1/</FONT></A></P><DIR>
+<DIR>
+<DIR>
+
+<FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674077">Appendix A.&#9;&#9;Attributes of data model entities</A></P>
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674078">A.1&#9;Dublin Core Application Profile</A></P></DIR>
+</DIR>
+</DIR>
+</FONT>
+<P ALIGN="CENTER"><CENTER><TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" WIDTH=867>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Attribute Name</B></FONT></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Definition</B></FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">RDF property</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Obligation</B></FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Occurrence</B></FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Value</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>URI Reference</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A URI Reference which identifies the DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>URI</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Title</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>The name or title of the DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:title</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Version</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An indicator of the version of the DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:version</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Status</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An indicator of the status of the DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:status</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:<BR>
+Vocabulary Status</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Description</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A summary of the scope and purpose of the DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:description</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Specification</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A human-readable document that provides more information about the DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:seeAlso</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=unbounded</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><EM><P>Document</FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Administrator</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An agency that manages the DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:publisher</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=unbounded</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:Agency</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Expressed By</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A binding schema used to structure metadata records conforming to this DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:isExpressedBy</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=unbounded</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:<BR>
+BindingSchema</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Is Defined By</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A schema document that describes this DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdfs:isDefinedBy</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:<BR>
+SchemaDocument</B></FONT></EM></TD>
+</TR>
+</TABLE>
+</CENTER></P>
+<DIR>
+<DIR>
+<DIR>
+
+<FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674079">A.2&#9;Agency</A></P></DIR>
+</DIR>
+</DIR>
+</FONT>
+<P ALIGN="CENTER"><CENTER><TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" WIDTH=867>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Attribute Name</B></FONT></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Definition</B></FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">RDF property</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Obligation</B></FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Occurrence</B></FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Value</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>URI Reference</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A URI Reference which identifies the DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>URI</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Title</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>The name or title of the DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:title</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Version</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An indicator of the version of the DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:version</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Status</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An indicator of the status of the DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:status</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:<BR>
+Vocabulary Status</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Description</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A summary of the scope and purpose of the DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:description</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Specification</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A human-readable document that provides more information about the DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:seeAlso</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=unbounded</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><EM><P>Document</FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Administrator</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An agency that manages the DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:publisher</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=unbounded</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:Agency</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Expressed By</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A binding schema used to structure metadata records conforming to this DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:isExpressedBy</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=unbounded</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:<BR>
+BindingSchema</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Is Defined By</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A schema document that describes this DC application profile</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdfs:isDefinedBy</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:<BR>
+SchemaDocument</B></FONT></EM></TD>
+</TR>
+</TABLE>
+</CENTER></P>
+<DIR>
+<DIR>
+<DIR>
+
+<FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674080">A.3&#9;Schema Document</A></P></DIR>
+</DIR>
+</DIR>
+</FONT>
+<P ALIGN="CENTER"><CENTER><TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" WIDTH=867>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Attribute Name</B></FONT></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Definition</B></FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">RDF property</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Obligation</B></FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Occurrence</B></FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Value</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Identifier</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A URI Reference which identifies the schema document</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>URI</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Title</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A title for the schema document</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:title</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Description</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A description of the schema document</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:description</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Date modified</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>The date on which this schema document was last modified</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcterms:modified</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:date</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Publisher</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An agency that publishes this schema document</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:publisher</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=unbounded</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:Agency</B></FONT></EM></TD>
+</TR>
+</TABLE>
+</CENTER></P>
+<DIR>
+<DIR>
+<DIR>
+
+<FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674081">A.4&#9;Metadata Vocabulary</A></P></DIR>
+</DIR>
+</DIR>
+</FONT>
+<P ALIGN="CENTER"><CENTER><TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" WIDTH=867>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Attribute Name</B></FONT></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Definition</B></FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">RDF property</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Obligation</B></FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Occurrence</B></FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Value</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>URI Reference</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A URI Reference which identifies the metadata vocabulary</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>URI</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Title</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>The name or title of the metadata vocabulary</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:title</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Version</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An indicator of the version of the metadata vocabulary</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:version</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Date modified</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>The date on which this metadata vocabulary was last modified</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcterms:modified</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:date</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Status</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An indicator of the status of the metadata vocabulary</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:status</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:<BR>
+Vocabulary<BR>
+Status</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Description</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A summary of the scope and purpose of the metadata vocabulary</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:description</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Specification</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A human-readable document that provides more information about the metadata vocabulary</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:seeAlso</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=unbounded</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><EM><P>dcap:Document</FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Preferred XML Namespace Name</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>The preferred XML Namespace Name to be used when using terms from this vocabulary in an RDF/XML document</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:preferred<BR>
+XML Namespace Name</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Preferred XML Namespace Prefix</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>The preferred Namespace Prefix to be used when using terms from this vocabulary in an RDF/XML document</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:preferred XML<BR>
+Namespace Prefix</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Administrator</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An agency that manages this metadata vocabulary</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:publisher</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=unbounded</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:Agency</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Is Defined By</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A schema document that describes this metadata vocabulary</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdfs:isDefinedBy</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:SchemaDocument</B></FONT></EM></TD>
+</TR>
+</TABLE>
+</CENTER></P>
+<DIR>
+<DIR>
+<DIR>
+
+<FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674082">A.5&#9;Property</A></P></DIR>
+</DIR>
+</DIR>
+</FONT>
+<P ALIGN="CENTER"><CENTER><TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" WIDTH=867>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Attribute Name</B></FONT></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Definition</B></FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">RDF property</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Obligation</B></FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Occurrence</B></FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Value</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>URI Reference</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A URI Reference which identifies the property</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>URI</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Label</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A human-readable label assigned to the property</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdfs:label</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Status</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An indicator of the status of the property</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:status</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:TermStatus</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Definition</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A statement of the concept and essential nature of the property</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdfs:comment</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Comment/Usage Note</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Additional information about the property or its use</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:description</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Subproperty Of/Refines</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A property of which this property is a subproperty</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdfs:subpropertyOf</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=unbounded</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>rdf:Property</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Is Member Of</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>The metadata vocabulary of which this property is a member term</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:isMemberOf</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:<BR>
+MetadataVocabulary</B></FONT></EM></TD>
+</TR>
+</TABLE>
+</CENTER></P>
+<DIR>
+<DIR>
+<DIR>
+
+<FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674083">A.6&#9;Class</A></P></DIR>
+</DIR>
+</DIR>
+</FONT>
+<P ALIGN="CENTER"><CENTER><TABLE BORDER CELLSPACING=2 BORDERCOLOR="#000000" WIDTH=867>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Attribute Name</B></FONT></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Definition</B></FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">RDF property</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Obligation</B></FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Occurrence</B></FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Value</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>URI Reference</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A URI Reference which identifies the class</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>URI</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Label</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A human-readable label assigned to the class</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdfs:label</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Status</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An indicator of the status of the class</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:status</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:TermStatus</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Description</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A statement of the concept and essential nature of the class</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdfs:comment</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Comment/<BR>
+Usage Note</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Additional information about the class or its use</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:description</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Subclass Of</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A class of which this class is a subclass</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdfs:subclassOf</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=unbounded</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>rdfs:Class</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Is Member Of</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>The metadata vocabulary of which this class is a member term</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:isMemberOf</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:Metadata Vocabulary</B></FONT></EM></TD>
+</TR>
+</TABLE>
+</CENTER></P>
+<DIR>
+<DIR>
+<DIR>
+
+<FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674084">A.7&#9;Instance/Individual</A></P></DIR>
+</DIR>
+</DIR>
+</FONT>
+<P ALIGN="CENTER"><CENTER><TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" WIDTH=862>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Attribute Name</B></FONT></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Definition</B></FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">RDF property</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Obligation</B></FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Occurrence</B></FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Value</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>URI Reference</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A URI Reference which identifies the instance</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>URI</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Label</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A human-readable label assigned to the instance</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdfs:label</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Status</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An indicator of the status of the instance</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcap:status</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:TermStatus</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Description</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A statement of the concept represented by the instance</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdfs:comment</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Type</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>The class of which this instance is a member (the controlled vocabulary of which this instance is a term</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdf:type</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>rdfs:Class</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Is Defined By</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A schema document that describes this instance</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>rdfs:isDefinedBy</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:Schema Document</B></FONT></EM></TD>
+</TR>
+</TABLE>
+</CENTER></P>
+<DIR>
+<DIR>
+<DIR>
+
+<FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674085">A.8&#9;Binding Schema</A></P></DIR>
+</DIR>
+</DIR>
+</FONT>
+<P ALIGN="CENTER"><CENTER><TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" WIDTH=867>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Attribute Name</B></FONT></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Definition</B></FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">RDF property</B></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Obligation</B></FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Occurrence</B></FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><P ALIGN="CENTER">Value</B></FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Identifier</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A URI Reference which identifies the binding schema</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">&nbsp;</TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>URI</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Title</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A title for the binding schema</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:title</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Description</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>A description of the binding schema</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:description</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Optional</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1<BR>
+Max=unbounded if allowing for multiple languages</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:string</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Type</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>The type of the binding schema</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:type</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:<BR>
+Binding<BR>
+SchemaType</B></FONT></EM></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Date modified</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>The date on which this binding schema was last modified</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dcterms:modified</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=1</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Literal, xsd:date</FONT></TD>
+</TR>
+<TR><TD WIDTH="14%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><STRONG><P>Publisher</FONT></STRONG></TD>
+<TD WIDTH="28%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>An agency that publishes this binding schema</FONT></TD>
+<TD WIDTH="17%" VALIGN="MIDDLE">
+<B><I><FONT FACE="Arial" SIZE=1><P>dc:publisher</B></I></FONT></TD>
+<TD WIDTH="10%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Mandatory</FONT></TD>
+<TD WIDTH="15%" VALIGN="MIDDLE">
+<FONT FACE="Arial" SIZE=1><P>Max=unbounded</FONT></TD>
+<TD WIDTH="16%" VALIGN="MIDDLE">
+<B><FONT FACE="Arial" SIZE=1><EM><P>dcap:Agency</B></FONT></EM></TD>
+</TR>
+</TABLE>
+</CENTER></P>
+
+<FONT FACE="Arial" SIZE=2><P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674086">Appendix B.&#9;&#9;Example DCAPs expressed using RDF Schema</A></P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>The description of a DCAP using the conventions described in this document requires some additional RDF properties and classes to those provided by RDF Schema. No decision has been taken on the URI references to be used for terms in this vocabulary. For the purposes of these examples they are represented in RDF/XML as XML QNames where the prefix &quot;dcap&quot; is associated with the XML Namespace Name </FONT><FONT FACE="Courier New" SIZE=2>http://example.org/dcap/</FONT><FONT FACE="Arial" SIZE=2>.</P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674087">B.1&#9;The RDN-DC Dublin Core Application Profile</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>The Resource Discovery Network [RDN] is a collaborative service provided for the UK Further and Higher Education communities. The RDN provides access to high quality Internet resources selected by subject specialists for their value in learning and teaching. Within the RDN, a number of independent service providers ("hubs") develop and maintain subject-based catalogues of resources. To share metadata records between hubs, the RDN makes use of a DCAP sometimes referred to as the RDN-DC Application Profile [RDN-CAT-GUIDE].</P>
+<P>Using the conventions described in this document, the RDN-DC Application Profile might be represented in RDF/XML as follows:</P></FONT>
+<TABLE BORDER CELLSPACING=1 CELLPADDING=9 WIDTH=821>
+<TR><TD VALIGN="TOP">
+<FONT FACE="Courier New" SIZE=1><P>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</P>
+<P>&lt;!DOCTYPE rdf:RDF [</P>
+<P>    &lt;!ENTITY rdfns         'http://www.w3.org/1999/02/22-rdf-syntax-ns#'&gt;</P>
+<P>    &lt;!ENTITY rdfsns        'http://www.w3.org/2000/01/rdf-schema#'&gt;</P>
+<P>    &lt;!ENTITY xsdns         'http://www.w3.org/2001/XMLSchema#'&gt;</P>
+<P>    &lt;!ENTITY dcapns        'http://example.org/dcap/'&gt;</P>
+<P>    &lt;!ENTITY dcns          'http://purl.org/dc/elements/1.1/'&gt;</P>
+<P>    &lt;!ENTITY dctermsns     'http://purl.org/dc/terms/'&gt;</P>
+<P>    &lt;!ENTITY rdntermsns    'http://purl.org/rdn/terms/'&gt;</P>
+<P>    &lt;!ENTITY megtermsns    'http://purl.org/meg/terms/'&gt;</P>
+<P>    &lt;!ENTITY rdntypens     'http://purl.org/rdn/rdntype/'&gt;</P>
+<P>]&gt;</P>
+
+<P>&lt;rdf:RDF xml:lang="en"</P>
+<P>         xmlns:rdf="&amp;rdfns;"</P>
+<P>         xmlns:rdfs="&amp;rdfsns;"</P>
+<P>         xmlns:dcap="&amp;dcapns;"</P>
+<P>         xmlns:dc="&amp;dcns;"</P>
+<P>         xmlns:dcterms="&amp;dctermsns;"</P>
+<P>         xmlns:rdnterms="&amp;rdntermsns;"</P>
+<P>         xmlns:megterms="&amp;megtermsns;"</P>
+<P>         xmlns:rdntype="&amp;rdntypens;"</P>
+<P>&gt;</P>
+
+<P>  &lt;dcap:SchemaDocument rdf:about=""&gt;</P>
+<P>    &lt;dc:title&gt;Schema for the RDN Record Sharing (rdn_dc) Application Profile using DCAP vocabulary&lt;/dc:title&gt;</P>
+<P>    &lt;dc:description&gt;This schema contains descriptions of the RDN OAI (rdn_dc) Application Profile using the conventions of the CEN CWA for DCAP.&lt;/dc:description&gt;</P>
+<P>    &lt;dcterms:modified&gt;</P>
+<P>  &#9;&lt;dcterms:W3CDTF&gt;</P>
+<P>  &#9;&#9;&lt;rdf:value&gt;2004-07-10&lt;/rdf:value&gt;</P>
+<P>  &#9;&lt;/dcterms:W3CDTF&gt;</P>
+<P>    &lt;/dcterms:modified&gt;</P>
+<P>    &lt;dc:publisher rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/#</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>  &lt;/dcap:SchemaDocument&gt;</P>
+
+<P>  &lt;dcap:Agency rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/#</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dc:title&gt;Resource Discovery Network (RDN)&lt;/dc:title&gt;</P>
+<P>    &lt;dc:description&gt; The Resource Discovery Network [RDN] is a collaborative service provided for the UK Further and Higher Education communities. The RDN provides access to high quality Internet resources selected by subject specialists for their value in learning and teaching.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:seeAlso rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>  &lt;/dcap:Agency&gt;</P>
+
+<P>  &lt;dcap:AppProfile rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dc:title&gt;The RDN Record Sharing (rdn_dc) Application Profile&lt;/dc:title&gt;</P>
+<P>    &lt;dcterms:modified&gt;2003-03-23&lt;/dcterms:modified&gt;</P>
+<P>    &lt;dc:description&gt;The RDN Record Sharing (rdn_dc) Application Profile is used in metadata records shared between partners within the Resource Discovery Network using the OAI-PMH. Detailed guidance on the values for metadata elements is provided by the RDN Cataloguing Guidelines </FONT><A HREF="http://www.rdn.ac.uk/publications/cat-guide/.&lt;/dc:description"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/publications/cat-guide/.&lt;/dc:description</FONT></A><FONT FACE="Courier New" SIZE=1>&gt;</P>
+<P>    &lt;dc:publisher rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/#</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;dcap:status rdf:resource="&amp;dcapns;VocabStatus/recommendation"/&gt;</P>
+<P>    &lt;dcap:seeAlso rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/publications/cat-guide/"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/publications/cat-guide/</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;dcap:seeAlso rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/publications/cat-guide/fe-addendum/"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/publications/cat-guide/fe-addendum/</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;dcap:isExpressedBy rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/oai/rdn_dc/20030323/rdn_dc.xsd"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/oai/rdn_dc/20030323/rdn_dc.xsd</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource=""/&gt;</P>
+<P>  &lt;/dcap:AppProfile&gt;</P>
+
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#1</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;title"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Title&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;Transcribe the title preserving the original wording, order and spelling. Either only capitalize proper nouns or: Capitalize titles. The former is in accordance with AACR2 and is preferred. The latter is to ensure conformance of existing records. Punctuation need not reflect the usage of the original. Subtitles should be separated from the title by &amp;lt;space&amp;gt;colon&amp;lt;space&amp;gt;&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/recommended"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#2</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;creator"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Creator&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;Enter personal names, where possible, in the order suggested by AACR2 chapter 22 for headings of persons. Enter corporate names, where possible, in the order suggested by AACR2 chapter 24 for headings for corporate bodies. The inclusion of personal and corporate name headings from authority lists constructed according to AACR2, e.g. the Library of Congress Name Authority File (LCNA), is also acceptable.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/optional"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P>  </P>
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#3</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;subject"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Subject and Keywords&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;For keywords either enter terms as free-text with a semi-colon separating each keyword; or as multiple (repeating/variant) fields. There are no requirements regarding the capitalization of keywords though internal (within Hub) consistency is recommended. The RDNC can provide scripts to convert records that use alternate separators, eg. commas. Where terms are taken from a standard subject scheme: enter a shortened version of the scheme used as a value qualifier and then enter the term/s. The shortened version of the scheme used should be taken from this enumerated list. The value(s) consist(s) of the subject term(s). Transcribe complete subject descriptor according to the relevant scheme. Use the punctuation and capitalisation used in the original scheme.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/recommended"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;dctermsns;LCSH" /&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;dctermsns;LCC" /&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;dctermsns;DDC" /&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;dctermsns;UDC" /&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;dctermsns;MESH" /&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;NLM"/&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;EI"/&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;MSC"/&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;HESA"/&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;APA"/&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;CABI"/&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;RCN"/&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;IBSS"/&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;HASSET"/&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;CareData"/&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;LIR"/&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;Bized"/&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;JACS"/&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#4</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;description"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Description&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;Free-text description of resource in the context of the describing Hub.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/recommended"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#5</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;publisher"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Publisher&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;Enter personal names, where possible, in the order suggested by AACR2 chapter 22 for headings of persons. Enter corporate names, where possible, in the order suggested by AACR2 chapter 24 for headings for corporate bodies. The inclusion of personal and corporate name headings from authority lists constructed according to AACR2, e.g. the Library of Congress Name Authority File (LCNA), is also acceptable.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/optional"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#6</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;contributor"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Contributor&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;Enter personal names, where possible, in the order suggested by AACR2 chapter 22 for headings of persons. Enter corporate names, where possible, in the order suggested by AACR2 chapter 24 for headings for corporate bodies. The inclusion of personal and corporate name headings from authority lists constructed according to AACR2, e.g. the Library of Congress Name Authority File (LCNA), is also acceptable.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/optional"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#7</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;date"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Date&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;Either: Dates should be entered in ISO 8601:1988 format. Or: Dates should be entered in a consistent format that can quickly and easily be converted for external (cross-searching, etc.) presentation.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/optional"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;dctermsns;W3CDTF" /&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#8</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;type"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Resource Type&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;Resource type should be a value selected from either DCMIType or RDNType. Multiple terms should be separated by a semi-colon ';' or be put in repeated attributes.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/recommended"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;dctermsns;DCMIType" /&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;RDNType"/&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#9</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;format"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Format&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;Recommended best practice is to select a term from IANA registered list of Internet Media Types (or MIME types).&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/optional"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;dctermsns;IMT" /&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P>  </P>
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#10</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;identifier"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Resource Identifier : URI&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;When the resource has an URI, enter the complete string with regard to correct spelling, punctuation and capitalisation.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/recommended"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;xsdns;anyURI" /&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P> </P>
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#11</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;identifier"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Resource Identifier&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;Where identifiers other than URIs are present, their presence should be noted using a DC value qualifier (scheme), possibly taken from an enumerated list.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/optional"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P> </P>
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#12</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;source"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Source&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;Free-text description of the original version of a resource.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/optional"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#13</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;language"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Language&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;Use the language codes defined in RFC 3066.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/recommended"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;dctermsns;RFC3066" /&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P> </P>
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#14</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;relation"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Relation&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;Where the resource being described is a JISC collection or is part of a JISC collection, enter the following URI: </FONT><A HREF="http://www.jisc.ac.uk/collections/&lt;/dc:description"><FONT FACE="Courier New" SIZE=1>http://www.jisc.ac.uk/collections/&lt;/dc:description</FONT></A><FONT FACE="Courier New" SIZE=1>&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/recommended"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P> </P>
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#15</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;coverage"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Coverage&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;Where a term taken from an existing controlled vocabulary has been used (e.g. the Getty Thesaurus of Geographic Names), enter a shortened version of the scheme used as a value qualifier (e.g. TGN) and then enter the term/s. Where more than one term is used, a new element should be used for each one. The shortened version of the scheme used should be taken from an enumerated list. Either: free-text field, or: selected from a list.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/optional"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#16</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;rights"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Rights&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;A free-text statement about the rights held in and over the resource or the URI of such a statement.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/optional"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P> </P>
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#17</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;rdntermsns;maintainer"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Maintainer&lt;/rdfs:label&gt;</P>
+<P>    &lt;dc:description&gt;The email address (encoded as a mailto: URI) or Web page of the administrator of the site or resource being described.&lt;/dc:description&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/optional"/&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#18</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dctermsns;educationLevel" /&gt;</P>
+<P>    &lt;rdfs:label&gt;Audience Education Level&lt;/rdfs:label&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/conditional"/&gt;</P>
+<P>    &lt;dcap:condition&gt;Mandatory for RDN records targetted at FE (RDN4FE)&lt;/dcap:condition&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;megtermsns;UKEL" /&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#19</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;dcns;subject"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Subject : Learndirect&lt;/rdfs:label&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/conditional"/&gt;</P>
+<P>    &lt;dcap:condition&gt;Mandatory for RDN records targetted at FE (RDN4FE)&lt;/dcap:condition&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:encodingScheme rdf:resource="&amp;rdntermsns;Learndirect"/&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+
+<P>  &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc#20</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>    &lt;dcap:uses rdf:resource="&amp;rdntermsns;annotation"/&gt;</P>
+<P>    &lt;rdfs:label&gt;Annotation&lt;/rdfs:label&gt;</P>
+<P>    &lt;dcap:obligation rdf:resource="&amp;dcapns;Obligation/conditional"/&gt;</P>
+<P>    &lt;dcap:condition&gt;Mandatory for RDN records targetted at FE (RDN4FE)&lt;/dcap:condition&gt;</P>
+<P>    &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt;</P>
+<P>    &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://www.rdn.ac.uk/ap/rdn_dc"><FONT FACE="Courier New" SIZE=1>http://www.rdn.ac.uk/ap/rdn_dc</FONT></A><FONT FACE="Courier New" SIZE=1>"/&gt;</P>
+<P>    &lt;rdfs:isDefinedBy rdf:resource="" /&gt;</P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+
+<P>&lt;/rdf:RDF&gt;</FONT></TD>
+</TR>
+</TABLE>
+<DIR>
+<DIR>
+<DIR>
+
+<FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674088">B.2&#9;The Renardus Dublin Core Application Profile</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>The Renardus service at </FONT><A HREF="http://www.renardus.org/"><U><FONT FACE="Arial" SIZE=2 COLOR="#0000ff">http://www.renardus.org/</U></FONT></A><FONT FACE="Arial" SIZE=2> grew out of a project funded by the EU's Information Society Technologies 5th framework programme. The service is hosted at Nieders&auml;chsische Staats - und Universit&auml;tsbibliothek (SUB), G&ouml;ttingen, Germany, on behalf of the Renardus Consortium.</P>
+<P>Renardus aims to provide a trusted source of selected, high quality Internet resources for those teaching, learning, and researching in higher education in Europe. Renardus provides integrated search and browse access to records from individual participating subject gateway services (data providers) across Europe.</P>
+<P>The metadata scheme used to homogenize the contributions from the different partners is the "Renardus Application Profile".</P></FONT>
+<TABLE BORDER CELLSPACING=1 CELLPADDING=9 WIDTH=821>
+<TR><TD VALIGN="TOP">
+<FONT FACE="Courier New" SIZE=1><P>  &lt;?xml version="1.0" encoding="UTF-8" ?&gt; </P>
+<P>  &lt;!DOCTYPE rdf:RDF (View Source for full doctype...)&gt; </P>
+<P>- &lt;rdf:RDF xml:lang="en" xmlns:rdf="</FONT><A HREF="http://www.w3.org/1999/02/22-rdf-syntax-ns"><FONT FACE="Courier New" SIZE=1>http://www.w3.org/1999/02/22-rdf-syntax-ns#</FONT></A><FONT FACE="Courier New" SIZE=1>" xmlns:rdfs="</FONT><A HREF="http://www.w3.org/2000/01/rdf-schema"><FONT FACE="Courier New" SIZE=1>http://www.w3.org/2000/01/rdf-schema#</FONT></A><FONT FACE="Courier New" SIZE=1>" xmlns:dcap="</FONT><A HREF="http://example.org/dcap/"><FONT FACE="Courier New" SIZE=1>http://example.org/dcap/</FONT></A><FONT FACE="Courier New" SIZE=1>" xmlns:dc="</FONT><A HREF="http://purl.org/dc/elements/1.1/"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/elements/1.1/</FONT></A><FONT FACE="Courier New" SIZE=1>" xmlns:dcterms="</FONT><A HREF="http://purl.org/dc/terms/"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/terms/</FONT></A><FONT FACE="Courier New" SIZE=1>" xmlns:renterms="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/</FONT></A><FONT FACE="Courier New" SIZE=1>" xmlns:rmesqns="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/rmesq"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/rmesq</FONT></A><FONT FACE="Courier New" SIZE=1>" xmlns:rdntype="</FONT><A HREF="http://purl.org/rdn/rdntype/"><FONT FACE="Courier New" SIZE=1>http://purl.org/rdn/rdntype/</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>- &lt;dcap:SchemaDocument rdf:about=""&gt;</P>
+<P>  &lt;dc:title&gt;Renardus Application Profile using DCAP vocabulary&lt;/dc:title&gt; </P>
+<P>  &lt;dc:description&gt;This schema contains descriptions of the Renardus Application Profile using the conventions of the CEN CWA for DCAP.&lt;/dc:description&gt; </P>
+<P>- &lt;dcterms:modified&gt;</P>
+<P>- &lt;dcterms:W3CDTF&gt;</P>
+<P>  &lt;rdf:value&gt;18-04-2002&lt;/rdf:value&gt; </P>
+<P>  &lt;/dcterms:W3CDTF&gt;</P>
+<P>  &lt;/dcterms:modified&gt;</P>
+<P>  &lt;dc:publisher rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;/dcap:SchemaDocument&gt;</P>
+<P>- &lt;dcap:Agency rdf:about="</FONT><A HREF="http://www.renardus.org/"><FONT FACE="Courier New" SIZE=1>http://www.renardus.org/</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>  &lt;dc:title&gt;Renardus - The Academic Subject Gateway Service in Europe&lt;/dc:title&gt; </P>
+<P>  &lt;dc:description&gt;Renardus allows you to find Internet resources selected according to quality criteria and carefully described by Subject Gateways from several European countries.&lt;/dc:description&gt; </P>
+<P>  &lt;dcap:seeAlso rdf:resource="</FONT><A HREF="http://www.renardus.org/about_us/"><FONT FACE="Courier New" SIZE=1>http://www.renardus.org/about_us/</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;/dcap:Agency&gt;</P>
+<P>- &lt;dcap:AppProfile rdf:about="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>  &lt;dc:title&gt;Renardus Application Profile&lt;/dc:title&gt; </P>
+<P>  &lt;dcterms:modified&gt;2002-06-24&lt;/dcterms:modified&gt; </P>
+<P>  &lt;dc:description&gt;The Renardus Application Profile is used to exhibit metadata records collected at several European subject gateways. The format of the original aplication profie is available at </FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/format.html&lt;/dc:description"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/format.html&lt;/dc:description</FONT></A><FONT FACE="Courier New" SIZE=1>&gt; </P>
+<P>  &lt;dc:publisher rdf:resource="</FONT><A HREF="http://www.renardus.org/"><FONT FACE="Courier New" SIZE=1>http://www.renardus.org/</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:status rdf:resource="</FONT><A HREF="http://example.org/dcap/VocabStatus/recommendation"><FONT FACE="Courier New" SIZE=1>http://example.org/dcap/VocabStatus/recommendation</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:seeAlso rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/rmes.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/rmes.html</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:seeAlso rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/rmesq.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/rmesq.html</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:isDefinedBy rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;/dcap:AppProfile&gt;</P>
+<P>- &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#title</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>  &lt;dcap:uses rdf:resource="</FONT><A HREF="http://purl.org/dc/elements/1.1/title"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/elements/1.1/title</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:label&gt;Title&lt;/rdfs:label&gt; </P>
+<P>  &lt;dc:description /&gt; </P>
+<P>  &lt;dcap:obligation rdf:resource="</FONT><A HREF="http://example.org/dcap/Obligation/conditional"><FONT FACE="Courier New" SIZE=1>http://example.org/dcap/Obligation/conditional</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:conditon&gt;mandatory if present&lt;/dcap:conditon&gt; </P>
+<P>  &lt;dcap:maxOccurs&gt;1&lt;/dcap:maxOccurs&gt; </P>
+<P>  &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:isDefinedBy rdf:resource="" /&gt; </P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P>- &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#alternative</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>  &lt;dcap:uses rdf:resource="</FONT><A HREF="http://purl.org/dc/terms/alternative"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/terms/alternative</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:label&gt;Alternative Title&lt;/rdfs:label&gt; </P>
+<P>  &lt;dc:description /&gt; </P>
+<P>  &lt;dcap:obligation rdf:resource="</FONT><A HREF="http://example.org/dcap/Obligation/optional"><FONT FACE="Courier New" SIZE=1>http://example.org/dcap/Obligation/optional</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:maxOccurs&gt;unbounded&lt;/dcap:maxOccurs&gt; </P>
+<P>  &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:isDefinedBy rdf:resource="" /&gt; </P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P>- &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#creator</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>  &lt;dcap:uses rdf:resource="</FONT><A HREF="http://purl.org/dc/elements/1.1/creator"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/elements/1.1/creator</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:label&gt;Creator&lt;/rdfs:label&gt; </P>
+<P>  &lt;dc:description&gt;Renardus: Creator(s) are person(s) which are responsible for the intellectual content of the document(s), webmasters are no creators. For personal names use the following cataloging rule: last name and first name in separate tags.&lt;/dc:description&gt; </P>
+<P>  &lt;dcap:obligation rdf:resource="</FONT><A HREF="http://example.org/dcap/Obligation/recommended"><FONT FACE="Courier New" SIZE=1>http://example.org/dcap/Obligation/recommended</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt; </P>
+<P>  &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:isDefinedBy rdf:resource="" /&gt; </P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P>- &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#subject</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>  &lt;dcap:uses rdf:resource="</FONT><A HREF="http://purl.org/dc/elements/1.1/subject"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/elements/1.1/subject</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:label&gt;Subject&lt;/rdfs:label&gt; </P>
+<P>  &lt;dc:description&gt;Unqualified information for keywords and/or classification system(s) (notations and captions) used by partners.&lt;/dc:description&gt; </P>
+<P>  &lt;dcap:obligation rdf:resource="</FONT><A HREF="http://example.org/dcap/Obligation/conditional"><FONT FACE="Courier New" SIZE=1>http://example.org/dcap/Obligation/conditional</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:conditon&gt;Ren-DDC is mandatory and at least one additional subject (unqualified or qualified) is required.&lt;/dcap:conditon&gt; </P>
+<P>  &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://purl.org/dc/terms/LCSH"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/terms/LCSH</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://purl.org/dc/terms/LCC"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/terms/LCC</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://purl.org/dc/terms/DDC"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/terms/DDC</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://purl.org/dc/terms/UDC"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/terms/UDC</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://purl.org/dc/terms/MESH"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/terms/MESH</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/rmesq.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/rmesq.html#Ren-DDC</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/racr.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/racr.html#BC</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/racr.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/racr.html#EIC</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/racr.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/racr.html#DEFFC</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/racr.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/racr.html#NOVASC</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/racr.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/racr.html#DDC2</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/racr.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/racr.html#GOK</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/racr.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/racr.html#SWD</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/racr.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/racr.html#NLM</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/racr.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/racr.html#MSC2000</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/racr.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/racr.html#ZADISC</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:isDefinedBy rdf:resource="" /&gt; </P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P>- &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#description</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>  &lt;dcap:uses rdf:resource="</FONT><A HREF="http://purl.org/dc/elements/1.1/description"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/elements/1.1/description</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:label&gt;Description&lt;/rdfs:label&gt; </P>
+<P>  &lt;dc:description&gt;For the Renardus normalization process it is not enough to provide only a URL, for cross-search reasons the field description must contain free text. Use text (and not only a URL) to describe the resource.&lt;/dc:description&gt; </P>
+<P>  &lt;dcap:obligation rdf:resource="</FONT><A HREF="http://example.org/dcap/Obligation/mandatory"><FONT FACE="Courier New" SIZE=1>http://example.org/dcap/Obligation/mandatory</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt; </P>
+<P>  &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:isDefinedBy rdf:resource="" /&gt; </P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P>- &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#identifier</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>  &lt;dcap:uses rdf:resource="</FONT><A HREF="http://purl.org/dc/elements/1.1/identifier"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/elements/1.1/identifier</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:label&gt;Identifier&lt;/rdfs:label&gt; </P>
+<P>  &lt;dc:description&gt;URI required, meaning URL, URN, DOI, ISBN, ISSN etc. For Renardus normalization process DOI, ISBN and ISSN must be displayed in a URN syntax. In the prototype system no distinction will be made between resource URL, mirrored, copied resource URL(s) and URL(s) for archive reasons.&lt;/dc:description&gt; </P>
+<P>  &lt;dcap:obligation rdf:resource="</FONT><A HREF="http://example.org/dcap/Obligation/mandatory"><FONT FACE="Courier New" SIZE=1>http://example.org/dcap/Obligation/mandatory</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://www.w3.org/2001/XMLSchema"><FONT FACE="Courier New" SIZE=1>http://www.w3.org/2001/XMLSchema#anyURI</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:isDefinedBy rdf:resource="" /&gt; </P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P>- &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#language</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>  &lt;dcap:uses rdf:resource="</FONT><A HREF="http://purl.org/dc/elements/1.1/language"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/elements/1.1/language</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:label&gt;Language&lt;/rdfs:label&gt; </P>
+<P>  &lt;dc:description&gt;The language code is ISO 639-2, three letter terminology code. A mapping between two letter and three letter language codes is available by LoC at </FONT><A HREF="http://lcweb.loc.gov/standards/iso639-2/englangn.html&lt;/dc:description"><FONT FACE="Courier New" SIZE=1>http://lcweb.loc.gov/standards/iso639-2/englangn.html&lt;/dc:description</FONT></A><FONT FACE="Courier New" SIZE=1>&gt; </P>
+<P>  &lt;dcap:obligation rdf:resource="</FONT><A HREF="http://example.org/dcap/Obligation/mandatory"><FONT FACE="Courier New" SIZE=1>http://example.org/dcap/Obligation/mandatory</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://purl.org/dc/terms/ISO639-2"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/terms/ISO639-2</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:isDefinedBy rdf:resource="" /&gt; </P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P>- &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#type</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>  &lt;dcap:uses rdf:resource="</FONT><A HREF="http://purl.org/dc/elements/1.1/type"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/elements/1.1/type</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:label&gt;Type&lt;/rdfs:label&gt; </P>
+<P>  &lt;dc:description&gt;Subject Gateways should provide their original types without any encoding scheme. SUB provides a mapping of all types used in partners' subject gateways to DCMI Type Vocabulary.&lt;/dc:description&gt; </P>
+<P>  &lt;dcap:obligation rdf:resource="</FONT><A HREF="http://example.org/dcap/Obligation/recommended"><FONT FACE="Courier New" SIZE=1>http://example.org/dcap/Obligation/recommended</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://purl.org/dc/terms/DCMIType"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/terms/DCMIType</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:seeAlso rdf:resource="</FONT><A HREF="http://db1-www.sub.uni-goettingen.de/servlets/RenardusType?Table=Renardus_Type&amp;Head=Renardus+Type+List"><FONT FACE="Courier New" SIZE=1>http://db1-www.sub.uni-goettingen.de/servlets/RenardusType?Table=Renardus_Type&amp;Head=Renardus+Type+List</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:isDefinedBy rdf:resource="" /&gt; </P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P>- &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#country</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>  &lt;dcap:uses rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#country</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:label&gt;Country&lt;/rdfs:label&gt; </P>
+<P>  &lt;dc:description&gt;Country in which the publisher of the resource is located or the country which represents the cultural context of the resource. Code for the representation of names of countries.&lt;/dc:description&gt; </P>
+<P>  &lt;dcap:obligation rdf:resource="</FONT><A HREF="http://example.org/dcap/Obligation/recommended"><FONT FACE="Courier New" SIZE=1>http://example.org/dcap/Obligation/recommended</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:maxOccurs&gt;Unbounded&lt;/dcap:maxOccurs&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://purl.org/dc/terms/ISO3166"><FONT FACE="Courier New" SIZE=1>http://purl.org/dc/terms/ISO3166</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#country</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:isDefinedBy rdf:resource="" /&gt; </P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P>- &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#fullrecord</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>  &lt;dcap:uses rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#fullrecord</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:label&gt;Full Record URL&lt;/rdfs:label&gt; </P>
+<P>  &lt;dc:description&gt;A URL that leads to a detailed display of each record at the originating service site.&lt;/dc:description&gt; </P>
+<P>  &lt;dcap:obligation rdf:resource="</FONT><A HREF="http://example.org/dcap/Obligation/mandatory"><FONT FACE="Courier New" SIZE=1>http://example.org/dcap/Obligation/mandatory</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:maxOccurs&gt;1&lt;/dcap:maxOccurs&gt; </P>
+<P>  &lt;dcap:encodingScheme rdf:resource="</FONT><A HREF="http://www.w3.org/2001/XMLSchema"><FONT FACE="Courier New" SIZE=1>http://www.w3.org/2001/XMLSchema#anyURI</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:isDefinedBy rdf:resource="" /&gt; </P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P>- &lt;dcap:PropertyUsage rdf:about="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#SBIGID</FONT></A><FONT FACE="Courier New" SIZE=1>"&gt;</P>
+<P>  &lt;dcap:uses rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/renap.html"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/renap.html#SBIGID</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:label&gt;SBIGID&lt;/rdfs:label&gt; </P>
+<P>  &lt;dc:description&gt;A stable unique acronym also well defined in the Collection Level Description.&lt;/dc:description&gt; </P>
+<P>  &lt;dcap:obligation rdf:resource="</FONT><A HREF="http://example.org/dcap/Obligation/mandatory"><FONT FACE="Courier New" SIZE=1>http://example.org/dcap/Obligation/mandatory</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;dcap:maxOccurs&gt;1&lt;/dcap:maxOccurs&gt; </P>
+<P>  &lt;dcap:isMemberOf rdf:resource="</FONT><A HREF="http://renardus.sub.uni-goettingen.de/renap/"><FONT FACE="Courier New" SIZE=1>http://renardus.sub.uni-goettingen.de/renap/</FONT></A><FONT FACE="Courier New" SIZE=1>" /&gt; </P>
+<P>  &lt;rdfs:isDefinedBy rdf:resource="" /&gt; </P>
+<P>  &lt;/dcap:PropertyUsage&gt;</P>
+<P>  &lt;/rdf:RDF&gt;</FONT></TD>
+</TR>
+</TABLE>
+
+<FONT FACE="Arial" SIZE=2><P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674089">Appendix C.&#9;&#9;Expressing DCAPs using OWL</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>The OWL Web Ontology Language is a W3C schema language with a vocabulary of modelling constructs richer than those provided by XML, RDF, and RDF Schema. Specifically, OWL supports the formal expression of usage constraints of the sort often described in DCAPs.</P>
+<P>Whilst RDFS can describe simple relationships between classes, between properties, and between properties and classes (subPropertyOf, subClassOf, range, domain), using RDFS alone all of the statements made about classes and properties are global in scope. In contrast, OWL enables one to express constraints locally to a class of resources being described, offering the potential for imposing constraints on descriptions of particular classes of resource. OWL allows one to describe a range of properties and cardinality constraints locally with respect to a class.</P>
+<P>As a relatively new language, OWL is comparatively untested in applications, so its use in expressing DCAPs would by definition be of an innovative and experimental nature. Areas of uncertainty regarding use of OWL for expressing DCAPs include the following:</P>
+
+<UL>
+<LI>There is little re-use of properties across OWL ontologies, whereas describing the re-use of properties is the single most important function of a DCAP. Suggesting innovative uses of OWL in this regard is not an appropriate role for a CWA such as this.</LI>
+<LI>It is open for debate as to whether a DCAP describes a particular "class" of resources in the way that OWL expects. The theoretical question is further complicated by the fact that Documentational DCAPs, in practice, serve a wide range of uses in a wide range of application scenarios.</LI>
+<LI>In OWL, "localisation" is based on associating property restrictions with specific classes and types; there is in OWL no other way to specify cardinality and value-space constraints. DCAPs typically do not express constraints explicitly with respect to type and class, so the use of OWL to model constraints would seem to entail a modelling effort which goes beyond that of the DCAP.</LI>
+<LI>The OWL specifications say that Dublin Core properties can be used as annotation properties, i.e., to describe classes and properties in an ontology. There is some doubt as to whether Dublin Core properties can be used in the ontology itself. Discussion on www-rdf-logic mailing list suggests that Dublin Core properties can be used in OWL Full (see http://lists.w3.org/Archives/Public/www-rdf-logic/2004Apr/0014.html).</LI>
+<LI>OWL makes a distinction between DatatypeProperties (which take literal values) and ObjectProperties (which take resources as values), whereas the values of Dublin Core properties can be literals or resources. There is a danger, therefore, that a DCAP represented in OWL might contradict the usage expressed in the same DCAP modelled in another syntax (see http://lists.w3.org/Archives/Public/www-rdf-logic/2004Feb/0042.html).</LI>
+<LI>In OWL, care must be taken not to contradict existing declarations, and existing usage. In Dublin Core practice, existing usage is so varied (with respect to using literals as opposed to resources as values) that the risks of introducing contradictions are high.</LI>
+<LI>Some dialects of OWL do not support some of the RDF constructs used by DCMI (such as classes of classes).</LI></UL>
+
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674090">Appendix D.&#9;Comparison of the IEEE/LOM and DC data models</A></P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>The essential difference between the two models can be summarized as follows:</P>
+
+<UL>
+<LI>The Dublin Core data model is a simple flat list of 15 data elements  [DCES].</LI>
+<LI>The Learning Object Metadata data model is a simple hierarchy, where composite data elements do not have values directly, i.e. only the &quot;leafs&quot; in the hierarchy can carry values [IEEE-LOM].</LI></UL>
+
+<P>In principle, it is not so difficult to transform flat DC instances into hierarchical LOM instances or vice versa. Indeed, as an example, an instance of DC:creator can be mapped into LOM: LifeCycle.Contribute.Entity where LOM:LifeCycle.Contribute.Role equals &quot;Author.&quot; Likewise, LOM:Technical.Format can be mapped to DC:Format. The LOM standard actually includes a table that defines a complete mapping of the DC metadata element set into equivalent LOM data element structures.</P>
+<P>However, when one considers the situation in more detail, some additional complexities become apparent.</P>
+
+<UL>
+<LI>Besides the unqualified DC element set, the DCMI metadata terms also include</LI></UL>
+
+
+<UL>
+<LI>other elements (Audience);</LI>
+<LI>element refinements (Alternative for Title, tableOfContents or Abstract for Description, etc.); and</LI>
+<LI>encoding schemes (LCSH, MeSH, DDC, LCC, UDC for Subject, DCMIType for Type, etc.)</LI>
+<LI>type vocabulary (Collection, Dataset, Event, etc.)</LI></UL>
+
+
+<UL>
+<LI>Besides the basic hierarchical structure, the LOM standard also defines for each element</LI></UL>
+
+
+<UL>
+<LI>The value space: the set of allowed values, defined in a conceptual, binding and data type independent way;</LI>
+<LI>Datatype: LangString, DateTime, Duration, Vocabulary, CharacterString or Undefined.</LI></UL>
+
+<P>The LOM standard does not define how values are represented in a concrete binding. In fact, several such bindings are under development for LOM.</P>
+<P>Moreover, the LOM data element set is considerably more numerous than the DC one.</P>
+<P>Although a simple first analysis suggests that DC data elements can be mapped to LOM in a rather straightforward way, the reverse operation is more complex, as LOM defines a more elaborate structure than DC. Moreover, once we take into account information about DC element refinements, encoding schemes and type vocabularies, as well as the value space and datatype information of LOM, semantically consistent mappings become more difficult to define.</P><DIR>
+<DIR>
+<DIR>
+
+</FONT><FONT FACE="Arial" SIZE=5><P><A NAME="_Toc77674091">Appendix E.&#9;&#9;Issues arising from a GIS perspective</A></P></DIR>
+</DIR>
+</DIR>
+
+</FONT><FONT FACE="Arial" SIZE=2><P>To be completed.</P>
+</FONT></BODY>
+</HTML>

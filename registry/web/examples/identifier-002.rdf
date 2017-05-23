@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/">  
+
+  <rdf:Description>
+    <dc:title>Cannery Row</dc:title>
+    <dc:creator>John Steinbeck</dc:creator> 
+    <dc:publisher>Penguin Books</dc:publisher>
+    <dc:identifier>ISBN:0140177388</dc:identifier>
+    <dc:relation>ASIN:6301966465</dc:relation>
+  </rdf:Description>
+
+</rdf:RDF>

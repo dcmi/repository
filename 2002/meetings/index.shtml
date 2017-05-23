@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+<title>Dublin Core Metadata Initiative (DCMI) Meetings and Presentations</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+<link rel="meta" href="index.shtml.rdf" />
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<table summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content." border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr valign="top">
+<td><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td bgcolor="#EEEEEE" width="150">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" summary="Layout table: Contains graphical text.">
+<tbody>
+<tr bgcolor="#99A59F" align="center">
+<td><img src="/images/navlist/overview.gif" width="150" height="25" alt="Overview" border="0" /></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellspacing="0" cellpadding="10" border="0" summary="Layout table: Contains navigation.">
+<tbody>
+<tr>
+<td class="smallsans">
+<dl>
+<dt class="navlist"><a href="#upcomingmeetings">Upcoming Meetings and Presentations</a></dt>
+<dt class="navlist"><a href="#pastmeetings">Past Meetings and Presentations</a></dt>
+<dt class="navlist"><a href="http://dublincore.org/feedback/dcmiFeedbackServlet">Submit a Meeting or Presentation</a></dt>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td><img src="/images/vrule.gif" width="1" alt="vertical rule" /></td>
+<td>
+<table width="100%" border="0" cellspacing="0"
+cellpadding="10" summary="Content table">
+<tbody>
+<tr valign="top"> 
+<td> 
+<h1>DCMI Meetings and Presentations</h1>
+<h2><a id="upcomingmeetings" name="upcomingmeetings"></a>Upcoming Meetings and Presentations</h2>
+<p>None at this time.</p>
+<hr />
+<h2><a id="pastmeetings" name="pastmeetings"></a>Past Meetings and Presentations</h2>
+<p><b><a href="http://www.bncf.net/dc2002/index.html">DC-2002: Metadata for e-Communities: Supporting Diversity and Convergence</a>, Florence, Italy, October 13-17, 2002</b></p>
+<p>2002-04-29: The DCMI Directorate is pleased to announce that DC-2002 will take place October 13-17 in Florence, Italy. As with DC 2001 in Tokyo, we are planning a three track meeting: A workshop track A tutorial track A conference track The conference site will be the Convitto della Calza, an ancient convent of the 14th century, once a hospital for pilgrims, recently and completely restored. It is located in the historical centre of Florence, very close to the Pitti Palace and Ponte Vecchio, near the Porta Romana.</p>
+<p>The Conference track will present papers in the following areas:</p>
+<ul>
+<li>e-Government </li>
+<li>Search engines and metadata </li>
+<li>Educational metadata: improving communication </li>
+<li>Knowledge management </li>
+<li>Use of DC metadata for commerce and intranets </li>
+<li>Semantic web: roles of standard cataloguing, indexing, metadata and ontologies </li>
+<li>Metadata interoperability: tools and protocols </li>
+<li>Cultural heritage metadata </li>
+</ul>
+<p>The Workshop track will feature technical meetings of ongoing working groups of the Dublin Core Metadata Initiative. The agenda for the workshop track is under development in DCMI Working Groups.</p>
+<p>The Tutorial track provides structured learning activities designed to introduce participants to and guide them through selected topics of interest and importance to users, developers, and implementers of Dublin Core metadata. DC-2002 is organized by <a href="/">DCMI</a>, <a href="http://www.aib.it/">Associazione Italiana Biblioteche</a>, <a href="http://www.bncf.firenze.sbn.it/">Biblioteca Nazionale Centrale Firenze</a>, <a href="http://www.imss.firenze.it/">Istituto e Museo di Storia della Scienza</a>, <a href="http://www.iue.it/">Istituto Universitario Europeo</a>, <a href="http://www.regione.toscana.it/">Regione Toscana</a>, <a href="http://www.unifi.it/">Università di Firenze</a></p>
+<p>Call for Papers: <a href="http://www.bncf.net/dc2002/papers/index.html">More Information...</a> [<a href="/workshops/dc10/DC-2002-brochre.pdf">PDF version</a>]</p>
+<hr />
+<p><strong>2001-10-22 - 2001-10-26: <a href="http://www.nii.ac.jp/dc2001/">DC-2001: International Conference on Dublin Core and Metadata Applications</a></strong> - Cosponsored by the <a href="http://www.nii.ac.jp/">National Institute for Informatics</a> (NII), the <a href="http://dublincore.org">Dublin Core Metadata Initiative</a> (DCMI) and <a href="http://www.jst.go.jp/EN/">Japan Science and Technology Corporation</a> (JST). The workshop will be held in Tokyo, Japan.</p>
+<p>For the first time, the workshop will be a three-track conference. There will be a Working Group track to address problems and support evolution of DCMI standards; a Tutorial track to provide formal instruction to Dublin Core newcomers; and a Conference track to provide an opportunity for project demonstrations, peer-reviewed papers, poster sessions, and panel discussions.</p>
+<blockquote> 
+<p><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0104&amp;L=dc-general&amp;P=2764">Call for Papers and Participation</a></p>
+</blockquote>
+<p><a href="/groups/libraries/report-20010822.shtml">DCMI-Libraries Working Group meeting notes </a>are now available </p>
+<p>2001-09-20, This meeting was an official DCMI-Libraries WG event that was held in conjunction with the International Federation of Library Associations conference. The main topic on the agenda was a discussion of the draft Dublin Core Library Application Profile.</p>
+<hr />
+<p><b>&quot;Managing Information Resources for e-Government&quot; Conference</b></p>
+<p>2001-07-06, The conference &quot;Managing Information Resources for e-Government&quot; was held on June 21-22, 2001 in Brussels, Belgium. The conference was arranged by the DCMI Government Working Group in collaboration with the European Commission and the European Parliament to explore the possibility of developing a framework for the use of metadata across European governments and parliaments. The notes and presentations from this conference are now available. &lt;<a href="http://europa.eu.int/ISPO/ida/jsps/index.jsp?fuseAction=showDocument&amp;documentID=312&amp;parent=chapter&amp;preChapterID=0-123-124">http://europa.eu.int/ISPO/ida/jsps/index.jsp?fuseAction=showDocument&documentID=312&parent=chapter&preChapterID=0-123-124</a>&gt;</p>
+<hr />
+<p><b>DCMI Tools Workshop</b></p>
+<p>2001-07-06, The DCMI Tools workshop was held on June 20-22, 2001 in Osnabr&uuml;ck, Germany. The list of participants, background information and the minutes are now available from the Workshop website<br>&lt;<a href="http://www.mathematik.uni-osnabrueck.de/projects/dctools/">http://www.mathematik.uni-osnabrueck.de/projects/dctools/</a>&gt;.</p>
+<hr />
+<p><b>2001-06-21 - 2001-06-22: <a href="http://europa.eu.int/ISPO/ida/jsps/index.jsp?fuseAction=showDocument&amp;documentID=312&amp;parent=chapter&amp;preChapterID=0-123-124">Managing Information Resources for e-Government Conference</a></b></p>
+<div class="rss-item"> 
+<div class="rss-description"> The DCMI Government Working Group in collaboration with the IDA Programme (Interchange of Data between Administrations) of the European Commission have arranged the conference "Managing Information Resources for e-Government" to be held on June 21-22, 2001 in Brussels, Belgium. The objective of the meeting is to explore the possibility of standardising the use of Metadata across European Governments and Parliaments, and to identify the resources, both technical and non-technical, that would be required to support this activity. <a href="http://europa.eu.int/ISPO/ida/jsps/index.jsp?fuseAction=showDocument&amp;documentID=312&amp;parent=chapter&amp;preChapterID=0-123-124">More Information.</a></div>
+</div>
+<hr />
+<p><b>2001-06-20 - 2001-06-22: <a href="http://www.mathematik.uni-osnabrueck.de/projects/dctools/">DCMI Tools Workshop</a> </b></p>
+<div class="rss-item"> 
+<div class="rss-description"> The DCMI Tools Workshop, to be held on June 20 - 22, 2001 in Osnabr&uuml;ck, Germany, is looking for active developers of metadata applications interested in development of (open source) software that supports (qualified) Dublin Core metadata and application-specific or domain specific extensions to participate. Additional information can be found on the <a href="http://www.mathematik.uni-osnabrueck.de/projects/dctools/">Workshop website</a>.</div>
+</div>
+<p><b>2001-04-06</b>, <b>Dublin Core Metadata Initiative</b> - Presentation given at the United Nation's Food and Agriculture Organization meeting in Rome by Stuart Weibel. [<a href="FAO-DCMI-Presentation-2001-04.ppt">Download Powerpoint Presentation</a>] [<a href="FAO-DCMI-Presentation-2001-04.htm">HTML Version</a>]</p>
+<hr />
+<strong>2001-02-03 - 2001-02-04:</strong> DCMI Advisory Committee Meeting in Funchal, Madeira, Portugal. 
+<hr />
+<p><strong>2000-11-10:</strong> <a href="/workshops/dc8/agenda-resources.shtml">Presentations from the DC-8 Workshop are now available</a>.</p>
+<p>PowerPoint and HTML versions of presentations that were given at DC-8.</p>
+<hr />
+<p><strong>Working Group Meetings held during DC-8 in Ottawa, Canada</strong></p>
+<p><strong>2000-10-06:</strong> DCMI Advisory Committee Meeting</p>
+<p><strong>2000-10-05:</strong> DCMI Education Working Group Meeting<br /><a href="http://www.ischool.washington.edu/sasutton/dc-ed-2000/DCMI-Education-DC8.html">Meeting Report</a></p>
+<p><strong>2000-10-05:</strong> DCMI Libraries Working Group Meeting<br /><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0010&amp;L=dc-libraries&amp;F=&amp;S=&amp;P=384">Meeting Report</a></p>
+<p><strong>2000-10-04:</strong> User Guides Working Group Meeting<br /><a href="/groups/guide/mr-20001004.shtml"> Meeting Report</a></p>
+<p><strong>2000-10-04:</strong> DCMI Citation Working Group Meeting<br /><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0012&amp;L=dc-citation&amp;F=&amp;S=&amp;P=57">Meeting Report</a></p>
+<hr />
+<p><strong>2000-10-04 - 2000-10-06:</strong> Eighth International Dublin Core Metadata Initiative Workshop (DC8) - Co-sponsored by the National Library of Canada, the IFLA UDT program and OCLC Online Computer Library Center, Inc. The workshop was held in Ottawa, Canada.</p>
+<p>A mission statement for the Dublin Core Metadata Initiative was one of the outcomes of DC-8. Decisions on the workplan for the coming year also include: improvements in management and process for DCMI; development of registry facilities for DCMI metadata; further development of the DC User Guide; further domain-specific metadata activities; development of agent-specific qualifiers and elements and clarification of architectural issues.</p>
+<div style="margin-left: 4em"> 
+<p><a href="http://www.ifla.org/udt/dc8/call.htm">Call for Participation</a><br /><a href="http://www.ifla.org/udt/dc8/index.htm">Workshop Home Page</a><br /><a href="http://www.ifla.org/udt/dc8/agenda.htm"> Agenda</a></p></div>
+<hr />
+<strong>2000-10-03:</strong> DC-Advisory Committee Meeting at DC-8, Ottawa, Canada 
+<hr />
+<p><strong>2000-01-21:</strong> DC-Education Working Group announces a face-to-face meeting in Australia, 19-20 February 2000. The DC-Education working group will be holding its face-to-face meeting in Melbourne, Australia on the weekend of February 19-20, 2000. From this meeting a draft proposal will emerge for possible education-related qualifiers for the Dublin Core elements and possible additional elements and qualifiers.</p>
+<div style="margin-left: 4em"><p><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0001&amp;L=dc-general&amp;O=A&amp;P=549">Call for Participation</a><br /><a href="http://www.ischool.washington.edu/sasutton/dc-ed-f2f/">Draft Report</a></p></div>
+<hr />
+<p><strong>1999-11-05:</strong> <a href="/archives/1999/dc7/results.htm">Presentations from the DC-7 Workshop are now available.</a></p>
+<p>PowerPoint and HTML versions of many of the presentations given at DC-7 are now available.</p>
+<hr />
+<p><strong>Working Group Meetings held during DC-7 in Frankfurt, Germany</strong></p>
+<p>1999-10-27: Title Working Group Meeting<br /><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind9911&amp;L=dc-title&amp;F=&amp;S=&amp;P=54">Meeting Report</a></p>
+<p>1999-10-26 - 1999-10-27: DC-Education Working Group Meeting<br /><a href="http://www.ischool.washington.edu/sasutton/DC7_DCEd.html">Meeting Report</a></p>
+<p>1999-10-26: Datamodel/Schema Working Group Meeting<br /><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind9911&amp;L=dc-datamodel&amp;F=&amp;S=&amp;P=1158">Meeting Report</a></p>
+<p>1999-10-26: Agents Working Group Meeting<br /><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind9911&amp;L=dc-agents&amp;O=D&amp;P=158">Meeting Report</a></p>
+<p>1999-10-26: Date Working Group and Coverage Working Group - Joint Meeting<br /><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind9911&amp;L=dc-date&amp;O=D&amp;P=145">Meeting Report</a> (<a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind9911&amp;L=dc-coverage&amp;F=&amp;S=&amp;P=163">also available on the DC-Coverage Mailing List</a>)</p>
+<p>1999-10-26: Coverage Working Group Meeting<br /><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind9911&amp;L=dc-coverage&amp;F=&amp;S=&amp;P=268">Meeting Report</a></p>
+<p>1999-10-26: Multiple Languages Special Interest Group Meeting<br /><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0001&amp;L=dc-international&amp;F=&amp;S=&amp;P=61">Meeting Report</a></p>
+<p>1999-10-26: User Guide Working Group Meeting<br /><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind9911&amp;L=dc-guides&amp;F=&amp;S=&amp;P=55">Meeting Report</a></p>
+<p>1999-10-26: Relation/Source Working Group Meeting<br /><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind9911&amp;L=dc-relation&amp;F=&amp;S=&amp;P=57">Meeting Report</a></p>
+<p>1999-10-26: Standards Working Group Meeting</p>
+<p>1999-10-26: Type Working Group Meeting</p>
+<hr />
+<p><strong>1999-10-25 - 1999-10-27:</strong> Seventh Dublin Core Metadata Workshop (DC-7) - Co-sponsored by Die Deutsche Bibliothek and OCLC Online Computer Library Center, Inc. The workshop was held in Frankfurt, Germany.</p>
+<p>The work of DC-7 was to focus on the qualifiers for the 15 Dublin Core metadata elements.</p>
+<div style="margin-left: 4em"><p><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind9906&amp;L=dc-general&amp;O=A&amp;P=4403">Call for Participation</a><br /><a href="/archives/1999/dc7/index.htm">Workshop Home Page</a></p></div>
+<hr />
+<p><strong>1999-10-24:</strong> DC-Advisory Committee Meeting at DC-7, Frankfurt, Germany</p>
+<hr />
+<p><strong>1998-11-05 - 1998-11-06:</strong> Datamodel Working Group meeting in Washington, D.C.<br /><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind9811&amp;L=dc-datamodel&amp;O=D&amp;P=1178">Meeting Report</a></p>
+<hr />
+<p><strong>1998-11-02 - 1998-11-04:</strong> Sixth Dublin Core Metadata Workshop (DC-6) - Co-sponsored by the Library of Congress and OCLC Online Computer Library Center, Inc. with support from the National Science Foundation and the Coalition for Network Information. The workshop was held in Washington D.C., USA.</p>
+<p>The focus of DC-6 was to identify unresolved issues and assign them to formal working groups for resolution. The following is a summary of the major areas that emerged from discussions just before and during the workshop: Formalization of a process for the Dublin Core; Standardization; HTML encoding; Qualification Mechanisms; RDF role and Relationships to other metadata models.</p>
+<div style="margin-left: 4em"><p><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind9808&amp;L=dc-general&amp;F=&amp;S=&amp;P=4982">Call for Participation</a><br /><a href="/workshops/dc6/">Workshop Home Page</a></p></div>
+<hr />
+<p><strong>1998-09-24 - 1998-09-25:</strong> Datamodel Working Group Meeting in Crete<br /><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind9809&amp;L=dc-datamodel&amp;O=D&amp;P=3233">Meeting Report</a></p>
+<hr />
+<p><strong>1998-09-23:</strong> Multiple Languages Special Interest Group Meeting in Heraklion, Crete<br /><a href="/groups/languages/mr-19980923.shtml">Meeting Report</a></p>
+<hr />
+<p><strong>1998-09-06:</strong> Multiple Languages Special Interest Group Meeting in Bangkok, Thailand<br /><a href="/groups/languages/mr-19980906.shtml">Meeting Report</a></p>
+<hr />
+<p><strong>1998-06-17 - 1998-06-19:</strong> Data Model Working Group Meeting in Dublin, Ohio<br /><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind9807&amp;L=dc-datamodel&amp;O=D&amp;P=308">Meeting Report</a></p>
+<hr />
+<p><strong>1998-05-25:</strong> Multiple Languages Special Interest Group Meeting in Bonn, Germany<br /><a href="/groups/languages/mr-19980525.shtml">Meeting Report</a></p>
+<hr />
+<p><strong>1997-10-06 - 1997-10-08:</strong> Fifth Dublin Core Metadata Workshop (DC-5) - Co-sponsored by the National Library of Finland, OCLC Online Computer Library Center and the Coalition for Networked Information (CNI). The workshop was held in Helsinki, Finland.</p>
+<p>The workshop focused on finalizing the 15 unqualified elements of the Dublin Core. Implementation projects from around the world and from a number of different disciplines were also showcased.</p>
+<hr />
+<p><strong>1998-05-25:</strong> Multiple Languages Special Interest Group Meeting in Canberra, Australia<br /><a href="/groups/languages/mr-19970303.shtml">Meeting Report</a></p>
+<hr />
+<p><strong>1997-03-03 - 1997-03-05:</strong> Fourth Dublin Core Metadata Workshop (DC-4) - Co-sponsored by the National Library of Australia, the Distributed Systems Technology Centre (DSTC) and OCLC Online Computer Library Center, Inc. The workshop was held in Canberra, Australia.</p>
+<p>The central issues for discussion at DC-4 were element structure; extensibility issues and element refinement. The workshop also resulted in progress on the metadata model that underlies the Dublin Core and clarified the qualifiers necesary to implement the model. An outline of the implementation details that need to be clarified to support wider deployment was also developed.</p>
+<div style="margin-left: 4em"><p><a href="http://www.dstc.edu.au/cgi-bin/redirect/rd.cgi?http://archive.dstc.edu.au/DC4">Workshop Home Page</a></p></div>
+<hr />
+<p><strong>1996-09-24 - 1996-09-25:</strong> Third Dublin Core Metadata Workshop (DC3) &quot;Image Description on the Internet&quot; - Co-sponsored by the Coalition for Networked Information (CNI) and OCLC Online Computer Library Center, Inc. The workshop was held in Dublin, Ohio, USA.</p>
+<p>This workshop reached concensus, supporting the notion that the Dublin Core, within the context of the Warwick Framework affords a foundation for the development of a simple resource description model to support network-based discovery of images.</p>
+<div style="margin-left: 4em"><p><a href="/workshops/dc3/">Workshop Home Page</a></p></div>
+<hr />
+<p><strong>1996-04-01 - 1996-04-03:</strong> Second Dublin Core Metadata Workshop (DC2) - Co-sponsored by the United Kingdom Office for Library &amp; Information Networking and OCLC Online Computer Library Center, Inc. with the support of the Joint Information Systems Committee, National Center for Supercomputer Applications, DLib and ERCIM. The workshop was held in Warwick, U.K.</p>
+<p>There was concensus that embedding metadata in HTML will provide an encouraging impetus to rapid deployment of richer resource description techniques on the Web along the lines developed in the workshop.</p>
+<div style="margin-left: 4em"><p><a href="/workshops/dc2/">Workshop Home Page</a></p></div>
+<hr />
+<p><strong>1995-03-01 - 1995-03-03:</strong> First Dublin Core Metadata Workshop (DC1) - Co-sponsored by the National Center for Supercomputing Applications (NCSA) and OCLC Online Computer Library Center, Inc. The workshop was held in Dublin, Ohio, USA.</p>
+<p>The goals of the workshop included: fostering a common understanding of the needs, strengths, shortcomings and solutions of the stakeholders and reaching consensus on a core set of metadata elements to describe networked resources.</p>
+<div style="margin-left: 4em"><p><a href="/workshops/dc1/">Workshop Home Page</a></p></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

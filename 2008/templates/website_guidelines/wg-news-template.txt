@@ -1,0 +1,22 @@
+<img src="/images/newsitem/news.gif" width="200" height="20" alt="News
+and Announcements" border="0" /><br /> 
+
+<hr />
+
+  <div class="rss-item"> 
+    
+<div class="rss-title"> TITLE OF THE NEWS ITEM (Linked)</div>
+    
+<div class="rss-description"> YYYY-MM-DD, Brief description of the news item.</div>
+  </div>
+
+<hr />
+
+<div class="rss-item"> 
+    
+<div class="rss-title"> TITLE OF THE NEWS ITEM (Linked)</div>
+    
+<div class="rss-description"> YYYY-MM-DD, Brief description of the news item.</div>
+  </div>
+
+<hr />

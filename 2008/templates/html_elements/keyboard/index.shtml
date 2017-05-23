@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>Keyboard</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1 id="title">Keyboard</h1>
+<dl>
+<dt>HTML Tag:</dt>
+<dd><code>&lt;KBD&gt;&lt;/KBD&gt;</code></dd>
+<dt>Guidelines:</dt>
+<dd>A <code>KBD</code> element is one that displays text that a user is supposed to type on the keyboard, presumably to fill a text field or issue some command. Browsers have free rein to determine how (or whether) to distinguish <code>KBD</code> element content from the rest of the <code>BODY</code> element. Both Navigator and Internet Explorer elect to use a monospace font for the text.</dd>
+<dt>Warnings:</dt>
+<dd>-</dd>
+<dt>Priority:</dt>
+<dd>-</dd>
+</dl>
+<h2>Browser View:</h2>
+<p>If you don't know the answer, type <kbd>NONE</kbd> into the text box.</p>
+<h2>Source View:</h2>
+<code>&lt;P&gt;If you don't know the answer, type &lt;KBD&gt;NONE&lt;/KBD&gt; into the text box.&lt;/P&gt;</code>
+</body>
+</html>

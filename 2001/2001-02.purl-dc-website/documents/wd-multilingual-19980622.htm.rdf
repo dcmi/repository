@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/documents/wd-multilingual-19980622.htm">
+   <dc:title>Plans for a distributed registry of Dublin Core in multiple languages</dc:title>
+   <dc:description>This position paper grew out of discussion at a meeting of the Working Group on 25 May 1998 at the German National Research Center for Information Technology in Bonn, Germany [GMD]. It will evolve through discussion.</dc:description>
+   <dc:date>1998-06-22</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Dublin Core Metadata Initiative</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

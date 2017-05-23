@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/documents/notes/notes-hillmann-19981027.htm">
+   <dc:title>Names in Dublin Core</dc:title>
+   <dc:description>There has seemed to be an irresistible inclination to incorporate into the Dublin Core elements information associated with names that might be useful to users of metadata records. I would like to propose that we adopt instead the general strategy for names that has worked well in libraries for many decades.  Libraries store only authorized formas of names in metadata records for library resources--any other information on the name resides in a seperate record for the name itself.  This avoids just the sort of muddle that we have been struggling with in the DC data model, whereby we find ourselves endlessly arguing about whether a subelement modifies a 'real' resource or a name (which may also be a resource in its own right but is nonetheless primarily a name in the context of the 'real' resource).  Thankfully, RDF supports this kind of structure, so we need not invent some additional box to accomplish our goal.</dc:description>
+   <dc:date>1998-10-27</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Diane I. Hillmann</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

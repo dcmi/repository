@@ -1,0 +1,748 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<!--//include virtual="/inc/top-meta3.html"//-->
+<meta http-equiv="content-type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>阿部&nbsp; &nbsp;俊二</title>
+<meta name="description" content="国立情報学研究所は、情報学という新しい学問分野での「未来価値創成」を目指すわが国唯一の学術総合研究所として、ネットワーク、ソフトウェア、コンテンツなどの情報関連分野の新しい理論・方法論から応用展開までの研究開発を総合的に推進しています。また、大学共同利用機関として、学術コミュニティ全体の研究・教育活動に不可欠な最先端学術情報基盤（サイバー・サイエンス・インフラストラクチャ：ＣＳＩ）の構築を進めるとともに、全国の大学や研究機関はもとより民間企業や様々な社会活動との連携・協力を重視した運営を行っています。" />
+<meta name="keywords" content="最先端学術情報基盤, CSI, Cyber Science Infrastructure, 情報学プリンシプル、アーキテクチャ科学、コンテンツ科学、情報社会相関, 機関リポジトリ" />
+<link href="/css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/switch.js"></script>
+<script type="text/javascript" src="/js/minmax.js"></script>
+</head>
+<body>
+<noscript><h1>This page requires JavaScript. Please enable JavaScript in your browser and reload this page.</h1></noscript>
+
+<div class="outer">
+<div class="head">
+<!-- header -->
+<!--<table width="780" cellspacing="0" cellpadding="0" border="0">
+ <tr>
+  <td bgcolor="#999999">
+   <img src="/images/spacer.gif" width="1" height="69" border="0" alt="" /><br />
+  </td>
+  <td bgcolor="#ffffff">
+-->
+   <table width="778" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+     <td>
+      <img src="/images/spacer.gif" width="10" height="1" border="0" alt="" /><br />
+     </td>
+     <td>
+      <h1><a href="/index-j.shtml"><img src="/images/common/logo.gif" width="200" height="60" border="0" alt="情報・システム研究機関　国立情報学研究所" /></a></h1>
+      <img src="/images/spacer.gif" width="540" height="1" border="0" alt="" /><br />
+     </td>
+     <td>
+      <table cellspacing="0" cellpadding="0" border="0">
+       <tr>
+        <td>
+         <img src="/images/spacer.gif" width="5" height="1" border="0" alt="" /><br />
+        </td>
+        <td>
+         <a href="/other/sitemap-j.shtml"><img src="/images/common/sitemap.gif" width="68" height="19" border="0" alt="サイトマップ" /></a><br />
+        </td>
+        <td>
+         <img src="/images/spacer.gif" width="15" height="1" border="0" alt="" /><br />
+        </td>
+        <td>
+         <a href="/contact/contact-j.shtml"><img src="/images/common/inquiry.gif" width="49" height="19" border="0" alt="お問合せ" /></a><br />
+        </td>
+        <td>
+         <img src="/images/spacer.gif" width="15" height="1" border="0" alt="" /><br />
+        </td>
+
+       <!--
+        <td>
+         <a href="/index.shtml.en"><img src="/images/common/english.gif" width="58" height="19" border="0" alt="English" /></a><br />
+        </td>-->
+
+        <td>
+         <script type="text/javascript">
+         <!--
+         document.write('<a href="javascript:cHtml(\'e\');"><img src="/images/common/english.gif" width="58" height="19" border="0" alt="English" /></a><br />');
+         //-->
+         </script>
+
+         <noscript>
+          <a href="/"><img src="/images/common/english.gif" width="58" height="19" border="0" alt="English" /></a><br />
+         </noscript>
+        </td>
+       </tr>
+      </table>
+
+      <img src="/images/spacer.gif" width="2" height="5" border="0" alt="" /><br />
+     <form action="http://websearch.nii.ac.jp/webindex/search" method="post">
+     <table cellspacing="0" cellpadding="0" border="0">
+      <tr>
+       <td valign="top">
+        <img src="/images/spacer.gif" width="2" height="3" border="0" alt="" /><br />
+        <img src="/images/common/i_search.gif" width="20" height="20" border="0" alt="" /><br />
+       </td>
+       <td>
+        <img src="/images/spacer.gif" width="5" height="1" border="0" alt="" /><br />
+       </td>
+       <td>
+        <input type="hidden" name="ACTION" value="SEARCH" />
+        <input type="hidden" name="FROM" value="1" />
+        <input type="hidden" name="TO" value="10" />
+        <input type="hidden" name="RGN" value="OTData" />
+        <input type="hidden" name="WEIGHT" value="1" />
+        <input type="hidden" name="MODE" value="OR" />
+        <input type="hidden" name="SIZE" value="10" />
+        <input type="hidden" name="INCLURL" value="NII PAGES::-wwwsoc.nii.ac.jp::-www.soc.nii.ac.jp::+nii.ac.jp" />
+        <input name="QUERYS" type="text" id="QUERYS" style="width:140px;" /><br />
+       </td>
+       <td>
+        <img src="/images/spacer.gif" width="5" height="1" border="0" alt="" /><br />
+       </td>
+       <td>
+        <input type="submit" name="Submit" value="検索" style="width:40px;" /><br />
+       </td>
+      </tr>
+     </table>
+     </form>
+      <img src="/images/spacer.gif" width="228" height="1" border="0" alt="" /><br />
+    </td>
+   </tr>
+  </table>
+<!--
+   <img src="/images/spacer.gif" width="778" height="1" border="0" alt="" /><br />
+  </td>
+  <td bgcolor="#999999">
+   <img src="/images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+  </td>
+ </tr>
+</table>
+-->
+
+<!-- NAVI -->
+<link rel="stylesheet" type="text/css" href="/css/navi6-j.css" />
+<div id="navimenu">
+ <ol class="navimain">
+
+  <li class="on01">
+   <a href="/">
+   <img src="/images/spacer.gif" width="59" height="22" border="0" alt="TOP" /></a>
+  </li>
+
+  <li class="off02" onmouseover="this.className='on02'" onmouseout="this.className='off02'">
+   <a href="/research/project-j.shtml">
+   <img src="/images/spacer.gif" width="88" height="22" border="0" alt="研究活動" /></a>
+   <ol class="sub">
+    <li><a href="/research/project-j.shtml">重点プロジェクト</a></li>
+    <li><a href="/staff/members-j.shtml">教員・研究員等の紹介</a></li>
+    <li><a href="/staff/org-j.shtml">各教員の研究テーマ一覧</a></li>
+    <li><a href="/staff/interview/index.shtml">ビデオインタビュー</a></li>
+    <li><a href="/research/shisetsu-j.shtml">研究施設等</a></li>
+    <li><a href="/research/koubo-j.shtml">教員・研究員公募</a></li>
+    <li><a href="/research/kyodokenkyuin-kobo-j.shtml">共同研究</a></li>
+    <li><a href="/kenkyou/index.html">研究協力</a></li>
+    <li><a href="/research/chizai-j.shtml">知的財産室</a></li>
+    <li><a href="/research/activity-j.shtml">国際連携</a></li>
+    <li><a href="/info_tric/">新領域融合プロジェクト</a></li>
+   </ol>	
+  </li>
+
+  <li class="off03" onmouseover="this.className='on03'" onmouseout="this.className='off03'">
+   <a href="/services/service-j.shtml">
+   <img src="/images/spacer.gif" width="88" height="22" border="0" alt="サービス・事業" /></a>
+   <ol class="sub">
+    <li><a href="http://csi.nii.ac.jp/">最先端学術情報基盤（CSI）</a></li>
+   <hr />
+    <li>コンテンツサービス&#9654;</li>
+    <li><a href="/services/service-j.shtml#01">GeNii（NII学術コンテンツ・ポータル）</a></li>
+    <li><a href="/services/service-j.shtml#02">海外電子ジャーナル</a></li>
+    <li><a href="/services/service-j.shtml#03">大学・学協会の情報発信</a></li>
+    <li><a href="/services/service-j.shtml#04">研究系コンテンツサービス</a></li>
+    <li><a href="/services/service-j.shtml#05">オープンソースソフトウェア</a></li>
+   <hr />
+    <li>学術情報流通基盤整備事業&#9654;</li>
+    <li><a href="/services/service-j.shtml#06">学術コンテンツ事業</a></li>
+    <li><a href="http://www.sinet.ad.jp/">学術情報ネットワーク事業</a></li>
+    <li><a href="/services/service-j.shtml#08">IT人材育成事業</a></li>
+   <hr />
+    <li><a href="/syskan/maintenance.html" target="_blank">システムメンテナンス情報</a></li>
+    <li><a href="/syskan/mokuroku/" target="_blank">目録システム運転状況</a></li>
+    <li><a href="http://www.sinet.ad.jp/inform/trouble/" target="_blank">ネットワークサービス状況</a></li>
+    <li><a href="/contact/contact-j.shtml">問い合わせ窓口</a></li>
+   </ol>	
+  </li>
+
+  <li class="off04" onmouseover="this.className='on04'" onmouseout="this.className='off04'">
+   <a href="/education/graduate-j.shtml">
+   <img src="/images/spacer.gif" width="100" height="22" border="0" alt="大学院教育" /></a>
+    <ol class="sub">
+     <li><a href="/graduate/index.html">総合研究大学院大学　情報学専攻</a></li>
+     <li><a href="http://research.nii.ac.jp/education/index-j.html">連携大学院</a></li>
+     <li><a href="/education/kenkyuin-j.shtml">特別共同利用研究員</a></li>
+    </ol>	
+   </li>
+   <li class="off05" onmouseover="this.className='on05'" onmouseout="this.className='off05'">
+   <a href="/results/pr_data/leaflet-j.shtml">
+   <img src="/images/spacer.gif" width="100" height="22" border="0" alt="成果・刊行物" /></a>
+    <ol class="sub">
+     <li><a href="/results/pr_data/leaflet-j.shtml">国立情報学研究所概要</a></li>
+     <li><a href="/results/pr_data/nii-today-j.shtml">NII Today(国立情報学研究所ニュース)</a></li>
+     <li><a href="/results/pr_data/nii-yoran-j.shtml">国立情報学研究所要覧</a></li>
+     <li><a href="/results/pr_data/nii-nenpou-j.shtml">国立情報学研究所年報</a></li>
+     <li><a href="/publications/gaibuhyouka/91051277.pdf">外部評価報告書</a></li>
+     <li><a href="/karuizawa/harmony.shtml">軽井沢土曜懇話会講演集知と美のハーモニー</a></li>
+     <li><a href="/introduce/pr_video-j.shtml">広報ビデオ</a></li>
+     <li><a href="/books/maruzen-lib/index-j.shtml">情報研シリーズ</a></li>
+     <li><a href="/books/info-series/index.html">情報学シリーズ</a></li>
+     <li><a href="/nii-works/">その他 教員の著書</a></li>
+     <li><a href="/pi/">Progress in Informatics</a></li>
+     <li><a href="http://research.nii.ac.jp/TechReports/index-j.html">NIIテクニカルレポート</a></li>
+     <li><a href="/results/research_results/report-j.shtml">科研報告書など</a></li>
+     <li><a href="/video/ez_contents/">研究発表ストリーミング配信</a></li>
+     <li><a href="/results/reference/guide-j.shtml">利用の手引き・マニュアルなど</a></li>
+     <li><a href="/CAT-ILL/contents/nletter_top.html">NACSIS-CAT/ILL</a></li>
+     <li><a href="/results/reference/text-j.shtml">講習会用テキスト</a></li>
+     <li><a href="/results/reference/video-j.shtml">ビデオ</a></li>
+   <li class="off2" onmouseover="this.className='on2'" onmouseout="this.className='off2'">
+	  その他&#9654;
+     <ol class="sub-2">
+      <li><a href="/journal/">NII Journal</a></li>
+      <li><a href="/journal/bulletin.html">学術情報センター紀要</a></li>
+     </ol>
+    </li>
+   </ol>
+  </li>
+
+  <li class="off06" onmouseover="this.className='on06'" onmouseout="this.className='off06'">
+   <a href="/news_jp/">
+   <img src="/images/spacer.gif" width="88" height="22" border="0" alt="ニュース" /></a>
+    <ol class="sub">
+     <li><a href="/news_jp/press/">プレスリリース</a></li>
+     <li><a href="/news_jp/cat12/">受賞</a></li>
+     <li><a href="/news_jp/cat13/">サービス</a></li>
+     <li><a href="/news_jp/topics/">その他</a></li>
+    </ol>	
+  </li>
+
+  <li class="off07" onmouseover="this.className='on07'" onmouseout="this.className='off07'">
+   <a href="/event_jp/">
+   <img src="/images/spacer.gif" width="88" height="22" border="0" alt="イベント" /></a>
+    <ol class="sub">
+     <li><a href="/event_jp/">最近のイベント一覧</a></li>
+     <li><a href="/karuizawa/">軽井沢土曜懇話会</a></li>
+     <li><a href="/shimin/index-j.shtml">市民講座</a></li>
+     <li><a href="/openforum/">情報学オープンフォーラム</a></li>
+     <li><a href="/openhouse/">オープンハウス</a></li>
+     <li><a href="/hrd/index.html">研修・講習会</a></li>
+     <li><a href="/intsympo/index-j.html">国際シンポジウム</a></li>
+    </ol>	
+  </li>
+  <li class="off08" onmouseover="this.className='on08'" onmouseout="this.className='off08'">
+   <a href="/introduce/point-j.shtml">
+   <img src="/images/spacer.gif" width="101" height="22" border="0" alt="研究所紹介" /></a>
+    <ol class="sub">
+     <li><a href="/introduce/point-j.shtml">国立情報学研究所の特色</a></li>
+     <li><a href="/introduce/greeting-j.shtml">所長の挨拶</a></li>
+     <li><a href="/introduce/history-j.shtml">沿革</a></li>
+     <li><a href="/introduce/outline-j.shtml">運営会議等</a></li>
+     <li><a href="/introduce/kenkyukyoryoku-j.shtml">研究協力・知財</a></li>
+     <li><a href="/introduce/yosan-j.shtml">所員・予算</a></li>
+     <li><a href="/introduce/pr_video-j.shtml">紹介ビデオ</a></li>
+     <li><a href="/kouhou/library/open_top.html">図書室利用案内</a></li>
+     <li><a href="/introduce/seminar1-j.shtml">国際高等セミナーハウス</a></li>
+     <li><a href="/openhouse/archive-j.shtml">NIIオープンハウスアーカイブス</a></li>
+     <li><a href="/introduce/organization-j.shtml">組織図</a></li>
+     <li><a href="/introduce/access1-j.shtml">アクセス</a></li>
+    </ol>	
+   </li>
+   <li class="off09">
+    <img src="/images/common/navi_amari.gif" width="66" height="22" border="0" alt="あまり" /><br />
+   </li>
+
+
+  </ol>
+</div>
+
+<!-- /NAVI/ -->
+
+
+<!-- /header/ -->
+<style type="text/css">
+.navimain li.off02{
+	background-image:URL(/images/common/navi_02on.gif) !important ;
+	width:88px; /*研究活動*/
+}
+
+</style>
+<script type="text/javascript" src="/js/minmax.js"></script>
+</div>
+
+<div class="main">
+
+						<img src="/images/spacer.gif" width="1" height="10" border="0" alt="" /><br />
+						<!-- MAIN -->
+						<h2><img src="images/rese_02_t.gif" width="549" height="28" border="0" alt="教員・研究員等" /></h2>
+
+						<img src="/images/spacer.gif" width="1" height="10" border="0" alt="" /><br />
+
+						<!-- 見出し -->
+						<table width="549" cellspacing="0" cellpadding="0" border="0">
+							<tr>
+								<td background="./images/rese_m.gif">
+									<table width="549" cellspacing="0" cellpadding="0" border="0">
+										<tr>
+											<td width="10">
+												<img src="images/spacer.gif" width="10" height="25" border="0" alt="" /><br />
+											</td>
+											<td width="329">
+<font color="#ffffff"><strong>国立情報学研究所　教員・研究員等</strong></font>
+											</td>
+											<td class="text2" width="200" align="right">
+												　
+											</td>
+											<td width="10">
+												<img src="images/spacer.gif" width="10" height="1" border="0" alt="" /><br />
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+						<!-- /見出し/ -->
+
+<!-- メインコンテンツ -->
+
+
+<div style="margin-top:20px;">
+
+<div class="text2" style="background-image:url(images/rese_08_bg.gif); background-repeat:no-repeat; min-height:520px;">
+<img src="./images/rese_08_01.gif" width="549" height="7" border="0" alt="" /><br />
+<table width="215" cellspacing="0" cellpadding="0" border="0" align="right">
+	<tr>
+		<td colspan="3"><img src="/images/spacer.gif" width="215" height="4" border="0" alt="" /><br /></td>
+	</tr>
+	<tr>
+		<td><img src="/images/spacer.gif" width="10" height="1" border="0" alt="" /><br /></td>
+		<td align="center"><img src="./photo/Abe_Shunji.jpg" alt="" width="130" border="0" /><br /></td>
+		<td><img src="/images/spacer.gif" width="5" height="1" border="0" alt="" /><br /></td>
+	</tr>
+	<tr>
+		<td colspan="3"><img src="/images/spacer.gif" width="215" height="10" border="0" alt="" /><br /></td>
+	</tr>
+</table>
+
+<img src="./images/rese_08_head.gif" width="334" height="10" border="0" alt="" /><br />
+<table width="334" cellspacing="0" cellpadding="0" border="0">
+	<tr valign="top">
+		<td width="20" valign="top" background="./images/rese_08_left.gif">
+			<img src="./images/rese_08_02.gif" width="20" height="30" border="0" alt="" /><br />
+		</td>
+		<td width="314" style="background-color:#fff; background-image:url(./images/rese_08_right.gif); background-repeat:repeat-y; background-position:right;">
+			<div style="padding:0 10px 0 0;">
+				<!-- name -->
+				<div style="padding: 5px; border-bottom:2px solid #000;">
+					<table width="294" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+							<td>
+<strong>阿部&nbsp; &nbsp;俊二 / Abe&nbsp; &nbsp;Shunji</strong><br />
+							</td>
+							<td align="right"><img src="./images/rese_08_logo.gif" width="23" height="15" border="0" alt="" /><br /></td>
+						</tr>
+					</table>
+				</div>
+				<!-- /name/ -->
+				<div style="padding:5px;">
+					<p>アーキテクチャ科学研究系准教授</p>
+					<img src="/images/spacer.gif" width="1" height="5" border="0" alt="" /><br />
+					<table width="294" cellspacing="0" cellpadding="0" border="0">
+
+<!--20070122wono-->
+						<tr valign="top">
+							<td nowrap="nowrap">学位</td>
+							<td nowrap="nowrap">&nbsp;：&nbsp;</td>
+							<td>
+<p>博士(工学）（1996年、東京大学）</p>
+							</td>
+						</tr>
+<!--/20070122wono-->
+
+						<tr>
+							<td colspan="3"><img src="/images/spacer.gif" width="1" height="5" border="0" alt="" /></td>
+						</tr>
+						<tr valign="top">
+							<td nowrap="nowrap">専門分野</td>
+							<td nowrap="nowrap">&nbsp;：&nbsp;</td>
+							<td class="text2">
+<p>情報通信</p><br />
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3"><img src="/images/spacer.gif" width="1" height="5" border="0" alt="" /></td>
+						</tr>
+						<tr valign="top">
+							<td nowrap="nowrap">詳細情報</td>
+							<td nowrap="nowrap">&nbsp;：&nbsp;</td>
+							<td>
+								詳細情報は下記ページを参照ください<br />
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3" class="text2">
+<a href="http://research.nii.ac.jp/~abe/official/content_j.html">http://research.nii.ac.jp/~abe/official/content_j.html</a><br />
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+<img src="./images/rese_08_foot.gif" width="334" height="10" border="0" alt="" /><br />
+<img src="/images/spacer.gif" width="1" height="5" border="0" alt="" /><br />
+
+<!-- title -->
+<div class="intro_title" style="20px 0px 10px 10px;">
+<strong>より効率的で安心な通信ネットワークを目指して</strong><br /></div>
+<!-- /title/ -->
+
+<div class="intro_text" style="padding:5px 5px 5px 8px;">
+<div><strong>通信ネットワークの制御</strong><br />
+　通信ネットワークはいまや、私たちの生活に欠かせないものになりました。その重要性は、今後もますます高まっていくと考えられます。私は、この高度通信ネットワーク社会において、情報を素早く、スムーズに、精確に、そしてコンパクトな状態でやりとりするための研究をしています。<br />
+　研究テーマの１つは、次世代の光ネットワークや、モバイルIPネットワークなどを流れる通信量（トラフィック）を制御する方式の開発と性能評価です。ネットワークの中での情報の輸送手段や交通ルールはどうあるべきか、その仕組みは正しく機能するか、という問題に対しての研究と評価、と言い換えてもいいでしょう。<br />
+　また、ネットワークを安心・安全に使えるための研究にも取り組んでいます。例えば、サーバーに対して故意に大量のデータを送ることによってシステムがダウンするDoS/DDoS攻撃を受けるとき、これをごく初期に検出する方法や、サーバーの管理運用のための手法などの研究も進めています。<br />
+<br />
+<strong>SINETの構築と運用</strong><br />
+　国立情報学研究所が運用している学術情報ネットワーク「SINET」の設計・構築から運用・管理にも携わっています。SINETは日本全国の大学と研究機関等の学術情報基盤として、研究・教育を支援し、学術情報の流通促進を図るものであり、多くの大学・研究機関等が利用しています。2007年６月からは第三世代となる「SINET3」の本格的運用が開始されました。SINET3では、ユーザーの多様なニーズに応えるべく、以前のSINETよりも豊富な種類のネットワーク接続サービスを用意しています。<br />
+　さらに、ネットワーク情報を収集する仕組みを充実させたことにより、その情報をフィードバックするかたちで、ネットワークの多様な接続サービスの効率的かつ安定的な運用と管理ができます。さらに取得した情報の一部分を必要なユーザーや研究者に提供することにより、ユーザーのネットワーク利用の利便性の向上や、ネットワーク研究にも役立てることが期待できます。私の研究においても、これらの情報を活用し、ネットワークの制御方式、性能評価、 DoS/DDoS攻撃検出などの検討を進めています。<br />
+<br />
+<strong>ネットワーク研究から環境問題対策へ</strong><br />
+　こういった私の研究は、地球環境問題に直結している、と言ったら意外に思われるでしょうか。<br />
+　パソコンが多くの電力を消費する家電製品であることはよく知られていますが、通信ネットワークも大量の電力を消費していることはあまり認識されていません。情報が爆発的に増えている今日、世界のネットワーク情報を中継しているサーバーとその周辺機器だけで、原子力発電所数基分の電力を消費しているという試算があります。情報通信方式の効率化は、通信ネットワークへの負荷を減らすことにつながりますから、エネルギー消費量と環境負荷を大幅に削減することが期待できるのです。<br />
+（取材・構成　田中幹人）</div><br /><div style="clear:both;"></div>
+</div>
+</div>
+</div>
+
+<!-- /メインコンテンツ/ -->
+
+						<!-- /MAIN/ -->
+</div>
+
+
+
+<div class="navi">
+
+  <img src="/research/images/r_rese.gif" width="170" height="44" border="0" alt="研究活動" /><br />
+  <img src="/images/spacer.gif" width="1" height="10" border="0" alt="" /><br />
+
+  <div id="navi_font">
+  <table width="168" cellspacing="0" cellpadding="0" border="0">
+   <tr valign="top">
+    <td class="text2" colspan="3">
+<a href="http://csi.nii.ac.jp/"><font color="#cccccc"><b>●最先端学術情報基盤（CSI）</b></font></a><br />    </td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt=" " /><br /><img src="/images/spacer.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+   </tr>
+   <tr valign="top">
+    <td class="text2" colspan="3">
+<a href="/research/project-j.shtml"><font color="#cccccc"><b>●重点プロジェクト</b></font></a><br />    </td>
+   </tr>
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="/images/spacer.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+    <td>
+    <table cellspacing="0" cellpadding="0" border="0">
+     <tr valign="top">
+      <td class="text2">
+┣<br />      </td>
+      <td class="text2">
+<a href="/research/project-j.shtml#01">最先端学術情報基盤（サイバー・サイエンス・インフラストラクチャ：CSI）</a><br />      </td>
+     </tr>
+    </table>    </td>
+   </tr>
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="/images/spacer.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+    <td>
+    <table cellspacing="0" cellpadding="0" border="0">
+     <tr valign="top">
+      <td class="text2">
+┣<br />      </td>
+      <td class="text2">
+<a href="/research/project-j.shtml#02">未来価値創成型情報学</a><br />      </td>
+     </tr>
+    </table>    </td>
+   </tr>
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="/images/spacer.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+    <td>
+    <table cellspacing="0" cellpadding="0" border="0">
+     <tr valign="top">
+      <td class="text2">
+┣<br />      </td>
+      <td class="text2">
+<a href="/research/project-j.shtml#03">次世代ソフトウェア戦略</a><br />      </td>
+     </tr>
+    </table>    </td>
+   </tr>
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="/images/spacer.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+    <td>
+    <table cellspacing="0" cellpadding="0" border="0">
+     <tr valign="top">
+      <td class="text2">
+┣<br />      </td>
+      <td class="text2">
+<a href="/research/project-j.shtml#04">情報環境／コンテンツ創成</a><br />      </td>
+     </tr>
+    </table>    </td>
+   </tr>
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="/images/spacer.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+    <td>
+    <table cellspacing="0" cellpadding="0" border="0">
+     <tr valign="top">
+      <td class="text2">
+┣<br />      </td>
+      <td class="text2">
+<a href="/research/project-j.shtml#05">社会・公共連携</a><br />      </td>
+     </tr>
+    </table>    </td>
+   </tr>
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="/images/spacer.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+    <td>
+    <table cellspacing="0" cellpadding="0" border="0">
+     <tr valign="top">
+      <td class="text2">
+┗<br />      </td>
+      <td class="text2">
+<a href="/research/project-j.shtml#06">融合の情報学</a><br />      </td>
+     </tr>
+    </table>    </td>
+   </tr>
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+    <td class="text2">
+<a href="/staff/members-j.shtml">教員・研究員等の紹介</a><br />
+<span class="text2">
+	<dl>
+	<dt>&nbsp;<a href="/staff/members-j.shtml#a1">情報学プリンシプル研究系</a></dt>
+	<dt>&nbsp;<a href="/staff/members-j.shtml#a2">アーキテクチャ科学研究系</a></dt>
+	<dt>&nbsp;<a href="/staff/members-j.shtml#a3">コンテンツ科学研究系</a></dt>
+	<dt>&nbsp;<a href="/staff/members-j.shtml#a4">情報社会相関研究系</a></dt>
+	<dt>&nbsp;<a href="/research/othermembers-j.shtml">客員、研究員、院生</a></dt>
+	</dl>	
+</span>    </td>
+   </tr>
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+    <td class="text2">
+<a href="/staff/org-j.shtml">各教員の研究テーマ一覧</a><br />
+<span class="text2">
+	<dl>
+	<dt>&nbsp;<a href="/staff/org_1-j.shtml#a1">情報学プリンシプル研究系</a></dt>
+	<dt>&nbsp;<a href="/staff/org_2-j.shtml#a2">アーキテクチャ科学研究系</a></dt>
+	<dt>&nbsp;<a href="/staff/org_3-j.shtml#a3">コンテンツ科学研究系</a></dt>
+	<dt>&nbsp;<a href="/staff/org_4-j.shtml#a4">情報社会相関研究系</a></dt>
+	</dl>	
+</span>    </td>
+   </tr>
+
+<!--
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />
+    </td>
+    <td class="text2">
+<a href="/staff/org_1.shtml">研究組織の紹介</a><br />
+    </td>
+   </tr>
+-->
+  
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+     <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br />
+         <img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt="" /><br /></td>
+     <td><img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />
+     </td>
+     <td class="text2"><a href="/staff/interview/index.shtml">ビデオインタビュー</a><br />
+     </td>
+   </tr>
+   <tr valign="top">
+     <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br />
+         <img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt="" /><br /></td>
+     <td><img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />     </td>
+     <td class="text2"><a href="/research/shisetsu-j.shtml">研究施設等</a><br />     </td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+    <td class="text2">
+<a href="/research/koubo-j.shtml">教員・研究員公募</a><br />    </td>
+   </tr>
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+    <td class="text2">
+<a href="/research/kyodokenkyuin-kobo-j.shtml">共同研究</a><br />    </td>
+   </tr>
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+    <td class="text2">
+<a href="http://www.nii.ac.jp/kenkyou/index.html">研究協力</a><br />    </td>
+   </tr>
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+    <td class="text2">
+<a href="/research/chizai-j.shtml">知的財産室</a><br />    </td>
+   </tr>
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+    <td class="text2">
+<a href="/research/activity-j.shtml">国際連携</a><br />    </td>
+   </tr>
+   <tr>
+    <td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt="" /><br /></td>
+   </tr>
+   <tr valign="top">
+    <td><img src="/images/spacer.gif" width="1" height="2" border="0" alt="" /><br /><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt="" /><br /></td>
+    <td>
+    <img src="/images/spacer.gif" width="4" height="1" border="0" alt="" /><br />    </td>
+    <td class="text2">
+<a href="http://www.nii.ac.jp/info_tric/">新領域融合プロジェクト</a><br />    </td>
+   </tr>
+  </table>
+  </div>
+
+
+</div>
+
+<div class="foot">
+<!-- footer -->
+<table width="780" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td width="1" bgcolor="#999999">
+			<img src="/images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+		</td>
+		<td bgcolor="#ffffff">
+			<table width="778" cellspacing="0" cellpadding="0" border="0">
+				<tr>
+					<td bgcolor="#003366">
+						<img src="/images/spacer.gif" width="1" height="5" border="0" alt="" /><br />
+					</td>
+				</tr>
+			</table>
+			<table width="778" cellspacing="0" cellpadding="0" border="0">
+				<tr valign="top">
+					<td>
+						<img src="/images/spacer.gif" width="15" height="2" border="0" alt="" /><br />
+					</td>
+					<td>
+						<img src="/images/spacer.gif" width="1" height="10" border="0" alt="" /><br />
+						<div class="text2">
+国立情報学研究所　101-8430　東京都千代田区一ツ橋2-1-2<br />
+Copyright(C) National Institute of Informatics<br />
+		</div>
+						<img src="/images/spacer.gif" width="374" height="2" border="0" alt="" /><br />
+						<img src="/images/spacer.gif" width="1" height="10" border="0" alt="" /><br />
+					</td>
+					<td align="right">
+						<img src="/images/spacer.gif" width="1" height="10" border="0" alt="" /><br />
+						<div class="text2">
+<a href="/introduce/access1-j.shtml">アクセス</a>&nbsp;|&nbsp;<a href="/policy/index-j.shtml">ポリシー</a>&nbsp;|&nbsp;<a href="/other/open-j.shtml">情報公開</a>&nbsp;|&nbsp;<a href="/other/chotatsu-j.shtml">調達情報</a>&nbsp;|&nbsp;<a href="/other/link-j.shtml">リンク</a>&nbsp;|&nbsp;<a href="http://nsin.op.nii.ac.jp/NII_staff/home/nii.staff-j.html">Staff Login</a>
+						</div>
+						<img src="/images/spacer.gif" width="374" height="2" border="0" alt="" /><br />
+						<img src="/images/spacer.gif" width="1" height="10" border="0" alt="" /><br />
+					</td>
+					<td>
+						<img src="/images/spacer.gif" width="15" height="2" border="0" alt="" /><br />
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="1" bgcolor="#999999">
+			<img src="/images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+		</td>
+	</tr>
+</table>
+<table width="780" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td bgcolor="#003366">
+<img src="/images/spacer.gif" width="1" height="15" border="0" alt="" /><br />
+		</td>
+	</tr>
+</table>
+
+<!-- /footer/ -->
+</div>
+
+</div>
+
+</body>
+</html>

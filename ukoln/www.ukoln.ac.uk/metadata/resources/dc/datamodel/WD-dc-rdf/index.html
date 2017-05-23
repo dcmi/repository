@@ -1,0 +1,2197 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<title>Guidance on expressing the Dublin Core within the Resource Description Framework (RDF)</title>
+
+<!--?xml version="1.0"?-->
+</head><body alink="#333333" bgcolor="#FFFFE7" link="#990000" text="#000000" vlink="#000066"><rdf:rdf xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.0/">
+  <rdf:description rdf:about="http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/" dc:title="Guidance on expressing the Dublin Core within the Resource Description Framework (RDF)" dc:creator="Eric Miller" dc:subject="Dublin Core; Resource Description Framework; RDF; eXtensible Markup Language; XML" dc:publisher="Dublin Core Metadata Initiative" dc:contributor="Dublin Core Data Model Working Group" dc:date="1999-07-01" dc:format="text/html" dc:language="en">
+</rdf:description></rdf:rdf>
+
+
+<meta name="Generator" content="HTMLed Pro 3.0">
+<meta name="DC.Creator" content="Paul Miller">
+
+
+
+<p>
+<b>Note:</b> this document is out of date.  Please see more recent DCMI documents
+for details of how to encode DC metadata in RDF/XML:
+</p>
+<ul>
+<li>
+<a href="http://dublincore.org/documents/2002/07/31/dcmes-xml/">Expressing Simple Dublin Core in RDF/XML</a>
+</li><li>
+<a href="http://dublincore.org/documents/2002/04/14/dcq-rdf-xml/">Expressing Qualified Dublin Core in RDF/XML</a>
+</li></ul>
+<hr>
+<table border="0" width="100%">
+<tbody><tr>
+<td align="left" valign="middle"><a href="http://purl.org/dc/"><img src="index_files/dcmi_22.html" alt="Dublin Core Metadata Initiative" border="0" height="32" width="460"></a></td>
+<td align="right" valign="middle"><h2>DRAFT PROPOSAL</h2></td>
+</tr>
+</tbody></table>
+
+<h1>Guidance on expressing the Dublin Core within the
+Resource Description Framework (RDF)</h1>
+
+<p><b><small>This Version: </small></b><small>&lt;URL: <a href="http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990701.html"><tt>http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990701.html</tt></a>&gt;</small></p><small>
+
+<p><b>Latest Version: </b>&lt;URL: <a href="http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/"><tt>http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/</tt></a>&gt;</p>
+
+<p><b>Previous Versions:</b></p>
+
+<ul>
+&lt;URL: <a href="http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990526.html"><tt>http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990526.html</tt></a>&gt;
+<br>
+&lt;URL: <a href="http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990520.html"><tt>http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990520.html</tt></a>&gt;
+<br>
+&lt;URL: <a href="http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990517.html"><tt>http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990517.html</tt></a>&gt;
+<br>
+&lt;URL: <a href="http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990513.html"><tt>http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990513.html</tt></a>&gt;
+<br>
+&lt;URL: <a href="http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990511.html"><tt>http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990511.html</tt></a>&gt;
+<br>
+&lt;URL: <a href="http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990510.html"><tt>http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990510.html</tt></a>&gt;
+<br>
+&lt;URL: <a href="http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990427.html"><tt>http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/WD-dc-rdf-19990427.html</tt></a>&gt;
+</ul>
+<p></p>
+<ul>
+
+</ul>
+</small>
+
+<p><b>Editors:</b> <a href="mailto:emiller@oclc.org">Eric Miller</a>, <a href="mailto:P.Miller@ukoln.ac.uk">Paul Miller</a> and <a href="mailto:Daniel.Brickley@Bristol.ac.uk">Dan Brickley</a></p>
+
+<status>
+<h3>Status of this document</h3>
+
+<small><p>This document is a Working Draft of the Dublin Core Metadata
+Initiative [<a href="#DC">DC</a>], and is intended to reflect consensus reached
+within the Data Model Working Group [<a href="#DCDM">DCDM</a>] of that 
+Initiative. Following due consideration within the working group, and a 
+period of open consultation with the wider Dublin Core community, this 
+draft is offered to the Dublin Core Advisory Committee for acceptance 
+and ratification.</p>
+
+<p>Comments and feedback should be sent to the working group mailing list,
+<a href="mailto:dc-datamodel@mailbase.ac.uk"><tt>dc-datamodel@mailbase.ac.uk</tt></a>,
+the archives for which may be browsed at &lt;URL:
+<a href="http://www.mailbase.ac.uk/lists/dc-datamodel/"><tt>http://www.mailbase.ac.uk/lists/dc-datamodel/</tt></a>&gt;.</p></small>
+</status>
+
+<hr><h2><a name="section1">1</a>. Introduction</h2>
+
+<p>The Dublin Core Metadata Initiative [<a href="#DC">DC</a>] is a cross-disciplinary international effort to
+develop mechanisms for the discovery-oriented description of
+diverse resources in an electronic environment. The Dublin Core Element Set
+comprises fifteen elements [<a href="#DCES">DCES</a>] which
+together capture a representation of essential aspects related to the description of
+resources.</p>
+
+<p>The majority of work on the Dublin Core
+has addressed the definition of semantics rather than syntax or
+structure, allowing rapid conceptual development free of the
+constraints imposed by specific implementation environments.
+Whilst beneficial in many ways, this has led to a certain lack of
+clarity at times, especially in relation to development of 'qualification'
+mechanisms which enrich descriptions in the Dublin Core. It has
+also made interoperable implementation difficult, as individual
+implementors have typically developed their own internal
+mechanisms for actually encoding Dublin Core; mechanisms which
+are not always compatible with those of their potential
+collaborators elsewhere.</p>
+
+<p>A significant number of users currently
+implement Dublin Core within the HyperText Markup Language (HTML)
+[<a href="#HTML">HTML</a>], the <em>lingua franca</em> of most pages on
+the World Wide Web. To this end, a document was recently
+published [<a href="#KUNZE">KUNZE</a>] in order to bring some order to 
+the plethora of
+divergent implementations of Dublin Core in HTML. A related document on 
+the expression of richer Qualified Dublin Core within HTML is 
+approaching completion.</p>
+
+<p>The Dublin Core Data Model working group
+[<a href="#DCDM">DCDM</a>] was set up to look at means by which the
+richness of the Dublin Core model might be expressed outwith the limitations
+of HTML. This document represents a technical report on two specific
+outcomes from this process; a means by which the model may be
+considered, extended, tested and manipulated within the Resource
+Description Framework (RDF); and suggested mechanisms by which both
+simple and complex Dublin Core might be expressed using the
+eXtensible Markup Language (XML), the formal syntax of RDF.
+Although RDF is the 'language' used to express the data model,
+users are not limited to using only RDF in their own applications.
+Similarly, although examples throughout this document are
+expressed in XML, this does not mean the Dublin Core may only be
+encoded in this way.</p>
+
+<p>The following sections introduce the
+building blocks upon which this document relies, such as XML and
+RDF. Those who are familiar with these standards may move
+directly to <a href="#SYNTAX">A Syntax for the Dublin Core</a>.</p>
+
+<h3><a name="section1.1"></a>1.1 Introducing the eXtensible Markup Language (XML)</h3>
+
+<p>The eXtensible Markup Language (XML) [<a href="#XML-SPEC">XML-SPEC</a>] is a development of the World Wide Web
+Consortium (W3C) [<a href="#W3C">W3C</a>], derived from the more complex Standard
+Generalised Markup Language (SGML), and aimed specifically at
+implementation over the web much as HTML is used today, but with
+the possibility of greater richness in both content and
+functionality.</p>
+
+<p>In form, an XML document looks much like
+one coded in HTML &#8212; which
+in turn resembles SGML &#8212; although certain SGML structural conventions
+which were only loosely adopted in HTML have been made mandatory
+within a valid XML document.</p>
+
+<p>XML is the syntax chosen to express RDF,
+and all of the examples within this paper are represented in XML, validated by the Simple RDF Parser and Compiler (SiRPAC) [<a href="#SIRPAC">SIRPAC</a>].</p>
+
+<p>For further information on XML and its
+uses, visit the World Wide Web Consortium's XML Home Page [<a href="#XML">XML</a>].</p>
+
+<h3><a name="section1.2"></a>1.2 Introducing the Resource
+Description Framework (RDF)</h3>
+
+<p>The Resource Description Framework (RDF)
+[<a href="#RDF-SPEC">RDF-SPEC</a>] is a further World Wide Web Consortium
+initiative, building upon earlier developments such as the Dublin
+Core and the Platform for Internet Content Selectivity (PICS) [<a href="#PICS">PICS</a>]
+content rating initiative [<a href="#REN">IANNELLA</a>].</p>
+
+<p>RDF is an attempt to empower effective
+creation, exchange and use of metadata on the World Wide Web, and
+therefore addresses many of the same issues as the Dublin Core.
+Unlike the Dublin Core, however, RDF makes few assumptions about <em>semantics</em>
+whilst instead defining a coherent <em>structure</em> (for the expression of semantics) and
+recommending a powerful transport <em>syntax</em> in the form of
+XML [<a href="#XML-SPEC">XML-SPEC</a>]. As such, the combination of structure and
+syntax offered by RDF in XML is a suitable complement to the
+semantically rich Dublin Core element set, and the three can be
+used together to good effect, as demonstrated by this document.</p>
+
+<p>The basic premise behind RDF is a simple
+one; that an identifiable, addressable 'resource' may be
+described by means of a selection of 'properties' (size, name,
+maker, etc.), each of which has an associated 'value'
+(23 x 45 cm, Moonlight over Columbus, Fred Bloggs, etc.). In
+certain cases, the statement of a 'property' may, in itself,
+form a further 'resource', allowing the model to grow,
+potentially infinitely, by linking information resources together.</p>
+
+<a name="above"></a><p><a name="above">As stated above</a>, XML provides the default syntax used
+to encode RDF descriptions, and numerous examples of
+this may be seen later in the paper. At times, it can aid clarity
+to express RDF descriptions in a diagrammatic form, allowing the
+distinction between resources, properties and values to
+become clear. At their most basic, such diagrams take the form
+demonstrated below.</p>
+<p align="center">
+<a name="figure1"></a>
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Figure 1: A simple RDF assertion</b></td></tr>
+        <tr><td><img src="index_files/figure1.gif" height="83" width="344"></td>
+    </tr>
+</tbody></table>
+</p>
+<p>Here, a 'resource', <tt>http://doc</tt>, has a 'property',
+author, describing some aspect of it. The value of the 'property'
+is Joe Smith. In other words, Joe Smith is the author of <tt>http://doc</tt>.</p>
+
+<p>In this diagrammatic form, resources are
+always represented as ovals. Properties are always represented by
+arrows which point from the subject of any statement to the
+object of the statement (Joe Smith is the author of the resource.
+The resource is <em>not</em> the author of Joe Smith). Where the statement
+is simply a text string (like "Joe Smith"), it is shown
+in a rectangular box. In cases where the statement is itself a
+resource, the statement is represented as an oval which may, in
+turn, point to further properties, statements and resources.</p>
+
+<p>Presented in XML, the diagram above
+would be coded as follows, the individual elements of the XML
+being described further, below.</p>
+
+<p align="center">
+<a name="example1"></a>
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Example 1: A simple RDF assertion</b></td></tr>
+        <tr><td>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+  &lt;rdf:Description rdf:about="http://doc"&gt;
+       &lt;author&gt; Joe Smith &lt;/author&gt;
+  &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+</td>
+    </tr>
+</tbody></table>
+</p>
+
+<p>For further information on RDF and its
+uses, visit the World Wide Web Consortium's RDF Home Page [<a href="#RDF">RDF</a>].</p>
+
+<h3><a name="section1.3"></a>1.3 Introducing XML Namespaces</h3>
+
+<p>The great power of both XML and RDF is
+the ability for individual content providing communities to
+declare their own modes of expression for the description of
+resources of importance to them. However, rather than having each
+community develop a comprehensive system describing all
+aspects of their resources, XML and RDF offer a more
+interoperable foundation whereby a single description may comprise
+elements drawn from any number of accessible recording practices.
+It therefore becomes possible, for example, for all communities
+to <em>share</em> the notion of 'authorship' and use the same
+element for describing this notion, whilst one community then
+makes use of its own subject classification system and another
+embeds complex date-related information.</p>
+
+<p>The means by which this rich yet
+interoperable diversity is facilitated is known as the XML
+Namespace [<a href="#XML-NAME">XML-NAME</a>], a construct which is adopted in RDF.</p>
+
+<p>At it's most basic, an XML Namespace may
+be seen as providing human and computer-parseable context for any
+resource description element. The term, Creator, for example,
+means a variety of things to different communities. If it were
+clear, though, that this were the Dublin Core element, <tt>Creator</tt>,
+then the semantics of the element and its contents become
+somewhat clearer.</p>
+
+<p>By using a globally unique assertion such as <tt>http://purl.org.dc.elements/1.0/creator</tt>
+ to unambiguously
+identify this concept, XML/RDF allows terms in a metadata vocabulary to 
+be treated as reliably describable
+objects. This further lays the foundations by which interrelationships 
+between terms and concepts from competing
+structures may be expressed. Additionally, these unique associations of 
+terms (in any language) with a single authoritative object provide 
+impetus to much of the internationalisation work currently underway 
+within the Dublin Core process [<a href="#DC-INTERNAT">DC-INTERNAT</a>],
+ as a label (in French, say) may be linked with the authoritative 
+definition of its associated element as viewed by the Dublin Core 
+community.</p>
+
+<p>In order to differentiate between terms
+drawn from different descriptive paradigms, or 'namespaces', the
+XML Namespace mechanism requires that all elements not core to
+basic XML be preceded by a shorthand identification of the
+namespace from which they originate. To make it clear that
+Creator is the Dublin Core element, it would therefore be
+preceded by '<tt>dc:</tt>'. XML is case sensitive, making it important
+that '<tt>dc:</tt>' be entered consistently as '<tt>dc:</tt>', '<tt>Dc:</tt>', '<tt>DC:</tt>' and '<tt>dC:</tt>'
+would normally be interpreted as shorthands for four totally different namespaces.</p>
+
+<p>To make the human-interpretable link
+between '<tt>dc:</tt>' and the Dublin Core intelligible to a piece of
+software, RDF descriptions in which the XML Namespace constructs
+are used begin with a declaration of the namespaces to be used,
+the location at which they may be resolved by appropriate
+software, and the abbreviated form by which they may be
+recognised throughout the RDF description to follow.</p>
+
+<p>To associate '<tt>dc:</tt>' with the Dublin Core, for
+example, an RDF description expressed in XML might begin</p>
+
+<pre>&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.0/"&gt;</pre>
+
+<p>When resolved, suitably enabled software
+would unpack this statement in order to turn <tt>dc:creator</tt> into &lt;URL: <a href="http://purl.org/dc/elements/1.0/creator"><tt>http://purl.org/dc/elements/1.0/creator</tt></a>&gt;, and by following the link both human and
+machine may be able to decode the meaning of this element.</p>
+
+<hr><h2><a name="section2"></a>2. <a name="syntax">A syntax for the Dublin Core</a></h2>
+
+<p>From the outset, development of the
+Dublin Core element set [<a href="#DCES">DCES</a>] has been
+primarily concerned with the evolution of semantics for the
+description of resources. Syntax has, to a large extent, been
+left to individual implementors, allowing the community as a
+whole to remain focussed upon defining effective semantics for
+the Core.</p>
+
+<p>The development of RDF provides
+an environment in which the semantic ideals of Dublin Core may be
+both preserved and expressed, whilst allowing the simultaneous
+definition of a syntax utilising the eXtensible Markup Language (XML).
+A range of other syntaxes may continue to be used by implementors
+of the Dublin Core, however only the combination of
+RDF and XML currently offers the range of capabilities required to fully
+express the richness of both qualified and unqualified Dublin
+Core in an unambiguous manner.</p>
+
+<h3><a name="section2.1"></a>2.1 <a name="DC-NAMESPACE">The Dublin Core Namespace</a></h3>
+
+<p>As discussed above, XML's concept of
+Namespaces [<a href="#XML-NAME">XML-NAME</a>] is utilised in RDF in order to allow different
+communities to develop their own means of resource discovery, and
+for individual descriptions to select from one or more of these
+community-specific frameworks as required.</p>
+
+<p>The fifteen basic elements of the Dublin
+Core Element Set [<a href="#DCES">DCES</a>] as defined by <a href="http://info.internet.isi.edu/in-notes/rfc/files/rfc2413.txt">RFC 2413</a> may be
+considered to comprise a single Namespace, the encoding of which
+is demonstrated in <a href="#APP-ONE">Appendix 1</a>, and
+available for reference on the World Wide Web at &lt;URL: <a href="http://purl.org/dc/elements/1.0/"><tt>http://purl.org/dc/elements/1.0/</tt></a>&gt;.</p>
+
+<p>Although it is permissible to use any
+character string to identify this Namespace in a description, the Data Model
+group recommends use of the lower case '<tt>dc:</tt>'.</p>
+
+<h3><a name="section2.2"></a><a name="SECTION-2.2">2.2 Encoding Dublin Core in RDF with XML</a></h3>
+
+<h4><a name="section2.2.1"></a>2.2.1 Essential elements of an XML-encoded
+Dublin Core description</h4>
+
+<p>Users who intend to code XML by hand, or
+write applications which make use of it, should familiarise themselves with the XML specification [<a href="#XML-SPEC">XML-SPEC</a>],
+ and with some of the tools and introductory
+texts for XML that are beginning to appear. Although no
+substitute for a more detailed grounding in XML, this section
+offers a number of reminders to key elements of any well formed
+XML document. In ensuring that documents remain well formed, users are 
+pointed to the emerging range of XML validation tools, such as 'Are You 
+Well Formed?' (RUWF) [<a href="#RUWF">RUWF</a>].</p>
+
+<h5><a name="section2.2.1.1"></a>2.2.1.1 XML version declaration</h5>
+
+<p>Any well-formed XML document will
+include a statement of the version of XML used. At present, the
+only valid version of XML, as defined in the W3C Recommendation [<a href="#XML-SPEC">XML-SPEC</a>], is 1.0. Documents should therefore include the
+statement</p>
+
+<pre>&lt;?xml version="1.0"?&gt;</pre>
+
+<p>on their first line.</p>
+
+<h5><a name="section2.2.1.2"></a>2.2.1.2 Declaring the use of RDF</h5>
+
+<p>It is necessary to declare that RDF is
+being used, as this brings extra functionality and constraints to
+a basic XML document. This is done by including</p>
+
+<pre>&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;</pre>
+
+<p>as the first line of an RDF description;
+normally on the line following the XML version declaration. The
+RDF description must then be closed by appending</p>
+
+<pre>&lt;/rdf:RDF&gt;</pre>
+
+<p>to the end.</p>
+
+<p>As any description of Dublin Core in RDF
+will require the use of at least the <a href="#DC-NAMESPACE">Dublin Core Namespace</a>, this statement will normally be expanded to
+become</p>
+
+<pre>&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.0/"&gt;</pre>
+
+<p>This expanded statement clearly informs
+both users and applications that RDF is being used, and may be
+recognised within this portion of the document by the prefix '<tt>rdf:</tt>'.  Additionally, Dublin Core is being
+used and may be recognised within this portion of the document by the prefix '<tt>dc:</tt>'. The RDF
+description must still be closed through use of</p>
+
+<pre>&lt;/rdf:RDF&gt;</pre>
+
+after which the definitions of the namespaces become meaningless unless declared again in a new block of RDF.
+
+<h5><a name="section2.2.1.3"></a>2.2.1.3 Preserving case in element
+names</h5>
+
+<p>In XML, the case used in element names
+is extremely important, such that '<tt>Creator</tt>', '<tt>creator</tt>', '<tt>CREATOR</tt>'
+and '<tt>cREATOR</tt>' are interpreted as four totally different elements.</p>
+
+<p>The Data Model group defines element names
+expressed wholly in lower case to be best practice (so '<tt>creator</tt>',
+<em>not</em> '<tt>Creator</tt>', '<tt>CREATOR</tt>' or '<tt>cREATOR</tt>'), and this
+convention must be used where links are made to the <a href="#DC-NAMESPACE">Dublin Core Namespace</a>.</p>
+
+<p>This statement of best practice applies
+only to Dublin Core element names expressed as part of a URI (such
+as <tt>dc:creator</tt>, which software might expand to &lt;URL: <a href="http://purl.org/dc/elements/1.0/creator"><tt>http://purl.org/dc/elements/1.0/creator</tt></a>&gt;), and has no bearing upon the use of element
+names in contexts where they are only to be read by human beings.</p>
+
+<h5><a name="section2.2.1.4"></a>2.2.1.4 XML tags must close</h5>
+
+<p>HTML was rather flexible in it's
+interpretation of SGML's tagging rules, such that it was possible
+to use tags (such as <tt>&lt;P&gt;</tt>)
+without closing them (with <tt>&lt;/P&gt;</tt> in
+this example).</p>
+
+<p>In XML, a document will only be
+considered valid if all tags display both a start tag <tt>&lt;TAG&gt;</tt> and an end tag <tt>&lt;/TAG&gt;</tt> in
+all cases.</p>
+
+<h5><a name="section2.2.1.5"></a>2.2.1.5 Empty tags</h5>
+
+<p>XML supports the notion of 'empty' tags,
+which are used for a number of purposes. In these cases, a short hand
+notation may be adopted, permitting the replacement of <tt>&lt;TAG&gt; &lt;/TAG&gt;</tt> with <tt>&lt;TAG /&gt;</tt>.
+This shorthand notation is frequently used in RDF, and is
+especially useful when it comes to encoding elements of a
+qualified Dublin Core Description, as discussed in <a href="#SECTION-THREE">Section 3</a>. <a href="#section2.3">Section 2.3</a> also illustrates use of these empty tags for RDF's <a href="http://www.w3.org/TR/REC-rdf-syntax/#abbreviatedSyntax">abbreviated syntax</a>, where the bulk of the description is stored inside an empty <tt>&lt;rdf:Description /&gt;</tt> tag.</p>
+
+<h4><a name="section2.2.2"></a>2.2.2 A useful by-product: <tt>xml:lang</tt></h4>
+
+<p>An advantage of using an established syntax such as XML is that it 
+provides certain extra tools and features that the Dublin Core community
+ would otherwise need to develop separately.</p>
+
+<p>It has long been argued, for example, that a need exists to identify 
+the language in which a piece of metadata is expressed. This language 
+may well be different from the language of the <em>resource</em> being 
+described, which can be entered in the Dublin Core's Language element, 
+but is often vital to the resource discovery process.</p>
+
+<p>Catalogued in a German search engine, for example, this document 
+would still be in English, but its title may be given in German to aid 
+discovery by German speakers. Dublin Core provides the ability, via <tt>&lt;dc:language&gt;</tt>, to express the language of the document itself. XML, via the <tt>&lt;xml:lang&gt;</tt> declaration [<a href="#XML-LANG">XML-LANG</a>],
+ provides the ability to identify the languages in which individual 
+elements of metadata are expressed, and the Dublin Core data model 
+simply utilises this mechanism. See <a href="#example14">Example 14</a> for an example of metadata expressed in different languages.</p>
+
+<h4><a name="section2.2.3"></a>2.2.3 Examples</h4>
+
+As illustrated <a href="#above">above</a>, XML encodings of RDF can be very simple to construct. The earlier example is repeated here:
+<p>
+<a name="example2"></a>
+</p><p align="center">
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Example 2</b></td></tr><tr>
+        <td>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+  &lt;rdf:Description rdf:about="http://doc"&gt;
+       &lt;author&gt; Joe Smith &lt;/author&gt;
+  &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+</td>
+    </tr>
+</tbody></table>
+</p>
+<p></p>
+
+In order to represent Dublin Core in an XML expression of RDF, only two 
+small changes are required. Firstly, use of Dublin Core must be stated 
+by means of a Namespace declaration, and secondly the element, <tt>author</tt>, must be replaced with a Dublin Core element. The example may then be restated as:
+<p>
+<a name="example3"></a>
+</p><p align="center">
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Example 3</b></td></tr><tr>
+        <td>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.0/"&gt;
+  &lt;rdf:Description rdf:about="http://doc"&gt;
+    &lt;dc:creator&gt; Joe Smith &lt;/dc:creator&gt;
+  &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+</td>
+    </tr>
+</tbody></table>
+</p>
+<p></p>
+
+In a more complete example, the metadata for this document might be presented, thus:
+<p>
+<a name="example4"></a>
+</p><p align="center">
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Example 4</b></td></tr><tr>
+        <td>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.0/"&gt;
+  &lt;rdf:Description rdf:about="http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/
+   WD-dc-rdf/"&gt;
+    &lt;dc:title&gt; Guidance on expressing the Dublin Core within the Resource Description
+     Framework (RDF) &lt;/dc:title&gt;
+    &lt;dc:creator&gt; Eric Miller &lt;/dc:creator&gt;
+    &lt;dc:creator&gt; Paul Miller &lt;/dc:creator&gt;
+    &lt;dc:creator&gt; Dan Brickley &lt;/dc:creator&gt;
+    &lt;dc:subject&gt; Dublin Core; Resource Description Framework; RDF; eXtensible
+     Markup Language; XML &lt;/dc:subject&gt;
+    &lt;dc:publisher&gt; Dublin Core Metadata Initiative &lt;/dc:publisher&gt;
+    &lt;dc:contributor&gt; Dublin Core Data Model Working Group &lt;/dc:contributor&gt;
+    &lt;dc:date&gt; 1999-07-01 &lt;/dc:date&gt;
+    &lt;dc:format&gt; text/html &lt;/dc:format&gt;
+    &lt;dc:language&gt; en &lt;/dc:language&gt;
+  &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+</td>
+    </tr>
+</tbody></table>
+</p>
+<p></p>
+
+<p>Functionally richer &#8212; and therefore recommended &#8212; ways of expressing the contents of the <tt>creator</tt> and <tt>subject</tt> elements are discussed in association with <a href="#example14">Example 14</a>, below.</p>
+
+<a name="section2.3"></a><h3>2.3 Encoding Dublin Core in RDF with HTML</h3>
+
+<p>As described elsewhere [<a href="#KUNZE">KUNZE</a>], methods exist whereby Dublin Core metadata may be embedded in web pages using HTML's [<a href="#HTML">HTML</a>] <tt>&lt;META&gt;</tt> tag construct [<a href="#HTML-META">HTML-META</a>].</p>
+
+<p>It is also possible to embed RDF-based Dublin Core in web pages, as 
+may be seen by viewing the source of this document and examining the
+<tt>&lt;HEAD&gt;</tt> ... <tt>&lt;/HEAD&gt;</tt> area. However, the 
+basic RDF syntax utilised in the examples throughout this paper is not 
+suitable for embedding in HTML documents, due to the inconsistent manner
+ in which it is treated by the current generation of web browsing 
+software, and a special abbreviated syntax [<a href="#RDF-ABBREV">RDF-ABBREV</a>] must be used instead.</p>
+
+<p>This syntax is discussed more fully in the RDF Model and Syntax specification [<a href="#RDF-SPEC">RDF-SPEC</a>], but principally involves including all of the metadata description within the <tt>&lt;rdf:Description...&gt;</tt> statement such that;</p>
+
+<p>
+<a name="example5"></a>
+</p><p align="center">
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Example 5: Basic Syntax</b></td></tr><tr>
+        <td>
+<tt><p>
+&nbsp;&nbsp;&lt;?xml version="1.0"?&gt;<br>
+&nbsp;&nbsp;&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xmlns:dc="http://purl.org/dc/elements/1.0/"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;rdf:Description rdf:about="http://doc"<strong><font color="#880000">&gt;</font></strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><font color="#880000">&lt;</font></strong>dc:creator<strong><font color="#880000">&gt;</font></strong> Joe Smith <strong><font color="#880000">&lt;/dc:creator&gt;</font></strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><font color="#880000">&lt;</font></strong>dc:title<strong><font color="#880000">&gt;</font></strong> My document <strong><font color="#880000">&lt;/dc:title&gt;</font></strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><font color="#880000">&lt;</font></strong>/<strong><font color="#880000">rdf:Description</font></strong>&gt;<br>
+&nbsp;&nbsp;&lt;/rdf:RDF&gt;
+</p></tt>
+</td>
+    </tr>
+</tbody></table>
+</p>
+<p></p>
+
+<p>would become</p>
+
+<p>
+<a name="example6"></a>
+</p><p align="center">
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Example 6: Abbreviated Syntax</b></td></tr><tr>
+        <td>
+<tt><p>
+</p><p><tt>
+&nbsp;&nbsp;&lt;?xml version="1.0"?&gt;<br>
+&nbsp;&nbsp;&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xmlns:dc="http://purl.org/dc/elements/1.0/"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;rdf:Description rdf:about="http://doc"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dc:creator<strong><font color="#008800">="</font></strong>Joe Smith<strong><font color="#008800">"</font></strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dc:title<strong><font color="#008800">="</font></strong>My document<strong><font color="#008800">"</font></strong> /&gt;<br>
+&nbsp;&nbsp;&lt;/rdf:RDF&gt;
+</tt></p>
+<p></p></tt>
+</td>
+    </tr>
+</tbody></table>
+</p>
+<p></p>
+
+<p>
+where text in <font color="#880000">red</font> has been removed from Example 5 to make Example 6, and text in <font color="#008800">green</font> appears for the first time in Example 6.</p>
+
+<p>The two syntaxes mean essentially the same thing, although the former
+ may be considered less ambiguous, whilst the latter allows 
+straightforward
+embedding into HTML web documents.</p>
+
+<p>Rather than resorting to the abbreviated syntax, Dublin Core that is 
+encoded using the basic RDF syntax shown in examples throughout this 
+paper may, alternatively, be left external to the HTML document itself 
+and associated with it by means of the HTML <tt>&lt;LINK&gt;</tt> element. The recommended relation type for this purpose is REL="meta", for example:
+
+</p><ul>
+<pre>&lt;LINK rel="meta" href="mydoc.html.rdf"&gt;
+</pre>
+</ul>
+where "<tt>mydoc.html</tt>" is the name of the HTML document being described.
+<p></p>
+
+<p>The less ambiguous basic syntax is used elsewhere in this document 
+and, for the sake of clarity, is recommended for use in cases where 
+embedding in web pages is not required.</p>
+
+
+<hr><h2><a name="section3"></a>3. <a name="SECTION-THREE">Enriching the Dublin Core</a></h2>
+
+<p>The discussion, above, includes all of
+the information required to implement <a href="http://info.internet.isi.edu/in-notes/rfc/files/rfc2413.txt">RFC 2413</a>-compliant
+Dublin Core in RDF. However, the wider Dublin Core community has
+long sought to increase the richness of their descriptions
+through the use of qualification and substructure. Due to the
+manner in which these extensions to the basic fifteen elements
+evolved, a number of solutions arose, with current
+implementations including such notions as 'scheme', 'type' and
+'subelement', and the majority of coding solutions involving the
+use of convoluted pseudo-hierarchical strings such as <tt>DC.Creator.personalName</tt>, etc.</p>
+
+<p>Many of these current solutions work,
+but they are based upon a series of compromises and coded in a
+far from logical manner. The use of RDF allows clarification of the meaning of this substructuring, prior to
+offering a sound means of representing it in XML/RDF.</p>
+
+<h3><a name="section3.1"></a>3.1 <a name="requirements">Requirements</a></h3>
+
+<p>There has been a tremendous amount of discussion regarding the
+types of qualification most useful to the
+range of communities represented in the Dublin Core process.
+The following list is an attempt to capture some
+of the different requirements which
+have emerged:</p>
+
+<ul>
+    <li>Rather than entering a string of
+        numbers or letters into an element, it is
+        useful to have the ability to identify the coding system
+        utilised. It is useful, for example, to be able to add
+        value to the string '<tt>1999-04-12</tt>' by unambiguously
+        associating it with the ISO 8601 date format, whereby it
+        becomes clear that the date refers to the 12th of April
+        and not the 4th of December. In early Dublin Core
+        implementations, this was done by means of the 'Scheme'
+        qualifier to an element.</li>
+    <li>Many of the Dublin Core elements
+        encompass broad concepts or topics, such as the creator
+        of a resource. It is perceived as useful to semantically
+        refine such elements in order to say that someone is the
+        illustrator of a resource, and that illustrator is a
+        refinement of creator. In early Dublin Core
+        implementations, this was done by means of the 'Subelement'
+        qualification of an element, often by means of a pseudo-hierarchical
+        dot notation (<tt>DC.Creator.Illustrator</tt>, for example).</li>
+    <li>Regardless of relationships between described concepts &#8212; such as
+ the relationship between an author, Joe, and the resource he wrote &#8212; it
+ is frequently important to describe class-type relationships to other 
+concepts or resources. Totally unrelated to his author relationship to a
+ resource, for example, Joe remains a person. He would be a person even 
+if he didn't write the resource being described, or any other resource. 
+This fact might usefully be described by declaring him to be a member of
+ a class, person,  distinct from other creative agents who might equally
+ be described as authors, such as corporate bodies or manufactured 
+instruments like a satellite sensor. </li>
+    <li>Despite its wide-ranging nature,
+        the Dublin Core Element Set was not intended to allow detailed
+        description of all aspects of any resource. It is often
+        therefore necessary for implementors to use additional metadata 
+vocabularies alongside the Dublin Core Element Set in order to meet
+        their local needs. Conceptually, this is covered by early
+        work on the Warwick Framework [<a href="#LAGOZE">LAGOZE</a>],
+        whilst most practical implementations simply added their
+        own elements to the Core (<tt>MyElement.AgeRange</tt>, for example) in order to address
+        aspects of this need in a less than ideal fashion.</li>
+    <li>In a number of cases, users
+        perceive the need to further subdivide and categorise
+        values inserted into Dublin Core elements. 'Joe Smith',
+        for example, is a valid value in the Creator element.
+        Users might wish, though, to identify 'Joe' as this
+        individual's first name and 'Smith' has his surname, and
+        to state that his e-mail address is 'joe@home.net'. In
+        early Dublin Core implementations, this was done by means
+        of the 'Subelement' qualification of an element, often by
+        means of a pseudo-hierarchical dot notation (<tt>DC.Creator.PersonalName.Email</tt>, <tt>DC.Creator.PersonalName.Forename</tt>
+, <tt>DC.Creator.PersonalName.Surname</tt>, for example).</li>
+</ul>
+
+<h3><a name="section3.2"></a>3.2 Qualification Components</h3>
+
+<p>In considering the ways in which a
+Dublin Core element might usefully be qualified or enhanced, it
+became clear to the Data Model group that the existing
+possibilities through such constructs as Schemes, Types and
+Subelements served only to confuse, with similar tasks often
+being tackled by means of different solutions. Rather than
+attempting to represent the current structure in RDF, the Data
+Model group considered the needs of qualification in the abstract
+and evolved a suitable solution to Dublin Core's requirements.
+This solution is outlined below, and may be easily mapped to
+existing implementations of Dublin Core substructure and
+qualification.</p>
+
+<p>Use of the confusing term 'Subelement' is deprecated as a label for aspects of element qualification.</p>
+
+<p>Examined in the abstract, it became
+clear that qualification takes two main forms in Dublin Core
+applications; those qualifiers that refine or enhance the meaning
+of the <em>element</em> (totally hypothetically, 'modification
+date' might be a refinement of the Dublin Core element, Date),
+and those that refine or enhance the interpretation of the <em>value</em>
+(knowing that '<tt>1999-04-12</tt>' is encoded according to the rules of
+ISO 8601 greatly enhances a reader's ability to interpret the
+value, as it becomes clear that the twelfth day of April is being
+expressed, rather than the fourth day of December).</p>
+
+<p>The basic model for qualifying Dublin Core can be represented
+graphically in the following diagram. As well as the rectangular box 
+(representing a text string) and oval (representing a resource) 
+introduced previously, this diagram makes use of a pentagon to 
+demonstrate cases in which the arrow may point at either a text string 
+or a resource whilst remaining valid.</p>
+
+<p>For the sake of interoperability, and to enable future enhancement of
+ these resource descriptions, it is strongly recommended that use of 
+simple text strings be deprecated in favour of properly addressable 
+resources. i.e., a URI locating the term, illustrator, within an online 
+thesaurus or controlled terminology is preferable to use of the text 
+string, "illustrator".</p>
+
+<a name="figure2"></a>
+<p align="center">
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Figure 2: An illustration of the Dublin Core Data Model</b></td></tr><tr>
+        <td><img src="index_files/figure2.gif"></td>
+    </tr>
+</tbody></table>
+</p>
+
+
+<p>The components of this fully elaborated illustration include:</p>
+
+<ul>
+    <li><a name="section3.2.1"></a><h4>3.2.1 Resource</h4>
+        <p></p><blockquote>"A resource can be anything that has 
+identity.  Familiar examples include an electronic document, an image, a
+ service (e.g., "today's weather report for Los Angeles"), and a 
+collection of other resources.  Not all resources are network 
+"retrievable"; e.g., human beings, corporations, and bound books in a 
+library can also be considered resources."<br>[<a href="#RFC2396">RFC2396</a>]</blockquote>
+
+        <p></p>
+<p>Importantly, a resource in RDF must always be identifiable by means of a URI of some kind.</p>
+    </li>
+    <li><h4><a name="section3.2.2"></a>3.2.2 Element</h4>
+        <p>An element is a specific
+        characteristic or attribute of a resource. An element, in terms of the RDF
+        data model [<a href="#RDF-SPEC">RDF-SPEC</a>], is analogous to a property.
+        Each element (or property) defined by the Dublin Core
+        community has a specific semantic meaning and may define
+        its permitted values, the types of resources it can
+        describe, and its relationship with other elements. The
+        Dublin Core Element Set [<a href="#DCES">DCES</a>] defines a set properties and
+        associated semantics common to many resource description
+        communities.<br>
+        </p>
+    </li>
+    <li><h4><a name="section3.2.3"></a>3.2.3 Literal</h4>
+        <p>Literals are simple text
+        strings. Literals may have structured content (e.g. XML
+        markup) but are not further evaluated by the RDF processor. There are some
+        syntactic restrictions on how markup in literals may be
+        expressed; see <a href="http://www.w3.org/TR/WD-rdf-syntax/#quoting">Section
+        2.2.1</a> in the <a href="http://www.w3.org/TR/REC-rdf-syntax/">RDF Model and
+        Syntax Specification</a>.<br>
+        </p>
+    </li>
+    <li><h4><a name="section3.2.4"></a>3.2.4
+        Element Qualifiers</h4>
+        <p>Element qualifiers are the solution
+        proposed in order to meet the requirement (identified <a href="#requirements">above</a>) of many implementors to specify aspects
+        of a given resource with greater precision than is
+        offered by the fifteen Dublin Core elements. Element
+        Qualifiers would, for example, allow the broad concept of
+        date (handled within Dublin Core's Date element) to be
+        further subdivided into (hypothetically) date of creation,
+        date of last modification, etc.</p>
+        <p>Element Qualifiers correspond
+        loosely to the notion of 'types' or 'subelements' in some
+        early implementations of the Dublin Core.</p>
+        <p>An Element Qualifier
+        refines the semantics of a
+        Dublin Core element to further specify the relationship
+        of the element to the resource itself. The Element
+        Qualifier does not change the definition of the element,
+        nor does it modify the value. Recommended practice is to
+        use an Element Qualifier from a controlled list of
+        Element Qualifier Terms defined for that element or from
+        a domain specific list approved and maintained by a
+        particular community.<br>
+        </p>
+        <h5><a name="section3.2.4.1"></a>3.2.4.1 Element Qualifier Terms</h5>
+        <p>Element Qualifier Terms
+        represent permissible values for any given Element
+        Qualifier. By separating the generic enabling mechanisms
+        (the Element Qualifiers) from the actual qualifications
+        themselves (the Element Qualifier Terms) it remains
+        possible to provide guidance on the ways in which
+        qualification should be undertaken without the necessity
+        to create an all-encompassing set of terms from which all
+        communities should select.</p>
+        <p>For example, the ability to
+        qualify the Date element is widely accepted by Dublin
+        Core implementors. The need for a specific type of Date
+        recording the date of accession is not so universal. The
+        generic (community-wide) Element Qualifier might
+        therefore be <tt>dateType</tt>,
+        whilst one implementation permits the locally useful
+        Element Qualifier Term <tt>accessioned</tt> to be used along with this Element
+        Qualifier.</p>
+        <p>The manner in which this
+        extensibility mechanism works is illustrated in the <a href="#examples">Examples</a>.</p>
+    </li>
+</ul>
+
+<ul>
+    <li><h4><a name="section3.2.5"></a>3.2.5 Value Qualifiers</h4>
+        <p>Value Qualifiers are the solution
+        proposed in order to meet the requirement (identified <a href="#requirements">above</a>) of many implementors to specify the
+        manner in which a value is encoded, normally with
+        reference to some list of controlled terms or to a set of
+        parsing rules. Value Qualifiers would, for example, allow
+        the Date, 1999-04-12, to be unambiguously associated with
+        the ISO 8601 standard for expressing dates; thus making
+        it clear that the 12th of April is being described,
+        rather than the 4th of December. </p>
+        <p>Value Qualifiers correspond
+        loosely to the notion of 'schemes' in some early
+        implementations of the Dublin Core.</p>
+        <p>A Value Qualifier refers to the
+        value, specifying either an encoding rule or a
+        controlled vocabulary to aid in interpreting the value.
+        Recommended practice is to use a Value Qualifier
+        generally understood by the target community, or a
+        standard encoding or parsing scheme in wide use across
+        communities.</p>
+        <h5><a name="section3.2.5.1"></a>3.2.5.1 Value Qualifier Terms</h5>
+        <p>Value Qualifier Terms represent
+        permissible values for any given Value Qualifier. By
+        separating the generic enabling mechanisms (the Value
+        Qualifiers) from the actual qualifications themselves (the
+        Value Qualifier Terms) it remains possible to provide
+        guidance on the ways in which qualification should be
+        undertaken without the necessity to create an all-encompassing
+        set of terms from which all communities should select.</p>
+        <p>For example, the ability to
+        identify the encoding used for values in the Date element
+        is widely accepted by Dublin Core implementors. The need
+        for specific reference to encoding in the Gregorian
+        calendar is not so universal. The generic (community-wide)
+        Value Qualifier might therefore be <tt>dateScheme</tt>, whilst one implementation permits the
+        locally useful Value Qualifier Term <tt>Gregorian</tt> to be used along with this Value
+        Qualifier.</p>
+        <p>The manner in which this
+        extensibility mechanism works is illustrated in the <a href="#examples">Examples</a>.</p>
+    </li>
+
+<h4><a name="section3.2.6"></a>3.2.6 Intermediate Nodes</h4>
+<p>The central oval in <a href="#figure2">Figure 2</a> is known as an 
+'Intermediate Node', and is the diagrammatic means by which a series of 
+related statements are grouped together. Unlike named resources (those 
+with some form of label text inside the oval), these intermediate nodes 
+do not represent tangible or identifiable resources.</p>
+
+<p>Represented in the XML syntax (see <a href="#example8">Example 8</a> for illustration), the group of values pointed to from one of these 'Intermediate Nodes' would be gathered within a single <tt>&lt;RDF:Description...&gt;</tt> instance.</p>
+
+<h4><a name="section3.2.7"></a>3.2.7 Value Components</h4>
+<p>Although not represented in <a href="#figure2">Figure 2</a>, Value 
+Components are an important part of the Dublin Core model, allowing 
+pieces of a resource description to be grouped together and identified 
+as aspects &#8212; or components &#8212; of some whole independent of the resource 
+being described.</p>
+
+<p>Value Components are semantic characteristics (e.g. the name, hair 
+colour, eye colour and social security number of a person) of a value.  
+These characteristics may be drawn from existing vocabularies or defined
+ within specific communities. Value Components are intrinsic to the 
+value regardless of its relationship to a particular resource.</p>
+
+<p>See <a href="#example12">Example 12</a> for one instance of a Value Component.</p>
+
+<h3><a name="section3.3"></a>3.3 Repetition</h3>
+
+<p>In many applications, the
+repetition and grouping of elements or
+their values is desirable. RDF provides useful constructs
+for such grouping[<a href="#RDF-SPEC">RDF-SPEC</a>]. These include: </p>
+
+<ul>
+    <li><b>Bag: </b>An unordered list of resources or literals.
+        Bags are used to declare that a property has multiple
+        values and that there is no significance to the order in
+        which the values are given. Bag might be used to give a
+        list of part numbers where the order of processing the
+        parts does not matter. Duplicate values are permitted.</li>
+    <li><b>Sequence: </b>An ordered list of resources or literals.
+        Sequence is used to declare that a property has multiple
+        values and that the order of the values is significant.
+        Sequence might be used, for example, to preserve an
+        alphabetical ordering of values. Duplicate values are
+        permitted.</li>
+    <li><b>Alternative: </b>A list of resources or literals that
+        represent alternatives for the (single) value of a
+        property. Alternative might be used to provide
+        alternative language translations for the title of a work,
+        or to provide a list of Internet mirror sites at which a
+        resource might be found. An application using a property
+        whose value is an Alternative collection is aware that it
+        can choose any one of the items in the list as
+        appropriate.</li>
+</ul>
+
+<p>The use of these constructs (when appropriate) is encouraged when repeating
+elements, values, element qualifiers and value qualifiers, and may be seen in <a href="#example14">Example 14</a>. </p>
+
+</ul>
+
+<h3><a name="section3.4"></a>3.4 Managing complexity; introducing the 'dumb-down principle'</h3>
+
+<p>In a heterogeneous environment such as that in which the Dublin Core 
+operates, it is necessary to offer a means by which perceived 
+over-complexity may be handled. Such a need is manifested in cases where
+ users or software expecting 'simple' Dublin Core (as described in <a href="#syntax">Section 2</a>) encounter 'qualified' Dublin Core (as described in <a href="#SECTION-THREE">Section 3</a>),
+ as well as in situations where users or software able to handle 
+'qualified' Dublin Core encounter terminology from additional namespaces
+ with which they are unfamiliar, and which they do not wish to resolve 
+through reference to the namespace declaration itself.</p>
+
+<p>In both cases, a clear and unambiguous mechanism is required by which
+ the acceptable values (unqualified text in the first example, and 
+values only from understood namespaces in the second) may be extracted 
+from the Description in such a way that intelligible results are 
+obtained without significant loss of value.</p>
+
+<p>Expressed in English, the mechanism proposed is that tools simply 
+ignore any resources originating from intermediate structural nodes in 
+the node-and-arc diagram, and follow the chain of <tt>rdf:value</tt> 
+arcs until they terminate in a character string. The content of that 
+character string is then returned as the value of the Dublin Core 
+element.</p>
+
+<p align="center">
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b><a name="figure3"></a>Figure 3: A qualified Dublin Core statement</b></td></tr><tr>
+        <td><img src="index_files/figure3.gif"></td>
+    </tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+    <tr>
+        <td align="center"><b><a name="figure4"></a>Figure 4: The statement, above, after dumbing down</b></td></tr><tr>
+        <td align="center"><img src="index_files/figure4.gif"></td>
+    </tr>
+</tbody></table>
+</p>
+<h4><a name="section3.4.1"></a>3.4.1 The corollary; 'smarting up'</h4>
+
+In order to enable the smooth manipulation of 'simple' Dublin Core in 'qualified' systems <em>and </em>effective handling of 'qualified' in 'simple' systems, it is necessary to ensure the following;
+
+<ul>
+<li>A Dublin Core tool <em>must </em>understand the Dublin Core namespace, <tt>dc:</tt>, and the RDF namespace, <tt>rdf:</tt>. Understanding <tt>rdf:</tt>
+ provides an understanding of the mechanisms for extracting unualified 
+Dublin Core values from a qualified Dublin Core description.</li>
+<li><em>Every </em>description validly expressed in unqualified Dublin Core is considered to be a valid description in qualified Dublin Core.</li>
+<li>Systems capable of interpreting qualified Dublin Core <em>must not</em>,
+ when presented with a valid unqualified description, add anything to 
+that description during parsing. There are no default qualifiers for the
+ Dublin Core elements, and none should be assumed.</li>
+</ul>
+
+<hr><h2><a name="section4"></a>4. Partitioning Qualification:
+Namespaces</h2>
+
+<p>The metadata ecology of the Internet will be partitioned into
+many modular niches, each targeted to particular functions or
+communities. Such niches are often represented as <em>namespaces</em>,
+or controlled vocabularies. XML (the underlying encoding idiom of
+RDF) provides a native namespace facility that is useful for
+partitioning authority for the management of such element sets
+and their qualifiers. </p>
+
+<p>The 15 elements of the Dublin Core represent a namespace of
+bounded function (resource discovery). The combination of the
+namespace token (conventionally, <tt>dc:</tt> has been used for Dublin
+Core) and an element name identifies a defined description field
+of clearly defined scope. The syntactic conventions for
+unambiguously identifying the namespace are provided by the
+namespace declaration of XML [<a href="#XML-NAME">XML-NAME</a>]. </p>
+
+<p>In the Dublin Core namespace the semantics of 15 elements are
+defined. In order to be explicit when combining semantics from
+multiple namespaces, the namespace identifier token (i.e. '<tt>dc:</tt>')
+is prepended to these elements in
+order to uniquely identify each element. Thus the element <tt>&lt;dc:title&gt;</tt>
+could be interpreted as &lt;URL: <tt><a href="http://purl.org/dc/elements/1.0/title">http://purl.org/dc/elements/1.0/title</a></tt>&gt;
+or <em>"the 'Title' as defined by the Dublin Core Community",
+</em> and could be resolved by either the
+human reader or by a suitable software agent upon looking up the
+reference definition formed by the URL.</p>
+
+<p>The requirement for additional substructure for the Dublin
+Core elements and the permissible terms or values associated with
+this substructure has been evident from the inception of the
+Dublin Core. The Data Model Working Group is persuaded that these
+additional qualifiers and qualifying mechanisms should be managed under a separate, but
+closely related namespace of Dublin Core Qualifiers. Thus, the semantic declaration of the 15
+elements will be managed in a
+particular namespace (<tt>dc:</tt>), and generic
+qualifying mechanisms promoted by the Dublin Core community will
+be managed in an additional namespace (<tt>dcq:</tt>) available to those in need of the extra
+functionality it offers.</p>
+
+<p>Finally, a non-exclusive set of commonly
+used terms and values might additionally be defined in the
+<tt>dct:</tt> namespace. </p>
+
+<p>Users and implementors are therefore
+free to adopt and support the basic Dublin Core (as represented by <tt>dc:</tt>) on its own. Additionally, they may choose to
+embrace the extensibility mechanisms offered through <tt>dcq:</tt>. Finally, those using <tt>dcq:</tt> are further able to
+make use of commonly requested terms and values within the <tt>dct:</tt> namespace, and/or to utilise their own lists.</p>
+
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="5">
+    <tbody><tr>
+        <td><b>Namespace<br>
+        Definition</b></td>
+        <td><b>Namespace<br>
+        Prefix</b></td>
+        <td><b>Namespace<br>
+        URI</b></td>
+        <td><b>Namespace<br>
+        Declaration</b></td>
+    </tr>
+    <tr>
+        <td>The Dublin Core <br>
+        Namespace</td>
+        <td><em>dc</em></td>
+        <td><em>http://purl.org/dc/elements/1.0/</em></td>
+        <td><em>xmlns:dc="http://purl.org/<br>&nbsp;&nbsp;dc/elements/1.0/"</em></td>
+    </tr>
+    <tr>
+        <td>The Dublin Core <br>
+        Qualifier Namespace</td>
+        <td><em>dcq</em></td>
+        <td><em>http://purl.org/dc/qualifiers/1.0/</em></td>
+        <td><em>xmlns:dcq="http://purl.org<br>&nbsp;&nbsp;/dc/qualifiers/1.0/"</em></td>
+    </tr>
+    <tr>
+        <td>The Dublin Core <br>
+        Terms Namespace</td>
+        <td><em>dct</em></td>
+        <td><em>http://purl.org/dc/terms/1.0/</em></td>
+        <td><em>xmlns:dct="http://purl.org<br>&nbsp;&nbsp;/dc/terms/1.0/"</em></td>
+    </tr>
+</tbody></table>
+
+<p>Additionally, through this type of modular design, domain
+specific descriptive communities will be able to layer
+descriptive namespaces that support their
+respective requirements. </p>
+
+<p>The declarations of the <tt>dc:</tt> and <tt>dcq:</tt> namespaces are to be found in appendices <a href="#appendix1">1</a> and <a href="#appendix2">2</a>, although
+prospective users should always visit the Namespace URIs listed
+above in order to check for the most current versions. </p>
+
+<p>The interaction of these namespaces to support resource
+description is the focus of the next section.</p>
+
+<hr><h2><a name="section5"></a>5. Qualification Mechanisms: The
+DCQ Namespace</h2>
+
+<p>The basic definition of the fifteen
+Dublin Core elements [<a href="#DCES">DCES</a>] enshrined
+in the Dublin Core Namespace, <tt>dc:</tt>, is
+sufficient to enable creation of and interaction with Dublin Core
+metadata descriptions compliant with RFC 2413.</p>
+
+<p>In order to support qualification of these
+elements, Element Qualifiers and
+Value Qualifiers associated with
+each of the elements must be defined. The Dublin Core Qualifier
+Namespace (<tt>dcq:</tt>) at &lt;URL: <a href="http://purl.org/dc/qualifiers/1.0/"><tt>http://purl.org/dc/qualifiers/1.0/</tt></a>&gt;
+has been reserved for these declarations.
+The following table reflects these declarations. </p>
+
+<p>The RDF instance of this declaration
+can be found in <a href="#appendix2">Appendix 2</a>, although users
+and developers should always refer to the Namespace itself for
+the most definitive version. </p>
+
+<p>It is worth noting that the following are the machine readable &#8212; and 
+often effectively invisible &#8212; Element Qualifiers; the human readable 
+labels
+are application specific, and will
+frequently be more user friendly in terminology.</p>
+
+<table border="1" cellpadding="10" width="80">
+    <tbody><tr>
+        <td><b>Element</b></td>
+        <td><b>Element&nbsp;Qualifier</b></td>
+        <td><b>Value&nbsp;Qualifier</b></td>
+        <td><b>Value&nbsp;Type</b></td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>title</td>
+        <td><em>dcq:</em>titleType</td>
+        <td><em>dcq:</em>titleScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>creator</td>
+        <td><em>dcq:</em>creatorType</td>
+        <td><em>dcq:</em>creatorScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>subject</td>
+        <td><em>dcq:</em>subjectType</td>
+        <td><em>dcq:</em>subjectScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>description</td>
+        <td><em>dcq:</em>descriptionType</td>
+        <td><em>dcq:</em>descriptionScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>publisher</td>
+        <td><em>dcq:</em>publisherType</td>
+        <td><em>dcq:</em>publisherScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>contributor</td>
+        <td><em>dcq:</em>contributorType</td>
+        <td><em>dcq:</em>contributorScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>date</td>
+        <td><em>dcq:</em>dateType</td>
+        <td><em>dcq:</em>dateScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>type</td>
+        <td><em>dcq:</em>typeType</td>
+        <td><em>dcq:</em>typeScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>format</td>
+        <td><em>dcq:</em>formatType</td>
+        <td><em>dcq:</em>formatScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>identifier</td>
+        <td><em>dcq:</em>identifierType</td>
+        <td><em>dcq:</em>identifierScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>source</td>
+        <td><em>dcq:</em>sourceType</td>
+        <td><em>dcq:</em>sourceScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>language</td>
+        <td><em>dcq:</em>languageType</td>
+        <td><em>dcq:</em>languageScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>relation</td>
+        <td><em>dcq:</em>relationType</td>
+        <td><em>dcq:</em>relationScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>coverage</td>
+        <td><em>dcq:</em>coverageType</td>
+        <td><em>dcq:</em>coverageScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+    <tr>
+        <td><em>dc:</em>rights</td>
+        <td><em>dcq:</em>rightsType</td>
+        <td><em>dcq:</em>rightsScheme</td>
+        <td><em>rdf:</em>type</td>
+    </tr>
+</tbody></table>
+
+<hr><h2><a name="section6"></a>6. <a name="ValueTerm">Value
+Terms</a>: The DCT Namespace</h2>
+
+<p>Implementation experience has shown that,
+whatever their background, the majority of implementors tend to
+come up with lists of qualifying values for the Dublin Core in
+which there is significant overlap with those lists developed by
+others.</p>
+
+<p>Whilst not intending to constrict the
+ways in which implementors may link to their own terminologies
+utilising the enabling mechanisms provided by the <tt>dcq:</tt> Namespace, the Data Model group was keen to
+provide a means of allowing easy access to these commonly used
+qualifications in order to promote widespread interoperability.</p>
+
+<p>The Dublin Core Terms Namespace (<tt>dct:</tt>) at &lt;URL: <tt>http://purl.org/dc/terms/1.0/</tt>&gt; has been reserved
+for these declarations, and the terms themselves are under
+discussion within the Dublin Core Working Group process.</p>
+
+
+<hr><h2><a name="section7"></a><a name="examples">7. Bringing it all together: Examples</a></h2>
+
+<p>The examples, below, are intended to
+illustrate aspects of the model outlined in this document.</p>
+
+<h3><a name="section7.1"></a>7.1 Example 7</h3>
+
+<p>The following example reflects the statement
+that "Joe Smith" is the creator
+of the resource <tt>http://doc</tt>. </p>
+<a name="figure5"></a><a name="example7"></a>
+<p align="center">
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Figure 5: Diagrammatic RDF Representation</b></td></tr><tr>
+        <td align="center"><img src="index_files/figure5.gif" height="83" width="344"></td>
+    </tr>
+    <tr>
+        <td align="center"><b>Syntactic RDF Representation</b></td></tr><tr>
+        <td><pre>&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.0/"&gt;
+  &lt;rdf:Description rdf:about="http://doc"&gt;
+    &lt;dc:creator&gt; Joe Smith &lt;/dc:creator&gt;
+  &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+        </td>
+    </tr>
+</tbody></table>
+</p>
+<h3><a name="section7.2"></a>7.2 Example 8</h3>
+
+<p>The following example reflects the statement
+that "Joe Smith" is the illustrator of the
+resource <tt>http://doc</tt>. Illustrator is a type of Creator.</p>
+<a name="figure6"></a><a name="example8"></a>
+<p align="center">
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Figure 6: Diagrammatic RDF Representation</b></td></tr><tr>
+        <td align="center"><img src="index_files/figure6.gif" height="245" width="564"></td>
+    </tr>
+    <tr>
+        <td align="center"><b>Syntactic RDF Representation</b></td></tr><tr>
+        <td><pre>&lt;?xml version='1.0'?&gt;
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc = "http://purl.org/dc/elements/1.0/"
+         xmlns:dcq = "http://purl.org/dc/qualifiers/1.0/"&gt;
+ &lt;rdf:Description rdf:about = "http://doc"&gt;
+  &lt;dc:creator&gt;
+   &lt;rdf:Description&gt;
+    &lt;rdf:value&gt; Joe Smith &lt;/rdf:value&gt;
+    &lt;dcq:creatorType&gt; Illustrator &lt;/dcq:creatorType&gt;
+   &lt;/rdf:Description&gt;
+  &lt;/dc:creator&gt;
+ &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+        </td>
+    </tr>
+</tbody></table>
+</p>
+<h3><a name="section7.3"></a>7.3 Example 9</h3>
+
+<p>The following example also reflects the statement
+that "Joe Smith" is the illustrator of the
+resource <tt>http://doc</tt>. Illustrator is still a type of Creator, but this time the term has been drawn from a controlled namespace of terms.</p>
+
+
+<p>The value of <tt>creatorType</tt>, <tt>dct:Illustrator</tt>,
+utilised in this example has not yet been formally approved by the
+Dublin Core community, and is included for demonstration purposes
+only. This is an example of a <a href="#ValueTerm">Value Term</a>,
+the definitive list of terms for which is currently under development
+within the Working Group process.</p>
+<a name="figure7"></a><a name="example9"></a>
+<p align="center">
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Figure 7: Diagrammatic RDF Representation</b></td></tr><tr>
+        <td align="center"><img src="index_files/figure7.gif" height="245" width="564"></td>
+    </tr>
+    <tr>
+        <td align="center"><b>Syntactic RDF Representation</b></td></tr><tr>
+        <td><pre>&lt;?xml version='1.0'?&gt;
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc = "http://purl.org/dc/elements/1.0/"
+         xmlns:dcq = "http://purl.org/dc/qualifiers/1.0/"&gt;
+ &lt;rdf:Description rdf:about = "http://doc"&gt;
+  &lt;dc:creator&gt;
+   &lt;rdf:Description&gt;
+    &lt;rdf:value&gt; Joe Smith &lt;/rdf:value&gt;
+    &lt;dcq:creatorType rdf:resource = "http://purl.org/dc/terms/1.0/creator/type/
+     Illustrator"/&gt;
+   &lt;/rdf:Description&gt;
+  &lt;/dc:creator&gt;
+ &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+        </td>
+    </tr>
+</tbody></table>
+</p>
+
+<h3><a name="section7.4">7.4 Example 10</a></h3><a name="section7.4">
+
+<p>The following example also reflects the statement
+that "Joe Smith" is the illustrator of the
+resource <tt>http://doc</tt>. Illustrator is still a type of Creator, with the term drawn from a controlled namespace of terms.</p>
+
+</a><p><a name="section7.4">The value of <tt>creatorType</tt>, <tt>dct:Illustrator</tt>,
+utilised in this example has not yet been formally approved by the
+Dublin Core community, and is included for demonstration purposes
+only. This is an example of a </a><a href="#ValueTerm">Value Term</a>,
+the definitive list of terms for which is currently under development
+within the Working Group process.</p>
+
+<p>In <a href="#example9">Example 9</a> the value of <tt>creatorType</tt>, <tt>dct:Illustrator</tt>, was expressed by means of a full URI as part of the <tt>rdf:resource</tt> qualification of <tt>dcq:creatorType</tt>.
+ Expression of Value Qualifiers in this way can make them difficult for 
+the human reader to interpret, so a shorthand notation may be used to 
+make the same statement with direct reference to the additional <tt>dct:</tt> namespace. As may be seen by comparing Figures <a href="#figure7">7</a> and <a href="#figure8">8</a>, the diagrammatic representation changes slightly in order to accommodate this enhanced readability for the syntactic form.</p>
+
+<p>The exact manner in which terms will be drawn from the <tt>dct:</tt> 
+namespace is still under discussion within the Working Group. The way in
+ which the namespace is defined in this example, pointing specifically 
+to the location (<tt>http://purl.org/dc/terms/1.0/creator/type/</tt>) 
+from which the value will be drawn, does not scale well, and will 
+probably be replaced by a more elegant solution. Nevertheless, the 
+concept being demonstrated whereby terms from a namespace may be 
+expressed in this shorthand fashion remains valid.</p>
+
+<a name="figure8"></a><a name="example10"></a>
+<p align="center">
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Figure 8: Diagrammatic RDF Representation</b></td></tr><tr>
+        <td align="center"><img src="index_files/new_figure8.gif"></td>
+    </tr>
+    <tr>
+        <td align="center"><b>Syntactic RDF Representation</b></td></tr><tr>
+        <td><pre>&lt;?xml version='1.0'?&gt;
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc = "http://purl.org/dc/elements/1.0/"
+         xmlns:dcq = "http://purl.org/dc/qualifiers/1.0/"
+         xmlns:dct = "http://purl.org/dc/terms/1.0/creator/type/"&gt;
+ &lt;rdf:Description rdf:about = "http://doc"&gt;
+  &lt;dc:creator&gt;
+   &lt;rdf:Description&gt;
+    &lt;rdf:value&gt; Joe Smith &lt;/rdf:value&gt;
+    &lt;dcq:creatorType&gt;
+        &lt;dct:Illustrator /&gt;
+    &lt;/dcq:creatorType&gt;
+   &lt;/rdf:Description&gt;
+  &lt;/dc:creator&gt;
+ &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+        </td>
+    </tr>
+</tbody></table>
+</p>
+
+
+<h3><a name="section7.5"></a>7.5 Example 11</h3>
+
+<p>The following example reflects the statement
+that "Joe Smith" is the creator
+of the resource <tt>http://doc</tt>. The character string representing
+"Joe Smith" is encoded according to the VCARD
+specification [<a href="#VCARD">VCARD</a>].</p>
+
+<p>The value of <tt>creatorScheme</tt>
+utilised in this example, <tt>dcq:vcard</tt>, has not yet been formally approved by the
+Dublin Core community, and is included for demonstration purposes
+only. This is an example of a <a href="#ValueTerm">Value Term</a>,
+the definitive list for which is currently under development
+within the Working Group process.</p>
+<a name="example11"></a><a name="figure9"></a>
+<p align="center">
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Figure 9: Diagrammatic RDF Representation</b></td></tr><tr>
+        <td align="center"><img src="index_files/new_figure9.gif" height="241" width="564"></td>
+    </tr>
+    <tr>
+        <td align="center"><b>Syntactic RDF Representation</b></td></tr><tr>
+        <td><pre class="example">&lt;?xml version='1.0'?&gt;
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc = "http://purl.org/dc/elements/1.0/"
+         xmlns:dcq = "http://purl.org/dc/qualifiers/1.0/"&gt;
+ &lt;rdf:Description rdf:about = "http://doc"&gt;
+  &lt;dc:creator&gt;
+   &lt;rdf:Description&gt;
+    &lt;rdf:value&gt; fn:Joe Smith &lt;/rdf:value&gt;
+    &lt;dcq:creatorScheme rdf:resource = "http://purl.org/dc/terms/1.0/creator/scheme/
+     vcard"/&gt;
+   &lt;/rdf:Description&gt;
+  &lt;/dc:creator&gt;
+ &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+        </td>
+    </tr>
+</tbody></table>
+</p>
+
+<h3><a name="section7.6"></a>7.6 Example 12</h3>
+
+<p>The following example reflects the statement
+that "Joe Smith" is the creator of the resource <tt>http://doc</tt>. This
+person has characteristics (which are defined by another
+community, in this case VCARD [<a href="#VCARD">VCARD</a>]) which include a name "Joe Smith"
+and email address "joe@my.com" and an affiliation
+"My Company, Inc.".</p>
+
+<p>
+Within the Dublin Core Data Model, these 'characteristics' of Joe Smith are known as <em>Value Components</em>.
+</p>
+
+<p>The value of <tt>creatorType</tt>
+utilised in this example, <tt>dct:Illustrator</tt>, has not yet been formally approved by the
+Dublin Core community, and is included for demonstration purposes
+only. This is an example of a <a href="#ValueTerm">Value Term</a>, and
+the definitive list of terms is currently under development
+within the Working Group process.</p>
+
+<p>The VCARD Namespace proposed in this
+example remains hypothetical, although discussions are underway
+in order to make it reality.</p>
+<a name="example12"></a><a name="figure10"></a>
+<p align="center">
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Figure 10: Diagrammatic RDF Representation</b></td></tr><tr>
+        <td align="center"><img src="index_files/new_figure10.gif"></td>
+    </tr>
+    <tr>
+        <td align="center"><b>Syntactic RDF Representation</b></td></tr><tr>
+        <td><pre class="example">&lt;?xml version='1.0'?&gt;
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc = "http://purl.org/dc/elements/1.0/"
+         xmlns:vcard = "http://www.imc.org/vcard/3.0/"&gt;
+
+&lt;rdf:Description rdf:about = "http://doc"&gt;
+  &lt;dc:creator&gt;
+    &lt;rdf:Description&gt;
+      &lt;vcard:fn&gt; Joe Smith &lt;/vcard:fn&gt;
+      &lt;vcard:email&gt; joe@my.com &lt;/vcard:email&gt;
+      &lt;vcard:org&gt; My Company, Inc. &lt;/vcard:org&gt;
+    &lt;/rdf:Description&gt;
+  &lt;/dc:creator&gt;
+&lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+        </td>
+    </tr>
+</tbody></table>
+</p>
+<h3><a name="section7.7"></a>7.7 Example 13</h3>
+
+<p>The following example reflects the statement
+that a specific, uniquely identifiable person is the creator of the resource <tt>http://doc</tt>. This
+person has characteristics (which are defined by another
+community, in this case VCARD [<a href="#VCARD">VCARD</a>]) which include a name "Joe Smith"
+and email address "joe@my.com" and an affiliation
+"My Company, Inc.".</p>
+
+<p>In this case, the 'Joe Smith' in question is being identified in a 
+less ambiguous manner than in previous examples. A hypothetical 
+'directory enquiries' service is being demonstrated using the 411.com 
+URI, whereby the individual, Joe Smith, is associated with a single URI 
+that might &#8212; or might not &#8212; provide such details as social security 
+number, current employer, address, etc. Alternative URI's might include a
+ link to a specific individual's entry in a corporate X.500 database or 
+their social security or national insurance number, suitably qualified 
+with an appropriate namespace declaration, all of which serve to allow a
+ near-explicit declaration of which Joe Smith (out of the thousands 
+likely to exist) is being described.</p>
+
+<p>It is important to note that the 411.com URI is <em>not</em> the URI 
+of Joe Smith's home page on the web, as it is unreasonable to suggest 
+that an individual's personal home page could be considered to represent
+ them in this fashion. Rather, the URI is simply a means by which the 
+individual may be identified in as unambiguous a fashion as possible.</p>
+
+<p>The value of <tt>creatorType</tt>
+utilised in this example, <tt>dct:Illustrator</tt>, has not yet been formally approved by the
+Dublin Core community, and is included for demonstration purposes
+only. This is an example of a <a href="#ValueTerm">Value Term</a>, and
+the definitive list of terms is currently under development
+within the Working Group process. Also, the notion of a class, 'person',
+is proposed by the Data Model Group, but the exact method by
+which it will be implemented has yet to be agreed. Its use in this 
+example should therefore be considered experimental at this time.</p>
+
+<p>The VCARD Namespace proposed in this
+example remains hypothetical, although discussions are underway
+in order to make it reality.</p>
+<a name="example13"></a><a name="figure11"></a>
+<p align="center">
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Figure 11: Diagrammatic RDF Representation</b></td></tr><tr>
+        <td align="center"><img src="index_files/new_figure11.gif"></td>
+    </tr>
+    <tr>
+        <td align="center"><b>Syntactic RDF Representation</b></td></tr><tr>
+        <td><pre class="example">&lt;?xml version='1.0'?&gt;
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc = "http://purl.org/dc/elements/1.0/"
+         xmlns:dcq = "http://purl.org/dc/qualifiers/1.0/"
+         xmlns:vcard = "http://www.imc.org/vcard/3.0/"&gt;
+
+ &lt;rdf:Description rdf:about = "http://doc"&gt;
+  &lt;dc:creator&gt;
+    &lt;rdf:Description&gt;
+       &lt;rdf:type rdf:resource = "http://purl.org/dc/terms/1.0/creator/class/Person"/&gt;
+       &lt;dcq:creatorType rdf:resource = "http://purl.org/dc/terms/1.0/creator/type/
+        Illustrator"/&gt;
+       &lt;rdf:value rdf:resource = "http://411.com/JoeSmith"/&gt;
+    &lt;/rdf:Description&gt;
+  &lt;/dc:creator&gt;
+ &lt;/rdf:Description&gt;
+
+ &lt;rdf:Description rdf:about = "http://411.com/JoeSmith"&gt;
+   &lt;vcard:fn&gt; Joe Smith &lt;/vcard:fn&gt;
+   &lt;vcard:email&gt; joe@my.com &lt;/vcard:email&gt;
+   &lt;vcard:org&gt; My Company, Inc.&lt;/vcard:org&gt;
+ &lt;/rdf:Description&gt;
+
+&lt;/rdf:RDF&gt;
+
+</pre>
+        </td>
+    </tr>
+</tbody></table>
+</p>
+
+<h3><a name="section7.8"></a>7.8 Example 14</h3>
+
+<p>The following example illustrates a more complete record, in this 
+case a description of this document. The example differs from that given
+ in <a href="#SECTION-2.2">Section 2.2</a> as it includes some limited qualification of the Dublin Core Element Set, as introduced from <a href="#SECTION-THREE">Section 3</a> onwards.</p><p>
+
+</p><p>In grouping the editors' names, the <tt>&lt;<a href="http://www.w3.org/TR/REC-rdf-syntax/#containers">rdf:Bag</a>&gt;</tt>
+ structure is used to indicate collective editorship of the document 
+(i.e. that the three editors are related to the report as a group, 
+rather than as individuals). Note that both this <tt>&lt;rdf:Bag&gt;</tt> structure and the repeating of <tt>&lt;dc:creator&gt;</tt> as in <a href="#example4">Example 4</a>
+ are syntactically valid RDF, but the approach taken here is preferred 
+as any possible ambiguity as to the relationship between the editors is 
+removed.
+</p>
+
+<p>A second RDF <a href="#section3.3">grouping mechanism</a> is also used in this example, to offer alternative languages for some of the metadata. Use of <tt>&lt;xml:lang&gt;</tt> in this fashion is discussed in <a href="#section2.2.2">Section 2.2.2</a>.</p>
+
+<p>Note the addition of an encoding statement to the XML version 
+declaration on the first line. This statement is necessary to allow 
+correct display of the 'foreign' characters in the multilingual text.</p>
+
+<p align="center">
+<a name="example14"></a>
+<table text="#000000" bgcolor="#FFFFFF" border="1" cellpadding="10">
+    <tbody><tr>
+        <td align="center"><b>Example 14</b></td></tr>
+        <tr><td>
+<pre>&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt;
+&lt;rdf:RDF
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.0/"
+     xmlns:dcq="http://purl.org/dc/qualifiers/1.0/"&gt;
+  &lt;rdf:Description rdf:about="http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/
+    WD-dc-rdf/"&gt;
+    &lt;dc:title&gt;
+      &lt;rdf:Alt&gt;
+        &lt;rdf:li xml:lang="en"&gt;Guidance on expressing the Dublin Core within the Resource
+         Description Framework (RDF)&lt;/rdf:li&gt;
+        &lt;rdf:li xml:lang="no"&gt;Veiledning å uttrykke Dublin Core innenfor rammen av
+         Resource Description Framework (RDF)&lt;/rdf:li&gt;
+        &lt;rdf:li xml:lang="de"&gt;Dublin Core in RDF: Eine Anleitung&lt;/rdf:li&gt;
+      &lt;/rdf:Alt&gt;
+    &lt;/dc:title&gt;
+    &lt;dc:creator&gt;
+      &lt;rdf:Bag&gt;
+        &lt;rdf:li&gt;Eric Miller&lt;/rdf:li&gt;
+        &lt;rdf:li&gt;Paul Miller&lt;/rdf:li&gt;
+        &lt;rdf:li&gt;Dan Brickley&lt;/rdf:li&gt;
+      &lt;/rdf:Bag&gt;
+    &lt;/dc:creator&gt;
+    &lt;dc:description&gt;
+      &lt;rdf:Alt&gt;
+        &lt;rdf:li xml:lang="en"&gt;This document describes work carried out by the Data Model
+         Working Group of the Dublin Core Metadata Initiative.
+         Specifically, the document discusses means by which the fifteen elements of the
+         Dublin Core (as defined in RFC 2413) may be expressed using the Resource Description
+         Framework (RDF) and encoded with the eXtensible Markup Language (XML). RDF-based
+         mechanisms by which the 15 elements may be qualified are also introduced.&lt;/rdf:li&gt;
+        &lt;rdf:li xml:lang="no"&gt;Dette dokumentet beskriver arbeide utført av arbeidsgruppen
+         for datamodellering knyttet til Dublin Core-initiativet.
+         Spesifikt diskuterer dokumentet hvordan de femten elementene i Dublin Core (slik
+         disse er definert i RFC 2413) kan uttrykkes ved hjelp av Resource Description
+         Framework (RDF) og kodes ved hjelp av eXtensible Markup Language (XML). Videre
+         introduseres RDF-baserte mekanismer for å kvalifisere de 15 elementene.&lt;/rdf:li&gt;
+      &lt;/rdf:Alt&gt;
+    &lt;/dc:description&gt;
+    &lt;dc:subject&gt; Dublin Core; Resource Description Framework; RDF; eXtensible
+     Markup Language; XML &lt;/dc:subject&gt;
+    &lt;dc:publisher&gt; Dublin Core Metadata Initiative &lt;/dc:publisher&gt;
+    &lt;dc:contributor&gt; Dublin Core Data Model Working Group &lt;/dc:contributor&gt;
+    &lt;dc:date&gt;
+       &lt;rdf:Description&gt;
+        &lt;dcq:dateScheme&gt; WTN8601 &lt;/dcq:dateScheme&gt;
+        &lt;rdf:value&gt; 1999-07-01 &lt;/rdf:value&gt;
+       &lt;/rdf:Description&gt;
+    &lt;/dc:date&gt;
+    &lt;dc:format&gt;
+       &lt;rdf:Description&gt;
+        &lt;dcq:formatScheme&gt; IMT &lt;/dcq:formatScheme&gt;
+        &lt;rdf:value&gt; text/html &lt;/rdf:value&gt;
+       &lt;/rdf:Description&gt;
+    &lt;/dc:format&gt;
+    &lt;dc:language&gt;
+       &lt;rdf:Description&gt;
+        &lt;dcq:languageScheme&gt; RFC1766 &lt;/dcq:languageScheme&gt;
+        &lt;rdf:value&gt; en &lt;/rdf:value&gt;
+       &lt;/rdf:Description&gt;
+    &lt;/dc:language&gt;
+  &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+</td>
+    </tr>
+</tbody></table>
+</p>
+
+<hr><h2><a name="section8"></a>8. Conclusion</h2>
+
+<p>With the increasing availability of electronic information in a 
+plethora of forms, the need for an effective means by which these 
+resources might be described grows ever greater.</p>
+
+<p>Existing mechanisms to describe particular forms of resource within 
+individual communities continue to improve, but the need is most 
+pressing between and across communities, as the barriers of old become 
+less relevant to a modern information society and scholars attempt to 
+move seamlessly across these communities on the trail of 
+subject-spanning concepts and issues.
+</p><p>
+Originally developed from very separate ideas, the current convergence 
+of the concepts behind Dublin Core with the syntactic and structural 
+facilities offered by XML and RDF offers a powerful weapon in the 
+arsenal of those manipulating and using the wealth of information with 
+which we are surrounded.
+</p><p>
+Dublin Core offers a means by which diverse resources might be described
+ for discovery in an interdisciplinary context, and XML/RDF provides the
+ structure for unambiguous expression of this Dublin Core information, 
+as well as the straightforward addition of more detailed descriptions 
+from the communities concerned.</p><p>
+
+</p><p>Documents forthcoming from the Dublin Core Metadata Initiative 
+will serve to clarify the model upon which these potentials are based, 
+and will begin to illustrate the manner in which Dublin Core-based 
+metadata acts as a key capable of unlocking the riches of many 
+disciplinary treasure chests.</p>
+
+<p></p>
+
+<hr><h2><a name="section9"></a>9. References</h2>
+
+<p>[<a name="DC">DC</a>] Dublin Core
+Metadata Initiative Home Page &lt;URL: <a href="http://purl.org/dc/"><tt>http://purl.org/dc/</tt></a>&gt;</p>
+
+<p>[<a name="DCDM">DCDM</a>] Dublin
+Core Data Model Working Group &lt;URL: <a href="http://purl.org/dc/groups/datamodel.htm"><tt>http://purl.org/dc/groups/datamodel.htm</tt></a>&gt;</p>
+
+<p>[<a name="DCES">DCES</a>] Dublin
+Core Metadata Element Set: Reference Description &lt;URL: <a href="http://purl.org/dc/about/element_set.htm"><tt>http://purl.org/dc/about/element_set.htm</tt></a>&gt;</p>
+
+<p>[<a name="DC-INTERNAT">DC-INTERNAT</a>] Dublin Core Internationalisation Working Group, &lt;URL: <a href="http://purl.org/dc/groups/languages.htm"><tt>http://purl.org/dc/groups/languages.htm</tt></a>&gt;</p>
+
+<p>[<a name="HTML">HTML</a>] HyperText
+Markup Language Home Page &lt;URL: <a href="http://www.w3.org/MarkUp/"><tt>http://www.w3.org/MarkUp/</tt></a>&gt;</p>
+
+<p>[<a name="HTML-META"></a>HTML-META] HTML 4.0 Specification &#8212; The <tt>META</tt> element &lt;URL: <a href="http://www.w3.org/TR/REC-html40/struct/global.html#h-7.4.4.2"><tt>http://www.w3.org/TR/REC-html40/struct/global.html#h-7.4.4.2</tt></a>&gt;</p>
+
+<p><a name="REN">[IANNELLA]</a> <a href="http://www.dstc.edu.au/RDU/reports/RDF-Idiot/">An Idiot's Guide to the Resource Description
+Framework</a> by Renato Iannella,
+January 25, 1999.</p>
+
+<p>[<a name="KUNZE">KUNZE</a>] <a href="ftp://ftp.ietf.org/internet-drafts/draft-kunze-dchtml-00.txt">Encoding Dublin Core Metadata in HTML</a> by John Kunze, March 18, 1999.</p>
+
+<p>[<a name="LAGOZE">LAGOZE</a>] <a href="http://www.dlib.org/dlib/july96/lagoze/07lagoze.html">The Warwick Framework: A Container Architecture
+for Diverse Sets of Metadata</a> by
+Carl Lagoze, July/August 1996.</p>
+
+<p><a name="PICS">[PICS]</a> W3C Platform for Internet Content Selection (PICS) Home Page &lt;URL: <a href="http://www.w3.org/pics/"><tt>http://www.w3.org/pics/</tt></a>&gt; </p>
+
+<p><a name="RDF">[RDF]</a> W3C RDF Home Page &lt;URL: <a href="http://www.w3.org/RDF"><tt>http://www.w3.org/RDF</tt></a>&gt;</p>
+
+<p>[<a name="RDF-ABBREV">RDF-ABBREV</a>] W3C Recommendation of Resource Description Framework (RDF) Model and Syntax; RDF Abbreviated Syntax &lt;URL: <tt><a href="http://www.w3.org/TR/REC-rdf-syntax/#abbreviatedSyntax">http://www.w3.org/TR/REC-rdf-syntax/#abbreviatedSyntax</a></tt>&gt;</p>
+
+<p>[<a name="RDF-SPEC">RDF-SPEC</a>] W3C
+Recommendation of Resource Description Framework (RDF) Model and
+Syntax Specification &lt;URL: <a href="http://www.w3.org/TR/REC-rdf-syntax/"><tt>http://www.w3.org/TR/REC-rdf-syntax/</tt></a>&gt;</p>
+
+<p>[<a name="RFC2396"></a>RFC2396] Uniform Resource Identifiers (URI): Generic Syntax, Internet RFC 2396. &lt;URL: <tt><a href="http://info.internet.isi.edu/in-notes/rfc/files/rfc2396.txt">http://info.internet.isi.edu/in-notes/rfc/files/rfc2396.txt</a></tt>&gt;
+</p>
+
+<p><a name="RUWF">[RUWF]</a> Are You Well Formed? XML validation tool &lt;URL: <a href="http://www.xml.com/xml/pub/tools/ruwf/check.html"><tt>http://www.xml.com/xml/pub/tools/ruwf/check.html</tt></a>&gt;</p>
+
+<p><a name="SIRPAC">[SIRPAC]</a> Simple RDF Parser And Compiler (SiRPAC) RDF validation tool &lt;URL: <tt><a href="http://www.w3.org/RDF/Implementations/SiRPAC/">http://www.w3.org/RDF/Implementations/SiRPAC/</a></tt>&gt;</p>
+
+<p><a name="VCARD">[VCARD]</a> VCARD 3.0 specification, RFC 2425 &lt;URL: <a href="http://www.imc.org/rfc2425"><tt>http://www.imc.org/rfc2425</tt></a>&gt; and RFC 2426 &lt;URL: <a href="http://www.imc.org/rfc2426"><tt>http://www.imc.org/rfc2426</tt></a>&gt;</p>
+
+<p>[<a name="W3C">W3C</a>] World Wide
+Web Consortium (W3C) Home Page &lt;URL: <a href="http://www.w3.org/"><tt>http://www.w3.org/</tt></a>&gt;</p>
+
+<p>[<a name="XML">XML</a>] W3C XML
+Home Page &lt;URL: <a href="http://www.w3.org/XML/"><tt>http://www.w3.org/XML</tt></a>&gt;</p>
+
+<p>[<a name="XML-LANG">XML-LANG</a>] W3C
+Recommendation of eXtensible Markup Language (XML) 1.0; Language Identification &lt;URL: <a href="http://www.w3.org/TR/REC-xml#sec-lang-tag"><tt>http://www.w3.org/TR/REC-xml#sec-lang-tag</tt></a>&gt;</p>
+
+<p>[<a name="XML-NAME">XML-NAME</a>] XML
+Namespace Working Draft: &lt;URL: <a href="http://www.w3.org/TR/1998/WD-xml-names-19980802"><tt>http://www.w3.org/TR/1998/WD-xml-names-19980802</tt></a>&gt;, August 2, 1998.</p>
+
+<p>[<a name="XML-SPEC">XML-SPEC</a>] W3C
+Recommendation of eXtensible Markup Language (XML) 1.0 &lt;URL: <a href="http://www.w3.org/TR/REC-xml"><tt>http://www.w3.org/TR/REC-xml</tt></a>&gt;</p>
+
+<hr><h2><a name="section10"></a>10. Acknowledgements</h2>
+
+<p>This document is the work of the Dublin
+Core's Data Model working group. This working group has been most
+ably chaired by Misha Wolf of Reuters, with the face-to-face
+meetings bravely moderated by Ron Daniel.</p>
+
+<p>The members of the working group who
+helped to develop the ideas expressed here include Youcef Amerouali, Ann
+ Apps, J Azevedo, Tom Baker, David Bearman, Hans Becker, Dave Beckett, 
+Barbera Bikker, Geri Bunker, Debbie Campbell, Daphne Charles, Robina 
+Clayphan, David Cohen, Simon Cox, Michael Day, Lorcan Dempsey, Martin 
+Dillon, Thierry Dufez, Erik Duval, Bernhard Eversberg, Jeremy Frumkin, 
+Jonathan Furner, Tracy Gardner, Stephen Graham, Katrin Grosse, Hisakazu 
+Hada, Juha Hakala, Gisle Hannemyr, Kazuo Haraoka, Rachel Heery, 
+Christina Hengel, Diane Hillmann, Joanne Hooper, Alexander Hoshaba, 
+William Hutchison, Renato Iannella, Erik Jul, Markus Klink, Jon Knight, 
+John Kunze, Carl Lagoze, Karen Lang, Haimin Lee, Sigfrid Lundberg, Carl 
+Mattocks, Cliff Morgan, Pramitha Munjandira, Loren Parker, Judith 
+Pearce, John Perkins, Francisco Pinto, Andy Powell, Diann Rusch-Feja, 
+Donnell Ruthenberg, Andre S, Lee Sang-Cheol, Roland Schwaenzl, Judy 
+Silvasi-Patchin, Jane Sledge, Erin Stewart, Bill Stuart, Ed Summers, 
+Ralph Swick, Benoit Thirion, Chris Thompson, Sally Tseng, Kimmo 
+Tuominen, Yuri Volkov, Nigel Ward, Andrew Waugh, Lisa Weber, Stu Weibel,
+ Berthold Weiss, and Hendro Wicaksono, and the editors apologise if any 
+of their
+inputs have been misrepresented in this document.</p>
+
+<hr><h2><a name="appendix1"></a><a name="APP-ONE">Appendix 1: The Dublin Core Element Set Namespace</a></h2>
+
+<p>The text, below, is offered as an
+illustration of the basic Dublin Core Namespace, <tt>dc:</tt>, as of 21 April 1999. Readers are reminded that the definitive
+version of this evolving namespace is available online at &lt;URL: <a href="http://purl.org/dc/elements/1.0/"><tt>http://purl.org/dc/elements/1.0/</tt></a>&gt;.</p>
+
+<pre>  &lt;? xml version='1.0'?&gt;
+  &lt;rdf:RDF
+     xmlns:rdf="http://www.w3.org/TR/REC-rdf-syntax#"
+     xmlns:rdfs="http://www.w3.org/TR/WD-rdf-schema#"
+     xmlns:dc=""&gt;
+
+  &lt;rdf:Description rdf:about = ""&gt;
+    &lt;dc:title&gt; The Dublin Core Element Set &lt;/dc:title&gt;
+    &lt;dc:creator&gt; The Dublin Core Metadata Inititative &lt;/dc:creator&gt;
+    &lt;dc:description&gt; The Dublin Core is a simple metadata element
+	set intended to facilitate discovery of electronic
+	resources. &lt;/dc:description&gt;
+    &lt;dc:date&gt; 1995-03-01 &lt;/dc:date&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="title"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Title&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt;The name given to the resource, usually by the Creator
+    or Publisher.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="creator"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Author/Creator&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt;The person or organization primarily responsible for
+    creating the intellectual content of the resource. For example,
+    authors in the case of written documents, artists, photographers, or
+    illustrators in the case of visual resources.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="subject"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Subject&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt;The topic of the resource. Typically, subject will be
+    expressed as keywords or phrases that describe the subject or
+    content of the resource. The use of controlled vocabularies and
+    formal classification schemes is encouraged.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="description"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Description&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt; A textual description of the content of the resource,
+    including abstracts in the case of document-like objects or content
+    descriptions in the case of visual resources.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="publisher"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Publisher&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt;The entity responsible for making the resource
+    available in its present form, such as a publishing house, a
+    university department, or a corporate entity.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="contributor"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Other Contributors&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt;A person or organization not specified in a Creator
+    element who has made significant intellectual contributions to the
+    resource but whose contribution is secondary to any person or
+    organization specified in a Creator element (for example, editor,
+    transcriber, and illustrator).&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="date"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Date&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt;A date associated with the creation or availability of
+    the resource. Such a date is not to be confused with one belonging
+    in the Coverage element, which would be associated with the resource
+    only insofar as the intellectual content is somehow about that
+    date. Recommended best practice is defined in a profile of ISO 8601
+    [Date and Time Formats (based on ISO8601), W3C Technical Note,
+    http://www.w3.org/TR/NOTE-datetime] that includes (among others)
+    dates of the forms YYYY and YYYY-MM-DD. In this scheme, for example,
+    the date 1994-11-05 corresponds to November 5, 1994.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="type"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Type&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt;The category of the resource, such as home page,
+    novel, poem, working paper, technical report, essay, dictionary. For
+    the sake of interoperability, Type should be selected from an
+    enumerated list that is currently under development in the workshop
+    series.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="format"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Format&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt;The data format of the resource, used to identify the
+    software and possibly hardware that might be needed to display or
+    operate the resource. For the sake of interoperability, Format
+    should be selected from an enumerated list that is currently under
+    development in the workshop series.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="identifier"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Identifier&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt;A string or number used to uniquely identify the
+    resource. Examples for networked resources include URLs and URNs
+    (when implemented). Other globally-unique identifiers, such as
+    International Standard Book Numbers (ISBN) or other formal names are
+    also candidates for this element.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="source"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Source&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt;Information about a second resource from which the
+    present resource is derived. While it is generally recommended that
+    elements contain information about the present resource only, this
+    element may contain a date, creator, format, identifier, or other
+    metadata for the second resource when it is considered important for
+    discovery of the present resource; recommended best practice is to
+    use the Relation element instead.  For example, it is possible to
+    use a Source date of 1603 in a description of a 1996 film adaptation
+    of a Shakespearean play, but it is preferred instead to use Relation
+    "IsBasedOn" with a reference to a separate resource whose
+    description contains a Date of 1603. Source is not applicable if the
+    present resource is in its original form.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="language"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Language&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt;The language of the intellectual content of the
+    resource. Where practical, the content of this field should coincide
+    with RFC 1766 [Tags for the Identification of Languages,
+    http://ds.internic.net/rfc/rfc1766.txt ]; examples include en, de,
+    es, fi, fr, ja, th, and zh.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="relation"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Relation&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt;An identifier of a second resource and its
+    relationship to the present resource. This element permits links
+    between related resources and resource descriptions to be
+    indicated. Examples include an edition of a work (IsVersionOf), a
+    translation of a work (IsBasedOn), a chapter of a book (IsPartOf),
+    and a mechanical transformation of a dataset into an image
+    (IsFormatOf). For the sake of interoperability, relationships should
+    be selected from an enumerated list that is currently under
+    development in the workshop series.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="coverage"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Coverage&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt;The spatial or temporal characteristics of the
+    intellectual content of the resource. Spatial coverage refers to a
+    physical region (e.g., celestial sector); use coordinates (e.g.,
+    longitude and latitude) or place names that are from a controlled
+    list or are fully spelled out. Temporal coverage refers to what the
+    resource is about rather than when it was created or made available
+    (the latter belonging in the Date element); use the same date/time
+    format (often a range) [Date and Time Formats (based on ISO8601),
+    W3C Technical Note, http://www.w3.org/TR/NOTE-datetime] as
+    recommended for the Date element or time periods that are from a
+    controlled list or are fully spelled out.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description ID="rights"&gt;
+    &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+    &lt;rdfs:label&gt;Rights&lt;/rdfs:label&gt;
+    &lt;rdfs:comment&gt;A rights management statement, an identifier that
+    links to a rights management statement, or an identifier that links
+    to a service providing information about rights management for the
+    resource.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy = ""/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;/rdf:RDF&gt;
+
+</pre>
+
+<hr><h2><a name="appendix2"></a>Appendix 2: The Dublin Core Qualifiers Namespace</h2>
+
+<p>The text, below, is offered as an
+illustration of the Qualified Dublin Core Namespace, <tt>dcq:</tt> as of 21 April 1999. Readers are reminded that the definitive
+version of this namespace is available online at &lt;URL: <a href="http://purl.org/dc/qualifiers/1.0/"><tt>http://purl.org/dc/qualifiers/1.0/</tt></a>&gt;.</p>
+
+<pre>&lt;? xml version='1.0'?&gt;
+&lt;rdf:RDF
+   xmlns:rdf="http://www.w3.org/TR/REC-rdf-syntax#"
+   xmlns:rdfs="http://www.w3.org/TR/WD-rdf-schema#"
+   xmlns:dc="http://purl.org/dc/elements/1.0/"
+   xmlns:dcq=""&gt;
+
+&lt;rdf:Description rdf:about = ""&gt;
+  &lt;dc:title&gt; The Dublin Core Qualifiers  &lt;/dc:title&gt;
+  &lt;dc:creator&gt; The Dublin Core Metadata Initiative &lt;/dc:creator&gt;
+  &lt;dc:description&gt; The Dublin Core is a simple metadata element set
+intended to facilitate discovery of electronic resources. This RDF
+declaration supports the qualification of this simple set to support
+richer description. &lt;/dc:description&gt;
+  &lt;dc:date&gt; 1995-03-01 &lt;/dc:date&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="titleType"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Title Element Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The type of title.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="titleScheme"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Title Value Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The encoding scheme or processing hint
+  associated with the title.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="subjectType"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Subject Element Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The type of subject.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="subjectScheme"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Subject Value Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The encoding scheme or processing hint
+  associated with the subject.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="descriptionType"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Description Element Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The type of description.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="descriptionScheme"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Description Value Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The encoding scheme or processing hint
+  associated with the desciption.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="dateType"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Date Element Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The type of date.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="dateScheme"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Date Value Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The encoding scheme or processing hint
+  associated with the date.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="formatType"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Format Element Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The type of format.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="formatScheme"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Format Value Qualifer&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The encoding scheme or processing hint
+  associated with the format.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="identifierType"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Identifier Element Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The type of identifier.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="identifierScheme"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Identifier Value Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The encoding scheme or processing hint
+  associated with the identifier.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="languageType"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Language Element Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The type of language.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="languageScheme"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Language Value Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The encoding scheme or processing hint
+  associated with the language.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="relationType"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Relation Element Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The type of relation.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="relationScheme"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Relation Value Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The encoding scheme or processing hint
+  associated with the relation.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="coverageType"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Coverage Element Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The type of coverage.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="coverageScheme"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Coverage Value Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The encoding scheme or processing hint
+  associated with the coverage.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="rightsType"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Rights Element Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The type of rights.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;rdf:Description ID="rightsScheme"&gt;
+  &lt;rdf:type rdf:resource="http://www.w3.org/TR/REC-rdf-syntax#Property"/&gt;
+  &lt;rdfs:label&gt;Rights Value Qualifier&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;The encoding scheme or processing hint
+  associated with the rights of the resource.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy = ""/&gt;
+&lt;/rdf:Description&gt;
+
+&lt;/rdf:RDF&gt;
+</pre>
+
+<hr>
+<!-- hhmts start -->
+<pre>Last modified: Thu July 1 1999
+<!-- hhmts end -->
+  </pre>
+
+
+</body></html>

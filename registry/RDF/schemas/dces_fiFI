@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;">
+
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label xml:lang="fi-FI">
+  Nimeke
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+  Tekij&#x00e4;n tai julkaisijan antama tallenteen nimi.
+  </rdfs:comment>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label xml:lang="fi-FI">
+  Muu tekij&#x00e4;
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+	Henkil&#x00f6;, organisaatio tai palvelu, joka tekij&#x00e4;-kent&#x00e4;ss&#x00e4; mainittujen tekij&#x00f6;iden lis&#x00e4;ksi on osallistunut 
+	merkitt&#x00e4;v&#x00e4;sti tallenteen luomiseen, mutta jonka panos on ollut toissijainen verrattuna ns. p&#x00e4;&#x00e4;vastuullisen tekij&#x00e4;n 
+	osuuteen. 
+  </rdfs:comment>
+  <dc:description xml:lang="fi-FI">
+	Muu tekij&#x00e4; voi olla esimerkiksi toimittaja, kuvittaja, k&#x00e4;&#x00e4;nt&#x00e4;j&#x00e4;, sis&#x00e4;ll&#x00f6;ntuotantopalvelu.
+  </dc:description>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label xml:lang="fi-FI">
+  Tekij&#x00e4;
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+  Henkil&#x00f6; tai yhteis&#x00f6; joka on ensisijaisesti vastuussa tallenteen sis&#x00e4;ll&#x00f6;n luomisesta.
+  </rdfs:comment>
+  <dc:description xml:lang="fi-FI">
+  Esimerkiksi tekstitallenteen kirjoittaja tai, jos kyseess&#x00e4; on kuvatallenne, taiteilija, valokuvaaja tai kuvittaja. 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label xml:lang="fi-FI">
+  Julkaisija
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+  Organisaatio, henkil&#x00f6;, joka on julkaissut tai asettanut tallenteen k&#x00e4;ytett&#x00e4;v&#x00e4;ksi.
+  </rdfs:comment>
+  <dc:description xml:lang="fi-FI">
+  Julkaisija voi olla esimerkiksi kustannusyhti&#x00f6;, yliopiston laitos tai muu yhteis&#x00f6;.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label xml:lang="fi-FI">
+  Aihe
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+  Tallenteen sis&#x00e4;ll&#x00f6;n aihealueen kuvaus.
+  </rdfs:comment>
+  <dc:description xml:lang="fi-FI">
+ Aihe esitet&#x00e4;&#x00e4;n yleens&#x00e4; asiasanoilla tai fraaseilla. Kontrolloitujen sanastojen tai luokitusten k&#x00e4;ytt&#x00e4;minen on 
+ suositeltavaa, koska yhteinen terminologia parantaa hakutulosta oleellisesti.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label xml:lang="fi-FI">
+  Kuvaus
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+  Tallenteen sis&#x00e4;ll&#x00f6;n kuvaus.
+  </rdfs:comment>
+  <dc:description xml:lang="fi-FI">
+  Kuvaus voi sis&#x00e4;lt&#x00e4;&#x00e4; esimerkiksi tekstitallenteen tiivistelm&#x00e4;n tai sis&#x00e4;llysluettelon. T&#x00e4;m&#x00e4; jaottelu 
+	voidaan ilmaista tarkenteiden avulla.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label xml:lang="fi-FI">
+  Aikam&#x00e4;&#x00e4;re
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+  Aikam&#x00e4;&#x00e4;re, joka liittyy tallenteen johonkin elinkaaren vaiheeseen.
+  </rdfs:comment>
+  <dc:description xml:lang="fi-FI">
+  Yleens&#x00e4; aikam&#x00e4;&#x00e4;re ilmaisee tallenteen julkistamisajan, luontiajan, voimassaoloajan tai ajanjakson, jolloin tallenne on 
+	k&#x00e4;ytett&#x00e4;viss&#x00e4;. 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label xml:lang="fi-FI">
+  Laji
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+  Tallenteen luonne tai sis&#x00e4;ll&#x00f6;n tyyppi 
+  </rdfs:comment>
+  <dc:description xml:lang="fi-FI">
+  Laji kertoo tallenteen sis&#x00e4;ll&#x00f6;n yleisen luokan, funktion tai genren. Tallenteen luonne voi olla Dublin Core -yhteis&#x00f6;n 
+	m&#x00e4;&#x00e4;rittelem&#x00e4;n listan mukaan kokoelma, tiedosto, tapahtuma, kuva, interaktiivinen tallenne, palvelu, 
+	tieto-koneohjelma, &#x00e4;&#x00e4;nitallenne tai teksti. Sis&#x00e4;ll&#x00f6;n tyyppi voi olla esimerkiksi runokokoelma tai tieteiskirja. 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label xml:lang="fi-FI">
+  Formaatti
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+  Tallenteen fyysinen tai digitaalinen ilmiasu.
+  </rdfs:comment>
+  <dc:description xml:lang="fi-FI">
+  Yleens&#x00e4; formaatti ilmaisee tallenteen tiedostoformaatin (esim. text/html) tai vaihtoehtoisesti my&#x00f6;s tallenteen kokotietoja 
+	(esimerkiksi kesto minuutteina tai tavukoko kilo- tai megatavuina).
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label xml:lang="fi-FI">
+  Identifiointitunnus
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+  Tunnus, joka identifioi kuvailtavan tallenteen yksiselitteisesti.
+  </rdfs:comment>
+  <dc:description xml:lang="fi-FI">
+  Standardoitujen tai yleisesti hyv&#x00e4;ksyttyjen identifiointitunnusten k&#x00e4;ytt&#x00f6; on suositeltavaa.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label xml:lang="fi-FI">
+  Kieli
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+  Tallenteen kieli.
+  </rdfs:comment>
+  <dc:description xml:lang="fi-FI">
+  Ilmaistaan kielikoodilla. Jos tallenteessa on k&#x00e4;ytetty useita kieli&#x00e4; voidaan t&#x00e4;t&#x00e4; kentt&#x00e4;&#x00e4; toistaa.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label xml:lang="fi-FI">
+  Suhde
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+  Viittaus muuhun tallenteeseen, joka liittyy kuvailtavaan tallenteeseen.
+  </rdfs:comment>
+  <dc:description xml:lang="fi-FI">
+  Suhde toimii linkkin&#x00e4; toiseen tallenteeseen. On suositeltavaa viitata suhteessa olevaan URI-tunnuksella. Suhdetyypit ilmaistaan 
+	kentt&#x00e4;tarkenteilla. Huom. Viittaus l&#x00e4;hdejulkaisuun ilmaistaan l&#x00e4;hde-kent&#x00e4;ss&#x00e4;. 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label xml:lang="fi-FI">
+  L&#x00e4;hde
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+  Tallenne, johon kuvailtava tallenne perustuu kokonaan tai osittain.
+  </rdfs:comment>
+  <dc:description xml:lang="fi-FI">
+  L&#x00e4;hde toimii linkkin&#x00e4; toiseen tallenteeseen. Suositeltavaa on viitata l&#x00e4;hteeseen URI-tunnuksella.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label xml:lang="fi-FI">
+  Kattavuus
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+  Tallenteen sis&#x00e4;ll&#x00f6;n kattavuus.
+  </rdfs:comment>
+  <dc:description xml:lang="fi-FI">
+  Tyypillisesti kattavuus-kentt&#x00e4;&#x00e4; k&#x00e4;ytet&#x00e4;&#x00e4;n tallenteen alueellisen tai ajallisen kattavuuden ilmaisemiseen. 
+	Alueellinen kattavuus viittaa johonkin alueeseen tai tilaan, joka voidaan m&#x00e4;&#x00e4;ritell&#x00e4; paikan nimell&#x00e4; tai 
+	koordinaateilla (x ,y, z). Ajallinen kattavuus viittaa aikakauteen, jota teoksen sis&#x00e4;lt&#x00f6; k&#x00e4;sittelee, ei siihen milloin 
+	teos on julkaistu. Aikam&#x00e4;&#x00e4;ritys tehd&#x00e4;&#x00e4;n joko aikakauden nime&#x00e4; (esimerkiksi rauta-aika) k&#x00e4;ytt&#x00e4;en 
+	tai aikam&#x00e4;&#x00e4;re-kent&#x00e4;ss&#x00e4; m&#x00e4;&#x00e4;ritellyll&#x00e4; tavalla. 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label xml:lang="fi-FI">
+  Oikeudet
+  </rdfs:label>
+  <rdfs:comment xml:lang="fi-FI">
+  Tallenteeseen liittyvien oikeuksien ilmaus.
+  </rdfs:comment>
+  <dc:description xml:lang="fi-FI">
+  Oikeudet-kentt&#x00e4;&#x00e4;n voidaan tallentaa lyhyt maininta tallenteen k&#x00e4;ytt&#x00f6;oikeuksista tai linkki tarkempiin 
+	tekij&#x00e4;noikeustietoihin tai palveluun, joka antaa tietoja tallenteen k&#x00e4;ytt&#x00f6;mahdollisuuksista. 
+  </dc:description>
+</rdf:Property>
+
+
+</rdf:RDF>

@@ -1,0 +1,24 @@
+A {
+	FONT-WEIGHT: normal; COLOR: #003366; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: bold; COLOR: #003366; TEXT-DECORATION: none
+}
+.txtGMPNews {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #003366; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txtTechNews {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: normal; FONT-SIZE: 8pt; PADDING-BOTTOM: 3px; COLOR: #333366; PADDING-TOP: 3px; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txtHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; COLOR: #003366; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txtCopy {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txtSubHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #336699; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.txtCopySmall {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #333333; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}

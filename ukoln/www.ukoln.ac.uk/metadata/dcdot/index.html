@@ -1,0 +1,715 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="generator" content="HTML Tidy, see www.w3.org">
+<title>DC-dot</title>
+<meta name="DC.Title" content="UKOLN: DC-dot Dublin Core metadata editor">
+<meta name="DC.Creator" content="Andy Powell">
+<meta name="DC.Subject" content="Dublin Core; DC; generator; editor; Warwick Framework; SOIF; TEI; USMARC; XML; GILS; ROADS; RDF; IMS">
+<meta name="DC.Description" content="A CGI based Dublin Core metadata generator">
+<meta name="Keywords" content="Dublin Core; DC; generator; editor; Warwick Framework; SOIF; TEI; USMARC; XML; GILS; ROADS; RDF; IMS">
+<meta name="Description" content="A CGI based Dublin Core metadata generator">
+<meta name="DC.Type" content="Text">
+<meta name="DC.Format" content="text/html">
+<meta name="DC.Identifier" content="http://www.ukoln.ac.uk/metadata/dcdot/">
+<meta name="DC.Publisher" content="UKOLN, University of Bath">
+<meta name="DC.Rights" content="http://www.ukoln.ac.uk/metadata/dcdot/COPYING">
+<script type="text/javascript" language="JavaScript">
+<!--
+HelpURL = "http://www.ukoln.ac.uk/metadata/dcdot/help/";
+
+function HelpIntro() {
+    if (self.HelpWanted == null) {
+    HelpWin = window.open('', "HelpWindow", "toolbar=yes,width=500,height=300,directories=no,status=no,scrollbars=yes,resize=yes,menubar=no");
+    HelpWin.location = HelpURL;
+//  HelpWin.focus();
+    }
+    else {
+    HelpWin.location = HelpURL;
+//  HelpWin.focus();
+    }
+}
+
+function CloseHelp() {
+    if (self.HelpWanted != null) {
+        HelpWin.close();
+    }
+}
+
+//-->
+</script>
+
+<!--
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/TR/WD-rdf-syntax#"
+  xmlns:dc="http://purl.org/dc/elements/1.0/">
+  <rdf:Description about="http://www.ukoln.ac.uk/metadata/dcdot/"
+    dc:Title="DC-dot"
+    dc:Creator="Andy Powell"
+    dc:Subject="Dublin Core; DC; generator; editor; Warwick
+    Framework; SOIF; TEI; USMARC; XML; GILS; ROADS; RDF; IMS"
+    dc:Description="A CGI based Dublin Core metadata generator"
+    dc:Publisher="UKOLN, University of Bath"
+    dc:Type="Text"
+    dc:Format="text/html"
+    dc:Rights="http://www.ukoln.ac.uk/metadata/dcdot/COPYING"
+  />
+</rdf:RDF>
+ -->
+</head>
+<body onunload="CloseHelp()" bgcolor="#ffffff">
+<table summary="page-header" width="100%">
+<tbody><tr>
+<td valign="top"><a href="http://www.ukoln.ac.uk/cgi-bin/dcdot.pl"><img src="index_files/dcdot.gif" alt="DC-dot" border="0"></a> 
+
+<h2>Dublin Core metadata editor</h2>
+</td>
+<td align="right" valign="top"><a href="http://www.ukoln.ac.uk/"><img src="index_files/logo.gif" alt="UKOLN" border="0"></a> </td>
+</tr>
+</tbody></table>
+
+<hr>
+<table summary="page-body" border="0" cellpadding="6" width="100%">
+<tbody><tr>
+<td colspan="2" valign="top">
+<p><b>Type the URL of the page you want to describe...</b></p>
+
+<form action="/cgi-bin/dcdot.pl" method="post"><input name="mode" value="auto" type="hidden"><input name="url" size="50" value="http://"><br>
+<input value="Submit" type="submit"><input value="Help" onclick="HelpIntro()" type="button"><br>
+<input name="guesspublisher" value="yes" checked="checked" type="checkbox"><small>Attempt to determine DC.Publisher automatically (may be
+slow)</small><br>
+<input name="display_format" value="rdf" type="checkbox"><small>Display as RDF</small></form>
+</td>
+<td rowspan="2" bgcolor="#ccccff" valign="top" width="33%">
+<h3>DC-dot news archive</h3>
+<!--#include file="rss/dcdot.ssi"-->
+<p>DC-dot news is no longer regularly updated, as of 3-Aug-2000. UKOLN 
+maintains DC-dot in recognition of its popularity as a legacy metadata 
+tool.</p>
+
+<!--p>DCMI RSS feed added to replace manual news, 5-Apr-2011.</p-->
+
+<p><!--img src="/resources/images/icons/new.gif" alt="[new]"-->
+DC-dot now conforms with the
+<a href="http://dublincore.org/documents/dcq-html/">
+Expressing Dublin Core in HTML/XHTML meta and link elements</a>
+recommendation.</p>
+
+<p>
+Documentation is now available describing the
+<a href="http://www.ukoln.ac.uk/metadata/dcdot/help/cgi-params.html">CGI parameters supported by DC-dot</a>.</p>
+
+<p>
+DC-dot now supports an XML 'display format' that fully conforms with the
+<a href="http://dublincore.org/documents/dc-xml-guidelines/">
+Guidelines for implementing Dublin Core in XML</a> recommendation.</p>
+
+<p><a href="http://www.ukoln.ac.uk/metadata/dcassist/">DC-assist</a> - is a
+small, flexible help utility for metadata applications and is
+intended to complement the help pages embedded within existing
+software.</p>
+
+<p>DC-dot is now conformant with DC 1.1 and partially conformant
+with the recommended DC qualifiers. [<a href="http://www.ukoln.ac.uk/metadata/dcdot/help/dc11.html">more</a>]</p>
+
+<p>You can now use DC-dot to generate &lt;meta&gt; tags that
+conform to the XHTML 1.0 specification. [<a href="http://www.ukoln.ac.uk/metadata/dcdot/help/xhtml.html">more</a>]</p>
+
+<p>DC-dot does IMS! Convert your Dublin Core to <a href="http://www.imsproject.org/">IMS metadata</a>. Select 'Other
+formats', 'IMS', 'Create'. [<a href="http://www.ukoln.ac.uk/metadata/dcdot/help/ims.html">more</a>]</p>
+
+<p>Add a DC-dot button to your browser! Drag this link <!--
+<A HREF="javascript:location.href='http://www.ukoln.ac.uk/cgi-bin/dcdot.pl?mode=auto&display_format=rdf&url='+window.location;">DC-dot</A> -
+ --> [<a href="javascript:void(window.open('http://www.ukoln.ac.uk/cgi-bin/dcdot.pl?mode=auto&amp;url='+window.location))">
+DC-dot</a>] to your 'personal toolbar'. Now you can click on the
+DC-dot button, wherever you are, to create Dublin Core metadata
+about the current page. [<a href="http://www.ukoln.ac.uk/metadata/dcdot/help/personal.html">more</a>]</p>
+
+<p>DC-dot now extracts metadata from Microsoft Word and PowerPoint
+files as well as HTML Web pages.</p>
+
+<p>New to DC-dot and the Dublin Core? Try this <a href="http://www.ukoln.ac.uk/web-focus/metadata/seminar-materials/exercises/dc-dot/">
+simple set of DC-dot exercises</a>.</p>
+
+<p>Is your embedded Dublin Core valid? DC-dot performs some simple
+checks on any metadata it finds in your Web page.</p>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="33%">
+<p>This service will retrieve a Web page and automatically generate
+<a href="http://uk.dublincore.org/">Dublin Core metadata</a>,
+either as HTML &lt;meta&gt; tags or as RDF/XML, suitable for
+embedding in the &lt;head&gt;...&lt;/head&gt; section of the page.
+The generated metadata can be edited using the form provided and
+converted to various other formats (USMARC, SOIF, IAFA/ROADS, TEI
+headers, GILS, IMS or RDF) if required. Optional, context
+sensitive, help is available while editing.</p>
+<p>The Dublin Core is a metadata element set intended
+to facilitate discovery of electronic resources. Originally
+conceived for author-generated description of Web resources, it has
+attracted the attention of formal resource description communities
+such as museums, libraries, government agencies and commercial
+organizations. </p>
+
+<ul>
+<li><a href="http://www.ukoln.ac.uk/metadata/resources/dc/">More about the Dublin Core
+(DC)</a></li>
+
+<li><a href="http://www.ukoln.ac.uk/metadata/resources/rdf/">More about the Resource
+Description Framework (RDF)</a></li>
+</ul>
+</td>
+<td bgcolor="#ccccff" valign="top" width="33%">
+<h3>News from the Dublin Core Metadata Initiative</h3>
+
+<!--#include file="rss/dcmi.ssi"-->
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20121218-01">W3C Working Draft: "Dublin Core to PROV Mapping" available
+</a><br>
+2012-12-18, A Working Draft of "Dublin Core to PROV Mapping" has been 
+made available by W3C at http://www.w3.org/TR/2012/WD-prov-dc-20121211/.
+  The document provides a mapping between the PROV-O OWL2 ontology and 
+the Dublin Core Terms Vocabulary.  The Dublin Core Metadata Terms 
+mapping document is part of the PROV family of documents defining 
+various aspects that are necessary to achieve the vision of 
+inter-operable interchange of provenance information in heterogeneous 
+environments such as the Web.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20121218-02">Ana Alice Baptista and Eva M. M&#381;ndez join DC-2013 Conference Committee
+</a><br>
+2012-12-18, Ana Alice Baptista, Universidade do Minho of Braga, Portugal
+ and Eva M. M&#381;ndez, University Carlos III of Madrid, Spain have been 
+named to the DC-2013 Conference Committee.  Baptista will serve as Chair
+ of the Tutorial Committee and M&#381;ndez will serve as a co-Chair of the 
+Doctoral Symposium with a yet-to-be appointed co-Chair for the 
+collocated meeting of IPRES.  DC-2013 will be hosted by the Instituto 
+Superior T&#381;cnico and take place 2-6 September 2013 in Lisbon, Portugal. 
+ Additional information is available on the conference website at 
+http://purl.org/dcevents/dc-2013.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20121128-01">DC-2013 Call for Papers published
+</a><br>
+2012-11-28, The Call for Papers for DC-2013, to be hosted by the 
+Instituto Superior T&#381;cnico in Lisbon, Portugal, 2-6 September 2013, has 
+been published at http://purl.org/dcevents/dc-2013/cfp. The call 
+solicits submissions for Full Papers, Project Reports, Posters, Special 
+Sessions and DCMI Community Workshop Sessions. Deadline for submissions 
+is 29 March 2013.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20121128-02">DC-2013 conference theme announced: "Linking to the Future"
+</a><br>
+2012-11-28, DC-2013 in Lisbon will explore questions regarding the 
+persistence, maintenance, and preservation of metadata and descriptive 
+vocabularies. The need for stable representations and descriptions spans
+ all sectors including cultural heritage and scientific data, 
+eGovernment, finance and commerce. Thus, the maintenance and management 
+of metadata is essential to address the long term availability of 
+information of legal, cultural and economic value.  On the web, data -- 
+and especially descriptive vocabularies -- can change or vanish from one
+ moment to the next.  Nonetheless, the web increasingly forms the 
+ecosystem for our vocabularies and our data.  DC-2013 will bring 
+together in Lisbon the community of metadata scholars and practitioners 
+to engage in the exchange of knowledge and best practices in developing a
+ sustainable metadata ecosystem. DC-2013 will be collocated and run 
+simultaneous with iPRES 2013 providing a rich environment for 
+synergistic exploration of issues common to both communities.  
+Information about the conference can be found at 
+http://purl.org/dcevents/dc2013.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20121128-03">NISO/DCMI
+ Webinar: Translating the library catalog from MARC into Linked Data: An
+ update on the Bibliographic Framework Initiative
+</a><br>
+2012-11-28, A NISO/DCMI Webinar with Eric Miller will be held online at 
+1:00PM Eastern Time (18:00 UTC) on 23 January 2013. Registration for 
+this webinar closes 23 January 2013 at 12:00PM Eastern (17:00 UTC). In 
+May 2012, the Library of Congress announced a new modeling initiative 
+focused on reflecting the MARC 21 library standard as a Linked Data 
+model for the Web, with an initial model to be proposed by the 
+consulting company Zepheira.  The goal of the initiative is to translate
+ the MARC 21 format to a Linked Data model while retaining the richness 
+and benefits of existing data in the historical format. In this webinar,
+ Eric Miller of Zepheira will report on progress towards this important 
+goal, starting with an analysis of the translation problem and 
+concluding with potential migration scenarios for a broad-based 
+transition from MARC to a new bibliographic framework.  Additional 
+information can be found at at 
+http://www.niso.org/news/events/2013/dcmi/bibframework/.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20121109-01">DCMI revises membership programs
+</a><br>
+2012-11-09, DCMI has substantial revised its membership programs with 
+the goal of broadening participation for public- and private-sector 
+institutions, and, for the first time, membership participation by 
+individuals.  Implementation of the revised programs will take place in 
+two phases with the first starting immediately with the Institutional 
+Partner  program for public-sector institutions wishing to participate 
+in DCMI governance. The Supporting Partner program provides 
+private-sector companies with the means to financially support the work 
+of DCMI.  Beginning in the 1st quarter of 2013, the second phase will 
+include a Supporting Member program that includes discounted 
+registration fees for the DCMI conferences and webinars.  Information 
+about all of the programs can be found at 
+http://dublincore.org/about/membershipPrograms/.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20121109-02">NISO and DCMI announce Joint Webinar Series for 2013
+</a><br>
+2012-11-09, NISO and DCMI announce the schedule of their joint series of
+ six webinars for 2013 at http://dublincore.org and 
+http://www.niso.org/news/events/2013/.  Details including presenters and
+ abstracts to follow.  Webinar titles include: Translating the Library 
+Catalog from MARC into Linked Data: An Update on the Bibliographic 
+Framework Initiative, Deployment of RDA (Resource Description and 
+Access) Cataloging and its Expression as Linked Data, Semantic Mashups 
+Across Large, Heterogeneous Institutions: Experiences from the VIVO 
+Service, Implementing Linked Data in Developing Countries and 
+Low-Resource Conditions, Metadata for Public Sector Administration, and 
+Cooperative Authority Control.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20121008-01">DCMI launches donations program
+</a><br>
+2012-10-08, DCMI has created a Donations Program to support specific 
+DCMI activities.  Descriptions of donation categories are available at 
+http://dublincore.org/support/.  In addition to donations targeting 
+support for DCMI International Conference fellowships to defray travel 
+and accommodations costs for select fellows, the Program includes 
+support for current DCMI Work Themes: "Platform-independent Application 
+Profiles", 'Mapping Diverse Vocabularies" and "Sustainable 
+Vocabularies".  Work theme donations will be used primarily to support 
+stipends to community members who take on editorial responsibilities for
+  specific work themes.  In addition, work theme donations provide 
+community members with the means to "vote" regarding which theme or 
+themes are most important to them.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120917-01">NISO/DCMI Webinar: Embedding Linked Data invisibly into Web pages: Strategies and workflows for publishing with RDFa
+</a><br>
+2012-09-17, A NISO/DCMI Webinar with Brian Sletten and Stephane 
+Corlosquet will be held online at 1:00PM Eastern Time (17:00 UTC) on 24 
+October 2012. Registration for this webinar closes 24 October 2012 at 
+12:00PM Eastern (16:00 UTC). This webinar will describe how RDFa and 
+Drupal 7 can improve how organizations publish information and data on 
+the Web for both internal and external consumption. It will discuss what
+ is required to use these features and how they impact publication 
+workflow. The talk will focus on high-level and accessible 
+demonstrations of what is possible. Technical people should learn how to
+ proceed while non-technical people will learn what is possible. A full 
+description of the webinar can be found at 
+http://www.niso.org/news/events/2012/dcmi/publishing_with_RDFa/.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120917-02">Planning begins for DC-2013 in Lisbon
+</a><br>
+2012-09-17, Planning for DC-2013 in Lisbon, Portugal on 2-6 September 
+2013 has started.  The conference will be collocated with iPRES 2013 and
+ will be hosted by IST - Instituto Superior Tecnico (Engineering School 
+of the Lisbon Technical University). Muriel Foulonneau (Henri Tudor 
+Research Centre) and Kai Eckert (Mannheim University Library) have 
+agreed to serve as Program Committee co-chairs.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120820-01">Eric Childress appointed as member of the DCMI Oversight Committee
+</a><br>
+2012-08-20, It is with great pleasure that we announce the appointment 
+of Eric Childress to the DCMI Oversight Committee for a three year term 
+as an Independent Member.  The Oversight Committee is DCMI's governing 
+body on policy and strategy.  Eric is a Consulting Project Manager with 
+OCLC Research and has been active in the Dublin Core beginning with the 
+DC-3: CNI/OCLC Workshop on Metadata for Networked Images (1996). Eric 
+currently serves as an active member of the DCMI Advisory Board and as a
+ member of the @dublincore Twitter editorial team.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120820-02">DC-2012 is drawing near!
+</a><br>
+2012-08-20, The start of DC-2012 to be held 3-7 September 2012 in 
+Kuching, Sarawak, Malaysia is now two weeks away. We are still accepting
+ registrations. It will still be possible to register on-site during the
+ event. The final program is available.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120718-01">Final Program published for DC-2012
+</a><br>
+2012-07-18, The organizing committee of DC-2012 has published the Final 
+program of the event. DC-2012 is part of Knowledge Technology Week 
+2012.On Monday and Tuesday, 3-4 September there will be two full-day 
+Tutorials on Semantic Metadata. The program for the conference on 
+Wednesday through Friday, 5-7 September includes plenary keynotes and 
+paper sessions, posters, workshop and special sessions.  You can show 
+your interest at Lanyrd. Twitter stream at @dcmi12, hashtag #dcmi12. 
+Registration is now open. 
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120718-02">NISO/DCMI Webinar: Metadata for Managing Scientific Research Data
+</a><br>
+2012-07-18, A NISO/DCMI Webinar with Jane Greenberg will be held online 
+at 1:00PM Eastern Time (17:00 UTC) on 22 August 2012. Registration for 
+this webinar closes 22 August 2012 at 12:00PM Eastern (16:00 UTC).  The 
+webinar will provide an historical perspective and an overview of 
+current metadata practices for managing scientific data, with examples 
+drawn from operational repositories and community-driven data science 
+initiatives. It will discuss challenges and potential solutions for 
+metadata generation, identifiers, name authority control, Linked Data, 
+and data citation. A full description of the webinar can be found at 
+http://www.niso.org/news/events/2012/dcmi/scientific_data/.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120706-01">JES and Co. Joins as DC-2012 Sponsors
+</a><br>
+2012-07-06, JES and Co. has joined DCMI and MIMOS Berhad in bringing you
+ DC-2012 in Kuching, Sarawak, Malaysia. JES and Co. is a U.S. nonprofit 
+and a leader in the deployment of Linked Data principles in the service 
+of education in the U.S. and in linking educational resources globally.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120614-01">Preliminary Program for DC-2012 published
+</a><br>
+2012-06-14, The organizing committee of DC-2012 has published the 
+preliminary program of the event. On Monday and Tuesday, 3-4 September 
+there will be two full-day Tutorials on Semantic Metadata. The program 
+for the conference on Wednesday through Friday, 5-7 September includes 
+plenary keynotes and paper sessions, posters, workshop and special 
+sessions.  You can show your interest at Lanyrd. Twitter stream at 
+@dcmi12, hashtag #dcmi12. Registration is now open. 
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-201206014-02">DC-2012 Special Session: Linked Data Vocabularies and Drupal
+</a><br>
+2012-06-14, A number of the organizations represented at the DC-2012 use
+ a Drupal platform (e.g., FAO and VIVO) or are planning such a migration
+ (ZBW Labs and DCMI). This special session titled Linked Data 
+Vocabularies and Drupal will explore the relationship between Drupal and
+ Linked Open Data (LOD) vocabularies - specifically, how Drupal systems 
+can ingest and use LOD vocabularies and publish data using LOD 
+vocabularies. How does, or how might, Drupal interact with the Agrovoc 
+Vocbench, AgInfra tools, metadata registries, or Schema.org?  More 
+information available at 
+http://dcevents.dublincore.org/index.php/IntConf/index/pages/view/specialSessions-2012.
+ 
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-201206014-03">Agro-Know Technologies and agINFRA Project Join as DC-2012 Sponsors
+</a><br>
+2012-06-14, Agro-Know Technologies and the agINFRA Project have joined 
+DCMI and MIMOS Berhad in bringing you DC-2012 in Kuching, Sarawak, 
+Malaysia. The conference will offer the metadata community the 
+opportunity to come together to discuss metadata innovation in design, 
+deployment and best practices. 
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-201206014-04">DCMI Metadata Terms published with RDFa markup
+</a><br>
+2012-06-14, A maintenance release of DCMI Metadata Terms, published 
+today, now includes HTML markup describing all of its properties, 
+classes, datatypes, and vocabulary encoding schemes in machine-readable 
+RDF in accordance with the new W3C RDFa Lite 1.1 specification.  RDFa 
+Lite 1.1, published as a W3C Recommendation on 7 June 2012, is the 
+simplest variant of RDFa, a syntax for embedding structured data in Web 
+pages.  A Web page with RDFa provides -- in the same source document -- 
+both the human-readable text rendered on-screen by browsers and the 
+detailed machine-readable representation needed by Semantic Web 
+applications.   The publication software used by DCMI for the past 
+decade was modified and extended to support RDFa by Hugh Barnes, Gregg 
+Kellogg, and Mitsuharu Nagamori with help from Manu Sporny, Tom Baker, 
+Dan Brickley, and Jon Phipps.  All of the software and data used to 
+generate this documentation is available from an open-source repository 
+on GitHub.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-201206014-05">DCMI Metadata Terms available in multiple formats via content negotiation
+</a><br>
+2012-06-14, Following the W3C guidelines "Best Practice Recipes for 
+Publishing RDF Vocabularies", documentation of DCMI's metadata terms may
+ now be requested by Web browsers and software applications in several 
+formats.  For example, an RDF description of the DCMI property "Title" 
+may be requested as a file in RDF/XML or Turtle syntax, via HTTP content
+ negotiation, or as an  HTML page with an RDF representation embedded in
+ its markup using RDFa.  Since March 2000, users navigating to the URI 
+http://purl.org/dc/elements/1.1/title in a Web browser have been shown a
+ difficult-to-read RDF/XML schema.  Browsers will now display a 
+human-readable HTML document, and most browsers will take users to the  
+spot in the page where the property "Title" is defined.  DCMI's 
+implementation of content negotiation was undertaken by Jon Phipps with 
+assistance from Tom Baker and Jinho Park.  Interested software 
+implementers are invited to inspect, comment on, contribute to, or raise
+ issues about the approach taken, which is fully documented in an 
+open-source repository on GitHub.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120601-03">DC-2012 online registration now open
+</a><br>
+2012-05-25, Online registration for DC-2012 is now open at 
+http://ktw.mimos.my/registration2012/. DC-2012 is part of the Knowledge 
+Technology Week 2012 activities.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120601-04">DC-2012 pre-conference semantic metadata tutorials
+</a><br>
+2012-05-25, The two DC-2012 full-day pre-conference tutorials will each 
+provide information professionals with beginning knowledge and skills 
+necessary to design and development of semantic metadata including 
+design of ontologies and controlled vocabularies useful in linked data 
+on the open Web. The tutorials will also focus on design of metadata 
+application profiles to meet an organization or company's needs to 
+publish to the open Web using OWL and topic maps ontologies. Presenters 
+Karen Coyle and Sam Oh have extensive experience teaching and working 
+with professionals practicing in all forms of memory institutions 
+(libraries, museums and archives) as well as the private sector. The 
+tutorials are designed to address the needs of professionals with either
+ minimal technical skills or those with extensive skills in non-semantic
+ metadata wanting to develop knowledge and skills in the context of 
+linked data and the Semantic Web.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120507-01">Maintenance revision of DCMI Metadata Terms
+</a><br>
+2012-05-07, The DCMI Usage Board has approved a revision of the usage 
+note for the element Subject. This maintenance release has been 
+undertaken in preparation for the routine five-year review of ANSI/NISO 
+Z39.85-2007 ("The Dublin Core Metadata Element Set").
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120507-02">Presentations Available for "Five Years On" Seminar at the British Library
+</a><br>
+2012-05-07, Presentations from the successful DCMI-UK regional meeting 
+"Five Years On" at the British Library on 26-27 April 2012 are available
+ at http://dcevents.dublincore.org/index.php/BibData/fyo. Additional 
+resources from the Seminar and the collocated meetings of the DCMI 
+Bibliographic Metadata Task Group and the Vocabulary Management 
+Community will be added to the website over the next several weeks.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120402-01">Speakers chosen for DCMI-UK London meeting on libraries and the Semantic Web
+</a><br>
+2012-04-02, The organizers of the DCMI-UK regional meeting at the 
+British Library on 26-27 April 2012 are pleased to announce the 
+preliminary list of speakers for the Seminar including Barbara Tillett 
+(Joint Steering Committee for the Development of RDA (JSC)), Robina 
+Claphan (Europeana), Mirna Willer (IFLA ISBD Review Group), Pat Riva 
+(IFLA FRBR Review Group), Thomas Baker (DCMI), Gordon Dunsire (IFLA 
+Namespaces Technical Group and DCMI), Diane Hillmann (DCMI and Metadata 
+Management Associates) and Owen Stephens (JISC).  The regional meeting 
+is co-endorsed by DCMI and DCMI-Member JISC.  Registration for the 
+meeting is now open at the meeting website.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120402-02">DC-2012 Call for Participation closed
+</a><br>
+2012-04-02, The Call for Papers and other contributions for DC-2012, to 
+be hosted by MIMOS, 3-7 September in Kuching, Sarawak, Malaysia, is now 
+closed. Authors of submitted papers, project reports, posters, special 
+sessions and DCMI Community workshop sessions will receive notification 
+in late May. The preliminary program will be published in the first half
+ of June.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120402-03">New DCMI Task Group: Cultural Heritage Metadata Task Group established
+</a><br>
+2012-04-02, DCMI is pleased to announce the creation of a Cultural 
+Heritage Metadata Task Group to identify the challenges of metadata for 
+cultural heritage and to provide a simple cross-community metadata model
+ for Cultural Heritage Objects and give a recommendation for the 
+development of DCMI Application Profiles. The Task Group is led by 
+Advisory Board members Stefanie RÂ&#376;hle (SUB GÂ&#353;ttingen) and Emad 
+Khazraee (Drexel University).
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120314-01">DC-2012 Call for Papers: Deadline extended until 30 March 2012
+</a><br>
+2012-03-14, The Organizing Committee for DC-2012 is happy to announce 
+that the deadline for submissions for DC-2012, to be held 3-7 September 
+2012 in Kuching, Sarawak, Malaysia, has been extended to 30 March 2012. 
+We are looking forward to your contributions!
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120314-02">NISO/DCMI Webinar: Schema.org and Linked Data: Complementary Approaches to Publishing Data
+</a><br>
+2012-03-14, A NISO/DCMI Webinar with Dan Brickley will be held online at
+ 1:00PM Eastern Time (17:00 UTC) on 25 April 2012. Registration for this
+ webinar closes 25 April 2012 at 12:00PM Eastern (16:00 UTC).  Dan 
+Brickley will explore how the publication methods of Schema.org relate 
+to the methods used to publish Linked Data. Must data providers commit 
+to one or the other, or can the two approaches exist side-by-side, even 
+reinforcing each other? A full description of the webinar can be found 
+at http://www.niso.org/news/events/2012/dcmi/linked_data/.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120208-01">RCKC, University of Tsukuba joins DCMI as Gold Partner
+</a><br>
+2012-02-08, DCMI is very pleased to announce that the Research Center 
+for Knowledge Communities (RCKC), University of Tsukuba has joined DCMI 
+as a Gold Partner with membership through 31 January 2013. Please see 
+the Partner page for more details. The DCMI Partnership Program is open 
+for all companies and organizations that want to support DCMI 
+financially to continue its work to the benefit of the global metadata 
+audience.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120208-02">Ibero-American DCMI Community on Facebook
+</a><br>
+2012-02-08, The Ibero-American DCMI community has created Cafeteria DCMI
+ on Facebook for sharing and metadata discussions in Spanish and 
+Portuguese. EspaÂ&#141;o de partilha e discussÂ&#8249;o da comunidade 
+Ibero-Americana de metadados / Espacio de intercambio y discusiÂ&#8212;n de la
+ comunidad Iberoamericana de metadatos. Join the conversation!
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120130-01">DCMI-UK Regional Meeting: Mark your calendars for 26-27 April 2012
+</a><br>
+2012-01-30, The DCMI Bibliographic Metadata Task Group will be holding 
+its inaugural Meeting in London on 26 April 2012 in conjunction with the
+ DCMI Vocabulary Management Community. The meetings will be followed on 
+27 April by a seminar examining the impact of the London Meeting of 
+2007, which brought DCMI and the Joint Steering Committee for 
+Development of RDA (JSC) together to build the RDA Vocabularies. The 
+DCMI meetings on the 26th will be free and open to all. The full 
+announcement of the meetings is available and the agenda for the meeting
+ of this community will be developed on the wiki and the Task Group 
+discussion list over the coming months.
+
+</p>
+<p><a href="http://dublincore.org/news/2012/#dcmi-news-20120130-02">UW Information School joins DCMI as Gold Partner
+</a><br>
+2012-01-30, DCMI is very pleased to announce that the Information School
+ of the University of Washington has joined DCMI as a Gold Partner with 
+membership through 31 December 2012. Please see the Platinum Partner 
+page for more details. The DCMI Partnership Program is open for all 
+companies and organizations that want to support DCMI financially to 
+continue its work to the benefit of the global metadata audience.
+
+</p>
+<p><a href="http://dublincore.org/news/2011/#dcmi-news-20111220-01">Meeting minutes available: DCMI Task Group on Schema.org-to-Dublin Core property mappings
+</a><br>
+2011-12-20, The Dublin Core Metadata Initiative's Schema.org Alignment 
+Task Group held its first teleconference on 12 December to discuss a 
+proposed mapping of DCMI metadata terms to terms in the Schema.org 
+vocabulary.  The teleconference report is available and highlights 
+different potential uses for published mappings: as a social signal that
+ different standards can work together, as a source of documentation for
+ people who work with data, as a source of patterns for search-engine 
+engineers, and as input into the further development of vocabularies and
+ related applications. 
+
+</p>
+<p><a href="http://dublincore.org/news/2011/#dcmi-news-20111205-01">DC-2012 to be part of Knowledge Technology Week 2012
+</a><br>
+2011-12-05, DC-2012 in Kuching, Sarawak, Malaysia will be part of the 
+collocated activities of Knowledge Technology Week 2012.  DC-2012 
+delegates will be able to engage with the delegates of the Pacific Rim 
+International Conference on Artificial Intelligence (PRICAI) and the 
+International Conference on Principles and Practice of Multi-Agent 
+Systems (PRIMA-2012) and enjoy the opportunity to participate in 
+sessions and social events across the range of collocated activities. 
+
+</p>
+<p><a href="http://dublincore.org/news/2011/#dcmi-news-20111128-01">DC-2012 Call for Papers published
+</a><br>
+2011-11-28, The Call for Papers for DC-2012 hosted by MIMOS Berhad in 
+Kuching, Sarawak, Malaysia, 3-7 September 2012, has been published. The 
+call solicits submissions for Full Papers, Project Reports, Posters, 
+Special Sessions and DCMI Community Workshop Sessions. Deadline for 
+submissions is 23 March 2012. 
+
+</p>
+<p><a href="http://dublincore.org/news/2011/#dcmi-news-20111128-02">New DCMI Oversight Committee Members: Winston Ong and Ulla Ikaheimo
+</a><br>
+2011-11-28, At the Dublin Core Metadata Initiative's 20 September 2011 
+meeting at The Hague,  Winston Ong and Ulla Ikaheimo joined the 
+Oversight Committee representing the National Library Library Board 
+Singapore and the National Library of Finland.  
+
+</p>
+<p><a href="http://dublincore.org/news/2011/#dcmi-news-20111031-01">W3C Library Linked Data Incubator Group Final Report published
+</a><br>
+2011-10-31, The W3C Library Linked Data Incubator Group has published 
+its final report at 
+http://www.w3.org/2005/Incubator/lld/XGR-lld-20111025/, examining how 
+Semantic Web standards and Linked Data principles can be used to make 
+the information assets of libraries more widely visible and re-usable on
+ the Web.  The report is supplemented by descriptions of use cases and 
+by an inventory of datasets, value vocabularies, and metadata element 
+sets currently available as Linked Data. 
+
+</p>
+<p><a href="http://dublincore.org/news/2011/#dcmi-news-20111012-01">New Architecture Forum task group on alignment with Schema.org
+</a><br>
+2011-10-12, The DCMI Architecture Forum has formed the DCMI Schema.org 
+Alignment Task Group to define and publish mappings (alignments) between
+ Schema.org vocabularies and DCMI Metadata Terms.  The Task Group is 
+open to participation by any interested member of the public.  A Task 
+Group wiki has been set up at 
+http://wiki.dublincore.org/index.php/Schema.org_Alignment.  Discussion 
+in the Task Group will take place on the dc-architecture mailing list at
+ http://www.jiscmail.ac.uk/lists/dc-architecture.html. 
+
+</p>
+<p><a href="http://dublincore.org/news/2011/#dcmi-news-20111007-01">The RDA Vocabularies: Implementation, Extension, and Mapping
+</a><br>
+2011-10-07, A NISO/DCMI Webinar, 
+http://www.niso.org/news/events/2011/dcmi/rda will be held online at 
+13:00 Eastern Time on 16 November 2011. Diane Hillmann will provide an 
+up-to-the-minute update on the development of an element vocabulary, 
+application profile, and value vocabularies based on the Resource 
+Description and Access (RDA) standard. Registration closes on November 
+16, 2011 at 12:00 Eastern Time.
+
+</p>
+<p><a href="http://dublincore.org/news/2011/#dcmi-news-20111007-02">DC-2011 Sets DCMI Attendance Record
+</a><br>
+2011-10-07, DC-2011 at The Hague set a new attendance record for the 
+DCMI International Conference series with delegates from 36 countries 
+representing every continent but Antarctica.  Surely there are metadata 
+needs in Antarctica--next year delegates from Delphia and Semei when we 
+meet for DC-2012 in Malaysia!
+
+</p>
+<p><a href="http://dublincore.org/news/2011/#dcmi-news-20111007-03">DC-2012 Set for Kuching, Sarawak, Malaysia
+</a><br>
+2011-10-07, DC-2012 has been scheduled to take place in Kuching, 
+Sarawak, Malaysia 3-7 September 2012 as part of Knowledge Technology 
+Week.  It will be collocated with the Pacific Rim International 
+Conference on Artificial Intelligence and the International Conference 
+on Principles and Practice of Multi-Agent Systems as well as with a 
+number of other symposia and workshops.
+
+</p>
+<p><a href="">DC-2011 Interviews Published: Bermes, Dekkers, Sutton, Baker </a><br></p>
+</td></tr></tbody></table>
+<hr>
+<table summary="page-footer" width="100%">
+<tbody><tr>
+<td valign="top">Created by: <a href="http://www.ukoln.ac.uk/ukoln/staff/a.powell/">Andy Powell</a><br>
+Maintained by: <a href="mailto:systems@ukoln.ac.uk">UKOLN Systems Support Team</a> <br>
+Last actively updated: 3-Aug-2000 <br>
+Last maintenance fix: 5-Apr-2011
+
+<p><font size="-1">[<a href="http://www.ukoln.ac.uk/metadata/resources/">Resources</a>]
+[<a href="http://www.ukoln.ac.uk/metadata/">Metadata</a>] [<a href="http://www.ukoln.ac.uk/">UKOLN</a>]</font></p>
+</td>
+<td align="right"><font size="-1">DC-dot was developed by Andy
+Powell, UKOLN, University of Bath.</font> 
+
+<!--p><font size="-1">UKOLN is funded by Resource: The Council for
+Museums, Archives &amp; Libraries,<br>
+the Joint Information Systems Committee of the Higher Education
+Funding Councils,<br>
+as well as by project funding from the JISC and the European
+Union.<br>
+UKOLN also receives support from the University of Bath where it is
+based.</font></p-->
+<p><font size="-1">UKOLN is funded by the Joint Information Systems Committee (JISC) of the Higher and Further <br>Education Funding Councils, as well as by project funding from the JISC and the European <br>Union. UKOLN also receives support from the University of Bath where it is based.</font></p> 
+</td>
+</tr>
+</tbody></table>
+
+
+
+</body></html>

@@ -1,0 +1,410 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Update - July 2000</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+    <link rel="meta" href="nl2000-07.shtml.rdf" />
+  </head>
+
+  <body>
+    <div class="head">
+      <!--#include virtual="/ssi/header.shtml"-->
+
+      <table
+      summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content."
+       border="0" width="100%" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr valign="top">
+            <td ><img
+            src="/images/vrule.gif" width="1" height="500"
+            alt="vertical rule" /></td>
+
+            <td bgcolor="#EEEEEE" width="150">
+              <table width="100%" cellspacing="0" cellpadding="0"
+              border="0"
+              summary="Layout table: Contains graphical text.">
+                <tbody>
+                  <tr bgcolor="#99A59F" align="center">
+                    <td><img src="/images/navlist/toc.gif"
+                    width="150" height="25" alt="Table of Contents"
+                    border="0" /></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <table width="100%" cellspacing="0" cellpadding="10"
+              border="0"
+              summary="Layout table: Contains navigation.">
+                <tbody>
+                  <tr>
+                    <td class="smallsans">
+                      <dl>
+                        <dt class="navlist"><a
+                        href="#action">Action!</a></dt>
+
+                        <dt class="navlist"><a
+                        href="#newsbriefs">News Briefs</a></dt>
+
+                        <dt class="navlist"><a
+                        href="#project">Project &amp; Tool
+                        Updates</a></dt>
+
+                        <dt class="navlist">Submit a news item</dt>
+                      </dl>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="note">
+                      <p>This Newsletter is published monthly by
+                      the <a
+                      href="file:///D%7C/Data/Projects/dcmi/admin/www">
+                      Dublin Core Metadata Initiative</a>.</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+
+            <td ><img
+            src="/images/vrule.gif" width="1" height="500"
+            alt="vertical rule" /></td>
+
+            <td>
+              <table width="100%" border="0" cellspacing="0"
+              cellpadding="10" summary="Content table">
+                <tbody>
+                  <tr>
+                    <td>
+                      <h1 align="center">DCMI Update</h1>
+
+                      
+<h3 align="center">Volume 1, Number 7 - July 2000</h3>
+
+                      <div align="center">
+                        <p>(A Summary of activities from June/July
+                        2000)</p>
+                        <hr  />
+
+                        <h3 align="left"><a id="action"
+                        name="action"></a>Action!</h3>
+                      </div>
+
+                      <ul>
+                        <li>
+                          <p align="left">
+                          <strong>2000-06-01:</strong> <strong><a
+                          href="http://www.ifla.org/udt/dc8/call.htm">
+                          The 8th International Dublin Core
+                          Metadata Initiative Workshop (DC8): Call
+                          for Participation</a></strong></p>
+
+                          <p align="left">The Dublin Core Metadata
+                          Initiative, in conjunction with the
+                          National Library of Canada, the IFLA UDT
+                          program, and OCLC, is pleased to announce
+                          the 8th International Dublin Core
+                          Metadata Workshop, to be held October
+                          4-6, 2000 at the National Library of
+                          Canada in Ottawa, Canada.</p>
+
+                          <p align="left">Previous workshops have
+                          attracted librarians, museum informatics
+                          specialists, archivists, digital library
+                          researchers, government information
+                          providers, publishers, and content
+                          specialists from a broad cross-section of
+                          sectors and disciplines. Participants are
+                          expected to be <strong>familiar with
+                          Dublin Core basics</strong> and should
+                          have <strong>expertise and interest in
+                          advancing the state of Dublin Core
+                          standards or deployment</strong>.
+                          Representatives of other metadata
+                          initiatives or standards interested in
+                          liaison with DCMI are also encouraged to
+                          participate.</p>
+                        </li>
+                      </ul>
+
+                      <h3><a id="newsbriefs"
+                      name="newsbriefs"></a>News Briefs</h3>
+
+                      <ul>
+                        <li>
+                          <p><strong>2000-07-11: DUBLIN CORE
+                          RELEASES RECOMMENDED
+                          QUALIFIERS</strong></p>
+
+                          <p><a
+                          href="http://purl.org/dc/pressreleases/qualifiers20000711.htm">
+                          Press Release</a>: The Dublin Core
+                          Metadata Initiative (<a
+                          href="http://purl.org/dc">DCMI</a>), an
+                          organization leading the development of
+                          international standards to improve
+                          electronic resource management and
+                          information discovery, today announced
+                          the formal recommendation of the <a
+                          href="http://purl.org/dc/documents/dcmes-qualifiers">
+                          Dublin Core (DC) Qualifiers</a>. The
+                          addition of the DC Qualifiers enhances
+                          the semantic precision of the existing DC
+                          Metadata Element Set. [ <a
+                          href="http://purl.org/dc/pressreleases/qualifiers20000711.htm">
+                          More Information</a>]</p>
+
+                          <p><strong>2000-07-11: NISO Draft
+                          Standard: Z39.85-200X The Dublin Core
+                          Metadata Element Set now available for
+                          comment and balloting</strong></p>
+
+                          <p>A new draft of the Dublin Core
+                          Metadata Element Set (DCMES), based on
+                          version 1.1 of DCMES, is now available
+                          for comment by the general public as well
+                          as for ballot by NISO (US National
+                          Information Standards Organization)
+                          voting members. The NISO Draft Standard
+                          is available as a PDF file linked from <a
+                          href="http://www.niso.org/Z3985.html">http://www.niso.org/Z3985.html</a>.</p>
+
+                          <p>Public comments are welcome. Links
+                          from this page contain forms for
+                          submitting comments, which should be
+                          directed back to NISO. The ballot and
+                          comment period for DCMES is July 1 to
+                          August 15, 2000.</p>
+
+                          <p><strong>2000-06-02: Dublin Core
+                          Element Set, v. 1.1 now available in
+                          Italian</strong></p>
+
+                          <p>The Dublin Core Element Set has now
+                          been translated into more than 20
+                          languages. A list of the translations can
+                          be found on the <a
+                          href="../groups/languages.htm">Multiple
+                          Languages Interest Group</a> page. The
+                          Italian translation was done by <a
+                          href="http://www.iccu.sbn.it/dublinco.html">
+                          ICCU</a> (the Central Institute for the
+                          Union Catalogue of Italian Libraries and
+                          for Bibliographic Information).</p>
+
+                          <p>ICCU is responsible for setting
+                          guidelines and for producing and
+                          disseminating standard National and
+                          International cataloguing rules covering
+                          all types of materials ranging from
+                          manuscripts to multimedia documents.</p>
+                        </li>
+                      </ul>
+
+                      <h3 align="left"><a id="project"
+                      name="project"></a>Project and Tool
+                      Updates</h3>
+
+                      <ul>
+                        <li>
+                          <p><strong>2000-07-18: Tool Upgrade:
+                          DC-dot is now conformant with the
+                          recently recommended Dublin Core
+                          Qualifiers</strong></p>
+
+                          <p><a
+                          href="http://www.ukoln.ac.uk/metadata/dcdot/">
+                          DC-dot</a>, UKOLN's web-based Dublin Core
+                          generator and editor is now conformant
+                          with the <em>Dublin Core Metadata Element
+                          Set, Version 1.1: Reference
+                          Description</em> and the recently
+                          recommended <em>Dublin Core
+                          Qualifiers</em>.</p>
+
+                          <p>What does this mean?</p>
+
+                          <ul>
+                            <li>All DC-dot help files have been
+                            updated in line with the DC 1.1
+                            reference description.</li>
+
+                            <li>Any encoding schemes that DC-dot
+                            assigns automatically to element values
+                            conform to the recommended
+                            qualifiers.</li>
+
+                            <li>The DC 1.1 namespace URI is used in
+                            the RDF generated by DC-dot.</li>
+
+                            <li>The DC Type pull-down menu offers
+                            values from the DCMI Type encoding
+                            scheme.</li>
+                          </ul>
+
+                          <p><strong>2000-07-12: New Project: The
+                          Victorian Education Channel</strong></p>
+
+                          <p><strong>Home Page:</strong> <strong><a
+                          href="http://www.education.vic.gov.au/">http://www.education.vic.gov.au/</a></strong>
+                          (Site is still under development)</p>
+
+                          <p>The Victorian Education Channel (an
+                          educational gateway for the State of
+                          Victoria, Australia) has been developed
+                          to integrate access to educational
+                          information and services available on the
+                          web. In particular, it provides
+                          integrated access to resources from the
+                          Department of Education, Employment and
+                          Training (DEET), Victoria and associated
+                          providers. It also supports discovery of
+                          other resources pertinent to Victorian
+                          education. The Channel is for teachers,
+                          students, parents and the community -
+                          anyone requiring information with an
+                          educational focus - and covers all
+                          sectors of education from early school to
+                          tertiary and vocational.</p>
+
+                          <p>The Victorian Education Channel uses
+                          the standard 15 Dublin Core (DC) elements
+                          and 'audience' as an extra element (as
+                          recommended by the DC-Education Working
+                          Group). All elements have qualifiers, are
+                          expressed in RDF, and many have
+                          controlled vocabularies or recommended
+                          formats. Elements can be repeated and are
+                          not mandatory although for national
+                          interoperability, a minimal set is
+                          required. The DC classification is backed
+                          up by a full text indexing capability. DC
+                          records are created using a 'workbench'
+                          that combines original authoring or
+                          metadata with harvesting of pre-existing
+                          metadata, in HTML or RDF. The workbench
+                          also 'putates' values that the author can
+                          choose to ratify. The records are
+                          searched by default or user-structured
+                          searches or browsed.</p>
+
+                          <p>Searches are complemented by access to
+                          the full-text indexes. Dewey DC has been
+                          included as a global taxonomy to
+                          complement the more locally-relevant
+                          taxonomies but it is not expected that
+                          all resources will be classified using
+                          this facility.</p>
+
+                          <p>DEET has been actively classifying
+                          resources for several years so the
+                          channel is being populated by a
+                          combination of imported, existing records
+                          and newly created records. The channel
+                          will be supported by resource authoring,
+                          and other systems, that either contribute
+                          to the generation of classification
+                          records or use the information in the
+                          records as data for user-specific
+                          applications.</p>
+
+                          <p><strong>2000-06-25: Tool Upgrade:
+                          DC-dot now provides support for the W3C
+                          XHTML 1.0 Recommendation</strong></p>
+
+                          <p><a
+                          href="http://www.ukoln.ac.uk/metadata/dcdot/">
+                          DC-dot,</a> UKOLN's web-based Dublin Core
+                          generator and editor now provides support
+                          for the W3C XHTML 1.0 recommendation.</p>
+
+                          <p>To use this feature, create your DC
+                          metadata in the normal way. Then choose
+                          'XHTML' from the 'Display format' pull
+                          down menu.</p>
+
+                          <p><a
+                          href="http://www.w3.org/TR/xhtml1/">XHTML
+                          1.0</a> became a W3C Recommendation on 26
+                          January 2000. It is a reformulation of
+                          HTML 4.01 in XML, bringing the rigor of
+                          XML to HTML, and can be put to immediate
+                          use with existing browsers by following a
+                          few simple guidelines.</p>
+
+                          <p>The key differences between
+                          &lt;meta&gt; elements in XHTML and HTML 4
+                          are that:</p>
+
+                          <ul>
+                            <li>element names must be in lower-case
+                            - &lt;meta&gt; rather than
+                            &lt;META&gt;</li>
+
+                            <li>empty elements (for example,
+                            &lt;meta&gt; and &lt;link&gt;) must end
+                            with '/&gt;'</li>
+                          </ul>
+                        </li>
+                      </ul>
+
+                      <blockquote>
+                        <p><strong>2000-06-10: New Tool: Online
+                        Dublin Core Extraction Service</strong></p>
+
+                        <p>Dan Connolly of the W3C has created an
+                        <a
+                        href="http://www.w3.org/2000/06/dc-extract/form.html">
+                        online Dublin Core Extraction Service</a>,
+                        which uses XSLT to extract RDF Dublin Core
+                        metadata from XHTML pages. The default
+                        transformation for this form,
+                        dc-extract.xsl, converts from the format
+                        given in <a
+                        href="http://www.ietf.org/rfc/rfc2731.txt">"Encoding
+                        Dublin Core Metadata in HTML"</a> by John
+                        Kunze and produces <a
+                        href="http://www.w3.org/RDF/">RDF</a>. For
+                        pages that are not well-formed XHTML, the
+                        page to be processed can first be piped
+                        through Dave Raggett's HTML Tidy, courtesy
+                        of the <a
+                        href="http://cgi.w3.org/cgi-bin/tidy">online
+                        tidy service</a>. Connolly stated that he
+                        "wrote the guts of dc-extract.xsl on my
+                        palm pilot in Amsterdam after <a
+                        href="http://www9.org/">WWW9</a> in an
+                        effort to show how easy it is <a
+                        href="http://lists.w3.org/Archives/Public/www-rdf-interest/2000Mar/0103.html">
+                        to use XSLT to extract RDF from real-world
+                        data</a>.</p>
+                      </blockquote>
+
+                      <p>Suggestions, article or item submissions
+                      and any comments may be sent to <a
+                      href="mailto:dc@oclc.org">dc@oclc.org</a>.
+                      Deadline for submissions is the 20th of each
+                      month.</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--#include virtual="/ssi/footer.shtml"-->
+  </body>
+</html>
+

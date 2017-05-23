@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+         xmlns:eor="&eorns;">
+
+
+<rdf:Property rdf:about = "&dcns;title">
+	<rdfs:label xml:lang="fr-FR">
+	titre
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">Le nom donn&#x00e9; &#x0155; la ressource.
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	Typiquement, un titre sera le nom par lequel la ressource est officiellement connue.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+	<rdfs:label xml:lang="fr-FR">
+	contributeur
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">
+	Une entit&#x00e9; qui a contribu&#x00e9; &#x0155; la cr&#x00e9;ation du contenu de la ressource.
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	Exemples de Contributeur incluent une personne, une organisation, ou un service. Typiquement, 
+	le nom d'un contributeur devrait &#x0119;tre utilis&#x00e9; ici pour d&#x00e9;signer l'entit&#x00e9;.
+	</dc:description>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+	<rdfs:label xml:lang="fr-FR">
+	cr&#x00e9;ateur
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">
+	L'entit&#x00e9; principalement responsable de la cr&#x00e9;ation du contenu de la ressource.
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	Exemples de Cr&#x00e9;ateur incluent une personne, une organisation, ou un service. Typiquement, 
+	un nom du Cr&#x00e9;ateur devrait &#x0119;tre utilis&#x00e9; pour d&#x00e9;signer cette 
+	entit&#x00e9;.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+	<rdfs:label xml:lang="fr-FR">
+	&#x00e9;diteur
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">
+	L'entit&#x00e9; responsable de la diffusion de la ressource, dans sa forme actuelle, tels, un 
+	d&#x00e9;partement universitaire, une entreprise.
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	Exemples d'Editeurs incluent une personne, une organisation, ou un service. Typiquement, 
+	le nom d'une maison d'&#x00e9;dition devrait &#x0119;tre utilis&#x00e9; ici.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+	<rdfs:label xml:lang="fr-FR">
+	sujet et mots-clefs
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">
+	Le sujet du contenu de la ressource.
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	Typiquement, le sujet sera d&#x00e9;crit par un ensemble de mots-clefs ou de phrases ou un code 
+	de classification qui pr&#x00e9;cisent le sujet de la ressource. L'utilisation de vocabulaires 
+	contr&#x00f4;l&#x00e9;s et de sch&#x00e9;mas formels de classification est encourag&#x00e9;e.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+	<rdfs:label xml:lang="fr-FR">
+	description
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">
+	Une description du contenu de la ressource.
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	Une Description peut contenir, mais ce n'est pas limitatif: un r&#x00e9;sum&#x00e9;, une table 
+	des mati&#x010d;res, une r&#x00e9;f&#x00e9;rence &#x0155; une repr&#x00e9;sentation graphique 
+	du contenu, ou un texte libre sur le contenu.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+	<rdfs:label xml:lang="fr-FR">
+	date
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">
+	Une date associ&#x00e9;e avec un &#x00e9;v&#x00e9;nement dans le cycle de vie de la ressource.
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	Typiquement, une date sera associ&#x00e9;e &#x0155; la cr&#x00e9;ation ou &#x0155; la publication 
+	d'une ressource. Il est fortement recommand&#x00e9; d'encoder la valeur de la date en utilisant 
+	le format d&#x00e9;fini par l'ISO 8601 [W3CDTF] sous la forme AAAA-MM-JJ.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+	<rdfs:label xml:lang="fr-FR">
+	type de la ressource
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">
+	La nature ou le genre du contenu de la ressource.
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	Type inclut des termes d&#x00e9;crivant des cat&#x00e9;gories, fonctions ou genres 
+	g&#x00e9;n&#x00e9;raux pour le contenu, ou des niveaux d'agr&#x00e9;gation. Il est 
+	recommand&#x00e9; de choisir la valeur du type dans une liste de vocabulaire 
+	contr&#x00f4;l&#x00e9; (par exemple, la liste provisoire de Types du Dublin Core[DCT1]). 
+	Pour d&#x00e9;crire la mat&#x00e9;rialisation physique ou digitale de la ressource, il 
+	faut utiliser l'&#x00e9;l&#x00e9;ment Format.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+	<rdfs:label xml:lang="fr-FR">
+	format
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">
+	La mat&#x00e9;rialisation physique ou digitale de la ressource.
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	Typiquement, Format peut inclure le media ou les dimensions de la ressource. Format peut 
+	&#x0119;tre utilis&#x00e9; pour pr&#x00e9;ciser le logiciel, le mat&#x00e9;riel ou 
+	autre &#x00e9;quipement n&#x00e9;cessaire pour afficher ou faire fonctionner la ressource.
+   Exemples de dimensions incluent la taille et la dur&#x00e9;e. Il est recommand&#x00e9; de 
+	choisir la valeur du format dans une liste de vocabulaire contr&#x00f4;l&#x00e9;(par exemple, 
+	la liste des types de media d&#x00e9;finis sur Internet [MIME]).
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+	<rdfs:label xml:lang="fr-FR">
+	identifiant de la ressource
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">
+	Une r&#x00e9;f&#x00e9;rence non ambigu&#x00eb; &#x0155; la ressource dans un contexte donn&#x00e9;
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	Il est recommand&#x00e9; d'identifier la ressource par une cha&#x00ee;ne de caract&#x010d;re ou 
+	un nombre conforme &#x0155; un syt&#x010d;me formel d'identification. Exemples de systemes 
+	formels d'identification incluent le "Uniform Resource Identifier" (URI) (qui inclut le "Uniform
+   Resource Locator" (URL)), le "Digital Object Identifier"(DOI) et le "International Standard 
+	Book Number"(ISBN).
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+	<rdfs:label xml:lang="fr-FR">
+	langue
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">
+	La langue du contenu intellectuel de la ressource.
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	Il est recommand&#x00e9; d'utiliser comme valeur de l'&#x00e9;l&#x00e9;ment Langue celles 
+	definies par la RFC 1766 [RFC1766] qui comprend un code de langage &#x0155; deux 
+	caract&#x010d;res(venant du standard ISO 639 [ISO639]), &#x00e9;ventuellement suivi d'un 
+	code &#x0155; deux lettres pour le pays (venant du standard ISO 3166 [ISO3166] ou en 
+	fran&#x00e7;ais [ISO3166]). Par exemple, 'en' pour l'anglais, 'fr' pour le fran&#x00e7;ais, ou
+	'en-uk' pour l'anglais utilis&#x00e9; au Royaume-Uni.
+
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+	<rdfs:label xml:lang="fr-FR">
+	relation
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">
+	Une r&#x00e9;f&#x00e9;rence &#x0155; une autre ressource qui a un rapport avec cette ressource.
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	Il est recommand&#x00e9; de r&#x00e9;f&#x00e9;rencer cette ressource par une cha&#x00ee;ne de
+   caract&#x010d;res ou un num&#x00e9;ro conforme &#x0155; un syst&#x010d;me formel d'identification.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+	<rdfs:label xml:lang="fr-FR">
+	source
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">
+	Une r&#x00e9;f&#x00e9;rence &#x0155; une ressource &#x0155; partir de laquelle la ressource 
+	actuelle a &#x00e9;t&#x00e9; d&#x00e9;riv&#x00e9;e.
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	La ressource actuelle peut avoir &#x00e9;t&#x00e9; d&#x00e9;riv&#x00e9;e d'une autre ressource 
+	source, en totalit&#x00e9; ou en partie. Il est recommand&#x00e9; de ref&#x00e9;rencer cette 
+	source par une cha&#x00ee;ne de caract&#x010d;re ou un nombre conforme &#x0155; 
+	un syst&#x010d;me formel d'identification.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+	<rdfs:label xml:lang="fr-FR">
+	couverture
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">
+	La port&#x00e9;e ou la couverture spatio-temporelle de la ressource.
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	La couverture typiquement inclut une position g&#x00e9;ographique (le nom d'un lieu ou ses 
+	coordonn&#x00e9;es), une p&#x00e9;riode de temps (un nom de p&#x00e9;riode, une date, ou un 
+	intervalle de temps) ou une juridiction (telle que le nom d'une entit&#x00e9; administrative). 
+	Il est recommand&#x00e9; de choisir la  valeur de Couverture dans un vocabulaire 
+	contr&#x00f4;l&#x00e9; (par exemple, un th&#x00e9;saurus de noms g&#x00e9;ographiques, 
+	comme[TGN]) et, quand cela est appropri&#x00e9;, des noms de lieux ou de 
+	p&#x00e9;riodes plut&#x00f4;t que des identifiants num&#x00e9;riques tels que des 
+	coordonn&#x00e9;es ou des intervalles de dates. 
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+	<rdfs:label xml:lang="fr-FR">
+	gestion des droits
+	</rdfs:label>
+	<rdfs:comment xml:lang="fr-FR">
+	Information sur les droits sur et au sujet de la ressource.
+	</rdfs:comment>
+	<dc:description xml:lang="fr-FR">
+	Typiquement, un &#x00e9;l&#x00e9;ment Droits contiendra un &#x00e9;tat du droit &#x0155;
+   g&#x00e9;rer une ressource, ou la ref&#x00e9;rence &#x0155; un service fournissant cette 
+	information. Ces droits souvent couvrent les droits de propri&#x00e9;t&#x00e9; intellectuelle 
+	(IPR), Copyright, et divers droits de propri&#x00e9;t&#x00e9;. Si l'&#x00e9;l&#x00e9;ment 
+	Droits est absent, aucune hypoth&#x010d;se ne peut &#x0119;tre faite sur l'&#x00e9;tat de 
+	ces droits, ou de tout autre, par rapport &#x0155; la ressource.
+	</dc:description>
+</rdf:Property>
+
+</rdf:RDF>

@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DCMI 404 Resource Page</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>Sorry, Not Found</h1>
+<p>The page you tried was not found. You may have used an outdated link or may have typed the address (URL) incorrectly.</p>
+
+<ul>
+<li><a href="/">Return to the DCMI home page</a></li>
+<li><a href="/about/feedback/">Contact us for general website questions, bad links and feedback</a></li>
+</ul>
+
+<hr />
+
+<h2>Search</h2>
+<form method="post" action="/cgi-bin/htsearch">
+<input type="hidden" name="method" value="and" />
+<input type="hidden" name="format" value="builtin-long" />
+<input type="hidden" name="sort" value="score" />
+<input type="hidden" name="config" value="htdig" />
+<input type="hidden" name="restrict" value="" />
+<input type="hidden" name="exclude" value="" />
+<table cellspacing="0" cellpadding="2" border="0" summary="keyword search">
+<tr>
+<td nowrap="nowrap"><input type="text" value="Enter keyword" name="words" size="20" onfocus="if(this.value=='Enter keyword')this.value='';" onblur="if(this.value=='')this.value='Enter keyword';" class="search" />&nbsp;</td>
+<td><input type="submit" name="submit" value="Search" class="button" /></td>
+</tr>
+</table>
+</form>
+
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

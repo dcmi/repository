@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://www.kb.se/bus/DC/Dc_Sv1_1.htm">
+	<dc:title xml:lang="sv-SE">Dublin Core metadataelement, Version 1.1: Referensmodell</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.1 Reference Description (Swedish Translation)</dc:title>
+	<dc:creator>Stina Degerstedt</dc:creator>
+	<dc:creator rdf:resource="mailto:stina.degerstedt@kb.se"/>
+	<dc:date>2000-09-28</dc:date>
+	<dc:language xml:lang="sv-SE">Svenska</dc:language>
+	<dc:language xml:lang="en-US">Swedish</dc:language>
+	<dc:language>sv-SE</dc:language>
+	<dc:publisher xml:lang="sv-SE">Kungliga biblioteket</dc:publisher>
+	<dc:publisher xml:lang="en-US">The Royal Library, National Library of Sweden</dc:publisher>
+	<dc:publisher rdf:resource="http://www.kb.se/"/>
+	<dc:source rdf:resource="http://www.kb.se/bus/DC/Dc_Sv1_1.htm"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>

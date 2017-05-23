@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/news/nl2000-01.htm">
+   <dc:title>Dublin Core Metadata Initiative - DCMI Update</dc:title>
+   <dc:description>DCMI Update newsletter is published monthly. This issue is January 
+2000, volume 1, number 1.</dc:description> 
+   <dc:date>2000-01-11</dc:date> 
+   <dc:format>text/html</dc:format> 
+   <dc:language>en</dc:language> 
+   <dc:contributor>Dublin Core Metadata Initiative</dc:contributor> 
+ </rdf:Description> 
+</rdf:RDF> 

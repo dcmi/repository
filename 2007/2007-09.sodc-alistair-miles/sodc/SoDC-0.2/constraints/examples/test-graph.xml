@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen SCHSchema="test.sch"?>
+<graph 
+  xmlns="http://purl.org/net/sodc/xml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://purl.org/net/sodc/xml ../../xml/sodc-xml.xsd">
+    
+  <resource>
+    <uri>http://example.com/resource#foo</uri>
+    <profile>http://example.com/profile/test#foo</profile>
+    
+    <!-- violate an exact cardinality constraint of 1 (comment to fix) -->
+
+    <property uri="http://example.com/property#a">
+      <value>
+        <plainliteral>foo</plainliteral>
+      </value>
+    </property>
+    
+    <property uri="http://example.com/property#a">
+      <value>
+        <plainliteral>bar</plainliteral>
+      </value>
+    </property>
+    
+    <!-- violate a maximum cardinality constraint of 1 (comment to fix) -->
+
+    <property uri="http://example.com/property#b">
+      <value>
+        <plainliteral>foo</plainliteral>
+      </value>
+    </property>
+    
+    <property uri="http://example.com/property#b">
+      <value>
+        <plainliteral>bar</plainliteral>
+      </value>
+    </property>
+    
+    <!-- violate a minimum cardinality constraint of 1 (uncomment to fix) -->
+<!--  
+    <property uri="http://example.com/property#c">
+      <value>
+        <plainliteral>foo</plainliteral>
+      </value>
+    </property>  
+-->
+
+    <!-- violate URI-only value constraint -->
+    
+    <property uri="http://example.com/property#d">
+      <value>
+        <plainliteral>foo</plainliteral>
+      </value>
+    </property>
+
+    <property uri="http://example.com/property#d">
+      <value>
+        <nodeid>foo</nodeid>
+      </value>
+    </property>
+    
+    <property uri="http://example.com/property#d">
+      <value>
+        <typedliteral datatype="http://example.com/datatype#foo">bar</typedliteral>
+      </value>
+    </property>
+    
+    <!-- violate nodeid-only value constraint -->
+    
+    <property uri="http://example.com/property#e">
+      <value>
+        <plainliteral>foo</plainliteral>
+      </value>
+    </property>
+    
+    <property uri="http://example.com/property#e">
+      <value>
+        <uri>http://example.com/resource#bar</uri>
+      </value>
+    </property>
+    
+    <property uri="http://example.com/property#e">
+      <value>
+        <typedliteral datatype="http://example.com/datatype#foo">bar</typedliteral>
+      </value>
+    </property>
+
+    <!-- violate plain literal-only value constraint (lang optional, variable) -->
+      
+    <property uri="http://example.com/property#f">
+      <value>
+        <uri>http://example.com/resource#bar</uri>
+      </value>
+    </property>
+    
+    <property uri="http://example.com/property#f">
+      <value>
+        <nodeid>bar</nodeid>
+      </value>
+    </property>
+    
+    <property uri="http://example.com/property#f">
+      <value>
+        <typedliteral datatype="http://example.com/datatype#foo">bar</typedliteral>
+      </value>
+    </property>
+    
+    <!-- violate plain literal-only value constraint (lang required, variable) -->
+      
+    <property uri="http://example.com/property#g">
+      <value>
+        <uri>http://example.com/resource#bar</uri>
+      </value>
+    </property>
+    
+    <property uri="http://example.com/property#g">
+      <value>
+        <nodeid>bar</nodeid>
+      </value>
+    </property>
+    
+    <property uri="http://example.com/property#g">
+      <value>
+        <typedliteral datatype="http://example.com/datatype#foo">bar</typedliteral>
+      </value>
+    </property>
+      
+    <property uri="http://example.com/property#g">
+      <value>
+        <plainliteral>foo</plainliteral>
+      </value>
+    </property>      
+    
+  </resource>
+  
+</graph>

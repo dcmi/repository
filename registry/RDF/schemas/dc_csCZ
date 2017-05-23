@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:NS0="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://purl.org/dc/dcmitype/Image">
+    <rdfs:label xml:lang="cs-CZ">Obr&#xe1;zek</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Obr&#xe1;zek je prim&#xe1;rn&#283; symbolick&#xe1; vizu&#xe1;ln&#xed; reprezentace jin&#xe1; ne&#382; textov&#xe1;. Nap&#345;&#xed;klad - obr&#xe1;zky a fotografie fyzick&#xfd;ch objekt&#367;, animace a pohybliv&#xe9; obr&#xe1;zky, filmy, diagramy, mapy, hudebn&#xed; notace. V&#353;imn&#283;te si, &#382;e obr&#xe1;zek m&#367;&#382;e m&#xed;t jak elektronickou, tak fyzickou formu.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/isVersionOf">
+    <rdfs:label xml:lang="cs-CZ">Je verz&#xed;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Popisovan&#xfd; zdroj je verz&#xed;, edic&#xed; nebo adaptac&#xed; odkazovan&#xe9;ho zdroje. Zm&#283;na verze ozna&#269;uje sp&#xed;&#353;e d&#367;le&#382;it&#xe9; zm&#283;ny v obsahu ne&#382; jen zm&#283;ny ve form&#xe1;tu.</rdfs:comment>
+    
+  </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Period">
+    <rdfs:label xml:lang="cs-CZ">DCMI obdob&#xed;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Specifikace hranic &#269;asov&#xe9;ho intervalu.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/ISO639-2">
+    <rdfs:label xml:lang="cs-CZ">ISO 639-2</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">ISO 639-2: K&#xf3;dy pro reprezentaci n&#xe1;zv&#367; jazyk&#367;.</rdfs:comment>
+    
+  </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/hasFormat">
+    <rdfs:label xml:lang="cs-CZ">M&#xe1; form&#xe1;t</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Popisovan&#xe9;mu zdroji p&#345;edch&#xe1;zel odkazovan&#xfd; zdroj, kter&#xfd; m&#xe1; v podstat&#283; stejn&#xfd; intelektu&#xe1;ln&#xed; obsah prezentovan&#xfd; v jin&#xe9;m form&#xe1;tu.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/RFC3066">
+    <rdfs:label xml:lang="cs-CZ">RFC 3066</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Internetov&#xe9; RFC 3066 "Tagy pro identifikaci jazyk&#367;" specifikuje prim&#xe1;rn&#xed; k&#xf3;d jako bu&#271; dvoup&#xed;smenn&#xfd; k&#xb4;d p&#345;evzat&#xfd; z ISO 639 &#269;&#xe1;st 1 nebo t&#345;&#xed;p&#xed;smenn&#xfd; k&#xf3;d p&#345;evzat&#xfd; z ISO 639 &#269;&#xe1;st 2, n&#xe1;sledovan&#xfd; voliteln&#283; dvoup&#xed;smenn&#xfd;m k&#xf3;dem p&#345;evzat&#xfd;m z ISO 3166. Pokud m&#xe1; jazyk jak dvoup&#xed;smenn&#xfd; tak t&#345;&#xed;p&#xed;smenn&#xfd; k&#xf3;d, pou&#382;ijte ten dvoup&#xed;smenn&#xfd;, jinak t&#345;&#xed;p&#xed;smenn&#xfd;. Toto RFC nahrazuje RFC 1766.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/dcmitype/InteractiveResource">
+    <rdfs:label xml:lang="cs-CZ">Interaktivn&#xed; zdroj</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Interaktivn&#xed; zdroj je zdroj kter&#xfd; vy&#382;aduje aktivn&#xed; spolupr&#xe1;ci u&#382;ivatele aby mohl b&#xfd;t pochopen, spu&#353;t&#283;n nebo pro&#382;it. Nap&#345;&#xed;klad -  formul&#xe1;&#345;e na webov&#xfd;ch str&#xe1;nk&#xe1;ch, multimedi&#xe1;ln&#xed; vzd&#283;l&#xe1;vac&#xed; objekty, chatov&#xe9; slu&#382;by, virtu&#xe1;ln&#xed; realita.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/dcmitype/Sound">
+    <rdfs:label xml:lang="cs-CZ">Zvuk</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Zvuk je zdroj jeho&#382; obsah je prim&#xe1;rn&#283; ur&#269;en k poslechu. Nap&#345;&#xed;klad - hudebn&#xed; form&#xe1;t souboru, zvukov&#xe9; CD, zaznamenan&#xe1; &#345;e&#269; a zvuky.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/dcmitype/PhysicalObject">
+    <rdfs:label xml:lang="cs-CZ">Fyzick&#xfd; objekt</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Nepohybliv&#xfd; prostorov&#xfd; objekt nebo substance. Nap&#345;&#xed;klad - po&#269;&#xed;ta&#269;, Velk&#xe1; pyramida, socha. V&#353;imn&#283;te si, &#382;e digit&#xe1;ln&#xed; reprezentace nebo n&#xe1;hrady t&#283;chto objekt&#367; by m&#283;ly pou&#382;&#xed;t obr&#xe1;zek, text nebo jin&#xfd; typ.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/isReplacedBy">
+    <rdfs:label xml:lang="cs-CZ">Je nahrazen</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Popisovan&#xfd; zdroj je nahrazen, nebo vym&#283;n&#283;n odkazovan&#xfd;m zdrojem.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/available">
+    <rdfs:label xml:lang="cs-CZ">Dostupn&#xfd;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Datum (&#269;asto rozmez&#xed;), kdy zdroj bude nebo se stal dostupn&#xfd;m.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/isRequiredBy">
+    <rdfs:label xml:lang="cs-CZ">Je po&#382;adovan&#xfd;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Popisovan&#xfd; zdroj je &#382;&#xe1;dan&#xfd; odkazovan&#xfd;m zdrojem a to bu&#271; fyzicky nebo logicky.</rdfs:comment>
+    
+  </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/dcmitype/Collection">
+    <rdfs:label xml:lang="cs-CZ">Sb&#xed;rka</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Sb&#xed;rka je skupina polo&#382;ek. Pojem sb&#xed;rka znamen&#xe1; &#382;e zdroj je pops&#xe1;n jako celek; jeho &#269;&#xe1;sti mohou b&#xfd;t d&#xe1;le samostatn&#283; pops&#xe1;ny a prohl&#xed;&#382;eny.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/dcmitype/Event">
+    <rdfs:label xml:lang="cs-CZ">Ud&#xe1;lost</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Ud&#xe1;lost je netrval&#xfd;, &#269;asov&#283; omezen&#xfd; jev. Metadata popisuj&#xed;c&#xed; ud&#xe1;lost poskytuj&#xed; popisnou informaci, kter&#xe1; je z&#xe1;kladem pro zji&#353;t&#283;n&#xed; &#xfa;&#269;elu, m&#xed;sta, trv&#xe1;n&#xed;, p&#345;&#xed;&#269;in a odkaz&#367; na dal&#353;&#xed; relevantn&#xed; ud&#xe1;losti a zdroje. Zdroj typu ud&#xe1;lost nemus&#xed; b&#xfd;t z&#xed;skateln&#xfd;, pokud u&#382; ud&#xe1;lost skon&#269;ila nebo se teprve bude konat. P&#345;&#xed;klady - v&#xfd;stava, webcast, konference, workshop, den otev&#345;en&#xfd;ch dve&#345;&#xed;, p&#345;edstaven&#xed;, bitva, soudn&#xed; l&#xed;&#269;en&#xed;, svatba, &#269;ajov&#xfd; d&#xfd;ch&#xe1;nek, po&#382;&#xe1;r.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/educationLevel">
+    <rdfs:label xml:lang="cs-CZ">&#xda;rove&#328; vzd&#283;l&#xe1;n&#xed; c&#xed;lov&#xe9; skupiny</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Obecn&#xfd; &#xfa;daj popisuj&#xed;c&#xed; &#xfa;rove&#328; vzd&#283;l&#xe1;n&#xed; nebo znalost&#xed;. Alternativn&#283; lze pou&#382;&#xed;t specifi&#269;t&#283;j&#353;&#xed; &#xfa;daj o pozici c&#xed;lov&#xe9; skupiny ve vzd&#283;l&#xe1;vac&#xed;m procesu.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/ISO3166">
+    <rdfs:label xml:lang="cs-CZ">ISO 3166</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">ISO 3166 K&#xf3;dy pro reprezentaci n&#xe1;zv&#367; st&#xe1;t&#367;</rdfs:comment>
+    
+  </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/W3CDTF">
+    <rdfs:label xml:lang="cs-CZ">W3C-DTF</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Pravidla pro k&#xf3;dov&#xe1;n&#xed; &#xfa;daj&#367; o datu a &#269;asu - profil zalo&#382;en&#xfd; na ISO 8601</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/dateAccepted">
+    <rdfs:label xml:lang="cs-CZ">P&#345;ijat&#xfd;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Datum p&#345;ijet&#xed; zdroje (nap&#345;. tez&#xed; odd&#283;len&#xed;m univerzity, &#269;l&#xe1;nku &#269;asopisem apod.).</rdfs:comment>
+    
+  </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/DDC">
+    <rdfs:label xml:lang="cs-CZ">DDC</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Deweyho desetinn&#xe9; t&#345;&#xed;d&#283;n&#xed;</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/RFC1766">
+    <rdfs:label xml:lang="cs-CZ">RFC 1766</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">RFC 1766 "K&#xf3;dy pro identifikaci jazyka" definuje dvoup&#xed;smenn&#xfd; k&#xf3;d p&#345;evzat&#xfd; z normy  ISO 639, n&#xe1;sledovan&#xfd; voliteln&#283; dvoup&#xed;smenn&#xfd;m k&#xf3;dem st&#xe1;tu p&#345;evzat&#xfd;m z ISO 3166.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/LCSH">
+    <rdfs:label xml:lang="cs-CZ">LCSH</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">P&#345;edm&#283;tov&#xe1; hesla kongresov&#xe9; knihovny</rdfs:comment>
+    
+  </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/dcmitype/Software">
+    <rdfs:label xml:lang="cs-CZ">Software</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Software je po&#269;&#xed;ta&#269;ov&#xfd; program ve zdrojov&#xe9; nebo zkompilovan&#xe9; podob&#283;, kter&#xfd; m&#367;&#382;e b&#xfd;t k dispozici pro trvalou instalaci na jin&#xe9;m po&#269;&#xed;ta&#269;i. Pro programy, kter&#xe9; jsou ur&#269;eny pouze pro vytvo&#345;en&#xed; interaktivn&#xed;ho prost&#345;ed&#xed; pou&#382;ijte rad&#283;ji pojem Interaktivn&#xed;.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/Point">
+    <rdfs:label xml:lang="cs-CZ">DCMI bod</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">DCMI bod ur&#269;uje bod v prostoru pomoc&#xed; geografick&#xfd;ch sou&#345;adnic.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/mediator">
+    <rdfs:label xml:lang="cs-CZ">Zprost&#345;edkovatel</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">C&#xed;lov&#xe1; skupina, kter&#xe1; zprost&#345;edkuje p&#345;&#xed;stup ke zdroji a pro kterou je zdroj ur&#269;en&#xfd; a prosp&#283;&#353;n&#xfd;.</rdfs:comment>
+    <NS0:description xml:lang="cs-CZ">Publikum zdroje se d&#283;l&#xed; na dv&#283; z&#xe1;kladn&#xed; skupiny: (1) kone&#269;n&#xe9; u&#382;ivatele zdroje a &#269;asto (2) zprost&#345;edkovatele p&#345;&#xed;stupu ke zdroji. Kvalifik&#xe1;tor zp&#345;&#xed;stupn&#283;n&#xed; reprezentuje tuto druhou skupinu.</NS0:description>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/IMT">
+    <rdfs:label xml:lang="cs-CZ">IMT</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Internetov&#xfd; typ m&#xe9;dia zdroje.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/created">
+    <rdfs:label xml:lang="cs-CZ">Vytvo&#345;en&#xfd;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Datum vytvo&#345;en&#xed; zdroje.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/references">
+    <rdfs:label xml:lang="cs-CZ">Odkazuje</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Popisovan&#xfd; zdroj odkazuje, cituje, nebo jakkoliv zmi&#328;uje odkazovan&#xfd; zdroj.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
+    <rdfs:label xml:lang="cs-CZ">Odpov&#xed;d&#xe1; &#269;emu</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Odkaz na pou&#382;&#xed;vanou normu, kter&#xe9; dan&#xfd; zdroj vyhovuje.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
+    <rdfs:label xml:lang="cs-CZ">Modifikovan&#xfd;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Datum modifikace zdroje.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/accessRights">
+    <rdfs:label xml:lang="cs-CZ">P&#345;&#xed;stupov&#xe1; pr&#xe1;va</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Informace o tom, kdo m&#367;&#382;e p&#345;istupovat ke zdroji nebo informace o &#xfa;rovni jeho zabezpe&#269;en&#xed;</rdfs:comment>
+    <NS0:description xml:lang="cs-CZ">P&#345;&#xed;stupov&#xe1; pr&#xe1;va mohou obsahovat informace t&#xfd;kaj&#xed;c&#xed; se p&#345;&#xed;stupu ke zdroji zalo&#382;en&#xe9; na ochran&#283; soukrom&#xed;, bezpe&#269;nosti nebo na jin&#xfd;ch omezen&#xed;ch.</NS0:description>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/hasVersion">
+    <rdfs:label xml:lang="cs-CZ">M&#xe1; verzi</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Popisovan&#xfd; zdroj m&#xe1; verzi, edici nebo adaptaci a to, jmenovit&#283;, odkazovan&#xfd; zdroj.&#13;
+&#13;
+</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/DCMIType">
+    <rdfs:label xml:lang="cs-CZ">Slovn&#xed;k typ&#367; DCMI</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Seznam typ&#367; pou&#382;it&#xfd; pro kategorizaci povahy nebo &#382;&#xe1;nru obsahu zdroje.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/MESH">
+    <rdfs:label xml:lang="cs-CZ">MeSH</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Medic&#xed;nsk&#xe1; p&#345;edm&#283;tov&#xe1; hesla</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/TGN">
+    <rdfs:label xml:lang="cs-CZ">TGN</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Gettyho thesaurus geografick&#xfd;ch n&#xe1;zv&#367;</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/medium">
+    <rdfs:label xml:lang="cs-CZ">M&#xe9;dium</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Materi&#xe1;l nebo fyzick&#xfd; nosi&#269; zdroje.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/dateSubmitted">
+    <rdfs:label xml:lang="cs-CZ">Odeslan&#xfd;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Datum odesl&#xe1;n&#xed; zdroje (nap&#345;. &#269;l&#xe1;nku, tez&#xed; apod.).</rdfs:comment>
+    
+  </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/tableOfContents">
+    <rdfs:label xml:lang="cs-CZ">Obsah</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Seznam podjednotek obsahu zdroje.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/spatial">
+    <rdfs:label xml:lang="cs-CZ">Prostorov&#xfd;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Prostorov&#xe1; charakteristika intelektu&#xe1;ln&#xed;ho obsahu zdroje.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/temporal">
+    <rdfs:label xml:lang="cs-CZ">&#268;asov&#xfd;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">&#268;asov&#xe1; charakteristika intelektu&#xe1;ln&#xed;ho obsahu zdroje.</rdfs:comment>
+    
+  </rdf:Description>
+      <rdf:Description rdf:about="http://purl.org/dc/terms/dateCopyrighted">
+    <rdfs:label xml:lang="cs-CZ">Copyright</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Datum ke kter&#xe9;mu plat&#xed; autorsk&#xe1; pr&#xe1;va.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/extent">
+    <rdfs:label xml:lang="cs-CZ">Rozsah</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Velikost nebo d&#xe9;lka zdroje.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/requires">
+    <rdfs:label xml:lang="cs-CZ">Po&#382;aduje</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Popisovan&#xfd; zdroj po&#382;aduje odkazovan&#xfd; zdroj na podporu sv&#xe9; funk&#269;nosti, dod&#xe1;n&#xed;, nebo pro zachov&#xe1;n&#xed; souvislosti obsahu.</rdfs:comment>
+    
+  </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/replaces">
+    <rdfs:label xml:lang="cs-CZ">Nahrazuje</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Popisovan&#xfd; zdroj nahrazuje, nebo vym&#283;&#328;uje odkazovan&#xfd; zdroj.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/dcmitype/Service">
+    <rdfs:label xml:lang="cs-CZ">Slu&#382;ba</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Slu&#382;ba je syst&#xe9;m, kter&#xfd; nab&#xed;z&#xed; jednu nebo v&#xed;ce hodnotn&#xfd;ch funkc&#xed; koncov&#xe9;mu u&#382;ivateli. P&#345;&#xed;kladem m&#367;&#382;e b&#xfd;t kop&#xed;rovac&#xed; slu&#382;ba, bankovn&#xed; slu&#382;ba, autentiza&#269;n&#xed; slu&#382;ba, meziknihovn&#xed; v&#xfd;p&#367;j&#269;n&#xed; slu&#382;ba, Z39.50 nebo webov&#xfd; server.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/valid">
+    <rdfs:label xml:lang="cs-CZ">Platn&#xfd;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Datum (&#269;asto rozmez&#xed;) platnosti dokumentu.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/dcmitype/Text">
+    <rdfs:label xml:lang="cs-CZ">Text</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Text je zdroj jeho&#382; obsahem jsou prim&#xe1;rn&#283; slova ke &#269;ten&#xed;. Nap&#345;&#xed;klad - knihy, dopisy,  dizertace, b&#xe1;sn&#283;, noviny, &#269;l&#xe1;nky, archivy mailov&#xfd;ch diskusn&#xed;ch skupin. V&#353;imn&#283;te si, &#382;e kopie nebo obr&#xe1;zky textu z&#367;st&#xe1;vaj&#xed; st&#xe1;le textem.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/alternative">
+    <rdfs:label xml:lang="cs-CZ">Alternativn&#xed;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Jak&#xe1;koli forma n&#xe1;zvu pou&#382;it&#xe1; jako n&#xe1;hrada nebo alternativa form&#xe1;ln&#xed;ho n&#xe1;zvu zdroje.</rdfs:comment>
+    <NS0:description xml:lang="cs-CZ">Tento kvalifik&#xe1;tor m&#367;&#382;e obsahovat zkratky N&#xe1;zvu nebo jeho p&#345;eklady.</NS0:description>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/UDC">
+    <rdfs:label xml:lang="cs-CZ">MDT</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Mezin&#xe1;rodn&#xed; desetinn&#xe9; t&#345;&#xed;d&#283;n&#xed;</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/dcmitype/Dataset">
+    <rdfs:label xml:lang="cs-CZ">Sada dat</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Sada dat je mno&#382;ina informac&#xed; ulo&#382;en&#xe1; do definovan&#xe9; struktury (nap&#345;&#xed;klad seznamy, tabulky, datab&#xe1;ze) definovan&#xe9; tak, aby se dala pou&#382;&#xed;t pro automatizovan&#xe9; zpracov&#xe1;n&#xed;.</rdfs:comment>
+    
+  </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/abstract">
+    <rdfs:label xml:lang="cs-CZ">Abstrakt</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">V&#xfd;tah obsahu zdroje.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/bibliographicCitation">
+    <rdfs:label xml:lang="cs-CZ">Bibliografick&#xe1; citace</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Bibliografick&#xfd; odkaz zdroje</rdfs:comment>
+    <NS0:description xml:lang="cs-CZ">Doporu&#269;en&#xfd; postup je vlo&#382;it dostate&#269;n&#283; podrobnou bibliografickou informaci pro identifikaci zdroje tak jednozna&#269;n&#283; jak je  jen mo&#382;n&#xe9;, a&#357; u&#382;  citace je nebo nen&#xed; ve standardizovan&#xe9; podob&#283;.</NS0:description>
+    
+  </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/isFormatOf">
+    <rdfs:label xml:lang="cs-CZ">Je form&#xe1;tem</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Popisovan&#xfd; zdroj m&#xe1; stejn&#xfd; intelektu&#xe1;ln&#xed; obsah jako odkazovan&#xfd; zdroj, prezentovan&#xfd; pouze v jin&#xe9;m form&#xe1;tu.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/audience">
+    <rdfs:label xml:lang="cs-CZ">C&#xed;lov&#xe1; skupina</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Publikum, pro kter&#xe9; je zdroj ur&#269;en&#xfd; nebo vhodn&#xfd;</rdfs:comment>
+    <NS0:description xml:lang="cs-CZ">C&#xed;lova skupina m&#367;&#382;e b&#xfd;t ur&#269;ena tv&#367;rcem, vydavatelem nebo t&#345;et&#xed; stranou.</NS0:description>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/LCC">
+    <rdfs:label xml:lang="cs-CZ">LCC</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">T&#345;&#xed;d&#283;n&#xed; kongresov&#xe9; knihovny</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/hasPart">
+    <rdfs:label xml:lang="cs-CZ">Obsahuje &#269;&#xe1;st</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Popisovan&#xfd; zdroj obsahuje odkazovan&#xfd; zdroj a to fyzicky, nebo logicky.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/Box">
+    <rdfs:label xml:lang="cs-CZ">DCMI oblast</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">DCMI oblast definuje prostorovou oblast prost&#345;ednictv&#xed;m geografick&#xfd;ch hranic.</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/isPartOf">
+    <rdfs:label xml:lang="cs-CZ">Je &#269;&#xe1;st&#xed;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Popisovan&#xfd; zdroj je fyzickou nebo logickou &#269;&#xe1;st&#xed; odkazovan&#xe9;ho zdroje.</rdfs:comment>
+    
+  </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/URI">
+    <rdfs:label xml:lang="cs-CZ">URI</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Jednozna&#269;n&#xfd; identifik&#xe1;tor zdroje</rdfs:comment>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/isReferencedBy">
+    <rdfs:label xml:lang="cs-CZ">Je odkazovan&#xfd;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Popisovan&#xfd; zdroj je odkazovan&#xfd;, citovan&#xfd;, nebo jakkoliv zmi&#328;ovan&#xfd; odkazovan&#xfd;m zdrojem.</rdfs:comment>
+    
+  </rdf:Description>
+      <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
+    <rdfs:label xml:lang="cs-CZ">Vydan&#xfd;</rdfs:label>
+    <rdfs:comment xml:lang="cs-CZ">Datum form&#xe1;ln&#xed;ho vyd&#xe1;n&#xed; (t.j. publikov&#xe1;n&#xed;) zdroje.</rdfs:comment>
+    
+  </rdf:Description>
+</rdf:RDF>

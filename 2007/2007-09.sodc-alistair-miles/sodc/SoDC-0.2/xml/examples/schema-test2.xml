@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://purl.org/net/sodc/xml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://purl.org/net/sodc/xml ../sodc-xml.xsd">
+
+  <!-- test disallow repeat resource descriptions -->  
+
+  <resource>
+    <uri>http://example.com/foo</uri>
+    <property uri="http://example.com/property#p">
+      <value>
+        <plainliteral lang="en">foo</plainliteral>
+      </value>
+    </property>
+  </resource>
+
+  <!-- this should be broken -->
+  <resource>
+    <uri>http://example.com/foo</uri>
+    <property uri="http://example.com/property#p">
+      <value>
+        <plainliteral lang="en">foo</plainliteral>
+      </value>
+    </property>
+  </resource>
+
+  <!-- this should be ok -->
+  <resource>
+    <uri>http://example.com/bar</uri>
+    <property uri="http://example.com/property#p">
+      <value>
+        <plainliteral lang="en">foo</plainliteral>
+      </value>
+    </property>
+  </resource>
+  
+  <!-- this should be ok -->
+  <resource>
+    <nodeid>foo</nodeid>
+    <property uri="http://example.com/property#p">
+      <value>
+        <plainliteral lang="en">foo</plainliteral>
+      </value>
+    </property>
+  </resource>
+  
+  <!-- this should be broken -->
+  <resource>
+    <nodeid>foo</nodeid>
+    <property uri="http://example.com/property#p">
+      <value>
+        <plainliteral lang="en">foo</plainliteral>
+      </value>
+    </property>
+  </resource>
+  
+  <!-- this should be ok -->
+  <resource>
+    <nodeid>bar</nodeid>
+    <property uri="http://example.com/property#p">
+      <value>
+        <plainliteral lang="en">foo</plainliteral>
+      </value>
+    </property>
+  </resource>
+  
+</graph>

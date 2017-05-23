@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+    <record xmlns="http://www.loc.gov/MARC21/slim">
+        <leader>00720cam a22002051  4500</leader>
+        <controlfield tag="001">   00000002 </controlfield>
+        <controlfield tag="003">DLC</controlfield>
+        <controlfield tag="005">20040505165105.0</controlfield>
+        <controlfield tag="008">800108s1899    ilu           000 0 eng  </controlfield>
+        <datafield tag="010" ind1=" " ind2=" ">
+            <subfield code="a">   00000002 </subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)5853149</subfield>
+        </datafield>
+        
+        
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DLC</subfield>
+            <subfield code="c">DSI</subfield>
+            <subfield code="d">DLC</subfield>
+        </datafield>
+        
+        
+        <datafield tag="050" ind1="0" ind2="0">
+            <subfield code="a">RX671</subfield>
+            <subfield code="b">.A92</subfield>
+        </datafield>
+        
+        
+        <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Aurand, Samuel Herbert,</subfield>
+            <subfield code="d">1854-</subfield>
+        </datafield>
+        
+        
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Botanical materia medica and pharmacology;</subfield>
+            <subfield code="b">drugs considered from a botanical, pharmaceutical, physiological, therapeutical and toxicological standpoint.</subfield>
+            <subfield code="c">By S. H. Aurand.</subfield>
+        </datafield>
+        
+        
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Chicago,</subfield>
+            <subfield code="b">P. H. Mallen Company,</subfield>
+            <subfield code="c">1899.</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">406 p.</subfield>
+            <subfield code="c">24 cm.</subfield>
+        </datafield>
+        <datafield tag="500" ind1=" " ind2=" ">
+            <subfield code="a">Homeopathic formulae.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Botany, Medical.</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Homeopathy</subfield>
+            <subfield code="x">Materia medica and therapeutics.</subfield>
+        </datafield>
+    </record>
+</collection>    

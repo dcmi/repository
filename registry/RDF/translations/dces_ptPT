@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://purl.pt/201">
+	<dc:title xml:lang="pt-PT">
+	Elementos do N&#x00fa;cleo de Metadata "Dublin Core", Vers&#x00e3;o 1.1: Descri&#x00e7;&#x00e3;o de 
+	Refer&#x00ea;ncia (vers&#x00e3;o em l&#x00ed;ngua Portuguesa)
+	</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.1 Reference Description (Portuguese Translation)</dc:title>
+	<dc:creator xml:lang="pt-PT">Jos&#x00e9; Luis Borbinha</dc:creator>
+	<dc:creator xml:lang="en-US">Jose Luis Borbinha</dc:creator>
+	<dc:creator rdf:resource="mailto:jose.borbinha@bn.pt"/>
+	<dc:language xml:lang="pt-PT">Portugu&#x00ea;s</dc:language>
+	<dc:language xml:lang="en-US">Portuguese</dc:language>
+	<dc:language>pt-PT</dc:language>
+	<dc:publisher xml:lang="pt-PT">Biblioteca Nacional</dc:publisher>
+	<dc:publisher xml:lang="en-US">National Library of Portugal</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.bn.pt/"/>		
+	<dc:source rdf:resource="http://purl.pt/201"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>

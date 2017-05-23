@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/groups/userguides.htm">
+   <dc:title>Dublin Core Metadata Initiative - User Guide Working Group</dc:title>
+   <dc:description>This group will be responsible for creating two user guides - one for Simple Dublin Core and another for Qualified Dublin Core.  The user guide will be published on the Web only, but will be freely available for use by users wishing to create guides for individual projects.</dc:description>
+   <dc:date>1997-10-08</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>The Dublin Core Metadata Initiative</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

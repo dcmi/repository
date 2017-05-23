@@ -1,0 +1,27 @@
+<TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="2">
+<TR><TD WIDTH="10%" COLSPAN="2" VALIGN="TOP"><FONT COLOR="#990000"><B>TOOLS</B></FONT></TD></TR>
+<TR><TD WIDTH="10%" VALIGN="TOP"><IMG SRC="../images/bullet/orange.gif" WIDTH="9" HEIGHT="13" BORDER="0"></TD>
+<TD WIDTH="90%" VALIGN="TOP"><A HREF="../tools/index.htm"><B>Metadata Related Tools</B></A></TD>
+</TR>
+<TR><TD WIDTH="10%" VALIGN="TOP">&nbsp;</TD><TD WIDTH="90%" VALIGN="TOP">
+<TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD>
+<TD><A HREF="#creating">Creating Metadata (Templates)</A></TD>
+</TR>
+<TR><TD><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD>
+<TD><A HREF="#toolscreationchange">Tools for the <NOBR>Creation/<WBR>Change</NOBR> of Templates</A></TD>
+</TR>
+<TR><TD><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD>
+<TD><A HREF="#automaticextractiongathering">Automatic <NOBR>Extraction/<WBR>Gathering</NOBR> of Metadata</A></TD>
+</TR>
+<TR><TD><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD>
+<TD><A HREF="#automaticproduction">Automatic Production of Metadata</A></TD>
+</TR>
+<TR><TD><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD>
+<TD><A HREF="#conversionbetween">Conversion Between Metadata Formats</A></TD>
+</TR>
+<TR><TD><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD>
+<TD><A HREF="#integratedtoolenvironments">Integrated (Tool) Environments</A></TD>
+</TR>
+</TABLE></TD></TR>
+</TABLE>

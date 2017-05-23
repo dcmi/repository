@@ -1,0 +1,117 @@
+<HTML>
+<HEAD>
+	<TITLE>date</TITLE>
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#99CCFF" LINK="#AA0000" VLINK="#AA0000" ALINK="#FFFFFF">
+<P><A NAME="top"></A><BR>
+<TABLE BORDER="0" WIDTH="100%">
+	<TR>
+		<TD WIDTH="30">&#160;</TD>
+		<TD WIDTH="100%">
+			<P><FONT SIZE="6" COLOR="#FFFFFF"><BR>
+			The 7th Dublin Core Metadata Workshop </FONT>
+			<H4><FONT COLOR="#FFFFFF">October 25-27, 1999<BR>
+			Die Deutsche Bibliothek Frankfurt am Main, Germany</FONT></H4>
+<H4>DC Date WG Agenda - DC7</H4>			
+<H5>This is a status report on DC-Date working group issues as of October 1999.</H5>
+<b>De-Duping Submitted Qualifiers</b>			
+<p>I've taken the liberty of conferring with the kind people who submitted lists of Date qualifiers for consideration as DCMI recommended Date qualifiers. They've helped me clarify which of their proposed qualifiers had equivalent qualifiers that had already been approved. The process of removing these duplicate (or at least equivalent) submissions has resulted in the enclosed, smaller set of qualifiers for consideration. This process is necessarily imperfect, so please let me know how it can be improved. This list is a departure point for discussion, and should be considered neither definitive nor final.</p>
+<b>Proposed New Qualifiers -- De-Duped List</b>
+<pre>
+Qualifier                             Submitted by
+</pre>
+Expiry (sunset clause)	Business Entry Point, Australia<p>
+(for describing metadata/events)
+<pre>
+RecordCreated                         GEM &amp; RKM
+Cataloging-Date                       Amico
+Creation-Date-Qualifier               Amico
+Validated                             Amico
+Transaction recorded                  RKM
+Registration                          RKM
+Transmission                          RKM
+</pre>
+<br>
+(for describing agent entities)
+<pre>
+Active                                Amico &amp; RKM
+Birth                                 Amico &amp; RKM
+Death                                 Amico &amp; RKM
+Establishment                         RKM
+Disestablishment                      RKM
+</pre>
+<br>
+(for business entities)
+<pre>
+Execution                             RKM
+Implementation                        RKM
+</pre>
+<br>
+<b>Current DCMI Qualifiers</b>
+<p>Note that these are subject to overall qualifier review guidelines to be discussed at the DC-7 meeting.</p>
+<pre>
+Date.Created                Date.Issued          Date.Accepted
+Date.DataGathered           Date.Available       Date.Acquired
+Date.Modified               Date.Valid
+</pre>
+<br>
+<b>Problems with Ranges</b>
+<p>There are currently two problems with ranges:
+<OL>
+<LI>Ranges are not (yet) part of the W3C Profile of ISO 8601; we have
+       not heard from Misha what the status is of his attempts to add
+       ranges (normal ranges and open-ended ranges) to the W3C Profile.
+<LI>A few months ago we discovered that open-ended ranges (in which
+       either just a start date or just an end date appears, but not both)
+       are not allowed in ISO 8601, with the consequence that problem 1
+       becomes harder: to continue to be a Profile of 8601, the W3C
+       Technical Note must specify a subset of the 8601 standard.
+       Mitigating this problem a bit is that 8601 does not explicitly
+       disallow open-ended ranges, and the usage we envisioned does not
+       conflict with any existing usage.
+</OL>
+<b>Possible Solutions to Ranges</b>
+<UL>
+<LI>Don't express ranges (open or closed) in one qualifier value, but
+     instead consider each qualifier to come as a trio of qualifiers;
+     e.g., Date.Valid, Date.ValidFrom, Date.ValidTo.
+<LI>Express ranges in one qualifier value, modifying the Dublin Core
+     Date syntax recommendation document along the lines the Date WG was
+     pursuing early this year. A document that defines such a syntax
+     might be
+<UL>
+<LI>consistent with ISO 8601, but not technically a Profile,
+<LI>divergent from ISO 8601, going in another direction entirely.
+</UL>
+This document could be conceived in various contexts:
+<UL>
+<LI>a revised W3C Technical Note,
+<LI>a new and different W3C Technical Note, or
+<LI>a new Dublin Core (non-W3C) Recommendation.
+</UL>
+</UL>
+<br>
+<b>Harmonization of Date Range Syntax with Coverage Date Ranges</b>
+<p>Whatever solution is found for the syntax of dates, it seems desirable for that syntax to work with Coverage.  Where this becomes controversial is with date ranges. The Coverage approach is akin to Solution A above, where each end of a range carries its own label.</p>
+<b>Granularity/Precision</b>
+<p>Granularity of dates refers to the various kinds of ambiguity that can arise around dates and ranges. For example, since any day in 1999 can be grossly identified with the date &quot;1999&quot;, is the value &quot;1999&quot; a point in time, or a range of days? For that matter, could it be a range of months, weeks, or minutes? Similarly, can an actual range of years (with explicit starting and ending points) also imply a range of days, weeks, or minutes?</p>
+<HR><P>
+			Point of contact: <A HREF="mailto:jak@nlm.nih.gov">John A. Kunze</A>
+			
+
+
+
+
+						<P><HR>
+			
+<P><A HREF="/archives/1999/dc7/index.htm" target="_top"><IMG src="../../res/ddbhomesmall.gif" ALT="Home" BORDER="0" WIDTH="48" HEIGHT="24"></A></P>
+			<HR>
+			<FONT SIZE="1">&#169; Die Deutsche Bibliothek<BR>
+			 Hannelore Effelsberg / 21.10.1999</FONT><BR>
+			<A HREF="#top"><BR>
+			<IMG SRC="../../res/pfeil.gif" WIDTH="17" HEIGHT="23" ALIGN="BOTTOM" BORDER="0"></A>
+		</TD>
+	</TR>
+</TABLE>
+</BODY>
+</HTML>

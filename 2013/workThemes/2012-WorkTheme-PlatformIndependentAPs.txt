@@ -1,0 +1,22 @@
+<a name="platformIndependentAP" id="platformIndependentAP"></a>
+<p><strong>Platform-independent Application Profiles</strong></p>
+<blockquote>
+<p>The <a href="http://dublincore.org/documents/abstract-model/">DCMI Abstract Model</a> (DCAM), published as a DCMI 
+Recommendation in 2007, provides an abstract syntax for packaging Semantic-Web-compatible data in validatable 
+record formats. DCAM was designed to bridge the modern paradigm of the unbounded Linked Data graph and the 
+more familiar paradigm of the validatable metadata record, locally managed and constrained using a myriad of 
+software platforms and implementation technologies. For five years, DCAM has inspired a wide range of deployment 
+experiences, and the core RDF standards themselves continue to be extended. The activity "platform-independent 
+application profiles" is re-evaluating the need and requirements for a common language to express metadata design 
+patterns, both as templates for Linked-Data-compatible data formats and as reference points for creating and 
+consuming coherent metadata within communities of discourse and practice.</p>
+
+<p><em>Monitor &amp; participate in this activity:</em> 
+		<ul>
+			<li>Meeting Minutes &amp; Work Agenda: <a href="http://wiki.dublincore.org/index.php/DCAM_Revision" target="_blank">Platform-independent Application Profiles activity wiki</a></li>
+			<li>Discussion: <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-architecture&A=1" target="_blank">Architecture Forum mailing list</a> &amp; <a href="http://www.jiscmail.ac.uk/lists/DC-ARCHITECTURE.html" target="_blank">list archive</a></li>
+		</ul>
+</p>
+
+</blockquote>
+<hr />

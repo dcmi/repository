@@ -1,0 +1,464 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>Dublin Core Element Set, Version 1.1 - Reference Description</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="../../documents/1999/07/02/dces/index.shtml.rdf" />
+  </head>
+
+  <body>
+    <!--#include virtual="/ssi/header.shtml"-->
+
+    
+<table
+    summary="A layout table with a description about the status of this document."
+     border="0" width="100%" cellspacing="0" cellpadding="2">
+<tr> 
+<td align="right" valign="top"> 
+<div align="left"> <strong>Title:</strong> </div>
+</td>
+<td align="right" valign="top"> 
+<div align="left"> 
+<h2><strong>Dublin Core Metadata Element Set, Version 1.1: Reference Description</strong></h2>
+</div>
+</td>
+</tr>
+<tr> 
+<td align="right" valign="top"> 
+<div align="left"> <strong>Date Issued:</strong> </div>
+</td>
+<td align="right" valign="top"> 
+<div align="left"> 1999-07-02 </div>
+</td>
+</tr>
+<tr> 
+<td align="right" valign="top"> 
+<div align="left"> <strong>Identifier:</strong> </div>
+</td>
+<td align="right" valign="top"> 
+<div align="left"> <a
+            href="/documents/1999/07/02/dces/">http://dublincore.org/documents/1999/07/02/dces/</a> 
+</div>
+</td>
+</tr>
+<tr> 
+<td align="right" valign="top"> 
+<div align="left"><b>Supersedes:</b></div>
+</td>
+<td align="right" valign="top"> 
+<div align="left"><a href="/documents/1998/09/dces/">http://dublincore.org/documents/1998/09/dces/</a></div>
+</td>
+</tr>
+<tr> 
+<td align="right" valign="top"> 
+<div align="left"><b>Is Superseded By:</b></div>
+</td>
+<td align="right" valign="top"> 
+<div align="left">Not Applicable</div>
+</td>
+</tr>
+<tr> 
+<td align="right" valign="top"> 
+<div align="left"> <strong>Replaces:</strong> </div>
+</td>
+<td align="right" valign="top"> 
+<div align="left"> Not Applicable</div>
+</td>
+</tr>
+<tr> 
+<td align="right" valign="top"> 
+<div align="left"> <strong>Is Replaced By:</strong> </div>
+</td>
+<td align="right" valign="top"> 
+<div align="left"> Not Applicable </div>
+</td>
+</tr>
+<tr> 
+<td align="right" valign="top"> 
+<div align="left"> <strong>Latest version:</strong> </div>
+</td>
+<td align="right" valign="top"> 
+<div align="left"> <a
+            href="/documents/dces/">http://dublincore.org/documents/dces/</a> 
+</div>
+</td>
+</tr>
+<tr> 
+<td width="20%" valign="top"> </td>
+<td width="80%" valign="top"> </td>
+</tr>
+<tr>
+<td width="20%" valign="top"><b>Translations:</b></td>
+<td width="80%" valign="top"><a href="/resources/translations/#dces1-1">http://dublincore.org/resources/translations/</a></td>
+</tr>
+<tr> 
+<td width="20%" valign="top"> 
+<div align="left"> <strong>Status of document:</strong> </div>
+</td>
+<td width="80%" valign="top"> 
+<div align="left"> This is a DCMI <a
+            href="/documents/#recommendations">Recommendation</a>. </div>
+</td>
+</tr>
+<tr> 
+<td valign="top"><strong>Description of document:</strong></td>
+<td valign="top">This document is the reference description, version 1.1 of the 
+Dublin Core Metadata Element Set. This document supersedes the Dublin Core Metadata 
+Element Set, <a
+        href="/documents/1998/09/dces/">version 1.0</a>. See the Dublin Core Home 
+Page (<a
+        href="/">http://dublincore.org</a>) for further information about the 
+workshops, reports, working group papers, projects, and new developments concerning 
+the Dublin Core Metadata Element set.</td>
+</tr>
+<tr> 
+<td valign="top" colspan="2"> 
+<hr title="separator from head" />
+</td>
+</tr>
+</table>
+
+    <h3>Introduction</h3>
+
+    <p>The document summarizes the updated definitions for the
+    Dublin Core metadata elements as originally defined in [<a
+    href="#rfc2413">RFC2413</a>]. These new definitions will be
+    officially known as Version 1.1.</p>
+
+    <p>The definitions utilise a formal standard for the
+    description of metadata elements. This formalisation helps to
+    improve consistency with other metadata communities and
+    enhances the clarity, scope, and internal consistency of the
+    Dublin Core metadata element definitions.</p>
+
+    <p>Each Dublin Core element is defined using a set of ten
+    attributes from the ISO/IEC 11179 [<a
+    href="#ISO11179">ISO11179</a>] standard for the description of
+    data elements. These include:</p>
+
+    <ul>
+      <li><strong>Name</strong> - The label assigned to the data
+      element</li>
+
+      <li><strong>Identifier</strong> - The unique identifier
+      assigned to the data element</li>
+
+      <li><strong>Version</strong> - The version of the data
+      element</li>
+
+      <li><strong>Registration Authority</strong> - The entity
+      authorised to register the data element</li>
+
+      <li><strong>Language</strong> - The language in which the
+      data element is specified</li>
+
+      <li><strong>Definition</strong> - A statement that clearly
+      represents the concept and essential nature of the data
+      element</li>
+
+      <li><strong>Obligation</strong> - Indicates if the data
+      element is required to always or sometimes be present
+      (contain a value)</li>
+
+      <li><strong>Datatype</strong> - Indicates the type of data
+      that can be represented in the value of the data element</li>
+
+      <li><strong>Maximum Occurrence</strong> - Indicates any limit
+      to the repeatability of the data element</li>
+
+      <li><strong>Comment</strong> - A remark concerning the
+      application of the data element</li>
+    </ul>
+
+    <p>Fortunately, six of the above ten attributes are common to
+    all the Dublin Core elements. These are, with their respective
+    values:</p>
+<pre>
+  Version:                1.1 
+  Registration Authority: Dublin Core Metadata Initiative
+  Language:               en
+  Obligation:             Optional
+  Datatype:               Character String
+  Maximum Occurrence:     Unlimited
+</pre>
+
+    <p>The above attributes will not be repeated in the below
+    definitions, however, they do represent part of the formal
+    element definitions.</p>
+
+    <p>The definitions provided here include both the conceptual
+    and representational form of the Dublin Core elements. The
+    Definition attribute captures the semantic concept and the
+    Datatype and Comment attributes capture the data
+    representation.</p>
+
+    <p>Each Dublin Core definition refers to the resource being
+    described. A resource is defined in [<a
+    href="#rfc2396">RFC2396</a>] as "anything that has identity".
+    For the purposes of Dublin Core metadata, a resource will
+    typically be an information or service resource, but may be
+    applied more broadly.</p>
+
+    <p>&nbsp;</p>
+
+    <h3><strong>Element: Title</strong></h3>
+<pre>
+  Name:        Title
+  Identifier:  Title
+  Definition:  A name given to the resource.
+  Comment:     Typically, a Title will be a name by which the resource is
+               formally known.
+</pre>
+
+    <h3>Element: Creator</h3>
+<pre>
+  Name:        Creator
+  Identifier:  Creator
+  Definition:  An entity primarily responsible for making the content of
+               the resource.
+  Comment:     Examples of a Creator include a person, an organisation,
+               or a service.
+               Typically, the name of a Creator should be used to
+               indicate the entity.
+</pre>
+
+    <h3>Element: Subject</h3>
+<pre>
+  Name:        Subject and Keywords
+  Identifier:  Subject
+  Definition:  The topic of the content of the resource.
+  Comment:     Typically, a Subject will be expressed as keywords,
+               key phrases or classification codes that describe a topic
+               of the resource.
+               Recommended best practice is to select a value from a
+               controlled vocabulary or formal classification scheme.
+</pre>
+
+    <h3>Element: Description</h3>
+<pre>
+  Name:        Description
+  Identifier:  Description
+  Definition:  An account of the content of the resource.
+  Comment:     Description may include but is not limited to: an abstract,
+               table of contents, reference to a graphical representation
+               of content or a free-text account of the content.
+</pre>
+
+    <h3>Element: Publisher</h3>
+<pre>
+  Name:        Publisher
+  Identifier:  Publisher
+  Definition:  An entity responsible for making the resource available
+  Comment:     Examples of a Publisher include a person, an organisation,
+               or a service.
+               Typically, the name of a Publisher should be used to
+               indicate the entity.
+</pre>
+
+    <h3>Element: Contributor</h3>
+<pre>
+  Name:        Contributor
+  Identifier:  Contributor
+  Definition:  An entity responsible for making contributions to the
+               content of the resource.
+  Comment:     Examples of a Contributor include a person, an organisation,
+               or a service.
+               Typically, the name of a Contributor should be used to
+               indicate the entity.
+</pre>
+
+    <h3>Element: Date</h3>
+<pre>
+  Name:        Date
+  Identifier:  Date
+  Definition:  A date associated with an event in the life cycle of the
+               resource.
+  Comment:     Typically, Date will be associated with the creation or
+               availability of the resource.  Recommended best practice
+               for encoding the date value is defined in a profile of
+               ISO 8601 [<a
+href="#w3cdtf">W3CDTF</a>] and follows the YYYY-MM-DD format.
+</pre>
+
+    <h3>Element: Type</h3>
+<pre>
+  Name:        Resource Type 
+  Identifier:  Type
+  Definition:  The nature or genre of the content of the resource.
+  Comment:     Type includes terms describing general categories, functions,
+               genres, or aggregation levels for content. Recommended best
+               practice is to select a value from a controlled vocabulary
+               (for example, the working draft list of Dublin Core Types 
+               [<a
+href="#dct1">DCT1</a>]). To describe the physical or digital manifestation
+               of the resource, use the FORMAT element.
+</pre>
+
+    <h3>Element: Format</h3>
+<pre>
+  Name:        Format
+  Identifier:  Format
+  Definition:  The physical or digital manifestation of the resource.
+  Comment:     Typically, Format may include the media-type or dimensions of
+               the resource. Format may be used to determine the software, 
+               hardware or other equipment needed to display or operate the 
+               resource. Examples of dimensions include size and duration.
+               Recommended best practice is to select a value from a
+               controlled vocabulary (for example, the list of Internet Media
+               Types [<a
+href="#mime">MIME</a>] defining computer media formats).
+</pre>
+
+    <h3>Element: Identifier</h3>
+<pre>
+  Name:        Resource Identifier
+  Identifier:  Identifier
+  Definition:  An unambiguous reference to the resource within a given context.
+  Comment:     Recommended best practice is to identify the resource by means
+               of a string or number conforming to a formal identification
+               system. 
+               Example formal identification systems include the Uniform
+               Resource Identifier (URI) (including the Uniform Resource
+               Locator (URL)), the Digital Object Identifier (DOI) and the
+               International Standard Book Number (ISBN).
+</pre>
+
+    <h3>Element: Source</h3>
+<pre>
+  Name:        Source
+  Identifier:  Source
+  Definition:  A Reference to a resource from which the present resource
+               is derived.
+  Comment:     The present resource may be derived from the Source resource
+               in whole or in part.  Recommended best practice is to reference 
+               the resource by means of a string or number conforming to a 
+               formal identification system.
+</pre>
+
+    <h3>Element: Language</h3>
+<pre>
+  Name:        Language
+  Identifier:  Language
+  Definition:  A language of the intellectual content of the resource.
+  Comment:     Recommended best practice for the values of the Language
+               element is defined by RFC 1766 [<a
+href="#rfc1766">RFC1766</a>] which includes
+               a two-letter Language Code (taken from the ISO 639
+               standard [<a
+href="#iso639">ISO639</a>]), followed optionally, by a two-letter
+               Country Code (taken from the ISO 3166 standard [<a
+href="#iso3166">ISO3166</a>]). 
+               For example, 'en' for English, 'fr' for French, or
+               'en-uk' for English used in the United Kingdom.
+</pre>
+
+    <h3>Element: Relation</h3>
+<pre>
+  Name:        Relation
+  Identifier:  Relation
+  Definition:  A reference to a related resource.
+  Comment:     Recommended best practice is to reference the resource by means
+               of a string or number conforming to a formal identification
+               system.
+</pre>
+
+    <h3>Element: Coverage</h3>
+<pre>
+  Name:        Coverage
+  Identifier:  Coverage
+  Definition:  The extent or scope of the content of the resource.
+  Comment:     Coverage will typically include spatial location (a place name
+               or geographic coordinates), temporal period (a period label,
+               date, or date range) or jurisdiction (such as a named
+               administrative entity).
+               Recommended best practice is to select a value from a
+               controlled vocabulary (for example, the Thesaurus of Geographic
+               Names [TGN]) and that, where appropriate, named places or time
+               periods be used in preference to numeric identifiers such as
+               sets of coordinates or date ranges.
+</pre>
+
+    <h3>Element: Rights</h3>
+<pre>
+  Name:       Rights Management   
+  Identifier: Rights
+  Definition: Information about rights held in and over the resource.
+  Comment:    Typically, a Rights element will contain a rights
+              management statement for the resource, or reference
+              a service providing such information. Rights information
+              often encompasses Intellectual Property Rights (IPR),
+              Copyright, and various Property Rights.
+              If the Rights element is absent, no assumptions can be made
+              about the status of these and other rights with respect to
+              the resource.
+</pre>
+    <hr />
+
+    <h4>References</h4>
+
+    <p>[DCT1<a id="dct1" name="dct1"></a>] List of Resource Types.
+    Dublin Core Draft Working Group Report.<br />
+    &lt;<a
+    href="/documents/1999/08/05/resource-typelist/">http://dublincore.org/documents/1999/08/05/resource-typelist/</a>&gt;</p>
+
+    <p>[ISO11179<a id="iso11179" name="iso11179"></a>] ISO 11179 -
+    Specification and Standardization of Data Elements, Parts
+    1-6.<br />
+     &lt;ftp://sdct-sunsrv1.ncsl.nist.gov/x3l8/11179/&gt;</p>
+
+    <p>[ISO639<a id="iso639" name="iso639"></a>] ISO 639 - Codes
+    for the representation of names of languages.<br />
+     <a
+    href="http://www.oasis-open.org/cover/iso639a.html">&lt;http://www.oasis-open.org/cover/iso639a.html&gt;</a></p>
+
+    <p>[ISO3166<a id="iso3166" name="iso3166"></a>] ISO 3166 -
+    Codes for the representation of names of countries.<br />
+     <a
+    href="http://www.oasis-open.org/cover/country3166.html">&lt;http://www.oasis-open.org/cover/country3166.html&gt;</a></p>
+
+    <p>[MIME<a id="mime" name="mime"></a>] Internet Media
+    Types.<br />
+     <a
+    href="http://www.isi.edu/in-notes/iana/assignments/media-types/media-types">
+    &lt;http://www.isi.edu/in-notes/iana/assignments/media-types/media-types</a></p>
+
+    <p>[RFC1766<a id="rfc1766" name="rfc1766"></a>] Tags for the
+    Identification of Languages, Internet RFC 1766.<br />
+     &lt;<a
+    href="http://www.ietf.org/rfc/rfc1766.txt">http://www.ietf.org/rfc/rfc1766.txt</a>&gt;</p>
+
+    <p>[RFC2396<a id="rfc2396" name="rfc2396"></a>] Uniform
+    Resource Identifiers (URI): Generic Syntax, Internet RFC
+    2396.<br />
+     &lt;<a
+    href="http://www.ietf.org/rfc/rfc2396.txt">http://www.ietf.org/rfc/rfc2396.txt</a>&gt;</p>
+
+    <p>[RFC2413<a id="rfc2413" name="rfc2413"></a>] Dublin Core
+    Metadata for Resource Discovery. Internet RFC 2413.<br />
+     &lt;<a
+    href="http://www.ietf.org/rfc/rfc2413.txt">http://www.ietf.org/rfc/rfc2413.txt</a>&gt;</p>
+
+    <p>[TGN<a id="tgn" name="tgn"></a>] Getty Thesaurus of
+    Geographic Names.<br />
+     <a
+    href="http://shiva.pub.getty.edu/tgn_browser/">&lt;http://shiva.pub.getty.edu/tgn_browser/</a>&gt;</p>
+
+    <p>[W3CDTF<a id="w3cdtf" name="w3cdtf"></a>] Date and Time
+    Formats, W3C Note.<br />
+     <a
+    href="http://www.w3.org/TR/NOTE-datetime">&lt;http://www.w3.org/TR/NOTE-datetime&gt;</a></p>
+
+    <blockquote>&nbsp;
+      
+    </blockquote>
+    <!--#include virtual="/ssi/footer.shtml"-->
+  </body>
+</html>
+

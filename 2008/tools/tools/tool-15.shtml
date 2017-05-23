@@ -1,0 +1,25 @@
+
+    <!--#include virtual="tool-head.shtml" -->
+    <!--#include virtual="/ssi/header.shtml" -->
+    <h1>Talend Open Profiler</h1>
+    <table cellspacing="0" class="noborder">
+<tr><td>Identifier:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.talend.com/products-data-quality/talend-open-profiler.php/">http://www.talend.com/products-data-quality/talend-open-profiler.php/</a></td></tr>
+<tr><td>Description:&nbsp;&nbsp;&nbsp;</td><td>Talend Open Profiler is a sophisticated, yet simple-to-use data profiling tool that defines the content, structure, and quality of highly complex data structures. It allows business users and data management staff to perform a large variety of analyses using a set of indicators, patterns and rules for each data element being analyzed or monitored. It analyzes data on an ongoing basis, and analyzes changes to source data over time to help improve data quality.
+
+These indicators can range from simple or advanced statistics to text string analysis, including summary data and statistical distributions of records. The patterns are preset or customized expressions that define the expected form of data analyzed and the data quality rules help define custom business thresholds and value ranges.
+
+Talend Open Profiler produces sophisticated reports and graphs that let users gauge at a glance the quality of the data, and the status of the predefined indicators. In addition an embedded data explorer allows users to directly drill down into the tables of the analyzed databases.
+</td></tr>
+<tr><td>Rights:&nbsp;&nbsp;&nbsp;</td><td>open-source software released under the GNU General Public License (GPL) version 2</td></tr>
+<tr><td>Language:&nbsp;&nbsp;&nbsp;</td><td>eng (ISO 639-2)</td></tr>
+<tr><td>Creator:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.talend.com/">http://www.talend.com/</a></a></td></tr>
+<tr><td>Publisher:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.talend.com/">http://www.talend.com/</a></td></tr>
+<tr><td>Location:&nbsp;&nbsp;&nbsp;</td><td>USA</td></tr>
+<tr><td>Date:&nbsp;&nbsp;&nbsp;</td><td>2008</td></tr>
+</table>
+    <p><small>For an application profile see the <a href="/groups/tools/map.shtml">DCMI Tools
+    Application Profile</a></small>
+    <!--#include virtual="/ssi/footer.shtml" -->
+    </body>
+    </html>
+    

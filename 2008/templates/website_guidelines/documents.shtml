@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>Adding Documents to the DCMI Web Site</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+    <link rel="meta" href="index.shtml.rdf" />
+  </head>
+
+  <body>
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="10"
+    summary="Content table">
+      <tbody>
+        
+<tr> 
+<td> 
+<h1>Adding Documents to the DCMI Web Site</h1>
+<ol>
+<li>Create a directory. 
+<p>Directories are created and named based on the date that the document is created/issued. 
+All documents belong in the /documents/ directory. The appropriate subdirectory 
+is based on the year/month/day/name of document/</p>
+<blockquote> 
+<p>Examples: </p>
+<p>/documents/2000/07/14/dcmes-xml/</p>
+<p>/documents/1999/07/02/dces/</p>
+</blockquote>
+<p>NOTE: Name of document should be fairly generic. The intent is to maintain 
+this name through all the stages a document can pass through (note/working draft/proposed 
+recommendation/recommendation).</p>
+</li>
+<li>Once the directory is created and correctly added onto the DCMI web site, 
+you can go ahead and create/move the files into the directory. There should be 
+one file that is titled &quot;index.shtml&quot;</li>
+<li>All links to other files within the DCMI site should be relative. </li>
+<li>Once the file is ready to go, you will need to update the following files: 
+<ul>
+<li>The documents list on the documents index page: /documents/index.shtml </li>
+<li>Create a softlink (for a first time document) or update the softlink to the 
+most recent version of the document. 
+<ul>
+<li>in the /documents/ directory create a new directory based on the file name 
+(example: /documents/filename/)</li>
+<li>copy a softlink file into the new directory.</li>
+<li>update the link to the latest copy of the document. (example: /documents/2000/10/05/education-namespace/)</li>
+</ul>
+<p>&nbsp;</p>
+</li>
+</ul>
+<ol>
+</ol>
+<blockquote>
+<p>&nbsp;</p>
+</blockquote>
+</li>
+</ol>
+<p>Got questions? Need Help? contact: <a
+            href="mailto:marsh@oclc.org">marsh@oclc.org</a></p>
+</td>
+        </tr>
+      </tbody>
+    </table>
+    <!--#include virtual="/ssi/footer.shtml" -->
+  </body>
+</html>
+

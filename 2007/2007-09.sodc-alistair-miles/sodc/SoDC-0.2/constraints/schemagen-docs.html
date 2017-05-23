@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- $Id: schemagen-docs.html,v 1.1 2007/09/05 17:21:20 ajm65 Exp $ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <title>SchemaGen -- Son of Dublin Core (SoDC) -- Encoding and Validating
+  Graph-based (Meta)data -- Version 0.2 (alpha)</title>
+  <meta name="generator" content="amaya 9.51, see http://www.w3.org/Amaya/" />
+  <link rel="stylesheet" href="../default.css" type="text/css" />
+</head>
+
+<body>
+<p><a href="../">Son of Dublin Core Version 0.2 (alpha)</a></p>
+<hr />
+
+<h1>SchemaGen -- Automatic Schema Generation</h1>
+
+<p>@@TODO say something</p>
+
+<p><strong>Quick Links:</strong></p>
+<ul>
+  <li>SoDC-CL [<a href="sodc-cl.xsd">schema</a>] [<a
+    href="./">documentation</a>]</li>
+  <li>SchemaGen [<a href="schemagen.xsl">stylesheet</a>]</li>
+</ul>
+
+<p><strong>Table of Contents:</strong></p>
+
+<div class="toc">
+<ul>
+  <li><a href="#L91">1. Introduction</a></li>
+  <li><a href="#L519">2. Stylesheet Transformation</a></li>
+  <li><a href="#L466">3. Issues</a></li>
+  <li><a href="#L907">4. References</a></li>
+</ul>
+</div>
+
+<h2 id="L91">1. Introduction</h2>
+
+<p>@@TODO</p>
+
+<p>The SoDC-CL language is designed to enable the generation of concrete,
+application-specific syntax validation tools from SoDC-CL documents.</p>
+
+<p>Because SoDC-CL is defining constraints over the abstract graph syntax, it
+is of course possible to generate validators from a SoDC-CL document for a
+range of concrete syntaxes, using a variety of technologies.</p>
+
+<h2 id="L519">2. Stylesheet Transformation</h2>
+
+<p>The SchemaGen stylesheet is a specific implementation of SoDC-CL, which
+generates a Schematron schema from a SoDC-CL document. The Schematron schema
+can then be used to validate specific SoDC-XML documents with respect to an
+"application profile". The SchemaGen stylesheet is at the link below:</p>
+<ul>
+  <li><a href="schemagen.xsl">schemagen.xsl</a> -- SchemaGen Schema
+    Generation Stylesheet</li>
+</ul>
+
+<p>For example, <a href="examples/simple-constraints.xml">the SoDC-CL
+document</a> in the example above was used to generate <a
+href="examples/simple.sch">a Schematron schema</a>, which can then be used to
+validate <a href="examples/simple-graph.xml">an SoDC-XML document</a> using a
+Schematron implementation. </p>
+
+<h2 id="L466">3. Issues</h2>
+<ol>
+  <li id="ISSUE-2">... lots TODO ...</li>
+</ol>
+
+<h2 id="L907">4. References</h2>
+<dl>
+  <dt>[RDF-CONCEPTS]</dt>
+    <dd><a
+      href="http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/">http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/</a></dd>
+  <dt>[RDF-SEMANTICS]</dt>
+    <dd><a
+      href="http://www.w3.org/TR/2004/REC-rdf-mt-20040210/">http://www.w3.org/TR/2004/REC-rdf-mt-20040210/</a></dd>
+  <dt>[SCHEMATRON]</dt>
+    <dd>@@TODO</dd>
+</dl>
+<hr />
+<pre>    --- change log ---
+    $Log: schemagen-docs.html,v $
+    Revision 1.1  2007/09/05 17:21:20  ajm65
+    rename to avoid content negotiation
+
+    Revision 1.1  2007/09/05 16:56:14  ajm65
+    Initial revision, with refactored content.
+
+    
+
+  </pre>
+
+<p></p>
+</body>
+</html>

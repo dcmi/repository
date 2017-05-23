@@ -1,0 +1,18 @@
+= Son of Dublin Core =
+
+See index.html for documentation.
+
+== Release SoDC-0_2 ==
+
+ * TODO check turtle syntax of turtlegen output via ant task
+ * DONE quick links to main files from index.html
+ * DONE move index.html to root folder
+
+== Release SoDC-0_1 ==
+
+ * TODO sodc-xml allow graph profiles
+ * TODO sodc-cl graph profiles and resource (description) profiles
+ * TODO sodc-cl graph profile constraints - cardinality on resources 
+ * TODO sodc-cl profiles use required|optional
+ * TODO fix turtlegen
+ * TODO sodc-cl referential integrity

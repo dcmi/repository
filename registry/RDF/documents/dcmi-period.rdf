@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;">
+	 
+<rdf:Description rdf:about="http://dublincore.org/documents/dcmi-period/">
+	<dc:title xml:lang="en-US">DCMI Period Encoding Scheme: specification of the limits of a time interval, and methods for encoding 
+	this in a text string
+	</dc:title>
+	<dc:creator>Simon Cox</dc:creator>
+	<dc:description xml:lang="en-US">
+	We introduce DCMI Period for identifying a single time interval using its limits. Components of the value 
+	correspond to the start and end of the interval, either of which may be ommitted in the case of a single-ended interval. 
+	We describe a method for encoding DCMI Period in a text-string, as a profile of DCSV. This notation is intended for recording 
+	the value of the DCMES elements Coverage and Date, particularly when using HTML meta elements. We also show an 
+	alternative encoding for DCMI Period using XML.
+	</dc:description>
+	<dc:date>2000-07-28</dc:date>
+	<dc:format>text/html</dc:format>
+	<dc:language>en-US</dc:language>
+	<dc:publisher xml:lang="en-US">Dublin Core Metadata Initiative</dc:publisher>
+	<dcq:conformsTo rdf:resource="http://dublincore.org/documents/#recommendations"/>
+</rdf:Description>
+ 
+</rdf:RDF>
+

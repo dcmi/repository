@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Website Standards and Policy Manual - FAQ</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+ 
+</script>
+  </head>
+
+  <body>
+    
+<!--#include virtual="/ssi/policies/header.shtml" -->
+<h1>Frequently Asked Questions</h1>
+<p><strong>Q. I want to use Microsoft FrontPage/Adobe PageMill/NetObjects Fusion on my site. Will the templates work with these programs?</strong></p>
+<p>A. FrontPage, Fusion and PageMill, like most WYSIWYG (What-You-See-Is-What-You-Get) HTML editors, will mangle HTML imported into it. We strongly suggest that you use editors which do not alter the template's code. Macromedia's Dreamweaver is such an editor (though it should be noted that even Dreamweaver can make unreadable code when used incorrectly).</p>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

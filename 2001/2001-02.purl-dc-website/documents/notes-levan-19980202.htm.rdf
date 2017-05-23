@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/documents/notes/notes-levan-19980202.htm">
+   <dc:title>Dublin Core and Z39.50</dc:title>
+   <dc:description>This paper proposes a mechanism for using the Dublin Core for search and retrieval in Z39.50. Agreement for how to do this for the 15 basic elements of the Dublin Core within the constraints of Version 2 has been reached. Consensus agreement on how to use Dublin Core qualifiers and schemas with the new attribute architecture for Z39.50 awaits completion of development in both communities. This paper is not a tutorial on Z39.50. A minimal amount of understanding of Z39.50 will be necessary to understand the details of this discussion.</dc:description>
+   <dc:date>1998-02-02</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Ralph LeVan</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

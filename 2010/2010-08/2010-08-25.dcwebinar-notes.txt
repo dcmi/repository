@@ -1,0 +1,71 @@
+RDF as a grammar for a language of data.
+Sentences of that grammar have three parts - "resource A is related to resource B" or 
+URIs are the words of that language.
+Has a unique identifier within a globally managed infrastructure, Domain Name Service.
+In context of the Web, those URIs are like footnotes for concepts (Dublin Core concept
+of date).
+Web is in that sense, functions like a dictionary for the words of this metadata language.
+
+Properties (relationships) - think of those as being like verbs.
+Classes - like nouns.
+
+In a closed IT environment ("normal" for computing pre-Web): data formats
+are custom-defined for an application.
+Web came along and provided a space that allows data sources to be
+integrated, gives rise to "open world mindset": the Web provides
+a context for integrating different sources of context.  Systems designed
+to integrate information incrementally.  Designed to tolerate incomplete
+information.
+
+Vocabularies share this underlying grammar of data, can be used to make 
+interchangeably to make statements about things.
+
+URI is a name.  Name anything you want.  But that's the way
+language is.  RDF as the language does not solve the larger
+issues that we have in human language.  Language designed by
+humans for processing by machines.
+
+Question whether anyone can use these verbs (e.g., BBC). Answer:
+these are declared in the public Web space.  Organizations that do
+this encourage people.
+
+We want to create a world where there are maybe five URIs
+for Title, but not 500, or 7 million.  Hopefully not 10,000
+URIs representing Obama - difficult to create coherence.
+Do you trust the organization that creates those URIs to be
+around for the foreseeable future.
+
+Designing an application based on underlying grammatical
+principles.  AP takes an implementer from functional
+requirements ("support navigation") - metadata to support
+those functions, to a domain model.
+
+In a closed ("normal") IT environment, one would integrate
+data across silos via mappings between data structures (schemas).
+
+If applications create good triples, then triples can be merged
+coherently because data links up.
+
+Applications are very transitory things.  We will not be using
+many of today's applications ten years from now.  We will not be
+using, ten years from now, special data formats designed for those
+applications.
+
+Triples based on known vocabularies such as Dublin Core make
+data self-descriptive.  Merged data can be searched.  Preserving 
+vocabularies: when the data is self-descriptive, the underlying
+vocabularies for the predicates need to be preserved - and URIs
+for things like "Barack Obama".
+
+Require shared grammar and shared words such as predicates
+of Dublin Core.
+
+Metaphor in early language of Dublin Core: like a Pidgin.  Can 
+order beer.  But lawyers and biophysicists will not get very far.
+In a healthy linguistic ecosystem, need both general vocabularies
+and specific vocabularies, and think how things written in specialized
+vocabularies can be simplified for a more general audience.  There 
+needs to be cooperation btw orgs like IFLA (assigning URIs to FRBR)
+and other members of that ecosystem - both the simplicity and the 
+complexity.  How can relationships between vocabularies be defined
+to help make such transformations more automatic.

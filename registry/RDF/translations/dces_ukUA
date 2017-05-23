@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://lucl.lucl.kiev.ua/win/metadata.html">	
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.0 Reference Description (Ukranian Translation)</dc:title>
+	<dc:date>1999</dc:date>
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	</dc:creator>
+	<dc:creator xml:lang="en-US">Hanna Voskresenska, National Parliamentary Library of Ukraine</dc:creator>
+	<dc:creator rdf:resource="mailto:system@lucl.lucl.kiev.ua"/>
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	</dc:contributor>
+	<dc:contributor xml:lang="en-US">Svetlana Sanzhak, Lesya Ukrainka Public Library</dc:contributor>
+	<dc:language xml:lang="uk-UA">&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;</dc:language>
+	<dc:language xml:lang="en-US">Ukranian</dc:language>
+	<dc:language>uk-UA</dc:language>
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	</dc:publisher>
+	<dc:publisher xml:lang="en-US">Lesya Ukrainka Public Library</dc:publisher>	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/1998/09/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>

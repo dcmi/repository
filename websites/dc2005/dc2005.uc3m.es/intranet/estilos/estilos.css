@@ -1,0 +1,133 @@
+/*Estilos propios ya de Jotri*/
+.menu {
+font-size: 9.0pt;
+font-weight: bold;
+font-family: Arial;
+text-decoration: none;
+color: #003333;
+}
+
+
+A.menu:hover
+{
+text-decoration:none;
+font-weight:bold;
+color:#66CCCC;
+}
+td.seccionactual
+{
+	background-color: #FFDAb6;
+	border-width:1;
+	border-color:#014178;
+	color:#OOOOOO;
+	text-align:left;
+}
+th.tablaContenidos
+{
+
+	font-size: 8.0pt;	
+	color:#OOOOOO;
+	font-weight: bold;
+	background-color: #FFDAb6;
+}
+
+
+.textosAdm {
+	color:#014178;
+	font-weight:bold;
+	font-size:12pt;
+}
+
+
+.contenido
+{
+	font-size:9.0pt;
+	font-family: Arial;
+	color:#OOOOOO;
+	
+}
+
+.boton{
+border-style:solid;
+border-width:1.0px;
+border-bottom-style:solid;
+border-color:#00446E;
+border-top-style:solid;
+background-color:#FFDAb6;
+font-weight:bold;
+font-size:7.0pt;
+color:#OOOOOO;
+}
+
+.contenido A
+{
+	color:#003333;
+}
+
+.contenido TH
+{
+	font-size: 10.0pt;
+	color: black;
+	font-weight: bold;
+	background-color:  #FFDAb6;
+}									
+
+.contenido TD
+{
+	font-size: 9.0pt;
+	color:black;	
+	text-align:justify;
+}
+
+a.enlace
+{
+	color:#DA5500;
+	text-decoration:none;
+	font-weight:bold;
+}
+A.enlace:hover
+{
+	text-decoration:none;
+	font-weight:bold;
+	color: #B90000;
+}
+
+/*A.enlace 
+{
+	text-decoration: none;
+	font-weight: bold;
+}*/
+
+/*-----------------------------------------*/
+
+body, p, th, td, span, form 
+{
+	font-size: 9.0pt;
+	font-family: Arial;
+	color: black;
+}
+				
+
+INPUT
+{
+	font-family:Arial; 
+	font-size:9.0pt
+}
+
+SELECT
+{
+	font-family:Arial; 
+	font-size:9.0pt;
+}
+
+TEXTAREA
+{
+	font-family:Arial; 
+	font-size:9.0pt
+}
+
+/* Estilos para la parte donde se muestra el nombre del usuario conectado */
+.celdaUsuario{
+	background-color: #C1CBCF;
+	color: #000000;
+}

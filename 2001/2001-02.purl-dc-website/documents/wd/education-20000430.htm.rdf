@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/documents/wd/education-20000430.htm">
+   <dc:title>Education working group: draft proposal</dc:title>
+   <dc:description>This document is a Draft Proposal of the Dublin Core Metadata Initiative, 
+and is intended to reflect consensus reached within the Education Working Group of the DCMI. 
+It reports decisions reached by DCEd through its online discussions and face-to-face meetings 
+in Frankfurt (October 25-27, 1999) and Melbourne (February 19-20, 2000). A full report in 
+support of this Final Working Draft Proposal may be found in the DCEd Report of Deliberations. 
+DCEd proposes: (1) two new domain-specific elements with accompanying element qualifiers for 
+adoption; and (2) endorsement of three elements from the Instructional Management System (IMS) 
+namespace (pursuant to the Memorandum of Understanding with the IEEE Learning Object Metadata 
+(LOM) working group).</dc:description>
+   <dc:creator>Jon Mason</dc:creator>
+   <dc:creator>Stuart Sutton</dc:creator>
+   <dc:date>2000-04-30</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

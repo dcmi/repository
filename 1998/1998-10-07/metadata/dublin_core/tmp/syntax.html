@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <head>
+    <title>Syntactic Considerations for the Dublin Core</title>
+    <base target = "_top">
+  </head>
+<body bgcolor="#FFFFFF" text="#000000">
+    <h1>Syntactic Considerations for the Dublin Core</h1>
+
+    <h3>HTML 2.0</h3>
+
+    <UL>
+	<LI><A HREF =
+	"http://www.oclc.org:5046/~weibel/html-meta.html"> An Approach
+	for Embedding Metadata in HTML 2.0 </A>, A work group
+	consensus from the Distributed Indexing/Searching Workshop,
+	MIT, May 28-29, 1996</LI>
+    </UL>
+
+    <h3>HTML 4.0</h3>
+
+    <P>In HTML 4.0 The META element  the following attributes, the
+    permitted values and their interpretation are profile dependent:
+      <UL>
+      <LI><B>NAME</B>:   This attribute specifies a property name.
+      <LI><B>CONTENT</B>:  This attribute specifies a property's value.
+      <LI><B>SCHEME</B>:   This attribute names a scheme to be used to interpret the property's value.
+      <LI><B>HTTP-EQUIV</B>:      This attribute may be used in place of the name attribute. HTTP servers use this attribute to gather   information for HTTP response message headers.
+      <LI><B>LANG</B>: language information
+	</UL>
+
+    <P>The META element can be used to describe properties of a
+    document (e.g., author, expiration date, a list of key words,
+    etc.) and assign values to those properties. This specification
+    does not define a normative set of properties.
+
+      <P>The additional attributes SCHEME and LANG are useful for qualifying content. For example:
+
+      <P>&lt;META name="DC.creator" lang="fr" content="Arnaud Le Hors"&gt;<BR>
+      &lt;META name="DC.subject" scheme = "DDC" content="541.34"&gt;<BR>
+
+
+    <h3>RDF Resource Desciption Framework</h3>
+
+    <UL>
+      <LI>Eric will write this...
+    </UL>
+    
+    <h3>Z39.50</h3>
+    
+    <UL>
+
+      <LI><A HREF =
+      "http://cypress.dev.oclc.org:12345/~rrl/docs/dublincoreandz3950.html">
+      Ralph LeVan's current thinking on the subject</A>
+	</LI>
+    </UL>
+      
+
+
+    <hr>
+    <address><a href="mailto:emiller@sinawava">eric j. miller</a></address>
+<!-- Created: Tue Sep 23 17:31:06 EDT 1997 -->
+<!-- hhmts start -->
+Last modified: Tue Sep 23 17:48:39 EDT 1997
+<!-- hhmts end -->
+  </body>
+</html>

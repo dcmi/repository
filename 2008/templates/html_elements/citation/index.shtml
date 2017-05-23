@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>DCMI Example</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1 id="title">Citation</h1>
+<dl>
+<dt>HTML Tag:</dt>
+<dd><code>&lt;CITE&gt;&lt;/CITE&gt;</code></dd>
+<dt>Guidelines:</dt>
+<dd>A <code>CITE</code> element is one that contains a citation or reference to some other source material. Browsers have free rein to determine how (or whether) to distinguish <code>SITE</code> element content from the rest of the <code>BODY</code> element. Both Navigator and Internet Explorer elect to italicize the text.</dd>
+<dt>Warnings:</dt>
+<dd>-</dd>
+<dt>Priority:</dt>
+<dd>-</dd>
+</dl>
+<h2>Browser View:</h2>
+<p>Make all visual distinctions as subtle as possible, but still clear and effective.<br>
+(Tufte,
+<cite>Visual Explanations</cite>)<abbr title="Ohio"></abbr><abbr title="United States of America"></abbr></p>
+<h2>Source View:</h2>
+<code>&lt;P&gt;Make all visual distinctions as subtle as possible, but still clear and effective.&lt;BR&gt;(Tufte, &lt;CITE&gt;Visual Explanations&lt;/CITE&gt;)&lt;/P&gt;</code>
+</body>
+</html>

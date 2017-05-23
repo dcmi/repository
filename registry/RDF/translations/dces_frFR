@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://www-rocq.inria.fr/~vercoust/METADATA/DC-fr.1.1.html">
+	<dc:title xml:lang="fr-FR">Le Dublin Core Version 1.1</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.1 Reference Description (French Translation)</dc:title>
+	<dc:date>2000-04-20</dc:date>
+	<dc:creator>Anne-Marie.Vercoustre</dc:creator>
+	<dc:creator rdf:resource="mailto:Anne-Marie.Vercoustre@csiro.au"/>
+	<dc:contributor>Hubert Padiou</dc:contributor>
+	<dc:contributor>Herve de Villemeur</dc:contributor>
+	<dc:language xml:lang="fr-FR">Fran&#x00e7;ais</dc:language>
+	<dc:language xml:lang="en-US">French</dc:language>
+	<dc:language>fr-FR</dc:language>
+	<dc:publisher>Inria Rocquencourt</dc:publisher>
+	<dc:publisher rdf:resource="http://www-rocq.inria.fr/"/>
+	<dc:source rdf:resource="http://www-rocq.inria.fr/~vercoust/METADATA/DC-fr.1.1.html"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/dces/"/>	
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>

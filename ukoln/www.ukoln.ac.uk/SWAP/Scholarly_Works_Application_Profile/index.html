@@ -1,0 +1,1915 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="KEYWORDS" content="Scholarly Works Application Profile">
+<meta name="robots" content="index,follow">
+<link rel="shortcut icon" href="http://www.ukoln.ac.uk/favicon.ico">
+<link title="Creative Commons" type="application/rdf+xml" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Scholarly_Works_Application_Profile&amp;action=creativecommons" rel="meta">
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/2.5/">
+    <title>Scholarly Works Application Profile - DigiRepWiki</title>
+    <style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/repositories/digirep/skins/monobook/main.css"; /*]]>*/</style>
+    <link rel="stylesheet" type="text/css" media="print" href="index_files/commonPrint.css">
+    <!--[if lt IE 5.5000]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE50Fixes.css";</style><![endif]-->
+    <!--[if IE 5.5000]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE55Fixes.css";</style><![endif]-->
+    <!--[if gte IE 6]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE60Fixes.css";</style><![endif]-->
+    <!--[if lt IE 7]><script type="text/javascript" src="/repositories/digirep/skins/common/IEFixes.js"></script>
+    <meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+    <script type="text/javascript" src="index_files/index.js"></script>    <script type="text/javascript" src="index_files/wikibits.js"></script>
+    <style type="text/css">/*<![CDATA[*/
+@import "/repositories/digirep/index.php?title=MediaWiki:Monobook.css&action=raw&ctype=text/css&smaxage=18000";
+@import "/repositories/digirep/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>              </head>
+  <body class="ns-0">
+    <div id="globalWrapper">
+      <div id="column-content">
+	<div id="content">
+	  <a name="top" id="top"></a>
+	  	  <h1 class="firstHeading">Scholarly Works Application Profile</h1>
+	  <div id="bodyContent">
+	    <h3 id="siteSub">From DigiRepWiki</h3>
+	    <div id="contentSub"></div>
+	    	    	    <!-- start content -->
+	    <table class="wikitable" width="100%">
+<tbody><tr>
+<td style="vertical-align: top; padding:1em; border:1px black solid; font-size:80%;">
+<p>[ <a href="http://www.ukoln.ac.uk/repositories/digirep/index/SWAP" title="SWAP">Home</a> | <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Functional_Requirements" title="Functional Requirements">Functional Requirements</a> | <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Model" title="Model">Application Model</a> |
+<strong>Application Profile</strong> |
+<a href="http://www.ukoln.ac.uk/repositories/digirep/index/Community_Acceptance_Plan" title="Community Acceptance Plan">Community Acceptance Plan</a> |
+<a href="http://www.ukoln.ac.uk/repositories/digirep/index/Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC" title="Mapping the Scholarly Works Application Profile to Simple DC">Mapping to Simple DC</a> | <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_DC_XML" title="Eprints DC XML">XML Format</a>
+</p>
+</td></tr></tbody></table>
+<table id="toc" class="toc"><tbody><tr><td><div id="toctitle"><h2>Contents</h2> <span class="toctoggle">[<a href="javascript:toggleToc()" class="internal" id="togglelink">hide</a>]</span></div>
+<ul>
+<li class="toclevel-1"><a href="#Description_Set_Profile"><span class="tocnumber">1</span> <span class="toctext">Description Set Profile</span></a></li>
+<li class="toclevel-1"><a href="#Introduction"><span class="tocnumber">2</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-1"><a href="#Scholarly_Works_Application_Profile"><span class="tocnumber">3</span> <span class="toctext">Scholarly Works Application Profile</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Description_of_the_eprint_as_a_ScholarlyWork"><span class="tocnumber">3.1</span> <span class="toctext">Description of the eprint as a ScholarlyWork</span></a>
+<ul>
+<li class="toclevel-3"><a href="#Entity_type"><span class="tocnumber">3.1.1</span> <span class="toctext">Entity type</span></a></li>
+<li class="toclevel-3"><a href="#Title"><span class="tocnumber">3.1.2</span> <span class="toctext">Title</span></a></li>
+<li class="toclevel-3"><a href="#Subject"><span class="tocnumber">3.1.3</span> <span class="toctext">Subject</span></a></li>
+<li class="toclevel-3"><a href="#Abstract"><span class="tocnumber">3.1.4</span> <span class="toctext">Abstract</span></a></li>
+<li class="toclevel-3"><a href="#Identifier"><span class="tocnumber">3.1.5</span> <span class="toctext">Identifier</span></a></li>
+<li class="toclevel-3"><a href="#Creator"><span class="tocnumber">3.1.6</span> <span class="toctext">Creator</span></a></li>
+<li class="toclevel-3"><a href="#Funder"><span class="tocnumber">3.1.7</span> <span class="toctext">Funder</span></a></li>
+<li class="toclevel-3"><a href="#Grant_Number"><span class="tocnumber">3.1.8</span> <span class="toctext">Grant Number</span></a></li>
+<li class="toclevel-3"><a href="#Supervisor"><span class="tocnumber">3.1.9</span> <span class="toctext">Supervisor</span></a></li>
+<li class="toclevel-3"><a href="#Affiliated_Institution"><span class="tocnumber">3.1.10</span> <span class="toctext">Affiliated Institution</span></a></li>
+<li class="toclevel-3"><a href="#Has_Adaptation"><span class="tocnumber">3.1.11</span> <span class="toctext">Has Adaptation</span></a></li>
+<li class="toclevel-3"><a href="#Is_Expressed_As"><span class="tocnumber">3.1.12</span> <span class="toctext">Is Expressed As</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="#Description_of_an_Expression_of_the_eprint"><span class="tocnumber">3.2</span> <span class="toctext">Description of an Expression of the eprint</span></a>
+<ul>
+<li class="toclevel-3"><a href="#Entity_type_2"><span class="tocnumber">3.2.1</span> <span class="toctext">Entity type</span></a></li>
+<li class="toclevel-3"><a href="#Title_2"><span class="tocnumber">3.2.2</span> <span class="toctext">Title</span></a></li>
+<li class="toclevel-3"><a href="#Description"><span class="tocnumber">3.2.3</span> <span class="toctext">Description</span></a></li>
+<li class="toclevel-3"><a href="#Identifier_2"><span class="tocnumber">3.2.4</span> <span class="toctext">Identifier</span></a></li>
+<li class="toclevel-3"><a href="#Date_Available"><span class="tocnumber">3.2.5</span> <span class="toctext">Date Available</span></a></li>
+<li class="toclevel-3"><a href="#Status"><span class="tocnumber">3.2.6</span> <span class="toctext">Status</span></a></li>
+<li class="toclevel-3"><a href="#Version_Number_or_String"><span class="tocnumber">3.2.7</span> <span class="toctext">Version Number or String</span></a></li>
+<li class="toclevel-3"><a href="#Language"><span class="tocnumber">3.2.8</span> <span class="toctext">Language</span></a></li>
+<li class="toclevel-3"><a href="#Type"><span class="tocnumber">3.2.9</span> <span class="toctext">Type</span></a></li>
+<li class="toclevel-3"><a href="#Copyright_Holder"><span class="tocnumber">3.2.10</span> <span class="toctext">Copyright Holder</span></a></li>
+<li class="toclevel-3"><a href="#Has_Version"><span class="tocnumber">3.2.11</span> <span class="toctext">Has Version</span></a></li>
+<li class="toclevel-3"><a href="#Has_Translation"><span class="tocnumber">3.2.12</span> <span class="toctext">Has Translation</span></a></li>
+<li class="toclevel-3"><a href="#Bibliographic_Citation"><span class="tocnumber">3.2.13</span> <span class="toctext">Bibliographic Citation</span></a></li>
+<li class="toclevel-3"><a href="#References"><span class="tocnumber">3.2.14</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-3"><a href="#Editor"><span class="tocnumber">3.2.15</span> <span class="toctext">Editor</span></a></li>
+<li class="toclevel-3"><a href="#Is_Manifested_As"><span class="tocnumber">3.2.16</span> <span class="toctext">Is Manifested As</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="#Description_of_a_Manifestation_of_an_Expression_of_the_eprint"><span class="tocnumber">3.3</span> <span class="toctext">Description of a Manifestation of an Expression of the eprint</span></a>
+<ul>
+<li class="toclevel-3"><a href="#Entity_type_3"><span class="tocnumber">3.3.1</span> <span class="toctext">Entity type</span></a></li>
+<li class="toclevel-3"><a href="#Format"><span class="tocnumber">3.3.2</span> <span class="toctext">Format</span></a></li>
+<li class="toclevel-3"><a href="#Date_Modified"><span class="tocnumber">3.3.3</span> <span class="toctext">Date Modified</span></a></li>
+<li class="toclevel-3"><a href="#Publisher"><span class="tocnumber">3.3.4</span> <span class="toctext">Publisher</span></a></li>
+<li class="toclevel-3"><a href="#Is_Available_As"><span class="tocnumber">3.3.5</span> <span class="toctext">Is Available As</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="#Description_of_a_Copy_of_a_Manifestation_of_an_Expression_of_the_eprint"><span class="tocnumber">3.4</span> <span class="toctext">Description of a Copy of a Manifestation of an Expression of the eprint</span></a>
+<ul>
+<li class="toclevel-3"><a href="#Entity_type_4"><span class="tocnumber">3.4.1</span> <span class="toctext">Entity type</span></a></li>
+<li class="toclevel-3"><a href="#Access_Rights"><span class="tocnumber">3.4.2</span> <span class="toctext">Access Rights</span></a></li>
+<li class="toclevel-3"><a href="#Licence"><span class="tocnumber">3.4.3</span> <span class="toctext">Licence</span></a></li>
+<li class="toclevel-3"><a href="#Date_Available_2"><span class="tocnumber">3.4.4</span> <span class="toctext">Date Available</span></a></li>
+<li class="toclevel-3"><a href="#Is_Part_Of"><span class="tocnumber">3.4.5</span> <span class="toctext">Is Part Of</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="#Description_of_an_Agent"><span class="tocnumber">3.5</span> <span class="toctext">Description of an Agent</span></a>
+<ul>
+<li class="toclevel-3"><a href="#Entity_type_5"><span class="tocnumber">3.5.1</span> <span class="toctext">Entity type</span></a></li>
+<li class="toclevel-3"><a href="#Name"><span class="tocnumber">3.5.2</span> <span class="toctext">Name</span></a></li>
+<li class="toclevel-3"><a href="#Family_Name"><span class="tocnumber">3.5.3</span> <span class="toctext">Family Name</span></a></li>
+<li class="toclevel-3"><a href="#Given_Name"><span class="tocnumber">3.5.4</span> <span class="toctext">Given Name</span></a></li>
+<li class="toclevel-3"><a href="#Workplace_Homepage"><span class="tocnumber">3.5.5</span> <span class="toctext">Workplace Homepage</span></a></li>
+<li class="toclevel-3"><a href="#Mailbox"><span class="tocnumber">3.5.6</span> <span class="toctext">Mailbox</span></a></li>
+<li class="toclevel-3"><a href="#Homepage"><span class="tocnumber">3.5.7</span> <span class="toctext">Homepage</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Entity_typing"><span class="tocnumber">4</span> <span class="toctext">Entity typing</span></a></li>
+<li class="toclevel-1"><a href="#A_note_about_the_form_of_personal_and_organisational_names_used_in_value_strings"><span class="tocnumber">5</span> <span class="toctext">A note about the form of personal and organisational names used in value strings</span></a></li>
+<li class="toclevel-1"><a href="#A_note_about_using_identifiers"><span class="tocnumber">6</span> <span class="toctext">A note about using identifiers</span></a></li>
+<li class="toclevel-1"><a href="#A_note_about_mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC"><span class="tocnumber">7</span> <span class="toctext">A note about mapping the Scholarly Works Application Profile to Simple DC</span></a></li>
+<li class="toclevel-1"><a href="#Examples"><span class="tocnumber">8</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Example_1"><span class="tocnumber">8.1</span> <span class="toctext">Example 1</span></a></li>
+<li class="toclevel-2"><a href="#Example_2"><span class="tocnumber">8.2</span> <span class="toctext">Example 2</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></tbody></table>
+<p><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+</p>
+<a name="Description_Set_Profile"></a><h2>Description Set Profile</h2>
+<p>Please refer to the following page: <a href="http://dublincore.org/scholarwiki/SWAPDSP" class="external free" title="http://dublincore.org/scholarwiki/SWAPDSP" rel="nofollow">http://dublincore.org/scholarwiki/SWAPDSP</a>
+</p><p>The SWAPDSP page replicates the contents of the current page in 
+its entirety, with the addition of the structural description set 
+constraints outlined in the Dublin Core Description Set Profile 
+document: <a href="http://dublincore.org/documents/2008/03/31/dc-dsp/" class="external free" title="http://dublincore.org/documents/2008/03/31/dc-dsp/" rel="nofollow">http://dublincore.org/documents/2008/03/31/dc-dsp/</a>.
+</p>
+<a name="Introduction"></a><h2> Introduction </h2>
+<p>This document describes a DC Application Profile for describing an 
+eprint, or scholarly work.  The application profile is based on the SWAP
+ <span id="[http://www.ukoln.ac.uk/repositories/digirep/index/Model "></span><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Model" title="Model">Model</a>,
+ which is in turn based on FRBR.  The model comprises 5 entities - 
+ScholarlyWork, Expression, Manifestation, Copy and Agent.  This 
+application profile provides a way of describing these entities as part 
+of a <i>description set</i> (a set of related DC <i>descriptions</i>).
+</p><p>The notion of a <i>description set</i> is part of the DCMI Abstract Model.  Readers that are not familiar with the DCMI Abstract Model should read <span id="[http://www.ukoln.ac.uk/repositories/digirep/index/A_note_about_the_DCMI_Abstract_Model "></span><a href="http://www.ukoln.ac.uk/repositories/digirep/index/A_note_about_the_DCMI_Abstract_Model" title="A note about the DCMI Abstract Model">A note about the DCMI Abstract Model</a> before proceeding.
+</p><p>All the examples in this document are formatted according to the 
+DC-Text notation.  Readers who are not familiar with DC-Text should read
+ <span id="[http://www.ukoln.ac.uk/repositories/digirep/index/A_note_about_DC-Text "></span><a href="http://www.ukoln.ac.uk/repositories/digirep/index/A_note_about_DC-Text" title="A note about DC-Text">A note about DC-Text</a> before proceeding.
+</p><p>In the context of this work an eprint is defined to be a <i>scientific or scholarly research text</i> (as defined by the <a href="http://www.earlham.edu/%7Epeters/fos/boaifaq.htm#literature" class="external text" title="http://www.earlham.edu/~peters/fos/boaifaq.htm#literature" rel="nofollow">Budapest Open Access Initiative</a>), for example a peer-reviewed journal article, a preprint, a working paper, a thesis, a book chapter, a report, etc.
+</p><p>A <a href="http://dublincore.org/usage/reviews/2009/swap/" class="external text" title="http://dublincore.org/usage/reviews/2009/swap/" rel="nofollow">review</a> of the application profile was carried out by DCMI on 03/03/2009.
+</p>
+<a name="Scholarly_Works_Application_Profile"></a><h2>Scholarly Works Application Profile </h2>
+<p>Each <i>description set</i> that complies with the Scholarly Works Application Profile is made up of a set of related <i>descriptions</i> about the entities listed above.  Therefore, a typical <i>description set</i> (using the DC-Text notation) has the following structure:
+</p>
+<pre>Description Set (
+  Description (
+    # description of the eprint as a ScholarlyWork
+    ...
+  )
+  Description (
+    # description of an Expression of the eprint
+    ...
+  )
+  Description (
+    # description of a Manifestation of an Expression of the eprint
+    ...
+  )
+  Description (
+    # description of a Copy of a Manifestation of an Expression of the eprint
+    ...
+  )
+  Description (
+    # description of an author, funder, supervisor of the eprint or an affiliated institution
+    ...
+  )
+  Description (
+    # description of an editor of an Expression of the eprint
+    ...
+  )
+  Description (
+    # description of the publisher of a Manifestation of an Expression of the eprint
+    ...
+  )
+  ...
+)
+</pre>
+<p>Each <i>description set</i> describes only one eprint (i.e. one ScholarlyWork entity).  However, multiple <i>descriptions</i> may be used to describe multiple Expression, Manifestation and Agent entities as necessary.
+</p><p>The metadata terms that may be used to describe each entity are described below.  Note that all <i>properties</i> may be repeated if necessary.  Unless otherwise noted, multiple <i>value strings</i> should be provided using separate <i>statements</i>.  Where appropriate, each <i>value string</i> may have an associated <i>language tag</i>.
+</p><p>A minimal <i>description set</i> that conforms to this application profile must include either:
+</p>
+<ul><li> a single ScholarlyWork <i>description</i> with at least one dc:title <i>statement</i> and one dc:type <i>statement</i> indicating that this is an entity of type <a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>, or
+</li><li> a single ScholarlyWork <i>description</i> with one one dc:type <i>statement</i> indicating that this is an entity of type <a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a> and one eprints:isExpressedAs <i>statement</i> linking to a single Expression <i>description</i> with at least one dc:title <i>statement</i> and one dc:type <i>statement</i> indicating that this is an entity of type <a href="http://purl.org/eprint/entityType/Expression" class="external free" title="http://purl.org/eprint/entityType/Expression" rel="nofollow">http://purl.org/eprint/entityType/Expression</a>.
+</li></ul>
+<p>All other aspects of the application profile are optional.
+<span id="{{{#!DSP"></span>
+</p>
+<a name="Description_of_the_eprint_as_a_ScholarlyWork"></a><h3> Description of the eprint as a ScholarlyWork </h3>
+<p><span></span>
+</p>
+<a name="Entity_type"></a><h4> Entity type </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> The type nature or genre of the content of the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Each of the entity <i>descriptions</i> in the <i>description sets</i> conforming with this application profile will need to be explicitly typed.  This is done using a dc:type <i>statement</i> with one of the following <i>value URIs</i> taken from the <span id="[http://purl.org/eprint/entityType "></span><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_EntityType_Vocabulary_Encoding_Scheme" title="Eprints EntityType Vocabulary Encoding Scheme">Eprints EntityType Vocabulary Encoding Scheme</a> corresponding to the entity being described.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:type )
+  Vocabulary Encoding Scheme URI ( eprint:EntityType )
+  Value URI ( &lt;<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>&gt; )
+)
+</pre>
+<a name="Title"></a><h4> Title </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A name given to the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>The title of the eprint.<span id="endpara">
+</span></p><p>Preserve the original wording, order and spelling of the 
+eprint title. In general, only capitalize proper nouns, though there may
+ be exceptions to this rule particularly regarding Internet-related 
+terms. Punctuation need not reflect the usage of the original. Subtitles
+ should be separated from the title by 'space-colon-space'.
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:title )
+  Literal Value String ( "Initial sequencing and analysis of the human genome" )
+)
+</pre>
+<pre>Statement (
+  Property URI ( dc:title )
+  Literal Value String ( "New nationalism and the old history&nbsp;: perspectives on the West German Historikerstreit" )
+)
+</pre>
+<a name="Subject"></a><h4> Subject </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/subject" class="external free" title="http://purl.org/dc/elements/1.1/subject" rel="nofollow">http://purl.org/dc/elements/1.1/subject</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> The topic of the content of the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>The topic of the eprint.<span id="endpara">
+</span></p><p>In general, choose the most significant and unique words 
+for keywords, avoiding those too general to describe a particular 
+eprint. For free-text keywords use multiple <i>statements</i>, one for 
+each term. There are no requirements regarding the capitalization of 
+keywords though internal (within archive) consistency is recommended.<span id="endpara">
+</span></p><p>Where terms are taken from a standard classification scheme encode each term in a separate <i>statement</i>. Use a <i>vocabulary encoding scheme URI</i>
+ to indicate the classification scheme in use.  Encode the complete 
+subject descriptor according to the relevant scheme. Use the 
+capitalisation and punctuation used in the original scheme. Where 
+subject terms are taken from LCSH, the subfields of the subject heading 
+should be separated by double dash (--) and spaces should be omitted.<span id="endpara">
+</span></p><p>If the subject of the eprint is a person or an organization, provide their name as a <i>value string</i> according to <a href="#A_note_about_the_form_of_personal_and_organisational_names_used_in_value_strings" title="">A note about the form of personal and organisational names used in value strings</a>.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:subject )
+  Value String ( "polar oceanography" )
+)
+Statement (
+  Property URI ( dc:subject )
+  Value String ( "boundary current" )
+)
+</pre>
+<p>Using LCSH subjects:
+</p>
+<pre>Statement (
+  Property URI ( dc:subject )
+  Vocabulary Encoding Scheme URI ( dcterms:LCSH )
+  Value String ( "World War, 1939-1945--Germany" )
+)
+</pre>
+<pre>Statement (
+  Property URI ( dc:subject )
+  Vocabulary Encoding Scheme URI ( dcterms:LCSH )
+  Value String ( "Germany--History--1933-1945" )
+)
+</pre>
+<p>Name as subject:
+</p>
+<pre>Statement (
+  Property URI ( dc:subject )
+  Value String ( "Hitler, Adolf, 1889-1945" )
+)
+</pre>
+<a name="Abstract"></a><h4> Abstract </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/terms/abstract" class="external free" title="http://purl.org/dc/terms/abstract" rel="nofollow">http://purl.org/dc/terms/abstract</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd>      A summary of the content of the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>A summary of the important points of the eprint.
+</p>
+<a name="Identifier"></a><h4> Identifier </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/identifier" class="external free" title="http://purl.org/dc/elements/1.1/identifier" rel="nofollow">http://purl.org/dc/elements/1.1/identifier</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> An unambiguous reference to the resource within a given context.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>A URI for the eprint.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:identifier )
+  Literal Value String ( "<a href="http://eprints.bath.ac.uk/archive/00000003/" class="external free" title="http://eprints.bath.ac.uk/archive/00000003/" rel="nofollow">http://eprints.bath.ac.uk/archive/00000003/</a>"
+    Syntax Encoding Scheme URI ( dcterms:URI )
+  )
+)
+</pre>
+<p>Note that one of the URIs for the eprint should be encoded as the <i>resource URI</i> in the <i>description</i> of the eprint.  If a Handle has been assigned to the eprint then this should be used as the <i>resource URI</i>, encoded using the <a href="http://hdl.handle.net/4263537/4069" class="external free" title="http://hdl.handle.net/4263537/4069" rel="nofollow">http://hdl.handle.net/4263537/4069</a> form.  Additional URIs should be provided using a dc:identifier <i>statement</i>.  (See the <a href="#A_note_about_using_identifiers" title="">A note about using identifiers</a> below.)
+</p>
+<pre>Description Set (
+  Description ( # description of the eprint as a ScholarlyWork
+    Resource URI ( &lt;<a href="http://hdl.handle.net/4263537/4069" class="external free" title="http://hdl.handle.net/4263537/4069" rel="nofollow">http://hdl.handle.net/4263537/4069</a>&gt; )
+    Statement (
+      Property URI ( dc:identifier )
+      Literal Value String ( "<a href="http://eprints.bath.ac.uk/archive/00000003/" class="external free" title="http://eprints.bath.ac.uk/archive/00000003/" rel="nofollow">http://eprints.bath.ac.uk/archive/00000003/</a>"
+        Syntax Encoding Scheme URI ( dcterms:URI )
+      )
+    )
+  )
+  ...
+)
+</pre>
+<a name="Creator"></a><h4> Creator </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/creator" class="external free" title="http://purl.org/dc/elements/1.1/creator" rel="nofollow">http://purl.org/dc/elements/1.1/creator</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> An entity primarily responsible for making the content of the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>An author of the eprint.<span id="endpara">
+</span></p><p>Use this <i>property</i> to provide the author's name and/or the URI of the author and/or to link to a <i>related description</i> (with the <i>description set</i>) about the author.<span id="endpara">
+</span></p><p>Where a name is provided, see <a href="#A_note_about_the_form_of_personal_and_organisational_names_used_in_value_strings" title="">A note about the form of personal and organisational names used in value strings</a>.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:creator )
+  Value String ( "Heery, Rachel" )
+  ValueId ( rachelheery )
+)
+</pre>
+<a name="Funder"></a><h4> Funder </h4>
+<hr>
+<p><span></span>
+<a href="http://www.loc.gov/loc.terms/relators/FND" class="external free" title="http://www.loc.gov/loc.terms/relators/FND" rel="nofollow">http://www.loc.gov/loc.terms/relators/FND</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A person or organization that furnished financial support for the production of the work.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Use this <i>property</i> to provide the funder's name and/or the URI of the funder and/or to link to a <i>related description</i> (within the <i>description set</i>) about the funder.<span id="endpara">
+</span></p><p>Where a name is provided, see <a href="#A_note_about_the_form_of_personal_and_organisational_names_used_in_value_strings" title="">A note about the form of personal and organisational names used in value strings</a>.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( marcrel:FND )
+  Value String ( "The Mellon Foundation" )
+  ValueId ( organization5 )
+)
+</pre>
+<a name="Grant_Number"></a><h4> Grant Number </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/eprint/terms/grantNumber" class="external free" title="http://purl.org/eprint/terms/grantNumber" rel="nofollow">http://purl.org/eprint/terms/grantNumber</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> An alpha-numeric string identifying the funding grant under which the eprint was written.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Use a <i>value string</i> to provide the grant number.
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( eprint:grantNumber )
+  Literal Value String ( "A456X" )
+)
+</pre>
+<a name="Supervisor"></a><h4> Supervisor </h4>
+<hr>
+<p><span></span>
+<a href="http://www.loc.gov/loc.terms/relators/THS" class="external free" title="http://www.loc.gov/loc.terms/relators/THS" rel="nofollow">http://www.loc.gov/loc.terms/relators/THS</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A person under whose supervision a degree candidate develops and presents a thesis, mémoire, or text of a dissertation.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Use this <i>property</i> to provide the supervisor's name and/or the URI of the supervisor and/or to link to a <i>related description</i> (within the <i>description set</i>) about the supervisor.<span id="endpara">
+</span></p><p>Where a name is provided, see <a href="#A_note_about_the_form_of_personal_and_organisational_names_used_in_value_strings" title="">A note about the form of personal and organisational names used in value strings</a>.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( marcrel:THS )
+  Value String ( "Bloggs, Fred" )
+  ValueId ( person15 )
+)
+</pre>
+<a name="Affiliated_Institution"></a><h4> Affiliated Institution </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/eprint/terms/affiliatedInstitution" class="external free" title="http://purl.org/eprint/terms/affiliatedInstitution" rel="nofollow">http://purl.org/eprint/terms/affiliatedInstitution</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> An organisation to which a creator of the eprint is affiliated.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Use this <i>property</i> to provide the affiliated organisation's name and/or the URI of the affiliated institution and/or to link to a <i>related description</i> (with the <i>description set</i>) about the affiliated institution.<span id="endpara">
+</span></p><p>Where a name of the affiliated organisation is provided, see <a href="#A_note_about_the_form_of_personal_and_organisational_names_used_in_value_strings" title="">A note about the form of personal and organisational names used in value strings</a>.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( eprint:affiliatedInstitution )
+  Value String ( "University of Bristol" )
+  ValueId ( bristoluni )
+)
+</pre>
+<a name="Has_Adaptation"></a><h4> Has Adaptation </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/eprint/terms/hasAdaptation" class="external free" title="http://purl.org/eprint/terms/hasAdaptation" rel="nofollow">http://purl.org/eprint/terms/hasAdaptation</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A scholarly work that results from the described eprint being recast in a new form.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Use this <i>property</i> to provide a value URI of an adaptation of the eprint.<span id="endpara">
+</span></p><p>In the context of this application profile, an example of 
+an adaptation is the powerpoint slides (the adaptation) used to present a
+ conference paper (the eprint) at a conference.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( eprint:hasAdaptation )
+  Value URI ( &lt;<a href="http://www.example.com/mypaper.ppt" class="external free" title="http://www.example.com/mypaper.ppt" rel="nofollow">http://www.example.com/mypaper.ppt</a>&gt; )
+)
+</pre>
+<a name="Is_Expressed_As"></a><h4> Is Expressed As </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A version of the described eprint.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>An expression of the described eprint.  In FRBR terms, an eprint is a Work.<span id="endpara">
+</span></p><p>Use this <i>property</i> to provide the URI of an expression of the eprint and/or to link to a <i>related description</i> (with the <i>description set</i>) about the expression.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( eprint:isExpressedAs )
+  ValueId ( expression1 )
+)
+</pre>
+<a name="Description_of_an_Expression_of_the_eprint"></a><h3> Description of an Expression of the eprint </h3>
+<p><span></span>
+</p>
+<a name="Entity_type_2"></a><h4> Entity type </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> The type nature or genre of the content of the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Each of the entity <i>descriptions</i> in the <i>description sets</i> conforming with this application profile will need to be explicitly typed.  This is done using a dc:type <i>statement</i> with one of the following <i>value URIs</i> taken from the <span id="[http://purl.org/eprint/entityType "></span><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_EntityType_Vocabulary_Encoding_Scheme" title="Eprints EntityType Vocabulary Encoding Scheme">Eprints EntityType Vocabulary Encoding Scheme</a> corresponding to the entity being described.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:type )
+  Vocabulary Encoding Scheme URI ( eprint:EntityType )
+  Value URI ( &lt;<a href="http://purl.org/eprint/entityType/Expression" class="external free" title="http://purl.org/eprint/entityType/Expression" rel="nofollow">http://purl.org/eprint/entityType/Expression</a>&gt; )
+)
+</pre>
+<a name="Title_2"></a><h4> Title </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A name given to the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>A title for the expression of the eprint.  Only use this property in 
+cases where the expression title is different from the title of the 
+eprint at the scholarly work level.  For example, use this property to 
+capture the title of a translation of the eprint.<span id="endpara">
+</span></p><p>Preserve the original wording, order and spelling of the 
+eprint title.  In general, only capitalize proper nouns, though there 
+may be exceptions to this rule particularly regarding Internet-related 
+terms. Punctuation need not reflect the usage of the original. Subtitles
+ should be separated from the title by 'space-colon-space'.
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:title )
+  Literal Value String ( "Initial sequencing and analysis of the human genome" )
+)
+</pre>
+<pre>Statement (
+  Property URI ( dc:title )
+  Literal Value String ( "The new nationalism and the old history&nbsp;: perspectives on the West German Historikerstreit" )
+)
+</pre>
+<a name="Description"></a><h4> Description </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/description" class="external free" title="http://purl.org/dc/elements/1.1/description" rel="nofollow">http://purl.org/dc/elements/1.1/description</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> An account of the content of the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>A description of the expression of the eprint.  Use this property to 
+describe how the expression relates to the eprint as a scholarly work 
+and/or other expressions.
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:description )
+  Literal Value String ( "Translated into French for publication in Journal des Anthropologues." )
+)
+</pre>
+<a name="Identifier_2"></a><h4> Identifier </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/identifier" class="external free" title="http://purl.org/dc/elements/1.1/identifier" rel="nofollow">http://purl.org/dc/elements/1.1/identifier</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> An unambiguous reference to the resource within a given context.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>A URI for the described expression of the eprint.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:identifier )
+  Literal Value String ( "<a href="http://eprints.bath.ac.uk/archive/12345678/" class="external free" title="http://eprints.bath.ac.uk/archive/12345678/" rel="nofollow">http://eprints.bath.ac.uk/archive/12345678/</a>"
+    Syntax Encoding Scheme URI ( dcterms:URI )
+  )
+)
+</pre>
+<p>Note that one of the URIs for the described expression of the eprint should be encoded as the <i>resource URI</i> in the <i>description</i> of the expression.  If a DOI or Handle has been assigned to the expression of the eprint then this should be used as the <i>resource URI</i>, encoded using the <a href="http://dx.doi.org/10.1000/152" class="external free" title="http://dx.doi.org/10.1000/152" rel="nofollow">http://dx.doi.org/10.1000/152</a> or <a href="http://hdl.handle.net/4263537/4069" class="external free" title="http://hdl.handle.net/4263537/4069" rel="nofollow">http://hdl.handle.net/4263537/4069</a> form.  Additional URIs should be provided using a dc:identifier <i>statement</i>.  (See the <a href="#A_note_about_using_identifiers" title="">A note about using identifiers</a> below.)
+</p>
+<pre>Description Set (
+  Description ( # description of the eprint as an Expression
+    Resource URI ( &lt;<a href="http://dx.doi.org/10.1000/152" class="external free" title="http://dx.doi.org/10.1000/152" rel="nofollow">http://dx.doi.org/10.1000/152</a>&gt; )
+    Statement (
+      Property URI ( dc:identifier )
+      Literal Value String ( "<a href="http://eprints.bath.ac.uk/archive/00000003/" class="external free" title="http://eprints.bath.ac.uk/archive/00000003/" rel="nofollow">http://eprints.bath.ac.uk/archive/00000003/</a>"
+        Syntax Encoding Scheme URI ( dcterms:URI )
+      )
+    )
+  )
+  ...
+)
+</pre>
+<a name="Date_Available"></a><h4> Date Available </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/terms/available" class="external free" title="http://purl.org/dc/terms/available" rel="nofollow">http://purl.org/dc/terms/available</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> Date (often a range) that the resource will become or did become available.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>The date that the described expression of the eprint was first made public.<span id="endpara">
+</span></p><p>Use a <i>value string</i> to provide the date, formatted according to the W3C Date Time Format (W3CDTF) specification.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dcterms:available )
+  Literal Value String ( "2004-09-23"
+    Syntax Encoding Scheme URI ( dcterms:W3CDTF )
+  )
+)
+</pre>
+<a name="Status"></a><h4> Status </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/eprint/terms/status" class="external free" title="http://purl.org/eprint/terms/status" rel="nofollow">http://purl.org/eprint/terms/status</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> The status of the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>The status of the described expression of the eprint.  Recommended best practice is to provide a <i>value URI</i> taken from the <span id="[http://purl.org/eprint/status/ "></span><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_Status_Vocabulary_Encoding_Scheme" title="Eprints Status Vocabulary Encoding Scheme">Eprints Status Vocabulary Encoding Scheme</a>: <a href="http://purl.org/eprint/status/PeerReviewed" class="external free" title="http://purl.org/eprint/status/PeerReviewed" rel="nofollow">http://purl.org/eprint/status/PeerReviewed</a> or <a href="http://purl.org/eprint/status/NonPeerReviewed" class="external free" title="http://purl.org/eprint/status/NonPeerReviewed" rel="nofollow">http://purl.org/eprint/status/NonPeerReviewed</a>.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( eprint:status )
+  Vocabulary Encoding Scheme URI ( eprint:Status )
+  Value URI ( &lt;<a href="http://purl.org/eprint/status/PeerReviewed" class="external free" title="http://purl.org/eprint/status/PeerReviewed" rel="nofollow">http://purl.org/eprint/status/PeerReviewed</a>&gt; )
+)
+</pre>
+<a name="Version_Number_or_String"></a><h4> Version Number or String </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/eprint/terms/version" class="external free" title="http://purl.org/eprint/terms/version" rel="nofollow">http://purl.org/eprint/terms/version</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A version number or version string associated with the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>A version number or version string associated with the described expression of the eprint.
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( eprint:version )
+  Literal Value String ( "2.0" )
+)
+</pre>
+<a name="Language"></a><h4> Language </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/language" class="external free" title="http://purl.org/dc/elements/1.1/language" rel="nofollow">http://purl.org/dc/elements/1.1/language</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A language of the intellectual content of the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>A language in which the described expression of the eprint is written.  Use multiple <i>statements</i> if the described expression of the eprint is written in multiple languages.  Provide a <i>value string</i> containing a language tag, formatted according to RFC-3066.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:language )
+  Vocabulary Encoding Scheme URI ( dcterms:RFC3066 )
+  Value String ( "fr" )
+)
+</pre>
+<a name="Type"></a><h4> Type </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> The nature or genre of the content of the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>The type of the described expression of the eprint.<span id="endpara">
+</span></p><p>Recommended best practice is to provide a value URI for a class from the <span id="[http://purl.org/eprint/terms/Type "></span><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_Type_Vocabulary_Encoding_Scheme" title="Eprints Type Vocabulary Encoding Scheme">Eprints Type Vocabulary Encoding Scheme</a>.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:type )
+  Vocabulary Encoding Scheme URI ( eprint:Type )
+  Value URI ( &lt;<a href="http://purl.org/eprint/type/JournalArticle" class="external free" title="http://purl.org/eprint/type/JournalArticle" rel="nofollow">http://purl.org/eprint/type/JournalArticle</a>&gt; )
+)
+</pre>
+<a name="Copyright_Holder"></a><h4> Copyright Holder </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/eprint/terms/copyrightHolder" class="external free" title="http://purl.org/eprint/terms/copyrightHolder" rel="nofollow">http://purl.org/eprint/terms/copyrightHolder</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A person or organization owning copyright in the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>A person or organization owning copyright in the eprint.<span id="endpara">
+</span></p><p>Use this <i>property</i> to provide the copyright holder's name and/or the URI of the copyright holder and/or to link to a <i>related description</i> (with the <i>description set</i>) about the copyright holder.<span id="endpara">
+</span></p><p>Where a name is provided, see <a href="#A_note_about_the_form_of_personal_and_organisational_names_used_in_value_strings" title="">A note about the form of personal and organisational names used in value strings</a>.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( eprint:copyrightHolder )
+  Value String ( "University of Leeds" )
+  ValueId ( leedsuni )
+)
+</pre>
+<a name="Has_Version"></a><h4> Has Version </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/terms/hasVersion" class="external free" title="http://purl.org/dc/terms/hasVersion" rel="nofollow">http://purl.org/dc/terms/hasVersion</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> The described resource has a version, edition, or adaptation, namely, the referenced resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Use this <i>property</i> to provide the URI of an alternative expression of the eprint and/or to link to a <i>related description</i> (with the <i>description set</i>) about the alternative expression.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dcterms:hasVersion )
+  ValueId ( version-2.1 )
+)
+</pre>
+<a name="Has_Translation"></a><h4> Has Translation </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/eprint/terms/hasTranslation" class="external free" title="http://purl.org/eprint/terms/hasTranslation" rel="nofollow">http://purl.org/eprint/terms/hasTranslation</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A translation of the described resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Use this <i>property</i> to provide the URI of an expression that is a translation of the described expression of the eprint and/or to link to a <i>related description</i> (with the <i>description set</i>) about the translated expression.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( eprint:hasTranslation )
+  ValueId ( version-en )
+)
+</pre>
+<a name="Bibliographic_Citation"></a><h4> Bibliographic Citation </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/terms/bibliographicCitation" class="external free" title="http://purl.org/dc/terms/bibliographicCitation" rel="nofollow">http://purl.org/dc/terms/bibliographicCitation</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A bibliographic reference for the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Use this <i>property</i> to provide the text citation that should be 
+used to cite the described expression of the eprint or to provide an 
+OpenURL ContextObject for the described expression of the eprint 
+following the guidelines in the <a href="http://dublincore.org/documents/dc-citation-guidelines/" class="external text" title="http://dublincore.org/documents/dc-citation-guidelines/" rel="nofollow">Guidelines for Encoding Bibliographic Citation Information in Dublin Core Metadata</a>
+ DCMI Recommendation.  In general, both a human-readable citation and a 
+machine-readable OpenURL ContextObject should be provided.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dcterms:bibliographicCitation )
+  Literal Value String ( "Library and Information Science Research 22(3), 311-338" )
+  )
+)
+</pre>
+<pre>Statement (
+  Property URI ( dcterms:bibliographicCitation )
+  Literal Value String ( "&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal
+                  &amp;rft.jtitle=Library+and+Information+Science+Research&amp;rft.stitle=LISR
+                  &amp;rft.volume=22&amp;rft.issue=3&amp;rft.spage=311
+                  &amp;rfr_id=info%3Asid%2Fmimas.ac.uk%3Azetoc"
+    Syntax Encoding Scheme URI ( kev:ctx )
+  )
+)
+</pre>
+<p><br>
+Note that the lines above have been wrapped for readability.
+</p>
+<a name="References"></a><h4> References </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/terms/references" class="external free" title="http://purl.org/dc/terms/references" rel="nofollow">http://purl.org/dc/terms/references</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> The described resource references, cites, or otherwise points to the referenced resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Use this <i>property</i> to provide the URI of an expression of a 
+different eprint, a textual citation for the expression and/or an 
+OpenURL ContextObject.  In general, where a human-readable citation is 
+provided a machine-readable OpenURL ContextObject should also be 
+provided.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dcterms:references )
+  Value String ( "Heery, R. (2000). \"Information gateways: collaboration on content.\"
+                  Online Information Review, 24 (1), 40-45." )
+  Value String ( "&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal
+                  &amp;rft.jtitle=Online+Information+Review&amp;rft.volume=24&amp;rft.issue=1&amp;rft.spage=40
+                  &amp;rft.epage=45&amp;rft.aufirst=Rachel&amp;rft.aulast=Heery&amp;rft.date=2000
+                  &amp;rfr_id=info%3Asid%2Fmimas.ac.uk%3Azetoc"
+    Syntax Encoding Scheme URI ( kev:ctx )
+  )
+)
+</pre>
+<a name="Editor"></a><h4> Editor </h4>
+<hr>
+<p><span></span>
+<a href="http://www.loc.gov/loc.terms/relators/EDT" class="external free" title="http://www.loc.gov/loc.terms/relators/EDT" rel="nofollow">http://www.loc.gov/loc.terms/relators/EDT</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A person or organization who 
+prepares for publication a work not primarily his/her own, such as by 
+elucidating text, adding introductory or other critical matter, or 
+technically directing an editorial staff.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>A person or organisation that prepares the described expression of the eprint for publication.<span id="endpara">
+</span></p><p>Use this <i>property</i> to provide the editor's name and/or the URI of the editor and/or to link to a <i>related description</i> (with the <i>description set</i>) about the editor.<span id="endpara">
+</span></p><p>Where a name is provided, see <a href="#A_note_about_the_form_of_personal_and_organisational_names_used_in_value_strings" title="">A note about the form of personal and organisational names used in value strings</a>.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( marcrel:EDT )
+  Value String ( "Day, Michael" )
+  ValueId ( person2 )
+)
+</pre>
+<a name="Is_Manifested_As"></a><h4> Is Manifested As </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/eprint/terms/isManifestedAs" class="external free" title="http://purl.org/eprint/terms/isManifestedAs" rel="nofollow">http://purl.org/eprint/terms/isManifestedAs</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A manifestation of the described version of the eprint.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>A manifestation of the described expression of the eprint.  In FRBR terms, an eprint is a Work.<span id="endpara">
+</span></p><p>Use this <i>property</i> to provide the URI of a manifestation of the expression of the eprint and/or to link to a <i>related description</i> (with the <i>description set</i>) about the manifestation.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( eprint:isManifestedAs )
+  ValueId ( pdfformat1 )
+)
+</pre>
+<a name="Description_of_a_Manifestation_of_an_Expression_of_the_eprint"></a><h3> Description of a Manifestation of an Expression of the eprint </h3>
+<p><span></span>
+</p>
+<a name="Entity_type_3"></a><h4> Entity type </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> The type nature or genre of the content of the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Each of the entity <i>descriptions</i> in the <i>description sets</i> conforming with this application profile will need to be explicitly typed.  This is done using a dc:type <i>statement</i> with one of the following <i>value URIs</i> taken from the <span id="[http://purl.org/eprint/entityType "></span><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_EntityType_Vocabulary_Encoding_Scheme" title="Eprints EntityType Vocabulary Encoding Scheme">Eprints EntityType Vocabulary Encoding Scheme</a> corresponding to the entity being described.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:type )
+  Vocabulary Encoding Scheme URI ( eprint:EntityType )
+  Value URI ( &lt;<a href="http://purl.org/eprint/entityType/Manifestation" class="external free" title="http://purl.org/eprint/entityType/Manifestation" rel="nofollow">http://purl.org/eprint/entityType/Manifestation</a>&gt; )
+)
+</pre>
+<a name="Format"></a><h4> Format </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/format" class="external free" title="http://purl.org/dc/elements/1.1/format" rel="nofollow">http://purl.org/dc/elements/1.1/format</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> The physical or digital manifestation of the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>The media-type of the described manifestation of an expression of the eprint.<span id="endpara">
+</span></p><p>Recommended best practice is to select a <i>value string</i> from the IANA registered list of Internet Media Types (MIME types).
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:format )
+  Vocabulary Encoding Scheme URI ( dcterms:IMT )
+  Value String ("application/pdf" )
+)
+</pre>
+<a name="Date_Modified"></a><h4> Date Modified </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/terms/modified" class="external free" title="http://purl.org/dc/terms/modified" rel="nofollow">http://purl.org/dc/terms/modified</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> Date on which the resource was changed.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>The last modified date of the described manifestation of an expression of the eprint.<span id="endpara">
+</span></p><p>Use a <i>value string</i> to provide the date, formatted according to the W3C Date Time Format (W3CDTF) specification.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dcterms:modified )
+  Literal Value String ( "2005-02-14"
+    Syntax Encoding Scheme URI ( dcterms:W3CDTF )
+  )
+)
+</pre>
+<a name="Publisher"></a><h4> Publisher </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/publisher" class="external free" title="http://purl.org/dc/elements/1.1/publisher" rel="nofollow">http://purl.org/dc/elements/1.1/publisher</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> An entity responsible for making the resource available.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>The publisher of the described manifestation of an expression of the 
+eprint, typically either the author's institution or a commercial 
+publisher.<span id="endpara">
+</span></p><p>Use this <i>property</i> to provide the publisher's name and/or the URI of the publisher and/or to link to a <i>related description</i> (with the <i>description set</i>) about the publisher.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:publisher )
+  Value String ( "Springer" )
+  ValueId ( organisation1 )
+)
+</pre>
+<a name="Is_Available_As"></a><h4> Is Available As </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/eprint/terms/isAvailableAs" class="external free" title="http://purl.org/eprint/terms/isAvailableAs" rel="nofollow">http://purl.org/eprint/terms/isAvailableAs</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A resource that is an exemplar of the described manifestation of an expression of the eprint.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>A copy of the described manifestation of an expression of the eprint.  In FRBR terms, an eprint is a Work and a copy is an Item.<span id="endpara">
+</span></p><p>Use this <i>property</i> to provide the URI of a copy of a manifestation of an expression of the eprint.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( eprint:isAvailableAs )
+  Value URI ( <a href="http://www.example.com/work/version/copy.pdf" class="external free" title="http://www.example.com/work/version/copy.pdf" rel="nofollow">http://www.example.com/work/version/copy.pdf</a> )
+)
+</pre>
+<a name="Description_of_a_Copy_of_a_Manifestation_of_an_Expression_of_the_eprint"></a><h3> Description of a Copy of a Manifestation of an Expression of the eprint </h3>
+<p><span></span>
+</p>
+<a name="Entity_type_4"></a><h4> Entity type </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> The type nature or genre of the content of the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Each of the entity <i>descriptions</i> in the <i>description sets</i> conforming with this application profile will need to be explicitly typed.  This is done using a dc:type <i>statement</i> with one of the following <i>value URIs</i> taken from the <span id="[http://purl.org/eprint/entityType "></span><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_EntityType_Vocabulary_Encoding_Scheme" title="Eprints EntityType Vocabulary Encoding Scheme">Eprints EntityType Vocabulary Encoding Scheme</a> corresponding to the entity being described.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:type )
+  Vocabulary Encoding Scheme URI ( eprint:EntityType )
+  Value URI ( &lt;<a href="http://purl.org/eprint/entityType/Copy" class="external free" title="http://purl.org/eprint/entityType/Copy" rel="nofollow">http://purl.org/eprint/entityType/Copy</a>&gt; )
+)
+</pre>
+<a name="Access_Rights"></a><h4> Access Rights </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/terms/accessRights" class="external free" title="http://purl.org/dc/terms/accessRights" rel="nofollow">http://purl.org/dc/terms/accessRights</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> Information about who can access the resource or an indication of its security status.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Information about who can access the described copy of a 
+manifestation of an expression of the eprint.  In FRBR terms, an eprint 
+is a Work and a copy is an Item.  Recommended best practice is to 
+provide a value URI for a class from the <span id="[http://purl.org/eprint/accessRights/ "></span><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_AccessRights_Vocabulary_Encoding_Scheme" title="Eprints AccessRights Vocabulary Encoding Scheme">Eprints AccessRights Vocabulary Encoding Scheme</a>.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dcterms:accessRights )
+  Vocabulary Encoding Scheme URI ( eprint:accessRights
+  Value URI ( &lt;<a href="http://purl.org/eprint/accessRights/OpenAccess" class="external free" title="http://purl.org/eprint/accessRights/OpenAccess" rel="nofollow">http://purl.org/eprint/accessRights/OpenAccess</a>&gt; )
+)
+</pre>
+<a name="Licence"></a><h4> Licence </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/terms/license" class="external free" title="http://purl.org/dc/terms/license" rel="nofollow">http://purl.org/dc/terms/license</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A legal document giving official permission to do something with the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>The terms under which the described copy of a manifestation of an 
+expression of the eprint is made available.  Typically, the URI of a 
+licence statement should be provided as a <i>value URI</i>.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dcterms:license )
+  Value URI ( <a href="http://creativecommons.org/licenses/by/2.0/" class="external free" title="http://creativecommons.org/licenses/by/2.0/" rel="nofollow">http://creativecommons.org/licenses/by/2.0/</a> )
+)
+</pre>
+<a name="Date_Available_2"></a><h4> Date Available </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/terms/available" class="external free" title="http://purl.org/dc/terms/available" rel="nofollow">http://purl.org/dc/terms/available</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> Date (often a range) that the resource will become or did become available.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>The date that the described copy of a manifestation of an expression of the eprint will become or did become public.<span id="endpara">
+</span></p><p>Use a <i>value string</i> to provide the date, formatted according to the W3C Date Time Format (W3CDTF) specification.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dcterms:available )
+  Literal Value String ( "2004-09-23"
+    Syntax Encoding Scheme URI ( dcterms:W3CDTF )
+  )
+)
+</pre>
+<a name="Is_Part_Of"></a><h4> Is Part Of </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/terms/isPartOf" class="external free" title="http://purl.org/dc/terms/isPartOf" rel="nofollow">http://purl.org/dc/terms/isPartOf</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> The described resource is a physical or logical part of the referenced resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>A collection, typically a bibliographic collection, of which the described copy is a member.<span id="endpara">
+</span></p><p>Use both a <i>value URI</i> and a <i>value string</i> to indicate the collection.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dcterms:isPartOf )
+  Value URI ( &lt;<a href="http://purl.org/poi/iesr.ac.uk/1084445801-13323" class="external free" title="http://purl.org/poi/iesr.ac.uk/1084445801-13323" rel="nofollow">http://purl.org/poi/iesr.ac.uk/1084445801-13323</a>&gt; )
+  Value String ( "JSTOR" )
+)
+</pre>
+<a name="Description_of_an_Agent"></a><h3> Description of an Agent </h3>
+<p><span></span>
+</p>
+<a name="Entity_type_5"></a><h4> Entity type </h4>
+<hr>
+<p><span></span>
+<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> The type nature or genre of the content of the resource.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Each of the entity <i>descriptions</i> in the <i>description sets</i> conforming with this application profile will need to be explicitly typed.  This is done using a dc:type <i>statement</i> with one of the following <i>value URIs</i> taken from the <span id="[http://purl.org/eprint/entityType "></span><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_EntityType_Vocabulary_Encoding_Scheme" title="Eprints EntityType Vocabulary Encoding Scheme">Eprints EntityType Vocabulary Encoding Scheme</a> corresponding to the entity being described.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:type )
+  Vocabulary Encoding Scheme URI ( eprint:EntityType )
+  Value URI ( &lt;<a href="http://purl.org/eprint/entityType/Person" class="external free" title="http://purl.org/eprint/entityType/Person" rel="nofollow">http://purl.org/eprint/entityType/Person</a>&gt; )
+)
+</pre>
+<pre>Statement (
+  Property URI ( dc:type )
+  Vocabulary Encoding Scheme URI ( eprint:EntityType )
+  Value URI ( &lt;<a href="http://purl.org/eprint/entityType/Organization" class="external free" title="http://purl.org/eprint/entityType/Organization" rel="nofollow">http://purl.org/eprint/entityType/Organization</a>&gt; )
+)
+</pre>
+<a name="Name"></a><h4> Name </h4>
+<hr>
+<p><span></span>
+<a href="http://xmlns.com/foaf/0.1/name" class="external free" title="http://xmlns.com/foaf/0.1/name" rel="nofollow">http://xmlns.com/foaf/0.1/name</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A name for some thing.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>A name for the agent (person or organisation).<span id="endpara">
+</span></p><p>In general, use foaf:family_name and foaf:givenname for describing persons and foaf:name for describing organisations.<span id="endpara">
+</span></p><p>Where a name is provided, see <a href="#A_note_about_the_form_of_personal_and_organisational_names_used_in_value_strings" title="">A note about the form of personal and organisational names used in value strings</a>.
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( foaf:name )
+  Literal Value String ( "University of York" )
+)
+</pre>
+<a name="Family_Name"></a><h4> Family Name </h4>
+<hr>
+<p><span></span>
+<a href="http://xmlns.com/foaf/0.1/family_name" class="external free" title="http://xmlns.com/foaf/0.1/family name" rel="nofollow">http://xmlns.com/foaf/0.1/family_name</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> The family name of some person.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>The family name of a person.<span id="endpara">
+</span></p><p>In general, use foaf:family_name and foaf:givenname for describing persons and foaf:name for describing organisations.
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( foaf:family_name )
+  Literal Value String ( "Powell" )
+)
+</pre>
+<a name="Given_Name"></a><h4> Given Name </h4>
+<hr>
+<p><span></span>
+<a href="http://xmlns.com/foaf/0.1/givenname" class="external free" title="http://xmlns.com/foaf/0.1/givenname" rel="nofollow">http://xmlns.com/foaf/0.1/givenname</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> The given name of some person.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>The given name of a person.<span id="endpara">
+</span></p><p>In general, use foaf:family_name and foaf:givenname for describing persons and foaf:name for describing organisations.
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( foaf:givenname )
+  Literal Value String ( "Andy" )
+)
+</pre>
+<a name="Workplace_Homepage"></a><h4> Workplace Homepage </h4>
+<hr>
+<p><span></span>
+<a href="http://xmlns.com/foaf/0.1/workplaceHomepage" class="external free" title="http://xmlns.com/foaf/0.1/workplaceHomepage" rel="nofollow">http://xmlns.com/foaf/0.1/workplaceHomepage</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A workplace homepage of some person; the homepage of an organization they work for.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>The homepage of the organisation for which the author of the eprint works.<span id="endpara">
+</span></p><p>Use this <i>property</i> to provide the URI of the organisational homepage as a <i>value URI</i>.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( foaf:workplaceHomepage )
+  Value URI ( &lt;<a href="http://www.bristol.ac.uk/" class="external free" title="http://www.bristol.ac.uk/" rel="nofollow">http://www.bristol.ac.uk/</a>&gt; )
+)
+</pre>
+<a name="Mailbox"></a><h4> Mailbox </h4>
+<hr>
+<p><span></span>
+<a href="http://xmlns.com/foaf/0.1/mbox" class="external free" title="http://xmlns.com/foaf/0.1/mbox" rel="nofollow">http://xmlns.com/foaf/0.1/mbox</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A personal mailbox, ie. an 
+Internet mailbox associated with exactly one owner, the first owner of 
+this mailbox. This is a 'static inverse functional property', in that 
+there is (across time and change) at most one individual that ever has 
+any particular value for foaf:mbox.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>A mailbox associated with a person, formatted as a 'mailto' URI.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( foaf:mbox )
+  Value URI ( "<a href="mailto:fred@example.com" class="external free" title="mailto:fred@example.com" rel="nofollow">mailto:fred@example.com</a>" )
+)
+</pre>
+<a name="Homepage"></a><h4> Homepage </h4>
+<hr>
+<p><span></span>
+<a href="http://xmlns.com/foaf/0.1/homepage" class="external free" title="http://xmlns.com/foaf/0.1/homepage" rel="nofollow">http://xmlns.com/foaf/0.1/homepage</a>
+<span id="})">
+</span></p>
+<dl><dt> <b>Definition</b>&nbsp;</dt><dd> A homepage for some thing.
+</dd></dl>
+<dl><dt> <b>Eprint-specific recommendation</b>
+</dt></dl>
+<p>Provide the URI of the agent's Web homepage as a <i>value URI</i>.
+<span></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( foaf:homepage )
+  Value URI ( "<a href="http://www.bham.ac.uk/" class="external free" title="http://www.bham.ac.uk/" rel="nofollow">http://www.bham.ac.uk/</a>" )
+)
+</pre>
+<p><span id="}}}"></span>
+</p>
+<a name="Entity_typing"></a><h2> Entity typing </h2>
+<p>Each of the entity <i>descriptions</i> in the <i>description sets</i> conforming with this application profile will need to be explicitly typed.  This is done using a dc:type <i>statement</i> with one of the following <i>value URIs</i> taken from the <span id="[http://purl.org/eprint/entityType "></span><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_EntityType_Vocabulary_Encoding_Scheme" title="Eprints EntityType Vocabulary Encoding Scheme">Eprints EntityType Vocabulary Encoding Scheme</a>:
+</p>
+<ul><li> <a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>
+</li><li> <a href="http://purl.org/eprint/entityType/Expression" class="external free" title="http://purl.org/eprint/entityType/Expression" rel="nofollow">http://purl.org/eprint/entityType/Expression</a>
+</li><li> <a href="http://purl.org/eprint/entityType/Manifestation" class="external free" title="http://purl.org/eprint/entityType/Manifestation" rel="nofollow">http://purl.org/eprint/entityType/Manifestation</a>
+</li><li> <a href="http://purl.org/eprint/entityType/Copy" class="external free" title="http://purl.org/eprint/entityType/Copy" rel="nofollow">http://purl.org/eprint/entityType/Copy</a>
+</li><li> <a href="http://purl.org/eprint/entityType/Person" class="external free" title="http://purl.org/eprint/entityType/Person" rel="nofollow">http://purl.org/eprint/entityType/Person</a>
+</li><li> <a href="http://purl.org/eprint/entityType/Organization" class="external free" title="http://purl.org/eprint/entityType/Organization" rel="nofollow">http://purl.org/eprint/entityType/Organization</a>
+</li></ul>
+<p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:type )
+  Vocabulary Encoding Scheme URI ( eprint:EntityType )
+  Value URI ( &lt;<a href="http://purl.org/eprint/entityType/Copy" class="external free" title="http://purl.org/eprint/entityType/Copy" rel="nofollow">http://purl.org/eprint/entityType/Copy</a>&gt; )
+)
+</pre>
+<p><span id="["></span><span id="[[[Anchor(A_note_about_the_form_of_personal_and_organisational_names_used_in_value_strings)]]]]"></span>
+</p>
+<a name="A_note_about_the_form_of_personal_and_organisational_names_used_in_value_strings"></a><h2> A note about the form of personal and organisational names used in value strings </h2>
+<p>Where personal or organisational names are provided as <i>value strings</i>, the following guidelines should be followed.
+</p><p>Personal names should be listed surname or family name first, 
+followed by comma-space, then the "usual" or preferred form of forenames
+ and/or initials followed by a full stop.  If necessary, this may be 
+followed by the full set of spelled-out forenames in round brackets. Use
+ the same form of name for all eprints, irrespective of the form used on
+ the item itself.
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( marcrel:EDT )
+  Value String ( "Bloggs, Fred" )
+)
+</pre>
+<pre>Statement (
+  Property URI ( marcrel:EDT )
+  Value String ( "Sulston, John E." )
+)
+</pre>
+<pre>Statement (
+  Property URI ( marcrel:FND )
+  Value String ( "Walker, J. J. (John Joseph)" )
+)
+</pre>
+<p>In the case of organizations where there is clearly a hierarchy 
+present, list the parts of the hierarchy from largest to smallest, 
+separated by full stops. If it is not clear whether there is a hierarchy
+ present, or unclear which is the larger or smaller portion of the body,
+ give the name as it appears in the eprint.
+<span id=""></span>
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( marcrel:THS )
+  Value String ( "Loughborough University. Department of Computer Science" )
+)
+</pre>
+<pre>Statement (
+  Property URI ( dc:creator )
+  Value String ( "University of Reading. Rural History Centre" )
+)
+</pre>
+<pre>Statement (
+  Property URI ( dc:publisher )
+  Value String ( "John Wiley &amp; Sons, Inc. (US)" )
+)
+</pre>
+<p>The inclusion of personal and corporate name headings from authority 
+lists constructed according to AACR2, e.g. the Library of Congress Name 
+Authority File (LCNA), is also acceptable.
+</p><p><span id="["></span><span id="[[[Anchor(A_note_about_using_identifiers)]]]]"></span>
+</p>
+<a name="A_note_about_using_identifiers"></a><h2> A note about using identifiers </h2>
+<p>Each of the entities in the model may be assigned a URI, encoded as the <i>resource URI</i> in the description of that entity.
+</p><p>It should be noted, however, that assigning and encoding a URI is
+ not mandatory for any of the entities.  Although the lack of a URI for 
+any entity means that the entity can not be referenced from within 
+metadata records in other eprint systems, the assignment of URIs to 
+entities should be performed with care (and, where possible, after first
+ checking whether a URI has already been assigned to the entity 
+elsewhere).  Multiple URIs for a single entity are likely to cause 
+problems for downstream eprint systems, since it may be difficult for 
+them to determine algorithmically whether any two URIs identify the same
+ entity.
+</p><p>Where the ScholarlyWork and Expression entities in a <i>description set</i> have additional URIs, these should be encoded in one or more dc:identifier <i>statements</i>.
+  As noted in the relevant sections above, in cases where there are 
+multiple URIs for any entity, one of the URIs should be used as the <i>resource URI</i>.  Recommended best practice is to use a DOI or Handle as the <i>resource URI</i>, where these exist.
+</p><p>The URIs assigned to each of the entities should uniquely 
+identify a single entity.  There may be more than one URI per entity, 
+but each URI should only identify one entity.
+</p><p>It is an implementation issue whether the URIs assigned to the 
+ScholarlyWork and Expression entities dereference to a representation of
+ that entity.  However, it is anticipated that eprint systems are likely
+ to be configured such that the URI for ScholarlyWork and/or Expression 
+entities dereference to a 'jump-off page' for the eprint, as served by 
+the archive.
+</p><p>In all cases where a dc:identifier <i>statement</i> is provided, use a <i>syntax encoding scheme URI</i> to indicate that a URI is being provided.
+</p><p><b>For example:</b>
+</p>
+<pre>Statement (
+  Property URI ( dc:identifier )
+  Value String ( "<a href="http://eprints.bath.ac.uk/archive/00000003/" class="external free" title="http://eprints.bath.ac.uk/archive/00000003/" rel="nofollow">http://eprints.bath.ac.uk/archive/00000003/</a>"
+    Syntax Encoding Scheme URI ( dcterms:URI )
+  )
+)
+</pre>
+<p>It is not yet clear whether current practice is to assign DOIs at the
+ level of the Work or at the level of the Expression (as those terms are
+ used in FRBR) or in a more fine-grained way.  The current <a href="http://www.crossref.org/01company/15doi_info.html" class="external text" title="http://www.crossref.org/01company/15doi info.html" rel="nofollow">Crossref  documentation</a>
+ indicates that DOIs should be assigned to the 'work', however it is not
+ clear that this usage of the word 'work' corresponds with its usage in 
+FRBR - in fact, it is rather more likely that it corresponds with the 
+use of the term Expression in FRBR.
+</p><p>There is also other evidence that publishers typically assign DOIs at the level of the FRBR Expression.  For example, the <a href="http://www.doi.org/handbook_2000/intro.html#1.6.4" class="external text" title="http://www.doi.org/handbook 2000/intro.html#1.6.4" rel="nofollow">DOI Handbook discussion about 'granularity'</a>
+ concludes that in practice it is safer to assign separate DOIs to each 
+language translation of a given article, i.e. to assign DOIs at the 
+level of the Expression.
+</p><p>As a result, it is suggested that the following guidelines are 
+followed when making use of DOIs in the context of this application 
+profile:
+</p>
+<ul><li> If the DOI has been assigned to all possible expressions and 
+manifestations of the eprint (e.g. it is intended to resolve to both the
+ HTML format of the preprint and the PDF format of the formally 
+published article), use the DOI as the <i>resource URI</i> for the ScholarlyWork entity (and also encode it as the <i>value string</i> of a dc:identifier <i>statement</i> for that entity).
+</li><li> If the DOI has been assigned to all manifestations of a 
+particular expression of the eprint (e.g. it is intended to resolve to 
+all the formats of the Spanish language version of the formally 
+published article), use the DOI as the <i>resource URI</i> for the Expression entity.
+</li><li> If the DOI has been assigned to a particular manifestation of 
+an expression of the eprint (e.g. it is intended to resolve only to the 
+PDF format of the French-language translation of the formally published 
+article), use the DOI as the <i>resource URI</i> for the Manifestation entity.
+</li><li> If the DOI has been assigned to a particular copy of a 
+manifestation of an expression of the eprint (e.g. it is only intended 
+to resolve to the particular copy of an article as served by a 
+particular Web server), use the DOI as the <i>resource URI</i> for the Copy entity.
+</li></ul>
+<p>In all cases, the '<a href="http://dx.doi.org/10.100/12345%27" class="external free" title="http://dx.doi.org/10.100/12345'" rel="nofollow">http://dx.doi.org/10.100/12345'</a> form of URI encoding should be used.
+</p><p>Note that publisher-assigned DOIs are highly likely to fall into cases 1 or 2.
+</p>
+<a name="A_note_about_mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC"></a><h2> A note about mapping the Scholarly Works Application Profile to Simple DC </h2>
+<p><span id="http://www.ukoln.ac.uk/repositories/digirep/index/Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC"></span><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC" title="Mapping the Scholarly Works Application Profile to Simple DC">Mapping the Scholarly Works Application Profile to Simple DC</a> is available as a separate document.
+</p><p>The mapping enables software to 'dumb-down' (i.e. transform) a <i>description set</i> that conforms with this application profile to a <i>description set</i> that conforms with simple DC.  In this context, 'simple DC' means a <i>description set</i> that comprises a single <i>description</i> that only uses  the 15 <i>properties</i> in the <a href="http://dublincore.org/documents/dces/" class="external text" title="http://dublincore.org/documents/dces/" rel="nofollow">Dublin Core Metadata Element Set</a>.
+</p><p>It is worth noting that by using this mapping, a <i>description set</i> that complies with this application profile will be dumbed-down to form a <i>description</i> that complies with the <a href="http://www.rdn.ac.uk/projects/eprints-uk/docs/simpledc-guidelines/" class="external text" title="http://www.rdn.ac.uk/projects/eprints-uk/docs/simpledc-guidelines/" rel="nofollow">Using simple DC to describe eprints</a> document produced by the <a href="http://www.rdn.ac.uk/projects/eprints-uk/" class="external text" title="http://www.rdn.ac.uk/projects/eprints-uk/" rel="nofollow">ePrints UK project</a>.
+</p><p>It is also worth noting that the resulting simple DC <i>description</i>
+ is about the eprint as a ScholarlyWork.  While this is not the only 
+approach to mapping this application profile to simple DC (for example, 
+it would also be possible to map this application profile to a set of 
+simple DC <i>descriptions</i> about each of the Copy entities) it fits well with the intended usage of this application profile in the <a href="http://www.openarchives.org/" class="external text" title="http://www.openarchives.org/" rel="nofollow">OAI Protocol for Metadata Harvesting</a>.  In this case, each <a href="http://www.openarchives.org/OAI/openarchivesprotocol.html#Item" class="external text" title="http://www.openarchives.org/OAI/openarchivesprotocol.html#Item" rel="nofollow">OAI item</a> will have associated records that correspond to both the oai_dc format and an XML format based on this application profile.
+</p><p>The particular mapping discussed here and in the separate 
+document does not preclude alternative mappings being generated in the 
+future.
+</p>
+<a name="Examples"></a><h2> Examples </h2>
+<a name="Example_1"></a><h3> Example 1 </h3>
+<pre>@prefix dc: &lt;<a href="http://purl.org/dc/elements/1.1/" class="external free" title="http://purl.org/dc/elements/1.1/" rel="nofollow">http://purl.org/dc/elements/1.1/</a>&gt; .
+@prefix dcterms: &lt;<a href="http://purl.org/dc/terms/" class="external free" title="http://purl.org/dc/terms/" rel="nofollow">http://purl.org/dc/terms/</a>&gt; .
+@prefix eprint: &lt;<a href="http://purl.org/eprint/terms/" class="external free" title="http://purl.org/eprint/terms/" rel="nofollow">http://purl.org/eprint/terms/</a>&gt; .
+
+DescriptionSet (
+  Description (
+    Resource URI ( &lt;<a href="http://eprints.gla.ac.uk/503/" class="external free" title="http://eprints.gla.ac.uk/503/" rel="nofollow">http://eprints.gla.ac.uk/503/</a>&gt; )
+    Statement (
+      Property URI ( dc:type )
+      Value URI ( &lt;<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>&gt; )
+    )
+    Statement (
+      Property URI ( dc:title )
+      Literal Value String ( "Attempts to detect retrotransposition and de novo deletion of Alus and other dispersed
+                      repeats at specific loci in the human genome" )
+    )
+    Statement (
+      Property URI ( dcterms:abstract )
+      Value String ( "Dispersed repeat elements contribute to genome instability by de novo insertion and unequal
+                      recombination between repeats. To study the dynamics of these processes, we have developed
+                      single DNA molecule approaches to detect de novo insertions at a single locus and Alu-mediated
+                      deletions at two different loci in human genomic DNA. Validation experiments showed these
+                      approaches could detect insertions and deletions at frequencies below 10(-6) per cell. However,
+                      bulk analysis of germline (sperm) and somatic DNA showed no evidence for genuine mutant molecules,
+                      placing an upper limit of insertion and deletion rates of 2 x 10(-7) and 3 x 10(-7), respectively,
+                      in the individuals tested. Such re-arrangements at these loci therefore occur at a rate lower
+                      than that detectable by the most sensitive methods currently available." )
+    )
+    # keywords to be added
+    # Alu; deletion; dispersed repeats; insertion; recombination; retroposition
+    Statement (
+      Property URI (dc:creator )
+      Value String ( "Hollies, C.R." )
+    )
+    Statement (
+      Property URI (dc:creator )
+      Value String ( "Monckton, D.G." )
+    )
+    Statement (
+      Property URI (dc:creator )
+      Value String ( "Jeffreys, A.J." )
+    )
+    Statement (
+      Property URI ( dc:identifier )
+      Literal Value String ( "<a href="http://eprints.gla.ac.uk/503/" class="external free" title="http://eprints.gla.ac.uk/503/" rel="nofollow">http://eprints.gla.ac.uk/503/</a>"
+        Syntax Encoding Scheme URI ( dcterms:URI )
+      )
+    )
+    Statement  (
+      Property URI ( eprint:isExpressedAs )
+      ValueId ( expression1 )
+    )
+  )
+
+  Description (
+    ResourceId ( expression1 )
+    Statement (
+      Property URI ( dc:type )
+      Value URI ( &lt;<a href="http://purl.org/eprint/entityType/Expression" class="external free" title="http://purl.org/eprint/entityType/Expression" rel="nofollow">http://purl.org/eprint/entityType/Expression</a>&gt; )
+    )
+    Statement (
+      Property URI ( dc:language )
+      Vocabulary Encoding Scheme URI ( dcterms:RFC3066 )
+      Value String ( "en" )
+    )
+    Statement (
+      PropertyURI ( dc:type )
+      Vocabulary Encoding Scheme URI ( eprint:Type )
+      Value URI ( &lt;<a href="http://purl.org/eprint/type/JournalArticle" class="external free" title="http://purl.org/eprint/type/JournalArticle" rel="nofollow">http://purl.org/eprint/type/JournalArticle</a>&gt; )
+    )
+    Statement (
+      Property URI ( dcterms:available )
+      Literal Value String ( "2001-02"
+        Syntax Encoding Scheme URI ( dcterms:W3CDTF )
+      )
+    )
+    Statement (
+      Property URI ( eprint:status )
+      Vocabulary Encoding Scheme URI ( eprint:Status )
+      Value URI ( &lt; <a href="http://purl.org/eprint/status/PeerReviewed" class="external free" title="http://purl.org/eprint/status/PeerReviewed" rel="nofollow">http://purl.org/eprint/status/PeerReviewed</a>&gt; )
+    )
+    Statement (
+      Property URI ( eprint:copyrightHolder )
+      Value String ( "Nature Publishing Group" )
+    )
+    # Citation and OpenURL context object to be added
+    Statement (
+      Property URI ( eprint:isManifestedAs )
+      ValueId ( pdfmanifestation )
+    )
+  )
+
+  Description (
+    ResourceId ( pdfmanifestation )
+    Statement (
+      Property URI ( dc:type )
+      Value URI ( &lt;<a href="http://purl.org/eprint/entityType/Manifestation" class="external free" title="http://purl.org/eprint/entityType/Manifestation" rel="nofollow">http://purl.org/eprint/entityType/Manifestation</a>&gt; )
+    )
+    Statement (
+      Property URI ( dc:format )
+      Vocabulary Encoding Scheme URI ( dcterms:IMT )
+      Value String ( "application/pdf" )
+    )
+    Statement (
+      Property URI ( eprint:isAvailableAs )
+      Value URI ( &lt;<a href="http://eprints.gla.ac.uk/503/01/Eu_J._Hum_Gen.9%282%29143_.pdf" class="external free" title="http://eprints.gla.ac.uk/503/01/Eu J. Hum Gen.9(2)143 .pdf" rel="nofollow">http://eprints.gla.ac.uk/503/01/Eu_J._Hum_Gen.9(2)143_.pdf</a>&gt; )
+    )
+    Statement (
+      Property URI ( eprint:isAvailableAs )
+      Value URI ( &lt;<a href="http://www.nature.com/ejhg/journal/v9/n2/pdf/5200590a.pdf" class="external free" title="http://www.nature.com/ejhg/journal/v9/n2/pdf/5200590a.pdf" rel="nofollow">http://www.nature.com/ejhg/journal/v9/n2/pdf/5200590a.pdf</a>&gt; )
+    )
+  )
+
+  Description (
+    Resource URI ( &lt;<a href="http://eprints.gla.ac.uk/503/01/Eu_J._Hum_Gen.9%282%29143_.pdf" class="external free" title="http://eprints.gla.ac.uk/503/01/Eu J. Hum Gen.9(2)143 .pdf" rel="nofollow">http://eprints.gla.ac.uk/503/01/Eu_J._Hum_Gen.9(2)143_.pdf</a>&gt; )
+    Statement (
+      Property URI ( dc:type )
+      Value URI ( &lt;<a href="http://purl.org/eprint/entityType/Copy" class="external free" title="http://purl.org/eprint/entityType/Copy" rel="nofollow">http://purl.org/eprint/entityType/Copy</a>&gt; )
+    )
+    Statement (
+      Property URI ( dcterms:accessRights )
+      Value URI ( &lt;<a href="http://purl.org/eprint/accessRights/OpenAccess" class="external free" title="http://purl.org/eprint/accessRights/OpenAccess" rel="nofollow">http://purl.org/eprint/accessRights/OpenAccess</a>&gt; )
+    )
+  )
+
+  Description (
+    Resource URI ( &lt;<a href="http://www.nature.com/ejhg/journal/v9/n2/pdf/5200590a.pdf" class="external free" title="http://www.nature.com/ejhg/journal/v9/n2/pdf/5200590a.pdf" rel="nofollow">http://www.nature.com/ejhg/journal/v9/n2/pdf/5200590a.pdf</a>&gt; )
+    Statement (
+      Property URI ( dc:type )
+      Value URI ( &lt;<a href="http://purl.org/eprint/entityType/Copy" class="external free" title="http://purl.org/eprint/entityType/Copy" rel="nofollow">http://purl.org/eprint/entityType/Copy</a>&gt; )
+    )
+    Statement (
+      Property URI ( dcterms:accessRights )
+      Value URI ( &lt;<a href="http://npg.nature.com/npg/servlet/Content?data=xml/08_home.xml&amp;style=xml/08_home.xsl" class="external free" title="http://npg.nature.com/npg/servlet/Content?data=xml/08 home.xml&amp;style=xml/08 home.xsl" rel="nofollow">http://npg.nature.com/npg/servlet/Content?data=xml/08_home.xml&amp;style=xml/08_home.xsl</a>&gt; )
+    )
+  )
+)
+</pre>
+<a name="Example_2"></a><h3> Example 2 </h3>
+<pre>@prefix dc: &lt;<a href="http://purl.org/dc/elements/1.1/" class="external free" title="http://purl.org/dc/elements/1.1/" rel="nofollow">http://purl.org/dc/elements/1.1/</a>&gt; .
+@prefix dcterms: &lt;<a href="http://purl.org/dc/terms/" class="external free" title="http://purl.org/dc/terms/" rel="nofollow">http://purl.org/dc/terms/</a>&gt; .
+@prefix eprint: &lt;<a href="http://purl.org/eprint/terms/" class="external free" title="http://purl.org/eprint/terms/" rel="nofollow">http://purl.org/eprint/terms/</a>&gt; .
+@prefix foaf: &lt;<a href="http://xmlns.com/foaf/0.1/" class="external free" title="http://xmlns.com/foaf/0.1/" rel="nofollow">http://xmlns.com/foaf/0.1/</a>&gt; .
+
+DescriptionSet (
+  Description (
+    Resource URI ( &lt;<a href="http://eprints.soton.ac.uk/22934/" class="external free" title="http://eprints.soton.ac.uk/22934/" rel="nofollow">http://eprints.soton.ac.uk/22934/</a>&gt; )
+    Statement (
+      Property URI ( dc:type )
+      ValueURI ( &lt;<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>&gt; )
+    )
+    Statement (
+      Property URI ( dc:identifier )
+      Literal Value String ( "<a href="http://eprints.soton.ac.uk/22934/" class="external free" title="http://eprints.soton.ac.uk/22934/" rel="nofollow">http://eprints.soton.ac.uk/22934/</a>" 
+        Syntax Encoding Scheme URI ( dcterms:URI )
+      )
+    )
+    Statement (
+      Property URI ( dc:title )
+      Literal Value String ( "Structurally integrated brushless PM motor for miniature propeller thrusters" )
+    )
+    Statement (
+      Property URI ( dc:creator )
+      Value String ( "Abu Sharkh, S.M.A. (Suleiman)" )
+      ValueId ( AbuSharkhSM )
+    )
+    Statement (
+      Property URI ( dc:creator )
+      Value String ( "Lai, S.H." )
+    )
+    Statement (
+      Property URI ( dc:creator )
+      Value String ( "Turnock, S.R." )
+    )
+    Statement (
+      Property URI ( dcterms:abstract )
+      Value String ( "The design, analysis and performance of a brushless PM motor that is integrated
+                      in the structure of a  miniature 50 mm diameter propeller thruster is considered;
+                      the stator is fitted in the faired thin duct that surrounds the propeller to improve
+                      its efficiency and protect it from damage, and the rotor is fitted to the rim of the
+                      propeller. Such a thruster is intended for use on small autonomous underwater vehicles
+                      that are being developed for defence, scientific and industry applications. Fitting a
+                      relatively large airgap motor with protective coating within the volume of a thin
+                      propeller duct (&lt;10 mm thick) imposes extreme constraints on the dimensions of the
+                      machine, including a very thin rotor and stator radial thickness and relatively short
+                      axial length in addition to the relatively large airgap, which raises theoretical and
+                      practical issues that have not been considered in the literature. The design of such
+                      a machine is discussed, a demonstrator device is described and FEA and experimental
+                      results are reported." )
+    )
+    Statement (
+      Property URI ( dc:subject )
+      Vocabulary Encoding Scheme URI ( dcterms:LCSH )
+      Value String ( "T Technology--TC Hydraulic engineering. Ocean engineering" )
+    )
+    Statement (
+      Property URI ( dc:subject )
+      Vocabulary Encoding Scheme URI ( dcterms:LCSH )
+      Value String ( "T Technology--TK Electrical engineering. Electronics Nuclear engineering" )
+    )
+    Statement (
+      Property URI ( dc:subject )
+      Vocabulary Encoding Scheme URI ( dcterms:LCSH )
+      Value String ( "T Technology--TL Motor vehicles. Aeronautics. Astronautics" )
+    )
+    Statement (
+      Property URI ( eprint:affiliatedInstitution )
+      Value String ( "University of Southampton" )
+      ValueId ( sotonuni )
+    )
+    Statement (
+      Property URI ( eprint:isExpressedAs )
+      Value URI ( &lt;<a href="http://dx.doi.org/10.1049/ip-epa:20040736" class="external free" title="http://dx.doi.org/10.1049/ip-epa:20040736" rel="nofollow">http://dx.doi.org/10.1049/ip-epa:20040736</a>&gt; )
+    )
+  )
+
+  Description (
+    Resource URI ( &lt;<a href="http://dx.doi.org/10.1049/ip-epa:20040736" class="external free" title="http://dx.doi.org/10.1049/ip-epa:20040736" rel="nofollow">http://dx.doi.org/10.1049/ip-epa:20040736</a>&gt; )
+    Statement (
+      Property URI ( dc:type )
+      ValueURI ( &lt;<a href="http://purl.org/eprint/entityType/Expression" class="external free" title="http://purl.org/eprint/entityType/Expression" rel="nofollow">http://purl.org/eprint/entityType/Expression</a>&gt; )
+    )
+    Statement (
+      Property URI ( dc:language )
+      Value String ( "en" )
+    )
+    Statement (
+      Property URI ( dc:type )
+      Value URI ( &lt;<a href="http://purl.org/eprint/type/JournalArticle" class="external free" title="http://purl.org/eprint/type/JournalArticle" rel="nofollow">http://purl.org/eprint/type/JournalArticle</a>&gt; )
+    )
+    Statement (
+      Property URI ( dc:identifier )
+      Literal Value String ( "<a href="http://dx.doi.org/doi:10.1049/ip-epa:20040736" class="external free" title="http://dx.doi.org/doi:10.1049/ip-epa:20040736" rel="nofollow">http://dx.doi.org/doi:10.1049/ip-epa:20040736</a>" 
+        Syntax Encoding Scheme URI ( dcterms:URI )
+      )
+    )
+    Statement (
+      Property URI ( dcterms:available )
+      Literal Value String ( "2004" 
+        Syntax Encoding Scheme URI (dcterms:W3CDTF )
+      )
+    )
+    Statement (
+      Property URI ( eprint:status )
+      Vocabulary Encoding Scheme ( eprint:status )
+      ValueURI ( &lt;<a href="http://purl.org/eprint/status/PeerReviewed" class="external free" title="http://purl.org/eprint/status/PeerReviewed" rel="nofollow">http://purl.org/eprint/status/PeerReviewed</a>&gt; )
+    )
+    Statement (
+      Property URI ( dcterms:copyrightHolder )
+      Value String ( "Institution of Engineering and Technology" )
+    )
+    Statement (
+      Property URI ( dcterms:bibliographicCitation )
+      Literal Value String ( "IEE Proceedings - Electric Power Applications, 151, (5), 513-519 (2004)" )
+      Literal Value String ( "&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article
+                      &amp;rft.atitle=Structurally+integrated+brushless+PM+motor+for+miniature+propeller+thrusters
+                      &amp;rft.jtitle=IEE+Proceedings+-+Electric+Power+Applications&amp;rft.volume=151&amp;rft.issue=5
+                      &amp;rft.spage=513&amp;rft.date=2004&amp;rft.issn=1350-2352
+                      &amp;rft.aulast=Sharkh&amp;rft.auinit=S+M+A
+                      &amp;rfr_id=info:sid/eprints.soton.ac.uk"
+        Syntax Encoding Scheme URI ( &lt;info:ofi/fmt:kev:mtx:ctx&gt; )
+      )
+    )
+    Statement (
+      Property URI ( eprint:isManifestedAs )
+      ValueId ( manifestation1 )
+    )
+  )
+
+  Description (
+    ResourceId ( manifestation1 )
+    Statement (
+      Property URI ( dc:type )
+      ValueURI ( &lt;<a href="http://purl.org/eprint/entityType/Manifestation" class="external free" title="http://purl.org/eprint/entityType/Manifestation" rel="nofollow">http://purl.org/eprint/entityType/Manifestation</a>&gt; )
+    )
+    Statement (
+      Property URI ( dc:format )
+      Vocabulary Encoding Scheme URI ( dcterms:IMT )
+      Value String ( "application/pdf" )
+    )
+    Statement (
+      Property URI ( dc:publisher )
+      Value String ( "Institution of Engineering and Technology" )
+    )
+    Statement (
+      Property URI ( eprint:isAvailableAs )
+      Value URI ( &lt;<a href="http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&amp;id=IEPAER000151000005000513000001&amp;idtype=cvips&amp;prog=normal" class="external free" title="http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&amp;id=IEPAER000151000005000513000001&amp;idtype=cvips&amp;prog=normal" rel="nofollow">http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&amp;id=IEPAER000151000005000513000001&amp;idtype=cvips&amp;prog=normal</a>&gt; )
+    )
+  )
+
+  Description (
+    Resource URI ( &lt;<a href="http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&amp;id=IEPAER000151000005000513000001&amp;idtype=cvips&amp;prog=normal" class="external free" title="http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&amp;id=IEPAER000151000005000513000001&amp;idtype=cvips&amp;prog=normal" rel="nofollow">http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&amp;id=IEPAER000151000005000513000001&amp;idtype=cvips&amp;prog=normal</a>&gt; )
+    Statement (
+      Property URI ( dc:type )
+      Value URI ( &lt;<a href="http://purl.org/eprint/entityType/Copy" class="external free" title="http://purl.org/eprint/entityType/Copy" rel="nofollow">http://purl.org/eprint/entityType/Copy</a>&gt; )
+    )
+    Statement (
+      Property URI ( dcterms:licence )
+      Value URI ( &lt;<a href="http://www.ietdl.org/journals/doc/IEEDRL-home/info/subscriptions/terms.jsp" class="external free" title="http://www.ietdl.org/journals/doc/IEEDRL-home/info/subscriptions/terms.jsp" rel="nofollow">http://www.ietdl.org/journals/doc/IEEDRL-home/info/subscriptions/terms.jsp</a>&gt; )
+    )
+    Statement (
+      Property URI ( dcterms:accessRights )
+      Value URI ( &lt;<a href="http://purl.org/eprint/accessRights/RestrictedAccess" class="external free" title="http://purl.org/eprint/accessRights/RestrictedAccess" rel="nofollow">http://purl.org/eprint/accessRights/RestrictedAccess</a>&gt; )
+    )
+    Statement (
+      Property URI ( dcterms:isPartOf )
+      Value URI ( &lt;<a href="http://www.theiet.org/" class="external free" title="http://www.theiet.org/" rel="nofollow">http://www.theiet.org/</a>&gt; )
+      Value String ( "Institution of Engineering and Technology" )
+    )
+    Statement (
+      Property URI ( dcterms:isPartOf )
+      Value URI ( &lt;<a href="http://www.ietdl.org/" class="external free" title="http://www.ietdl.org/" rel="nofollow">http://www.ietdl.org/</a>&gt; )
+      Value String ( "IET Digital Library" )
+    )
+  )
+
+  Description (
+    ResourceId ( sotonuni )
+    Statement (
+      Property URI ( dc:type )
+      Value URI ( &lt;<a href="http://purl.org/eprint/entityType/Organization" class="external free" title="http://purl.org/eprint/entityType/Organization" rel="nofollow">http://purl.org/eprint/entityType/Organization</a>&gt; )
+    )
+    Statement (
+      Property URI ( foaf:name )
+      Literal Value String ( "University of Southampton" )
+    )
+    Statement (
+      Property URI ( foaf:homepage )
+      Value URI ( "<a href="http://www.soton.ac.uk/" class="external free" title="http://www.soton.ac.uk/" rel="nofollow">http://www.soton.ac.uk/</a>" )
+    )
+  )
+
+  Description (
+    ResourceId ( AbuSharkhSM )
+    Statement (
+      Property URI ( dc:type )
+      Value URI ( &lt;<a href="http://purl.org/eprint/entityType/Person" class="external free" title="http://purl.org/eprint/entityType/Person" rel="nofollow">http://purl.org/eprint/entityType/Person</a>&gt; )
+    )
+    Statement (
+      Property URI ( foaf:givenname )
+      Literal Value String ( "Suleiman" )
+    )
+    Statement (
+      Property URI ( foaf:familyname )
+      Literal Value String ( "Abu Sharkh" )
+    )
+    Statement (
+      Property URI ( foaf:homepage )
+      Value URI ( &lt;<a href="http://www.soton.ac.uk/ses/people/AbuSharkhSM.html" class="external free" title="http://www.soton.ac.uk/ses/people/AbuSharkhSM.html" rel="nofollow">http://www.soton.ac.uk/ses/people/AbuSharkhSM.html</a>&gt; )
+    )
+    Statement (
+      Property URI ( foaf:workplaceHomepage )
+      Value URI ( &lt;<a href="http://www.soton.ac.uk/" class="external free" title="http://www.soton.ac.uk/" rel="nofollow">http://www.soton.ac.uk/</a>&gt; )
+    )
+  )
+)
+</pre>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+<!-- Saved in parser cache with key digirep_wiki_db:pcache:idhash:1710-0!1!0!0!!en!2 and timestamp 20130207100941 -->
+<div class="printfooter">
+Retrieved from "<a href="http://www.ukoln.ac.uk/repositories/digirep/index/Scholarly_Works_Application_Profile">/repositories/digirep/index/Scholarly_Works_Application_Profile</a>"</div>
+	    <div id="catlinks"><p class="catlinks"><a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Special:Categories&amp;article=Scholarly_Works_Application_Profile" title="Special:Categories">Categories</a>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Category:ScholarlyWorksApplicationProfile" title="Category:ScholarlyWorksApplicationProfile">ScholarlyWorksApplicationProfile</a></p></div>	    <!-- end content -->
+	    <div class="visualClear"></div>
+	  </div>
+	</div>
+      </div>
+      <div id="column-one">
+	<div id="p-cactions" class="portlet">
+	  <h5>Views</h5>
+	  <ul>
+	    <li id="ca-nstab-main" class="selected"><a title="View the content page [control-c]" accesskey="c" href="http://www.ukoln.ac.uk/repositories/digirep/index/Scholarly_Works_Application_Profile">Article</a></li><li id="ca-talk"><a title="Discussion about the content page [control-t]" accesskey="t" href="http://www.ukoln.ac.uk/repositories/digirep/index/Talk:Scholarly_Works_Application_Profile">Discussion</a></li><li id="ca-viewsource"><a title="This page is protected. You can view its source. [control-e]" accesskey="e" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Scholarly_Works_Application_Profile&amp;action=edit">View source</a></li><li id="ca-history"><a title="Past versions of this page. [control-h]" accesskey="h" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Scholarly_Works_Application_Profile&amp;action=history">History</a></li>	  </ul>
+	</div>
+	<div class="portlet" id="p-personal">
+	  <h5>Personal tools</h5>
+	  <div class="pBody">
+	    <ul>
+	    <li id="pt-login"><a title="You are encouraged to log in, it is not mandatory however. [control-o]" accesskey="o" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Special:Userlogin&amp;returnto=Scholarly_Works_Application_Profile">Create an account or log in</a></li>	    </ul>
+	  </div>
+	</div>
+	<div class="portlet" id="p-logo">
+	  <a style="background-image: url(/repositories/digirep/skins/common/images/jisc_ukolo_cetis_version_2.png);" href="http://www.ukoln.ac.uk/repositories/digirep/index/Repositories_Research" title="Repositories Research"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class="portlet" id="p-navigation">
+	  <h5>Navigation</h5>
+	  <div class="pBody">
+	    <ul>
+	    	      <li id="n-mainpage"><a title="Visit the Main Page [control-z]" accesskey="z" href="http://www.ukoln.ac.uk/repositories/digirep/index/Repositories_Research">Repositories Research</a></li>
+	     	      <li id="n-About"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/About">About</a></li>
+	     	      <li id="n-News"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/News">News</a></li>
+	     	      <li id="n-Events"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Events">Events</a></li>
+	     	      <li id="n-Info-and-activities"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/RRT_information_and_activities">Info and activities</a></li>
+	     	      <li id="n-Projects"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Projects">Projects</a></li>
+	     	      <li id="n-Clusters"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Clusters">Clusters</a></li>
+	     	      <li id="n-Scenarios/use-cases/UML"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Scenarios_and_use_cases">Scenarios/use cases/UML</a></li>
+	     	      <li id="n-Workflows"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Workflows">Workflows</a></li>
+	     	      <li id="n-Deposit-API/SWORD"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Deposit">Deposit API/SWORD</a></li>
+	     	      <li id="n-Application-Profiles"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Application_Profiles">Application Profiles</a></li>
+	     	      <li id="n-CRIG"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/CRIG">CRIG</a></li>
+	     	      <li id="n-FAQs"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/FAQs">FAQs</a></li>
+	     	      <li id="n-Links"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Links">Links</a></li>
+	     	      <li id="n-recentchanges"><a title="The list of recent changes in the wiki. [control-r]" accesskey="r" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Recentchanges">Recent changes</a></li>
+	     	      <li id="n-Sandbox"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Sandbox">Sandbox</a></li>
+	     	      <li id="n-Help"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Help:Contents">Help</a></li>
+	     	    </ul>
+	  </div>
+	</div>
+		<div id="p-search" class="portlet">
+	  <h5><label for="searchInput">Search</label></h5>
+	  <div class="pBody">
+	    <form name="searchform" action="/repositories/digirep/index/Special:Search" id="searchform">
+	      <input id="searchInput" name="search" accesskey="f" type="text">
+	      <input name="go" class="searchButton" id="searchGoButton" value="Go" type="submit">&nbsp;<input name="fulltext" class="searchButton" value="Search" type="submit">
+	    </form>
+	  </div>
+	</div>
+	<div class="portlet" id="p-tb">
+	  <h5>Toolbox</h5>
+	  <div class="pBody">
+	    <ul>
+		  		  <li id="t-whatlinkshere"><a title="List of all wiki pages that link here [control-j]" accesskey="j" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Whatlinkshere/Scholarly_Works_Application_Profile">What links here</a></li>
+		  		  <li id="t-recentchangeslinked"><a title="Recent changes in pages linked from this page [control-k]" accesskey="k" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Recentchangeslinked/Scholarly_Works_Application_Profile">Related changes</a></li>
+		                	      	      	      	      	      	      	      <li id="t-upload"><a title="Upload images or media files [control-u]" accesskey="u" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Upload">Upload file</a></li>	      	      <li id="t-specialpages"><a title="List of all special pages [control-q]" accesskey="q" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Specialpages">Special pages</a></li>	      	      	      <li id="t-print"><a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Scholarly_Works_Application_Profile&amp;printable=yes">Printable version</a></li>
+	      	    </ul>
+	  </div>
+	</div>
+	      </div><!-- end of the left (by default at least) column -->
+      <div class="visualClear"></div>
+      <div id="footer">
+    <div id="f-poweredbyico"><a href="http://www.jisc.ac.uk/"><img src="index_files/JISCcolour23.png" alt="Sponsored by JISC" title="Sponsored by JISC"></a></div>	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by-sa/2.5/"><img src="index_files/somerights20.png" alt="Attribution-ShareAlike 2.5"></a></div>	<ul id="f-list">
+	  <li id="f-lastmod"> This page was last modified 16:46, 5 March 2009.</li>	  <li id="f-viewcount">This page has been accessed 256,777 times.</li>	  	  	  <li id="f-copyright">Content is available under <a href="http://creativecommons.org/licenses/by-sa/2.5/" class="external " title="http://creativecommons.org/licenses/by-sa/2.5/" rel="nofollow">Attribution-ShareAlike 2.5</a>.</li>	  <li id="f-about"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/DigiRepWiki:About" title="DigiRepWiki:About">About DigiRepWiki</a></li>	  <li id="f-disclaimer"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/DigiRepWiki:General_disclaimer" title="DigiRepWiki:General disclaimer">Disclaimers</a></li>	  	</ul>
+      </div>
+    </div>
+    <!-- Served by wumpus in 0.20 secs. -->  
+
+</body></html>

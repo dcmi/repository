@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html">
+<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.1 Reference Description (Finnish Translation)</dc:title>
+	<dc:creator>Juha Hakala</dc:creator>	
+	<dc:creator>Jani Stenvall</dc:creator>
+	<dc:creator rdf:resource="mailto:jani.stenvall@helsinki.fi"/>	
+	<dc:language xml:lang="fi-FI">Suomeksi</dc:language>
+	<dc:language xml:lang="en-US">Finnish</dc:language>
+	<dc:language>fi-FI</dc:language>
+	<dc:publisher xml:lang="fi-FI">Helsingin Yliopiston Kirjasto</dc:publisher>	
+	<dc:publisher xml:lang="en-US">Helsinki University Library</dc:publisher>		
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>

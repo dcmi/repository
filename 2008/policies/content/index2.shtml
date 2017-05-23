@@ -1,0 +1,353 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Web Site Overview</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+    
+  </head>
+
+
+
+  <body>
+<h2>Overview of the DCMI Web site (http://dublincore.org)</h2>
+<p>All of the pages on the website have server-side includes for the header and 
+the footer. The home page has a bolder and bigger style of header and footer, 
+but other than that, everything remains the same throughout the entire site. Pages 
+that get the server side includes have the .shtml file suffix. Other files on 
+the site that do not get server side includes (like PowerPoint presentations) 
+should have the .html or .htm file suffix. </p>
+<p>Below this <a href="#home">Home Page</a> is the first level of information. 
+</p>
+<p>These areas are:</p>
+<ul>
+<li><a href="#about">About the Initiative</a></li>
+<li><a href="#news">DCMI News</a></li>
+<li><a href="#documents">Documents</a></li>
+<li><a href="#groups">Groups</a></li>
+<li><a href="#meetings">Meetings and Presentations</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#resources">Resources</a></li>
+<li><a href="#tools">Tools &amp; Software</a></li>
+<li><a href="#workshops">Workshops</a></li>
+</ul>
+<p>All of these pages have a left-hand column for navigation and a right-hand 
+column for content. Depending on the type of information that was being presented, 
+there are 2 different structures for these pages. For content that is relatively 
+static, the right content column contains brief descriptions of the content that 
+is available further down into the site. The intent is to give the user a quick 
+intro to what would be available if they clicked on the &quot;more info...&quot; 
+link.</p>
+<p>Pages that have this structure include: About the Initiative and Resources. 
+The Documents, Groups, and Meetings &amp; Presentations sections, while they don't 
+give brief intros to further information, do provide a list of items that pertain 
+to that section. For all of these sections, the left-hand navigation links to 
+different sections of the content in the right-hand column.</p>
+<p>Sections that have dynamic information (News, Projects and Tools &amp; Software) 
+are in a bit of a flux right now. The intent is to have the left-hand navigation 
+links be actual call-outs to a database with the retrieved information then showing 
+up in the right-hand column content area. However since that service is not quite 
+ready for prime time, there is an interim page structure.</p>
+<p>In all cases, we stay w/ the left-hand navigation - right-hand content structure. 
+For DCMI News and for Projects, the left-hand navigation links to separate .shtml 
+pages. For Tools &amp; Software, the left-hand navigation links to different parts 
+of the right-hand column content (w/o going to separate pages). </p>
+<p>For the entire site, once you get to the bottom level of the content, you get 
+a plain page w/ just header &amp; footers - no left hand navigation. This is most 
+often used in the &quot;About the Initiative&quot; section.</p>
+<p><a name="home"></a></p>
+<p><b>HOME PAGE:</b></p>
+<blockquote> 
+<p>The DCMI Home page is divided into five sections. </p>
+<ul>
+<li>The first section at the top of the page is the Header. This is a server- 
+side include. Links in this section are: About the Initiative, DCMI News, Documents, 
+Groups, Resources, Tools &amp; Software, Meetings &amp; Presentations and Projects.</li>
+<li>Left-hand side navigation: 
+<ul>
+<li>Overview Section - To a certain extent this is a repeat of the Header navigation. 
+We added &quot;Contact&quot; and dropped &quot;Groups&quot; from the top. We felt 
+that a repeat of the header links would give users 2 places to &quot;expect&quot; 
+the information that they are looking for. We added &quot;Contact&quot; (raising 
+it in visibility from under the &quot;About the Initiative&quot; section) on advice 
+from Zot. Also because we felt that it might be a commonly sought link. We dropped 
+&quot;Groups&quot; from the Overview section, because they are listed on the right-hand 
+side.</li>
+<li>Ready Reference Section - This is a group of no more than 6 of the top requested 
+pages on the site. This will change once the site goes live and we can track what 
+the most requested pages are, but for now we seeded this section w/ the pages 
+that we thought most people would be interested in and which were a bit deeper 
+in the site.</li>
+<li>Search - This is pretty obvious.</li>
+<li>Mirrors - Once our mirror sites stablize, they will be listed under a &quot;Mirrors&quot; 
+banner on this side of the front page.</li>
+</ul>
+</li>
+<li>Right-hand side navigation: 
+<ul>
+<li>Working Groups and Special Interest Groups - The thought was to list the individual 
+working groups on the home page as a service to &quot;power users.&quot; Community 
+members who knew exactly where they wanted to go.</li>
+</ul>
+</li>
+<li>Center Column News Items: This section is very dynamic with all announcements 
+relating to DCMI showing up here for some period of time. These announcements 
+are listed in a news.txt file. This is part of the RSS news feed that we have 
+on the site. All of the news items will have an icon associated with it. The different 
+types of news announcements that we anticipate are: &quot;General Announcements&quot; 
+- items that relate to DCMI as a whole; &quot;New Document&quot; for newly added 
+documents or announcements when a document changes status; &quot;New Tool &amp; 
+Software&quot; for newly available tools and/or software; &quot;New Project&quot; 
+for newly announced projects using Dublin Core; and &quot;New Meeting&quot; for 
+announcements of upcoming meetings, seminars or calls for participation. Any links 
+that are made from these news items to documents or pages on the site must have 
+the complete URL - not a relative URL. This news feed will be picked up by sites 
+outside of the DCMI site and we need to have the complete link in order for people 
+off site to follow it. To keep scrolling at a minimum, we are trying to keep the 
+number of news items listed to 7 or less. All of these news items are also listed 
+in the appropriate section of DCMI News.</li>
+<li>The fifth section is the server-side footer.</li>
+</ul>
+</blockquote>
+<p><a name="about"></a></p>
+<p><b>ABOUT THE INITIATIVE:</b></p>
+<blockquote> 
+<p>This section deal with areas that reflect the structure, personnel and the 
+policies of the DCMI Initiative itself. The information in this area is relatively 
+static. The sections in this directory are:</p>
+<ul>
+<li>DCMI Overview: The Overview is a general introduction to DCMI, what the element 
+set is, and how people can participate in the discussions.</li>
+<li>DCMI Community: This is a listing of the types of organizations that participate 
+in the DCMI with additional information about the institutions that have sponsored 
+DC workshops.</li>
+<li>DCMI History: This area is still under development. The intent is for anecdotal 
+and personal information, remarks and photographs that pertain to the history 
+of the DCMI</li>
+<li>DCMI Organization: This is an indepth description of how DCMI works. It also 
+includes pages listing: 
+<ul>
+<li>DC-EC and DC-AC committee members</li>
+<li>Past committee members</li>
+</ul>
+</li>
+<li>DCMI Contacts: A simple list of contacts that can be made w/ the web team, 
+a separate link to Zot for media inquiries and places for people to submit new 
+news items, projects, tools etc.</li>
+<li>DCMI Liaisons: A listing of memoranda of understanding and agreements with 
+other metadata and standards organizations</li>
+<li>DCMI Technology: This is a section that started w/ Zot. It mostly comes across 
+as part of a glossary, but I think it should and will cover the new technologies 
+that are used on this web site - such as RSS, RDF, DC metadata etc.</li>
+<li>DCMI Policies: A list of the policies that are in force on this web site (privacy 
+and copyright - both of which were borrowed w/ permission from W3C) and the Public 
+Open Source Software license.</li>
+</ul>
+</blockquote>
+<p><a name="news"></a></p>
+<p><b>DCMI NEWS</b></p>
+<blockquote> 
+<p>All the content in this section is listed in reverse chronological order, with 
+the most recent information listed at the top. There are 5 different types of 
+announcements that are listed in the news section. Each of these announcements 
+is listed in a .txt page. The structure of the news item is similar to the news.txt 
+file that populates the home page, but in the news section, we don't repeat the 
+news icon with each item. The different types of announcements are:</p>
+<ul>
+<li>General Announcements - news items about: 
+<ul>
+<li>changes in the DCMI structure</li>
+<li>changes in DCMI personnel</li>
+<li>press releases</li>
+<li>announcements about new liaisons and/or changes in current liaisons</li>
+<li>standards news</li>
+<li>web site changes</li>
+<li>foreign language translations</li>
+<li>new resources</li>
+<li>publications by the DCMI Directorate</li>
+<li>working group announcements</li>
+<li>anything else that doesn't fit into the other 4 categories</li>
+<li>publication of DCMI Update</li>
+</ul>
+</li>
+<li>Meetings &amp; Presentations - news items about: 
+<ul>
+<li>calls for participation for meetings (working groups and DCMI workshops)</li>
+<li>announcements about workshops/conferences or other events where how to use 
+Dublin Core is a promenient part of the proceedings</li>
+<li>announcements about upcoming speeches/presentations that will be given by 
+DCMI principals</li>
+</ul>
+</li>
+<li>New Documents - news items about: 
+<ul>
+<li>announcements about any new official DCMI document - working draft, proposed 
+recommendations, recommendations and notes.</li>
+<li>announcements about changes in document status (revised w.d.; wd to prec; 
+prec to rec etc.)</li>
+</ul>
+</li>
+<li>New Projects - news items about: 
+<ul>
+<li>new projects that are using Dublin Core</li>
+<li>changes in projects that are using Dublin Core</li>
+</ul>
+</li>
+<li>New Tools &amp; Software - news items about: 
+<ul>
+<li>new tools and software that help with the creation, collection etc. of Dublin 
+Core metadata</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p><a name="documents"></a></p>
+<p><b>DOCUMENTS</b></p>
+<blockquote> 
+<p>The DCMI web site is the official repository for all official DCMI documents. 
+If the document is not on the site, it cannot be considered &quot;official.&quot; 
+This will require a culture change for the working drafts since past practice 
+has been to allow the working group chairs to put them up where ever it was most 
+convienent for them and then linking to them off of the DCMI web site. A decision 
+should also be made about whether the various draft versions of past documents 
+should be brought onto the site.</p>
+<p>On the index page for this directory (/documents/index.shtml) all the documents 
+are listed by publishing date and are in reverse chronological order, grouped 
+by document type.</p>
+<p>Documents are added onto the web site based on the date of publication. The 
+directory structure for official documents is as follows:</p>
+<p>Under the documents directory, there should be sub-directories showing the 
+year of publication /month of publication/day of publication /name of file/</p>
+<p>The name of the file is important since it is a name that should stay w/ the 
+document throughout it's life-cycle - thus Education working group - working draft 
+is not a good title. However a document that is looking at how best to encode 
+qualified Dublin Core metadata in HTML could have the following file structure:</p>
+<p>2000/08/05/dcq-html/</p>
+<p>You just have to remember to keep it unique from all of the other previously 
+named documents.</p>
+</blockquote>
+<p><a name="meetings"></a></p>
+<p><b>MEETINGS AND PRESENTATIONS</b></p>
+<blockquote> 
+<p>This is a list of all meetings and presentations (upcoming and past) connected 
+w/ DCMI including working group and BOF meetings. These meetings could be held 
+during scheduled DCMI workshops or outside of the workshops. It also includes 
+links to meeting home pages and meeting reports as available.</p>
+</blockquote>
+<p><a name="projects"></a></p>
+<p><b>PROJECTS</b></p>
+<blockquote> 
+<p>Currently this directory has an index page with left-hand navigation that links 
+to 3 additional .shtml pages. The goal, eventually, is for the left-hand navigation 
+to be actual call-outs to databases rather than links to other pages. But in the 
+meantime the project information gets copied onto at least 3 different pages. 
+The initial breakdown of projects is:</p>
+<ul>
+<li> alphabetical listing by project title (which is what comes up on the index 
+page), </li>
+<li> geographical listing for where the project originates- (currently there are 
+pages for projects from 
+<ul>
+<li>Australasia - Australia, New Zealand, Taiwan, Japan and Korea</li>
+<li>Europe - includes Russia &amp; it's sister countries</li>
+<li>North America - Canada, USA and Mexico</li>
+</ul>
+</li>
+<li>subject listing - which has been reworked but not yet implemented</li>
+</ul>
+</blockquote>
+<p><a name="tools"></a></p>
+<p><b>TOOLS &amp; SOFTWARE</b></p>
+<blockquote> 
+<p>Currently this directory has an index page with left-hand navigation that links 
+to different sections of the page. The goal, eventually, is for the left-hand 
+navigation to be actual call-outs to databases rather than links to other places. 
+But in the meantime the tool information gets listed on this long, flat page.</p>
+</blockquote>
+<p><a name="resources"></a></p>
+<p><b>RESOURCES</b></p>
+<blockquote> 
+<p>This section is intended to act as the educational component of the DCMI web 
+site. It currently contains a:</p>
+<ul>
+<li>Bibliography</li>
+<li>FAQ</li>
+<li>a list of DCMI document translations 
+<ul>
+<li>There has been some discussion that these documents belong on the official 
+DCMI document lists. However since they do not go through an &quot;approval&quot; 
+process and just show up when &quot;translated&quot; bya an individual or agency, 
+I made the decision that they do not belong on the official documents page. Each 
+of the affected documents does have a link to this page so that uses can see if 
+there is an appropriate translation for their needs available. Once there is some 
+sort of process to officially approve of the translations, then they can/should 
+become part of the official document list.</li>
+</ul>
+</li>
+</ul>
+<p>Other resources that I intend(ed) to add:</p>
+<ul>
+<li>A listing of other user guides that are available from the different projects 
+the employ Dublin Core.</li>
+<li>On-line education (distance education) modules that teach how to create Dublin 
+Core records</li>
+<li>Glossary - the usage guide created by Diane Hillmann has a glossery link, 
+but it is to an out-of-date site that uses the old DC logo. I thought it would 
+be better to bring that glossary onto the web site and then extend it on the DCMI 
+web site.</li>
+<li>Seminars and other conferences that are not sponsored by DCMI but that teach 
+Dublin Core metadata </li>
+</ul>
+</blockquote>
+<p><a name="workshops"></a></p>
+<p><b>WORKSHOPS</b></p>
+<blockquote> 
+<p>The index page for the workshops directory (/workshops/index.shtml) should 
+list in reverse chronological order all of the official DCMI workshops or conferences. 
+Each listing should include the date of the workshop, location, co-sponsoring 
+institution, and link to the workshop home page w/in the workshop directory.</p>
+<p>Each workshop should have its own directory. An index page in the directory 
+should contain a link to the call for participation, workshop homepage, workshop 
+report and any additional links to other resources or meeting notes that come 
+from the meeting.</p>
+<p>If DCMI maintained the workshop site - all pages should go into this directory.</p>
+<p>If the site was developed and hosted by a different institution, then once 
+the workshop is completed, we should get a dump of the pages and place them into 
+the ARCHIVES. Then off of the workshop page /workshops/dcX/index.shtml - we can 
+provide a link to the official workshop web site as well as a link to the local 
+cached version.</p>
+<p>&nbsp;</p>
+</blockquote>
+<p><b>DIRECTORIES THAT ARE IMPORTANT BUT HIDDEN FROM VIEW TO MOST USERS:</b></p>
+<blockquote> 
+<p><b>ARCHIVES:</b> This is where we dump copies of sites and pages that are not 
+created by DCMI, but contain information that is important to the historical record 
+of the Initiative. The subdirectories are created by YYYY/ name of file/ Currently 
+included in the archives is a dump of the qualifier voting records and the dc7 
+workshop in Frankfurt germany.</p>
+<p>&nbsp;</p>
+</blockquote>
+<p><b>SUGGESTIONS AND FUTURE ENHANCEMENTS:</b></p>
+<blockquote>
+<ul>
+<li>Place a &quot;netminder&quot; watch on each of the project home pages. It 
+will be easier to track when something moves or goes away.</li>
+<li>Create a projects from South America page</li>
+<li>implement the revised subject lists for the projects section</li>
+<li>continue to work on creating database entries for each of the projects as 
+well as tools and software items.</li>
+<li>provide alternate formats for printing DC recommendations (and the Usage Guide) 
+- printing HTML pages is inadequate.</li>
+</ul>
+</blockquote>
+</html>
+

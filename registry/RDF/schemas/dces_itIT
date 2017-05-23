@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+         xmlns:eor="&eorns;">
+
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label xml:lang="it-IT">Titolo</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">Un nome dato alla risorsa</rdfs:comment>
+  <dc:description xml:lang="it-IT">In particolare, un Title sar&#224; un nome con il quale la risorsa &#232; 
+      formalmente conosciuta.</dc:description>
+  
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label xml:lang="it-IT">Autore di contributo subordinato</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">Un'entit&#224; responsabile della produzione di un contributo al contenuto 
+      della risorsa</rdfs:comment>
+  <dc:description xml:lang="it-IT">Esempi di un Contributor includono una persona, un'organizzazione o un 
+      servizio. Normalmente il nome di un Contributor &#232; usato per indicare 
+      l'entit&#224; stessa</dc:description>
+
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label xml:lang="it-IT">Creatore</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">Un'entit&#224; che ha la responsabilit&#224; principale della produzione del 
+      contenuto della risorsa</rdfs:comment>
+  <dc:description xml:lang="it-IT">Esempi di Creator includono una persona, un'organizzazione o un 
+      servizio. In particolare, il nome di un Creator dovrebbe essere usato per 
+      indicare l'entit&#224;</dc:description>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label xml:lang="it-IT">Editore</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">Un'entit&#224; responsabile della produzione della risorsa, disponibile 
+      nella sua forma presente</rdfs:comment>
+  <dc:description xml:lang="it-IT">Esempi di un Publisher includono una persona, un'organizzazione o un 
+      servizio. Normalmente il nome di un Publisher &#232; usato per indicare 
+      l'entit&#224; stessa</dc:description>
+ 
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label xml:lang="it-IT">Soggetto e Parole chiave</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">L'argomento della risorsa.</rdfs:comment>
+  <dc:description xml:lang="it-IT">In particolare un Subject pu&#242; essere espresso da parole chiave o frasi 
+      chiave o codici di classificazione che descrivono l'argomento della 
+      risorsa. Si consiglia di scegliere un valore da un vocabolario controllato 
+      o da uno schema di classificazione formale.</dc:description>
+ 
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label xml:lang="it-IT">Descrizione</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">Una spiegazione del contenuto della risorsa</rdfs:comment>
+  <dc:description xml:lang="it-IT">Una descrizione pu&#242; includere ma non &#232; limitata solo a: un riassunto 
+      analitico, un indice, un riferimento al contenuto di una rappresentazione 
+      grafica o un testo libero del contenuto.</dc:description>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label xml:lang="it-IT">Data</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">Una data associata a un evento del ciclo di vita della 
+risorsa</rdfs:comment>
+  <dc:description xml:lang="it-IT">Normalmente Date &#232; associata alla creazione o alla disponibilit&#224; della 
+      risorsa. Si consiglia di usare un numero di 8 caratteri nella forma 
+      YYYY-MM-DD come definita in http://www.w3.org/TR/NOTE-datetime, un profilo 
+      dello standard ISO 8601. In questo schema l'elemento data 1994-11-05 
+      corrisponde al 5 novembre 1994. Sono possibili molti altri schemi, ma se 
+      vengono utilizzati, devono poter essere identificati in modo 
+  univoco</dc:description>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label xml:lang="it-IT">Tipo di risorsa</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">La natura o il genere del contenuto della risorsa</rdfs:comment>
+  <dc:description xml:lang="it-IT">Tipo include termini che descrivono categorie generali, funzioni, 
+      generi o livelli di aggregazione per contenuto. Si raccomanda di 
+      selezionare un valore da un vocabolario controllato (ad esempio, la lista 
+      di lavoro dei Dublin Core Types [DCT1]). Per descrivere la manifestazione 
+      fisica o digitale della risorsa, si usa l'elemento 
+Format</dc:description>
+  
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label xml:lang="it-IT">Formato</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">La manifestazione fisica o digitale della risorsa</rdfs:comment>
+  <dc:description xml:lang="it-IT">Normalmente Format pu&#242; includere il tipo di supporto o le dimensioni 
+      della risorsa. Format pu&#242; essere usato per determinare il software, 
+      l'hardware o altro apparato necessario alla visualizzazione o 
+      all'elaborazione della risorsa. Esempi di dimensioni includono grandezza e 
+      durata. Si raccomanda di selezionare un valore da un vocabolario 
+      controllato (ad esempio la lista di Internet Media Types [MIME] che 
+      definisce i formati dei supporti elettronici</dc:description>
+  
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label xml:lang="it-IT">Identificatore della risorsa</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">Un riferimento univoco alla risorsa nell'ambito di un dato 
+    contesto</rdfs:comment>
+  <dc:description xml:lang="it-IT">Si raccomanda di identificare la risorsa per mezzo di una sequenza di 
+      caratteri alfabetici o numerici secondo un sistema di identificazione 
+      formalmente definito. Esempi di tali sistemi di identificazione includono 
+      l'Uniform Resource Identifier (URL) (incluso l'Uniform Resource Locator 
+      (URN)), il Digital Object Identifier (DOI) e l'International Standard Book 
+      Number (ISBN)</dc:description>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label xml:lang="it-IT">Lingua</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">La lingua del contenuto intellettuale della risorsa</rdfs:comment>
+  <dc:description xml:lang="it-IT">Per i valori dell'elemento Language si raccomanda di utilizzare quanto 
+      definito dal RFC 1766 [RFC1766] che include un codice di lingua su due 
+      caratteri (derivato dallo standard ISO 639 [ISO639], seguito opzionalmente 
+      da un codice di paese su due caratteri (derivato dallo standard ISO 3166 
+      [ISO3166]. Ad esempio, "en" per l'inglese, "fr" per il francese, "it" per 
+      l'italiano o "en-uk" per l'inglese usato nel Regno 
+Unito</dc:description>
+  
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label xml:lang="it-IT">Relazione</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">Un riferimento alla risorsa correlata</rdfs:comment>
+  <dc:description xml:lang="it-IT">Si raccomanda di far riferimento alla risorsa per mezzo di una sequenza 
+      di caratteri alfabetici o numerici in conformit&#224; ad un sistema di 
+      identificazione formalmente definito</dc:description>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label xml:lang="it-IT">Fonte</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">Un riferimento a una risorsa dalla quale &#232; derivata la risorsa in 
+      oggetto</rdfs:comment>
+  <dc:description xml:lang="it-IT">La risorsa pu&#242; essere derivata dalla risorsa Source in tutto o in 
+      parte. Si raccomanda di identificare la risorsa per mezzo di una sequenza 
+      di caratteri alfabetici o numerici secondo un sistema di identificazione 
+      formalmente definito</dc:description>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label xml:lang="it-IT">Copertura</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">L'estensione o scopo del contenuto della risorsa</rdfs:comment>
+  <dc:description xml:lang="it-IT">Normalmente Coverage include la localizzazione spaziale (il nome di un 
+      luogo o le coordinate geografiche), il periodo temporale (l'indicazione di 
+      un periodo, una data o un range di date) o una giurisdizione (ad esempio 
+      il nome di un'entit&#224; amministrativa). Si raccomanda di selezionare un 
+      valore da un vocabolario controllato (ad esempio il Thesaurus of 
+      Geographic Names [TGN]) e, se possibile, di utilizzare i nomi di luogo o i 
+      periodi di tempo piuttosto che identificatori numerici come serie di 
+      coordinate o range di date</dc:description>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label xml:lang="it-IT">Gestione dei diritti</rdfs:label>
+  <rdfs:comment xml:lang="it-IT">Informazione sui diritti esercitati sulla risorsa</rdfs:comment>
+  <dc:description xml:lang="it-IT">Normalmente un elemento Rights contiene un'indicazione di gestione dei 
+      diritti sulla risorsa, o un riferimento ad un servizio che fornisce questa 
+      informazione. L'informazione sui diritti spesso comprende i diritti di 
+      propriet&#224; intellettuale Intellectual Property Rights (IPR), Copyright e 
+      vari diritti di propriet&#224;. Se l'elemento Rights &#232; assente, non si pu&#242; fare 
+      alcuna ipotesi sullo stato di questi o altri diritti in riferimento alla 
+      risorsa</dc:description>
+
+</rdf:Property>
+
+</rdf:RDF>

@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Update - March 2000</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+    <link rel="meta" href="nl2000-03.shtml.rdf" />
+  </head>
+
+  
+<body>
+    
+<div class="head">
+      <!--#include virtual="/ssi/header.shtml"-->
+<table summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content." border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr valign="top">
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td bgcolor="#EEEEEE" width="150">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" summary="Layout table: Contains graphical text.">
+<tbody>
+<tr bgcolor="#99A59F" align="center">
+<td><img src="/images/navlist/toc.gif" width="150" height="25" alt="Table of Contents" border="0" /></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellspacing="0" cellpadding="10" border="0" summary="Layout table: Contains navigation.">
+<tbody>
+<tr>
+<td class="smallsans">
+<dl>
+<dt class="navlist"><a href="#action">Action!</a></dt>
+<dt class="navlist"><a href="#newsbriefs">News Briefs</a></dt>
+<dt class="navlist"><a href="#workinggroup">Working Group Updates</a></dt>
+<dt class="navlist"><a href="#advisory">Advisory Committee Updates</a></dt>
+<dt class="navlist"><a href="#workshop">Workshop News</a></dt>
+<dt class="navlist"><a href="#project">Project &amp; Tool Updates</a></dt>
+<dt class="navlist"><a href="#website">Web Site Changes</a></dt>
+<dt class="navlist">Submit a news item</dt>
+</dl>
+</td>
+</tr>
+<tr>
+<td class="note">
+<p>This Newsletter is published monthly by the <a href="../../">Dublin Core Metadata Initiative</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="10" summary="Content table">
+<tbody>
+<tr>
+<td>
+<h1 align="center">DCMI Update</h1>
+<h3 align="center">Volume 1, Number 3 - March
+              2000</h3>
+<div align="center">
+                
+<p>(A Summary of activities from February 2000)</p>
+<hr size="1" noshade />
+
+                
+<h3 align="left"><a id="action"
+                name="action"></a>Action!</h3>
+</div>
+<ul>
+                
+<li>
+                  
+<p align="left"><strong>Banners and badges are
+                  now available to include on your web
+                  site.</strong></p>
+<p>The <a href="../banners/index.htm">banners and badges</a> are provided in the JPEG file format for use by
+                  members of the public who wish to include them on
+                  a Web site. No special permission is required
+                  from the Dublin Core Metadata Initiative to
+                  reproduce these images, however, banners must be
+                  linked directly to the Dublin Core Metadata
+                  Initiative Web site at <a
+                  href="http://dublincore.org">http://dublincore.org/</a></p>
+</li>
+</ul>
+<h3><a id="newsbriefs" name="newsbriefs"></a>News
+              Briefs</h3>
+<ul>
+                
+<li>
+                  <strong>2000-02-16: CIMI Institute Announces
+                  three new venues for its workshop: Helping People
+                  Find What They Want: Implementing the Dublin Core
+                  in Museums</strong> 
+
+                  
+<p>This two day workshop focuses on information
+                  access and management issues in museums and
+                  cultural heritage organizations through the use
+                  of the CIMI recommendations for the Dublin Core
+                  metadata standard. This workshop is designed for
+                  museum and cultural heritage professionals,
+                  information managers, systems staff, and
+                  administrators looking for ways to better manage
+                  information resources and make them available to
+                  the broad World Wide Web audience. Technical
+                  expertise is not required.</p>
+<p>Places and Dates: [<a
+                  href="http://www.cimi.org/cimi_institute/index.html">Workshop information and registration</a>]</p>
+<blockquote>
+<p>
+
+                   March 29-30, 2000: Vancouver, BC, Canada<br />
+                   April 27-28, 2000: Amstelveen, the
+                  Netherlands<br />
+                   May 31-June 1, 2000: Minneapolis, Minnesota,
+                  USA
+</p>
+</blockquote>
+</li>
+<li>
+                  <strong>2000-03-06:</strong>
+                  <strong>DC-Education: F2F Downunder, February
+                  19-20, 2000</strong> 
+
+                  
+<p>The meeting of the DC-Education Working Group
+                  in Australia in February was a successful first
+                  venture into the realm of domain specific
+                  enhancements to the basic Dublin Core element
+                  set. Thirty participants gathered in a rustic
+                  lodge setting in the hills outside of Melbourne,
+                  Australia to extend discussions begun at DC-7 in
+                  Frankfurt, Germany. The report and
+                  recommendations from the meeting will soon be
+                  available for review and discussion. Highlights
+                  include proposals for encoding the intended
+                  audience of the resource as well as indications
+                  of conformance of the resource to formal
+                  standards. Various deployment alternatives were
+                  proposed for further discussion in the broader
+                  community. Other important discussion issues
+                  included questions of mixing and matching
+                  metadata from related sets, and how the community
+                  should address controversial topics such as
+                  measures of quality and descriptions of pedagogy.
+                  These are desirable retrieval characteristics for
+                  some communities, but are fraught with
+                  ideological judgments that complicate the
+                  creation of interoperable metadata. The report
+                  will be discussed on the <a href="http://www.mailbase.ac.uk/lists/dc-education/">DC-Education list</a>  and will be posted to DC-General in the near
+                  future.
+                  </p>
+</li>
+</ul>
+<h3 align="left"><a id="project"
+              name="project"></a>Project and Tool Updates</h3>
+<ul>
+                
+<li>
+                  <strong>2000-02-22: New Project - Australasian
+                  Virtual Engineering Library (AVEL)</strong> 
+
+                  
+<p>The <a
+                  href="http://avel.library.uq.edu.au">Australasian
+                  Virtual Engineering Library (AVEL)</a> is a
+                  gateway to quality Australasian engineering and
+                  information technology web-based resources. AVEL
+                  project documentation (including metadata schema
+                  and metadata manual) is <a href="http://avel.library.uq.edu.au/AVELdocumentation.html">available</a>.</p>
+</li>
+<li>
+                  <strong>Project Summary:</strong> Foundation
+                  Project (submitted by <a
+                  href="mailto:eileen.quam@dnr.state.mn.us">Eileen
+                  Quam</a>) 
+
+                  
+<p>The Foundations Project is a State of
+                  Minnesota multi-agency collaborative project
+                  aimed at improving public access to environmental
+                  and natural resources data and information. The
+                  focus of the Project is on developing intuitive
+                  and easy to use search tools and strategies.
+                  Staff and agency participants catalog many kinds
+                  of electronic information resources using
+                  qualified Dublin Core elements. These resources
+                  can be used to develop advanced search and
+                  retrieval techniques that integrate access to
+                  this information across agency Web sites. The
+                  search interface is called Bridges
+                  (http://bridges.state.mn.us), signifying the
+                  metaphorical spanning of information across
+                  Minnesota state agencies. Based on project
+                  research findings and using principles of
+                  information architecture, a "blueprint"
+                  specifying best practices for Minnesota state
+                  environmental agency Web sites is being created.
+                  As the Foundations Project nears completion,
+                  efforts are in place to bring the successes and
+                  blueprint to the remaining state agencies.</p>
+<p>In summary, the project is working on:</p>
+<ul>
+                    
+<li>Consumer-oriented needs for environmental
+                    information and data maintained or made
+                    available through Minnesota state agencies</li>
+<li>An approach that will provide integrated
+                    access to environmental information and data
+                    consistent with emerging technology standards,
+                    guidelines and best practices, including
+                    qualified Dublin Core, controlled vocabulary,
+                    and standardized application of metadata</li>
+<li>Evaluating the approach's effectiveness for
+                    integrated access, using external reviewers who
+                    represent a wide range of public points of
+                    view</li>
+<li>Designing, evaluating and expediting
+                    guidelines for documentation, thesaurus and
+                    metadata implementation, which promotes
+                    responsive search and retrieval procedures</li>
+<li>Providing skilled assistance to state
+                    agencies that catalog environmental
+                    information</li>
+<li>Preparing a workable blueprint to improve
+                    discovery and retrieval of environmental
+                    information resources, based on research and
+                    testing throughout the project</li>
+<li>Conducting outreach to inform key user
+                    groups and promote implementation of the
+                    blueprint throughout state government.</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+                
+<p>The Legislative Commission on Minnesota
+                Resources, Information Policy Council and the
+                Environmental Quality Board receive periodic
+                updates. Completion date for the project will be
+                June 30, 2000. For more information contact:</p>
+<p>Eileen Quam<br />
+                 Project Coordinator &amp; Metadata
+                Specialist<br />
+                 <a
+                href="mailto:eileen.quam@dnr.state.mn.us">eileen.quam@dnr.state.mn.us</a>
+                </p>
+</blockquote>
+<h3 align="left"><a id="website"
+              name="website"></a>Web Site Changes</h3>
+<ul>
+                
+<li>2000-02-29: Updated the <a
+                href="../../resources/faq/">FAQ</a></li>
+</ul>
+<p>Suggestions, article or item submissions and any
+              comments may be sent to <a
+              href="mailto:dc@oclc.org">dc@oclc.org</a>. Deadline
+              for submissions is the 20th of each month.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+      
+</div>
+    <!--#include virtual="/ssi/footer.txt"-->
+  </body>
+</html>
+

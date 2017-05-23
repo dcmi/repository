@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;">
+
+<rdf:Description rdf:about="_collection_">
+	<dc:relation rdf:resource="http://purl.org/dc/elements/1.1/"/>
+	<dc:relation rdf:resource="http://purl.org/dc/terms/"/>
+	<dc:relation rdf:resource="http://purl.org/dc/dcmitype/"/>
+</rdf:Description>
+
+</rdf:RDF>

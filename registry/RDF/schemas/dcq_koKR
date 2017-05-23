@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+     <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+     <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+     <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+     <!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+     <!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
+  ]>
+
+  <rdf:RDF 
+     xmlns:rdf="&rdfns;"
+     xmlns:rdfs="&rdfsns;"
+     xmlns:dc="&dcns;"
+     xmlns:dcterms="&dctermsns;"
+     xmlns:dctype="&dctypens;">
+
+
+  <rdf:Property rdf:about="&dctermsns;alternative">
+    <rdfs:label xml:lang="ko-KR">
+	 &#xb300;&#xccb4;&#xd45c;&#xc81c;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc790;&#xc6d0;&#xc758; &#xacf5;&#xc2dd;&#xc801;&#xc778; &#xd45c;&#xc81c;&#xb97c; 
+	 &#xb300;&#xc2e0;&#xd558;&#xb294; &#xb300;&#xccb4; &#xd45c;&#xc81c;
+	 </rdfs:comment>
+    <dc:description xml:lang="ko-KR">
+	 &#xc774; &#xd55c;&#xc815;&#xc5b4;&#xb294; &#xd45c;&#xc81c;&#xc758; &#xbc88;&#xc5ed;&#xbfd0;&#xb9cc; 
+	 &#xc544;&#xb2c8;&#xb77c; &#xd45c;&#xc81c;&#xc5d0; &#xb300;&#xd55c; &#xc57d;&#xc5b4;&#xb3c4; 
+	 &#xd3ec;&#xd568;&#xd55c;&#xb2e4;.
+	 </dc:description>
+  </rdf:Property>
+
+  
+  <dcterms:SubjectScheme rdf:about="&dctermsns;LCSH">
+    <rdfs:label xml:lang="ko-KR">
+	 LCSH
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xbbf8;&#xad6d;&#xd68c;&#xb3c4;&#xc11c;&#xad00;&#xc758; 
+	 &#xc8fc;&#xc81c;&#xba85;&#xd45c;&#xbaa9;&#xd45c;
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;LCC">
+    <rdfs:label xml:lang="ko-KR">
+	 LCC
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xbbf8;&#xad6d;&#xd68c;&#xb3c4;&#xc11c;&#xad00;&#xc758; &#xbd84;&#xb958;&#xbc95;
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;DDC">
+   <rdfs:label xml:lang="ko-KR">
+	DDC
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xb4c0;&#xc774;&#xc2ed;&#xc9c4;&#xbd84;&#xb958;&#xbc95;
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;UDC">
+    <rdfs:label xml:lang="ko-KR">
+	 UDC
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xad6d;&#xc81c;&#xc2ed;&#xc9c4;&#xbd84;&#xb958;&#xbc95;
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;MESH">
+    <rdfs:label xml:lang="ko-KR">
+	 MeSH
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc758;&#xd559;&#xc8fc;&#xc81c;&#xba85;&#xd45c;&#xbaa9;&#xd45c;
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <rdf:Property rdf:about="&dctermsns;abstract">
+    <rdfs:label xml:lang="ko-KR">
+	 &#xcd08;&#xb85d;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc790;&#xc6d0;&#xc758; &#xb0b4;&#xc6a9;&#xc5d0; &#xb300;&#xd55c; &#xc694;&#xc57d;
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;tableOfContents">
+   <rdfs:label xml:lang="ko-KR">
+	&#xbaa9;&#xcc28;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc790;&#xc6d0;&#xc758; &#xb0b4;&#xc6a9;&#xc744; &#xb098;&#xd0c0;&#xb0b4;&#xb294; 
+	 &#xd558;&#xbd80; &#xb2e8;&#xc704;&#xb4e4;&#xc758; &#xb9ac;&#xc2a4;&#xd2b8;
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;created">
+    <rdfs:label xml:lang="ko-KR">
+	 &#xc81c;&#xc791;&#xc77c;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc790;&#xc6d0;&#xc774; &#xb9cc;&#xb4e4;&#xc5b4;&#xc9c4; &#xb0a0;&#xc9dc;
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;issued">
+    <rdfs:label xml:lang="ko-KR">
+	 &#xbc1c;&#xd589;&#xc77c;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xacf5;&#xc2dd;&#xc801;&#xc778; &#xbc1c;&#xd589;&#xc77c;
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;modified">
+   <rdfs:label xml:lang="ko-KR">
+	&#xc218;&#xc815;&#xc77c;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc790;&#xc6d0;&#xc774; &#xc218;&#xc815;&#xb418;&#xc5c8;&#xb358; &#xb0a0;&#xc9dc;
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;valid">
+    <rdfs:label xml:lang="ko-KR">
+	 &#xc720;&#xd6a8;&#xc77c;&#xc790;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc790;&#xc6d0;&#xc758; &#xc720;&#xd6a8;&#xc77c;&#xc790;. &#xc885;&#xc885; 
+	 &#xae30;&#xac04;&#xc758; &#xbc94;&#xc704;&#xb85c; &#xd45c;&#xd604;&#xb428;.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;available">
+    <rdfs:label xml:lang="ko-KR">
+	 &#xc774;&#xc6a9;&#xac00;&#xb2a5;&#xc77c;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc790;&#xc6d0;&#xc744; &#xc774;&#xc6a9;&#xd560; &#xc218; &#xc788;&#xac8c; 
+	 &#xb420;(&#xd639;&#xc740; &#xb418;&#xc5c8;&#xb358;) &#xb0a0;&#xc9dc;. &#xc885;&#xc885; 
+	 &#xae30;&#xac04;&#xc758; &#xbc94;&#xc704;&#xb85c; &#xd45c;&#xd604;&#xb428;.
+	 </rdfs:comment>
+  </rdf:Property>
+
+
+  <dcterms:DateScheme rdf:about="&dctermsns;W3CDTF">
+    <rdfs:label xml:lang="ko-KR">
+	 W3C-DTF
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xb0a0;&#xc9dc;&#xc640; &#xc2dc;&#xac04;&#xc744; &#xb098;&#xd0c0;&#xb0b4;&#xae30; 
+	 &#xc704;&#xd55c; W3C&#xc758; &#xc778;&#xcf54;&#xb529; &#xaddc;&#xce59; 
+	 (ISO 8601&#xc5d0; &#xae30;&#xcd08;&#xd55c; &#xd504;&#xb85c;&#xd30c;&#xc77c;&#xc784;) 
+	 </rdfs:comment>
+  </dcterms:DateScheme>
+
+  <dcterms:DateScheme rdf:about="&dctermsns;Period">
+    <rdfs:label xml:lang="ko-KR">
+	 DCMI Period
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc2dc;&#xac04; &#xac04;&#xaca9;&#xc758; &#xbc94;&#xc704;&#xc5d0; &#xad00;&#xd55c; 
+	 &#xc0c1;&#xc138;&#xd45c; 
+	 </rdfs:comment>
+  </dcterms:DateScheme>
+
+
+  <rdf:Property rdf:about="&dctermsns;extent">
+    <rdfs:label xml:lang="ko-KR">
+	 &#xd06c;&#xae30;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc790;&#xc6d0;&#xc758; &#xd06c;&#xae30; &#xbc0f; &#xc791;&#xc5c5; &#xc2dc;&#xac04;
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;medium">
+    <rdfs:label xml:lang="ko-KR">
+	 &#xb9e4;&#xccb4;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc790;&#xc6d0;&#xc758; &#xbb3c;&#xc9c8;&#xc801; &#xbc0f; &#xbb3c;&#xb9ac;&#xc801; 
+	 &#xb9e4;&#xac1c;&#xccb4;
+	 </rdfs:comment>
+  </rdf:Property>
+
+
+  <dcterms:FormatScheme rdf:about="&dctermsns;IMT">
+   <rdfs:label xml:lang="ko-KR">
+	IMT
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc790;&#xc6d0;&#xc5d0; &#xb300;&#xd55c; &#xc778;&#xd130;&#xb137; &#xb9e4;&#xccb4;&#xc758; 
+	 &#xc720;&#xd615;(Internet media type)
+	 </rdfs:comment>
+  </dcterms:FormatScheme>
+
+
+  <dcterms:LanguageScheme rdf:about="&dctermsns;RFC1766">
+    <rdfs:label xml:lang="ko-KR">
+	 RFC 1766
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc778;&#xd130;&#xb137;&#xc758; RFC 1766&#xc740; '&#xc5b8;&#xc5b4;&#xc758; &#xc2dd;&#xbcc4;&#xc744; 
+	 &#xc704;&#xd55c; &#xd0dc;&#xadf8; &#xc9d1;&#xd569;'&#xc73c;&#xb85c;&#xc11c;, 
+	 ISO 639&#xb85c;&#xbd80;&#xd130; 2&#xbb38;&#xc790; &#xc57d;&#xc5b4; &#xcf54;&#xb4dc;&#xb97c; 
+	 &#xcde8;&#xd558;&#xc5ec; &#xba85;&#xc138;&#xd654;&#xd55c; &#xac83;&#xc774;&#xb2e4;. 
+	 &#xadf8;&#xb9ac;&#xace0; &#xc635;&#xc158;&#xc73c;&#xb85c;&#xc11c;, ISO 3166&#xc73c;&#xb85c; 
+	 &#xbd80;&#xd130; &#xad6d;&#xac00;&#xb97c; &#xb098;&#xd0c0;&#xb0b4;&#xb294; 2&#xbb38;&#xc790; 
+	 &#xc57d;&#xc5b4;&#xb97c; &#xac00;&#xc838;&#xc640;&#xc11c; &#xc0ac;&#xc6a9;&#xd560; &#xc218; 
+	 &#xc788;&#xb2e4;. 
+	 </rdfs:comment>
+  </dcterms:LanguageScheme>
+
+  <dcterms:LanguageScheme rdf:about="&dctermsns;ISO639-2">
+    <rdfs:label xml:lang="ko-KR">
+	 ISO 639-2
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 ISO 639-2&#xb294; &#xc5b8;&#xc5b4;&#xba85;&#xc744; &#xd45c;&#xc2dc;&#xd558;&#xae30; 
+	 &#xc704;&#xd55c; &#xcf54;&#xb4dc;&#xb4e4;&#xc758; &#xc9d1;&#xd569;&#xc784;.
+	 </rdfs:comment>
+  </dcterms:LanguageScheme>
+
+
+  <rdf:Property rdf:about="&dctermsns;isPartOf">
+    <rdfs:label xml:lang="ko-KR">
+	 Is Part Of
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xae30;&#xc220;&#xb418;&#xace0; &#xc788;&#xb294; &#xc790;&#xc6d0;&#xc774; 
+	 &#xbb3c;&#xb9ac;&#xc801; &#xb610;&#xb294; &#xb17c;&#xb9ac;&#xc801;&#xc73c;&#xb85c; 
+	 &#xad00;&#xb828;&#xc790;&#xb8cc;&#xc758; &#xd55c;&#xbd80;&#xbd84;&#xc784;&#xc744; 
+	 &#xc758;&#xbbf8;&#xd55c;&#xb2e4;.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasPart">
+    <rdfs:label xml:lang="ko-KR">
+	 Has Part
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xae30;&#xc220;&#xb418;&#xace0; &#xc788;&#xb294; &#xc790;&#xc6d0;&#xc774; 
+	 &#xad00;&#xb828;&#xc790;&#xb8cc;&#xb97c; &#xbb3c;&#xb9ac;&#xc801;&#xc73c;&#xb85c; 
+	 &#xb610;&#xb294; &#xb17c;&#xb9ac;&#xc801;&#xc73c;&#xb85c; &#xd3ec;&#xd568;&#xd568;&#xc744; 
+	 &#xc758;&#xbbf8;&#xd55c;&#xb2e4;.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isVersionOf">
+    <rdfs:label xml:lang="ko-KR">
+	 Is Version Of
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xae30;&#xc220;&#xb418;&#xace0; &#xc788;&#xb294; &#xc790;&#xc6d0;&#xc774; 
+	 &#xad00;&#xb828;&#xc790;&#xb8cc;&#xc758; &#xb2e4;&#xb978; &#xbc84;&#xc804;&#xc774;&#xb098; 
+	 &#xd310; &#xb610;&#xb294; &#xac1c;&#xc791;&#xbb3c;&#xc784;&#xc744; &#xb9d0;&#xd55c;&#xb2e4;. 
+	 &#xbc84;&#xc804;&#xc758; &#xbcc0;&#xd654;&#xb780; &#xb9e4;&#xccb4;&#xc640; &#xac19;&#xc740; 
+	 &#xd615;&#xc2dd;&#xc0c1;&#xc758; &#xcc28;&#xc774;&#xb77c;&#xae30;&#xbcf4;&#xb2e4;&#xb294; 
+	 &#xb0b4;&#xc6a9;&#xc5d0; &#xc788;&#xc5b4;&#xc11c;&#xc758; &#xc2e4;&#xc7ac;&#xc801;&#xc778; 
+	 &#xbcc0;&#xd654;&#xb97c; &#xc758;&#xbbf8;&#xd55c;&#xb2e4;. 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasVersion">
+    <rdfs:label xml:lang="ko-KR">
+	 Has Version
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xae30;&#xc220;&#xb418;&#xace0; &#xc788;&#xb294; &#xc790;&#xc6d0;&#xc774; &#xb2e4;&#xb978; 
+	 &#xbc84;&#xc804;&#xc774;&#xb098; &#xd310;, &#xb610;&#xb294; &#xac1c;&#xc791;&#xbb3c;&#xc744; 
+	 &#xac16;&#xace0; &#xc788;&#xc74c;&#xc744; &#xb9d0;&#xd55c;&#xb2e4;.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isFormatOf">
+    <rdfs:label xml:lang="ko-KR">
+	 Is Format Of
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xae30;&#xc220;&#xb418;&#xace0; &#xc788;&#xb294; &#xc790;&#xc6d0;&#xc774; 
+	 &#xc9c0;&#xc801;&#xc778; &#xb0b4;&#xc6a9;&#xba74;&#xc5d0;&#xc11c;&#xb294; 
+	 &#xad00;&#xb828;&#xc790;&#xb8cc;&#xc640; &#xb3d9;&#xc77c;&#xd558;&#xc9c0;&#xb9cc;, 
+	 &#xad00;&#xb828;&#xc790;&#xb8cc;&#xc640;&#xb294; &#xb610;&#xb2e4;&#xb978; 
+	 &#xd615;&#xc2dd;&#xc73c;&#xb85c; &#xc81c;&#xacf5;&#xb41c; &#xac83;&#xc784;&#xc744; 
+	 &#xc758;&#xbbf8;&#xd55c;&#xb2e4;.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasFormat">
+    <rdfs:label xml:lang="ko-KR">
+	 Has Format
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xae30;&#xc220;&#xb418;&#xace0; &#xc788;&#xb294; &#xc790;&#xc6d0;&#xc774; 
+	 &#xad00;&#xb828;&#xc790;&#xb8cc;&#xbcf4;&#xb2e4; &#xc55e;&#xc11c;&#xc11c; 
+	 &#xc874;&#xc7ac;&#xd588;&#xc74c;&#xc744; &#xc758;&#xbbf8;&#xd558;&#xb294;&#xb370;, 
+	 &#xad00;&#xb828;&#xc790;&#xb8cc;&#xb294; &#xbcf8;&#xc9c8;&#xc801;&#xc73c;&#xb85c; 
+	 &#xb3d9;&#xc77c;&#xd55c; &#xc9c0;&#xc801; &#xb0b4;&#xc6a9;&#xc774;&#xc9c0;&#xb9cc; 
+	 &#xb2e4;&#xb978; &#xd615;&#xc2dd;&#xc73c;&#xb85c; &#xc81c;&#xacf5;&#xb418;&#xc5c8;&#xc74c;&#xc744; 
+	 &#xc758;&#xbbf8;&#xd55c;&#xb2e4;.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;references">
+   <rdfs:label xml:lang="ko-KR">
+	References
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xae30;&#xc220;&#xb418;&#xace0; &#xc788;&#xb294; &#xc790;&#xc6d0;&#xc774; 
+	 &#xad00;&#xb828;&#xc790;&#xb8cc;&#xc744; &#xcc38;&#xc870;, &#xc778;&#xc6a9;&#xd558;&#xac70;&#xb098;, 
+	 &#xad00;&#xb828;&#xc790;&#xb8cc;&#xc744; &#xc9c0;&#xc2dc;&#xd568;&#xc744; 
+	 &#xc758;&#xbbf8;&#xd55c;&#xb2e4;.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isReferencedBy">
+    <rdfs:label xml:lang="ko-KR">
+	 Is Referenced By
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xae30;&#xc220;&#xb418;&#xace0; &#xc788;&#xb294; &#xc790;&#xc6d0;&#xc774; 
+	 &#xad00;&#xb828;&#xc790;&#xb8cc;&#xc5d0; &#xc758;&#xd574;&#xc11c; &#xcc38;&#xc870;, 
+	 &#xc778;&#xc6a9;&#xb418;&#xac70;&#xb098; &#xb610;&#xb294; &#xad00;&#xb828;&#xc790;&#xb8cc;&#xc5d0; 
+	 &#xc758;&#xd574; &#xc9c0;&#xc2dc;&#xb418;&#xace0; &#xc788;&#xc74c;&#xc744; 
+	 &#xc758;&#xbbf8;&#xd55c;&#xb2e4;.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;requires">
+    <rdfs:label xml:lang="ko-KR">
+	 Requires
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xae30;&#xc220;&#xb418;&#xace0; &#xc788;&#xb294; &#xc790;&#xc6d0;&#xc774; 
+	 &#xadf8; &#xae30;&#xb2a5;&#xc774;&#xb098; &#xb0b4;&#xc6a9;&#xc758; &#xc804;&#xb2ec; &#xbc0f; 
+	 &#xb0b4;&#xc6a9;&#xc758; &#xae34;&#xbc00;&#xc131;&#xc744; &#xb3d5;&#xae30; &#xc704;&#xd574;&#xc11c; 
+	 &#xad00;&#xb828;&#xc790;&#xb8cc;&#xb97c; &#xd544;&#xc694;&#xb85c; &#xd568;&#xc744; 
+	 &#xc758;&#xbbf8;&#xd55c;&#xb2e4;.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isRequiredBy">
+    <rdfs:label xml:lang="ko-KR">
+	 Is Required By
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xad00;&#xb828;&#xc790;&#xb8cc;&#xac00; &#xae30;&#xc220;&#xb418;&#xace0; &#xc788;&#xb294; 
+	 &#xc790;&#xc6d0;&#xc744; &#xbb3c;&#xb9ac;&#xc801;&#xc73c;&#xb85c;&#xb098; 
+	 &#xb17c;&#xb9ac;&#xc801;&#xc73c;&#xb85c; &#xd544;&#xc694;&#xb85c;&#xd568;&#xc744; 
+	 &#xc758;&#xbbf8;&#xd55c;&#xb2e4;.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;replaces">
+    <rdfs:label xml:lang="ko-KR">
+	 Replaces
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xae30;&#xc220;&#xb418;&#xace0; &#xc788;&#xb294; &#xc790;&#xc6d0;&#xc774; 
+	 &#xad00;&#xb828;&#xc790;&#xb8cc;&#xb97c; &#xb300;&#xccb4;&#xd568;&#xc744; 
+	 &#xc758;&#xbbf8;&#xd55c;&#xb2e4;.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isReplacedBy">
+    <rdfs:label xml:lang="ko-KR">
+	 Is Replaced By
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xae30;&#xc220;&#xb418;&#xace0; &#xc788;&#xb294; &#xc790;&#xc6d0;&#xc774; 
+	 &#xad00;&#xb828;&#xc790;&#xb8cc;&#xc5d0; &#xc758;&#xd574; &#xb300;&#xccb4;&#xb428;&#xc744; 
+	 &#xc758;&#xbbf8;&#xd55c;&#xb2e4;.
+	 </rdfs:comment>
+  </rdf:Property>
+
+ 
+  <rdf:Property rdf:about="&dctermsns;spatial">
+    <rdfs:label xml:lang="ko-KR">
+	 &#xacf5;&#xac04;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc9c0;&#xc801;&#xc778; &#xb0b4;&#xc6a9;&#xc0c1;&#xc758; &#xacf5;&#xac04;&#xc801; &#xd2b9;&#xc131;
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;temporal">
+   <rdfs:label xml:lang="ko-KR">
+	&#xc2dc;&#xac04;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc9c0;&#xc801;&#xc778; &#xb0b4;&#xc6a9;&#xc0c1;&#xc758; &#xc2dc;&#xac04;&#xc801; &#xd2b9;&#xc131;
+	 </rdfs:comment>
+  </rdf:Property>
+
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;TGN">
+    <rdfs:label xml:lang="ko-KR">
+	 TGN
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc9c0;&#xb9ac;&#xba85; &#xc2dc;&#xc18c;&#xb7ec;&#xc2a4;
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;ISO3166">
+    <rdfs:label xml:lang="ko-KR">
+	 ISO 3166
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 ISO 3166 &#xc740; &#xad6d;&#xac00;&#xba85;&#xc758; &#xd45c;&#xd604;&#xc744; 
+	 &#xc704;&#xd55c; &#xcf54;&#xb4dc;&#xc9d1;&#xd569;&#xc774;&#xb2e4;.
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;Box">
+   <rdfs:label xml:lang="ko-KR">
+	DCMI Box
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 DCMI Box&#xb294; &#xc9c0;&#xb9ac;&#xc801; &#xad6c;&#xd68d;&#xc744; &#xc774;&#xc6a9;&#xd558;&#xc5ec; 
+	 &#xacf5;&#xac04;&#xc0c1;&#xc758; &#xc9c0;&#xc5ed;&#xc744; &#xc2dd;&#xbcc4;&#xd55c;&#xb2e4;.
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;Point">
+    <rdfs:label xml:lang="ko-KR">
+	 DCMI Point
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 DCMI Piont&#xb294; &#xc9c0;&#xb9ac;&#xc801; &#xc88c;&#xd45c;&#xb97c; 
+	 &#xc0ac;&#xc6a9;&#xd558;&#xc5ec; &#xacf5;&#xac04;&#xc0c1;&#xc758; &#xc9c0;&#xc810;&#xc744; 
+	 &#xc2dd;&#xbcc4;&#xd55c;&#xb2e4;.
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  
+  <dcterms:TypeScheme rdf:about="&dctermsns;DCMIType">
+    <rdfs:label xml:lang="ko-KR">
+	 DCMI&#xc758; &#xc720;&#xd615; &#xc5b4;&#xd718;&#xc9d1;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc790;&#xc6d0;&#xc758; &#xb0b4;&#xc6a9;&#xc758; &#xd2b9;&#xc131; &#xbc0f; 
+	 &#xc7a5;&#xb974;&#xb97c; &#xbc94;&#xc8fc;&#xd654;&#xd558;&#xb294; &#xb370; 
+	 &#xc0ac;&#xc6a9;&#xb418;&#xb294; &#xc720;&#xd615;&#xb4e4;&#xc758; &#xb9ac;&#xc2a4;&#xd2b8;
+	 </rdfs:comment>
+  </dcterms:TypeScheme> 
+
+  <dcterms:IdentifierScheme rdf:about="&dctermsns;URI">
+   <rdfs:label xml:lang="ko-KR">
+	URI
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ko-KR">
+	 &#xc790;&#xc6d0;&#xc5d0; &#xb300;&#xd55c; &#xc77c;&#xc815;&#xd55c;(&#xbd88;&#xbcc0;&#xc758;) 
+	 &#xc2dd;&#xbcc4;&#xc790; 
+	 </rdfs:comment>
+  </dcterms:IdentifierScheme>
+
+</rdf:RDF> 
+

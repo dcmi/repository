@@ -1,0 +1,1435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<title>Directory of Faculty and Staff | National Institute of Informatics</title>
+<meta name="description" content="The NII applies a long-term perspective to a broad range of R&D, from the basics to applications in informationrelated fields (networks, software, multimedia, etc.).At the same time, the NII seeks a comprehensive approach to progress in informatics research by working closely with universities, national research institutes, and private research institutions.">
+<meta name="keywords" content="research,information,project,researcher,teacher,graduate school,network,software,multimedia,education">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<script language="Javascript" src="/js/switch.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/main.css" media="all">
+</head>
+<body>
+<noscript><h1>This page requires JavaScript. Please enable JavaScript in your browser and reload this page.</h1></noscript>
+
+<div class="outer">
+<div class="head">
+
+ <!-- header -->
+  <!--<table width="780" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td bgcolor="#999999">
+			<img src="/images/spacer.gif" width="1" height="69" border="0" alt=""><br>
+		</td>
+		<td bgcolor="#ffffff">
+-->
+			<table width="778" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+				<td>
+					<img src="/images/spacer.gif" width="10" height="1" border="0" alt=""><br>
+				</td>
+				<td>
+					<h1><a href="/"><img src="/images/e/common/e_logo.gif" width="200" height="60" border="0" alt="National Institute of Informatics"></a></h1>
+					<img src="/images/spacer.gif" width="540" height="1" border="0" alt=""><br>
+				</td>
+				<td>
+					<table cellspacing="0" cellpadding="0" border="0">
+						<tr>
+							<td>
+								<img src="/images/spacer.gif" width="5" height="1" border="0" alt=""><br>
+							</td>
+							<td>
+								<a href="/other/sitemap.shtml"><img src="/images/e/common/e_sitemap.gif" width="57" height="19" border="0" alt="Site Map"></a><br>
+							</td>
+							<td>
+								<img src="/images/spacer.gif" width="15" height="1" border="0" alt=""><br>
+							</td>
+							<td>
+								<a href="/contact/contact.shtml"><img src="/images/e/common/e_inquiry.gif" width="51" height="19" border="0" alt="Contact"></a><br>
+							</td>
+							<td>
+								<img src="/images/spacer.gif" width="15" height="1" border="0" alt=""><br>
+							</td>
+							<td>
+							<script type="text/javascript">
+      			   <!--
+ 				       document.write('<a href="javascript:cHtml(\'j\');"><img src="/images/common/japanese.gif" width="67" height="19" border="0" alt="Japanese" /></a><br />');
+ 				       //-->
+ 			        </script>
+ 			        <noscript>
+   				       <a href="/"><img src="/images/common/japanese.gif" width="67" height="19" border="0" alt="English" /></a><br />
+    			     </noscript>
+							</td>
+						</tr>
+					</table>
+					<img src="/images/spacer.gif" width="2" height="5" border="0" alt=""><br>
+					<table cellspacing="0" cellpadding="0" border="0">
+						<tr>
+							<form action="http://websearch.nii.ac.jp/webindex/search" method="post">
+								<td valign="top">
+									<img src="/images/spacer.gif" width="2" height="3" border="0" alt=""><br>
+									<img src="/images/common/i_search.gif" width="20" height="20" border="0" alt=""><br>
+							</td>
+							<td>
+									<img src="/images/spacer.gif" width="5" height="1" border="0" alt=""><br>
+							</td>
+							<td>
+								<input type="hidden" name="ACTION" value="SEARCH">
+								<input type="hidden" name="FROM" value="1">
+								<input type="hidden" name="TO" value="10">
+								<input type="hidden" name="RGN" value="OTData">
+								<input type="hidden" name="WEIGHT" value="1">
+								<input type="hidden" name="MODE" value="OR">
+								<input type="hidden" name="SIZE" value="10">
+								<input type="hidden" name="INCLURL" value="NII PAGES::-wwwsoc.nii.ac.jp::-www.soc.nii.ac.jp::+nii.ac.jp">
+								<input name="QUERYS" type="text" id="QUERYS" style="width:120px;"><br>
+							</td>
+							<td>
+								<img src="/images/spacer.gif" width="5" height="1" border="0" alt=""><br>
+							</td>
+							<td>
+								<input type="submit" name="Submit" value="Search" style="width:60px;"><br>
+							</td>
+						</tr>
+					</form>
+				</table>
+				<img src="/images/spacer.gif" width="228" height="1" border="0" alt=""><br>
+			</td>
+		</tr>
+	</table>
+
+<!--
+		<img src="/images/spacer.gif" width="778" height="1" border="0" alt=""><br>
+	</td>
+	<td bgcolor="#999999">
+	<img src="/images/spacer.gif" width="1" height="1" border="0" alt=""><br>
+	</td>
+	</tr>
+	</table>
+-->
+
+<!-- NAVI -->
+	<link REL="stylesheet" type="text/css" HREF="/css/navi6.css">
+ <DIV id="navimenu">
+  <ol class="navimain">
+
+ <li class="on01">
+  <a href="/index.shtml.en">
+  <img src="/images/spacer.gif" width="56" height="22" border="0" alt="TOP"></a>
+ </li>
+
+ <li class="off02" onmouseover="this.className='on02'" onmouseout="this.className='off02'">
+  <A href="/research/project.shtml">
+  <img src="/images/spacer.gif" width="102" height="22" border="0" alt="RESEARCH"></a>
+  <ol class="sub">
+	<li><a href="/research/project.shtml">PROJECT</a></li>
+	<li><a href="/staff/members.shtml">Directory of Faculty and Staff</a></li>
+	<li><a href="/staff/org.shtml">Current Research Topics of Research Staff</a></li>
+	<li><a href="/research/shisetsu.shtml">Research Center </a></li>
+	<li><a href="/research/koubo.shtml">Career Opportunities at NII</a></li>
+	<li><a href="/research/activity.shtml">International Activities</a></li>
+	</ol>  
+</li>
+
+<li class="off03" onmouseover="this.className='on03'" onmouseout="this.className='off03'">
+<A href="/services/service.shtml">
+<img src="/images/spacer.gif" width="101" height="22" border="0" alt="SERVICES"></a>
+  <ol class="sub">
+	<li>SERVICES&#9654;</li>
+	<li><a href="/services/service.shtml#01">GeNii</a></li>
+	<li><a href="/services/service.shtml#02">NII-REO</a></li>
+	<li><a href="/services/service.shtml#03">Webcat</a></li>
+	<li><a href="/services/service.shtml#04">Provide informarion for Japanese Academic societies</a></li>
+	<hr />
+	<li>Scholary Communication Infrastructure Operation&#9654;</li>
+	<li><a href="/services/service.shtml#05">Science Information Network Operation</a></li>
+	<li><a href="/services/service.shtml#06">Academic content Operation</a></li>
+	<li><a href="/services/service.shtml#07">IT Human Resources Development Operation</a></li>
+	<hr />
+	<li><a href="/syskan/maintenance.html" target="_blank">System Maintenance (in Japanese)</a>
+	<li><a href="/syskan/mokuroku/" target="_blank">NACSIS-CAT/ILL (in Japanese)</a>
+	<li><a href="http://www.sinet.ad.jp/inform/trouble/" target="_blank">SINET3(in Japanese)</a>
+	<li><a href="/contact/contact.shtml">Contact Us</a>
+  </ol>  
+</li>
+
+<li class="off04" onmouseover="this.className='on04'" onmouseout="this.className='off04'">
+<A href="/education/graduate.shtml">
+<img src="/images/spacer.gif" width="114" height="22" border="0" alt="EDUCATION"></a>
+  <ol class="sub">
+	<li><A href="/graduate/index_e.html">Department of Informatics, The Graduate University for Advanced Studies</A></li>
+	<li><A href="/education/renkei.shtml">Cooperation with Graduate Universities</A></li>
+	<li><A href="/education/kenkyuin.shtml">Special Collaboration with Research Students</A></li>
+  </ol>  
+</li>
+<li class="off05" onmouseover="this.className='on05'" onmouseout="this.className='off05'">
+<A href="/results/pr_data/leaflet.shtml">
+<img src="/images/spacer.gif" width="91" height="22" border="0" alt="RESULTS"></a>
+  <ol class="sub">
+	<li><a href="/results/pr_data/leaflet.shtml">Outline: National Institute of Informatics</a></li>
+	<li><a href="/results/pr_data/nii-today.shtml">NII Today</a></li>
+	<li><a href="/results/pr_data/nii-pub.shtml">National Institute of Informatics News</a></li>
+	<li><a href="/results/pr_data/nii-yoran.shtml">Catalogue: National Institute of Informatics</a></li>
+	<li><a href="/results/pr_data/nii-nenpou.shtml">Yearly Report: NII(in Japanese)</a></li>
+	<li><a href="/publications/gaibuhyouka/91051277.pdf">gaibuhyouka</a></li>
+	<li><a href="/karuizawa/harmony.html">Karuizawa Doyo-Konwakai Koenshu</a></li>
+	<li><a href="/introduce/pr_video.shtml">Mission of National Institute of Infomatics</a></li>
+	<li><a href="/books/maruzen-lib/index.shtml">NII series</a></li>
+	<li><a href="/books/info-series/index.html">Informatics series</a></li>
+	<li><a href="/nii-works/">Research Results(in Japanese)</a></li>
+	<li><a href="/pi/">Progress in Informatics</a></li>
+	<li><a href="http://research.nii.ac.jp/TechReports/index.html">NII Technical Reports</a></li>
+	<li><a href="/results/research_results/report.shtml">Research Results</a></li>
+	<li><a href="/video/ez_contents/">Streaming Presentation</a></li>
+	<li><a href="/results/reference/guide.shtml">Manuals</a></li>
+	<li><a href="/CAT-ILL/contents-e/e_home.html">NACSIS-CAT/ILL</a></li>
+	<li><a href="/results/reference/text.shtml">Seminar Textbooks</a></li>
+	<li><a href="/results/reference/video.shtml">Video Tapes</a></li>
+	<li class="off2" onmouseover="this.className='on2'" onmouseout="this.className='off2'">
+	  others&#9654;
+	  <ol class="sub-2">
+	  <li><a href="/journal/">NII Journal</a></li>
+	  <li><a href="/journal/bulletin.html">Research Bulletin of the National Center for Science Information Systems</a></li>
+	  </ol>
+	</li>
+  </ol>  
+</li>
+
+<li class="off06" onmouseover="this.className='on06'" onmouseout="this.className='off06'">
+<A href="/news/">
+<img src="/images/spacer.gif" width="88" height="22" border="0" alt="NEWS"></a>
+  <ol class="sub">
+	<li><a href="/news/press/">Press Release</a></li>
+	<li><a href="/news/award/">Award</a></li>
+	<li><a href="/news/service/">Service</a></li>
+	<li><a href="/news/others/">Others</a></li>
+  </ol>  
+</li>
+
+<li class="off07" onmouseover="this.className='on07'" onmouseout="this.className='off07'">
+<A href="/event/">
+<img src="/images/spacer.gif" width="88" height="22" border="0" alt="EVENT"></a>
+  <ol class="sub">
+	<li><A href="/event/2007/">Event Top</A></li>
+	<li><A href="/karuizawa/">Karuizawa Saturday Salon(in Japanese)</A></li>
+	<li><A href="/shimin/index.shtml">NII Public Lectures</A></li>
+	<li><A href="/openforum/">NII Open Forum on Informatics</A></li>
+	<li><A href="/openhouse/archive.shtml">NII Open House</A></li>
+	<li><A href="/hrd/en/index-e.html">Education and Training</A></li>
+	<li><A href="/symp/index-e.html">NII Open Lecture</A></li>
+	<li><A href="/intsympo/index.html">International Symposium</A></li>
+  </ol>  
+</li>
+<li class="off08" onmouseover="this.className='on08'" onmouseout="this.className='off08'">
+<A href="/introduce/point.shtml">
+<img src="/images/spacer.gif" width="114" height="22" border="0" alt="ABOUT NII"></a>
+  <ol class="sub">
+	<li><a href="/introduce/point.shtml">Major Features of the NII</a></li>
+	<li><a href="/introduce/greeting.shtml">Greeting from the Director General</A></li>
+	<li><a href="/introduce/history.shtml">History</a></li>
+	<li><a href="/introduce/outline.shtml">Outline</a></li>
+	<li><a href="/introduce/kenkyukyoryoku.shtml">Research Cooperation / Intellectual Properties</a></li>
+	<li><a href="/introduce/yosan.shtml">Staff / Budget</a></li>
+	<li><a href="/introduce/pr_video.shtml">Mission of National Institute of Informatics(Video)</a></li>
+	<li><a href="/kouhou/library/open_top.html">National Institute of Informatics Library</a></li>
+	<li><a href="/introduce/seminar1.shtml">Internatinal Seminar House for Advanced Studie</a></li>
+	<li><a href="/openhouse/h18/archive/index.shtml">NII Open House Archive</a></li>
+	<li><a href="/introduce/organization.shtml">Organization</a></li>
+	<li><a href="/introduce/access1.shtml">Access</a></li>
+  </ol>  
+</li>
+<li class="off09">
+<img src="/images/common/navi_amari.gif" width="26" height="22" border="0" alt="amari"><br>
+</li>
+
+
+</ol>
+</div>
+
+<!-- /NAVI/ -->
+ <!-- /header/ -->
+
+ <STYLE type="text/css">
+<!--
+.navimain li.off02{
+ background-image:URL(/images/e/common/e_navi_02on.gif) !important ;
+ width:102px; /*RESEARCH*/
+}
+-->
+ </style>
+
+ <a name="pagetop"></a>
+</div>
+<div class="main">
+	<img src="/images/spacer.gif" width="1" height="10" border="0" alt=""><br>
+	<!-- MAIN -->
+	<h2><img src="./images/e/e_rese_02_t.gif" width="549" height="28" border="0" alt="Directory of Faculty and Staff"></h2>
+	<img src="/images/spacer.gif" width="1" height="10" border="0" alt=""><br>
+	<!-- 見出し -->
+	<table width="549" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		<td background="./images/rese_m.gif">
+			<table width="549" cellspacing="0" cellpadding="0" border="0">
+				<tr>
+				<td width="10">
+					<img src="images/spacer.gif" width="10" height="25" border="0" alt=""><br>
+				</td>
+				<td class="text3" width="329">
+					<font color="#ffffff"><strong>Research Organization</strong></font>
+				</td>
+				<td class="text2" width="200" align="right">
+				</td>
+				<td width="10">
+					<img src="images/spacer.gif" width="10" height="1" border="0" alt=""><br>
+				</td>
+				</tr>
+			</table>
+		</td>
+		</tr>
+	</table>
+	<!-- /見出し/ -->
+	<img src="/images/spacer.gif" width="1" height="10" border="0" alt=""><br>
+	<!-- メインコンテンツ -->
+	<div class="text2">
+	<table cellpadding="10" cellspacing="0" border="0" width="549">
+		<tr>
+		<td>
+			<table cellpadding="0" cellspacing="0" border="0" width="529">
+				<tr>
+				    <td width="109" rowspan="2" valign="top" nowrap class="text3">
+					<font color="#6699CC"><b>Research system</b></font></td>
+					<td width="420" class="text2">
+										<font color="#666666">|</font> <a href="org_1.shtml">Principles of Informatics Research Division</a> 
+					<font color="#666666">|</font>
+					<br>
+										<font color="#666666">|</font> <a href="org_2.shtml">Information Systems Architecture Research Division</a> 
+					<font color="#666666">|</font>
+					<br>
+										<font color="#666666">|</font> <a href="org_3.shtml">Digital Content and Media Sciences Research Division</a> 
+					<font color="#666666">|</font>
+					<br>
+										<font color="#666666">|</font> <a href="org_4.shtml">Information and Society Research Division</a> 
+					<font color="#666666">|</font>
+					<br>
+										<font color="#666666">|</font> <a href="org_5.shtml">&nbsp;</a> 
+					<font color="#666666">|</font>
+					<br>
+										</td>
+				</tr>
+			</table>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<hr style="1px dotted #666666;">
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<table cellpadding="0" cellspacing="0" border="0" width="529">
+				<tr>
+					<td valign="top" nowrap class="text3" width="170">
+					<font color="#6699CC"><b>Research establishment</b></font></td>
+					<td class="text2" align="left">
+										<font color="#666666">|</font> <a href="equip_1.shtml">Center for Grid Research and Development</a> 				
+					<font color="#666666">|</font><br>
+										<font color="#666666">|</font> <a href="equip_2.shtml">Research and Development Center for Informatics of Associati</a> 				
+					<font color="#666666">|</font><br>
+										<font color="#666666">|</font> <a href="equip_3.shtml">Strategic Research Projects Incubation Center</a> 				
+					<font color="#666666">|</font><br>
+										<font color="#666666">|</font> <a href="equip_4.shtml">Research and Development Center</a> 				
+					<font color="#666666">|</font><br>
+										<font color="#666666">|</font> <a href="equip_5.shtml">Research and Development Center for Scientific Information R</a> 				
+					<font color="#666666">|</font><br>
+										</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+	<hr style="1px solid #00000; ">
+	<table cellpadding="10" cellspacing="0" border="0" width="549">
+		<tr>
+		<td>
+			<table cellpadding="10" cellspacing="0" border="0" width="529">
+								<tr>
+				<td>
+					<table cellpadding="5" cellspacing="1" border="0" width="100%">
+						<tr>
+						<td align="center" bgcolor="#cc9966" class="text2" width="25%">
+							<font color="#FFFFFF"><b>Name</b></font>
+						</td>
+						<td align="center" bgcolor="#CC9966" class="text2" width="30%">
+							<font color="#FFFFFF"><b>Position</b></font>
+						</td>
+						<td align="center" bgcolor="#CC9966" class="text2" width="45%"><font color="#FFFFFF"><b>Specialities</b></font>
+						</td>
+						</tr>
+																<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Aizawa_Akiko.shtml">Aizawa Akiko</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Identification and linkage of text information<br><FONT color=#cc6699>●</FONT>Analysis of textual data using statistical methods<br><FONT color=#cc6699>●</FONT>Automatic construction of linguistic resources<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Aida_Kento.shtml">Aida Kento</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Parallel computing<br><FONT color=#cc6699>●</FONT>Grid computing<br><FONT color=#cc6699>●</FONT>Scheduling
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Aihara_Kenro.shtml">Aihara Kenro</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Computer supported lifelong learning by using digital archives about historical and artistic objects<br><FONT color=#cc6699>●</FONT>Integration of user's context in real- and virtual World
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Asano_Shoichiro.shtml">Asano Shoichiro</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Integrated control technologies for next-generation all-optical networks<br><FONT color=#cc6699>●</FONT>Survival of network operation against natural calamities
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Adachi_Jun.shtml">Adachi Jun</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Information retrieval and integration of heterogeneous data<br><FONT color=#cc6699>●</FONT>Modeling and implementation of high-performance information retrieval systems<br><FONT color=#cc6699>●</FONT>Text mining<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Abe_Shunji.shtml">Abe Shunji</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Researches on performance analysis based on communication traffic measurement and QoS control method<br><FONT color=#cc6699>●</FONT>Researches on photonic network architecture<br><FONT color=#cc6699>●</FONT>Researches on mobile IP communication<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Arai_Noriko.shtml">Arai Noriko</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Designing collaborative learning environment<br><FONT color=#cc6699>●</FONT>Knowledge sharing, distance learning<br><FONT color=#cc6699>●</FONT>Mathematical logic<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Andres_Frederic.shtml">Andres Frederic</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Multilingual multimedia semantic management<br><FONT color=#cc6699>●</FONT>Geomedia Database Management<br><FONT color=#cc6699>●</FONT>Image learning ontology<br><FONT color=#cc6699>●</FONT>Semantic tracking computing
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Ishikawa_Fuyuki.shtml">Ishikawa Fuyuki</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Assistant Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Software Infrastructure for Contract-based Composition, Distribution, Provision, and Consumption of Digital Content and Services<br><FONT color=#cc6699>●</FONT>Service-Oriented Computing<br><FONT color=#cc6699>●</FONT>Formal Methods
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="ICHISE_Ryutaro.shtml">ICHISE Ryutaro</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Machine learning<br><FONT color=#cc6699>●</FONT>Knowledge sharing<br><FONT color=#cc6699>●</FONT>Data mining<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Inamura_Tetsunari.shtml">Inamura Tetsunari</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Human robot interaction<br><FONT color=#cc6699>●</FONT>Synthetic study of robot intelligence based on stochastic information processing<br><FONT color=#cc6699>●</FONT>Intelligent information processing based on embodiment of robots
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Inoue_Katsumi.shtml">Inoue Katsumi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Inference and Knowledge Representation<br><FONT color=#cc6699>●</FONT>Hypothesis-finding based on Induction and Abduction<br><FONT color=#cc6699>●</FONT>Knowledge Discovery for Systems Biology
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Inoue_Masashi.shtml">Inoue Masashi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Assistant Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Utilization of multiple information soruces<br><FONT color=#cc6699>●</FONT>Multimodal communication understanding
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Ueki_Kouichirou.shtml">Ueki Kouichirou</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Assistant Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Development of the next generation information system<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Ueda_Masashi.shtml">Ueda Masashi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Assistant Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Network policy for broadband society<br><FONT color=#cc6699>●</FONT>Social and economic analysis of open source software<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Utsunomiya_Shoko.shtml">Utsunomiya Shoko</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Assistant Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Quantum simulation using optical semiconductors<br><FONT color=#cc6699>●</FONT>Quantum solid state physics in optical semiconductors
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="UNO_Takeaki.shtml">UNO Takeaki</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Efficient and practical fast algorithms for solving large scale problems arising from data mining and genome sciences<br><FONT color=#cc6699>●</FONT>Theory of Complexity on Discrete algorithms and enumeration algorithms<br><FONT color=#cc6699>●</FONT>Practical efficient computational models and algorithms for industrial engineering such as scheduling， logistics， and vehicle routing problems
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Urushidani_Shigeo.shtml">Urushidani Shigeo</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Dynamic resource optimization technologies for multi-layer networks<br><FONT color=#cc6699>●</FONT>Universal switching system architecture<br><br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Echizen_Isao.shtml">Echizen Isao</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Technologies and systems for multimedia content security<br><FONT color=#cc6699>●</FONT>Integrity of multimedia content<br><FONT color=#cc6699>●</FONT>Information hiding
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Ohmukai_Ikki.shtml">Ohmukai Ikki</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Assistant Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Personal communication and interation in semantic Web environment<br><FONT color=#cc6699>●</FONT>Information sharing and distribution based on personal network<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="OYAMA_Keizo.shtml">OYAMA Keizo</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Research on techniques for utilizing web information<br><FONT color=#cc6699>●</FONT>Research on an integrated platform for scholarly information services<br><FONT color=#cc6699>●</FONT>Research on full text search technology<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="OKADA_HITOSHI.shtml">OKADA HITOSHI</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Research on Critical Growth Factors of E-Commerce and E-Money<br><FONT color=#cc6699>●</FONT>Research on University Information Security Policy Portal (UISPP)
+						</td>
+						</tr>
+																					<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Kakinuma_Sumio.shtml">Kakinuma Sumio</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Science and technology policy studies<br><FONT color=#cc6699>●</FONT>Scientometrics<br><FONT color=#cc6699>●</FONT>Sociology of Science
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="KATAYAMA_Norio.shtml">KATAYAMA Norio</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Data Management Technology for Video Corpus Analysis<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="KATO_Hiroyuki.shtml">KATO Hiroyuki</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Assistant Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Optimization for casual queries to database<br><FONT color=#cc6699>●</FONT>Fundamental issues on optimizing queries to XML databases<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Kanazawa_Makoto.shtml">Kanazawa Makoto</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Lambda calculus and formal grammar<br><FONT color=#cc6699>●</FONT>Logical semantics of natural language
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Kawarabayashi_Ken'ichi.shtml">Kawarabayashi Ken'ichi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Graph coloring problems in discrete math<br><FONT color=#cc6699>●</FONT>Structural graph theory and its applications to algorithms<br><FONT color=#cc6699>●</FONT>Network flow and disjoint paths problem
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Kando_Noriko.shtml">Kando Noriko</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Evaluation of information access technologies<br><FONT color=#cc6699>●</FONT>Text structure and genre analysis<br><FONT color=#cc6699>●</FONT>Multi-faceted metadata and search user interface<br><FONT color=#cc6699>●</FONT>Cross-lingual information retrieval<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="KITAMOTO_Asanobu.shtml">KITAMOTO Asanobu</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Data mining from large-scale scientific image databases<br><FONT color=#cc6699>●</FONT>Meteoinformatics<br><FONT color=#cc6699>●</FONT>Digital archives<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Kuma_Keiichi.shtml">Kuma Keiichi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Comparative genome analysis based on molecular evolutionary approach
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Ji_Yusheng.shtml">Ji Yusheng</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Research on quality of service provisioning in multi-service networks<br><FONT color=#cc6699>●</FONT>Research on characterization and control of network traffic<br><FONT color=#cc6699>●</FONT>Research on resource management in distributed systems<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Hu_Zhenjiang.shtml">Hu Zhenjiang</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Principle of Programming: Functional Programming, Programming Algebras<br><FONT color=#cc6699>●</FONT>Software Engineering: Dependable Software Construction, Bidirectional Model Transformation<br><FONT color=#cc6699>●</FONT>Parallel Programming: Skeletal Parallel Programming, Automatic Parallelization
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Koibuchi_Michihiro.shtml">Koibuchi Michihiro</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Assistant Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Computer system networks<br><FONT color=#cc6699>●</FONT>On-chip multiprocessor networks<br><FONT color=#cc6699>●</FONT>Large-scale high-performance computing systems<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Koga_Takashi.shtml">Koga Takashi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Assistant Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Legal, institutional and policy research concerning access to government information<br><FONT color=#cc6699>●</FONT>Interdisciplinary research on recordkeeping and archival issues<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Kodama_Kazuya.shtml">Kodama Kazuya</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>A study on structure of multi-dimensional image information and communication systems of distributed shared image environment with real-time quality control<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Kobayashi_Tetsuro.shtml">Kobayashi Tetsuro</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Assistant Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Social and political consequences of ICT use<br><FONT color=#cc6699>●</FONT>Social network and human communication<br><FONT color=#cc6699>●</FONT>Social capital theory
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="KOYAMA_Teruo.shtml">KOYAMA Teruo</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Term extraction from text corpora<br><FONT color=#cc6699>●</FONT>Structurization of terms<br><FONT color=#cc6699>●</FONT>Structural analysis of terms<br><FONT color=#cc6699>●</FONT>Knowledge representation and use<br><br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="COLLIER_Nigel.shtml">COLLIER Nigel</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Text Mining<br><FONT color=#cc6699>●</FONT>Natural Language Processing<br><FONT color=#cc6699>●</FONT>Ontology Engineering
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="GOTODA_Hironobu.shtml">GOTODA Hironobu</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Similarity search for 3D models<br><FONT color=#cc6699>●</FONT>Visualizing citation links among research papers<br>
+						</td>
+						</tr>
+																					<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="SAKAUCHI_Masao.shtml">SAKAUCHI Masao</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Director General
+						</td>
+						<td valign="top" class="text2">
+							
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Satoh_Ken.shtml">Satoh Ken</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Construction of multiagent systems with speculative computation<br><FONT color=#cc6699>●</FONT>Applications of AI to Legal Reasoning
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Satoh_Hiroko.shtml">Satoh Hiroko</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Chemoinformatics<br><FONT color=#cc6699>●</FONT>Computer chemistry<br><FONT color=#cc6699>●</FONT>Molecular modelling<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Satoh_Ichiro.shtml">Satoh Ichiro</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Middleware for ubiquitous, mobile and distributed computing<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Satoh_Shin'ichi.shtml">Satoh Shin'ichi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>A Study on video analysis, retrieval, and knowledge discovery based on broadcast video archives<br><FONT color=#cc6699>●</FONT>A study on image retrieval<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Sato_Imari.shtml">Sato Imari</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Physics-based object shape and reflectance modeling<br><FONT color=#cc6699>●</FONT>Creating spatially immersive displays for human computer interaction<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="SHIBAYAMA_Morio.shtml">SHIBAYAMA Morio</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Metrical analysis of research trends and research evaluation<br><FONT color=#cc6699>●</FONT>Statistical study on change of research environment<br><FONT color=#cc6699>●</FONT>Study on indentification of creativity in research activities<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Sugimoto_Akihiro.shtml">Sugimoto Akihiro</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Sensing and understanding human activities in our daily life<br><FONT color=#cc6699>●</FONT>Automatic modeling of 3D objects<br><FONT color=#cc6699>●</FONT>Computer vision under the existence of digitization errors<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Sonehara_Noboru.shtml">Sonehara Noboru</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Digital commerce (dCommerce) system<br><FONT color=#cc6699>●</FONT>Intellectual property rights lifecycle management system<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Sun_Yuan.shtml">Sun Yuan</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Bibliometric research on university-industry-government relations<br><FONT color=#cc6699>●</FONT>Structure analysis on network of informatics related research<br><FONT color=#cc6699>●</FONT>DIF research in Japanese achievement testing<br>
+						</td>
+						</tr>
+																					<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Takasu_Atsuhiro.shtml">Takasu Atsuhiro</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Data mining and text mining<br><FONT color=#cc6699>●</FONT>Information extraction from document stream<br><FONT color=#cc6699>●</FONT>Distributed index processing
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Takano_Akihiko.shtml">Takano Akihiko</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Informatics of Association<br><FONT color=#cc6699>●</FONT>Algebra of Programming
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Takeda_Hideaki.shtml">Takeda Hideaki</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Knowledge sharing system<br><FONT color=#cc6699>●</FONT>Community support system<br><FONT color=#cc6699>●</FONT>Design theory
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="TATSUTA_Makoto.shtml">TATSUTA Makoto</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Type theory for classical logic<br><FONT color=#cc6699>●</FONT>Strong normalization of permutative conversions<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Tohkura_Yohichi.shtml">Tohkura Yohichi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Deputy Director General
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Relationships between ICT (Information and Communication Technology) and humans<br><FONT color=#cc6699>●</FONT>Science and technology for the society<br><FONT color=#cc6699>●</FONT>Transdisciplinary study on human information processing
+						</td>
+						</tr>
+																					<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="NAKAJIMA_Shin.shtml">NAKAJIMA Shin</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Formal Methods for Use in Industry, Software Model-Checking
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Nakamura_Motonori.shtml">Nakamura Motonori</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Network Communication Systems<br><FONT color=#cc6699>●</FONT>Security/Authentication Technologies<br><FONT color=#cc6699>●</FONT>Network Operations and Administrations
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Nishioka_Shingo.shtml">Nishioka Shingo</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Research on Scalable Association for Huge Corpus Access<br><FONT color=#cc6699>●</FONT>Interactive methods in information space based on association
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="NISHIZAWA_Masaki.shtml">NISHIZAWA Masaki</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Investigation study on network structure of information sciences related research and its trends<br><FONT color=#cc6699>●</FONT>Empirical analyses on the role of Grants-in-Aid for Scientific Research for promotion of basic research<br><FONT color=#cc6699>●</FONT>Empirical analyses on network for industrial-government-university cooperation in Japan<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="NEGISHI_Masamitsu.shtml">NEGISHI Masamitsu</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Research on trends in technology and businesses for databases, electronic libraries and e-journals with the current developments of information and telecommunication technologies<br><FONT color=#cc6699>●</FONT>Bibliometric research for mesuring research levels and identifying research trends<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Nemoto_Kae.shtml">Nemoto Kae</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Quantum information/computation<br><FONT color=#cc6699>●</FONT>Quantum optics<br><FONT color=#cc6699>●</FONT>Theoretical physics
+						</td>
+						</tr>
+																					<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Hashizume_Hiromichi.shtml">Hashizume Hiromichi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Human interface with computer augmented reality<br><FONT color=#cc6699>●</FONT>Collaboration support systems<br><FONT color=#cc6699>●</FONT>Sensor applications<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Hayami_Ken.shtml">Hayami Ken</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Numerical Analysis, Numerical Linear Algebra<br><FONT color=#cc6699>●</FONT>Development and analysis of iterative methods for large systems of linear equations, least squares problems
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="HIDAKA_Soichiro.shtml">HIDAKA Soichiro</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Assistant Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Optimization of XML query language<br><FONT color=#cc6699>●</FONT>Parallel processing environments for non-numeric applications<br><FONT color=#cc6699>●</FONT>Extensible and distributed operating systems<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Fukuda_Kensuke.shtml">Fukuda Kensuke</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Measurement and analysis of Internet traffic<br><FONT color=#cc6699>●</FONT>Network science<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="FUJIYAMA_Asao.shtml">FUJIYAMA Asao</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Comparative genomics research
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Furuyama_Nobuhiro.shtml">Furuyama Nobuhiro</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Motor coordination in communication<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Hosobe_Hiroshi.shtml">Hosobe Hiroshi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Theory and solution of soft constraints<br><FONT color=#cc6699>●</FONT>Constraint programming for graphical interfaces<br><FONT color=#cc6699>●</FONT>Hybrid concurrent constraint programming
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Honiden_Shinichi.shtml">Honiden Shinichi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Autonomous Agents and Multiagent Systems<br><FONT color=#cc6699>●</FONT>Ubiquitos Computing<br><FONT color=#cc6699>●</FONT>Software Engineering
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="PRENDINGER_Helmut.shtml">PRENDINGER Helmut</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Life-like characters<br><FONT color=#cc6699>●</FONT>Automatic content creation for virtual worlds and the 3D web<br><FONT color=#cc6699>●</FONT>Emotion and sentiment recognition from text<br><FONT color=#cc6699>●</FONT>Multimodal interface
+						</td>
+						</tr>
+																					<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Matsumoto_Keiji.shtml">Matsumoto Keiji</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Quantum information and computation
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Matsumoto_Takashi.shtml">Matsumoto Takashi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Research on fault-tolerant functions for the SSS-PC operating system<br><FONT color=#cc6699>●</FONT>Research on high-performance embedded microprocessors which can efficiently cooperate with high-speed network<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Maruyama_Katsumi.shtml">Maruyama Katsumi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Research on an extensible distributed operating system<br><FONT color=#cc6699>●</FONT>Research on a wide-area cooperative system<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Miura_Kenichi.shtml">Miura Kenichi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Grid Computing<br><FONT color=#cc6699>●</FONT>Supercomputer Architecture and Performance Analysis<br><FONT color=#cc6699>●</FONT>Parallel Numerical Algorithms for Large Scale Simulations, Monte Carlo Method, Nonlinear Dynamics<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="MIYAZAWA_Akira.shtml">MIYAZAWA Akira</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Union catalogue database construction and usage<br><FONT color=#cc6699>●</FONT>Metadata representation and construction<br><FONT color=#cc6699>●</FONT>Character codes as a fundamental tool for data representation<br><FONT color=#cc6699>●</FONT>D: Data processing utilitiesndexing
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="MO_Hiroshi.shtml">MO Hiroshi</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Assistant Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>A study on case based video indexing<br><FONT color=#cc6699>●</FONT>A study on intelligent video structuring<br>
+						</td>
+						</tr>
+																					<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Yamaji_Kazutsuna.shtml">Yamaji Kazutsuna</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Research data sharing and its metadata management<br><FONT color=#cc6699>●</FONT>Platform system activating the research community
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Yamada_Shigeki.shtml">Yamada Shigeki</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Research on ubiquitous and mobile networks and their applications<br><FONT color=#cc6699>●</FONT>Research on Delay/Disruption-Tolerant Networks (DTNs)
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="YAMADA_Seiji.shtml">YAMADA Seiji</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Human-Agent Interaction<br><FONT color=#cc6699>●</FONT>Intelligent Information Gathering/Retrieval<br>
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Yamamoto_Yoshihisa.shtml">Yamamoto Yoshihisa</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Photonic quantum information systems<br><FONT color=#cc6699>●</FONT>Electronic quantum simulation systems
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Yoshioka_Nobukazu.shtml">Yoshioka Nobukazu</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Associate Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Agent oriented software engineering<br><FONT color=#cc6699>●</FONT>Agent Architecture<br><FONT color=#cc6699>●</FONT>Security Software Engineering
+						</td>
+						</tr>
+											<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Yoneda_Tomohiro.shtml">Yoneda Tomohiro</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Dependable VLSI system implementation based on asynchronous circuit technology<br><FONT color=#cc6699>●</FONT>Formal verification of real-time software
+						</td>
+						</tr>
+																															<tr>
+						<td align="center" valign="top" class="text2">
+							<a href="Watanabe_Yodai.shtml">Watanabe Yodai</a>
+						</td>
+						<td align="center" valign="top" class="text2">
+							Assistant Professor
+						</td>
+						<td valign="top" class="text2">
+							<FONT color=#cc6699>●</FONT>Security of quantum key distribution schemes<br><FONT color=#cc6699>●</FONT>Relation among security notions in cryptography<br><FONT color=#cc6699>●</FONT>Performance of probabilistic inference algorithms on graphical models
+						</td>
+						</tr>
+																						
+					</table>
+				</td>
+				</tr>
+			</table>
+		</td>
+		</tr>
+	</table>
+</table>
+
+	<!-- botomnavi -->
+	<div align="right">
+		<a href="#pagetop">
+		<img src="/images/common/pagetop.gif" width="63" height="9" border="0" alt="Go to TOP of this page." hspace="15">
+		</a>
+	</div>
+	<br>
+	<!-- /botomnavi/ -->
+</div>
+</div>
+
+ <div class="navi">
+  			<img src="/research/images/e/e_r_rese.gif" width="170" height="44" border="0" alt="RESEARCH"><br>
+			<img src="/images/spacer.gif" width="1" height="10" border="0" alt=""><br>
+
+			<div id="navi_font">
+			<table width="168" cellspacing="0" cellpadding="0" border="0">
+				<tr valign="top">
+					<td width="4">
+						<img src="/images/spacer.gif" width="1" height="2" border="0" alt=""><br>
+						<img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt=""><br>					</td>
+					<td width="4">
+						<img src="/images/spacer.gif" width="4" height="1" border="0" alt=""><br>					</td>
+					<td width="160" class="text2">
+<a href="/research/project.shtml">Projects</a><br>					</td>
+				</tr>
+				<tr>
+					<td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt=""><br></td>
+				</tr>
+				<tr valign="top">
+					<td><img src="/images/spacer.gif" width="1" height="2" border="0" alt=""><br><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt=""><br></td>
+					<td>
+						<img src="/images/spacer.gif" width="4" height="1" border="0" alt=""><br>					</td>
+					<td class="text2">
+<a href="/staff/members.shtml">Directory of Faculty and Staff</a><br>					</td>
+				</tr>
+				<tr>
+					<td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt=""><br></td>
+				</tr>
+				<tr valign="top">
+					<td><img src="/images/spacer.gif" width="1" height="2" border="0" alt=""><br><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt=""><br></td>
+					<td>
+						<img src="/images/spacer.gif" width="4" height="1" border="0" alt=""><br>					</td>
+					<td class="text2">
+<a href="/staff/org.shtml">Current Research Topics of Research Staff</a><br>					</td>
+				</tr>
+				<tr>
+					<td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt=""><br></td>
+				</tr>
+				<tr valign="top">
+					<td><img src="/images/spacer.gif" width="1" height="2" border="0" alt=""><br><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt=""><br></td>
+					<td>
+						<img src="/images/spacer.gif" width="4" height="1" border="0" alt=""><br>					</td>
+					<td class="text2">
+<a href="/research/shisetsu.shtml">Research Center</a><br>				  </td>
+				</tr>
+				<!--
+				<tr>
+					<td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt=""><br></td>
+				</tr>
+				<tr valign="top">
+					<td><img src="/images/spacer.gif" width="1" height="2" border="0" alt=""><br><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt=""><br></td>
+					<td>
+						<img src="/images/spacer.gif" width="4" height="1" border="0" alt=""><br>
+					</td>
+					<td class="text2">
+<a href="http://www.nii.ac.jp/r-theme/index.html">Research Field List</a><br>
+					</td>
+				</tr>
+				-->
+				<tr>
+					<td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt=""><br></td>
+				</tr>
+				<tr valign="top">
+					<td><img src="/images/spacer.gif" width="1" height="2" border="0" alt=""><br><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt=""><br></td>
+					<td>
+						<img src="/images/spacer.gif" width="4" height="1" border="0" alt=""><br>					</td>
+					<td class="text2">
+<a href="/research/koubo.shtml">Career Opportunities at NII</a><br>					</td>
+				</tr>
+				<tr>
+					<td colspan="3"><img src="/images/spacer.gif" width="3" height="3" border="0" alt=""><br></td>
+				</tr>
+				<tr valign="top">
+					<td><img src="/images/spacer.gif" width="1" height="2" border="0" alt=""><br><img src="../images/common/r_arrow.gif" width="4" height="10" border="0" alt=""><br></td>
+					<td>
+						<img src="/images/spacer.gif" width="4" height="1" border="0" alt=""><br>					</td>
+					<td class="text2">
+<a href="/research/activity.shtml">International Activities</a><br>					</td>
+				</tr>
+			</table>
+			</div>
+
+ </div>
+
+ <div class="foot">
+  <!-- footer -->
+   <table width="780" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td width="1" bgcolor="#999999">
+			<img src="/images/spacer.gif" width="1" height="1" border="0" alt=""><br>
+		</td>
+		<td bgcolor="#ffffff">
+			<table width="778" cellspacing="0" cellpadding="0" border="0">
+				<tr>
+					<td bgcolor="#003366">
+						<img src="/images/spacer.gif" width="1" height="5" border="0" alt=""><br>
+					</td>
+				</tr>
+			</table>
+			<table width="778" cellspacing="0" cellpadding="0" border="0">
+				<tr valign="top">
+					<td>
+						<img src="/images/spacer.gif" width="15" height="2" border="0" alt=""><br>
+					</td>
+					<td>
+						<img src="/images/spacer.gif" width="1" height="10" border="0" alt=""><br>
+						<div class="text2">
+National Institute of Informatics 2-1-2 Hitotsubashi, Chiyoda-ku, Tokyo 101-8430<img src="/images/spacer.gif" width="20" height="2" border="0" alt="">Copyright(C) National Institute of Informatics<br>
+						</div>
+						<img src="/images/spacer.gif" width="374" height="2" border="0" alt=""><br>
+						<img src="/images/spacer.gif" width="1" height="10" border="0" alt=""><br>
+					</td>
+					<td align="right">
+						<img src="/images/spacer.gif" width="1" height="10" border="0" alt=""><br>
+						<div class="text2">
+<a href="/policy/index.shtml">Policy</a> | <a href="/other/open.shtml">Information Disclosure</a> | <a href="/other/chotatsu.shtml">Procurement Information</a> | <a href="/other/link.shtml">Link</a><br>
+						</div>
+						<img src="/images/spacer.gif" width="374" height="2" border="0" alt=""><br>
+						<img src="/images/spacer.gif" width="1" height="10" border="0" alt=""><br>
+					</td>
+					<td>
+						<img src="/images/spacer.gif" width="15" height="2" border="0" alt=""><br>
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="1" bgcolor="#999999">
+			<img src="/images/spacer.gif" width="1" height="1" border="0" alt=""><br>
+		</td>
+	</tr>
+</table>
+<table width="780" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td bgcolor="#003366">
+<img src="/images/spacer.gif" width="1" height="15" border="0" alt=""><br>
+		</td>
+	</tr>
+</table>
+  <!-- /footer/ -->
+ </div>
+
+ </div>
+</body>
+</html>

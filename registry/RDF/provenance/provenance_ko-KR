@@ -1,0 +1,2958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+	<!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	xmlns:dcterms="&dctermsns;"
+	xmlns:dctype="&dctypens;">
+	 
+
+<rdf:Property rdf:about = "&dcns;title">
+	<rdfs:label rdf:ID="title_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="title_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="title_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+	<rdfs:label rdf:ID="contributor_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="contributor_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="contributor_description" xml:lang="ko-KR"/>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+	<rdfs:label rdf:ID="creator_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="creator_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="creator_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+	<rdfs:label rdf:ID="publisher_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="publisher_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="publisher_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+	<rdfs:label rdf:ID="subject_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="subject_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="subject_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+	<rdfs:label rdf:ID="description_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="description_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="description_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+	<rdfs:label rdf:ID="date_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="date_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="date_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+	<rdfs:label rdf:ID="type_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="type_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="type_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+	<rdfs:label rdf:ID="format_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="format_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="format_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+	<rdfs:label rdf:ID="identifier_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="identifier_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="identifier_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+	<rdfs:label rdf:ID="language_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="language_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="language_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+	<rdfs:label rdf:ID="relation_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="relation_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="relation_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+	<rdfs:label rdf:ID="source_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="source_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="source_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+	<rdfs:label rdf:ID="coverage_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="coverage_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="coverage_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+	<rdfs:label rdf:ID="rights_label" xml:lang="ko-KR"/>
+	<rdfs:comment rdf:ID="rights_comment" xml:lang="ko-KR"/>
+	<dc:description rdf:ID="rights_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;alternative">
+    <rdfs:label rdf:ID="alternative_label" xml:lang="ko-KR"/>
+    <rdfs:comment rdf:ID="alternative_comment" xml:lang="ko-KR"/>
+    <dc:description rdf:ID="alternative_description" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<dcterms:SubjectScheme rdf:about="&dctermsns;LCSH">
+    <rdfs:comment rdf:ID="LCSH_comment" xml:lang="ko-KR"/>
+</dcterms:SubjectScheme>
+
+<dcterms:SubjectScheme rdf:about="&dctermsns;LCC">
+    <rdfs:comment rdf:ID="LCC_comment" xml:lang="ko-KR"/>
+</dcterms:SubjectScheme>
+
+<dcterms:SubjectScheme rdf:about="&dctermsns;DDC">
+    <rdfs:comment rdf:ID="DDC_comment" xml:lang="ko-KR"/>
+</dcterms:SubjectScheme>
+
+<dcterms:SubjectScheme rdf:about="&dctermsns;UDC">
+    <rdfs:comment rdf:ID="UDC_comment" xml:lang="ko-KR"/>
+</dcterms:SubjectScheme>
+
+<dcterms:SubjectScheme rdf:about="&dctermsns;MESH">
+    <rdfs:comment rdf:ID="MESH_comment" xml:lang="ko-KR"/>
+</dcterms:SubjectScheme>
+
+<rdf:Property rdf:about="&dctermsns;abstract">
+    <rdfs:label rdf:ID="abstract_label" xml:lang="ko-KR"/>
+    <rdfs:comment rdf:ID="abstract_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;tableOfContents">
+   <rdfs:label rdf:ID="tableOfContents_label" xml:lang="ko-KR"/>
+    <rdfs:comment rdf:ID="tableOfContents_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;created">
+    <rdfs:label rdf:ID="created_label" xml:lang="ko-KR"/>
+    <rdfs:comment rdf:ID="created_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;issued">
+    <rdfs:label rdf:ID="issued_label" xml:lang="ko-KR"/>
+    <rdfs:comment rdf:ID="issued_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;modified">
+   <rdfs:label rdf:ID="modified_label" xml:lang="ko-KR"/>
+    <rdfs:comment rdf:ID="modified_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;valid">
+    <rdfs:label rdf:ID="valid_label" xml:lang="ko-KR"/>
+    <rdfs:comment rdf:ID="valid_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;available">
+    <rdfs:label rdf:ID="available_label" xml:lang="ko-KR"/>
+    <rdfs:comment rdf:ID="available_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+
+<dcterms:DateScheme rdf:about="&dctermsns;W3CDTF">
+    <rdfs:comment rdf:ID="W3CDTF_comment" xml:lang="ko-KR"/>
+</dcterms:DateScheme>
+
+<dcterms:DateScheme rdf:about="&dctermsns;Period">
+    <rdfs:comment rdf:ID="Period_comment" xml:lang="ko-KR"/>
+</dcterms:DateScheme>
+
+<rdf:Property rdf:about="&dctermsns;extent">
+    <rdfs:label rdf:ID="extent_label" xml:lang="ko-KR"/>
+    <rdfs:comment rdf:ID="extent_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;medium">
+    <rdfs:label rdf:ID="medium_label" xml:lang="ko-KR"/>
+    <rdfs:comment rdf:ID="medium_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<dcterms:FormatScheme rdf:about="&dctermsns;IMT">
+    <rdfs:comment rdf:ID="IMT_comment" xml:lang="ko-KR"/>
+</dcterms:FormatScheme>
+
+<dcterms:LanguageScheme rdf:about="&dctermsns;RFC1766">
+    <rdfs:comment rdf:ID="RFC1766_comment" xml:lang="ko-KR"/>
+</dcterms:LanguageScheme>
+
+<dcterms:LanguageScheme rdf:about="&dctermsns;ISO639-2">
+    <rdfs:comment rdf:ID="ISO639-2_comment" xml:lang="ko-KR"/>
+</dcterms:LanguageScheme>
+
+<rdf:Property rdf:about="&dctermsns;isPartOf">
+    <rdfs:comment rdf:ID="isPartOf_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;hasPart">
+    <rdfs:comment rdf:ID="hasPart_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;isVersionOf">
+    <rdfs:comment rdf:ID="isVersionOf_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;hasVersion">
+    <rdfs:comment rdf:ID="hasVersion_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;isFormatOf">
+    <rdfs:comment rdf:ID="isFormatOf_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;hasFormat">
+    <rdfs:comment rdf:ID="hasFormat_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;references">
+    <rdfs:comment rdf:ID="references_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;isReferencedBy">
+    <rdfs:comment rdf:ID="isReferencedBy_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;requires">
+    <rdfs:comment rdf:ID="requires_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;isRequiredBy">
+    <rdfs:comment rdf:ID="isRequiredBy_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;replaces">
+    <rdfs:comment rdf:ID="replaces_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;isReplacedBy">
+    <rdfs:comment rdf:ID="isReplacedBy_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;spatial">
+    <rdfs:label rdf:ID="spatial_label" xml:lang="ko-KR"/>
+    <rdfs:comment rdf:ID="spatial_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="&dctermsns;temporal">
+   <rdfs:label rdf:ID="temporal_label" xml:lang="ko-KR"/>
+    <rdfs:comment rdf:ID="temporal_comment" xml:lang="ko-KR"/>
+</rdf:Property>
+
+<dcterms:SpatialScheme rdf:about="&dctermsns;TGN">
+    <rdfs:comment rdf:ID="TGN_comment" xml:lang="ko-KR"/>
+</dcterms:SpatialScheme>
+
+<dcterms:SpatialScheme rdf:about="&dctermsns;ISO3166">
+    <rdfs:comment rdf:ID="ISO3166_comment" xml:lang="ko-KR"/>
+</dcterms:SpatialScheme>
+
+<dcterms:SpatialScheme rdf:about="&dctermsns;Box">
+    <rdfs:comment rdf:ID="Box_comment" xml:lang="ko-KR"/>
+</dcterms:SpatialScheme>
+
+<dcterms:SpatialScheme rdf:about="&dctermsns;Point">
+    <rdfs:comment rdf:ID="Point_comment" xml:lang="ko-KR"/>
+</dcterms:SpatialScheme>
+
+<dcterms:TypeScheme rdf:about="&dctermsns;DCMIType">
+    <rdfs:label rdf:ID="DCMIType_label" xml:lang="ko-KR"/>
+    <rdfs:comment rdf:ID="DCMIType_comment" xml:lang="ko-KR"/>
+</dcterms:TypeScheme> 
+
+<dcterms:IdentifierScheme rdf:about="&dctermsns;URI">
+    <rdfs:comment rdf:ID="URI_comment" xml:lang="ko-KR"/>
+</dcterms:IdentifierScheme>
+
+  
+<rdf:Description rdf:about="#title_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#title_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#title_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#alternative_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#alternative_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#alternative_description">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#LCSH_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#LCC_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#DDC_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#UDC_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#MESH_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#abstract_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#abstract_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#tableOfContents_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#tableOfContents_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#created_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#created_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#issued_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#issued_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#modified_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#modified_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#valid_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#valid_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#available_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#available_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#W3CDTF_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Period_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#extent_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#extent_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>  
+
+<rdf:Description rdf:about="#medium_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#medium_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>  
+
+<rdf:Description rdf:about="#IMT_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#RFC1766_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#ISO639-2_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#isPartOf_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#hasPart_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#isVersionOf_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#hasVersion_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#isFormatOf_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#hasFormat_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#references_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#isReferencedBy_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#requires_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#isRequiredBy_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#replaces_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#isReplacedBy_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#spatial_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#spatial_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#temporal_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#temporal_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#TGN_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#ISO3166_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#Box_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#Point_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#DCMIType_label">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#DCMIType_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+<rdf:Description rdf:about="#URI_comment">
+	<dc:date xml:lang="ko-KR">1999-07-02</dc:date>
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85; 
+	(Dublin Core Metadata Element Set, Version 1.1 : Reference Description)
+	</dc:title>
+	<dc:creator xml:lang="ko-KR">
+	&#xc624;&#xc0bc;&#xade0; (Dr. Sam-Gyun Oh)
+	</dc:creator>
+	<dc:description xml:lang="ko-KR"> 
+	DC &#xc6a9;&#xc5b4; &#xbc88;&#xc5ed;
+	(DC term translation)
+	</dc:description>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:publisher xml:lang="ko-KR">
+	&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50; (SungKyunKwan University)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dc:rights xml:lang="ko-KR">
+	&#xcd9c;&#xd310;&#xc0ac;&#xb294; &#xc774; &#xbc88;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc45;&#xc784;&#xc744; &#xc9c4;&#xb2e4;.
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description> 
+
+
+</rdf:RDF>

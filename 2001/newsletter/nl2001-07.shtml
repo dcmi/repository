@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Update - July 2001</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+    <link rel="meta" href="nl2001-07.shtml.rdf" />
+  </head>
+
+  <body >
+    
+<div class="head">
+      <!--#include virtual="/ssi/header.shtml"-->
+<table summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content." border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr valign="top">
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td bgcolor="#EEEEEE" width="150">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" summary="Layout table: Contains graphical text.">
+<tbody>
+<tr bgcolor="#99A59F" align="center">
+<td><img src="/images/navlist/toc.gif" width="150" height="25" alt="Table of Contents" border="0" /></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellspacing="0" cellpadding="10" border="0" summary="Layout table: Contains navigation.">
+<tbody>
+<tr>
+<td class="smallsans">
+<dl>
+<dt class="navlist"><a href="#action">Action!</a></dt>
+<dt class="navlist"><a href="#newsbriefs">News Briefs</a></dt>
+                <dt class="navlist">Working Group Updates</dt>
+                <dt class="navlist">Advisory Committee Updates</dt>
+<dt class="navlist"><a href="#workshop">Workshop News</a></dt>
+<dt class="navlist"><a href="#project">Project &amp; Tool Updates</a></dt>
+                <dt class="navlist">Web Site Changes</dt>
+<dt class="navlist">Submit a news item</dt>
+</dl>
+</td>
+</tr>
+<tr>
+<td class="note">
+              <p>This Newsletter is published by the <a href="/">Dublin Core Metadata 
+                Initiative</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="10" summary="Content table">
+<tbody>
+          <tr> 
+            <td> 
+              <h1 align="center">DCMI Update</h1>
+              <h3 align="center">July 2001</h3>
+              <div align="center"> 
+                <hr noshade size="1" />
+                <h3 align="left"><a id="action"
+                name="action"></a>Action!</h3>
+              </div>
+              <ul>
+                <li>2001-07-16 <a href="http://oclc.org/events/ifla/wednesday.shtm">DCMI-Libraries 
+                  Working Group Meeting to be held during IFLA on August 22, 2001</a> 
+                  <p>An official meeting of the Dublin core Metadata Initiative 
+                    Libraries Working Group (DCMI-Lib WG) will be held during 
+                    the IFLA meeting on August 22, 2001. This is a DCMI meeting 
+                    and does not require IFLA registration. All DCMI Libraries 
+                    working group members and IFLA attendees are invited. <a href="http://www.oclc.org/events/register/ifla/index.shtm">Advance 
+                    registration is requested.</a></p>
+                </li>
+              </ul>
+              <h3><a id="newsbriefs" name="newsbriefs"></a>News Briefs</h3>
+              <ul>
+                <li>2001-07-27 Catalan translations of the <a href="http://www.gencat.es/bc/dces.htm">DC 
+                  Element Set, v.1.1</a> and the <a href="http://www.gencat.es/bc/dcesq.htm">Dublin 
+                  Core Qualifiers</a> are now available</li>
+                <li>2001-07-16 <a href="/groups/libraries/">DCMI-Libraries Working 
+                  Group Meeting to be held at IFLA on August 22, 2001</a></li>
+                <li>2001-07-09 <a href="/news/communications/statusreport-200106.shtml">DCMI 
+                  Status Report - May / June 2001 is now available</a></li>
+                <li>2001-07-06 <a href="http://europa.eu.int/ISPO/ida/?http&amp;&amp;&amp;ag.idaprog.org/Indis35prod/doc/312">&quot;Managing 
+                  Information Resources for e-Govenment&quot;</a> Conference notes 
+                  and presentations are now available.</li>
+                <li>2001-07-06 <a href="http://www.mathematik.uni-osnabrueck.de/projects/dctools/">DCMI 
+                  Tools Workshop</a> background information and meeting minutes 
+                  are now available</li>
+                <li>2001-07-02 <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0107&amp;L=dc-general&amp;F=&amp;S=&amp;P=208">Z39.85 
+                  Approved by NISO</a></li>
+                <li>2001-06-25 <a href="http://www.fao.org/agris/MagazineArchive/magazine/TaskForceonDCMI.htm">Agricultural 
+                  Metadata Standards Initiative announces metadata standard</a></li>
+                <li>2001-06-01 <a href="/documents/2001/04/12/usageguide/">&quot;Using 
+                  Dublin Core&quot;</a> Usage Guide is now a DCMI Recommendation</li>
+              </ul>
+              <h3 align="left"><a id="workshop"
+              name="workshop"></a>Workshop News</h3>
+              <ul>
+                <li> <a href="http://www.nii.ac.jp/dc2001/">DC-2001: International 
+                  Conference on Dublin Core and Metadata Applications</a>, October 
+                  22-26, 200, Tokyo, Japan</li>
+              </ul>
+              <h3 align="left"><a id="project"
+              name="project"></a>Project and Tool Updates</h3>
+              <ul>
+                <li>2001-07-26 New Project: <a href="http://webarchiv.nkp.cz/index.html">WebArchiv</a> 
+                  (Czech Republic)</li>
+              </ul>
+              <h3 align="left">&nbsp;</h3>
+              <p>Suggestions, article or item submissions and any comments may 
+                be sent to <a
+              href="http://dublincore.org/feedback/dcmiFeedbackServlet">http://dublincore.org/feedback/dcmiFeedbackServlet</a>. 
+                Deadline for submissions is the 20th of each month.</p>
+            </td>
+</tr>
+</tbody>
+</table> </td>
+</tr>
+</tbody>
+</table>
+      
+</div>
+    <!--#include virtual="/ssi/footer.shtml"-->
+  </body>
+</html>
+

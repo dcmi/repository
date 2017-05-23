@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<title>Embedding Metadata in HTML 2.0</title>
+<meta name="DC.subject" content=" Embedding Metadata in HTML 2.0">
+<meta name="DC.subject" content="networked object description">
+<meta name="DC.author" type="name" scheme="AACR2" content="Weibel, Stuart L.">
+<meta name="DC.title" content="Embedding Metadata in HTML 2.0">
+<meta name="DC.date" type="creation" scheme="ISO" content="1996-06-02">
+<meta name="DC.form" scheme="IMT" content="text/html">
+<meta name="DC.language" scheme="ISO 639" content="en">
+<meta name="DC.identifier" scheme="URL" content="http://">
+</head>
+
+<body>
+
+<h2 align="center">A Proposed Convention for Embedding Metadata in HTML. </h2>
+<em>
+
+<p align="center">Reported by Stuart Weibel (weibel@oclc.org)</em> </p>
+
+<p align="center"><em>June 2, 1996 </em></p>
+
+<hr size="1">
+
+<p>The following proposed convention reflects the consensus of a break-out group at the
+W3C Distributed Indexing and Searching Workshop, May 28-29, 1996, concerning tagging of
+meta information in HTML. This break out group included representatives of the Dublin
+Core/Warwick Framework Metadata meetings, Lycos, Microsoft, WebCrawler, the IEEE metadata
+effort, Verity Software, and the W3C. </p>
+
+<table cellpadding="2">
+  <tr align="center">
+    <td colspan="4"><h3>Attendees (alphabetically): </h3>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Nick Arnett </td>
+    <td>narnett@verity.com </td>
+    <td>Mic Bowman </td>
+    <td>bowman@transarc.com </td>
+  </tr>
+  <tr>
+    <td>Eliot Christian </td>
+    <td>echristi@usgs.gov </td>
+    <td>Dan Connolly </td>
+    <td>conolly@w3.org </td>
+  </tr>
+  <tr>
+    <td>Martijn Koster </td>
+    <td>m.koster@webcrawler.com </td>
+    <td>John Kunze </td>
+    <td>jak@ckm.ucsf.edu </td>
+  </tr>
+  <tr>
+    <td>Carl Lagoze </td>
+    <td>lagoze@cs.cornell.edu </td>
+    <td>Michael Mauldin </td>
+    <td>fuzzy@lycos.com </td>
+  </tr>
+  <tr>
+    <td>Christian Mogensen </td>
+    <td>christian@vivid.com </td>
+    <td>Wick Nichols </td>
+    <td>wickn@microsoft.com </td>
+  </tr>
+  <tr>
+    <td>Timothy Niesen </td>
+    <td>tmn@swl.msd.ray.com </td>
+    <td>Stuart Weibel </td>
+    <td>weibel@oclc.org </td>
+  </tr>
+  <tr>
+    <td>Andrew Wood </td>
+    <td>woody@dstc.edu.au </td>
+  </tr>
+</table>
+
+<h3>1. THE PROBLEM </h3>
+
+<p>The problem is to identify a simple means of embedding metadata within HTML documents
+without requiring additional tags or changes to browser software, and without
+unnecessarily compromising current practices for robot collection of data. </p>
+
+<p>While metadata is intended for display in some situations, it is judged undesireable
+for such embedded metadata to display on browser screens as a side effect of displaying a
+document. Therefore, any solution requires encoding information in attribute tags rather
+than as container element content. </p>
+
+<p>The goal was to agree on a simple convention for encoding structured metadata
+information of a variety of types (which may or may not be registered with a central
+registry analogous to the Mime Type registry). It was judged that a registry may be a
+necessary feature of the metadata infrastructure as alternative schema are elaborated, but
+that deployment in the short-term could go forward without such a registry, especially in
+light of the proposed use of the LINK tag to link descriptions to a standard schema
+description as described below. </p>
+
+<h3>2. A PROPOSED CONVENTION </h3>
+
+<p>The solution agreed upon is to encode schema elements in META tags, one element per
+META tag, and as many META tags as are necessary. Grouping of schema elements is achieved
+by a prefix schema identifier associated with each schema element. </p>
+
+<p>The convention agreed upon is as follows:</p>
+
+<pre>
+
+     &amp;ltMETA NAME    = &quot;<em>schema_identifier.element_name</em>&quot;
+           CONTENT = &quot;<em>string data</em>&quot;&gt;
+</pre>
+
+<p>Thus, a partial Dublin Core citation might be encoded as follows:</p>
+
+<pre>
+
+     &amp;ltMETA NAME    = &quot;DC.title&quot;
+           CONTENT = &quot;HTML 2.0 Specification&quot;&gt;
+        
+     &amp;ltMETA NAME    = &quot;DC.author&quot;
+           CONTENT = &quot;Tim Berners-Lee&quot;&gt;
+            
+     &amp;ltMETA NAME    = &quot;DC.author&quot;
+           CONTENT = &quot;Dan Connolly&quot;&gt; 
+           
+     &amp;ltMETA NAME    = &quot;DC.date&quot;
+           CONTENT = &quot;November, 1995&quot;&gt;
+                     
+     &amp;ltMETA NAME    = &quot;DC.identifier&quot;
+           CONTENT = &quot;ftp://ds.internic.net/rfc/rfc1866.txt&quot;&gt;
+</pre>
+
+<p>And a collection of Microsoft Word metadata might be encoded as follows: </p>
+
+<pre>
+     &amp;ltMETA NAME    = &quot;MSW.title&quot;
+           CONTENT = &quot;W3C Indexing Work Shop Report&quot;&gt;
+        
+     &amp;ltMETA NAME    = &quot;MSW.author&quot;
+           CONTENT = &quot;Wick Nichols &gt;
+           
+     &amp;ltMETA NAME    = &quot;MSW.date&quot;
+           CONTENT = &quot;May 30, 1996&quot;&gt;
+
+</pre>
+
+<h3>3. LINKAGE TO THE REFERENCE DESCRIPTION OF A METADATA SCHEMA </h3>
+
+<p>It is judged useful to provide a means for linking to the reference definition of the
+metadata schema (or schemata) used in a document. Doing so serves as a primitive
+registration mechanism for metadata schemata, and lays the foundation for a more formal,
+machine-readable linkage mechanism in the future. The proposed convention for doing so is
+as follows:</p>
+
+<pre>
+&lt;LINK REL = SCHEMA.<em>schema_identifier</em> HREF=&quot;<em>URL</em>&quot;&gt;
+</pre>
+
+<p>Thus, the reference description of one metadata scheme, the Dublin Core Metadata
+Element Set, would be referenced in the LINK HREF as follows: </p>
+
+<pre>
+&lt;LINK REL = SCHEMA.dc HREF = &quot;http://purl.org/metadata/dublin_core&quot;&gt;
+</pre>
+
+<p>The description of an element could be accessed by the construction of URL using the #
+token to identify a named anchor. Thus, the derived URL below actually links to the <em>title</em>
+element in the reference description of the Dublin Core Metadata Element Set. </p>
+
+<pre>
+<a href="http://purl.org/metadata/dublin_core_elements#title">http://purl.org/metadata/dublin_core_elements#title </a>
+</pre>
+
+<p>This URL would correspond to the human-readable description of the <em>title</em>
+element within the document by a NAME anchor such as:</p>
+
+<pre>
+&lt;A NAME = &quot;title&quot;&gt; Title &lt;/A&gt;
+
+    The name of the work provided by the author or publisher.
+</pre>
+
+<p>While use of the LINK tag is not required for a given schema, when used, it will make
+possible retrieval of the reference definition of a given schema element, and will
+therefore reduce the need for a formal metadata scheme registry. Multiple LINK tags can be
+used so that elements derived from multiple schemas can be referenced within a single
+document. </p>
+
+<h3>4. CONSISTENCY OF DESCRIPTION SCHEMAS </h3>
+
+<p>To promote consistency among resource description schemas, it is suggested that the
+semantics for metadata elements be related to existing well-known schemas whenever
+feasible. </p>
+</body>
+</html>

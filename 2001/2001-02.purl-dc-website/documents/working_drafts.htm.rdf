@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/DC/documents/working_drafts.htm">
+   <dc:title>Dublin Core Metadata Initiative - Working Drafts</dc:title>
+   <dc:description>Working Drafts are for review by Dublin Core members and other interested parties.  Publication as a working draft does not imply endorsement by the Dublin Core community</dc:description>
+   <dc:date>1998-11-06</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>The Dublin Core Metadata Initiative</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

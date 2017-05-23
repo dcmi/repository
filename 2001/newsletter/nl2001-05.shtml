@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Update - May 2001</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+    <link rel="meta" href="nl2001-05.shtml.rdf" />
+  </head>
+
+  <body >
+    
+<div class="head">
+      <!--#include virtual="/ssi/header.shtml"-->
+<table summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content." border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr valign="top">
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td bgcolor="#EEEEEE" width="150">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" summary="Layout table: Contains graphical text.">
+<tbody>
+<tr bgcolor="#99A59F" align="center">
+<td><img src="/images/navlist/toc.gif" width="150" height="25" alt="Table of Contents" border="0" /></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellspacing="0" cellpadding="10" border="0" summary="Layout table: Contains navigation.">
+<tbody>
+<tr>
+<td class="smallsans">
+<dl>
+<dt class="navlist"><a href="#action">Action!</a></dt>
+<dt class="navlist"><a href="#newsbriefs">News Briefs</a></dt>
+<dt class="navlist"><a href="#workinggroup">Working Group Updates</a></dt>
+<dt class="navlist"><a href="#advisory">Advisory Committee Updates</a></dt>
+<dt class="navlist"><a href="#workshop">Workshop News</a></dt>
+<dt class="navlist"><a href="#project">Project &amp; Tool Updates</a></dt>
+<dt class="navlist"><a href="#website">Web Site Changes</a></dt>
+<dt class="navlist">Submit a news item</dt>
+</dl>
+</td>
+</tr>
+<tr>
+<td class="note">
+              <p>This Newsletter is published monthly by the <a href="/">Dublin Core Metadata 
+                Initiative</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="10" summary="Content table">
+<tbody>
+          <tr> 
+            <td> 
+              <h1 align="center">DCMI Update</h1>
+              <h3 align="center">May 2001</h3>
+              <div align="center"> 
+                <hr noshade size="1" />
+                <h3 align="left"><a id="action"
+                name="action"></a>Action!</h3>
+              </div>
+              <ul>
+                <li>2001-04-25 <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0104&amp;L=dc-general&amp;P=2764">Call 
+                  for Participation to the DC-2001: International Conference on 
+                  Dublin Core Metadata Applications</a>, October 22-26, 2001, 
+                  Tokyo, Japan.</li>
+                <li>2001-04-25 <a href="/news/documents.shtml#usageguide">A New 
+                  Version of &quot;Using Dublin Core&quot; is now available for 
+                  public comment until May 15, 2001</a>. Comments should be sent 
+                  to the <a href="http://www.jiscmail.ac.uk/lists/dc-general.html">DC-General 
+                  Mailing List</a>.</li>
+              </ul>
+              <h3><a id="newsbriefs" name="newsbriefs"></a>News Briefs</h3>
+              <ul>
+                <li>2001-05-01 <a href="/news/communications/statusreport-200104.shtml">DCMI 
+                  Status Report - April 2001 is now available</a></li>
+                <li>2001-04-25 <a href="/news/#prism">PRISM Working Group announces 
+                  release of version 1.0 of the PRISM metadata specification</a></li>
+                <li>2001-04-25 <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0104&amp;L=dc-general&amp;F=&amp;S=&amp;P=2403">DCMI 
+                  Libraries Working Group survey results</a></li>
+                <li>2001-04-25 <a href="/news/#musicbrainz">MusicBrainz Metadata 
+                  Initiative uses Dublin Core-based metadata</a> </li>
+                <li>2001-02-21 Announcement: <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0102&amp;L=dc-general&amp;F=&amp;S=&amp;P=1930">New 
+                  Dublin Core Metadata Initiative Web Site</a></li>
+                <li>2001-01-30 <a href="/news/#projectmanager">DCMI hires Project 
+                  Manager</a> </li>
+                <li>2001-01-29 <a href="/news/#dcesrussian">Full Translations 
+                  of Element Set and Qualifiers are now available in Russian</a></li>
+                <li>2001-01-21 <a href="/news/#nisoballot">NISO ballot version 
+                  of Dublin Core</a></li>
+                <li>2001-01-23 <a href="/news/#usageguidefrench">&quot;Using Dublin 
+                  Core&quot; Usage Guide now available in French</a></li>
+                <li>2001-01-16 <a href="/news/documents.shtml#prec20010116">Dublin 
+                  Core Metadata Initiative Announces New Proposed Recommendation</a> 
+                </li>
+                <li>2001-01-02 <a href="/news/#dcespolish">Dublin Core Element 
+                  set now available in Polish</a></li>
+                <li>2000-12-15 <a href="/news/#dlib20001215">D-Lib Magazine article: 
+                  The Dublin Core Metadata Initiative: Mission, Current Activities, 
+                  Future Directions</a></li>
+                <li>2000-12-06: <a href="/news/#pr20001206">Press Release: E-Learning 
+                  Takes Important Step Forward</a></li>
+                <li>2000-11-10 <a href="/news/#dc8presentations">Presentations 
+                  from DC-8 Workshop Now Available</a></li>
+                <li>2000-10-05 <a href="/news/documents.shtml#dcedsummary20001005">DC-Education 
+                  Summary Proposal</a></li>
+                <li>2000-08-15 New Document: <a href="/news/documents.shtml#wddchtml20000815">Recording 
+                  qualified Dublin Core metadata in HTML meta elements</a></li>
+                <li>2000-07-28 Updated Documents: <a href="/news/documents.shtml#rec20000728">DCMI 
+                  Box Encoding Scheme, DCMI Dublin Core Structured Values, DCMI 
+                  Period Encoding Scheme, DCMI Point Encoding Scheme</a>.</li>
+                <li>2000-07-11 Press Release: <a href="/news/#pr20000711">Dublin 
+                  Core Metadata Initiative Releases Recommend Qualifiers</a></li>
+              </ul>
+              <h3 align="left"><a id="workinggroup"
+              name="workinggroup"></a>Working Group Updates</h3>
+              <ul>
+                <li>2001-03-07 New working group: <a
+                href="/news/#toolswg">DCMI Tools Working Group</a></li>
+              </ul>
+              <h3><a id="advisory" name="advisory"></a>Advisory Committee Updates</h3>
+              <ul>
+                <li> Palle Aagaard is new co-chair of the DCMI Government Working 
+                  Group</li>
+                <li> Ann Apps is new chair of the DCMI Type Working Group</li>
+                <li> Jos&eacute; Borbinha is new chair of the DCMI Agents Working 
+                  Group</li>
+                <li>2001-02-09<b> </b> <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0102&amp;L=dc-general&amp;O=A&amp;P=258">Eric 
+                  Miller to head W3C Semantic Web Activity</a> </li>
+              </ul>
+              <h3 align="left"><a id="workshop"
+              name="workshop"></a>Workshop News</h3>
+              <ul>
+                <li> <a href="http://www.nii.ac.jp/dc2001/">DC-2001: International 
+                  Conference on Dublin Core and Metadata Applications</a>, October 
+                  22-26, 200, Tokyo, Japan</li>
+                <li><a href="http://www.ifla.org/udt/dc8/index.htm">8th International 
+                  Dublin Core Metadata Initiative Workshop (DC-8)</a>, October 
+                  4-6, 2000, Ottawa Canada</li>
+              </ul>
+              <h3 align="left"><a id="project"
+              name="project"></a>Project and Tool Updates</h3>
+              <ul>
+                <li>2000-10-18 Project: <a href="/news/projects.shtml#pictureaustralia">PictureAustralia</a></li>
+                <li>2000-10-16 Tool: <a href="/news/tools.shtml#metabrowser">Metabrowser</a></li>
+                <li>2000-09-27 Tool: <a href="/news/tools.shtml#taggen">TagGen 
+                  - Dublin Core Edition</a></li>
+                <li>2000-08-03 Tool: <a href="/news/tools.shtml#dcassist">DC-assist</a></li>
+                <li>2000-07-18 Tool: <a href="/news/tools.shtml#dcdot">DC-dot</a></li>
+                <li>2000-07-12 Project: <a href="/news/projects.shtml#vechannel">Victorian 
+                  Education Channel</a></li>
+              </ul>
+              <h3 align="left"><a id="website"
+              name="website"></a>Web Site Changes</h3>
+              <ul>
+                <li>2001-02-21 Announcement: <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0102&amp;L=dc-general&amp;F=&amp;S=&amp;P=1930">New 
+                  Dublin Core Metadata Initiative Web Site</a></li>
+                <li>2001-01-16 DCMI announces prerelease of new web site</li>
+              </ul>
+              <p>Suggestions, article or item submissions and any comments may 
+                be sent to <a
+              href="http://dublincore.org/feedback/dcmiFeedbackServlet">http://dublincore.org/feedback/dcmiFeedbackServlet</a>. 
+                Deadline for submissions is the 20th of each month.</p>
+            </td>
+</tr>
+</tbody>
+</table> </td>
+</tr>
+</tbody>
+</table>
+      
+</div>
+    <!--#include virtual="/ssi/footer.shtml"-->
+  </body>
+</html>
+

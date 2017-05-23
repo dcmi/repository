@@ -1,0 +1,595 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DCMI Status Report - April 2001</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="statusreport-200104.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>DCMI Status Report - April 2001</h1>
+<table class="docinfo" cellspacing="0">
+<tr>
+<th>Creator:</th>
+<td><a href="mailto:mail@makxdekkers.com">Makx Dekkers</a></td>
+</tr>
+<tr>
+<th>Date Issued:</th>
+<td>2001-04-27</td>
+</tr>
+<tr>
+<th>Identifier:</th>
+<td><a href="/archives/2001/statusreport/statusreport-200104.shtml">http://dublincore.org/archives/2001/statusreport/statusreport-200104.shtml</a></td>
+</tr>
+</table>
+<h2>Table of Contents</h2>
+<blockquote>
+<p><a href="#intro"><strong>Introduction</strong></a></p>
+<p><a href="#towards"><strong>Towards a new organization</strong></a></p>
+<blockquote>
+<a href="#mission">Mission</a><br /><a href="#activitiesscope">Scope of Activities</a><br /><a href="#opprinciples">Principles of Operation</a><br /><a href="#orgstructure">Organizational Structure and Governance Model</a><br /><a href="#process">Process for recommendations</a></blockquote>
+<strong><a href="#mainactivities">Main activities in reporting period</a></strong>
+<p><strong><a href="#overview">Overview of activities in Working groups, Interest groups and Committees</a></strong></p>
+<blockquote>
+<a href="#workinggroups">Working Groups</a>
+<blockquote>
+<a href="#administrativemeta">Administrative metadata</a><br /><a href="#agents">Agents</a><br /><a href="#architecture">Architecture</a><br /><a href="#citation">Citation</a><br /><a href="#collectiondesc">Collection Description</a><br /><a href="#education">Education</a><br /><a href="#government">Government</a><br /><a href="#libraries">Libraries</a><br /><a href="#registry">Registry</a><br /><a href="#standards">Standards</a><br /><a href="#tools">Tools</a><br /><a href="#type">Type</a><br /><a href="#userguide">User Guide</a></blockquote>
+<a href="#specialinterest">Special Interest Groups</a>
+<blockquote>
+<a href="#business">Business</a><br /><a href="#collaboratory">Collaboratory</a><br /><a href="#movingpics">Moving Pictures</a><br /><a href="#multiplelang">Multiple Languages</a></blockquote>
+<a href="#otheractivities">Other Activities</a>
+<blockquote>
+<a href="#dc2001">DC-2001</a><br /><a href="#tutorials">Tutorials</a></blockquote>
+<a href="#standingcommittees">Standing Committees</a>
+<blockquote>
+<a href="#directorate">Directorate</a>
+<blockquote>
+<a href="#dcmimanagement">DCMI Management Issues</a><br /><a href="#pubstrategy">Publication Strategy &amp; Policy issues</a><br /><a href="#management">Management of EOR/DCMI Web team</a><br /><a href="#communications">Communications</a></blockquote>
+<p><a href="#executive">Executive Committee</a></p>
+<p><a href="#advisory">Advisory Committee</a></p>
+<p><a href="#usageboard">Usage Board</a></p>
+</blockquote>
+<a href="#deliverables">Deliverables</a></blockquote>
+</blockquote>
+
+<a id="intro" name="intro"></a>
+<h2>Introduction</h2>
+<p>This report is the first of a regular series of status reports of the Dublin Core Metadata Initiative. It covers the activities that have taken place between the last Dublin Core Workshop (Ottawa, October 2000) and April 2001.</p>
+<p>The first part of the describes the work on defining a new organizational structure for DCMI, and highlights the activities that have taken place towards this new organizational model.</p>
+<p>The second part of the report contains an overview of the work in the various working groups, interest groups and committees in the reporting period.</p>
+
+<a id="towards" name="towards"></a>
+<h2>Towards a new organization</h2>
+<p>At the end of the year 2000, activities have started to reorganize the Dublin Core Metadata Initiative. In a meeting of the Advisory Committee in February 2001, a proposal for Strategic Reorganization of the Dublin Core Metadata Initiative has been discussed, following the decision in the AC meeting in Ottawa in October 2000.</p>
+<p>The background for this proposal was the realization that the DCMI has organically grown out of the initial Workshop Series, but that as deployment of DC metadata grows, there is a need for increased stability of the standards and associated activities.</p>
+
+<a id="mission" name="mission"></a>
+<h3>Mission</h3>
+<p>In the proposal, the mission of the DCMI is defined as follows:</p>
+<blockquote>
+<p>The mission of the DCMI is to make it easier to find resources using the Internet through the following activities:</p>
+<p>1. Developing metadata standards for discovery across domains</p>
+<p>2. Defining frameworks for the interoperation of metadata sets</p>
+<p>3. Facilitating the development of community or disciplinary specific metadata sets that are consistent with items 1 and 2</p>
+</blockquote>
+
+<a id="activitiesscope" name="activitiesscope"></a>
+<h3>Scope of Activities</h3>
+<p>On the basis of this mission statement, the following Scope of Activities has been defined:</p>
+<blockquote>
+<p>&shy; Standards development and maintenance</p>
+<p>&shy; Running international workshops and working group meetings</p>
+<p>&shy; Documentation and communication</p>
+<p>&shy; Community liaisons</p>
+<p>&shy; Coordinating activities and approaches with other metadata communities</p>
+<p>&shy; Tools and Infrastructure</p>
+<p>&shy; Metadata registry</p>
+<p>&shy; Open source software development</p>
+<p>&shy; Educational Outreach</p>
+<p>&shy; Education and training resources</p>
+<p>&shy; Consultation</p>
+</blockquote>
+
+<a id="opprinciples" name="opprinciples"></a>
+<h3>Principles of operation</h3>
+<p>Five principles of operation underlie the activities within the DCMI:</p>
+<blockquote>
+<p>&shy; Free access to products (specifications, guidelines, other documentation)</p>
+<p>&shy; Scalability with appropriate priorities than can be sustained by a given size of administrative support</p>
+<p>&shy; Distributed governance and operation as a means to distribute costs of the initiative as well as to provide sufficient redundancy to promote access to infrastructure and expertise.</p>
+<p>&shy; Open participation and consensus building</p>
+<p>&shy; International orientation and operation</p>
+</blockquote>
+
+<a id="orgstructure" name="orgstructure"></a>
+<h3>Organizational structure and governance model</h3>
+<p>The organizational structure of DCMI that is under development will define various types of participants: individual subscribers who participate by contributing to the work at no cost, and members, sponsors, hosts and special (regional or domain-specific) affiliates who will contribute financially to the operation of the DCMI or fund specific activities.</p>
+<p>The governance model will have five levels:</p>
+<blockquote>
+<p>&shy; DCMI Directorate, responsible for the day-to-day running and administrative management of the Initiative</p>
+<p>&shy; DCMI Board of Trustees, a policy making body, providing oversight of the Directorate, with a small number of members elected by the membership and the subscribers</p>
+<p>&shy; DCMI Advisory Board, a technical advisory body embodying expertise in various areas of concern to the DCMI, consisting of Working Group chairs and invited experts</p>
+<p>&shy; DCMI Usage Board, a small committee that is responsible for reviewing proposals related to DCMI standards</p>
+<p>&shy; DCMI Membership Council, with representatives from all members, where the final voting on recommendations is done</p>
+</blockquote>
+
+<a id="process" name="process"></a>
+<h3>Process for recommendations</h3>
+<p>A process for recommendations is under development. The underlying principle will remain that work is done in Working Groups on the basis of a charter and a set of deliverables. Proposals are discussed in the Working Group with the objective to reach consensus. The Working Group chair then submits finalized proposals to the Directorate who will ensure proper review, either by the Usage Board or an ad-hoc review team. After review, the proposal will be made available for public comment as a Proposed Recommendation and finally be submitted for voting in the Membership Council.</p>
+
+<a id="mainactivities" name="mainactivities"></a>
+<h2>Main activities in reporting period</h2>
+<p>A major activity in the reporting period was the drafting and discussion of the proposal for Strategic Reorganization of the Dublin Core Metadata Initiative, which is further being elaborated by the Directorate.</p>
+<p>There have been two important staff changes in the Directorate:</p>
+<blockquote>
+<p>&shy; On 1 March 2001, Eric Miller has left the DCMI to become the chair of W3C's Semantic Web activity. The DCMI owes a lot to Eric over the past years and we wish him all the best. We will certainly keep in contact on RDF issues.</p>
+<p>&shy; Also on 1 March 2001, Makx Dekkers was appointed as overall project manager for the DCMI and is now part of the DCMI Directorate in the role of Managing Director.</p>
+</blockquote>
+
+<p>Together with the Executive Director, Stu Weibel, Makx is working on the definition and implementation of a streamlined work process and publication strategy for DCMI.</p>
+
+<a id="overview" name="overview"></a>
+<h2>Overview of activities in Working Groups, Interest Groups and Committees</h2>
+<a id="workinggroups" name="workinggroups"></a>
+<h3>Working groups</h3>  
+<a id="administrativemeta" name="administrativemeta"></a>
+<p><strong>Administrative metadata</strong></p>
+<p>Chair: Leif Andresen, Denmark</p>
+<p>Mailing list subscriptions: 30</p>
+<p>Deliverable status:</p>
+<blockquote>
+<p>&shy; The A-Core, draft 1999-06-30, used as basis for further work</p>
+</blockquote>
+
+<p>Leif is in the process to draft a new work plan with a time schedule. In defining the deliverables, the draft of 1999, which has never been formally approved, will be used as a starting point.</p>
+
+<a id="agents" name="agents"></a>
+<p><strong>Agents</strong></p>
+<p>Chair: Jos&eacute; Borbinha, Portugal</p>
+<p>Mailing list subscriptions: 78</p>
+<p>Deliverable status: None</p>
+<p>Recently, Jos&eacute; was appointed as the new WG chair. He is in the process of drafting a new work plan with a time schedule and will submit this to the WG for review.</p>
+<p>Most of the work will take place in collaboration with the DELOS project. The provisional target is to have a requirements document in the form of a "White paper on Agents in Digital Libraries", to be published as a DELOS report in the first quarter of 2002. A draft of this paper will be presented at DC-2001. A technical proposal for a DC-Agent Core is then foreseen for the first half of 2002. There is a dependency with the work in the DCMI on RDF/XML encoding.</p>
+<p>Intermediate steps will involve several meetings of the DELOS working group in the second and third quarter of 2001.</p>
+
+<a id="architecture" name="architecture"></a>
+<p><strong>Architecture</strong></p>
+<p>Chairs: Sigge Lundberg, Sweden; Dan Brickley, UK</p>
+<p>Mailing list subscriptions: 85</p>
+<p>Deliverable status:</p>
+<blockquote>
+<p>&shy; An XML encoding of Simple Dublin Core Metadata, final draft 2001-04-11, under review</p>
+<p>&shy; DCMI Architecture roadmap, draft being integrated in WG Web space</p>
+<p>&shy; Expressing Qualified Dublin Core in RDF, draft 2001-03-30, under discussion in WG. Proposed Recommendation scheduled for June.</p>
+<p>&shy; An RDF/XML compliant DTD/Schema for Qualified Dublin Core. Has been subsumed in the preceding deliverable.</p>
+<p>&shy; Dublin Core Qualifiers (HTML encoded META), draft 2000-08-15, in the process of being finalized for review</p>
+</blockquote>
+
+<p>The work plan and the Web site of the WG are currently under revision.</p>
+<p>The deliverable 'Expressing Qualified Dublin Core in RDF', written by Roland Schw&auml;nzl and Stefan Kokkelink has the highest priority for the group at the moment.</p>
+<p>The deliverable 'An RDF/XML compliant DTD/Schema for Qualified Dublin Core' has been subsumed by the main DC in RDF document. Note that work on the relationship between XML and RDF Schema is getting underway within W3C's new RDF Core WG (liaison via Dan Brickley, co-chair of both WGs). We expect the RDFCore WG deliverables to provide additional guidance for metadata implementers working in this area, and defer to the W3C WG for the production of this documentation.</p>
+<p>In addition, the Architecture WG home page will track any DC-based XML or RDF schemata submitted to the WG chairs, rather than attempt to legislate one particular such representation.</p>
+
+<a id="citation" name="citation"></a>
+<p><strong>Citation</strong></p>
+<p>Chair: vacant</p>
+<p>Mailing list subscriptions: 49</p>
+<p>Deliverable status:</p>
+<blockquote>
+<p>&shy; Bibliographic citation, draft 1999-07-02, under revision.</p>
+<p>&shy; Citation Qualifier Proposal, draft 1999-11-03, under revision.</p>
+</blockquote>
+
+<p>There has been a meeting of a small number of people of this WG on 15 March 2001 in Bath to decide where to go next. At that meeting, an outline was agreed of a recommendation on best practice for describing journal articles using data elements based on the DC element set. The recommendation closely follows the previous DC Citation WG proposal with some small variance. A recommendation will include an explanation of three encoding mechanisms (OpenURL, DC structured value, RDF).</p>
+
+<a id="collectiondesc" name="collectiondesc"></a>
+<p><strong>Collection Description</strong></p>
+<p>Chair: Andy Powell, UK</p>
+<p>Mailing list subscriptions: 15</p>
+<p>Deliverable status: None</p>
+<p>Andy is drafting a charter for this WG.</p>
+
+<a id="education" name="education"></a>
+<p><strong>Education</strong></p>
+<p>Chairs: Jon Mason, Australia; Stuart Sutton, US</p>
+<p>Mailing list subscriptions: 207 (25% of the total number of DC subscribers)</p>
+<p>Deliverable status:</p>
+<blockquote>
+<p>&shy; Proposal for dc-ed:level, draft 2000-10-05, ready for review by Usage Board (May 2001)</p>
+<p>&shy; Proposal for Type vocabulary, draft foreseen for June 2001</p>
+<p>&shy; Proposal for dc-ed:audience refinements, draft foreseen for September 2001</p>
+<p>&shy; Proposal for teaching/learning processes and characteristics, draft foreseen for September 2001</p>
+</blockquote>
+
+<p>The work plan indicates time lines for the discussion on the three deliverables that are planned. Progress is as planned.</p>
+<p>A technical committee is forming, involving participants of the LEEE LTSC LOM WG, IMS, GEM, EdNA and DCMI Architecture WG to take forward the RDF work in positioning the LOM &amp; DCMI for interoperability.</p>
+
+<a id="government" name="government"></a>
+<p><strong>Government</strong></p>
+<p>Chair: Andrew Wilson, Australia; Palle Aagaard, Denmark</p>
+<p>Mailing list subscriptions: 105</p>
+<p>Deliverable status:</p>
+<blockquote>
+<p>&shy; Survey of government implementations of DC, report foreseen for May 2001</p>
+<p>&shy; Using Dublin Core for managing Government Information, draft foreseen for September 2001</p>
+</blockquote>
+
+<p>Makx Dekkers has resigned as co-chair of this WG when he assumed his new role as Managing Director of DCMI. Palle Aagaard of Denmark has been appointed as co-chair.</p>
+<p>Progress is as planned. There are no dependencies with other DCMI deliverables.</p>
+
+<a id="libraries" name="libraries"></a>
+<p><strong>Libraries</strong></p>
+<p>Chair: Rebecca Guenther, US</p>
+<p>Mailing list subscriptions: 248 (30% of DC subscribers)</p>
+<p>Deliverable status:</p>
+<blockquote>
+<p>&shy; Library application profile, draft foreseen for September 2001</p>
+</blockquote>
+
+<p>A small group of the DCMI-Libraries Working Group is beginning work on a draft library application profile, specifying required elements, permitted Dublin Core elements, permitted Dublin Core qualifiers, permitted schemes and values (e.g. use of a specific controlled vocabulary or encoding scheme), library domain elements (to be registered), library domain qualifiers (to be registered), additional elements/qualifiers from other application profiles that may be used (e.g. DC-Education: Audience), and refinement of standard definitions.</p>
+<p>The work plan is expected to be as follows:</p>
+<blockquote>
+<p>-A survey of Dublin Core use in libraries was conducted and released on 25 April 2001. Its purpose was: (1) to collect and share examples of Dublin Core use in libraries and (2) to stimulate discussion that will feed into the process of drafting an application profile for the use of Dublin Core in libraries.</p>
+<p>&shy; The small group will develop a draft application profile for review by the DCMI-Libraries WG by July. It will be discussed on the list and then revised based on that discussion.</p>
+<p>&shy; The IFLA metadata working group will be asked to review it.</p>
+<p>&shy; A meeting of the DC-Libraries Working Group will be held during the IFLA conference in Boston on the afternoon of 22 August 2001. More information about the meeting will be forthcoming.</p>
+<p>&shy; The plan is to have a formal proposal ready before DC-9 in October 2000 for either further discussion or registration.</p>
+</blockquote>
+
+<a id="registry" name="registry"></a>
+<p><strong>Registry</strong></p>
+<p>Chair: Rachel Heery, UK</p>
+<p>Mailing list subscriptions: 61</p>
+<p>Deliverable status:</p>
+<blockquote>
+<p>&shy; Outline of purpose of Registry, draft circulated on mailing list, 2001-01-21; will be made public on Registry Web space in May 2001</p>
+<p>&shy; Prototype DCMI Registry, under development; loading scheduled for May 2001</p>
+</blockquote>
+
+<p>Proposed overview and functional requirements for the DCMI registry have been circulated on the mailing list. These generated little discussion, and are judged to be uncontroversial.</p>
+<p>As to the development of the Prototype DCMI Registry, there has been progress within OCLC on stabilizing the Open Registry software (EOR) and a prototype registry has been established, though this is not as yet focused on the Registry WG requirements. Additional activity within the SCHEMAS project has contributed overall to ideas about possible structure and user interfaces to the DCMI registry.</p>
+<p>There is a dependency on Architecture WG for decision on namespaces that will be used in the registry to identify DC elements, qualifiers, and terms. There is also a dependency on the usage Committee for agreed policy on status of elements (e.g. recommended, proposed, deprecated).</p>
+<p>Next steps can be summarized as:</p>
+<blockquote>
+<p>&shy; Put 'purpose and functional requirements document' on DCMI web site: 3 May 2001</p>
+<p>&shy; Liaise with OCLC (Harry) to synch further work on EOR with functional requirements: 3 May 2001</p>
+<p>&shy; Plan schedule for 'clean' loading of the Open Registry removing extraneous test material: 18 May 2001</p>
+</blockquote>
+
+<a id="standards" name="standards"></a>
+<p><strong>Standards</strong></p>
+<p>Chair: Leif Andresen, Denmark</p>
+<p>Mailing list subscriptions: 57</p>
+<p>Deliverable status: None</p>
+<p>The discussion is de facto closed. The group will restart based on the outcome of the NISO ballot of Z39.85.</p>
+
+<a id="tools" name="tools"></a>
+<p><strong>Tools</strong></p>
+<p>Chair: Roland Schw&auml;nzl, Germany</p>
+<p>This Working Group is in the process of deciding the program for the Tools Workshop that will take place in Osnabr&uuml;ck on 20-22 June 2001. Duplication of work of WG Architecture in the tools group is avoided through the involvement of the chairs of the Architecture WG.</p>
+
+<a id="type" name="type"></a>
+<p><strong>Type</strong></p>
+<p>Chair: Ann Apps, UK</p>
+<p>Mailing list subscriptions: 61</p>
+<p>Deliverable status: deliverable list to be updated.</p>
+<p>Ann has recently been appointed as the new chair for this WG. After finalizing a high-level list of possible resource types, DCMI Type Vocabulary (previously known as DCT1), the group moved on to attempt to identify a more comprehensive subtype list of generally used resource types, to provide for more specific typing of a resource, the working name of this list being DCT2. It has turned out difficult to provide a list that satisfies all domains.</p>
+<p>There are two approaches that have been suggested for further work:</p>
+<blockquote>
+<p>&shy; To gather lists of types used in domain-specific applications and then attempt to distill from these lists commonly used types to produce a singular, comprehensive,consistent subtype list to recommend for acceptance as a second scheme qualifier for DC-Type. Several lists of types have been identified through this exercise, some very domain-specific, including geospatial, education, health and music.</p>
+<p>&shy; To focus on identifying a list of domains and an appropriate type list within each of those domains, i.e. a list of type lists.</p>
+</blockquote>
+
+<p>There have been questions as to whether developing a subtype list is a sensible approach at all, or whether domain- and application-specific types should be defined in domain or local namespaces within application profiles.</p>
+<p>The WG intends to work on a list of types that has been assembled by OCLC through analysis of a large number of their records.</p>
+<p>There is some concern as to whether the high-level DCMI Type Vocabulary contains the right set of terms. Some discussion within the working group may be needed to decide whether this should be changed to a list suitable for mapping onto from the above suggested OCLC list, including whether we are allowed to change an already ratified scheme considering the backwards compatibility implications for interoperability.</p>
+
+<a id="userguide" name="userguide"></a>
+<p><strong>User Guide</strong></p>
+<p>Chair: Diane Hillmann, US</p>
+<p>Mailing list subscriptions: 52</p>
+<p>Deliverable status:</p>
+<blockquote>
+<p>&shy; Using Dublin Core, final draft submitted for review in April 2001</p>
+</blockquote>
+<p>The new User Guide, including updated Glossary and References and Reading sections, has been submitted for publication. The examples in the Guide have been reviewed by the Architecture WG. The NISO ballot comments have not yet been integrated.</p>
+<p>NISO changes and comments, changes required as a result of completed documentation by the Architecture WG, and additional changes needed as a result of user comments will be part of the next work plan for "Using Dublin Core," to be in place by 1 July 2001.</p>
+
+<a id="specialinterest" name="specialinterest"></a>
+<h3>Special interest groups</h3>
+<a id="business" name="business"></a>
+<p><strong>Business</strong></p>
+<p>Chair: Mary Alice Ball, US</p>
+<p>Mailing list subscriptions: 45</p>
+<p>The group has been inactive since shortly after it was created. This group was started as a SIG rather than a working group in the interests of getting things going. The absence of deliverables as a driving mechanism is felt as a problem in getting a focused discussion in the group.</p>
+
+<a id="collaboratory" name="collaboratory"></a>
+<p><strong>Collaboratory</strong></p>
+<p>Chair: Roland Schw&auml;nzl, Germany</p>
+<p>Mailing list subscriptions: 19</p>
+<p>Roland has started with a request for information for an inventory: What initiatives/projects/groups are out there and what they do. This primarily should start with the initiatives that the subscribers of the list work on.</p>
+<p>Once some material is in place, discussions can start in which respect these initiatives are similar or different, leading to an identification of relevant issues.</p>
+
+<a id="movingpics" name="movingpics"></a>
+<p><strong>Moving Pictures</strong></p>
+<p>Chair: Simon Pockley, Australia</p>
+<p>This Special Interest group is in its start-up phase. Simon plans to announce the charter in May 2001.</p>
+
+<a id="multiplelang" name="multiplelang"></a>
+<p><strong>Multiple Languages</strong></p>
+<p>Chairs: Tom Baker, Germany; Jos&eacute; Borbinha, Portugal</p>
+<p>Mailing list subscriptions: 96</p>
+<p>The mailing list has had a relatively stable membership since Frankfurt, with few people joining or leaving and with few postings (aside from the occasional announcement and one or two substantive discussions). Translations appear from time to time -- most recently Polish and Interlingua (an Esperanto-like language) -- and these get announced on the list, on the DCMI Web site, and in DCMI Update. Any other topics will depend on the (most welcome) initiative of others in the SIG.</p>
+<p>Further work is dependent on a solid working model of the DCMI registry and outcomes of the Architecture WG, Registry WG, and the SCHEMAS Project. A number of policy issues related to the peer review and official recognition of translations will be revived when there is a real functioning registry to maintain.</p>
+
+<a id="otheractivities" name="otheractivities"></a> <h3>Other activities</h3> 
+<a id="dc2001" name="dc2001"></a>
+<p><strong>DC-2001</strong></p>
+<p>Conference chair: Jun Adachi, Japan</p>
+<p>Program chairs: Shigeo Sugimoto, Japan; Tom Baker, Germany</p>
+<p>Planning of the DC-2001 workshop in Tokyo (October 2001) is under way. The Call for Papers has been published in April. For the publication of papers, there is cooperation with JoDI, the Journal of Digital Information. A program committee that will review the submitted papers has been established.</p>
+<p>The event will consist of three tracks: a DC Annual Workshop, a Tutorial section, and the "International Conference on Dublin Core and Metadata Applications 2001". The DCMI Directorate will draft a program for the workshop part in May 2001.</p>
+
+<a id="tutorials" name="tutorials"></a>
+<p><strong>Tutorials</strong></p>
+<p>Activity leader: Erik Jul, US</p>
+<p>Erik has circulated a first draft of the tutorial plan to DC-AC. He is drafting a work plan and timetable.</p>
+
+<a id="standingcommittees" name="standingcommittees"></a>  <h3>Standing Committees</h3> 
+<a id="directorate" name="directorate"></a>
+<p><strong>Directorate</strong></p>
+<p>From the first of March 2001, the DCMI Directorate consists of Stu Weibel, Executive Director and Makx Dekkers, Managing Director. The following activities have taken place:</p>
+
+<a id="dcmimanagement" name="dcmimanagement"></a>
+<p><em>DCMI Management issues</em></p>
+<p>The Directorate has discussed a first priority list. Priorities include:</p>
+<blockquote>
+<p>&shy; Revision of work plan, deliverables and resourcing for WG Architecture</p>
+<p>&shy; Identification, review and publication of documents in the pipeline</p>
+<p>&shy; Establishment of work plans and resourcing for the Tools workshop, DC-2001 and Tutorials</p>
+<p>&shy; Status overview of all working and special interest groups</p>
+<p>&shy; Usage Board organization</p>
+<p>&shy; Citation working group</p>
+</blockquote>
+<p>On the basis of this priority list, the Directorate has had intensive contacts with the chairs of WG Architecture. The Directorate is organizing a formal review procedure for the deliverables that have been finalized.</p>
+<p>Through contacts with all chairs of Working Groups and Special Interest Groups, Makx has drafted an overall status report with a list of deliverables with their status and expected delivery date. This document will to be distributed on DC-General in April 2001.</p>
+<p>Regular Directorate conference calls have taken place. A Directorate meeting is being scheduled for May 2001 in Dublin, Ohio.</p>
+
+<a id="pubstrategy" name="pubstrategy"></a>
+<p><em>Publication strategy and policy issues</em></p>
+<p>The Directorate is working on a document describing the Publication strategy of the DCMI. This document is scheduled to be finalized in May 2001.</p>
+<p>A draft document describing the DCMI Namespace Policy has been sent to WG Architecture and WG Registry for comment. This document is scheduled to be reviewed in May 2001.</p>
+
+<a id="management" name="management"></a>
+<p><em>Management of EOR/DCMI Web Team</em></p>
+<p>The following activities have been undertaken:</p>
+<blockquote>
+<p>&shy; Full text search added to web site</p>
+<p>&shy; Stabilize Web site procedures in the face of staff departures</p>
+<p>&shy; Support SCHEMAS project objectives with EOR</p>
+</blockquote>
+
+<a id="communications" name="communications"></a>
+<p><em>Communications</em></p>
+<blockquote>
+<p>&shy; Preparation for WWW-10 tutorial</p>
+<p>&shy; DCMI Business Plan (for OCLC use)</p>
+<p>&shy; Presentation to FAO on DCMI (Stu - Rome)</p>
+</blockquote>
+<p>Further activities that are planned:</p>
+<blockquote>
+<p>&shy; Complete DCMI Namespace Policy document</p>
+<p>&shy; Apply for NSF Workshop Funding</p>
+<p>&shy; Organize coordination activity for EU Funding</p>
+<p>&shy; Prepare foundation support case statements</p>
+<p>&shy; Further assist chairs in drafting and updating work plans, adding delivery dates and reviewing human resources</p>
+<p>&shy; Draft management procedures handbook for chairs, including reporting structure and templates</p>
+</blockquote>
+
+<a id="executive" name="executive"></a>
+<p><strong>Executive Committee</strong></p>
+<p>The role of the Executive Committee is being redefined as a feedback group for the Directorate. Issues having been discussed in March and April include relationships with other metadata activities, and contacts with the localization industry and other business domains.</p>
+
+<a id="advisory" name="advisory"></a>
+<p><strong>Advisory Committee</strong></p>
+<p>A major subject for the AC after Ottawa was the proposal for Strategic Reorganization of the Dublin Core Metadata Initiative. In December 2000 and January 2001, a number of conference calls have taken place to discuss several drafts of this; in early February a subset of the AC met in Madeira to discuss the final draft.</p>
+<p>Other issues that have been discussed on the list include a pre-release of the DCMI Namespace Policy, potential cooperation within the DCMI participants in funding opportunities by the European Commission and an approach towards the tutorial track at DC-2001 in Tokyo.</p>
+
+<a id="usageboard" name="usageboard"></a>
+<p><strong>Usage Board</strong></p>
+<p>Chair: Tom Baker, Germany</p>
+<p>The first meeting is scheduled in Dublin, Ohio for 21-22 May 2001. Charter, working procedures, and all related documentation will be the topic of discussion at the first meeting.</p>
+<h3>Deliverables</h3> 
+<a id="deliverables" name="deliverables"></a>
+<table class="border" cellspacing="0">
+<tr>
+<th>Name</th>
+<th>Editor/contact</th>
+<th>Document status</th>
+<th>WG reference</th>
+<th>Process Status</th>
+<th>Scheduled Completion</th>
+</tr>
+<tr>
+<td>The A-Core: Metadata about Content Metadata</td>
+<td>Leif Andresen</td>
+<td>Draft 1999-06-30</td>
+<td>Administrative Metadata</td>
+<td>WG, basis for further work</td>
+<td>Planning under revision</td>
+</tr>
+<tr>
+<td>DC Architecture Task List</td>
+<td>Sigge Lundberg</td>
+<td>Under revision</td>
+<td>Architecture</td>
+<td>WG</td>
+<td>2001-04-30</td>
+</tr>
+<tr>
+<td>An XML encoding of Simple Dublin Core Metadata</td>
+<td>Dave Beckett</td>
+<td>Final draft 2001-04-11</td>
+<td>Architecture</td>
+<td>Review</td>
+<td>2001-05-31</td>
+</tr>
+<tr>
+<td>DCMI Architecture roadmap</td>
+<td>Dan Brickley</td>
+<td>Under development</td>
+<td>Architecture</td>
+<td>WG</td>
+<td>2001-04-30</td>
+</tr>
+<tr>
+<td>Expressing Qualified Dublin Core in RDF</td>
+<td>Roland Schw&auml;nzl</td>
+<td>Draft 2001-03-30</td>
+<td>Architecture</td>
+<td>WG</td>
+<td>2001-05-31</td>
+</tr>
+<tr>
+<td>Dublin Core Qualifiers (HTML encoded META)</td>
+<td>Simon Cox</td>
+<td>Draft 2000-08-15</td>
+<td>Architecture</td>
+<td>WG, being finalized</td>
+<td>2001-05-31</td>
+</tr>
+<tr>
+<td>A natural language expression for qualified Dublin Core metadata sentences</td>
+<td>Tom Baker</td>
+<td>Final, article published in DLib</td>
+<td>Architecture</td>
+<td>&nbsp;</td>
+<td>2001-03-30</td>
+</tr>
+<tr>
+<td>Bibliographic Citation</td>
+<td>Vacant</td>
+<td>Draft 1999-07-02</td>
+<td>Citation</td>
+<td>WG, under revision</td>
+<td>Planning under revision</td>
+</tr>
+<tr>
+<td>Citation Qualifier Proposal</td>
+<td>Vacant</td>
+<td>Draft 1999-11-03</td>
+<td>Citation</td>
+<td>WG, under revision</td>
+<td>Planning under revision</td>
+</tr>
+<tr>
+<td>Proposal for dc-ed:level</td>
+<td>Jon Mason</td>
+<td>Draft 2000-10-05</td>
+<td>Education</td>
+<td>Review Usage Board</td>
+<td>2001-05-31</td>
+</tr>
+<tr>
+<td>Proposal for Type vocabulary</td>
+<td>Jon Mason</td>
+<td>None</td>
+<td>Education</td>
+<td>WG -&gt; UB</td>
+<td>2001-10-31</td>
+</tr>
+<tr>
+<td>Proposal for dc-ed:audience refinements</td>
+<td>Jon Mason</td>
+<td>None</td>
+<td>Education</td>
+<td>WG -&gt; UB</td>
+<td>2001-10-31</td>
+</tr>
+<tr>
+<td>Proposal for teaching/learning processes and characteristics</td>
+<td>Jon Mason</td>
+<td>None</td>
+<td>Education</td>
+<td>WG</td>
+<td>2001-10-31</td>
+</tr>
+<tr>
+<td>Statement on the relation of the DCMI to GILS</td>
+<td>Makx Dekkers</td>
+<td>Draft 2000-08-03</td>
+<td>Government</td>
+<td>Directorate</td>
+<td>2001-05-11</td>
+</tr>
+<tr>
+<td>Survey of government implementation of DC</td>
+<td>Andrew Wilson</td>
+<td>None</td>
+<td>Government</td>
+<td>WG</td>
+<td>2001-05-31</td>
+</tr>
+<tr>
+<td>Using Dublin Core for managing government information</td>
+<td>Andrew Wilson</td>
+<td>None</td>
+<td>Government</td>
+<td>WG</td>
+<td>2001-09-30</td>
+</tr>
+<tr>
+<td>Library application profile</td>
+<td>Rebecca Guenther</td>
+<td>None</td>
+<td>Libraries</td>
+<td>WG</td>
+<td>2001-09-30</td>
+</tr>
+<tr>
+<td>Outline of purpose of registry</td>
+<td>Rachel Heery</td>
+<td>Draft 2001-01-21</td>
+<td>Registry</td>
+<td>WG</td>
+<td>2001-05-31</td>
+</tr>
+<tr>
+<td>Policy and process for qualifier approval process</td>
+<td>Tom Baker</td>
+<td>Draft</td>
+<td>Registry</td>
+<td>Review Usage Board</td>
+<td>2001-05-31</td>
+</tr>
+<tr>
+<td>Prototype DC Registry</td>
+<td>Rachel Heery</td>
+<td>Under development</td>
+<td>Registry</td>
+<td>WG</td>
+<td>2001-05-31</td>
+</tr>
+<tr>
+<td>Namespace Policy for the Dublin Core Metadata Initiative</td>
+<td>Stu Weibel</td>
+<td>Draft 2001-03-23</td>
+<td>Directorate</td>
+<td>Review</td>
+<td>2001-05-31</td>
+</tr>
+<tr>
+<td>Using Dublin Core</td>
+<td>Diane Hillmann</td>
+<td>Final Draft</td>
+<td>User Guide</td>
+<td>Review</td>
+<td>2001-05-31</td>
+</tr>
+</table>
+<!--#include virtual="/ssi/footer.shtml"-->
+</body>
+</html>

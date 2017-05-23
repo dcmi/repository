@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/pressreleases/qualifiers20000711.htm">
+   <dc:title>Dublin Core Metadata Initiative - Press Release: Dublin Core Releases Recommended Qualifiers</dc:title>
+   <dc:description>The Dublin Core Metadata Initiative, an organization leading the development
+      of international standards to improve electronic resource management and information discovery,
+      today announced the formal recommendation of the Dublin Core Qualifiers.</dc:description>
+   <dc:creator>Stuart Weibel</dc:creator>
+   <dc:creator>Eric Miller</dc:creator>
+   <dc:contributor>Jay Jordan</dc:contributor>
+   <dc:contributor>Clifford Lynch</dc:contributor>
+   <dc:contributor>Ralph R. Swick</dc:contributor>
+   <dc:contributor>Juha Hakala</dc:contributor>
+   <dc:contributor>Dr. Warwick Cathro</dc:contributor>
+   <dc:contributor>Peter Gerrand</dc:contributor>
+   <dc:contributor>Dr. Elisabeth Niggemann</dc:contributor>
+   <dc:contributor>ZOT Group</dc:contributor>
+   <dc:date>2000-07-11</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:type>press release</dc:type>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

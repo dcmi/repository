@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/DC/documents/wd/usageguide-qhtml-20000716.htm">
+   <dc:title>Using Dublin Core: Qualified HTML Examples</dc:title>
+   <dc:creator>Diane Hillmann</dc:creator>
+   <dc:description>This document is intended as an entry point for users of Dublin Core. 
+For non-specialists, it will assist them in creating simple descriptive records for 
+information resources (for example, electronic documents). Specialists may find the 
+document a useful point of reference to the documentation of Dublin Core, as it changes 
+and grows.</dc:description>
+   <dc:date>2000-07-16</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

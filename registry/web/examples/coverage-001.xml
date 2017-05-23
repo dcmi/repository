@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<metadata
+  xmlns="http://example.org/myapp/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://example.org/myapp/schema.xsd"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dctype="http://purl.org/dc/dcmitype/">
+
+  <dc:coverage>
+    <dcterms:W3CDTF>
+      <rdf:value>1999</rdf:value>
+    </dcterms:W3CDTF>
+  </dc:coverage>
+
+</metadata>

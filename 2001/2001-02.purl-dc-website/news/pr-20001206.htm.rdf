@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/news/pr-20001206.htm">
+   <dc:title>DCMI Press Release: E-Learning Takes Important Step Forward</dc:title>
+   <dc:description>The Learning Technology 
+Standards Committee Learning Objects Metadata (LTSC-LOM) Working Group of the 
+IEEE (Institute of Electrical and Electronics Engineers) and the Dublin Core Metadata 
+Initiative (DCMI) today announced their joint commitment to develop interoperable 
+metadata for learning, education and training. The joint Memorandum of Understanding 
+is signed by officers representing the LOM Working Group and DCMI. The document, 
+regarding the IEEE standard P1484.12, is co-signed by representatives of concurring 
+projects: ARIADNE (Alliance of Remote Instructional Authoring and Distribution 
+Networks for Europe), EdNA (Education Network Australia), GEM (Gateway to Educational 
+Materials), and the IMS Global Learning Consortium.</dc:description>
+   <dc:date>2000-12-06</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Dublin Core Metadata Initiative</dc:contributor>
+   <dc:contributor>IEEE (Institute of Electric and Electronics Engineers)</dc:contributor>
+   <dc:contributor>Learning Technology Standards Committee Learning Objects Metadata (LTSC-LOM) Working Group</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

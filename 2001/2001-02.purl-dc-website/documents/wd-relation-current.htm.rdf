@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/DC/documents/wd-relation-current.htm">
+   <dc:title>Relations Working Group - Relation Element Working Draft</dc:title>
+   <dc:description>This report is a record of the efforts of the Relations working group constituted following the Helsinki Metadata Workshop (DC-5) of October 1997.</dc:description>
+   <dc:date>1997-12-19</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Dublin Core Metadata Initiative</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

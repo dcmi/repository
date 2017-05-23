@@ -1,0 +1,19 @@
+<a name="mappingDiverseVocabs" id="mappingDiverseVocabs"></a>
+<p><strong>Mapping Diverse Vocabularies</strong></p>
+<blockquote>
+<p>While DCMI Metadata Terms and other core vocabularies increase the coherence of metadata by providing 
+shared reference points, the unavoidable proliferation of diverse but overlapping vocabularies threatens 
+to create metadata silos. A key part of the solution is to create machine-readable mappings. The activity 
+"mapping diverse vocabularies" aims at mapping DCMI metadata terms to related terms in other vocabularies. 
+In the absence of well-established practices for publishing and maintaining such mappings, this activity 
+aspires to establish a workflow and publication practices that can be adopted by other vocabulary maintainers. 
+The starting point for this activity is a mapping to the terms defined by the Schema.org initiative.</p>
+
+<p><em>Monitor &amp; participate in this activity:</em> 
+	<ul>
+    	<li>Meeting Minutes &amp; Work Agenda: <a href="http://wiki.dublincore.org/index.php/Schema.org_Alignment" target="_blank">Mapping Diverse Vocabularies activity wiki</a></li>
+    	<li>Discussion: <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-architecture&A=1" target="_blank">Architecture Forum mailing list</a> &amp; <a href="http://www.jiscmail.ac.uk/lists/DC-ARCHITECTURE.html" target="_blank">list archive</a></li>
+	</ul>	
+</p>
+</blockquote>
+<hr />

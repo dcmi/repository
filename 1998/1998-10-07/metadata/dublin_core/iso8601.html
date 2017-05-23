@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <TITLE>Date and Time Formats</TITLE>
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.01Gold (WinNT; I) [Netscape]">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<H1 ALIGN=CENTER>Please NOTE:</H1>
+
+<CENTER><P>This is a draft of a document in progress: it is NOT an official
+document at this time.</P></CENTER>
+
+<CENTER><P>It is expected to become a recommendation for date formats in
+HTML, and for this reason is included here as a recommendation for use
+in Dublin Core Metadata</P></CENTER>
+
+<DIV ALIGN=right><P>slw 1997-09-24</P></DIV>
+
+<H1 ALIGN=CENTER>
+<HR WIDTH="100%">Date and Time Formats</H1>
+
+<DL>
+<DT>Authors:</DT>
+
+<DD>Misha Wolf <A HREF="mailto:misha.wolf@reuters.com">&lt;misha.wolf@reuters.com&gt;<BR>
+</A>Charles Wicksteed <A HREF="mailto:charles.wicksteed@reuters.com">&lt;charles.wicksteed@reuters.com&gt;</A></DD>
+</DL>
+
+<P>
+<HR></P>
+
+<H2>Abstract</H2>
+
+<BLOCKQUOTE>
+<P>This document defines a profile of ISO 8601, the International Standard
+for the representation of dates and times. ISO 8601 describes a large number
+of date/time formats. To reduce the scope for error and the complexity
+of software, it is useful to restrict the supported formats to a small
+number. This profile defines a few date/time formats, likely to satisfy
+most requirements. </P>
+</BLOCKQUOTE>
+
+<P>
+<HR></P>
+
+<H2>Introduction</H2>
+
+<P>The International Standard for the representation of dates and times
+is ISO 8601. Its full reference number is ISO 8601 : 1988 (E), and its
+title is &quot;Data elements and interchange formats - Information interchange
+- Representation of dates and times&quot;. A <A HREF="http://www.ft.uni-erlangen.de/~mskuhn/iso-time.html">discussion</A>
+of ISO 8601 has been written by Markus Kuhn.</P>
+
+<P>ISO 8601 describes a large number of date/time formats. For example
+it defines Basic Format, without punctuation, and Extended Format, with
+punctuation, and it allows elements to be omitted. To simplify the use
+of ISO 8601 in World Wide Web-related standards, and to avoid the need
+for the developers and users of these standards to obtain copies of ISO
+8601 itself, we define here a range of formats. All these formats are valid
+ISO 8601 dates and times.</P>
+
+<P>This profile may be adopted by standards which require an unambiguous
+representation of dates and times. As different standards have their own
+requirements regarding granularity and flexibility, this profile offers
+a number of options. An adopting standard must specify which of these options
+it permits.</P>
+
+<P>
+<HR></P>
+
+<H2>Formats</H2>
+
+<P>Different standards may need different levels of granularity in the
+date and time, so this profile defines six levels. Standards that reference
+this profile should specify one or more of these granularities. If a given
+standard allows more than one granularity, it should specify the meaning
+of the dates and times with reduced precision, for example, the result
+of comparing two dates with different precisions.</P>
+
+<P>The formats are as follows. Exactly the components shown here must be
+present, with exactly this punctuation. Note that the &quot;T&quot; appears
+literally in the string, to indicate the beginning of the time element,
+as specified in ISO 8601. </P>
+
+<PRE>   Year:
+      YYYY (eg 1997)
+   Year and month:
+      YYYY-MM (eg 1997-07)
+   Complete date:
+      YYYY-MM-DD (eg 1997-07-16)
+   Complete date plus hours and minutes:
+      YYYY-MM-DDThh:mmTZD (eg 1997-07-16T19:20+01:00)
+   Complete date plus hours, minutes and seconds:
+      YYYY-MM-DDThh:mm:ssTZD (eg 1997-07-16T19:20:30+01:00)
+   Complete date plus hours, minutes, seconds and a decimal fraction of a second
+      YYYY-MM-DDThh:mm:ss.sTZD (eg 1997-07-16T19:20:30.45+01:00)
+    </PRE>
+
+<P>where:</P>
+
+<PRE>     YYYY = four-digit year
+     MM   = two-digit month (01=January, etc.)
+     DD   = two-digit day of month (01 through 31)
+     hh   = two digits of hour (00 through 23) (am/pm NOT allowed)
+     mm   = two digits of minute (00 through 59)
+     ss   = two digits of second (00 through 59)
+     s    = one or more digits representing a decimal fraction of a second
+     TZD  = time zone designator (Z or +hh:mm or -hh:mm)
+    </PRE>
+
+<P>This profile does not specify how many digits may be used to represent
+the decimal fraction of a second. An adopting standard that permits fractions
+of a second must specify both the minimum number of digits (a number greater
+than or equal to one) and the maximum number of digits (the maximum may
+be stated to be &quot;unlimited&quot;).</P>
+
+<P>This profile defines two ways of handling time zone offsets:</P>
+
+<OL>
+<LI>Times are expressed in UTC (Coordinated Universal Time), with a special
+UTC designator (&quot;Z&quot;). </LI>
+
+<LI>Times are expressed in local time, together with a time zone offset
+in hours and minutes. A time zone offset of &quot;+hh:mm&quot; indicates
+that the date/time uses a local time zone which is &quot;hh&quot; hours
+and &quot;mm&quot; minutes ahead of UTC. A time zone offset of &quot;-hh:mm&quot;
+indicates that the date/time uses a local time zone which is &quot;hh&quot;
+hours and &quot;mm&quot; minutes behind UTC. </LI>
+</OL>
+
+<P>A standard referencing this profile should permit one or both of these
+ways of handling time zone offsets.</P>
+
+<P>
+<HR></P>
+
+<H2>Examples</H2>
+
+<P><TT>1994-11-05T08:15:30-05:00</TT> corresponds to November 5, 1994,
+8:15:30 am, US Eastern Standard Time.</P>
+
+<P><TT>1994-11-05T13:15:30Z</TT> corresponds to the same instant.</P>
+
+<P>
+<HR></P>
+
+<H2>Acknowledgments</H2>
+
+<P>This document draws on Chris Newman's Internet Draft &quot;Date and
+Time on the Internet&quot; (draft-newman-datetime-01.txt).</P>
+
+</BODY>
+</HTML>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://dc.library.sh.cn/DC/dcset.html">
+	<dc:title xml:lang="zh-CN">DC &#x9879;&#x7ffb;&#x8bd1;</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.0 Reference Description (Chinese (Simplified) Translation)</dc:title>
+	<dc:date>1999-07-02</dc:date>
+	<dc:creator>Liu Wei</dc:creator>
+	<dc:creator rdf:resource="mailto:shuzic@online.sh.cn"/>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587;</dc:language>
+	<dc:language xml:lang="en-US">Chinese (Simplified)</dc:language>
+	<dc:language>zh-CN</dc:language>
+	<dc:publisher xml:lang="en-US">Shanghai Library, China</dc:publisher>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/1998/09/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>

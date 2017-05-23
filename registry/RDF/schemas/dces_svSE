@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;">
+
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label xml:lang="sv-SE">
+  Titel
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  Resursens namn, given av upphovsmannen eller utgivaren.
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  Vanligen &#x00e4;r titeln det namn under vilken resursen &#x00e4;r k&#x00e4;nd. 
+Titeln placeras oftast i b&#x00f6;rjan av resursen.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label xml:lang="sv-SE">
+  Medarbetare
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  Den enhet som har bidragit till inneh&#x00e5;llet i resursen.
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  Exempel p&#x00e5; medarbetare kan vara en person, en organisation, ett f&#x00f6;retag eller 
+en offentlig f&#x00f6;rvaltning. Vanligen anger man h&#x00e4;r medarbetarens namn.
+  </dc:description>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label xml:lang="sv-SE">
+  Upphovsman
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  Den enhet som &#x00e4;r huvudansvarig f&#x00f6;r resursens intellektuella inneh&#x00e5;ll.
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  Exempel p&#x00e5; upphovsman kan vara en person, en organisation, ett f&#x00f6;retag eller en 
+offentlig f&#x00f6;rvaltning. Vanligen anger man h&#x00e4;r upphovsmannens namn.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label xml:lang="sv-SE">
+  Utgivare
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  Den enhet som &#x00e4;r ansvarig f&#x00f6;r att ha gjort resursen tillg&#x00e4;nglig.
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  Exempel p&#x00e5; utgivare kan vara en person, en organisation, ett f&#x00f6;retag eller en 
+offentlig f&#x00f6;rvaltning. Vanligen anger man h&#x00e4;r utgivarens namn.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label xml:lang="sv-SE">
+  &#x00c4;mne och nyckelord
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  &#x00c4;mnet f&#x00f6;r resursens inneh&#x00e5;ll.
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  Vanligen uttrycks ett &#x00e4;mne med hj&#x00e4;lp av nyckelord/fraser eller 
+klassifikationskoder som beskriver vad resursen handlar om.
+Rekommendation: v&#x00e4;lj g&#x00e4;rna nyckelord eller koder ur kontrollerade &#x00e4;mnesordslistor 
+och formella klassifikationsscheman.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label xml:lang="sv-SE">
+  Beskrivning
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  En redog&#x00f6;relse f&#x00f6;r resursens inneh&#x00e5;ll.
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  Beskrivning kan inneh&#x00e5;lla men beh&#x00f6;ver inte begr&#x00e4;nsas till: en abstract, 
+en inneh&#x00e5;llsf&#x00f6;rteckning, en referens till en grafisk representation av inneh&#x00e5;llet 
+eller en fri beskrivning av inneh&#x00e5;llet.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label xml:lang="sv-SE">
+  Datum
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  Ett datum som associerar till en h&#x00e4;ndelse i resursens "livscykel".
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  Datum associerar vanligen till resursens tillblivelse eller tillg&#x00e4;nglighet. 
+Rekommendationer f&#x00f6;r hur man b&#x00e4;st anger datum beskrivs i dokumentet Date and time 
+formats, W3C Note [W3CDTF]. Dokumentet baserar sig p&#x00e5; ISO 8601 och f&#x00f6;ljer formatet 
+&#x00c5;&#x00c5;&#x00c5;&#x00c5;-MM-DD.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label xml:lang="sv-SE">
+  Typ av resurs
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  Egenskap eller genre hos resursens inneh&#x013a;ll.
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  Typ av resurs beskriver inneh&#x00e5;llet i resursen i termer av generella kategorier, 
+funktioner, genrer etc.
+Rekommenderad praxis: v&#x00e4;lj ett v&#x00e4;rde fr&#x013a;n en kontrollerad vokabul&#x00e4;r 
+(t.ex. "the working draft list of Dublin Core Types" [DCT1). F&#x00f6;r att beskriva resursens 
+fysiska eller digitala manifestationen anv&#x00e4;nd elementet FORMAT.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label xml:lang="sv-SE">
+  Format
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  Resursens fysiska eller digitala manifestation.
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  Vanligast &#x00e4;r att Format inkluderar resursens media-typ eller dimension. Format kan 
+anv&#x00e4;ndas f&#x00f6;r att best&#x00e4;mma vilken mjukvara, h&#x013a;rdvara eller annan utrustning som &#x00e4;r n&#x00f6;dv&#x00e4;ndig f&#x00f6;r att kunna visa eller anv&#x00e4;nda resursen. Exempel p&#x013a; dimension inkluderar storlek och varaktighet. 
+Rekommenderad praxis: v&#x00e4;lj ett v&#x00e4;rde fr&#x013a;n en kontrollerad vokabul&#x00e4;r 
+(t.ex. listan Internet Media Types [MIME] som definierar format f&#x00f6;r datamedia).
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label xml:lang="sv-SE">
+  Resursens identifikator
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  En entydig referens till resursen inom en given kontext.
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  Rekommendation: Identifiera g&#x00e4;rna resursen med hj&#x00e4;lp av en str&#x00e4;ng eller 
+ett nummer i enlighet med n&#x00e5;got formellt identifikationssystem. 
+Exempel p&#x00e5; formella identifikationssystem &#x00e4;r Uniform Resource Identifier (URI), Digital 
+Object Identifier (DOI) och International Standard Book Number (ISBN).
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label xml:lang="sv-SE">
+  Spr&#x00e5;k
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  Det spr&#x00e5;k som resursens intellektuella inneh&#x00e5;ll &#x00e4;r skrivet p&#x00e5;.
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  F&#x00f6;r val av v&#x00e4;rde i elementet Spr&#x00e5;k rekommenderas att f&#x00f6;lja de 
+rekommendationer som anges i RFC 1766 [RFC1766] och som inkluderar en tv&#x013a;st&#x00e4;llig 
+spr&#x013a;kkod (h&#x00e4;mtad fr&#x013a;n standarden ISO 639 [ISO639]), frivilligt f&#x00f6;ljt av 
+en tv&#x013a;st&#x00e4;llig landkod (h&#x00e4;mtad fr&#x013a;n standarden ISO 3166 [ISO3166]). 
+Exempel: , 'en' f&#x00f6;r engelska, 'fr' f&#x00f6;r franska eller 'en-uk' f&#x00f6;r brittisk 
+engelska.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label xml:lang="sv-SE">
+  Relation
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  Referens till en relaterad resurs.
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  Rekommenderad praxis: referera till den relaterade resursen med hj&#x00e4;lp av en 
+nummerstr&#x00e4;ng i enlighet med ett formellt identifikationssystem.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label xml:lang="sv-SE">
+  K&#x00e4;lla
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  En referens till en resurs som den aktuella resursen &#x00e4;r h&#x00e4;rledd fr&#x00e5;n.
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  Den aktuella resursen kan vara h&#x00e4;rledd fr&#x00e5;n k&#x00e4;llans resurs helt eller 
+delvis. Rekommenderas att identifiera k&#x00e4;llans resurs med hj&#x00e4;lp av en str&#x00e4;ng eller 
+ett nummer i enlighet med n&#x00e5;got formellt identifikationssystem.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label xml:lang="sv-SE">
+  T&#x00e4;ckning
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  Omfattning eller utstr&#x00e4;ckning hos resursens inneh&#x00e5;ll.
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  T&#x00e4;ckning inkluderar vanligen begrepp f&#x00f6;r rum (ett geografiskt namn eller 
+geografiska koordinater), begrepp f&#x00f6;r tid (namn p&#x00e5; en tidsperiod, ett datum eller ett 
+tidsintervall) eller begrepp f&#x00f6;r jurisdiktion (som t.ex. en namngiven administrativ enhet). 
+Rekomendation: V&#x00e4;lj ett v&#x00e4;rde ur en kontrollerad vokabul&#x00e4;r (t.ex. Thesaurus of 
+Geographic Names [TGN]. V&#x00e4;lj hellre, n&#x00e4;r s&#x00e5; &#x00e4;r l&#x00e4;mpligt, en 
+namngiven ort eller tidsperiod framf&#x00f6;r numeriska identifikatorer som koordinater och 
+sifferintervaller.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label xml:lang="sv-SE">
+  Hantering av r&#x00e4;ttigheter
+  </rdfs:label>
+  <rdfs:comment xml:lang="sv-SE">
+  Information om r&#x00e4;ttigheter knutna till resursen.
+  </rdfs:comment>
+  <dc:description xml:lang="sv-SE">
+  Elementet inneh&#x00e5;ller vanligen en redog&#x00f6;relse f&#x00f6;r hur r&#x00e4;ttigheter 
+f&#x00f6;r resursen hanteras, eller en referens till en tj&#x00e4;nst som tillhandah&#x00e5;ller 
+s&#x00e5;dan information. Information om r&#x00e4;ttigheter omfattar t.ex. Intellectual Property Rights 
+(IPR) och Copyright med flera.
+  </dc:description>
+</rdf:Property>
+
+
+</rdf:RDF>

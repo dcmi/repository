@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://dublincore.org/documents/dcq-html/">	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dc2008.de/xmlrpc.php?rsd" />
+ <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dc2008.de/wp-includes/wlwmanifest.xml" /> <script type='text/javascript' src='http://dc2008.de/wp-includes/js/prototype.js?ver=1.5.1.1'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-includes/js/scriptaculous/scriptaculous.js?ver=1.7.1-b3'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-includes/js/scriptaculous/effects.js?ver=1.7.1-b3'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-content/plugins/lightbox-2/lightbox.js?ver=2.2'></script>
+<link rel="stylesheet" type="text/css" href="http://dc2008.de/wp-content/plugins/contactforms/styling/cforms.css" />
+<script type="text/javascript" src="http://dc2008.de/wp-content/plugins/contactforms/js/cforms.js"></script>
+		<meta name="DC.publisher" content="DC 2008" />
+		<meta name="DC.publisher.url" content="http://dc2008.de/" />
+		<meta name="DC.title" content="Papers" />
+		<meta name="DC.identifier" content="http://dc2008.de/programme/papers" />
+		<meta name="DC.date.created" scheme="WTN8601" content="2007-08-21T13:01:54" />
+		<meta name="DC.creator" content="DC 2008 Organisation" />
+		<meta name="DC.rights.rightsHolder" content="DC 2008 Organisation" />
+		<meta name="DC.subject" content="DC-2008 Conference in Berlin, Germany" />
+
+	<!-- begin lightbox scripts -->
+	<script type="text/javascript">
+    //<![CDATA[
+    document.write('<link rel="stylesheet" href="http://dc2008.de/wp-content/plugins/lightbox-2/Themes/Black/lightbox.css" type="text/css" media="screen" />');
+    //]]>
+    </script>
+	<!-- end lightbox scripts -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="icon" href="http://dc2008.de/wp-content/themes/dc-2008/pics/favicon.ico" type="image/ico" />
+<meta name="DC.format" scheme="DCTERMS.IMT" content="text/html" />
+<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+
+<title>DC 2008 -    Papers</title>
+<link rel="stylesheet" href="http://dc2008.de/wp-content/themes/dc-2008/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://dc2008.de/wp-content/themes/dc-2008/print.css" type="text/css" media="print" />
+<link rel="alternate" type="application/rss+xml" href="http://dc2008.de/feed" title="News" />
+</head>
+
+ <body>
+  <div id="interface">
+
+   <div id="head">
+   </div>   <div id="container">
+    
+
+    <div id="content">
+     <div id="contentbox">
+      
+
+         <h1 id="post-14">Papers</h1>
+<div id="print_icon">
+</div>
+
+<!-- <br clear="all" /> -->
+<hr class="h2" />
+          <div class="storycontent">
+            <h2>Full Papers</h2>
+<h3>Full-Paper Plenary Session 1: Dublin Core: Innovation and Moving Forward</h3>
+<p><strong>Tuesday, 23 September 2008</strong> 11:45 - 12:30 Main Building - Kinosaal<br/></p>
+<ol>
+<li>Encoding Application Profiles in a Computational Model of the Crosswalk - <em>Carol Jean Godby, Devon Smith, Eric Childress</em></li>
+<li>Relating Folksonomies with Dublin Core - <em>Maria Elisabete Catarino, Ana Alice Baptista</em></li>
+</ol>
+<p><br/></p>
+<h3>Full-Paper Plenary Session 2: Semantic Integration, Linking, and KOS Methods</h3>
+<p><strong>Tuesday, 23 September 2008</strong> 14:00 - 15:10 Main Building - Kinosaal<br/></p>
+<ol>
+<li>LCSH, SKOS and Linked Data - <em>Ed Summers, Antoine Isaac, Clay Redding, Dan Krech</em></li>
+<li>Theme Creation for Digital Collections - <em>Xia Lin, Jiexun Li, Xiaohua Zhou</em></li>
+<li>Comparing human and automatic thesaurus mapping approaches in the agricultural domain - <em>Boris Lauser, Gudrun Johannsen, Caterina Caracciolo, Johannes Keizer, Willem Robert van Hage, Philipp Mayr</em></li>
+</ol>
+<p><br/></p>
+<h3>Full-Paper Plenary Session 3: Metadata Generation: Methods, Profiles, and Models</h3>
+<p><strong>Wednesday, 24 September 2008</strong> 11:00 - 11:45 Main Building - Kinosaal<br/></p>
+<ol>
+<li>Automatic Metadata Extraction from Museum Specimen Labels - <em>P. Bryan Heidorn</em></li>
+<li>Achievement Standards Network (ASN): An Appplication Profile for Mapping K-12 Educational Resources to Achievement Standards - <em>Stuart A. Sutton, Diny Golder</em></li>
+<li>Collection/Item Metadata Relationships - <em>Allen H. Renear, Richard J. Urban, Karen M. Wickett, David Dubin, Sarah L. Shreeves</em></li>
+</ol>
+<p><br/></p>
+<h3>Full-Paper Plenary Session 4: Metadata Quality</h3>
+<p><strong>Thursday, 25 September 2008</strong> 09:45 - 10:30 Main Building - Kinosaal<br/></p>
+<ol>
+<li>Answering the call for more accountability: Applying data profiling to museum metadata - <em>Seth van Hooland, Yves Bontemps, Seth Kaufman</em></li>
+<li>A Conceptual Framework for Metadata Quality Assessment - <em>Margaritopoulos Thomas, Margaritopoulos Merkourios, Mavridis Ioannis, Manitsaris Athanasios</em></li>
+</ol>
+<p><br/></p>
+<h3>Full-Paper Plenary Session 5: Tagging and Metadata for Social Networking</h3>
+<p><strong>Thursday, 25 September 2008</strong> 11:00 - 11:45 Main Building - Kinosaal<br/></p>
+<ol>
+<li>Semantic Relation Extraction from Socially-Generated Tags: A Methodological Exploration - <em>Miao Chen, Xiaozhong Liu, Jian Qin</em></li>
+<li>The State of the Art in Tag Ontologies: A Semantic Model for Tagging and Folksonomies - <em>Hak Lae Kim, Simon Scerri, John G. Breslin, Stefan Decker, Hong Gee Kim</em></li>
+</ol>
+<p><br/></p>
+<h2>Project Reports</h2>
+<h3>Project Report Session 1: Toward the Semantic Web</h3>
+<p><strong>Tuesday, 23 September 2008</strong> 16:00 - 17:30 Hegelplatz 1.101<br/></p>
+<ol>
+<li>DCMF: Dublin Core and Microformats, a good marriage - <em>Eva Méndez, Leandro M. López, Arnau Siches, A. G. Bravo</em></li>
+<li>Making a Library Catalogue Part of the Semantic Web - <em>Martin Malmsten</em></li>
+</ol>
+<p><br/></p>
+<h3>Project Report Session 2: Metadata Scheme Design, Application, and Use</h3>
+<p><strong>Wednesday, 24 September 2008</strong> 13:00 - 14:30 Hegelplatz 1.101<br/></p>
+<ol>
+<li>The Dryad Data Repository:  A Singapore Framework Metadata Architecture in a DSpace Environment - <em>Hollie C. White, Sarah Carrier, Abbey Thompson, Jane Greenberg, Ryan Scherle</em></li>
+<li>Applying DCMI Elements to Digital Images and Text in the Archimedes Pallimpset Program - <em>Michael B. Toth, Doug Emery</em></li>
+<li>The Descriptive Substance in Collection-Level Metadata - <em>Oksana Zavalina, Carole Palmer, Amy S. Jackson, Myung-Ja Han</em></li>
+</ol>
+<p><br/></p>
+<h3>Special Session: Metadata and Wiki</h3>
+<p><strong>Wednesday, 24 September 2008</strong> 15:00 - 16:30 Hegelplatz 1.101<br/></p>
+<ol>
+<li>Facilitating Wiki/Repository Communication with Metadata - <em>Laura M.<br />
+Bartolo, Cathy S. Lowe, Robert J. Tandy</em></li>
+<li>Aratta: A Web-based Research Tool for Collaborative Research on Iranian Architectural History - <em>Emad Khazraee, Hamed Malek, Omid Shams</em></li>
+<li>Wikipedia as Controlled Vocabulary - <em>Silver Oliver, Chris Sizemore</em></li>
+</ol>
+<p><br/></p>
+<h3>Project Report Session 3: Vocabulary Integration and Interoperability</h3>
+<p><strong>Thursday, 25 September 2008</strong> 13:00 - 14:30 Hegelplatz 1.101<br/></p>
+<ol>
+<li>Building a terminology network for search: the KoMoHe project - <em>Philipp Mayr, Vivien Petras</em></li>
+<li>Cool URIs for the DDC: Towards Web-scale accessibility of a large classification system - Michael Panzer</li>
+<li>The Specification of the Language of the Field and Interoperability: Cross-language Access to Catalogues and Online Libraries (CACAO) - <em>Barbara Levergood, Stefan Farrenkopf, Elisabeth Frasnelli</em></li>
+</ol>
+          </div>
+                  </div>
+     </div>
+     <div id="navi">
+     <div id="navibox">
+      <ul>
+
+<li class="page_item"><a href="http://dc2008.de" title="Home">Home</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/papers" title="Call for Papers">Call for Papers</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/news" title="News">News Archive</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/organisation" title="Organisation">Organisation</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/call-for-sponsors" title="Call for Sponsors">Call for Sponsors</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/programme" title="Programme">Programme</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/information-for-authors" title="Information for Authors">Author Info</a></li>
+ 
+<li class="page_item"><a href="http://dc2008.de/registration" title="Registration">Registration</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/accommodation" title="Accommodation">Accommodation</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/conference-venue" title="Conference Venue">Conference Venue</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/about-berlin" title="About Berlin">About Berlin</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/links" title="Links">Links</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/contact" title="Contact">Contact</a></li>
+</ul> 
+
+<br /><br />
+organised by:
+
+<div align="center">
+<a href="http://www.kim-forum.org/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/kim_logo_skal.png" alt="KIM - Kompetenzzentrum Interoperable Metadaten" /></a>
+
+<a href="http://www.sub.uni-goettingen.de/index-e.html"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/sub_logo_klein.jpg" alt="Niedersächsische Staats- und Universitätsbibliothek Göttingen"/></a>
+
+<a href="http://www.mpdl.mpg.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/mpdl.png"  alt="Max Planck digital library" /></a>
+
+<a href="http://www.d-nb.de/eng/index.htm"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/DNB_neu_skal1.png" alt="Deutsche Nationalbibliothek" /></a>
+
+<a href="http://www.hu-berlin.de/index_html-en?set_language=en&amp;cl=en"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/husiegel.png" alt="Humboldt-Universität zu Berlin" /></a>
+</div>
+
+<a href="http://www.dublincore.org/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/DC_Logo_skla.png" alt="Dublin Core Metadata Initiative"/></a>
+</div>
+
+<br /><br />
+supported by:
+<br /><br />
+<div align="center"><a href="http://www.wikimedia.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/wikimedia.png" alt="Wikimedia Deutschland - Gesellschaft zur Förderung Freien Wissens e.V."/></a><br />
+</div>
+
+<br /><br />
+funded by:
+<br /><br />
+<div align="center"><a href="http://www.dfg.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/dfg_sw.gif" alt="Deutsche Forschungsgemeinschaft" /></a></div>
+<div align="center"><a href="http://www.bmbf.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/bmbf_skal.gif" alt="Bundesministerium für Bildung und Forschung" /></a></div>
+<br /> 
+     </div>
+    </div>
+       <div id="footer" align="center">
+Copyright © 1995-2008 DCMI All Rights Reserved. &mdash; © Pictures:  <a href="http://www.visitberlin.de" target="_blank" class="footerlink">www.visitberlin.de</a> &mdash; <a class="footerlink_impressum" href="http://dc2008.de/impressum">Impressum</a>
+
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description about="http://dublincore.org/archives/2002/statusreport/statusreport-200204.shtml">
+<dc:title>Dublin Core Metadata Initiative - Status Report, April 2002</dc:title>
+<dc:description>This report on the status of the Dublin Core Metadata Initiative covers the activities that have taken place since DC-2001 in Tokyo, October 2001, until end of March 2002. A progress report covering the results in the year 2001 and the workplan for 2002 has been published in DLib magazine </dc:description>
+<dc:date>2002-04-16</dc:date>
+<dc:format>text/html</dc:format>
+<dc:creator>Makx Dekkers</dc:creator>
+<dc:language>en</dc:language>
+<dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+</rdf:Description>
+</rdf:RDF> 

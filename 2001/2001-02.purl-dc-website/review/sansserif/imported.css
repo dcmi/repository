@@ -1,0 +1,162 @@
+BODY ADDRESS {
+line-height: 1.2;
+margin: .6em 0;
+}
+
+BODY BLOCKQUOTE {
+margin-top: .75em;
+line-height: 1.2;
+margin-bottom: .75em;
+}
+
+BODY DD {
+line-height: 1.2;
+margin: 0 0 0 5%;
+}
+
+BODY DIV {
+margin: 0;
+}
+
+BODY DL {
+margin: .8em 0;
+}
+
+BODY DT {
+margin: .3em 0 0 0;
+line-height: 1.2;
+}
+
+BODY FORM {
+margin: .6em 0;
+}
+
+BODY H1, BODY H2, BODY H3, BODY H4, BODY H5, BODY H6 {
+margin-left: 0;
+}
+
+BODY H1 {
+margin: 0 0 0 0%;
+line-height: 1.2;
+}
+
+BODY H2 {
+margin: 0 0 0 0%;
+line-height: 1.2;
+}
+
+BODY H3 {
+margin: 0 0 0 0%;
+line-height: 1.2;
+}
+
+BODY H4 {
+margin: 0 0 0 0%;
+line-height: 1.2;
+}
+
+BODY H5 {
+margin: 0 0 0 0%;
+line-height: 1.2;
+}
+
+BODY H6 {
+margin: 0 0 0 0%;
+line-height: 1.2;
+}
+
+BODY HR {
+margin: .6em;
+}
+
+BODY LI {
+margin: .4em 0;
+}
+
+BODY OL {
+margin: 0 0 0 5%;
+line-height: 1.0;
+}
+
+BODY P {
+margin: .6em 0;
+line-height: 1.2;
+}
+
+BODY PRE {
+margin: .75em 0;
+line-height: 1.2;
+}
+
+BODY TD {
+line-height: 1.2;
+}
+
+BODY TH {
+line-height: 1.2;
+}
+
+BODY UL, BODY DIR, BODY MENU {
+line-height: 1.0;
+}
+
+/* Modifies the entire document's margins. */
+/* If HTML BODY margin is set to 0 0 0 0, then BODY tag in document must be set to LEFTMARGIN="0" TOPMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0" for Netscape and IE bug. */
+/* margin: top right bottom left */
+HTML BODY {
+margin: 2% 5% 2% 5%;
+line-height: 1.2;
+}
+
+/* ****************** Style for printing  ************** */
+
+@media print {
+H1, H2, H3, H4, H5, H6 {
+page-break-after: avoid;
+page-break-inside: avoid;
+}
+
+BLOCKQUOTE, PRE {
+page-break-inside: avoid;
+}
+
+UL, OL, DL {
+page-break-before: avoid;
+}
+
+.navbar {
+background-color: #FFFFFF;
+border-color: #000000;
+border-width: 1px;
+}
+
+A.navlink {
+font-weight: normal;
+}
+}
+
+/* ****************** Style for speech  ************** */
+
+@media aural {
+H1, H2, H3,
+H4, H5, H6    { voice-family: paul, male; stress: 20; richness: 90 }
+H1            { pitch: x-low; pitch-range: 90 }
+H2            { pitch: x-low; pitch-range: 80 }
+H3            { pitch: low; pitch-range: 70 }
+H4            { pitch: medium; pitch-range: 60 }
+H5            { pitch: medium; pitch-range: 50 }
+H6            { pitch: medium; pitch-range: 40 }
+LI, DT, DD    { pitch: medium; richness: 60 }
+DT            { stress: 80 }
+PRE, CODE, TT { pitch: medium; pitch-range: 0; stress: 0; richness: 80 }
+EM            { pitch: medium; pitch-range: 60; stress: 60; richness: 50 }
+STRONG        { pitch: medium; pitch-range: 60; stress: 90; richness: 90 }
+DFN           { pitch: high; pitch-range: 60; stress: 60 }
+S, STRIKE     { richness: 0 }
+I             { pitch: medium; pitch-range: 60; stress: 60; richness: 50 }
+B             { pitch: medium; pitch-range: 60; stress: 90; richness: 90 }
+U             { richness: 0 }
+A:link        { voice-family: harry, male }
+A:visited     { voice-family: betty, female }
+A:active      { voice-family: betty, female; pitch-range: 80; pitch: x-high }
+}

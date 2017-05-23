@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  
+<head>
+    
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    
+<title>DCMI Website Standards and Policy Manual - Imagery</title>
+    
+<meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    
+<link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+ 
+</script>
+  
+</head>
+
+  
+<body>
+    
+<!--#include virtual="/ssi/policies/header.shtml" -->
+<table
+    summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content."
+     border="0" width="100%" cellspacing="0" cellpadding="5">
+      <tbody>
+        
+<tr valign="top">
+          
+<td bgcolor="#EEEEEE" width="150">
+            
+<!--#include virtual="/ssi/policies/design.shtml" -->
+</td>
+<td>
+<h1>Imagery</h1>
+<p>Imagery refers to any photographs, illustrations or other pieces of art that you use on Dublin Core Metadata Initiative communications. Imagery can be a powerful reflection of our identity and should consistently express the DCMI <a href="/policies/design/message.shtml">Key Message</a>. It should be friendly, accessible, new and imaginative. Because we are a global organization, it should also be geared toward a global audience. And always think in terms of audience benefits when choosing imagery.</p>
+<h2>General guidelines</h2>
+<ul>
+<li>Be sensitive to our audiences and their cultures.</li>
+<li>Use people/models that represent actual DCMI users.</li>
+<li>Use illustrations to depict abstract ideas or editorialize. Avoid using clip art.</li>
+<li>Concentrate on the main image, and be careful not to create visual clutter, which can detract from the message.</li>
+</ul>
+<h2>Image sources</h2>
+<p>Because the images you choose for any DCMI project immediately become associated with DCMI's image, our guidelines require they be of high quality and professionally produced.</p>
+</td>
+</tr>
+      </tbody>
+    
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

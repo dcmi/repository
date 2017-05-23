@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>Strong Emphasis</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1 id="title">Strong Emphasis</h1>
+<dl>
+<dt>HTML Tag:</dt>
+<dd><code>&lt;STRONG&gt;&lt;/STRONG&gt;</code></dd>
+<dt>Guidelines:</dt>
+<dd>A <code>STRONG</code> element is one that contains text that indicates a stronger emphasis that the <code>EM</code> element. Whereas an <code>EM</code> element is typically rendered as italic text, a <code>STRONG</code> element is generally rendered as boldface text.</dd>
+<dt>Warnings:</dt>
+<dd>-</dd>
+<dt>Priority:</dt>
+<dd>-</dd>
+</dl>
+<h2>Browser View:</h2>
+<p>Participants are expected to be <strong>familiar with Dublin Core basics</strong> and should have expertise and interest in advancing the state of Dublin Core standards or deployment.</p>
+<h2>Source View:</h2>
+<code>&lt;P&gt;Participants are expected to be &lt;STRONG&gt;familiar with Dublin Core basics&lt;/STRONG&gt; and should have expertise and interest in advancing the state of Dublin Core standards or deployment.&lt;/P&gt;</code>
+</body>
+</html>

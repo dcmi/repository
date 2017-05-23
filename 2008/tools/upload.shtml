@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DCMI Tools and Software</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>Proposal of Software and Tools for the DCMI <a href="/tools/">Compilation</a></h1>
+<font color="red">This service is still under contruction!</font>
+<form method="post" action="http://physnet.physik.uni-oldenburg.de/~severien/tools-liste/upload-tools.cgi">
+<table cellspacing="0" class="noborder">
+<tr><td><font color="red"><sup>*</sup></font>Title:</td>
+    <td><input type="text" name="title" size="80" maxlength="240"></td></tr>
+<tr><td><font color="red"><sup>*</sup></font>Identifier:</td>
+    <td><input type="text" name="identifier" size="80" maxlength="240"></td></tr>
+<tr><td><font color="red"><sup>*</sup></font>Service-Type:</td>
+    <td><input type="checkbox" name="down" value="online"> online service&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="down" value="down"> download software&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="down" value="web"> WebService</td></tr>
+<tr><td><font color="red"><sup>*</sup></font>Freeness:</td>
+    <td><input type="radio" name="pay" value="free"> free service&nbsp;&nbsp;&nbsp;
+    <input type="radio" name="pay" value="com"> pay service</td></tr>
+<tr><td><font color="red"><sup>*</sup></font>Functionality:</td>
+    <td><input type="checkbox" name="type" value="conversion"> Conversion&nbsp;<small><a href="http://www.dublincore.org/groups/tools/glossary.shtml">(Definitions)</a></small><br />
+	<input type="checkbox" name="type" value="crosswalk"> Crosswalk<br />
+	<input type="checkbox" name="type" value="creation"> Metadata Creation<br />
+	<input type="checkbox" name="type" value="encoding"> Metadata Encoding<br />
+	<input type="checkbox" name="type" value="extraction"> Metadata Extraction<br />
+	<input type="checkbox" name="type" value="generation"> Metadata Generation<br />
+	<input type="checkbox" name="type" value="harvesting"> Metadata Harvesting<br />
+	<input type="checkbox" name="type" value="template"> Metadata Template<br />
+	<input type="checkbox" name="type" value="search"> Search Engine<br />
+	<input type="checkbox" name="type" value="translation"> Translation<br />
+	<input type="checkbox" name="type" value="transliteration"> Transliteration
+</td></tr>
+<tr><td><font color="red"><sup>*</sup></font>Description:</td>
+    <td><textarea name="description" cols="60" rows="2" maxlength="2500"></textarea>
+<tr><td>Date:</td>
+    <td><input type="text" name="date" size="20" maxlength="20">&nbsp;<small>yyyy or mm-yyyy or dd-mm-yyyy</small></td></tr>
+<tr><td>Language(s):</td>
+    <td><input type="text" name="date" size="40" maxlength="40">&nbsp;<small><a href="http://www.loc.gov/standards/iso639-2/php/code_list.php">(ISO 639-2)</a></small></td></tr>
+<tr><td><font color="red"><sup>*</sup></font>Publisher/Provider:</td>
+    <td><input type="text" name="publisher" size="80" maxlength="240"></td></tr>
+<tr><td>Creator(s):</td>
+    <td><input type="text" name="creator" size="80" maxlength="240"></td></tr>
+<tr><td>Contributor(s):</td>
+    <td><input type="text" name="contributor" size="80" maxlength="240"></td></tr>
+<tr><td>Rights-Holder(s):</td>
+    <td><input type="text" name="rholder" size="80" maxlength="240"></td></tr>
+<tr><td>Rights:</td>
+    <td><input type="text" name="rights" size="50" maxlength="240">&nbsp;<small>URL or e.g. "GPL", "LGPL"</small></td></tr>
+<tr><td>Programming Language:</td>
+    <td><input type="text" name="plang" size="50" maxlength="240">&nbsp;<small>Java, Perl, Python etc.</small></td></tr>
+<tr><td>Operating System:</td>
+    <td><input type="text" name="op" size="50" maxlength="240">&nbsp;<small>Unix, XP, Linux etc.</small></td></tr>
+</table>
+<input type="submit" value="Send Proposal for Review">
+</form>
+<font color="red"><sup>*</sup></font> mandatary fields
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

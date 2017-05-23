@@ -1,0 +1,693 @@
+<html>
+<head>
+<title>DC-2007 Dublin Core and Metadata Applications</title>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<meta name="DC.title" content="DC-2007 Dublin Core and Metadata Applications" />
+<meta name="DC.subject" content="Application Profiles: Theory and Practice" />
+<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+<meta name="DC.format" content="text/html" />
+<meta name="DC.format" content="17163 bytes" />
+<meta name="DC.identifier" scheme="DCTERMS.URI" content="http://www.dc2007.sg" />
+
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#ffffff">
+
+<table border="0" cellpadding="0" cellspacing="0" width="800" height="600" align="center">
+  <!--DWLayoutTable-->
+<!-- fwtable fwsrc="5.png" fwbase="iisstart.jpg" fwstyle="Generic" fwdocid = "742308039" fwnested="0" -->
+  <tr>
+    <td height="94" colspan="2" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <!--DWLayoutTable-->
+      <tr>
+        <td height="125" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="605" height="125">
+          <param name="movie" value="Header.swf">
+          <param name="quality" value="high">
+          <embed src="Header.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="605" height="125"></embed>
+        </object></td>
+      <td width="195" valign="top" align="left"><img src="Logo.gif" width="195" height="125"></td>
+      </tr>
+    </table>    </td>
+  </tr>
+  <tr>
+     <td width="178" height="505" valign="top" bgcolor="#FFF9F9"><html>
+<head>
+<title>left_Banner.jpg</title>
+<meta http-equiv="Content-Type" content="text/html;">
+
+<script language="JavaScript">
+<!-- hide
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+// stop hiding -->
+</script>
+</head>
+<body bgcolor="#ffffff">
+
+  <script language="JavaScript">
+  <!-- hide 
+  if (document.images) {
+  Home_f2 = new Image(174 ,24); Home_f2.src = "Home_f2.jpg";
+  Home_f1 = new Image(174 ,24); Home_f1.src = "Home.jpg";
+  Organization_f2 = new Image(174 ,25); Organization_f2.src = "Organization_f2.jpg";
+  Organization_f1 = new Image(174 ,25); Organization_f1.src = "Organization.jpg";
+  Programme_f2 = new Image(174 ,26); Programme_f2.src = "Programme_f2.jpg";
+  Programme_f1 = new Image(174 ,26); Programme_f1.src = "Programme.jpg";
+  Speakers_f2 = new Image(174 ,26); Speakers_f2.src = "Speakers_f2.jpg";
+  Speakers_f1 = new Image(174 ,26); Speakers_f1.src = "Speakers.jpg";
+  Sessions_f2 = new Image(174 ,26); Sessions_f2.src = "Sessions_f2.jpg";
+  Sessions_f1 = new Image(174 ,26); Sessions_f1.src = "Sessions.jpg";
+  Registration_f2 = new Image(174 ,26); Registration_f2.src = "Registration_f2.jpg";
+  Registration_f1 = new Image(174 ,26); Registration_f1.src = "Registration.jpg";
+  CallforPapers_f2 = new Image(174 ,26); CallforPapers_f2.src = "CallforPapers_f2.jpg";
+  CallforPapers_f1 = new Image(174 ,26); CallforPapers_f1.src = "CallforPapers.jpg";
+  CallforSponsors_f2 = new Image(174 ,26); CallforSponsors_f2.src = "CallforSponsors_f2.jpg";
+  CallforSponsors_f1 = new Image(174 ,26); CallforSponsors_f1.src = "CallforSponsors.jpg";
+  conferenceSponsors_f2 = new Image(174 ,26); conferenceSponsors_f2.src = "conferenceSponsors_f2.jpg";
+  conferenceSponsors_f1 = new Image(174 ,26); conferenceSponsors_f1.src = "conferenceSponsors.jpg";
+  conferenceVenue_f2 = new Image(174 ,25); conferenceVenue_f2.src = "conferenceVenue_f2.jpg";
+  conferenceVenue_f1 = new Image(174 ,25); conferenceVenue_f1.src = "conferenceVenue.jpg";
+  accommodation_f2 = new Image(174 ,26); accommodation_f2.src = "accommodation_f2.jpg";
+  accommodation_f1 = new Image(174 ,26); accommodation_f1.src = "accommodation.jpg";
+  AboutSingapore_f2 = new Image(174 ,26); AboutSingapore_f2.src = "AboutSingapore_f2.jpg";
+  AboutSingapore_f1 = new Image(174 ,26); AboutSingapore_f1.src = "AboutSingapore.jpg";
+  DublinCoreLogo_f2 = new Image(140 ,49); DublinCoreLogo_f2.src = "DublinCoreLogo_f2.jpg";
+  DublinCoreLogo_f1 = new Image(140 ,49); DublinCoreLogo_f1.src = "DublinCoreLogo.jpg";
+  NLBLogo_f2 = new Image(81 ,53); NLBLogo_f2.src = "NLBLogo_f2.jpg";
+  NLBLogo_f1 = new Image(81 ,53); NLBLogo_f1.src = "NLBLogo.jpg";
+  NanyangLogo_f2 = new Image(87 ,32); NanyangLogo_f2.src = "NanyangLogo_f2.jpg";
+  NanyangLogo_f1 = new Image(87 ,32); NanyangLogo_f1.src = "NanyangLogo.jpg";
+  ilds_f2 = new Image(140 ,49); ilds_f2.src = "ilds_f2.jpg";
+  ilds_f1 = new Image(140 ,49); ilds_f1.src = "ilds.jpg";
+  IFLALogo_f2 = new Image(140 ,49); IFLALogo_f2.src = "IFLALogo_f2.jpg";
+  IFLALogo_f1 = new Image(140 ,49); IFLALogo_f1.src = "IFLALogo.jpg";
+  }
+  // stop hiding -->
+  </script>
+<table border="0" cellpadding="0" cellspacing="0" width="183">
+<!-- fwtable fwsrc="left_banner2.png" fwbase="left_Banner.jpg" fwstyle="Generic" fwdocid = "742308039" fwnested="0" -->
+  <tr>
+   <td><img src="spacer.gif" width="10" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="81" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="6" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="53" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="24" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="9" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+
+  <tr>
+   <td colspan="5"><a href="index.asp?section=intro" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Home','','Home_f2.jpg',1);"><img name="Home" src="Home.jpg" width="174" height="24" border="0" alt="Home"></a></td>
+   <td rowspan="25"><img name="left_Banner_r1_c6" src="left_Banner_r1_c6.jpg" width="9" height="680" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="24" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=organization" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Organization','','Organization_f2.jpg',1);"><img name="Organization" src="Organization.jpg" width="174" height="25" border="0" alt="Organization"></a></td>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2" colspan="5"><a href="index.asp?section=programme" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Programme','','Programme_f2.jpg',1);"><img name="Programme" src="Programme.jpg" width="174" height="26" border="0" alt="Programme"></a></td>
+   <td><img src="spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=speakers" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Speakers','','Speakers_f2.jpg',1);"><img name="Speakers" src="Speakers.jpg" width="174" height="26" border="0" alt="Speakers"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=session"><img name="Sessions" src="Sessions.jpg" width="174" height="26" border="0" alt="Sessions"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=registration" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Registration','','Registration_f2.jpg',1);"><img name="Registration" src="Registration.jpg" width="174" height="26" border="0" alt="Registration"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=callforpapers" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('CallforPapers','','CallforPapers_f2.jpg',1);"><img name="CallforPapers" src="CallforPapers.jpg" width="174" height="26" border="0" alt="Call for Papers"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=callforsponsors" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('CallforSponsors','','CallforSponsors_f2.jpg',1);"><img name="CallforSponsors" src="CallforSponsors.jpg" width="174" height="26" border="0" alt="Call for Sponsors"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=sponsors" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('conferenceSponsors','','conferenceSponsors_f2.jpg',1);"><img name="conferenceSponsors" src="conferenceSponsors.jpg" width="174" height="26" border="0" alt="Conference Sponsors"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=venue" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('conferenceVenue','','conferenceVenue_f2.jpg',1);"><img name="conferenceVenue" src="conferenceVenue.jpg" width="174" height="25" border="0" alt="Conference Venue"></a></td>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2" colspan="5"><a href="index.asp?section=accommodation" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('accommodation','','accommodation_f2.jpg',1);"><img name="accommodation" src="accommodation.jpg" width="174" height="26" border="0" alt="Accommodation"></a></td>
+   <td><img src="spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=aboutSingapore" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('AboutSingapore','','AboutSingapore_f2.jpg',1);"><img name="AboutSingapore" src="AboutSingapore.jpg" width="174" height="26" border="0" alt="About Singapore"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><img name="left_Banner_r15_c1" src="left_Banner_r15_c1.jpg" width="174" height="68" border="0" usemap="#m_left_Banner_r15_c1" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="68" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="10"><img name="left_Banner_r16_c1" src="left_Banner_r16_c1.jpg" width="10" height="304" border="0" alt=""></td>
+   <td colspan="3"><a href="http://www.dublincore.org" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('DublinCoreLogo','','DublinCoreLogo_f2.jpg',1);"><img name="DublinCoreLogo" src="DublinCoreLogo.jpg" width="140" height="49" border="0" alt="Dublin Core Metadata Initiative"></a></td>
+   <td rowspan="10"><img name="left_Banner_r16_c5" src="left_Banner_r16_c5.jpg" width="24" height="304" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="49" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="left_Banner_r17_c2" src="left_Banner_r17_c2.jpg" width="140" height="8" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="8" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><a href="http://www.nlb.gov.sg" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('NLBLogo','','NLBLogo.jpg',1);"><img name="NLBLogo" src="NLBLogo.jpg" width="81" height="53" border="0" alt="NLB"></a></td>
+   <td rowspan="2" colspan="2"><img name="left_Banner_r18_c3" src="left_Banner_r18_c3.jpg" width="59" height="64" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="53" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="left_Banner_r19_c2" src="left_Banner_r19_c2.jpg" width="81" height="11" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="11" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="2"><a href="http://www.ntu.edu.sg/sci/" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('NanyangLogo','','NanyangLogo.jpg',1);"><img name="NanyangLogo" src="NanyangLogo.jpg" width="87" height="32" border="0" alt="Nanyang Technology University"></a></td>
+   <td rowspan="2"><img name="left_Banner_r20_c4" src="left_Banner_r20_c4.jpg" width="53" height="59" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="32" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="2"><img name="left_Banner_r21_c2" src="left_Banner_r21_c2.jpg" width="87" height="27" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="27" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><a href="http://www.nlbconference.com/ilds" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('ilds','','ilds.jpg',1);"><img name="ilds" src="ilds.jpg" width="140" height="49" border="0" alt="Interlending and Document Supply Conference"></a></td>
+   <td><img src="spacer.gif" width="1" height="49" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="left_Banner_r23_c2" src="left_Banner_r23_c2.jpg" width="140" height="9" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="9" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><a href="http://blogs.nlb.gov.sg/newspaper_conf08/" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('IFLALogo','','IFLALogo.jpg',1);"><img name="IFLALogo" src="IFLALogo.jpg" width="140" height="49" border="0" alt="IFLA International Newspaper Conference 2008"></a></td>
+   <td><img src="spacer.gif" width="1" height="49" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="left_Banner_r25_c2" src="left_Banner_r25_c2.jpg" width="140" height="17" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="17" border="0" alt=""></td>
+  </tr>
+<map name="m_left_Banner_r15_c1">
+<area shape="rect" coords="51,26,162,38" href="mailto:dc2007@nlb.gov.sg?Subject=Contact DC2007" title="dc2007@nlb.gov.sg" alt="dc2007@nlb.gov.sg" >
+</map>
+</table>
+</body>
+</html>
+</td>	 
+  <td width="622" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <!--DWLayoutTable-->
+    <tr>
+      <td width="622" height="505" valign="top"><link href="style.css" rel="stylesheet" type="text/css">
+<TABLE align="center">
+<TR>
+<TD><img src="programme_header.gif">
+</TD>
+</TR>
+<TR>
+   <TD>&nbsp;</TD>
+</TR>
+<TR>
+   <TD><span class="englishContentRegistration">Note: Click on the paper/session title for an abstract or description</span></TD>
+</TR>
+<TR>
+   <TD><span class="englishContentRegistration">Conference programme in pdf format is available <a href="Preliminary_Programme.pdf">here</a>.</span></TD>
+</TR>
+<TR>
+   <TD>&nbsp;</TD>
+</TR>
+<TR>
+<TD>
+<table border=1 bordercolor="#000000" cellpadding=3 cellspacing=0 style='border-collapse:collapse;'>
+ <tr>
+  <td colspan=6 align="center" class="cp_content"><span class="englishContentRegistration"><B>Saturday 25 August 2007</B></span></td>
+ </tr>
+ <tr >
+  <td width="75" valign="top"><span class="englishContentRegistration">09:00-17:00</span></td>
+  <td colspan=5><span class="englishContentRegistration">Usage Board Meeting (Invitation needed)</span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Gnosis Room, Level 14, NL</span></td>
+ </tr>
+ <tr>
+  <td colspan=6>&nbsp;</td>
+ </tr>
+ <tr>
+  <td colspan=6 align="center" class="cp_content"><span class="englishContentRegistration"><B>Sunday 26 August 2007</B></span></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">09:00-17:00</span></td>
+  <td colspan=5><span class="englishContentRegistration">Usage Board Meeting (Invitation needed)</span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Gnosis Room, Level 14, NL</span></td>
+ </tr>
+ <tr>
+  <td colspan=6>&nbsp;</td>
+ </tr>
+ <tr>
+  <td colspan=6 align="center" class="cp_content"><span class="englishContentRegistration"><B>Monday 27 August 2007</B></span></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">09:00-17:00</span></td>
+  <td colspan=5><span class="englishContentRegistration">Board of Trustees Meeting (Invitation needed)</span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Gnosis Room, Level 14, NL</span></td>
+ </tr>
+ <tr>
+  <td colspan=6><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">09:00-10:30</span></td>
+  <td colspan=5 class="cp_header2"><span class="englishContentRegistration"><B>Tutorial 1</B>: <a href="T1-BasicSemantics.pdf" class="anchorClass" target="_blank"><img src="download.gif" border="0"/ alt="download"></a>&nbsp;<a href="T1-BasicSemantics.pdf" class="anchorClass" target="_blank">Basic Semantics</a> (<a href="index.asp?section=speakers#Stuart" class="anchorClass">Stuart Sutton</a>)</span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">10:30-11:00</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Break</span></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">11:00-12:30</span></td>
+  <td colspan=5 class="cp_header2"><span class="englishContentRegistration"><B>Tutorial 2</B>: <a href="T2-BasicSyntaxes.pdf" class="anchorClass" target="_blank"><img src="download.gif" border="0"/ alt="download"></a>&nbsp;<a href="T2-BasicSyntaxes.pdf" class="anchorClass" target="_blank">Basic Syntaxes</a> (<a href="index.asp?section=speakers#Mikael" class="anchorClass">Mikael Nilsson</a>)</span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">12:30-14:00</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Lunch</span></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">14:00-15:30</span></td>
+  <td colspan=5 class="cp_header2"><span class="englishContentRegistration"><B>Tutorial 3</B>: <a href="T3-Vocabularies.pdf" class="anchorClass" target="_blank"><img src="download.gif" border="0"/ alt="download"></a>&nbsp;<a href="T3-Vocabularies.pdf" class="anchorClass" target="_blank">Vocabularies</a> (<a href="index.asp?section=speakers#Alistair" class="anchorClass">Alistair Miles</a>)</span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">15:30-16:00</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Break</span></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">16:00-17:30</span></td>
+  <td colspan=5 class="cp_header2"><span class="englishContentRegistration"><B>Tutorial 4</B>: <a href="T4-ApplicationProfiles.pdf" class="anchorClass" target="_blank"><img src="download.gif" border="0"/ alt="download"></a>&nbsp;<a href="T4-ApplicationProfiles.pdf" class="anchorClass" target="_blank">Application Profiles</a> (<a href="index.asp?section=speakers#Diane" class="anchorClass">Diane Hillmann</a>)</span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">18:00-19:30</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Welcome Reception </span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Possibility &amp; Imagination Rooms, Level 5, NL</span></td>
+ </tr>
+ <tr>
+  <td colspan=6><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p></td>
+ </tr>
+ <tr>
+  <td colspan=6 align="center" class="cp_content"><span class="englishContentRegistration"><B>Tuesday 28 August 2007</B></span></td>
+ </tr>
+ <tr >
+  <td rowspan="2" valign="top"><span class="englishContentRegistration">09:00-10:00</span></td>
+  <td colspan=5><span class="englishContentRegistration"><B>Opening Ceremony</B></span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td colspan=5><div align="justify"><span class="englishContentRegistration">Guest of Honour: Dr Vivian Balakrishnan,
+    Singapore's Minister for Community Development, Youth &amp; Sports and Second
+    Minister for Information, Communications and the Arts</span></div></td>
+ </tr>
+ <tr >
+  <td rowspan="2" valign="top"><span class="englishContentRegistration">10:00-11:00</span></td>
+  <td colspan=5><span class="englishContentRegistration"><B><a href="index.asp?section=session#keynote1" class="anchorClass">Keynote 1</a></B></span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td colspan=5><div align="justify"><span class="englishContentRegistration">Presented by <a href="index.asp?section=speakers#Johannes" class="anchorClass">Johannes Keizer</a>, Team Leader for
+    Semantic Standards, Knowledge Exchange &amp; Capacity Building Division, Food
+    and Agriculture Organization of the United Nations</span></div></td>
+ </tr>
+ <tr>
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">11:00-11:30</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Break</span></td>
+ </tr>
+ <tr >
+  <td rowspan="3" valign="top"><span class="englishContentRegistration">11:30-12:30</span></td>
+  <td colspan=5 ><span class="englishContentRegistration"><b><a href="index.asp?section=session#PaperSession1" class="anchorClass">Paper Session 1: Conceptual Modeling</a></b></span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td colspan=5>
+  <TABLE cellspacing="0" cellpadding="3">
+     <TR>
+	    <TD valign="top"><span class="englishContentRegistration">1.1</span></TD>
+		<TD><div align="justify"><span class="englishContentRegistration"><a href="index.asp?section=session#1.1" class="anchorClass">Parallel Writing Tradition in East Asian Language Data and Metadata Representation: Under the Light of the DCMI Abstract Model</a><br><I>by Akira Miyazawa</I></span></div></td></Tr></Table>
+  </TD>
+ </tr>
+ <tr >
+  <td colspan=5><span class="englishContentRegistration">
+  <TABLE cellspacing="0" cellpadding="3">
+     <TR>
+	    <TD valign="top"><span class="englishContentRegistration">1.2</span></TD>
+	    <TD><div align="justify"><span class="englishContentRegistration"><a href="index.asp?section=session#1.2" class="anchorClass">Annotation Profiles: Configuring Forms to Edit RDF</a><br><I>by Matthias Palmér, Fredrik Enoksson, <a href="index.asp?section=speakers#Mikael" class="anchorClass">Mikael Nilsson</a>, Ambjörn Naeve</I></span></div></td>
+		</TR>
+   </TABLE>		
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">12:30-13:30</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Lunch</span></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">13:30-14:30</span></td>
+  <td colspan=5><span class="englishContentRegistration"><B><a href="index.asp?section=session#ApplicationProfileModelPlenarySession" class="anchorClass">Application Profile Model Plenary Session</a></B><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span><br><I>by <a href="index.asp?section=speakers#Mikael" class="anchorClass">Mikael Nilsson</a> & Tom Baker</I></span></td>
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">14:30-15:00</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Break</span></td>
+ </tr>
+ <tr >
+  <td valign="top" rowspan="4"><span class="englishContentRegistration">15:00-16:30</span></td>
+  <td><span class="englishContentRegistration"><B><a href="index.asp?section=session#PaperSession2" class="anchorClass">Paper Session 2:<br>Project Reports 1</a></B></span><br><span class="englishContentRegistrationItalic">Ballroom</span></td>
+  <td rowspan=4 valign="top" class="cp_purple"><span class="englishContentRegistration">Meeting:<br><a href="index.asp?section=session#Meeting3" class="anchorClass">Collection Description Community</a><br>(Ann Apps)<br>
+  </span><span class="englishContentRegistrationItalic">Sunda Room</span></td>
+  <td rowspan=4 valign="top" class="cp_purple"><span class="englishContentRegistration">Meeting:<br><a href="index.asp?section=session#Localization" class="anchorClass">Localization and Internationalization Community</a><br>(Karen Rollitt)</span><br>
+    <span class="englishContentRegistrationItalic">Malacca Room</span></td>
+  <td rowspan=4 valign="top" class="cp_purple"><span class="englishContentRegistration"><a href="index.asp?section=session#Meeting2" class="anchorClass">Architecture Forum Technical Meeting</a><br>(<a href="index.asp?section=speakers#Mikael" class="anchorClass">Mikael Nilsson</a> &amp; Tom Baker)</span><br>
+      <span class="englishContentRegistrationItalic">Vault</span></td>
+<td rowspan=4 valign="top" class="cp_purple"><span class="englishContentRegistration">Meeting:<br><a href="index.asp?section=session#global" class="anchorClass">Global Corporate Circle Working Session</a><br>(Joseph Busch)</span><br>
+      <span class="englishContentRegistrationItalic">Karimata Room</span></td>	  
+ </tr>
+ <tr >
+  <td><TABLE cellspacing="0" cellpadding="3"><TR><TD valign="top" ><span class="englishContentRegistration">2.1</span></TD>
+  <TD><span class="englishContentRegistration"><a href="index.asp?section=session#2.1" class="anchorClass">SCROL Application Profile</a><BR><I>by Steven Wan Wu, Barbara Reed, Paul Loke</I></span></td></TR></TABLE>
+ </tr>
+ <tr >
+  <td>
+  <TABLE cellspacing="0" cellpadding="3">
+     <TR>
+	    <TD valign="top"><span class="englishContentRegistration">2.2</span></TD>
+        <TD><span class="englishContentRegistration"><a href="index.asp?section=session#2.2" class="anchorClass">The DCMI Tools Application Profile</a><br><I>by Thomas Severiens, Jane Greenberg</I></span></TD></TR></TABLE>
+ </tr>
+ <tr >
+  <td>
+  <TABLE cellspacing="0" cellpadding="3">
+  <TR>
+  <TD valign="top"><span class="englishContentRegistration">2.3</span>
+  <TD><span class="englishContentRegistration"><a href="index.asp?section=session#2.3" class="anchorClass">The DRIADE Project: Phased Application Profile Development in Support of Open Science</a><BR><I>by Jane Greenberg, Sarah Carrier, Jed Dube</I></span></td></TR></TABLE>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">16:30-17:00</span></td>
+  <td colspan=5><span class="englishContentRegistration"><B>Day Close</B></span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td class="cp_header">&nbsp;</td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Free Night</span></td>
+ <tr>
+  <td colspan=6><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p></td>
+ </tr>
+ <tr style='page-break-before:always;'>
+  <td colspan=6 align="center" class="cp_content"><span class="englishContentRegistration"><B>Wednesday 29 August 2007</B></span></td>
+ </tr>
+ <tr >
+  <td rowspan="4" valign="top"><span class="englishContentRegistration">09:00-10:30</span></td>
+  <td colspan=5><span class="englishContentRegistration"><B><a href="index.asp?section=session#PaperSession3" class="anchorClass">Paper Session 3: Application Profiles: Issues and Practice</a></B></span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td colspan=5 >
+  <TABLE cellspacing="0" cellpadding="3">
+  <TR>
+  <TD valign="Top"><span class="englishContentRegistration">3.1</span>
+  <TD><div align="justify"><span class="englishContentRegistration"><a href="index.asp?section=session#3.1" class="anchorClass">Theory and Practice of Application Profile Development</a><br><I>by Jon Mason, Helen Galatis</I></span></div>
+  </td>
+  </TR>
+  </TABLE>
+ </tr> 
+ <tr >
+  <td colspan=5>
+  <TABLE cellpadding="3" cellspacing="0">
+  <TR>
+  <TD valign="top"><span class="englishContentRegistration">3.2</span>
+  <TD><div align="justify"><span class="englishContentRegistration"><a href="index.asp?section=session#3.2" class="anchorClass">Application Profiles: Exposing and Enforcing Metadata Quality</a><BR><I>by Diane Ileana Hillmann, Jon Phipps</I></span></div></td>
+  </TR>
+  </TABLE>
+ </tr>
+ <tr >
+  <td colspan=5> 
+  <TABLE border="0" cellspacing="0" cellpadding="3">
+  <TR>
+  <TD valign="Top"><span class="englishContentRegistration">3.3</span>
+  <TD><div align="justify"><span class="englishContentRegistration"><a href="index.asp?section=session#3.3" class="anchorClass">Using an Application Profile Based Service Registry</a><BR><I>by Ann Apps</I></span></div>
+  </td>
+  </TR>
+  </TABLE>
+</td>
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">10:30-11:00</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Break</span></td>
+ </tr>
+ <tr >
+  <td rowspan="4" valign="top"><span class="englishContentRegistration">11:00-12:30</span></td>
+  <td colspan=5 ><span class="englishContentRegistration"><b><a href="index.asp?section=session#PaperSession4" class="anchorClass">Paper Session 4: Identification, Registries and Reuse</a></b></span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td colspan=5>
+  <TABLE cellpadding="3" cellspacing="0"> 
+  <TR>
+  <TD valign="Top"><span class="englishContentRegistration">4.1</span></TD>
+  <TD><span class="englishContentRegistration"><a href="index.asp?section=session#4.1" class="anchorClass">Identifying the Identifiers</a><BR><I>by Douglas Campbell</I></span></td>
+  </TR>
+  </TABLE>
+  </td>
+ </tr>
+ <tr >
+  <td colspan=5>
+  <TABLE cellpadding="3" cellspacing="0">
+  <TR>
+  <TD valign="top"><span class="englishContentRegistration">4.2</span></TD>
+  <TD><div align="justify"><span class="englishContentRegistration"><a href="index.asp?section=session#4.2" class="anchorClass">Using Metadata Schema Registry as a Core Function to Enhance Usability and Reusability of Metadata Schemas</a><br><I>by Mitsuharu Nagamori, Shigeo Sugimoto</I></span></div></td>
+  </TR>
+  </TABLE>	
+ </tr>
+ <tr >
+  <td colspan=5>
+  <TABLE cellpadding="3" cellspacing="0"> 
+  <TR>
+  <TD valign="Top"><span class="englishContentRegistration">4.3</span></TD>
+  <TD><div align="justify"><span class="englishContentRegistration"><a href="index.asp?section=session#4.3" class="anchorClass">Virtual Archival Exhibition System: An Authoring Tool for Developing Web-based Virtual Exhibitions</a><br><I>by Ruan Yang, Chennupati K. Ramaiah, Schubert Foo</I></span></div></td>
+  </TR>
+  </TABLE>
+  </td>
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">12:30-14:00</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Lunch</span></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">14:00-15:30</span></td>
+  <td valign="top" class="cp_purple"><span class="englishContentRegistration"><B><a href="index.asp?section=session#Special" class="anchorClass">Special
+    Session</a></B>: <a href="index.asp?section=session#Special2" class="anchorClass">Ontology Modeling Using Topic Maps and RDF/OWL</a><br>(Sam Oh)</span><br>
+    <span class="englishContentRegistrationItalic">Sunda Room</span></td>
+  <td valign="top" class="cp_purple"><span class="englishContentRegistration">Meeting:<br><a href="index.asp?section=session#Meeting4" class="anchorClass">Date Task Group</a><br>
+         (Douglas Campbell)</span><br>
+      <span class="englishContentRegistrationItalic">Karimata Room</span></td>
+  <td valign="top" class="cp_purple"><span class="englishContentRegistration">Meeting:<br><a href="index.asp?section=session#preservation" class="anchorClass">Preservation Community</a><br>(Raju Buddharaju)</span><br>
+      <span class="englishContentRegistrationItalic">Malacca Room</span></td>
+  <td class="cp_purple"><span class="englishContentRegistration">Meeting:<br><a href="index.asp?section=session#Meeting6" class="anchorClass">Education Community and AP Task Group</a><br>(Sarah Currier)</span><br>
+      <span class="englishContentRegistrationItalic">Vault</span></td>
+    <td class="cp_purple">&nbsp;</td> 	  
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">15:30-16:00</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Break</span></td>
+ </tr>
+ <tr >
+  <td rowspan="4" valign="top"><span class="englishContentRegistration">16:00-17:30</span></td>
+  <td><span class="englishContentRegistration"><B><a href="index.asp?section=session#PaperSession5" class="anchorClass">Paper Session 5:<br>Project Reports 2</a></B></span><br><span class="englishContentRegistrationItalic">Ballroom</B></span></td>
+  <td rowspan=4 valign="top" class="cp_purple"><span class="englishContentRegistration">Meeting:<br><a href="index.asp?section=session#Government" class="anchorClass">Government Community</a><BR>(John Roberts)</span><br>
+    <span class="englishContentRegistrationItalic">Sunda Room</span></td>
+  <td rowspan=4 valign="top" class="cp_purple"><span class="englishContentRegistration">Meeting:<br><a href="index.asp?section=session#Meeting5" class="anchorClass">DCMI/IEEE LOM Task Group</a><BR>(<a href="index.asp?section=speakers#Mikael" class="anchorClass">Mikael Nilsson</a>)</span><br>
+    <span class="englishContentRegistrationItalic">Malacca Room</span></td>
+  <td rowspan=4 valign="top" class="cp_purple"><span class="englishContentRegistration">Meeting:<br><a href="index.asp?section=session#tools" class="anchorClass">Tools Community</a><br>(Jane Greenberg &amp;Thomas Severiens)</span><br>
+    <span class="englishContentRegistrationItalic">Vault</span></td>
+    <td rowspan="4" class="cp_purple">&nbsp;</td> 	
+ </tr>
+ <tr >
+  <td>
+  <TABLE cellpadding="3" cellspacing="0">
+  <TR>
+  <TD valign="top"><span class="englishContentRegistration">5.1</span>
+  <TD><span class="englishContentRegistration"><a href="index.asp?section=session#5.1" class="anchorClass">Education.au and Metadata for Events</a><BR>
+          <I>by Pru Mitchell, Kim Edgar</I></span></td>
+  </TR>
+  </TABLE>
+ </tr>
+ <tr >
+  <td>
+  <TABLE cellspacing="0" cellpadding="3">
+  <TR>
+  <TD valign="top"><span class="englishContentRegistration">5.2</span></TD>
+  <TD><div align="justify"><span class="englishContentRegistration"><a href="index.asp?section=session#5.2" class="anchorClass">Integrating Dublin Core and Learning Object Metadata for Describing Learning
+    Objects for Enhanced Reusability</a><BR><I>by Abdul Halim Abdul, Abdus Sattar Chaudhry</I></span></div></td>
+  </TR>
+  </TABLE>
+ </tr>
+ <tr >
+  <td>
+  <TABLE cellpadding="3" cellspacing="0">
+  <TR>
+  <TD valign="top"><span class="englishContentRegistration">5.3</span></TD>
+  <TD><span class="englishContentRegistration"><a href="index.asp?section=session#5.3" class="anchorClass">Audience-Centric Taxonomy: Using Taxonomies to Support Heterogeneous User Communities</a><BR><I>by Dave Clarke, Pei Jiun Tan</I></span></td>
+  </TR>
+  </TABLE>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">17:30-18:00</span></td>
+  <td colspan=5><span class="englishContentRegistration"><B>Day Close</B></span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">19:00-22:00</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Conference Dinner</span></td>
+ </tr>
+ <tr>
+  <td colspan=6><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p></td>
+ </tr>
+ <tr>
+  <td colspan=6 align="center" class="cp_content"><span class="englishContentRegistration"><B>Thursday 30 August 2007</B></span></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">09:00-10:00</span></td>
+  <td colspan=5><div align="justify"><span class="englishContentRegistration"><b>Keynote 2</b></span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span><br>
+        <span class="englishContentRegistration">Presented by <a href="index.asp?section=speakers#Zhang" class="anchorClass">Zhang Xiaoxing</a>, Deputy Director, National Cultural Information Resource Center of China</span></div></td>
+ </tr>
+ <tr >
+  <td rowspan="3" valign="top"><span class="englishContentRegistration">10:00-11:00</span></td>
+  <td colspan=5><span class="englishContentRegistration"><B><a href="index.asp?section=session#PaperSession6" class="anchorClass">Paper Session 6: Metadata Generation and Integration</a></B></span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td colspan=5>
+  <TABLE cellspacing="0" cellpadding="3">
+  <TR>
+  <TD valign="top"><span class="englishContentRegistration">6.1</span></TD>
+  <TD><div align="justify"><span class="englishContentRegistration"><a href="index.asp?section=session#6.1" class="anchorClass">Integrating Dublin Core Metadata for
+    Cultural Heritage Collections Using Ontologies</a><br><I>by Constantia Kakali, Irene Lourdi, Thomais Stasinopoulou, Lina Bountouri, Christos Papatheodorou, Martin Doerr, Manolis Gergatsoulis</I></span></div></td>
+  </TR>
+  </TABLE>
+ </tr>
+ <tr >
+  <td colspan=5>
+  <TABLE cellpadding="3" cellspacing="0">
+  <TR>
+  <TD valign="top"><span class="englishContentRegistration">6.2</span></TD>
+  <TD><div align="justify"><span class="englishContentRegistration"><a href="index.asp?section=session#6.2" class="anchorClass">Can a system make novice users experts?
+    Important Factors for Automatic Metadata Generation Systems</a><br><I>by Sueyeon Syn, Michael
+    B. Spring</I></span></div></td>
+  </TR>
+  </TABLE>
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">11:00-11:30</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Break</span></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">11:30-13:00</span></td>
+  <td valign="top" class="cp_purple"><span class="englishContentRegistration"><B><a href="index.asp?section=session#Special" class="anchorClass">Special Session</a></B>: <a href="index.asp?section=session#Special1" class="anchorClass">Identifiers</a><br>(Douglas Campbell)</span><br>
+    <span class="englishContentRegistrationItalic">Karimata Room</span></td>
+  <td valign="top" class="cp_purple"><span class="englishContentRegistration">Meeting:<br>
+  <a href="index.asp?section=session#Meeting1" class="anchorClass">Accessibility Community</a><br>(Liddy Nevile)</span><br>
+  <span class="englishContentRegistrationItalic">Sunda Room</span></td>
+  <td valign="top" class="cp_purple"><span class="englishContentRegistration">Meeting:<br><a href="index.asp?section=session#Registry" class="anchorClass">Registry Community</a><br>(Emma Tonkin)</span><br>
+    <span class="englishContentRegistrationItalic">Malacca Room</span></td>
+  <td class="cp_purple"><span class="englishContentRegistration">Meeting:<br><a href="index.asp?section=session#Meeting7" class="anchorClass">Libraries Community and AP Task Group</a><br>(Robina Clayphan)</span><br>
+    <span class="englishContentRegistrationItalic">Vault</span></td>
+    <td class="cp_purple">&nbsp;</td> 	
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">13:00-14:30</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Lunch</span></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">14:30-16:00</span></td>
+  <td valign="top" class="cp_purple"><span class="englishContentRegistration"><B><a href="index.asp?section=session#Special" class="anchorClass">Special
+  Session</a></B>: <br><a href="index.asp?section=session#Special3" class="anchorClass">RDA</a><br>(Robina Clayphan)</span><br>
+    <span class="englishContentRegistrationItalic">Vault</span></td>
+  <td valign="top" class="cp_purple"><span class="englishContentRegistration">Meeting:<br><a href="index.asp?section=session#kernel" class="anchorClass">Kernel Community</a><br>(John Kunze)</span><br>
+    <span class="englishContentRegistrationItalic">Karimata Room</span></td>
+  <td valign="top" class="cp_purple"><span class="englishContentRegistration">Meeting:<br><a href="index.asp?section=session#Meeting8" class="anchorClass">Social Tagging Community</a><br>(Liddy Nevile)</span><br>
+    <span class="englishContentRegistrationItalic">Sunda &amp; Malacca Rooms</span></td>
+  <td class="cp_purple">&nbsp;</td>  
+  <td class="cp_purple">&nbsp;</td>  
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">16:00-17:00</span></td>
+  <td colspan=5><span class="englishContentRegistration"><B>Closing</B></span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">17:15-18:15</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Tour of National Library: Meet at Foyer of National Library</span></td>
+ </tr>
+ <tr>
+  <td colspan=6><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p></td>
+ </tr>
+ <tr style='page-break-before:always;'>
+  <td colspan=6 align="center" class="cp_content"><span class="englishContentRegistration"><B>Friday 31 August 2007</B></span></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">09:00-10:30</span></td>
+  <td colspan=5 class="cp_header2"><span class="englishContentRegistration"><B>Seminar 1</B>: <a href="index.asp?section=session#Seminar1" class="anchorClass">Introduction to
+  the Semantic Web</a> (<a href="index.asp?section=speakers#Ivan" class="anchorClass">Ivan Herman</a>)</span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">10:30-11:00</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Break</span></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">11:00-12:30</span></td>
+  <td colspan=5 class="cp_header2"><span class="englishContentRegistration">Seminar 1 continued</span></td>
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">12:30-14:00</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Lunch</span></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">14:00-15:30</span></td>
+  <td colspan=5 class="cp_header2"><span class="englishContentRegistration"><B>Seminar 2</B>: <a href="index.asp?section=session#seminar2" class="anchorClass">Metadata That
+  Works</a> (<a href="index.asp?section=speakers#Diane" class="anchorClass">Diane Hillmann</a>)</span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Ballroom</span></td>
+ </tr>
+ <tr >
+  <td valign="top" class="cp_header"><span class="englishContentRegistration">15:30-16:00</span></td>
+  <td colspan=5 class="cp_header"><span class="englishContentRegistration">Break</span></td>
+ </tr>
+ <tr >
+  <td valign="top"><span class="englishContentRegistration">16:00-17:30</span></td>
+  <td colspan=5 class="cp_header2"><span class="englishContentRegistration">Seminar 2 continued</span></td>
+ </tr>
+ <tr>
+  <td colspan=6><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p></td>
+ </tr>
+ <tr>
+  <td colspan=6 align="center" class="cp_content"><span class="englishContentRegistration"><B>Saturday 1 September 2007</B></span></td>
+ </tr>
+ <tr>
+  <td valign="top"><span class="englishContentRegistration">09:00-17:00</span></td>
+  <td colspan=5><span class="englishContentRegistration">Advisory Board Meeting (Invitation needed)</span><span class="englishContentRegistrationItalic">&nbsp;&nbsp;Gnosis Room, Level 14, NL</span></td>
+ </tr>
+</table>
+</td>
+</tR>
+</TABLE>
+
+
+</td>
+        </tr>
+  </table></td>
+  </tr>
+  <TR>
+     <td colspan="2" bgcolor="#FFF9F9" class="footer"><DIV align="center">Copyright &copy; 1995-2007 DCMI All Rights Reserved.</DIV></td>
+  </TR>
+</table>
+</body>
+</html>

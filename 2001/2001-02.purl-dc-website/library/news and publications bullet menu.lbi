@@ -1,0 +1,21 @@
+
+<TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="2">
+  <TR> 
+    <TD WIDTH="10%" COLSPAN="2" VALIGN="TOP"><FONT COLOR="#990000"><B>NEWS AND 
+      PUBLICATIONS</B></FONT></TD>
+  </TR>
+  <TR> 
+    <TD WIDTH="10%" VALIGN="TOP"><IMG SRC="../images/bullet/orange.gif" WIDTH="9" HEIGHT="13" BORDER="0"></TD>
+    <TD WIDTH="90%" VALIGN="TOP"><A HREF="../news/index.htm"><B>News </B></A></TD>
+  </TR>
+  <TR> 
+    <TD WIDTH="10%" VALIGN="TOP"><IMG SRC="../images/bullet/orange.gif" WIDTH="9" HEIGHT="13"></TD>
+    <TD WIDTH="90%" VALIGN="TOP"><A HREF="../news/newsletterindex.htm"><B>Newsletter:<br>
+      DCMI Update</B></A></TD>
+  </TR>
+  <TR> 
+    <TD WIDTH="10%" VALIGN="TOP"><img src="../images/bullet/orange.gif" width="9" height="13" border="0"></TD>
+    <TD WIDTH="90%" VALIGN="TOP"><a href="../news/publications.htm"><b>Selected 
+      Publications and Presentations</b></a></TD>
+  </TR>
+</TABLE>

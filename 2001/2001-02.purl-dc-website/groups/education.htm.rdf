@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+
+ <rdf:Description about="http://purl.org/dc/groups/education.htm">
+
+   <dc:title>Dublin Core Metadata Initiative - Education Working Group</dc:title>
+
+   <dc:description>The objectives of this Working Group are to discuss and develop a proposal
+for the use of Dublin Core metadata in the description of educational
+resources. The scope includes educational resources applicable for many
+national education communities and cross-sectoral communities (eg, K-12,
+further and Hhigher education, and lifelong learning).The WG will develop qualifiers and/or extensions to the Dublin Core element
+set that will describe educational material for the purpose of enhancing
+resource discovery. It is expected that the resulting metadata will include
+educational qualifiers that fall within the scope of existing Dublin Core
+elements and potentially some that are specific to the domain of education.</dc:description>
+
+   <dc:date>1999-08-09</dc:date>
+
+   <dc:format>text/html</dc:format>
+
+   <dc:language>en</dc:language>
+
+   <dc:contributor>The Dublin Core Metadata Initiative</dc:contributor>
+
+ </rdf:Description>
+
+</rdf:RDF>
+
+
+
+
+

@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DCMI Specifications</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="stylesheet" href="/beta/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+</head>
+<body class="specifications-landing">
+
+<!--#include virtual="/beta/ssi/header.shtml" -->
+
+<div align="left" id="leftColumnTitle">   
+  <h1>DCMI Specifications</h1>  
+   <div id="leftColumnBody">
+   <!-- START TEXT FOR LEFT COLUMN -->  
+
+        <p>As part of its mission, the Dublin Core Metadata
+        Initiative develops and maintains specifications in
+        support of resource description.  Specifications
+        developed and reviewed in the context of DCMI's <a
+        href="/documents/approval/">formal approval process</a>
+        are assigned a status (in ascending order of maturity
+        and stability) of "DCMI Working Draft", "DCMI Proposed
+        Recommendation", or "DCMI Recommendation".
+        DCMI also provides pointers to guidelines and
+        services developed outside of this formal review context
+        ("Recommended Resources").</p>
+
+        <p>This selection highlights the specifications that
+        currently attract the most attention in the Dublin Core
+        community.  Links to additional specifications
+        (including superseded specifications) may be found at <a
+        href="/documents/">http://dublincore.org/documents/</a>.
+        Some of the specifications have been <a
+        href="/resources/translations/">translated</a> into one
+        of twenty-five languages.</p>
+
+  <!-- END TEXT FOR LEFT COLUMN-->
+  </div> 
+</div>
+
+  <div id="columnRight">
+  <!-- START Main Content -->
+
+  <h2>Semantic Recommendations</h2>
+  <p><strong><a href="/documents/dcmi-terms/">DCMI Metadata Terms</a></strong> [DCMI Recommendation].
+  This periodically updated document provides a one-stop source of up-to-date 
+  information on DCMI metadata terms, including the classic Dublin Core Metadata
+  Element Set, the DCMI Type Vocabulary, and resource classes used as formal domains
+  and ranges.  Supporting documents includes</p>
+  <ul>
+  <li><a href="/documents/dcmi-namespace/">DCMI Namespace Policy</a> [DCMI Recommendation].
+      This document describes how metadata terms are assigned URIs
+      by DCMI and the policies governing changes to the documented meanings 
+      associated with those URIs.</li>
+  <li><a href="/schemas/rdfs/">DCMI term declarations represented in RDF schema language</a>.
+      Since 2001, DCMI term declarations have been published as Web documents
+      (with the status DCMI Recommendation) and, in parallel, as machine-processable 
+      RDF/XML documents.</li>
+  <li><a href="http://purl.org/dcregistry/">The Dublin Core Metadata Registry</a> 
+      [DCMI Recommended Resource].  This application, hosted at the
+      University of Tsukuba as a service for the DCMI community, provides a 
+      <a href="http://dcmi.kc.tsukuba.ac.jp/dcregistry/navigateServlet">navigational 
+      interface</a> to DCMI's machine-processable RDF term declarations.
+      The registry is under development as an open-source software project.</li>
+  <li><a href="/documents/dces/">Dublin Core Metadata Element Set</a> [DCMI Recommendation].
+      This document excerpts from DCMI Metadata Terms the 
+      fifteen elements of the classic "Dublin Core", which has been standardized as
+      <a href="http://www.iso.org/iso/search.htm?qt=15836&searchSubmit=Search&sort=rel&type=simple&published=on">ISO 
+      Standard 15836:2009</a>.</li>
+   </ul>
+
+<hr />
+
+  <h2>User guidelines</h2>
+
+  <p><strong><a href="/documents/interoperability-levels/">Interoperability
+  Levels for Dublin Core Metadata</a></strong> [DCMI Recommended
+  Resource].  This document articulates current
+  thinking in the Dublin Core community about the nature of
+  metadata interoperability. <a href="/beta/metadata-basics">Read 
+  more...</a> 
+  </p>
+
+  <p><strong><a href="/documents/profile-guidelines/">Guidelines
+  for Dublin Core Application Profiles</a></strong> [DCMI Recommended Resource].
+  This document provides guidelines for the creation of Dublin
+  Core Application Profiles.  The document explains the key
+  components of a Dublin Core Application Profile and walks
+  through the process of developing a profile.  The document is
+  aimed at designers of application profiles -- people who will
+  bring together metadata terms for use in a specific context.
+  </p>
+
+  <p><strong><a href="/documents/singapore-framework/">Singapore
+  Framework for Dublin Core Application Profiles</a></strong> [DCMI Recommended Resource].
+  The Singapore Framework for Dublin Core Application Profiles
+  is a framework for designing metadata applications for maximum
+  interoperability and for documenting such applications for
+  maximum reusability.  The framework defines a set of
+  descriptive components that are necessary or useful for
+  documenting an Application Profile and describes how these
+  documentary standards relate to standard domain models and
+  Semantic Web foundation standards.  The framework forms a
+  basis for reviewing Application Profiles for documentary
+  completeness and for conformance with Web-architectural
+  principles.</p>
+
+  <p><strong><a href="/documents/usageguide/">Using Dublin
+  Core</a></strong> [DCMI Recommended Resource].  From January
+  1998 through the latest version in November 2005, this
+  document was maintained as the main entry point for new users
+  of Dublin Core metadata.  While this document is accessibly
+  written, with useful concrete examples, readers should be
+  aware that the document is by now somewhat out of date and is
+  best used in conjunction with <a
+  href="/documents/profile-guidelines/">Guidelines
+  for Dublin Core Application Profiles</a>.</p>
+
+<hr />
+
+  <h2>Model-related specifications</h2>
+
+  <p><strong><a href="/documents/abstract-model/">DCMI Abstract
+     Model</a></strong> [DCMI Recommendation].  This
+     document specifies an abstract syntax for "description
+     sets" (metadata records).  Finalized as a DCMI
+     Recommendation in March 2005, the DCMI Abstract Model
+     (DC-AM) expressed the style of metadata that had emerged in
+     the Dublin Core community over the previous decade as
+     formal constructs based on the W3C Resource Description
+     Framework (for example, by giving a formal definition to
+     the DC-specific notion of a "vocabulary encoding scheme"
+     and providing for the use of parallel labels in multiple
+     languages).  The Abstract Model was designed to bridge the
+     modern paradigm of the unbounded, linked data graph and the
+     more familiar paradigm of the validatable metadata record,
+     providing a foundation for the development of
+     application-independent syntax specifications and
+     constraint languages.</p>
+
+  <p><strong><a href="/documents/dc-text/">Expressing Dublin
+     Core metadata using the DC-Text format</a></strong> [DCMI
+     Working Draft].  DC-Text is a syntax for representing a
+     DC-AM Description Set in plain text.  Its primary use is
+     in presenting metadata constructs for human consumption.</p>
+
+  <p><strong><a href="/documents/dc-dsp/">Description
+     Set Profiles: A constraint language for Dublin Core
+     Application Profiles</a></strong> [DCMI Working Draft].
+     This document specifies an application-independent language
+     for the constraints used in defining "templates" for
+     metadata records -- for example, to specify a template for
+     records which describe exactly "one book", with "up to ten
+     authors", using "subject headings from the Library of
+     Congress".  This specification represents work in progress
+     and is likely to evolve in response to implementation
+     experience.</p>
+
+  <p><strong><a href="/documents/profile-review-criteria/">Criteria
+     for the Review of Application Profiles</a></strong> [DCMI
+     Recommended Resource]. This document was developed by
+     the DCMI Usage Board to evaluate Application Profiles for
+     documentary completeness and for conformance with
+     linked-data principles.  The criteria are based on the DCMI
+     Abstract Model, Description Set Profile (DSP) language, and
+     Singapore Framework.  Even when conformance with these
+     specifications is not a requirement, implementers may find
+     these review criteria useful for uncovering flaws or
+     weaknesses in the logic of an application profile.</p>
+
+  <p><strong><a href="/documents/dsp-wiki-syntax/">A
+     MoinMoin Wiki Syntax for Description Set
+     Profiles</a></strong> [DCMI Working Draft].  Using this
+     draft syntax, editors can embed formal constraint
+     information about application profiles into normal Wiki
+     documents and extract this information using an <a
+     href="/documents/2008/10/06/dsp-wiki-syntax/DescriptionSetProfile-dist.zip">Open
+     Source MoinMoin Wiki tool</a> into an XML representation.
+     This functionality is illustrated by the <a
+     href="http://dublincore.org/architecturewiki/EprintsApplicationProfile?action=DSP2XML">MoinMoin
+     Wiki document for the Scholarly Works Application
+     Profile</a>.</p>
+
+<hr />
+  <h2>Syntax guidelines</h2>
+
+  <p><strong><a href="/documents/dc-html/">DC-HTML</a></strong> [DCMI 
+     Recommendation].  "Expressing Dublin Core metadata using
+     HTML/XHTML meta and link elements" describes how a Dublin
+     Core metadata description set can be encoded using the
+     HTML/XHTML &lt;meta&gt; and &lt;link&gt; elements.  This
+     specification is also an HTML "meta data profile" as
+     defined by the HTML specification.  See also:</p>
+     <ul>
+     <li><a href="http://rdfa.info/">RDFa</a>, another syntax for embedding
+       Dublin Core descriptions in Web pages, which became a
+       <a href="http://www.w3.org/TR/rdfa-syntax/">W3C Recommendation</a>
+       in October 2008 and has strong tool support in platforms
+       such as <a href="http://drupal.org/">Drupal</a> and
+       Yahoo's <a href="http://developer.yahoo.com/searchmonkey/">Search
+       Monkey</a>.</li>
+     <li>The predecessor specification for DC-HTML, 
+       <a href="/documents/dcq-html/">DCQ-HTML</a> (last updated in 2003), 
+       consistently remains one of the most-accessed documents on the DCMI 
+       Web site despite its clearly marked status as a &quot;Superseded Recommendation&quot;.  
+       Early versions of this specifications used the so-called "dotty" syntax
+       for appending an additional &quot;qualifier&quot; to an element name.
+       as with &quot;DC.Coverage.temporal&quot; -- an encoding style that is now 
+       discouraged.  This and other related issues are discussed in
+       <a href="/documents/dc-html-notes/">&quot;Notes on DCMI 
+       specifications for Dublin Core metadata in HTML/XHTML meta and link 
+       elements&quot;</a>.</li>
+     </ul>
+
+  <p><strong><a href="/documents/dc-ds-xml/">DC-DS-XML</a></strong> 
+  [Proposed Recommendation]. &quot;Expressing Dublin Core 
+  Description Sets using XML (DC-DS-XML)&quot; specifies an XML format for 
+  representing a Dublin Core metadata description set. The specification
+  supports all of the features of a Description Set as described by the DCMI Abstract Model.
+  Related resources include:</p>
+     <ul>
+     <li><a href="/documents/dc-ds-xml-notes/">Notes on
+       DC-DS-XML XML Format</a>, which describes the development of
+       the format and its relationship to the 2003 specification, DC-XML-GUIDELINES.</li>
+
+     <li><a href="/documents/dc-xml-guidelines/">DC-XML-GUIDELINES</a>
+       [DCMI Recommendation].  The specification "Guidelines for
+       implementing Dublin Core in XML" of April 2003 has been
+       used in numerous implementations and remains popular
+       despite its well-described limitations (see above).  
+       <a href="/schemas/">XMLS schemas</a> implementing the 
+       2003 encoding conventions are available in several
+       variants.</li> 
+     </ul>
+
+  <p><strong><a href="/documents/dc-rdf/">DC-RDF</a></strong>
+  [DCMI Recommendation].  &quot;Expressing Dublin Core metadata
+  using the Resource Description Framework (RDF)&quot; describes
+  how constructs of the DCMI Abstract Model may be expressed in
+  RDF graphs.  How this document relates to earlier styles for
+  expressing Dublin Core metadata in RDF is discussed in <a
+  href="/documents/dc-rdf-notes/">&quot;Notes on DCMI
+  specifications for Dublin Core metadata in RDF&quot;.</p>
+
+  <!-- END Main Content --> 
+</div> 
+<div> 
+<!--#include virtual="/beta/ssi/footer.shtml" --> 
+</div> 
+</body> 
+</html>
+
+

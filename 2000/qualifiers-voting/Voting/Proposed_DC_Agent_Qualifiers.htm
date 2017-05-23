@@ -1,0 +1,393 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0066)http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html -->
+<HTML><HEAD><TITLE>Proposed DC Agent Qualifiers</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type><?xml version="1.0"?><RDF:RDF 
+xmlns:dc="http://purl.org/dc/elements/1.0/" 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><RDF:DESCRIPTION 
+dc:language="en" dc:format="text/html" dc:date="1999-11-01 (Created)" 
+dc:contributor="Dublin Core Agents Working Group" 
+dc:publisher="Dublin Core Metadata Initiative" 
+dc:subject="Dublin Core; Agent Qualifiers; Creator; Contributor; Publisher" 
+dc:creator="Renato Iannella (Editor)" dc:title="Proposed DC Agent Qualifiers" 
+rdf:about="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html"></RDF:RDF><LINK 
+href="Proposed DC Agent Qualifiers_files/dcmi-wd.css" rel=stylesheet 
+type=text/css>
+<STYLE type=text/css>.new {
+	COLOR: red
+}
+.comment {
+	COLOR: gray
+}
+.highlit {
+	COLOR: #009900; FONT-WEIGHT: bold
+}
+.dim {
+	COLOR: #808080
+}
+TT {
+	FONT-FAMILY: fixed
+}
+PRE {
+	FONT-FAMILY: fixed
+}
+CODE {
+	FONT-FAMILY: fixed
+}
+</STYLE>
+
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY aLink=#ffffff bgColor=#ffffe7 link=#990000 text=#000000 vLink=#000066>
+<TABLE border=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD align=left vAlign=center><A href="http://purl.org/dc/"><IMG 
+      alt="Dublin Core Metadata Initiative" border=0 height=32 
+      src="Proposed DC Agent Qualifiers_files/dcmi_22.gif" width=460></A></TD>
+    <TD align=right vAlign=center>
+      <H2>WORKING DRAFT</H2></TD></TR></TBODY></TABLE>
+<H1>DC Agent Qualifiers</H1>
+<H3>DC Working Draft - 10 December 1999</H3>
+<P><B>This Version: </B>&lt;<A 
+href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html"><TT>http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html</TT></A>&gt;</P>
+<P><B>Latest Version: </B>&lt;<A 
+href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html"><TT>http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html</TT></A>&gt;</P>
+<P><B>Editor:</B> Renato Iannella <A 
+href="mailto:renato@dstc.edu.au"><TT>&lt;renato@dstc.edu.au&gt;</TT></A></P>
+<P><B>Copyright 1999 Dublin Core Metadata Initiative. All Rights 
+Reserved.</B></P><STATUS>
+<H3>Status of this document</H3>
+<P>This document is a Working Draft of the Dublin Core Metadata Initiative [<A 
+href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#DCMI">DCMI</A>], 
+and is intended to reflect consensus reached within the Agents Working Group [<A 
+href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#DCAGENTS">DCAGENTS</A>] 
+of the DCMI.</P>
+<P>This is the <B>FINAL</B> version of the Working Draft. Publication as a Final 
+Working Draft does not imply endorsement by the DCMI. This document has been 
+submitted to the DCMI Usage Committee as input into the development of the 
+Qualifiers for the Dublin Core Metadata Element Set. </P>
+<P>Comments and feedback should be sent to the working group mailing list, <A 
+href="mailto:dc-agents@mailbase.ac.uk"><TT>dc-agents@mailbase.ac.uk</TT></A>, 
+the archives for which may be browsed at &lt;<A 
+href="http://www.mailbase.ac.uk/lists/dc-agents/"><TT>http://www.mailbase.ac.uk/lists/dc-agents/</TT></A>&gt; 
+(NOTE, you must be a <A 
+href="http://www.mailbase.ac.uk/lists/dc-agents/join.html">member</A> of the WG 
+to post messages to the WG) or, alternatively, send your feedback to the <A 
+href="mailto:renato@dstc.edu.au">Editor</A> of this Working Draft.</P></STATUS>
+<HR>
+
+<H2>Table of Contents </H2>
+<P>
+<OL>
+  <LI><A 
+  href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#INTRO">Introduction</A> 
+
+  <LI><A 
+  href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#QUAL">Proposed 
+  Qualifiers</A> 
+  <OL>
+    <LI><A 
+    href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#AGENT-TYPE">Agent 
+    Type</A> 
+    <LI><A 
+    href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#AGENT-NAME">Agent 
+    Name</A> 
+    <LI><A 
+    href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#AGENT-AFF">Agent 
+    Affiliation</A> 
+    <LI><A 
+    href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#AGENT-ROLE">Agent 
+    Role</A> 
+    <LI><A 
+    href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#AGENT-ID">Agent 
+    Identifier</A> </LI></OL>
+  <LI><A 
+  href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#REF">References</A> 
+
+  <LI><A 
+  href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#INTRO">Acknowledgements</A> 
+
+  <LI><A 
+  href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#INTRO">Revision 
+  History</A> </LI></OL>
+<HR>
+
+<H2><A name=INTRO>1</A>. Introduction</H2>
+<P>The qualifiers below are recommended for the Creator, Contributor and 
+Publisher elements (collectively called the Agent elements) of the Dublin Core 
+Metadata Element Set [<A 
+href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#DCMES">DCMES</A>]. 
+To meet the semantic needs of the Dublin Core element set, the qualifiers are 
+aimed at identifying the Agent, not for providing descriptive information about 
+the agent. (However, the latter can still be accommodated.) The identification 
+of Agents is not universal, and as such, different communities will require 
+different qualifiers for this purpose. The qualifiers for the Agent elements are 
+a proposed set of core of qualifiers to address this requirement. 
+<P>The proposed qualifiers were established by reviewing a number of exisiting 
+projects [<A 
+href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#AREVIEW">AGENT-REVIEW</A>] 
+and summarising their usage of agent qualifiers [<A 
+href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#ASUMM">AGENT-SUMMARY</A>]. 
+A set of citeria for evaluating Dublin Core Qualifiers was also observed [<A 
+href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#CRITERIA">QUALIFIER-CRITERIA</A>]. 
+
+<P>
+<HR>
+
+<H2><A name=QUAL>2</A>. Proposed Qualifiers</H2>The five proposed Agent 
+qualifiers are described below. All of the five qualifiers are optional and 
+there is no implied or direct dependencies between them. However, some of the 
+qualifiers have associated vocabulary or encoding schemes (value qualifiers) and 
+these must only be used with the named qualifier. 
+<H2><A name=AGENT-TYPE>2.1</A>. Agent Type</H2>
+<TABLE border=0 cellPadding=5 cellSpacing=2 width="100%">
+  <TBODY>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Name:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>Agent Type</TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Qualifier Type:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>Value Component</TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Definition:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>Indicates the type of the entity for the 
+      named Agent</TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Comment:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>The values are defined in the "DC Agent 
+      Type" vocabulary (value qualifier) which is maintained by DCMI. Other 
+      terms may be used but are not recommended.</TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Associated Value Qualifiers:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>The DC Agent Type vocabulary (referred to 
+      as <B>DCAT1</B>) contains the following terms:
+      <P>
+      <DL>
+        <DT>Person 
+        <DD>An individual human that acts as an agent. 
+        <DT>Organization 
+        <DD>A group that that acts as an agent. Typical examples of 
+        organizations are associations, institutions, business firms, nonprofit 
+        enterprises, governments, government agencies, cultural groups, and 
+        religious bodies. 
+        <DT>Event 
+        <DD>A non-persistent and time-based activity that acts as an agent. 
+        Typical examples of events are conferences, conventions, meetings, 
+        exhibitions, expositions ,festivals, athletic contests, workshops, and 
+        expeditions. 
+        <DT>Object 
+        <DD>A device that acts as an agent. Typical examples of objects are 
+        mechanical instruments, electronic services, non-human entities, and 
+        appliances. </DD></DL></TD></TR></TBODY></TABLE>
+<H2><A name=AGENT-NAME>2.2</A>. Agent Name</H2>
+<TABLE border=0 cellPadding=5 cellSpacing=2 width="100%">
+  <TBODY>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Name:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>Agent Name</TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Qualifier Type:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>Value Component</TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Definition:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>The formal or common name of the 
+Agent</TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Comment:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>Typically, this would be the name which is 
+      used to refer to the Agent.
+      <P>The "Family Name First" encoding (value qualifier) may also be used to 
+      express the order of the components of the Name. 
+      <P>Vocabularies of Names may also be used as values for this qualifier. 
+      </P></TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Associated Value Qualifiers:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>The "Family Name First" encoding (referred 
+      to as <B>FNF</B>) in which the family name of the Agent appears first, 
+      followed by a comma, then all other names.
+      <P>Note: The FNF encoding is primarily used for when the Agent Name is of 
+      "Person" Agent Type. </P></TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Examples:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>
+      <DL>
+        <DD>Mary Jane Smith 
+        <DD>Smith, Mary Jane <I>(Note: Encoding here is "FNF")</I> 
+        <DD>Acme Corporation 
+        <DD>7th Dublin Core Workshop 
+        <DD>Alpha Telescope 14B99 </DD></DL></TD></TR></TBODY></TABLE>
+<H2><A name=AGENT-AFF>2.3</A>. Agent Affiliation</H2>
+<TABLE border=0 cellPadding=5 cellSpacing=2 width="100%">
+  <TBODY>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Name:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>Agent Affiliation </TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Qualifier Type:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>Value Component</TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Definition:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>The organization with which the named Agent 
+      was associated when involved with the resource</TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Comment:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>The named Agent can be further identified 
+      with reference to its affiliated organization.</TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Examples:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>
+      <DL>
+        <DD>Acme Corporation 
+        <DD>Dublin Core Metadata Intiative 
+        <DD>NASA </DD></DL></TD></TR></TBODY></TABLE>
+<H2><A name=AGENT-ROLE>2.4</A>. Agent Role</H2>
+<TABLE border=0 cellPadding=5 cellSpacing=2 width="100%">
+  <TBODY>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Name:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>Agent Role </TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Qualifier Type:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>Value Component</TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Definition:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>Indicates the role played by the named 
+    Agent</TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Comment:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>The values are defined in externally 
+      maintained and controlled vocabularies (value qualifiers). Such lists of 
+      terms may be used and should be clearly identified with a unique 
+      vocabulary name. Some vocabularies may contain values which would not make 
+      sense when used with one or more of the three agent elements. It is 
+      important that such usage be identified and not recommended. 
+      <P>Values for Agent Role may also come from uncontrolled lists of terms. 
+      </P></TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Associated Value Qualifiers:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>
+      <P>The recommended vocabularies for the Role qualifier are: 
+      <UL>
+        <LI>MARC Code List for Relators [<A 
+        href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#MARC">MARC</A>] 
+        (referred to as <B>MARC-RELATOR</B>). 
+        <P>NOTE: In the MARC Relator vocabulary, the "Publisher" value should 
+        not be used with the Creator or Contributor elements. Also, the MARC 
+        Relator vocabulary is not recommended for use with the Publisher 
+        element.</P>
+        <LI>The "Agents Facet" section of the Getty's Art and Architecture 
+        Thesaurus [<A 
+        href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#AAT">AAT</A>] 
+        (referred to as <B>AAT</B>). 
+        <P>NOTE: Only the Agents Facet terms from the AAT thesaurus are 
+        allowed.</P></LI></UL>
+      <P></P></TD></TR></TBODY></TABLE>
+<H2><A name=AGENT-ID>2.5</A>. Agent Identifier</H2>
+<TABLE border=0 cellPadding=5 cellSpacing=2 width="100%">
+  <TBODY>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Name:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>Agent Identifier </TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Qualifier Type:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>Value Component</TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Definition:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>An unambiguous reference to the named Agent 
+      within a given context </TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Comment:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>Recommended best practice is to identify 
+      the named Agent by means of a string or number conforming to a formal 
+      identification system. The recommended encoding (value qualifier) is the 
+      Uniform Resource Identifier. 
+      <P>In some cases, the Identifier may provide or lead to more information 
+      about the named Agent. </P></TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Associated Value Qualifiers:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>The Uniform Resource Identifier [<A 
+      href="http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html#URI">URI</A>] 
+      (referred to as <B>URI</B>) should be used to encode the value. </TD></TR>
+  <TR>
+    <TD bgColor=#f5dcb3 vAlign=top>Examples:</TD>
+    <TD bgColor=#f5dcb3 vAlign=top>
+      <DL>
+        <DD>http://www.person-id.net/555-555-555-55-555 
+        <DD>http://national-library.com/smith/mary/jane/000001 
+        <DD>ldap://publisher.com/cn=Corky-Smith,o=NASA,c=US 
+        <DD>urn:agents:smith-55555B </DD></DL></TD></TR></TBODY></TABLE>
+<P></P>
+<HR>
+
+<H2><A name=REF>3</A>. References</H2>
+<P>[<A name=AAT>AAT</A>] Gettys Art and Architecture Thesaurus <BR>&lt;<A 
+href="http://shiva.pub.getty.edu/aat_browser/titles.html"><TT>http://shiva.pub.getty.edu/aat_browser/titles.html</TT></A>&gt;</P>
+<P>[<A name=AREVIEW>AGENTS-REVIEW</A>] Dublin Core Agents Working Group - Review 
+of Agent Qualifier Usage <BR>&lt;<A 
+href="http://www.mailbase.ac.uk/lists/dc-agents/files/qualifier-summ.html"><TT>http://www.mailbase.ac.uk/lists/dc-agents/files/qualifier-summ.html</TT></A>&gt;</P>
+<P>[<A name=ASUMM>AGENTS-SUMMARY</A>] Dublin Core Agents Working Group - Summary 
+Table of Agent Qualifier Usage <BR>&lt;<A 
+href="http://www.mailbase.ac.uk/lists/dc-agents/files/qualifier-table.html"><TT>http://www.mailbase.ac.uk/lists/dc-agents/files/qualifier-table.html</TT></A>&gt;</P>
+<P>[<A name=CRITERIA>QUALIFIER-CRITERIA</A>] Dublin Core Criteria for Evaluating 
+Qualifiers <BR>&lt;<A 
+href="http://www.mailbase.ac.uk/lists/dc-general/1999-11/0029.html"><TT>http://www.mailbase.ac.uk/lists/dc-general/1999-11/0029.html</TT></A>&gt;</P>
+<P>[<A name=DCAGENTS>DCAGENTS</A>] Dublin Core Agents Working Group <BR>&lt;<A 
+href="http://purl.org/dc/groups/agents.htm"><TT>http://purl.org/dc/groups/agents.htm</TT></A>&gt;</P>
+<P>[<A name=DCMES>DCMES</A>] Dublin Core Metadata Element Set: Reference 
+Description <BR>&lt;<A 
+href="http://purl.org/dc/about/element_set.htm"><TT>http://purl.org/dc/about/element_set.htm</TT></A>&gt;</P>
+<P>[<A name=DCMI>DCMI</A>] Dublin Core Metadata Initiative Home Page <BR>&lt;<A 
+href="http://purl.org/dc/"><TT>http://purl.org/dc/</TT></A>&gt;</P>
+<P>[<A name=MARC>MARC</A>] MARC Code List for Relators <BR>&lt;<A 
+href="http://www.loc.gov/marc/relators/re9802r1.html"><TT>http://www.loc.gov/marc/relators/re9802r1.html</TT></A>&gt;</P>
+<P>[<A name=URI>URI</A>] Uniform Resource Identifiers (URI): Generic Syntax, 
+Internet RFC 2396 <BR>&lt;<A 
+href="http://www.ietf.org/rfc/rfc2396.txt"><TT>http://www.ietf.org/rfc/rfc2396.txt</TT></A>&gt;</P>
+<HR>
+
+<H2><A name=ACK>4</A>. Acknowledgements</H2><SMALL>
+<P>The members of the working group who helped to develop the ideas expressed 
+here include; Leif Andresen, Ann Apps, J Azevedo, Hans J. Becker, James 
+Bryce-Clark, Priscilla Caplan, Adam Chandler, Eric Childress, Robina Clayphan, 
+Tschera Connell, Diana Dack, Trisha Davis, Stina Degerstedt, Jeremy Frumkin, 
+Pierre Godefroy, Peter Graham, Rebecca Guenther, Sten Hedberg, Rachel Heery, 
+Christina Hengel, Thom Hickey, Diane Hillmann, Matt Holland, Michael Jost, 
+Sigfrid Lundberg, Sally Mccallum, Gordon Mckenna, Andras Micsik, Paul Miller, 
+Mindworld Corp, Cliff Morgan, Wayne Morris, Andy Powell, Diann Rusch-Feja, 
+Donnell Ruthenberg, Angela Spinazze, Jennifer Trant, Sally Tseng, Lynn 
+Underwood, James Wa, Stu Weibel, James Weinheimer, B Weiss, Andrew Wilson, Peter 
+Winn, Grant Young ,and the editor apologise if any of their inputs have been 
+misrepresented in this document.</P></SMALL>
+<HR>
+
+<H2><A name=REV>5</A>. Revision History</H2>
+<UL>
+  <LI>12 November 1999 - Last Call Working Draft - Public Release 
+  <UL>
+    <LI>For Agent Type list of terms; Corporate/Conference/Instrument have been 
+    renamed to Organization/Event/Object 
+    <LI>For Agent Name; LNF encoding added 
+    <LI>For Agent Role; Getty ATT thesaurus vocabulary added 
+    <LI>Added Agent Identifier qualifier as counter-proposal for Agent Link 
+  </LI></UL>
+  <LI>22 November 1999 - Last Call Working Draft - Internal Release (WG) 
+  <UL>
+    <LI>Agent Jurisidiction qualifier has been removed (did not pass vote) 
+    <LI>Agent Date Range qualifier has been removed (did not pass vote) 
+    <LI>Agent Link qualifier has been removed (did not pass vote) but replaced 
+    with Agent Identifier qualifier 
+    <LI>Expanded Introduction section 
+    <LI>Added Qualifier Type to each table </LI></UL>
+  <LI>06 December 1999 - Last Call Working Draft - Internal Release (WG and 
+  Usage Committee) 
+  <UL>
+    <LI>Made clear the relationship of the value qualfiers (encoding and 
+    vocabulaires) with each Value Component 
+    <LI>Changed LNF to FNF </LI></UL>
+  <LI>08 December 1999 - Last Call Working Draft - Internal Release (WG) 
+  <UL>
+    <LI>Role qualifier now official 
+    <LI>Minor updates, more examples added </LI></UL>
+  <LI>09 December 1999 - Last Call Working Draft - Internal Release (WG) 
+  <LI>10 December 1999 - Final Working Draft </LI></UL>
+<HR>
+</BODY></HTML>

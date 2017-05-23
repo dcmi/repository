@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://www.gencat.es/bc/dces.htm">
+	<dc:title xml:lang="ca-ES">
+	Conjunt dels elements de metadades del Dublin Core, Versi&#x00f3; 1.1: Descripci&#x00f3; de refer&#x00e8;ncia
+	</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.1 Reference Description (Catalan Translation)</dc:title>	
+	<dc:date>2001-05-02</dc:date>	
+	<dc:creator xml:lang="ca-ES">Ida Conesa, Biblioteca de Catalunya</dc:creator>
+	<dc:creator rdf:resource="mailto:iconesa@bnc.es"/>		
+	<dc:language xml:lang="ca-ES">Castellano</dc:language>
+	<dc:language xml:lang="en-US">Catalan</dc:language>
+	<dc:language>ca-ES</dc:language>	
+	<dc:publisher xml:lang="ca-ES">Biblioteca de Catalunya</dc:publisher>
+	<dc:publisher xml:lang="en-US">Library of Catalunya</dc:publisher>
+	<dc:publisher rdf:resource="http://www.gencat.es/bc/"/>
+	<dc:source rdf:resource="http://www.gencat.net/bc/dces.htm"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>

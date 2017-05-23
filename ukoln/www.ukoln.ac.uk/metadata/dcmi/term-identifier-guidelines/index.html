@@ -1,0 +1,540 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head profile="http://dublincore.org/documents/term-identifier-guidelines/">
+<meta name="generator" content="HTML Tidy, see www.w3.org">
+<title>Guidelines for assigning identifiers to metadata terms</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="index_files/default.css" type="text/css">
+<link rel="meta" href="http://www.ukoln.ac.uk/metadata/dcmi/term-identifier-guidelines/index.shtml.rdf">
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<meta name="dc:title" content="Guidelines for assigning identifiers to metadata terms" lang="en">
+<meta name="dc:creator" content="Andy Powell, UKOLN, University of Bath">
+<meta name="dcterms:issued" scheme="dcterms:W3CDTF" content="2004-02-04">
+<meta name="dc:identifier" scheme="dcterms:URI" content="http://dublincore.org/documents/term-identifier-guidelines/">
+<meta name="dcterms:abstract" content="This document provides some simple guidelines for assigning
+identifiers to non-DCMI metadata terms (elements, element refinements, encoding schemes and vocabulary terms).">
+<meta name="dc:format" scheme="dcterms:IMT" content="text/html">
+<meta name="dc:type" scheme="dcterms:DCMIType" content="Text">
+</head>
+<body>
+<div class="menu">
+<table summary="navigation header" bgcolor="#FF6600" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td width="70"><a href="http://www.ukoln.ac.uk/index.shtml"><img src="index_files/logo_sm.gif" alt="Dublin Core Metadata Initiative logo" border="0" height="70" width="150"></a></td>
+<td align="right" height="70" valign="top" width="100%">
+<table summary="navigation links" border="0" cellpadding="0" cellspacing="0" width="328">
+<tbody><tr>
+<td height="30" width="82"><a href="http://www.ukoln.ac.uk/about/"><img src="index_files/about.gif" alt="About the Initiative" border="0" height="30" width="82"></a></td>
+<td height="30" width="82"><a href="http://www.ukoln.ac.uk/documents/"><img src="index_files/documents.gif" alt="Documents" border="0" height="30" width="82"></a></td>
+<td height="30" width="82"><a href="http://www.ukoln.ac.uk/groups/"><img src="index_files/groups.gif" alt="Working Groups" border="0" height="30" width="82"></a></td>
+<td height="30" width="82"><a href="http://www.ukoln.ac.uk/resources/"><img src="index_files/resources.gif" alt="Resources" border="0" height="30" width="82"></a></td>
+</tr>
+
+<tr>
+<td height="30" width="82"><a href="http://www.ukoln.ac.uk/news/"><img src="index_files/news.gif" alt="Dublin Core Metadata Initiative News" border="0" height="30" width="82"></a></td>
+<td height="30" width="82"><a href="http://www.ukoln.ac.uk/tools/"><img src="index_files/tools.gif" alt="Tools and Software" border="0" height="30" width="82"></a></td>
+<td height="30" width="82"><a href="http://www.ukoln.ac.uk/meetings/"><img src="index_files/meetings.gif" alt="Meetings" border="0" height="30" width="82"></a></td>
+<td height="30" width="82"><a href="http://www.ukoln.ac.uk/projects/"><img src="index_files/projects.gif" alt="Projects" border="0" height="30" width="82"></a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" height="30"><a href="http://www.ukoln.ac.uk/index.shtml"><img src="index_files/dcmi_sm.gif" alt="Dublin Core Metadata Initiative" border="0" height="30" width="329"></a></td>
+</tr>
+</tbody></table>
+</div>
+
+<div class="search">
+<table summary="bread crumbs" border="0" cellpadding="6" cellspacing="0" width="100%">
+<tbody><tr>
+<td class="crumb"><a href="http://dublincore.org/">Home</a>
+&gt;&nbsp;<a href="http://dublincore.org/documents/">
+Documents</a>&nbsp;&gt;&nbsp;</td>
+<td align="right">
+<form action="http://dublincore.org/search/searchServlet" method="post"><input name="predicate" value="all" type="hidden"> <input name="matchType" value="exact phrase" type="hidden"> <input name="searchCase" value="N" type="hidden"> 
+
+<table summary="keyword search" border="0" cellpadding="2" cellspacing="0">
+<tbody><tr>
+<td nowrap="nowrap"><input value="Enter keyword" name="searchTerm" size="20" onfocus="if(this.value=='Enter keyword')this.value='';" onblur="if(this.value=='')this.value='Enter keyword';" type="text"> &nbsp;</td>
+<td><input name="submit" value="Search" type="submit"></td>
+</tr>
+</tbody></table>
+</form>
+</td>
+</tr>
+</tbody></table>
+</div>
+
+<hr title="separator from menu and keyword search" noshade="noshade" size="1">
+<table summary="A layout table with descriptive information about this document." border="0" width="100%">
+<tbody><tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Title:</strong></div>
+</td>
+<td width="76%">
+<div align="left">
+<h2>Guidelines for assigning identifiers to metadata terms</h2>
+</div>
+</td>
+</tr>
+
+<tr>
+<td height="22" valign="top" width="24%">
+<div align="left"><strong>Creator:</strong></div>
+</td>
+<td height="22" width="76%">
+<div align="left"><a href="mailto:a.powell@ukoln.ac.uk">Andy
+Powell</a><br>
+UKOLN, University of Bath, UK<br>
+</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Date Issued:</strong></div>
+</td>
+<td width="76%">
+<div align="left">2004-08-01</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Identifier:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/term-identifier-guidelines/">
+http://www.ukoln.ac.uk/metadata/dcmi/term-identifier-guidelines/</a></div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Replaces:</strong></div>
+</td>
+<td width="76%">
+<div align="left">&nbsp;</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Is Replaced By:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Latest Version:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/documents/term-identifier-guidelines/">
+http://www.ukoln.ac.uk/metadata/dcmi/term-identifier-guidelines/</a></div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Status of Document:</strong></div>
+</td>
+<td width="76%">
+<div align="left">This is a DRAFT DCMI Recommended Resource.</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%"><strong>Description of
+Document:</strong></td>
+<td width="76%">This document provides some simple guidelines for assigning
+identifiers to non-DCMI metadata terms (elements, element refinements, encoding schemes and vocabulary terms).</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+<hr>
+</td>
+</tr>
+</tbody></table>
+
+<!--
+<h2>Table of contents</h2>
+<p>
+1. <a href="http://www.ukoln.ac.uk/metadata/dcmi/term-identifier-guidelines/2004-02-04/#sect-1">Introduction</a><br />
+</p>
+-->
+
+<h2><a id="sect-1" name="sect-1">1. Introduction</a></h2>
+
+<p>
+The DCMI Abstract Model
+<a href="#DCMI-AM">[DCMI-AM]</a>
+requires that all terms (elements, element refinements, encoding
+schemes and controlled vocabulary terms) used in metadata application profiles
+that are compliant with the model must be assigned a URI
+<a href="#RFC3986">[RFC3986]</a>
+that identifies the term.
+An XML namespace
+<a href="#XML-NAMES">[XML-NAMES]</a>
+is a collection of names, identified by a URI,
+that are used in XML documents as element types and attribute names.
+By convention, all DCMI recommended encodings
+<a href="#DCMI-ENCODINGS">[DCMI-ENCODINGS]</a>
+use a concatenation of an
+XML namespace URI and the term
+name to provide a mechanism for encoding
+the term URI.
+The use of XML namespaces and URI
+to uniquely identify metadata terms allows those terms to be 
+unambiguously used across applications, promoting the possibility of 
+shared semantics.
+As indicated in the DCMI Namespace Policy
+<a href="#DCMI-NAMESPACE">[DCMI-NAMESPACE]</a>,
+DCMI has adopted
+this mechanism for the identification of all DCMI terms.</p>
+
+<p>This document provides some simple guidelines for assigning
+URIs to metadata terms in non-DCMI namespaces.
+This includes non-DCMI elements, element refinements, encoding schemes
+and controlled vocabulary terms.
+</p>
+
+<p>
+Although these guidelines are mainly intended for metadata
+application profiles that conform with the DCMI Abstract Model,
+it is hoped that they
+are generic enough that they may be useful in the context of other
+metadata applications as well.
+</p>
+
+<h2><a id="sect-2" name="sect-2">2. Guidelines</a></h2>
+<p>
+All metadata terms must be assigned a URI.
+The use of fragment identifiers in the URI used to identify
+metadata terms is optional and is left to the discretion of
+the implementor.
+</p>
+<p>
+For the purposes of encoding, the term URI may be partitioned into an
+XML namespace URI and the term name.
+Note that, for convenience, it is
+commonly the case that XML namespace URIs end with either
+a '#' (hash) or '/' (slash) character.
+</p>
+<p>
+Groups of related terms (for example, all the terms within a controlled
+vocabulary) should be assigned URIs within the same
+XML namespace.
+</p>
+<p>
+All XML namespace and term URIs should resolve to human and/or
+machine-readable descriptions of the namespace or term.
+</p>
+<p>
+Any valid URI
+<a href="#RFC3986">[RFC3986]</a>
+may be used to identify a metadata term.
+However, the use of a registered URI scheme is
+recommended
+<a href="#URI-SCHEMES">[URI-SCHEMES]</a>.
+</p>
+<p>
+All XML namespace and term URIs should be assigned with the intention
+of them being unique and persistent.
+This means that the URI must not be used to identify anything else
+and that it should be expected to last as long as the Internet.
+</p>
+<h2><a id="sect-3" name="sect-3">3. Strategies for assigning URIs</a></h2>
+<p>
+Four simple strategies for assigning URIs to metadata terms are
+described below.
+</p>
+<h3>3.1 Using service or project URLs</h3>
+<p>
+Where a term is created within the context of a particular
+project, service or other initiative,
+the use of a project or service-specific URL may be appropriate.
+This is probably the simplest strategy in terms of ease of assignment and
+resolution.  However, it is also the most prone to lack of persistence.
+</p>
+<dl>
+<dt>Example 1: <tt>http://myservice.org/terms/price</tt></dt>
+<dd>
+An existing service is delivered using the <tt>myservice.org</tt>
+DNS domain name.
+The service creates a new property called <tt>price</tt>
+for use in its metadata application profile.
+The service defines an XML namespace URI within its existing URL
+space (<tt>http://example.org/terms/</tt>)
+and therefore assigns the term the following URI:
+<tt>http://example.org/terms/price</tt>.
+</dd>
+<dt>Example 2: <tt>http://myproject.org/metadata/vocabs/color#Red</tt></dt>
+<dd>
+A project Web-site is delivered using the <tt>myproject.org</tt>
+DNS domain name.
+The project team build up a new controlled vocabulary of colors for use
+within their metadata application profile.
+They define an XML namespace URI within their existing URL space
+(<tt>http://myproject.org/metadata/vocabs/color#</tt>).
+For the vocabulary term <tt>Red</tt>, the term URI is therefore
+<tt>http://myproject.org/metadata/vocabs/color#Red</tt></dd>
+</dl>
+
+<dt>
+<p>
+Notice that example 1 defines a metadata property while example 2 defines
+a term within a controlled vocabulary.
+Remember that in example 2 it will probably also be necessary to define
+an encoding scheme name for the vocabulary itself, for example
+<tt>http://myproject.org/metadata/terms/Color</tt>.
+</p>
+<h3>3.2 Using PURLs</h3>
+<p>
+A similar approach, but one that is likely to offer more persistent URIs,
+is to use PURLs
+<a href="#PURL">[PURL]</a>.
+A PURL is a Persistent Uniform Resource Locator. Functionally, a PURL is
+ a URL. However, instead of pointing directly to the location of an 
+Internet resource, a PURL points to an intermediate resolution service.
+This provides a level of resilience aginst changes in project or service
+URLs.
+The use of PURLs to identify metadata terms
+has already been adopted by a number of metadata-related
+initiatives such as DCMI itself and RDF Site Summary (RSS) 1.0
+<a href="#RSS10">[RSS10]</a>.
+</p>
+<dl>
+<dt>Example 1: <tt>http://purl.org/rss/1.0/link</tt></dt>
+<dd>
+RDF Site Summary is a lightweight multipurpose extensible
+metadata description and syndication format.
+The core metadata terms used by RSS are declared within an XML namespace
+(<tt>http://purl.org/rss/1.0/</tt>).
+For example, the property called <tt>link</tt> has been assigned the URI
+<tt>http://purl.org/rss/1.0/link</tt>.
+Other terms are declared within separate groupings, known in RSS as modules.
+Each module makes use of one or more separate XML namespaces.
+</dd>
+<dt>Example 2: <tt>http://purl.org/rdn/terms/dateReviewed</tt>
+</dt>
+<dd>
+The UK JISC-funded Resource Discovery Network has developed a small metadata
+application profile in order to describe the status of its catalogue records.
+One of the new terms in the application profile is called <tt>dateReviewed</tt>.
+All the new terms have been defined within an RDN
+XML namespace (<tt>http://purl.org/rdn/terms/</tt>).  Therefore,
+the URI assigned to the <tt>dateReviewed</tt> property is
+<tt>http://purl.org/rdn/terms/dateReviewed</tt>.
+</dd>
+</dl>
+<p>
+Note that in example 1, the RSS implementors have chosen to embed a version
+number into the XML namespace URI.
+This allows them to use the same term name within a new XML namespace in
+future versions of the application profile.
+This has advantages in some scenarios.  However, implementors should be cautious
+when using this technique
+because it may result in URIs being assigned
+to new terms that have the same semantics as existing terms.
+</p>
+
+<h3>3.3 Using "info" URIs</h3>
+<p>
+The "info" URI
+scheme provides a <i>"mechanism for assigning URIs
+to information assets that have identifiers in public
+namespaces"</i> but that do not have an appropriate existing URI scheme
+<a href="#INFO-URI-SPEC">[INFO-URI-SPEC]</a>
+<a href="#INFO-REGISTRY">[INFO-REGISTRY]</a>.
+The phrase 'information assets' includes all the metadata terms discussed here.
+Thus, it is appropriate to consider assigning
+"info" URIs to metadata terms.
+</p>
+<dl>
+<dt>Example 1: <tt>info:ddc/22/eng//004.678</tt></dt>
+<dd>
+The terms that make up the Dewey Decimal
+Classification
+<a href="#DEWEY">[DEWEY]</a>
+have been assigned "info"
+URIs such that
+<tt>info:ddc/22/eng//</tt> can be considered to be an XML namespace URI
+and "004.678" can be considered to be a Dewey term name.
+Thus the URI that has been assigned to that term is
+<tt>info:ddc/22/eng//004.678</tt>.
+Note that the information asset identified by this term is
+in the English-language Dewey Decimal Classifications (22nd Ed.)
+and is the classification "Internet".
+</dd>
+</dl>
+<p>
+Note that, somewhat confusingly, the draft "info" URI 
+specification uses different terminology from that used here.
+In the terminology of the specification, <tt>ddc</tt> is the <i>"info URI
+namespace component"</i> and <tt>22/eng//004.678</tt>
+is the <i>"info URI identifier component"</i>.
+</p>
+<p>
+Note also that "info" URIs can not be resolved using current Web browsers (i.e.
+by using a simple HTTP GET request).
+Indeed, "info" URIs are designed to be non-dereferencable - i.e. it is not
+possible to dereference an "info" URI in order to retrieve a representation of
+the identified resource.
+Unfortunately, this has serious consequences on their utility for identifiying
+metadata terms.  Since it is not possible to easily obtain a representation of
+the identified term (typically some metadata about the term), it is not
+possible to obtain any information about the relationships between the identified
+term and other terms.  This means that the "info" URI is of limited use in the
+context of the Semantic Web, since it is not possible for software applications
+to reason automatically based on knowledge about the relationships between
+multiple metadata terms.
+</p>
+
+<p>
+At the time of writing, "info" was not a registered URI scheme.
+</p>
+
+<h3>3.4 Using xmlns.com</h3>
+<p>
+xmlns.com provides a network space for simple Web namespace management.
+<i>"The rationale for registering xmlns.com was to secure a short, 
+memorable domain suitable for naming concepts for use in RDF and XML 
+vocabularies"</i>
+<a href="#XMLNS">[XMLNS]</a>.
+The FOAF vocabulary
+<a href="#FOAF">[FOAF]</a> uses xmlns.com
+to provide an XML namespace URI for its terms.
+</p>
+<dl>
+<dt>Example 1:  <tt>http://xmlns.com/foaf/0.1/firstName</tt></dt>
+<dd>
+The <tt>firstName</tt> term within the FOAF vocabulary uses the
+<tt>http://xmlns.com/foaf/0.1/</tt> XML namespace URI and has been assigned
+the URI <tt>http://xmlns.com/foaf/0.1/firstName</tt>.
+</dd>
+</dl>
+
+<p>
+Note that, at the time of writing, the status and ownership
+of the xmlns.com domain
+was slightly unclear and it is therefore not possible to be sure of
+the long term persistence of URIs based on this domain.
+</p>
+
+<h2><a id="sect-4" name="sect-4">4. Conclusions</a></h2>
+<p>
+All terms used in metadata application profiles must be assigned
+a URI before they can be used in the encoding syntaxes recommended
+by DCMI.
+It is recommended that implementors assign URIs to terms following
+the guidelines provided here.
+Of the four strategies for assigning URIs to terms listed in this
+document, the use of PURLs is recommended for the identification of all
+metadata terms.
+</p>
+<!--
+<h2><a id="glossary" name="glossary">5. Glossary</a></h2>
+<p>The following terms are used in this document:</p>
+<ul>
+<li><em>term</em><br />A <em>term</em> is a metadata property (element or element refinement), an encoding scheme or a term from a controlled vocabulary (word, phrase or notation).</li>
+
+<li><em>namespace</em><br />A <em>namespace</em> is a collection of <em>terms</em>.</li>
+
+<li><em>term URI</em><br />
+A URI that identifies a metadata <em>term</em>.</li>
+
+</ul>
+-->
+
+<h2><a id="references" name="references">References</a></h2>
+
+<a id="DCMI-AM" name="DCMI-AM"></a>
+<p><strong>[DCMI-AM]</strong><br>
+DCMI Abstract Model<br>
+<a href="http://dublincore.org/documents/abstract-model/">http://dublincore.org/documents/abstract-model/</a></p>
+
+<a id="XML-NAMES" name="XML-NAMES"></a>
+<p><strong>[XML-NAMES]</strong><br>Namespaces in XML, W3C Recommendation, 14 January 1999<br><a href="http://www.w3.org/TR/REC-xml-names">http://www.w3.org/TR/REC-xml-names</a></p>
+
+<a id="RFC3986" name="RFC3986"></a>
+<p><strong>[RFC3986]</strong><br>IETF (Internet Engineering Task Force) 
+RFC 3986: Uniform Resource Identifiers (URI): Generic Syntax, T. 
+Berners-Lee, R. Fielding, L. Masinter. January 2005.<br><a href="http://www.ietf.org/rfc/rfc3986.txt">http://www.ietf.org/rfc/rfc3986.txt</a></p>
+
+<a id="DCMI-ENCODINGS" name="DCMI-ENCODINGS"></a>
+<p><strong>[DCMI-ENCODINGS]</strong><br>
+DCMI Encoding Guidelines<br>
+<a href="http://dublincore.org/resources/expressions/">http://dublincore.org/resources/expressions/</a></p>
+
+<a id="DCMI-NAMESPACE" name="DCMI-NAMESPACE"></a>
+<p><strong>[DCMI-NAMESPACE]</strong><br>
+Namespace Policy for the Dublin Core Metadata Initiative (DCMI), 26 October 2001
+<br>
+<a href="http://dublincore.org/documents/dcmi-namespace/">http://dublincore.org/documents/dcmi-namespace/</a></p>
+
+<a id="URI-SCHEMES" name="URI-SCHEMES"></a>
+<p><strong>[URI-SCHEMES]</strong><br>
+Uniform Resource Identifier (URI) SCHEMES<br>
+<a href="http://www.iana.org/assignments/uri-schemes">http://www.iana.org/assignments/uri-schemes</a></p>
+
+<a id="PURL" name="PURL"></a>
+<p><strong>[PURL]</strong><br>
+PURLS<br>
+<a href="http://purl.org/">http://purl.org/</a></p>
+
+<a id="RSS10" name="RSS10"></a>
+<p><strong>RDF Site Summary 1.0</strong><br>
+<a href="http://purl.org/rss/1.0/spec">http://purl.org/rss/1.0/spec</a></p>
+
+<a id="INFO-URI-SPEC" name="INFO-URI-SPEC"></a>
+<p><strong>[INFO-URI-SPEC]</strong><br>
+The "info" URI Scheme for Information Assets with Identifiers in
+                           Public Namespaces, 9 July 2004<br>
+<a href="http://info-uri.info/registry/docs/drafts/draft-vandesompel-info-uri-02.txt">http://info-uri.info/registry/docs/drafts/draft-vandesompel-info-uri-02.txt</a></p>
+
+<a id="DEWEY" name="DEWEY"></a>
+<p><strong>[DEWEY]</strong><br>
+Dewey Decimal Classification<br>
+<a href="http://www.oclc.org/dewey/">http://www.oclc.org/dewey/</a>
+</p>
+
+<a id="INFO-REGISTRY" name="INFO-REGISTRY"></a>
+<p><strong>[INFO-REGISTRY]</strong><br>
+"info" URI registry<br>
+<a href="http://info-uri.info/">http://info-uri.info/</a></p>
+
+<a id="XMLNS" name="XMLNS"></a>
+<p><strong>[XMLNS]</strong><br>
+xmlns.com<br>
+<a href="http://xmlns.com/">http://xmlns.com/</a></p>
+
+<a id="FOAF" name="FOAF"></a>
+<p><strong>[FOAF]</strong><br>
+FOAF Vocabulary Specification<br>
+<a href="http://xmlns.com/foaf/0.1/">http://xmlns.com/foaf/0.1/</a></p>
+
+<hr title="separator from page content" size="1">
+<p><a href="http://validator.w3.org/check/referer"><img src="index_files/valid-xhtml10.gif" alt="Valid XHTML 1.0!" border="0" height="31" width="88"></a><a href="http://jigsaw.w3.org/css-validator"><img src="index_files/vcss.gif" alt="Valid CSS!" border="0" height="31" width="88"></a></p>
+
+<div class="metadata">
+<p>Metadata associated with this resource: <a href="http://dublincore.org/documents/term-identifier-guidelines/index.shtml.rdf">
+http://dublincore.org/documents/term-identifier-guidelines/index.shtml.rdf</a></p>
+</div>
+
+<div class="footer">
+<p><a href="http://www.ukoln.ac.uk/about/copyright/#copyright">Copyright</a> ©
+1995-2002 <acronym title="Dublin Core Metadata Initiative"><a href="http://dublincore.org/">DCMI</a></acronym> All Rights Reserved.
+DCMI <a href="http://www.ukoln.ac.uk/about/copyright/#liability">liability</a>, <a href="http://www.ukoln.ac.uk/about/copyright/#trademark">trademark/service mark</a>, <a href="http://www.ukoln.ac.uk/about/copyright/#documentnotice">document use</a> and <a href="http://www.ukoln.ac.uk/about/software/">software licensing</a> rules apply. Your
+interactions with this site are in accordance with our <a href="http://www.ukoln.ac.uk/about/privacy/">privacy</a> statements. Please feel free to <a href="http://www.ukoln.ac.uk/about/contact/">contact us</a> for any questions, comments
+or media inquiries.</p>
+</div>
+
+
+
+</dt></body></html>

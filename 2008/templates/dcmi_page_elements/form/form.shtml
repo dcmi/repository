@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>Form</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1 id="title">Form</h1>
+<dl>
+<dt>HTML Tag:</dt>
+<dd>See examples below.</dd>
+<dt>Guidelines:</dt>
+<dd>Use <code>OPTGROUP</code> to group <code>OPTION</code> elements inside a <code>SELECT</code>. Group form controls with <code>FIELDSET</code> and <code>LEGEND</code>.</dd>
+<dt>Warnings:</dt>
+<dd>The <code>FIELDSET</code> element is not supported in  Navigator (up to version 4.x).</dd>
+<dd>The <code>LEGEND</code> element is not supported in  Navigator (up to version 4.x).</dd>
+<dd>The <code>OPTGROUP</code> element is not supported in either Navigator or Internet Explorer.</dd>
+<dt>Priority:</dt>
+</dl>
+<dl>
+<dd>[Priority 2] A Web content developer <strong>should</strong> satisfy this checkpoint.</dd>
+</dl>
+<h2>Browser View:</h2>
+<form method="POST">
+<fieldset>
+<legend><strong>Personal Information</strong></legend><br>
+<label for="FIRSTNAME">First name:</label>
+<input type="TEXT" id="FIRSTNAME" tabindex="1" name="FIRST">
+<br>
+<label for="LASTNAME">Last name:</label>
+<input type="TEXT" id="LASTNAME" tabindex="2" name="LAST">
+</fieldset>
+<br>
+<fieldset>
+<legend><strong>Medical History</strong></legend><br>
+<label for="DOCTORNAME">Doctor's name:</label>
+<input type="TEXT" id="DOCTORNAME" tabindex="3" name="DOCTORNAME">
+<br>
+<label for="DOCTORADDRESS">Doctor's address:</label>
+<input type="TEXT" id="DOCTORADDRESS" tabindex="4" name="DOCTORADDRESS">
+<br>
+Appointment time:
+<select name="select">
+<optgroup label="Morning">
+<option value="9:00am" SELECTED>9:00am</option>
+<option value="10:00am">10:00am</option>
+<option value="11:00am">11:00am</option>
+</optgroup>
+<optgroup label="Afternoon">
+<option value="1:00pm">1:00pm</option>
+<option value="2:00pm">2:00pm</option>
+<option value="3:00pm">3:00pm</option>
+<option value="4:00pm">4:00pm</option>
+</optgroup>
+</select>
+</fieldset>
+</form>
+<h2>Source View:</h2>
+<code>&lt;FORM METHOD=&quot;POST&quot;&gt;<br>
+&lt;FIELDSET&gt;<br>
+&lt;LEGEND&gt;&lt;STRONG&gt;Personal Information&lt;/STRONG&gt;&lt;/LEGEND&gt;&lt;BR&gt;<br>
+&lt;LABEL FOR=&quot;FIRSTNAME&quot;&gt;First name:&lt;/LABEL&gt;&lt;INPUT TYPE=&quot;TEXT&quot; ID=&quot;FIRSTNAME&quot; TABINDEX=&quot;1&quot; NAME=&quot;FIRST&quot;&gt;&lt;BR&gt;<br>
+&lt;LABEL FOR=&quot;LASTNAME&quot;&gt;Last name:&lt;/LABEL&gt;&lt;INPUT TYPE=&quot;TEXT&quot; ID=&quot;LASTNAME&quot; TABINDEX=&quot;2&quot; NAME=&quot;LAST&quot;&gt;<br>
+&lt;/FIELDSET&gt;&lt;BR&gt;<br>
+&lt;FIELDSET&gt;<br>
+&lt;LEGEND&gt;&lt;STRONG&gt;Medical History&lt;/STRONG&gt;&lt;/LEGEND&gt;&lt;BR&gt;<br>
+&lt;LABEL FOR=&quot;DOCTORNAME&quot;&gt;Doctor's name:&lt;/LABEL&gt;&lt;INPUT TYPE=&quot;TEXT&quot; ID=&quot;DOCTORNAME&quot; TABINDEX=&quot;3&quot; NAME=&quot;DOCTORNAME&quot;&gt;&lt;BR&gt;<br>
+&lt;LABEL FOR=&quot;DOCTORADDRESS&quot;&gt;Doctor's address:&lt;/LABEL&gt;&lt;INPUT TYPE=&quot;TEXT&quot; ID=&quot;DOCTORADDRESS&quot; TABINDEX=&quot;4&quot; NAME=&quot;DOCTORADDRESS&quot;&gt;&lt;BR&gt;Appointment time:<br>
+&lt;SELECT NAME=&quot;select&quot;&gt;<br>
+&lt;OPTGROUP LABEL=&quot;Morning&quot;&gt;<br>
+&lt;OPTION VALUE=&quot;9:00am&quot; SELECTED&gt;9:00am&lt;/OPTION&gt;<br>
+&lt;OPTION VALUE=&quot;10:00am&quot;&gt;10:00am&lt;/OPTION&gt;<br>
+&lt;OPTION VALUE=&quot;11:00am&quot;&gt;11:00am&lt;/OPTION&gt;&lt;/OPTGROUP&gt;<br>
+&lt;OPTGROUP LABEL=&quot;Afternoon&quot;&gt;<br>
+&lt;OPTION VALUE=&quot;1:00pm&quot;&gt;1:00pm&lt;/OPTION&gt;<br>
+&lt;OPTION VALUE=&quot;2:00pm&quot;&gt;2:00pm&lt;/OPTION&gt;<br>
+&lt;OPTION VALUE=&quot;3:00pm&quot;&gt;3:00pm&lt;/OPTION&gt;<br>
+&lt;OPTION VALUE=&quot;4:00pm&quot;&gt;4:00pm&lt;/OPTION&gt;&lt;/OPTGROUP&gt;<br>
+&lt;/SELECT&gt;<br>
+&lt;/FIELDSET&gt;<br>
+&lt;/FORM&gt;</code>
+</body>
+</html>

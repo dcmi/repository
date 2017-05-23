@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lookup>
+<url-encoding>
+<search find="~" replace="%7E"/>
+<search find="?" replace="%3F"/>
+<!-- <search find="&amp;" replace="%26"/> -->
+<search find="#" replace="%23"/>
+<search find=":" replace="%3A"/>
+<!-- <search find="=" replace="%3D"/> -->
+<search find="@" replace="%40"/>
+<search find=" " replace="%20"/>
+<search find="," replace="%2C"/>
+<search find="/" replace="%2F"/>
+<search find="\" replace="%5C"/>
+</url-encoding>
+</lookup>

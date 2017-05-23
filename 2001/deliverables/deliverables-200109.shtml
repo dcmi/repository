@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DCMI Deliverables - September 2001</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="deliverables-200109.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>DCMI Deliverables</h1>
+<h2>September 2001</h2>
+<table class="border" cellspacing="0">
+<tr>
+<th>Name</th>
+<th>Editor/contact</th>
+<th>Document status</th>
+<th>WG reference</th>
+<th>Process Status</th>
+<th>Scheduled Completion</th>
+</tr>
+<tr> 
+<td><a href="/groups/admin/proposal-20010910.shtml">Administrative Dublin Core (A-Core) elements</a></td>
+<td>Jytte Hansen, Leif Andresen</td>
+<td>Draft 2001-09-10</td>
+<td>Administrative Metadata</td>
+<td>WG</td>
+<td>Planning under revision</td>
+</tr>
+<tr>
+<td><a href="/documents/2001/09/20/dcmes-xml/">Expressing Simple Dublin Core in RDF/XML</a></td>
+<td>Dave Beckett, Eric Miller, Dan Brickley</td>
+<td>Proposed Recommendation 2001-09-20</td>
+<td>Architecture</td>
+<td>Public Comment</td>
+<td>2001-10</td>
+</tr>
+<tr>
+<td>DCMI Architecture roadmap</td>
+<td>Dan Brickley</td>
+<td>None</td>
+<td>Architecture</td>
+<td>WG</td>
+<td>Planning under revision</td>
+</tr>
+<tr>
+<td><a href="/documents/2001/08/29/dcq-rdf-xml/">Expressing Qualified Dublin Core in RDF/XML</a></td>
+<td>Roland Schw&auml;nzl, Stefan Kokkelink</td>
+<td>Proposed Recommendation 2001-08-29</td>
+<td>Architecture</td>
+<td>Public Comment</td>
+<td>2001-10</td>
+</tr>
+<tr>
+<td>Dublin Core Qualifiers (HTML encoded META)</td>
+<td>Simon Cox</td>
+<td>Draft 2000-08-15</td>
+<td>Architecture</td>
+<td>WG, being finalized</td>
+<td>2001-10</td>
+</tr>
+<tr>
+<td>Recording Bibliographic Citation Information for Journal Articles in Dublin Core</td>
+<td>Ann Apps</td>
+<td>Draft 2001-08-17</td>
+<td>Citation</td>
+<td>WG</td>
+<td>Planning under revision</td>
+</tr>
+<tr>
+<td>Proposal for dc-ed:level</td>
+<td>Jon Mason</td>
+<td>Draft 2000-10-05</td>
+<td>Education</td>
+<td>Review Usage Board</td>
+<td>2001-10</td>
+</tr>
+<tr>
+<td>Proposal for Type vocabulary</td>
+<td>Jon Mason</td>
+<td>None</td>
+<td>Education</td>
+<td>WG</td>
+<td>2001-10</td>
+</tr>
+<tr>
+<td>Proposal for dc-ed:audience refinements</td>
+<td>Jon Mason</td>
+<td>None</td>
+<td>Education</td>
+<td>WG</td>
+<td>2001-10</td>
+</tr>
+<tr>
+<td>Proposal for teaching/learning processes and characteristics</td>
+<td>Jon Mason</td>
+<td>None</td>
+<td>Education</td>
+<td>WG</td>
+<td>2001-10</td>
+</tr>
+<tr>
+<td><a href="/documents/2001/09/17/gov-application-profile/">DCMI Government Application Profile</a></td>
+<td>Maewyn Cumming</td>
+<td>Draft 2001-09-17</td>
+<td>Government</td>
+<td>WG</td>
+<td>2001-10</td>
+</tr>
+<tr>
+<td><a href="/documents/2001/08/08/library-application-profile/">Library Application Profile</a></td>
+<td>Rebecca Guenther</td>
+<td>Draft 2001-08-08</td>
+<td>Libraries</td>
+<td>WG</td>
+<td>2001-12</td>
+</tr>
+<tr>
+<td><a href="/documents/2001/09/17/dcmi-namespace/">Namespace Policy for the Dublin Core Metadata Initiative</a></td>
+<td>Andy Powell, Harry Wagner</td>
+<td>Proposed Recommendation 2001-09-17</td>
+<td>Directorate/Architecture</td>
+<td>Public Comment</td>
+<td>2001-10</td>
+</tr>
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

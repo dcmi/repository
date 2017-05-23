@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>Lists</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<div class="body">
+<h1 id="title">Lists</h1>
+<dl>
+<dt>HTML Tags:</dt>
+<dd>See examples below.</dd>
+<dt>Guidelines:</dt>
+<dd>Mark up lists and list items properly. For example, nest <code>OL</code>, <code>UL</code>, and <code>DL</code> lists properly.</dd>
+<dt>Warnings:</dt>
+<dd>-</dd>
+<dt>Priority:</dt>
+<dd>[Priority 2] A Web content developer <strong>should</strong> satisfy this checkpoint.</dd>
+</dl>
+<h2>Browser View:</h2>
+<ol>
+<li>Content
+<ul>
+<li>Content
+<ul>
+<li>Content</li>
+<li>Content</li>
+</ul>
+</li>
+<li>Content</li>
+<ul>
+<li>Content</li>
+<li>Content</li>
+</ul>
+<li>Content</li>
+<ul>
+<li>Content</li>
+<li>Content</li>
+</ul>
+</ul>
+</li>
+<li>Content
+<ul>
+<li>Content</li>
+<ul>
+<li>Content</li>
+<li>Content</li>
+</ul>
+<li>Content</li>
+<ul>
+<li>Content</li>
+<li>Content</li>
+</ul>
+<li>Content</li>
+<ul>
+<li>Content</li>
+<li>Content</li>
+</ul>
+</ul>
+</li>
+</ol>
+<h2>Source View:</h2>
+<code>&lt;OL&gt;<br>
+&lt;LI&gt;Content<br>
+&lt;UL&gt;<br>
+&lt;LI&gt;Content<br>
+&lt;UL&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;/UL&gt;<br>
+&lt;/LI&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;UL&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;/UL&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;UL&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;/UL&gt;<br>
+&lt;/UL&gt;<br>
+&lt;/LI&gt;<br>
+&lt;LI&gt;Content<br>
+&lt;UL&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;UL&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;/UL&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;UL&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;/UL&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;UL&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;LI&gt;Content&lt;/LI&gt;<br>
+&lt;/UL&gt;<br>
+&lt;/UL&gt;<br>
+&lt;/LI&gt;<br>
+&lt;/OL&gt;</code></div>
+</body>
+</html>

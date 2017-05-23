@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+	<!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	xmlns:dcterms="&dctermsns;"
+	xmlns:dctype="&dctypens;">
+	
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label rdf:ID="title_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="title_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="title_description" xml:lang="zh-CN"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label rdf:ID="contributor_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="contributor_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="contributor_description" xml:lang="zh-CN"/>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label rdf:ID="creator_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="creator_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="creator_description" xml:lang="zh-CN"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label rdf:ID="publisher_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="publisher_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="publisher_description" xml:lang="zh-CN"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label rdf:ID="subject_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="subject_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="subject_description" xml:lang="zh-CN"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label rdf:ID="description_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="description_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="description_description" xml:lang="zh-CN"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label rdf:ID="date_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="date_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="date_description" xml:lang="zh-CN"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label rdf:ID="type_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="type_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="type_description" xml:lang="zh-CN"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label rdf:ID="format_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="format_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="format_description" xml:lang="zh-CN"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label rdf:ID="identifier_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="identifier_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="identifier_description" xml:lang="zh-CN"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label rdf:ID="language_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="language_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="language_description" xml:lang="zh-CN"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label rdf:ID="relation_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="relation_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="relation_description" xml:lang="zh-CN"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label rdf:ID="source_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="source_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="source_description" xml:lang="zh-CN"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label rdf:ID="coverage_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="coverage_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="coverage_description" xml:lang="zh-CN"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label rdf:ID="rights_label" xml:lang="zh-CN"/>
+  <rdfs:comment rdf:ID="rights_comment" xml:lang="zh-CN"/>
+  <dc:description rdf:ID="rights_description" xml:lang="zh-CN"/>
+</rdf:Property>
+
+
+<rdf:Description rdf:about="#title_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#title_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#title_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#description_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_label">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_comment">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_description">
+	<dc:title xml:lang="zh-CN">(Dublin Core version 1.1 in Chinese)</dc:title>
+	<dc:date xml:lang="zh-CN">1999-07-02</dc:date>	
+	<dc:creator xml:lang="zh-CN">
+	(Liu Wei)
+	</dc:creator>		
+	<dc:description xml:lang="zh-CN"> 
+	DC &#x9879;&#x7ffb;&#x8bd1; (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587; (zh-CN)</dc:language>	
+	<dc:publisher xml:lang="zh-CN">
+	(Shanghai Library, China)
+	</dc:publisher>
+	<dc:source rdf:resource="http://dc.library.sh.cn/DC/dcset.html"/>
+	<rdfs:seeAlso rdf:resource="http://dc.library.sh.cn/DC/dcq.html"/>
+	<dc:publisher rdf:resource="http://www.library.sh.cn/"/>
+	<dc:rights xml:lang="zh-CN">
+	&#x53d1;&#x8868;&#x4eba;&#x5bf9;&#x7ffb;&#x8bd1;&#x7684;&#x6b63;&#x786e;&#x6027;&#x4e0d;&#x8d1f;&#x4efb;&#x4f55;&#x8d23;&#x4efb; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+
+</rdf:RDF>

@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+	<!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	xmlns:dcterms="&dctermsns;"
+	xmlns:dctype="&dctypens;">
+	
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label rdf:ID="title_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="title_comment" xml:lang="fi-FI"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label rdf:ID="contributor_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="contributor_comment" xml:lang="fi-FI"/>
+  <dc:description rdf:ID="contributor_description" xml:lang="fi-FI"/>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label rdf:ID="creator_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="creator_comment" xml:lang="fi-FI"/>
+  <dc:description rdf:ID="creator_description" xml:lang="fi-FI"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label rdf:ID="publisher_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="publisher_comment" xml:lang="fi-FI"/>
+  <dc:description rdf:ID="publisher_description" xml:lang="fi-FI"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label rdf:ID="subject_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="subject_comment" xml:lang="fi-FI"/>
+  <dc:description rdf:ID="subject_description" xml:lang="fi-FI"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label rdf:ID="description_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="description_comment" xml:lang="fi-FI"/>
+  <dc:description rdf:ID="description_description" xml:lang="fi-FI"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label rdf:ID="date_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="date_comment" xml:lang="fi-FI"/>
+  <dc:description rdf:ID="date_description" xml:lang="fi-FI"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label rdf:ID="type_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="type_comment" xml:lang="fi-FI"/>
+  <dc:description rdf:ID="type_description" xml:lang="fi-FI"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label rdf:ID="format_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="format_comment" xml:lang="fi-FI"/>
+  <dc:description rdf:ID="format_description" xml:lang="fi-FI"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label rdf:ID="identifier_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="identifier_comment" xml:lang="fi-FI"/>
+  <dc:description rdf:ID="identifier_description" xml:lang="fi-FI"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label rdf:ID="language_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="language_comment" xml:lang="fi-FI"/>
+  <dc:description rdf:ID="language_description" xml:lang="fi-FI"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label rdf:ID="relation_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="relation_comment" xml:lang="fi-FI"/>
+  <dc:description rdf:ID="relation_description" xml:lang="fi-FI"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label rdf:ID="source_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="source_comment" xml:lang="fi-FI"/>
+  <dc:description rdf:ID="source_description" xml:lang="fi-FI"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label rdf:ID="coverage_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="coverage_comment" xml:lang="fi-FI"/>
+  <dc:description rdf:ID="coverage_description" xml:lang="fi-FI"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label rdf:ID="rights_label" xml:lang="fi-FI"/>
+  <rdfs:comment rdf:ID="rights_comment" xml:lang="fi-FI"/>
+  <dc:description rdf:ID="rights_description" xml:lang="fi-FI"/>
+</rdf:Property>
+
+
+<rdf:Description rdf:about="#title_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#title_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_description">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_description">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_description">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_description">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_description">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_description">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_description">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_description">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_description">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_description">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#relation_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_description">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_description">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_description">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_label">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_comment">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_description">
+	<dc:date xml:lang="fi-FI">2002-10-09</dc:date>	
+	<dc:title xml:lang="fi-FI">
+	Dublin Core Metadata Element Set, Versio 1.1 Tallenteiden kuvailuformaatti
+	(Dublin Core Metadata Element Set, Version 1.1)
+	</dc:title>	
+	<dc:creator xml:lang="fi-FI">
+	Juha Hakala, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:creator xml:lang="fi-FI">
+	Jani Stenvall, Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:creator>	
+	<dc:description xml:lang="fi-FI"> 
+	Dublin Core -formaatin k&#x00e4;&#x00e4;nn&#x00f6;s (DC term translation)
+	</dc:description>	
+	<dc:language xml:lang="fi-FI">Suomeksi (fi-FI)</dc:language>	
+	<dc:publisher xml:lang="fi-FI">
+	Helsingin Yliopiston Kirjasto (Helsinki University Library)
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.lib.helsinki.fi/"/>	
+	<dc:source rdf:resource="http://www.lib.helsinki.fi/dublin_core/dc-sfs.html"/>	
+	<dc:rights xml:lang="fi-FI">
+	Julkaisija ei vastaa k&#x00e4;&#x00e4;nn&#x00f6;ksen virheett&#x00f6;myydest&#x00e4; 
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+</rdf:RDF>

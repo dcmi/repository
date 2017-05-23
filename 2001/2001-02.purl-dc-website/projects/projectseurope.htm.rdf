@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/DC/projects/projectseurope.htm">
+   <dc:title>Dublin Core Metadata Initiative - Projects Using Dublin Core Metadata Organized by Geographical Region - Europe</dc:title>
+   <dc:description>A list of projects using Dublin Core Metadata that originate in Europe.</dc:description>
+   <dc:date>2000-01-27</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

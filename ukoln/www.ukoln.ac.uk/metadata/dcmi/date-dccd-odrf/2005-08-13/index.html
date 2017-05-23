@@ -1,0 +1,269 @@
+<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title>Dublin Core Collection Description : Open Date Range Format (DCCD ODRF)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="index_files/dccdap.html" type="text/css">
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<meta name="dc.title" content="Dublin Core Collection Description : Open Date Range Format (DCCD ODRF)" lang="en">
+<meta name="dc.creator" content="Dublin Core Collection Description Working Group">
+<meta name="dcterms.issued" scheme="dcterms.W3CDTF" content="2005-08-13">
+<meta name="dcterms.abstract" content="This document describes a format for encoding date ranges as text. It is based on ISO8601 (2000) and W3CDTF but is a profile of neither of those standards/specifications.">
+<meta name="dc.format" scheme="dcterms.IMT" content="text/html">
+<meta name="dc.type" scheme="dcterms.DCMIType" content="Text">
+
+
+</head>
+<body>
+
+<table summary="A layout table with descriptive information about this document." border="0" width="100%">
+<tbody><tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Title:</strong></div>
+</td>
+<td width="76%">
+<div align="left">
+<h1>Dublin Core Collection Description : Open Date Range Format (DCCD ODRF)</h1>
+</div>
+</td>
+</tr>
+
+<tr>
+<td height="22" valign="top" width="24%">
+<div align="left"><strong>Creator:</strong></div>
+</td>
+<td height="22" width="76%">
+<div align="left">Dublin Core Collection Description Working Group</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Date Issued:</strong></div>
+</td>
+<td width="76%">
+<div align="left">2005-08-13</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Identifier:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/date-dccd-odrf/2005-08-13/">
+http://www.ukoln.ac.uk/metadata/dcmi/date-dccd-odrf/2005-08-13/</a></div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Replaces:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Is Replaced By:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Latest Version:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/date-dccd-odrf/">
+http://www.ukoln.ac.uk/metadata/dcmi/date-dccd-odrf/</a></div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Status of Document:</strong></div>
+</td>
+<td width="76%">
+<div align="left">This is a working document which has no status within DCMI.</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%"><strong>Description of
+Document:</strong></td>
+<td width="76%">This document describes a format for encoding date 
+ranges as text. It is based on ISO8601 (2000) and W3CDTF but is a 
+profile of neither of those standards/specifications.</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+<hr>
+</td>
+</tr>
+</tbody></table>
+
+<div>
+
+<div>
+<h2>Introduction</h2>
+
+<p>This document describes a text format for representing:</p>
+
+<ul>
+<li>a <strong>closed date range</strong>: a time-interval expressed as a start date and an end date; and</li>
+<li>an <strong>open date range</strong>: a time-interval expressed using
+ either a start date alone (to indicate the time-interval since that 
+date up to the present) or an end date alone (to indicate the 
+time-interval up to that date)</li>
+</ul>
+
+<p>This format is based on the ISO8601 (2000) standard [<a href="#ISO8601">ISO8601</a>] and the W3CDTF "profile" of ISO8601 [<a href="#W3CDTF">W3CDTF</a>]. However the format described by this document is <em>not</em>
+ a profile of ISO8601 since ISO8601 does not support the representation 
+of time-intervals based on "open" ranges; and it is not a profile of 
+W3CDTF since W3CDTF supports the representation of dates and times, but 
+not time-intervals.</p>
+
+</div>
+
+<div>
+
+<h2>The Format</h2>
+
+<p>This format supports the representation of <strong>time-intervals</strong> expressed as a <strong>start date</strong> and/or an <strong>end-date</strong>.</p>
+
+<p>The start date and the end date must be represented using one of the following formats defined by W3CDTF [<a href="#W3CDTF">W3CDTF</a>]:</p>
+
+<pre>   Year:
+      YYYY (eg 1997)
+   Year and month:
+      YYYY-MM (eg 1997-07)
+   Complete date:
+      YYYY-MM-DD (eg 1997-07-16)
+</pre>
+
+<p>where:</p>
+
+<pre>     YYYY = four-digit year
+     MM   = two-digit month (01=January, etc.)
+     DD   = two-digit day of month (01 through 31)
+</pre>
+
+<p>Only this subset of the formats defined by W3CDTF are permitted. The 
+representation of time of day is not supported by this specification.</p>
+
+<p>A solidus ("forward slash") ["/"] is used to separate the 
+representation of the start date from the representation of the end 
+date.</p>
+
+<div>
+
+<h3>Closed date range</h3>
+
+<p>A <strong>closed date range</strong> is represented by a start date, followed by a "/", followed by an end date:</p>
+
+<pre>   Closed date-range:
+      YYYY-MM-DD/YYYY-MM-DD (eg 1997-07-16/1998-09-17)
+</pre>
+
+<p>Any of the date formats above (YYYY-MM-DD, YYYY-MM or YYYY) may be used for both start date and end date.</p>
+
+<p>This representation of a <strong>closed date range</strong> is compatible with the representation of a time-interval defined by ISO8601:2000 (section 5.5.4.1, extended format).</p>
+
+</div>
+
+<div>
+
+<h3>Open date range</h3>
+
+<p>An <strong>open date range</strong> is represented by:</p>
+
+<ul>
+<li>a start date, followed by a "/", or</li>
+<li>a "/" followed by an end date</li>
+</ul>
+
+<pre>   Open date-range:
+      YYYY-MM-DD/ (eg 1997-07-16/)
+      /YYYY-MM-DD (eg /1997-07-16)
+</pre>
+
+<p>Any of the date formats above (YYYY-MM-DD, YYYY-MM or YYYY) may be used for both start date and end date.</p>
+
+<p>This representation of an <strong>open date range</strong> is <em>not</em> compatible with the representation of a time-interval defined by ISO8601:2000.</p>
+
+</div>
+
+</div>
+
+<div>
+
+<h2>Examples</h2>
+
+<p><samp>1997-07-16/1997-07-17</samp> corresponds to a time-period 
+starting on July 16, 1997, and ending on July 17, 1997. From the 
+representation provided, it is not possible to say whether this is a 
+period of a few seconds (from late on July 16 until early on July 17) or
+ of 48 hours (from 0.00 on July 16 until 24.00 on July 17).</p>
+
+<p><samp>1997-07/1997-08</samp> corresponds to a time-period starting 
+during the month of July, 1997, and ending during the month of August, 
+1997. From the representation provided, it is not possible to say 
+whether this is a period of a few seconds (from late on July 31 until 
+early on August 1) or of 62 days (from 0.00 on July 1 until 24.00 on 
+August 31).</p>
+
+<p><samp>1997/1998</samp> corresponds to a time-period starting during 
+the year 1997, and ending during the year 1998. From the representation 
+provided, it is not possible to say whether this is a period of a few 
+seconds (from late on Decemeber 31, 1997, until early on January 1, 
+1998) or of 730 days (from 0.00 on January 1, 1997, until 24.00 on 
+December 31, 1998).</p>
+
+<p><samp>1997-07-16/</samp> corresponds to a time-period starting on July 16, 1997.</p>
+
+<p><samp>1997-07/</samp> corresponds to a time-period starting during the month of July, 1997.</p>
+
+<p><samp>1997/</samp> corresponds to a time-period starting during the year 1997.</p>
+
+<p><samp>/1997-07-16</samp> corresponds to a time-period ending on July 16, 1997.</p>
+
+<p><samp>/1997-07</samp> corresponds to a time-period ending during the month of July, 1997.</p>
+
+<p><samp>/1997</samp> corresponds to a time-period ending during the year 1997.</p>
+
+</div>
+
+<div>
+
+<h2>References</h2>
+
+<p class="reference"><a id="ISO8601" name="ISO8601">[ISO8601]</a>&nbsp;&nbsp;<em>ISO8601:2000(E)
+Data elements and interchange formats - Information interchange - Representation of dates and times.</em> Second edition<br></p>
+
+<p class="reference"><a id="W3CDTF" name="W3CDTF">[W3CDTF]</a>&nbsp;&nbsp;Misha Wolf &amp; Charles Wicksteed, <em>Date and Time Formats.</em> W3C Note. Submitted to W3C 15 September 1997.<br>
+<code><a href="http://www.w3.org/TR/NOTE-datetime">http://www.w3.org/TR/NOTE-datetime</a></code></p>
+
+</div>
+
+<div>
+
+<h2>Changes made in this version</h2>
+<ul>
+<li>Initial version.</li>
+</ul>
+
+</div>
+
+</div>
+
+
+
+
+</body></html>

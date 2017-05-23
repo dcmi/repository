@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//SoftQuad//DTD HoTMetaL PRO 4.0::19971010::extensions to HTML 4.0//EN" "hmpro4.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    <title></title>
+  </head>
+  
+  <body>
+    
+    <h2>Dublin Core Datamodel Working Group Meeting </h2>
+    
+    <h3>OCLC, Dublin, Ohio, USA - 17-19 June 1998</h3>
+    
+    <h3>Notes </h3>
+    
+    <p><font size="-1">Andy Powell - 24/06/98 </font></p>
+    <hr>
+    
+    <p>The first day started with introductions and identifying the purpose of
+      the meeting. We agreed that we hoped to: </p>
+    <ul>
+      <li>develop a clear understanding of the DC data model and its
+        relationship to the RDF model </li>
+      <li>understand the nature of qualification
+        <ul>
+          <li> clarification of methods of extension </li>
+          <li> clarification of methods of refinement </li>
+        </ul></li>
+      <li>develop a structure to support current usage and further evolution of
+        DC. </li>
+    </ul>
+    
+    <p>There was some discussion about the 5 RFCs - about what shoulod be in
+      them, etc. The primary agreement here was that RFC#1 should come out asap.</p>
+    
+    <p>I would say that most discussion during the 3 days concentrated on the
+      notion of 'what is qualification' and how it can be represented in RDF.
+    </p>
+    
+    <p>We started with a discussion of the applicability of the RDF model for
+      DC. Does it form a sensible basis for the DC model? It was agreed that it
+      could be. The one point of contention was the notion of identifiers. In
+      RDF everything being described <i>must</i> have a URI. In DC this has not
+      been the case up until now - <i>identifier</i>, like all elements, is
+      optional. So to a certain extent the use of RDF moves us away from the
+      notion in DC that all elements are optional? Also, although everything can
+      be assigned URIs (using UUIDs for example), operationally it may not be
+      desirable for people to have to generate arbitrary URIs for objects before
+      they can describe them using DC in RDF? </p>
+    
+    <p>The use of the term 'resource' in RDF is slightly confusing. In RDF all
+      nodes are resources, some nodes represent real world objects (Web pages,
+      etc.) some do not. We agreed that we needed some terminology for RDF
+      resources, real world resources and resources that are both. During the
+      meeting we used the term 'resource' in a normal library/Internet way. We
+      used the term 'RDF resource' for nodes (i.e. where RDF uses the term
+      resource). </p>
+    
+    <h3>Simple DC</h3>
+    
+    <p>We looked thru all/most of the 15 DC elements at a high level and agreed
+      that they all followed the pattern below: </p>
+    
+    <p><tt>[ R ] --- DC:Element ---&gt; [ R2 ]</tt></p>
+    
+    <p>or</p>
+    
+    <p><tt>[ R ] --- DC:Element ---&gt; "string value"</tt></p>
+    
+    <p>where R is the URI of the resource being described and R2 is the URI of
+      a second resource. It was noted that R2 may be one of two things:</p>
+    <ul>
+      <li>the URI of a resource containing the string value of the DC:Element
+        property</li>
+      <li>the URI of an RDF node (i.e. a structured value)</li>
+    </ul>
+    
+    <p>It was suggested that the latest version of the RDF spec makes it
+      possible to differentiate between these two.</p>
+    
+    <p>So, for example, for DC.Rights we would have:</p>
+    
+    <p><tt>[ http://www.ariadne.ac.uk/ ] --- DC:Rights ---&gt; [
+      http://www.ariadne.ac.uk/copyright.html ]</tt> </p>
+    
+    <p><tt></tt>or</p>
+    
+    <p><tt>[ http://www.ariadne.ac.uk/ ] --- DC:Rights ---&gt; "some
+      rights statement"</tt></p>
+    
+    <p>There is an exception to this high level similarity between all the
+      elements. Identifier has three valid forms:</p>
+    
+    <p><tt>[ R ]</tt></p>
+    
+    <p><tt>[ R ] --- DC:Identifier ---&gt; "string"</tt></p>
+    
+    <p><tt>[ R ] --- DC:Identifier ---&gt; [ R2 ]</tt></p>
+    
+    <p>This is because the node labelled 'R' on its own provides the URI for
+      the resource being described. The DC:Identifier property should only be
+      used to provide additional identifiers for a resource.</p>
+    
+    <h3>Qualified DC</h3>
+    
+    <p>The notion that qualification can take two forms was discussed. Some
+      qualifiers, role and type, refine the meaning of the element - in RDF
+      terms they refine the <i>property</i>. Consider</p>
+    
+    <p><tt>[ R ] --- DC:Title ---&gt; "xxxx"</tt></p>
+    
+    <p>A <i>Title Type</i> of Alternative, for example, refines the meaning of
+      the DC:Title property.</p>
+    
+    <p align="LEFT">Other qualifiers tell you something about the <i>value</i>
+      of the <i>property</i>. Consider</p>
+    
+    <p align="LEFT"><tt>[ R ] --- DC.Date ---&gt; "1998-04-05"</tt></p>
+    
+    <p align="LEFT">A <i>Date Scheme</i> of ISO 8601 tells us something about
+      the syntax/format of the date string value.</p>
+    
+    <p align="LEFT">There was some discussion about whether the mechanism that
+      we define to handle these two kinds of qualifiers needed to differentiate
+      between the two.</p>
+    
+    <p align="LEFT">In a strict RDF model, the first kind of qualification
+      (refining the property), would be handled using reification. This is the
+      process by which a property becomes a resource so that other statements
+      can be made about it. Reification is typically used so that you can make
+      assertions about who said that 'xxxx' is the DC:Title for [ R ]. Despite a
+      long discussion about the use of reification for our purposes (refining a
+      property) we concluded the day by saying that the RDF arc-node diagrams
+      and associated XML syntax for reified graphs were too complex to consider
+      as part of the DC data model.</p>
+    
+    <p align="LEFT">It was agreed that, in the DC data model, a <i>Role</i> is
+      a <i>Type</i> but not vice versa, i.e. that any agreed mechanism for
+      handling <i>Type</i>s in DC would be sufficient for <i>Role</i>s.</p>
+    
+    <p align="LEFT">Charles' paper introduces the notion of an <i>Annotation
+      Node </i>as a way of handling Roles and Types. Here's an example of an
+      Annotation Node:</p>
+    
+    <p align="LEFT"><tt><img src="index_files/annotation.gif" alt="{short description of image}" height="98" width="487"></tt>
+    </p>
+    
+    <p align="LEFT">Note that the XX namespace was undecided at this stage but
+      differentiating it from the DC namespace was seen as a potenial
+      requirement.</p>
+    
+    <p align="LEFT">Note that the value of RDF:Value and the value of
+      XX:Title.Type are shown as strings here but either or both could be nodes.</p>
+    
+    <p align="LEFT">An alternative proposition was put forward for handling
+      Roles and Types using InstanceOf arcs. Here's the same example:</p>
+    
+    <p align="LEFT"><img src="index_files/instanceof.gif" alt="{short description of image}" height="139" width="487"></p>
+    
+    <p align="LEFT">Note that in this case the value of RDF:InstanceOf must be
+      a node (and so must have a URI).</p>
+    
+    <p align="LEFT">A comparison of the two approaches.</p>
+    
+    <p align="LEFT">InstanceOf</p>
+    <ul>
+      <li>requires the use of nodes/URIs - may be bad for long lists of types,
+        may be OK for short lists?</li>
+      <li>may be used to <i>'typecheck' </i>other arcs coming out of the node.
+        This is good for DC/RDF tools.</li>
+    </ul>
+    
+    <p>Annotation Node:</p>
+    <ul>
+      <li>can use string or node</li>
+      <li>no possibility of typechecking other arcs originating from the node</li>
+    </ul>
+    
+    <p>Note that the value of <i>Role</i> is typically taken from a long
+      enumerated list. The value of <i>Type</i> is typically taken from a short
+      enumerated list.</p>
+    
+    <p>Annotation nodes were agreed as the best way of handling Roles and
+      Types. Some work over night developed a similar way of handling Schemes.</p>
+    
+    <p>Should the value of an Annotation Node be a string or a node?</p>
+    
+    <p>Strings are:</p>
+    <ul>
+      <li>easy to work with</li>
+      <li>may have to be hardwired into code</li>
+      <li>require external registries</li>
+    </ul>
+    
+    <p>Nodes:</p>
+    <ul>
+      <li>are unambiguous</li>
+      <li>the URI can be used to point to the definition (i.e. registries come
+        as part of the solution in some sense).</li>
+    </ul>
+    
+    <p>No decision was reached on this issue.</p>
+    
+    <h3>Qualified DC Template</h3>
+    
+    <p>By the final day, and after much drawing of arc-node diagrams we had
+      developed a simple template for the way in which Roles, Types and Schemes
+      are represented within the RDF model.</p>
+    
+    <p><img src="index_files/template.gif" alt="{short description of image}" height="156" width="585"></p>
+    
+    <p>Note that the namespace for qualifiers is DCQ - i.e. it is separate from
+      the normal DC namespace.</p>
+    
+    <p>Note that all <i>values </i>for DCQ properties could either be strings
+      or nodes (to be decided). In the examples below values are shown as
+      strings to save showing them as either strings or nodes in each case.</p>
+    
+    <h3>Examples</h3>
+    
+    <p>We then proceeded to apply this to all or most of the 15 DC elements.
+      Diagrams follow:</p>
+    
+    <p><b>DC.Title</b></p>
+    
+    <p><img src="index_files/title.gif" alt="{short description of image}" height="98" width="487"></p>
+    
+    <p><b>DC.Relation</b></p>
+    
+    <p><img src="index_files/relation.gif" alt="{short description of image}" height="98" width="431"></p>
+    
+    <p><b>DC.Subject</b></p>
+    
+    <p>See examples at &lt;URL:<a href="http://www.ukoln.ac.uk/metadata/resources/rdf/examples/5/">http://www.ukoln.ac.uk/metadata/resources/rdf/examples/5/</a>&gt;</p>
+    
+    <p><b>DC.Creator</b></p>
+    
+    <p><img src="index_files/creator1.gif" alt="{short description of image}" height="98" width="487"></p>
+    
+    <p>...repetition of roles...</p>
+    
+    <p><img src="index_files/creator2.gif" alt="{short description of image}" height="106" width="487"></p>
+    
+    <p>...personal vs. corporate...</p>
+    
+    <p>There was some discussion about the personal vs. corporate debate. Some
+      people felt that person/organisation was really a scheme thing. In the end
+      we decided to push the problem into another namespace (i.e. make it
+      someone elses problem). For example we might ask the vCard people to
+      introduce a specific attribute into the vCard proposal that differentiates
+      people from organisation - current vCard doesn't have this distinction.</p>
+    
+    <h3>XML Syntax</h3>
+    
+    <p>Most of the meeting concerned arc-node diagrams. XML serialisation
+      syntax was considered at various times. An example was given of how the
+      abbreviated syntax can be used. The abbreviated syntax has some advantages
+      in that it looks more like what people would be likely to come up with if
+      they simply invented their own DTD for describing Web resources. It's
+      disadvantage is that it is difficult to go straight from an arc-node
+      diagram to the abbreviated syntax (and get it right). Better to go to the
+      full syntax first, then abbreviate it.</p>
+  
+
+</body></html>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/groups/qualifierproposal-title.htm">
+   <dc:title>Dublin Core Metadata Initiative - DC-Title Working Group - Proposal for Qualifier Usage</dc:title>
+   <dc:description>This report proposes an approach to the use of qualifiers for the element Title in Dublin Core applications. This
+          proposal has been formulated based on previous limited discussion and the chair's opinion of what seems to have emerged
+          as consensus, as well as practical issues.</dc:description>
+   <dc:date>2000-02-16</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Dublin Core Metadata Initiative</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0070)http://www.mailbase.ac.uk/lists/dc-coverage/files/wd-coverage-qual.htm -->
+<HTML><HEAD><TITLE>Proposed Dublin Core Coverage Qualifiers</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY aLink=#ffffff bgColor=#ffffe7 link=#990000 text=#000000 vLink=#000066><A 
+href="http://purl.org/dc/"><IMG alt="Dublin Core Metadata Initiative" border=0 
+height=32 src="Proposed Dublin Core Coverage Qualifiers_files/dcmi_22.gif" 
+width=460></A> 
+<H2>Final Draft - 13 December 1999</H2><STATUS>
+<H3>Status of this document</H3>
+<P>This document is a Working Draft of the <A href="http://purl.org/dc">Dublin 
+Core Metadata Initiative</A>, and is intended to reflect consensus reached 
+within the <A href="http://purl.org/DC/groups/coverage.htm">Coverage Working 
+Group</A> of the DCMI.</P>
+<P>With the publication of this draft, the Coverage Qualifiers are presented to 
+the wider Dublin Core community for consideration and eventual adoption. 
+Inclusion of a Qualifier in this document should not be considered as 
+endorsement by the DCMI as a whole.</P>
+<P>Comments and feedback should be sent to the working group mailing list <A 
+href="mailto:dc-coverage@mailbase.ac.uk">dc-coverage@mailbase.ac.uk</A>, the 
+archives for which may be browsed at <A 
+href="http://www.mailbase.ac.uk/lists/dc-coverage/">http://www.mailbase.ac.uk/lists/dc-coverage/</A>. 
+NOTE, you must be a <A 
+href="http://www.mailbase.ac.uk/lists/dc-coverage/join.html">member</A> of the 
+WG to post messages to the Coverage mailing list, alternatively, send your 
+feedback to the <A href="mailto:p.miller@ukoln.ac.uk">Editor</A> of this Working 
+Draft.</P></STATUS>
+<HR>
+
+<H2><A name=section1>1</A>. Introduction</H2>
+<P>The qualifiers below are recommended for the Coverage element of the Dublin 
+Core Element Set [<A 
+href="http://purl.org/DC/documents/rec-dces-19990702.htm">DCES</A>]. This draft 
+is based upon an analysis of qualifiers already in use for this element [<A 
+href="http://www.mailbase.ac.uk/lists/dc-coverage/files/wd-coverage-qual.htm#1">1</A>], 
+and discussion within the working group. The aim of this draft is to identify 
+the qualifiers required to meet the core semantic needs of the Dublin Core 
+element set; matters of syntax and the model for qualifiers are not addressed. 
+This proposal is intended to be extensible, with scope for addition of further 
+qualifiers at a later date by the Dublin Core community as a whole, or by 
+individual implementors. 
+<P>
+<HR>
+
+<H2><A name=section2>2</A>. Proposed Qualifiers for Coverage</H2>
+<P>
+<H3>Element qualifiers</H3>
+<UL>
+  <LI><I>Name</I>: <B>placeName</B><BR><I>Definition</I>: The name of a 
+  place.<BR><I>Comment</I>: Place Names should be drawn from controlled 
+  vocabularies whenever possible, with the name of the controlled vocabulary 
+  from which the descriptor is derived identified as a value qualifier. 
+  <LI><I>Name</I>: <B>Box</B><BR><I>Definition</I>: The geographic extent, 
+  declared by means of a defined co-ordinate system.<BR><I>Comment</I>: Using a 
+  Box to identify a place requires the inclusion multiple components within a 
+  single element value. DCBOX [<A 
+  href="http://www.mailbase.ac.uk/lists/dc-coverage/files/wd-coverage-qual.htm#2">2</A>] 
+  provides a simple method for specifying these for a rectangular shaped region. 
+  By encapsulating all components associated with a single place within one 
+  value in this way, it is straightforward to specify multiple, disjoint, 
+  regions and locations through simple repetition of the Coverage element. If 
+  used, DCBOX should be identified as the value qualifier. 
+  <LI><I>Name</I>: <B>Point</B><BR><I>Definition</I>: A single point in space, 
+  declared by means of a defined co-ordinate system.<BR><I>Comment</I>: A point 
+  in space identified by means of mathematical coordinates requires the 
+  inclusion of multiple components within a single element value. DCPOINT [<A 
+  href="http://www.mailbase.ac.uk/lists/dc-coverage/files/wd-coverage-qual.htm#3">3</A>] 
+  provides a simple method for specifying this. If used, DCPOINT should be 
+  identified as the value qualifier. 
+  <LI><I>Name</I>: <B>periodName</B><BR><I>Definition</I>: The name of a period 
+  in time.<BR><I>Comment</I>: Period Names should be drawn from controlled 
+  vocabularies whenever possible, with the name of the controlled vocabulary 
+  from which the descriptor is derived identified as a value qualifier. 
+  <LI><I>Name</I>: <B>Date</B><BR><I>Definition</I>: A numeric date, declared by 
+  means of a defined date system.<BR><I>Comment</I>: The system used to describe 
+  the date (such as W3CDTF or ISO 8601) should be identified as a value 
+  qualifier. Where feasible, use of the World Wide Web Consortium's note on 
+  expressing Date and Time Formats (W3CDTF) is recommended. 
+  <LI><I>Name</I>: <B>dateStart</B><BR><I>Definition</I>: A numeric date, 
+  declared by means of a defined date system, which expresses the start of a 
+  date range.<BR><I>Comment</I>: The system used to describe the date (such as 
+  W3CDTF or ISO 8601) should be identified as a value qualifier. Where feasible, 
+  use of the World Wide Web Consortium's note on expressing Date and Time 
+  Formats (W3CDTF) is recommended. 
+  <LI><I>Name</I>: <B>dateEnd</B><BR><I>Definition</I>: A numeric date, declared 
+  by means of a defined date system, which expresses the end of a date 
+  range.<BR><I>Comment</I>: The system used to describe the date (such as W3CDTF 
+  or ISO 8601) should be identified as a value qualifier. Where feasible, use of 
+  the World Wide Web Consortium's note on expressing Date and Time Formats 
+  (W3CDTF) is recommended. </LI></UL>
+<H3>Value qualifiers</H3>Some examples, although this is not intended as a 
+restrictive list:
+<UL>
+  <LI><I>Name</I>: <B>TGN</B><BR><I>Definition</I>: The Getty Thesaurus of 
+  Geographic Names<BR><I>URI</I>: <A 
+  href="http://shiva.pub.getty.edu/tgn_browser/">http://shiva.pub.getty.edu/tgn_browser/</A> 
+
+  <LI><I>Name</I>: <B>DD</B><BR><I>Definition</I>: A latitude and longitude, 
+  expressed in decimal degrees. 
+  <LI><I>Name</I>: <B>DMS</B><BR><I>Definition</I>: A latitude and longitude, 
+  expressed in degrees, minutes, and seconds. 
+  <LI><I>Name</I>: <B>W3CDTF</B><BR><I>Definition</I>: The World Wide Web 
+  Consortium's note on expressing Date and Time Formats.<BR><I>URI</I>: <A 
+  href="http://www.w3.org/TR/NOTE-datetime">http://www.w3.org/TR/NOTE-datetime</A> 
+  </LI></UL>
+<H2><A name=section3>3</A>. Notes</H2>
+<H3>Some reasons for decisions </H3>
+<LI>Jurisdiction, it was felt, is actually covered by the <EM>other</EM> 
+qualifiers. If, for example, you have a jurisdiction of 'New South Wales', it's 
+actually almost exactly the same as the Place Name 'New South Wales'. The 
+extents/meaning might be slightly different, but this is handled by a 
+recommendation that jurisdiction terms are drawn from a jurisdictional 
+controlled terminology rather than any other list of words. The jurisdiction of 
+New South Wales might therefore be drawn from a controlled term list for 
+Australian administrative areas, whilst the place in less precise terms (in a 
+tourist brochure, say) might be drawn from the Thesaurus of Geographic Names or 
+something similar. The onus is placed upon the terminology from which the term 
+is drawn to define it to the level of granularity required (a gazetteer of admin 
+areas for use by Government might link to a GIS defining the extent down to 
+individual property boundaries...). 
+<H3>Outstanding Issues</H3>
+<LI>It is also proposed that Coverage might be seen as requiring only 
+<EM>two</EM> element qualifiers; place and time. In such a model, the remaining 
+element qualifiers, above, would become value qualifiers for one of these two 
+element qualifiers. 
+<H3>References</H3>[<A name=1>1</A>] <A 
+href="http://www.mailbase.ac.uk/lists/dc-coverage/files/qualifiers.html">http://www.mailbase.ac.uk/lists/dc-coverage/files/qualifiers.html</A> 
+<BR>[<A name=2>2</A>] <A 
+href="http://www.agcrc.csiro.au/projects/3018CO/metadata/dcbox/">http://www.agcrc.csiro.au/projects/3018CO/metadata/dcbox/</A> 
+<BR>[<A name=3>3</A>] <A 
+href="http://www.agcrc.csiro.au/projects/3018CO/metadata/dcpoint/">http://www.agcrc.csiro.au/projects/3018CO/metadata/dcpoint/</A> 
+
+<HR>
+<SMALL>Acknowledgements to the Coverage Working Group for their contributions 
+<P>Page maintained by <A href="mailto:p.miller@ukoln.ac.uk">Paul Miller</A> 
+<BR>Last updated 1999-12-13 </P></SMALL></LI></BODY></HTML>

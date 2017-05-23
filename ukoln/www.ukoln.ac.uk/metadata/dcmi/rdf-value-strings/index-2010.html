@@ -1,0 +1,212 @@
+<html>
+<head>
+<title>Interim recommendations for encoding 'value strings' in DC RDF/XML</title>
+</head>
+<body>
+<h1 align="center">Interim recommendations for encoding 'value strings' in DC RDF/XML</h1>
+<h2 align="center">DRAFT DCMI Note</h2>
+<p align="center">Andy Powell, UKOLN, University of Bath</p>
+<p align="center">16 August 2005</p>
+<hr />
+<h2>Introduction</h2>
+<p>
+DCMI has two documents concerning the use of Dublin Core metadata in
+RDF/XML.  The first,
+<a href="http://dublincore.org/documents/dcmes-xml/">
+Expressing Simple Dublin Core in RDF/XML</a>
+[SIMPLEDC-RDF]
+is a 'recommendation'
+and describes how to encode simple DC in RDF/XML.
+The second,
+<a href="http://dublincore.org/documents/dcq-rdf-xml/">
+Expressing Qualified Dublin Core in RDF/XML</a>
+[QUALIFIEDDC-RDF]
+is a 'proposed recommendation'
+and describes how to encode qualified DC in RDF/XML.
+</p>
+<p>
+More recently, the DC Architecture WG has developed the
+<a href="http://dublincore.org/documents/abstract-model/">
+DCMI Abstract Model</a>
+[DCMI-AM]
+which provides a reference model against which particular
+<a href="http://dublincore.org/resources/expressions/">DC encoding guidelines</a>
+[DCMI-ENCODINGS]
+can be compared. 
+</p>
+<p>
+The Abstract Model defines a terminology that includes the following terms
+(the definitions are repeated here for clarity):
+</p>
+<dl>
+<dt><i>resource</i></dt>
+
+<dd>A <i>resource</i> is anything that has identity. Familiar
+examples include an electronic document, an image, a service (e.g.,
+"today's weather report for Los Angeles"), and a collection of
+other <i>resources</i>. Not all <i>resources</i> are network
+"retrievable"; e.g., human beings, corporations, concepts and bound books in
+a library can also be considered <i>resources</i>.</dd>
+
+<dt><i>resource URI</i></dt>
+
+<dd>A <i>resource URI</i> is a URI that identifies a single <i>resource</i>.
+</dd>
+
+<dt><i>property</i></dt>
+
+<dd>A <i>property</i> is a specific aspect, characteristic,
+attribute, or relation used to describe <i>resources</i>.</dd>
+
+<dt><i>property URI</i></dt>
+
+<dd>A <i>property URI</i> is a URI that identifies a single <i>property</i>.
+</dd>
+
+<dt><i>value</i></dt>
+
+<dd>A <i>value</i> is the physical or conceptual entity that is associated
+with a <i>property</i> when it is used to describe a <i>resource</i>.
+
+<dt><i>value URI</i></dt>
+
+<dd>A <i>value URI</i> is a URI that identifies the <i>value</i> of a <i>
+property</i>.</dd>
+
+<dt><i>value string</i></dt>
+
+<dd>A <i>value string</i> is a simple string that represents the
+<i>value</i> of a <i>property</i>.
+</dd>
+</dl>
+
+<p>
+One issue with the two DCMI documents for encoding DC in RDF/XML is that
+they each recommend a different mechanism for encoding the
+<i>value string</i> that represents the <i>value</i> of a
+<i>property</i>.
+In the simple DC recommendation, a construct represented by the
+RDF graph in figure 1 is used.  This construct uses a literal string as
+the value of the property.
+In the qualified DC proposed recommendation, a construct represented by the
+RDF graph in figure 2 is used.
+This construct represents the <i>value</i> of the <i>property</i> as
+an intermediate (often blank) node,
+allowing further properties to be used to describe
+the <i>value</i> resource, including a simple <i>value string</i>
+(using rdfs:label).
+</p>
+<table align="center" boder="0" summary="Figures" cellpadding="5">
+<tr>
+<td align="center">
+<img src="figure1.gif" alt="Figure 1" />
+</td>
+<td align="center">
+<img src="figure2.gif" alt="Figure 2" />
+</td>
+</tr>
+<tr>
+<th align="center">Figure 1</th>
+<th align="center">Figure 2</th>
+</tr>
+</table>
+
+<p>
+In terms of the Abstract Model both these constructs represent the same
+semantics -
+they both represent a <i>resource URI</i>, a <i>property URI</i> and
+a <i>value string</i>.
+However, in terms of the RDF model, the two constructs are different - non-DCMI
+applications would not recognise the two graphs as being synonimous.
+Perhaps more importantly, the use of these different constructs
+in a DCMI recommendation and a DCMI proposed recommendation has led to
+some confusion in the RDF implementor community, with some people following
+one recommendation and others following the other.
+The confusion is particularly accute where the resource represented by the
+intermediate node is relatively obvious, for example a person or organisation,
+as is the case with the dc:creator, dc:contributor and dc:publisher
+properties.
+This potentially leads to less interoperability between DC metadata
+applications than might otherwise be achieved.
+</p>
+
+<p>
+Note that DCMI currently
+makes no recommendations about the class of the intermediate
+node, nor about whether it should be assigned a URI or be generated
+as a blank node.
+</p>
+<p>
+The remainder of this document makes some initial recommendations
+for dealing with this situation.
+</p>
+
+<h2>Recommendations</h2>
+<dl>
+<dt><strong>Recommendation 1</strong></dt>
+<dd>
+DC-aware software applications that consume metadata records encoded
+according to either of the two DCMI documents for encoding DC in RDF/XML
+should treat the two constructs above as synonimous.
+Applications may transform DC RDF graphs between the two forms in
+either direction (either by adding an intermediate blank node or by
+removing the intermediate node) as and when necessary.
+</dd>
+<i>
+<dt><strong>Recommendation 2</strong></dt>
+<dd>
+DC-aware software applications that generate metadata records encoded as
+RDF/XML should use the second construct above (with the
+intermediate node).
+This form more closely represents the Abstract Model for DC descriptions
+and generating the intermediate node when the metadata record is
+first created provides consuming applications with
+a 'hook' on which further descriptions of the value can be hung, without needing
+to modify the structure of the consumed metadata record.
+</dd>
+</dl>
+<p>
+Note that it might be argued that recommendation 2 is unnecessary given
+recommendation 1, since if DC-aware software applications
+that consume metadata records are allowed to treat the
+two constructs as synonimous then it does not matter which form
+other software applications generate.
+However, the intention of recommendation 2 is to provide a greater
+level of interoperability between DC RDF/XML records from different sources
+when they are
+consumed by software applications that are not DC-aware - i.e. that
+have no knowledge of recommendation 1.
+</p>
+<p>
+This option effectively deprecates DCMI's simple DC in RDF recommendation in its
+current form, since it essentially recommends against following the
+guidelines in that document.
+</p>
+</i>
+<p>
+A small task force of the DC-Architecture WG is currently developing a
+revised set of recommendations for how all the features of the
+DCMI Abstract Model should be encoded using RDF.
+The recommendations in this document should be treated as interim, pending
+adoption of the decisions of that task force.
+</p>
+<h2>References</h2>
+<dl>
+<dt>SIMPLEDC-RDF</dt>
+<dd>Expressing Simple Dublin Core in RDF/XML<br />&lt;<a href="http://dublincore.org/documents/dcmes-xml/">http://dublincore.org/documents/dcmes-xml/</a>&gt;</dd>
+<dt>QUALIFIEDDC-RDF</dt>
+<dd>Expressing Qualified Dublin Core in RDF/XML<br />&lt;<a href="http://dublincore.org/documents/dcq-rdf-xml/">http://dublincore.org/documents/dcq-rdf-xml/</a>&gt;</dd>
+<dt>DCMI-AM</dt>
+<dd>DCMI Abstract Model<br />&lt;<a href="http://dublincore.org/documents/abstract-model/">http://dublincore.org/documents/abstract-model/</a>&gt;</dd>
+<dt>DCMI-ENCODINGS</dt>
+<dd>DCMI Encoding Guidelines<br />&lt;<a href="http://dublincore.org/resources/expressions/">http://dublincore.org/resources/expressions/</a>&gt;</dd>
+</dt>
+<hr>
+<small>Andy Powell, UKOLN, University of Bath
+<br />
+Last updated:
+
+16-Aug-2005
+</small>
+</body>
+</html>

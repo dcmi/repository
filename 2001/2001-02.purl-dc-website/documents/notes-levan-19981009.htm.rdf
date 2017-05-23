@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/documents/notes/notes-levan-19981009.htm">
+   <dc:title>A Cross-Domain Attribute Set</dc:title>
+   <dc:description>Searching is almost always about compromises. The kinds of access points that the searcher is expecting may or may not be accruately reflected in the indexing provided by the database server. The searching is most accurate, and the searcher is least surprised, when the searcher and client software have a complete understanding of the schema of the database being searched. The next least surprising environment is when the searcher has no expectations about the database and the server provides the complete document in a single index (e.g. WAIS). This may not be very accurate, but no one is surprised by the results. Anything in between complete understanding and complete ignorance is a compromise and subject to the user being surprised by the results of a search.</dc:description>
+   <dc:date>1998-10-09</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Ralph LeVan</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

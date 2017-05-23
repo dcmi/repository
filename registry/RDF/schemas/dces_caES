@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;">
+
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label xml:lang="ca-ES">
+  T&#x00ed;tol
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  Nom donat al recurs.
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+	Normalment, el T&#x00ed;tol &#x00e9;s un nom pel qual es coneix formalment el recurs.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label xml:lang="ca-ES">
+  Contribu&#x00ef;dor
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  Entitat responsable de fer contribucions al contingut del recurs.
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+  Els exemples de Contribu&#x00ef;dor inclouen una persona, una organitzaci&#x00f3; o un servei. 
+  Normalment, el nom d'un Contribu&#x00ef;dor s'utilitza per a indicar l'entitat mateixa.
+  </dc:description>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label xml:lang="ca-ES">
+  Creador
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  Entitat que t&#x00e9; la responsabilitat principal de la creaci&#x00f3; del contingut del recurs. 
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+  Els exemples de Creador inclouen una persona, una organitzaci&#x00f3; o un servei. Normalment, 
+  el nom d'un Creador s'ha d'utilitzar per a indicar l'entitat.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label xml:lang="ca-ES">
+  Editor
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  Entitat responsable de fer el recurs disponible.
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+  Els exemples d'Editor inclouen una persona, una organitzaci&#x00f3; o un servei. Normalment, 
+  el nom d'un Editor s'utilitza per a indicar l'entitat mateixa.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label xml:lang="ca-ES">
+  Mat&#x00e8;ries i Paraules clau
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  El tema del contingut del recurs.
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+  Normalment, les Mat&#x00e8;ries s'expressen amb paraules clau o frases clau o codis de 
+  classificaci&#x00f3; que descriuen el tema del recurs.  Es recomana la bona pr&#x00e0;ctica de 
+  seleccionar un valor d'un vocabulari controlat o d'un esquema de classificaci&#x00f3; formal.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label xml:lang="ca-ES">
+  Descripci&#x00f3;
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  Explicaci&#x00f3; del contingut del recurs.
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+  La Descripci&#x00f3; pot incloure un resum, un sumari, una refer&#x00e8;ncia a la 
+  representaci&#x00f3; gr&#x00e0;fica del contingut o un text lliure del contingut, tot i que no 
+  hi est&#x00e0; limitada.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label xml:lang="ca-ES">
+  Data
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  Data associada a un esdeveniment del cicle de vida del recurs.
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+  Normalment, la Data s'associa a la creaci&#x00f3; o disponibilitat del recurs. Es recomana la bona 
+  pr&#x00e0;ctica d'utilitzar el perfil d'ISO 8601 [W3CDTF], que segueix la forma AAAA-MM-DD, per a 
+  la codificaci&#x00f3; del valor de la data. 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label xml:lang="ca-ES">
+  Tipus de recurs
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  Naturalesa o g&#x00e8;nere del contingut del recurs.
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+  Tipus inclou termes que descriuen categories, funcions i g&#x00e8;neres generals per al contingut, 
+  o nivells d'agregaci&#x00f3;. Es recomana la bona pr&#x00e0;ctica de seleccionar un valor d'un 
+  vocabulari controlat (per exemple, la llista de treball del Dublin Core Types [DCT1]). Per a 
+  descriure una manifestaci&#x00f3; f&#x00ed;sica o digital del recurs s'utilitza l'element FORMAT. 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label xml:lang="ca-ES">
+  Format
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  Manifestaci&#x00f3; fisica o digital del recurs
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+  Normalment, el Format pot incloure el tipus de suport o dimensions del recurs. El Format es pot 
+  utilitzar per determinar el programari, el maquinari o qualsevol altre equipament necessari per a 
+  la visualitzaci&#x00f3; del recurs o per a fer-lo funcionar. Exemples de dimensions inclouen la 
+  mida i la durada. Es recomana la bona pr&#x00e0;ctica de seleccionar un valor d'un vocabulari 
+  controlat (per exemple, la llista d'Internet Media Types [MIME] que defineix els formats de suports 
+  electr&#x00f2;nics. 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label xml:lang="ca-ES">
+  Identificador del recurs
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  Refer&#x00e8;ncia un&#x00ed;voca al recurs en un context donat.
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+  Es recomana la bona pr&#x00e0;ctica d'identificar el recurs per mitj&#x00e0; d'una 
+  seq&#x00fc;&#x00e8;ncia o un n&#x00fa;mero d'acord a un sistema d'identificaci&#x00f3; formal. 
+  Els exemples de sistemes d'identificaci&#x00f3; formal inclouen l'URI (Uniform Resource Identifier) 
+  (incl&#x00f2;s l'URL (Uniform Resource Locator), el DOI (Digital Object Identifier) i l'ISBN 
+  (International Standard Book Number). 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label xml:lang="ca-ES">
+  Llengua
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  Llengua del contingut intel&#x00b7;lectual del recurs
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+  Per als valors de l'element Llengua es recomana el que &#x00e9;s defint a RFC 1766 [RFC1766] 
+  on s'inclou un codi de llengua de dos car&#x00e0;cters (derivat de l'est&#x00e0;ndard 
+  ISO 639 [ISO639]), seguit opcionalment d'un codi de pa&#x00ed;s de dos car&#x00e0;cters 
+  (derivat de l'est&#x00e0;ndard ISO 3166 [ISO3166]). Per exemple, "en" per a l'angl&#x00e8;s, 
+  "fr" per al franc&#x00e8;s, "ca" per al catal&#x00e0; o "en-uk" per a l'angl&#x00e8;s del Regne Unit. 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label xml:lang="ca-ES">
+  Relaci&#x00f3;
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  Refer&#x00e8;ncia al recurs relacionat.
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+  Es recomana la bona pr&#x00e0;ctica de fer refer&#x00e8;ncia al recurs per mitj&#x00e0; d'una 
+  seq&#x00fc;&#x00e8;ncia o n&#x00fa;mero d'acord a un sistema d'identificaci&#x00f3; formal. 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label xml:lang="ca-ES">
+  Font
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  Refer&#x00e8;ncia a un recurs del qual se'n deriva el recurs present.
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+  El recurs present pot derivar del recurs font en la seva totalitat o en part. Es recomana la bona 
+  pr&#x00e0;ctica de fer refer&#x00e8;ncia al recurs per mitj&#x00e0; d'una seq&#x00fc;&#x00e8;ncia 
+  o n&#x00fa;mero d'acord a un sistema d'identificaci&#x00f3; formal. 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label xml:lang="ca-ES">
+  Cobertura
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  Extensi&#x00f3; o abast del contingut del recurs.
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+  Normalment, la Cobertura inclou la localitzaci&#x00f3; espacial (el nom d'un lloc o les 
+  coordenades geogr&#x00e0;fiques), el per&#x00ed;ode de temps (el nom d'un per&#x00ed;ode, 
+  una data o un interval de dates) o una jurisdicci&#x00f3; (com ara el nom d'una entitat 
+  administrativa).  Es recomana la bona pr&#x00e0;ctica de seleccionar un valor d'un vocabulari 
+  controlat (per exemple, el Thesaurus of Geographic Names [TGN]) i, quan sigui possible, utilitzar 
+  els noms de lloc o per&#x00ed;odes de temps preferentment als identificadors num&#x00e8;rics com 
+  ara s&#x00e8;ries de coordenades o intervals de temps.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label xml:lang="ca-ES">
+  Gesti&#x00f3; dels drets
+  </rdfs:label>
+  <rdfs:comment xml:lang="ca-ES">
+  Informaci&#x00f3; dels drets exercits sobre el recurs
+  </rdfs:comment>
+  <dc:description xml:lang="ca-ES">
+  Normalment, l'element Drets inclou una indicaci&#x00f3; de gesti&#x00f3; dels drets sobre el 
+  recurs o una refer&#x00e8;ncia a un servei que proporciona aquesta informaci&#x00f3;. 
+  La informaci&#x00f3; sobre els drets sovint compr&#x00e8;n els drets de propietat intel&#x00b7;lectual 
+  Intellectual Property Rights (IPR), Copyright i altres drets sobre la propietat.  Si l'element 
+  Rights &#x00e9;s absent, no es poden fer assumpcions sobre l'estatus d'aquests i d'altres drets 
+  amb respecte al recurs. 
+  </dc:description>
+</rdf:Property>
+
+
+</rdf:RDF>

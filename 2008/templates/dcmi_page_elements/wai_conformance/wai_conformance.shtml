@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>DCMI Example</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<p>This page conforms to W3C's &quot;Web Content Accessibility Guidelines 1.0&quot;, available at <a href="http://www.w3c.org/TR/1999/WAI-WEBCONTENT-19990505">http://www.w3c.org/TR/1999/WAI-WEBCONTENT-19990505</a>, level A.</p>
+<p><a href="http://www.w3.org/WAI/WCAG1A-Conformance" title="Explanation of Level A Conformance"><img height="32" width="88" src="http://www.w3.org/WAI/wcag1A" alt="Level A conformance icon, W3C-WAI Web Content Accessibility Guidelines 1.0" border="0"></a></p>
+<hr>
+<p>This page conforms to W3C's &quot;Web Content Accessibility Guidelines 1.0&quot;, available at <a href="http://www.w3c.org/TR/1999/WAI-WEBCONTENT-19990505">http://www.w3c.org/TR/1999/WAI-WEBCONTENT-19990505</a>, level Double-A.</p>
+<p><a href="http://www.w3.org/WAI/WCAG1AA-Conformance" title="Explanation of Level Double-A Conformance"><img height="32" width="88" src="http://www.w3.org/WAI/wcag1AA" alt="Level Double-A conformance icon, W3C-WAI Web Content Accessibility Guidelines 1.0" border="0"></a></p>
+<hr>
+<p>This page conforms to W3C's &quot;Web Content Accessibility Guidelines 1.0&quot;, available at <a href="http://www.w3c.org/TR/1999/WAI-WEBCONTENT-19990505">http://www.w3c.org/TR/1999/WAI-WEBCONTENT-19990505</a>, level Triple-A.</p>
+<p><a href="http://www.w3.org/WAI/WCAG1AAA-Conformance" title="Explanation of Level Triple-A Conformance"><img height="32" width="88" src="http://www.w3.org/WAI/wcag1AAA" alt="Level Triple-A conformance icon, W3C-WAI Web Content Accessibility Guidelines 1.0" border="0"></a></p>
+</body>
+</html>

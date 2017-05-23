@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+    <mods version="3.3">
+        
+        <titleInfo>
+            <title>Botanical materia medica and pharmacology</title>
+            <subTitle>drugs considered from a botanical, pharmaceutical, physiological, therapeutical and toxicological standpoint</subTitle>
+        </titleInfo>
+        
+        <name type="personal">
+            <namePart>Aurand, Samuel Herbert</namePart>
+            <namePart type="date">1854-</namePart>
+            <role>
+                <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+            </role>
+        </name>
+        
+        <typeOfResource>text</typeOfResource>
+        
+        <originInfo>
+            <place>
+                <placeTerm type="code" authority="marccountry">ilu</placeTerm>
+            </place>
+            <place>
+                <placeTerm type="text">Chicago</placeTerm>
+            </place>
+            <publisher>P. H. Mallen Company</publisher>
+            <dateIssued>1899</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <language>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        </language>
+        <physicalDescription>
+            <form authority="marcform">print</form>
+            <extent>406 p. 24 cm.</extent>
+        </physicalDescription>
+        <note type="statement of responsibility">By S. H. Aurand.</note>
+        <note>Homeopathic formulae.</note>
+        <subject authority="lcsh">
+            <topic>Botany, Medical</topic>
+        </subject>
+        <subject authority="lcsh">
+            <topic>Homeopathy</topic>
+            <topic>Materia medica and therapeutics</topic>
+        </subject>
+        <classification authority="lcc">RX671 .A92</classification>
+        <identifier type="lccn">00000002</identifier>
+        <recordInfo>
+            <recordContentSource authority="marcorg">DLC</recordContentSource>
+            <recordCreationDate encoding="marc">800108</recordCreationDate>
+            <recordChangeDate encoding="iso8601">20040505165105.0</recordChangeDate>
+            <recordIdentifier source="DLC">   00000002 </recordIdentifier>
+        </recordInfo>
+    </mods>
+</modsCollection>    

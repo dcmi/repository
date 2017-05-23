@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;">
+	 
+<rdf:Description rdf:about="http://dublincore.org/documents/dcq-html/">
+	<dc:title xml:lang="en-US">Expressing Qualified Dublin Core in HTML/XHTML meta and link elements</dc:title>
+	<dc:creator>Andy Powell, UKOLN, University of Bath</dc:creator>
+	<dc:creator rdf:resource="mailto:a.powell@ukoln.ac.uk"/>
+	<dc:description xml:lang="en-US">
+	This document describes how Dublin Core metadata can be encoded in HTML/XHTML meta and link elements.
+	</dc:description>
+	<dc:date>2003-11-30</dc:date>
+	<dc:format>text/html</dc:format>	
+	<dc:language>en-US</dc:language>
+	<dc:publisher xml:lang="en-US">Dublin Core Metadata Initiative</dc:publisher>
+	<dcq:conformsTo rdf:resource="http://dublincore.org/documents/#recommendations"/>
+</rdf:Description>
+
+</rdf:RDF>
+
+

@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+
+<head>
+<title>Dublin Core Metadata Element Set: Reference Description</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<base target="_top">
+<meta name="DC.subject" content="dublin core metadata element set">
+<meta name="DC.publisher" content="OCLC Online Computer Library Center, Inc.">
+<meta name="DC.creator" content="Marsh, Beth, marsh@oclc.org">
+<meta name="DC.title"
+content="Dublin Core Metadata Element Set: Reference Description page">
+<meta name="DC.data" content="1997-09-15">
+<meta name="DC.form" scheme="IMT" content="text/html">
+<meta name="DC.language" scheme="ISO639" content="en">
+<meta name="DC.identifier" scheme="URL"
+content="http://purl.oclc.org/metadata/dublin_core">
+</head>
+
+<body text="#000000" bgcolor="#FFFFFF">
+
+<h1 align="CENTER">Dublin Core Metadata Element Set: <br>
+Reference Description </h1>
+
+<p align="center">This document last modified: 1997-11-02</p>
+
+<p align="center">This document supercedes a previous version, available at <a
+href="http://purl.org/metadata/dublin_core_elements_970117">http://purl.org/metadata/dublin_core_elements_970117</a>
+</p>
+
+<hr size="1">
+
+<p>This document is the reference description of the Dublin Core Metadata Element Set. See
+the Dublin Core Home Page <a href="http://purl.org/metadata/dublin_core">(http://purl.org/metadata/dublin_core)</a>
+for further information about the workshops, reports, working group papers, projects, and
+new developments concerning the Dublin Core metadata element set. </p>
+
+<p>The current list of elements and their general definitions were finalized in December,
+1996. The elements and their names are not expected to change substantively from this
+list, though the application of some of them is currently experimental and subject to
+varying interpretation from implementation to implementation. </p>
+
+<p>Note that elements have a descriptive name intended to convey a common semantic
+understanding of the element. To promote global interoperability, a number of the element
+descriptions may be associated with a controlled vocabulary for the respective element
+values. It is assumed that other controlled vocabularies will be developed for
+interoperability within certain local domains. In the element descriptions below, a formal
+single-word label (shown in italics) is specified to make the syntactic specification of
+elements simpler for encoding schemes. Each element is optional and repeatable. </p>
+
+<p>Questions or comments regarding the Dublin Core Element Set may be addressed to <a
+href="http://purl.oclc.org/net/weibel">Stuart Weibel</a> at <a
+href="mailto:weibel@oclc.org">weibel@oclc.org</a> or <a
+href="http://purl.oclc.org/net/eric">Eric Miller</a> at <a href="mailto:emiller@oclc.org">emiller@oclc.org</a>
+</p>
+
+<hr size="1">
+
+<h2>Element Descriptions</h2>
+
+<ol>
+  <li><a name="title"></a></li>
+  <h3>Title</h3>
+  <p>Label: <em>title</em><br>
+  </p>
+  <p>The name given to the resource by the <em>creator</em> or <em>publisher</em>.</p>
+  <li><a name="creator"></a></li>
+  <h3>Author or Creator</h3>
+  <p>Label: <em>creator</em> <br>
+  </p>
+  <p>The person or organization primarily responsible for creating the intellectual content
+  of the resource. For example, authors in the case of written documents, artists,
+  photographers, or illustrators in the case of visual resources.</p>
+  <li><a name="subject"></a></li>
+  <h3>Subject and Keywords</h3>
+  <p>Label: <em>subject</em> <br>
+  </p>
+  <p>The topic of the resource. Typically, subject will be expressed as keywords or phrases
+  that describe the subject or content of the resource. The use of controlled vocabularies
+  and formal classification schemas is encouraged.</p>
+  <li><a name="description"></a></li>
+  <h3>Description</h3>
+  <p>Label: <em>description</em> <br>
+  </p>
+  <p>A textual description of the content of the resource, including abstracts in the case
+  of document-like objects or content descriptions in the case of visual resources.</p>
+  <li><a name="publisher"></a></li>
+  <h3>Publisher</h3>
+  <p>Label: <em>publisher</em> <br>
+  </p>
+  <p>The entity responsible for making the resource available in its present form, such as a
+  publishing house, a university department, or a corporate entity. </p>
+  <li><a name="contributor"></a></li>
+  <h3>Other Contributor</h3>
+  <p>Label: <em>contributor</em><br>
+  </p>
+  <p>A person or organization not specified in a <em>creator</em> element who has made
+  significant intellectual contributions to the resource but whose contribution is secondary
+  to any person or organization specified in a <em>creator</em> element (for example,
+  editor, transcriber, and illustrator).</p>
+  <li><a name="date"></a></li>
+  <h3>Date</h3>
+  <p>Label: <em>date</em><br>
+  </p>
+  <p>The date the resource was made available in its present form. Recommended best practice
+  is an 8 digit number in the form YYYY-MM-DD as defined in <a
+  href="http://www.w3.org/TR/NOTE-datetime">http://www.w3.org/TR/NOTE-datetime</a>, a
+  profile of ISO 8601. In this scheme, the date element 1994-11-05 corresponds to November
+  5, 1994. Many other schema are possible, but if used, they should be identified in an
+  unambiguous manner.</p>
+  <li><a name="type"></a></li>
+  <h3>Resource Type</h3>
+  <p>Label: <em>type</em><br>
+  </p>
+  <p>The category of the resource, such as home page, novel, poem, working paper, technical
+  report, essay, dictionary. For the sake of interoperability, <em>type</em> should be
+  selected from an enumerated list that is under development in the workshop series at the
+  time of publication of this document. See <a
+  href="http://sunsite.berkeley.edu/Metadata/types.html">http://sunsite.berkeley.edu/Metadata/types.html
+  </a>for current thinking on the application of this element</p>
+  <li><a name="format"></a></li>
+  <h3>Format</h3>
+  <p>Label: <em>format</em><br>
+  </p>
+  <p>The data format of the resource, used to identify the software and possibly hardware
+  that might be needed to display or operate the resource. For the sake of interoperability,
+  <em>format</em> should be selected from an enumerated list that is under development in
+  the workshop series at the time of publication of this document.</p>
+  <li><a name="identifier"></a></li>
+  <h3>Resource Identifier</h3>
+  <p>Label: <em>identifier</em> <br>
+  </p>
+  <p>String or number used to uniquely identify the resource. Examples for networked
+  resources include URLs and URNs (when implemented). Other globally-unique identifiers,such
+  as International Standard Book Numbers (ISBN) or other formal names would also be
+  candidates for this element in the case of off-line resources.</p>
+  <li><a name="source"></a></li>
+  <h3>Source</h3>
+  <p>Label: <em>source</em><br>
+  </p>
+  <p>A string or number used to uniquely identify the work from which this resource was
+  derived, if applicable. For example, a PDF version of a novel might have a <em>source</em>
+  element containing an ISBN number for the physical book from which the PDF version was
+  derived.</p>
+  <li><a name="language"></a></li>
+  <h3>Language</h3>
+  <p>Label: <em>language</em> <br>
+  </p>
+  <p>Language(s) of the intellectual content of the resource. Where practical, the content
+  of this field should coincide with RFC 1766. See: <a
+  href="http://ds.internic.net/rfc/rfc1766.txt">http://ds.internic.net/rfc/rfc1766.txt</a> </p>
+  <li><a name="relation"></a></li>
+  <h3>Relation</h3>
+  <p>Label: <em>relation</em><br>
+  </p>
+  <p>The relationship of this resource to other resources. The intent of this element is to
+  provide a means to express relationships among resources that have formal relationships to
+  others, but exist as discrete resources themselves. For example, images in a document,
+  chapters in a book, or items in a collection. Formal specification of <em>relation</em> is
+  currently under development. Users and developers should understand that use of this
+  element is currently considered to be experimental.</p>
+  <li><a name="coverage"></a></li>
+  <h3>Coverage</h3>
+  <p>Label: <em>coverage</em><br>
+  </p>
+  <p>The spatial and/or temporal characteristics of the resource. Formal specification of <em>coverage</em>
+  is currently under development. Users and developers should understand that use of this
+  element is currently considered to be experimental.</p>
+  <li><a name="rights"></a></li>
+  <h3>Rights Management</h3>
+  <p>Label: <em>rights</em> </p>
+  <p>A link to a copyright notice, to a rights-management statement, or to a service that
+  would provide information about terms of access to the resource. Formal specification of <em>rights</em>
+  is currently under development. Users and developers should understand that use of this
+  element is currently considered to be experimental. </p>
+</ol>
+</body>
+</html>

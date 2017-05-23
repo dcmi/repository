@@ -1,0 +1,2739 @@
+=========================================================================
+Date:         Sun, 4 Apr 2004 16:37:45 +0200
+Reply-To:     Tom Baker <thomas.baker@BI.FHG.DE>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Tom Baker <thomas.baker@BI.FHG.DE>
+Subject:      Re: MMI-DC: Work Item 4 - drafts and contributions-in-kind
+              forecast
+Comments: To: Leif Andresen <mmi-dc@ofir.dk>
+Comments: cc: Erik Duval <Erik.Duval@cs.kuleuven.ac.be>,
+          Makx Dekkers <mail@makxdekkers.com>,
+          Martin Ford <martin.ford@martinfordconsultancy.net>,
+          Rachel Heery <r.heery@ukoln.ac.uk>,
+          Thomas Fischer <fischer@mail.sub.uni-goettingen.de>
+In-Reply-To:  <20040404132646.5BBD814AB9C@postfix4.ofir.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+On Sun, Apr 04, 2004 at 03:26:46PM +0200, Leif Andresen wrote:
+> Work Item 4:
+> Application Profiles - guidelines for machine-readable representation and for
+> naming, versioning, evolution, and maintenance
+
+Leif,
+
+I am copying this to the entire group as I will be on
+vacation as of Tuesday 6 April and Rachel and Makx will want
+to expand on this text for the agenda.  The part of the agenda
+description for WI4 regarding ISSS/WS-MMI-DC/102 should read:
+
+    Tom Baker will present the first draft of
+    ISSS/WS-MMI-DC/102, "Guidance for naming, versioning,
+    evolution and maintenance of element declarations and
+    application profiles".  As Erik Duval has needed to
+    withdraw from the activity for family reasons, Task
+    2.1 will cover the description only of DCMI policies,
+    not of IEEE/LOM.
+
+> I have personally to different inputs to the work:
+>  - Archives, Libraries and Museums. Common metadata for presentation in one
+> database.
+>    A project describing mapning from five different domain metadata set to
+> Dublin Core.
+>    Made for The Danish Governmental Agencies for Archives, Libraries and
+> Museums
+>  - RUMLO (Danish initial word for: Right, Exchange and Metadata for Learning
+> Objects)
+>    A proposal for a database and a model - including a recommanded set of
+> metadata with expressions in DC and LOM
+>    A report made for Danish Ministry of Education with target group as primary
+> and lower secondary school for 7- to 16-year-olds
+> It will be a pleasure to contribute with English language descriptions of
+> these works and also presentations at a MMI-DC meeting (April or September
+> 2004) if it is convenient for you.
+> Looking forward to receive your comments to this proposals.
+
+Leif, are you proposing the mappings as candidates for
+machine-processable DCAPs?
+
+Cheers,
+Tom
+
+--
+Dr. Thomas Baker                        Thomas.Baker@izb.fraunhofer.de
+Institutszentrum Schloss Birlinghoven         mobile +49-160-9664-2129
+Fraunhofer-Gesellschaft                          work +49-30-8109-9027
+53754 Sankt Augustin, Germany                    fax +49-2241-144-2352
+Personal email: thbaker79@alumni.amherst.edu
+=========================================================================
+Date:         Sun, 4 Apr 2004 16:23:45 +0100
+Reply-To:     Rachel Heery <r.heery@UKOLN.AC.UK>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Rachel Heery <r.heery@UKOLN.AC.UK>
+Subject:      Re: MMI-DC: Work Item 4 - drafts and contributions-in-kind
+              forecast
+Comments: To: Tom Baker <thomas.baker@bi.fhg.de>
+Comments: cc: Leif Andresen <mmi-dc@ofir.dk>,
+          Erik Duval <Erik.Duval@cs.kuleuven.ac.be>,
+          Makx Dekkers <mail@makxdekkers.com>,
+          Martin Ford <martin.ford@martinfordconsultancy.net>,
+          Thomas Fischer <fischer@mail.sub.uni-goettingen.de>
+In-Reply-To:  <20040404143745.GA1688@Octavius>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+On Sun, 4 Apr 2004, Tom Baker wrote:
+
+> Leif, are you proposing the mappings as candidates for
+> machine-processable DCAPs?
+
+The expression of the metadata set in DC and IEEE LOM would be useful
+background for CWA1, and as such could I hope could be considered
+contribution in kind?  I don't think we want to commit to using this, or
+any other particular DCAP as basis for example machine-processable DCAP at
+this stage....
+
+Rachel
+
+---------------------------------------------------------------------------
+Rachel Heery
+UKOLN, University of Bath                       tel: +44 (0)1225 386724
+http://www.ukoln.ac.uk
+--------------------------------------------------------------------------
+European Conference on Digital Libraries (ECDL 2004),
+Bath, UK, 12-17 September 2004: http://www.ecdl2004.org/
+=========================================================================
+Date:         Sun, 4 Apr 2004 20:47:42 +0200
+Reply-To:     Tom Baker <thomas.baker@BI.FHG.DE>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Tom Baker <thomas.baker@BI.FHG.DE>
+Subject:      Re: MMI-DC: Work Item 4 - drafts and contributions-in-kind
+              forecast
+Comments: To: Leif Andresen <mmi-dc@ofir.dk>
+Comments: cc: Erik Duval <Erik.Duval@cs.kuleuven.ac.be>,
+          Makx Dekkers <mail@makxdekkers.com>,
+          Martin Ford <martin.ford@martinfordconsultancy.net>,
+          Rachel Heery <r.heery@ukoln.ac.uk>,
+          Thomas Fischer <fischer@mail.sub.uni-goettingen.de>
+In-Reply-To:  <20040404181704.AE1723D16A9@postfix2.ofir.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+Leif,
+
+On Sun, Apr 04, 2004 at 08:16:41PM +0200, Leif Andresen wrote:
+> RUMLO can be a candidate for conversion between DC and LOM. But has this item
+> disappeared from WI4 ??
+
+Conversion between DC and LOM is not a trivial undertaking.
+I do not recall it having been part of WI4...?
+
+Tom
+
+--
+Dr. Thomas Baker                        Thomas.Baker@izb.fraunhofer.de
+Institutszentrum Schloss Birlinghoven         mobile +49-160-9664-2129
+Fraunhofer-Gesellschaft                          work +49-30-8109-9027
+53754 Sankt Augustin, Germany                    fax +49-2241-144-2352
+Personal email: thbaker79@alumni.amherst.edu
+=========================================================================
+Date:         Thu, 8 Apr 2004 10:33:21 +0100
+Reply-To:     Rachel Heery <r.heery@UKOLN.AC.UK>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Rachel Heery <r.heery@UKOLN.AC.UK>
+Subject:      WI4 progress report
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+For info, I am working on WI4 CWA1 progress report to-day and will
+circulate this evening. I would welcome any comments and amendments to
+text with deadline of April 19. We will need to circulate early in week of
+April 19 to workshop mailing list....
+
+Thanks
+Rachel
+
+---------------------------------------------------------------------------
+Rachel Heery
+UKOLN, University of Bath                       tel: +44 (0)1225 386724
+http://www.ukoln.ac.uk
+--------------------------------------------------------------------------
+European Conference on Digital Libraries (ECDL 2004),
+Bath, UK, 12-17 September 2004: http://www.ecdl2004.org/
+=========================================================================
+Date:         Thu, 8 Apr 2004 23:58:01 +0100
+Reply-To:     Rachel Heery <r.heery@UKOLN.AC.UK>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Rachel Heery <r.heery@UKOLN.AC.UK>
+Subject:      WI4 CWA1 Progress report
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+Greetings,
+
+I have placed a copy of the draft of the WI4 Guidelines for
+mchine-readable representation of DC Application Profiles
+at
+
+http://homes.ukoln.ac.uk/~lisrmh/CEN/mmidc-wi4-cwa1-v4.doc
+
+I would appreciate comments/additional text ... if anyone is around over
+the next week.
+
+In particular it would be helpful if Thomas F.  is able to complete task
+2.1 by taking a look at the Nokia Vocabulary Definition Vocabulary ... and
+seeing if it offers anything of use wrt DCAPs.
+
+I am now on holiday til April 19, and will not be picking up mail.
+
+Best wishes,
+
+Rachel
+---------------------------------------------------------------------------
+Rachel Heery
+UKOLN, University of Bath                       tel: +44 (0)1225 386724
+http://www.ukoln.ac.uk
+--------------------------------------------------------------------------
+European Conference on Digital Libraries (ECDL 2004),
+Bath, UK, 12-17 September 2004: http://www.ecdl2004.org/
+=========================================================================
+Date:         Fri, 9 Apr 2004 00:04:56 +0100
+Reply-To:     Rachel Heery <r.heery@UKOLN.AC.UK>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Rachel Heery <r.heery@UKOLN.AC.UK>
+Subject:      ... discussion of WI4 CWA1
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+... I should have mentioned in my previous mail that my colleague Pete
+Johnston carried out the review of OWL, but note he is not on this mailing
+list due to information overload. I think we might ask Pete to review
+progress report when I return from vacation.
+
+Rachel
+
+---------------------------------------------------------------------------
+Rachel Heery
+UKOLN, University of Bath                       tel: +44 (0)1225 386724
+http://www.ukoln.ac.uk
+--------------------------------------------------------------------------
+European Conference on Digital Libraries (ECDL 2004),
+Bath, UK, 12-17 September 2004: http://www.ecdl2004.org/
+=========================================================================
+Date:         Mon, 19 Apr 2004 16:51:06 +0200
+Reply-To:     Thomas Baker <Thomas.Baker@BI.FHG.DE>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Thomas Baker <Thomas.Baker@BI.FHG.DE>
+Subject:      Work Item 4, "CWA2" (on versioning)
+Comments: To: Leif Andresen <lea@bs.dk>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+Dear Leif,
+
+Here is ISSS/WS-MMI-DC/102 -- "Guidance for naming,
+versioning, evolution and maintenance of element declarations
+and application profiles -- First draft" along with a cover
+letter for forwarding to the group.  The text in the agenda
+could read:
+
+    Tom Baker will present ISSS/WS-MMI-DC/102 -- "Guidance
+    for naming, versioning, evolution and maintenance of
+    element declarations and application profiles -- First
+    draft".  Section 1 provides a narrative overview of the
+    naming and identification methods, commenting on their
+    historical context.  Section 2 will provide the obligatory
+    definitions.  Section 3 will present the technical aspects
+    as tersely as possible.  Note that there are placeholders
+    for the bits dealing with Application Profiles, which
+    will depend on discussion in Work Item 4, Part One on
+    machine-processable Application Profiles.  Section 4 was
+    to discuss differences between the DCMI approach and the
+    approaches taken by other standards-making initiatives,
+    such as W3C, ISO 11179, OASIS, and especially IEEE/LOM,
+    but this will depend on the availability of Erik Duval
+    over the next few months.  At the meeting, Tom will ask
+    the workshop to agree on the scope and on the terminology
+    used as labels for the things described.
+
+Tom
+
+---
+
+Dear all,
+
+As a basis for discussion, here is ISSS/WS-MMI-DC/102:
+"Guidance for naming, versioning, evolution and maintenance of
+element declarations and application profiles -- First draft".
+
+The general approach I have taken here is to provide in
+Section 1 a narrative overview of the naming and identification
+methods, commenting on their historical context.  After the
+obligatory definitions in Section 2, then, I will provide a
+rather terse technical discussion in Section 3.
+
+Note that there are placeholders for the bits dealing with
+Application Profiles, which will depend on discussion in Work
+Item 4, Part One on machine-processable Application Profiles.
+Section 4 was to discuss differences between the DCMI approach
+and the approaches taken by other standards-making initiatives,
+such as W3C, ISO 11179, and OASIS.  In particular, the section
+was ideally going to discuss differences on these issues
+with regard to interoperability between DC and IEEE/LOM,
+but this will depend on the availability of Erik over the
+next few months.
+
+I recently joined the W3C Semantic Web Best Practices and
+Deployment Working Group [1] and proposed that the working
+group take on a number of the issues discussed in this CEN
+draft as input into a W3C Note on best practice.  It is my hope
+that the CEN draft could be cited and summarized in such a note
+as an example of best practice for the Semantic Web generally.
+
+In Brussels, I would like for us to agree on the scope and on
+the terminology used as labels for the things described.  I am
+expecting that the technical content will be non-controversial
+inasmuch it describes formal and de facto practice rather than
+actually formulating new practice.
+
+Tom
+
+[1] http://www.w3.org/2001/sw/BestPractices/
+[2] http://lists.w3.org/Archives/Public/public-swbp-wg/2004Apr/0025.html
+
+------------------------------------------------------------------------
+Document ISSS/WS-MMI-DC/102:
+
+"Guidance for naming, versioning, evolution and maintenance
+of element declarations and application profiles - First draft"
+
+2004-04-05
+
+Work Item 4, part 2
+Drafters: Thomas Baker, Makx Dekkers
+------------------------------------------------------------------------
+
+Executive Summary
+
+These guidelines describe the principles and methods
+for identifying metadata terms, sets of metadata terms,
+and application profiles. [will expand]
+
+1. Introduction
+
+1.1. Context
+
+The Internet was revolutionary because it made the resources
+of any connected server accessible via a single global address
+space.  The vision of a future Semantic Web further generalizes
+this notion of a global space of addresses to that of a global
+space of identifiers.  According to Tim Berners-Lee, "The
+most fundamental specification of Web architecture, while one
+of the simpler, is that of the Uniform Resource Identifier,
+or URI.  The principle that anything, absolutely anything
+'on the Web' should be identified distinctly by an otherwise
+opaque string of characters...  is core" [BERNERS-LEE].
+
+URIs can provide unique identity not just to "information
+resources" -- Web pages, scientific pre-prints, satellite
+photos, video clips, and the like -- but also to any metadata
+terms used to describe those resources.  As compact character
+strings associated with known institutional domain authorities,
+URIs can stand alone as self-contained references to metadata
+terms.  While relevant to all data technologies, they are
+usable most directly in Web-based description technologies
+such as XLink, Topic Maps, and RDF.
+
+When the Dublin Core was first drafted in 1995, discussion
+focused on the "names" of the core elements.  As the
+Dublin Core came to be considered for use with the emerging
+technologies of XML and later RDF, discussion began to turn
+around the notion of a "namespace".  "Namespace" was, and
+remains today, a rather slippery concept.  For the purposes
+of this CWA suffice it to say that "namespace" captures the
+notion of a clearly identified set of terms.  DCMI began
+to experiment with using URIs to identify the Dublin Core
+"namespace" in 1997.  The growth of DCMI's namespace (or
+namespaces) with the addition of several dozen qualifiers
+in 2000 forced a clarification of various issues related to
+naming, identifying, and versioning DCMI terms.  In 2001,
+the approach which had evolved was articulated in a formal DCMI
+Namespace Policy.
+
+The Namespace Policy declares three "DCMI namespaces"
+-- identifiers (URIs) for three DCMI term sets.  URIs
+for individual DCMI terms are formed by appending the
+character-string "name" of the term to the URI for its DCMI
+namespace.  This mechanism is discussed in more detail below.
+
+Aside from describing how DCMI terms are assigned identifiers,
+the namespace policy acknowledges that terms can and will
+change over time and focuses on articulating the consequences
+of change for unique identity.  "Minor" or "substantive" errata
+may be corrected without consequence for URIs.  Changes of a
+semantic nature, however, such as significant changes in the
+wording of a definition, must trigger the creation of a new
+term with a new URI.  To support the future interpretation
+of legacy metadata, the Namespace Policy commits DCMI to
+maintaining formal documentation for all assigned URIs ---
+even for terms that might some day be assigned a status of
+"obsolete".
+
+Within the limits of the Namespace Policy, the DCMI
+vocabularies are subject to growth and change over time ---
+new terms are added, a bibliographic reference cited in a
+usage comment may be updated, the status assigned to a term
+may change.  The fifteen-element Dublin Core was initially
+versioned as a set and, as noted above, the version number
+"1.1" is hard-coded into the string used as the URI
+of its DCMI namespace.
+
+As of July 2000, new terms were issued without such a version
+number because the model of periodic, batched releases
+seemed a bad fit to a vocabulary that was expected to grow
+by increment.  At the same time, the ability to reference a
+term set as of a given date was seen as potentially useful
+for library automation contracts, translations of DCMI term
+sets into another languages, or the future interpretation
+of legacy metadata.  The pragmatic solution to this problem
+has been to version both individual terms (which evolve at
+different rates) and Web pages which document batches of terms
+as of a particular date (which are updated whenever a term is
+added or anything else in the term set changes).  DCMI uses
+URIs to identify both the individual versions of terms and
+the Web pages documenting term sets, though these methods
+have not yet been documented in detail (hence this CWA).
+
+[Paragraph explaining the principle of having a persistent
+identifier for the "term" in its "latest version" in parallel
+with a second identifier denoting a specific historical
+version.]
+
+Whenever anything in the DCMI term sets changes, DCMI publishes
+documentation reflecting those changes.  At present, DCMI
+publishes the updated information both as Web documents and
+as machine-processable schemas.  The DCMI Namespace Policy
+also says that all of the URIs identifying DCMI terms "will
+resolve to a machine-processable DCMI term declaration for
+all the terms within that namespace" [DCMIN].  As of July
+2003, the URIs for DCMI terms redirect to an RDF schema
+documenting the attributes of a particular set of terms
+[DCMIT]. The formulation is vague enough to support any
+alternative conventions for namespace resolution that may
+emerge, such as the Resource Directory Description Language
+under consideration by the W3C Technical Architecture Group
+[RDDL].  These documentary publications are named and versioned
+like most other documents on the DCMI Web site.
+
+[Paragraph explaining the principle of two identifiers, as
+above, drawing the parallel between how documents are versioned
+and how terms are versioned.]
+
+In the DCMI context, the notion of Application Profile emerged
+in response to a strong though vaguely expressed need for
+documenting and sharing metadata models within communities
+of interest.  Application Profiles have been developed for
+purposes ranging from the description of existing record
+structures to the negotiation of good-practice guidelines for
+formats yet to be implemented.  Application Profiles have
+helped identify emerging semantics "around the edges" of
+existing vocabularies as candidates for formal standardization.
+[Discuss Guidelines for Application Profiles, CWA 14855.]
+
+Application designers often draw on standards such as Dublin
+Core rather freely, selecting a a subset of available terms,
+specifying constraints on how terms are used (e.g., which
+elements are mandatory, which date format to use), or using
+terms from multiple sources --- e.g., Dublin Core elements
+together with elements from the IEEE/LOM standard or with
+elements defined in-house for application-specific purposes.
+In order to document such practices, standards communities
+as different as DCMI, DOI, MARC, and IEEE/LOM have developed
+roughly analogous notions of a "profile" or "application
+profile".  [A number of key standards maintenance organizations
+have agreed in principle characterizing the "elements" of the
+various standards as "units of meaning comparable and mappable
+to elements of other standards".  [CORES].  [In Semantic Web
+environment, where mixing of term sets, important to have
+well-understood conventions on what is being identified, etc.]
+[This section will need to be fleshed out in light of the work
+on Work Item 1, Part One.]
+
+[Final section on "translations" as a particular form of
+application profile.  Requirement to be able to cite the
+exact version translated.]
+
+1.2. Scope
+
+This CWA covers naming conventions for the following entities:
+
+-- a metadata term ("Term");
+-- a historical version of a Term ("Term Version");
+-- a set of one or more annotations (e.g., usage constraints) about a Term ("Term Usage");
+-- a set of one or more Terms ("Term Set");
+-- a document documenting a Term Set ("Term-Set Document");
+-- a formal schema (e.g., in RDF) declaring one or more Terms ("Term-Set Schema");
+-- a set of one or more Term Usages ("Application Profile").
+
+These entities are defined in more detail in "Section 2. Definitions".
+
+1.3. Audience
+
+[To be written.]
+
+2. Definitions
+
+-- Term
+-- Term Version
+-- Term Usage
+-- Term Set
+-- Term-Set Document
+-- Term-Set Schema
+-- Application Profile
+-- DCMI Namespace
+-- DCMI Name
+
+3. Naming and identification methods in detail
+
+3.1.  A metadata term ("Term")
+
+DCMI began to experiment with URIs in 1997, which led
+to the formulation in 2001 of a formal Namespace Policy
+[DCMI-NAMESPACE].  This policy declares URIs for three DCMI
+namespaces:
+
+    http://purl.org/dc/elements/1.1/
+    http://purl.org/dc/terms/
+    http://purl.org/dc/dcmitype/
+
+to designate (respectively) the fifteen-element Dublin Core,
+all other DCMI elements and qualifiers, and a controlled
+vocabulary of values for the Dublin Core element Type.
+A URI is constructed for a DCMI term by appending its
+character-string "name" to the URI of a DCMI namespace.
+For example, the URIs
+
+    http://purl.org/dc/elements/1.1/title
+    http://purl.org/dc/terms/extent
+    http://purl.org/dc/dcmitype/Image
+
+respectively identify Title (one of the fifteen "core"
+elements), Extent (an element refinement) and Image (a term
+in the DCMI Type Vocabulary).
+
+   http://purl.org/dc/elements/1.1/contributor
+   http://purl.org/dc/dcmitype/Collection
+   http://purl.org/dc/terms/abstract
+   http://purl.org/dc/terms/LCSH
+
+3.2.  A historical version of a Term ("Term Version");
+
+Individual terms are versioned by saving a snapshot of their
+attributes whenever any one of their attributes changes and
+assigning to that snapshot a URI such as the following:
+
+    http://dublincore.org/usage/terms/history/#Image-002
+    http://dublincore.org/usage/terms/history/#Image-001
+
+Although such URIs are not currently supported by the DCMI
+Namespace Policy, they effectively function as identifiers
+for successive versions of a term (in this case Image).
+At present, these URIs resolve to anchors in a Web document
+which holds a periodically updated snapshot of all past and
+present versions of all DCMI terms.
+
+   http://dublincore.org/usage/terms/history/#contributor-001
+   http://dublincore.org/usage/terms/history/#contributor-002
+   http://dublincore.org/usage/terms/history/#contributor-003
+   http://dublincore.org/usage/terms/history/#contributor-004
+
+3.3. A set of one or more annotations (e.g., usage constraints)
+     about a Term ("Term Usage");
+
+[This section will depend on the terminology and approach
+adopted in Part One of Work Item 4 on machine-processable
+application profiles.  The working assumption is that this
+work will affirm the terminology described in CWA14855.]
+
+3.4. A set of one or more Terms ("Term Set")
+
+Aside from the namespace for core elements, which predated
+the Namespace Policy, the URIs for DCMI namespaces do not show
+versioning information.  As of July 2000, new terms were issued
+without such a version number because the model of periodic,
+batched releases seemed a bad fit to a vocabulary that was
+expected to grow by increment.  [Explain that Element Set is
+versioned as a set both for historical reasons and in order
+to emphasize the fundamental stability of the element set,
+but that other sets are not versioned "as sets" (except
+as documents).  Will elaborate.]
+
+3.5. A document documenting a Term Set ("Term-Set Document")
+
+[Expanding on 3.4.]
+
+The Web pages documenting DCMI term sets are versioned
+according to the method used for all other important DCMI
+documents --- with a URI for the specific historical version
+and a URI for its "latest version" along with pointers to
+immediate previous and successive versions.  For example,
+the March 2003 version of the DCMI Metadata Terms document
+shows the following:
+
+    Identifier: http://dublincore.org/documents/2003/03/04/dcmi-terms/
+    Latest Version: http://dublincore.org/documents/dcmi-terms
+    Replaced By: http://dublincore.org/documents/2003/11/19/dcmi-terms/
+
+where the Identifier resolves to the permanently archived
+and unchanging version of the document displayed, Replaced By
+resolves to the next version that followed, and Latest Version
+resolves to a continually updated pointer on the DCMI Web
+site to the most up-to-date version of DCMI Metadata Terms.
+In DCMI practice, in other words, the versioning methods for
+metadata terms and for Web documents are analogous: in each
+case, identifiers are assigned both for the resource in a
+generic sense (the namespace-policy-supported URI for a term
+or Latest Version for a document) as well as for a specific
+historical version.
+
+3.6. A formal schema (e.g., in RDF) declaring one or more
+     Terms ("Term-Set Schema")
+
+[Versioned according to the same principle as documents, etc.
+Will elaborate.]
+
+   http://dublincore.org/2000/03/13/dces
+   http://dublincore.org/2000/03/13/dcq
+   http://dublincore.org/2001/08/14/dces
+   http://dublincore.org/2001/08/14/dcq
+   http://dublincore.org/2002/08/13/dces
+   http://dublincore.org/2002/08/13/dcq
+   http://dublincore.org/2003/03/24/dces
+   http://dublincore.org/2003/03/24/dcq
+
+3.7. A set of one or more Term Usages ("Application Profile").
+
+[This section will depend on the terminology and approach
+adopted in Part One of Work Item 4 on machine-processable
+application profiles.  The working assumption is that this
+work will affirm the terminology described in CWA14855.]
+
+4.0. Discussion and conclusion
+
+[To be written.  This final section was going to recapitulate
+some of the issues that came out in the discussion of the
+CORES Resolution.  In particular, it was to discuss issues
+related to the compatability in the approaches taken by DCMI
+and by the IEEE LOM community to naming and identifying terms.
+The scope and message of this section will depend in part on
+the availability of Erik Duval over the next few months.]
+
+References
+
+[To be written.]
+
+--
+Dr. Thomas Baker                        Thomas.Baker@izb.fraunhofer.de
+Institutszentrum Schloss Birlinghoven         mobile +49-160-9664-2129
+Fraunhofer-Gesellschaft                          work +49-30-8109-9027
+53754 Sankt Augustin, Germany                    fax +49-2241-144-2352
+Personal email: thbaker79@alumni.amherst.edu
+=========================================================================
+Date:         Mon, 19 Apr 2004 17:22:33 +0200
+Reply-To:     Makx Dekkers <mail@MAKXDEKKERS.COM>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Makx Dekkers <mail@MAKXDEKKERS.COM>
+Subject:      Re: Work Item 4, "CWA2" (on versioning)
+In-Reply-To:  <20040419145105.GA1712@Octavius>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Tom,
+
+I don't think that Leif is on this list, or am I mistaken?
+
+Makx.
+
+--------------------------------------------------------------------
+Makx Dekkers                            e-mail: mail@makxdekkers.com
+
+> -----Original Message-----
+> From: MMI DC Work Item 4 [mailto:MMI-DC-WI4@JISCMAIL.AC.UK]
+> On Behalf Of Thomas Baker
+> Sent: Monday, 19 April 2004 16:51
+> To: MMI-DC-WI4@JISCMAIL.AC.UK
+> Subject: Work Item 4, "CWA2" (on versioning)
+>
+>
+> Dear Leif,
+>
+> Here is ISSS/WS-MMI-DC/102 -- "Guidance for naming,
+> versioning, evolution and maintenance of element declarations
+> and application profiles -- First draft" along with a cover
+> letter for forwarding to the group.  The text in the agenda
+> could read:
+>
+>     Tom Baker will present ISSS/WS-MMI-DC/102 -- "Guidance
+>     for naming, versioning, evolution and maintenance of
+>     element declarations and application profiles -- First
+>     draft".  Section 1 provides a narrative overview of the
+>     naming and identification methods, commenting on their
+>     historical context.  Section 2 will provide the obligatory
+>     definitions.  Section 3 will present the technical aspects
+>     as tersely as possible.  Note that there are placeholders
+>     for the bits dealing with Application Profiles, which
+>     will depend on discussion in Work Item 4, Part One on
+>     machine-processable Application Profiles.  Section 4 was
+>     to discuss differences between the DCMI approach and the
+>     approaches taken by other standards-making initiatives,
+>     such as W3C, ISO 11179, OASIS, and especially IEEE/LOM,
+>     but this will depend on the availability of Erik Duval
+>     over the next few months.  At the meeting, Tom will ask
+>     the workshop to agree on the scope and on the terminology
+>     used as labels for the things described.
+>
+> Tom
+>
+> ---
+>
+> Dear all,
+>
+> As a basis for discussion, here is ISSS/WS-MMI-DC/102:
+> "Guidance for naming, versioning, evolution and maintenance of
+> element declarations and application profiles -- First draft".
+>
+> The general approach I have taken here is to provide in
+> Section 1 a narrative overview of the naming and identification
+> methods, commenting on their historical context.  After the
+> obligatory definitions in Section 2, then, I will provide a
+> rather terse technical discussion in Section 3.
+>
+> Note that there are placeholders for the bits dealing with
+> Application Profiles, which will depend on discussion in Work
+> Item 4, Part One on machine-processable Application Profiles.
+> Section 4 was to discuss differences between the DCMI approach
+> and the approaches taken by other standards-making initiatives,
+> such as W3C, ISO 11179, and OASIS.  In particular, the section
+> was ideally going to discuss differences on these issues
+> with regard to interoperability between DC and IEEE/LOM,
+> but this will depend on the availability of Erik over the
+> next few months.
+>
+> I recently joined the W3C Semantic Web Best Practices and
+> Deployment Working Group [1] and proposed that the working
+> group take on a number of the issues discussed in this CEN
+> draft as input into a W3C Note on best practice.  It is my hope
+> that the CEN draft could be cited and summarized in such a note
+> as an example of best practice for the Semantic Web generally.
+>
+> In Brussels, I would like for us to agree on the scope and on
+> the terminology used as labels for the things described.  I am
+> expecting that the technical content will be non-controversial
+> inasmuch it describes formal and de facto practice rather than
+> actually formulating new practice.
+>
+> Tom
+>
+> [1] http://www.w3.org/2001/sw/BestPractices/
+> [2]
+> http://lists.w3.org/Archives/Public/public-swbp-wg/2004Apr/0025.html
+>
+> --------------------------------------------------------------
+> ----------
+> Document ISSS/WS-MMI-DC/102:
+>
+> "Guidance for naming, versioning, evolution and maintenance
+> of element declarations and application profiles - First draft"
+>
+> 2004-04-05
+>
+> Work Item 4, part 2
+> Drafters: Thomas Baker, Makx Dekkers
+> --------------------------------------------------------------
+> ----------
+>
+> Executive Summary
+>
+> These guidelines describe the principles and methods
+> for identifying metadata terms, sets of metadata terms,
+> and application profiles. [will expand]
+>
+> 1. Introduction
+>
+> 1.1. Context
+>
+> The Internet was revolutionary because it made the resources
+> of any connected server accessible via a single global address
+> space.  The vision of a future Semantic Web further generalizes
+> this notion of a global space of addresses to that of a global
+> space of identifiers.  According to Tim Berners-Lee, "The
+> most fundamental specification of Web architecture, while one
+> of the simpler, is that of the Uniform Resource Identifier,
+> or URI.  The principle that anything, absolutely anything
+> 'on the Web' should be identified distinctly by an otherwise
+> opaque string of characters...  is core" [BERNERS-LEE].
+>
+> URIs can provide unique identity not just to "information
+> resources" -- Web pages, scientific pre-prints, satellite
+> photos, video clips, and the like -- but also to any metadata
+> terms used to describe those resources.  As compact character
+> strings associated with known institutional domain authorities,
+> URIs can stand alone as self-contained references to metadata
+> terms.  While relevant to all data technologies, they are
+> usable most directly in Web-based description technologies
+> such as XLink, Topic Maps, and RDF.
+>
+> When the Dublin Core was first drafted in 1995, discussion
+> focused on the "names" of the core elements.  As the
+> Dublin Core came to be considered for use with the emerging
+> technologies of XML and later RDF, discussion began to turn
+> around the notion of a "namespace".  "Namespace" was, and
+> remains today, a rather slippery concept.  For the purposes
+> of this CWA suffice it to say that "namespace" captures the
+> notion of a clearly identified set of terms.  DCMI began
+> to experiment with using URIs to identify the Dublin Core
+> "namespace" in 1997.  The growth of DCMI's namespace (or
+> namespaces) with the addition of several dozen qualifiers
+> in 2000 forced a clarification of various issues related to
+> naming, identifying, and versioning DCMI terms.  In 2001,
+> the approach which had evolved was articulated in a formal DCMI
+> Namespace Policy.
+>
+> The Namespace Policy declares three "DCMI namespaces"
+> -- identifiers (URIs) for three DCMI term sets.  URIs
+> for individual DCMI terms are formed by appending the
+> character-string "name" of the term to the URI for its DCMI
+> namespace.  This mechanism is discussed in more detail below.
+>
+> Aside from describing how DCMI terms are assigned identifiers,
+> the namespace policy acknowledges that terms can and will
+> change over time and focuses on articulating the consequences
+> of change for unique identity.  "Minor" or "substantive" errata
+> may be corrected without consequence for URIs.  Changes of a
+> semantic nature, however, such as significant changes in the
+> wording of a definition, must trigger the creation of a new
+> term with a new URI.  To support the future interpretation
+> of legacy metadata, the Namespace Policy commits DCMI to
+> maintaining formal documentation for all assigned URIs ---
+> even for terms that might some day be assigned a status of
+> "obsolete".
+>
+> Within the limits of the Namespace Policy, the DCMI
+> vocabularies are subject to growth and change over time ---
+> new terms are added, a bibliographic reference cited in a
+> usage comment may be updated, the status assigned to a term
+> may change.  The fifteen-element Dublin Core was initially
+> versioned as a set and, as noted above, the version number
+> "1.1" is hard-coded into the string used as the URI
+> of its DCMI namespace.
+>
+> As of July 2000, new terms were issued without such a version
+> number because the model of periodic, batched releases
+> seemed a bad fit to a vocabulary that was expected to grow
+> by increment.  At the same time, the ability to reference a
+> term set as of a given date was seen as potentially useful
+> for library automation contracts, translations of DCMI term
+> sets into another languages, or the future interpretation
+> of legacy metadata.  The pragmatic solution to this problem
+> has been to version both individual terms (which evolve at
+> different rates) and Web pages which document batches of terms
+> as of a particular date (which are updated whenever a term is
+> added or anything else in the term set changes).  DCMI uses
+> URIs to identify both the individual versions of terms and
+> the Web pages documenting term sets, though these methods
+> have not yet been documented in detail (hence this CWA).
+>
+> [Paragraph explaining the principle of having a persistent
+> identifier for the "term" in its "latest version" in parallel
+> with a second identifier denoting a specific historical
+> version.]
+>
+> Whenever anything in the DCMI term sets changes, DCMI publishes
+> documentation reflecting those changes.  At present, DCMI
+> publishes the updated information both as Web documents and
+> as machine-processable schemas.  The DCMI Namespace Policy
+> also says that all of the URIs identifying DCMI terms "will
+> resolve to a machine-processable DCMI term declaration for
+> all the terms within that namespace" [DCMIN].  As of July
+> 2003, the URIs for DCMI terms redirect to an RDF schema
+> documenting the attributes of a particular set of terms
+> [DCMIT]. The formulation is vague enough to support any
+> alternative conventions for namespace resolution that may
+> emerge, such as the Resource Directory Description Language
+> under consideration by the W3C Technical Architecture Group
+> [RDDL].  These documentary publications are named and versioned
+> like most other documents on the DCMI Web site.
+>
+> [Paragraph explaining the principle of two identifiers, as
+> above, drawing the parallel between how documents are versioned
+> and how terms are versioned.]
+>
+> In the DCMI context, the notion of Application Profile emerged
+> in response to a strong though vaguely expressed need for
+> documenting and sharing metadata models within communities
+> of interest.  Application Profiles have been developed for
+> purposes ranging from the description of existing record
+> structures to the negotiation of good-practice guidelines for
+> formats yet to be implemented.  Application Profiles have
+> helped identify emerging semantics "around the edges" of
+> existing vocabularies as candidates for formal standardization.
+> [Discuss Guidelines for Application Profiles, CWA 14855.]
+>
+> Application designers often draw on standards such as Dublin
+> Core rather freely, selecting a a subset of available terms,
+> specifying constraints on how terms are used (e.g., which
+> elements are mandatory, which date format to use), or using
+> terms from multiple sources --- e.g., Dublin Core elements
+> together with elements from the IEEE/LOM standard or with
+> elements defined in-house for application-specific purposes.
+> In order to document such practices, standards communities
+> as different as DCMI, DOI, MARC, and IEEE/LOM have developed
+> roughly analogous notions of a "profile" or "application
+> profile".  [A number of key standards maintenance organizations
+> have agreed in principle characterizing the "elements" of the
+> various standards as "units of meaning comparable and mappable
+> to elements of other standards".  [CORES].  [In Semantic Web
+> environment, where mixing of term sets, important to have
+> well-understood conventions on what is being identified, etc.]
+> [This section will need to be fleshed out in light of the work
+> on Work Item 1, Part One.]
+>
+> [Final section on "translations" as a particular form of
+> application profile.  Requirement to be able to cite the
+> exact version translated.]
+>
+> 1.2. Scope
+>
+> This CWA covers naming conventions for the following entities:
+>
+> -- a metadata term ("Term");
+> -- a historical version of a Term ("Term Version");
+> -- a set of one or more annotations (e.g., usage constraints)
+> about a Term ("Term Usage");
+> -- a set of one or more Terms ("Term Set");
+> -- a document documenting a Term Set ("Term-Set Document");
+> -- a formal schema (e.g., in RDF) declaring one or more Terms
+> ("Term-Set Schema");
+> -- a set of one or more Term Usages ("Application Profile").
+>
+> These entities are defined in more detail in "Section 2. Definitions".
+>
+> 1.3. Audience
+>
+> [To be written.]
+>
+> 2. Definitions
+>
+> -- Term
+> -- Term Version
+> -- Term Usage
+> -- Term Set
+> -- Term-Set Document
+> -- Term-Set Schema
+> -- Application Profile
+> -- DCMI Namespace
+> -- DCMI Name
+>
+> 3. Naming and identification methods in detail
+>
+> 3.1.  A metadata term ("Term")
+>
+> DCMI began to experiment with URIs in 1997, which led
+> to the formulation in 2001 of a formal Namespace Policy
+> [DCMI-NAMESPACE].  This policy declares URIs for three DCMI
+> namespaces:
+>
+>     http://purl.org/dc/elements/1.1/
+>     http://purl.org/dc/terms/
+>     http://purl.org/dc/dcmitype/
+>
+> to designate (respectively) the fifteen-element Dublin Core,
+> all other DCMI elements and qualifiers, and a controlled
+> vocabulary of values for the Dublin Core element Type.
+> A URI is constructed for a DCMI term by appending its
+> character-string "name" to the URI of a DCMI namespace.
+> For example, the URIs
+>
+>     http://purl.org/dc/elements/1.1/title
+>     http://purl.org/dc/terms/extent
+>     http://purl.org/dc/dcmitype/Image
+>
+> respectively identify Title (one of the fifteen "core"
+> elements), Extent (an element refinement) and Image (a term
+> in the DCMI Type Vocabulary).
+>
+>    http://purl.org/dc/elements/1.1/contributor
+>    http://purl.org/dc/dcmitype/Collection
+>    http://purl.org/dc/terms/abstract
+>    http://purl.org/dc/terms/LCSH
+>
+> 3.2.  A historical version of a Term ("Term Version");
+>
+> Individual terms are versioned by saving a snapshot of their
+> attributes whenever any one of their attributes changes and
+> assigning to that snapshot a URI such as the following:
+>
+>     http://dublincore.org/usage/terms/history/#Image-002
+>     http://dublincore.org/usage/terms/history/#Image-001
+>
+> Although such URIs are not currently supported by the DCMI
+> Namespace Policy, they effectively function as identifiers
+> for successive versions of a term (in this case Image).
+> At present, these URIs resolve to anchors in a Web document
+> which holds a periodically updated snapshot of all past and
+> present versions of all DCMI terms.
+>
+>    http://dublincore.org/usage/terms/history/#contributor-001
+>    http://dublincore.org/usage/terms/history/#contributor-002
+>    http://dublincore.org/usage/terms/history/#contributor-003
+>    http://dublincore.org/usage/terms/history/#contributor-004
+>
+> 3.3. A set of one or more annotations (e.g., usage constraints)
+>      about a Term ("Term Usage");
+>
+> [This section will depend on the terminology and approach
+> adopted in Part One of Work Item 4 on machine-processable
+> application profiles.  The working assumption is that this
+> work will affirm the terminology described in CWA14855.]
+>
+> 3.4. A set of one or more Terms ("Term Set")
+>
+> Aside from the namespace for core elements, which predated
+> the Namespace Policy, the URIs for DCMI namespaces do not show
+> versioning information.  As of July 2000, new terms were issued
+> without such a version number because the model of periodic,
+> batched releases seemed a bad fit to a vocabulary that was
+> expected to grow by increment.  [Explain that Element Set is
+> versioned as a set both for historical reasons and in order
+> to emphasize the fundamental stability of the element set,
+> but that other sets are not versioned "as sets" (except
+> as documents).  Will elaborate.]
+>
+> 3.5. A document documenting a Term Set ("Term-Set Document")
+>
+> [Expanding on 3.4.]
+>
+> The Web pages documenting DCMI term sets are versioned
+> according to the method used for all other important DCMI
+> documents --- with a URI for the specific historical version
+> and a URI for its "latest version" along with pointers to
+> immediate previous and successive versions.  For example,
+> the March 2003 version of the DCMI Metadata Terms document
+> shows the following:
+>
+>     Identifier: http://dublincore.org/documents/2003/03/04/dcmi-terms/
+>     Latest Version: http://dublincore.org/documents/dcmi-terms
+>     Replaced By:
+> http://dublincore.org/documents/2003/11/19/dcmi-terms/
+>
+> where the Identifier resolves to the permanently archived
+> and unchanging version of the document displayed, Replaced By
+> resolves to the next version that followed, and Latest Version
+> resolves to a continually updated pointer on the DCMI Web
+> site to the most up-to-date version of DCMI Metadata Terms.
+> In DCMI practice, in other words, the versioning methods for
+> metadata terms and for Web documents are analogous: in each
+> case, identifiers are assigned both for the resource in a
+> generic sense (the namespace-policy-supported URI for a term
+> or Latest Version for a document) as well as for a specific
+> historical version.
+>
+> 3.6. A formal schema (e.g., in RDF) declaring one or more
+>      Terms ("Term-Set Schema")
+>
+> [Versioned according to the same principle as documents, etc.
+> Will elaborate.]
+>
+   http://dublincore.org/2000/03/13/dces
+   http://dublincore.org/2000/03/13/dcq
+   http://dublincore.org/2001/08/14/dces
+   http://dublincore.org/2001/08/14/dcq
+   http://dublincore.org/2002/08/13/dces
+   http://dublincore.org/2002/08/13/dcq
+   http://dublincore.org/2003/03/24/dces
+   http://dublincore.org/2003/03/24/dcq
+
+3.7. A set of one or more Term Usages ("Application Profile").
+
+[This section will depend on the terminology and approach
+adopted in Part One of Work Item 4 on machine-processable
+application profiles.  The working assumption is that this
+work will affirm the terminology described in CWA14855.]
+
+4.0. Discussion and conclusion
+
+[To be written.  This final section was going to recapitulate
+some of the issues that came out in the discussion of the
+CORES Resolution.  In particular, it was to discuss issues
+related to the compatability in the approaches taken by DCMI
+and by the IEEE LOM community to naming and identifying terms.
+The scope and message of this section will depend in part on
+the availability of Erik Duval over the next few months.]
+
+References
+
+[To be written.]
+
+--
+Dr. Thomas Baker                        Thomas.Baker@izb.fraunhofer.de
+Institutszentrum Schloss Birlinghoven         mobile +49-160-9664-2129
+Fraunhofer-Gesellschaft                          work +49-30-8109-9027
+53754 Sankt Augustin, Germany                    fax +49-2241-144-2352
+Personal email: thbaker79@alumni.amherst.edu
+=========================================================================
+Date:         Mon, 19 Apr 2004 17:32:56 +0200
+Reply-To:     Makx Dekkers <mail@MAKXDEKKERS.COM>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Makx Dekkers <mail@MAKXDEKKERS.COM>
+Subject:      MMI WI4 deliverables
+In-Reply-To:  <Pine.GS4.4.58.0404090001220.2628@lamin.ukoln.ac.uk>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+              boundary="----=_NextPart_000_0009_01C42634.61735600"
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0009_01C42634.61735600
+Content-Type: text/plain;
+        charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+
+Dear all,
+
+There are three things we need to submit to Leif:
+
+1. draft of CWA1
+2. draft of CWA2
+3. in-kind contribution prognosis
+
+As I understand it, the draft of CWA1 is the progress report Rachel
+circulated last week which says that a number of tasks are delayed.
+Tom is ready to submit the draft of CWA2 as distributed to this list
+earlier this afternoon, and the estimate of in-kind contributions is
+as circulated last Tuesday and attached.
+
+It seems to me that the easiest thing to do is that Rachel delivers
+(1), Tom delivers (2) and I deliver (3) to Leif.
+
+Makx.
+
+--------------------------------------------------------------------
+Makx Dekkers                            e-mail: mail@makxdekkers.com
+
+> -----Original Message-----
+> From: MMI DC Work Item 4 [mailto:MMI-DC-WI4@JISCMAIL.AC.UK]
+> On Behalf Of Rachel Heery
+> Sent: Friday, 09 April 2004 01:05
+> To: MMI-DC-WI4@JISCMAIL.AC.UK
+> Subject: ... discussion of WI4 CWA1
+>
+>
+> ... I should have mentioned in my previous mail that my colleague Pete
+> Johnston carried out the review of OWL, but note he is not on
+> this mailing
+> list due to information overload. I think we might ask Pete to review
+> progress report when I return from vacation.
+>
+> Rachel
+>
+> --------------------------------------------------------------
+> -------------
+> Rachel Heery
+> UKOLN, University of Bath                       tel: +44
+> (0)1225 386724
+> http://www.ukoln.ac.uk
+> --------------------------------------------------------------
+> ------------
+> European Conference on Digital Libraries (ECDL 2004),
+> Bath, UK, 12-17 September 2004: http://www.ecdl2004.org/
+>
+>
+
+------=_NextPart_000_0009_01C42634.61735600
+Content-Type: application/vnd.ms-excel;
+        name="WI4-CIKv2.xls"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+        filename="WI4-CIKv2.xls"
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAPgADAP7/CQAGAAAAAAAAAAAAAAABAAAAHgAAAAAAAAAA
+EAAA/v///wAAAAD+////AAAAAB0AAAD/////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8J
+CBAAAAYFAP4czQfJQAAABgEAAOEAAgCwBMEAAgAAAOIAAABcAHAADAAATWFreCBEZWtrZXJzICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEIAAgCwBGEBAgAAAMABAAA9AQIA
+AQCcAAIADgAZAAIAAAASAAIAAAATAAIAAACvAQIAAAC8AQIAAAA9ABIAeABpAEw7VCQ4AAAAAAAB
+AFgCQAACAAAAjQACAAAAIgACAAAADgACAAEAtwECAAAA2gACAAAAMQAcALQAAAD/f5ABAAAAAAAA
+BgFUAGEAaABvAG0AYQAxABwAtAAAAP9/kAEAAAAAAAAGAVQAYQBoAG8AbQBhADEAHAC0AAAA/3+Q
+AQAAAAAAAAYBVABhAGgAbwBtAGEAMQAcALQAAAD/f5ABAAAAAAAABgFUAGEAaABvAG0AYQAeBDMA
+BQAXAAEiAKwgIgAjACwAIwAjADAAXwApADsAXAAoACIArCAiACMALAAjACMAMABcACkAHgQ9AAYA
+HAABIgCsICIAIwAsACMAIwAwAF8AKQA7AFsAUgBlAGQAXQBcACgAIgCsICIAIwAsACMAIwAwAFwA
+KQAeBD8ABwAdAAEiAKwgIgAjACwAIwAjADAALgAwADAAXwApADsAXAAoACIArCAiACMALAAjACMA
+MAAuADAAMABcACkAHgRJAAgAIgABIgCsICIAIwAsACMAIwAwAC4AMAAwAF8AKQA7AFsAUgBlAGQA
+XQBcACgAIgCsICIAIwAsACMAIwAwAC4AMAAwAFwAKQAeBGkAKgAyAAFfACgAIgCsICIAKgAgACMA
+LAAjACMAMABfACkAOwBfACgAIgCsICIAKgAgAFwAKAAjACwAIwAjADAAXAApADsAXwAoACIArCAi
+ACoAIAAiAC0AIgBfACkAOwBfACgAQABfACkAHgQuACkAKQAAXygqICMsIyMwXyk7XygqIFwoIywj
+IzBcKTtfKCogIi0iXyk7XyhAXykeBHkALAA6AAFfACgAIgCsICIAKgAgACMALAAjACMAMAAuADAA
+MABfACkAOwBfACgAIgCsICIAKgAgAFwAKAAjACwAIwAjADAALgAwADAAXAApADsAXwAoACIArCAi
+ACoAIAAiAC0AIgA/AD8AXwApADsAXwAoAEAAXwApAB4ENgArADEAAF8oKiAjLCMjMC4wMF8pO18o
+KiBcKCMsIyMwLjAwXCk7XygqICItIj8/Xyk7XyhAXyngABQAAAAAAPX/IAAAAAAAAAAAAAAAwCDg
+ABQAAQAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAQAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAgAAAPX/
+IAAA9AAAAAAAAAAAwCDgABQAAgAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAAAPX/IAAA9AAAAAAA
+AAAAwCDgABQAAAAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAAAPX/IAAA9AAAAAAAAAAAwCDgABQA
+AAAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAAAPX/IAAA
+9AAAAAAAAAAAwCDgABQAAAAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAAAPX/IAAA9AAAAAAAAAAA
+wCDgABQAAAAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAA
+AAEAIAAAAAAAAAAAAAAAwCDgABQAAQArAPX/IAAA+AAAAAAAAAAAwCDgABQAAQApAPX/IAAA+AAA
+AAAAAAAAwCDgABQAAQAsAPX/IAAA+AAAAAAAAAAAwCDgABQAAQAqAPX/IAAA+AAAAAAAAAAAwCDg
+ABQAAQAJAPX/IAAA+AAAAAAAAAAAwCDgABQAAAABAAEAIAAABAAAAAAAAAAAwCDgABQAAAABAAEA
+IAAAJAAAAAAAAAAAwCDgABQAAAABAAEAIAAAJAAGAABAAAAAwCDgABQAAAABAAEAIAAAJGAGACBA
+AAAAwCDgABQAAAABAAEAIAAAZAAAAAAAAAAENyDgABQAAAABAAEAIAAAZABgAAAAIAAENyDgABQA
+AAABAAEAIAAAZAAAAAAAAAAEFiDgABQAAAAxAAEAKAAAFAAAAAAAAAAAwCDgABQAAAAxAAEAKAAA
+NAYGQABAAAAAwCDgABQAAAAxAAEAKAAAdAYAQAAAAAAENyDgABQAAAAxAAEAKAAANAYAQAAAAAAA
+wCDgABQAAAAxAAEAKAAAdAYAQAAAAAAEFiDgABQAAAAxAAEAKAAAdAZgQAAAIAAENyDgABQAAAAB
+AAEAIAAAZGAAACAAAAAEFyDgABQAAAABAAEAIAAAZGBgACAAIAAEFyCTAgQAEIAD/5MCBAARgAb/
+kwIEABKABP+TAgQAE4AH/5MCBAAAgAD/kwIEABSABf9gAQIAAACFAA4ASAoAAAAABgBTaGVldDGM
+AAQAAQABAMEBCADBAQAAYGkBAPwAfAIWAAAAEwAAAAYAAE1NSS1EQx8AAEVzdGltYXRlZCBjb250
+cmlidXRpb25zIGluIGtpbmQJAABXb3JrIEl0ZW0LAABEZXNjcmlwdGlvbgIAAFExAgAAUTICAABR
+MwIAAFE0AgAAcG0FAABUb3RhbAgAAEZlZWRiYWNrCAAATWVldGluZ3MGAABOb3RlczoYAABDb250
+cmlidXRpb25zIHBlciBwZXJpb2RcAABQYXJ0IG9mIHRoZSBhdHRlbmRhbmNlIGF0IHRoZSByZWd1
+bGFyIFdvcmtzaG9wIG1lZXRpbmdzIHNob3VsZCBiZSBhc3NpZ25lZCB0byB0aGlzIHdvcmsgaXRl
+bRgAAFNwZWNpYWwgbWVldGluZyBTaGFuZ2hhaZIAAEF0dGVuZGFuY2UgYXQgYSBzcGVjaWFsIG1l
+ZXRpbmcgYXQgREMtMjAwNCBpbiBTaGFuZ2hhaSB0byBnZXQgZmVlZGJhY2sgZnJvbSBhbiBpbnRl
+cm5hdGlvbmFsIGF1ZGllbmNlIGlzIGVzdGltYXRlZCBhdCAxNSBwZW9wbGUsIGNhbGN1bGF0ZWQg
+YXQgbisyGAAAQWRkaXRpb25hbCB3b3JrIHBhcnRuZXJzpwAARmVlZGJhY2sgb24gdGhlIGRyYWZ0
+cyB3aWxsIGJlIHNvdWdodCBmcm9tIHRoZSBEQ01JIEFyY2hpdGVjdHVyZSBXb3JraW5nIEdyb3Vw
+IGFuZCB0aGUgRENNSSBVc2FnZSBCb2FyZCwgYW5kIGZyb20gc3BlY2lmaWMgaW5kaXZpZHVhbHMg
+aW52b2x2ZWQgaW4gUmVnaXN0cnkgZGV2ZWxvcG1lbnT/ABoACACyBwAADAAAAAsIAABlAAAAzAgA
+ACYBAAAKAAAACQgQAAAGEAD+HM0HyUAAAAYBAAALAhQAAAAAAAEAAAAVAAAAThMAAEgYAAANAAIA
+AQAMAAIAZAAPAAIAAQARAAIAAAAQAAgA/Knx0k1iUD9fAAIAAQAqAAIAAAArAAIAAACCAAIAAQCA
+AAgAAAAAAAAAAAAlAgQAAADhAIEAAgDBBBQAAAAVAAAAgwACAAAAhAACAAAATQBGCAAAaABwACAA
+bwBmAGYAaQBjAGUAagBlAHQAIAA3ADEAMAAwACAAcwBlAHIAaQBlAHMAAAAAAAAAAAAAAAAAAAAA
+AAEEIUDcAGgHA9+ABwEACQAAAAAAZAABAAIA/f8CAAEAAAADAAAAdgBlAHIAdAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAABAAAAAwAAABEEAAABAAAAAAAAAAAAAAAAAAAAAAAAAEKDZYcAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAFIDAABMBAAAAGQAAAkAAAAAAAAAAAAAAAAAAAEAAgAA
+AAAAAQAAAAAAAAEAAAAxAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/BoAAEKDZYcBzNq6AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAADM2rpoAHAAIABvAGYAZgBpAGMAZQBqAGUAdAAgADcAMQAwADAAIABzAGUAcgBpAGUAcwAA
+ADAAMAAgAHMAZQByAGkAZQBzACwATABvAGMAYQBsAE8AbgBsAHkALABEAHIAdgBDAG8AbgB2AGUA
+cgB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AKEAIgAJAGQAAQABAAEAAgD9/wAAAAAAAAAA4D8AAAAAAADgPwEAVQACAAgAfQAMAAAAAAC2GhwA
+AgACAH0ADAABAAUAJAkVAAAAAgAAAg4AAQAAABUAAAAAAAYAAAAIAhAAAQAAAAYA4QAAAAAAAAEP
+AAgCEAACAAAABgDhAAAAAAAAAQ8ACAIQAAMAAAAGAOEAAAAAAAABDwAIAhAABAAAAAYA8AAAAAAA
+AAEPIAgCEAAFAAAABgDwAAAAAAAAAQ8QCAIQAAYAAAAGAOEAAAAAAAABDwAIAhAABwAAAAYA4QAA
+AAAAAAEPAAgCEAAIAAAABgDhAAAAAAAAAQ8ACAIQAAkAAAAGAOEAAAAAAAABDwAIAhAACgAAAAYA
+4QAAAAAAAAEPAAgCEAALAAAABgDhAAAAAAAAAQ8ACAIQAAwAAAAGAOEAAAAAAAABDwAIAhAADQAA
+AAYA4QAAAAAAAAEPAAgCEAAOAAAABgDwAAAAAAAAAQ8gCAIQAA8AAAAGAPAAAAAAAAABDxAIAhAA
+EQAAAAEA4QAAAAAAAAEPAAgCEAASAAAAAQDrBQAAAABAAQ8ACAIQABMAAAABABoEAAAAAEABDwAI
+AhAAFAAAAAEAGQUAAAAAQAEPAP0ACgABAAAAHAAAAAAA/QAKAAIAAAAcAAEAAAD9AAoAAwAAABwA
+AgAAAH4CCgADAAEAFQAAABBAvgASAAUAAAAdABcAFwAXABcAGAAFAP0ACgAGAAAAHgADAAAA/QAK
+AAYAAQAZAAQAAAD9AAoABgACABkABQAAAP0ACgAGAAMAGQAGAAAA/QAKAAYABAAZAAcAAAD9AAoA
+BgAFACIACQAAAL4AEgAHAAAAHwAWABYAFgAWACIABQD9AAoACAAAACAACwAAAP0ACgAIAAEAGwAI
+AAAA/QAKAAgAAgAbAAgAAAD9AAoACAADABsACAAAAP0ACgAIAAQAGwAIAAAAAQIGAAgABQAiAP0A
+CgAJAAAAIAAPAAAAvgAMAAkAAQAbABsAGwADAH4CCgAJAAQAGwAAgEZABgAjAAkABQAiAAAAAAAA
+gEZAAAAKAAX/DQAlCQAJAAHABMAZEAAA/QAKAAoAAAAgAAoAAAABAgYACgABABsAvQAYAAoAAgAb
+AAAAFEAbAAAAFEAbAAAAFEAEAAYAIwAKAAUAIgAAAAAAAAAuQAAADgAB/w0AJQoACgABwATAGRAA
+AP0ACgALAAAAIAARAAAAvgAKAAsAAQAbABsAAgB+AgoACwADABsAAAAUQAECBgALAAQAGwAGACMA
+CwAFACIAAAAAAAAAFEAAAAkABf4NACULAAsAAcAEwBkQAAC+ABIADAAAACAAGwAbABsAGwAiAAUA
+vgASAA0AAAAfABYAFgAWABYAIgAFAP0ACgAOAAAAIQANAAAABgAjAA4AAQAaAAAAAAAAAAAAAAAO
+AAL/DQAlBwANAAHAAcAZEAAABgAjAA4AAgAaAAAAAAAAABRAAAAOAAP/DQAlBwANAALAAsAZEAAA
+BgAjAA4AAwAaAAAAAAAAACRAAAAOAAT/DQAlBwANAAPAA8AZEAAABgAjAA4ABAAaAAAAAAAAAElA
+AAAOAAX/DQAlBwANAATABMAZEAAABgAjAA4ABQAjAAAAAAAAQFBAAAAOAAX9DQAlDgAOAAHABMAZ
+EAAA/QAKABEAAAAcAAwAAAD9AAoAEgAAABwAEgAAAP0ACgATAAAAHAAOAAAA/QAKABQAAAAcABAA
+AADXACoAwgQAAGgBDgAOABwAAAAWAFQAFgBQAFMAWwBbABYAFgDRAAAADgAOAA4APgISALYGAAAA
+AEAAAAAAAAAAAAAAAB0ADwADCwAEAAAAAQALAAsABATvAAYAAAA3AAAACgAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7/AAAFAAIAAAAAAAAA
+AAAAAAAAAAAAAAEAAADghZ/y+U9oEKuRCAArJ7PZMAAAAPQAAAAIAAAAAQAAAEgAAAACAAAAUAAA
+AAQAAACMAAAACAAAAKQAAAASAAAAvAAAAAwAAADUAAAADQAAAOAAAAATAAAA7AAAAAIAAADkBAAA
+HgAAADMAAABNTUktREMgV29yayBJdGVtIDQgZXN0aW1hdGVkIGNvbnRyaWJ1dGlvbnMgaW4ga2lu
+ZAAAHgAAAA0AAABNYWt4IERla2tlcnMAdGVtHgAAAA0AAABNYWt4IERla2tlcnMAdGVtHgAAABAA
+AABNaWNyb3NvZnQgRXhjZWwAQAAAAIDL6VvoGsQBQAAAAABQQOt0IcQBAwAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/wAABQACAAAAAAAAAAAAAAAAAAAA
+AAABAAAAAtXN1ZwuGxCTlwgAKyz5rjAAAADEAAAACQAAAAEAAABQAAAADwAAAFgAAAAXAAAAZAAA
+AAsAAABsAAAAEAAAAHQAAAATAAAAfAAAABYAAACEAAAADQAAAIwAAAAMAAAAnwAAAAIAAADkBAAA
+HgAAAAEAAAAAADEAAwAAAO0OCQALAAAAAAAAAAsAAAAAAAAACwAAAAAAAAALAAAAAAAAAB4QAAAB
+AAAABwAAAFNoZWV0MQAMEAAAAgAAAB4AAAALAAAAV29ya3NoZWV0cwADAAAAAQAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgA
+AAAJAAAACgAAAAsAAAAMAAAA/v///w4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAD+////FgAA
+ABcAAAAYAAAAGQAAABoAAAAbAAAAHAAAAP7////9/////v//////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////9SAG8AbwB0ACAARQBuAHQAcgB5AAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFgAFAf//////////AgAAACAIAgAAAAAA
+wAAAAAAAAEYAAAAAAAAAAAAAAABgd6dGFybEAf7///8AAAAAAAAAAFcAbwByAGsAYgBvAG8AawAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAIB////////
+////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK0YAAAAAAAABQBT
+AHUAbQBtAGEAcgB5AEkAbgBmAG8AcgBtAGEAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAACgAAgEBAAAAAwAAAP////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN
+AAAAABAAAAAAAAAFAEQAbwBjAHUAbQBlAG4AdABTAHUAbQBtAGEAcgB5AEkAbgBmAG8AcgBtAGEA
+dABpAG8AbgAAAAAAAAAAAAAAOAACAf///////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAABUAAAAAEAAAAAAAAA==
+
+------=_NextPart_000_0009_01C42634.61735600--
+=========================================================================
+Date:         Mon, 19 Apr 2004 18:00:05 +0200
+Reply-To:     Thomas Baker <thomas.baker@BI.FHG.DE>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Thomas Baker <thomas.baker@BI.FHG.DE>
+Subject:      Re: Work Item 4, "CWA2" (on versioning)
+Comments: To: Makx Dekkers <mail@MAKXDEKKERS.COM>
+In-Reply-To:  <000501c42622$2941acd0$0201a8c0@samsara>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+Makx,
+
+I double-checked, and I did in fact send this to Leif with just
+a Cc: to MMI-DC-WI4 -- interesting that the headers do not
+show this...!
+
+Tom
+
+On Mon, Apr 19, 2004 at 05:22:33PM +0200, Makx Dekkers wrote:
+> Tom,
+>
+> I don't think that Leif is on this list, or am I mistaken?
+>
+> Makx.
+>
+> --------------------------------------------------------------------
+> Makx Dekkers                            e-mail: mail@makxdekkers.com
+>
+> > -----Original Message-----
+> > From: MMI DC Work Item 4 [mailto:MMI-DC-WI4@JISCMAIL.AC.UK]
+> > On Behalf Of Thomas Baker
+> > Sent: Monday, 19 April 2004 16:51
+> > To: MMI-DC-WI4@JISCMAIL.AC.UK
+> > Subject: Work Item 4, "CWA2" (on versioning)
+> >
+> >
+> > Dear Leif,
+> >
+> > Here is ISSS/WS-MMI-DC/102 -- "Guidance for naming,
+> > versioning, evolution and maintenance of element declarations
+> > and application profiles -- First draft" along with a cover
+> > letter for forwarding to the group.  The text in the agenda
+> > could read:
+> >
+> >     Tom Baker will present ISSS/WS-MMI-DC/102 -- "Guidance
+> >     for naming, versioning, evolution and maintenance of
+> >     element declarations and application profiles -- First
+> >     draft".  Section 1 provides a narrative overview of the
+> >     naming and identification methods, commenting on their
+> >     historical context.  Section 2 will provide the obligatory
+> >     definitions.  Section 3 will present the technical aspects
+> >     as tersely as possible.  Note that there are placeholders
+> >     for the bits dealing with Application Profiles, which
+> >     will depend on discussion in Work Item 4, Part One on
+> >     machine-processable Application Profiles.  Section 4 was
+> >     to discuss differences between the DCMI approach and the
+> >     approaches taken by other standards-making initiatives,
+> >     such as W3C, ISO 11179, OASIS, and especially IEEE/LOM,
+> >     but this will depend on the availability of Erik Duval
+> >     over the next few months.  At the meeting, Tom will ask
+> >     the workshop to agree on the scope and on the terminology
+> >     used as labels for the things described.
+> >
+> > Tom
+> >
+> > ---
+> >
+> > Dear all,
+> >
+> > As a basis for discussion, here is ISSS/WS-MMI-DC/102:
+> > "Guidance for naming, versioning, evolution and maintenance of
+> > element declarations and application profiles -- First draft".
+> >
+> > The general approach I have taken here is to provide in
+> > Section 1 a narrative overview of the naming and identification
+> > methods, commenting on their historical context.  After the
+> > obligatory definitions in Section 2, then, I will provide a
+> > rather terse technical discussion in Section 3.
+> >
+> > Note that there are placeholders for the bits dealing with
+> > Application Profiles, which will depend on discussion in Work
+> > Item 4, Part One on machine-processable Application Profiles.
+> > Section 4 was to discuss differences between the DCMI approach
+> > and the approaches taken by other standards-making initiatives,
+> > such as W3C, ISO 11179, and OASIS.  In particular, the section
+> > was ideally going to discuss differences on these issues
+> > with regard to interoperability between DC and IEEE/LOM,
+> > but this will depend on the availability of Erik over the
+> > next few months.
+> >
+> > I recently joined the W3C Semantic Web Best Practices and
+> > Deployment Working Group [1] and proposed that the working
+> > group take on a number of the issues discussed in this CEN
+> > draft as input into a W3C Note on best practice.  It is my hope
+> > that the CEN draft could be cited and summarized in such a note
+> > as an example of best practice for the Semantic Web generally.
+> >
+> > In Brussels, I would like for us to agree on the scope and on
+> > the terminology used as labels for the things described.  I am
+> > expecting that the technical content will be non-controversial
+> > inasmuch it describes formal and de facto practice rather than
+> > actually formulating new practice.
+> >
+> > Tom
+> >
+> > [1] http://www.w3.org/2001/sw/BestPractices/
+> > [2]
+> > http://lists.w3.org/Archives/Public/public-swbp-wg/2004Apr/0025.html
+> >
+> > --------------------------------------------------------------
+> > ----------
+> > Document ISSS/WS-MMI-DC/102:
+> >
+> > "Guidance for naming, versioning, evolution and maintenance
+> > of element declarations and application profiles - First draft"
+> >
+> > 2004-04-05
+> >
+> > Work Item 4, part 2
+> > Drafters: Thomas Baker, Makx Dekkers
+> > --------------------------------------------------------------
+> > ----------
+> >
+> > Executive Summary
+> >
+> > These guidelines describe the principles and methods
+> > for identifying metadata terms, sets of metadata terms,
+> > and application profiles. [will expand]
+> >
+> > 1. Introduction
+> >
+> > 1.1. Context
+> >
+> > The Internet was revolutionary because it made the resources
+> > of any connected server accessible via a single global address
+> > space.  The vision of a future Semantic Web further generalizes
+> > this notion of a global space of addresses to that of a global
+> > space of identifiers.  According to Tim Berners-Lee, "The
+> > most fundamental specification of Web architecture, while one
+> > of the simpler, is that of the Uniform Resource Identifier,
+> > or URI.  The principle that anything, absolutely anything
+> > 'on the Web' should be identified distinctly by an otherwise
+> > opaque string of characters...  is core" [BERNERS-LEE].
+> >
+> > URIs can provide unique identity not just to "information
+> > resources" -- Web pages, scientific pre-prints, satellite
+> > photos, video clips, and the like -- but also to any metadata
+> > terms used to describe those resources.  As compact character
+> > strings associated with known institutional domain authorities,
+> > URIs can stand alone as self-contained references to metadata
+> > terms.  While relevant to all data technologies, they are
+> > usable most directly in Web-based description technologies
+> > such as XLink, Topic Maps, and RDF.
+> >
+> > When the Dublin Core was first drafted in 1995, discussion
+> > focused on the "names" of the core elements.  As the
+> > Dublin Core came to be considered for use with the emerging
+> > technologies of XML and later RDF, discussion began to turn
+> > around the notion of a "namespace".  "Namespace" was, and
+> > remains today, a rather slippery concept.  For the purposes
+> > of this CWA suffice it to say that "namespace" captures the
+> > notion of a clearly identified set of terms.  DCMI began
+> > to experiment with using URIs to identify the Dublin Core
+> > "namespace" in 1997.  The growth of DCMI's namespace (or
+> > namespaces) with the addition of several dozen qualifiers
+> > in 2000 forced a clarification of various issues related to
+> > naming, identifying, and versioning DCMI terms.  In 2001,
+> > the approach which had evolved was articulated in a formal DCMI
+> > Namespace Policy.
+> >
+> > The Namespace Policy declares three "DCMI namespaces"
+> > -- identifiers (URIs) for three DCMI term sets.  URIs
+> > for individual DCMI terms are formed by appending the
+> > character-string "name" of the term to the URI for its DCMI
+> > namespace.  This mechanism is discussed in more detail below.
+> >
+> > Aside from describing how DCMI terms are assigned identifiers,
+> > the namespace policy acknowledges that terms can and will
+> > change over time and focuses on articulating the consequences
+> > of change for unique identity.  "Minor" or "substantive" errata
+> > may be corrected without consequence for URIs.  Changes of a
+> > semantic nature, however, such as significant changes in the
+> > wording of a definition, must trigger the creation of a new
+> > term with a new URI.  To support the future interpretation
+> > of legacy metadata, the Namespace Policy commits DCMI to
+> > maintaining formal documentation for all assigned URIs ---
+> > even for terms that might some day be assigned a status of
+> > "obsolete".
+> >
+> > Within the limits of the Namespace Policy, the DCMI
+> > vocabularies are subject to growth and change over time ---
+> > new terms are added, a bibliographic reference cited in a
+> > usage comment may be updated, the status assigned to a term
+> > may change.  The fifteen-element Dublin Core was initially
+> > versioned as a set and, as noted above, the version number
+> > "1.1" is hard-coded into the string used as the URI
+> > of its DCMI namespace.
+> >
+> > As of July 2000, new terms were issued without such a version
+> > number because the model of periodic, batched releases
+> > seemed a bad fit to a vocabulary that was expected to grow
+> > by increment.  At the same time, the ability to reference a
+> > term set as of a given date was seen as potentially useful
+> > for library automation contracts, translations of DCMI term
+> > sets into another languages, or the future interpretation
+> > of legacy metadata.  The pragmatic solution to this problem
+> > has been to version both individual terms (which evolve at
+> > different rates) and Web pages which document batches of terms
+> > as of a particular date (which are updated whenever a term is
+> > added or anything else in the term set changes).  DCMI uses
+> > URIs to identify both the individual versions of terms and
+> > the Web pages documenting term sets, though these methods
+> > have not yet been documented in detail (hence this CWA).
+> >
+> > [Paragraph explaining the principle of having a persistent
+> > identifier for the "term" in its "latest version" in parallel
+> > with a second identifier denoting a specific historical
+> > version.]
+> >
+> > Whenever anything in the DCMI term sets changes, DCMI publishes
+> > documentation reflecting those changes.  At present, DCMI
+> > publishes the updated information both as Web documents and
+> > as machine-processable schemas.  The DCMI Namespace Policy
+> > also says that all of the URIs identifying DCMI terms "will
+> > resolve to a machine-processable DCMI term declaration for
+> > all the terms within that namespace" [DCMIN].  As of July
+> > 2003, the URIs for DCMI terms redirect to an RDF schema
+> > documenting the attributes of a particular set of terms
+> > [DCMIT]. The formulation is vague enough to support any
+> > alternative conventions for namespace resolution that may
+> > emerge, such as the Resource Directory Description Language
+> > under consideration by the W3C Technical Architecture Group
+> > [RDDL].  These documentary publications are named and versioned
+> > like most other documents on the DCMI Web site.
+> >
+> > [Paragraph explaining the principle of two identifiers, as
+> > above, drawing the parallel between how documents are versioned
+> > and how terms are versioned.]
+> >
+> > In the DCMI context, the notion of Application Profile emerged
+> > in response to a strong though vaguely expressed need for
+> > documenting and sharing metadata models within communities
+> > of interest.  Application Profiles have been developed for
+> > purposes ranging from the description of existing record
+> > structures to the negotiation of good-practice guidelines for
+> > formats yet to be implemented.  Application Profiles have
+> > helped identify emerging semantics "around the edges" of
+> > existing vocabularies as candidates for formal standardization.
+> > [Discuss Guidelines for Application Profiles, CWA 14855.]
+> >
+> > Application designers often draw on standards such as Dublin
+> > Core rather freely, selecting a a subset of available terms,
+> > specifying constraints on how terms are used (e.g., which
+> > elements are mandatory, which date format to use), or using
+> > terms from multiple sources --- e.g., Dublin Core elements
+> > together with elements from the IEEE/LOM standard or with
+> > elements defined in-house for application-specific purposes.
+> > In order to document such practices, standards communities
+> > as different as DCMI, DOI, MARC, and IEEE/LOM have developed
+> > roughly analogous notions of a "profile" or "application
+> > profile".  [A number of key standards maintenance organizations
+> > have agreed in principle characterizing the "elements" of the
+> > various standards as "units of meaning comparable and mappable
+> > to elements of other standards".  [CORES].  [In Semantic Web
+> > environment, where mixing of term sets, important to have
+> > well-understood conventions on what is being identified, etc.]
+> > [This section will need to be fleshed out in light of the work
+> > on Work Item 1, Part One.]
+> >
+> > [Final section on "translations" as a particular form of
+> > application profile.  Requirement to be able to cite the
+> > exact version translated.]
+> >
+> > 1.2. Scope
+> >
+> > This CWA covers naming conventions for the following entities:
+> >
+> > -- a metadata term ("Term");
+> > -- a historical version of a Term ("Term Version");
+> > -- a set of one or more annotations (e.g., usage constraints)
+> > about a Term ("Term Usage");
+> > -- a set of one or more Terms ("Term Set");
+> > -- a document documenting a Term Set ("Term-Set Document");
+> > -- a formal schema (e.g., in RDF) declaring one or more Terms
+> > ("Term-Set Schema");
+> > -- a set of one or more Term Usages ("Application Profile").
+> >
+> > These entities are defined in more detail in "Section 2. Definitions".
+> >
+> > 1.3. Audience
+> >
+> > [To be written.]
+> >
+> > 2. Definitions
+> >
+> > -- Term
+> > -- Term Version
+> > -- Term Usage
+> > -- Term Set
+> > -- Term-Set Document
+> > -- Term-Set Schema
+> > -- Application Profile
+> > -- DCMI Namespace
+> > -- DCMI Name
+> >
+> > 3. Naming and identification methods in detail
+> >
+> > 3.1.  A metadata term ("Term")
+> >
+> > DCMI began to experiment with URIs in 1997, which led
+> > to the formulation in 2001 of a formal Namespace Policy
+> > [DCMI-NAMESPACE].  This policy declares URIs for three DCMI
+> > namespaces:
+> >
+> >     http://purl.org/dc/elements/1.1/
+> >     http://purl.org/dc/terms/
+> >     http://purl.org/dc/dcmitype/
+> >
+> > to designate (respectively) the fifteen-element Dublin Core,
+> > all other DCMI elements and qualifiers, and a controlled
+> > vocabulary of values for the Dublin Core element Type.
+> > A URI is constructed for a DCMI term by appending its
+> > character-string "name" to the URI of a DCMI namespace.
+> > For example, the URIs
+> >
+> >     http://purl.org/dc/elements/1.1/title
+> >     http://purl.org/dc/terms/extent
+> >     http://purl.org/dc/dcmitype/Image
+> >
+> > respectively identify Title (one of the fifteen "core"
+> > elements), Extent (an element refinement) and Image (a term
+> > in the DCMI Type Vocabulary).
+> >
+> >    http://purl.org/dc/elements/1.1/contributor
+> >    http://purl.org/dc/dcmitype/Collection
+> >    http://purl.org/dc/terms/abstract
+> >    http://purl.org/dc/terms/LCSH
+> >
+> > 3.2.  A historical version of a Term ("Term Version");
+> >
+> > Individual terms are versioned by saving a snapshot of their
+> > attributes whenever any one of their attributes changes and
+> > assigning to that snapshot a URI such as the following:
+> >
+> >     http://dublincore.org/usage/terms/history/#Image-002
+> >     http://dublincore.org/usage/terms/history/#Image-001
+> >
+> > Although such URIs are not currently supported by the DCMI
+> > Namespace Policy, they effectively function as identifiers
+> > for successive versions of a term (in this case Image).
+> > At present, these URIs resolve to anchors in a Web document
+> > which holds a periodically updated snapshot of all past and
+> > present versions of all DCMI terms.
+> >
+> >    http://dublincore.org/usage/terms/history/#contributor-001
+> >    http://dublincore.org/usage/terms/history/#contributor-002
+> >    http://dublincore.org/usage/terms/history/#contributor-003
+> >    http://dublincore.org/usage/terms/history/#contributor-004
+> >
+> > 3.3. A set of one or more annotations (e.g., usage constraints)
+> >      about a Term ("Term Usage");
+> >
+> > [This section will depend on the terminology and approach
+> > adopted in Part One of Work Item 4 on machine-processable
+> > application profiles.  The working assumption is that this
+> > work will affirm the terminology described in CWA14855.]
+> >
+> > 3.4. A set of one or more Terms ("Term Set")
+> >
+> > Aside from the namespace for core elements, which predated
+> > the Namespace Policy, the URIs for DCMI namespaces do not show
+> > versioning information.  As of July 2000, new terms were issued
+> > without such a version number because the model of periodic,
+> > batched releases seemed a bad fit to a vocabulary that was
+> > expected to grow by increment.  [Explain that Element Set is
+> > versioned as a set both for historical reasons and in order
+> > to emphasize the fundamental stability of the element set,
+> > but that other sets are not versioned "as sets" (except
+> > as documents).  Will elaborate.]
+> >
+> > 3.5. A document documenting a Term Set ("Term-Set Document")
+> >
+> > [Expanding on 3.4.]
+> >
+> > The Web pages documenting DCMI term sets are versioned
+> > according to the method used for all other important DCMI
+> > documents --- with a URI for the specific historical version
+> > and a URI for its "latest version" along with pointers to
+> > immediate previous and successive versions.  For example,
+> > the March 2003 version of the DCMI Metadata Terms document
+> > shows the following:
+> >
+> >     Identifier: http://dublincore.org/documents/2003/03/04/dcmi-terms/
+> >     Latest Version: http://dublincore.org/documents/dcmi-terms
+> >     Replaced By:
+> > http://dublincore.org/documents/2003/11/19/dcmi-terms/
+> >
+> > where the Identifier resolves to the permanently archived
+> > and unchanging version of the document displayed, Replaced By
+> > resolves to the next version that followed, and Latest Version
+> > resolves to a continually updated pointer on the DCMI Web
+> > site to the most up-to-date version of DCMI Metadata Terms.
+> > In DCMI practice, in other words, the versioning methods for
+> > metadata terms and for Web documents are analogous: in each
+> > case, identifiers are assigned both for the resource in a
+> > generic sense (the namespace-policy-supported URI for a term
+> > or Latest Version for a document) as well as for a specific
+> > historical version.
+> >
+> > 3.6. A formal schema (e.g., in RDF) declaring one or more
+> >      Terms ("Term-Set Schema")
+> >
+> > [Versioned according to the same principle as documents, etc.
+> > Will elaborate.]
+> >
+>    http://dublincore.org/2000/03/13/dces
+>    http://dublincore.org/2000/03/13/dcq
+>    http://dublincore.org/2001/08/14/dces
+>    http://dublincore.org/2001/08/14/dcq
+>    http://dublincore.org/2002/08/13/dces
+>    http://dublincore.org/2002/08/13/dcq
+>    http://dublincore.org/2003/03/24/dces
+>    http://dublincore.org/2003/03/24/dcq
+>
+> 3.7. A set of one or more Term Usages ("Application Profile").
+>
+> [This section will depend on the terminology and approach
+> adopted in Part One of Work Item 4 on machine-processable
+> application profiles.  The working assumption is that this
+> work will affirm the terminology described in CWA14855.]
+>
+> 4.0. Discussion and conclusion
+>
+> [To be written.  This final section was going to recapitulate
+> some of the issues that came out in the discussion of the
+> CORES Resolution.  In particular, it was to discuss issues
+> related to the compatability in the approaches taken by DCMI
+> and by the IEEE LOM community to naming and identifying terms.
+> The scope and message of this section will depend in part on
+> the availability of Erik Duval over the next few months.]
+>
+> References
+>
+> [To be written.]
+>
+> --
+> Dr. Thomas Baker                        Thomas.Baker@izb.fraunhofer.de
+> Institutszentrum Schloss Birlinghoven         mobile +49-160-9664-2129
+> Fraunhofer-Gesellschaft                          work +49-30-8109-9027
+> 53754 Sankt Augustin, Germany                    fax +49-2241-144-2352
+> Personal email: thbaker79@alumni.amherst.edu
+
+--
+Dr. Thomas Baker                        Thomas.Baker@izb.fraunhofer.de
+Institutszentrum Schloss Birlinghoven         mobile +49-160-9664-2129
+Fraunhofer-Gesellschaft                          work +49-30-8109-9027
+53754 Sankt Augustin, Germany                    fax +49-2241-144-2352
+Personal email: thbaker79@alumni.amherst.edu
+=========================================================================
+Date:         Mon, 19 Apr 2004 17:30:19 +0100
+Reply-To:     Rachel Heery <r.heery@UKOLN.AC.UK>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Rachel Heery <r.heery@UKOLN.AC.UK>
+Subject:      Re: MMI WI4 deliverables
+Comments: To: Makx Dekkers <mail@makxdekkers.com>
+In-Reply-To:  <000801c42623$9dea8600$0201a8c0@samsara>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+On Mon, 19 Apr 2004, Makx Dekkers wrote:
+
+> There are three things we need to submit to Leif:
+>
+> 1. draft of CWA1
+
+To be precise the deliverable as mentioned in the WI4 workplan for CWA1 is
+a 'Report to MMI-DC on progress', so I included in the draft a report on
+progress.
+see http://homes.ukoln.ac.uk/~lisrmh/CEN/mmidc-wi4-cwa1-v4.doc
+I would appreciate any comment on this document, by end of tomorrow...
+
+Then yes, I will submit to Leif
+
+Rachel
+
+---------------------------------------------------------------------------
+Rachel Heery
+UKOLN, University of Bath                       tel: +44 (0)1225 386724
+http://www.ukoln.ac.uk
+--------------------------------------------------------------------------
+European Conference on Digital Libraries (ECDL 2004),
+Bath, UK, 12-17 September 2004: http://www.ecdl2004.org/
+=========================================================================
+Date:         Mon, 19 Apr 2004 18:17:58 +0100
+Reply-To:     Rachel Heery <r.heery@UKOLN.AC.UK>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Rachel Heery <r.heery@UKOLN.AC.UK>
+Subject:      Nokia Vocabulary for Vocabulary Descriptions (fwd)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+Ahhh, Pete managed to track something down on this.... but I don't think
+it really gets us very far. see mail below
+
+Rachel
+
+---------- Forwarded message ----------
+Date: Mon, 19 Apr 2004 17:53:42 +0100
+From: Pete Johnston <p.johnston@ukoln.ac.uk>
+To: Rachel Heery <r.heery@ukoln.ac.uk>
+Subject: Nokia Vocabulary for Vocabulary Descriptions
+
+Rachel,
+
+The Nokia Vocabulary is described at
+
+http://sw.nokia.com/uriqa/?uri=http%3a%2f%2fsw.nokia.com%2fVOC-1&inferen
+ce=exclude&format=text%2Fhtml&naming=label
+
+so it defines classes like voc:Vocabulary and properties like voc:part
+of and voc:term, which (I think) are fairly similar to our
+cores:ElementSet and cores:isElementOf and so on.
+
+I recall that I got very confused because he has a Vocabulary called
+
+http://purl.org/dc/elements/1.1 (no trailing slash)
+
+http://sw.nokia.com/uriqa/?uri=http%3a%2f%2fpurl.org%2fdc%2felements%2f1
+.1&inference=exclude&format=text%2Fhtml&naming=label
+
+with a seeAlso reference to
+
+http://purl.org/dc/elements/1.1/ (with trailing slash)
+
+http://sw.nokia.com/uriqa/?uri=http%3a%2f%2fpurl.org%2fdc%2felements%2f1
+.1%2f&inference=exclude&format=text%2Fhtml&naming=label
+
+which (I think) is the schema or document that defines the Vocabulary.
+
+I did at some point get clear in my head which things were documents and
+which things were Vocabularies, but it was a long time ago....!
+
+Pete
+-------
+Pete Johnston
+Research Officer (Interoperability)
+UKOLN, University of Bath, Bath BA2 7AY, UK
+tel: +44 (0)1225 383619    fax: +44 (0)1225 386838
+mailto:p.johnston@ukoln.ac.uk
+http://www.ukoln.ac.uk/ukoln/staff/p.johnston/
+=========================================================================
+Date:         Tue, 20 Apr 2004 07:25:55 +0200
+Reply-To:     Martin Ford <martin.ford@MARTINFORDCONSULTANCY.NET>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Martin Ford <martin.ford@MARTINFORDCONSULTANCY.NET>
+Subject:      Re: MMI WI4 deliverables
+Comments: To: Rachel Heery <r.heery@UKOLN.AC.UK>
+In-Reply-To:  <Pine.GS4.4.58.0404191721560.21734@lamin.ukoln.ac.uk>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Rachel
+
+I have read this and feel comfortable with it to be sent out.
+
+Martin
+
+
+Martin Ford Consultancy
+Kenilworth, England
++44 7968029283
+martin.ford@martinfordconsultancy.net
+
+
+-----Original Message-----
+From: MMI DC Work Item 4 [mailto:MMI-DC-WI4@JISCMAIL.AC.UK] On Behalf Of
+Rachel Heery
+Sent: Monday, April 19, 2004 6:30 PM
+To: MMI-DC-WI4@JISCMAIL.AC.UK
+Subject: Re: MMI WI4 deliverables
+
+On Mon, 19 Apr 2004, Makx Dekkers wrote:
+
+> There are three things we need to submit to Leif:
+>
+> 1. draft of CWA1
+
+To be precise the deliverable as mentioned in the WI4 workplan for CWA1
+is
+a 'Report to MMI-DC on progress', so I included in the draft a report on
+progress.
+see http://homes.ukoln.ac.uk/~lisrmh/CEN/mmidc-wi4-cwa1-v4.doc
+I would appreciate any comment on this document, by end of tomorrow...
+
+Then yes, I will submit to Leif
+
+Rachel
+
+------------------------------------------------------------------------
+---
+Rachel Heery
+UKOLN, University of Bath                       tel: +44 (0)1225 386724
+http://www.ukoln.ac.uk
+------------------------------------------------------------------------
+--
+European Conference on Digital Libraries (ECDL 2004),
+Bath, UK, 12-17 September 2004: http://www.ecdl2004.org/
+=========================================================================
+Date:         Tue, 20 Apr 2004 10:52:43 +0200
+Reply-To:     Thomas Baker <thomas.baker@BI.FHG.DE>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Thomas Baker <thomas.baker@BI.FHG.DE>
+Subject:      Re: MMI WI4 deliverables
+Comments: To: Rachel Heery <r.heery@UKOLN.AC.UK>
+In-Reply-To:  <Pine.GS4.4.58.0404191721560.21734@lamin.ukoln.ac.uk>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+Rachel,
+
+I have meetings today and cannot comment in detail.  However,
+one general point -- the term "machine-readable" seems somehow
+inadequate.  A documentary sort of DCAP done up as a HTML
+Web page is "machine-readable".  Maybe "machine-processable"
+is not exactly what we need either, but we somehow need a
+better handle to convey a distinction between the formal,
+machine-processable, actionable, etc, schemas of this year's
+CWA as opposed to machine-displayable documents of last
+year's CWA.
+
+Tom
+
+On Mon, Apr 19, 2004 at 05:30:19PM +0100, Rachel Heery wrote:
+> On Mon, 19 Apr 2004, Makx Dekkers wrote:
+>
+> > There are three things we need to submit to Leif:
+> >
+> > 1. draft of CWA1
+>
+> To be precise the deliverable as mentioned in the WI4 workplan for CWA1 is
+> a 'Report to MMI-DC on progress', so I included in the draft a report on
+> progress.
+> see http://homes.ukoln.ac.uk/~lisrmh/CEN/mmidc-wi4-cwa1-v4.doc
+> I would appreciate any comment on this document, by end of tomorrow...
+>
+> Then yes, I will submit to Leif
+>
+> Rachel
+>
+> ---------------------------------------------------------------------------
+> Rachel Heery
+> UKOLN, University of Bath                       tel: +44 (0)1225 386724
+> http://www.ukoln.ac.uk
+> --------------------------------------------------------------------------
+> European Conference on Digital Libraries (ECDL 2004),
+> Bath, UK, 12-17 September 2004: http://www.ecdl2004.org/
+
+--
+Dr. Thomas Baker                        Thomas.Baker@izb.fraunhofer.de
+Institutszentrum Schloss Birlinghoven         mobile +49-160-9664-2129
+Fraunhofer-Gesellschaft                          work +49-30-8109-9027
+53754 Sankt Augustin, Germany                    fax +49-2241-144-2352
+Personal email: thbaker79@alumni.amherst.edu
+=========================================================================
+Date:         Tue, 20 Apr 2004 10:55:26 +0200
+Reply-To:     Thomas Fischer <fischer@MAIL.SUB.UNI-GOETTINGEN.DE>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Thomas Fischer <fischer@MAIL.SUB.UNI-GOETTINGEN.DE>
+Subject:      AW: Nokia Vocabulary for Vocabulary Descriptions (fwd)
+Comments: To: Rachel Heery <r.heery@UKOLN.AC.UK>
+In-Reply-To:  <Pine.GS4.4.58.0404191816570.21734@lamin.ukoln.ac.uk>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="US-ASCII"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Rachel,
+
+this helps to get me onwards. It seems that URIQA =
+(http://sw.nokia.com/uriqa/URIQA.html) is the name of the game, I will =
+look into it and see what I can get out of it...
+
+Thanks,
+Thomas
+
+> -----Ursprungliche Nachricht-----
+> Von: MMI DC Work Item 4 [mailto:MMI-DC-WI4@JISCMAIL.AC.UK]Im=20
+> Auftrag von
+> Rachel Heery
+> Gesendet: Montag, 19. April 2004 19:18
+> An: MMI-DC-WI4@JISCMAIL.AC.UK
+> Betreff: Nokia Vocabulary for Vocabulary Descriptions (fwd)
+>=20
+>=20
+> Ahhh, Pete managed to track something down on this.... but I=20
+> don't think
+> it really gets us very far. see mail below
+>=20
+> Rachel
+>=20
+> ---------- Forwarded message ----------
+> Date: Mon, 19 Apr 2004 17:53:42 +0100
+> From: Pete Johnston <p.johnston@ukoln.ac.uk>
+> To: Rachel Heery <r.heery@ukoln.ac.uk>
+> Subject: Nokia Vocabulary for Vocabulary Descriptions
+>=20
+> Rachel,
+>=20
+> The Nokia Vocabulary is described at
+>=20
+> http://sw.nokia.com/uriqa/?uri=3Dhttp%3a%2f%2fsw.nokia.com%2fVOC
+> -1&inference=3Dexclude&format=3Dtext%2Fhtml&naming=3Dlabel
+>=20
+> so it defines classes like voc:Vocabulary and properties like voc:part
+> of and voc:term, which (I think) are fairly similar to our
+> cores:ElementSet and cores:isElementOf and so on.
+>=20
+> I recall that I got very confused because he has a Vocabulary called
+>=20
+> http://purl.org/dc/elements/1.1 (no trailing slash)
+>=20
+> http://sw.nokia.com/uriqa/?uri=3Dhttp%3a%2f%2fpurl.org%2fdc%2fel
+ements%2f1.1&inference=3Dexclude&format=3Dtext%2Fhtml&naming=3Dlabel
+
+with a seeAlso reference to
+
+http://purl.org/dc/elements/1.1/ (with trailing slash)
+
+http://sw.nokia.com/uriqa/?uri=3Dhttp%3a%2f%2fpurl.org%2fdc%2felements%2f=
+1.1%2f&inference=3Dexclude&format=3Dtext%2Fhtml&naming=3Dlabel
+
+which (I think) is the schema or document that defines the Vocabulary.
+
+I did at some point get clear in my head which things were documents and
+which things were Vocabularies, but it was a long time ago....!
+
+Pete
+-------
+Pete Johnston
+Research Officer (Interoperability)
+UKOLN, University of Bath, Bath BA2 7AY, UK
+tel: +44 (0)1225 383619    fax: +44 (0)1225 386838
+mailto:p.johnston@ukoln.ac.uk
+http://www.ukoln.ac.uk/ukoln/staff/p.johnston/
+=========================================================================
+Date:         Tue, 20 Apr 2004 18:39:53 +0200
+Reply-To:     Makx Dekkers <mail@MAKXDEKKERS.COM>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Makx Dekkers <mail@MAKXDEKKERS.COM>
+Subject:      Re: MMI WI4 deliverables
+In-Reply-To:  <Pine.GS4.4.58.0404191721560.21734@lamin.ukoln.ac.uk>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+> To be precise the deliverable as mentioned in the WI4
+> workplan for CWA1 is
+> a 'Report to MMI-DC on progress', so I included in the draft
+> a report on
+> progress.
+> see http://homes.ukoln.ac.uk/~lisrmh/CEN/mmidc-wi4-cwa1-v4.doc
+> I would appreciate any comment on this document, by end of tomorrow...
+
+You are correct. The document looks fine to me. If there are no
+objections, I will submit the in-kind spreadsheet to Leif tomorrow.
+
+Makx.
+
+--------------------------------------------------------------------
+Makx Dekkers                            e-mail: mail@makxdekkers.com
+=========================================================================
+Date:         Wed, 21 Apr 2004 07:36:42 +0200
+Reply-To:     Martin Ford <martin.ford@MARTINFORDCONSULTANCY.NET>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Martin Ford <martin.ford@MARTINFORDCONSULTANCY.NET>
+Subject:      Re: MMI WI4 deliverables
+Comments: To: Makx Dekkers <mail@MAKXDEKKERS.COM>
+In-Reply-To:  <007601c426f6$2438a980$0201a8c0@samsara>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+AS I said for WI4 this is fine by me
+
+
+Martin Ford Consultancy
+Kenilworth, England
++44 7968029283
+martin.ford@martinfordconsultancy.net
+
+
+-----Original Message-----
+From: MMI DC Work Item 4 [mailto:MMI-DC-WI4@JISCMAIL.AC.UK] On Behalf Of
+Makx Dekkers
+Sent: Tuesday, April 20, 2004 6:40 PM
+To: MMI-DC-WI4@JISCMAIL.AC.UK
+Subject: Re: MMI WI4 deliverables
+
+> To be precise the deliverable as mentioned in the WI4
+> workplan for CWA1 is
+> a 'Report to MMI-DC on progress', so I included in the draft
+> a report on
+> progress.
+> see http://homes.ukoln.ac.uk/~lisrmh/CEN/mmidc-wi4-cwa1-v4.doc
+> I would appreciate any comment on this document, by end of tomorrow...
+
+You are correct. The document looks fine to me. If there are no
+objections, I will submit the in-kind spreadsheet to Leif tomorrow.
+
+Makx.
+
+--------------------------------------------------------------------
+Makx Dekkers                            e-mail: mail@makxdekkers.com
+=========================================================================
+Date:         Wed, 21 Apr 2004 07:49:45 +0200
+Reply-To:     Martin Ford <martin.ford@MARTINFORDCONSULTANCY.NET>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Martin Ford <martin.ford@MARTINFORDCONSULTANCY.NET>
+Subject:      Re: MMI WI4 deliverables
+Comments: To: Thomas Baker <thomas.baker@BI.FHG.DE>
+In-Reply-To:  <20040420085243.GA1212@Octavius>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+I can live with these names although I do think process implies more
+what is going on here than just readable. However, our computer legacy
+tells us that machine-readable IS processable and always has been from
+punch card days (Oh I remember them to well!).
+
+This point should not block the view of the ongoing work but just
+flagged to keep an eye on it as we go along or we will end up with that
+biological urge us humans have to talk terminology!
+
+Perhaps in the day of the semantic web and when the punch card has
+rotted in its grave it is time to coil a new phrase altogether...
+
+See you in a couple of weeks.
+
+
+Martin Ford Consultancy
+Kenilworth, England
++44 7968029283
+martin.ford@martinfordconsultancy.net
+
+
+-----Original Message-----
+From: MMI DC Work Item 4 [mailto:MMI-DC-WI4@JISCMAIL.AC.UK] On Behalf Of
+Thomas Baker
+Sent: Tuesday, April 20, 2004 10:53 AM
+To: MMI-DC-WI4@JISCMAIL.AC.UK
+Subject: Re: MMI WI4 deliverables
+
+Rachel,
+
+I have meetings today and cannot comment in detail.  However,
+one general point -- the term "machine-readable" seems somehow
+inadequate.  A documentary sort of DCAP done up as a HTML
+Web page is "machine-readable".  Maybe "machine-processable"
+is not exactly what we need either, but we somehow need a
+better handle to convey a distinction between the formal,
+machine-processable, actionable, etc, schemas of this year's
+CWA as opposed to machine-displayable documents of last
+year's CWA.
+
+Tom
+
+On Mon, Apr 19, 2004 at 05:30:19PM +0100, Rachel Heery wrote:
+> On Mon, 19 Apr 2004, Makx Dekkers wrote:
+>
+> > There are three things we need to submit to Leif:
+> >
+> > 1. draft of CWA1
+>
+> To be precise the deliverable as mentioned in the WI4 workplan for
+CWA1 is
+> a 'Report to MMI-DC on progress', so I included in the draft a report
+on
+> progress.
+> see http://homes.ukoln.ac.uk/~lisrmh/CEN/mmidc-wi4-cwa1-v4.doc
+> I would appreciate any comment on this document, by end of tomorrow...
+>
+> Then yes, I will submit to Leif
+>
+> Rachel
+>
+>
+------------------------------------------------------------------------
+---
+> Rachel Heery
+> UKOLN, University of Bath                       tel: +44 (0)1225
+386724
+> http://www.ukoln.ac.uk
+>
+------------------------------------------------------------------------
+--
+> European Conference on Digital Libraries (ECDL 2004),
+> Bath, UK, 12-17 September 2004: http://www.ecdl2004.org/
+
+--
+Dr. Thomas Baker                        Thomas.Baker@izb.fraunhofer.de
+Institutszentrum Schloss Birlinghoven         mobile +49-160-9664-2129
+Fraunhofer-Gesellschaft                          work +49-30-8109-9027
+53754 Sankt Augustin, Germany                    fax +49-2241-144-2352
+Personal email: thbaker79@alumni.amherst.edu
+=========================================================================
+Date:         Wed, 21 Apr 2004 16:26:42 +0200
+Reply-To:     Makx Dekkers <mail@MAKXDEKKERS.COM>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Makx Dekkers <mail@MAKXDEKKERS.COM>
+Subject:      Re: MMI-DC: Work Item 4 - drafts and contributions-in-kind
+              forecast
+Comments: To: Leif Andresen <mmi-dc@ofir.dk>
+In-Reply-To:  <20040404181247.F22573D9EEC@postfix2.ofir.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+              boundary="----=_NextPart_000_0052_01C427BD.7626C110"
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0052_01C427BD.7626C110
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+>
+> About contribution in kind: it up to the Project Team Work
+> Item 4 how to do
+> it.
+> But I would like one report from the group to Workshop Secretariat.
+>
+
+Leif,
+
+Please find attached the estimate for in-kind contributions for
+Work Item 4.
+
+Makx.
+
+--------------------------------------------------------------------
+Makx Dekkers                            e-mail: mail@makxdekkers.com
+
+------=_NextPart_000_0052_01C427BD.7626C110
+Content-Type: application/vnd.ms-excel;
+        name="WI4-CIKv2.xls"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+        filename="WI4-CIKv2.xls"
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAPgADAP7/CQAGAAAAAAAAAAAAAAABAAAAHgAAAAAAAAAA
+EAAA/v///wAAAAD+////AAAAAB0AAAD/////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8J
+CBAAAAYFAP4czQfJQAAABgEAAOEAAgCwBMEAAgAAAOIAAABcAHAADAAATWFreCBEZWtrZXJzICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEIAAgCwBGEBAgAAAMABAAA9AQIA
+AQCcAAIADgAZAAIAAAASAAIAAAATAAIAAACvAQIAAAC8AQIAAAA9ABIAeABpAEw7VCQ4AAAAAAAB
+AFgCQAACAAAAjQACAAAAIgACAAAADgACAAEAtwECAAAA2gACAAAAMQAcALQAAAD/f5ABAAAAAAAA
+BgFUAGEAaABvAG0AYQAxABwAtAAAAP9/kAEAAAAAAAAGAVQAYQBoAG8AbQBhADEAHAC0AAAA/3+Q
+AQAAAAAAAAYBVABhAGgAbwBtAGEAMQAcALQAAAD/f5ABAAAAAAAABgFUAGEAaABvAG0AYQAeBDMA
+BQAXAAEiAKwgIgAjACwAIwAjADAAXwApADsAXAAoACIArCAiACMALAAjACMAMABcACkAHgQ9AAYA
+HAABIgCsICIAIwAsACMAIwAwAF8AKQA7AFsAUgBlAGQAXQBcACgAIgCsICIAIwAsACMAIwAwAFwA
+KQAeBD8ABwAdAAEiAKwgIgAjACwAIwAjADAALgAwADAAXwApADsAXAAoACIArCAiACMALAAjACMA
+MAAuADAAMABcACkAHgRJAAgAIgABIgCsICIAIwAsACMAIwAwAC4AMAAwAF8AKQA7AFsAUgBlAGQA
+XQBcACgAIgCsICIAIwAsACMAIwAwAC4AMAAwAFwAKQAeBGkAKgAyAAFfACgAIgCsICIAKgAgACMA
+LAAjACMAMABfACkAOwBfACgAIgCsICIAKgAgAFwAKAAjACwAIwAjADAAXAApADsAXwAoACIArCAi
+ACoAIAAiAC0AIgBfACkAOwBfACgAQABfACkAHgQuACkAKQAAXygqICMsIyMwXyk7XygqIFwoIywj
+IzBcKTtfKCogIi0iXyk7XyhAXykeBHkALAA6AAFfACgAIgCsICIAKgAgACMALAAjACMAMAAuADAA
+MABfACkAOwBfACgAIgCsICIAKgAgAFwAKAAjACwAIwAjADAALgAwADAAXAApADsAXwAoACIArCAi
+ACoAIAAiAC0AIgA/AD8AXwApADsAXwAoAEAAXwApAB4ENgArADEAAF8oKiAjLCMjMC4wMF8pO18o
+KiBcKCMsIyMwLjAwXCk7XygqICItIj8/Xyk7XyhAXyngABQAAAAAAPX/IAAAAAAAAAAAAAAAwCDg
+ABQAAQAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAQAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAgAAAPX/
+IAAA9AAAAAAAAAAAwCDgABQAAgAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAAAPX/IAAA9AAAAAAA
+AAAAwCDgABQAAAAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAAAPX/IAAA9AAAAAAAAAAAwCDgABQA
+AAAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAAAPX/IAAA
+9AAAAAAAAAAAwCDgABQAAAAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAAAPX/IAAA9AAAAAAAAAAA
+wCDgABQAAAAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAA
+AAEAIAAAAAAAAAAAAAAAwCDgABQAAQArAPX/IAAA+AAAAAAAAAAAwCDgABQAAQApAPX/IAAA+AAA
+AAAAAAAAwCDgABQAAQAsAPX/IAAA+AAAAAAAAAAAwCDgABQAAQAqAPX/IAAA+AAAAAAAAAAAwCDg
+ABQAAQAJAPX/IAAA+AAAAAAAAAAAwCDgABQAAAABAAEAIAAABAAAAAAAAAAAwCDgABQAAAABAAEA
+IAAAJAAAAAAAAAAAwCDgABQAAAABAAEAIAAAJAAGAABAAAAAwCDgABQAAAABAAEAIAAAJGAGACBA
+AAAAwCDgABQAAAABAAEAIAAAZAAAAAAAAAAENyDgABQAAAABAAEAIAAAZABgAAAAIAAENyDgABQA
+AAABAAEAIAAAZAAAAAAAAAAEFiDgABQAAAAxAAEAKAAAFAAAAAAAAAAAwCDgABQAAAAxAAEAKAAA
+NAYGQABAAAAAwCDgABQAAAAxAAEAKAAAdAYAQAAAAAAENyDgABQAAAAxAAEAKAAANAYAQAAAAAAA
+wCDgABQAAAAxAAEAKAAAdAYAQAAAAAAEFiDgABQAAAAxAAEAKAAAdAZgQAAAIAAENyDgABQAAAAB
+AAEAIAAAZGAAACAAAAAEFyDgABQAAAABAAEAIAAAZGBgACAAIAAEFyCTAgQAEIAD/5MCBAARgAb/
+kwIEABKABP+TAgQAE4AH/5MCBAAAgAD/kwIEABSABf9gAQIAAACFAA4ASAoAAAAABgBTaGVldDGM
+AAQAAQABAMEBCADBAQAAYGkBAPwAfAIWAAAAEwAAAAYAAE1NSS1EQx8AAEVzdGltYXRlZCBjb250
+cmlidXRpb25zIGluIGtpbmQJAABXb3JrIEl0ZW0LAABEZXNjcmlwdGlvbgIAAFExAgAAUTICAABR
+MwIAAFE0AgAAcG0FAABUb3RhbAgAAEZlZWRiYWNrCAAATWVldGluZ3MGAABOb3RlczoYAABDb250
+cmlidXRpb25zIHBlciBwZXJpb2RcAABQYXJ0IG9mIHRoZSBhdHRlbmRhbmNlIGF0IHRoZSByZWd1
+bGFyIFdvcmtzaG9wIG1lZXRpbmdzIHNob3VsZCBiZSBhc3NpZ25lZCB0byB0aGlzIHdvcmsgaXRl
+bRgAAFNwZWNpYWwgbWVldGluZyBTaGFuZ2hhaZIAAEF0dGVuZGFuY2UgYXQgYSBzcGVjaWFsIG1l
+ZXRpbmcgYXQgREMtMjAwNCBpbiBTaGFuZ2hhaSB0byBnZXQgZmVlZGJhY2sgZnJvbSBhbiBpbnRl
+cm5hdGlvbmFsIGF1ZGllbmNlIGlzIGVzdGltYXRlZCBhdCAxNSBwZW9wbGUsIGNhbGN1bGF0ZWQg
+YXQgbisyGAAAQWRkaXRpb25hbCB3b3JrIHBhcnRuZXJzpwAARmVlZGJhY2sgb24gdGhlIGRyYWZ0
+cyB3aWxsIGJlIHNvdWdodCBmcm9tIHRoZSBEQ01JIEFyY2hpdGVjdHVyZSBXb3JraW5nIEdyb3Vw
+IGFuZCB0aGUgRENNSSBVc2FnZSBCb2FyZCwgYW5kIGZyb20gc3BlY2lmaWMgaW5kaXZpZHVhbHMg
+aW52b2x2ZWQgaW4gUmVnaXN0cnkgZGV2ZWxvcG1lbnT/ABoACACyBwAADAAAAAsIAABlAAAAzAgA
+ACYBAAAKAAAACQgQAAAGEAD+HM0HyUAAAAYBAAALAhQAAAAAAAEAAAAVAAAAThMAAEgYAAANAAIA
+AQAMAAIAZAAPAAIAAQARAAIAAAAQAAgA/Knx0k1iUD9fAAIAAQAqAAIAAAArAAIAAACCAAIAAQCA
+AAgAAAAAAAAAAAAlAgQAAADhAIEAAgDBBBQAAAAVAAAAgwACAAAAhAACAAAATQBGCAAAaABwACAA
+bwBmAGYAaQBjAGUAagBlAHQAIAA3ADEAMAAwACAAcwBlAHIAaQBlAHMAAAAAAAAAAAAAAAAAAAAA
+AAEEIUDcAGgHA9+ABwEACQAAAAAAZAABAAIA/f8CAAEAAAADAAAAdgBlAHIAdAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAABAAAAAwAAABEEAAABAAAAAAAAAAAAAAAAAAAAAAAAAEKDZYcAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAFIDAABMBAAAAGQAAAkAAAAAAAAAAAAAAAAAAAEAAgAA
+AAAAAQAAAAAAAAEAAAAxAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/BoAAEKDZYcBzNq6AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAADM2rpoAHAAIABvAGYAZgBpAGMAZQBqAGUAdAAgADcAMQAwADAAIABzAGUAcgBpAGUAcwAA
+ADAAMAAgAHMAZQByAGkAZQBzACwATABvAGMAYQBsAE8AbgBsAHkALABEAHIAdgBDAG8AbgB2AGUA
+cgB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AKEAIgAJAGQAAQABAAEAAgD9/wAAAAAAAAAA4D8AAAAAAADgPwEAVQACAAgAfQAMAAAAAAC2GhwA
+AgACAH0ADAABAAUAJAkVAAAAAgAAAg4AAQAAABUAAAAAAAYAAAAIAhAAAQAAAAYA4QAAAAAAAAEP
+AAgCEAACAAAABgDhAAAAAAAAAQ8ACAIQAAMAAAAGAOEAAAAAAAABDwAIAhAABAAAAAYA8AAAAAAA
+AAEPIAgCEAAFAAAABgDwAAAAAAAAAQ8QCAIQAAYAAAAGAOEAAAAAAAABDwAIAhAABwAAAAYA4QAA
+AAAAAAEPAAgCEAAIAAAABgDhAAAAAAAAAQ8ACAIQAAkAAAAGAOEAAAAAAAABDwAIAhAACgAAAAYA
+4QAAAAAAAAEPAAgCEAALAAAABgDhAAAAAAAAAQ8ACAIQAAwAAAAGAOEAAAAAAAABDwAIAhAADQAA
+AAYA4QAAAAAAAAEPAAgCEAAOAAAABgDwAAAAAAAAAQ8gCAIQAA8AAAAGAPAAAAAAAAABDxAIAhAA
+EQAAAAEA4QAAAAAAAAEPAAgCEAASAAAAAQDrBQAAAABAAQ8ACAIQABMAAAABABoEAAAAAEABDwAI
+AhAAFAAAAAEAGQUAAAAAQAEPAP0ACgABAAAAHAAAAAAA/QAKAAIAAAAcAAEAAAD9AAoAAwAAABwA
+AgAAAH4CCgADAAEAFQAAABBAvgASAAUAAAAdABcAFwAXABcAGAAFAP0ACgAGAAAAHgADAAAA/QAK
+AAYAAQAZAAQAAAD9AAoABgACABkABQAAAP0ACgAGAAMAGQAGAAAA/QAKAAYABAAZAAcAAAD9AAoA
+BgAFACIACQAAAL4AEgAHAAAAHwAWABYAFgAWACIABQD9AAoACAAAACAACwAAAP0ACgAIAAEAGwAI
+AAAA/QAKAAgAAgAbAAgAAAD9AAoACAADABsACAAAAP0ACgAIAAQAGwAIAAAAAQIGAAgABQAiAP0A
+CgAJAAAAIAAPAAAAvgAMAAkAAQAbABsAGwADAH4CCgAJAAQAGwAAgEZABgAjAAkABQAiAAAAAAAA
+gEZAAAAKAAX/DQAlCQAJAAHABMAZEAAA/QAKAAoAAAAgAAoAAAABAgYACgABABsAvQAYAAoAAgAb
+AAAAFEAbAAAAFEAbAAAAFEAEAAYAIwAKAAUAIgAAAAAAAAAuQAAADgAB/w0AJQoACgABwATAGRAA
+AP0ACgALAAAAIAARAAAAvgAKAAsAAQAbABsAAgB+AgoACwADABsAAAAUQAECBgALAAQAGwAGACMA
+CwAFACIAAAAAAAAAFEAAAAkABf4NACULAAsAAcAEwBkQAAC+ABIADAAAACAAGwAbABsAGwAiAAUA
+vgASAA0AAAAfABYAFgAWABYAIgAFAP0ACgAOAAAAIQANAAAABgAjAA4AAQAaAAAAAAAAAAAAAAAO
+AAL/DQAlBwANAAHAAcAZEAAABgAjAA4AAgAaAAAAAAAAABRAAAAOAAP/DQAlBwANAALAAsAZEAAA
+BgAjAA4AAwAaAAAAAAAAACRAAAAOAAT/DQAlBwANAAPAA8AZEAAABgAjAA4ABAAaAAAAAAAAAElA
+AAAOAAX/DQAlBwANAATABMAZEAAABgAjAA4ABQAjAAAAAAAAQFBAAAAOAAX9DQAlDgAOAAHABMAZ
+EAAA/QAKABEAAAAcAAwAAAD9AAoAEgAAABwAEgAAAP0ACgATAAAAHAAOAAAA/QAKABQAAAAcABAA
+AADXACoAwgQAAGgBDgAOABwAAAAWAFQAFgBQAFMAWwBbABYAFgDRAAAADgAOAA4APgISALYGAAAA
+AEAAAAAAAAAAAAAAAB0ADwADCwAEAAAAAQALAAsABATvAAYAAAA3AAAACgAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7/AAAFAAIAAAAAAAAA
+AAAAAAAAAAAAAAEAAADghZ/y+U9oEKuRCAArJ7PZMAAAAPQAAAAIAAAAAQAAAEgAAAACAAAAUAAA
+AAQAAACMAAAACAAAAKQAAAASAAAAvAAAAAwAAADUAAAADQAAAOAAAAATAAAA7AAAAAIAAADkBAAA
+HgAAADMAAABNTUktREMgV29yayBJdGVtIDQgZXN0aW1hdGVkIGNvbnRyaWJ1dGlvbnMgaW4ga2lu
+ZAAAHgAAAA0AAABNYWt4IERla2tlcnMAdGVtHgAAAA0AAABNYWt4IERla2tlcnMAdGVtHgAAABAA
+AABNaWNyb3NvZnQgRXhjZWwAQAAAAIDL6VvoGsQBQAAAAABQQOt0IcQBAwAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/wAABQACAAAAAAAAAAAAAAAAAAAA
+AAABAAAAAtXN1ZwuGxCTlwgAKyz5rjAAAADEAAAACQAAAAEAAABQAAAADwAAAFgAAAAXAAAAZAAA
+AAsAAABsAAAAEAAAAHQAAAATAAAAfAAAABYAAACEAAAADQAAAIwAAAAMAAAAnwAAAAIAAADkBAAA
+HgAAAAEAAAAAADEAAwAAAO0OCQALAAAAAAAAAAsAAAAAAAAACwAAAAAAAAALAAAAAAAAAB4QAAAB
+AAAABwAAAFNoZWV0MQAMEAAAAgAAAB4AAAALAAAAV29ya3NoZWV0cwADAAAAAQAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgA
+AAAJAAAACgAAAAsAAAAMAAAA/v///w4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAD+////FgAA
+ABcAAAAYAAAAGQAAABoAAAAbAAAAHAAAAP7////9/////v//////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////9SAG8AbwB0ACAARQBuAHQAcgB5AAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFgAFAf//////////AgAAACAIAgAAAAAA
+wAAAAAAAAEYAAAAAAAAAAAAAAACgZJGYrCfEAf7///8AAAAAAAAAAFcAbwByAGsAYgBvAG8AawAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAIB////////
+////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK0YAAAAAAAABQBT
+AHUAbQBtAGEAcgB5AEkAbgBmAG8AcgBtAGEAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAACgAAgEBAAAAAwAAAP////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN
+AAAAABAAAAAAAAAFAEQAbwBjAHUAbQBlAG4AdABTAHUAbQBtAGEAcgB5AEkAbgBmAG8AcgBtAGEA
+dABpAG8AbgAAAAAAAAAAAAAAOAACAf///////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAABUAAAAAEAAAAAAAAA==
+
+------=_NextPart_000_0052_01C427BD.7626C110--
+=========================================================================
+Date:         Wed, 21 Apr 2004 17:09:36 +0200
+Reply-To:     Thomas Baker <thomas.baker@BI.FHG.DE>
+Sender:       MMI DC Work Item 4 <MMI-DC-WI4@JISCMAIL.AC.UK>
+From:         Thomas Baker <thomas.baker@BI.FHG.DE>
+Subject:      New agenda item...?
+Comments: To: Leif Andresen <lea@bs.dk>,
+          Luc Van den Berghe <luc.vandenberghe@cenorm.be>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+Hi Leif,
+
+If it isn't too late to add to the agenda a small "matter
+arising", I would like to briefly discuss the process by
+which the CEN workshop can handle a forthcoming request for
+changes to CWA 14855 from DCMI.  What is the CEN workshop
+process by which the changes could be incorporated, approved,
+and published in the official version?
+
+In this case, the Usage Board will request a clarification of
+one technical point and a slightly different rhetorical "spin"
+on another point.  How should DCMI submit such a request?
+
+Since I was the editor of CWA 14855, I assume I then could go
+ahead and propose the changes in the CEN context.  Would I
+then submit it to the full MMI-DC workshop for approval?
+Could we do this by email or would we need to wait until the
+next face-to-face meeting?
+
+I would like to discuss this in Brussels strictly from a
+process point of view as I will not have time to prepare or
+present the actual changes.
+
+Many thanks,
+Tom
+
+--
+Dr. Thomas Baker                        Thomas.Baker@izb.fraunhofer.de
+Institutszentrum Schloss Birlinghoven         mobile +49-160-9664-2129
+Fraunhofer-Gesellschaft                          work +49-30-8109-9027
+53754 Sankt Augustin, Germany                    fax +49-2241-144-2352
+Personal email: thbaker79@alumni.amherst.edu

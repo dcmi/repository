@@ -1,0 +1,20 @@
+
+    <!--#include virtual="tool-head.shtml" -->
+    <!--#include virtual="/ssi/header.shtml" -->
+    <h1>IllumiNet Corpus</h1>
+    <table cellspacing="0" class="noborder">
+<tr><td>Identifier:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.illuminet.se/software/corpus/index.xml">http://www.illuminet.se/software/corpus/index.xml</a></td></tr>
+<tr><td>Description:&nbsp;&nbsp;&nbsp;</td><td>The Corpus Server finds and uses information structures, -semantics and -properties.  Presentation is done in XML, RDF and the many schemas that build The Semantic Web. This server lets you phrase queries or just view the network and its information as a large structured resource.</td></tr>
+<tr><td>Rights:&nbsp;&nbsp;&nbsp;</td><td>commercial tool for download and local installation, rights hold by IllumiNet AB</td></tr>
+<tr><td>Language:&nbsp;&nbsp;&nbsp;</td><td>eng, swe (ISO 639-2)</td></tr>
+<tr><td>Creator:&nbsp;&nbsp;&nbsp;</td><td>IllumiNet AB</td></tr>
+<tr><td>Publisher:&nbsp;&nbsp;&nbsp;</td><td>IllumiNet AB</td></tr>
+<tr><td>Location:&nbsp;&nbsp;&nbsp;</td><td>Sweden</td></tr>
+<tr><td>Programming Language:&nbsp;&nbsp;&nbsp;</td><td>Java</td></tr>
+<tr><td>Operating System:&nbsp;&nbsp;&nbsp;</td><td>Unix, Windows NT</td></tr>
+</table>
+    <p><small>For an application profile see the <a href="/groups/tools/map.shtml">DCMI Tools
+    Application Profile</a></small>
+    <!--#include virtual="/ssi/footer.shtml" -->
+    </body>
+    </html>

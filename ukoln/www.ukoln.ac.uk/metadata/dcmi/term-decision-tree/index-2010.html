@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org">
+<title>DCMI-compliant 'term' decision tree</title>
+</head>
+<body>
+<h1 align="center">DCMI-compliant 'term' decision tree</h1>
+
+<p align="center">Andy Powell<br>
+UKOLN, University of Bath<br>
+July 2005</p>
+
+<p>This decision tree can be used to see if something is a
+DCMI-compliant <i>element</i>, <i>element refinement</i> or <i>
+encoding scheme</i>, where "DCMI-compliant" means conformant with
+the <a href="http://dublincore.org/documents/abstract-model/">DCMI
+Abstract Model</a> and therefore suitable for use in DC metadata
+descriptions.</p>
+
+<p>Note that in the following text, the italicised terms are
+defined in the terminology section below.</p>
+
+<h2>Decision tree</h2>
+
+<ol>
+<li><b>Has the thing been explicitly declared as a DCMI <i>
+element</i> (i.e. as a <i>property</i>)?</b><br />
+The declaration may
+take the form of a human-readable statement, e.g. 
+
+<pre>
+X is an 'element' as defined in the DCMI Abstract Model
+</pre>
+
+or as a machine-readable RDFS declaration 
+
+<pre>
+&lt;rdf:Property rdf:about="http://example.org/term/X"&gt;
+  ...
+&lt;/rdf:Property&gt;
+</pre>
+
+<!--
+  &lt;dc:type rdf:resource="http://dublincore.org/usage/documents/principles/#element"/&gt;
+ -->
+<ul>
+<li>If 'yes', go to question 2.</li>
+
+<li>Otherwise, go to question 3.</li>
+</ul>
+</li>
+
+<li><b>Are the expected values of the <i>element</i> resources that
+have been assigned 'value URIs' or that can be represented using
+simple 'value strings' (plain text strings)?</b> 
+
+<ul>
+<li>If 'yes', go to question 9.</li>
+
+<li>Otherwise, go to question 3.</li>
+</ul>
+</li>
+
+<li><b>Has the thing been explicitly declared as a DCMI <i>element
+refinement</i> (i.e. as a <i>property</i>)?</b><br />
+The declaration may
+take the form of a human-readable statement, e.g. 
+
+<pre>
+X is an 'element refinement' as defined in the DCMI Abstract Model
+</pre>
+
+or as a machine-readable RDFS declaration 
+
+<pre>
+&lt;rdf:Property rdf:about="http://example.org/term/X"&gt;
+  ...
+&lt;/rdf:Property&gt;
+</pre>
+
+<!--
+  &lt;dc:type rdf:resource="http://dublincore.org/usage/documents/principles/#element-refinement"/&gt;
+&lt;/rdf:Property&gt;
+ -->
+<ul>
+<li>If 'yes', go to question 4.</li>
+
+<li>Otherwise, go to question 5.</li>
+</ul>
+</li>
+
+<li><b>Are the expected values of the <i>element refinement</i>
+resources that have been assigned 'value URIs' or that can be
+represented using simple 'value strings' (plain text strings)?</b> 
+
+<ul>
+<li>If 'yes', go to question 9.</li>
+
+<li>Otherwise, go to question 5.</li>
+</ul>
+</li>
+
+<li><b>Has the thing been explicitly declared as a DCMI <i>syntax
+encoding scheme</i>?</b><br />
+The declaration may take the form of a
+human-readable statement, e.g. 
+
+<pre>
+X is a 'syntax encoding scheme' as defined in the DCMI Abstract Model
+</pre>
+
+or as a machine-readable RDFS declaration 
+
+<pre>
+&lt;rdf:Description rdf:about="http://example.org/term/X"&gt;
+  &lt;dc:type rdf:resource="http://dublincore.org/usage/documents/principles/#syntax-encoding-scheme"/&gt;
+  ...
+&lt;/rdf:Description&gt;
+</pre>
+
+<ul>
+<li>If 'yes', go to question 6.</li>
+
+<li>Otherwise, go to question 7.</li>
+</ul>
+</li>
+
+<li><b>Are all the valid values according to the <i>syntax encoding
+scheme</i> simple 'value strings' (plain text strings)?</b> 
+
+<ul>
+<li>If 'yes', go to question 9.</li>
+
+<li>Otherwise, go to question 7.</li>
+</ul>
+</li>
+
+<li><b>Has the thing been explicitly declared as a DCMI <i>
+vocabulary encoding scheme</i>?</b><br />
+The declaration may take the
+form of a human-readable statement, e.g. 
+
+<pre>
+X is a 'vocabulary encoding scheme' as defined in the DCMI Abstract Model
+</pre>
+
+or as a machine-readable RDFS declaration 
+
+<pre>
+&lt;rdfs:Class rdf:about="http://example.org/term/X"&gt;
+   ...
+&lt;/rdfs:Class&gt;
+</pre>
+
+<!--
+&lt;dc:type rdf:resource="http://dublincore.org/usage/documents/principles/#vocabulary-encoding-scheme"/&gt;
+ -->
+<ul>
+<li>If 'yes', go to question 9.</li>
+
+<li>Otherwise, the thing is not a valid DCMI <i>element</i>, <i>
+element refinement</i> or <i>encoding scheme</i>.</li>
+</ul>
+</li>
+
+<li><b>Are all the valid members of the <i>vocabulary encoding
+scheme</i> resources that have been assigned 'value URIs' or that
+can be represented using simple 'value strings' (plain text
+strings)?</b> 
+
+<ul>
+<li>If 'yes', go to question 9.</li>
+
+<li>Otherwise, the thing is not a valid DCMI <i>element</i>, <i>
+element refinement</i> or <i>encoding scheme</i>.</li>
+</ul>
+</li>
+
+<li><b>Has the thing been assigned a URI (a <i>property URI</i> or
+an <i>encoding scheme URI</i>)?</b><br />
+For example: <tt>http://example.org/term/X</tt>
+
+<ul>
+<li>If 'yes', the thing is a valid DCMI <i>element</i>, <i>element
+refinement</i> or <i>encoding scheme</i>.</li>
+
+<li>Otherwise, the thing is not a valid DCMI <i>element</i>, <i>
+element refinement</i> or <i>encoding scheme</i>.</li>
+</ul>
+</li>
+</ol>
+
+<h2>Note</h2>
+
+<p>The exact details of the RDF declarations about are not fully
+agreed. The examples used here are based on the current DCMI RDF
+declarations, with a little modification. The author suggests that
+the 'term type' URIs used here (e.g.
+http://dublincore.org/usage/documents/principles/#vocabulary-encoding-scheme)
+need to be changed.</p>
+
+<h2>Terminology</h2>
+
+<dl>
+<dt><i>class</i></dt>
+
+<dd>A group containing members that have attributes, behaviours,
+relationships or semantics in common; a kind of category.</dd>
+
+<dt><i>class URI</i></dt>
+
+<dd>A URI that identifies a class.</dd>
+
+<dt><i>element</i></dt>
+
+<dd>A property of a resource.</dd>
+
+<dt><i>element refinement</i></dt>
+
+<dd>A property of a resource that shares the meaning of a
+particular DCMI property but with narrower semantics. Since element
+refinements are properties, they can be used in metadata
+descriptions independently of the properties they refine. In DCMI
+practice, an element refinement refines just one parent DCMI
+property.</dd>
+
+<dt><i>encoding scheme</i></dt>
+
+<dd>A vocabulary encoding scheme or a syntax encoding scheme.</dd>
+
+<dt><i>encoding scheme URI</i></dt>
+
+<dd>A vocabulary encoding scheme URI or a syntax encoding scheme
+URI.</dd>
+
+<dt><i>property</i></dt>
+
+<dd>A specific aspect, characteristic, attribute, or relation used
+to describe resources.</dd>
+
+<dt><i>property URI</i></dt>
+
+<dd>A URI that identifies a single property.</dd>
+
+<dt><i>syntax encoding scheme</i></dt>
+
+<dd>A syntax encoding scheme indicates that the value string is
+formatted in accordance with a formal notation, such as
+"2000-01-01" as the standard expression of a date.</dd>
+
+<dt><i>syntax encoding scheme URI</i></dt>
+
+<dd>A URI that identifies a syntax encoding scheme. For all DCMI
+recommended encoding schemes, the URI is constructed by
+concatenating the name of the encoding scheme with the
+http://purl.org/dc/terms/ namespace URI.</dd>
+
+<dt><i>term</i></dt>
+
+<dd>A property (i.e. element or element refinement), vocabulary
+encoding scheme, syntax encoding scheme or concept taken from a
+controlled vocabulary (concept space).</dd>
+
+<dt><i>term URI</i></dt>
+
+<dd>A URI that identifies a term.</dd>
+
+<dt><i>vocabulary encoding scheme</i></dt>
+
+<dd>A class that indicates that the value of a property is taken
+from a controlled vocabulary (or concept-space), such as the
+Library of Congress Subject Headings.</dd>
+
+<dt><i>vocabulary encoding scheme URI</i></dt>
+
+<dd>A URI that identifies a vocabulary encoding scheme. For all
+DCMI recommended encoding schemes, the URI is constructed by
+concatenating the name of the encoding scheme with the
+http://purl.org/dc/terms/ namespace URI.</dd>
+</dl>
+
+<hr>
+<small>Page maintained by: Andy Powell<br>
+Last updated:  
+21-Jul-2005</small>
+</body>
+</html>
+

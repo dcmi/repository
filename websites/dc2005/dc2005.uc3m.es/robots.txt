@@ -1,0 +1,5 @@
+# Para el dominio: http://dc2005.uc3m.es
+
+# All robots will spider the domain
+User-agent: *
+

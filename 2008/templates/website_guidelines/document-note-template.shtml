@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Document - NOTE Template</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="index.shtml.rdf" />
+  </head>
+
+  <body>
+    <!--#include virtual="/ssi/header.shtml"-->
+
+    <table
+    summary="A layout table with descriptive information about this document."
+     border="0" width="100%" cellspacing="0" cellpadding="2">
+      <tr>
+        <td align="right" valign="top" width="23%" height="30">
+          <div align="left">
+            <strong>Title:</strong>
+          </div>
+        </td>
+
+        <td align="right" valign="top" width="77%" height="30">
+          <div align="left">
+            <h3><font color="#FF000">Title</font></h3>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top" width="23%">
+          <div align="left">
+            <strong>Creator:</strong>
+          </div>
+        </td>
+
+        <td align="right" valign="top" width="77%">
+          <div align="left">
+            <font color="#FF000">First name Last Name, email
+            address</font>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top" width="23%">
+          <div align="left">
+            <strong>Date Issued:</strong>
+          </div>
+        </td>
+
+        <td align="right" valign="top" width="77%">
+          <div align="left">
+            <font color="#FF000">YYYY-MM-DD</font>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top" width="23%" height="22">
+          <div align="left">
+            <strong>Identifier:</strong>
+          </div>
+        </td>
+
+        <td align="right" valign="top" width="77%" height="22">
+          <div align="left">
+            <font color="#FF000">Full URL of the document - linked
+            w/ site relative URL</font>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top" width="23%">
+          <div align="left">
+            <strong>Replaces:</strong>
+          </div>
+        </td>
+
+        <td align="right" valign="top" width="77%">
+          <div align="left">
+            <font color="#FF000">Full URL of the document - linked
+            w/ site relative URL</font> <font color="#FF000">- if
+            Applicable</font>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top" width="23%">
+          <div align="left">
+            <strong>Is Replaced By:</strong>
+          </div>
+        </td>
+
+        <td align="right" valign="top" width="77%">
+          <div align="left">
+            <font color="#FF000">Full URL of the document - linked
+            w/ site relative URL</font> <font color="#FF000">- if
+            Applicable</font>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="right" valign="top" width="23%">
+          <div align="left">
+            <strong>Latest version:</strong>
+          </div>
+        </td>
+
+        <td align="right" valign="top" width="77%">
+          <div align="left">
+            <font color="#FF000">Soft-link URL</font>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td width="23%" valign="top">
+        </td>
+
+        <td width="77%" valign="top">
+        </td>
+      </tr>
+
+      <tr>
+        <td width="23%" valign="top">
+          <div align="left">
+            <strong>Status of document:</strong>
+          </div>
+        </td>
+
+        <td width="77%" valign="top">
+          <div align="left">
+            This is a DCMI <a href="/documents/#notes">Note</a>.
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td valign="top" width="23%" height="82">
+        <strong>Description of document:</strong></td>
+
+        <td valign="top" width="77%" height="82">
+          <p><font color="#FF000">Abstract.</font></p>
+        </td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="2">
+          <hr />
+        </td>
+      </tr>
+    </table>
+
+    <p><font color="#FF000">TEXT</font></p>
+    <!--#include virtual="/ssi/footer.shtml"-->
+  </body>
+</html>
+

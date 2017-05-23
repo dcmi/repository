@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<HTML>
+<HEAD>
+
+<TITLE>Dublin Core Metadata Element Set: Reference Description</TITLE>
+
+<META name = "DC.subject"   content = " Dublin Core Element Set">
+<META name = "DC.subject"   content = "Reference Definition of Dublin Core Elements">
+<META name = "DC.publisher" content = "OCLC Online Computer Library Center, Inc.">
+<META name = "DC.title"     content = "Dublin Core Element Set">
+<META name = "DC.date" type = "creation" scheme = "ISO" content = "1996-06-02">
+<META name = "DC.form"       scheme = "IMT" content="text/html">
+<META name = "DC.language"   scheme = "ISO 639" content="en">
+<META name = "DC.identifier" scheme = "URL" content = "http://">
+</HEAD>
+<BODY bgcolor = "#FFFFFF">
+<H2 align = "center">Dublin Core Metadata Element Set: <BR>Reference Description
+</h2>
+<center>
+ This document last modified:
+<EM>January 15, 1997 </EM>
+</center>
+<hr size = 1>
+<P>
+See  the Dublin Core <A HREF="http://purl.org/metadata/dublin_core">
+home page </A> for further information about the workshops, reports,
+working group papers, projects, and new developments concerning the
+Dublin Core metadata element set. </P>
+
+<P>
+This document is the reference description of the Dublin Core Metadata
+Element Set, as elaborated in Dublin Core Metadata Workshops and related working
+groups (See the <A HREF="http://purl.org/metadata/dublin_core">
+home page </A> for further details).</p>
+
+<P>
+The current list of elements and their general definitions were finalized
+in December, 1996.  The elements and their names
+are not expected to change substantively from this list, though the
+application of some of them are currently experimental and subject to
+interpretation.  Further, it is expected that practice will evolve to
+include sub-elements qualifiers for certain of the elements.  Such changes
+will be reflected here as they evolve.</p>
+
+<P>
+Note that elements have a descriptive name intended to convey a common
+semantic understanding of the element.  In addition, a formal,
+single-word label is specified to make syntactic specification of
+elements simpler in encoding schemes.</p>
+<P>
+Questions or comments regarding the Dublin Core Element Set may be addressed
+to <A HREF = "http://purl.oclc.org/net/weibel">Stuart Weibel</A>
+at <a href = "mailto:weibel@oclc.org">weibel@oclc.org</a> or 
+<a href = "http://purl.oclc.org/net/eric">Eric Miller</A> at
+<a href = "mailto:emiller@oclc.org">emiller@oclc.org</a>
+
+<hr size = 1>
+
+ 
+<H2>Element Descriptions</H2>
+
+<OL>
+<LI><A NAME = "title"><H3>Title</H3></A> Label: TITLE <BR>
+    <P>
+
+    The name given to the resource by the CREATOR or PUBLISHER. </P>
+
+<LI><A NAME = "creator"><H3>Author or Creator</H3> Label: CREATOR <BR>
+     <P>
+     The person(s) or organization(s) primarily responsible for the
+     intellectual content of the resource.  For example, authors in the
+     case of written documents, artists, photographers, or illustrators
+     in the case of visual resources.</P>
+
+<LI><A NAME = "subject"><H3>Subject and Keywords</H3></A> Label: SUBJECT <BR>
+     <P>
+     The topic of the resource, or keywords or phrases that describe
+     the subject or content of the resource.  The intent of the
+     specification of this element is to promote the use of controlled
+     vocabularies and keywords.  This element might well include
+     scheme-qualified classification data (for example, Library of
+     Congress Classification Numbers or Dewey Decimal numbers) or
+     scheme-qualified controlled vocabularies (such as MEdical Subject
+     Headings or Art and Architecture Thesaurus descriptors) as well.</P>
+    
+<LI><A NAME = "description"><H3>Description</H3></A> Label: DESCRIPTION <BR>
+    <P>
+     A textual description of the content of the resource, including
+     abstracts in the case of document-like objects or content
+     descriptions in the case of visual resources.  Future metadata
+     collections might well include computational content description
+     (spectral analysis of a visual resource, for example) that may not
+     be embeddable in current network systems.  In such a case this
+     field might contain a link to such a description rather than the
+     description itself.</P>
+    
+<LI><A NAME = "publisher"> <H3>Publisher</H3></A> Label: PUBLISHER <BR>
+    <P>
+     The entity responsible for making the resource available in its
+     present form, such as a publisher, a university department, or a
+     corporate entity.   The intent of specifying this field is to
+     identify the entity that provides access to the resource. </P>
+     
+<LI><A NAME = "contributors"> <H3>Other Contributors</H3></A> Label: CONTRIBUTORS <BR>
+     <P>
+     Person(s) or organization(s) in addition to those specified in the
+     CREATOR element who have made significant intellectual
+     contributions to the resource but whose contribution is secondary
+     to the individuals or entities specifed in the CREATOR element
+     (for example, editors, transcribers, illustrators, and
+     convenors).</P>
+
+
+
+<LI><A NAME = "date"> <H3>Date</H3> </A> 	Label: DATE <BR>
+     <P>
+     The date the resource was made available in its present form.  The
+     recommended best practice is an 8 digit number in the form
+     YYYYMMDD as defined by ANSI X3.30-1985. In this scheme, the date
+     element for the day this is written would be 19961203, or December
+     3, 1996.  Many other schema are possible, but if used, they should
+     be identified in an unambiguous manner.</P>
+   
+<LI><A NAME = "type"><H3>Resource Type</H3> </A> Label: TYPE <BR>
+     <P>
+     The category of the resource, such as home page, novel, poem, working
+     paper, preprint, technical report, essay, dictionary.  It is expected that
+     RESOURCE TYPE will be chosen from an enumerated list of types. A
+     preliminary set of such types can be found at the following URL:<BR>
+     
+     http://www.roads.lut.ac.uk/Metadata/DC-ObjectTypes.html</P>
+
+<LI><A NAME = "format"><H3>Format</H3> </A> Label: FORMAT <BR>
+     <P>
+     The data representation of the resource, such as text/html, ASCII,
+     Postscript file,  executable application, or JPEG image.  The
+     intent of specifying this element is to provide information
+     necessary to allow people or machines to make decisions about the
+     usability of the encoded data (what hardware and software might be
+     required to display or execute it, for example).  As with RESOURCE TYPE,
+     FORMAT will be assigned from enumerated lists such as registered
+     Internet Media Types (MIME types).  In principal, formats can include
+     physical media such as books, serials, or other non-electronic media.  </p>
+ 
+<LI><A NAME = "identifier"><H3>Resource Identifier</H3> </A> Label: IDENTIFIER <BR>
+     <P>
+     String or number used to uniquely identify the resource.  Examples
+     for networked resources include URLs and URNs (when implemented). Other
+     globally-unique identifiers,such as International Standard
+     Book Numbers (ISBN) or other formal names would also be candidates for 
+     this element.</P>
+
+<LI><A NAME = "source"><H3>Source</H3> </A>	Label: SOURCE <BR>
+     <P>
+     The work, either print or electronic, from which this resource is
+     derived, if applicable. For example, an html encoding of a
+     Shakespearean sonnet might identify the paper version of the
+     sonnet from which the electronic version was transcribed.</p>
+
+<LI><A NAME = "language"><H3>Language</H3> </A>	Label: LANGUAGE <BR>
+     <P>
+     Language(s) of the intellectual content of the resource.  Where practical,
+     the content of this field should coincide with the Z39.53 three character
+     codes for written languages. </P>
+     <P>
+     See: http://www.sil.org/sgml/nisoLang3-1994.html </P>
+
+<LI><A NAME = "relation"><H3>Relation</H3> 	Label: RELATION <BR>
+     <P>
+     Relationship to other resources.  The intent of specifying this
+     element is to provide a means to express relationships among
+     resources that have formal relationships to others, but exist as
+     discrete resources themselves.  For example, images in a
+     document,  chapters in a book, or items in a collection.  A formal
+     specification of RELATION is currently under development.  Users
+     and developers should understand that use of this element should
+     be currently considered experimental.</p>
+
+<LI><A NAME = "coverage"> <H3>Coverage</H3> </A> Label: COVERAGE <BR>
+     <P>
+     The spatial locations and temporal durations characteristic of the
+     resource.    Formal specification of COVERAGE is currently under
+     development. Users and developers should understand that use of
+     this element should be currently considered experimental.</P>
+      
+<LI><A NAME = "rights"> <H3>Rights Management</H3> </A> Label: RIGHTS
+     <P>
+     The content of this element is intended to be a link (a URL or
+     other suitable URI as appropriate) to a copyright notice, a
+     rights-management statement, or perhaps a server that would
+     provide such information in a dynamic way.  The intent of
+     specifying this field is to allow providers a means to associate
+     terms and conditions or copyright statements with a resource or
+     collection of resources.   No assumptions should be made by users
+     if such a field is empty or not present.</P>
+
+</OL><P>
+     
+</body>
+</html>
+
+   
+

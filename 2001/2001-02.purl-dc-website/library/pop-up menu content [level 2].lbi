@@ -1,0 +1,22 @@
+<FONT SIZE="2">
+<FORM NAME="menu">
+<SELECT NAME="CHOICES" onChange="gotosite(this.options[this.selectedIndex].value)">
+<OPTION selected>Dublin Core topics:</OPTION>
+<OPTION VALUE="../../index.htm">Home</OPTION>
+<OPTION VALUE="../../search/index.htm">Search</OPTION>
+<OPTION VALUE="../../sitemap/index.htm">Site Map</OPTION>
+<OPTION VALUE="../../news/index.htm">What's New</OPTION>
+<OPTION VALUE="../../feedback/index.htm">Feedback</OPTION>
+<OPTION VALUE="../../about/element_set.htm">Dublin Core Element Set</OPTION>
+<OPTION VALUE="../../about/index.htm">About the Dublin Core</OPTION>
+<OPTION VALUE="../../news/index.htm">News and Publications</OPTION>
+<OPTION VALUE="../../documents/index.htm">Documents</OPTION>
+<OPTION VALUE="../../education/index.htm">Education</OPTION>
+<OPTION VALUE="../../projects/index.htm">Projects</OPTION>
+<OPTION VALUE="../../schemas/index.htm">Schemas</OPTION>
+<OPTION VALUE="../../tools/index.htm">Tools</OPTION>
+<OPTION VALUE="../../groups/index.htm">Working Groups</OPTION>
+<OPTION VALUE="../../about/workshop.htm">Workshops</OPTION>
+</SELECT>
+</FORM>
+</FONT>

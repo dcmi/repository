@@ -1,0 +1,19 @@
+
+    <!--#include virtual="tool-head.shtml" -->
+    <!--#include virtual="/ssi/header.shtml" -->
+    <h1>ANVL</h1>
+    <table cellspacing="0" class="noborder">
+<tr><td>Identifier:&nbsp;&nbsp;&nbsp;</td><td><a href="http://search.cpan.org/~jak/File-ANVL/anvl">http://search.cpan.org/~jak/File-ANVL/anvl</a></td></tr>
+<tr><td>Description:&nbsp;&nbsp;&nbsp;</td><td>The anvl utility converts ANVL records to a variety of formats, including XML, Turtle, JSON, ANVL (long form), and Plain. An ANVL (A Name Value Language) record is a text-based sequence of elements ending in a blank line, where each element consists of a label, colon, and value and long values may be continued on subsequent indented lines. This utility reads one or more file arguments (or the standard input if none) and writes on the standard output. The current version assumes input to be a stream of ANVL records. More information is given in the OPTIONS section.</td></tr>
+<tr><td>Rights:&nbsp;&nbsp;&nbsp;</td><td>open source BSD license</td></tr>
+<tr><td>Language:&nbsp;&nbsp;&nbsp;</td><td>eng (ISO 639-2)</td></tr>
+<tr><td>Creator:&nbsp;&nbsp;&nbsp;</td><td>John Kunze (jak at ucop dot edu)</td></tr>
+<tr><td>Publisher:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.universityofcalifornia.edu/regents/">UC Regents</a></td></tr>
+<tr><td>Location:&nbsp;&nbsp;&nbsp;</td><td>USA</td></tr>
+<tr><td>Date:&nbsp;&nbsp;&nbsp;</td><td>2010</td></tr>
+</table>
+    <p><small>For an application profile see the <a href="/groups/tools/map.shtml">DCMI Tools
+    Application Profile</a></small>
+    <!--#include virtual="/ssi/footer.shtml" -->
+    </body>
+    </html>

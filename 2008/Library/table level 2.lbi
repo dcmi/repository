@@ -1,0 +1,38 @@
+<table summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content." border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr valign="top">
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td bgcolor="#EEEEEE" width="150">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" summary="Layout table: Contains graphical text.">
+<tbody>
+<tr bgcolor="#99A59F" align="center">
+<td><img src="/images/navlist/overview.gif" width="150" height="25" alt="Overview" border="0" /></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellspacing="0" cellpadding="10" border="0" summary="Layout table: Contains navigation.">
+<tbody>
+<tr>
+<td class="smallsans">
+<dl>
+<dt class="navlist">placebo</dt>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="10" summary="Content table">
+<tbody>
+<tr>
+<td>content
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>

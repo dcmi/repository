@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<languages>
+	<ui>
+		<!--
+		<lang RFC3066="ar-SA">&#x0627;&#x0644;&#x0639;&#x0631;&#x0628;&#x064a;&#x0629; &#x0627;&#x0644;&#x0646;&#x0633;&#x062e;&#x0629;/&#x0639;&#x0631;&#x0628;&#x064a;</lang>
+		<lang RFC3066="ca-ES">Catalan</lang>
+		<lang RFC3066="cs-CZ">&#x010c;esky</lang>
+		<lang RFC3066="cy-GB">Cymraeg</lang>
+		<lang RFC3066="da-DK">Dansk</lang>
+		-->
+		<lang RFC3066="de-DE">Deutsch</lang>
+		<!--
+		<lang RFC3066="el-GR">&#x0395;&#x03bb;&#x03bb;&#x03b7;&#x03bd;&#x03b9;&#x03ba;&#x03ac;</lang>
+		-->
+		<lang RFC3066="en-US">English</lang>
+		<lang RFC3066="es-ES">Espa&#x00f1;ol</lang>
+		<!--
+		<lang RFC3066="fi-FI">Suomeksi</lang>
+		<lang RFC3066="fr-FR">Fran&#x00e7;ais</lang>
+		<lang RFC3066="it-IT">Italiano</lang>
+		<lang RFC3066="ja-JP">&#x65e5;&#x672c;&#x8a9e;</lang>
+		<lang RFC3066="ko-KR">&#xd55c;&#xad6d;&#xc5b4;</lang>
+		<lang RFC3066="mi-NZ">Te Reo M&#x0101;ori</lang>
+		<lang RFC3066="mr-IN">&#x092e;&#x0930;&#x093e;&#x0920;&#x0940;</lang>
+		<lang RFC3066="no-NO">Norsk</lang>
+		<lang RFC3066="pl-PL">Polski</lang>
+		<lang RFC3066="pt-PT">Portugu&#x00ea;s</lang>
+		<lang RFC3066="ru-RU">&#x0420;&#x0443;&#x0441;&#x0441;&#x043a;&#x0438;&#x0439;</lang>
+		<lang RFC3066="sv-SE">Svenska</lang>
+		<lang RFC3066="th-TH">&#x0e44;&#x0e17;&#x0e22;</lang>
+		<lang RFC3066="uk-UA">&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;</lang>
+		-->
+		<lang RFC3066="zh-CN">&#x7b80;&#x4f53;&#x4e2d;&#x6587;</lang>
+		<!--
+		<lang RFC3066="zh-TW">&#x7e41;&#x9ad4;&#x4e2d;&#x6587;</lang>
+		-->
+	</ui>
+</languages>

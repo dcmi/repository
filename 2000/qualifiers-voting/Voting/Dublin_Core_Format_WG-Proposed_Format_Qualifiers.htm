@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0069)http://www.mailbase.ac.uk/lists/dc-subdesc/files/dcsubdesc-final.html -->
+<HTML><HEAD><TITLE>Dublin Core Format WG - Proposed Format Qualifiers</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY aLink=#ffffff bgColor=#ffffe7 link=#990000 text=#000000 vLink=#000066></A>
+<H2>Dublin Core Metadata Initiative</H2><BR>
+<H2>DC Subdesc Working Group</H2>
+<H3>Proposed Subject, Description and Language Qualifiers </H3>
+<H4>Date: 1999-12-20</H4>
+<H4>Status: Working Group proposal</H4>
+<HR>
+This report proposes a set of core qualifiers for the DC Subject, Description 
+and Language element. 
+<P><B>Note</B>: The appearance of a qualifier in this list should <B>not</B> be 
+taken as an endorsement of its use by the Dublin Core Metadata Initiative at 
+this time. 
+<HR width="100%">
+
+<H2>QUALIFIER PROPOSAL : Subject : Classification : 1999-12-14</H2>
+<UL>
+  <LI><I>working group defining the qualifier</I> <BR>DC-Subdesc 
+  <LI><I>which DC element is being qualified?</I> <BR><B>Subject</B> 
+  <LI><I>proposed name of the qualifier</I> <BR><B>Classification</B> 
+  <LI><I>definition of the qualifier</I> <BR>Subject identified by notation 
+  (code) taken from a controlled classification scheme<BR>Comment: The name of 
+  the controlled classification scheme from which the classification is derived 
+  should always be identified as a value qualifier. 
+  <LI><I>does the qualifier refine the semantics of the element (y/n)</I> 
+  <BR>yes 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by the DCMI? (y/n) </I><BR>no 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by another organization? (y/n). If yes, please supply a URL 
+  pointing to further information about the vocabulary (if available). 
+  </I><BR>no 
+  <LI><I>is the qualifier a formal encoding format (y/n). If yes, please supply 
+  a URL pointing to further information about the format (if available).</I> 
+  <BR>no 
+  <LI><I>justification/explanation (optional but recommended)</I> 
+  <P>Existing resource discovery implementations treat classification notation 
+  (codes) differently to 'words' describing subject. Typically notation is used 
+  to create a browsing structure whereas words are not, notation is not 
+  displayed in retrieved lists whereas 'subject words' are displayed. </P>
+  <P>It is important for software to precisely recognise notations as different 
+  from 'subject words'. Looking for numeric strings cannot be relied on as 
+  notations may be alphanumeric so it is useful to identify them by means of a 
+  qualifier. </P>
+  <P>It is unrealistic to expect software to identify notations as such by means 
+  of the value qualifier for subject, as there is a potentially huge list of 
+  value qualifiers which cover subject headings, and thesauri as well as 
+  classification notations. </P>Examples include: <BR>DC.Subject.Classification 
+  = 301.12 <BR>DC.Subject.Classification = SfB Uhj <BR>DC.Subject.Classification 
+  = 301:624(England)<BR>
+  <LI><I>identify potential overlap/conflicts with other qualifiers if 
+  applicable (optional)</I> <BR>none</LI></UL>
+<H2>QUALIFIER PROPOSAL : Subject : LCSH : 1999-12-14</H2><BR>**These are some 
+examples of value qualifiers for Subject, this is not intended as a restrict<IVE 
+<br list**> 
+<UL>
+  <LI><I>working group defining the qualifier</I> <BR>DC-Subdesc 
+  <LI><I>which DC element is being qualified?</I> <BR><B>Subject</B> 
+  <LI><I>proposed name of the qualifier</I> 
+  <LI><I>definition of the qualifier</I> <BR>Library of Congress Subject 
+  Headings<BR>
+  <LI><I>does the qualifier refine the semantics of the element (y/n)</I> 
+  <BR>yes 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by the DCMI? (y/n) </I><BR>yes 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by another organization? (y/n). If yes, please supply a URL 
+  pointing to further information about the vocabulary (if available). 
+  </I><BR>yes 
+  <LI><I>is the qualifier a formal encoding format (y/n). If yes, please supply 
+  a URL pointing to further information about the format (if available).</I> 
+  <BR>no 
+  <LI><I>justification/explanation (optional but recommended)</I> 
+  <BR>Identification of the controlled vocabulary from which the subject values 
+  are taken enables manipulation of the values to enhance effectiveness of 
+  retrieval. <BR>For Subject value qualifiers, only a core list has been 
+  enumerated. These represent schemes that are of general use. Of course there 
+  are many more schemes that are being used in implementations and many more 
+  schemes that might be used in future. At some stage it would be helpful for 
+  implementations to be given the means to register schemes in use in order to 
+  share information about deployment. This is seen as a different activity to 
+  defining key qualifiers. <BR>
+  <LI><I>identify potential overlap/conflicts with other qualifiers if 
+  applicable (optional)</I> <BR>none</LI></UL>
+<H2>QUALIFIER PROPOSAL : Subject : DDC : 1999-12-14</H2>
+<LI><I>definition of the qualifier</I> <BR>Dewey Decimal Classification<BR>
+<H2>QUALIFIER PROPOSAL : Subject : UDC : 1999-12-14</H2>
+<LI><I>definition of the qualifier</I> <BR>Universal Decimal Classification<BR>
+<H2>QUALIFIER PROPOSAL : Subject : MeSh : 1999-12-14</H2>
+<LI><I>definition of the qualifier</I> <BR>Medical Subject Headings<BR>
+<H2>QUALIFIER PROPOSAL : Description : Abstract : 1999-12-14</H2>
+<UL>
+  <LI><I>working group defining the qualifier</I> <BR>DC-Subdesc 
+  <LI><I>which DC element is being qualified?</I> <BR><B>Description</B> 
+  <LI><I>proposed name of the qualifier</I> <BR><B>Abstract</B> 
+  <LI><I>definition of the qualifier</I> <BR>A summary of the content of the 
+  resource 
+  <LI><I>does the qualifier refine the semantics of the element (y/n)</I> 
+  <BR>yes 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by the DCMI? (y/n) </I><BR>no 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by another organization? (y/n). If yes, please supply a URL 
+  pointing to further information about the vocabulary (if available). 
+  </I><BR>no 
+  <LI><I>is the qualifier a formal encoding format (y/n). If yes, please supply 
+  a URL pointing to further information about the format (if available).</I> 
+  <BR>no 
+  <LI><I>identify potential overlap/conflicts with other qualifiers if 
+  applicable (optional)</I> <BR>none</LI></UL>
+<H2>QUALIFIER PROPOSAL : Description : Note : 1999-12-14</H2>
+<UL>
+  <LI><I>working group defining the qualifier</I> <BR>DC-Subdesc 
+  <LI><I>which DC element is being qualified?</I> <BR><B>Description</B> 
+  <LI><I>proposed name of the qualifier</I> <BR><B>Note</B> 
+  <LI><I>definition of the qualifier</I> <BR>Any additional information about 
+  the content of the resource 
+  <LI><I>does the qualifier refine the semantics of the element (y/n)</I> 
+  <BR>yes 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by the DCMI? (y/n) </I><BR>no 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by another organization? (y/n). If yes, please supply a URL 
+  pointing to further information about the vocabulary (if available). 
+  </I><BR>no 
+  <LI><I>is the qualifier a formal encoding format (y/n). If yes, please supply 
+  a URL pointing to further information about the format (if available).</I> 
+  <BR>no 
+  <LI><I>identify potential overlap/conflicts with other qualifiers if 
+  applicable (optional)</I> <BR>none</LI></UL>
+<H2>QUALIFIER PROPOSAL : Description : TableOfContents : 1999-12-14</H2>
+<UL>
+  <LI><I>working group defining the qualifier</I> <BR>DC-Subdesc 
+  <LI><I>which DC element is being qualified?</I> <BR><B>Description</B> 
+  <LI><I>proposed name of the qualifier</I> <BR><B>TableOfContents</B> 
+  <LI><I>definition of the qualifier</I> <BR>A list of subunits of the content 
+  of the resource 
+  <LI><I>does the qualifier refine the semantics of the element (y/n)</I> 
+  <BR>yes 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by the DCMI? (y/n) </I><BR>no 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by another organization? (y/n). If yes, please supply a URL 
+  pointing to further information about the vocabulary (if available). 
+  </I><BR>no 
+  <LI><I>is the qualifier a formal encoding format (y/n). If yes, please supply 
+  a URL pointing to further information about the format (if available).</I> 
+  <BR>no 
+  <LI><I>identify potential overlap/conflicts with other qualifiers if 
+  applicable (optional)</I> <BR>none</LI></UL>
+<H2>QUALIFIER PROPOSAL : Description : Release : 1999-12-14</H2>
+<UL>
+  <LI><I>working group defining the qualifier</I> <BR>DC-Subdesc 
+  <LI><I>which DC element is being qualified?</I> <BR><B>Description</B> 
+  <LI><I>proposed name of the qualifier</I> <BR><B>Release</B> 
+  <LI><I>definition of the qualifier</I> <BR>An identification of the edition, 
+  release or version of the resource 
+  <LI><I>does the qualifier refine the semantics of the element (y/n)</I> 
+  <BR>yes (although there is some disagreement on this. Some argue that 
+  "Release" doesn't refine Description, Description being defined as "an account 
+  of the content of a resource", but others say that Release *does* tell you 
+  something about the content of a resource more specifically than it tells you 
+  something about the Title of a resource. For example, the 4th edition of a 
+  book may well have a different title from the 3rd edition - "edition" says 
+  something about the content, not the title per se. <BR>see Cliff Morgan's mail 
+  at http://www.mailbase.ac.uk/lists/dc-subdesc/1999-12/ ) 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by the DCMI? (y/n) </I><BR>no 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by another organization? (y/n). If yes, please supply a URL 
+  pointing to further information about the vocabulary (if available). 
+  </I><BR>no 
+  <LI><I>is the qualifier a formal encoding format (y/n). If yes, please supply 
+  a URL pointing to further information about the format (if available).</I> 
+  <BR>no 
+  <LI><I>identify potential overlap/conflicts with other qualifiers if 
+  applicable (optional)</I> <BR>There is a possible overlap with Release being 
+  used as a value component of the TITLE element. The Citation and Title WG's 
+  recommended to the Subdesc WG that Release be included as a proposed qualifier 
+  for DESCRIPTION. In a spirit of co-operation we have included this. Much of 
+  the justification for this recommendation is that qualifying TITLE with 
+  Release breaks the 'dumb down' rule. The possibility of identifying Release as 
+  a value component of the TITLE value, and therefore circumventing 'dumb-down' 
+  and 'refinement' criteria was not discussed. </LI></UL>
+<H2>QUALIFIER PROPOSAL : Language : RFC1766 : 1999-12-14</H2><BR>
+<UL>
+  <LI><I>working group defining the qualifier</I> <BR>DC-Subdesc 
+  <LI><I>which DC element is being qualified?</I> <BR><B>Subject</B> 
+  <LI><I>proposed name of the qualifier</I> <BR>RFC1766 
+  <LI><I>definition of the qualifier</I> <BR>Internet RFC 1766 'Tags for the 
+  identification of language' <BR>This specifies a two letter language code 
+  taken from ISO 639, followed optionally by a two letter country code taken 
+  from ISO 3166.<BR>
+  <LI><I>does the qualifier refine the semantics of the element (y/n)</I> <BR>no 
+
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by the DCMI? (y/n) </I><BR>no 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by another organization? (y/n). If yes, please supply a URL 
+  pointing to further information about the vocabulary (if available). 
+  </I><BR>yes 
+  <LI><I>is the qualifier a formal encoding format (y/n). If yes, please supply 
+  a URL pointing to further information about the format (if available).</I> 
+  <BR>yes RFC1766 - http://www.ietf.org/rfc/rfc1766.txt ISO639 - 
+  ftp://dkuug.dk/i18n/ISO_639 ISO3166 - ftp://dkuug.dk/i18n/ISO_3166 
+  <LI><I>justification/explanation (optional but recommended)</I> 
+  <LI><I>identify potential overlap/conflicts with other qualifiers if 
+  applicable (optional)</I> <BR>none</LI></UL>
+<HR width="100%">
+
+<H3>Notes</H3>
+<OL>
+  <LI>There has been some discussion within the dc-subdesc list as to whether 
+  'audience' sould be introduced as a qualifier to Description. This proposal 
+  has been withdrawn as discussion has now moved to the dc-education list. 
+  <LI>The use of descriptor and keyword qualifiers were considered redundant by 
+  consensus of the WG. For reasons of caution these have not gone forward into 
+  the final proposal. Use of a controlled voacabulary (descriptor) will be 
+  indicated by the presence of a value qualifier. </LI></OL>
+<HR>
+Contact the DC Subdesc Working Group at: <A 
+href="http://purl.org/DC/groups/subdesc.htm">http 
+://purl.org/DC/groups/subdesc.htm</A> 
+<P>Content by: Rachel Heery, UKOLN </P></LI></BODY></HTML>

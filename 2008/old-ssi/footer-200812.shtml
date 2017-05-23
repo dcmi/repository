@@ -1,0 +1,18 @@
+<div class="footer">
+<p><a href="http://validator.w3.org/check/referer"><img src="/images/logos/valid-xhtml10.gif" alt="Valid XHTML 1.0!" height="31" width="88" /></a><a href="http://jigsaw.w3.org/css-validator/"><img src="/images/logos/vcss.gif" alt="Valid CSS!" width="88" height="31" /></a></p>
+<p><!--#exec cgi="/cgi-bin/metapath.cgi"--></p>
+<p><a href="/about/copyright/index.shtml#copyright">Copyright</a> &copy; 1995-2008 <acronym title="Dublin Core Metadata Initiative"><a href="/index.shtml">DCMI</a></acronym> All Rights Reserved. DCMI <a href="/about/copyright/index.shtml#liability">liability</a>, <a href="/about/copyright/index.shtml#trademark">trademark/service mark</a>, <a href="/about/copyright/index.shtml#documentnotice">document use</a> and <a href="/about/software/">software licensing</a> rules apply. Your interactions with this site are in accordance with our <a href="/about/privacy/">privacy</a> statements. Please feel free to <a href="/about/contact/">contact us</a> for any questions, comments or media inquiries.</p>
+<p>DCMI is hosted by <a href="http://www.oclc.org/research/">OCLC Research</a>.<br />
+The DCMI Web site and Conference Paper Repository are hosted by the <a href="http://www.nl.go.kr/">National Library of Korea</a>.<br />
+The DCMI Registry is hosted by the <a href="http://www.kc.tsukuba.ac.jp/index_en.html">Research Center for Knowledge Communities</a> at the University Of Tsukuba, Japan.</p>
+</div>
+<div class="dcmiprint"><p>Copyright &copy; 1995-2008 DCMI. All Rights Reserved.</p></div>
+<!-- Google Analytics Script -->
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+  _uacct="UA-1053639-1";
+  urchinTracker();
+</script> 
+

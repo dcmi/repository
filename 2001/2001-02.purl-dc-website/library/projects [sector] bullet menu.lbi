@@ -1,0 +1,15 @@
+<TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="2">
+<TR><TD WIDTH="10%" COLSPAN="2" VALIGN="TOP"><FONT COLOR="#990000"><B>PROJECTS</B></FONT></TD></TR>
+<TR><TD WIDTH="10%" VALIGN="TOP"><IMG SRC="../images/bullet/orange.gif" WIDTH="9" HEIGHT="13" BORDER="0"></TD><TD WIDTH="90%" VALIGN="TOP"><A HREF="../projects/index.htm"><B>Projects by Geographical Region</B></A></TD></TR>
+<TR><TD WIDTH="10%" VALIGN="TOP"><IMG SRC="../images/bullet/orange.gif" WIDTH="9" HEIGHT="13" BORDER="0"></TD><TD WIDTH="90%" VALIGN="TOP"><A HREF="../projects/sector.htm"><B>Projects by Sector</B></A></TD></TR>
+<TR><TD WIDTH="10%" VALIGN="TOP">&nbsp;</TD><TD WIDTH="90%" VALIGN="TOP">
+<TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="2">
+<TR><TD><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD><TD><A HREF="#archives">Archives</A></TD></TR>
+<TR><TD><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD><TD><A HREF="#government">Government</A></TD></TR>
+<TR><TD><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD><TD><A HREF="#library">Library</A></TD></TR>
+<TR><TD><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD><TD><A HREF="#museum">Museum</A></TD></TR>
+<TR><TD><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD><TD><A HREF="#other">Other</A></TD></TR>
+<TR><TD><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD><TD><A HREF="#university">University</A></TD></TR>
+</TABLE></TD></TR>
+<TR><TD WIDTH="10%" VALIGN="TOP"><IMG SRC="../images/bullet/orange.gif" WIDTH="9" HEIGHT="13" BORDER="0"></TD><TD WIDTH="90%" VALIGN="TOP"><A HREF="../projects/subject.htm"><B>Projects by Subject Area</B></A></TD></TR>
+</TABLE>

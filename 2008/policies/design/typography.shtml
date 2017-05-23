@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  
+<head>
+    
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    
+<title>DCMI Website Standards and Policy Manual - Typography</title>
+    
+<meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    
+<link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+ 
+</script>
+  
+</head>
+
+  
+<body>
+    
+<!--#include virtual="/ssi/policies/header.shtml" -->
+<table
+    summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content."
+     border="0" width="100%" cellspacing="0" cellpadding="5">
+      <tbody>
+        
+<tr valign="top">
+          
+<td bgcolor="#EEEEEE" width="150">
+            
+<!--#include virtual="/ssi/policies/design.shtml" -->
+</td>
+<td>
+<h1>Typography</h1>
+<p>Typography plays an important role in the overall unity of Dublin Core Metadata Initiative communications. It also makes a statement about DCMI and what we stand for, in that the attributes of the fonts are reflective of DCMI attributes.</p>
+<p>Meta is our primary type family, and was chosen because of its clarity, legibility, and practicality.</p>
+<h1>Preferred Fonts</h1>
+<h2>Graphical Display: Meta</h2>
+<p>The Meta typefaces are generally used for graphical titles and menu headlines. Meta's form is simple, modern and pure, like the DCMI logo. Meta styles include Meta Normal, Meta Book, Meta Medium, Meta Bold, Meta Black, and Meta Condensed.</p>
+<p>The Meta typefaces can be purchased online through <a href="http://www.fontfont.de/">FontFont</a>.</p>
+<h2>HTML Display: Arial, Geneva, and Times</h2>
+<p>The Arial, Geneva and Times typefaces are used for HTML text only.</p>
+<p>Arial is used for all headers (H1, H2, H3, H4, H5, and H6).</p>
+<p>Geneva is used for smaller menu text in navigation menus and footers.</p>
+<p>Times is used as the default body text.</p>
+<h1>General guidelines</h1>
+<ul>
+<li>Use our typefaces in their true form. This will guarantee a consistent, professional look across our communications.</li>
+<li>Because in some cases type set all in uppercase is more difficult to read, use uppercase and lowercase type for headlines, as well as body copy.</li>
+</ul>
+<h2>Do not:</h2>
+<ul>
+<li>Do not condense, extend or otherwise distort type.</li>
+<li>Do not use extra letter spacing in titles, headlines or body copy.</li>
+</ul>
+</td>
+</tr>
+      </tbody>
+    
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

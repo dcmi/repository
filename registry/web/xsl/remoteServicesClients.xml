@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding='UTF-8'?>
+ 
+<remoteClients>
+	<client>
+		<name></name>
+	</client>
+	<client>
+		<name>remoteLanguageClient</name>
+		<localFile>/temp/remoteLanguage</localFile>
+	</client>
+	<client>
+		<name>remoteTermUpdatesClient</name>
+		<inParm size="8" label="Date (format: YYYYMMDD): ">termDate</inParm>
+		<inParm size="5" label="Language (format: en-US): ">termLang</inParm>
+		<localFile>/temp/remoteTermUpdates</localFile>
+	</client>
+	<client>
+		<name>remoteItemDetailClient</name>
+		<inParm size="80" label="Term (fully qualified URL): ">term</inParm>
+		<inParm size="5" label="Language (format: en-US): ">termLang</inParm>
+		<localFile>/temp/remoteItemDetail</localFile>
+	</client>
+	<client>
+		<name>remoteItemSummaryClient</name>
+		<localFile>/temp/remoteItemSummary</localFile>
+	</client>
+	<client>
+		<name>remoteElementSummaryClient</name>
+		<localFile>/temp/remoteElementSummary</localFile>
+	</client>
+	<client>
+		<name>remoteRefinementsSummaryClient</name>
+		<localFile>/temp/remoteRefinementsSummary</localFile>
+	</client>
+	<client>
+		<name>remoteVocabularyTermsSummaryClient</name>
+		<localFile>/temp/remoteVocabularyTermsSummary</localFile>
+	</client>
+	<client>
+		<name>remoteEncodingSchemesSummaryClient</name>
+		<localFile>/temp/remoteEncodingSchemesSummary</localFile>
+	</client>
+</remoteClients>

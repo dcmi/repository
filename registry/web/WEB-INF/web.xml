@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+
+<web-app>
+    <display-name>DCMI Metadata Registry</display-name>
+		<context-param>
+			<param-name>Contact</param-name>
+			<param-value>wagnerh@oclc.org</param-value>
+		</context-param>
+
+    <!-- Example filter to set character encoding on each request -->
+    <filter>
+	<filter-name>Set Character Encoding</filter-name>
+	<filter-class>org.dublincore.dcregistry.filters.SetCharacterEncodingFilter</filter-class>
+	<init-param>
+	    <param-name>encoding</param-name>
+	    <param-value>UTF8</param-value>
+	</init-param>
+    </filter>
+    <filter-mapping>
+	<filter-name>Set Character Encoding</filter-name>
+	<url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+	 <servlet>
+        <servlet-name>queryServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.queryServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+
+	 <servlet>
+        <servlet-name>preferenceServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.preferenceServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>summaryServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.summaryServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>navigateServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.navigateServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>schemasServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.schemasServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+	<servlet>
+		<servlet-name>termsOverviewServlet</servlet-name>
+		<servlet-class>org.dublincore.dcregistry.servlet.termsOverviewServlet</servlet-class>
+		  
+		  <init-param>
+		<param-name>
+		propertyFile
+		</param-name>
+		<param-value>
+		jdbc.properties
+		</param-value>
+		</init-param>
+	</servlet>
+		
+	<servlet>
+		<servlet-name>elementsServlet</servlet-name>
+		<servlet-class>org.dublincore.dcregistry.servlet.elementsServlet</servlet-class>
+		  
+		  <init-param>
+		<param-name>
+		propertyFile
+		</param-name>
+		<param-value>
+		jdbc.properties
+		</param-value>
+		</init-param>
+	</servlet>
+		
+		<servlet>
+        <servlet-name>refinementsServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.refinementsServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>controlledTermsServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.controlledTermsServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>encodingSchemesServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.encodingSchemesServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>classesServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.classesServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>propertiesServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.propertiesServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>searchServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.searchServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>provenanceServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.provenanceServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>detailServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.detailServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>helpServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.helpServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>registerRemoteServicesServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.registerRemoteServicesServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		
+		<servlet>
+        <servlet-name>listRegisteredServicesServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.listRegisteredServicesServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		
+		<servlet>
+        <servlet-name>executeRemoteServicesServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.executeRemoteServicesServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>adminLogManagerServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.adminLogManagerServlet</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>remoteLanguageClient</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.remoteLanguageClient</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>remoteTermUpdatesClient</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.remoteTermUpdatesClient</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>remoteItemDetailClient</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.remoteItemDetailClient</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>remoteItemSummaryClient</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.remoteItemSummaryClient</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>remoteElementSummaryClient</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.remoteElementSummaryClient</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>remoteRefinementsSummaryClient</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.remoteRefinementsSummaryClient</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>remoteVocabularyTermsSummaryClient</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.remoteVocabularyTermsSummaryClient</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>remoteEncodingSchemesSummaryClient</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.remoteEncodingSchemesSummaryClient</servlet-class>
+		  
+		  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+		<servlet>
+        <servlet-name>SSGFIServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.SSGFIServlet</servlet-class>
+
+                  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+		
+     <servlet>
+        <servlet-name>appProfilesServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.appProfilesServlet</servlet-class>
+
+                  <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>AgMESServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.AgMESServlet</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>documentsServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.documentsServlet</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>translationsServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.translationsServlet</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>adminResourceManagerServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.adminResourceManagerServlet</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>adminProvenanceManagerServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.adminProvenanceManagerServlet</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+     <servlet>
+        <servlet-name>adminExtensionManagerServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.adminExtensionManagerServlet</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>canonicalServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.canonicalServlet</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>exampleServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.exampleServlet</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>rdfViewServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.rdfViewServlet</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>pageDisplayServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.pageDisplayServlet</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>adminStatsServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.adminStatsServlet</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>listSupportedLanguages</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.rest.listSupportedLanguages</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>listItemSummary</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.rest.listItemSummary</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+     <servlet>
+        <servlet-name>restLogManager</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.rest.restLogManager</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>listElements</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.rest.listElements</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+
+    <servlet>
+        <servlet-name>listElementRefinements</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.rest.listElementRefinements</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>listEncodingSchemes</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.rest.listEncodingSchemes</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>listVocabularyTerms</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.rest.listVocabularyTerms</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>listItemDetail</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.rest.listItemDetail</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>getUpdates</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.services.rest.getUpdates</servlet-class>
+
+         <init-param>
+           <param-name>
+              propertyFile
+           </param-name>
+           <param-value>
+              jdbc.properties
+           </param-value>
+        </init-param>
+    </servlet>
+        
+
+    <servlet>
+        <servlet-name>propertyEditorServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.propertyEditorServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>adminServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.adminServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>adminFunctionStartServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.adminFunctionStartServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>adminCollectionManagerServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.adminCollectionManagerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>adminFunctionTermServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.adminFunctionTermServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>adminFunctionPropertyServlet</servlet-name>
+        <servlet-class>org.dublincore.dcregistry.servlet.adminFunctionPropertyServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+	<servlet-name>adminLoginServlet</servlet-name>
+	<servlet-class>org.dublincore.dcregistry.servlet.adminLoginServlet</servlet-class>
+    </servlet>
+    
+     <servlet>
+	<servlet-name>adminTranslationsServlet</servlet-name>
+	<servlet-class>org.dublincore.dcregistry.servlet.adminTranslationsServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+	<servlet-name>importRDFServlet</servlet-name>
+	<servlet-class>org.dublincore.dcregistry.servlet.importRDFServlet</servlet-class>
+    </servlet>
+		
+    <servlet>
+	<servlet-name>logoutServlet</servlet-name>
+	<servlet-class>org.dublincore.dcregistry.servlet.logoutServlet</servlet-class>
+    </servlet>
+		
+    <servlet>
+	<servlet-name>jenaEditorServlet</servlet-name>
+	<servlet-class>org.dublincore.dcregistry.servlet.jenaEditorServlet</servlet-class>
+    </servlet>
+		
+		
+		<servlet-mapping>
+			<servlet-name>queryServlet</servlet-name>
+			<url-pattern>/queryServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+			<servlet-name>preferenceServlet</servlet-name>
+			<url-pattern>/preferenceServlet</url-pattern>
+    </servlet-mapping>
+		
+		 <servlet-mapping>
+			<servlet-name>summaryServlet</servlet-name>
+			<url-pattern>/summaryServlet</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>navigateServlet</servlet-name>
+			<url-pattern>/navigateServlet</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>schemasServlet</servlet-name>
+			<url-pattern>/schemasServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+		<servlet-name>termsOverviewServlet</servlet-name>
+		<url-pattern>/termsOverviewServlet</url-pattern>
+    </servlet-mapping>
+		
+	<servlet-mapping>
+		<servlet-name>elementsServlet</servlet-name>
+		<url-pattern>/elementsServlet</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>refinementsServlet</servlet-name>
+			<url-pattern>/refinementsServlet</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>controlledTermsServlet</servlet-name>
+			<url-pattern>/controlledTermsServlet</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>encodingSchemesServlet</servlet-name>
+			<url-pattern>/encodingSchemesServlet</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>classesServlet</servlet-name>
+			<url-pattern>/classesServlet</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>propertiesServlet</servlet-name>
+			<url-pattern>/propertiesServlet</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>searchServlet</servlet-name>
+			<url-pattern>/searchServlet</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>provenanceServlet</servlet-name>
+			<url-pattern>/provenanceServlet</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>detailServlet</servlet-name>
+			<url-pattern>/detailServlet</url-pattern>
+    </servlet-mapping>
+		
+	<servlet-mapping>
+		<servlet-name>helpServlet</servlet-name>
+		<url-pattern>/helpServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>adminStatsServlet</servlet-name>
+		<url-pattern>/adminStatsServlet</url-pattern>
+	</servlet-mapping>
+
+		<servlet-mapping>
+			<servlet-name>registerRemoteServicesServlet</servlet-name>
+			<url-pattern>/registerRemoteServicesServlet</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>listRegisteredServicesServlet</servlet-name>
+			<url-pattern>/listRegisteredServicesServlet</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>executeRemoteServicesServlet</servlet-name>
+			<url-pattern>/executeRemoteServicesServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+			<servlet-name>adminLogManagerServlet</servlet-name>
+			<url-pattern>/adminLogManagerServlet</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>remoteLanguageClient</servlet-name>
+			<url-pattern>/remoteLanguageClient</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>remoteTermUpdatesClient</servlet-name>
+			<url-pattern>/remoteTermUpdatesClient</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>remoteItemDetailClient</servlet-name>
+			<url-pattern>/remoteItemDetailClient</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>remoteItemSummaryClient</servlet-name>
+			<url-pattern>/remoteItemSummaryClient</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>remoteElementSummaryClient</servlet-name>
+			<url-pattern>/remoteElementSummaryClient</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>remoteRefinementsSummaryClient</servlet-name>
+			<url-pattern>/remoteRefinementsSummaryClient</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>remoteVocabularyTermsSummaryClient</servlet-name>
+			<url-pattern>/remoteVocabularyTermsSummaryClient</url-pattern>
+    </servlet-mapping>
+		
+		<servlet-mapping>
+			<servlet-name>remoteEncodingSchemesSummaryClient</servlet-name>
+			<url-pattern>/remoteEncodingSchemesSummaryClient</url-pattern>
+    </servlet-mapping>
+		
+    <servlet-mapping>
+        <servlet-name>propertyEditorServlet</servlet-name>
+	<url-pattern>/propertyEditorServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>adminServlet</servlet-name>
+	<url-pattern>/adminServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>adminFunctionStartServlet</servlet-name>
+	<url-pattern>/adminFunctionStartServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>adminCollectionManagerServlet</servlet-name>
+	<url-pattern>/adminCollectionManagerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>adminFunctionTermServlet</servlet-name>
+	<url-pattern>/adminFunctionTermServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>adminFunctionPropertyServlet</servlet-name>
+	<url-pattern>/adminFunctionPropertyServlet</url-pattern>
+    </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>adminLoginServlet</servlet-name>
+    <url-pattern>/adminLoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>adminTranslationsServlet</servlet-name>
+    <url-pattern>/adminTranslationsServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>logoutServlet</servlet-name>
+    <url-pattern>/logoutServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>importRDFServlet</servlet-name>
+    <url-pattern>/importRDFServlet</url-pattern>
+  </servlet-mapping>
+		
+  <servlet-mapping>
+    <servlet-name>jenaEditorServlet</servlet-name>
+    <url-pattern>/jenaEditorServlet</url-pattern>
+  </servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SSGFIServlet</servlet-name>
+		<url-pattern>/SSGFIServlet</url-pattern>
+   </servlet-mapping>
+	 
+	 <servlet-mapping>
+		<servlet-name>appProfilesServlet</servlet-name>
+		<url-pattern>/appProfilesServlet</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>AgMESServlet</servlet-name>
+		<url-pattern>/AgMESServlet</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>documentsServlet</servlet-name>
+		<url-pattern>/documentsServlet</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>translationsServlet</servlet-name>
+		<url-pattern>/translationsServlet</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>adminResourceManagerServlet</servlet-name>
+		<url-pattern>/adminResourceManagerServlet</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>adminProvenanceManagerServlet</servlet-name>
+		<url-pattern>/adminProvenanceManagerServlet</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>adminExtensionManagerServlet</servlet-name>
+		<url-pattern>/adminExtensionManagerServlet</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>canonicalServlet</servlet-name>
+		<url-pattern>/canonicalServlet</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>exampleServlet</servlet-name>
+		<url-pattern>/exampleServlet</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>rdfViewServlet</servlet-name>
+		<url-pattern>/rdfViewServlet</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>pageDisplayServlet</servlet-name>
+		<url-pattern>/pageDisplayServlet</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>listSupportedLanguages</servlet-name>
+		<url-pattern>/listSupportedLanguages</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>listItemSummary</servlet-name>
+		<url-pattern>/listItemSummary</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>restLogManager</servlet-name>
+		<url-pattern>/restLogManager</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>listElements</servlet-name>
+		<url-pattern>/listElements</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>listElementRefinements</servlet-name>
+		<url-pattern>/listElementRefinements</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>listEncodingSchemes</servlet-name>
+		<url-pattern>/listEncodingSchemes</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>listVocabularyTerms</servlet-name>
+		<url-pattern>/listVocabularyTerms</url-pattern>
+   </servlet-mapping>
+   
+    <servlet-mapping>
+		<servlet-name>listItemDetail</servlet-name>
+		<url-pattern>/listItemDetail</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+		<servlet-name>getUpdates</servlet-name>
+		<url-pattern>/getUpdates</url-pattern>
+   </servlet-mapping>
+		
+</web-app>

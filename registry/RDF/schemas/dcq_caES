@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+     <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+     <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+     <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+     <!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+     <!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
+  ]>
+
+  <rdf:RDF 
+     xmlns:rdf="&rdfns;"
+     xmlns:rdfs="&rdfsns;"
+     xmlns:dc="&dcns;"
+     xmlns:dcterms="&dctermsns;"
+     xmlns:dctype="&dctypens;">
+
+
+  <rdf:Property rdf:about="&dctermsns;alternative">
+    <rdfs:label xml:lang="ca-ES">
+		Alternatiu
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Qualsevol forma del t&#x00ed;tol utilitzada com a substitut o alternatiu del t&#x00ed;tol formal del recurs.
+	 </rdfs:comment>
+    <dc:description xml:lang="ca-ES">
+		Aquest qualificador pot incloure abreviacions del T&#x00ed;tol aix&#x00ed; com traduccions.
+	 </dc:description>
+  </rdf:Property>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;LCSH">
+    <rdfs:label xml:lang="ca-ES">
+		LCSH
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Library of Congress Subject Headings
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;LCC">
+    <rdfs:label xml:lang="ca-ES">
+		LCC
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Library of Congress Classification
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;DDC">
+   <rdfs:label xml:lang="ca-ES">
+	 DDC
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Dewey Decimal Classification
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;UDC">
+    <rdfs:label xml:lang="ca-ES">
+		UDC
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Universal Decimal Classification 
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;MESH">
+    <rdfs:label xml:lang="ca-ES">
+		MeSH
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Medical Subject Headings
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <rdf:Property rdf:about="&dctermsns;abstract">
+    <rdfs:label xml:lang="ca-ES">
+		Resum
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Extracte del contingut d'un recurs.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;tableOfContents">
+   <rdfs:label xml:lang="ca-ES">
+	 Sumari del contingut
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Llista de les subunitats del contingut d'un recurs.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;created">
+    <rdfs:label xml:lang="ca-ES">
+		Creat
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Data de creaci&#x00f3; del recurs.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;issued">
+    <rdfs:label xml:lang="ca-ES">
+		Publicat
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Data de publicaci&#x00f3; (&#x00e9;s a dir, edici&#x00f3;) del recurs.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;modified">
+   <rdfs:label xml:lang="ca-ES">
+	 Modificat
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Data en qu&#x00e8; el recurs va ser canviat.
+	 </rdfs:comment>
+  </rdf:Property>
+	
+	<rdf:Property rdf:about="&dctermsns;valid">
+   <rdfs:label xml:lang="ca-ES">
+	 V&#x00e0;lid
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Data (sovint un interval) de la validaci&#x00f3; d'un recurs
+	 </rdfs:comment>
+  </rdf:Property>
+	
+	<rdf:Property rdf:about="&dctermsns;available">
+   <rdfs:label xml:lang="ca-ES">
+	 Disponible
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Data (sovint un interval) en qu&#x00e8; el recurs estar&#x00e0; disponible o va estar disponible.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <dcterms:DateScheme rdf:about="&dctermsns;W3CDTF">
+    <rdfs:label xml:lang="ca-ES">
+		W3C-DTF
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Normes de codificaci&#x00f3; W3C per a dates i hores -- perfil basat en ISO 8601
+	 </rdfs:comment>
+  </dcterms:DateScheme>
+
+  <dcterms:DateScheme rdf:about="&dctermsns;Period">
+    <rdfs:label xml:lang="ca-ES">
+		DCMI Period
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Especificaci&#x00f3; dels l&#x00ed;mits d'un interval de temps.
+	 </rdfs:comment>
+  </dcterms:DateScheme>
+
+
+  <rdf:Property rdf:about="&dctermsns;extent">
+    <rdfs:label xml:lang="ca-ES">
+		Extensi&#x00f3;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Dimensi&#x00f3; o duraci&#x00f3; del recurs.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;medium">
+    <rdfs:label xml:lang="ca-ES">
+		Mitj&#x00e0;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Suport material o f&#x00ed;sic del recurs.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <dcterms:FormatScheme rdf:about="&dctermsns;IMT">
+   <rdfs:label xml:lang="ca-ES">
+	 IMT
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El tipus de mitj&#x00e0; a Internet del recurs.
+	 </rdfs:comment>
+  </dcterms:FormatScheme>
+	
+  <dcterms:LanguageScheme rdf:about="&dctermsns;RFC1766">
+    <rdfs:label xml:lang="ca-ES">
+		RFC 1766
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		L'Internet RFC 1766 'Tags for the identification of Language' especifica un codi de dues lletres tret d'ISO 639, seguit opcionalment d'un codi de pa&#x00ed;s de dues lletres extret d'ISO 3166.
+		</rdfs:comment>
+  </dcterms:LanguageScheme>
+
+  <dcterms:LanguageScheme rdf:about="&dctermsns;ISO639-2">
+    <rdfs:label xml:lang="ca-ES">
+		ISO 639-2
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		ISO639-2: Codes for the representation of names of languages
+	 </rdfs:comment>
+  </dcterms:LanguageScheme>
+
+
+  <rdf:Property rdf:about="&dctermsns;isPartOf">
+    <rdfs:label xml:lang="ca-ES">
+		Part De
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El recurs descrit &#x00e9;s una part f&#x00ed;sica o l&#x00f2;gica del recurs referenciat.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasPart">
+    <rdfs:label xml:lang="ca-ES">
+		T&#x00e9; Part
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El recurs descrit inclou el recurs referenciat tant f&#x00ed;sicament com l&#x00f2;gicament.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isVersionOf">
+    <rdfs:label xml:lang="ca-ES">
+		Versi&#x00f3; De
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El recurs descrit &#x00e9;s una versi&#x00f3;, edici&#x00f3; o adaptaci&#x00f3; del recurs referenciat. Els canvis en una versi&#x00f3; impliquen canvis substancials en el contingut m&#x00e9;s que difer&#x00e8;ncies en el format.
+	</rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasVersion">
+    <rdfs:label xml:lang="ca-ES">
+		T&#x00e9; Una Versi&#x00f3;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El recurs descrit t&#x00e9; una versi&#x00f3;, edici&#x00f3; o adaptaci&#x00f3;, &#x00e9;s a dir, el recurs referenciat.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isFormatOf">
+    <rdfs:label xml:lang="ca-ES">
+		&#x00c9;s Un Format De
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El recurs descrit t&#x00e9; el mateix contingut intel&#x00b7;lectual que el recurs referenciat, per&#x00f2; es presenta en un altre format.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasFormat">
+    <rdfs:label xml:lang="ca-ES">
+		T&#x00e9; Un Format
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El recurs descrit existia amb anterioritat al recurs referenciat, el qual t&#x00e9; essencialment el mateix contingut intel&#x00b7;lectual presentat en un altre format.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;references">
+   <rdfs:label xml:lang="ca-ES">
+	 Refer&#x00e8;ncies
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El recurs descrit referencia, cita o altrament assenyala el recurs referenciat.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isReferencedBy">
+    <rdfs:label xml:lang="ca-ES">
+		Referenciat Per
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El recurs descrit &#x00e9;s referenciat, citat o assenyalat en alguna forma pel recurs referenciat.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;requires">
+    <rdfs:label xml:lang="ca-ES">
+		Requereix
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El recurs descrit requereix el recurs referenciat per a suportar la seva funci&#x00f3;, tramesa o coher&#x00e8;ncia del contingut.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isRequiredBy">
+    <rdfs:label xml:lang="ca-ES">
+		Requerit Per
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El recurs descrit &#x00e9;s requerit pel recurs referenciat, tant f&#x00ed;sicament com l&#x00f2;gicament.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;replaces">
+    <rdfs:label xml:lang="ca-ES">
+		Substitueix
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El recurs descrit suplanta, reempla&#x00e7;a o invalida el recurs referenciat.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isReplacedBy">
+    <rdfs:label xml:lang="ca-ES">
+		Substitu&#x00ef;t Per
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El recurs descrit &#x00e9;s suplantat, reempla&#x00e7;at o invalidat pel recurs referenciat.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;spatial">
+    <rdfs:label xml:lang="ca-ES">
+		Espacial
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Caracter&#x00ed;stiques espacials del contingut intel&#x00b7;lectual del recurs.
+ </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;temporal">
+   <rdfs:label xml:lang="ca-ES">
+	 Temporal
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Caracter&#x00ed;stiques de temps del contingut intel&#x00b7;lectual del recurs
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;TGN">
+    <rdfs:label xml:lang="ca-ES">
+		TGN
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El Getty Thesaurus of Geographic Names
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;ISO3166">
+    <rdfs:label xml:lang="ca-ES">
+		ISO 3166
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		ISO 3166 Codes for the representation of names of countries
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;Box">
+   <rdfs:label xml:lang="ca-ES">
+	 DCMI Box
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El DCMI Box identifica una regi&#x00f3; de l'espai utilitzant els seus l&#x00ed;mits geogr&#x00e0;fics.
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;Point">
+    <rdfs:label xml:lang="ca-ES">
+		DCMI Point
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		El DCMI Point identifica un punt en l'espai utilitzant les seves coordenades geogr&#x00e0;fiques.
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:TypeScheme rdf:about="&dctermsns;DCMIType">
+    <rdfs:label xml:lang="ca-ES">
+		DCMI Type Vocabulary
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		Llista dels tipus utilitzats per a categoritzar la naturalesa o g&#x00e8;nere del contingut del recurs.
+	 </rdfs:comment>
+  </dcterms:TypeScheme> 
+
+  <dcterms:IdentifierScheme rdf:about="&dctermsns;URI">
+   <rdfs:label xml:lang="ca-ES">
+	 URI
+	 </rdfs:label>
+    <rdfs:comment xml:lang="ca-ES">
+		URI (Uniform Resource Identifier)
+	 </rdfs:comment>
+  </dcterms:IdentifierScheme>
+				
+</rdf:RDF>

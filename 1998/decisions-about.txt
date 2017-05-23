@@ -1,0 +1,57 @@
+2010-09-09 (Tom): While looking for the earliest reference to
+"http://purl.org/dc/elements/1.1/", I came across a reference
+to the namespace in the body of the August 2000 text of [1]
+-- a preprint of the October 2000 D-Lib Magazine article,
+"A Grammar of Dublin Core" [2].
+
+This article cited [3] -- DCMES Version 1.1 -- which does not
+mention "http://purl.org/dc/elements/1.1/" in the body of the
+text, but uses the URI in an RDF element embedded in the HTML, which becomes visible
+when viewing the source [3].  This RDF element was lost when
+this document was reformatted with the modern DCMI style [4].
+
+The previous version of DCMES [5] had an embedded RDF element
+as well, but bound the prefix dc: to itself (the containing
+document), not to a PURL.
+
+In my recollection, a namespace URI had been decided at a Data
+Model meeting in Crete in September 1998. This recollection
+was reinforced by a reference in a talk Eric Miller gave at
+DC6 in November 1998 [6] to decisions taken [7], among which
+to create a "DC namespace" for defining the core elements,
+"http://purl.org/dc/elements/1.0/".
+
+Mailbase is long gone, but I found "decisions.html" in my own
+archive (appended as text below, to appear as [8] at the next
+build of the DCMI Website).
+
+In short, it appears to me:
+
+-- It was decided in September 1998 to coin the DC namespace
+   "http://purl.org/dc/elements/1.0/", but that namespace was 
+   never used.
+
+-- When DCMES Version 1.1 was published in July 1999, the
+   namespace "http://purl.org/dc/elements/1.1/" was used to create
+   URIs for the fifteen elements, though these URIs were hidden from
+   view in an embedded RDF element.
+
+-- RDF schemas for DCMES were created as early as 1997
+   [9,10,11], but it wasn't until March 2000 [12] that
+   the (published) schemas used the namespace URI
+   "http://purl.org/dc/elements/1.1/".
+
+[1] http://dublincore.org/archives/2001/02/purl-dc-website/documents/notes/grammar-20000807.htm
+[2] http://www.dlib.org/dlib/october00/baker/10baker.html
+[3] http://dublincore.org/archives/2001/02/purl-dc-website/documents/rec-dces-19990702.htm
+[4] http://dublincore.org/documents/1999/07/02/dces/
+[5] http://dublincore.org/archives/2001/02/purl-dc-website/documents/rec-dces-19971002.htm
+[6] http://dublincore.org/archives/2001/02/purl-dc-website/workshops/dc6conference/pp/ws-dc6-breakout-miller-datamodel.ppt
+[7] http://www.mailbase.ac.uk/lists/dc-datamodel/files/decisions.html
+[8] http://dublincore.org/archives/1998/decisions.html (to appear at the next build)
+[9] http://dublincore.org/1997/10/02-dces
+[10] http://dublincore.org/1997/10/02-dces.xml
+[11] http://dublincore.org/1999/10/27-dces
+[12] http://dublincore.org/2000/03/13/dces
+
+

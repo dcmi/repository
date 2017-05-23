@@ -1,0 +1,135 @@
+Title:         Alistair Miles - work in 2007-2008 on RDA scenarios
+Identifier:    http://dublincore.org/archives/2009-04.dc-rda-scenarios/
+Created:       2013-01-14
+
+--  Google Code project (export)
+    svn checkout http://code4rda.googlecode.com/svn/trunk/ code4rda-read-only
+    http://dublincore.org/archives/2009-04.dc-rda-scenarios/code4rda-exported-20130114
+
+--  Alistair's explanation
+    http://dublincore.org/archives/2009-04.dc-rda-scenarios/2009-04-24.swig-chat-with-alistair-about-dcrda.html
+
+--  RDA scenarios on wiki.dublincore.org
+    http://wiki.dublincore.org/index.php/Bibliographic_Metadata_Task_Group
+    http://wiki.dublincore.org/index.php/Cataloger_Scenarios
+
+--  DC-RDA mailing list archives
+    http://www.jiscmail.ac.uk/lists/dc-rda.html
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0903&L=dc-rda&P=R446
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0903&L=dc-rda&P=R2
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0902&L=dc-rda&P=R3568
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0902&L=dc-rda&P=R3403
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0902&L=dc-rda&P=R2961
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0902&L=dc-rda&P=R2885
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0902&L=dc-rda&P=R2005
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0902&L=dc-rda&P=R1796
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0902&L=dc-rda&P=R938
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0902&L=dc-rda&P=R720
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0902&L=dc-rda&P=R498
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0902&L=dc-rda&P=R51
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0901&L=dc-rda&P=R1556
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0901&L=dc-rda&P=R1546
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0901&L=dc-rda&P=R1462
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0901&L=dc-rda&P=R2561
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0901&L=dc-rda&P=R2409
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0812&L=dc-rda&P=R3308
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0812&L=dc-rda&P=R2917
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0812&L=dc-rda&P=R2849
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0812&L=dc-rda&P=R2645
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0812&L=dc-rda&P=R2501
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0812&L=dc-rda&P=R1845
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0812&L=dc-rda&P=R1352
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0811&L=dc-rda&P=R5224
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0811&L=dc-rda&P=R2746
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0811&L=dc-rda&P=R2644
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0811&L=dc-rda&P=R2545
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0811&L=dc-rda&P=R1514
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0811&L=dc-rda&P=R640
+    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0811&L=dc-rda&P=R480
+
+--  Files from http://dublincore.org/dcmirdataskgroup wiki (already, or soon to be, deleted)
+
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/index.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/TitleIndex.html
+
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/AlistairMiles.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/AlistairMiles_2fAnalysisNotes20081011.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/AlistairMiles_2fAnalysisNotes20081112.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/AlistairMiles_2fAnalysisNotes20081129.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/AlistairMiles_2fAnalysisNotes20081222.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/AlistairMiles_2fSandbox.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/analysisTask1.html - Task 1.1 Analysis of RDA data elements (July 2008)
+
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/Scenarios.html - Cataloger Scenarios (Dec 2008, updated March 2011)
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/Scenarios_2f1.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/Scenarios_2f10.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/Scenarios_2f2.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/Scenarios_2f3.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/Scenarios_2f4.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/Scenarios_2f5.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/Scenarios_2f6.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/Scenarios_2f7.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/Scenarios_2f8.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/Scenarios_2f9.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/devScenarios.html - Developer Scenarios (July 2008)
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/userScenarios.html - User Scenarios (July 2008)
+
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/DataConversion.html - LOC converting btw formats (Alistair, Oct 2009)
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/FRBRCollisions.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/funding_20for_20our_20tasks.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/Mar_2e_202011_20midterm_20report.html - March 2011 six-month report
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/MARCVocab.html - 007 value lists (850+ values) (July 2008)
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/Namespace_20for_20FRBR_20entities_2felements_20in_20RDF.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/rda_2da.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/RdaElements.html
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/RDAVocab.html - List of RDA Value Vocabularies (July 2008)
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/Use_20Cases.html - RDA Vocabularies Use Cases
+
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/DC_2d2010_20Meeting.html - DC-2011 Meeting
+    http://dublincore.org/moinmoin-wiki-archive/dcmirdataskgroup/pages/apDesigns.html - Karen Coyle DSP AP design patterns (2008-09-04)
+
+--  Alistair's Google Code project "code4rda" - wiki pages
+    http://code.google.com/p/code4rda/wiki
+    http://code.google.com/p/code4rda/wiki/MilestoneOne
+    http://code.google.com/p/code4rda/wiki/DataConversion
+
+    http://dublincore.org/code4rda/ProjectHome.html
+    http://dublincore.org/code4rda/ProjectHome_files/fastbutton.html
+    http://dublincore.org/code4rda/wiki/DataConversion.html
+    http://dublincore.org/code4rda/wiki/DataConversionDesign.html
+    http://dublincore.org/code4rda/wiki/DataConversionFeasibility.html
+    http://dublincore.org/code4rda/wiki/DataConversionImplementation.html
+    http://dublincore.org/code4rda/wiki/HomePage.html
+    http://dublincore.org/code4rda/wiki/MilestoneOne.html
+    http://dublincore.org/code4rda/wiki/PageList.html
+    http://dublincore.org/code4rda/wiki/SideBar.html
+
+--  Alistair's Google Code project "code4rda"
+    http://code.google.com/p/code4rda
+
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/.project
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/design/expect/00000002.rdf.xml
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/design/output/00000002.rdf.xml
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/design/samples/00000002.mods.xml
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/design/samples/00000002.mrc.xml
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/stats/mapred/mapper2.py
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/stats/mapred/mapper3.py
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/stats/mapred/mapper5.py
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/stats/mapred/mapper6.py
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/stats/mapred/testmapper.py
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/stats/mapred/xmltestmapper.py
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/support/lcsh/lcshmap.py
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/trans/lib/MARC21slim2MODS3.xsl
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/trans/lib/MARC21slim2RDFDC.xsl
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/trans/lib/mods2rdf.xslt
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/trans/mods2rda/common/string-utils.xsl
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/trans/mods2rda/main.xsl
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/trans/mods2rda/modules/expression-contenttype.xsl
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/trans/mods2rda/modules/manifestation-statementofresponsibility.xsl
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/trans/mods2rda/modules/manifestation-title.xsl
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/trans/mods2rda/modules/persons.xsl
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/trans/mods2rda/modules/work-keys.xsl
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/trans/mods2rda/modules/work-subjects.xsl
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/trans/mods2rda/modules/work-title.xsl
+    http://dublincore.org/code4rda-exported-20130114/dataconversion/utils/rdfdiff.py
+

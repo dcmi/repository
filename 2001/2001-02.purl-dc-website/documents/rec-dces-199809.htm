@@ -1,0 +1,336 @@
+<html>
+
+<head>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#" xmlns:dc> 
+<rdf:Description about dc:title="The Dublin Core Element Set" dc:creator="The Dublin Core Metadata Inititative" dc:description="The Dublin Core is a simple metadata element
+         set intended to facilitate discovery of electronic
+         resources." dc:date="1995-03-01" /> <rdf:Description ID="title" rdfs:label="Title" rdfs:comment="The name given to the resource, usually by the Creator
+     or Publisher."> <rdfs:isDefinedBy rdf:resource /> <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> <rdf:Description ID="creator" rdfs:label="Author/Creator" rdfs:comment="The person or organization primarily responsible for
+     creating the intellectual content of the resource. For example,
+     authors in the case of written documents, artists, photographers, or
+     illustrators in the case of visual resources."> <rdfs:isDefinedBy rdf:resource /> 
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> <rdf:Description ID="subject" rdfs:label="Subject" rdfs:comment="The topic of the resource. Typically, subject will be
+     expressed as keywords or phrases that describe the subject or
+     content of the resource. The use of controlled vocabularies and
+     formal classification schemes is encouraged."> <rdfs:isDefinedBy rdf:resource /> 
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> <rdf:Description ID="description" rdfs:label="Description" rdfs:comment="A textual description of the content of the resource,
+     including abstracts in the case of document-like objects or content
+     descriptions in the case of visual resources."> <rdfs:isDefinedBy rdf:resource /> 
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> <rdf:Description ID="publisher" rdfs:label="Publisher" rdfs:comment="The entity responsible for making the resource
+     available in its present form, such as a publishing house, a
+     university department, or a corporate entity."> <rdfs:isDefinedBy rdf:resource /> 
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> <rdf:Description ID="contributor" rdfs:label="Other Contributors" rdfs:comment="A person or organization not specified in a Creator
+     element who has made significant intellectual contributions to the
+     resource but whose contribution is secondary to any person or
+     organization specified in a Creator element (for example, editor,
+     transcriber, and illustrator)."> <rdfs:isDefinedBy rdf:resource /> <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> <rdf:Description ID="date" rdfs:label="Date" rdfs:comment="A date associated with the creation or availability of
+     the resource. Such a date is not to be confused with one belonging
+     in the Coverage element, which would be associated with the resource
+     only insofar as the intellectual content is somehow about that
+     date. Recommended best practice is defined in a profile of ISO 8601
+     [Date and Time Formats (based on ISO8601), W3C Technical Note,
+     http://www.w3.org/TR/NOTE-datetime] that includes (among others)
+     dates of the forms YYYY and YYYY-MM-DD. In this scheme, for example,
+     the date 1994-11-05 corresponds to November 5, 1994."> <rdfs:isDefinedBy rdf:resource /> 
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> <rdf:Description ID="type" rdfs:label="Type" rdfs:comment="The category of the resource, such as home page,
+     novel, poem, working paper, technical report, essay, dictionary. For
+     the sake of interoperability, Type should be selected from an
+     enumerated list that is currently under development in the workshop
+     series."> <rdfs:isDefinedBy rdf:resource /> <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> <rdf:Description ID="format" rdfs:label="Format" rdfs:comment="The data format of the resource, used to identify the
+     software and possibly hardware that might be needed to display or
+     operate the resource. For the sake of interoperability, Format
+     should be selected from an enumerated list that is currently under
+     development in the workshop series."> <rdfs:isDefinedBy rdf:resource /> <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> <rdf:Description ID="identifier" rdfs:label="Identifier" rdfs:comment="A string or number used to uniquely identify the
+     resource. Examples for networked resources include URLs and URNs
+     (when implemented). Other globally-unique identifiers, such as
+     International Standard Book Numbers (ISBN) or other formal names are
+     also candidates for this element."> <rdfs:isDefinedBy rdf:resource /> <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> <rdf:Description ID="source" rdfs:label="Source" rdfs:comment="Information about a second resource from which the
+     present resource is derived. While it is generally recommended that
+     elements contain information about the present resource only, this
+     element may contain a date, creator, format, identifier, or other
+     metadata for the second resource when it is considered important for
+     discovery of the present resource; recommended best practice is to
+     use the Relation element instead.  For example, it is possible to
+     use a Source date of 1603 in a description of a 1996 film adaptation
+     of a Shakespearean play, but it is preferred instead to use Relation
+     'IsBasedOn' with a reference to a separate resource whose
+     description contains a Date of 1603. Source is not applicable if the
+     present resource is in its original form."> <rdfs:isDefinedBy rdf:resource /> 
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> <rdf:Description ID="language" rdfs:label="Language" rdfs:comment="The language of the intellectual content of the
+     resource. Where practical, the content of this field should coincide
+     with RFC 1766 [Tags for the Identification of Languages,
+     http://ds.internic.net/rfc/rfc1766.txt ]; examples include en, de,
+     es, fi, fr, ja, th, and zh."> <rdfs:isDefinedBy rdf:resource /> <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> <rdf:Description ID="relation" rdfs:label="Relation" rdfs:comment="An identifier of a second resource and its
+     relationship to the present resource. This element permits links
+     between related resources and resource descriptions to be
+     indicated. Examples include an edition of a work (IsVersionOf), a
+     translation of a work (IsBasedOn), a chapter of a book (IsPartOf),
+     and a mechanical transformation of a dataset into an image
+     (IsFormatOf). For the sake of interoperability, relationships should
+     be selected from an enumerated list that is currently under
+     development in the workshop series."> <rdfs:isDefinedBy rdf:resource /> <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> <rdf:Description ID="coverage" rdfs:label="Coverage" rdfs:comment="The spatial or temporal characteristics of the
+     intellectual content of the resource. Spatial coverage refers to a
+     physical region (e.g., celestial sector); use coordinates (e.g.,
+     longitude and latitude) or place names that are from a controlled
+     list or are fully spelled out. Temporal coverage refers to what the
+     resource is about rather than when it was created or made available
+     (the latter belonging in the Date element); use the same date/time
+     format (often a range) [Date and Time Formats (based on ISO8601),
+     W3C Technical Note, http://www.w3.org/TR/NOTE-datetime] as
+     recommended for the Date element or time periods that are from a
+     controlled list or are fully spelled out."> <rdfs:isDefinedBy rdf:resource /> 
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> <rdf:Description ID="rights" rdfs:label="Rights" rdfs:comment="A rights management statement, an identifier that
+     links to a rights management statement, or an identifier that links
+     to a service providing information about rights management for the
+     resource."> <rdfs:isDefinedBy rdf:resource /> <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" /> 
+</rdf:Description> </rdf:RDF> 
+<title>Dublin Core Metadata Initiative / Dublin Core Element Set: Reference Description</title>
+<SCRIPT SRC="../javascript_level01.js" TYPE="TEXT/JAVASCRIPT"></SCRIPT>
+<link rel="meta" href="rec-dces-199809.htm.rdf">
+</head>
+
+<body BGCOLOR="#FFFFE7" TEXT="#000000" ALINK="#FFFFFF" LINK="#990000" VLINK="#000066">
+<div align="center"><center>
+
+<table BORDER="0" WIDTH="86%" CELLSPACING="0" CELLPADDING="0">
+  <tr>
+    <td><!-- #BeginLibraryItem "/Library/_top url date table.lbi" --><TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR><TD HEIGHT="20" WIDTH="50%" ALIGN="LEFT" BGCOLOR="#000000"><!-- #BeginLibraryItem "/Library/url top.lbi" -->&nbsp;&nbsp;<FONT COLOR="#FFFFCC"><B>http://purl.org/dc</B></FONT><!-- #EndLibraryItem --></TD><TD HEIGHT="20" WIDTH="50%" ALIGN="RIGHT" BGCOLOR="#000000">&nbsp;
+</TD></TR>
+</TABLE><!-- #EndLibraryItem -->    <!-- #BeginLibraryItem "/Library/_top table.lbi" --><TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD HEIGHT="32" WIDTH="2%" BGCOLOR="#669999">&nbsp;</TD>
+    
+<TD HEIGHT="32" WIDTH="58%" BGCOLOR="#669999"><A HREF="/oclc/research/projects/core/index.htm"><IMG SRC="../images/dcmi/dcmi_22.gif" WIDTH="460" HEIGHT="32" ALT="Dublin Core Metadata Initiative" BORDER="0"></A></TD>
+<TD WIDTH="38%" ROWSPAN="2" VALIGN="TOP" BGCOLOR="#669999">
+<TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="8">
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE"><!-- #BeginLibraryItem "/Library/pop-up menu content [level 1].lbi" --><FONT SIZE="2">
+<FORM NAME="menu">
+<SELECT NAME="CHOICES" onChange="gotosite(this.options[this.selectedIndex].value)">
+<OPTION selected>Dublin Core topics:</OPTION>
+<OPTION VALUE="../index.htm">Home</OPTION>
+<OPTION VALUE="../search/index.htm">Search</OPTION>
+<OPTION VALUE="../sitemap/index.htm">Site Map</OPTION>
+<OPTION VALUE="../news/index.htm">What's New</OPTION>
+<OPTION VALUE="../feedback/index.htm">Feedback</OPTION>
+<OPTION VALUE="../about/element_set.htm">Dublin Core Element Set</OPTION>
+<OPTION VALUE="../about/index.htm">About the Dublin Core</OPTION>
+<OPTION VALUE="../news/index.htm">News and Publications</OPTION>
+<OPTION VALUE="../documents/index.htm">Documents</OPTION>
+<OPTION VALUE="../education/index.htm">Questions &amp; Answers</OPTION>
+<OPTION VALUE="../projects/index.htm">Projects</OPTION>
+<OPTION VALUE="../schemas/index.htm">Schemas</OPTION>
+<OPTION VALUE="../tools/index.htm">Tools</OPTION>
+<OPTION VALUE="../groups/index.htm">Working Groups</OPTION>
+<OPTION VALUE="../about/workshop.htm">Workshop Series</OPTION>
+</SELECT>
+</FORM>
+</FONT><!-- #EndLibraryItem --></TD>
+</TR>
+</TABLE>
+</TD>
+<TD HEIGHT="32" WIDTH="2%" BGCOLOR="#669999">&nbsp;</TD>
+</TR>
+<TR>
+<TD HEIGHT="20" WIDTH="2%" BGCOLOR="#669999">&nbsp;</TD>
+<TD HEIGHT="20" ALIGN="LEFT" VALIGN="TOP" BGCOLOR="#669999"><!-- #BeginLibraryItem "/Library/mouseOver buttons.lbi" --><TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="425">
+<TR>
+<TD><A HREF="../index.htm" onMouseOut="di('Nbuttonshorizontal_01_01','Ibuttonshorizontal_01_01');return false;" onMouseOver="di('Nbuttonshorizontal_01_01','Ibuttonshorizontal_01_01o');return false;"><IMG NAME="Nbuttonshorizontal_01_01" SRC="../images/buttons/home.gif" WIDTH="85" HEIGHT="17" BORDER="0" ALT="Home"></A></TD>
+<TD><A HREF="../search/index.htm" onMouseOut="di('Nbuttonshorizontal_01_02','Ibuttonshorizontal_01_02');return false;" onMouseOver="di('Nbuttonshorizontal_01_02','Ibuttonshorizontal_01_02o');return false;"><IMG NAME="Nbuttonshorizontal_01_02" SRC="../images/buttons/search.gif" WIDTH="85" HEIGHT="17" BORDER="0" ALT="Search"></A></TD>
+<TD><A HREF="../sitemap/index.htm" onMouseOut="di('Nbuttonshorizontal_01_03','Ibuttonshorizontal_01_03');return false;" onMouseOver="di('Nbuttonshorizontal_01_03','Ibuttonshorizontal_01_03o');return false;"><IMG NAME="Nbuttonshorizontal_01_03" SRC="../images/buttons/sitemap.gif" WIDTH="85" HEIGHT="17" BORDER="0" ALT="Site Map"></A></TD>
+<TD><A HREF="../news/index.htm" onMouseOut="di('Nbuttonshorizontal_01_04','Ibuttonshorizontal_01_04');return false;" onMouseOver="di('Nbuttonshorizontal_01_04','Ibuttonshorizontal_01_04o');return false;"><IMG NAME="Nbuttonshorizontal_01_04" SRC="../images/buttons/new.gif" WIDTH="85" HEIGHT="17" BORDER="0" ALT="What's New"></A></TD>
+<TD><A HREF="../feedback/index.htm" onMouseOut="di('Nbuttonshorizontal_01_05','Ibuttonshorizontal_01_05');return false;" onMouseOver="di('Nbuttonshorizontal_01_05','Ibuttonshorizontal_01_05o');return false;"><IMG NAME="Nbuttonshorizontal_01_05" SRC="../images/buttons/feedback.gif" WIDTH="85" HEIGHT="17" BORDER="0" ALT="Feedback"></A></TD>
+</TR>
+</TABLE><!-- #EndLibraryItem --></TD>
+<TD HEIGHT="20" BGCOLOR="#669999" WIDTH="2%">&nbsp;</TD>
+</TR>
+</TABLE>
+<!-- #EndLibraryItem -->
+          <table BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+      <tr>
+        <td WIDTH="2%" BGCOLOR="#99CCCC">&nbsp;</td>
+              <td WIDTH="96%" ALIGN="RIGHT" VALIGN="MIDDLE" BGCOLOR="#99CCCC"><font COLOR="#003366"><b><a
+        href="index.htm">Documents</a> / <a href="recommendations.htm">Recommendations</a></b> 
+                <b>/ Dublin Core Metadata Element Set, Version 1.0</b></font></td>
+        <td WIDTH="2%" BGCOLOR="#99CCCC">&nbsp;</td>
+      </tr>
+    </table>
+    <table BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+      <tr>
+        <td WIDTH="2%" BGCOLOR="#FFFFCC">&nbsp;</td>
+        <td WIDTH="96%" VALIGN="TOP" BGCOLOR="#FFFFCC"><br>
+        <h3><font COLOR="#990000">Dublin Core Element Set, Version 1.0: Reference Description</font></h3>
+                <p>Note: This document has been superceded by <a href="rec-dces-19990702.htm">Dublin 
+                  Core Element Set, Version 1.1</a></p>
+        <hr>
+        <p>This document has also been published as:</p>
+        <p>Weibel, S.; Kunze, J.; Lagoze, C.; Wolf, M. 1998. <a
+        href="http://www.ietf.org/rfc/rfc2413.txt">Dublin Core Metadata for Resource Discovery</a>.
+        IETF #2413. The Internet Society, September 1998.</p>
+        <hr>
+        <p>This document is the reference description of the Dublin Core Metadata Element Set. See
+        the Dublin Core Home Page (<a HREF="http://purl.org/dc/"><b>http://purl.org/dc/</b></a>)
+        for further information about the workshops, reports, working group papers, projects, and
+        new developments concerning the Dublin Core Metadata Element set. </p>
+        <p>The current list of elements and their general definitions were finalized in December
+        1996. The elements and their names are not expected to change substantively from this
+        list, though the application of some of them is currently experimental and subject to
+        varying interpretation from implementation to implementation.</p>
+        <p>Note that elements have a descriptive name intended to convey a common semantic
+        understanding of the element. To promote global interoperability, a number of the element
+        descriptions may be associated with a controlled vocabulary for the respective element
+        values. It is assumed that other controlled vocabularies will be developed for
+        interoperability within certain local domains. In the element descriptions below, a formal
+        single-word label (expressed in all upper case) is specified to make the syntactic
+        specification of elements simpler for encoding schemes. Each element is optional and
+        repeatable.</p>
+        <p>Questions or comments regarding the Dublin Core Element Set may be addressed to <!-- #BeginLibraryItem "/Library/dc@oclc.org e-mail link.lbi" --><A HREF="mailto:dc@oclc.org"><B>dc@oclc.org</B></A><!-- #EndLibraryItem -->. </p>
+        <p><b>Element Descriptions</b> 
+                <ol>
+                  <li><b><a NAME="title"></a>Title</b><br>
+                    Label: Title<br>
+                    The name given to the resource, usually by the Creator or 
+                    Publisher.. </li>
+                  <li><a NAME="creator"></a><b>Author or Creator</b><br>
+                    Label: Creator<br>
+                    The person or organization primarily responsible for creating 
+                    the intellectual content of the resource. For example, authors 
+                    in the case of written documents, artists, photographers, 
+                    or illustrators in the case of visual resources.</li>
+                  <li><a NAME="subject"></a><b>Subject and Keywords</b><br>
+                    Label: Subject<br>
+                    The topic of the resource. Typically, subject will be expressed 
+                    as keywords or phrases that describe the subject or content 
+                    of the resource. The use of controlled vocabularies and formal 
+                    classification schemas is encouraged.</li>
+                  <li><a NAME="description"></a><b>Description</b><br>
+                    Label: Description<br>
+                    A textual description of the content of the resource, including 
+                    abstracts in the case of document-like objects or content 
+                    descriptions in the case of visual resources.</li>
+                  <li><a NAME="publisher"></a><b>Publisher</b><br>
+                    Label: Publisher<br>
+                    The entity responsible for making the resource available in 
+                    its present form, such as a publishing house, a university 
+                    department, or a corporate entity. </li>
+                  <li><a NAME="contributor"></a><b>Other Contributor</b><br>
+                    Label: Contributor<br>
+                    A person or organization not specified in a Creator element 
+                    who has made significant intellectual contributions to the 
+                    resource but whose contribution is secondary to any person 
+                    or organization specified in a Creator element (for example, 
+                    editor, transcriber, and illustrator).</li>
+                  <li><a NAME="date"></a><b>Date</b><br>
+                    Label: Date<br>
+                    A date associated with the creation or availability of the 
+                    resource. Recommended best practice is defined in a profile 
+                    of ISO 8601 ( <b><a href="http://www.w3.org/TR/NOTE-datetime">http://www.w3.org/TR/NOTE-datetime</a> 
+                    </b>) that includes (among others) dates of the forms YYYY 
+                    and YYYY-MM-DD. In this scheme, the date 1994-11-05 corresponds 
+                    to November 5, 1994. </li>
+                  <li><b>Resource Type</b><br>
+                    Label: Type<br>
+                    The category of the resource, such as home page, novel, poem, 
+                    working paper, technical report, essay, dictionary. For the 
+                    sake of interoperability, Type should be selected from an 
+                    enumerated list that is under development in the workshop 
+                    series.</li>
+                  <li><a NAME="format"></a><b>Format</b><br>
+                    Label: Format<br>
+                    The data format and, optionally, dimensions (e.g., size, duration) 
+                    of the resource. The format is used to identify the software 
+                    and possibly hardware that might be needed to display or operate 
+                    the resource. For the sake of interoperability, the format 
+                    should be selected from an enumerated list that is currently 
+                    under development in the workshop series. </li>
+                  <li><a NAME="identifier"></a><b>Resource Identifier</b><br>
+                    Label: Identifier<br>
+                    A string or number used to uniquely identify the resource. 
+                    Examples for networked resources include URLs and URNs (when 
+                    implemented). Other globally-unique identifiers, such as International 
+                    Standard Book Numbers (ISBN) or other formal names would also 
+                    be candidates for this element. </li>
+                  <li><a NAME="source"></a><b>Source</b><br>
+                    Label: Source<br>
+                    Information about a second resource from which the present 
+                    resource is derived. While it is generally recommended that 
+                    elements contain information about the present resource only, 
+                    this element may contain metadata for the second resource 
+                    when it is considered important for discovery of the present 
+                    resource. </li>
+                  <li><a NAME="language"></a><b>Language</b><br>
+                    Label: Language<br>
+                    The language of the intellectual content of the resource. 
+                    Recommended best practice is defined in RFC 1766</li>
+                  <li><a NAME="relation"></a><b>Relation</b><br>
+                    Label: Relation<br>
+                    An identifier of a second resource and its relationship to 
+                    the present resource. This element is used to express linkages 
+                    among related resources. For the sake of interoperability, 
+                    relationships should be selected from an enumerated list that 
+                    is currently under development in the workshop series.</li>
+                  <li><a NAME="coverage"></a><b>Coverage</b><br>
+                    Label: Coverage<br>
+                    The spatial and/or temporal characteristics of the intellectual 
+                    content of the resource. Spatial coverage refers to a physical 
+                    region (e.g., celestial sector) using place names or coordinates 
+                    (e.g., longitude and latitude). Temporal coverage refers to 
+                    what the resource is about rather than when it was created 
+                    or made available (the latter belonging in the Date element). 
+                    Temporal coverage is typically specified using named time 
+                    periods (e.g., Neolithic) or the same date/time format ( <b><a href="http://www.w3.org/TR/NOTE-datetime">http://www.w3.org/TR/NOTE-datetime</a></b> 
+                    ) as recommended for the Date element. </li>
+                  <li><a NAME="rights"></a><b>Rights Management</b><br>
+                    Label: Rights<br>
+                    A rights management statement, an identifier that links to 
+                    a rights management statement, or an identifier that links 
+                    to a service providing information about rights management 
+                    for the resource. </li>
+                </ol>
+        </td>
+        <td WIDTH="2%" BGCOLOR="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td WIDTH="2%" BGCOLOR="#FFFFCC">&nbsp;</td>
+        <td WIDTH="96%" VALIGN="TOP" BGCOLOR="#FFFFCC" ALIGN="CENTER"><!-- #BeginLibraryItem "/Library/bottom menu.lbi" --><HR SIZE="1" noshade><A HREF="../index.htm"><B>Home</B></A>&nbsp;| <A HREF="../search/index.htm"><B>Search</B></A>&nbsp;| 
+<A HREF="../sitemap/index.htm"><B>Site&nbsp;Map</B></A>&nbsp;| <A HREF="../news/index.htm"><B>What's 
+New</B></A>&nbsp;| <A HREF="../feedback/index.htm"><B>Feedback</B></A>&nbsp;| 
+<A HREF="../about/index.htm"><B>About&nbsp;the&nbsp;Dublin&nbsp;Core</B></A>&nbsp;| 
+<A HREF="../news/index.htm"><B>News&nbsp;and&nbsp;Publications</B></A>&nbsp;| 
+<A HREF="index.htm"><B>Documents</B></A>&nbsp;| <A HREF="../education/index.htm"><B>Questions&nbsp;and&nbsp;Answers</B></A>&nbsp;| 
+<A HREF="../projects/index.htm"><B>Projects</B></A>&nbsp;| <A HREF="../tools/index.htm"><B>Tools</B></A>&nbsp;| 
+<A HREF="../groups/index.htm"><B>Working&nbsp;Groups</B></A>&nbsp;| <A HREF="../about/workshop.htm"><B>Workshop&nbsp;Series</B></A><!-- #EndLibraryItem --></td>
+        <td WIDTH="2%" BGCOLOR="#FFFFCC">&nbsp;</td>
+      </tr>
+      <tr>
+        <td WIDTH="2%" BGCOLOR="#FFFFCC">&nbsp;</td>
+        <td WIDTH="96%" BGCOLOR="#FFFFCC">&nbsp;</td>
+        <td WIDTH="2%" BGCOLOR="#FFFFCC">&nbsp;</td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td><!-- #BeginLibraryItem "/Library/_bottom copyright table.lbi" --><TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR><TD HEIGHT="20" WIDTH="100%" BGCOLOR="#000000" ALIGN="RIGHT"><!-- #BeginLibraryItem "/Library/copyright info bottom.lbi" --><FONT COLOR="#FFFFCC"><I>&copy; 2000 DCMI&nbsp;</I></FONT><!-- #EndLibraryItem -->&nbsp;</TD></TR>
+</TABLE><!-- #EndLibraryItem -->    <p></td>
+  </tr>
+</table>
+</center></div>
+</body>
+</html>

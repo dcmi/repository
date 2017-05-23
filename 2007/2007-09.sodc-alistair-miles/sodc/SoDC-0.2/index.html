@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- $Id: index.html,v 1.5 2007/09/05 17:31:08 ajm65 Exp $ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <title>Son of Dublin Core (SoDC) -- Encoding and Validating Graph-based
+  (Meta)data -- Version 0.2 (alpha)</title>
+  <meta name="generator" content="amaya 9.51, see http://www.w3.org/Amaya/" />
+  <link rel="stylesheet" href="default.css" type="text/css" />
+</head>
+
+<body>
+<h1>Son of Dublin Core (SoDC) -- Encoding and Validating and Harvesting
+Graph-based (Meta)data</h1>
+
+<h1>Version 0.2 (alpha)</h1>
+
+<p><strong>Creator:</strong> Alistair Miles</p>
+
+<p><strong>Date:</strong> $Date: 2007/09/05 17:31:08 $</p>
+
+<p><strong>This Version:</strong> 0.2 (alpha) <a
+href="http://isegserv.itd.rl.ac.uk/sodc/SODC-0_2/">http://isegserv.itd.rl.ac.uk/sodc/SODC-0_2/</a></p>
+
+<p><strong>Previous Versions:</strong> </p>
+<ul>
+  <li>0.1 (pre-alpha) <a
+    href="http://isegserv.itd.rl.ac.uk/sodc/SODC-0_1/">http://isegserv.itd.rl.ac.uk/sodc/SODC-0_1/</a></li>
+</ul>
+
+<p><strong>Latest Version:</strong> <a
+href="http://purl.org/net/sodc/">http://purl.org/net/sodc/</a></p>
+
+<p><strong>Abstract:</strong></p>
+
+<p><em>Son of Dublin Core (SoDC) consists of two main components. </em></p>
+
+<p><em>The first component, <a href="xml/">SoDC-XML</a>, is a concrete XML
+syntax for encoding graph-based (meta)data -- data that describes things
+which are related to other things. SoDC-XML is designed to allow graph-based
+(meta)data to be embedded in harvesting protocols such as OAI-PMH, and to
+make automatic quality control via simple syntactic validation really easy.
+</em></p>
+
+<p><em>The second component, <a href="constraints/">SoDC-CL</a>, is a
+language for expressing application-specific syntax constraints over a
+(meta)data graph, to enable automatic validation of (meta)data against an
+"application profile".</em></p>
+
+<p><em>SoDC also includes two supporting utilities. <a
+href="constraints/schemagen-docs">SchemaGen</a> is a tool for automatically
+generating validation schemas from SoDC-CL documents. <a
+href="xml/turtlegen-docs">TurtleGen</a> is a tool for translating SoDC-XML
+documents into the Turtle RDF syntax. </em></p>
+
+<p><strong>Quick Links:</strong></p>
+<ul>
+  <li><strong>SoDC-XML</strong> -- A Concrete Syntax for Graph-based
+    (Meta)data [<a href="xml/sodc-xml.xsd">schema</a>] [<a
+    href="xml/">documentation</a>]</li>
+  <li><strong>TurtleGen</strong> -- Translating SoDC-XML into Turtle [<a
+    href="xml/turtlegen.xsl">stylesheet</a>] [<a
+    href="xml/turtlegen-docs">documentation</a>]</li>
+  <li><strong>SoDC-CL</strong> -- A Language for Expressing Syntax
+    Constraints on Graph-based (Meta)data [<a
+    href="constraints/sodc-cl.xsd">schema</a>] [<a
+    href="constraints/">documentation</a>]</li>
+  <li><strong>SchemaGen</strong> -- Automatic Schema Generation [<a
+    href="constraints/schemagen.xsl">stylesheet</a>] [<a
+    href="constraints/schemagen-docs">documentation</a>]</li>
+</ul>
+
+<p>A zipped folder can be downloaded, containing this document and all
+related files, from the link below...</p>
+<ul>
+  <li><a href="release/SoDC-0_2.zip">release/SoDC-0_2.zip</a> -- SoDC 0.2
+    (alpha) release</li>
+</ul>
+
+<p><strong>Table of Contents:</strong></p>
+
+<div class="toc">
+<ul>
+  <li><a href="#L91">1. Introduction</a> 
+    <ul>
+      <li><a href="#L911">1.1. Virtual Metadata</a></li>
+      <li><a href="#L706">1.2. Joined-up Metadata</a></li>
+      <li><a href="#L714">1.3. Meaningful Metadata</a></li>
+      <li><a href="#L726">1.4. Aligning Communities</a></li>
+    </ul>
+  </li>
+  <li><a href="#L797">2. Architecture</a></li>
+  <li><a href="#L382">3. Design Goals</a></li>
+  <li><a href="#L1298">4. Release Notes</a> 
+    <ul>
+      <li><a href="#L1321">4.1. Version 0.2 (alpha)</a></li>
+      <li><a href="#L1307">4.2. Version 0.1 (pre-alpha)</a></li>
+    </ul>
+  </li>
+  <li><a href="#L907">5. References</a></li>
+</ul>
+<hr />
+</div>
+
+<h2 id="L91">1. Introduction</h2>
+
+<h3 id="L911">1.1. Virtual Metadata</h3>
+
+<p>The notion of a graph - a set of nodes connected to other nodes - provides
+a powerful abstraction for metadata interoperability. All metadata can be
+viewed, or "virtualised", through this abstraction. Virtualisation leads
+directly to substantial cost savings, because metadata software systems can
+be "syntax-independent" -- written once then deployed for multiple concrete
+syntaxes. An analogy is the Java programming language, which provides a
+virtualisation of the underlying operating systems, allowing software to be
+"platform-independent" -- written once then deployed across multiple
+platforms.</p>
+
+<h3 id="L706">1.2. Joined-up Metadata</h3>
+
+<p>In addition to cost savings through virtualisation, metadata graphs
+provide additional benefits. Graphs can be easily merged with other graphs,
+providing a mechanism for integrating or "joining up" metadata from disparate
+sources. The utility of this feature is highly significant, as various
+metadata silos seek to provide an experience whereby users can browse
+seamlessly across the relationships between scholarly works, scientific
+datasets, projects, organisations, people and subject areas. This
+"Webification" of metadata describing all aspects the scholarly lifecycle can
+only be achieved by joining up metadata from multiple silos, where each silo
+only holds a part of the "overall picture".</p>
+
+<h3 id="L714">1.3. Meaningful Metadata</h3>
+
+<p>A further benefit is that semantics can be precisely defined for
+graph-based metadata. Semantics have immediate, short term utility, because
+they provide (amongst other things) a means for graceful degradation of
+interoperability between applications. This principle is already crudely
+illustrated by the "dumb-down" procedure defined by the Dublin Core Metadata
+Initiative for its metadata architecture. Dumb-down means that not all
+applications have to understand the details of all metadata schemas --
+specific schemas can be designed for specific applications, without
+compromising interoperability at more general levels.</p>
+
+<p>The thin layering of application-specific semantics on metadata graphs
+provides a graceful, less crude, replacement to "dumb-down". This approach
+allows enormous flexibility and removes social barriers otherwise created by
+the need for wide acceptance of large and detailed metadata specifications,
+allowing applications to be designed quickly and efficiently to satisfy the
+requirements of a specific community, without fear of isolating that
+community from its neighbours.</p>
+
+<h3 id="L726">1.4. Aligning Communities</h3>
+
+<p>Metadata virtualisation, via the notion of metadata graphs, is already
+gaining traction in a number of important communities. The Resource
+Description Framework (RDF), which provides an abstract syntax and semantics
+for metadata graphs, is a W3C Recommendation for publishing graph-based
+metadata on the Web. The Dublin Core Metadata Initiative has based the design
+of its core architecture standards on a graph-like model of resource
+descriptions, inspired by and with a mapping to RDF. The OAI-ORE initiative
+has built the foundations for its compound information objects specification
+on the notion of named metadata graphs. The LUISA EU project has developed a
+toolkit for deploying lightweight, highly-configurable metadata editors, also
+based on metadata graphs.</p>
+
+<p>In spite of this, vital architectural components are missing or are not
+integrated, preventing this technology from being fully exploited across a
+wide community sharing similar concerns. Because of this, the three major
+initiatives (OAI-ORE, W3C Semantic Web Activity, DCMI) are not currently
+aligned. If they were aligned, advances made within any one community could
+be immediately transferrable to all others. For example, the DCMI has made
+important progress towards the formal definition of "application profiles",
+which are application-specific specifications of metadata usage, used to set
+expectations between communicating parties and define automated quality
+control processes for metadata exchange. However, because this work has been
+built on the DCMI Abstract Model, and not directly on a graph-based metadata
+model, these important achievements cannot be transferred to the Semantic Web
+or OAI-ORE contexts, where tools and techniques for metadata validation are
+in great demand. Similarly, there is no standard way of exposing metadata
+graphs, of the kind envisioned by the OAI-ORE community for the description
+of compound information objects, or of the kind envisioned by the ePrints
+application profile for the description of scholarly works, via the OAI-PMH
+protocol.</p>
+
+<p>Therefore, there exists an exciting opportunity to leverage work across
+these initiatives and to bring them into alignment, via the provision of key
+enabling and integrating technologies.</p>
+
+<h2 id="L797">2. Architecture</h2>
+
+<p>The starting point for the SoDC information architecture is the Resource
+Description Framework (RDF) abstract syntax. The RDF abstract syntax provides
+a foundation for graph-based (meta)data -- data that describes things which
+are related to other things.</p>
+
+<p>Informally, the RDF abstract syntax can be summarised as follows. A graph
+describes resources, each resource has properties which have values. The
+value of a property can be a URI, a literal or a blank node (a.k.a.
+"anonymous" resource). A literal can be a plain literal or a typed literal. A
+resource can be identified by a URI, or can be "anonymous". A property is
+identified by a URI.</p>
+
+<p>So, for example, a graph might describe a book titled "Winnie the Pooh",
+created by a person called "A. A. Milne".</p>
+
+<h2 id="L382">3. Design Goals</h2>
+
+<p><a href="xml/">SoDC-XML</a> is a concrete XML syntax for graph-based
+(meta)data. SoDC-XML has the following design goals:</p>
+<ul>
+  <li>Concrete encoding of the RDF abstract syntax;</li>
+  <li>Suitable for embedding in (meta)data harvesting protocols, e.g.
+  OAI-PMH;</li>
+  <li>Constrained by a W3C XML schema, to support basic syntax
+  validation;</li>
+  <li>Can be constrained by an application-specific schema, to support higher
+    levels of syntax validation.</li>
+</ul>
+
+<p><a href="constraints/">SoDC-CL</a> (Constraints Language) is a language
+for expressing application-specific syntax constraints over graph-based
+(meta)data, such as those defined by an "application profile". SoDC-CL has
+the following design goals:</p>
+<ul>
+  <li>Express constraints over the RDF abstract syntax;</li>
+  <li>Can be used to automatically generate a concrete syntax validation
+    tool, such as a Schematron schema, which can then be used to perform
+    application-specific syntax validation of (meta)data encoded in SoDC-XML.
+  </li>
+</ul>
+
+<p>See also <a href="constraints/schemagen-docs">SchemaGen</a> and <a
+href="xml/turtlegen-docs">TurtleGen</a> documentation.</p>
+
+<h2 id="L1298">4. Release Notes</h2>
+
+<h3 id="L1321">4.1. Version 0.2 (alpha)</h3>
+<ul>
+  <li>Modified SoDC-XML schema to enforce uniqueness of property/value on
+    resource.</li>
+  <li>Implemented TurtleGen.</li>
+  <li>Refactored documentation.</li>
+</ul>
+
+<h3 id="L1307">4.2. Version 0.1 (pre-alpha)</h3>
+
+<p>Initial release.</p>
+
+<h2 id="L907">5. References</h2>
+<dl>
+  <dt>[RDF-CONCEPTS]</dt>
+    <dd><a
+      href="http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/">http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/</a></dd>
+  <dt>[RDF-SEMANTICS]</dt>
+    <dd><a
+      href="http://www.w3.org/TR/2004/REC-rdf-mt-20040210/">http://www.w3.org/TR/2004/REC-rdf-mt-20040210/</a></dd>
+</dl>
+<hr />
+<pre>    --- change log ---
+    $Log: index.html,v $
+    Revision 1.5  2007/09/05 17:31:08  ajm65
+    Minor, editorial.
+
+    Revision 1.4  2007/09/05 17:24:01  ajm65
+    Minor, fixed links for rename of docs files.
+
+    Revision 1.3  2007/09/05 17:07:25  ajm65
+    Fixed CVS log.
+
+    Revision 1.2  2007/09/05 17:05:57  ajm65
+    Added release notes.
+
+    Revision 1.1  2007/09/05 ajm65
+    Moved and refactored content.
+
+    Revision 1.3  2007/09/03 09:06:40  ajm65
+    Filled in examples for turtlegen implementation; minor header changes.
+
+    Revision 1.2  2007/08/31 11:29:45  ajm65
+    Added release version and link to zip.
+
+    Revision 1.1  2007/08/31 10:01:25  ajm65
+    Initial version, partial implementation.
+
+  </pre>
+
+<p></p>
+</body>
+</html>

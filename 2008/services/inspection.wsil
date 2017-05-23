@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inspection xmlns="http://schemas.xmlsoap.org/ws/2001/10/inspection/">
+<abstract>Dublin Core Metadata Initiative</abstract>
+
+<service>
+<name>ItemSummary</name>
+<abstract>This service returns a list of all resources that are registered. No input parameters are required.
+</abstract>
+<description referencedNamespace="http://schemas.xmlsoap.org/wsdl/"
+	   location="http://dublincore.org/axis/services/itemSummary?wsdl"></description>
+</service>
+
+<service>
+<name>ItemDetail</name>
+<abstract>This service returns all known information about a resource in the requested language. 
+This interface requires a resource name (i.g., http://purl.org/dc/elements/1.1/creator) and a 
+language code (i.g., en-US).
+</abstract>
+<description referencedNamespace="http://schemas.xmlsoap.org/wsdl/"
+	   location="http://dublincore.org/axis/services/itemDetail?wsdl"></description>
+</service>
+
+<service>
+<name>encodingSchemesSummary</name>
+<abstract>This service returns a list of all registered encoding schemes. No input parameters are required.
+</abstract>
+<description referencedNamespace="http://schemas.xmlsoap.org/wsdl/"
+	   location="http://dublincore.org/axis/services/encodingSchemesSummary?wsdl"></description>
+</service>
+
+<service>
+<name>refinementsSummary</name>
+<abstract>This service returns a list of all registered element refinements. No input parameters are required.
+</abstract>
+<description referencedNamespace="http://schemas.xmlsoap.org/wsdl/"
+	   location="http://dublincore.org/axis/services/refinementsSummary?wsdl"></description>
+</service>
+
+<service>
+<name>termUpdates</name>
+<abstract>This service returns a list of all changes to the Registry, in a specific language, since a specific date.
+This interface requires a date and a language (i.g., 20021015 en-US).
+</abstract>
+<description referencedNamespace="http://schemas.xmlsoap.org/wsdl/"
+	   location="http://dublincore.org/axis/services/termUpdates?wsdl"></description>
+</service>
+
+<service>
+<name>vocabularyTermsSummary</name>
+<abstract>This service returns a list of all registered controlled vocabulary terms. No input parameters are required.
+</abstract>
+<description referencedNamespace="http://schemas.xmlsoap.org/wsdl/"
+	   location="http://dublincore.org/axis/services/vocabularyTermsSummary?wsdl"></description>
+</service>
+
+<service>
+<name>languagesSummary</name>
+<abstract>This service returns a list of all supported languages. No input parameters are required.
+</abstract>
+<description referencedNamespace="http://schemas.xmlsoap.org/wsdl/"
+	   location="http://dublincore.org/axis/services/languagesSummary?wsdl"></description>
+</service>
+
+<service>
+<name>elementSummary</name>
+<abstract>This service returns a list of all registered elements. No input parameters are required.
+</abstract>
+<description referencedNamespace="http://schemas.xmlsoap.org/wsdl/"
+	   location="http://dublincore.org/axis/services/elementSummary?wsdl"></description>
+</service>
+
+</inspection>
+

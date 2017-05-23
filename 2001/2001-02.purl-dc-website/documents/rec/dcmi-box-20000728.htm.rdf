@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/documents/rec/dcmi-box-20000728.htm">
+   <dc:title>Dublin Core Metadata Initiative - DCMI Box Encoding Scheme</dc:title>
+   <dc:creator>Simon Cox</dc:creator>
+   <dc:description>The DCMI Box encoding scheme is a method for 
+                    identifying a region of space using its geographic limits. 
+                    Components of the value correspond to the bounding coordinates 
+                    in north, south, east and west directions, plus optionally 
+                    up and down, and also allow the coordinate system and units 
+                    to be specified, and a name if desired. A method for encoding 
+                    DCMI Box in a text-string, as a profile of DCSV is described. 
+                    This notation is intended for recording the value of the DCMES 
+                    element Coverage, particularly when using HTML meta 
+                    elements. An alternative encoding for DCMI Box using XML is 
+                    also shown.</dc:description>
+   <dc:date>2000-07-28</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

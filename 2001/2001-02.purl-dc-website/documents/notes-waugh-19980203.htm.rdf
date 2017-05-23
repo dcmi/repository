@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/documents/notes/notes-waugh-19980203.htm">
+   <dc:title>Representing People's Names in Dublin Core</dc:title>
+   <dc:description>This note provides some guidance on representing people's names in metadata.</dc:description>
+   <dc:date>1998-02-03</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Andrew Waugh</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

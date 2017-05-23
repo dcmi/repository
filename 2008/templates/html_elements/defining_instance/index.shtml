@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>Defining Instance</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1 id="title">Defining Instance</h1>
+<dl>
+<dt>HTML Tag:</dt>
+<dd><code>&lt;DFN&gt;&lt;/DFN&gt;</code></dd>
+<dt>Guidelines:</dt>
+<dd>A <code>DFN</code> element signifies the first usage of a term in a document (its defining instance). A common technique in documents is to italicize an important vocabulary term the first time it is used in a document. This is generally the place in the document where the term is defined so that it may be used in subsequent sentences with its meaning understood. By default, Internet Explorer italicizes all text within a <code>DFN</code> element.</dd>
+<dt>Warnings:</dt>
+<dd>The <code>DFN</code> element is not supported in Navigator (up to version 4.x).</dd>
+<dt>Priority:</dt>
+<dd>-</dd>
+</dl>
+<h2>Browser View:</h2>
+<p>Concerto composers usually provide a space for soloists to show off technical skills while reminding the audience of various themes used throughout the movement. This part of the concerto is called the <dfn>cadenza</dfn>.</p>
+<h2>Source View:</h2>
+<code>&lt;P&gt;Concerto composers usually provide a space for soloists to show off technical skills while reminding the audience of various themes used throughout the movement. This part of the concerto is called the &lt;DFN&gt;cadenza&lt;/DFN&gt;.&lt;/P&gt;</code>
+</body>
+</html>

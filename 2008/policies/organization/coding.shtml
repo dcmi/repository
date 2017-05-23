@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  
+<head>
+    
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    
+<title>DCMI Website Standards and Policy Manual - HTML Coding Guidelines</title>
+    
+<meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    
+<link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+ 
+</script>
+  
+</head>
+
+  
+<body>
+    
+<!--#include virtual="/ssi/policies/header.shtml" -->
+<table
+    summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content."
+     border="0" width="100%" cellspacing="0" cellpadding="5">
+      <tbody>
+        
+<tr valign="top">
+          
+<td bgcolor="#EEEEEE" width="150">
+            
+<!--#include virtual="/ssi/policies/organization.shtml" -->
+</td>
+<td>
+<h1>HTML Coding Guidelines</h1>
+<h2>DOCTYPE</h2>
+<p>Each HTML file should be preceded by the appropriate DOCTYPE:</p>
+<blockquote>
+<pre>
+&lt;!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     &quot;DTD/xhtml1-strict.dtd&quot;&gt;
+
+&lt;!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "DTD/xhtml1-transitional.dtd"&gt;
+
+&lt;!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+     &quot;DTD/xhtml1-frameset.dtd&quot;&gt;
+</pre>
+</blockquote>
+<p>See <a href="http://www.w3.org/TR/xhtml1/">XHTML&#153; 1.0: The Extensible HyperText Markup Language</a> for more information.</p>
+<h2>Title</h2>
+<p>The title of the HTML document should be descriptive of its contents. Keep in mind that the title displays in the search results.</p>
+<h2>Cascading Style Sheet</h2>
+<p>Each HTML file should include a root-relative link to the external global cascading style sheet in the HEAD of the document:</p>
+<blockquote>
+			
+<pre>
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/default.css&quot; type=&quot;text/css&quot;&gt;</pre>
+		</blockquote>
+<h2>JavaScript</h2>
+<p>Each HTML file should include a root-relative link to the external global JavaScript file in the HEAD of the document:</p>
+<blockquote>
+			
+<pre>
+&lt;script src=&quot;/js/default.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</pre>
+		</blockquote>
+<h2>Metadata</h2>
+<p>Metadata is required for pages published on dublincore.org. A link to the appropriate RDF file, named after the HTML equivalent, should be included in the HEAD of every document. Example:</p>
+<blockquote>
+<pre>&lt;link rel=&quot;meta&quot; href=&quot;australasia.shtml.rdf&quot; /&gt;</pre>
+</blockquote>
+<h2>Header</h2>
+<p>The header needs to appear at the top of the page and the code should be right after the opening BODY tag in each document.</p>
+<p>Use the following header code for all pages (with the exception of the DCMI home page):</p>
+<blockquote>
+			
+<p><code>&lt;!--#include virtual=&quot;/ssi/header.shtml&quot;--&gt;</code></p>
+</blockquote>
+<h2>Footer</h2>
+<p>The footer needs to appear at the bottom of the page and the code should be right before the closing BODY and closing HTML tags in each document.</p>
+<p>Use the following footer code for all pages:</p>
+<blockquote>
+			
+<p><code>&lt;!--#include virtual=&quot;/ssi/footer.shtml&quot;--&gt;</code></p>
+</blockquote>
+<h2>Proprietary Tags</h2>
+<p>The use of proprietary tags should be avoided. Examples of proprietary tags include, but are not limited to:</p>
+<ul>
+<li>nobr</li>
+<li>marquee</li>
+<li>layer</li>
+<li>font</li>
+</ul>
+<h2>Font Tags</h2>
+<p>The use of the font face tag is discouraged. Style sheets are used for indicating font face, style and size changes.</p>
+<h2>Image Tags</h2>
+<p>All images should have contain a descriptive ALT attribute. For information on the more efficient use of the ALT attribute, please refer to the <a href="/policies/accessibility/">section on accessibility</a>.</p>
+<h2>Frames</h2>
+<p>The use of frames on dublincore.org is discouraged. Frames should only be used in a logical manner when they will provide a clear benefit that is unattainable without the use of frames.</p>
+<h2>Special Characters</h2>
+<p>The numerical entity should be used for all special characters, with the exception of &quot;, &lt;, &gt;, and &amp; which may use named entities. For example, a trademark should be coded as &amp;#153; and a quotation mark should be coded as &amp;quot; or &amp;#034;.</p>
+<p>Trademarks, registered trademarks, and service marks should be used only at the first instance they occur in an HTML document. Subsequent references in the same HTML document would be coded without the mark.</p>
+</td>
+</tr>
+      </tbody>
+    
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

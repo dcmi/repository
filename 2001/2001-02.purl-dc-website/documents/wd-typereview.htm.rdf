@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns = "http://purl.org/dc/elements/1.0/">
+ <rdf:Description about="http://purl.org/dc/documents/wd-typereview.htm">
+   <title>Dublin Core Type Working Group - Review of RFC2413</title>
+   <description>The main changes from the earlier definition in RFC 2413 are a) adoption of ISO 11179 representation; b) deletion of examples; c) more general statement about use of enumerated lists and indication of SCHEME used; d) statement to contrast with Format.</description>
+   <date>1999-03-15</date>
+   <format>text/html</format>
+   <language>en</language>
+   <contributor>Dublin Core Metadata Initiative</contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

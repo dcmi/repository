@@ -1,0 +1,21 @@
+
+    <!--#include virtual="tool-head.shtml" -->
+    <!--#include virtual="/ssi/header.shtml" -->
+    <h1>My Meta Maker</h1>
+    <table cellspacing="0" class="noborder">
+<tr><td>Identifier:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.isn-oldenburg.de/services/mmm/">http://www.isn-oldenburg.de/services/mmm/</a></td></tr>
+<tr><td>Description:&nbsp;&nbsp;&nbsp;</td><td>Online tool to create or edit metadata for online (open access) publications.</td></tr>
+<tr><td>Rights:&nbsp;&nbsp;&nbsp;</td><td>free online tool, rights hold by ISN Oldenburg GmbH</td></tr>
+<tr><td>Language:&nbsp;&nbsp;&nbsp;</td><td>eng (ISO 639-2)</td></tr>
+<tr><td>Creator:&nbsp;&nbsp;&nbsp;</td><td>Thomas Severiens</td></tr>
+<tr><td>Contributor:&nbsp;&nbsp;&nbsp;</td><td>Svend Age Biehs</td></tr>
+<tr><td>Publisher:&nbsp;&nbsp;&nbsp;</td><td>ISN - Institute for Science Networking Oldenburg GmbH</td></tr>
+<tr><td>Location:&nbsp;&nbsp;&nbsp;</td><td>Germany</td></tr>
+<tr><td>Date:&nbsp;&nbsp;&nbsp;</td><td>2001-2003</td></tr>
+<tr><td>Programming Language:&nbsp;&nbsp;&nbsp;</td><td>Perl</td></tr>
+</table>
+    <p><small>For an application profile see the <a href="/groups/tools/map.shtml">DCMI Tools
+    Application Profile</a></small>
+    <!--#include virtual="/ssi/footer.shtml" -->
+    </body>
+    </html>

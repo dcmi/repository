@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DRAFT UPDATE to DCMI Namespace Policy</title>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.title" content="Namespace Policy for the Dublin Core Metadata Initiative (DCMI)" />
+<meta name="DC.description" content="This document is most recent version of the Dublin Core Metadata 
+Namespace Policy" />
+<meta name="DC.publisher" content="Dublin Core Metadata Initiative" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="stylesheet" href="http://dublincore.org/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="header">
+<table width="100%" cellspacing="0" cellpadding="0" bgcolor="#FF6600">
+<tr>
+<td width="70"><a href="/index.shtml"><img src="/images/header/logo_sm.gif" width="150" height="70" alt="Dublin Core Metadata Initiative logo" /></a></td>
+<td width="100%" height="70" align="right" valign="top">
+<table width="328" cellspacing="0" cellpadding="0">
+<tr>
+<td width="82" height="30"><a href="/about/"><img src="/images/menu/about.gif" width="82" height="30" alt="About the Initiative" /></a></td>
+<td width="82" height="30"><a href="/documents/"><img src="/images/menu/documents.gif" width="82" height="30" alt="Documents" /></a></td>
+<td width="82" height="30"><a href="/groups/"><img src="/images/menu/groups.gif" width="82" height="30" alt="Working Groups" /></a></td>
+<td width="82" height="30"><a href="/resources/"><img src="/images/menu/resources.gif" width="82" height="30" alt="Resources" /></a></td>
+</tr>
+<tr>
+<td width="82" height="30"><a href="/news/"><img src="/images/menu/news.gif" width="82" height="30" alt="Dublin Core Metadata Initiative News" /></a></td>
+<td width="82" height="30"><a href="/tools/"><img src="/images/menu/tools.gif" width="82" height="30" alt="Tools and Software" /></a></td>
+<td width="82" height="30"><a href="/projects/"><img src="/images/menu/projects.gif" width="82" height="30" alt="Projects" /></a></td>
+<td width="82" height="30"><a href="http://askdcmi.askvrd.org/"><img src="/images/menu/askdcmi.gif" width="82" height="30" alt="AskDCMI" /></a></td>
+
+</tr>
+</table>
+</td>
+</tr>
+<tr><td colspan="2" height="30"><a href="/index.shtml"><img src="/images/header/dcmi_sm.gif" width="329" height="30" alt="Dublin Core Metadata Initiative" /></a></td></tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="6">
+<tr>
+<td class="crumb"><a href="http://dublincore.org/">Home</a> >&nbsp;<a href="http://dublincore.org/documents/">Documents</a>&nbsp;>&nbsp;<a href="http://dublincore.org/documents/dcmi-namespace/">Dcmi-namespace</a>&nbsp;>&nbsp;</td>
+<td align="right">
+
+<form method="post" action="/cgi-bin/htsearch">
+<input type="hidden" name="method" value="and" />
+<input type="hidden" name="format" value="builtin-long" />
+<input type="hidden" name="sort" value="score" />
+<input type="hidden" name="config" value="htdig" />
+<input type="hidden" name="restrict" value="" />
+<input type="hidden" name="exclude" value="" />
+
+<table cellspacing="0" cellpadding="2">
+<tr>
+<td nowrap="nowrap"><input type="text" value="Enter keyword" name="words" size="20" onfocus="if(this.value=='Enter keyword')this.value='';" onblur="if(this.value=='')this.value='Enter keyword';" class="search" />&nbsp;</td>
+<td><input type="submit" name="submit" value="Search" class="button" /></td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+
+</table>
+</div>
+
+<h1>DRAFT UPDATE to Namespace Policy for the Dublin Core Metadata Initiative (DCMI)</h1>
+<table cellspacing="0" class="docinfo">
+<tr>
+<th>Editor:</th>
+<td><a href="mailto:a.powell@ukoln.ac.uk">Andy Powell</a></td>
+</tr>
+<tr>
+<th>Editor:</th>
+<td><a href="mailto:wagnerh@oclc.org">Harry Wagner</a></td>
+
+</tr>
+<tr>
+<th>Contributor:</th>
+<td><a href="mailto:weibel@oclc.org">Stuart Weibel</a></td>
+</tr>
+<tr>
+<th>Contributor:</th>
+<td><a href="mailto:Thomas.Baker@gmd.de">Tom Baker</a></td>
+</tr>
+<tr>
+<th>Contributor:</th>
+<td><a href="mailto:tmatola@columbus.rr.com">Tod Matola</a></td>
+
+</tr>
+<tr>
+<th>Contributor:</th>
+<td><a href="mailto:em@w3.org">Eric Miller</a></td>
+</tr>
+<tr>
+<th>Contributor:</th>
+<td><a href="mailto:p.johnston@ukoln.ac.uk">Pete Johnston</a></td>
+</tr>
+<tr>
+<th>Date Issued:</th>
+<td>2005-08-17</td>
+</tr>
+<tr>
+<th>Identifier:</th>
+<td>&nbsp;</td>
+
+</tr>
+<tr>
+<th>Replaces:</th>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<th>Is Replaced By:</th>
+<td>Not Applicable</td>
+</tr>
+<tr>
+<th>Latest version:</th>
+<td>&nbsp;</td>
+
+</tr>
+<tr>
+<th>Status of document:</th>
+<td><strong>DRAFT UPDATE</strong> to DCMI Recommendation</td>
+</tr>
+<tr>
+<th>Description of document:</th>
+<td>
+All <i>terms</i> used in metadata descriptions that conform to the
+DCMI Abstract Model
+<a href="#DCAM">[DCAM]</a>
+must be assigned a unique URI
+<a href="#RFC3986">[RFC3986]</a>.
+For convenience, the <i>term URIs</i> that are assigned and managed
+by the DCMI are grouped into collections known as <i>DCMI namespaces</i>.
+This document describes how <i>term URIs</i> are allocated by the DCMI
+and the policies associated with <i>DCMI namespaces</i>.
+</td>
+</tr>
+</table>
+
+<p><strong>Glossary:</strong></p>
+<p>This document uses the following terminology:</p>
+<dl>
+<dt>
+<i>term</i>
+<dd>
+A property (i.e. element or element refinement), vocabulary encoding
+scheme, syntax encoding scheme or concept taken from a controlled
+vocabulary (concept space).
+<dt>
+<i>DCMI term</i>
+<dd>
+A <i>term</i>
+that is declared and maintained by the DCMI.
+<dt>
+<i>term URI</i>
+<dd>
+The URI that identifies a <i>term</i>.
+<dt>
+<i>term name</i>
+<dd>
+A human-readable token assigned to a <i>term</i>.
+<dt>
+<i>DCMI term URI</i>
+<dd>
+The URI for a <i>term</i>
+that is declared and managed by the DCMI.
+<dt>
+<i>vocabulary</i>
+<dd>
+A collection of <i>terms</i> (often as used in the context of an 'application
+profile').
+<dt>
+<i>DCMI namespace</i>
+<dd>
+A collection of <i>DCMI term URIs</i>
+where each <i>term</i> is
+assigned a URI that starts with the same 'base URI'.  The 'base URI' is
+known as the <i>DCMI namespace URI</i>.
+(Note that a <i>DCMI namespace</i> is not the same as an 'XML namespace').
+<dt>
+<i>DCMI namespace URI</i>
+<dd>
+The URI that identifies a <i>DCMI namespace</i>.
+<dt>
+<i>DCMI recommendation</i>
+<dd>
+A human-readable document that may define one or more <i>DCMI terms</i>.
+<dt>
+<i>DCMI term declaration</i>
+<dd>
+A machine-processable representation of one or more <i>DCMI terms</i>,
+expressed in a schema language.
+</dl>
+<p>
+Note that the grouping of <i>term URIs</i> into a <i>DCMI namespace</i> is
+orthogonal to the grouping of <i>terms</i> into a <i>vocabulary</i>.  <i>Term
+URIs</i> are grouped into <i>DCMI namespaces</i> in order to ease the
+assignment of URIs to <i>terms</i> and to streamline their use in particular encoding
+syntaxes.  <i>Terms</i> are grouped into <i>vocabularies</i> in order to meet a
+functional need.
+</p>
+<h2>1. Introduction</h2>
+<p>
+All <i>terms</i> used in metadata descriptions that conform to the DCMI Abstract
+Model
+<a href="#DCAM">[DCAM]</a>
+must be assigned a unique URI
+<a href="#RFC3986">[RFC3986]</a>.
+For convenience, the <i>term URIs</i>
+that are assigned and managed by the DCMI are grouped into collections
+known as <i>DCMI namespaces</i>.
+This document describes how <i>term URIs</i> are allocated by the
+DCMI and the policies associated with <i>DCMI namespaces</i>.
+</p>
+<h2>2. DCMI Namespace URIs</h2>
+<p>The <i>DCMI namespace URI</i> used for
+the collection of properties that make up the Dublin Core Metadata Element Set, Version 1.1 <a href="#DCMES">[DCMES]</a> is:</p>
+
+<pre class="example">
+http://purl.org/dc/elements/1.1/
+</pre>
+
+<p>The <i>DCMI namespace URI</i>
+used for the collection of all other DCMI properties and encoding schemes
+(i.e. other than those properties defined in the Dublin Core Metadata Element Set, Version 1.1 above) is:</p>
+
+<pre class="example">
+http://purl.org/dc/terms/
+</pre>
+
+<p>The <i>DCMI namespace URI</i>
+used for the collection of <i>DCMI terms</i> in the DCMI Type Vocabulary [<a href="#DCMI-TYPE">DCMI-TYPE</a>] is:</p>
+
+<pre class="example">
+http://purl.org/dc/dcmitype/
+</pre>
+
+<p>Therefore, the three currently approved <i>DCMI namespace URIs</i> are:</p>
+
+<table cellspacing="0" class="border">
+
+<tr>
+<th>http://purl.org/dc/elements/1.1/</th>
+<td>Dublin Core Metadata Element Set, Version 1.1 (15 elements)</td>
+</tr>
+<tr>
+<th>http://purl.org/dc/terms/</th>
+<td>DCMI properties and encoding schemes (other than those properties defined in the Dublin Core Metadata Element Set, Version 1.1 above)</td>
+</tr>
+<tr>
+<th>http://purl.org/dc/dcmitype/</th>
+<td>DCMI terms in the DCMI Type Vocabulary</td>
+
+</tr>
+</table>
+
+<p>All <i>DCMI namespace URIs</i> will dereference to a machine-processable
+<i>DCMI term declaration</i> for all the <i>terms</i> with
+<i>term URIs</i> within that <i>DCMI namespace</i>.</p>
+
+<p>Some example <i>DCMI term URIs</i> follow:</p>
+<pre class="example">
+http://purl.org/dc/elements/1.1/title
+</pre>
+
+<p>is the <i>DCMI term URI</i> for the Title element in the Dublin Core Metadata Element Set, Version 1.1,</p>
+
+<pre class="example">
+http://purl.org/dc/terms/extent
+</pre>
+
+<p>is the <i>DCMI term URI</i> for the Extent property, and</p>
+
+<pre class="example">
+http://purl.org/dc/dcmitype/Image
+</pre>
+
+<p>is the <i>DCMI term URI</i> for the Image <i>term</i>
+in the DCMI Type Vocabulary.
+Each <i>DCMI term</i> can be so identified.</p>
+
+<p>All future <i>DCMI namespace URIs</i>
+(additional DCMI controlled vocabularies for example)
+will conform to this pattern:</p>
+
+<pre class="example">
+http://purl.org/dc/namespace_label/
+</pre>
+
+<h2>3. Policy concerning classes of changes to DCMI terms</h2>
+<p>Changes to <i>DCMI terms</i> or <i>term declarations</i> will occur from
+time to time for a variety of reasons.
+Such changes have varying implications for <i>DCMI term URIs</i>
+and <i>DCMI namespaces</i>.
+The following classes of changes are identified along with examples and associated implications.</p>
+<p>In all cases, any changes to <i>DCMI terms</i> or <i>term declarations</i> will result in an update to the versioning information carried in the <i>DCMI recommendation</i> and/or <i>DCMI term declaration</i> associated with that <i>term</i>.</p>
+<h3>A. Minor editorial errata</h3>
+<p>Errors of spelling, punctuation, or other clerical mistakes discovered in <i>DCMI recommendations</i> and/or <i>DCMI term declarations</i> will be corrected without a comment period, following notification to the DCMI Usage Board [<a href="#DCMI-USAGE">DCMI-USAGE</a>], as long as, in the judgment of the DCMI Directorate, there are no implications for negative impact on users or applications that rely on those <i>DCMI term declarations</i>.</p>
+
+<p>Correction of minor editorial errata will result in no changes to
+<i>DCMI term URIs</i>.</p>
+<h3>B. Substantive editorial errata</h3>
+<p>Errors of substance discovered in <i>DCMI recommendations</i> and/or <i>DCMI term declarations</i> will trigger public notification of the correction to the DC-General mailing list <a href="#DC-GENERAL">[DC-GENERAL]</a>. Errors that, in the judgment of the DCMI Directorate, compromise the immediate usefulness or accuracy of DCMI metadata systems will be corrected immediately (for example, an incorrect URL to a resource external to DCMI). Others will be corrected following a 14-day public comment period to assure that changes do not adversely effect systems or applications which rely on the <i>DCMI namespace</i> infrastructure.</p>
+<p>Correction of substantive editorial errata will result in no changes in <i>DCMI term URIs</i>.</p>
+<h3>C. Semantic changes in DCMI terms</h3>
+<p>Changes of definitions within <i>DCMI recommendations</i> and/or <i>DCMI term declarations</i> will be reflected in the affected <i>DCMI recommendation</i> and/or <i>DCMI term declaration</i>.
+If, in the judgment of the DCMI Directorate, such changes of meaning are likely to have substantial impact on either machine processing of <i>DCMI terms</i> or the functional semantics of the <i>terms</i>, then these changes will be reflected in a change of URI for the <i>DCMI term</i> or <i>terms</i> in question.
+The URIs for any new <i>DCMI namespacess</i> resulting from such changes will conform to the <i>DCMI namespace URI</i> pattern defined above.</p>
+<h3>D. Addition of DCMI term declarations to existing DCMI namespaces</h3>
+<p>New <i>DCMI term URIs</i> will occasionally be added to existing <i>DCMI namespaces</i>.
+Addition of <i>DCMI term URIs</i> to existing <i>DCMI namespaces</i> will not trigger changes in
+<i>DCMI namespace URIs</i>.</p>
+
+<h2>4. Persistence Policy</h2>
+<p>The DCMI recognizes that people and applications depend on the persistence of formal documents and machine processable schemas that have been made publicly available.
+In particular, the stability of <i>DCMI term URIs</i> and <i>DCMI namespace URIs</i> is critical to interoperability over time.
+Thus, the wide promulgation of this set of URIs dictates that they be maintained to support legacy applications that have adopted them.</p>
+
+<h2>6. Justification</h2>
+<p>Two significant issues were raised during the development of this policy.
+Firstly, that <i>DCMI namespace URIs</i> should indicate the category of <i>DCMI terms</i> associated with that namespace.
+For example, it was proposed that different <i>DCMI namespaces</i> might be used to partition <i>DCMI properties</i> from <i>DCMI encoding schemes</i>, or to indicate that a particular <i>term</i> was originally defined by a particular community or within a particular domain.
+Secondly, that all <i>DCMI namespace URIs</i> should carry versioning information (for example a date stamp) that would be updated as <i>terms</i> within the namespace change.</p>
+<p>On the first issue it was considered that the category of <i>DCMI terms</i> was not necessarily persistent.
+For example, <i>terms</i> defined initially by the education community might subsequently become useful to other communities.
+Associating particular URIs with particular categories of <i>terms</i> was not felt to be helpful to the long-term stability of <i>DCMI namespaces</i> or the URIs of <i>DCMI terms</i> within those namespaces.</p>
+<p>On the second issue it was again considered that embedding versioning information within the <i>DCMI namespace URI</i> was unlikely to be helpful to the long-term stability of <i>DCMI namespace URIs</i> or <i>DCMI term URIs</i> within those <i>DCMI namespaces</i>.
+Rather, it was felt that versioning information should be carried within the <i>DCMI recommendations</i> and/or <i>DCMI term declarations</i> associated with <i>DCMI namespaces</i> and <i>terms</i>.</p>
+
+<p>Finally it should be noted that, although the 15 elements currently within the <code>http://purl.org/dc/elements/1.1/</code> <i>DCMI namespace</i> could have been assigned new URIs within the <code>http://purl.org/dc/terms/</code> <i>DCMI namespace</i>, it was considered that the widespread existing usage of the former <i>DCMI namespace URI</i> mitigated against any change.
+Furthermore, the existing use of the <code>purl.org</code> domain for that <i>DCMI namespace URI</i> prompted its use for all <i>DCMI namespace URIs</i>.</p>
+
+<h2>References</h2>
+<a id="DCAM" name="DCAM"></a>
+<p><strong>[DCAM]</strong><br />DCMI Abstract Model, DCMI Recommendation, March 2005<br /><a href="http://dublincore.org/documents/abstract-model/">http://dublincore.org/documents/abstract-model/</a></p>
+
+<a id="RFC3986" name="RFC3986"></a>
+<p><strong>[RFC3986]</strong><br />IETF (Internet Engineering Task Force) RFC 3986: Uniform Resource Identifier (URI): Generic Syntax, eds T. Berners-Lee, R.
+Fielding, L. Masinter. January 2005<br /><a href="http://www.ietf.org/rfc/rfc3986.txt">http://www.ietf.org/rfc/rfc3986.txt</a></p>
+
+<a id="DCMES" name="DCMES"></a>
+<p><strong>[DCMES]</strong><br />Dublin Core Metadata Element Set, Version 1.1: Reference Description<br /><a href="/documents/1999/07/02/dces/">http://dublincore.org/documents/1999/07/02/dces/</a></p>
+
+<a id="DCMI-TYPE" name="DCMI-TYPE"></a>
+<p><strong>[DCMI-TYPE]</strong><br />DCMI Type Vocabulary, DCMI Recommendation, July 2000<br /><a href="/documents/dcmi-type-vocabulary/">http://dublincore.org/documents/dcmi-type-vocabulary/</a></p>
+
+<a id="DCMI-USAGE" name="DCMI-USAGE"></a>
+<p><strong>[DCMI-USAGE]</strong><br />DCMI Usage Board<br /><a href="/usage/">http://www.dublincore.org/usage/</a></p>
+
+<a id="DC-GENERAL" name="DC-GENERAL"></a>
+<p><strong>[DC-GENERAL]</strong><br />DC-General mailing list<br /><a href="http://www.jiscmail.ac.uk/lists/dc-general.html">http://www.jiscmail.ac.uk/lists/dc-general.html</a></p>
+
+<div class="footer">
+<p><a href="http://validator.w3.org/check/referer"><img src="/images/logos/valid-xhtml10.gif" alt="Valid XHTML 1.0!" height="31" width="88" /></a><a href="http://jigsaw.w3.org/css-validator"><img src="/images/logos/vcss.gif" alt="Valid CSS!" width="88" height="31" /></a></p>
+<p>Metadata associated with this resource: <a href="http://dublincore.org/documents/dcmi-namespace/index.shtml.rdf">http://dublincore.org/documents/dcmi-namespace/index.shtml.rdf</a></p>
+<p><a href="/about/copyright/index.shtml#copyright">Copyright</a> &copy; 1995-2005 <acronym title="Dublin Core Metadata Initiative"><a href="/index.shtml">DCMI</a></acronym> All Rights Reserved. DCMI <a href="/about/copyright/index.shtml#liability">liability</a>, <a href="/about/copyright/index.shtml#trademark">trademark/service mark</a>, <a href="/about/copyright/index.shtml#documentnotice">document use</a> and <a href="/about/software/">software licensing</a> rules apply. Your interactions with this site are in accordance with our <a href="/about/privacy/">privacy</a> statements. Please feel free to <a href="/about/contact/">contact us</a> for any questions, comments or media inquiries.</p>
+
+<p>DCMI and the DCMI Web site are hosted by <a href="http://www.oclc.org/research/">OCLC Research</a>.</p>
+</div>
+</body>
+</html>

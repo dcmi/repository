@@ -1,0 +1,170 @@
+/* CSS Document */
+
+* {margin: 0; padding: 0; line-height: 1.5em;}
+body {font: 80% Verdana, Arial, Helvetica, sans-serif; color: #000; background: #fff;}
+#accessibility, .sIFR-flash, #bannerimgthin, #bannerimg, #contenttop {display: none;}
+h1, h2, h3, h4, h5, h6 {margin-top: 0.7em; margin-bottom: 0.5em;} /* fixed */
+p, .module, ul, ol {margin-top: 0.5em; margin-bottom: 0.5em;} /* fixed */
+#title {display: block; border: 2px outset #ccc; padding-left: 52px; height: 66px; background: transparent url(../images/logo_sm.gif) 3px 3px no-repeat;}
+#title span {vertical-align: -32px; font-size:36px; letter-spacing: 0.1em;}
+#preface * {display: none;}
+#focus, #focus div, #focus p {display: block;}
+#focus span {display: inline;}
+a img {border: none;}
+#nav li {display: inline; border-right: 1px solid #999; padding: 0; background: none;}
+#nav li a {padding: 1em;}
+#search {display: none;}
+#nav, #margin {clear: both; padding-bottom: 1em; border-bottom: 1px solid #999; margin-bottom: 2em;} /* fixed */
+hr {display: none;}
+
+
+/* Fixes and improvements
+======================================================*/
+
+/* Layout */
+#strapline, #nav, #margin, #column_bottom, #foot_mla span, #foot_jisc span, #foot_bath span, #footer .hide {display: none;}
+/*#preface {position:absolute; margin-left: 86px; margin-top: -90px; }*/
+#appendix {display:none;}
+#footer {padding-top: 1em; border-top: 1px solid #999; margin-top: 2em; clear: both; width: 100%;}
+#page {margin-top: -10px;}
+
+/* Typography */
+#content hr {display: block; margin: 0 25px; border: none; border-bottom: 1px dotted #aaa; height: 1px; overflow: hidden;}
+h1, h2, h3, h4, h5, h6 {page-break-after: avoid;}
+h1 {font: 2.2em Arial, Helvetica, sans-serif;}
+h2 {font: 1.6em Arial, Helvetica, sans-serif;}
+h3 {font: 1.5em Arial, Helvetica, sans-serif;}
+h4 {font: 1.4em Arial, Helvetica, sans-serif;}
+h5 {font: 1.3em Arial, Helvetica, sans-serif;}
+pre, code, samp {page-break-inside: avoid;}
+ul, ol {page-break-before: avoid;}
+li {page-break-inside: avoid; margin-left: 1.25em;}
+table table {page-break-before: avoid; page-break-after: avoid;}
+a {text-decoration: none; color: #333;}
+.uppercase {text-transform: uppercase;}
+.lowercase {text-transform:lowercase;}
+.normalcase {text-transform:none;}
+.bob_right {display: block; width: 33%; float: right; clear: right; background: #eee; padding: 0 20px; margin: 0 0 13px 20px; font-size: 1.1em;}
+.bob_left {display: block; width: 33%; float: left; clear: left; background: #eee; padding: 0 20px; margin: 0 20px 13px 0; font-size: 1.1em;}
+.centre {text-align:center;}
+
+/* Optional extras */
+abbr[title]:before, acronym[title]:before {content:attr(title) " (";}
+abbr[title]:after, acronym[title]:after {content:") ";}
+/* a[href]:after {content:" [" attr(href) "]"; font-size:smaller; text-decoration:none;} */
+
+/* From basic.css */
+
+/* Floats
+------------------------------------------------------*/
+#footer {font-size: 0.8em;}
+#foot_mla {display: block; width: 72px; height: 31px; background: url(../images/foot_mla.gif) center no-repeat;}
+#foot_jisc {display: block; width: 72px; height: 31px; background: url(../images/foot_jisc.gif) center no-repeat;}
+#foot_bath {display: block; width: 72px; height: 33px; background: url(../images/foot_bath.gif) center no-repeat;}
+#footer .col_b {width: 72px; float: right; margin-left: 1em; line-height: normal;}
+.row {float: left; clear: left; width: 100%; margin:1em 0;}
+.leftcol {float: left; width: 45%; min-width: 45%; padding-right: 3%; border-right:1px dotted #ccc;} /* fixed */
+.rightcol {float: left; width: 45%; min-width: 45%; padding-left: 3%;} /* fixed */
+img.logoLeft {float: left; clear: left; margin: 0 20px 13px 0; padding: 0;} /*fixed*/
+img.logoRight {float: right; clear: right; margin: 0 0 13px 20px; padding: 0;} /*fixed*/
+.imgLeft {float: left; clear: left; margin: 0 20px 13px 0; padding: 4px; border: 1px solid #ccc; page-break-inside: avoid;}
+.imgRight {float: right; clear: right; margin: 0 0 13px 20px; padding: 4px; border: 1px solid #ccc; page-break-inside: avoid;}
+.imgLeft *, .imgRight * {line-height:1.3em; page-break-inside: avoid;}
+table {width: 100%; margin-bottom: 20px;}
+th, td {padding: 3px;}
+th {background: #ddd; border-bottom: 1px solid #ccc; border-left: 1px dotted #fff;} /* fixed */
+th:first-child {border-left: none;} /* added */
+td {border-bottom: 1px dotted #ccc; border-left: 1px dotted #ccc;} /* fixed */
+td:first-child {border-left: none;} /* added */
+
+/* Lists
+------------------------------------------------------*/
+.hl_links {border-top: 1px dotted #ccc;}
+.hl_links li {margin: 0 -1.5em; padding: 1px 1.5em; border-bottom: 1px dotted #ccc; list-style-position: inside;}
+.horiz_list {margin-left: 0;}
+.horiz_list li {display: inline; padding: 0 10px 0 10px; border-left: 1px solid #ccc; border-right: 1px solid #ccc; margin: 0 0 0 -1px; background: none;}
+.horiz_list li:first-child {padding: 0 10px 0 0; border: 0; margin: 0;}
+.horiz_list li + li {border-right: 0; margin: 0;}
+.titled_list {font-size: 1.1em;}
+.titled_list li {list-style: none; background-image: none; font-size: 1.3em; color: #555; text-indent: -13px; font-family: Arial, Helvetica, sans-serif;}
+.titled_list li li {font-size: 0.8em; font-weight: normal; color: #333; text-indent: 0px; color: #333; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.titled_list li ul li {padding-left: 13px; list-style-type: disc;}
+.titled_list li ul li ul li {list-style-type: square;}
+.titled_list li ol li {list-style-type: decimal;}
+.titled_list li ol li ol li {list-style-type: lower-alpha;}
+.titled_list li li li {font-size: 1em;}
+
+/* Forms
+------------------------------------------------------*/
+#content form, #preface form {margin-bottom: 20px;}
+#content .pair, #preface .pair {display: block; clear: left; font: 1em Verdana, Arial, Helvetica, sans-serif; padding: 5px 0 0 0;}
+#content .pair label, #content .pair dt, #preface .pair label, #preface .pair dt {float: left; width: 250px;}
+#content .pair dd, #preface .pair dd {float: left;}
+#content .pair dd label, #preface .pair dd label {float: left; width: auto; clear: left;}
+#content .pair dd label input, #preface .pair dd label input { margin-right: 10px;}
+#content .field, #preface .field {display: block; width: 200px; border: 1px solid #888; padding: 3px 5px; line-height: 1em; font: 1em Verdana, Arial, Helvetica, sans-serif;}
+#content select, #preface select {display: block; width: 212px; border: 1px solid #888; padding: 2px; line-height: 1em; font: 1em Verdana, Arial, Helvetica, sans-serif;}
+#content option, #preface option {padding: 1px 3px;}
+#content textarea, #preface textarea {display: block; width: 275px; border: 1px solid #888; padding: 3px 5px; line-height: 1em; font: 1em Verdana, Arial, Helvetica, sans-serif;}
+#content .pair *, #preface .pair * {float: left;}
+#content .nolabel, #preface .nolabel {padding-left: 250px;}
+#content .button, #preface .button {padding: 3px 10px; font-size: 1.2em;}
+#margin form {margin-bottom: 20px;}
+#margin .pair {display: block; clear: left; font: 1em Verdana, Arial, Helvetica, sans-serif; padding: 5px 0 0 0; margin: 0;}
+#margin .pair label, #margin .pair dt {float: left; width: 150px; clear: both;}
+#margin .pair dd {float: left; width: 150px; clear: both;}
+#margin .pair dd label {float: left; width: auto; clear: left;}
+#margin .pair dd label input { margin-right: 10px;}
+#margin .field {display: block; clear: both; width: 100px; border: 1px solid #888; padding: 3px 5px; line-height: 1em; font: 1em Verdana, Arial, Helvetica, sans-serif;}
+#margin select {display: block; width: 112px; color: #333; background: #eee; border: 1px solid #888; padding: 2px; line-height: 1em; font: 1em Verdana, Arial, Helvetica, sans-serif;}
+#margin option {padding: 1px 3px;}
+#margin textarea {display: block; clear: both; width: 175px; border: 1px solid #888; padding: 3px 5px; line-height: 1em; font: 1em Verdana, Arial, Helvetica, sans-serif;}
+#margin .pair * {float: left;}
+#margin .button {padding: 3px 10px; font-size: 1.2em;}
+
+/* News
+------------------------------------------------------*/
+.news p {font-size: 1.1em; margin: 0;}
+.news .dtstart {position: relative; float: left; padding: 0 0 2px 0; font-size: 0.9em; background: url(../images/date_bot_left_bw.gif) bottom left no-repeat #999; margin-right: 25px;}
+.news .day {position: relative; left: 0px; display: block; clear: both; width: 3em; background: url(../images/date_top_left_bw.gif) top left no-repeat #ccc; color: #000; font-weight: bold; text-align: center;} /* fixed */
+.news .month {position: relative; left: 0px; display: block; clear: both; width: 3em; background-color: #999; color: #000; font-weight: bold; text-align: center; text-transform: uppercase;} /* fixed */
+.news a {font-size: 1.1em; font-weight: bold;}
+/* .news a[href]:after {content:"\A[" attr(href) "]"; font-size:smaller; text-decoration:none;} */
+.news .more {display: block; clear: left; font-size: 0.8em; border-bottom: 1px dotted #ccc; text-align: right; text-transform: lowercase; margin-top: 3px;}
+.news .corner_a {position: absolute; top: 0; right: -1px; display: block; width: 5px; height: 5px; background: url(../images/date_top_right_bw.gif) top right no-repeat;}
+.news .corner_b {position: absolute; bottom: 0px; right: -1px; display: block; width: 5px; height: 5px; background: url(../images/date_bot_right_bw.gif) bottom right no-repeat;}
+.news .hide {display: none;}
+
+
+/* Pagination
+------------------------------------------------------*/
+.pages {display:none;}
+
+
+/* Downloads
+------------------------------------------------------*/
+.download dt, .download dd {margin-left: 45px;}
+.download dt {font-size: 1.1em;}
+.download a {font-weight: bold; color:#000;}
+.article {background: url(../images/article.gif) top left no-repeat transparent !important; border: none !important;}
+
+
+/* Featured Project
+------------------------------------------------------*/
+.feature {display: block; border: 1px solid #dadada; padding: 10px;}
+/* #preface .feature, #margin .feature, #appendix .feature {border: none; padding: 0;} */
+.feature h2 {font: 2.2em Arial, Helvetica, sans-serif; line-height:normal;} /* fixed */
+.feature .leftwrap {display: block; float: left; margin: 0 25px 0 0;}
+.feature h3 {font-size: 1.2em; font-weight: bold;} /* fixed */
+.feature img {float: right; margin: 0 0 10px 10px;}
+#margin .feature * {float: none; clear: both;}
+#margin .feature img {margin-left: 0;}
+
+
+/* Focus
+------------------------------------------------------*/
+#focus {margin-top: -0.5em; font-size: 1.5em; line-height:1; }
+#focus div {font: 2.2em Arial, Helvetica, sans-serif;}
+#focus span {font-size: 1.3em; text-transform: lowercase; font-weight: bold;}
+#focus p {margin-top: -0.8em;}
+.focusitem {border-bottom: 1px solid #ccc;}

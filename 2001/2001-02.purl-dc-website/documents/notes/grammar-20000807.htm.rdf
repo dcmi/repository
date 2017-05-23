@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/DC/documents/notes/grammar-20000807.htm">
+   <dc:title>Dublin Core Metadata Initiative - A Grammar of Dublin Core</dc:title>
+   <dc:description>Dublin Core is often presented as a modern form of catalog card -- a set of elements (and now qualifiers) that describe resources in a complete package. Sometimes it is proposed as an exchange format for sharing records among multiple collections. The founding principle that "every element is optional and repeatable" reinforces the notion that a Dublin Core description is to be taken as a whole. This paper, in contrast, is based on a much different premise: Dublin Core is a language. More precisely, it is a small language for making a particular class of statements about resources. Like natural languages, it has a vocabulary of word-like tokens; two classes of tokens that reflect their function within statements -- elements and qualifiers, analogous to nouns and adjectives; and a syntax for arranging words into statements according to a simple pattern. </dc:description>
+   <dc:date>2000-08-07</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:creator>Thomas Baker</dc:creator>
+   <dc:language>en</dc:language>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

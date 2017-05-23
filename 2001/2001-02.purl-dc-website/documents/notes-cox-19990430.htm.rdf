@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/documents/notes-cox-19990430.htm">
+   <dc:title>A Syntax for writing a list of labelled values in a text string</dc:title>
+   <dc:description>We describe a method for recording lists of labelled values in a text string, called Dublin Core Structured Values, with the label DCSV.  The notation is intended for structured information within attribute value strings in markup-languages such as HTML and XML.  This is likely to be useful in recording complex element values in metadata systems based on the qualified Dublin Core model.</dc:description>
+   <dc:date>1999-04-30</dc:date>
+   <format>text/html</format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Simon Cox</dc:contributor>
+   <dc:contributor>Renato Iannella</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

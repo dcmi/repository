@@ -1,0 +1,49 @@
+<TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD HEIGHT="32" WIDTH="2%" BGCOLOR="#669999">&nbsp;</TD>
+    
+<TD HEIGHT="32" WIDTH="58%" BGCOLOR="#669999"><A HREF="/oclc/research/projects/core/index.htm"><IMG SRC="../images/dcmi/dcmi_22.gif" WIDTH="460" HEIGHT="32" ALT="Dublin Core Metadata Initiative" BORDER="0"></A></TD>
+<TD WIDTH="38%" ROWSPAN="2" VALIGN="TOP" BGCOLOR="#669999">
+<TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="8">
+<TR>
+<TD ALIGN="RIGHT" VALIGN="MIDDLE"><!-- #BeginLibraryItem "/Library/pop-up menu content [level 1].lbi" --><FONT SIZE="2">
+<FORM NAME="menu">
+<SELECT NAME="CHOICES" onChange="gotosite(this.options[this.selectedIndex].value)">
+<OPTION selected>Dublin Core topics:</OPTION>
+<OPTION VALUE="../index.htm">Home</OPTION>
+<OPTION VALUE="../search/index.htm">Search</OPTION>
+<OPTION VALUE="../sitemap/index.htm">Site Map</OPTION>
+<OPTION VALUE="../news/index.htm">What's New</OPTION>
+<OPTION VALUE="../feedback/index.htm">Feedback</OPTION>
+<OPTION VALUE="../about/element_set.htm">Dublin Core Element Set</OPTION>
+<OPTION VALUE="../about/index.htm">About the Dublin Core</OPTION>
+<OPTION VALUE="../news/index.htm">News and Publications</OPTION>
+<OPTION VALUE="../documents/index.htm">Documents</OPTION>
+<OPTION VALUE="../education/index.htm">Questions &amp; Answers</OPTION>
+<OPTION VALUE="../projects/index.htm">Projects</OPTION>
+<OPTION VALUE="../schemas/index.htm">Schemas</OPTION>
+<OPTION VALUE="../tools/index.htm">Tools</OPTION>
+<OPTION VALUE="../groups/index.htm">Working Groups</OPTION>
+<OPTION VALUE="../about/workshop.htm">Workshop Series</OPTION>
+</SELECT>
+</FORM>
+</FONT><!-- #EndLibraryItem --></TD>
+</TR>
+</TABLE>
+</TD>
+<TD HEIGHT="32" WIDTH="2%" BGCOLOR="#669999">&nbsp;</TD>
+</TR>
+<TR>
+<TD HEIGHT="20" WIDTH="2%" BGCOLOR="#669999">&nbsp;</TD>
+<TD HEIGHT="20" ALIGN="LEFT" VALIGN="TOP" BGCOLOR="#669999"><!-- #BeginLibraryItem "/Library/mouseOver buttons.lbi" --><TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="425">
+<TR>
+<TD><A HREF="../index.htm" onMouseOut="di('Nbuttonshorizontal_01_01','Ibuttonshorizontal_01_01');return false;" onMouseOver="di('Nbuttonshorizontal_01_01','Ibuttonshorizontal_01_01o');return false;"><IMG NAME="Nbuttonshorizontal_01_01" SRC="../images/buttons/home.gif" WIDTH="85" HEIGHT="17" BORDER="0" ALT="Home"></A></TD>
+<TD><A HREF="../search/index.htm" onMouseOut="di('Nbuttonshorizontal_01_02','Ibuttonshorizontal_01_02');return false;" onMouseOver="di('Nbuttonshorizontal_01_02','Ibuttonshorizontal_01_02o');return false;"><IMG NAME="Nbuttonshorizontal_01_02" SRC="../images/buttons/search.gif" WIDTH="85" HEIGHT="17" BORDER="0" ALT="Search"></A></TD>
+<TD><A HREF="../sitemap/index.htm" onMouseOut="di('Nbuttonshorizontal_01_03','Ibuttonshorizontal_01_03');return false;" onMouseOver="di('Nbuttonshorizontal_01_03','Ibuttonshorizontal_01_03o');return false;"><IMG NAME="Nbuttonshorizontal_01_03" SRC="../images/buttons/sitemap.gif" WIDTH="85" HEIGHT="17" BORDER="0" ALT="Site Map"></A></TD>
+<TD><A HREF="../news/index.htm" onMouseOut="di('Nbuttonshorizontal_01_04','Ibuttonshorizontal_01_04');return false;" onMouseOver="di('Nbuttonshorizontal_01_04','Ibuttonshorizontal_01_04o');return false;"><IMG NAME="Nbuttonshorizontal_01_04" SRC="../images/buttons/new.gif" WIDTH="85" HEIGHT="17" BORDER="0" ALT="What's New"></A></TD>
+<TD><A HREF="../feedback/index.htm" onMouseOut="di('Nbuttonshorizontal_01_05','Ibuttonshorizontal_01_05');return false;" onMouseOver="di('Nbuttonshorizontal_01_05','Ibuttonshorizontal_01_05o');return false;"><IMG NAME="Nbuttonshorizontal_01_05" SRC="../images/buttons/feedback.gif" WIDTH="85" HEIGHT="17" BORDER="0" ALT="Feedback"></A></TD>
+</TR>
+</TABLE><!-- #EndLibraryItem --></TD>
+<TD HEIGHT="20" BGCOLOR="#669999" WIDTH="2%">&nbsp;</TD>
+</TR>
+</TABLE>

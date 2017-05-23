@@ -1,0 +1,231 @@
+<HTML>
+<HEAD>
+<TITLE>DCMI Checklist</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<H1>DCMI Checklist</H1>
+<P>Print and use this checklist as a guide before submitting your HTML documents to DCMI for publication.</P>
+<TABLE BORDER="0" CELLSPACING="4" CELLPADDING="2">
+<TR>
+<TH BGCOLOR="#FFFFCC" COLSPAN="9">Key:</TH>
+</TR>
+<TR>
+<TD BGCOLOR="#FF3333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD><FONT COLOR="#FF3333"><B>Required</B></FONT> = red/bold</TD>
+<TD BGCOLOR="#009966">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD><FONT COLOR="#009966"><B><I>Optional</I></B></FONT> = green/bold, italic</TD>
+<TD BGCOLOR="#0000FF"><B><I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</I></B></TD>
+<TD><FONT COLOR="#0000FF"><I>Variable</I></FONT> = blue/italic</TD></TR>
+</TABLE>
+<HR>
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="4" CELLPADDING="4">
+<TR VALIGN="TOP" BGCOLOR="#FFFFCC">
+<TH><IMG SRC="../images/boxchecked.gif" WIDTH="16" HEIGHT="16" ALT="checked box" BORDER="0"></TH>
+<TH>Sample HTML:</TH>
+<TH>Notes:</TH>
+</TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;<FONT COLOR="#FF3333"><B>!DOCTYPE</B></FONT> HTML PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;HTML <FONT COLOR="#FF3333"><B>TITLE</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>An advisory description of the element.</I></FONT>&quot; <FONT COLOR="#FF3333"><B>LANG</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>en</I></FONT>&quot;&gt;
+</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;HEAD <FONT COLOR="#FF3333"><B>TITLE</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>An advisory description of the element.</I></FONT>&quot;&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;TITLE&gt;<FONT COLOR="#0000FF"><I>DCMI Template</I></FONT>&lt;/TITLE&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;META HTTP-EQUIV=&quot;Content-Type&quot; CONTENT=&quot;text/html; charset=iso-8859-1&quot;&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;<FONT COLOR="#FF3333"><B>LINK REL</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>previous</I></FONT>&quot; <FONT COLOR="#FF3333"><B>HREF</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>fileB.html</I></FONT>&quot;&gt;<BR>&lt;<FONT COLOR="#FF3333"><B>LINK REL</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>next</I></FONT>&quot; <B><FONT COLOR="#FF3333">HREF</FONT></B>=&quot;<FONT COLOR="#0000FF"><I>fileD.html</I></FONT>&quot;&gt;<BR>&lt;<FONT COLOR="#FF3333"><B>LINK REL</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>contents</I></FONT>&quot; <B><FONT COLOR="#FF3333">HREF</FONT></B>=&quot;<FONT COLOR="#0000FF"><I>fileA.html</I></FONT>&quot;&gt;</CODE></TD>
+<TD>At least one LINK REL tag for navigation  is required.</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE><FONT COLOR="#FF3333"><B>&lt;LINK REL=&quot;stylesheet&quot; HREF=&quot;/css/default.css&quot; TYPE=&quot;text/css&quot;&gt;</B></FONT></CODE></TD>
+<TD>Site relative link to stylesheet is required.</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;/HEAD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;BODY BGCOLOR=&quot;#FFFFFF&quot; TEXT=&quot;#000000&quot;&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE><FONT COLOR="#FF3333"><B>&lt;DIV CLASS=&quot;head&quot;&gt;</B></FONT></CODE></TD>
+<TD>DIV for head is required.</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;H1 <FONT COLOR="#FF3333"><B>ID</B></FONT>=&quot;<FONT COLOR="#FF3333"><B>title</B></FONT>&quot;&gt;<FONT COLOR="#FF3333"><B>&lt;SPAN CLASS=&quot;dc:title&quot;&gt;</B></FONT><FONT COLOR="#0000FF"><I>Title</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/H1&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DL&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#FF3333"><B>Version:</B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#FF3333"><B>&lt;SPAN CLASS=&quot;&quot;&gt;</B></FONT><FONT COLOR="#0000FF"><I>Draft Version 1.0</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#FF3333"><B>Creator:</B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#FF3333"><B>&lt;SPAN CLASS=&quot;dc:creator&quot;&gt;</B></FONT><FONT COLOR="#0000FF"><I>CREATOR</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#FF3333"><B>Date issued:</B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#FF3333"><B>&lt;SPAN CLASS=&quot;dc:date&quot;&gt;</B></FONT><FONT COLOR="#0000FF"><I>0000-00-00</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#FF3333"><B>Identifier:</B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<B><FONT COLOR="#FF3333">&lt;SPAN CLASS=&quot;dc:identifier&quot;&gt;</FONT></B><FONT COLOR="#0000FF"><I>URL</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Replaces:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#FF3333"><B>&lt;SPAN CLASS=&quot;&quot;&gt;</B></FONT><FONT COLOR="#0000FF"><I>URL</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Is replaced by:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#FF3333"><B>&lt;SPAN CLASS=&quot;&quot;&gt;</B></FONT><FONT COLOR="#0000FF"><I>URL</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Latest version:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#FF3333"><B>&lt;SPAN CLASS=&quot;&quot;&gt;</B></FONT><FONT COLOR="#0000FF"><I>PURL</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Status of document:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#FF3333"><B>&lt;SPAN CLASS=&quot;&quot;&gt;</B></FONT><FONT COLOR="#0000FF"><I>This document is a NOTE made available by the Dublin Core Metadata Initiative Directorate for discussion only. The publication of a NOTE by the Dublin Core implies no endorsement of any kind.</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Subject:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#FF3333"><B>&lt;SPAN CLASS=&quot;dc:subject&quot;&gt;</B></FONT><FONT COLOR="#0000FF"><I>SUBJECT</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Description of document:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<B><FONT COLOR="#FF3333">&lt;SPAN CLASS=&quot;dc:description&quot;&gt;</FONT></B><FONT COLOR="#0000FF"><I>DESCRIPTION</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Contributor:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#FF3333"><B>&lt;SPAN CLASS=&quot;dc:contributor&quot;&gt;</B></FONT><FONT COLOR="#0000FF"><I>CONTRIBUTOR</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Publisher:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#FF3333"><B>&lt;SPAN CLASS=&quot;dc:publisher&quot;&gt;</B></FONT><FONT COLOR="#0000FF"><I>PUBLISHER</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Type:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#FF3333"><B>&lt;SPAN CLASS=&quot;dc:type&quot;&gt;</B></FONT><FONT COLOR="#0000FF"><I>RESOURCE TYPE</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Format:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<B><FONT COLOR="#FF3333">&lt;SPAN CLASS=&quot;dc:format&quot;&gt;</FONT></B><FONT COLOR="#0000FF"><I>RESOURCE FORMAT</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Source:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#FF3333"><B>&lt;SPAN CLASS=&quot;dc:source&quot;&gt;</B></FONT><FONT COLOR="#0000FF"><I>SOURCE</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Language:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#FF3333"><B>&lt;SPAN CLASS=&quot;dc:language&quot;&gt;</B></FONT><FONT COLOR="#0000FF"><I>LANGUAGE</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Relation:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#0000FF"><I>RELATION</I></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Coverage:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#0000FF"><I>COVERAGE</I></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Rights:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<B><FONT COLOR="#FF3333">&lt;SPAN CLASS=&quot;dc:rights&quot;&gt;</FONT></B><FONT COLOR="#0000FF"><I>RIGHTS</I></FONT><FONT COLOR="#FF3333"><B>&lt;/SPAN&gt;</B></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>Document metadata:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#0000FF"><I>RDF</I></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DT&gt;<FONT COLOR="#009966"><B><I>NOTICE TO IMPLEMENTORS:</I></B></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;<FONT COLOR="#0000FF"><I>NOTICE</I></FONT>&lt;/DD&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;/DL&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE><FONT COLOR="#FF3333"><B>&lt;/DIV&gt;</B></FONT></CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE><FONT COLOR="#FF3333"><B>&lt;HR TITLE=&quot;separator from head&quot;&gt;</B></FONT></CODE></TD>
+<TD>HR is required.</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE><FONT COLOR="#FF3333"><B>&lt;DIV CLASS=&quot;toc&quot;&gt;</B></FONT></CODE></TD>
+<TD>DIV is required.</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;H2 <FONT COLOR="#FF3333"><B>ID</B></FONT>=&quot;<FONT COLOR="#FF3333"><B>table-of-contents</B></FONT>&quot;&gt;&lt;A <FONT COLOR="#FF3333"><B>NAME</B></FONT>=&quot;<FONT COLOR="#FF3333"><B>contents</B></FONT>&quot;&gt;&lt;/A&gt;<FONT COLOR="#FF3333"><B>Table of Contents</B></FONT>&lt;/H2&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;UL <FONT COLOR="#FF3333"><B>CLASS=</B></FONT>&quot;<FONT COLOR="#0000FF"><I>toc</I></FONT>&quot;&gt;<BR>&lt;LI <FONT COLOR="#FF3333"><B>CLASS=</B></FONT>&quot;<FONT COLOR="#0000FF"><I>tocline2</I></FONT>&quot;&gt;&lt;A HREF=&quot;#<FONT COLOR="#0000FF"><I>1</I></FONT>&quot;&gt;<FONT COLOR="#0000FF"><I>1. Introduction</I></FONT>&lt;/A&gt;&lt;/LI&gt;<BR>&lt;UL <FONT COLOR="#FF3333"><B>CLASS</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>toc</I></FONT>&quot;&gt;<BR>&lt;LI <FONT COLOR="#FF3333"><B>CLASS</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>tocline3</I></FONT>&quot;&gt;<FONT COLOR="#0000FF"><I>1.1 </I></FONT>&lt;A HREF=&quot;#<FONT COLOR="#0000FF"><I>1.1</I></FONT>&quot;&gt;<FONT COLOR="#0000FF"><I>Subsection</I></FONT>&lt;/A&gt;&lt;/LI&gt;<BR>&lt;LI <FONT COLOR="#FF3333"><B>CLASS</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>tocline3</I></FONT>&quot;&gt;<FONT COLOR="#0000FF"><I>1.2</I></FONT> &lt;A HREF=&quot;#<FONT COLOR="#0000FF"><I>1.2</I></FONT>&quot;&gt;<FONT COLOR="#0000FF"><I>Subsection</I></FONT><I>&lt;/A&gt;</I>&lt;/LI&gt;<BR>&lt;LI <FONT COLOR="#FF3333"><B>CLASS</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>tocline3</I></FONT>&quot;&gt;<FONT COLOR="#0000FF"><I>1.3</I></FONT> &lt;A HREF=&quot;#<FONT COLOR="#0000FF"><I>1.3</I></FONT>&quot;&gt;<FONT COLOR="#0000FF"><I>Subsection</I></FONT>&lt;/A&gt;&lt;/LI&gt;<BR>&lt;LI <FONT COLOR="#FF3333"><B>CLASS</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>tocline3</I></FONT>&quot;&gt;<FONT COLOR="#0000FF"><I>1.4</I></FONT> &lt;A HREF=&quot;#<FONT COLOR="#0000FF"><I>1.4</I></FONT>&quot;&gt;<FONT COLOR="#0000FF"><I>Subsection</I></FONT>&lt;/A&gt;&lt;/LI&gt;<BR>&lt;LI <FONT COLOR="#FF3333"><B>CLASS</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>tocline3</I></FONT>&quot;&gt;<FONT COLOR="#0000FF">1.5</FONT> &lt;A HREF=&quot;#<FONT COLOR="#0000FF"><I>1.5</I></FONT>&quot;&gt;<FONT COLOR="#0000FF"><I>Subsection</I></FONT>&lt;/A&gt;&lt;/LI&gt;<BR>&lt;/UL&gt;<BR>&lt;/UL&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE><FONT COLOR="#FF3333"><B>&lt;/DIV&gt;</B></FONT></CODE></TD>
+<TD>Closing DIV is required.</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE><FONT COLOR="#FF3333"><B>&lt;HR TITLE=&quot;separator from table of contents&quot;&gt;</B></FONT></CODE></TD>
+<TD>HR is required.</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DIV <FONT COLOR="#FF3333"><B>CLASS</B></FONT>=&quot;<FONT COLOR="#FF3333"><B>body</B></FONT>&quot;&gt;</CODE></TD>
+<TD>DIV is required.</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;H2 <FONT COLOR="#FF3333"><B>ID</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>introduction</I></FONT>&quot;&gt;&lt;A <FONT COLOR="#FF3333"><B>NAME</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>1</I></FONT>&quot;&gt;&lt;/A&gt;<FONT COLOR="#0000FF"><I>1. Introduction</I></FONT>&lt;/H2&gt;<BR>&lt;P&gt;Content.&lt;/P&gt;<BR>&lt;H3 <FONT COLOR="#FF3333"><B>ID</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>subsection</I></FONT>&quot;&gt;&lt;A <FONT COLOR="#FF3333"><B>NAME</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>1.1</I></FONT>&quot;&gt;&lt;/A&gt;<FONT COLOR="#0000FF"><I>1.1 Subsection</I></FONT>&lt;/H3&gt;<BR>&lt;H3 <FONT COLOR="#FF3333"><B>ID</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>subsection</I></FONT>&quot;&gt;<FONT COLOR="#0000FF"><I>Subsection</I></FONT>&lt;/H3&gt;<BR>&lt;P&gt;<FONT COLOR="#0000FF"><I>Content.</I></FONT>&lt;/P&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE><FONT COLOR="#FF3333"><B>&lt;HR TITLE=&quot;separator from </B></FONT><FONT COLOR="#0000FF"><I>section 1</I></FONT><FONT COLOR="#FF3333"><B>&quot;&gt;</B></FONT></CODE></TD>
+<TD>HR is required. Variable is named section directly above.</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;H2 <FONT COLOR="#FF3333"><B>ID</B></FONT>=&quot;<FONT COLOR="#0000FF"><I>references</I></FONT>&quot;&gt;&lt;A <B><FONT COLOR="#FF3333">NAME</FONT></B>=&quot;<FONT COLOR="#0000FF"><I>references</I></FONT>&quot;&gt;&lt;/A&gt;<FONT COLOR="#0000FF"><I>2. References</I></FONT>&lt;/H2&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;P&gt;<FONT COLOR="#0000FF"><I>Content.</I></FONT>&lt;/P&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;DL&gt;<BR>&lt;DT&gt;&lt;A <FONT COLOR="#FF3333"><B>NAME</B></FONT>=&quot;<FONT COLOR="#FF3333"><B>ref-REFERENCE1</B></FONT>&quot;&gt;&lt;/A&gt;<FONT COLOR="#0000FF"><I>[REFERENCE 1]</I></FONT>&lt;/DT&gt;<BR>&lt;DD&gt;Content.&lt;/DD&gt;<BR>&lt;DT&gt;&lt;A <FONT COLOR="#FF3333"><B>NAME</B></FONT>=&quot;<FONT COLOR="#FF3333"><B>ref-REFERENCE2</B></FONT>&quot;&gt;&lt;/A&gt;<FONT COLOR="#0000FF">[REFERENCE 2]</FONT>&lt;/DT&gt;<BR>&lt;DD&gt;Content.&lt;/DD&gt;<BR>&lt;DT&gt;&lt;A <FONT COLOR="#FF3333"><B>NAME</B></FONT>=&quot;<FONT COLOR="#FF3333"><B>ref-REFERENCE3</B></FONT>&quot;&gt;&lt;/A&gt;<FONT COLOR="#0000FF">[REFERENCE 3]</FONT>&lt;/DT&gt;<BR>&lt;DD&gt;Content.&lt;/DD&gt;<BR>&lt;/DL&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE><FONT COLOR="#FF3333"><B>&lt;/DIV&gt;</B></FONT></CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP" BGCOLOR="#EEEEEE">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;/BODY&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+<TR VALIGN="TOP">
+<TD><IMG SRC="../images/box.gif" WIDTH="16" HEIGHT="16" ALT="box" BORDER="0"></TD>
+<TD><CODE>&lt;/HTML&gt;</CODE></TD>
+<TD>&nbsp;</TD></TR>
+</TABLE>
+</BODY>
+</HTML>

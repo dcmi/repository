@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Update - April 2000</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+    <link rel="meta" href="nl2000-04.shtml.rdf" />
+  </head>
+
+  
+<body>
+    
+<div class="head">
+      <!--#include virtual="/ssi/header.shtml"-->
+<table summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content." border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr valign="top">
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td bgcolor="#EEEEEE" width="150">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" summary="Layout table: Contains graphical text.">
+<tbody>
+<tr bgcolor="#99A59F" align="center">
+<td><img src="/images/navlist/toc.gif" width="150" height="25" alt="Table of Contents" border="0" /></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellspacing="0" cellpadding="10" border="0" summary="Layout table: Contains navigation.">
+<tbody>
+<tr>
+<td class="smallsans">
+<dl>
+<dt class="navlist"><a href="#newsbriefs">News Briefs</a></dt>
+<dt class="navlist"><a href="#website">Web Site Changes</a></dt>
+<dt class="navlist">Submit a news item</dt>
+</dl>
+</td>
+</tr>
+<tr>
+<td class="note">
+<p>This Newsletter is published monthly by the <a href="../../">Dublin Core Metadata Initiative</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="10" summary="Content table">
+<tbody>
+<tr>
+<td> 
+<h1 align="center">DCMI Update</h1>
+<h3 align="center">Volume 1, Number 4 - April
+              2000</h3>
+<div align="center">
+                
+<p>(A Summary of activities from March 2000)</p>
+<hr size="1" noshade />
+
+                
+<h3 align="left"><a id="newsbriefs"
+                name="newsbriefs"></a>News Briefs</h3>
+</div>
+<ul>
+                
+<li>
+                  <strong>2000-03-28: <a
+                  href="http://www.cenorm.be/news/press_notices/metadata.htm">
+                  CEN Press Release</a> on the acceptance of Dublin
+                  Core as a CEN Workshop Agreement.</strong> 
+
+                  
+<p>The CEN/ISSS Workshop on Metadata for
+                  Multimedia Information - Dublin Core (MMI-DC),
+                  has issued a press release on their acceptance of
+                  Dublin Core version 1.1 as a CEN Workshop
+                  Agreement (CWA). It will be published with a
+                  foreword and with some formal changes of the
+                  references in DC 1.1.</p>
+<p>The workshop now continues the work with
+                  Guidance Information for the use of Dublin Core
+                  in Europe. The Guidance material is intended to
+                  bring together documentation on the use of Dublin
+                  Core in Europe in the following areas:</p>
+<ul>
+                    
+<li>Strategic documentation (i.e.: outlining
+                    the reasons for choosing Dublin Core or another
+                    Metadata Element Set).</li>
+<li>User guidelines.</li>
+<li>Technical implementation guidelines</li>
+</ul>
+<p>In parallel with this activity, is a task for
+                  the workshop to maintain and promote a knowledge
+                  base for metadata for multimedia information (the
+                  "Observatory") to continually assess
+                  relationships between Dublin Core and other
+                  initiatives - in order to assist evolution of
+                  standardised metadata schemes. This knowledge
+                  base identifies the key activities currently
+                  being undertaken in Europe and across the world -
+                  the scope of these activities and related work in
+                  European projects and programs.</p>
+<p>Reported by <a href="mailto:lea@bs.dk">Leif
+                  Andresen</a><br />
+                   <a
+                  href="http://www.mailbase.ac.uk/lists/dc-standards/2000-02/0000.html">
+                  Announcement on DC Standards Mailing List</a></p>
+</li>
+<li><strong>2000-03-28: Resource Description
+                Framework (RDF) Specification published as a W3C
+                Candidate Recommendation</strong></li>
+</ul>
+<blockquote>
+                
+<p>The <a
+                href="http://www.w3.org/TR/2000/CR-rdf-schema-20000327/">
+                Resource Description Framework (RDF) Schema
+                Specification</a> has received editorial revisions
+                and today is published as a W3C Candidate
+                Recommendation. This specification describes how to
+                use RDF to describe RDF vocabularies. The
+                specification also defines a basic vocabulary for
+                this purpose, as well as an extensibility mechanism
+                to anticipate future additions to RDF. Advancement
+                of a document to <a
+                href="http://www.w3.org/Consortium/Process/Process-19991111/tr.html#RecsCR">
+                Candidate Recommendation</a> is an explicit call to
+                those outside of the related Working Groups or the
+                W3C itself for implementation and technical
+                feedback.</p>
+</blockquote>
+<ul>
+                
+<li>
+                  <strong>2000-03-28: Dublin Core Element Set now
+                  available in Maori</strong> 
+
+                  
+<p>As part of a <a href="http://www.tki.org.nz">bilingual site for New Zealand
+                  educators</a>,
+                  users will be able to search either in English or
+                  <a
+                  href="http://www.tki.org.nz/dcmaori/">Maori</a>
+                  languages or both. The Dublin Core metadata
+                  element set will facilitate discovery of the
+                  quality online information, services and
+                  resources to the education community.</p>
+</li>
+</ul>
+<ul>
+                
+<li>
+                  <strong>2000-02-16: CIMI Institute Announces
+                  three new venues for its workshop: Helping People
+                  Find What They Want: Implementing the Dublin Core
+                  in Museums</strong> 
+
+                  
+<p>This two day workshop focuses on information
+                  access and management issues in museums and
+                  cultural heritage organizations through the use
+                  of the CIMI recommendations for the Dublin Core
+                  metadata standard. This workshop is designed for
+                  museum and cultural heritage professionals,
+                  information managers, systems staff, and
+                  administrators looking for ways to better manage
+                  information resources and make them available to
+                  the broad World Wide Web audience. Technical
+                  expertise is not required.</p>
+<p>Places and Dates: [<a
+                  href="http://www.cimi.org/cimi_institute/index.html">Workshop information and registration</a>]</p>
+<blockquote>
+<p>
+
+                   April 27-28, 2000: Amstelveen, the
+                  Netherlands<br />
+                   May 31-June 1, 2000: Minneapolis, Minnesota,
+                  USA
+                
+</p>
+</blockquote>
+</li>
+</ul>
+<h3 align="left"><a id="website"
+              name="website"></a>Web Site Changes</h3>
+<ul>
+                
+<li>2000-03-28: Updated the <a
+                href="../../resources/faq/">FAQ</a>.</li>
+</ul>
+<p>Suggestions, article or item submissions and any
+              comments may be sent to <a
+              href="mailto:dc@oclc.org">dc@oclc.org</a>. Deadline
+              for submissions is the 20th of each month.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+      
+</div>
+    <!--#include virtual="/ssi/footer.txt"-->
+  </body>
+</html>
+

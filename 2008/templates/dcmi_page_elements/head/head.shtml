@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>DCMI Example</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<div class="head">
+<h1 id="title"><span class="dc:title">Title</span></h1>
+<dl>
+<dt>Creator:</dt>
+<dd><span class="dc:creator">CREATOR</span></dd>
+<dt>Date issued:</dt>
+<dd><span class="dc:date">0000-00-00</span></dd>
+<dt>Identifier:</dt>
+<dd><span class="dc:identifier">URL</span></dd>
+<dt>Replaces:</dt>
+<dd><span class="dcq:replaces">URL</span></dd>
+<dt>Is replaced by:</dt>
+<dd><span class="dcq:isReplacedBy">URL</span></dd>
+<dt>Latest version:</dt>
+<dd><span class="dcq:isVersionOf">PURL</span></dd>
+<dt>Status of document:</dt>
+<dd><span class="dc:status">STATUS</span></dd>
+<dt>Subject:</dt>
+<dd><span class="dc:subject">SUBJECT</span></dd>
+<dt>Description of document:</dt>
+<dd><span class="dc:description">DESCRIPTION</span></dd>
+<dt>Contributor:</dt>
+<dd><span class="dc:contributor">CONTRIBUTOR</span></dd>
+<dt>Publisher:</dt>
+<dd><span class="dc:publisher">PUBLISHER</span></dd>
+<dt>Type:</dt>
+<dd><span class="dc:type">RESOURCE TYPE</span></dd>
+<dt>Format:</dt>
+<dd><span class="dc:format">RESOURCE FORMAT</span></dd>
+<dt>Source:</dt>
+<dd><span class="dc:source">SOURCE</span></dd>
+<dt>Language:</dt>
+<dd><span class="dc:language">LANGUAGE</span></dd>
+<dt>Relation:</dt>
+<dd>RELATION</dd>
+<dt>Coverage:</dt>
+<dd>COVERAGE</dd>
+<dt>Rights:</dt>
+<dd><span class="dc:rights">RIGHTS</span></dd>
+<dt>Document metadata:</dt>
+<dd>RDF</dd>
+<dt>NOTICE TO IMPLEMENTORS:</dt>
+<dd>NOTICE</dd>
+</dl>
+</div>
+<hr title="separator from head">
+</body>
+</html>

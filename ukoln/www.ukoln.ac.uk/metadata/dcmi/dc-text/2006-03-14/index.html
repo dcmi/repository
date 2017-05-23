@@ -1,0 +1,1337 @@
+<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head profile="http://dublincore.org/documents/dcq-html/">
+<!-- <base href="http://dublincore.org/" /> -->
+<title>DC-TEXT: A Text Syntax for Dublin Core Metadata</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="index_files/default.css" type="text/css">
+<link rel="meta" href="http://www.ukoln.ac.uk/metadata/dcmi/dc-text/2006-03-14/index.shtml.rdf">
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<meta name="dc.title" content="DC-TEXT: A Text Syntax for Dublin Core Metadata" lang="en">
+<meta name="dc.creator" content="Pete Johnston">
+<meta name="dcterms.issued" scheme="dcterms.W3CDTF" content="2006-03-14">
+<meta name="dcterms.abstract" content="This document specifies a Text Syntax for representing Dublin Core metadata description sets.">
+<meta name="dc.format" scheme="dcterms.IMT" content="text/html">
+<meta name="dc.type" scheme="dcterms.DCMIType" content="Text">
+
+
+</head>
+<body>
+
+<!--
+<div class="menu">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"
+bgcolor="#FF6600" summary="navigation header">
+<tr>
+<td width="70"><a href="/index.shtml"><img src=
+"/images/header/logo_sm.gif" width="150" height="70" alt=
+"Dublin Core Metadata Initiative logo" border="0" /></a></td>
+<td width="100%" height="70" align="right" valign="top">
+<table width="328" cellspacing="0" cellpadding="0" border="0"
+summary="navigation links">
+<tr>
+<td width="82" height="30"><a href="/about/"><img src=
+"/images/menu/about.gif" width="82" height="30" alt=
+"About the Initiative" border="0" /></a></td>
+<td width="82" height="30"><a href="/documents/"><img src=
+"/images/menu/documents.gif" width="82" height="30" alt="Documents"
+border="0" /></a></td>
+<td width="82" height="30"><a href="/groups/"><img src=
+"/images/menu/groups.gif" width="82" height="30" alt=
+"Working Groups" border="0" /></a></td>
+<td width="82" height="30"><a href="/resources/"><img src=
+"/images/menu/resources.gif" width="82" height="30" alt="Resources"
+border="0" /></a></td>
+</tr>
+
+<tr>
+<td width="82" height="30"><a href="/news/"><img src=
+"/images/menu/news.gif" width="82" height="30" alt=
+"Dublin Core Metadata Initiative News" border="0" /></a></td>
+<td width="82" height="30"><a href="/tools/"><img src=
+"/images/menu/tools.gif" width="82" height="30" alt=
+"Tools and Software" border="0" /></a></td>
+<td width="82" height="30"><a href="/meetings/"><img src=
+"/images/menu/meetings.gif" width="82" height="30" alt="Meetings"
+border="0" /></a></td>
+<td width="82" height="30"><a href="/projects/"><img src=
+"/images/menu/projects.gif" width="82" height="30" alt="Projects"
+border="0" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" height="30"><a href="/index.shtml"><img src=
+"/images/header/dcmi_sm.gif" width="329" height="30" alt=
+"Dublin Core Metadata Initiative" border="0" /></a></td>
+</tr>
+</table>
+</div>
+
+<div class="search">
+<table width="100%" cellspacing="0" cellpadding="6" border="0"
+summary="bread crumbs">
+<tr>
+<td class="crumb"><a href="http://dublincore.org/">Home</a>
+&gt;&nbsp;<a href="http://dublincore.org/documents/">
+Documents</a>&nbsp;&gt;&nbsp;</td>
+<td align="right">
+<form action="http://dublincore.org/search/searchServlet" method=
+"post"><input type="hidden" name="predicate" value="all" /> <input
+type="hidden" name="matchType" value="exact phrase" /> <input type=
+"hidden" name="searchCase" value="N" />
+
+<table cellspacing="0" cellpadding="2" border="0" summary=
+"keyword search">
+<tr>
+<td nowrap="nowrap"><input type="text" value="Enter keyword" name=
+"searchTerm" size="20" onfocus=
+"if(this.value=='Enter keyword')this.value='';" onblur=
+"if(this.value=='')this.value='Enter keyword';" /> &nbsp;</td>
+<td><input type="submit" name="submit" value="Search" /></td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+</div>
+
+<hr noshade="noshade" size="note1" title=
+"separator from menu and keyword search" />
+-->
+
+<table summary="A layout table with descriptive information about this document." border="0" width="100%">
+<tbody><tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Title:</strong></div>
+</td>
+<td width="76%">
+<div align="left">
+<h1>DC-TEXT: A Text Syntax for Dublin Core Metadata</h1>
+</div>
+</td>
+</tr>
+
+<tr>
+<td height="22" valign="top" width="24%">
+<div align="left"><strong>Creator:</strong></div>
+</td>
+<td height="22" width="76%">
+<div align="left">Pete Johnston</div>
+</td>
+</tr>
+
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Date Issued:</strong></div>
+</td>
+<td width="76%">
+<div align="left">2006-03-14</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Identifier:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-text/2006-03-14/">
+http://www.ukoln.ac.uk/metadata/dcmi/dc-text/2006-03-14/</a></div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Replaces:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-text/2006-01-13/">
+http://www.ukoln.ac.uk/metadata/dcmi/dc-text/2006-01-13/</a></div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Is Replaced By:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Latest Version:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-text/">
+http://www.ukoln.ac.uk/metadata/dcmi/dc-text/</a></div>
+</td>
+</tr>
+
+<!--
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Status of Document:</strong></div>
+</td>
+<td width="76%">
+<div align="left">This is a DCMI <a href=
+"/documents/#workingdrafts">Working Draft</a>.</div>
+</td>
+</tr>
+
+-->
+<tr>
+<td valign="top" width="24%"><strong>Description of Document:</strong></td>
+<td width="76%">This document specifies a Text Syntax for representing Dublin Core metadata description sets.</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+<hr>
+</td>
+</tr>
+</tbody></table>
+
+<div>
+
+<div>
+
+<h2>Contents</h2>
+
+<ol>
+<li><a href="#sec1">Introduction</a></li>
+<li><a href="#sec2">The DCMI Abstract Model and DC-TEXT</a></li>
+<li><a href="#sec3">The DC-TEXT Syntax</a></li>
+<li><a href="#sec4">Examples</a></li>
+<li><a href="#appA">Appendix A: DC-TEXT in BNF</a></li>
+<li><a href="#secW">Notes</a></li>
+<li><a href="#secX">References</a></li>
+</ol>
+
+</div>
+
+
+<div>
+
+<a id="sec1" name="sec1"></a>
+<h2>1. Introduction</h2>
+
+<p>The DCMI Abstract Model [<a href="#DCAM">DCAM</a>] describes the 
+components which make up DC metadata description sets and the 
+relationships between them. This document specifies a syntax for 
+serialising, or representing, a DC metadata description set in plain 
+text. The format is referred to as "DC-TEXT" A plain text format for 
+serialisation of such description sets is useful as a means of 
+presenting examples in a way which highlights the constructs of the 
+Abstract Model, and also as a means of comparing the information 
+represented in other formats such as DC-XML, RDF/XML and XHTML/HTML.</p>
+
+</div>
+
+<div>
+
+<a id="sec2" name="sec2"></a>
+<h2>2. The DCMI Abstract Model (Summary)</h2>
+
+<p>According to the DCMI Abstract Model [<a href="#DCAM">DCAM</a>]:</p>
+
+<ul>
+<li><p>a <i>description set</i> is made up of one or more <i>descriptions</i></p></li>
+<li><p>a <i>description</i> is made up of</p>
+<ul>
+<li>zero or one <i>resource URI</i> and</li>
+<li>one or more <i>statements</i></li>
+</ul>
+</li>
+<li><p>a <i>statement</i> is made up of</p>
+<ul>
+<li><p>exactly one <i>property URI</i> and</p></li>
+<li><p>zero or one <i>references to</i> a value in the form of a <i>value URI</i></p></li>
+<li><p>zero or more <i>representations of</i> a value, each in the form of a <i>value representation</i></p></li>
+<li><p>zero or one <i>vocabulary encoding scheme URI</i></p></li>
+</ul>
+</li>
+<li><p>a <i>value representation</i> is either</p>
+<ul>
+<li>a <i>value string</i> or</li>
+<li>a <i>rich representation</i></li>
+</ul>
+</li>
+<li><p>a value string may be associated with a <i>value string language</i></p></li>
+<li><p>a value string may be associated with a <i>syntax encoding scheme URI</i></p></li>
+<li><p>a <i>value</i> may be the subject of a <i>related description</i></p></li>
+</ul>
+
+
+</div>
+
+<div>
+
+<a id="sec3" name="sec3"></a>
+<h2>3. The Syntax</h2>
+
+<p>A formal description of the DC-TEXT syntax is presented in <a href="#appA">Appendix A</a>
+ This section presents an overview of the syntax and a set of examples 
+illustrating how the various constructs of the Abstract Model are 
+represented.</p>
+
+<div>
+
+<a id="sec3.1" name="sec3.1"></a>
+<h3>3.1 The Structure of a DC-TEXT Document</h3>
+
+<p>The general structure of a DC-TEXT document is as follows:</p>
+
+<div align="center">
+<a name="genstruct" id="genstruct"></a>
+
+<table summary="General Structure" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+
+<pre><code><i>namespace declaration
+
+label (
+      label ( content )
+      label (
+             label ( [...] )
+      [ ... ]
+            )
+      )</i></code></pre>
+
+</td>
+</tr>
+</tbody></table>
+
+</div>
+
+<p>Each of the primary components of a DC metadata description set 
+defined by the DCMI Abstract Model is represented in DC-TEXT by a 
+syntactic structure of the form:</p>
+
+
+<div align="center">
+<a name="struct" id="struct"></a>
+
+<table summary="Structure" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+
+<pre><code><i>label ( content )</i></code></pre>
+
+</td>
+</tr>
+</tbody></table>
+
+</div>
+
+<p>where <code><i>label</i></code> is replaced by one of the following strings:</p>
+
+<div align="center">
+<a name="labels" id="labels"></a>
+
+<table summary="Labels" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+
+<pre><code>DescriptionSet, Description, DescriptionId, ResourceURI, Statement, PropertyURI, DescriptionRef,
+VocabularyEncodingSchemeURI, ValueURI, ValueString, Language, SyntaxEncodingSchemeURI,
+RichRepresentation, Base64, MIME</code></pre>
+
+</td>
+</tr>
+</tbody></table>
+
+</div>
+
+<p>and <code><i>content</i></code> is either:</p>
+
+<ul>
+<li>a sequence of one or more syntactic structures of the form <code><i>label( content )</i></code> (i.e. these structures are "nested"); or</li>
+<li>a string of the form <code>"<i>literal</i>"</code>, which represents that Unicode literal; or</li>
+<li>a string of the form <code>&lt;<i>uri</i>&gt;</code>, which represents a URI; or</li>
+<li>a string of the form <code><i>prefix</i>:<i>name</i></code>, which represents a "qualified name" used as an abbreviation for a URI</li>
+<li>a string which represents a language tag</li>
+<li>a string which is a locally-scoped identifier used to establish relationships between values and their descriptions</li>
+</ul>
+
+<p>For each <code><i>label</i></code> value in the list above, the permitted form of <code><i>content</i></code> is determined by the syntax rules specified in <a href="#appA">Appendix A</a>. These are explained through examples below.</p>
+
+<p>The DC-TEXT syntax supports the representation of a single DC description set, so a DC-TEXT document consists of zero or more <code><i>namespace declarations</i></code> followed by a single <code><i>label( content )</i></code> syntactic structure with a <code><i>label</i></code> of <code>DescriptionSet</code>, and as <code><i>content</i></code>, one or more nested <code><i>label( content )</i></code> structured with a <code><i>label</i></code> of <code>Description</code>. i.e. a DC-TEXT document has the following outline form:</p>
+
+<div align="center">
+<a name="highstruct" id="highstruct"></a>
+
+<table summary="High-Level Structure" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+
+<pre><code>@prefix <i>prefix</i>: &lt;<i>uri</i>&gt; .
+
+DescriptionSet (
+     Description (
+          Statement ( ... )
+          Statement ( ... )
+          )
+     Description (
+          Statement ( ... )
+          Statement ( ... )
+          )
+     )</code></pre>
+
+</td>
+</tr>
+</tbody></table>
+
+</div>
+
+</div>
+
+<div>
+<a id="sec3.2" name="sec3.2"></a>
+<h3>3.1 URIs, Qualified Names, and Namespace Declarations</h3>
+
+<p>The DCMI Abstract Model uses URIs to refer to resources and to 
+metadata terms (properties, vocabulary encoding schemes and syntax 
+encoding schemes). In the DC-TEXT syntax, URIs may be written in full or
+ may be represented as <code><i>qualified names</i></code>. A <code><i>qualified name</i></code> is made up of two parts, a <code><i>prefix</i></code> and a <code><i>name</i></code>, separated by a colon (":"). In DC-TEXT, wherever a <code><i>qualified name</i></code>
+ is used, it is used to represent a URI. The URI represented by the 
+qualified name is determined by appending the name part of the qualified
+ name to the URI with which the prefix is associated in a <code><i>namespace declaration</i></code> (sometimes called the namespace URI).</p>
+
+<p>Namespace declarations occur at the start of a DC-TEXT document, and have the following form:</p>
+
+<div align="center">
+<a name="namespacedecl" id="namespacedecl"></a>
+
+<table summary="Namespace declaration" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+
+<pre><code>@prefix <i>prefix</i>: &lt;<i>uri</i>&gt;</code></pre>
+
+</td>
+</tr>
+</tbody></table>
+
+</div>
+
+<p>For example, the following declarations associates the prefix <code>dc</code> with the URI <code>http://purl.org/dc/elements/1.1/</code> and the prefix <code>ex</code> with the URI <code>http://example.org/resources/</code></p>
+
+<div align="center">
+<a name="namespacedeclex" id="namespacedeclex"></a>
+
+<table summary="Namespace declaration example" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+
+<pre><code>@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt;</code>
+<code>@prefix ex: &lt;http://example.org/resources/&gt;</code></pre>
+
+</td>
+</tr>
+</tbody></table>
+
+</div>
+
+<p>Note that the limitations on the characters which can occur in the <code>name</code> part of a qualified name mean that there are URIs that can not be expressed as qualified names. For example the URIs <code>http://example.org/resources/12345</code> and <code>http://example.org/resources#12345</code> can not be represented as qualified names, because the <code>name</code> part can not include the "/" or "#" characters, and can not begin with a numeric character.</p>
+
+</div>
+
+<div>
+<a id="sec3.3" name="sec3.3"></a>
+<h3>3.3 Comments</h3>
+
+<p>Comments can be inserted anywhere in a DC-TEXT document. A comment starts with a "#" and ends with a newline.</p>
+
+<div align="center">
+<a name="commentex" id="commentex"></a>
+
+<table summary="High-Level Structure" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+
+<pre><code># A comment at the start of the document
+@prefix <i>prefix</i>: &lt;<i>uri</i>&gt; .
+
+DescriptionSet (
+     Description (
+# A comment at the start of a description
+          Statement ( ... ) # A comment following a statement
+          Statement ( ... )
+          )
+     Description (
+          Statement ( ... )
+          Statement ( ... )
+          )
+     )</code></pre>
+
+</td>
+</tr>
+</tbody></table>
+
+</div>
+
+</div>
+
+<div>
+<a id="sec3.4" name="sec3.4"></a>
+<h3>3.4 String Escapes</h3>
+
+<p>To follow.</p>
+
+</div>
+
+</div>
+
+<div>
+<a id="sec4" name="sec4"></a>
+<h2>4. Examples</h2>
+
+<p>This section provides examples of how the DC-TEXT syntax represents all the constructs of the DCMI Abstract Model.</p>
+
+<div>
+<a id="sec4.1" name="sec4.1"></a>
+<h3>4.1 Statements Using Value Strings and Value URIs</h3>
+
+<p>The first example is of a description set containing a single 
+description with a single simple statement with a property URI and a 
+value string to represent the value:</p>
+
+<div align="center">
+<a name="txtexample01" id="txtexample01"></a>
+
+<table summary="DC-TEXT Example 1: Value Strings" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>DescriptionSet (
+  Description (
+    Statement (
+      PropertyURI ( &lt;http://purl.org/dc/elements/1.1/title&gt; )
+      ValueString ( "DCMI Home Page" )
+      )
+    )
+  )</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 1: Value Strings</strong></p>
+
+</div>
+
+<p>The second example introduces a resource URI which identifies the subject of the description, using the <code>ResourceeURI ( &lt;<i>uri</i>&gt; )</code> syntactic structure:</p>
+
+<div align="center">
+<a name="txtexample02" id="txtexample02"></a>
+
+<table summary="DC-TEXT Example 2: Resource URI" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>DescriptionSet (
+  Description(
+    ResourceURI( &lt;http://dublincore.org/pages/home&gt; )
+    Statement (
+      PropertyURI ( &lt;http://purl.org/dc/elements/1.1/title&gt; )
+      ValueString ( "DCMI Home Page" )
+      )
+    )
+  )</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 2: Resource URI</strong></p>
+
+</div>
+
+<p>By introducing namespace declarations, the qualified name mechanism 
+can be used to abbreviate both the resource URI and the property URI. 
+The same description set as in the previous example might be encoded as 
+follows.</p>
+
+<div align="center">
+<a name="txtexample03" id="txtexample03"></a>
+
+<table summary="DC-TEXT Example 3: Qualified Names" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dc:title )
+      Value String ( "DCMI Home Page" )
+      )
+    )
+  )</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 3: Qualified Names</strong></p>
+
+</div>
+
+<p>The value string may be associated with a language tag, represented using the <code>Language( <i>tag</i> )</code> syntactic structure:</p>
+
+<div align="center">
+<a name="txtexample04" id="txtexample04"></a>
+
+<table summary="DC-TEXT Example 4: Language Tags" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dc:title )
+      ValueString ( "DCMI Home Page"
+        Language ( en-GB )
+        )
+      )
+    )
+  )</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 4: Language Tags</strong></p>
+
+</div>
+
+<p>A single statement may include multiple value strings to represent the value. In DC-TEXT this is represented by repeating the <code>ValueString ( "<i>literal</i>" )</code> syntactic structure:</p>
+
+<div align="center">
+<a name="txtexample05" id="txtexample05"></a>
+
+<table summary="DC-TEXT Example 5: Multiple Value Strings" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dc:title )
+      ValueString ( "DCMI Home Page"
+        Language ( en-GB )
+        )
+      ValueString ( "El Home Page de DCMI"
+        Language ( es-ES )
+        )
+      )
+    )
+  )</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 5: Multiple Value Strings</strong></p>
+
+</div>
+
+<p>A statement may include a value URI to identify the value, using the <code>ValueURI ( &lt;<i>uri</i>&gt; )</code> syntactic structure:</p>
+
+<div align="center">
+<a name="txtexample06" id="txtexample06"></a>
+
+<table summary="DC-TEXT Example 6: Value URIs" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix agent: &lt;http://example.org/agents/&gt; .
+@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dc:title )
+      ValueString ( "DCMI Home Page"
+        Language ( en-GB )
+        )
+      ValueString ( "El Home Page de DCMI"
+        Language( es-ES )
+        )
+      )
+    Statement(
+      PropertyURI ( dc:creator )
+      ValueURI ( agent:DCMI )
+      )
+    )
+  )</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 6: Value URIs</strong></p>
+
+</div>
+
+</div>
+
+<div>
+<a id="sec4.2" name="sec4.2"></a>
+<h3>4.2 Vocabulary and Syntax Encoding Scheme URIs</h3>
+
+<p>A statement may include a vocabulary encoding scheme URI to specify 
+the type of the value, a class of which the value is an instance. In 
+DC-TEXT this is represented using the <code>VocabularyEncodingSchemeURI ( &lt;<i>uri</i>&gt; )</code> syntactic structure:</p>
+
+<div align="center">
+<a name="txtexample07" id="txtexample07"></a>
+
+<table summary="DC-TEXT Example 7: Vocabulary Encoding Scheme URIs" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix agent: &lt;http://example.org/agents/&gt; .
+@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dc:title )
+      ValueString ( "DCMI Home Page"
+        Language ( en-GB )
+        )
+      Value String( "El Home Page de DCMI"
+        Language ( es-ES )
+        )
+      )
+    Statement (
+      PropertyURI ( dc:creator )
+      Value URI ( agent:DCMI )
+      )
+    Statement (
+      PropertyURI ( dc:subject )
+      VocabularyEncodingSchemeURI ( dcterms:LCSH )
+      ValueString ( "Information technology")
+      )
+    )
+  )</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 7: Vocabulary Encoding Scheme URIs</strong></p>
+
+</div>
+
+
+<p>A value string may be associated with a syntax encoding scheme URI, using the <code>SyntaxEncodingSchemeURI( &lt;<i>uri</i>&gt; )</code> syntactic structure:</p>
+
+<div align="center">
+<a name="txtexample08" id="txtexample08"></a>
+
+<table summary="DC-TEXT Example 8: Syntax Encoding Scheme URIs" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix agent: &lt;http://example.org/agents/&gt; .
+@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+@prefix xs: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dc:title )
+      ValueString ( "DCMI Home Page"
+        Language ( en-GB )
+        )
+      Value String( "El Home Page de DCMI"
+        Language ( es-ES )
+        )
+      )
+    Statement(
+      Property URI( dc:creator )
+      Value URI ( agent:DCMI )
+      )
+    Statement (
+      PropertyURI ( dc:subject )
+      VocabularyEncodingSchemeURI ( dcterms:LCSH )
+      ValueString ( "Information technology" )
+      )
+    Statement (
+      PropertyURI ( dcterms:modified )
+      ValueString ( "2006-02-14"
+        SyntaxEncodingSchemeURI ( xs:date )
+      )
+    )
+  )</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 8: Syntax Encoding Scheme URIs</strong></p>
+
+</div>
+
+</div>
+
+<div>
+<a id="sec4.3" name="sec4.3"></a>
+<h3>4.3 Multiple Descriptions in Description Set</h3>
+
+<p>A description set may contain multiple descriptions, represented by a list of <code>Description( <i>content</i> )</code> syntactic structures. The order has no significance.</p>
+
+<div align="center">
+<a name="txtexample09" id="txtexample09"></a>
+
+<table summary="DC-TEXT Example 9: Multiple Descriptions" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dc:title )
+      ValueString ( "DCMI Home Page" )
+      )
+    )
+  Description (
+    ResourceURI ( page:althome )
+    Statement (
+      PropertyURI ( dc:title )
+      ValueString ( "DCMI Alternative Home Page" )
+      )
+    )
+  )</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 9: Multiple Descriptions</strong></p>
+
+</div>
+
+<p>A <i>description</i> may be the description of a resource which is a <i>value</i>
+ in a statement in another description within the description set.  If 
+the resource has been assigned a URI, then that URI appears as a value 
+URI in the statement where the resource is the value and as a resource 
+URI in the description of that resource.</p>
+
+<div align="center">
+<a name="txtexample10" id="txtexample10"></a>
+
+<table summary="DC-TEXT Example 10: Multiple Related Descriptions" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix agent: &lt;http://example.org/agents/&gt; .
+@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dc:title )
+      ValueString ( "DCMI Home Page" )
+      )
+    Statement (
+      PropertyURI ( dc:creator )
+      ValueURI ( agent:DCMI )
+      )
+    )
+  Description (
+    ResourceURI ( page:althome )
+    Statement (
+      PropertyURI ( dc:title )
+      ValueString ( "DCMI Alternative Home Page" )
+      )
+    Statement (
+      PropertyURI ( dc:creator )
+      ValueURI ( agent:DCMI )
+      )
+    )
+  Description (
+    ResourceURI ( agent:DCMI )
+    Statement (
+      PropertyURI ( foaf:name )
+      ValueString ( "Dublin Core Metadata Initiative" )
+      )
+    )
+  )
+  </pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 10: Multiple Related Descriptions</strong></p>
+
+</div>
+
+<p>In some cases it may be that the resources do not have URIs assigned,
+ but such a resource may still be a value in a ststement, and the 
+subject of another description. In DC-TEXT, the association between the 
+value of one statement and the description of that resource is made by 
+labelling the description using a <code>DescriptionId ( <i>id</i> )</code> syntactic structure. The id value may then be cited using the <code>DescriptionRef ( <i>id</i> )</code>
+ syntactic structure in one or more statements elsewhere in the same 
+description set. This is a syntactic mechnism for linking references to 
+values to their descriptions: the id itself does not appear in the 
+Abstrct Model </p>
+
+<div align="center">
+<a name="txtexample11" id="txtexample11"></a>
+
+<table summary="DC-TEXT Example 11: Multiple Related Descriptions" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix agent: &lt;http://example.org/agents/&gt; .
+@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dc:title )
+      ValueString ( "DCMI Home Page" )
+      )
+    Statement (
+      PropertyURI ( dc:creator )
+      DescriptionRef ( descDCMI )
+      )
+    )
+  Description (
+    ResourceURI ( page:althome )
+    Statement (
+      PropertyURI ( dc:title )
+      ValueString ( "DCMI Alternative Home Page" )
+      )
+    Statement (
+      PropertyURI ( dc:creator )
+      DescriptionRef ( descDCMI )
+      )
+    )
+  Description (
+    DescriptionId ( descDCMI )
+    Statement (
+      PropertyURI ( foaf:name )
+      ValueString ( "Dublin Core Metadata Initiative" )
+      )
+    )
+  )
+  </pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 11: Multiple Related Descriptions</strong></p>
+
+</div>
+
+</div>
+
+<div>
+<a id="sec4.4" name="sec4.4"></a>
+<h3>4.4 Rich Representations</h3>
+
+<p>A value may be represented not simply by a value string, but also by a
+ rich represntation: an XML fragment or a piece of binary data.</p>
+
+<p>In DC-TEXT, an XML fragment is represented using the <code>RichRepresentation ( "<i>literal</i>" )</code> syntactic structure:</p>
+
+<div align="center">
+<a name="txtexample12" id="txtexample12"></a>
+
+<table summary="DC-TEXT Example 12: Rich Representations - XML" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dc:description )
+      RichRepresentation ( "&lt;p xmlns=\"http://www.w3.org/1999/xhtml\"&gt;This is the DCMI&lt;br /&gt;Home Page&lt;/p&gt;" )
+      )
+    )
+  )</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 12: Rich Representations - XML</strong></p>
+
+</div>
+
+<p>In DC-TEXT, a binary data object is enocoded as a Base64-encoded literal and represented using the <code>Base64 ( "<i>literal</i>" MIME ( "<i>MIME-type</i>" ) )</code> syntactic structure:</p>
+
+<div align="center">
+<a name="txtexample13" id="txtexample13"></a>
+
+<table summary="DC-TEXT Example 13: Rich Representations - Binary Data" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dc:description )
+      RichRepresentation ( 
+        Base64 ( "abcdefghij" MIME ( "image/png" ) )
+        )
+      )
+    )
+  )</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 13: Rich Representations - Binary Data</strong></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<a id="appA" name="appA"></a>
+<h2>Appendix A. Grammar</h2>
+
+<p>A DC-TEXT document is a sequence of Unicode characters encoded in 
+UTF-8 defined by the grammar below. It is specified by means of the 
+version of Extended BNF used in XML 1.0 (Third Edition) [<a href="#XML">XML</a>]</p>
+
+<table class="grammar" summary="DCAM Text - EBNF" rules="rows" border="1">
+	<caption>DCAM Text - EBNF</caption>
+	<tbody>
+		<tr align="left">
+			<td class="cell">[1]</td>
+			<td class="cell"><a name="dcTextDoc" id="dcTextDoc">dcTextDoc</a></td>
+			<td class="cell">::=</td>
+			<td class="cell"><a href="#comment">comment</a>* <a href="#ws">ws</a>* <a href="#namespaceDeclaration">namespaceDeclaration</a>* <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>* <a href="#descriptionSet">descriptionSet</a> <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>*</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[2]</td>
+			<td class="cell"><a name="namespaceDeclaration" id="namespaceDeclaration">namespaceDeclaration</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'@prefix' <a href="#ws">ws</a>+ <a href="#prefixName">prefixName</a>? ':' <a href="#ws">ws</a>+ <a href="#uriref">uriref</a></td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[3]</td>
+			<td class="cell"><a name="descriptionSet" id="descriptionSet">descriptionSet</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'DescriptionSet(' <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>* <a href="#description">description</a> <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>* ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[4]</td>
+			<td class="cell"><a name="description" id="description">description</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'Description(' <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>* (<a href="#descriptionId">descriptionId</a> <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>*)? (<a href="#resourceURI">resourceURI</a> <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>*)? (<a href="#statement">statement</a> <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>*)+ ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[5]</td>
+			<td class="cell"><a name="statement" id="statement">statement</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'Statement(' <a href="#ws">ws</a>* <a href="#comment">comment</a>*  <a href="#ws">ws</a>* <a href="#propertyURI">propertyURI</a> <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>* (<a href="#vocabEncSchemeURI">vocabEncSchemeURI</a> <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>*)? (<a href="#valueURI">valueURI</a> <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>*)? (<a href="#valueRepresentation">valueRepresentation</a> <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>*)*  (<a href="#descriptionReference">descriptionReference</a> <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>*)? ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[6]</td>
+			<td class="cell"><a name="valueRepresentation" id="valueRepresentation">valueRepresentation</a></td>
+			<td class="cell">::=</td>
+			<td class="cell"><a href="#valueString">valueString</a> | <a href="#richRepresentation">richRepresentation</a></td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[7]</td>
+			<td class="cell"><a name="valueString" id="valueString">valueString</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'ValueString(' <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>* <a href="#quotedString">quotedString</a> <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>* (<a href="#languageTag">languageTag</a> <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>*)? (<a href="#valueURI">valueURI</a> <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>*)?  (<a href="#syntaxEncSchemeURI">syntaxEncSchemeURI</a> <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>*)? ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[8]</td>
+			<td class="cell"><a name="languageTag" id="languageTag">languageTag</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'Language(' <a href="#ws">ws</a>* <a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-text/2006-03-14/language">language</a> <a href="#ws">ws</a>* ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[9]</td>
+			<td class="cell"><a name="richRepresentation" id="richRepresentation">richRepresentation</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'RichRepresentation(' <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>* ( <a href="#quotedString">quotedString</a> | <a href="#base64">Base64</a> ) <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>* ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[10]</td>
+			<td class="cell"><a name="base64" id="base64">base64</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'Base64 (' <a href="#ws">ws</a>* <a href="#comment">comment</a>* <a href="#ws">ws</a>* <a href="#quotedString">quotedString</a> <a href="#ws">ws</a>* <a href="#mime">mime</a> <a href="#comment">comment</a>* <a href="#ws">ws</a>* ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[11]</td>
+			<td class="cell"><a name="mime" id="xml">mime</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'mime (' <a href="#ws">ws</a>* <a href="#quotedString">quotedString</a> <a href="#ws">ws</a>* ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[12]</td>
+			<td class="cell"><a name="descriptionReference" id="descriptionReference">descriptionReference</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'DescriptionRef(' <a href="#ws">ws</a>* <a href="#name">name</a> <a href="#ws">ws</a>* ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[13]</td>
+			<td class="cell"><a name="descriptionId" id="descriptionId">descriptionId</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'DescriptionId(' <a href="#ws">ws</a>* <a href="#name">name</a> <a href="#ws">ws</a>* ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[14]</td>
+			<td class="cell"><a name="resourceURI" id="resourceURI">resourceURI</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'ResourceURI(' <a href="#ws">ws</a>* <a href="#resourceRef">resourceRef</a> <a href="#ws">ws</a>* ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[15]</td>
+			<td class="cell"><a name="propertyURI" id="propertyURI">propertyURI</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'PropertyURI(' <a href="#ws">ws</a>* <a href="#resourceRef">resourceRef</a> <a href="#ws">ws</a>* ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[16]</td>
+			<td class="cell"><a name="valueURI" id="valueURI">valueURI</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'ValueURI(' <a href="#ws">ws</a>* <a href="#resourceRef">resourceRef</a> <a href="#ws">ws</a>* ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[17]</td>
+			<td class="cell"><a name="vocabEncSchemeURI" id="vocabEncSchemeURI">vocabEncSchemeURI</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'VocabEncSchemeURI(' <a href="#ws">ws</a>* <a href="#resourceRef">resourceRef</a> <a href="#ws">ws</a>* ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[18]</td>
+			<td class="cell"><a name="syntaxEncSchemeURI" id="syntaxEncSchemeURI">syntaxEncSchemeURI</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'SyntaxEncSchemeURI(' <a href="#ws">ws</a>* <a href="#resourceRef">resourceRef</a> <a href="#ws">ws</a>* ')'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[19]</td>
+			<td class="cell"><a name="resourceRef" id="resourceRef">resourceRef</a></td>
+			<td class="cell">::=</td>
+			<td class="cell"><a href="#uriref">uriref</a> | <a href="#qualifiedName">qualifiedName</a></td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[20]</td>
+			<td class="cell"><a name="qualifiedName">qualifiedName</a></td>
+			<td class="cell">::=</td>
+			<td class="cell"><a href="#prefixName">prefixName</a>? ':' <a href="#name">name</a>?</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>The following productions are as defined by Turtle [<a href="#TURTLE">TURTLE</a>]:</p>
+
+<table class="grammar" summary="DCAM Text - EBNF - continued" rules="rows" border="1">
+	<caption>DCAM Text - EBNF - continued</caption>
+	<tbody>
+		<tr align="left">
+			<td class="cell">[21]</td>
+			<td class="cell"><a name="comment">comment</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'#' ( [^#xA#xD] )*</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[22]</td>
+			<td class="cell"><a name="ws">ws</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">#x9 | #xA | #xD | #x20</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[23]</td>
+			<td class="cell"><a name="uriref">uriref</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'&lt;' <a href="#relativeURI">relativeURI</a> '&gt;'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[24]</td>
+			<td class="cell"><a name="language">language</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">[a-z]+ ('-' [a-z0-9]+ )*</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[25]</td>
+			<td class="cell"><a name="nameStartChar">nameStartChar</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">[A-Z] | "_" | [a-z] | [#x00C0-#x00D6] | 
+[#x00D8-#x00F6] | [#x00F8-#x02FF] | [#x0370-#x037D] | [#x037F-#x1FFF] | 
+[#x200C-#x200D] | [#x2070-#x218F] | [#x2C00-#x2FEF] | [#x3001-#xD7FF] | 
+[#xF900-#xFDCF] | [#xFDF0-#xFFFD] | [#x10000-#xEFFFF]</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[26]</td>
+			<td class="cell"><a name="nameChar">nameChar</a></td>
+			<td class="cell">::=</td>
+			<td class="cell"><a href="#nameStartChar">nameStartChar</a> | '-' | [0-9] | #x00B7 | [#x0300-#x036F] | [#x203F-#x2040]</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[27]</td>
+			<td class="cell"><a name="name">name</a></td>
+			<td class="cell">::=</td>
+			<td class="cell"><a href="#nameStartChar">nameStartChar</a> <a href="#nameChar">nameChar</a>*</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[28]</td>
+			<td class="cell"><a name="prefixName">prefixName</a></td> <td class="cell">::=</td>
+			<td class="cell">( <a href="#nameStartChar">nameStartChar</a> - '_' ) <a href="#nameChar">nameChar</a>*</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[29]</td>
+			<td class="cell"><a name="relativeURI">relativeURI</a></td>
+			<td class="cell">::=</td>
+			<td class="cell"><a href="#ucharacter">ucharacter</a>*</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[30]</td>
+			<td class="cell"><a name="quotedString">quotedString</a></td>
+			<td class="cell">::=</td>
+			<td class="cell"><a href="#string">string</a> | <a href="#longString">longString</a></td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[31]</td>
+			<td class="cell"><a name="string">string</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">#x22 <a href="#scharacter">scharacter</a>* #x22</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[32]</td>
+			<td class="cell"><a name="longString">longString</a></td>
+			<td class="cell">::=</td> <td class="cell">#x22 #x22 #x22 <a href="#lcharacter">lcharacter</a>* #x22 #x22 #x22</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[33]</td>
+			<td class="cell"><a name="character">character</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">'\u' <a href="#hex">hex</a> <a href="#hex">hex</a> <a href="#hex">hex</a> <a href="#hex">hex</a> |<br>'\U' <a href="#hex">hex</a> <a href="#hex">hex</a> <a href="#hex">hex</a> <a href="#hex">hex</a> <a href="#hex">hex</a> <a href="#hex">hex</a> <a href="#hex">hex</a> <a href="#hex">hex</a> |<br>'\\' |<br>[#x20-#x5B] | [#x5D-#x10FFFF]<br>See <a href="#sec-strings">String Escapes</a> for full details.</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[34]</td>
+			<td class="cell"><a name="echaracter">echaracter</a></td>
+			<td class="cell">::=</td>
+			<td class="cell"><a href="#character">character</a> | '\t' | '\n' | '\r' <br>See <a href="#sec-strings">String Escapes</a> for full details.</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[35]</td>
+			<td class="cell"><a name="hex">hex</a></td>
+			<td class="cell">::=</td> <td class="cell">[#x30-#x39] | [#x41-#x46]<br>hexadecimal digit (0-9, uppercase A-F)</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[36]</td>
+			<td class="cell"><a name="ucharacter">ucharacter</a></td>
+			<td class="cell">::=</td>
+			<td class="cell">( <a href="#character">character</a> - #x3E ) | '\&gt;'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[37]</td>
+			<td class="cell"><a name="scharacter">scharacter</a></td>
+			<td class="cell">::=</td> <td class="cell">( <a href="#echaracter">echaracter</a> - #x22 ) | '\"'</td>
+		</tr>
+		<tr align="left">
+			<td class="cell">[38]</td>
+			<td class="cell"><a name="lcharacter">lcharacter</a></td>
+			<td class="cell">::=</td>
+			<td class="cell"><a href="#echaracter">echaracter</a> | '\"' | #x9 | #xA | #xD</td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
+
+<div>
+<a id="secX" name="secX"></a>
+<h2>Notes</h2>
+
+<!--
+<a id="note1" name="note1"></a>
+<p><strong>[1]</strong> This is a slight simplification, since XML documents can also contain other types of item such as comments and processing instructions, and these can form part of XML element content, but for the purposes of this document, we consider XML documents to be made up of XML elements and attributes.</p>
+
+-->
+
+</div>
+
+<div>
+<a id="secY" name="secY"></a>
+<h2>References</h2>
+
+
+<a id="DCAM" name="DCAM"></a>
+<p><strong>[DCAM]</strong><br>DCMI Abstract Model<br><a href="http://dublincore.org/documents/abstract-model/">http://dublincore.org/documents/abstract-model/</a></p>
+
+<a id="XML" name="XML"></a>
+<p><strong>[XML]</strong><br><em>Extensible Markup Language (XML) 1.0 (Third Edition)</em>. W3C Recommendation 04 February 2004.<br><a href="http://www.w3.org/TR/REC-xml">http://www.w3.org/TR/REC-xml</a></p>
+
+<a id="XMLSCHEMA" name="XMLSCHEMA"></a>
+<p><strong>[XML]</strong><br><em>XML Schema Part 0: Primer Second Edition</em>. W3C Recommendation 28 October 2004.<br><a href="http://www.w3.org/TR/xmlschema-0/">http://www.w3.org/TR/xmlschema-0/</a></p>
+
+<a id="TURTLE" name="TURTLE"></a>
+<p><strong>[TURTLE]</strong><br>Turtle - Terse RDF Triple Language<br><a href="http://www.dajobe.org/2004/01/turtle/">http://www.dajobe.org/2004/01/turtle/</a></p>
+</div>
+
+</div>
+
+
+<hr title="separator from page content" size="note1">
+<p><a href="http://validator.w3.org/check/referer"><img src="index_files/valid-xhtml10.gif" alt="Valid XHTML 1.0!" border="0" height="31" width="88"></a><a href="http://jigsaw.w3.org/css-validator"><img src="index_files/vcss.gif" alt="Valid CSS!" border="0" height="31" width="88"></a></p>
+
+<!--
+<div class="metadata">
+<p>Metadata associated with this resource: <a href=
+"http://dublincore.org/documents/dc-elem-prop/index.shtml.rdf">
+http://dublincore.org/documents/dc-elem-prop/index.shtml.rdf</a></p>
+</div>
+-->
+
+<!--
+
+<div class="footer">
+<p><a href="/about/copyright/#copyright">Copyright</a> &copy;
+1995-2004 <acronym title="Dublin Core Metadata Initiative"><a href=
+"http://dublincore.org/">DCMI</a></acronym> All Rights Reserved.
+DCMI <a href="/about/copyright/#liability">liability</a>, <a href=
+"/about/copyright/#trademark">trademark/service mark</a>, <a href=
+"/about/copyright/#documentnotice">document use</a> and <a href=
+"/about/software/">software licensing</a> rules apply. Your
+interactions with this site are in accordance with our <a href=
+"/about/privacy/">privacy</a> statements. Please feel free to <a
+href="/about/contact/">contact us</a> for any questions, comments
+or media inquiries.</p>
+</div>
+
+-->
+
+
+
+
+</body></html>

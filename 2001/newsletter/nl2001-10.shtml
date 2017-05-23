@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Update - October 2001</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+    <link rel="meta" href="nl2001-10.shtml.rdf" />
+  </head>
+
+  <body>
+    <div class="head">
+      <!--#include virtual="/ssi/header.shtml"-->
+
+      <table
+      summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content."
+       border="0" width="100%" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr valign="top">
+            <td background="/images/vrule.gif" width="1"><img
+            src="/images/vrule.gif" width="1" height="500"
+            alt="vertical rule" /></td>
+
+            <td bgcolor="#EEEEEE" width="150">
+              <table width="100%" cellspacing="0" cellpadding="0"
+              border="0"
+              summary="Layout table: Contains graphical text.">
+                <tbody>
+                  <tr bgcolor="#99A59F" align="center">
+                    <td><img src="/images/navlist/toc.gif"
+                    width="150" height="25" alt="Table of Contents"
+                    border="0" /></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <table width="100%" cellspacing="0" cellpadding="10"
+              border="0"
+              summary="Layout table: Contains navigation.">
+                <tbody>
+                  <tr>
+                    <td class="smallsans">
+                      <dl>
+                        <dt class="navlist"><a
+                        href="#action">Action!</a></dt>
+
+                        <dt class="navlist"><a
+                        href="#newsbriefs">News Briefs</a></dt>
+
+                        <dt class="navlist"><a
+                        href="#project">Project &amp; Tool
+                        Updates</a></dt>
+
+                        <dt class="navlist"><a href="#website">Web
+                        Site Changes</a></dt>
+
+                        <dt class="navlist">Submit a news item</dt>
+                      </dl>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="note">
+                      <p>This Newsletter is published monthly by
+                      the <a href="/">Dublin Core Metadata
+                      Initiative</a>.</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+
+            <td background="/images/vrule.gif" width="1"><img
+            src="/images/vrule.gif" width="1" height="500"
+            alt="vertical rule" /></td>
+
+            <td>
+              <table width="100%" border="0" cellspacing="0"
+              cellpadding="10" summary="Content table">
+                <tbody>
+                  <tr>
+                    <td>
+                      <h1 align="center">DCMI Update</h1>
+
+                      <h3 align="center">October 2001</h3>
+
+                      <div align="center">
+                        <hr noshade="noshade" size="1" />
+
+                        <h3 align="left"><a id="action"
+                        name="action"></a>Action!</h3>
+                      </div>
+
+                      <ul>
+                        <li><a
+                        href="http://www.nii.ac.jp/dc2001/">DC-2001:
+                        International Conference on Dublin Core and
+                        Metadata Applications</a>, October 22-26,
+                        2001, Tokyo, Japan</li>
+
+                        <li>
+                          2001-09-21, <b>Two new documents are now
+                          available for public comment.</b> 
+
+                          <ul>
+                            <li>"<a
+                            href="/documents/2001/09/20/dcmes-xml/">
+                            Expressing Simple Dublin Core in
+                            RDF/XML</a>" and</li>
+
+                            <li>"<a
+                            href="/documents/2001/08/29/dcq-rdf-xml/">
+                            Expressing Qualified Dublin Core in
+                            RDF/XML</a>."</li>
+                          </ul>
+                        </li>
+
+                        <li style="list-style: none">
+                          <blockquote>
+                            <p>These two documents describe how
+                            Dublin Core metadata can be encoded in
+                            RDF/XML, and give practical
+                            examples.</p>
+
+                            <p>Together with the <a
+                            href="/documents/2001/09/17/dcmi-namespace/">
+                            DCMI Namespace Policy</a>, also under
+                            review, we consider these basic
+                            documents necessary for the effective
+                            deployment of Dublin Core on the Web.
+                            The public comment period is open until
+                            October 19, 2001.Comments should be
+                            sent to the <a
+                            href="http://www.jiscmail.ac.uk/lists/dc-general.html">
+                            DC-General Mailing List</a>.</p>
+                          </blockquote>
+                        </li>
+
+                        <li>2001-09-20, <a
+                        href="/documents/2001/09/17/gov-application-profile/">
+                        <b>DCMI-Government Application
+                        Profile</b></a> <b>is now available for
+                        comment.</b></li>
+
+                        <li style="list-style: none">
+                          <blockquote>
+                            <p>A working draft for a
+                            DCMI-Government Application Profile is
+                            now available. This working draft was
+                            prepared by the Managing Information
+                            for e-Government (MIReG) group in
+                            conjunction with the DCMI-Government
+                            working group. The Working Group behind
+                            the working draft thanks everybody who
+                            has contributed and commented on the
+                            initial proposal. The intention is to
+                            submit a proposal to the DCMI Usage
+                            Board before the Tokyo Conference. The
+                            working group is still interested in
+                            comments, as soon as possible. Mailto:
+                            <a
+                            href="http://www.jiscmail.ac.uk/lists/dc-government.html">
+                            DC-Government mailing list.</a></p>
+                          </blockquote>
+                        </li>
+
+                        <li>2001-09-18, <b><a
+                        href="/documents/2001/09/17/dcmi-namespace/">
+                        Namespace Policy for the Dublin Core
+                        Metadata Initiative (DCMI)</a> is now
+                        available for public comment.</b></li>
+
+                        <li style="list-style: none">
+                          <blockquote>
+                            <p>The DCMI Directorate is pleased to
+                            announce that the document "Namespace
+                            Policy for the Dublin Core Metadata
+                            Initiative (DCMI)" is now available for
+                            public comment until October 19, 2001.
+                            Comments should be sent to the <a
+                            href="http://www.jiscmail.ac.uk/lists/dc-general.html">
+                            DC-General Mailing list</a>. This
+                            document specifies the conventions used
+                            for identifying current and future DCMI
+                            namespaces. It gives the URIs for the
+                            DCMI namespaces, defines a policy for
+                            changes to DCMI terms and discusses
+                            some major issues that were raised
+                            during the development of the namespace
+                            policy. It has been developed by a
+                            group of experts and reviewed by the
+                            DCMI Advisory Committee. We consider
+                            this one of the basic documents
+                            necessary for the effective deployment
+                            of Dublin Core on the Web</p>
+                          </blockquote>
+                        </li>
+
+                        <li>
+                          2001-09-17, <a
+                          href="/groups/admin/proposal-20010910.shtml">
+                          <b>Administrative Dublin Core (A-Core)
+                          Elements Proposal</b></a><b>.</b> 
+
+                          <blockquote>
+                            <p>This proposal is now available for
+                            discussion in the DCMI Administrative
+                            Metadata Working Group. Based on the
+                            discussion, the authors will revise the
+                            document and present a new version at
+                            the DC-9 Workshop in Tokyo in October
+                            2001.</p>
+                          </blockquote>
+                        </li>
+                      </ul>
+
+                      <h3><a id="newsbriefs"
+                      name="newsbriefs"></a>News Briefs</h3>
+
+                      <ul>
+                        <li>2001-10-05 NISO, the National
+                        Information Standards Organization and the
+                        Dublin Core Metadata Initiative (DCMI)
+                        announce the approval by ANSI of the Dublin
+                        Core Metadata Element Set (Z39.85-2001). <a
+                        href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0110&amp;L=dc-general&amp;F=&amp;S=&amp;P=2142">
+                        More Information...</a></li>
+
+                        <li>2001-09-20 <b><a
+                        href="/groups/libraries/report-20010822.shtml">
+                        DCMI-Libraries Working Group meeting
+                        notes</a> are now available.</b> This
+                        meeting was an official DCMI-Libraries WG
+                        event that was held in conjunction with the
+                        International Federation of Library
+                        Associations conference. The main topic on
+                        the agenda was a discussion of the draft
+                        Dublin Core Library Application
+                        Profile</li>
+                      </ul>
+
+                      <h3 align="left"><a id="project"
+                      name="project"></a>Project and Tool
+                      Updates</h3>
+
+                      <ul>
+                        <li>2001-08-21 <b>New Tool: <a
+                        href="http://mkdoc.com/">MKDoc</a></b>
+                        MKDoc is a web site content management
+                        system that can produce HTML and RDF
+                        qualified Dublin Core metadata for every
+                        document. It also supports Dublin Core
+                        metadata via the generation of RSS 1.0
+                        syndication feeds. <a
+                        href="/tools/#mkdoc">More
+                        Information...</a></li>
+
+                        <li>2001-08-04 <b>New Project: <a href="http://www.colby.edu/~zechandl/">ExLibris
+                        Special Collections Directory</a>.</b> The
+                        ExLibris Special Collections Directory
+                        seeks to provide a comprehensive directory
+                        of special collections libraries that
+                        support digitization and make content such
+                        as manuscripts, art images, and electronic
+                        texts available over the Internet.</li>
+                      </ul>
+
+                      <h3 align="left"><a id="website"
+                      name="website"></a>Web Site Changes</h3>
+
+                      <ul>
+                        <li>
+                          <p align="left"><b>Usage Board</b> files
+                          have been moved from the
+                          dublincore.org/groups/usage/ directory to
+                          the dublincore.org/usage/ directory. Some
+                          files and directories have also been
+                          renamed.</p>
+                        </li>
+                      </ul>
+
+<p>Suggestions, article or item submissions
+                      and any comments may be sent to <a href="http://dublincore.org/feedback/dcmiFeedbackServlet">http://dublincore.org/feedback/dcmiFeedbackServlet</a>.
+                      Deadline for submissions is the 20th of each
+                      month.</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--#include virtual="/ssi/footer.shtml"-->
+  </body>
+</html>
+

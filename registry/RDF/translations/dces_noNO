@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://www.nb.no/katkom/dublincore.html">
+	<dc:title xml:lang="no-NO">Dublin Core metadataelementer, versjon 1.1: Referansebeskrivelse</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.1 Reference Description (Norwegian Translation)</dc:title>
+	<dc:date>2002-04-22</dc:date>
+	<dc:creator>Carol van Nuys</dc:creator>
+	<dc:creator rdf:resource="mailto:carol.vannuys@nb.no"/>
+	<dc:creator>Frank B. Haugen</dc:creator>
+	<dc:language xml:lang="no-NO">Norsk</dc:language>
+	<dc:language xml:lang="en-US">Norwegian</dc:language>
+	<dc:language>no-NO</dc:language>
+	<dc:publisher xml:lang="no-NO">Nasjonalbiblioteket</dc:publisher>
+	<dc:publisher xml:lang="en-US">The National Library of Norway</dc:publisher>
+	<dc:publisher rdf:resource="http://www.nb.no/"/>
+	<dc:source rdf:resource="http://www.nb.no/katkom/dublincore.html"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>

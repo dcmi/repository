@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <!DOCTYPE rdf:RDF [
+         <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+         <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+         <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+         <!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+         <!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
+ ]>
+
+ <rdf:RDF 
+         xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+         xmlns:dcterms="&dctermsns;"
+         xmlns:dcmitype="&dctypens;">         
+
+
+
+ <dcterms:DCMIType rdf:about="&dctypens;Collection">
+   <rdfs:comment xml:lang="ja-JP">
+	Collection &#x306f;&#x500b;&#x3005;&#x306e;&#x3082;&#x306e;&#x306e;&#x96c6;&#x307e;&#x308a;&#x3067;&#x3042;&#x308b;&#xff0e;Collection
+	&#x3068;&#x3044;&#x3046;&#x8a9e;&#x306f;&#x5bfe;&#x8c61;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x304c;
+	&#x30b0;&#x30eb;&#x30fc;&#x30d7;&#x3068;&#x3057;&#x3066;&#x8a18;&#x8ff0;&#x3055;&#x308c;&#x308b;&#x3053;&#x3068;&#x3092;&#x610f;&#x5473;&#x3057;&#xff0c;&#x3057;&#x305f;&#x304c;&#x3063;&#x3066;&#xff0c;Collection
+	&#x306e;&#x8981;&#x7d20;&#x306f;
+	&#x500b;&#x5225;&#x306b;&#x8a18;&#x8ff0;&#x3055;&#x308c;&#xff0c;&#x304b;&#x3064;&#x305d;&#x3053;&#x306b;&#x5230;&#x9054;&#x53ef;&#x80fd;&#x3067;&#x3042;&#x308b;&#xff0e;   
+	</rdfs:comment>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;Dataset">
+    <rdfs:comment xml:lang="ja-JP">
+	Dataset &#x306f;&#x306a;&#x3093;&#x3089;&#x304b;&#x306e;&#x5b9a;&#x7fa9;&#x3055;&#x308c;&#x305f;&#x69cb;&#x9020;(&#x305f;&#x3068;&#x3048;&#x3070;&#xff0c;&#x30ea;&#x30b9;&#x30c8;&#xff0c;&#x30c6;&#x30fc;&#x30d6;&#x30eb;&#xff0c;&#x30c7;&#x30fc;&#x30bf;&#x30d9;&#x30fc;&#x30b9;)
+	&#x306b;&#x30b3;&#x30fc;&#x30c9;&#x5316;&#x3055;&#x308c;&#x305f;&#x60c5;&#x5831;&#x3067;&#x3042;&#x308a;&#xff0c;&#x30b3;&#x30f3;&#x30d4;&#x30e5;&#x30fc;&#x30bf;&#x306b;&#x3088;&#x308b;&#x76f4;&#x63a5;&#x306e;&#x51e6;&#x7406;&#x3092;&#x76ee;&#x7684;&#x3068;&#x3057;&#x305f;&#x3082;&#x306e;&#x3067;
+	&#x3042;&#x308b;&#xff0e;
+	 </rdfs:comment>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;Event">
+    <rdfs:comment xml:lang="ja-JP">
+	Event&#x306f;&#x975e;&#x6c38;&#x7d9a;&#x7684;&#x3067;&#x3001;&#x304b;&#x3064;&#x6642;&#x9593;&#x306b;&#x4f9d;&#x5b58;&#x3057;&#x3066;&#x751f;&#x3058;&#x308b;&#x3082;&#x306e;&#x3067;&#x3042;&#x308b;&#x3002;Event&#x306b;&#x5bfe;&#x3059;&#x308b;&#x30e1;&#x30bf;&#x30c7;
+	&#x30fc;&#x30bf;&#x306f;&#x76ee;&#x7684;&#x3001;&#x5834;&#x6240;&#x3001;&#x671f;&#x9593;&#x3001;&#x8cac;&#x4efb;&#x3092;&#x6301;&#x3064;&#x30a8;&#x30fc;&#x30b8;&#x30a7;&#x30f3;&#x30c8;&#x3001;&#x306a;&#x3089;&#x3073;&#x306b;&#x95a2;&#x9023;&#x3059;&#x308b;Event&#x3084;
+	&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306e;&#x767a;&#x898b;&#x306e;&#x57fa;&#x790e;&#x3068;&#x306a;&#x308b;&#x8a18;&#x8ff0;&#x7684;&#x306a;&#x60c5;&#x5831;&#x3092;&#x4e0e;&#x3048;&#x308b;&#x3082;&#x306e;&#x3067;&#x3042;&#x308b;&#x3002;Event&#x30bf;&#x30a4;&#x30d7;&#x306e;
+	&#x30ea;&#x30bd;&#x30fc;&#x30b9;&#x306f;&#x8a18;&#x8ff0;&#x306e;&#x5bfe;&#x8c61;&#x3068;&#x306a;&#x3063;&#x305f;&#x3082;&#x306e;&#x306e;&#x6709;&#x52b9;&#x671f;&#x9650;&#x304c;&#x904e;&#x304e;&#x3066;&#x3044;&#x305f;&#x308a;&#x3001;&#x3042;&#x308b;&#x3044;&#x306f;&#x307e;&#x3060;&#x5b9f;&#x969b;&#x306b;
+	&#x8d77;&#x304d;&#x3066;&#x3044;&#x306a;&#x3044;&#x5834;&#x5408;&#x306b;&#x306f;&#x3001;&#x691c;&#x7d22;&#x4e0d;&#x53ef;&#x80fd;&#x3067;&#x3042;&#x308b;&#x3053;&#x3068;&#x3082;&#x6709;&#x5f97;&#x308b;&#x3002;&#x305f;&#x3068;&#x3048;&#x3070;&#x3001;&#x5c55;&#x793a;&#x4f1a;&#x3001;
+	Web&#x4e0a;&#x3067;&#x306e;&#x653e;&#x9001;&#x3001;&#x4f1a;&#x8b70;&#x3001;open-day&#x3001;&#x30d1;&#x30d5;&#x30a9;&#x30fc;&#x30de;&#x30f3;&#x30b9;&#x3001;&#x6226;&#x95d8;&#x3001;&#x88c1;&#x5224;&#x3001;&#x5a5a;&#x793c;&#x3001;&#x304a;&#x8336;&#x4f1a;&#x3001;
+	 </rdfs:comment>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;Image">
+    <rdfs:comment xml:lang="ja-JP">
+	Image&#x306f;&#x30c6;&#x30ad;&#x30b9;&#x30c8;&#x4ee5;&#x5916;&#x306e;&#x5f62;&#x5f0f;&#x3067;&#x8868;&#x3055;&#x308c;&#x308b;&#x57fa;&#x672c;&#x7684;&#x306b;&#x30b7;&#x30f3;&#x30dc;&#x30ea;&#x30c3;&#x30af;&#x306a;&#x8996;&#x899a;&#x7684;&#x8868;&#x73fe;&#x3067;&#x3042;&#x308b;&#x3002;
+	&#x305f;&#x3068;&#x3048;&#x3070;&#x3001;&#x7269;&#x7406;&#x7684;&#x306a;&#x7269;&#x4f53;&#x306e;&#x30a4;&#x30e1;&#x30fc;&#x30b8;&#x3084;&#x5199;&#x771f;&#x3001;&#x7d75;&#x753b;&#x3001;&#x7248;&#x753b;&#x3001;&#x56f3;&#x3001;&#x305d;&#x306e;&#x4ed6;&#x306e;&#x30a4;&#x30e1;&#x30fc;&#x30b8;&#x3084;
+	&#x30b0;&#x30e9;&#x30d5;&#x30a3;&#x30c3;&#x30af;&#x30b9;&#x3001;&#x30a2;&#x30cb;&#x30e1;&#x30fc;&#x30b7;&#x30e7;&#x30f3;&#x3084;&#x52d5;&#x753b;&#x3001;&#x30d5;&#x30a3;&#x30eb;&#x30e0;&#x3001;&#x56f3;&#x5f0f;&#x3001;&#x5730;&#x56f3;&#x3001;&#x697d;&#x8b5c;&#x306a;&#x3069;&#x3067;&#x3042;&#x308b;&#x3002;
+	 </rdfs:comment>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;InteractiveResource">
+    <rdfs:comment xml:lang="ja-JP">
+	Resource&#x306f;&#x3001;&#x305d;&#x306e;&#x5185;&#x5bb9;&#x3092;&#x7406;&#x89e3;&#x3059;&#x308b;&#x305f;&#x3081;&#x3001;&#x5b9f;&#x884c;&#x3059;&#x308b;&#x305f;&#x3081;&#x3001;&#x307e;&#x305f;&#x5229;&#x7528;&#x3057;&#x3066;
+	&#x307f;&#x308b;&#x305f;&#x3081;&#x306b;&#x5229;&#x7528;&#x8005;&#x3068;&#x306e;&#x5bfe;&#x8a71;&#xff08;&#x5229;&#x7528;&#x8005;&#x306b;&#x3088;&#x308b;&#x64cd;&#x4f5c;&#xff09;&#x3092;&#x5fc5;&#x8981;&#x3068;&#x3059;&#x308b;&#x3082;&#x306e;&#x3067;&#x3042;&#x308b;&#x3002;
+	&#x305f;&#x3068;&#x3048;&#x3070;&#x3001;Web&#x30da;&#x30fc;&#x30b8;&#x306e;&#x4e2d;&#x306e;form&#x3001;applet&#x3001;&#x30de;&#x30eb;&#x30c1;&#x30e1;&#x30c7;&#x30a3;&#x30a2;&#x3067;&#x4f5c;&#x6210;&#x3055;&#x308c;&#x305f;&#x5b66;&#x7fd2;&#x7528;&#x306e;
+	&#x8cc7;&#x6599;&#x3001;&#x30c1;&#x30e3;&#x30c3;&#x30c8;&#x30b5;&#x30fc;&#x30d3;&#x30b9;&#x3001;&#x4eee;&#x60f3;&#x73fe;&#x5b9f;&#x306a;&#x3069;&#x3067;&#x3042;&#x308b;&#x3002;   
+	 </rdfs:comment>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;Software">
+    <rdfs:comment xml:lang="ja-JP">
+	Software&#x306f;&#x5225;&#x306e;&#x30de;&#x30b7;&#x30f3;&#x306b;&#x30a4;&#x30f3;&#x30b9;&#x30c8;&#x30fc;&#x30eb;&#x3057;&#x3066;&#x5229;&#x7528;&#x3059;&#x308b;&#x305f;&#x3081;&#x306b;&#x7528;&#x610f;&#x3055;&#x308c;&#x305f;&#x30bd;&#x30fc;&#x30b9;&#x30d7;&#x30ed;&#x30b0;
+	&#x30e9;&#x30e0;&#x3042;&#x308b;&#x3044;&#x306f;&#x30b3;&#x30f3;&#x30d1;&#x30a4;&#x30eb;&#x3055;&#x308c;&#x305f;&#x30d7;&#x30ed;&#x30b0;&#x30e9;&#x30e0;&#x3092;&#x610f;&#x5473;&#x3059;&#x308b;&#x3002;&#x5bfe;&#x8a71;&#x74b0;&#x5883;&#x3092;&#x4f5c;&#x308a;&#x51fa;&#x3059;&#x305f;&#x3081;&#x306b;
+	&#x306e;&#x307f;&#x7528;&#x3044;&#x3089;&#x308c;&#x308b;&#x30bd;&#x30d5;&#x30c8;&#x30a6;&#x30a7;&#x30a2;&#x306b;&#x3064;&#x3044;&#x3066;&#x306f;&#x3001;Software&#x306e;&#x4ee3;&#x308f;&#x308a;&#x306b;Interactive
+	Resource&#x3092;&#x7528;&#x3044;&#x308b;&#x3002;   
+	 </rdfs:comment>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;Service">
+    <rdfs:comment xml:lang="ja-JP">
+	Service&#x306f;&#x30a8;&#x30f3;&#x30c9;&#x30e6;&#x30fc;&#x30b6;&#x306b;&#x5bfe;&#x3057;&#x3066;&#x4f55;&#x3089;&#x304b;&#x306e;&#x4fa1;&#x5024;&#x3092;&#x63d0;&#x4f9b;&#x3059;&#x308b;&#x30b7;&#x30b9;&#x30c6;&#x30e0;&#x3067;&#x3042;&#x308b;&#x3002;&#x305f;&#x3068;&#x3048;&#x3070;&#x3001;
+	&#x30b3;&#x30d4;&#x30fc;&#x30b5;&#x30fc;&#x30d3;&#x30b9;&#x3001;&#x30d0;&#x30f3;&#x30ad;&#x30f3;&#x30b0;&#x30b5;&#x30fc;&#x30d3;&#x30b9;&#x3001;&#x8a3c;&#x660e;&#x30b5;&#x30fc;&#x30d3;&#x30b9;&#x3001;&#x56f3;&#x66f8;&#x9928;&#x9593;&#x76f8;&#x4e92;&#x8cb8;&#x501f;&#xff08;ILL&#xff09;&#x3001;
+	Z39.50&#x3084;Web&#x30b5;&#x30fc;&#x30d0;&#x306a;&#x3069;&#x3067;&#x3042;&#x308b;&#x3002;   
+	 </rdfs:comment>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;Sound">
+    <rdfs:comment xml:lang="ja-JP">
+	Sound&#x306f;&#x3001;&#x305d;&#x306e;&#x5185;&#x5bb9;&#x304c;&#x97f3;&#x97ff;&#x30fb;&#x97f3;&#x58f0;&#x3068;&#x3057;&#x3066;&#x518d;&#x751f;&#x3055;&#x308c;&#x308b;&#x3053;&#x3068;&#x3092;&#x7b2c;1&#x306e;&#x76ee;&#x7684;&#x3068;&#x3057;&#x3066;&#x4f5c;&#x3089;&#x308c;&#x305f;
+	&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x3067;&#x3042;&#x308b;&#x3002;&#x305f;&#x3068;&#x3048;&#x3070;&#x3001;&#x97f3;&#x697d;&#x518d;&#x751f;&#x7528;&#x306e;&#x30d5;&#x30a1;&#x30a4;&#x30eb;&#x5f62;&#x5f0f;&#x3001;&#x30aa;&#x30fc;&#x30c7;&#x30a3;&#x30aa;&#x30fb;&#x30b3;&#x30f3;&#x30d1;&#x30af;&#x30c8;
+	&#x30c7;&#x30a3;&#x30b9;&#x30af;&#x3001;&#x9332;&#x97f3;&#x3055;&#x308c;&#x305f;&#x30b9;&#x30d4;&#x30fc;&#x30c1;&#x3084;&#x97f3;&#x306a;&#x3069;&#x3067;&#x3042;&#x308b;&#x3002;   
+	 </rdfs:comment>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;Text">
+    <rdfs:comment xml:lang="ja-JP">
+	Text&#x306f;&#x3001;&#x305d;&#x306e;&#x5185;&#x5bb9;&#x3092;&#x8aad;&#x3080;&#x305f;&#x3081;&#x306b;&#x7528;&#x610f;&#x3055;&#x308c;&#x305f;&#x8a9e;&#xff08;&#x306e;&#x4e26;&#x3073;&#xff09;&#x3067;&#x3042;&#x308b;&#x8cc7;&#x6e90;&#x3067;&#x3042;&#x308b;&#x3002;&#x305f;&#x3068;&#x3048;
+	&#x3070;&#x3001;&#x672c;&#x3001;&#x624b;&#x7d19;&#x3001;&#x5b66;&#x4f4d;&#x8ad6;&#x6587;&#x3001;&#x8a69;&#x3001;&#x65b0;&#x805e;&#x3001;&#x8a18;&#x4e8b;&#x3001;&#x30e1;&#x30fc;&#x30ea;&#x30f3;&#x30b0;&#x30ea;&#x30b9;&#x30c8;&#x306e;&#x30a2;&#x30fc;&#x30ab;&#x30a4;&#x30d6;&#x306a;&#x3069;&#x3067;
+	&#x3042;&#x308b;&#x3002;&#x30c6;&#x30ad;&#x30b9;&#x30c8;&#x306e;&#x30d5;&#x30a1;&#x30af;&#x30b7;&#x30df;&#x30ea;&#x3084;&#x30a4;&#x30e1;&#x30fc;&#x30b8;&#x306f;&#x30c6;&#x30ad;&#x30b9;&#x30c8;&#x3068;&#x3057;&#x3066;&#x6271;&#x3046;&#x3002;   
+	 </rdfs:comment>
+ </dcterms:DCMIType>
+
+ </rdf:RDF>

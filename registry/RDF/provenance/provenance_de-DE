@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+	<!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	xmlns:dcterms="&dctermsns;"
+	xmlns:dctype="&dctypens;">
+	
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label rdf:ID="title_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="title_comment" xml:lang="de-DE"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label rdf:ID="contributor_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="contributor_comment" xml:lang="de-DE"/>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label rdf:ID="creator_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="creator_comment" xml:lang="de-DE"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label rdf:ID="publisher_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="publisher_comment" xml:lang="de-DE"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label rdf:ID="subject_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="subject_comment" xml:lang="de-DE"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label rdf:ID="description_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="description_comment" xml:lang="de-DE"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label rdf:ID="date_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="date_comment" xml:lang="de-DE"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label rdf:ID="type_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="type_comment" xml:lang="de-DE"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label rdf:ID="format_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="format_comment" xml:lang="de-DE"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label rdf:ID="identifier_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="identifier_comment" xml:lang="de-DE"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label rdf:ID="language_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="language_comment" xml:lang="de-DE"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label rdf:ID="relation_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="relation_comment" xml:lang="de-DE"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label rdf:ID="source_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="source_comment" xml:lang="de-DE"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label rdf:ID="coverage_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="coverage_comment" xml:lang="de-DE"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label rdf:ID="rights_label" xml:lang="de-DE"/>
+  <rdfs:comment rdf:ID="rights_comment" xml:lang="de-DE"/>
+</rdf:Property>
+
+<rdf:Description rdf:about="#title_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#title_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_label">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_comment">
+	<dc:title xml:lang="de-DE">Metadata-Elemente des Dublin Core</dc:title>
+	<dc:date>1996-12-18</dc:date>
+	<dc:creator>Diann Rusch-Feja</dc:creator>
+	<dc:description xml:lang="de-DE">
+	DC term &#0220;bersetzung (DC term translation)
+	</dc:description>
+	<dc:language>de-DE</dc:language>
+	<dc:publisher xml:lang="de-DE">
+	Max-Planck-Institut f&#0252;r Bildungsforschung (Max-Planck-Institute for Human Development and Education)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.mpib-berlin.mpg.de/"/>
+	<dc:source rdf:resource="http://www.mpib-berlin.mpg.de/DOK/metatagd.htm"/>
+	<dc:rights xml:lang="de-DE">
+	Der Verleger &#0252;bernimmt keine Verantwortung f&#0252;r die Richtigkeit 
+	dieser &#0220;bersetzung (The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>
+</rdf:Description>
+
+
+</rdf:RDF>

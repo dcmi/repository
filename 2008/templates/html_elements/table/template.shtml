@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>DCMI Example</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<table border="1" cellpadding="4" cellspacing="2" summary="A textual description of the table.">
+<caption>Caption:</caption>
+<thead>
+<tr valign="BASELINE">
+<th id="header1">Header 1</th>
+<th id="header2">Header 2</th>
+<th id="header3">Header 3</th>
+</tr>
+</thead>
+<tbody>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

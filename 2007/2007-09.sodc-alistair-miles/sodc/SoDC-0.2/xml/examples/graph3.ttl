@@ -1,0 +1,1 @@
+<http://example.com/book#1> <http://example.com/property#price> """9.99"""^^<http://www.w3.org/2001/XMLSchema#decimal> .

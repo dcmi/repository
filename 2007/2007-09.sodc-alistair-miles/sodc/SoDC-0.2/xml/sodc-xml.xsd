@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: sodc-xml.xsd,v 1.2 2007/09/03 09:09:37 ajm65 Exp $ -->
+<xs:schema 
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:sodc="http://purl.org/net/sodc/xml"
+  targetNamespace="http://purl.org/net/sodc/xml"
+  attributeFormDefault="unqualified"
+  elementFormDefault="qualified">
+
+  <xs:element name="graph">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="resource" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:choice minOccurs="0" maxOccurs="1">
+                <xs:element name="uri" type="xs:anyURI"/>
+                <xs:element name="nodeid" type="xs:string"/>
+              </xs:choice>
+              <xs:element name="profile" type="xs:anyURI" minOccurs="0" maxOccurs="unbounded"/>
+              <xs:element name="property" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="value" minOccurs="1" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:choice>
+                          <xs:element name="uri" type="xs:anyURI"/>
+                          <xs:element name="nodeid" type="xs:string"/>
+                          <xs:element name="plainliteral">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="lang" type="xs:string" use="required"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="typedliteral">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="datatype" type="xs:anyURI" use="required"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="xmlliteral">
+                            <xs:complexType>
+                              <xs:complexContent>
+                                <xs:extension base="xs:anyType">
+                                </xs:extension>
+                              </xs:complexContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:choice>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="uri" use="required" type="xs:anyURI"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:unique name="property-value-uri">
+            <xs:selector xpath="sodc:property"/>
+            <xs:field xpath="@uri"/>
+            <xs:field xpath="sodc:value/sodc:uri"/>
+          </xs:unique>
+          <xs:unique name="property-value-nodeid">
+            <xs:selector xpath="sodc:property"/>
+            <xs:field xpath="@uri"/>
+            <xs:field xpath="sodc:value/sodc:nodeid"/>
+          </xs:unique>
+          <xs:unique name="property-value-plainliteral">
+            <xs:selector xpath="sodc:property"/>
+            <xs:field xpath="@uri"/>
+            <xs:field xpath="sodc:value/sodc:plainliteral"/>
+            <xs:field xpath="sodc:value/sodc:plainliteral/@lang"/>
+          </xs:unique>
+          <xs:unique name="property-value-typedliteral">
+            <xs:selector xpath="sodc:property"/>
+            <xs:field xpath="@uri"/>
+            <xs:field xpath="sodc:value/sodc:typedliteral"/>
+            <xs:field xpath="sodc:value/sodc:typedliteral/@datatype"/>
+          </xs:unique>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="uri" use="optional" type="xs:anyURI"/>
+    </xs:complexType>    
+    <xs:unique name="uri">
+      <xs:selector xpath="sodc:resource"/>
+      <xs:field xpath="sodc:uri"/>
+    </xs:unique>
+    <xs:unique name="nodeid">
+      <xs:selector xpath="sodc:resource"/>
+      <xs:field xpath="sodc:nodeid"/>
+    </xs:unique>
+  </xs:element>  
+   
+</xs:schema>
+<!--  
+$Log: sodc-xml.xsd,v $
+Revision 1.2  2007/09/03 09:09:37  ajm65
+Added property/value uniqueness constraints; made @lang required on plain literal values (needed to support property/value uniqueness constraint).
+
+Revision 1.1  2007/08/30 23:42:05  ajm65
+Initial version.
+  
+-->

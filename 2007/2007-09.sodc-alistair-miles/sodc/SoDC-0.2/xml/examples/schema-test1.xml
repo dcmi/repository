@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://purl.org/net/sodc/xml"
+  xmlns:eg="http://example.com/xmlns"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://purl.org/net/sodc/xml ../sodc-xml.xsd">
+
+  <!-- test disallow repeat property/value pair -->
+  
+  <!-- this one should be broken -->
+  <resource>
+    <property uri="http://example.com/property#p">
+      <value>
+        <uri>http://example.com/foo</uri>
+      </value>
+    </property>
+    <property uri="http://example.com/property#p">
+      <value>
+        <uri>http://example.com/foo</uri>
+      </value>
+    </property>
+  </resource>
+  
+  <!-- this one should be ok -->
+  <resource>
+    <property uri="http://example.com/property#p">
+      <value>
+        <uri>http://example.com/foo</uri>
+      </value>
+    </property>
+    <property uri="http://example.com/property#p">
+      <value>
+        <uri>http://example.com/bar</uri>
+      </value>
+    </property>
+  </resource>
+  
+  <!-- this one should be broken -->
+  <resource>
+    <property uri="http://example.com/property#p">
+      <value>
+        <nodeid>foo</nodeid>
+      </value>
+    </property>
+    <property uri="http://example.com/property#p">
+      <value>
+        <nodeid>foo</nodeid>
+      </value>
+    </property>
+  </resource>
+  
+  <!-- this one should be ok -->
+  <resource>
+    <property uri="http://example.com/property#p">
+      <value>
+        <nodeid>foo</nodeid>
+      </value>
+    </property>
+    <property uri="http://example.com/property#p">
+      <value>
+        <nodeid>bar</nodeid>
+      </value>
+    </property>
+  </resource>
+  
+  <!-- this one should be broken -->
+  <resource>
+    <property uri="http://example.com/property#p">
+      <value>
+        <plainliteral lang="">foo</plainliteral>
+      </value>
+    </property>
+    <property uri="http://example.com/property#p">
+      <value>
+        <plainliteral lang="">foo</plainliteral>
+      </value>
+    </property>
+  </resource>
+  
+  <!-- this one should be broken -->
+  <resource>
+    <property uri="http://example.com/property#p">
+      <value>
+        <plainliteral lang="en">foo</plainliteral>
+      </value>
+    </property>
+    <property uri="http://example.com/property#p">
+      <value>
+        <plainliteral lang="en">foo</plainliteral>
+      </value>
+    </property>
+  </resource>
+  
+  <!-- this one should be ok -->
+  <resource>
+    <property uri="http://example.com/property#p">
+      <value>
+        <plainliteral lang="">foo</plainliteral>
+      </value>
+    </property>
+    <property uri="http://example.com/property#p">
+      <value>
+        <plainliteral lang="">bar</plainliteral>
+      </value>
+    </property>
+  </resource>
+  
+  <!-- this one should be ok -->
+  <resource>
+    <property uri="http://example.com/property#p">
+      <value>
+        <plainliteral lang="en">foo</plainliteral>
+      </value>
+    </property>
+    <property uri="http://example.com/property#p">
+      <value>
+        <plainliteral lang="fr">foo</plainliteral>
+      </value>
+    </property>
+  </resource>
+
+  <!-- this one should be broken -->
+  <resource>
+    <property uri="http://example.com/property#p">
+      <value>
+        <typedliteral datatype="http://example.com/datatype#foo">foo</typedliteral>
+      </value>
+    </property>
+    <property uri="http://example.com/property#p">
+      <value>
+        <typedliteral datatype="http://example.com/datatype#foo">foo</typedliteral>
+      </value>
+    </property>
+  </resource>
+  
+  <!-- this one should be ok -->
+  <resource>
+    <property uri="http://example.com/property#p">
+      <value>
+        <typedliteral datatype="http://example.com/datatype#foo">foo</typedliteral>
+      </value>
+    </property>
+    <property uri="http://example.com/property#p">
+      <value>
+        <typedliteral datatype="http://example.com/datatype#foo">bar</typedliteral>
+      </value>
+    </property>
+  </resource>
+  
+  <!-- this one should be ok -->
+  <resource>
+    <property uri="http://example.com/property#p">
+      <value>
+        <typedliteral datatype="http://example.com/datatype#foo">foo</typedliteral>
+      </value>
+    </property>
+    <property uri="http://example.com/property#p">
+      <value>
+        <typedliteral datatype="http://example.com/datatype#bar">foo</typedliteral>
+      </value>
+    </property>
+  </resource>
+  
+  <!-- N.B. cannot disallow repeat xml literal values using uniqueness constraint, because requires simple type in unique field(s) -->
+  
+  <!-- this should be broken -->
+  <resource>
+    <property uri="http://example.com/property#p">
+      <value>
+        <xmlliteral>
+          <eg:foo>bar</eg:foo>
+        </xmlliteral>
+      </value>
+    </property>
+    <property uri="http://example.com/property#p">
+      <value>
+        <xmlliteral>
+          <eg:foo>bar</eg:foo>
+        </xmlliteral>
+      </value>
+    </property>
+  </resource>
+  
+</graph>

@@ -1,0 +1,18 @@
+
+    <!--#include virtual="tool-head.shtml" -->
+    <!--#include virtual="/ssi/header.shtml" -->
+    <h1>Editor-Converter Dublin Core metadata</h1>
+    <table cellspacing="0" class="noborder">
+<tr><td>Identifier:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.library.kr.ua/dc/dceditunie.html">http://www.library.kr.ua/dc/dceditunie.html</a></td></tr>
+<tr><td>Description:&nbsp;&nbsp;&nbsp;</td><td>This online program can be used for two purposes: as a Dublin Core metadata editor, and as a converter to UNIMARC.<br />After conversion to UNIMARC format, metadata can be saved to your local hard drive as an ISO-2709 file. Viewable in Ukrainian, Russian and English.</td></tr>
+<tr><td>Rights:&nbsp;&nbsp;&nbsp;</td><td>free online tool, rights hold by Chizhevsky RURL Kirovohrad</td></tr>
+<tr><td>Language:&nbsp;&nbsp;&nbsp;</td><td>eng, ukr, rus (ISO 639-2)</td></tr>
+<tr><td>Publisher:&nbsp;&nbsp;&nbsp;</td><td>Kirovohrad Regional Universal Research Library</td></tr>
+<tr><td>Location:&nbsp;&nbsp;&nbsp;</td><td>Ukraine</td></tr>
+<tr><td>Date:&nbsp;&nbsp;&nbsp;</td><td>2001-2006</td></tr>
+</table>
+    <p><small>For an application profile see the <a href="/groups/tools/map.shtml">DCMI Tools
+    Application Profile</a></small>
+    <!--#include virtual="/ssi/footer.shtml" -->
+    </body>
+    </html>

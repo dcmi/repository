@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  
+<head>
+    
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    
+<title>DCMI Website Standards and Policy Manual - Key Message</title>
+    
+<meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    
+<link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+ 
+</script>
+  
+</head>
+
+  
+<body>
+    
+<!--#include virtual="/ssi/policies/header.shtml" -->
+<table
+    summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content."
+     border="0" width="100%" cellspacing="0" cellpadding="5">
+      <tbody>
+        
+<tr valign="top">
+          
+<td bgcolor="#EEEEEE" width="150">
+            
+<!--#include virtual="/ssi/policies/design.shtml" -->
+</td>
+<td>
+<h1>Key Message</h1>
+<p>We have developed a key message to support and add relevance to our innovation position, and help give people around the world a consistent impression of our organization.</p>
+<p>The key message is represented in italic text on the home page of the Dublin Core Metadata Initiative website:</p>
+<blockquote>
+			<b><i>Making it easier to find information using the Internet.</i></b></blockquote>
+<h2>Focuses on:</h2>
+<p>Primary role of the Dublin Core Metadata Initiative.</p>
+<h2>Supporting points:</h2>
+<p>The DCMI is recognized worldwide as a leader in metadata standards.</p>
+</td>
+</tr>
+      </tbody>
+    
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

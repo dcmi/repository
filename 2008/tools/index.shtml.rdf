@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description about="http://dublincore.org/tools/">
+<dc:title>Dublin Core Metadata Initiative Tools and Software</dc:title>
+<dc:description>A listing of tools and software to assist in the creation and maintainence of Dublin Core Metadata Software.</dc:description>
+<dc:date>2008-09-03</dc:date>
+<dc:format>text/html</dc:format>
+<dc:language>en</dc:language>
+<dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+</rdf:Description>
+</rdf:RDF>

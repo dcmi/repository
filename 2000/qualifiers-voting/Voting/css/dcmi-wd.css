@@ -1,0 +1,92 @@
+BODY {
+	BACKGROUND: white fixed no-repeat left top; COLOR: black; FONT-FAMILY: sans-serif; MARGIN: 2em 1em 2em 70px
+}
+TH {
+	FONT-FAMILY: sans-serif
+}
+TD {
+	FONT-FAMILY: sans-serif
+}
+H1 {
+	COLOR: #0050b2; FONT-FAMILY: sans-serif; FONT-WEIGHT: normal; TEXT-ALIGN: left
+}
+H2 {
+	COLOR: #0050b2; FONT-FAMILY: sans-serif; FONT-WEIGHT: normal; TEXT-ALIGN: left
+}
+H3 {
+	COLOR: #0050b2; FONT-FAMILY: sans-serif; FONT-WEIGHT: normal; TEXT-ALIGN: left
+}
+.hide {
+	DISPLAY: none
+}
+DIV.head {
+	MARGIN-BOTTOM: 1em
+}
+DIV.head H1 {
+	CLEAR: both; MARGIN-TOP: 2em
+}
+DIV.head TABLE {
+	MARGIN-LEFT: 2em; MARGIN-TOP: 2em
+}
+DIV.head IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none; COLOR: white
+}
+P.copyright {
+	FONT-SIZE: small
+}
+P.copyright SMALL {
+	FONT-SIZE: small
+}
+
+@media Screen    
+{
+A:hover {
+	BACKGROUND: #ffa
+}
+    }
+PRE {
+	MARGIN-LEFT: 2em
+}
+DT {
+	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px
+}
+DD {
+	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px
+}
+DT {
+	FONT-WEIGHT: bold
+}
+PRE {
+	FONT-FAMILY: monospace
+}
+UL.toc {
+	LIST-STYLE: none
+}
+
+@media Aural    
+{
+H1 {
+	stress: 20; richness: 90
+}
+H2 {
+	stress: 20; richness: 90
+}
+H3 {
+	stress: 20; richness: 90
+}
+.hide {
+	speak: none
+}
+P.copyright {
+	volume: x-soft; speech-rate: x-fast
+}
+DT {
+	pause-before: 20%
+}
+PRE {
+	speak-punctuation: code
+}
+    }
+BODY {
+	BACKGROUND-IMAGE: url(http://archive.dstc.edu.au/RDU/DCAC/WD.gif)
+}

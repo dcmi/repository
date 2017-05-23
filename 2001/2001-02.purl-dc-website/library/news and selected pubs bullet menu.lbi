@@ -1,0 +1,44 @@
+<TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="2">
+<TR>
+<TD WIDTH="10%" COLSPAN="2" VALIGN="TOP"><FONT COLOR="#990000"><B>NEWS AND PUBLICATIONS</B></FONT></TD>
+</TR>
+<TR>
+<TD WIDTH="10%" VALIGN="TOP"><IMG SRC="../images/bullet/orange.gif" WIDTH="9" HEIGHT="13" BORDER="0"></TD>
+<TD WIDTH="90%" VALIGN="TOP"><A HREF="../news/index.htm"><B>News </B></A></TD>
+</TR>
+<TR>
+<TD WIDTH="10%" VALIGN="TOP"><IMG SRC="../images/bullet/orange.gif" WIDTH="9" HEIGHT="13"></TD>
+<TD WIDTH="90%" VALIGN="TOP"><A HREF="../news/newsletterindex.htm"><B>Newsletter - DCMI Update</B></A></TD>
+</TR>
+<TR>
+<TD WIDTH="10%" VALIGN="TOP"><IMG SRC="../images/bullet/orange.gif" WIDTH="9" HEIGHT="13" BORDER="0"></TD>
+<TD WIDTH="90%" VALIGN="TOP"><A HREF="../news/publications.htm"><B>Selected Publications and Presentations</B></A></TD>
+</TR>
+<TR>
+<TD WIDTH="10%" VALIGN="TOP">&nbsp;</TD>
+<TD WIDTH="90%" VALIGN="TOP">
+      <TABLE BORDER="0" WIDTH="100%" CELLSPACING="0" CELLPADDING="2">
+        <TR>
+          <TD WIDTH="10%"><img src="../images/bullet/bullet.gif" width="9" height="7"></TD>
+          <TD WIDTH="90%"><a href="#1999">1999</a></TD>
+        </TR>
+        <TR> 
+          <TD WIDTH="10%"><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD>
+          <TD WIDTH="90%"><A HREF="#1998">1998</A></TD>
+        </TR>
+        <TR> 
+          <TD WIDTH="10%"><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD>
+          <TD WIDTH="90%"><A HREF="#1997">1997</A></TD>
+        </TR>
+        <TR> 
+          <TD WIDTH="10%"><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD>
+          <TD WIDTH="90%"><A HREF="#1996">1996</A></TD>
+        </TR>
+        <TR> 
+          <TD WIDTH="10%"><IMG SRC="../images/bullet/bullet.gif" WIDTH="9" HEIGHT="7" BORDER="0"></TD>
+          <TD WIDTH="90%"><A HREF="#1995">1995</A></TD>
+        </TR>
+      </TABLE>
+</TD>
+</TR>
+</TABLE>

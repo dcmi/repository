@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/DC/documents/rec-dces-19971002.htm">
+   <dc:title>Dublin Core Metadata Element Set: Reference Description</dc:title>
+   <dc:description>This document is the reference description of the Dublin Core 
+                Metadata Element Set. See the Dublin Core Home Page for further information about the workshops, reports, working 
+                group papers, projects, and new developments concerning the Dublin 
+                Core Metadata Element set. </dc:description>
+   <dc:date>1997-10-02</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

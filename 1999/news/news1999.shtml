@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html title="An advisory description of the element." lang="en">
+<head title="An advisory description of the element.">
+<title>Dublin Core Metadata Initiative (DCMI) News Archive</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="previous" href="/news/index.shtml">
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.txt" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="10" summary="Content table">
+<tbody>
+<tr>
+<td><h1 id="title">News Archive - 1999</h1>
+<p>(<a href="news1998.shtml">News Archive 1998 and prior years</a>)</p>
+<p><a name="19991217"></a><b>1999-12-17: MetaChem is added to the Project pages</b></p>
+<p><a href="http://metachem.ch.adfa.edu.au/">MetaChem</a> is a single Web-based 
+focal point for access to chemistry information resources of all kinds. The gateway 
+provides access to Internet information such as electronic chemistry publications 
+and databases, research projects, data sources, software, online teaching modules, 
+directories, conferences etc. In addition, the gateway provides links, through 
+library catalogues and document delivery services, to print information.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><b><a name="19991216"></a>1999-12-16: IETF RFC 2731 &quot;Encoding Dublin Core 
+Metadata in HTML&quot; is now available.</b></p>
+<p>The Dublin Core is a small set of metadata elements for describing information 
+resources. <a href="http://www.ietf.org/rfc/rfc2731.txt">This document</a> explains how these elements are expressed using the META 
+and LINK tags of HTML (4.0).</p>
+<hr noshade size="1" title="separator from news item" />
+<p><a name="19991206"></a><b>1999-12-06: DCMI web site is now mirrored in Australia 
+and the U.K.</b></p>
+<p>The Dublin Core Metadata Initiative is pleased to announce that two mirrors 
+of the official Dublin Core Metadata Initiative web site have been established 
+in <a href="http://mirror.nla.gov.au/dc">Australia</a> and in the <a href="http://mirrored.ukoln.ac.uk/dc/">UK</a>.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><a name="19991116"></a><b>1999-11-16: open.gov.uk added to the Project pages</b></p>
+<p>The <a href="../projects/index.htm#open">open.gov.uk</a> service, a first entry 
+point to UK public sector information on the internet, uses the Dublin Core RDF 
+vocabulary to describe each of the resources available on the site.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><a name="19991027"></a><b>1999-10-27: MALVINE added to the Project pages</b></p>
+<p>The <a href="../projects/index.htm#malvine">MALVINE</a> project opens new and 
+enhanced access to disparate holdings of modern manuscripts and letters, kept 
+and catalogued in European libraries, archives, documentation centers and museums.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><b><a name="19990927"></a>1999-09-27: Open eBook announces final version of 
+their new 1.0 specification</b></p>
+<p>One element of the <a href="http://www.openebook.org/">Open eBook Initiative</a> 
+is a <a href="http://www.openebook.org/specification.htm">specification</a> for 
+eBook file and format structure based on HTML and XML. It is important to note 
+that Dublin Core is the metadata standard being promoted in the specification. 
+The goal of the specification is to quickly create a critical mass of compelling 
+content. A publisher will be able to format a title once according to the specification 
+and the content will be compatible with a wide variety of reading devices.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><b><a name="19990909"></a>1999-09-09: Dublin Core Element Set, Version 1.1 
+moves to Recommendation</b></p>
+<p>The Dublin Core Directorate is pleased to announce that a set of revised element 
+definitions (<a href="../documents/rec-dces-19990702.htm">Dublin Core Elements, 
+Version 1.1</a>) has made a recommendation. Publication as a <a href="../documents/recommendations.htm">Recommendation</a> 
+signifies that the specification is stable and is supported for adoption by the 
+Dublin Core Community.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><b><a name="dc7"></a>1999-08-19: Home page for DC7 Workshop is now available</b></p>
+<p>The DC7 Workshop is scheduled for October 25-27, 1999 in Frankfurt, Germany. 
+Information about the Workshop, registration, accomodations and conference agenda 
+will be made available on the <a href="http://www.ddb.de/partner/dc7conference/index.htm">Workshop 
+home page</a> in the coming months.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><a name="cimi"></a><b>1999-08-18: CIMI Announces the release of the <i>Guide 
+to Best Practice: Dublin Core</i></b></p>
+<p>The <a href="http://www.cimi.org/documents/meta_bestprac_final_ann.html">Guide 
+to Best Practice: Dublin Core</a> addresses Dublin Core 1.0 as documented in RFC 
+2413 and is an immportant result of CIMI's Dublin Core Testbed, an on-going effort 
+to explore the usability, simplicity, and technical feasibility of Dublin Core 
+for museum information. Recommendations expressed in the Guide are based on the 
+experiences of the Testbed participants and are designed to assist the reader 
+with several tasks, including: how the Dublin Core standard can be applied to 
+museum information; mapping existing data elements sets to the Dublin Core element 
+set; the creation of Dublin Core records via manual or automated tools; implementing 
+institutional policies regarding information access and retrieval. It is intended 
+to be used by information managers, content experts and anyone in the museum community 
+involved with creating and disseminating museum information</p>
+<p>In addition, the Guide mill be used in a series of workshops designed for museum 
+professionals. The first two of these workshops will take place this fall - see 
+the <a href="http://www.archimuse.com/ichim99/ichim99.html">ICHIM99</a> and <a href="http://www.mcn.edu/MCN99/">MCN99</a> conference programs for further details. The remainder of the workshops will run 
+through Spring 2000.</p>
+<p>The Guide is available in PDF format from the <a href="http://www.cimi.org/">CIMI Web site</a>.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><a name="1999-08-09-01"></a><b>1999-08-09: DC Education Working Group Announced</b></p>
+<p>A new Dublin Core Working Group (<a href="../groups/education.htm">DC Education</a>) 
+has been constituted to discuss and develop a proposal for the use of Dublin Core 
+metadata in the description of educational resources . The scope includes educational 
+resources applicable for many national education communities and cross-sectoral 
+communities (eg, K-12, further and higher education, and lifelong learning).</p>
+<hr noshade size="1" title="separator from news item" />
+<p><a name="01"></a><b>1999-08-03: Updated Project Information</b></p>
+<p>The main objective of the first phase of the <a href="../projects/index.htm#REG">InDoReg 
+project</a> was to find a solution for registration of Internet documents. The 
+objectives of Phase 2 are to implement Phase 1 recommendations, which include 
+the use of Danish Dublin Core. <a href="../projects/index.htm#net">Netpublikationer 
+</a>is a project from the Danish Ministry of Research and Information Technology 
+and the Danish State Information Service to create a standard for all government 
+publications published on the WWW to be published with metadata as part of the 
+publication.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><b><a name="06"></a>1999-08-02: New project</b></p>
+<p>The <a href="../projects/index.htm#BEP">Australian Government's Business Entry 
+Point (BEP)</a> is an initiative to make it easier for Australian businesses to 
+deal with government.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><b>1999-07-26: New projects added to the Project lists:</b></p>
+<p>The <a href="../projects/index.htm#phro">Phronesis System</a> is a single-system 
+software tool that allows the creation of distributed digital library collections 
+on the Internet. <a href="../projects/index.htm#algs">ALGS</a> was developed in 
+late 1997 as the resource discovery metadata standard for Australian governments 
+and was endorsed for used by all levels of government in Australia in November 
+1998. <a href="../projects/index.htm#matt">Meta Matters</a> is a website intended 
+to help Web content providers improve the effectiveness of searching for information 
+resources on the World Wide Web.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><b>1999-07-02: Dublin Core Elements, Version 1.1 moves to Proposed Recommendation 
+
+</b></p>
+<p>The Dublin Core Directorate is pleased to announce that a set of revised element 
+definitions (<a href="http://purl.org/dc/documents/proposed_recommendations/pr-dces-19990702.htm">Dublin 
+Core Elements, Version 1.1</a>) has been completed and is available for public 
+review and comment as a <a href="http://purl.org/dc/documents/proposed_recommendations.htm">Proposed 
+Recommendation</a> of the Dublin Core Metadata Initiative.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><b>1999-07-02: Working Draft from the Bibliographic Citation Working Group 
+now available 
+</b></p>
+<p>The <a href="http://purl.org/DC/documents/wd-citation-19990702.htm">Working 
+Draft</a> from the <a href="http://purl.org/dc/groups/citation.htm">Bibliographic 
+Citation Working Group</a> is now available for discussion and review on the <a href="http://www.mailbase.ac.uk/lists/dc-general/">dc-general</a> 
+listserv through July 19, 1999.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><b>1999-07-01: <a href="http://www.mailbase.ac.uk/lists/dc-general/1999-07/0003.html">Call 
+for Input: DC Qualifiers</a> 
+</b></p>
+<p>Objectives, procedures and deadlines for participating in the discussion of 
+qualifiers are described in this Call for Input. Discussion of qualifiers will 
+culminate at the DC-7 workshop in Frankfurt in October, 1999.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><b>1999-06-21: <font color="#990000"><a href="../workshops/dc7conference/call.htm">DC7: 
+Call For Participation</a></font></b> 
+</p>
+<p>The Dublin Core Directorate invites self nominations (or nominations of others) 
+for participation in the Seventh Dublin Core Metadata Workshop, co-sponsored by 
+Die Deutsche Bibliothek and the OCLC Online Computer Library Center, Inc.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><b>1999-04-01: </b> <a href="http://www.dlib.org/dlib/april99/04weibel.html"><b>The 
+State of the Dublin Core Metadata Initiative April 1999</b></a> </p>
+<p>
+Weibel, Stuart. The State of the Dublin Core Metadata Initiative April 1999. <i>D-Lib 
+Magazine </i>(April 1999), 5(4).</p>
+<hr noshade size="1" title="separator from news item" />
+<p><b>1999-02-26: </b><b><font color="#990000"> </font><a href="http://www.w3.org/Press/1999/RDF-REC">RDF 
+Model and Syntax moves to W3C Recommendation 1999-02-26</a></b></p>
+<p>We are very pleased to announce that the W3C has granted <a href="http://www.w3.org/Press/1999/RDF-REC">Recommendation Status</a> 
+to the <a href="http://www.w3.org/TR/REC-rdf-syntax/">RDF Model and Syntax specification</a>. 
+RDF is the result of several metadata communities bringing together their functional 
+requirements to provide a robust and flexible architecture for supporting metadata 
+on the web. Additional information on RDF including software, projects, presentations, 
+etc. can be found on the <a href="http://www.w3.org/RDF/">RDF home page</a>.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><b>1999-01-05: </b><b><font color="#990000"> </font><a href="http://www.w3.org/TR/PR-rdf-syntax/">RDF 
+Model and Syntax moves to W3C Proposed Recommendation 1999-01-05</a></b></p>
+<p>The W3C has granted Proposed Recommendation Status to the <a href="http://www.w3.org/TR/PR-rdf-syntax/">RDF Model and Syntax 
+specification</a>. RDF is the result of several metadata communities bringing together their 
+needs to provide a robust and flexible architecture for supporting metadata on 
+the web. Additional information on RDF including software, projects, and presentations 
+can be found on the <a href="http://www.w3.org/RDF/">RDF home page</a>. Public comments and discussion on this work are <a href="http://www.w3.org/Archives/Public/www-rdf-comments/">welcomed</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<!--#include virtual="/ssi/footer.txt" -->
+</body>
+</html>

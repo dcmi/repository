@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/documents/notes/notes-stracke-19981005.htm">
+   <dc:title>The Use of Dublin Core Metadata in WebDAV</dc:title>
+   <dc:description>This document specifies a standard mapping for using the metadata vocabulary of Dublin Core ([DUBLIN]) in a WebDAV ([WEBDAV]) server.</dc:description>
+   <dc:date>1998-10-05</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>John Stracke</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

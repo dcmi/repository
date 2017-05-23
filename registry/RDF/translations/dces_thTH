@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://www.tiac.or.th/tiacthai/Dublin/dc11/dcmesv11.htm">
+	<dc:title xml:lang="th-TH">
+	&#x0e14;&#x0e31;&#x0e1a;&#x0e25;&#x0e34;&#x0e19;&#x0e04;&#x0e2d;&#x0e23;&#x0e4c;&#x0e40;&#x0e21;&#x0e17;&#x0e32;&#x0e14;
+	&#x0e32;&#x0e17;&#x0e32;&#x0e09;&#x0e1a;&#x0e31;&#x0e1a; 1.1 &#x0e20;&#x0e32;&#x0e29;&#x0e32;&#x0e44;&#x0e17;&#x0e22; 
+	</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.1 Reference Description (Thai Translation)</dc:title>	
+	<dc:date>1999-07-02</dc:date>	
+	<dc:creator xml:lang="th-TH">
+	&#x0e1b;&#x0e23;&#x0e30;&#x0e14;&#x0e34;&#x0e29;&#x0e10;&#x0e32; &#x0e28;&#x0e34;&#x0e23;&#x0e34;&#x0e1e;&#x0e31;&#x0e19;&#x0e18;
+	&#x0e4c;
+	</dc:creator>
+	<dc:creator xml:lang="en-US">Praditta Siripan</dc:creator>
+	<dc:creator rdf:resource="mailto:praditta@smile.tiac.or.th"/>	
+	<dc:language xml:lang="th-TH">&#x0e44;&#x0e17;&#x0e22;</dc:language>
+	<dc:language xml:lang="en-US">Thai</dc:language>
+	<dc:language>th-TH</dc:language>	
+	<dc:publisher xml:lang="th-TH">
+	&#x0e28;&#x0e39;&#x0e19;&#x0e22;&#x0e4c;&#x0e1a;&#x0e23;&#x0e34;&#x0e01;&#x0e32;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;
+	&#x0e40;&#x0e17;&#x0e28;&#x0e17;&#x0e32;&#x0e07;&#x0e40;&#x0e17;&#x0e04;&#x0e42;&#x0e19;&#x0e42;&#x0e25;&#x0e22;&#x0e35;-&#x0e28;
+	&#x0e2a;&#x0e17; 
+	</dc:publisher>
+	<dc:publisher xml:lang="en-US">
+	Technical Information Access Center - TIAC
+	</dc:publisher>	
+	<dc:publisher rdf:resource="http://www.tiac.or.th/"/>
+	<dc:source rdf:resource="http://www.tiac.or.th/tiacthai/Dublin/dc11/dcmesv11.htm"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>
+
+

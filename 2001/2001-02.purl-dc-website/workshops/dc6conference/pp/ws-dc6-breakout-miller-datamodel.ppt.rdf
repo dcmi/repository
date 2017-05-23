@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns = "http://purl.org/dc/elements/1.0/">
+ <rdf:Description about="http://purl.org/dc/workshops/dc6conference/pp/ws-dc6-breakout-miller-datamodel.ppt">
+   <title>The Dublin Core Data Model: A Foundation for Interoperability for Dublin Core with Qualifiers</title>
+   <description>Powerpoint presentation presented at DC6</description>
+   <date>1998-11-02</date>
+   <format>application/x-powerpoint</format>
+   <language>en</language>
+   <contributor>Eric Miller</contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

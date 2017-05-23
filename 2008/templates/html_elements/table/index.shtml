@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>Table</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<div class="body">
+<h1 id="title">Table</h1>
+<dl>
+<dt>HTML Tag:</dt>
+<dd>See examples below.</dd>
+<dt>Guidelines:</dt>
+<dd>For data tables, identify row and column headers.</dd>
+<dt>Warnings:</dt>
+<dd>In HTML 3.2 browsers, the rows of a <code>TFOOT</code> element will appear before the table body.</dd>
+<dt>Priority:</dt>
+<dd>[Priority 1] A Web content developer <strong>must</strong> satisfy this checkpoint.</dd>
+</dl>
+<h2>Browser View:</h2>
+<p>
+<table border="1" cellpadding="4" cellspacing="2" summary="A textual description of the table.">
+<caption>Caption:</caption>
+<thead>
+<tr valign="BASELINE">
+<th id="header1">Header 1</th>
+<th id="header2">Header 2</th>
+<th id="header3">Header 3</th>
+</tr>
+</thead>
+<tbody>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+<tr valign="BASELINE">
+<td headers="header1" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header2" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+<td headers="header3" abbr="Provides an abbreviated string that describes the cell's content.">Content</td>
+</tr>
+</tbody>
+</table>
+<h2>Source View:</h2>
+<code>&lt;TABLE BORDER=&quot;1&quot; CELLPADDING=&quot;4&quot; CELLSPACING=&quot;2&quot; SUMMARY=&quot;A textual description of the table.&quot;&gt;<br>
+&lt;CAPTION&gt;Caption:&lt;/CAPTION&gt;<br>
+&lt;THEAD&gt;<br>
+&lt;TR VALIGN=&quot;BASELINE&quot;&gt;<br>
+&lt;TH ID=&quot;header1&quot;&gt;Header 1&lt;/TH&gt;<br>
+&lt;TH ID=&quot;header2&quot;&gt;Header 2&lt;/TH&gt;<br>
+&lt;TH ID=&quot;header3&quot;&gt;Header 3&lt;/TH&gt;<br>
+&lt;/TR&gt;<br>
+&lt;/THEAD&gt;<br>
+&lt;TBODY&gt;<br>
+&lt;TR VALIGN=&quot;BASELINE&quot;&gt;<br>
+&lt;TD HEADERS=&quot;header1&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header2&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header2&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;/TR&gt;<br>
+&lt;TR VALIGN=&quot;BASELINE&quot;&gt;<br>
+&lt;TD HEADERS=&quot;header1&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header2&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header3&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;/TR&gt;<br>
+&lt;TR VALIGN=&quot;BASELINE&quot;&gt;<br>
+&lt;TD HEADERS=&quot;header1&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header2&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header3&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;/TR&gt;<br>
+&lt;TR VALIGN=&quot;BASELINE&quot;&gt;<br>
+&lt;TD HEADERS=&quot;header1&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header2&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header3&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;/TR&gt;<br>
+&lt;TR VALIGN=&quot;BASELINE&quot;&gt;<br>
+&lt;TD HEADERS=&quot;header1&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header2&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header3&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;/TR&gt;<br>
+&lt;TR VALIGN=&quot;BASELINE&quot;&gt;<br>
+&lt;TD HEADERS=&quot;header1&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header2&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header3&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;/TR&gt;<br>
+&lt;TR VALIGN=&quot;BASELINE&quot;&gt;<br>
+&lt;TD HEADERS=&quot;header1&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header2&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header3&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;/TR&gt;<br>
+&lt;TR VALIGN=&quot;BASELINE&quot;&gt;<br>
+&lt;TD HEADERS=&quot;header1&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header2&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header3&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;/TR&gt;<br>
+&lt;TR VALIGN=&quot;BASELINE&quot;&gt;<br>
+&lt;TD HEADERS=&quot;header1&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header2&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header3&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;/TR&gt;<br>
+&lt;TR VALIGN=&quot;BASELINE&quot;&gt;<br>
+&lt;TD HEADERS=&quot;header1&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header2&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;TD HEADERS=&quot;header3&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Content&lt;/TD&gt;<br>
+&lt;/TR&gt;<br>
+&lt;/TBODY&gt;<br>
+&lt;/TABLE&gt;</code></div>
+</body>
+</html>

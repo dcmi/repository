@@ -1,0 +1,41 @@
+<div class="rss-item">
+<div class="rss-title"><a name="metabrowser"></a><a href="http://metabrowser.spirit.net.au/">Metabrowser</a></div>
+<div class="rss-description">
+<p>2000-10-16, Metabrowser is a web browser that shows metadata and web pages simultaneously.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a name="taggen"></a><a href="http://www.hisoftware.com/trialware.htm">TagGen - Dublin Core Edition</a></div>
+<div class="rss-description">
+<p>2000-09-27, TagGen Dublin Core is a metatag generator that is use to create metatags in an enhanced wizard interface. Using the TagGen Wizard you can add Page Properties, Site Properties, PICS Properties, and all other search engine related metadata.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a name="dcassist"></a><a href="http://www.ukoln.ac.uk/metadata/dcassist/">DC-assist</a> </div>
+<div class="rss-description">
+<p>2000-08-03, DC-assist is a small, flexible help utility for metadata applicatons and is intended to complement the help pages embedded within existing software.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a name="dcdot"></a><a href="http://www.ukoln.ac.uk/metadata/dcdot/">DC-dot</a></div>
+<div class="rss-description">
+<p>2000-07-18, DC-dot is now conformant with the recently recommended Dublin Core Qualifiers. This service will retrieve a Web page and automatically generate Dublin Core metadata suitable for embedding in the page. The generated metadata can be edited or converted to various other formats.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="http://www.ukoln.ac.uk/metadata/dcdot/">DC-dot</a></div>
+<div class="rss-description">
+<p>2000-06-25, DC-dot now provides support for the W3C XHTML 1.0 Recommendations. This service will retrieve a Web page and automatically generate Dublin Core metadata suitable for embedding in the page. The generated metadata can be edited or converted to various other formats.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="http://www.w3.org/2000/06/dc-extract/form.html">Online Dublin Core Extraction Service</a></div>
+<div class="rss-description">
+<p>2000-06-02, The Online Dublin Core Extraction service uses XSLT to extract RDF Dublin Core metadata from XHTML pages.</p>
+</div>
+</div>

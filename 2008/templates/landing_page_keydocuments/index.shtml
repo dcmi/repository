@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DCMI Metadata Basics</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="/index.shtml.rdf" />
+<link rel="stylesheet" href="/beta/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body class="metadata-basics-landing">
+
+<!--#include virtual="/beta/ssi/header.shtml" -->
+
+ <div id="leftColumnTitle">
+  <h1>Metadata Basics</h1>
+  <div id="leftColumnBody"> 
+  <!-- START TEXT FOR LEFT COLUMN --> 
+     	
+     	<p>[<em>This should be an introduction that explains the concept and value
+         of &quot;Metadata&quot; in the most basic manner to the curious generalist hearing
+         the term for the first time. The copy should then proceed to describe
+         the material presented on this page of the site, in particular, and
+         offer the links which follow as specific ways of exploring this topic further.</em>]
+    	</p>
+
+    	<p>[<em>The material currently on this page is only suggestive and mainly here
+ 	  	to allow for the  evaluation of the redesign of the Website, itself. It should
+ 	  	in no way be considered final or authoritative in terms of content for this
+ 	 	page.</em>]
+        </p>
+        
+  <!-- END TEXT FOR LEFT COLUMN-->
+  </div>
+ </div>
+
+ <div id="columnRight">
+  <!-- START Main Content -->
+
+  <h2>Key Documents:</h2>
+	<!--1 This is START of FIRST extra-large, outdented, bulleted link with normal size flush annotation text-->
+    <ul class="noIndent">
+    <li class="bullteLarge">
+		<a href="http://dublincore.org/documents/interoperability-levels/index.shtml">
+   		Interoperability Levels for Dublin Core Metadata
+        </a>
+    </li>
+    </ul>
+    				  
+    <ul class="annotation">
+    <li>
+            This is how the text would look. Lorem ipsum dolor sit amet, consectetur
+    		adipiscing elit. Duis elementum mollis aliquet. Curabitur sodales magna suscipit
+    		lorem convallis at iaculis massa dictum. In nibh felis, consectetur non ultricies
+    		a, ultrices vel est. Duis non tellus non nisl volutpat ultricies. Duis ac
+    		risus leo, ac bibendum felis. Ut enim arcu, vehicula et sollicitudin eu,
+    		bibendum a quam. Pellentesque cursus, ante non tempor pharetra. 
+    </li>
+    </ul>
+	<!--/1 This is END of FIRST extra-large, outdented, bulleted link with normal size flush annotation text-->
+
+	<!--2 This is START of SECOND extra-large, outdented, bulleted link with normal size flush annotation text-->
+      <ul class="noIndent">
+         <li class="bullteLarge">
+
+	       <a href="http://dublincore.org/documents/singapore-framework/index.shtml"> 
+        	The Singapore Framework for Dublin Core Application Profiles 
+           </a>
+         </li>
+      </ul>
+      <ul class="annotation">
+      <li>
+      
+      		This is how the text ould look. Lorem ipsm dolor sit amet, consectetur
+      		adipiscing elit. Duis elementum mollis aliquet. Curabitur sodales magna
+        		suscipit lorem convallis at iaculis massa dictum. In nibh felis, consectetur
+        		non ultricies a, ultrices vel est. Duis non tellus non nisl volutpat ultricies.
+        		Duis ac risus leo, ac bibendum felis. Ut enim arcu, vehicula et sollicitudin
+        		eu, bibendum a quam. Pellentesque cursus, ante non tempor pharetra.
+              
+      </li>
+      </ul>
+
+	<!--/2 This is END of SECOND extra-large, outdented, bulleted link with normal size flush annotation text-->
+
+	<!--3 This is the START of the THIRD extra-large, outdented, bulleted link with normal size flush annotation text-->
+      <ul class="noIndent">
+        <li class="bullteLarge">
+
+		<a href="http://dublincore.org/documents/profile-guidelines/index.shtml">
+       	Guidelines for Dublin Core Application Profiles        
+		</a>
+        </li>
+        </ul>
+           
+        <ul class="annotation">
+        <li>
+        This is how the text would look. Lorem ipsum dolor sit amet, consectetur
+     	adipiscing elit. Duis elementum mollis aliquet. Curabitur sodales magna suscipit
+      	lorem convallis at iaculis massa dictum. In nibh felis, consectetur non ultricies
+      	a, ultrices vel est. Duis non tellus non nisl volutpat ultricies. Duis ac
+      	risus leo, ac bibendum felis. Ut enim arcu, vehicula et sollicitudin eu,
+      	bibendum a quam. Pellentesque cursus, ante non tempor pharetra.
+        </li>
+        </ul>
+	<!--/3 This is the END of the THIRD extra-large, outdented, bulleted link with normal size flush annotation text-->
+
+<hr />
+   		<h2>
+   		DCMI Document Translations
+   		</h2>   
+        
+  	    <p>
+    	Members of the DCMI Community have taken the time to make translations of
+    	DCMI documents, such as the Element Set, versions 1.0 and 1.1; the Dublin
+    	Core Qualifiers and the Usage Guide. <a href="/resources/translations/">Learn
+    	more</a>  
+    	</p>
+<hr />
+
+  		<h2>
+        Presentations
+        </h2>    
+         
+  		<p>
+        Presentations from members of the DCMI Community. <a href="/resources/presentations/">Learn
+      	more</a>
+      	</p>     
+
+<hr />
+
+  		<h2>
+    	Using Dublin Core
+        </h2>	
+        	
+        <p>
+        The document &quot;Using Dublin Core&quot; is intended as an entry point for users of Dublin
+        Core. For non-specialists, it will assist them in creating simple descriptive records 
+        for information resources (for example, electronic documents). Specialists may find the 
+        document a useful point of reference to the documentation of Dublin Core, 
+        as it changes and grows. <a href="/documents/usageguide/">Learn more</a>
+        </p>       
+
+
+  <p>
+  <img alt="Interoperability Levels" src="/documents/2008/11/03/interoperability-levels/InteroperabilityLevels.jpg" />
+  </p>
+
+<!-- END Main Content -->
+ </div>
+<div><!--#include virtual="/beta/ssi/footer.shtml" --></div>
+
+</body>
+</html>

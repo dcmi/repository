@@ -1,0 +1,23 @@
+<table width="100%" cellspacing="0" cellpadding="10" border="0" summary="Layout table: Contains navigation.">
+<tbody>
+<tr>
+<td class="smallsans">
+<dl>
+<dt class="navlist"><a href="#action">Action!</a></dt>
+<dt class="navlist"><a href="#newsbriefs">News Briefs</a></dt>
+<dt class="navlist"><a href="#workinggroup">Working Group Updates</a></dt>
+<dt class="navlist"><a href="#advisory">Advisory Committee Updates</a></dt>
+<dt class="navlist"><a href="#workshop">Workshop News</a></dt>
+<dt class="navlist"><a href="#project">Project &amp; Tool Updates</a></dt>
+<dt class="navlist"><a href="#website">Web Site Changes</a></dt>
+<dt class="navlist">Submit a news item</dt>
+</dl>
+</td>
+</tr>
+<tr>
+<td class="note">
+<p>This Newsletter is published monthly by the <a href="file:///D%7C/Data/Projects/dcmi/admin/www">Dublin Core Metadata Initiative</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>

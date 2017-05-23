@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- $Id: index.html,v 1.2 2007/09/05 17:24:01 ajm65 Exp $ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <title>SoDC-CL -- Son of Dublin Core (SoDC) -- Encoding and Validating
+  Graph-based (Meta)data -- Version 0.2 (alpha)</title>
+  <meta name="generator" content="amaya 9.51, see http://www.w3.org/Amaya/" />
+  <link rel="stylesheet" href="../default.css" type="text/css" />
+</head>
+
+<body>
+<p><a href="../">Son of Dublin Core Version 0.2 (alpha)</a></p>
+<hr />
+
+<h1>SoDC-CL -- A Language for Expressing Syntax Constraints on Graph-based
+(Meta)data</h1>
+
+<p>@@TODO say something</p>
+
+<p><strong>Quick Links:</strong></p>
+<ul>
+  <li>SoDC-CL [<a href="sodc-cl.xsd">schema</a>]</li>
+  <li>SchemaGen [<a href="schemagen.xsl">stylesheet</a>] [<a
+    href="schemagen-docs">documentation</a>]</li>
+</ul>
+
+<p><strong>Table of Contents:</strong></p>
+
+<div class="toc">
+<ul>
+  <li><a href="#L91">1. Introduction</a></li>
+  <li><a href="#L1133">2. Resource Profiles</a></li>
+  <li><a href="#L1686">3. Graph Profiles</a></li>
+  <li><a href="#L1808">4. SoDC-CL Language &amp; Examples</a></li>
+  <li><a href="#L1961">5. Applying Resource Profiles in SoDC-XML</a></li>
+  <li><a href="#L466">6. Issues</a></li>
+  <li><a href="#L907">7. References</a></li>
+</ul>
+</div>
+
+<h2 id="L91">1. Introduction</h2>
+
+<p>@@TODO</p>
+
+<p>SoDC-CL is a language for expressing application-specific syntax
+constraints over graph-based (meta)data.</p>
+
+<p>The two basic components of a SoDC-CL document are "graph profiles" and
+"resource description profiles" -- "resource profiles" for short.</p>
+
+<h2 id="L1133">2. Resource Profiles</h2>
+
+<p>A resource profile is a set of constraints on the properties of a resource
+described in some graph. The following constraints can be expressed in a
+resource profile...</p>
+
+<p>(property cardinality constraints)</p>
+<ul>
+  <li>exact cardinality -- the resource must have exactly n values for a
+    given property</li>
+  <li>minimum cardinality -- the resource must have at least n values for a
+    given property</li>
+  <li>maximum cardinality -- the resource must have at most n values for a
+    given property</li>
+</ul>
+
+<p>(property value constraints)</p>
+<ul>
+  <li>URI value -- the resource must have only URI values for a given
+  property</li>
+  <li>blank node value -- the resource must have only blank node values for a
+    given property</li>
+  <li>plain literal value (language optional) -- the resource must have only
+    plain literal values for a given property</li>
+  <li>plain literal value (language required) -- the resource must have only
+    plain literal values with language tags for a given property</li>
+  <li>TODO plain literal value (language optional, fixed) -- the resource
+    must have only plain literal values for a given property, and where the
+    plain literal has a language tag, it must take a given value</li>
+  <li>TODO plain literal value (language required, fixed) -- the resource
+    must have only plain literal values with a given language tag for a given
+    property</li>
+  <li>TODO typed literal value -- the resource must have only typed literal
+    values for a given property</li>
+  <li>TODO typed literal value (datatype fixed) -- the resource must have
+    only typed literal values with a given datatype for a given property</li>
+  <li>TODO XML literal value -- the resource must have only XML literal
+    values for a given property</li>
+</ul>
+
+<p>(given property value constraints)</p>
+<ul>
+  <li>TODO given URI value -- the resource must have a given URI value for a
+    given property </li>
+  <li>TODO given plain literal value -- the resource must have a given plain
+    literal value for a given property </li>
+  <li>TODO given typed literal value -- the resource must have a given typed
+    literal value for a given property </li>
+</ul>
+
+<p>(referential integrity constraints)</p>
+<ul>
+  <li>TODO URI value reference -- the URI value of a given property must also
+    be the subject of another description within the same graph</li>
+  <li>TODO blank node reference -- the blank node value of a given property
+    must also be the subject of another description within the same graph</li>
+  <li>TODO reference with profile -- the URI or blank node value of a given
+    property must also be the subject of another description within the same
+    graph, and the given profile must be specified in that description</li>
+</ul>
+
+<h2 id="L1686">3. Graph Profiles</h2>
+
+<p>A graph profile is a set of constraints on a graph. The following
+constraints can be expressed...</p>
+<ul>
+  <li>TODO the graph must describe exactly n resources</li>
+  <li>TODO the graph must describe at least n resources</li>
+  <li>TODO the graph must describe at most n resources</li>
+  <li>TODO the graph must describe exactly n resources with resource profile
+  p</li>
+  <li>TODO the graph must describe at least n resources with resource profile
+    p</li>
+  <li>TODO the graph must describe at most n resources with resource profile
+  p</li>
+  <li>TODO all resources in the graph must have a resource profile</li>
+  <li>TODO all resources in the graph must have resource profile p</li>
+</ul>
+
+<p>Those marked "TODO" have not yet been implemented in SoDC-CL.</p>
+
+<h2 id="L1808">4. SoDC-CL Language &amp; Examples</h2>
+
+<p>For convenience of implementation, the SoDC Constraints Language is
+defined as an XML language. The W3C XML Schema defining the language is at
+the link below...</p>
+<ul>
+  <li><a href="sodc-cl.xsd">sodc-cl.xsd</a> -- SoDC-CL Schema</li>
+</ul>
+
+<p>For example, <a href="examples/simple-constraints.xml">the SoDC-CL
+document</a> below defines two resource profiles. The first constrains a
+resource to have exactly one plain literal value for the
+<code>dc:title</code> property, and at least one URI value for the
+<code>dc:creator</code> property. The second constrains a resource to have at
+least one plain literal value for the <code>foaf:name</code> property... </p>
+<pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;constraints name="simple constraints" 
+  xmlns="http://purl.org/net/sodc/cl"&gt;
+
+  &lt;profile uri="http://example.com/profile/simple#book"&gt;
+    &lt;constraint property="http://purl.org/dc/elements/1.1/title"&gt;
+      &lt;cardinality&gt;1&lt;/cardinality&gt;
+    &lt;/constraint&gt;
+    &lt;constraint property="http://purl.org/dc/elements/1.1/title"&gt;
+      &lt;value&gt;
+        &lt;plainliteral/&gt;
+      &lt;/value&gt;
+    &lt;/constraint&gt;
+    &lt;constraint property="http://purl.org/dc/elements/1.1/creator"&gt;
+      &lt;mincardinality&gt;1&lt;/mincardinality&gt;
+    &lt;/constraint&gt;
+    &lt;constraint property="http://purl.org/dc/elements/1.1/creator"&gt;
+      &lt;value&gt;
+        &lt;uri/&gt;
+      &lt;/value&gt;
+    &lt;/constraint&gt;
+  &lt;/profile&gt;
+  
+  &lt;profile uri="http://example.com/profile/simple#person"&gt;
+    &lt;constraint property="http://xmlns.com/foaf/0.1/name"&gt;
+      &lt;mincardinality&gt;1&lt;/mincardinality&gt;
+    &lt;/constraint&gt;
+    &lt;constraint property="http://xmlns.com/foaf/0.1/name"&gt;
+      &lt;value&gt;
+        &lt;plainliteral/&gt;
+      &lt;/value&gt;
+    &lt;/constraint&gt;
+  &lt;/profile&gt;
+  
+&lt;/constraints&gt;</pre>
+
+<p>Note that resource profiles are identified by URIs. This allows a profile
+to be applied to specific resources in a graph (see below).</p>
+
+<h2 id="L1961">5. Applying Resource Profiles in SoDC-XML</h2>
+
+<p>A resource profile must of course be applied to specific resources in some
+graph. In other words, some information must be provided which can be used to
+determine which resources in some graph must match which resource
+profiles.</p>
+
+<p>The SoDC-XML syntax is designed to allow this information to be embedded
+in the graph, via the <code>profile</code> element.</p>
+
+<p>For example, <a href="examples/simple-graph.xml">the graph</a> below has
+embedded profile information...</p>
+<pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;graph xmlns="http://purl.org/net/sodc/xml"&gt;  
+
+  &lt;resource&gt;
+    &lt;uri&gt;http://example.com/book#1&lt;/uri&gt;
+    &lt;profile&gt;http://example.com/profile/simple#book&lt;/profile&gt;
+    &lt;property uri="http://purl.org/dc/elements/1.1/title"&gt;
+      &lt;value&gt;
+        &lt;plainliteral lang="en"&gt;Winnie the Pooh&lt;/plainliteral&gt;
+      &lt;/value&gt;
+    &lt;/property&gt;
+    &lt;property uri="http://purl.org/dc/elements/1.1/creator"&gt;
+      &lt;value&gt;
+        &lt;uri&gt;http://example.com/person#1&lt;/uri&gt;
+      &lt;/value&gt;
+    &lt;/property&gt;
+  &lt;/resource&gt;
+
+  &lt;resource&gt;
+    &lt;uri&gt;http://example.com/person#1&lt;/uri&gt;
+    &lt;profile&gt;http://example.com/profile/simple#person&lt;/profile&gt;
+    &lt;property uri="http://xmlns.com/foaf/0.1/name"&gt;
+      &lt;value&gt;
+        &lt;plainliteral lang="en"&gt;A. A. Milne&lt;/plainliteral&gt;
+      &lt;/value&gt;
+    &lt;/property&gt;
+  &lt;/resource&gt;
+  
+&lt;/graph&gt;</pre>
+
+<h2 id="L466">6. Issues</h2>
+<ol>
+  <li id="ISSUE-2">...</li>
+</ol>
+
+<h2 id="L907">7. References</h2>
+<dl>
+  <dt>[RDF-CONCEPTS]</dt>
+    <dd><a
+      href="http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/">http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/</a></dd>
+  <dt>[RDF-SEMANTICS]</dt>
+    <dd><a
+      href="http://www.w3.org/TR/2004/REC-rdf-mt-20040210/">http://www.w3.org/TR/2004/REC-rdf-mt-20040210/</a></dd>
+</dl>
+<hr />
+<pre>    --- change log ---
+    $Log: index.html,v $
+    Revision 1.2  2007/09/05 17:24:01  ajm65
+    Minor, fixed links for rename of docs files.
+
+    Revision 1.1  2007/09/05 16:56:14  ajm65
+    Initial revision, with refactored content.
+
+    
+
+  </pre>
+
+<p></p>
+</body>
+</html>

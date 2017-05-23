@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;">
+
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label xml:lang="mr-IN">
+	&#x0936;&#x0940;&#x0930;&#x094d;&#x0937;&#x0915;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x094d;&#x092f;&#x093e;&#x091a;&#x0947;, &#x091c;&#x094d;&#x091e;&#x093e;&#x0928;&#x0938;&#x093e;&#x0927;&#x0928;&#x093e;&#x091a;&#x0947; &#x0928;&#x093e;&#x0935;
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x094d;&#x092f;&#x093e;&#x091a;&#x0947; &#x0928;&#x093e;&#x0935;
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label xml:lang="mr-IN">
+	&#x0938;&#x0939;&#x092f;&#x094b;&#x0917;&#x0915;, &#x0938;&#x0939;&#x092f;&#x094b;&#x0917;&#x0940;, &#x0938;&#x0939;&#x093e;&#x092f;&#x094d;&#x092f;&#x0915;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x093e; &#x0938;&#x0902;&#x0915;&#x0932;&#x0940;&#x0924; &#x0915;&#x0930;&#x0923;&#x094d;&#x095f;&#x093e;&#x0938;  &#x092e;&#x0926;&#x0924; &#x0915;&#x0930;&#x0923;&#x093e;&#x0930;&#x0940; &#x0935;&#x094d;&#x092f;&#x0915;&#x094d;&#x0924;&#x0940;
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x0909;&#x0926;&#x093e;.&#x0903; &#x0935;&#x094d;&#x092f;&#x0915;&#x094d;&#x0924;&#x0940;, &#x0938;&#x0947;&#x0935;&#x093e;, &#x0938;&#x0902;&#x0938;&#x094d;&#x0925;&#x093e;
+  </dc:description>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label xml:lang="mr-IN">
+	&#x0928;&#x093f;&#x0930;&#x094d;&#x092e;&#x093e;&#x0924;&#x093e;, &#x091c;&#x0928;&#x0915;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x093e; &#x0928;&#x093f;&#x0930;&#x094d;&#x092e;&#x093e;&#x0923;  &#x0915;&#x0930;&#x0923;&#x093e;&#x0930;&#x093e;
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x0909;&#x0926;&#x093e;.  &#x0932;&#x0947;&#x0916;&#x0915;, &#x0932;&#x0947;&#x0916;&#x093f;&#x0915;&#x093e;,  &#x0935;&#x094d;&#x092f;&#x0915;&#x094d;&#x0924;&#x0940;, &#x0938;&#x0902;&#x0938;&#x094d;&#x0925;&#x093e;,  &#x0938;&#x0902;&#x092a;&#x093e;&#x0926;&#x0915;, &#x0938;&#x0902;&#x092a;&#x093e;&#x0926;&#x093f;&#x0915;&#x093e;
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label xml:lang="mr-IN">
+	&#x092a;&#x094d;&#x0930;&#x0915;&#x093e;&#x0936;&#x0915;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x093e;  &#x0909;&#x092a;&#x0932;&#x092c;&#x094d;&#x0927; &#x0915;&#x0930;&#x0942;&#x0928; &#x0926;&#x0947;&#x0923;&#x093e;&#x0930;&#x093e;
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x0909;&#x0926;&#x093e;.&#x0903; &#x092a;&#x094d;&#x0930;&#x0915;&#x093e;&#x0936;&#x0915; , &#x092a;&#x094d;&#x0930;&#x0915;&#x093e;&#x0936;&#x0928;  &#x0938;&#x0902;&#x0938;&#x094d;&#x0925;&#x093e;, &#x0938;&#x0947;&#x0935;&#x093e;
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940; &#x091b;&#x093e;&#x092a;&#x0940;&#x0932; &#x0930;&#x0941;&#x092a;&#x093e;&#x0924;  &#x0905;&#x0925;&#x0935;&#x093e; &#x0908;&#x0902;&#x091f;&#x0930;&#x0928;&#x0947;&#x091f; &#x0935;&#x0930; &#x0909;&#x092a;&#x0932;&#x092c;&#x094d;&#x0927; &#x0915;&#x0930;&#x0941;&#x0928; &#x0926;&#x0947;&#x0923;&#x093e;&#x0930;&#x093e;
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label xml:lang="mr-IN">
+	&#x0935;&#x093f;&#x0937;&#x092f;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+	&#x0935;&#x093f;&#x0937;&#x092f;
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x093e;, &#x091c;&#x094d;&#x091e;&#x093e;&#x0928;&#x0938;&#x093e;&#x0927;&#x0928;&#x0947; &#x092f;&#x093e;&#x0924;&#x0940;&#x0932; &#x0906;&#x0936;&#x092f; &#x0938;&#x094d;&#x092a;&#x0937;&#x094d;&#x091f; &#x0915;&#x0930;&#x0923;&#x093e;&#x0930;&#x0947; &#x0936;&#x092c;&#x094d;&#x0926;, &#x0935;&#x093f;&#x0937;&#x092f;&#x093e;&#x091a;&#x0947; &#x0935;&#x0930;&#x094d;&#x0917;&#x0940;&#x0915;&#x0930;&#x0923; &#x0915;&#x0930;&#x0924;&#x093e;&#x0928;&#x093e; &#x0936;&#x092c;&#x094d;&#x0926;&#x0938;&#x0902;&#x0917;&#x094d;&#x0930;&#x0939; &#x0905;&#x0925;&#x0935;&#x093e; &#x0936;&#x092c;&#x094d;&#x0926; &#x0915;&#x094b;&#x0937;&#x093e;&#x091a;&#x093e; &#x0935;&#x093e;&#x092a;&#x0930; &#x0915;&#x0930;&#x093e;&#x0935;&#x093e;.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label xml:lang="mr-IN">
+	&#x0935;&#x0930;&#x094d;&#x0923;&#x0928;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x094d;&#x092f;&#x093e;&#x091a;&#x0947;, &#x091c;&#x094d;&#x091e;&#x093e;&#x0928;&#x0938;&#x093e;&#x0927;&#x0928;&#x093e;&#x091a;&#x0947;&#x0935;&#x0930;&#x094d;&#x0923;&#x0928;
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x094d;&#x092f;&#x093e;&#x091a;&#x0947; &#x0928;&#x093f;&#x0935;&#x0947;&#x0926;&#x0928;, &#x0906;&#x0932;&#x0947;&#x0916;, &#x091a;&#x093f;&#x0924;&#x094d;&#x0930;&#x0930;&#x0941;&#x092a;
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label xml:lang="mr-IN">
+	&#x0924;&#x093e;&#x0930;&#x0940;&#x0916;,  &#x0926;&#x093f;&#x0928;&#x093e;&#x0902;&#x0915;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x093e; &#x0924;&#x092f;&#x093e;&#x0930; &#x0915;&#x0947;&#x0932;&#x094d;&#x092f;&#x093e;&#x091a;&#x0940; &#x0924;&#x093e;&#x0930;&#x0940;&#x0916;
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x0924;&#x093e;&#x0930;&#x0940;&#x0916;  &#x0932;&#x093f;&#x0939;&#x0940;&#x0923;&#x094d;&#x092f;&#x093e;&#x091a;&#x0947; &#x0938;&#x094d;&#x0935;&#x0930;&#x0941;&#x092a; &#x0903; &#x0935;&#x0930;&#x094d;&#x0937;. &#x092e;&#x0939;&#x093f;&#x0928;&#x093e;. &#x0926;&#x093f;&#x0935;&#x0938;
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label xml:lang="mr-IN">
+	&#x092a;&#x094d;&#x0930;&#x0915;&#x093e;&#x0930;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x094d;&#x092f;&#x093e;&#x091a;&#x093e;&#x092a;&#x094d;&#x0930;&#x0915;&#x093e;&#x0930; 
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x094d;&#x092f;&#x093e;&#x091a;&#x0947; &#x0935;&#x0930;&#x094d;&#x0917;&#x0940;&#x0915;&#x0930;&#x0923;, &#x0935;&#x0930;&#x094d;&#x0917;&#x0935;&#x093e;&#x0930;&#x0940;&#x092e;&#x0927;&#x094d;&#x092f;&#x0947; &#x090f;&#x0916;&#x093e;&#x0926;&#x094d;&#x092f;&#x093e; &#x0928;&#x094b;&#x0902;&#x0926;&#x0940;&#x091a;&#x093e; &#x092e;&#x0941;&#x0916;&#x094d;&#x092f; &#x0917;&#x091f;&#x092a;&#x094d;&#x0930;&#x0915;&#x093e;&#x0930;
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label xml:lang="mr-IN">
+	&#x0930;&#x091a;&#x0928;&#x093e;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x094d;&#x092f;&#x093e;&#x091a;&#x0940; &#x0930;&#x091a;&#x0928;&#x093e;, &#x0928;&#x092e;&#x0941;&#x0928;&#x093e;&#x092c;&#x094d;&#x0926; &#x0930;&#x091a;&#x0928;&#x093e;
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x094d;&#x092f;&#x093e;&#x091a;&#x0947; &#x0938;&#x094d;&#x0935;&#x0930;&#x0941;&#x092a;, &#x0930;&#x091a;&#x0928;&#x093e;&#x0909;&#x0926;&#x093e;. &#x0924;&#x094d;&#x092f;&#x093e;&#x091a;&#x0947; &#x0930;&#x0941;&#x092a; &#x091c;&#x0938;&#x0947; &#x092a;&#x0941;&#x0938;&#x094d;&#x0924;&#x0915;&#x0930;&#x0941;&#x092a;, &#x0938;&#x0902;&#x0917;&#x0923;&#x0915;&#x0940;&#x092f; &#x0930;&#x0941;&#x092a;, &#x0935;&#x093f;&#x0926;&#x094d;&#x092f;&#x0941;&#x0924; &#x092a;&#x0930;&#x092e;&#x093e;&#x0923;&#x0941;&#x0902;&#x091a;&#x094d;&#x092f;&#x093e; &#x0938;&#x0939;&#x093e;&#x092f;&#x094d;&#x092f;&#x093e;&#x0928;&#x0947; &#x0938;&#x0902;&#x0917;&#x0923;&#x0915;&#x0940;&#x0915;&#x0943;&#x0924; &#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x093e;
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label xml:lang="mr-IN">
+	&#x0913;&#x0933;&#x0916;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x094d;&#x092f;&#x093e;&#x091a;&#x093e; &#x090f;&#x0915; &#x0905;&#x0930;&#x094d;&#x0925;&#x0940; &#x0938;&#x0902;&#x0926;&#x0930;&#x094d;&#x092d;
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x0909;&#x0926;&#x093e;. &#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x091c;&#x093e;&#x0933;&#x094d;&#x092f;&#x093e;&#x0935;&#x0930;&#x0940;&#x0932; &#x092a;&#x0924;&#x094d;&#x0924;&#x093e;, &#x0935;&#x093f;&#x0936;&#x093f;&#x0937;&#x094d;&#x0920; &#x0938;&#x094d;&#x0925;&#x0933;,  &#x092a;&#x0941;&#x0938;&#x094d;&#x0924;&#x0915;&#x093e;&#x091a;&#x093e; &#x0906;&#x0902;&#x0924;&#x0930;&#x0930;&#x093e;&#x0937;&#x094d;&#x091f;&#x094d;&#x0930;&#x0940;&#x092f;  &#x092e;&#x093e;&#x0928;&#x0915; &#x0915;&#x094d;&#x0930;&#x092e;&#x093e;&#x0902;&#x0915;,  &#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x094d;&#x092f;&#x093e;&#x091a;&#x0940; &#x0913;&#x0933;&#x0916; &#x092a;&#x091f;&#x0935;&#x093f;&#x0923;&#x093e;&#x0930;&#x093e; &#x0907;&#x0902;&#x091f;&#x0930;&#x0928;&#x0947;&#x091f; &#x0935;&#x0930;&#x0940;&#x0932; &#x092a;&#x0924;&#x094d;&#x0924;&#x093e;. 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label xml:lang="mr-IN">
+	&#x092d;&#x093e;&#x0937;&#x093e;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x094d;&#x092f;&#x093e;&#x091a;&#x0940; &#x092d;&#x093e;&#x0937;&#x093e;
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x0909;&#x0926;&#x093e;. &#x092e;&#x0930;&#x093e;&#x0920;&#x0940; - &#x092d;&#x093e;&#x0930;&#x0924;&#x0940;&#x092f; &#x092d;&#x093e;&#x0937;&#x093e;
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label xml:lang="mr-IN">
+	&#x0928;&#x093e;&#x0924;&#x0947; , &#x0938;&#x0902;&#x092c;&#x0902;&#x0927;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x094d;&#x092f;&#x093e;&#x0936;&#x0940; &#x0938;&#x0902;&#x092c;&#x0902;&#x0927; &#x0926;&#x093e;&#x0916;&#x0935;&#x0923;&#x093e;&#x0930;&#x093e; &#x0938;&#x0902;&#x0926;&#x0930;&#x094d;&#x092d;
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x0909;&#x0926;&#x093e;.  &#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940; &#x091c;&#x093e;&#x0933;&#x094d;&#x092f;&#x093e;&#x0935;&#x0930;&#x0940;&#x0932; &#x092a;&#x0924;&#x094d;&#x0924;&#x093e;(URL) 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label xml:lang="mr-IN">
+	&#x0909;&#x0917;&#x092e;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x091a;&#x093e; &#x0909;&#x0917;&#x092e; &#x0938;&#x093e;&#x0902;&#x0917;&#x0923;&#x093e;&#x0930;&#x093e; &#x090f;&#x0915;&#x0905;&#x0930;&#x094d;&#x0925;&#x0940; &#x0938;&#x0902;&#x0926;&#x0930;&#x094d;&#x092d;
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x0909;&#x0926;&#x093e;. &#x092a;&#x0941;&#x0938;&#x094d;&#x0924;&#x0915;, &#x092e;&#x093e;&#x0938;&#x093f;&#x0915;,  &#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x091c;&#x093e;&#x0933;&#x094d;&#x092f;&#x093e;&#x0935;&#x0930;&#x0940;&#x0932; &#x092a;&#x0924;&#x094d;&#x0924;&#x093e;&#x092f;&#x093e;&#x0902;&#x091a;&#x093e; &#x0938;&#x0902;&#x0926;&#x0930;&#x094d;&#x092d;
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label xml:lang="mr-IN">
+	&#x0935;&#x094d;&#x092f;&#x093e;&#x092a;&#x094d;&#x0924;&#x0940;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+	&#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x0938;&#x093e;&#x0920;&#x094d;&#x092f;&#x093e;&#x091a;&#x0940; &#x092d;&#x094c;&#x0917;&#x094b;&#x0932;&#x093f;&#x0915;  &#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x0909;&#x0926;&#x093e;. &#x092d;&#x094c;&#x0917;&#x094b;&#x0932;&#x093f;&#x0915; &#x0935;&#x094d;&#x092f;&#x093e;&#x092a;&#x094d;&#x0924;&#x0940;
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label xml:lang="mr-IN">
+	&#x0939;&#x0915;&#x094d;&#x0915;
+  </rdfs:label>
+  <rdfs:comment xml:lang="mr-IN">
+	&#x092c;&#x094c;&#x0927;&#x094d;&#x0926;&#x093f;&#x0915; &#x0938;&#x0902;&#x092a;&#x0926;&#x0947;&#x091a;&#x093e;&#x0939;&#x0915;&#x094d;&#x0915;
+  </rdfs:comment>
+  <dc:description xml:lang="mr-IN">
+	&#x0938;&#x094d;&#x0935;&#x0924;&#x0903;&#x0939;&#x093e;&#x091a;&#x0947; &#x0932;&#x0947;&#x0916;&#x0928; &#x091b;&#x093e;&#x092a;&#x0942;&#x0928; &#x0905;&#x0925;&#x0935;&#x093e; &#x092e;&#x093e;&#x0939;&#x093f;&#x0924;&#x0940;&#x091c;&#x093e;&#x0933;&#x094d;&#x092f;&#x093e;&#x0935;&#x0930; &#x092a;&#x094d;&#x0930;&#x0915;&#x093e;&#x0936;&#x093f;&#x0924; &#x0915;&#x0930;&#x0923;&#x094d;&#x092f;&#x093e;&#x091a;&#x093e; &#x0932;&#x0947;&#x0916;&#x0915; &#x0905;&#x0925;&#x0935;&#x093e; &#x0932;&#x0947;&#x0916;&#x093f;&#x0915;&#x0947;&#x091a;&#x093e; &#x092c;&#x094c;&#x0927;&#x094d;&#x0926;&#x093f;&#x0915; &#x0938;&#x0902;&#x092a;&#x0926;&#x0947;&#x091a;&#x093e;&#x0939;&#x0915;&#x094d;&#x0915;
+  </dc:description>
+</rdf:Property>
+
+</rdf:RDF>

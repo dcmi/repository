@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>Variable</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1 id="title">Variable</h1>
+<dl>
+<dt>HTML Tag:</dt>
+<dd><code>&lt;VAR&gt;&lt;/VAR&gt;</code></dd>
+<dt>Guidelines:</dt>
+<dd>A <code>VAR</code> element is one that is used predominately to display one or more inline characters representing a computer program variable name. Browsers have free rein to determine how (or whether) to distinguish <code>VAR</code> element content from the rest of the <code>BODY</code> element. Both Navigator and Internet Explorer elect to render <code>VAR</code> element content in an italic font.</dd>
+<dt>Warnings:</dt>
+<dd>-</dd>
+<dt>Priority:</dt>
+<dd>-</dd>
+</dl>
+<h2>Browser View:</h2>
+<p>The value of
+<var>offsetWidth</var> becomes 20.</p>
+<h2>Source View:</h2>
+<code>&lt;P&gt;The value of &lt;VAR&gt;offsetWidth&lt;/VAR&gt; becomes 20.&lt;/P&gt;</code>
+</body>
+</html>

@@ -1,0 +1,19 @@
+
+    <!--#include virtual="tool-head.shtml" -->
+    <!--#include virtual="/ssi/header.shtml" -->
+    <h1>DC Meta Toolkit</h1>
+    <table cellspacing="0" class="noborder">
+<tr><td>Identifier:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.wijiti.com/projects/dcmetatoolkit/">http://www.wijiti.com/projects/dcmetatoolkit/</a></td></tr>
+<tr><td>Description:&nbsp;&nbsp;&nbsp;</td><td>The Dublin Core Meta Toolkit gives DSpace administrators the ability to convert large amounts of information from their desktop database programs into DSpace compatible Dublin Core meta data.The toolkit provides a number of out-of-the-box database structures to ease data collection as well as enabling users to create custom converters for existing databases.</td></tr>
+<tr><td>Rights:&nbsp;&nbsp;&nbsp;</td><td>open-source software released under the GNU General Public License (GPL) version 2</td></tr>
+<tr><td>Language:&nbsp;&nbsp;&nbsp;</td><td>eng (ISO 639-2)</td></tr>
+<tr><td>Creator:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.wijiti.com/">http://www.wijiti.com/</a></td></tr>
+<tr><td>Publisher:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.wijiti.com/">http://www.wijiti.com/</a></td></tr>
+<tr><td>Location:&nbsp;&nbsp;&nbsp;</td><td>Australia</td></tr>
+<tr><td>Date:&nbsp;&nbsp;&nbsp;</td><td>2008</td></tr>
+</table>
+    <p><small>For an application profile see the <a href="/groups/tools/map.shtml">DCMI Tools
+    Application Profile</a></small>
+    <!--#include virtual="/ssi/footer.shtml" -->
+    </body>
+    </html>

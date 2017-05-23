@@ -1,0 +1,609 @@
+<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<!-- base href="http://dublincore.org/" -->
+<meta name="generator" content="HTML Tidy, see www.w3.org">
+<title>Using the dc:identifier property in RDF</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="index_files/default.css" type="text/css">
+<link rel="meta" href="http://dublincore.org/index.shtml.rdf">
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<meta name="dc.title" content="Using the dc:identifier property in RDF" lang="en">
+<meta name="dc.creator" content="Pete Johnston">
+<meta name="dcterms.issued" scheme="dcterms.W3CDTF" content="2004-03-26">
+<meta name="dcterms.abstract" content="This document describes the use of the dc:identifier when encoding Dublin Core metadata using the Resource Description framework (RDF).">
+<meta name="dc.format" scheme="dcterms.IMT" content="text/html">
+<meta name="dc.type" scheme="dcterms.DCMIType" content="Text">
+
+
+</head>
+<body>
+
+<div class="menu">
+<table summary="navigation header" bgcolor="#FF6600" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td width="70"><a href="http://dublincore.org/index.shtml"><img src="index_files/logo_sm.gif" alt="Dublin Core Metadata Initiative logo" border="0" height="70" width="150"></a></td>
+<td align="right" height="70" valign="top" width="100%">
+<table summary="navigation links" border="0" cellpadding="0" cellspacing="0" width="328">
+<tbody><tr>
+<td height="30" width="82"><a href="http://dublincore.org/about/"><img src="index_files/about.gif" alt="About the Initiative" border="0" height="30" width="82"></a></td>
+<td height="30" width="82"><a href="http://dublincore.org/documents/"><img src="index_files/documents.gif" alt="Documents" border="0" height="30" width="82"></a></td>
+<td height="30" width="82"><a href="http://dublincore.org/groups/"><img src="index_files/groups.gif" alt="Working Groups" border="0" height="30" width="82"></a></td>
+<td height="30" width="82"><a href="http://dublincore.org/resources/"><img src="index_files/resources.gif" alt="Resources" border="0" height="30" width="82"></a></td>
+</tr>
+
+<tr>
+<td height="30" width="82"><a href="http://dublincore.org/news/"><img src="index_files/news.gif" alt="Dublin Core Metadata Initiative News" border="0" height="30" width="82"></a></td>
+<td height="30" width="82"><a href="http://dublincore.org/tools/"><img src="index_files/tools.gif" alt="Tools and Software" border="0" height="30" width="82"></a></td>
+<td height="30" width="82"><a href="http://dublincore.org/meetings/"><img src="index_files/meetings.gif" alt="Meetings" border="0" height="30" width="82"></a></td>
+<td height="30" width="82"><a href="http://dublincore.org/projects/"><img src="index_files/projects.gif" alt="Projects" border="0" height="30" width="82"></a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" height="30"><a href="http://dublincore.org/index.shtml"><img src="index_files/dcmi_sm.gif" alt="Dublin Core Metadata Initiative" border="0" height="30" width="329"></a></td>
+</tr>
+</tbody></table>
+</div>
+
+<div class="search">
+<table summary="bread crumbs" border="0" cellpadding="6" cellspacing="0" width="100%">
+<tbody><tr>
+<td class="crumb"><a href="http://dublincore.org/">Home</a>
+&gt;&nbsp;<a href="http://dublincore.org/documents/">
+Documents</a>&nbsp;&gt;&nbsp;</td>
+<td align="right">
+<form action="http://dublincore.org/search/searchServlet" method="post"><input name="predicate" value="all" type="hidden"> <input name="matchType" value="exact phrase" type="hidden"> <input name="searchCase" value="N" type="hidden">
+
+<table summary="keyword search" border="0" cellpadding="2" cellspacing="0">
+<tbody><tr>
+<td nowrap="nowrap"><input value="Enter keyword" name="searchTerm" size="20" onfocus="if(this.value=='Enter keyword')this.value='';" onblur="if(this.value=='')this.value='Enter keyword';" type="text"> &nbsp;</td>
+<td><input name="submit" value="Search" type="submit"></td>
+</tr>
+</tbody></table>
+</form>
+</td>
+</tr>
+</tbody></table>
+</div>
+
+<hr title="separator from menu and keyword search" noshade="noshade" size="1">
+<table summary="A layout table with descriptive information about this document." border="0" width="100%">
+<tbody><tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Title:</strong></div>
+</td>
+<td width="76%">
+<div align="left">
+<h2>Using the dc:identifier property in RDF</h2>
+</div>
+</td>
+</tr>
+
+<tr>
+<td height="22" valign="top" width="24%">
+<div align="left"><strong>Creator:</strong></div>
+</td>
+<td height="22" width="76%">
+<div align="left">Pete Johnston</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Date Issued:</strong></div>
+</td>
+<td width="76%">
+<div align="left">2004-03-26</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Identifier:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-ident-rdf/20040326/">
+http://www.ukoln.ac.uk/metadata/dcmi/dc-ident-rdf/20040326/</a></div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Replaces:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Is Replaced By:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Latest Version:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-ident-rdf/">
+http://www.ukoln.ac.uk/metadata/dcmi/dc-ident-rdf/</a></div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Status of Document:</strong></div>
+</td>
+<td width="76%">
+<div align="left">This is a DCMI <a href="http://dublincore.org/documents/#workingdrafts">Working Draft</a>.</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%"><strong>Description of
+Document:</strong></td>
+<td width="76%">This document describes the use of the dc:identifier 
+when encoding Dublin Core metadata using the Resource Description 
+framework (RDF).</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+<hr>
+</td>
+</tr>
+</tbody></table>
+
+<div>
+
+<h3>Properties and Statements</h3>
+
+<p>Dublin Core elements and element refinements are properties. A 
+property is a type of relationship between two things. A property is a 
+"conceptual" resource. When DCMI adds an element or element refinement 
+to one of its vocabularies (DCMI Namespaces), it creates a 
+human-readable description of that relationship type, that concept, and 
+it assigns a globally unique identifier to the property, in the form of a
+ URI reference. The scope of URI references is global: the URI reference
+ denotes that same relationship type, that same concept, wherever it is 
+cited. And the persistence policies described in the <em>Namespace Policy for the Dublin Core</em> [<a href="#ref1">1</a>] guarantee that that URI reference will always denote that same relationship type.</p>
+
+<p>The assignment of a URIref means that other parties can use this 
+unique identifier to refer to that relationship type. It can be used in 
+statements in Dublin Core metadata descriptions. DC metadata statements 
+are three part constructs consisting of a subject, predicate and object.
+ The predicate of the statement is the URIref of a property, and the 
+subject and object are references to resources. Each statement asserts 
+that a relationship of the type indicated by the property exists between
+ two resources.</p>
+
+<table border="1" cellpadding="5">
+<tbody><tr>
+<th align="center" width="40%">
+<p>Subject</p>
+</th>
+<th align="center" width="40%">
+<p>Predicate</p>
+</th>
+<th align="center">
+<p>Object</p>
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>&lt;http://example.org/book/1&gt;
+</code></p></td>
+<td align="center" valign="top" width="40%">
+<p><code>&lt;http://purl.org/dc/elements/1.1/subject&gt;<br><br>dc:subject</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://example.org/topics/SemanticWeb&gt;</code></p>
+</td>
+</tr>
+</tbody></table>
+
+<p>The URIref of a property might also be used as the subject of a statement (the "resource URI" in the terms of the <em>Abstract Model</em> [<a href="#ref2">2</a>],
+ or the object of a statement (the "value URI") in which case the 
+property itself is part of a relationship whose type is denoted by 
+another property URI:</p>
+
+<table border="1" cellpadding="5">
+<tbody><tr>
+<th align="center" width="40%">
+<p>Subject</p>
+</th>
+<th align="center" width="40%">
+<p>Predicate</p>
+</th>
+<th align="center">
+<p>Object</p>
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>&lt;http://purl.org/dc/elements/1.1/subject&gt;<br><br>dc:subject</code></p>
+</td>
+<td align="center" valign="top" width="40%">
+<p><code>&lt;http://purl.org/dc/elements/1.1/description&gt;<br><br>dc:description</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>"Description may include but is not limited to: an abstract, 
+table of contents, reference to a graphical representation of content or
+ a free-text account of the content."</code></p>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/dc/terms/abstract&gt;<br><br>dcterms:abstract</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://www.w3.org/2000/01/rdf-schema#subPropertyOf&gt;<br><br>rdfs:subPropertyOf</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/dc/elements/1.1/description&gt;<br><br>dc:description</code></p>
+</td>
+</tr>
+</tbody></table>
+
+
+<h3>Element Refinement</h3>
+
+<p>In addition to providing a definition and identifier for each of the 
+properties it declares, DCMI also describes relationships between these 
+properties. In particular it declares that some properties "refine" 
+other properties. In the terms of the <em>Grammatical Principles</em> [<a href="#ref3">3</a>]</p>
+
+<blockquote>
+<p>An Element Refinement is a property of a resource which shares the 
+meaning of a particular DCMI Element but with narrower semantics.</p>
+</blockquote>
+
+<p>So for example:</p>
+
+<blockquote>
+<p><code>dcterms:created</code> refines <code>dc:date</code></p>
+</blockquote>
+
+<p>The assertion that one property refines another is made using a 
+statement in which the subject is the URIref of the element refinement, 
+the object is the element, and the predicate is the URIref of a property
+ from the RDF Vocabulary Description Language (RDF Schema) [<a href="#ref4">4</a>], <code>rdfs:subPropertyOf</code>.
+ This states that a relationship exists between the two Dublin Core 
+properties, and the nature of that relationship is defined by the RDFS 
+concept <code>rdfs:subPropertyOf</code>. The RDFS specification explains that this has a very specific consequence:</p>
+
+<blockquote>
+<p>The property rdfs:subPropertyOf is an instance of rdf:Property that 
+is used to state that all resources related by one property are also 
+related by another.</p>
+</blockquote>
+
+<p>So if it is asserted that</p>
+
+<table border="1" cellpadding="5">
+<tbody><tr>
+<th align="center" width="40%">
+<p>Subject</p>
+</th>
+<th align="center" width="40%">
+<p>Predicate</p>
+</th>
+<th align="center">
+<p>Object</p>
+</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/dc/terms/created&gt;<br><br>dcterms:created</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://www.w3.org/2000/01/rdf-schema#subPropertyOf&gt;<br><br>rdfs:subPropertyOf</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/dc/elements/1.1/date&gt;<br><br>dc:date</code></p>
+</td>
+</tr>
+</tbody></table>
+
+<p>and a statement is made using <code>dcterms:created</code> as a predicate, e.g.</p>
+
+<table border="1" cellpadding="5">
+<tbody><tr>
+<th align="center" width="40%">
+<p>Subject</p>
+</th>
+<th align="center" width="40%">
+<p>Predicate</p>
+</th>
+<th align="center">
+<p>Object</p>
+</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+<p><code>&lt;http://example.org/book/1&gt;</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/dc/terms/created&gt;<br><br>dcterms:created</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>"1973-05-05"</code></p>
+</td>
+</tr>
+</tbody></table>
+
+<p>then it is also true that</p>
+
+<table border="1" cellpadding="5">
+<tbody><tr>
+<th align="center" width="40%">
+<p>Subject</p>
+</th>
+<th align="center" width="40%">
+<p>Predicate</p>
+</th>
+<th align="center">
+<p>Object</p>
+</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+<p><code>&lt;http://example.org/book/1&gt;</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/dc/elements/1.1/date&gt;<br><br>dc:date</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>"1973-05-05"</code></p>
+</td>
+</tr>
+</tbody></table>
+
+<p>This outcome holds for <strong>all</strong> occurrences of the 
+element refinement as a predicate: whenever two resources are related by
+ the element refinement, they are also related by the element. So an 
+assertion that one element refines another - that an <code>rdfs:subPropertyOf</code>
+ relationship exists between the properties - should be made only when 
+the definitions of the properties are such that that is a desirable 
+outcome.</p>
+
+<p>If there is just one example where the inferred second statement 
+results in a contradiction, then the   refinement/subPropertyOf 
+relationship should not be asserted. Consider, for example, the case of <code>dc:publisher</code> ("An entity responsible for making the resource available") and <code>dc:contributor</code>
+ ("An entity responsible for making contributions to the content of the 
+resource"). For an individual resource, it may well be true that a 
+single entity is both the publisher and the contributor, but that does 
+not apply in <strong>all</strong> cases. i.e. There is a set of other 
+resources where the publisher has not made a contribution to the content
+ of the resource. If <code>dc:publisher</code> was described as a refinement of <code>dc:contributor</code>, then that would mean that <strong>every</strong> statement using <code>dc:publisher</code> as a predicate would result in a statement using <code>dc:contributor</code> as a predicate, which is not a desirable outcome.</p>
+
+<p>When no subproperty assertion is made, it is still possible to state that for any given resource,
+the same entity is both the publisher and the contributor:</p>
+
+<table border="1" cellpadding="5">
+<tbody><tr>
+<th align="center" width="40%">
+<p>Subject</p>
+</th>
+<th align="center" width="40%">
+<p>Predicate</p>
+</th>
+<th align="center">
+<p>Object</p>
+</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+<p><code>&lt;http://example.org/doc/1&gt;</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/dc/elements/1.1/publisher&gt;<br><br>dc:publisher</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://example.org/</code></p>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+<p><code>&lt;http://example.org/doc/1&gt;</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/dc/elements/1.1/contributor&gt;<br><br>dc:contributor</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://example.org/</code></p>
+</td>
+</tr>
+</tbody></table>
+
+
+<p>In the declarations that DCMI makes, for any given property, they assert only one <code>rdfs:subPropertyOf</code>
+ relationship. In principle, multiple assertions might be made, with the
+ result that multiple additional relationships can be inferred to exist 
+also.</p>
+
+<p>So if it is asserted that</p>
+
+<table border="1" cellpadding="5">
+<tbody><tr>
+<th align="center" width="40%">
+<p>Subject</p>
+</th>
+<th align="center" width="40%">
+<p>Predicate</p>
+</th>
+<th align="center">
+<p>Object</p>
+</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/dc/terms/created&gt;<br><br>dcterms:created</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://www.w3.org/2000/01/rdf-schema#subPropertyOf&gt;<br><br>rdfs:subPropertyOf</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/dc/elements/1.1/date&gt;<br><br>dc:date</code></p>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/dc/terms/created&gt;<br><br>dcterms:created</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://www.w3.org/2000/01/rdf-schema#subPropertyOf&gt;<br><br>rdfs:subPropertyOf</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/my/terms/pointInTime&gt;<br><br>my:pointInTime</code></p>
+</td>
+</tr>
+</tbody></table>
+
+<p>and a statement is made using <code>dcterms:created</code> as a predicate, e.g.</p>
+
+<table border="1" cellpadding="5">
+<tbody><tr>
+<th align="center" width="40%">
+<p>Subject</p>
+</th>
+<th align="center" width="40%">
+<p>Predicate</p>
+</th>
+<th align="center">
+<p>Object</p>
+</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+<p><code>&lt;http://example.org/book/1&gt;</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/dc/terms/created&gt;<br><br>dcterms:created</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>"1973-05-05"</code></p>
+</td>
+</tr>
+</tbody></table>
+
+<p>then it is also true that</p>
+
+<table border="1" cellpadding="5">
+<tbody><tr>
+<th align="center" width="40%">
+<p>Subject</p>
+</th>
+<th align="center" width="40%">
+<p>Predicate</p>
+</th>
+<th align="center">
+<p>Object</p>
+</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+<p><code>&lt;http://example.org/book/1&gt;</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/dc/elements/1.1/date&gt;<br><br>dc:date</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>"1973-05-05"</code></p>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+<p><code>&lt;http://example.org/book/1&gt;</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>&lt;http://purl.org/my/terms/pointInTime&gt;<br><br>my:pointInTime</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>"1973-05-05"</code></p>
+</td>
+</tr>
+</tbody></table>
+
+
+
+<h3>DCMI Namespaces and other Metadata Vocabularies</h3>
+
+<p>The capacity to assert the existence of <code>rdfs:subPropertyOf</code>
+ relationships is not limited to the publisher of a metadata vocabulary.
+ The publisher of another vocabulary may wish to declare that a property
+ in that vocabulary is a sub-property of a property from the DCMI 
+Namespaces, or even that a property from the DCMI Namespaces is a 
+sub-property of a property from their vocabulary.</p>
+
+<p>The MARC Relator Codes [<a href="#ref5">5</a>] provide a set of 
+properties that can be used to assert relationships between resources 
+and agents. It is useful that, where appropriate, sub-property relations
+ between these properties and properties from the DCMI Namespaces are 
+declared. With such information available, a Dublin Core application 
+that encounters</p>
+
+<p>can derive the statement</p>
+
+
+
+<h3>Summary</h3>
+
+<ul>
+<li>A declaration that one property refines, or is a sub-property of, a second property is an assertion of a <strong>specific type of relationship</strong> between the two properties.</li>
+<li>Refinement/sub-property relations may be asserted to exist between <strong>any</strong> two properties</li>
+<li>The meaning of the refinement/sub-property relationship is defined 
+by the RDF Vocabulary Description Language (RDF Schema): the existence 
+of a sub-property assertion states that <strong>all resources related by one property are also related by the other property</strong>.</li>
+<li>The existence of sub-property assertions enables an application to infer <strong>additional statements</strong>; this can be useful to an application encountering an "unknown" property</li>
+<li>A sub-property assertion is global: it applies to <strong>all</strong>
+ occurrences of the property as the predicate of a statement; care 
+should be taken not to assert sub-property relations where the 
+inferences that may be drawn are incorrect or contradictory. </li>
+<li>Where no sub-property relation is asserted, it is still possible to 
+use two properties as predicates of statements about a resource to 
+assert that that resource has two different types of relation with a 
+second resource.</li>
+<li>A sub-property assertion is <strong>not a requirement</strong> for using a property from another vocabulary in Dublin Core metadata descriptions.</li>
+</ul>
+
+<a id="secX" name="secX"></a>
+<h3>References</h3>
+
+<p class="reference"><a id="ref1" name="ref1">[1]</a>&nbsp;&nbsp;Powell, Andy and Harry Wagner. <em>Namespace Policy for the Dublin Core Metadata Initiative (DCMI)</em>, (November 2001)<br>
+<code><a href="http://dublincore.org/documents/dcmi-namespace/">http://dublincore.org/documents/dcmi-namespace/</a></code></p>
+
+</div>
+
+
+<hr title="separator from page content" size="1">
+<p><a href="http://validator.w3.org/check/referer"><img src="index_files/valid-xhtml10.gif" alt="Valid XHTML 1.0!" border="0" height="31" width="88"></a><a href="http://jigsaw.w3.org/css-validator"><img src="index_files/vcss.gif" alt="Valid CSS!" border="0" height="31" width="88"></a></p>
+
+<!--
+<div class="metadata">
+<p>Metadata associated with this resource: <a href=
+"http://dublincore.org/documents/dc-elem-refine/index.shtml.rdf">
+http://dublincore.org/documents/dc-elem-refine/index.shtml.rdf</a></p>
+</div>
+-->
+
+<div class="footer">
+<p><a href="http://dublincore.org/about/copyright/#copyright">Copyright</a> ©
+1995-2004 <acronym title="Dublin Core Metadata Initiative"><a href="http://dublincore.org/">DCMI</a></acronym> All Rights Reserved.
+DCMI <a href="http://dublincore.org/about/copyright/#liability">liability</a>, <a href="http://dublincore.org/about/copyright/#trademark">trademark/service mark</a>, <a href="http://dublincore.org/about/copyright/#documentnotice">document use</a> and <a href="http://dublincore.org/about/software/">software licensing</a> rules apply. Your
+interactions with this site are in accordance with our <a href="http://dublincore.org/about/privacy/">privacy</a> statements. Please feel free to <a href="http://dublincore.org/about/contact/">contact us</a> for any questions, comments
+or media inquiries.</p>
+</div>
+
+
+
+</body></html>

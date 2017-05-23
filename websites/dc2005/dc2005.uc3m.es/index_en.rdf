@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about="http://dc2005.uc3m.es/index.asp">
+<dc:title>DC-2005. International Conference on Dublin Core and Metadata Applications</dc:title>
+<dc:description>International Conference on Dublin Core and Metadata Applications to be held in Madrid from 12 to 15 September 2005</dc:description>
+<dc:date>2005-02-07</dc:date>
+<dc:creator>Eva Mendez</dc:creator>
+<dc:contributor>Dublin Core Metadata Initiative (DCMI)</dc:contributor>
+<dc:format>text/html</dc:format>
+<dc:language>en</dc:language>
+<dc:publisher>University Carlos III of Madrid. "Agustín Millares Carlo" Institute on Information Science and Infomation Management</dc:publisher>
+</rdf:Description>
+</rdf:RDF>

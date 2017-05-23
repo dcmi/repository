@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+  <html xmlns="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wn="http://xmlns.com/wordnet/1.6/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en" lang="en">
+  <head>
+    <title>Semantic Web Interest Group IRC Chat Logs for 2009-04-24</title>
+    <link rel="stylesheet" type="text/css" media="screen" title="main" href="/style/stylesheet.css" />
+    <link rel="alternate stylesheet" type="text/css" media="screen" title="old" href="/style/old.css" />
+    <link rel="alternate" type="application/rdf+xml" title="RDF Version" href="2009-04-24.rdf" />
+    <link rel="alternate" type="text/plain" title="Text Version" href="2009-04-24.txt" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+  </head>
+  <body>
+    <h1>Semantic Web Interest Group IRC Chat Logs for 2009-04-24</h1>
+    <p>This is an automatically generated IRC chat log made by the
+<a href="http://cvs.ilrt.org/cvsweb/redland/logger/">logger bot</a>
+from the 
+<a href="http://www.w3.org/2001/sw/interest/">Semantic Web Interest Group</a> <a href="http://esw.w3.org/topic/InternetRelayChat">IRC</a> chat at
+<a href="irc://irc.freenode.net/swig">irc://irc.freenode.net/swig</a>
+(also known as server irc.freenode.net channel #swig
+if that URI does not work for you).</p>
+    <p>See also the
+<a href="http://swig.xmlhack.com/">Semantic Web Interest Group IRC Scratchpad</a>
+for the collaboratively written weblog and
+<a href="http://esw.w3.org/topic/FrontPage">ESW wiki</a>.</p>
+    <hr />
+    <p><a href="../swig/">Semantic Web Interest Group Logs</a> &gt;
+<a href="2009.html">2009</a> &gt;
+<a href="2009-04.html">2009-04</a> &gt;
+<strong>2009-04-24</strong>
+(<a href="latest">Latest</a>)
+
+(<a href="../search?channel=swig">Search</a>)
+</p>
+    <div class="log"><p><span class="time" id="T00-02-51"><a href="#T00-02-51">00:02:51</a></span> <span class="nick">&lt;MacTed&gt;</span> <span class="comment">E:| RFC 3986: Uniform Resource Identifier (URI): Generic Syntax</span></p>
+
+<p><span class="time" id="T09-49-14"><a href="#T09-49-14">09:49:14</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">hi folks, tom baker and i are having a chat about some dcmi / semweb related stuff, incl. the brief work i did on the resource description and access library standard...</span></p>
+<p><span class="time" id="T09-49-59"><a href="#T09-49-59">09:49:59</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">...we thought we'd use this channel to share some links, so anyone with peripheral interest can pick them up if interested, ...</span></p>
+<p><span class="time" id="T09-50-06"><a href="#T09-50-06">09:50:06</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">i hope no-one objects</span></p>
+<p><span class="time" id="T09-50-32"><a href="#T09-50-32">09:50:32</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">http://dublincore.org/dcmirdataskgroup/Scenarios - cataloger scenarios</span></p>
+<p><span class="time" id="T09-50-33"><a href="#T09-50-33">09:50:33</a></span> <span class="nick">&lt;dc_swig_&gt;</span> <span class="comment">C: http://dublincore.org/dcmirdataskgroup/Scenarios from aliman</span></p>
+<p><span class="time" id="T09-51-29"><a href="#T09-51-29">09:51:29</a></span>  <span class="nick">&lt;aliman&gt;</span><span class="comment"><a href="http://dublincore.org/dcmirdataskgroup/Scenarios_2f1">http://dublincore.org/dcmirdataskgroup/Scenarios_2f1</a></span></p>
+<p><span class="time" id="T09-51-30"><a href="#T09-51-30">09:51:30</a></span> <span class="nick">&lt;dc_swig_&gt;</span> <span class="comment">D: http://dublincore.org/dcmirdataskgroup/Scenarios_2f1 from aliman</span></p>
+<p><span class="time" id="T09-52-05"><a href="#T09-52-05">09:52:05</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">used http://purl.org/vocab/frbr/core#</span></p>
+<p><span class="time" id="T09-53-03"><a href="#T09-53-03">09:53:03</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">used http://RDVocab.info/Elements/</span></p>
+<p><span class="time" id="T09-53-16"><a href="#T09-53-16">09:53:16</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">used http://RDVocab.info/roles/</span></p>
+<p><span class="time" id="T09-54-10"><a href="#T09-54-10">09:54:10</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">aliman: used example URIs for things being described - just wanted to define patterns to test whether the RDA elements vocabulary was sufficient to express the types of things we wanted to express</span></p>
+<p><span class="time" id="T09-54-22"><a href="#T09-54-22">09:54:22</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...vocabularies for people, etc</span></p>
+<p><span class="time" id="T09-55-48"><a href="#T09-55-48">09:55:48</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...worked through whole scenario once, then run through analysis - see if gaps needed to be plugged with placeholders - things not defined in Roles or Elements vocabulary - idea was to iterate over this until RDF expression complete - then could say: "RDA vocabularies sufficient for this scenario"</span></p>
+<p><span class="time" id="T09-56-58"><a href="#T09-56-58">09:56:58</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">used http://www.rdflib.net/ to do analysis on turtle i created for each cataloger scenario, e.g. look for any predicates not defined in the schemas</span></p>
+<p><span class="time" id="T10-01-58"><a href="#T10-01-58">10:01:58</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">aliman: worked through all of the ten scenarios using RDA.  Overall, fairly straightforward.  Scenarios written already in terms of FRBR - so easy to see what applies where.  RDA "sub-elements" - where RDA expects a sub-element, a proper setup for n-ary relations.</span></p>
+<p><span class="time" id="T10-03-24"><a href="#T10-03-24">10:03:24</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">http://code.google.com/p/code4rda/wiki/HomePage -- project to hold code for test translation of marc dataset to rdf/rda</span></p>
+<p><span class="time" id="T10-03-25"><a href="#T10-03-25">10:03:25</a></span> <span class="nick">&lt;dc_swig_&gt;</span> <span class="comment">E: http://code.google.com/p/code4rda/wiki/HomePage from aliman</span></p>
+<p><span class="time" id="T10-04-04"><a href="#T10-04-04">10:04:04</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">aliman: suggestion that I take large-scale data set and see if I can implement conversion using RDA vocabularies, so set up a project on google code - "code for RDA" - see data conversion sub-project - click on "data conversion" linked and you see a bit of introduction</span></p>
+<p><span class="time" id="T10-05-42"><a href="#T10-05-42">10:05:42</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">aliman: broke data down into six main phases - MARC data from LC - first wanted to figure out, because a large data set, if I could get the technologies to do the conversion work at that scale.  From discussions with EdSu, idea of converting to MARCXML via MODS (easier to work with from programming point of view, self-descriptive elements) to RDF</span></p>
+<p><span class="time" id="T10-06-20"><a href="#T10-06-20">10:06:20</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">http://dublincore.org/dcmirdataskgroup/DataConversion -- page describing data conversion work</span></p>
+<p><span class="time" id="T10-06-21"><a href="#T10-06-21">10:06:21</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">aliman: several-stage process.  See if we could get XSLT working on that scale.  Ended up putting page on DCMI RDA wiki</span></p>
+<p><span class="time" id="T10-06-22"><a href="#T10-06-22">10:06:22</a></span> <span class="nick">&lt;dc_swig_&gt;</span> <span class="comment">F: http://dublincore.org/dcmirdataskgroup/DataConversion from aliman</span></p>
+<p><span class="time" id="T10-08-11"><a href="#T10-08-11">10:08:11</a></span> <span class="nick">&lt;bengee&gt;</span> <span class="comment">+1</span></p>
+<p><span class="time" id="T10-08-15"><a href="#T10-08-15">10:08:15</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">aliman: transformed MARC into MARCXML.  Fine. Tried XSLT to MODSXML - quite difficult.  Running out of memory on my laptop.  Amazon EZ2 cloud computing service - can rent virtual server in different sizes - potentially quite big.  Fired up EZ2 server, but even that was not big enough.  Had to break each of the main chunks.</span></p>
+<p><span class="time" id="T10-11-28"><a href="#T10-11-28">10:11:28</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: just to get XSLT to scale.  Ran XSLTs - transformed everything to MODS.  Because there's a lot of things in MODS, wanted to get overview of patterns of data - how elements used - where most important elements are, where transformations would be relevant to the most data - so got statistics on the MODSXML - tells you for each element/element-path, how many records have and average...</span></p>
+<p><span class="time" id="T10-11-30"><a href="#T10-11-30">10:11:30</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...count.  Each has on average 1.6 classification elements - go candidate for doing transformation.  Used [hood-oop] software - based on Google method - designed for large-scale data processing - designed for clustered computing.  To combine numbers from counts.  That gave me statistics.  Based on that, picked out subset of things used frequently.</span></p>
+<p><span class="time" id="T10-12-07"><a href="#T10-12-07">10:12:07</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: used this subset as scope (pasting link).</span></p>
+<p><span class="time" id="T10-12-15"><a href="#T10-12-15">10:12:15</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">http://code.google.com/p/code4rda/wiki/MilestoneOne -- includes proposed scope for first pass transformation, based on most commonly used features in mods data</span></p>
+<p><span class="time" id="T10-12-17"><a href="#T10-12-17">10:12:17</a></span> <span class="nick">&lt;dc_swig_&gt;</span> <span class="comment">G: http://code.google.com/p/code4rda/wiki/MilestoneOne from aliman</span></p>
+<p><span class="time" id="T10-13-18"><a href="#T10-13-18">10:13:18</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: on that page, proposed scope for implementing transformation.  Did a subset of transformation.  Once I got the priorities, did some design work - took a couple of sample records (pasting link)...</span></p>
+<p><span class="time" id="T10-13-34"><a href="#T10-13-34">10:13:34</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">http://code.google.com/p/code4rda/wiki/DataConversionDesign -- design transformation, using sample records, defining expected output of transformation</span></p>
+<p><span class="time" id="T10-13-35"><a href="#T10-13-35">10:13:35</a></span> <span class="nick">&lt;dc_swig_&gt;</span> <span class="comment">H: http://code.google.com/p/code4rda/wiki/DataConversionDesign from aliman</span></p>
+<p><span class="time" id="T10-14-13"><a href="#T10-14-13">10:14:13</a></span> <span class="nick">&lt;scor&gt;</span> <span class="comment">interesting for those not attending</span></p>
+<p><span class="time" id="T10-14-53"><a href="#T10-14-53">10:14:53</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: looked at MODS and MARC forms and hand-crafted the RDF I expected to see as the output of the transformation.  Once did that, implemented transform in XSLT stylesheet.  Then ran over sample records and test whether output of transformation was same as output I epxected.  Compare triples between hand-crafted and generated triples - see what was missing.</span></p>
+<p><span class="time" id="T10-15-16"><a href="#T10-15-16">10:15:16</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: application of idea that write you tests before you write your code, then you write to the test.</span></p>
+<p><span class="time" id="T10-15-56"><a href="#T10-15-56">10:15:56</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">http://code.google.com/p/code4rda/source/browse/trunk/dataconversion/design/expect/00000002.rdf.xml -- example expected output for marc record</span></p>
+<p><span class="time" id="T10-15-57"><a href="#T10-15-57">10:15:57</a></span> <span class="nick">&lt;dc_swig_&gt;</span> <span class="comment">I: http://code.google.com/p/code4rda/source/browse/trunk/dataconversion/design/expect/00000002.rdf.xml from aliman</span></p>
+<p><span class="time" id="T10-16-07"><a href="#T10-16-07">10:16:07</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: "test first".  Dropping in link to one of the sample records...</span></p>
+<p><span class="time" id="T10-16-47"><a href="#T10-16-47">10:16:47</a></span> <span class="nick"> </span><span class="comment"><span class="action">* timbl thinks we need independence of: who supports your identity, where each bit of data is stored for each application, who has access to that data, and who it is that supports their idntidy whoever they are.</span></span></p>
+<p><span class="time" id="T10-17-03"><a href="#T10-17-03">10:17:03</a></span> <span class="nick">&lt;timbl&gt;</span> <span class="comment">One web site rejected my name (for the -) and my email (for a + sign) and my address (as I put in a fake apt number  to trace their reuse of it) and my telephone number (because I used international +1.. syntax)... that was a low point.  But this is irrelevany o the discussion.</span></p>
+<p><span class="time" id="T10-17-58"><a href="#T10-17-58">10:17:58</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: set of FRBR framework and linked up using proper FRBR properties.  Title, Statement of Responsibility, content type of expression, and creator, subject in terms of LCSH subjects, [scriber missed one or two] - that is how far I got.</span></p>
+<p><span class="time" id="T10-19-04"><a href="#T10-19-04">10:19:04</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: how do you generate URIs for the FRBR entities.  Just put in a placeholder.  Used xml:base="http://placeholder/.  Then used LC control number for the record in constructing URIs.  Did same for expression and work.</span></p>
+<p><span class="time" id="T10-19-58"><a href="#T10-19-58">10:19:58</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: Talis folk wrote paper on transforming MARC data to RDF - put link to that in wiki page on Data Conversion design page...</span></p>
+<p><span class="time" id="T10-20-00"><a href="#T10-20-00">10:20:00</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">http://code.google.com/p/code4rda/wiki/DataConversionDesign -- includes link to semantic marc paper by talis folks, which has discussion of uri design considerations</span></p>
+<p><span class="time" id="T10-20-02"><a href="#T10-20-02">10:20:02</a></span> <span class="nick">&lt;dc_swig_&gt;</span> <span class="comment">J: http://code.google.com/p/code4rda/wiki/DataConversionDesign from aliman</span></p>
+<p><span class="time" id="T10-22-02"><a href="#T10-22-02">10:22:02</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: in some cases, Work in common btw two MARC records.  How do you construct URIs.  The Semantic MARC paper suggests using "other stuff" (combination of literal values uniquely identifying some work), turn it into URI-appriate form ("hashing" based on string values) .</span></p>
+<p><span class="time" id="T10-23-46"><a href="#T10-23-46">10:23:46</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: my choice was to be more conservative: use something you know will not cause collisions.  "RDA key": rdakey:workTitleSimpleHash rdf:datatype="&amp;xsd;string": botanicalmateriamedicaandpharmacology.  Broader issue: avoid clashing URIs.</span></p>
+<p><span class="time" id="T10-25-07"><a href="#T10-25-07">10:25:07</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: in RDA, you don't get control numbers of terms (as in LCSH), so to get from term to control number would need a lookup service, so just constructed workaround.</span></p>
+<p><span class="time" id="T10-26-00"><a href="#T10-26-00">10:26:00</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: mapping from labels to identifiers - not easy in XSLT transofrmation.  Would not scale - millions of requests.  Or download and do mapping locally.  As is, just straight XSLT.</span></p>
+<p><span class="time" id="T10-27-06"><a href="#T10-27-06">10:27:06</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: link between work and creator can be done in one of three ways: 1) frbr:creator 2) marcrel:cre, 3) rda:X - easiest to implement is marcrel because of MODS.</span></p>
+<p><span class="time" id="T10-28-38"><a href="#T10-28-38">10:28:38</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: wanted to get RDF dump done.  Go to bottom of (pasting link)...</span></p>
+<p><span class="time" id="T10-28-40"><a href="#T10-28-40">10:28:40</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">http://code.google.com/p/code4rda/wiki/MilestoneOne -- has links to RDF dumps I created from the loc marc metadata</span></p>
+<p><span class="time" id="T10-28-42"><a href="#T10-28-42">10:28:42</a></span> <span class="nick">&lt;dc_swig_&gt;</span> <span class="comment">K: http://code.google.com/p/code4rda/wiki/MilestoneOne from aliman</span></p>
+<p><span class="time" id="T10-29-26"><a href="#T10-29-26">10:29:26</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: that MilestoneOne page has links to source code and NTriples dumps for parts 1-12 of 29 parts - didn't have time to run all of them.  Using big EC2 instances to run them.</span></p>
+<p><span class="time" id="T10-30-08"><a href="#T10-30-08">10:30:08</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: each part contains something like 5 million triples - transforming a fraction of data in source - guestimate 100 million triples, so dataset as whole would be 300 million triples.</span></p>
+<p><span class="time" id="T10-30-35"><a href="#T10-30-35">10:30:35</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: wanted to mount as SPARQL endpoint so people could query, but would not take too much further work to do that.</span></p>
+<p><span class="time" id="T10-32-38"><a href="#T10-32-38">10:32:38</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: the dataset in question is about books - MARC records for main holdings - traverse from one manifestation to manifestation - aliman looking for the link to the actual source data is...</span></p>
+<p><span class="time" id="T10-32-51"><a href="#T10-32-51">10:32:51</a></span> <span class="nick">&lt;aliman&gt;</span> <span class="comment">http://www.archive.org/details/marc_records_scriblio_net -&gt; link to source marc data from loc used as source for transformation to rdf</span></p>
+<p><span class="time" id="T10-32-53"><a href="#T10-32-53">10:32:53</a></span> <span class="nick">&lt;dc_swig_&gt;</span> <span class="comment">L: http://www.archive.org/details/marc_records_scriblio_net from aliman</span></p>
+<p><span class="time" id="T10-33-46"><a href="#T10-33-46">10:33:46</a></span> <span class="nick">&lt;dc_swig_&gt;</span> <span class="comment">Titled item M.</span></p>
+<p><span class="time" id="T10-35-59"><a href="#T10-35-59">10:35:59</a></span> <span class="nick">&lt;dc_swig_&gt;</span> <span class="comment">Added comment M1.</span></p>
+<p><span class="time" id="T10-36-01"><a href="#T10-36-01">10:36:01</a></span> <span class="nick">&lt;TomB__&gt;</span> <span class="comment">...aliman: Diane and Ed have the google code project now</span></p>
+
+</div>
+    <hr />
+    <p>The IRC chat here was automatically logged without editing and
+contains content written by the chat participants identified by their
+IRC nick.  No other identity is recorded.</p>
+    <p>Alternate versions:
+<a href="2009-04-24.rdf" title="RDF Resource Description Framework"><img border="0" width="36" height="14" src="/images/rdf.png" alt="RDF Resource Description Framework Metadata" /></a>
+and
+<a href="2009-04-24.txt">Text</a></p>
+    <p>
+      <small>Provided by <a href="http://purl.org/net/dajobe/">Dave Beckett</a>. Hosted by <a href="http://usefulinc.com/">Useful Information Company</a>.
+</small>
+    </p>
+  </body>
+</html>
+
+

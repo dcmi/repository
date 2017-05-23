@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph 
+  xmlns="http://purl.org/net/sodc/xml"
+  xmlns:html="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://purl.org/net/sodc/xml ../sodc-xml.xsd">  
+
+  <resource>
+    <uri>http://example.com/book#1</uri>
+    <property uri="http://purl.org/dc/elements/1.1/description">
+      <value>
+        <xmlliteral>
+          <html:p>
+            A book about <html:strong>Winnie the Pooh</html:strong> and <html:strong>Christopher Robin</html:strong>.
+          </html:p>
+        </xmlliteral>
+      </value>
+    </property>
+  </resource>
+
+</graph>

@@ -1,0 +1,149 @@
+.popup {
+  display: none;
+  background: #fff;
+  border: 2px solid #bbb;
+  border-width: 0 2px 2px 1px;
+  position:absolute;
+  padding: 2px;
+}
+.popup a { text-decoration: none; cursor: pointer; }
+.popup td, .popup th {
+  font-size: 90%;
+  font-weight: normal;
+  text-align: left;
+  cursor: pointer;
+}
+.popup td { color: #0000cc; padding: 2px; }
+.popup tr.hover { background: #e5ecf9; }
+.subpopup { border-width: 1px 2px 2px 1px; }
+
+.group_row td {
+    background: #ebeff9;
+    cursor: pointer;
+    cursor: hand;
+}
+
+div.gridtile td.id {
+  width: 5em;
+  text-align: left;
+}
+
+div.gridtile {
+  border: 2px solid #c3d9ff;
+  border-radius: 6px;
+  padding: 1px;
+}
+
+tr.grid {
+  border: 1px solid #bbb;
+}
+
+.results .grid th {
+  border-top: 0;
+}
+
+tr.grid .idcount {
+  text-align: left;
+}
+
+.results th a.dotdotdot {
+  text-decoration: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+tr.grid .idcount a, .results .id a {
+  color: #0000cc;
+  text-decoration: underline;
+}
+
+tr.grid .idcount a {
+  margin-right: 0.6em;
+}
+
+div.gridtile {
+  width: 10em;
+  float: left;
+  margin: 2px;
+}
+
+div.gridtile table, div.projecttile table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+div.gridtile td, div.projecttile td {
+  border: 0;
+  padding: 2px;
+  overflow: hidden;
+}
+
+div.gridtile td div {
+  height:5.5ex;
+  font-size:90%;
+  line-height: 100%;
+}
+
+div.gridtile td.status {
+  font-size: 90%;
+  text-align: right;
+  width: 70%;
+}
+
+div.projecttile {
+  width: 14em;
+  height: 90px;
+  margin: 0 1em 2em 1em;
+  float: left;
+  padding: 1px;
+  border: 2px solid #c3d9ff;
+  border-radius: 6px;
+  }
+
+div.projecttile:hover {
+  background: #e5ecf9;
+}
+
+
+.hide_col_0 .col_0, .hide_col_1 .col_1, .hide_col_2 .col_2, .hide_col_3 .col_3,
+.hide_col_4 .col_4, .hide_col_5 .col_5, .hide_col_6 .col_6,
+.hide_col_7 .col_7, .hide_col_8 .col_8, .hide_col_9 .col_9,
+.hide_col_10 .col_10, .hide_col_11 .col_11, .hide_col_12 .col_12,
+.hide_col_13 .col_13, .hide_col_14 .col_14, .hide_col_15 .col_15,
+.hide_col_16 .col_16, .hide_col_17 .col_17, .hide_col_18 .col_18,
+.hide_col_19 .col_19, .hide_col_20 .col_20 { display: none; }
+
+.hide_col_0 .popup span.col_0, .hide_col_1 .popup span.col_1,
+.hide_col_2 .popup span.col_2, .hide_col_3 .popup span.col_3,
+.hide_col_4 .popup span.col_4, .hide_col_4 .popup span.col_4,
+.hide_col_5 .popup span.col_5, .hide_col_6 .popup span.col_6,
+.hide_col_7 .popup span.col_7, .hide_col_8 .popup span.col_8,
+.hide_col_9 .popup span.col_9, .hide_col_10 .popup span.col_10,
+.hide_col_11 .popup span.col_11, .hide_col_12 .popup span.col_12,
+.hide_col_13 .popup span.col_13, .hide_col_14 .popup span.col_14,
+.hide_col_14 .popup span.col_14, .hide_col_15 .popup span.col_15,
+.hide_col_16 .popup span.col_16, .hide_col_17 .popup span.col_17,
+.hide_col_18 .popup span.col_18, .hide_col_19 .popup span.col_19,
+.hide_col_20 .popup span.col_20 { display: inline; color: #eef; }
+
+.hide_col_0 .popup tr.hover span.col_0,
+.hide_col_1 .popup tr.hover span.col_1,
+.hide_col_2 .popup tr.hover span.col_2,
+.hide_col_3 .popup tr.hover span.col_3,
+.hide_col_4 .popup tr.hover span.col_4,
+.hide_col_5 .popup tr.hover span.col_5,
+.hide_col_6 .popup tr.hover span.col_6,
+.hide_col_7 .popup tr.hover span.col_7,
+.hide_col_8 .popup tr.hover span.col_8,
+.hide_col_9 .popup tr.hover span.col_9,
+.hide_col_10 .popup tr.hover span.col_10,
+.hide_col_11 .popup tr.hover span.col_11,
+.hide_col_12 .popup tr.hover span.col_12,
+.hide_col_13 .popup tr.hover span.col_13,
+.hide_col_14 .popup tr.hover span.col_14,
+.hide_col_15 .popup tr.hover span.col_15,
+.hide_col_16 .popup tr.hover span.col_16,
+.hide_col_17 .popup tr.hover span.col_17,
+.hide_col_18 .popup tr.hover span.col_18,
+.hide_col_19 .popup tr.hover span.col_19,
+.hide_col_20 .popup tr.hover span.col_20 { color: #c3d9ff; }

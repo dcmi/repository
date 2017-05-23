@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/groups/schema.htm">
+   <dc:title>Dublin Core Metadata Initiative - Metadata Schema Interoperability Working Group</dc:title>
+   <dc:description>This group will examine the functional requirements of three metadata models (the Dublin Core, INDECS, and the IFLA Functional Requirements for Bibliographic Resources) and propose means for representing these models so as to maximize their potential for interoperability.</dc:description>
+   <dc:date>1998-11-04</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>The Dublin Core Metadata Initiative</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

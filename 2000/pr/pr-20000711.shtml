@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DCMI Press Release: Dublin Core Releases Recommended Qualifiers</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="pr-20000711.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<p>FOR IMMEDIATE RELEASE</p>
+<p>Contacts:<br />
+Sally Khudairi<br />
+Roderic Olvera Young<br />
+ZOT Group<br />
++1.617.542.5335<br />
+dcmi@zotgroup.com</p>
+<h2>DUBLIN CORE RELEASES RECOMMENDED QUALIFIERS<br />Building the De Facto Metadata Standard and Improving Access to the World's Information</h2>
+<p><strong>http://dublincore.org</strong> - 11 July 2000 - The Dublin Core Metadata Initiative (DCMI), an organization leading the development of international standards to improve electronic resource management and information discovery, today announced the formal recommendation of the Dublin Core (DC) Qualifiers. The addition of the DC Qualifiers enhances the semantic precision of the existing DC Metadata Element Set.</p>
+<p>&quot;Think of Legos. The close tolerances of these simple toys ensure all the different Lego themes, built at different times, can work together smoothly. Dublin Core is the basic Lego block for promoting discovery of resources on the Web: a simple and interoperable foundation upon which many information solutions can be built. The introduction of Dublin Core Qualifiers is like adding color and themes to the Legos - it helps enrich the description of information resources on the Internet&quot; said Stuart Weibel, DCMI Director.</p>
+<p>The DC Qualifiers build upon the DC Metadata Element Set, which provides 15 categories to describe resources on the Web - a catalog card with new dimensions. Known as the Dublin Core, the metadata model has become the de facto standard for description of information on the Internet.</p>
+<p>For the past year, working groups of the Dublin Core developed these newly agreed upon refinements to the catalog card to give better access to information we seek. In essence, the new recommendations for Dublin Core Qualifiers increase the effectiveness of metadata by giving it finer granularity. For example, a publication's date, which would be the Dublin Core Metadata Element, may be further detailed as a particular type of date by using a Dublin Core Qualifier such as date last modified, date created, or date issued.</p>
+<p>Dublin Core's Usage Committee today launches the next step toward a cohesive metadata standard. The DC Qualifiers improve interpretation of metadata values and can be easily recorded or transferred into HTML, XML, RDF or relational databases. The evolution of DC Qualifiers draws from the input of many individuals across a broad array of disciplines.</p>
+<p>Users include museum informatics specialists, archivists, digital library researchers, libraries, and government information providers and a variety of content providers. Their efforts have led standards organizations, such as NISO (National Information Standards Organization) in the U.S. and CEN in Europe (European Committee for Standardization) to view the DC Metadata Element Set as a benchmark candidate for simple resource description on the Internet. More recently, new sectors, such as education and industry, have been attracted to Dublin Core's simplicity, multilingual scope, consensus philosophy and widespread adoption.</p>
+<p>More information about the new recommendation can be found at: <a href="/documents/dcmes-qualifiers/">http://dublincore.org/documents/dcmes-qualifiers/</a></p>
+<h3>Praise for DC Qualifiers from Key Leaders in Metadata:</h3>
+<p>&quot;The ratification of Dublin Core Qualifiers is an important milestone that will improve the usefulness of Dublin Core metadata for libraries and the greater Internet community. OCLC is pleased to host the Dublin Core Metadata Initiative as part of its continuing commitment to global open standards which facilitate international knowledge access. We expect the Dublin Core to play an important role in bridging traditional library cataloging and Internet resource description.&quot;<br />
+-- Jay Jordan, CEO, OCLC Online Computer Library Center, Inc.</p>
+<p>&quot;I'm delighted to see this important next step on the Dublin Core Metadata Initiative's program, which begins to map the path between the lowest-common-denominator unqualified elements and the need for greater precision in many actual applications. This is a relatively short document, but it distills an enormous amount of thinking, discussion and hard work by a worldwide community concerned with metadata, and the consensus it captures represents a substantial accomplishment.&quot;<br />
+-- Clifford Lynch, Executive Director, Coalition for Networked Information.</p>
+<p>&quot;The Dublin Core qualifiers establish an important precedent for the &quot;best-practice&quot; use of the Dublin Core Element Set. The W3C work on the Resource Description Framework (RDF) anticipated from its very beginning the need within the Dublin Core framework to use qualifiers to represent encoding schemes as well as vocabulary refinement. The adoption of this set of qualifiers leads the way for more widespread use of the Dublin Core to describe materials on the Web in greater detail.&quot;<br />
+-- Ralph R. Swick, Technical Director, Technology and Society Domain, World Wide Web Consortium.</p>
+<p>&quot;Most Dublin Core implementation projects have always used element qualifiers. To current and future Dublin Core users, agreement on core Qualifiers is a hallmark event which can only be compared with completion of the 15 basic Dublin Core Metadata Elements. Now, with both Elements and their Qualifiers in place, Dublin Core is a much more powerful and versatile tool.&quot;<br />
+-- Juha Hakala, Development Director, Helsinki University Library.</p>
+<p>&quot;Implementers of Internet search engines are certain to welcome the most recent development of the Dublin Core standard. In Australia, Dublin Core is being used to support access to information resources by governments, the museum and library communities, and a number of projects within academia. The approval of standard qualifiers will be welcomed by these communities and ensure improved interoperability in the discovery of Internet resources.&quot;<br />
+-- Dr. Warwick Cathro, Assistant Director-General of the National Library of Australia.</p>
+<p>&quot;Melbourne IT's clients register domain names to move their businesses and other activities online. Their goal of realizing the potential of the Web can be fulfilled by Dublin Core. It delivers relevance to the information end-users seek. Today, we are well placed to implement the new Dublin Core standards in our own developments and to advise our clients as to how they can benefit from using them.&quot;<br />
+-- Peter Gerrand, CEO of Melbourne IT.</p>
+<p>&quot;With the general adoption and the publication of the Dublin Core Qualifiers, Dublin Core establishes itself as a reliable international metadata standard. I am pleased that this consolidation process, with its great importance for libraries, museums, archives and many other communities, was set in motion during the 7th Dublin Core Workshop in Frankfurt.&quot;<br />
+-- Dr. Elisabeth Niggeman, Director, Die Deutsche Bibliothek.</p>
+
+<h3>ABOUT THE DUBLIN CORE METADATA INITIATIVE [DCMI]</h3>
+<p>The Dublin Core Metadata Initiative is an open forum engaged since 1995 in the development of interoperable online metadata standards that support a broad range of purposes and business models. Its primary offering, the Dublin Core Metadata Element Set, is the de-facto worldwide standard for the description of information resources across disciplines and languages. DCMI's activities include consensus-driven working groups, global workshops, conferences, standards liaison, and educational efforts to promote widespread acceptance of metadata standards and practices. Representatives from industries worldwide are active contributors to the DCMI; participation is open to practitioners and theoreticians from the public, private and not-for-profit sectors. Further information on DCMI, the Dublin Core family of specifications and various online metadata solutions can be found at http://purl.org/dc/</p>
+<p>The 8th Dublin Core Metadata Initiative Workshop, hosted by the National Library of Canada and the International Federation of Library Associations and sponsored by OCLC, the Coalition for Networked Information, and the National Science Foundation, will be held the 4th through the 6th of October and will help shape the future of metadata, implementation and evolution of the standard. To register, please visit http://www.ifla.org/udt/dc8/call.htm</p>
+<p>Dublin Core Metadata for this Press Release, represented in RDF:</p>
+<p>&lt;?xml version=&quot;1.0&quot; ?&gt;<br />
+&lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;<br />
+xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;&gt;<br />
+&lt;rdf:Description<br />
+rdf:about=&quot;http://purl.org/DC/pressreleases/qualifiers20000711.htm&quot;&gt;<br />
+ &lt;dc:title&gt;Dublin Core Metadata Initiative - Press Release: Dublin Core<br />
+Releases Recommended Qualifiers&lt;/dc:title&gt;<br />
+&lt;dc:description&gt;The Dublin Core Metadata Initiative, an organization<br />
+leading
+the development of international standards to improve electronic resource<br />
+management and information discovery, today announced the formal<br />
+recommendation of the Dublin Core Qualifiers.&lt;/dc:description&gt;<br />
+&lt;dc:creator&gt;Stuart Weibel&lt;/dc:creator&gt;<br />
+&lt;dc:creator&gt;Eric Miller&lt;/dc:creator&gt;<br />
+&lt;dc:contributor&gt;Jay Jordan&lt;/dc:contributor&gt;<br />
+&lt;dc:contributor&gt;Clifford Lynch&lt;/dc:contributor&gt;<br />
+&lt;dc:contributor&gt;Ralph R. Swick&lt;/dc:contributor&gt;<br />
+&lt;dc:contributor&gt;Juha Hakala&lt;/dc:contributor&gt;<br />
+&lt;dc:contributor&gt;Dr. Warwick Cathro&lt;/dc:contributor&gt;<br />
+&lt;dc:contributor&gt;Peter Gerrand&lt;/dc:contributor&gt;<br />
+&lt;dc:contributor&gt;Dr. Elisabeth Niggemann&lt;/dc:contributor&gt;<br />
+&lt;dc:contributor&gt;ZOT Group&lt;/dc:contributor&gt;<br />
+&lt;dc:publisher&gt;Dublin Core Metadata Initiative&lt;/dc:publisher&gt;<br />
+&lt;dc:date&gt;2000-07-11&lt;/dc:date&gt;<br />
+&lt;dc:format&gt;text/html&lt;/dc:format&gt;<br />
+&lt;dc:language&gt;en&lt;/dc:language&gt;<br />
+&lt;dc:type&gt;press release&lt;/dc:type&gt;<br />
+&lt;/rdf:Description&gt;<br />
+&lt;/rdf:RDF&gt;</p>
+<p>###</p>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

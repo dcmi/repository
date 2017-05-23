@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/documents/wd/dcq-html-20000815.htm">
+   <dc:title>Recording qualified Dublin Core metadata in HTML meta elements</dc:title>
+   <dc:description>The Dublin Core metadata Element Set (DCMES) allows much descriptive 
+information about resources to be expressed. However, in some applications it is 
+desirable to refine the meanings of the DCMES metadata. A method for refining DCMES is 
+encompassed in an extended model known as Qualified Dublin Core metadata, which 
+requires additional labels and data, known generically as qualifiers.  In this recommendation 
+we describe the methods provided directly by HTML, and explain how to record Qualified DCMES 
+metadata in HTML using the meta element in the document head.</dc:description>
+   <dc:creator>Simon Cox</dc:creator>
+   <dc:creator>Eric Miller</dc:creator>
+   <dc:creator>Andy Powell</dc:creator>
+   <dc:date>2000-08-15</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

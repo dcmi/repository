@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph 
+  xmlns="http://purl.org/net/sodc/xml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://purl.org/net/sodc/xml ../sodc-xml.xsd">
+
+  <resource>
+    <uri>http://example.com/book#1</uri>
+    <property uri="http://purl.org/dc/elements/1.1/title">
+      <value>
+        <plainliteral lang="en">Winnie the Pooh</plainliteral>
+      </value>
+    </property>
+  </resource>
+
+</graph>

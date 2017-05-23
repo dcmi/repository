@@ -1,0 +1,369 @@
+Dublin Core: The Road from Metadata Formats to Linked Data
+August 25, 2010 
+
+Meeting Questions and Answers:
+
+----------------------------------------------------------------------
+michelle asked: Does the URI for the book represent: a full-text online
+version of the book? the concept of the book?
+
+URIs are the "words" of the Linked Data "language".  URIs used as 
+"predicates" (aka "properties", characterizing relationships between
+resources) are like verbs.  URIs used as identifiers for resources
+that are the subject or object of statements are like nouns.
+
+As in natural language, names can be given to anything --
+including either a full-text online version of a book or
+the concept of a book.  Users of the "FRBR" categories Work,
+Expression, Manifestation, Item (in the Functional Requirements
+for Bibliographic Records, a model used in the library world)
+might need to coin URIs for each of these entities, because in
+the library catalog context these distinctions are important.
+Others may not need, or even understand, such distinctions.
+
+The book examples A and B might reasonably be interpreted to
+be about "manifestations" (in FRBR terms), even if the data
+does not say that.  In an environment with full support of
+FRBR, related "works", "expressions", even individual "items"
+could be identified with URIs and described.
+
+[1] http://www.ukoln.ac.uk/repositories/digirep/index/Scholarly_Works_Application_Profile
+
+----------------------------------------------------------------------
+L. H. Kevil asked: How can you get the linked data from the Beeb?
+
+In the BBC examples shown in the talk, the Linked Data
+corresponding to the two Web pages
+
+    http://www.bbc.co.uk/nature/species/Humboldt_Squid
+    http://www.bbc.co.uk/nature/adaptations/Nocturnality
+
+can be seen at:
+
+    http://www.bbc.co.uk/nature/species/Humboldt_Squid.rdf
+    http://www.bbc.co.uk/nature/adaptations/Nocturnality.rdf
+
+Some browsers, such as Firefox, can display this data nicely,
+or the URIs can be plugged into an RDF validator such as [1]
+for viewing as a graph.
+
+More information is available at [2].
+
+[1] http://www.w3.org/RDF/Validator/
+[2] http://www.bbc.co.uk/blogs/bbcbackstage/
+
+----------------------------------------------------------------------
+Amy Kirchhoff asked: Can anyone use these verbs/URIs or can only BBC
+use their BBC verbs?
+
+The squid page uses eighteen properties (i.e., "verbs",
+predicates) defined by BBC.  Seventeen of these are defined
+the BBC Wildlife Ontology [1].  Notice that [1] is licensed
+under a Creative Commons Attribution License, and everyone
+is invited to make free use of the work.  For example, anyone
+is free to use the URI for the property "species name" [2] in
+their own metadata.
+
+[1] http://purl.org/ontology/wo/
+[2] http://purl.org/ontology/wo/speciesName
+
+----------------------------------------------------------------------
+88RT93 asked: Is there a particular RDF graph visualizer you could
+recommend?
+
+W3C provides an RDF Validation Service [1] where you can paste
+in (or point to) RDF data in XML as input and see triples
+and graphs as output.  Google on "RDF validator" or "RDF
+visualizer" and you will find several more alternatives. Other
+tools, such as "rapper" [2], will freely convert RDF data
+between any two of several interchangeable formats, such as:
+RDF/XML, Turtle (a syntax more readable than RDF/XML), and RDF
+triples, and including (for output only) GraphViz DOT format
+[3], which can be used by general-purpose visualization
+software to generate graphs.
+
+[1] http://www.w3.org/RDF/Validator/
+[2] http://rdflib.org/raptor
+[3] http://en.wikipedia.org/wiki/Graphviz
+
+----------------------------------------------------------------------
+Lisa Conrad asked: Could you review very simply again the basic concept
+of the grammar of RDF? And concept of "triples"
+
+For a general introduction, see [1].
+
+Tom thinks of RDF as the grammar for a "language for Linked
+Data".  "URIs" are the words of that language.  The notions
+of "Property" and "Class", also expressed using URIs,
+are grammatical categories in that language, corresponding
+roughly to Verbs and Nouns.  "RDF statements" are sentences
+in that language.  RDF statements are about "individual"
+members of a class, a bit like "toaster" is a particular noun.
+By default, every individual is a member of the generic class
+Resource, but "toaster" might also be seen as a member of a
+more specific class such as "kitchen appliance".
+
+The analogy to natural language is not perfect, but Tom finds
+it helpful as a first approximation.
+
+[1] http://www.w3.org/TR/rdf-primer/
+
+----------------------------------------------------------------------
+Laura Akerman Changes Question To: In Dublin Core (and RDF) the "atoms"
+of information are simple but what we need to do is often complex... for
+example we need to combine data from different vocabularies, or
+represent different aspects of a thing (e.g. FRBR work, expression,
+manifestation, etc.). Is your work with RDF informing any efforts to
+develop machine-actionable frameworks for expressing description sets
+and application profiles
+
+Taken individually, the atoms that make up our bodies are
+simple too.  However, when organized into DNA, cells, and
+organs, they constitute incredibly complex structures, even
+brains.  By a very rough analogy, there is no inherent limit
+to the complexity of data structures that can be expressed
+using triples.
+
+A DCMI working group is contributing to the development an RDF
+expression of RDA, and IFLA working groups are developing RDF
+expressions of FRBR.  As Tom suggested on the call, a healthy
+linguistic ecosystem for Linked Data needs both generic,
+pidgin-like vocabularies like the classic fifteen-element
+Dublin Core; specialized vocabularies such as the BBC Wildlife
+Ontology; and links between vocabularies to bridge the gap
+between specialists and the general public.  This is pretty
+much the same as with natural languages in the real world.
+
+DCMI's work on an Abstract Model [1] and Description Set
+Profile language of constraints [2] has been motivated
+precisely by the goal of specifying, as you put it,
+"machine-actionable frameworks for expressing description
+sets and application profiles".
+
+[1] http://dublincore.org/documents/abstract-model/
+[2] http://dublincore.org/documents/dc-dsp/
+
+----------------------------------------------------------------------
+Donna Schenck-Hamlin asked: Is a URI a link to a file? If so, isn't
+there a danger the file might become unavailable?
+
+We should mention here in passing that Web architecture has
+evolved mechanisms to respond to requests to "GET" a resource
+identified by a URI in ways that say either "the URI identifies
+an information resource, and here it is" or "the URI identifies
+something that is described in an information over there"
+(with an automatic redirect).  In other words, the Dublin
+Core element "Contributor" and the person "Barack Obama"
+are not Web pages, but a user clicking on URIs identifying
+these things will be taken, using redirection, to a Web page
+describing those things.
+
+It is "best practice" to make URIs resolvable to files,
+and when memory institutions coin those URIs, there is an
+expectation that they will remain resolvable to information
+about the URIs (i.e., to files) over the medium and long term.
+That said, "resolvability" to a file is not an absolute
+precondition to using a given URI as a unique identifier.
+We could still continue to use the word "toaster" even if,
+against all reasonable probability, the word were to disappear
+from our dictionaries.  By analogy, the file describing the
+BBC Wildlife Ontology could disappear, but as long as the
+BBC Internet domain exists and the URI for "species name"
+is not re-purposed for something else, the URI itself could
+continue to function as a unique property name.
+
+Ensuring the longevity and resolvability of URIs is, in Tom's
+opinion, one of the key challenges facing cultural memory
+institutions in the Web page.
+
+----------------------------------------------------------------------
+Jennifer Riley asked: Can you explain the "placeholder" (RDF blank nodes)
+concept further?
+
+In modeling terms, there is a subtle difference between saying: 
+
+    This book has an author, 'Barack Obama'.
+
+and:
+
+    This book has an author, whose name is 'Barack Obama'.
+
+To us humans, these sentences are pretty much interchangeable.
+In modeling terms, however, the second sentence is more explicit.
+Using this pattern, for example, one might go on to say:
+
+    This book has an author, whose date of birth is '1961-08-04'.
+
+The placeholder for the author, as the object of a statement,
+is either blank (if we do not have a URI identifying Obama
+the person), or -- if do we have one -- it can be a URI such
+as http://dbpedia.org/resource/Barack_Obama.
+
+Bear in mind that this data expression will normally be
+formed by metadata software "under the hood".  A human
+creating metadata using a Web form might type "Barack Obama",
+or choose "Barack Obama" from a pull-down menu, without
+needing to know that the underlying software is expressing
+that information using a URI or a blank node.
+
+See also [1].
+
+[1] http://en.wikipedia.org/wiki/Blank_node
+
+----------------------------------------------------------------------
+Mary Parker asked: You mentioned the BBC uses linked data. Can you give
+an example of a library (besides Library of Congress) using linked data?
+
+Makx mentioned a few on the call, notably the Royal Library
+of Sweden [1], a pioneer of Linked Data in the library world.
+But many others have projects underway, such as the Hungarian
+National Library and British Library [2].  Just yesterday I
+learned about a regional initiative of libraries in the German
+states of North Rhine-Westphalia and Rhineland-Palatinate in
+collaboration with Deutsche Nationalbibliothek.  A W3C Library
+Linked Data Incubator Group [3] has been chartered for one
+year to collect information on such initiatives in the library
+world and to identify areas where further research is needed.
+(Full disclosure: Tom is a co-chair of that activity.)
+
+Another particularly interesting initiative for libraries is the VIAF
+project (Virtual International Authority File), a joint project of OCLC,
+Library of Congress, and the national libraries of Germany and France,
+with participation of many more national libraries and other
+organizations (see [4]).
+
+[1] http://www.slideshare.net/brocadedarkness/libris-linked-library-data
+[2] http://www.bl.uk/bibliographic/datafree.html.
+[3] http://www.w3.org/2005/Incubator/lld/
+[4] http://viaf.org/
+
+----------------------------------------------------------------------
+88RT93 Changes Question To: Do you of know of any examples of libraries
+managing metadata as triples other than UK and Swedish national libraries?
+
+I take this question to be whether any libraries using Linked
+Data manage that data using a triples store -- one of the
+options Makx presented.  To be honest, we do not know, but
+how libraries manage their data internally is more of concern
+to their IT managers -- issues of efficiency, etc -- than to
+the consumers of their linked data.  Consumers do not need
+to understand the workflow in the kitchen in order to judge
+the quality of what they are served.
+
+----------------------------------------------------------------------
+Jennifer Riley changes question to: Can you give an example of known
+limitations or problems with Linked Data as currently defined?
+
+Well, it's a new language and there are not many "fluent
+speakers", so grammatical mistakes are an inevitable part
+of the collective learning curve.  Also, conventions for
+publishing "application profiles" (in order to share patterns
+for describing things) and mechanisms for recognizing common
+patterns in data on the Web using search engines (in order
+to follow emerging practice) are still evolving.
+
+Indeed, the language for linked data is itself still evolving.
+For example, triples do not declare their own source, so the
+provenance of metadata statements needs to be tracked locally
+in databases (as in "these statements are from BBC" and "these
+are from Library of Congress").  In the near-to-medium-term
+future, therefore, "triples" may evolve into "quads" --
+four-part statements along the lines of:
+
+    Subject - Predicate - Object - SourceOfStatement
+
+One issue that can be seen as a problem is that the Linked
+Data approach is so very flexible - anyone can define their
+own vocabulary. Now, if everyone declares their own vocabulary
+instead of using common, trusted, well-known vocabularies where
+possible, then in order to achieve interoperability, there will
+be an additional need to create (and maintain!) equivalence
+relations, such as sameAs or similarTo, between terms in as
+many different vocabularies. To avoid this, organizations
+like W3C and DCMI promote the use of well-known vocabularies
+like Dublin Core, FOAF, and SKOS.
+
+----------------------------------------------------------------------
+Mary Parker Changes Question To: RDF dissolves metadata into a store of
+triple statements. Does RDF still have a conceptual place for descriptive
+records -- organized compilations of statements?
+
+An excellent question!  A key objective of the DCMI Abstract
+Model, first published in 2005 and updated in 2007, was to
+create an abstract syntax for organizing Statements into
+Descriptions (each of a single resource), grouped into
+Description Sets, in turn instantiated as metadata Records.
+
+In the meantime, the RDF community has been developing the
+notion of a Named Graph -- a particular set of statements
+grouped together and given a name (i.e., URI).
+
+The notion of a metadata Record is, and will remain, important
+for managing information in many institutional contexts.
+Supporting such constructs is seen as a high priority by the
+RDF community, so Tom thinks it is likely that a standardized
+approach to Named Graphs (or Description Sets) will emerge
+in the medium-term future.
+
+----------------------------------------------------------------------
+OCLC Research asked: In the BBC example, how much of what we saw is
+automatically generated? Don't they have to know where they are going for
+what, how much they grab, and how it will be displayed on the page? That
+all sounds kinda manual....
+
+We do not know in detail how this is implemented at BBC;
+a high-level description can be found at [1].  It appears they use the "Muddy" software tool [2].  However, Tom
+suspects that pages are being generated by templates, perhaps
+built into a Content Management System, which automatically
+search the linked data for the latest information on
+particular topics -- in effect, "canned searches".  At any
+rate, BBC cites efficiency as one of the key benefits of its
+approach.  They write: "the system gives us a flexibility
+and a maintainability benefit: our web site becomes our
+API. Considering our feeds as an integral part of building
+a web site also means that they are very cheap to generate:
+they are just a different view of our data."
+
+[1] http://www.w3.org/2001/sw/sweo/public/UseCases/BBC/
+[2] http://muddy.it/
+
+----------------------------------------------------------------------
+Michelle asked: The "open web" is free, but drives a huge economy based
+on advertising. Will something similar happen with Linked Data? Selling
+of rights to URIs?
+
+Makx mentioned the International DOI Foundation as an example
+of an organization with a business model around the notion of
+managed URIs.  As we emphasized in the talk, Linked Data is not
+necessarily Linked Open Data; it can also be Linked Enterprise
+Data, where the data may be hidden behind a corporate firewall.
+It seems probable that there will always be a visible, "open
+Web", and a hidden "deep Web", access to which is controlled
+or sold.  We expect that there will be substantial amounts
+of public content on the Open Web from government, education,
+libraries, and research.
+
+----------------------------------------------------------------------
+Heinz asked: Is there a relation to the "Semantic Web" idea?
+
+Yes -- to the extent that many people now use the two
+terms interchangeably.  Linked Data is based on Semantic Web
+principles.  Before RDF was the language of Linked Data, it was
+(and remains) the language of the Semantic Web.  In a way,
+Linked Data is the real-world fulfillment of the promise of
+the Semantic Web.  The idea of Semantic Web was seen by many in circa
+2000 as a sophisticated, highly engineered solution involving
+artificial intelligence -- e.g., letting one's smart phone find
+a dentist nearby and schedule an appointment automatically.
+It was a vision that sounded complicated and far in the future.
+
+When the idea of Linked Data was launched in 2006, in
+contrast, the benefits were immediately visible in the form
+of data integrated across the boundaries of particular silos.
+This is the simpler, more concrete idea that took off, while
+the older, more ambitious vision of Semantic Web still remains
+a distant goal.  The older vision was seen as focusing more
+on technology, whereas Linked Data shifted the emphasis to
+useful content.  Technically speaking, however, Semantic Web --
+RDF -- provided the foundation for Linked Data.
+

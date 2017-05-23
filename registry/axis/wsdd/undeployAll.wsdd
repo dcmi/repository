@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<undeployment xmlns="http://xml.apache.org/axis/wsdd/"> 
+   <service name="vocabularyTermsSummary"/>
+   <service name="itemDetail"/>
+   <service name="elementSummary"/>
+   <service name="encodingSchemesSummary"/>
+   <service name="itemSummary"/>
+   <service name="languagesSummary"/>
+   <service name="refinementsSummary"/>
+   <service name="termUpdates"/>
+   <service name="recycleLog"/>
+</undeployment>
+

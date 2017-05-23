@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;">
+
+
+<!-- Begin: Title Declaration -->
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label xml:lang="de-DE">Titel</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">Titel der Quelle; der vom Verfasser, Urheber oder Verleger vergebene Namen der 
+  Ressource</rdfs:comment>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label xml:lang="de-DE">Weitere beteiligten Personen und K&#0246;rperschaften</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">Zus&#0228;tzliche Person(en) und Organisation(en) zu jenen, die im Element 2 (DC.CREATOR) 
+  genannt wurden, die einen bedeutsamen intellektuellen Beitrag zur Ressource geleistet haben, deren 
+  Beitrag aber sekund&#0228;r im Verh&#0228;ltnis zu denen im Element 2 (DC.CREATOR) zu betrachten ist (z.B. 
+  Herausgeber, &#0220;bersetzer, Illustratoren, auch Konferenzleiter, Moderatoren).</rdfs:comment>
+
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label xml:lang="de-DE">Verfasser oder Urheber</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">Die Person(en) oder Organisation(en), die den intellektuellen Inhalt verantworten. 
+  Z.B. Autoren bei Textdokumenten; K&#0252;nstler, Photographen bzw. auch andere Bezeichnungen wie Komponist 
+  und Maler bei graphischen Dokumenten.</rdfs:comment>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label xml:lang="de-DE">Verleger bzw. Herausgeber</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">Die Einrichtung, die verantwortet, da&#0223; diese Ressource in dieser Form zur Verf&#0252;gung 
+  steht, wie z.B. ein Verleger, ein Herausgeber, eine Universit&#0228;t oder eine korporatives Unternehmen. 
+  Der Zweck bei der Benutzung dieses Felds ist es, die Einrichtung oder Einheit zu identifizieren, 
+  die den Zugang zur Ressource gew&#0228;hrt.</rdfs:comment>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label xml:lang="de-DE">Thema und Stichw&#0246;rter</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">Thema, Schlagwort, Stichwort. Das Thema der Ressource bzw. Stichw&#0246;rter oder Phrasen, 
+  die das Thema oder den Inhalt beschreiben. Die beabsichtigte Spezifizierung dieses Elements dient 
+  der Entwicklung eines kontrollierten Vokabulars. Das Element kann sowohl systematische Daten nach 
+  einer Klassifikation (SCHEME), wie Library of Congress Klassifikations-Nummer oder UDC-Nummer oder 
+  Begriffe aus anerkannten Thesauri (wie MEdical Subject Headings (MESH) und Art and Architecture 
+  Thesaurus (AAT) Deskriptoren) enthalten.</rdfs:comment>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label xml:lang="de-DE">Inhaltliche Beschreibung</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">Eine textliche Beschreibung des Ressourceninhalts inklusive eines Referats (Abstract) 
+  bei dokument&#0228;hnlichen Ressourcen oder Inhaltsbeschreibungen bei graphischen Ressourcen. K&#0252;nftige 
+  Metadata-Sammlungen k&#0246;nnen auch numerische Inhaltsbeschreibungen (z.B. Spektralanalyse einer 
+  graphischen Ressource) enthalten, die eventuell noch nicht in bestehende Netzsysteme eingebettet 
+  werden k&#0246;nnen. In solchen F&#0228;llen, kann dieses Feld einen Link zu einer solchen Beschreibung enthalten 
+  statt der Beschreibung selbst.</rdfs:comment>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label xml:lang="de-DE">Datum</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">Das Datum, an dem die Ressource in der gegenw&#0228;rtigen Form zug&#0228;nglich gemacht wurde. 
+  Der empfohlene Eintrag des Datums w&#0228;re eine achtstellige Zahl JJJJMMTT, wie es in ANSI X3.30-1985 
+  definiert ist, beispielsweise: 19961213 (=13. Dezember 1996). Andere Darstellungsschemata f&#0252;r das 
+  Datum sind erlaubt, werden sie angewandt, so sollten sie eindeutig identifiziert werden 
+  [&#0252;ber SCHEME], damit keine Fehlinterpretationen auftreten. N.B.: Beim 4. Dublin  Core Workshop 
+  (DC) wurde entschieden, dieses Element etwas offener, jedoch noch stark restriktiv zu definieren, 
+  und  zwar in einer Unterteilung von zumindest DC.DATE. CREATION (Datum der Herstellung bzw. 
+  erstmaligen Ver&#0246;ffentlichung im Netz) und DC.DATE.LASTMODIFIED (Datum der letzten �nderung). 
+  Eine DC4-Arbeitsgruppe pr&#0252;ft z. Z., ob weitere Unterteilungen zu empfehlen sind. </rdfs:comment>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label xml:lang="de-DE">Ressourcenart</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">Die Art der Ressource, z.B. Homepage, Roman, Gedicht, Arbeitsbericht, technischer 
+  Bericht, Essay, W&#0246;rterbuch, wird hier eingetragen. Es wird erwartet, da&#0223; die Angabe f&#0252;r dieses 
+  Feld aus einer definierte Liste von Ressourcenarten entnommen wird. Eine vorl&#0228;ufige Liste solcher 
+  Ressourcenarten ist unter der URL http://www.roads.lut.ac.uk/Metadata/DC-ObjectTypes.htmlzu finden.  
+  N.B.: Die offizielle Liste von zul&#0228;ssigen Angaben zum &quot;TYPE&quot; wird noch in einer in 
+  Canberra konstituierten Arbeitsgruppe zusammengestellt, und zwar auch in Hinblick auf bestehende 
+  Formschlagwort-Normdateien. Sobald diese zur Verf&#0252;gung steht, wird auf sie in der Web-Seite f&#0252;r 
+  die deutsche &#0220;bersetzung hingewiesen.</rdfs:comment>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label xml:lang="de-DE">Format</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">Hier wird das datentechnische Format der Ressource eingetragen, z.B. Text/HTML, 
+  ASCII, Postscript-Datei, ausf&#0252;hrbare Anwendung, JPEG-Bilddatei etc. Die Angabe in diesem Feld 
+  gibt die erforderlichen Informationen, die Menschen oder Maschinen erm&#0246;glichen, &#0252;ber die 
+  Verarbeitungsm&#0246;glichkeiten der kodierten Daten zu entscheiden (z.B. welche Hard- und Software 
+  ben&#0246;tigt werden, um diese Ressource anzuzeigen bzw. auszuf&#0252;hren). �hnlich wie bei der 
+  Ressourcensart (TYPE) solle die Angabe in diesem Feld (FORMAT) aus festdefinierten Listen, 
+  wie die der angemeldeten Internet Media Types (MIME Types) entnommen werden. Grunds&#0228;tzlich 
+  k&#0246;nnen Formate auch physische Medieneinheiten wie B&#0252;cher, Zeitschriften oder andere 
+  nichtelektronische Medien mit einschlie&#0223;en.</rdfs:comment>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label xml:lang="de-DE">Ressourcen-Identifikation</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">Hier wird eine Zeichenkette oder Zahl eingetragen, die diese Ressource eindeutig 
+  identifiziert. Beispiele f&#0252;r vernetzte Ressourcen sind URLs und URNs (wo verwendet). Andere 
+  weltweit eindeutige Identifikationen, wie die International Standard Book Number (ISBN) oder 
+  andere formale Namen w&#0228;ren weitere m&#0246;gliche Bezeichnungen, die in dieses Element eingetragen 
+  werden k&#0246;nnen.</rdfs:comment>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label xml:lang="de-DE">Sprache</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">Hier werden die Sprache(n) des intellektuellen Inhalts dieser Ressource vermerkt. 
+  Der Inhalt dieses Felds sollte m&#0246;glichst mit den dreistelligen Z39.53-Sprachcodes &#0252;bereinstimmen. 
+  (Siehe: http://www.sil.org/sgml/nisoLang3-1994.html)</rdfs:comment>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label xml:lang="de-DE">Beziehung zu anderen Ressourcen</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">Die Angabe in diesem Feld erm&#0246;glicht es, Verbindungen unter verschiedenen 
+  Ressourcen darzustellen, die einen formalen Bezug zu anderen Ressourcen haben, aber als 
+  eigenst&#0228;ndige Ressourcen existieren. Beispiele sind Bilder in einem Dokument, Kapitel eines 
+  Buches oder Einzelst&#0252;cke einer Sammlung. Eine formale Spezifizierung (Referenzliste) f&#0252;r 
+  dieses Element ist in Arbeit. Benutzer und Entwickler sollten dieses Feld noch als experimentell 
+  betrachten.</rdfs:comment>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label xml:lang="de-DE">Quelle</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">In diesem Element wird - falls n&#0246;tig - das gedruckte oder elektronische Werk, 
+  aus dem diese Ressource stammt, eingetragen. Zum Beispiel, bei einer HTML-Datei eines Sonetts 
+  von Shakespeare k&#0246;nnte hier die gedruckte Version der Sonetts als Quelle angeben werden, die 
+  als Vorlage f&#0252;r die Erstellung der HMTL-Datei benutzt wurde.</rdfs:comment>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label xml:lang="de-DE">R&#0228;umliche und zeitliche Ma&#0223;angaben</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">Hier werden Angaben zur r&#0228;umlichen Bestimmung (z.B. geographische Koordinaten) 
+  und zeitlichen G&#0252;ltigkeit eingetragen, die die Ressource charakterisieren. Formale 
+  Spezifizierungen f&#0252;r COVERAGE werden z.Zt. erarbeitet. Benutzer und Entwickler sollen 
+  dieses Element noch als experimentell betrachten.</rdfs:comment>
+
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label xml:lang="de-DE">Rechtliche Bedingungen</rdfs:label>
+  <rdfs:comment xml:lang="de-DE">Vorgesehen f&#0252;r den Inhalt dieses Elements ist ein Link (URL oder andere 
+  passende URI soweit zutreffend) zu einem Urhebervermerk, ein &quot;Rights-Management&quot;-Vermerk 
+ &#0252;ber die rechtlichen Bedingungen oder ggf. zu einem Server, der solche Informationen dynamisch erzeugt. 
+  Die Angaben in diesem Feld erm&#0246;glichen es Informationsanbietern, die Verbindung von Bezugs- und 
+  Benutzungsbedingungen sowie rechtlichen und abrechnungsbedingten Voraussetzungen oder 
+  Urhebervermerken mit einer entsprechenden Ressource oder einer Sammlung von Ressourcen 
+  herzustellen. Nutzer dieses Feldes sollten vermeiden, Schlu&#0223;folgerungen jeglicher Art zu ziehen, 
+  wenn dieses Feld leer oder nicht vorhanden ist.</rdfs:comment>
+
+</rdf:Property>
+
+</rdf:RDF>

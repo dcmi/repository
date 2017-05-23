@@ -1,0 +1,1004 @@
+<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<!-- <base href="http://dublincore.org/" /> -->
+<meta name="generator" content="HTML Tidy, see www.w3.org">
+<title>Element Refinement in Dublin Core Metadata</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="index_files/default.css" type="text/css">
+<link rel="meta" href="http://www.ukoln.ac.uk/metadata/dcmi/dc-elem-refine/2004-10-01/index.shtml.rdf">
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<meta name="dc.title" content="Element Refinement in Dublin Core Metadata" lang="en">
+<meta name="dc.creator" content="Pete Johnston">
+<meta name="dcterms.issued" scheme="dcterms.W3CDTF" content="2004-10-01">
+<meta name="dcterms.abstract" content="This document describes the concept of 'element refinement' as used in Dublin Core metadata. It seeks to explain the consequences of stating that one property 'refines' a second property. The purpose is to clarify that in some cases it may be appropriate and useful to make such an assertion and in other cases such an assertion may result in contradictions.">
+<meta name="dc.format" scheme="dcterms.IMT" content="text/html">
+<meta name="dc.type" scheme="dcterms.DCMIType" content="Text">
+
+
+</head>
+<body>
+
+<!--
+<div class="menu">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"
+bgcolor="#FF6600" summary="navigation header">
+<tr>
+<td width="70"><a href="/index.shtml"><img src=
+"/images/header/logo_sm.gif" width="150" height="70" alt=
+"Dublin Core Metadata Initiative logo" border="0" /></a></td>
+<td width="100%" height="70" align="right" valign="top">
+<table width="328" cellspacing="0" cellpadding="0" border="0"
+summary="navigation links">
+<tr>
+<td width="82" height="30"><a href="/about/"><img src=
+"/images/menu/about.gif" width="82" height="30" alt=
+"About the Initiative" border="0" /></a></td>
+<td width="82" height="30"><a href="/documents/"><img src=
+"/images/menu/documents.gif" width="82" height="30" alt="Documents"
+border="0" /></a></td>
+<td width="82" height="30"><a href="/groups/"><img src=
+"/images/menu/groups.gif" width="82" height="30" alt=
+"Working Groups" border="0" /></a></td>
+<td width="82" height="30"><a href="/resources/"><img src=
+"/images/menu/resources.gif" width="82" height="30" alt="Resources"
+border="0" /></a></td>
+</tr>
+
+<tr>
+<td width="82" height="30"><a href="/news/"><img src=
+"/images/menu/news.gif" width="82" height="30" alt=
+"Dublin Core Metadata Initiative News" border="0" /></a></td>
+<td width="82" height="30"><a href="/tools/"><img src=
+"/images/menu/tools.gif" width="82" height="30" alt=
+"Tools and Software" border="0" /></a></td>
+<td width="82" height="30"><a href="/meetings/"><img src=
+"/images/menu/meetings.gif" width="82" height="30" alt="Meetings"
+border="0" /></a></td>
+<td width="82" height="30"><a href="/projects/"><img src=
+"/images/menu/projects.gif" width="82" height="30" alt="Projects"
+border="0" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" height="30"><a href="/index.shtml"><img src=
+"/images/header/dcmi_sm.gif" width="329" height="30" alt=
+"Dublin Core Metadata Initiative" border="0" /></a></td>
+</tr>
+</table>
+</div>
+
+<div class="search">
+<table width="100%" cellspacing="0" cellpadding="6" border="0"
+summary="bread crumbs">
+<tr>
+<td class="crumb"><a href="http://dublincore.org/">Home</a>
+&gt;&nbsp;<a href="http://dublincore.org/documents/">
+Documents</a>&nbsp;&gt;&nbsp;</td>
+<td align="right">
+<form action="http://dublincore.org/search/searchServlet" method=
+"post"><input type="hidden" name="predicate" value="all" /> <input
+type="hidden" name="matchType" value="exact phrase" /> <input type=
+"hidden" name="searchCase" value="N" />
+
+<table cellspacing="0" cellpadding="2" border="0" summary=
+"keyword search">
+<tr>
+<td nowrap="nowrap"><input type="text" value="Enter keyword" name=
+"searchTerm" size="20" onfocus=
+"if(this.value=='Enter keyword')this.value='';" onblur=
+"if(this.value=='')this.value='Enter keyword';" /> &nbsp;</td>
+<td><input type="submit" name="submit" value="Search" /></td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+</div>
+
+<hr noshade="noshade" size="note1" title=
+"separator from menu and keyword search" />
+-->
+
+<table summary="A layout table with descriptive information about this document." border="0" width="100%">
+<tbody><tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Title:</strong></div>
+</td>
+<td width="76%">
+<div align="left">
+<h2>Element Refinement in Dublin Core Metadata</h2>
+</div>
+</td>
+</tr>
+
+<tr>
+<td height="22" valign="top" width="24%">
+<div align="left"><strong>Creator:</strong></div>
+</td>
+<td height="22" width="76%">
+<div align="left">Pete Johnston</div>
+</td>
+</tr>
+
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Date Issued:</strong></div>
+</td>
+<td width="76%">
+<div align="left">2004-10-01</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Identifier:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-elem-refine/2004-10-01/">
+http://www.ukoln.ac.uk/metadata/dcmi/dcmi-elem-refine/2004-10-01/</a></div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Replaces:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Is Replaced By:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Latest Version:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-elem-refine/">
+http://www.ukoln.ac.uk/metadata/dcmi/dc-elem-refine/</a></div>
+</td>
+</tr>
+
+<!--
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Status of Document:</strong></div>
+</td>
+<td width="76%">
+<div align="left">This is a DCMI <a href=
+"/documents/#workingdrafts">Working Draft</a>.</div>
+</td>
+</tr>
+
+-->
+<tr>
+<td valign="top" width="24%"><strong>Description of
+Document:</strong></td>
+<td width="76%">This document describes the concept of 'element 
+refinement' as used in Dublin Core metadata. It seeks to explain the 
+consequences of stating that one property 'refines' a second property. 
+The purpose is to clarify that in some cases it may be appropriate and 
+useful to make such an assertion and in other cases such an assertion 
+may result in contradictions.</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+<hr>
+</td>
+</tr>
+</tbody></table>
+
+<div>
+
+<h3>Elements, Properties and Statements</h3>
+
+<p>Dublin Core elements and element refinements are properties. A 
+property is "a specific aspect, characteristic, attribute, or relation 
+used to describe resources". According to the <em>DCMI Abstract Model</em>,
+ all these aspects, characteristics, attributes and relations" involve 
+relationships between the subject resource and a second resource, a 
+value [<a href="#DCMIAM">DCMIAM</a>]. This means that a property is a type of relationship between two things.</p>
+
+<p>A property is itself a resource, a "conceptual" resource. When DCMI 
+adds an element or element refinement to one of its vocabularies (DCMI 
+Namespaces), it creates a human-readable description of that 
+relationship type, that concept, and it assigns a globally unique 
+identifier to the property, in the form of a URI reference.</p>
+
+<p>The scope of URI references is global: the URI reference denotes that
+ same relationship type, that same concept, wherever it is cited. 
+Further, the persistence policies described in the <em>Namespace Policy for the Dublin Core</em> guarantee that that URI reference will always denote that same relationship type [<a href="#DCMINS">DCMINS</a>].
+ So, the assignment of a URIref means that other parties can use this 
+unique identifier to refer to that relationship type, and the 
+combination of its global uniqueness and persistence mean that the 
+reference is unambiguous.</p>
+
+<p>The URIref assigned to the property can be used in statements in Dublin Core metadata descriptions. According to the <em>DCMI Abstract Model</em>,
+ a DC metadata description is a set of one or more statements about a 
+single resource, and a statement is a two-part construct consisting of a
+ reference to a property and a reference to a second resource, a value [<a href="#DCMIAM">DCMIAM</a>].
+ The reference to the subject of the description is made by a URIref 
+(the "resource URI"). The reference to a property also takes the form of
+ a URIref (the "property URI"). The reference to the value may take 
+various forms but for the purposes of this discussion, the examples show
+ the simplest cases where that reference takes the form of a URIref (a 
+"value URI") or a string (a "value string").</p>
+
+<p>Each statement asserts that a relationship of the type indicated by 
+the property exists between two resources: the resource that is the 
+subject of the description, and the value (see note [<a href="#note1">1</a>]:</p>
+
+<table align="center" border="note1" cellpadding="note1" width="85%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URIref
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>ex:book1</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="50%">
+Property URIref
+</th>
+<th align="center" width="50%">
+Value URIref
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>dc:subject</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>ex:SemanticWeb</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<p>A property is a resource and may itself be described by a DC metadata
+ description, in which case the URIref of the property appears as the 
+"resource URI", and the property itself is part of a relationship whose 
+type is denoted by another property URI:</p>
+
+
+<table align="center" border="note1" cellpadding="note1" width="85%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URIref
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>dc:subject</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="50%">
+Property URIref
+</th>
+<th align="center" width="50%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>dc:description</code></p>
+</td>
+<td align="center" valign="top">
+<p align="left"><code>"Description may include but is not limited to: an
+ abstract, table of contents, reference to a graphical representation of
+ content or a free-text account of the content."</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+
+<h3>Element Refinement</h3>
+
+<p>In addition to providing a definition and identifier for each of the 
+properties it declares, DCMI also describes relationships between these 
+properties. In particular it declares that some properties "refine" 
+other properties. In the terms of the <em>Grammatical Principles</em> [<a href="#ref3">3</a>]</p>
+
+<blockquote>
+<p>An Element Refinement is a property ... which shares the meaning of a particular DCMI Element but with narrower semantics.</p>
+</blockquote>
+
+<p>So for example:</p>
+
+<blockquote>
+<p><code>dcterms:created rdfs:subpropertyOf dc:date</code></p>
+</blockquote>
+
+<p>The machine-processable schemas published by DCMI include 
+descriptions of all DC elements and element refinements. When one 
+property refines another, a statement is included in the description of 
+the element refinement, in which the property URIref is the URIref of a 
+property from the RDF Vocabulary Description Language (RDF Schema) [<a href="#RDFS">RDFS</a>], <code>rdfs:subPropertyOf</code>.
+ This states that a relationship exists between the two Dublin Core 
+properties, and the nature of that relationship is defined by the RDFS 
+concept <code>rdfs:subPropertyOf</code>. The RDFS specification explains that this has a very specific consequence:</p>
+
+<blockquote>
+<p>The property rdfs:subPropertyOf is an instance of rdf:Property that 
+is used to state that all resources related by one property are also 
+related by another.</p>
+</blockquote>
+
+<p>So if it is asserted that</p>
+
+<blockquote>
+<p><code>dcterms:created rdfs:subpropertyOf dc:date</code></p>
+</blockquote>
+
+<p>and a statement is made using <code>dcterms:created</code> as a property URIref, e.g.</p>
+
+
+<table align="center" border="note1" cellpadding="note1" width="85%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URIref
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>ex:book1</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="50%">
+Property URIref
+</th>
+<th align="center" width="50%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>dcterms:created</code></p>
+</td>
+<td align="center" valign="top">
+<p align="left"><code>"1973-05-05"</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+
+<p>then it is also true that</p>
+
+<table align="center" border="note1" cellpadding="note1" width="85%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URIref
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>ex:book1</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="50%">
+Property URIref
+</th>
+<th align="center" width="50%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>dc:date</code></p>
+</td>
+<td align="center" valign="top">
+<p align="left"><code>"1973-05-05"</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+
+<p>This outcome holds for <strong>all</strong> statements made using of 
+the URIref of the element refinement as a property URIref: whenever two 
+resources are related by the element refinement, they are also related 
+by the element. So an assertion that one element refines another - that 
+an <code>rdfs:subPropertyOf</code> relationship exists between the 
+properties - should be made only when the definitions of the properties 
+are such that that is a desirable outcome.</p>
+
+<h3>"To refine or not to refine"</h3>
+
+<p>If there is just one case where the inferred statement would be 
+inappropriate, then the   refinement/subPropertyOf relationship should 
+not be asserted.</p>
+
+<p>Consider, for example, the case of the properties <code>marcrel:OWN</code> ("The person or organization that currently owns an item or collection") and <code>dc:contributor</code>
+ ("An entity responsible for making contributions to the content of the 
+resource"). Both properties describe relationship types that relate a 
+resource to an "entity", an agent capable of some action.</p>
+
+<p>And for a specific resource, it may well be true that a single entity
+ is both an owner of and a contributor to that resource. But that does 
+not apply in <strong>all</strong> cases. i.e. there are some resources 
+where the entity who is the owner has not made a contribution to the 
+content of the resource: not all resource owners are resource 
+contributors. If <code>marcrel:owner</code> was described as a refinement of <code>dc:contributor</code>, then that would mean that <strong>every</strong> statement using <code>marcrel:OWN</code> as a property URIref would result in a statement using <code>dc:contributor</code> as a property URIref, which would not be appropriate.</p>
+
+<p>Note that the <strong>absence</strong> of a subproperty assertion in no way limits the capacity of the metadata author to say that, <strong>for any given resource</strong>, the same entity is both the owner and the contributor. The metadata author simply makes the two statements separately:</p>
+
+<table align="center" border="note1" cellpadding="note1" width="85%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URIref
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>ex:book1</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="50%">
+Property URIref
+</th>
+<th align="center" width="50%">
+Value URIref
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>dc:contributor</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>ex:agent1</code></p>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>marcrel:OWN</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>ex:agent1</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+
+<p>A second example: <code>dc:date</code> is defined as "A date associated with an event in the life cycle of the resource". If an implementer uses a property <code>exterms:updatingFrequency</code> to indicate "The periodicity of modifications to the resource", and describes that property as an element refinement of <code>dc:date</code>, then statements such as the following might be inferred:</p>
+
+<table align="center" border="note1" cellpadding="note1" width="85%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URIref
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>ex:document1</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="50%">
+Property URIref
+</th>
+<th align="center" width="50%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>dc:date</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>"Monthly"</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<p>Resources which are appropriate values for statements using <code>exterms:updatingFrequency</code> are not appropriate values for statements using <code>dc:date</code>, so it is <strong>not</strong> appropriate to describe that property as an element refinement of <code>dc:date</code>.</p>
+
+<p>Similarly, conisder <code>dc:rights</code>, defined as "Information about rights held in and over the resource". Suppose an implementer uses a property <code>exterms:privacyIndicator</code>
+ to indicate whether a document should be publicly available or not, and
+ specifies that Boolean (yes/no) values should be used.  If that 
+property is described as an element refinement of <code>dc:rights</code>, that would result in statements such as the following being inferred:</p>
+
+<table align="center" border="note1" cellpadding="note1" width="85%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URIref
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>ex:document1</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="50%">
+Property URIref
+</th>
+<th align="center" width="50%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>dc:rights</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>"Yes"</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<p>There may be an argument that strictly speaking a Boolean value does not contradict the definition of <code>dc:rights</code>,
+ but it would be difficult to consider the value "Yes" to be 
+"information about rights held in and over the resource". So, again, it 
+is <strong>not</strong> appropriate to describe <code>exterms:privacyIndicator</code> as an element refinement of <code>dc:rights</code>, because of the statements that would be inferred.</p>
+
+
+<h3>"How many?" : Multiple Refinement Relationships</h3>
+
+<p>In the declarations that DCMI makes, any given property is the subject of only one <code>rdfs:subPropertyOf</code>
+ relationship: a DC element refinement refines exactly one element. In 
+principle, multiple assertions might be made, with the result that when 
+the propert is used in a statement <strong>multiple</strong> additional relationships can be inferred to exist.</p>
+
+<p>So if it is asserted that</p>
+
+<blockquote>
+<p><code>exterms:bookDistributor rdfs:subpropertyOf exterms:distributor</code></p>
+</blockquote>
+
+<p>and also</p>
+
+<blockquote>
+<p><code>exterms:bookDistributor rdfs:subpropertyOf dc:publisher</code></p>
+</blockquote>
+
+
+<p>and a statement is made using <code>exterms:bookDistributor</code> as a property URIref, e.g.</p>
+
+<table align="center" border="note1" cellpadding="note1" width="85%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URIref
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>ex:book1</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="50%">
+Property URIref
+</th>
+<th align="center" width="50%">
+Value URIref
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>exterms:bookDistributor</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>ex:Company1</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+
+<p>then the following <strong>two</strong> statements are also true:</p>
+
+<table align="center" border="note1" cellpadding="note1" width="85%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URIref
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>ex:book1</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="50%">
+Property URIref
+</th>
+<th align="center" width="50%">
+Value URIref
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>exterms:distributor</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>ex:Company1</code></p>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>dc:publisher</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>ex:Company1</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<p>Note that it is not a question of choosing one option over the other, or two applications behaving in different ways: <strong>both</strong> statements are implied in <strong>all</strong>
+ cases, and as long as the two applications have "knowledge" of the two 
+subproperty relations, they should both generate the same inferences.</p>
+
+<h3>"Who says so?": DCMI Namespaces and other Metadata Vocabularies</h3>
+
+<p>The capacity to assert the existence of <code>rdfs:subPropertyOf</code> relationships involving properties from the DCMI Namespaces is not limited to DCMI.</p>
+
+<p>The publisher of another vocabulary may wish to declare that a 
+property in that vocabulary is a subproperty of a property from the DCMI
+ Namespaces, or even that a property from the DCMI Namespaces is a 
+subproperty of a property from their vocabulary.</p>
+
+<p>The MARC Relator Codes [<a href="#MARCREL">MARCREL</a>] provide a set
+ of properties that can be used to assert relationships between 
+resources and agents. It is useful that, where appropriate, subproperty 
+relations between these properties and properties from the DCMI 
+Namespaces are declared. e.g. </p>
+
+<blockquote>
+<p><code>marcrel:ARR rdfs:subpropertyOf dc:contributor</code></p>
+</blockquote>
+
+<p>(<code>marcrel:ARR</code> denotes a property which links a musical composition and its arranger.</p>
+
+<p>With such information available, a Dublin Core application that encounters</p>
+
+<table align="center" border="note1" cellpadding="note1" width="85%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URIref
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>ex:music1</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="50%">
+Property URIref
+</th>
+<th align="center" width="50%">
+Value URIref
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>marcrel:ARR</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>ex:person1</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+
+<p>can derive the statement</p>
+
+<table align="center" border="note1" cellpadding="note1" width="85%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URIref
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>ex:music1</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="50%">
+Property URIref
+</th>
+<th align="center" width="50%">
+Value URIref
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>dc:contributor</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>ex:person1</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+
+<p>This means that an application that has no "prior knowledge" of <code>marcrel:ARR</code>, but which does derive the appropriate inferences from the assertion of the <code>rdfs:subPropertyOf</code> relationship, can make use of the <code>dc:contributor&gt;</code> statement.</p>
+
+<p>Finally, it should be noted that a subproperty assertion may be made 
+by a third party who is not the owner/publisher of either of the 
+properties involved. Suppose a metadata vocabulary has been constructed 
+by a designer with no knowledge of the existence of Dublin Core. In 
+their descriptions of their properties they have made no references to 
+the notion that their property <code>exterms:songwriter</code> is related to <code>dc:creator</code>.
+ If an implementer is working with both that metadata vocabulary and 
+with the DCMI vocabularies, it may well be valuable for them to make a 
+subproperty assertion:</p>
+
+<blockquote>
+<p><code>exterms:songwriter rdfs:subpropertyOf dc:creator</code></p>
+</blockquote>
+
+<p>so that, when their Dublin Core application encounters</p>
+
+<table align="center" border="note1" cellpadding="note1" width="85%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URIref
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>ex:music1</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="50%">
+Property URIref
+</th>
+<th align="center" width="50%">
+Value URIref
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>exterms:songwriter</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>ex:person1</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+
+<p>that application can derive the statement</p>
+
+<table align="center" border="note1" cellpadding="note1" width="85%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URIref
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="40%">
+<p><code>ex:music1</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="50%">
+Property URIref
+</th>
+<th align="center" width="50%">
+Value URIref
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<p><code>dc:creator</code></p>
+</td>
+<td align="center" valign="top">
+<p><code>ex:person1</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+
+<h3>Summary</h3>
+
+<ul>
+<li>A declaration that one property refines, or is a subproperty of, a second property is an assertion of a <strong>specific type of relationship</strong> between the two properties.</li>
+<li>The meaning of the refinement/subproperty relationship is defined by
+ the RDF Vocabulary Description Language (RDF Schema): the existence of a
+ subproperty assertion states that <strong>all resources related by one property are also related by the other property</strong>.</li>
+<li>Refinement/subproperty relations may be asserted to exist between <strong>any</strong> two properties</li>
+<li>The existence of subproperty assertions enables an application to infer <strong>additional statements</strong>; this can be useful to an application encountering an "unknown" property</li>
+<li>A subproperty assertion is <strong>global</strong>: it applies to <strong>all</strong>
+ occurrences of the property URIref in a statement; care should be taken
+ not to assert subproperty relations where the inferences that may be 
+drawn are incorrect or contradictory. </li>
+<li>A subproperty assertion is <strong>not a requirement</strong> for using a property from another vocabulary in Dublin Core metadata descriptions.</li>
+<li>Subproperty assertions may be made by the owner(s) of the properties or by a third party.</li>
+<!-- <li>Where <strong>no</strong> subproperty relation is asserted, it is still possible to use two properties as property URIrefs in statements about a resource to assert that that resource has two different types of relation with a second resource.</li> -->
+</ul>
+
+
+<div>
+<a id="secX" name="secX"></a>
+<h3>Notes</h3>
+
+<a id="note1" name="note1"></a>
+<p><strong>[1]</strong> For the sake of brevity, in the examples, URI 
+references are represented by Qualified Names. Prefixes are assumed to 
+be associated with Namespace Names as follows:</p>
+
+<ul>
+<li><strong>dc:</strong> <code>http://purl.org/dc/elements/1.1/</code></li>
+<li><strong>dcterms:</strong> <code>http://purl.org/dc/terms/</code></li>
+<li><strong>dcmitype:</strong> <code>http://purl.org/dc/dcmitype/</code></li>
+<li><strong>marcrel:</strong> <code>http://www.loc.gov/marc.relators/</code></li>
+<li><strong>rdf:</strong> <code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></li>
+<li><strong>rdfs:</strong> <code>http://www.w3.org/2000/01/rdf-schema#</code></li>
+<li><strong>exterms:</strong> <code>http://example.org/terms/</code></li>
+<li><strong>ex:</strong> <code>http://example.org/things/</code></li>
+</ul>
+
+</div>
+
+<div>
+<a id="secY" name="secY"></a>
+<h3>References</h3>
+
+<a id="DCMIAM" name="DCMIAM"></a>
+<p><strong>[DCMIAM]</strong><br>DCMI Abstract Model<br><a href="http://www.ukoln.ac.uk/metadata/dcmi/abstract-model/">http://www.ukoln.ac.uk/metadata/dcmi/abstract-model/</a></p>
+
+<a id="DCMINS" name="DCMINS"></a>
+<p><strong>[DCMINS]</strong><br>Namespace Policy for the Dublin Core Metadata Initiative (DCMI)<br><a href="http://dublincore.org/documents/dcmi-namespace/">http://dublincore.org/documents/dcmi-namespace/</a></p>
+
+<a id="MARCREL" name="MARCREL"></a>
+<p><strong>[MARCREL]</strong><br>MARC Relator Codes<br><a href="http://lcweb2.loc.gov:8081/cocoon/relators/relators.xml">http://lcweb2.loc.gov:8081/cocoon/relators/relators.xml</a></p>
+
+<a id="RDFS" name="RDFS"></a>
+<p><strong>[RDFS]</strong><br>RDF Vocabulary Description Language 1.0 (RDF Schema)<br><a href="http://www.w3.org/TR/rdf-schema/">http://www.w3.org/TR/rdf-schema/</a></p>
+
+
+
+</div>
+
+</div>
+
+
+<hr title="separator from page content" size="note1">
+<p><a href="http://validator.w3.org/check/referer"><img src="index_files/valid-xhtml10.gif" alt="Valid XHTML 1.0!" border="0" height="31" width="88"></a><a href="http://jigsaw.w3.org/css-validator"><img src="index_files/vcss.gif" alt="Valid CSS!" border="0" height="31" width="88"></a></p>
+
+<!--
+<div class="metadata">
+<p>Metadata associated with this resource: <a href=
+"http://dublincore.org/documents/dc-elem-refine/index.shtml.rdf">
+http://dublincore.org/documents/dc-elem-refine/index.shtml.rdf</a></p>
+</div>
+-->
+
+<!--
+
+<div class="footer">
+<p><a href="/about/copyright/#copyright">Copyright</a> &copy;
+1995-2004 <acronym title="Dublin Core Metadata Initiative"><a href=
+"http://dublincore.org/">DCMI</a></acronym> All Rights Reserved.
+DCMI <a href="/about/copyright/#liability">liability</a>, <a href=
+"/about/copyright/#trademark">trademark/service mark</a>, <a href=
+"/about/copyright/#documentnotice">document use</a> and <a href=
+"/about/software/">software licensing</a> rules apply. Your
+interactions with this site are in accordance with our <a href=
+"/about/privacy/">privacy</a> statements. Please feel free to <a
+href="/about/contact/">contact us</a> for any questions, comments
+or media inquiries.</p>
+</div>
+
+-->
+
+
+
+
+</body></html>

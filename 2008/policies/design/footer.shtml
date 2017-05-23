@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  
+<head>
+    
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    
+<title>DCMI Website Standards and Policy Manual - Footer</title>
+    
+<meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    
+<link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+ 
+</script>
+  
+</head>
+
+  
+<body>
+    
+<!--#include virtual="/ssi/policies/header.shtml" -->
+<table
+    summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content."
+     border="0" width="100%" cellspacing="0" cellpadding="5">
+      <tbody>
+        
+<tr valign="top">
+          
+<td bgcolor="#EEEEEE" width="150">
+            
+<!--#include virtual="/ssi/policies/design.shtml" -->
+</td>
+<td>
+<h1>Footer</h1>
+<p>The footer appears at the bottom on every page of the Dublin Core Metadata Initiative website and gives the user information about the page's XHTML&nbsp;and CSS validation, a link to RDF metadata, copyright and privacy statements, and contact information.</p>
+<p>The footer should be used on ALL pages resident on dublincore.org. The footer code should not be changed in any way. The footer needs to appear at the bottom of the page and the code should be right before the closing BODY and closing HTML tags in each document.</p>
+<p>Use the following footer code for all pages:</p>
+<blockquote>
+			
+<p><code>&lt;!--#include virtual=&quot;/ssi/footer.shtml&quot;--&gt;</code></p>
+</blockquote>
+<h2>Footer Elements</h2>
+<h3>Horizontal rule</h3>
+<p>A horizontal rule separates the footer from the page content.</p>
+<h3>XHTML Validation</h3>
+<p>A badge that is linked to the W3C's Validation Service. Clicking on the link checks the HTML document for conformance to W3C HTML and XHTML recommendations and other HTML standards.</p>
+<h3>CSS Validation</h3>
+<p>A badge that is linked to the W3C's CSS Validation Service. Clicking on the link checks the HTML document for conformance to W3C for Cascading Style Sheets, level 2 standards.</p>
+<h3>Associated Metadata</h3>
+<p>A link to the RDF metadata associated with the currently displayed document.</p>
+<h3>Copyright and Privacy Statements</h3>
+<p>Information linking to DCMI Intellectual Property Notice and Legal Disclaimers.</p>
+<h3>Contact Information</h3>
+<p>Information linking to the DCMI Contact Information page.</p>
+</td>
+</tr>
+      </tbody>
+    
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

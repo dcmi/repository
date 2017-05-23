@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/workshops/dc1conference/report.htm">
+   <dc:title>Dublin Core Metadata Initiative - OCLC/NCSA Metadata Workshop Report</dc:title>
+   <dc:description>The March 1995 Metadata Workshop, sponsored by the Online Computer Library Center (OCLC) and the National Center for Supercomputing Applications (NCSA), convened 52 selected researchers and professional from librarianship, computer science, text encoding and related areas to advance the state of the art in the development of resource description (or metadata) records for networked electronic information objects</dc:description>
+   <dc:date>1995-04-01</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Stuart Weibel</dc:contributor>
+   <dc:contributor>Jean Godby</dc:contributor>
+   <dc:contributor>Eric Miller</dc:contributor>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

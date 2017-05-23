@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML TITLE="An advisory description of the element." LANG="en">
+<HEAD TITLE="An advisory description of the element.">
+<TITLE>Untitled</TITLE>
+<LINK TITLE="Text-only version" REL="alternate" HREF="/text_only" MEDIA="aural, braille, tty">
+</HEAD>
+<BODY>
+<P><A HREF="/alternate/placebo.html">Alternative link to graphical or text-only version of document.</A></P>
+<H1>[Priority 1] A Web content developer must satisfy this checkpoint.</H1>
+<P><STRONG>IMAGES:</STRONG>Provide a text equivalent for every non-text element using ALT and LONGDESC.</P>
+<P><EM>Code example:</EM></P>
+<CODE>&lt;IMG SRC=&quot;/images/placebo.gif&quot; ALT=&quot;Brief description of what the image is.&quot; LONGDESC=&quot;Specifies a URL of a document that contains a longer description of the element that what the content of the ALT or TITLE attributes reveal.&quot; WIDTH=&quot;32&quot; HEIGHT=&quot;32&quot; BORDER=&quot;0&quot;&gt;</CODE>
+<HR>
+<P><STRONG>LANG:</STRONG>Use the LANG attribute to clearly identify changes in the natural language of a document's text and any text equivalents.</P>
+<P><EM>Code examples:</EM></P>
+<CODE>&lt;STRONG LANG=&quot;de&quot;&gt;German&lt;/STRONG&gt;</CODE>
+<P><EM>Display examples:</EM></P>
+<P><STRONG LANG="de">German</STRONG></P>
+<HR>
+<P><STRONG>TABLE:</STRONG>For data tables, identify row and column headers. In HTML 3.2 browsers, the rows of a TFOOT element will appear before the table body.</P>
+<P><EM>Code examples:</EM></P>
+<CODE>&lt;TABLE COLS=&quot;2&quot; CELLPADDING=&quot;2&quot; CELLSPACING=&quot;2&quot; BORDER=&quot;1&quot; SUMMARY=&quot;A textual description of the table.&quot; WIDTH=&quot;50%&quot;&gt;</CODE><BR><CODE>&lt;CAPTION&gt;Popular HTML Editors&lt;/CAPTION&gt;</CODE><BR><CODE>&lt;THEAD&gt;</CODE><BR><CODE>&lt;TR&gt;</CODE><BR><CODE>&lt;TH ID=&quot;header1&quot;&gt;Name:&lt;/TH&gt;</CODE><BR>
+<CODE>&lt;TH ID=&quot;header2&quot;&gt;Description:&lt;/TH&gt;</CODE><BR>
+<CODE>&lt;/TR&gt;</CODE><BR><CODE>&lt;/THEAD&gt;</CODE><BR><CODE>&lt;TBODY&gt;</CODE><BR><CODE>&lt;TR&gt;</CODE><BR><CODE>&lt;TD HEADERS=&quot;header1&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Bare Bones BBEdit&lt;/TD&gt;</CODE><BR><CODE>&lt;TD HEADERS=&quot;header2&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Text HTML Editor&lt;/TD&gt;</CODE><BR><CODE>&lt;/TR&gt;</CODE><BR><CODE>&lt;TR&gt;</CODE><BR><CODE>&lt;TD HEADERS=&quot;header1&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Macromedia Dreamweaver&lt;/TD&gt;</CODE><BR><CODE>&lt;TD HEADERS=&quot;header2&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;WYSIWYG HTML Editor&lt;/TD&gt;</CODE><BR><CODE>&lt;/TR&gt;</CODE><BR><CODE>&lt;TR&gt;</CODE><BR><CODE>&lt;TD HEADERS=&quot;header1&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;Adobe GoLive&lt;/TD&gt;</CODE><BR><CODE>&lt;TD HEADERS=&quot;header2&quot; ABBR=&quot;Provides an abbreviated string that describes the cell's content.&quot;&gt;WYSIWYG HTML Editor&lt;/TD&gt;</CODE><BR><CODE>&lt;/TR&gt;</CODE><BR><CODE>&lt;/TBODY&gt;</CODE><BR><CODE>&lt;/TABLE&gt;</CODE>
+<P><EM>Display examples:</EM></P>
+<TABLE COLS="2" CELLPADDING="2" CELLSPACING="2" BORDER="1" SUMMARY="A textual description of the table." WIDTH="50%">
+<CAPTION>Popular HTML Editors</CAPTION>
+<THEAD>
+<TR>
+<TH ID="header1">Name:</TH>
+<TH ID="header1">Description:</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Bare Bones BBEdit</TD>
+<TD HEADERS="header2" ABBR="Provides an abbreviated string that describes the cell's content.">Text HTML Editor</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Macromedia Dreamweaver</TD>
+<TD HEADERS="header2" ABBR="Provides an abbreviated string that describes the cell's content.">WYSIWYG HTML Editor</TD>
+</TR>
+<TR>
+<TD HEADERS="header1" ABBR="Provides an abbreviated string that describes the cell's content.">Adobe GoLive</TD>
+<TD HEADERS="header2" ABBR="Provides an abbreviated string that describes the cell's content.">WYSIWYG HTML Editor</TD>
+</TR>
+</TBODY>
+</TABLE>
+<HR>
+<H1>[Priority 2] A Web content developer should satisfy this checkpoint.</H1>
+<P><STRONG>HEADER ELEMENTS:</STRONG>Use header elements to convey document structure and use them according to specification.</P>
+<P><EM>Code examples:</EM></P>
+<CODE>&lt;H1&gt;Header 1&lt;/H1&gt;</CODE><BR><CODE>&lt;H2&gt;Header 2, subsection of Header 1&lt;/H2&gt;</CODE><BR><CODE>&lt;H3&gt;Header 3, subsection of Header 2&lt;/H3&gt;</CODE><BR><CODE>&lt;H4&gt;Header 4, subsection of Header 3&lt;/H4&gt;</CODE>
+<P><EM>Display examples:</EM></P>
+<H1>Header 1</H1>
+<H2>Header 2, subsection of Header 1</H2>
+<H3>Header 3, subsection of Header 2</H3>
+<H4>Header 4, subsection of Header 3</H4>
+<HR>
+<P><STRONG>BLOCKQUOTE:</STRONG>Intended to set off a long quote inside a document.<BR><STRONG>CITE:</STRONG>A URL pointing to an online source document from which the quotation is taken.</P>
+<P><EM>Code examples:</EM></P>
+<CODE>&lt;BLOCKQUOTE CITE=&quot;http://www.macromedia.com/&quot;&gt;What the Web can be.&lt;/BLOCKQUOTE&gt;</CODE>
+<P><EM>Display examples:</EM></P>
+<BLOCKQUOTE CITE="http://www.macromedia.com/">What the Web can be.</BLOCKQUOTE>
+<HR>
+<H1>[Priority 3] A Web content developer may address this checkpoint.</H1>
+<P><STRONG>ABBR:</STRONG>Provides an encapsulation and enumeration mechanism for abbreviations that appear in the body text.</P>
+<P><EM>Code examples:</EM></P>
+<CODE>&lt;ABBR TITLE=&quot;Ohio&quot;&gt;OH&lt;/ABBR&gt;</CODE><BR><CODE>&lt;ABBR LANG=&quot;de&quot; TITLE=&quot;und so weiter&quot;&gt;usw.&lt;/ABBR&gt;</CODE>
+<P><EM>Display examples:</EM></P>
+<ABBR TITLE="Ohio">OH</ABBR><BR>
+<ABBR LANG="de" TITLE="und so weiter">usw.</ABBR>
+<HR>
+<P><STRONG>ACRONOYM:</STRONG>Provides an encapsulation and enumeration mechanism for acronyms that appear in the body text.</P>
+<P><EM>Code examples:</EM></P>
+<CODE>&lt;ACRONYM TITLE=&quot;Dublin Core Metadata Initiative&quot;&gt;DCMI&lt;/ACRONYM&gt;</CODE>
+<P><EM>Display examples:</EM></P>
+<P>
+<ACRONYM TITLE="Dublin Core Metadata Initiative">DCMI</ACRONYM></P>
+<HR>
+<H1>[Priority Unknown]</H1>
+<FORM METHOD="POST">
+<FIELDSET>
+<LEGEND>Personal Information</LEGEND><BR>
+<LABEL FOR="FIRSTNAME">First name:</LABEL>
+<INPUT TYPE="TEXT" ID="FIRSTNAME" TABINDEX="1">
+<LABEL FOR="LASTNAME"><BR>
+Last name:</LABEL>
+<INPUT TYPE="TEXT" ID="LASTNAME" TABINDEX="2">
+</FIELDSET>
+<FIELDSET>
+<LEGEND><BR>Medical History<BR>
+</LEGEND><LABEL FOR="DOCTORNAME ">Doctor's name:</LABEL>
+<INPUT TYPE="TEXT" ID="DOCTORNAME" TABINDEX="3">
+<LABEL FOR="DOCTORADDRESS"><BR>Doctor's address:</LABEL>
+<INPUT TYPE="TEXT" ID="DOCTORADDRESS" TABINDEX="4">
+</FORM>
+</BODY>
+</HTML>

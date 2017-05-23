@@ -1,0 +1,20 @@
+
+    <!--#include virtual="tool-head.shtml" -->
+    <!--#include virtual="/ssi/header.shtml" -->
+    <h1>Mathematics Metadata Markup Editor</h1>
+    <table cellspacing="0" class="noborder">
+<tr><td>Identifier:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.mathematik.uni-osnabrueck.de/cgi-bin/MMM3.2.cgi">http://www.mathematik.uni-osnabrueck.de/cgi-bin/MMM3.2.cgi</a></td></tr>
+<tr><td>Description:&nbsp;&nbsp;&nbsp;</td><td>Online form to produce correct MetaData as easily as possible to improve the web-visibility of preprints and publications.</td></tr>
+<tr><td>Rights:&nbsp;&nbsp;&nbsp;</td><td>free online tool, rights hold by IWI Osnabr&uuml;ck e.V.</td></tr>
+<tr><td>Language:&nbsp;&nbsp;&nbsp;</td><td>eng (ISO 639-2)</td></tr>
+<tr><td>Creator:&nbsp;&nbsp;&nbsp;</td><td>Judith Pl&uuml;mer</td></tr>
+<tr><td>Publisher:&nbsp;&nbsp;&nbsp;</td><td>IWI Institute for Scientific Information</td></tr>
+<tr><td>Location:&nbsp;&nbsp;&nbsp;</td><td>Germany</td></tr>
+<tr><td>Date:&nbsp;&nbsp;&nbsp;</td><td>2002</td></tr>
+<tr><td>Programming Language:&nbsp;&nbsp;&nbsp;</td><td>Perl</td></tr>
+</table>
+    <p><small>For an application profile see the <a href="/groups/tools/map.shtml">DCMI Tools
+    Application Profile</a></small>
+    <!--#include virtual="/ssi/footer.shtml" -->
+    </body>
+    </html>

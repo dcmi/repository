@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description about="http://dublincore.org/archives/2002/workplan/workplan-2002.shtml">
+<dc:title>DCMI Workplan - 2002</dc:title>
+<dc:description>Workplan for the coming year.</dc:description>
+<dc:date>2002-02-01</dc:date>
+<dc:format>text/html</dc:format>
+<dc:creator>Makx Dekkers</dc:creator>
+<dc:language>en</dc:language>
+<dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+</rdf:Description>
+</rdf:RDF> 

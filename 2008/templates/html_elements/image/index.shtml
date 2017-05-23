@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>Image</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<div class="body">
+<h1 id="title">Image</h1>
+<dl>
+<dt>HTML Tag:</dt>
+<dd><code>&lt;IMG SRC=&quot;&quot; WIDTH=&quot;&quot; HEIGHT=&quot;&quot; ALT=&quot;&quot; TITLE=&quot;&quot;&gt;</code></dd>
+<dt>Guidelines:</dt>
+<dd>Provide a text equivalent for every non-text element using <code>ALT</code> and <code>LONGDESC</code>.</dd>
+<dt>Warnings:</dt>
+<dd>-</dd>
+<dt>Priority:</dt>
+<dd>[Priority 1] A Web content developer <strong>must</strong> satisfy this checkpoint.</dd>
+</dl>
+<h2>Browser View:</h2>
+<p><img src="/images/templates/image.gif" width="320" height="160" alt="Brief description of what the image is." title="An advisory description of the image." longdesc="Specifies a URL of a document that contains a longer description of the element that what the content of the ALT or TITLE attributes reveal."></p>
+<p>
+<h2>Source View:</h2>
+<code>&lt;P&gt;&lt;IMG SRC=&quot;../images/image.gif&quot; WIDTH=&quot;320&quot; HEIGHT=&quot;160&quot; ALT=&quot;Brief description of what the image is.&quot; TITLE=&quot;An advisory description of the image.&quot; LONGDESC=&quot;Specifies a URL of a document that contains a longer description of the element that what the content of the ALT or TITLE attributes reveal.&quot;&gt;&lt;/P&gt;</code></div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/">   
+<rdf:Description>
+ <dcterms:created>
+   <dcterms:W3CDTF>
+     <rdf:value>2004-01-04</rdf:value>
+   </dcterms:W3CDTF>
+ </dcterms:created> 
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,439 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="KEYWORDS" content="Issues with current use of simple DC" />
+<meta name="robots" content="index,follow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link title="Creative Commons" type="application/rdf+xml" href="/repositories/digirep/index.php?title=Issues_with_current_use_of_simple_DC&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/2.5/" />
+    <title>Issues with current use of simple DC - DigiRepWiki</title>
+    <style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/repositories/digirep/skins/monobook/main.css"; /*]]>*/</style>
+    <link rel="stylesheet" type="text/css" media="print" href="/repositories/digirep/skins/common/commonPrint.css" />
+    <!--[if lt IE 5.5000]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE50Fixes.css";</style><![endif]-->
+    <!--[if IE 5.5000]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE55Fixes.css";</style><![endif]-->
+    <!--[if gte IE 6]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE60Fixes.css";</style><![endif]-->
+    <!--[if lt IE 7]><script type="text/javascript" src="/repositories/digirep/skins/common/IEFixes.js"></script>
+    <meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+    <script type="text/javascript" src="/repositories/digirep/index.php?title=-&amp;action=raw&amp;gen=js"></script>    <script type="text/javascript" src="/repositories/digirep/skins/common/wikibits.js"></script>
+    <style type="text/css">/*<![CDATA[*/
+@import "/repositories/digirep/index.php?title=MediaWiki:Monobook.css&action=raw&ctype=text/css&smaxage=18000";
+@import "/repositories/digirep/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>              </head>
+  <body                 class="ns-0">
+    <div id="globalWrapper">
+      <div id="column-content">
+	<div id="content">
+	  <a name="top" id="top"></a>
+	  	  <h1 class="firstHeading">Issues with current use of simple DC</h1>
+	  <div id="bodyContent">
+	    <h3 id="siteSub">From DigiRepWiki</h3>
+	    <div id="contentSub"></div>
+	    	    	    <!-- start content -->
+	    <table class="wikitable" width="100%">
+<tr>
+<td style="vertical-align: top; padding:1em; border:1px black solid; font-size:80%;">
+<p>[ <a href="/repositories/digirep/index/SWAP" title="SWAP">Home</a> | <a href="/repositories/digirep/index/Functional_Requirements" title="Functional Requirements">Functional Requirements</a> | <a href="/repositories/digirep/index/Model" title="Model">Application Model</a> |
+<a href="/repositories/digirep/index/Scholarly_Works_Application_Profile" title="Scholarly Works Application Profile">Application Profile</a> |
+<a href="/repositories/digirep/index/Community_Acceptance_Plan" title="Community Acceptance Plan">Community Acceptance Plan</a> |
+<a href="/repositories/digirep/index/Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC" title="Mapping the Scholarly Works Application Profile to Simple DC">Mapping to Simple DC</a> | <a href="/repositories/digirep/index/Eprints_DC_XML" title="Eprints DC XML">XML Format</a>
+</p>
+</td></tr></table>
+<table id='toc' class='toc'><tr><td><div id='toctitle'><h2>Contents</h2></div>
+<ul>
+<li class='toclevel-1'><a href="#Background"><span class="tocnumber">1</span> <span class="toctext">Background</span></a></li>
+<li class='toclevel-1'><a href="#Analysis"><span class="tocnumber">2</span> <span class="toctext">Analysis</span></a></li>
+<li class='toclevel-1'><a href="#Summary"><span class="tocnumber">3</span> <span class="toctext">Summary</span></a></li>
+</ul>
+</td></tr></table>
+<p><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="/repositories/digirep/index.php?title=Issues_with_current_use_of_simple_DC&amp;action=edit&amp;section=1" title="Issues with current use of simple DC">edit</a>]</div><a name="Background"></a><h2> Background </h2>
+<p>The ePrints UK project developed a set of guidelines for describing eprints using simple DC.  The guidelines are available at <a href="http://www.rdn.ac.uk/projects/eprints-uk/docs/simpledc-guidelines/" class='external free' title="http://www.rdn.ac.uk/projects/eprints-uk/docs/simpledc-guidelines/" rel="nofollow">http://www.rdn.ac.uk/projects/eprints-uk/docs/simpledc-guidelines/</a>.  The use of simple DC means that eprint metadata can be easily transferred using the OAI-PMH.  However, there are some issues and problems for application developers caused by the limitations of simple DC.
+</p><p>This document analyses each of the recommendations in the guidelines and summarises those areas where there is felt to be a significant weakness in the metadata, caused by the use of simple DC.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="/repositories/digirep/index.php?title=Issues_with_current_use_of_simple_DC&amp;action=edit&amp;section=2" title="Issues with current use of simple DC">edit</a>]</div><a name="Analysis"></a><h2> Analysis </h2>
+<p>Note: properties marked with an asterix are mandatory.  All other properties are optional.
+</p>
+<table class="wikitable" border="1" cellpadding="5">
+
+<tr>
+<th>Current guidance </th><th> Issues/problems
+</th></tr>
+<tr>
+<td style="width:50%;"><b>dc:title</b> (*)
+<p>The title of the eprint.
+</p><p>Preserve the original wording, order and spelling of the eprint title. Only capitalize proper nouns. Punctuation need not reflect the usage of the original. Subtitles should be separated from the title by a colon. For example:
+</p>
+<ul><li> <tt>&lt;dc:title&gt;Initial sequencing and analysis of the human genome&lt;/dc:title&gt;</tt>
+</li><li> <tt>&lt;dc:title&gt;The new nationalism and the old history: perspectives on the West German Historikerstreit&lt;/dc:title&gt;</tt>
+</li></ul>
+<p>If necessary, repeat this element for multiple titles.
+</p>
+</td><td valign="top">
+<ul><li> Where multiple titles are provided, there is no way of determining the main title.
+</li></ul>
+</td></tr>
+<tr>
+<td> <b>dc:creator</b> (*)
+<p>An author of the eprint.
+</p><p>Personal names should be listed surname or family name first, followed by forename or given name or initial followed by a full stop. Separate the surname (or family name) from the forenames, given names or initials with a comma. Titles (Dr., Prof., etc.) should precede the forenames, generational suffixes (Jr., Sr., etc.) should follow the family name. When in doubt, give the name as it appears, and do not invert. For example:
+</p>
+<ul><li> <tt>&lt;dc:creator&gt;Sulston, John E.&lt;/dc:creator&gt;</tt>
+</li><li> <tt>&lt;dc:creator&gt;Evans, R.J.&lt;/dc:creator&gt;</tt>
+</li><li> <tt>&lt;dc:creator&gt;Ng, Tze Beng&lt;/dc:creator&gt;</tt>
+</li><li> <tt>&lt;dc:creator&gt;Walker Jnr., Dr. John&lt;/dc:creator&gt;</tt>
+</li></ul>
+<p>In the case of organizations where there is clearly a hierarchy present, list the parts of the hierarchy from largest to smallest, separated by full stops. If it is not clear whether there is a hierarchy present, or unclear which is the larger or smaller portion of the body, give the name as it appears in the eprint. For example:
+</p>
+<ul><li> <tt>&lt;dc:creator&gt;International Human Genome Sequencing Consortium&lt;/dc:creator&gt;</tt>
+</li><li> <tt>&lt;dc:creator&gt;Loughborough University. Department of Computer Science&lt;/dc:creator&gt;</tt>
+</li></ul>
+<p>Only encode organisations in this element to indicate corporate authorship, not to indicate the affiliation of an individual.
+</p><p>The inclusion of personal and corporate name headings from authority lists constructed according to AACR2 [8], e.g. the Library of Congress Name Authority File (LCNA), is also acceptable.
+</p><p>In cases of lesser responsibility, other than authorship, use dc:contributor. If the nature of the responsibility is ambiguous, recommended best practice is to use dc:publisher for organizations, and dc:creator for individuals.
+</p><p>If necessary, repeat this element for multiple authors.
+</p>
+</td><td valign="top">
+<ul><li> Recipient of metadata has no knowledge that normalised form of name has been used.  Therefore difficult to disambiguate different author names or combine different names for the same author.
+</li><li> There is no mechanism for providing the affiliation of the author(s).
+</li><li> There is no mechanism for indicating whether the author is a person or an organisation.
+</li></ul>
+</td></tr>
+<tr>
+<td><b>dc:subject</b> (*)
+<p>The topic of the eprint.
+</p><p>In general, choose the most significant and unique words for keywords, avoiding those too general to describe a particular eprint. If the subject of the eprint is a person or an organization, use the same form of the name as you would if the person or organization were an author, but do not repeat the name in the dc:creator element.
+</p><p>For free-text keywords either encode multiple terms with a semi-colon separating each keyword; or repeat the element for each term. There are no requirements regarding the capitalization of keywords though internal (within archive) consistency is recommended.
+</p><p>Where terms are taken from a standard classification scheme: encode each term in a separate element. Encode the complete subject descriptor according to the relevant scheme. Use the capitalisation and punctuation used in the original scheme. Where subject terms are taken from LCSH, the subfields of the subject heading should be separated by double dash (--) and spaces should be omitted. For example (using free-text keywords and LCSH):
+</p>
+<ul><li> <tt>&lt;dc:subject&gt;polar oceanography; boundary current; mass transport; water masses; halocline; mesoscale eddies&lt;/dc:subject&gt;</tt>
+</li><li> <tt>&lt;dc:subject&gt;World War, 1939-1945--Germany&lt;/dc:subject&gt;</tt>
+</li><li> <tt>&lt;dc:subject&gt;Germany--History--1933-1945&lt;/dc:subject&gt;</tt>
+</li><li> <tt>&lt;dc:subject&gt;Hitler, Adolf, 1889-45&lt;/dc:subject&gt;</tt>
+</li></ul>
+</td><td valign="top">
+<ul><li> Recipient of metadata has no knowledge about whether terms have been taken from controlled vocabularies.  Therefore difficult to build browse interfaces based on knowledge of vocabulary hierarchies/relationships.
+</li></ul>
+</td></tr>
+<tr>
+<td><b>dc:description</b> (*)
+<p>A summary of the content of the eprint, typically in the form of an abstract.
+</p>
+</td><td valign="top">
+<ul><li> None.
+</li></ul>
+</td></tr>
+<tr>
+<td><b>dc:publisher</b> (*)
+<p>Eprint-specific Recommendation:     
+</p><p>The publisher of the eprint, typically either the author's institution or a commercial publisher.
+</p><p>In the case of organizations where there is clearly a hierarchy present, list the parts of the hierarchy from largest to smallest, separated by full stops. If it is not clear whether there is a hierarchy present, or unclear which is the larger or smaller portion of the body, give the name as it appears in the eprint. For example:
+</p>
+<ul><li> <tt>&lt;dc:publisher&gt;Loughborough University. Department of Computer Science&lt;/dc:publisher&gt;</tt>
+</li><li> <tt>&lt;dc:publisher&gt;University of Cambridge. Department of Earth Sciences&lt;/dc:publisher&gt;</tt>
+</li><li> <tt>&lt;dc:publisher&gt;University of Oxford. Museum of the History of Science&lt;/dc:publisher&gt;</tt>
+</li><li> <tt>&lt;dc:publisher&gt;University of Reading. Rural History Centre&lt;/dc:publisher&gt;</tt>
+</li><li> <tt>&lt;dc:publisher&gt;University of Exeter. Institute of Cornish Studies&lt;/dc:publisher&gt;</tt>
+</li><li> <tt>&lt;dc:publisher&gt;European Bioinformatics Institute&lt;/dc:publisher&gt;</tt>
+</li><li> <tt>&lt;dc:publisher&gt;John Wiley &amp; Sons, Inc. (US)&lt;/dc:publisher&gt;</tt>
+</li></ul>
+<p>Personal names should be listed surname or family name first, followed by forename or given name or initial followed by a full stop. Separate the surname (or family name) from the forenames, given names or initials with a comma. Titles (Dr., Prof., etc.) should precede the forenames, generational suffixes (Jr., Sr., etc.) should follow the family name. When in doubt, give the name as it appears, and do not invert. For example:
+</p>
+<ul><li> <tt>&lt;dc:publisher&gt;Sulston, John E.&lt;/dc:publisher&gt;</tt>
+</li><li> <tt>&lt;dc:publisher&gt;Evans, R.J.&lt;/dc:publisher&gt;</tt>
+</li><li> <tt>&lt;dc:publisher&gt;Ng, Tze Beng&lt;/dc:publisher&gt;</tt>
+</li><li> <tt>&lt;dc:creator&gt;Walker Jnr., Dr. John&lt;/dc:creator&gt;</tt>
+</li></ul>
+<p>The inclusion of personal and corporate name headings from authority lists constructed according to AACR2 [8], e.g. the Library of Congress Name Authority File (LCNA), is also acceptable.
+</p>
+</td><td valign="top">
+<ul><li> Recipient of metadata has no knowledge that normalised form of name has been used.  Therefore difficult to disambiguate different publisher names or combine different names for the same publisher.
+</li><li> There is no mechanism for indicating whether the publisher is a person or an organisation.
+</li></ul>
+</td></tr>
+<tr>
+<td><b>dc:contributor</b>
+<p>A contributor to the eprint (but not one of the primary authors). For example, a supervisor, editor, technician or data collector.
+</p><p>Personal names should be listed surname or family name first, followed by forename or given name or initial followed by a full stop. Separate the surname (or family name) from the forenames, given names or initials with a comma. Titles (Dr., Prof., etc.) should precede the forenames, generational suffixes (Jr., Sr., etc.) should follow the family name. When in doubt, give the name as it appears, and do not invert. For example:
+</p>
+<ul><li> <tt>&lt;dc:contributor&gt;Sulston, John E.&lt;/dc:contributor&gt;</tt>
+</li><li> <tt>&lt;dc:contributor&gt;Evans, R.J.&lt;/dc:contributor&gt;</tt>
+</li><li> <tt>&lt;dc:contributor&gt;Ng, Tze Beng&lt;/dc:contributor&gt;</tt>
+</li><li> <tt>&lt;dc:creator&gt;Walker Jnr., Dr. John&lt;/dc:creator&gt;</tt>
+</li></ul>
+<p>In the case of organizations where there is clearly a hierarchy present, list the parts of the hierarchy from largest to smallest, separated by full stops. If it is not clear whether there is a hierarchy present, or unclear which is the larger or smaller portion of the body, give the name as it appears in the eprint. For example:
+</p>
+<ul><li> <tt>&lt;dc:contributor&gt;International Human Genome Sequencing Consortium&lt;/dc:contributor&gt;</tt>
+</li><li> <tt>&lt;dc:contributor&gt;Loughborough University. Department of Computer Science&lt;/dc:contributor&gt;</tt>
+</li></ul>
+<p>Only encode organisations in this element to indicate a corporate contribution, not to indicate the affiliation of an individual.
+</p><p>The inclusion of personal and corporate name headings from authority lists constructed according to AACR2 [8], e.g. the Library of Congress Name Authority File (LCNA), is also acceptable.
+</p>
+</td><td valign="top">
+<ul><li> Recipient of metadata has no knowledge that normalised form of name has been used.  Therefore difficult to disambiguate different contributor names or combine different names for the same contributor.
+</li><li> There is no mechanism for indicating whether the contributor is a person or an organisation.
+</li><li> There is no mechanism for recording the nature of the contribution made by the contributor (editor, illustrator, etc.).
+</li></ul>
+</td></tr>
+<tr>
+<td><b>dc:date</b> (*)
+<p>The 'last-modified' date of the eprint and/or the date of its accession into the archive.
+</p><p>The date should be formatted according to the W3C encoding rules for dates and times [9] (a profile based on ISO 8601 known as W3C-DTF), for example:
+</p>
+<ul><li> <tt>&lt;dc:date&gt;2000-12-25&lt;/dc:date&gt;</tt>
+</li><li> <tt>&lt;dc:date&gt;1999&lt;/dc:date</tt>
+</li><li> <tt>&lt;dc:date&gt;2003-01&lt;/dc:date&gt;</tt>
+</li></ul>
+<p>If necessary, repeat this element to provide both the last-modified date and the date of accession. The last-modified date will be assumed to be the more recent of the two dates. If only one date is provided, it will be assumed that the last-modified date and the date of accession are the same.
+</p>
+</td><td valign="top">
+<ul><li> Recipient of metadata has no knowledge about what kind of date is being provided or how the date is formatted.  Therefore difficult to make any reliable use of the date in user-interface or other applications.
+</li></ul>
+</td></tr>
+<tr>
+<td><b>dc:type</b> (*)
+<p>The type of eprint.
+</p><p>Recommended best practice is to take the value of this element from the following list:
+</p>
+<ul><li> Book
+</li><li> BookChapter
+</li><li> ConferenceProceedings
+</li><li> ConferencePaper
+</li><li> ConferencePoster
+</li><li> InCollection
+</li><li> TechnicalReport
+</li><li> OnlineJournalArticle
+</li><li> JournalArticle
+</li><li> NewsArticle
+</li><li> Other
+</li><li> Preprint
+</li><li> Thesis
+</li></ul>
+<p>For example:
+</p>
+<ul><li> <tt>&lt;dc:type&gt;JournalArticle&lt;/dc:type&gt;</tt>
+</li></ul>
+<p>If necessary, repeat this element to encode multiple types.
+</p><p>If necessary, repeat this element to indicate the peer-reviewed status of the eprint, using one of the following values:
+</p>
+<ul><li> PeerReviewed
+</li><li> NonPeerReviewed
+</li></ul>
+<p>For example:
+</p>
+<ul><li> <tt>&lt;dc:type&gt;PeerReviewed&lt;/dc:type&gt;</tt>
+</li></ul>
+</td><td valign="top">
+<ul><li> Recipient of metadata has no knowledge that the value has explicitly been taken from the controlled lists provided here and is therefore only able to infer (i.e. guess) that the originator system's use of, say, 'Preprint' corresponds to the use suggested in the guidelines.
+</li><li> The use of dc:type to carry 'status' information somewhat stretches the semantics of the property.
+</li></ul>
+</td></tr>
+<tr>
+<td><b>dc:format</b>
+<p>The media-type of the eprint.
+</p><p>Recommended best practice is to select a term from the IANA registered list of Internet Media Types (MIME types) [10]. For example:
+</p>
+<ul><li> <tt>&lt;dc:format&gt;application/pdf&lt;/dc:format&gt;</tt>
+</li></ul>
+<p>Repeat this element if the eprint is available in multiple formats.
+</p>
+</td><td valign="top">
+<ul><li> Recipient of metadata has no explicit knowledge that a MIME type is being provided.
+</li><li> Not clear what is being described here (1:1 problem).  If the work is being described then use of dc:format is incorrect.  If a single manifestation is being described, then dc:format shouldn't be repeated.
+</li></ul>
+</td></tr>
+<tr>
+<td><b>dc:identifier</b> (*)
+<p>Eprint-specific Recommendation:     
+</p><p>A URI or bibliographic citation for the eprint, typically the URI of the 'jump-off page' for the eprint, as served by the archive. For example:
+</p>
+<ul><li> <tt>&lt;dc:identifier&gt;<a href="http://eprints.bath.ac.uk/archive/00000003/" class='external free' title="http://eprints.bath.ac.uk/archive/00000003/" rel="nofollow">http://eprints.bath.ac.uk/archive/00000003/</a>&lt;/dc:identifier&gt;</tt>
+</li></ul>
+<p>If possible, repeat this element to provide a full bibliographic citation for the eprint. For example:
+</p>
+<ul><li> <tt>&lt;dc:identifier&gt;Heery, R. (2000). "Information gateways: collaboration on content."</tt>
+</li><li> <tt>Online Information Review, 24 (1), 40-45.&lt;/dc:identifier&gt;</tt>
+</li></ul>
+<p>If possible, also repeat this element to provide an OpenURL [11] for the eprint, using the form below. For example:
+</p>
+<ul><li> <tt>&lt;dc:identifier&gt;openurl:?sid=ukoln:&amp;genre=article&amp;sid=ukoln:</tt>
+</li><li> <tt>&amp;atitle=Information%20gateways:%20collaboration%20on%20content</tt>
+</li><li> <tt>&amp;title=Online%20Information%20Review&amp;issn=1468-4527&amp;volume=24&amp;spage=40</tt>
+</li><li> <tt>&amp;epage=45&amp;artnum=1&amp;aulast=Heery&amp;aufirst=Rachel&lt;/dc:identifier&gt;</tt>
+</li></ul>
+<p>(Note that lines in these two examples have been wrapped for readability.)
+</p>
+</td><td valign="top">
+<ul><li> Recipient of metadata has no explicit knowledge that a URI is being provided.  Nor is it particularly clear whether the 'work' or a 'manifestation' of the work is being identified.
+</li></ul>
+</td></tr>
+<tr>
+<td><b>dc:source</b>
+<p>The URI, title or bibliographic citation for a resource from which the eprint is derived.
+</p><p>In general, this element should not be used.
+</p>
+</td><td valign="top">
+<ul><li> Where this property is used, the recipient of metadata has no explicit knowledge about whether a URI or title or bibliographic citation is being provided.
+</li></ul>
+</td></tr>
+<tr>
+<td><b>dc:language</b> (*)
+<p>Eprint-specific Recommendation:     
+</p><p>The language in which the eprint is written.
+</p><p>Use the language codes defined in <a href='http://www.ietf.org/rfc/rfc3066.txt' class='external' title="http://www.ietf.org/rfc/rfc3066.txt">RFC 3066</a> [12], for example:
+</p>
+<ul><li> <tt>&lt;dc:language&gt;en-GB&lt;/dc:language&gt;</tt>
+</li></ul>
+<p>If necessary, repeat this element to indicate multiple languages.
+</p>
+</td><td valign="top">
+<ul><li> Recipient of metadata has no explicit knowledge that an <a href='http://www.ietf.org/rfc/rfc3066.txt' class='external' title="http://www.ietf.org/rfc/rfc3066.txt">RFC 3066</a> language tag is being provided.
+</li></ul>
+</td></tr>
+<tr>
+<td><b>dc:relation</b> (*)
+<p>The URI of each available format of the eprint. If necessary, repeat this element for multiple formats. Also repeat this element if the eprint is available from other locations, for example from the publisher's Web site. For example:
+</p>
+<ul><li> <tt>&lt;dc:relation&gt;<a href="http://eprints.bath.ac.uk/archive/00000003/01/1097.pdf" class='external free' title="http://eprints.bath.ac.uk/archive/00000003/01/1097.pdf" rel="nofollow">http://eprints.bath.ac.uk/archive/00000003/01/1097.pdf</a>&lt;/dc:relation&gt;</tt>
+</li><li> <tt>&lt;dc:relation&gt;<a href="http://eprints.bath.ac.uk/archive/00000003/01/1097.html" class='external free' title="http://eprints.bath.ac.uk/archive/00000003/01/1097.html" rel="nofollow">http://eprints.bath.ac.uk/archive/00000003/01/1097.html</a>&lt;/dc:relation&gt;</tt>
+</li><li> <tt>&lt;dc:relation&gt;<a href="http://www10.org/cdrom/posters/1097.pdf" class='external free' title="http://www10.org/cdrom/posters/1097.pdf" rel="nofollow">http://www10.org/cdrom/posters/1097.pdf</a>&lt;/dc:relation&gt;</tt>
+</li></ul>
+</td><td valign="top">
+<ul><li> Recipient of metadata has no explicit knowledge that a URI is being provided.  Nor is there any indication about the relationship between the eprint and the related resource.  For example, in some cases the relationship will be 'isInstanceOf' but in others it could be 'isCitedBy'.
+</li></ul>
+</td></tr>
+<tr>
+<td><b>dc:coverage</b>
+<p>The geographic location or temporal period that the eprint is about.
+</p><p>Recommended best practice is to select the value from a controlled vocabulary (for example, the Getty Thesaurus of Geographic Names [13] or TGN) and that, where appropriate, named places or time periods be used in preference to numeric identifiers such as sets of co-ordinates or date ranges.
+</p><p>If necessary, repeat this element to encode multiple locations or periods.
+</p>
+</td><td valign="top">
+<ul><li> Recipient of metadata has no explicit knowledge that a term taken from the TGN has been used.
+</li><li> There is no mechanism for indicating whether coverage is spatial or temporal.
+</li><li> Where coverage is temporal, there is no agreed explicitly mechanism for recording dates and date ranges.
+</li></ul>
+</td></tr>
+<tr>
+<td><b>dc:rights</b>
+<p>A human-readable statement about the rights held in and over the eprint, the URI of a Creative Commons [14] licence or the URI of a machine-readable statement. For example:
+</p>
+<ul><li> <tt>&lt;dc:rights&gt;(c) University of Bath, 2003&lt;/dc:rights&gt;</tt>
+</li><li> <tt>&lt;dc:rights&gt;(c) Andrew Smith, 2003&lt;/dc:rights&gt;</tt>
+</li><li> <tt>&lt;dc:rights&gt;<a href="http://creativecommons.org/licenses/by-nd-nc/1.0" class='external free' title="http://creativecommons.org/licenses/by-nd-nc/1.0" rel="nofollow">http://creativecommons.org/licenses/by-nd-nc/1.0</a>&lt;/dc:rights&gt;</tt>
+</li><li> <tt>&lt;dc:rights&gt;<a href="http://eprints.bath.ac.uk/archive/00000003/01/1097-odrl.xml" class='external free' title="http://eprints.bath.ac.uk/archive/00000003/01/1097-odrl.xml" rel="nofollow">http://eprints.bath.ac.uk/archive/00000003/01/1097-odrl.xml</a>&lt;/dc:rights&gt;</tt>
+</li></ul>
+</td><td valign="top">
+<ul><li> Recipient of metadata has no explicit knowledge about whether a human readable statement or a URI is being provided.
+</li></ul>
+</td></tr></table>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="/repositories/digirep/index.php?title=Issues_with_current_use_of_simple_DC&amp;action=edit&amp;section=3" title="Issues with current use of simple DC">edit</a>]</div><a name="Summary"></a><h2> Summary </h2>
+<p>A summary of the major issues follows:
+</p>
+<ul><li> It is difficult to differentiate ‘works/expressions’ from ‘manifestations/items’
+<ul><li> therefore difficult to use metadata as basis for bringing together information about different manifestations of the same work/expression, e.g. for citation analysis purposes
+</li></ul>
+</li><li> In particular, it is difficult to determine if dc:identifier is being used to identify the work/expression or a particular manifestation/item of the work.  In the ePrints UK Guidelines for using Simple DC to describe ePrints, dc:identifier is used to identify the ‘work/expression’ and dc:relation is used to identify ‘manifestation/item’.  However, dc:relation may be used for other resources (e.g. cited works), therefore there is ambiguity in the metadata record.  In any case, the guidelines not widely implemented anyway
+<ul><li> therefore difficult for software applications to move reliably from the metadata record to the full text.
+</li></ul>
+</li><li> It is not possible to determine whether subject terms are taken from a controlled vocabulary or not (e.g. is ‘Physics’ a free-text keyword or a term taken from Dewey?)
+<ul><li> therefore difficult to base subject-browse interfaces on controlled vocabulary hierarchy.
+</li></ul>
+</li><li> It is not possible to disambiguate authors with same name or reconcile instances of the same author being given different forms of name
+<ul><li> therefore difficult to build browse-by-author type interfaces.
+</li></ul>
+</li><li> Dates are ambiguous (either because of formatting and/or because type of date is not known)
+<ul><li> therefore difficult for software applications to make decisions based on dates in the metadata.
+</li></ul>
+</li></ul>
+<p><br />
+</p>
+<!-- Saved in parser cache with key digirep_wiki_db:pcache:idhash:1707-0!1!0!0!!en!2 and timestamp 20130322071029 -->
+<div class="printfooter">
+Retrieved from "<a href="/repositories/digirep/index/Issues_with_current_use_of_simple_DC">/repositories/digirep/index/Issues_with_current_use_of_simple_DC</a>"</div>
+	    <div id="catlinks"><p class='catlinks'><a href="/repositories/digirep/index.php?title=Special:Categories&amp;article=Issues_with_current_use_of_simple_DC" title="Special:Categories">Categories</a>: <a href="/repositories/digirep/index/Category:ScholarlyWorksApplicationProfile" title="Category:ScholarlyWorksApplicationProfile">ScholarlyWorksApplicationProfile</a> | <a href="/repositories/digirep/index.php?title=Category:EprintsApplicationProfile&amp;action=edit" class="new" title="Category:EprintsApplicationProfile">EprintsApplicationProfile</a></p></div>	    <!-- end content -->
+	    <div class="visualClear"></div>
+	  </div>
+	</div>
+      </div>
+      <div id="column-one">
+	<div id="p-cactions" class="portlet">
+	  <h5>Views</h5>
+	  <ul>
+	    <li id="ca-nstab-main"
+	       class="selected"	       ><a href="/repositories/digirep/index/Issues_with_current_use_of_simple_DC">Article</a></li><li id="ca-talk"
+	       class="new"	       ><a href="/repositories/digirep/index.php?title=Talk:Issues_with_current_use_of_simple_DC&amp;action=edit">Discussion</a></li><li id="ca-edit"
+	       	       ><a href="/repositories/digirep/index.php?title=Issues_with_current_use_of_simple_DC&amp;action=edit">Edit</a></li><li id="ca-history"
+	       	       ><a href="/repositories/digirep/index.php?title=Issues_with_current_use_of_simple_DC&amp;action=history">History</a></li>	  </ul>
+	</div>
+	<div class="portlet" id="p-personal">
+	  <h5>Personal tools</h5>
+	  <div class="pBody">
+	    <ul>
+	    <li id="pt-login"><a href="/repositories/digirep/index.php?title=Special:Userlogin&amp;returnto=Issues_with_current_use_of_simple_DC">Create an account or log in</a></li>	    </ul>
+	  </div>
+	</div>
+	<div class="portlet" id="p-logo">
+	  <a style="background-image: url(/repositories/digirep/skins/common/images/jisc_ukolo_cetis_version_2.png);"
+	    href="/repositories/digirep/index/Repositories_Research"
+	    title="Repositories Research"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-navigation'>
+	  <h5>Navigation</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	      <li id="n-mainpage"><a href="/repositories/digirep/index/Repositories_Research">Repositories Research</a></li>
+	     	      <li id="n-About"><a href="/repositories/digirep/index/About">About</a></li>
+	     	      <li id="n-News"><a href="/repositories/digirep/index/News">News</a></li>
+	     	      <li id="n-Events"><a href="/repositories/digirep/index/Events">Events</a></li>
+	     	      <li id="n-Info-and-activities"><a href="/repositories/digirep/index/RRT_information_and_activities">Info and activities</a></li>
+	     	      <li id="n-Projects"><a href="/repositories/digirep/index/Projects">Projects</a></li>
+	     	      <li id="n-Clusters"><a href="/repositories/digirep/index/Clusters">Clusters</a></li>
+	     	      <li id="n-Scenarios/use-cases/UML"><a href="/repositories/digirep/index/Scenarios_and_use_cases">Scenarios/use cases/UML</a></li>
+	     	      <li id="n-Workflows"><a href="/repositories/digirep/index/Workflows">Workflows</a></li>
+	     	      <li id="n-Deposit-API/SWORD"><a href="/repositories/digirep/index/Deposit">Deposit API/SWORD</a></li>
+	     	      <li id="n-Application-Profiles"><a href="/repositories/digirep/index/Application_Profiles">Application Profiles</a></li>
+	     	      <li id="n-CRIG"><a href="/repositories/digirep/index/CRIG">CRIG</a></li>
+	     	      <li id="n-FAQs"><a href="/repositories/digirep/index/FAQs">FAQs</a></li>
+	     	      <li id="n-Links"><a href="/repositories/digirep/index/Links">Links</a></li>
+	     	      <li id="n-recentchanges"><a href="/repositories/digirep/index/Special:Recentchanges">Recent changes</a></li>
+	     	      <li id="n-Sandbox"><a href="/repositories/digirep/index/Sandbox">Sandbox</a></li>
+	     	      <li id="n-Help"><a href="/repositories/digirep/index/Help:Contents">Help</a></li>
+	     	    </ul>
+	  </div>
+	</div>
+		<div id="p-search" class="portlet">
+	  <h5><label for="searchInput">Search</label></h5>
+	  <div class="pBody">
+	    <form name="searchform" action="/repositories/digirep/index/Special:Search" id="searchform">
+	      <input id="searchInput" name="search" type="text"
+	        accesskey="f" value="" />
+	      <input type='submit' name="go" class="searchButton" id="searchGoButton"
+	        value="Go"
+	        />&nbsp;<input type='submit' name="fulltext"
+	        class="searchButton"
+	        value="Search" />
+	    </form>
+	  </div>
+	</div>
+	<div class="portlet" id="p-tb">
+	  <h5>Toolbox</h5>
+	  <div class="pBody">
+	    <ul>
+		  		  <li id="t-whatlinkshere"><a href="/repositories/digirep/index/Special:Whatlinkshere/Issues_with_current_use_of_simple_DC">What links here</a></li>
+		  		  <li id="t-recentchangeslinked"><a href="/repositories/digirep/index/Special:Recentchangeslinked/Issues_with_current_use_of_simple_DC">Related changes</a></li>
+		                	      	      	      	      	      	      	      <li id="t-upload"><a href="/repositories/digirep/index/Special:Upload">Upload file</a></li>	      	      <li id="t-specialpages"><a href="/repositories/digirep/index/Special:Specialpages">Special pages</a></li>	      	      	      <li id="t-print"><a href="/repositories/digirep/index.php?title=Issues_with_current_use_of_simple_DC&amp;printable=yes">Printable version</a></li>
+	      	    </ul>
+	  </div>
+	</div>
+	      </div><!-- end of the left (by default at least) column -->
+      <div class="visualClear"></div>
+      <div id="footer">
+    <div id="f-poweredbyico"><a href="http://www.jisc.ac.uk/"><img src="/repositories/digirep/skins/common/images/JISCcolour23.png" alt="Sponsored by JISC" title="Sponsored by JISC" /></a></div>	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by-sa/2.5/"><img src="http://creativecommons.org/images/public/somerights20.png" alt='Attribution-ShareAlike 2.5' /></a></div>	<ul id="f-list">
+	  <li id="f-lastmod"> This page was last modified 08:32, 22 August 2006.</li>	  <li id="f-viewcount">This page has been accessed 39,203 times.</li>	  	  	  <li id="f-copyright">Content is available under <a href="http://creativecommons.org/licenses/by-sa/2.5/" class='external ' title="http://creativecommons.org/licenses/by-sa/2.5/" rel="nofollow">Attribution-ShareAlike 2.5</a>.</li>	  <li id="f-about"><a href="/repositories/digirep/index/DigiRepWiki:About" title="DigiRepWiki:About">About DigiRepWiki</a></li>	  <li id="f-disclaimer"><a href="/repositories/digirep/index/DigiRepWiki:General_disclaimer" title="DigiRepWiki:General disclaimer">Disclaimers</a></li>	  	</ul>
+      </div>
+    </div>
+    <!-- Served by wumpus in 0.21 secs. -->  </body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description about="http://purl.org/dc/elements/1.1/">
+     <dc:title>The Dublin Core Element Set Version 1.1</dc:title>
+     <dc:creator>Dublin Core Metadata Inititative</dc:creator> 
+     <dc:description>The Dublin Core is a simple metadata element
+       set intended to facilitate discovery of electronic
+       resources.  This document presents the proposed new 
+       definitions for the Dublin Core metadata elements.</dc:description> 
+     <dc:date>1999-07-02</dc:date>
+  </rdf:Description>
+</rdf:RDF>

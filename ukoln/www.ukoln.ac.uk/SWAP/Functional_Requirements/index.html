@@ -1,0 +1,730 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="KEYWORDS" content="Functional Requirements">
+<meta name="robots" content="index,follow">
+<link rel="shortcut icon" href="http://www.ukoln.ac.uk/favicon.ico">
+<link title="Creative Commons" type="application/rdf+xml" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=creativecommons" rel="meta">
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/2.5/">
+    <title>Functional Requirements - DigiRepWiki</title>
+    <style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/repositories/digirep/skins/monobook/main.css"; /*]]>*/</style>
+    <link rel="stylesheet" type="text/css" media="print" href="index_files/commonPrint.css">
+    <!--[if lt IE 5.5000]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE50Fixes.css";</style><![endif]-->
+    <!--[if IE 5.5000]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE55Fixes.css";</style><![endif]-->
+    <!--[if gte IE 6]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE60Fixes.css";</style><![endif]-->
+    <!--[if lt IE 7]><script type="text/javascript" src="/repositories/digirep/skins/common/IEFixes.js"></script>
+    <meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+    <script type="text/javascript" src="index_files/index.js"></script>    <script type="text/javascript" src="index_files/wikibits.js"></script>
+    <style type="text/css">/*<![CDATA[*/
+@import "/repositories/digirep/index.php?title=MediaWiki:Monobook.css&action=raw&ctype=text/css&smaxage=18000";
+@import "/repositories/digirep/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>              </head>
+  <body class="ns-0">
+    <div id="globalWrapper">
+      <div id="column-content">
+	<div id="content">
+	  <a name="top" id="top"></a>
+	  	  <h1 class="firstHeading">Functional Requirements</h1>
+	  <div id="bodyContent">
+	    <h3 id="siteSub">From DigiRepWiki</h3>
+	    <div id="contentSub"></div>
+	    	    	    <!-- start content -->
+	    <table class="wikitable" width="100%">
+<tbody><tr>
+<td style="vertical-align: top; padding:1em; border:1px black solid; font-size:80%;">
+<p>[ <a href="http://www.ukoln.ac.uk/repositories/digirep/index/SWAP" title="SWAP">Home</a> | <strong>Functional Requirements</strong> | <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Model" title="Model">Application Model</a> |
+<a href="http://www.ukoln.ac.uk/repositories/digirep/index/Scholarly_Works_Application_Profile" title="Scholarly Works Application Profile">Application Profile</a> |
+<a href="http://www.ukoln.ac.uk/repositories/digirep/index/Community_Acceptance_Plan" title="Community Acceptance Plan">Community Acceptance Plan</a> |
+<a href="http://www.ukoln.ac.uk/repositories/digirep/index/Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC" title="Mapping the Scholarly Works Application Profile to Simple DC">Mapping to Simple DC</a> | <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_DC_XML" title="Eprints DC XML">XML Format</a>
+</p>
+</td></tr></tbody></table>
+<table id="toc" class="toc"><tbody><tr><td><div id="toctitle"><h2>Contents</h2> <span class="toctoggle">[<a href="javascript:toggleToc()" class="internal" id="togglelink">hide</a>]</span></div>
+<ul>
+<li class="toclevel-1"><a href="#Scope"><span class="tocnumber">1</span> <span class="toctext">Scope</span></a></li>
+<li class="toclevel-1"><a href="#Stakeholders_and_designated_community"><span class="tocnumber">2</span> <span class="toctext">Stakeholders and designated community</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Designated_Community"><span class="tocnumber">2.1</span> <span class="toctext">Designated Community</span></a></li>
+<li class="toclevel-2"><a href="#Stakeholder_community"><span class="tocnumber">2.2</span> <span class="toctext">Stakeholder community</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Requirements_gathering"><span class="tocnumber">3</span> <span class="toctext">Requirements gathering</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Methodology"><span class="tocnumber">3.1</span> <span class="toctext">Methodology</span></a></li>
+<li class="toclevel-2"><a href="#Conclusions_from_Eprints_UK"><span class="tocnumber">3.2</span> <span class="toctext">Conclusions from Eprints UK</span></a></li>
+<li class="toclevel-2"><a href="#Existing_practice"><span class="tocnumber">3.3</span> <span class="toctext">Existing practice</span></a></li>
+<li class="toclevel-2"><a href="#Existing_or_proposed_application_profiles"><span class="tocnumber">3.4</span> <span class="toctext">Existing or proposed application profiles</span></a>
+<ul>
+<li class="toclevel-3"><a href="#Vocabularies"><span class="tocnumber">3.4.1</span> <span class="toctext">Vocabularies</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="#Scenarios_and_Use_case"><span class="tocnumber">3.5</span> <span class="toctext">Scenarios and Use case</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Functional_Requirements_Specification"><span class="tocnumber">4</span> <span class="toctext">Functional Requirements Specification</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Richer_metadata_set"><span class="tocnumber">4.1</span> <span class="toctext">Richer metadata set</span></a></li>
+<li class="toclevel-2"><a href="#Consistent_metadata"><span class="tocnumber">4.2</span> <span class="toctext">Consistent metadata</span></a></li>
+<li class="toclevel-2"><a href="#Preservation_metadata_approaches"><span class="tocnumber">4.3</span> <span class="toctext">Preservation metadata approaches</span></a></li>
+<li class="toclevel-2"><a href="#Library_cataloguing_approaches"><span class="tocnumber">4.4</span> <span class="toctext">Library cataloguing approaches</span></a></li>
+<li class="toclevel-2"><a href="#Extensibility"><span class="tocnumber">4.5</span> <span class="toctext">Extensibility</span></a></li>
+<li class="toclevel-2"><a href="#Added-value_services"><span class="tocnumber">4.6</span> <span class="toctext">Added-value services</span></a></li>
+<li class="toclevel-2"><a href="#Identifying_the_full-text"><span class="tocnumber">4.7</span> <span class="toctext">Identifying the full-text</span></a></li>
+<li class="toclevel-2"><a href="#Identifying_metadata-only_records"><span class="tocnumber">4.8</span> <span class="toctext">Identifying metadata-only records</span></a></li>
+<li class="toclevel-2"><a href="#Version_identification"><span class="tocnumber">4.9</span> <span class="toctext">Version identification</span></a></li>
+<li class="toclevel-2"><a href="#Navigation_between_versions"><span class="tocnumber">4.10</span> <span class="toctext">Navigation between versions</span></a></li>
+<li class="toclevel-2"><a href="#Most_appropriate_copy"><span class="tocnumber">4.11</span> <span class="toctext">Most appropriate copy</span></a></li>
+<li class="toclevel-2"><a href="#Fielded_searching"><span class="tocnumber">4.12</span> <span class="toctext">Fielded searching</span></a></li>
+<li class="toclevel-2"><a href="#Browse_by_any_element"><span class="tocnumber">4.13</span> <span class="toctext">Browse by any element</span></a></li>
+<li class="toclevel-2"><a href="#Controlled_vocabularies"><span class="tocnumber">4.14</span> <span class="toctext">Controlled vocabularies</span></a></li>
+<li class="toclevel-2"><a href="#Filtering_of_search_results_and_browse_tree"><span class="tocnumber">4.15</span> <span class="toctext">Filtering of search results and browse tree</span></a></li>
+<li class="toclevel-2"><a href="#Identifying_available_copies"><span class="tocnumber">4.16</span> <span class="toctext">Identifying available copies</span></a></li>
+<li class="toclevel-2"><a href="#Filter_by_format"><span class="tocnumber">4.17</span> <span class="toctext">Filter by format</span></a></li>
+<li class="toclevel-2"><a href="#OpenURL"><span class="tocnumber">4.18</span> <span class="toctext">OpenURL</span></a></li>
+<li class="toclevel-2"><a href="#Citation_analysis"><span class="tocnumber">4.19</span> <span class="toctext">Citation analysis</span></a></li>
+<li class="toclevel-2"><a href="#Dublin_Core_Citations_WG"><span class="tocnumber">4.20</span> <span class="toctext">Dublin Core Citations WG</span></a></li>
+<li class="toclevel-2"><a href="#Names_and_name_authority"><span class="tocnumber">4.21</span> <span class="toctext">Names and name authority</span></a></li>
+<li class="toclevel-2"><a href="#Statement_of_responsibility"><span class="tocnumber">4.22</span> <span class="toctext">Statement of responsibility</span></a></li>
+<li class="toclevel-2"><a href="#Provenance"><span class="tocnumber">4.23</span> <span class="toctext">Provenance</span></a></li>
+<li class="toclevel-2"><a href="#Research_funder_and_project_code"><span class="tocnumber">4.24</span> <span class="toctext">Research funder and project code</span></a></li>
+<li class="toclevel-2"><a href="#Affiliation"><span class="tocnumber">4.25</span> <span class="toctext">Affiliation</span></a></li>
+<li class="toclevel-2"><a href="#Copy_is_made_available_by"><span class="tocnumber">4.26</span> <span class="toctext">Copy is made available by</span></a></li>
+<li class="toclevel-2"><a href="#Metadata_is_made_available_by"><span class="tocnumber">4.27</span> <span class="toctext">Metadata is made available by</span></a></li>
+<li class="toclevel-2"><a href="#Intermediate_hosts_of_a_metadata_record"><span class="tocnumber">4.28</span> <span class="toctext">Intermediate hosts of a metadata record</span></a></li>
+<li class="toclevel-2"><a href="#Human-_and_machine-generated_metadata"><span class="tocnumber">4.29</span> <span class="toctext">Human- and machine-generated metadata</span></a></li>
+<li class="toclevel-2"><a href="#Publication_title"><span class="tocnumber">4.30</span> <span class="toctext">Publication title</span></a></li>
+<li class="toclevel-2"><a href="#Multiple_titles"><span class="tocnumber">4.31</span> <span class="toctext">Multiple titles</span></a></li>
+<li class="toclevel-2"><a href="#Rights"><span class="tocnumber">4.32</span> <span class="toctext">Rights</span></a></li>
+<li class="toclevel-2"><a href="#Access_restrictions"><span class="tocnumber">4.33</span> <span class="toctext">Access restrictions</span></a></li>
+<li class="toclevel-2"><a href="#Copyright_holders"><span class="tocnumber">4.34</span> <span class="toctext">Copyright holders</span></a></li>
+<li class="toclevel-2"><a href="#Dates"><span class="tocnumber">4.35</span> <span class="toctext">Dates</span></a></li>
+<li class="toclevel-2"><a href="#Translated_abstract"><span class="tocnumber">4.36</span> <span class="toctext">Translated abstract</span></a></li>
+<li class="toclevel-2"><a href="#Embargo_periods"><span class="tocnumber">4.37</span> <span class="toctext">Embargo periods</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></tbody></table>
+<p><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=1" title="Functional Requirements">edit</a>]</div><a name="Scope"></a><h2> Scope </h2>
+<p>The document offers a functional requirements specification for the <a href="http://www.ukoln.ac.uk/repositories/digirep/index/SWAP" title="SWAP">SWAP</a>.  An analysis of the community served by the profile and an indication of the methodologies used are also included.
+</p><p>From the JISC specification for the work:
+</p>
+<ul><li>    Metadata:
+<ul><li>    In scope: DC elements plus any additional elements necessary
+</li><li>    Out of scope: other metadata formats
+</li></ul>
+</li><li>    Identifiers:
+<ul><li>    In scope: Use of identifiers to link from description to 
+related files (eg full text files such as pdf, HTML, etc); also use of 
+identifiers for the description itself, for related resources etc.
+</li><li>    Out of scope: Other uses of identifiers.
+</li></ul>
+</li><li>    Controlled vocabularies (subject classification, name authority, etc):
+<ul><li>    In scope: Ensuring the application profile is hospitable to 
+the use of a variety of subject access solutions e.g. classification 
+schemes, controlled vocabularies, name authority lists
+</li><li>    Out of scope: decisions on terminology solutions
+</li></ul>
+</li><li>    Complex objects:
+<ul><li>    In scope: Establishing an understanding of existing work in this area and prioritising requirements
+</li><li>    Out of scope: decisions on how to model complex objects
+</li></ul>
+</li><li>    Additional search entry points e.g. Repository of origin
+<ul><li>    In scope: inclusion of properties required to fulfil other 
+search requirements such as institution of origin, research funder, 
+national and regional views. These requirements will be provided by RDN.
+</li></ul>
+</li></ul>
+<p>In addition:
+</p>
+<ul><li>Citations and references
+<ul><li>In scope: Bibliographic citations for eprints and document references citing other works
+</li><li>Out of scope: Citation analysis solutions
+</li></ul>
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=2" title="Functional Requirements">edit</a>]</div><a name="Stakeholders_and_designated_community"></a><h2>Stakeholders and designated community</h2>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=3" title="Functional Requirements">edit</a>]</div><a name="Designated_Community"></a><h3>Designated Community</h3>
+<ul><li> Implementers of UK Institutional Repositories search service (<a href="http://www.intute.ac.uk/projects.html" class="external free" title="http://www.intute.ac.uk/projects.html" rel="nofollow">http://www.intute.ac.uk/projects.html</a>) - Intute, UKOLN, Sherpa
+</li><li> Managers and administrators of UK eprint repositories
+</li><li> Implementers of the Prospero interim repository (<a href="http://edina.ac.uk/projects/prospero/index.html" class="external free" title="http://edina.ac.uk/projects/prospero/index.html" rel="nofollow">http://edina.ac.uk/projects/prospero/index.html</a>) - Edina, Sherpa
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=4" title="Functional Requirements">edit</a>]</div><a name="Stakeholder_community"></a><h3>Stakeholder community</h3>
+<p>The following have a wider stake in the work and need to be engaged 
+in order to ensure that the Designated Community is targeted.
+</p>
+<ul><li>Repositories search service
+<ul><li>Implementers of this service
+</li><li>Users of the search service
+</li></ul>
+</li><li>JISC Digital Repositories Programme
+</li><li>JISC Capital Programme - Repositories and Preservation
+</li><li>Eprint repositories community in the UK
+<ul><li>Repository managers, administrators and technical staff
+</li><li>Software developers of repository software (e.g. eprints.org, DSpace, Fedora)
+</li></ul>
+</li><li>JISC
+</li><li>DCMI
+</li><li>Other aggregators and search services, e.g. IRIScotland, PerX, ARROW
+</li><li>Other funding bodies
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=5" title="Functional Requirements">edit</a>]</div><a name="Requirements_gathering"></a><h2>Requirements gathering</h2>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=6" title="Functional Requirements">edit</a>]</div><a name="Methodology"></a><h3>Methodology</h3>
+<ul><li>Review conclusions from Eprints UK
+</li><li>Identify <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Issues_with_current_use_of_simple_DC" title="Issues with current use of simple DC">Issues with current use of simple DC</a>
+</li><li>Review existing practice
+</li><li>Review existing or proposed application profiles
+</li><li>Discussion and input from the working group, feedback group, wider community
+</li><li>Gather/write scenarios and use cases
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=7" title="Functional Requirements">edit</a>]</div><a name="Conclusions_from_Eprints_UK"></a><h3>Conclusions from Eprints UK</h3>
+<p>The final report from the <a href="http://www.rdn.ac.uk/projects/eprints-uk/" class="external text" title="http://www.rdn.ac.uk/projects/eprints-uk/" rel="nofollow">Eprints UK</a> project contained a number of conclusions relevant to the current work (<a href="http://www.rdn.ac.uk/projects/eprints-uk/docs/final-report/eprints-uk-final-20050316.pdf" class="external text" title="http://www.rdn.ac.uk/projects/eprints-uk/docs/final-report/eprints-uk-final-20050316.pdf" rel="nofollow">Final Report</a>).  
+</p><p>These included the following:
+</p>
+<ul><li>Technical barriers to successful aggregation of metadata from institutional repositories
+<ul><li>issues with the quality of metadata
+</li><li>the consistency of metadata
+</li><li>the handling of complex objects
+</li><li>the lack of a common approach to linking to full text
+</li></ul>
+</li></ul>
+<p>"The project addressed these to some extent by proposing a Dublin 
+Core eprints application profile. However, adoption of this profile 
+could not be a priority for the FAIR programme as most projects of 
+necessity concentrated on establishing and populating their archives."
+</p>
+<ul><li>Issues with the simple Dublin Core profile:
+</li><li>encoding the location and type of the full-text file
+</li><li>the meaning of each field can be interpreted in various different ways
+</li></ul>
+<p>"Simple DC is not targeted at describing eprints specifically so 
+there is more to the description of an eprint than simple DC will allow.
+ To get round these limitations of simple DC, some repositories try to 
+put more information than necessary into the Dublin Core fields. This 
+varying use of metadata can lead to difficulties for end-users who are 
+trying to discover eprints across multiple repositories".
+</p><p><b>Recommendations from Eprints UK</b>
+</p>
+<ul><li>There should be further investigation into the user requirements
+ for resource discovery services built on institutional repositories. In
+ particular, this work should explore how an aggregation of metadata 
+from UK repositories would interoperate with other international 
+collections.
+</li><li>More effort should be made to achieve widespread agreement with
+ and adoption of the recommendations for using simple DC to describe 
+eprints.
+</li><li>Repository software suppliers and the administrators of eprint 
+archives should be encouraged to adopt the simple recommendations for 
+linking from the 'jump-off' page to the full text of the eprint. Work 
+should be funded at an international level to agree how best to model 
+eprints as 'complex objects' (e.g. as works and manifestations) and how 
+to encode such complex objects in XML (e.g. by using METS or MPEG-21 
+DIDL).
+</li><li>There should be more investigation into the issues associated 
+with name authority control for eprints and in particular into how best 
+to maintain and expose authoritative name-based services and how best to
+ integrate such services into the eprint workflow.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=8" title="Functional Requirements">edit</a>]</div><a name="Existing_practice"></a><h3>Existing practice</h3>
+<p>Local practices can be seen by searching repositories, examples:
+</p>
+<ul><li>eprints.org, e.g. <a href="http://eprints.soton.ac.uk/" class="external text" title="http://eprints.soton.ac.uk/" rel="nofollow">e-Prints Soton</a>
+</li><li>DSpace, e.g. <a href="http://www.era.lib.ed.ac.uk/" class="external text" title="http://www.era.lib.ed.ac.uk/" rel="nofollow">Edinburgh Research Archive</a>
+</li><li>Fedora, e.g. <a href="http://eprints.qut.edu.au/" class="external text" title="http://eprints.qut.edu.au/" rel="nofollow">Queensland QUT</a>
+</li><li>Other, e.g. <a href="http://epubs.cclrc.ac.uk/" class="external text" title="http://epubs.cclrc.ac.uk/" rel="nofollow">CCLRC ePubs</a>
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=9" title="Functional Requirements">edit</a>]</div><a name="Existing_or_proposed_application_profiles"></a><h3>Existing or proposed application profiles</h3>
+<ul><li>Eprints UK - <a href="http://www.rdn.ac.uk/projects/eprints-uk/docs/simpledc-guidelines/" class="external text" title="http://www.rdn.ac.uk/projects/eprints-uk/docs/simpledc-guidelines/" rel="nofollow">Using simple Dublin Core to describe eprints</a>
+</li><li>DSpace - <a href="http://www.dspace.org/technology/metadata.html" class="external text" title="http://www.dspace.org/technology/metadata.html" rel="nofollow">DSpace metadata</a>
+</li><li>Eprints.org comes with out-of-the-box metadata
+</li><li><a href="http://search.arrow.edu.au/" class="external text" title="http://search.arrow.edu.au/" rel="nofollow">Arrow</a> discovery service, Australia - <a href="http://www.arrow.edu.au/docs/files/harvesting.pdf" class="external text" title="http://www.arrow.edu.au/docs/files/harvesting.pdf" rel="nofollow">ARROW application profile</a>
+</li><li>DARE - <a href="http://www.surf.nl/download/DARE%20use%20of%20DC%20v.%202.0.pdf" class="external text" title="http://www.surf.nl/download/DARE use of DC v. 2.0.pdf" rel="nofollow">DARE use of Dublin Core version 2.0</a>
+ (NB: DARE are working on version 3.0, using 'XXQDC: Qualified Dublin 
+Core eXtended and Extensible' following the idea of MPEG21/DIDL 
+packages)
+</li><li><a href="http://www.carl-abrc.ca/projects/institutional_repositories/metad_int_gp-e.html" class="external text" title="http://www.carl-abrc.ca/projects/institutional repositories/metad int gp-e.html" rel="nofollow">Canadian Repository Metadata Interest Working Group</a>
+</li><li>Swedish SVEP project <a href="http://www.svep-projekt.se/masters-theses/Metadata_model/" class="external text" title="http://www.svep-projekt.se/masters-theses/Metadata model/" rel="nofollow">Metadata model</a>
+<ul><li> <a href="http://epc.ub.uu.se/files/rek1_0_en.pdf" class="external text" title="http://epc.ub.uu.se/files/rek1 0 en.pdf" rel="nofollow">Recommendations for harmonising metadata descriptions</a> of electronically published scientific publications from Swedish universities and university colleges
+</li><li> <a href="http://epc.ub.uu.se/files/publ1_2_en.pdf" class="external text" title="http://epc.ub.uu.se/files/publ1 2 en.pdf" rel="nofollow">National format for publication databases</a> (local registers of academic publications)
+</li></ul>
+</li><li><a href="http://www.ndltd.org/standards/metadata/current.html" class="external text" title="http://www.ndltd.org/standards/metadata/current.html" rel="nofollow">ETD-MS: an Interoperability Metadata Standard for Electronic Theses and Dissertations -- version 1.00, revision 2</a>
+</li><li> <a href="http://epc.ub.uu.se/diva-app-profile/" class="external text" title="http://epc.ub.uu.se/diva-app-profile/" rel="nofollow">DiVa metadata application profile</a>, part of the <a href="http://www.diva-portal.org/" class="external text" title="http://www.diva-portal.org/" rel="nofollow">DiVa</a> project in Sweden
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=10" title="Functional Requirements">edit</a>]</div><a name="Vocabularies"></a><h4> Vocabularies </h4>
+<p>OpenURL: 
+</p>
+<ul><li> Journal (<a href="http://www.openurl.info/registry/docs/mtx/info:ofi/fmt:kev:mtx:journal" class="external free" title="http://www.openurl.info/registry/docs/mtx/info:ofi/fmt:kev:mtx:journal" rel="nofollow">http://www.openurl.info/registry/docs/mtx/info:ofi/fmt:kev:mtx:journal</a>): journal, issue, article, conference, proceeding, preprint, unknown (but known to be journal related)
+</li><li> Book (<a href="http://www.openurl.info/registry/docs/mtx/info:ofi/fmt:kev:mtx:book" class="external free" title="http://www.openurl.info/registry/docs/mtx/info:ofi/fmt:kev:mtx:book" rel="nofollow">http://www.openurl.info/registry/docs/mtx/info:ofi/fmt:kev:mtx:book</a>): Book, bookitem, conference, proceeding, report, document, unknown (this is the fallback)
+</li></ul>
+<p>SWRC (Semantic Web for Research Communities) 
+</p>
+<ul><li> <a href="http://ontoware.org/projects/swrc/" class="external free" title="http://ontoware.org/projects/swrc/" rel="nofollow">http://ontoware.org/projects/swrc/</a>
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=11" title="Functional Requirements">edit</a>]</div><a name="Scenarios_and_Use_case"></a><h3>Scenarios and Use case</h3>
+<p>Wherever possible, usage scenarios exist to support the requirements 
+in the Functional Requirements Specification, as identified below.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=12" title="Functional Requirements">edit</a>]</div><a name="Functional_Requirements_Specification"></a><h2>Functional Requirements Specification</h2>
+<p>Based on the requirements gathering activities indicated above, the <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_Application_Profile" title="Eprints Application Profile">Eprints Application Profile</a> must support, or make recommendations towards supporting the following requirements:
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=13" title="Functional Requirements">edit</a>]</div><a name="Richer_metadata_set"></a><h3> Richer metadata set </h3>
+<ul><li><i><b>Requirement</b></i>: Provide a richer set of metadata than is currently possible with simple DC, see <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Issues_with_current_use_of_simple_DC" title="Issues with current use of simple DC">Issues with current use of simple DC</a>
+</li><li><i><b>Usage scenario</b></i>: In current practice, harvesting 
+or cross-searching multiple repositories is faced with a number of 
+metadata-related issues.  One major issue is that the 15 simple Dublin 
+Core metadata elements do not offer the level of detail which describing
+ eprints requires.  A richer set of metadata would enable aggregators to
+ offer services built upon repository metadata and content. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_24" title="EprintsAP scenario 24">Richer metadata set</a>)
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile" title="EPrints Application Profile">ePrints Application Profile</a> proposes a set of richer metadata.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=14" title="Functional Requirements">edit</a>]</div><a name="Consistent_metadata"></a><h3> Consistent metadata  </h3>
+<ul><li><i><b>Requirement</b></i>: Facilitate the creation and sharing of consistent metadata.
+</li><li><i><b>Usage scenario</b></i>: An aggregator is setting up a 
+search service whereby they can provide cross search, browse and filter 
+capability across metadata harvested using OAI-PMH from a wide variety 
+of repositories implemented on different software platforms.  The 
+aggregator wants to ensure that the data being harvested into the 
+service is consistent, both in terms of the metadata elements used and 
+the contents of those elements.  At present, the use of simple Dublin 
+Core has led to a situation where different repositories have used the 
+loosely defined Dublin Core elements is different ways. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_1" title="EprintsAP scenario 1">Consistent metadata for aggregator search service</a>)
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile" title="EPrints Application Profile">ePrints Application Profile</a> tailored to requirements and will offer guidance.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=15" title="Functional Requirements">edit</a>]</div><a name="Preservation_metadata_approaches"></a><h3> Preservation metadata approaches </h3>
+<ul><li><i><b>Requirement</b></i>: Be compatible with preservation metadata approaches.
+</li><li> <i><b>Proposed solution</b></i>: Representative from AHDS is included in the Working Group.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=16" title="Functional Requirements">edit</a>]</div><a name="Library_cataloguing_approaches"></a><h3> Library cataloguing approaches </h3>
+<ul><li><i><b>Requirement</b></i>: Be compatible with library cataloguing approaches
+</li><li> <i><b>Proposed solution</b></i>: Representative from the DCMI-Libraries Working Group is included in the Working Group.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=17" title="Functional Requirements">edit</a>]</div><a name="Extensibility"></a><h3> Extensibility </h3>
+<ul><li><i><b>Requirement</b></i>: Support extensibility of the application profile for other types of material.
+</li><li><i><b>Usage scenario</b></i>: The current scope of the Eprints 
+Application Profile work has a narrow definition.  If the Profile gains 
+community acceptance, its users may wish to use the Profile for a wider 
+range of materials types that fall under the broader remit of research 
+output (e.g. raw research data, images, multimedia etc.).  Other 
+application profiles may exist for other data types, and it would also 
+be beneficial to the community if the approaches taken by this and other
+ application profiles were mutually supportive and could be successfully
+ mapped.  (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_13" title="EprintsAP scenario 13">Extensibility of application profile</a>)
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Model" title="Model">Model</a> could be extended through the use of the dc:type element.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=18" title="Functional Requirements">edit</a>]</div><a name="Added-value_services"></a><h3> Added-value services </h3>
+<ul><li><i><b>Requirement</b></i>: The Eprints Application Profile should be sustainable, extensible and robust enough to support future added-value services.
+</li><li><i><b>Usage scenario</b></i>: The UK repositories search 
+service would like to support a range of value-added services in the 
+future. These might include citation analysis of work and/or 
+expressions. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_5" title="EprintsAP scenario 5">Added-value services</a>)
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Model" title="Model">Model</a> could be extended; recommendations for future developments will be proposed.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=19" title="Functional Requirements">edit</a>]</div><a name="Identifying_the_full-text"></a><h3> Identifying the full-text  </h3>
+<ul><li><i><b>Requirement</b></i>: Implement an unambiguous method of 
+identifying the full-text(s).  For further details, see the conclusions 
+from the Eprints UK project (quoted above).
+</li><li><i><b>Usage scenario</b></i>: An aggregator harvests metadata 
+records for eprints from a wide variety of repositories. In so doing, it
+ finds that there is no common approach to linking to full-text(s) and 
+therefore any automated means of providing links to the full-text(s) are
+ unreliable. The aggregator needs an unambiguous means of identifying 
+the locations of full-text(s). (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_6" title="EprintsAP scenario 6">Unambiguous identification of the full-text(s) of an eprint</a>)
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#_Is_Available_As" title="EPrints Application Profile">Manifestation isAvailableAs</a> element.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=20" title="Functional Requirements">edit</a>]</div><a name="Identifying_metadata-only_records"></a><h3> Identifying metadata-only records </h3>
+<ul><li><i><b>Requirement</b></i>: Enable identification of metadata-only records.
+</li><li><i><b>Usage scenario</b></i>: A user of a repository or 
+aggregation service finds an Expression of an Eprint that is of interest
+ but can see clearly that there is only a metadata record for that 
+Expression, i.e. there is no available copy.  Alternative Expressions, 
+for which Copies are available, are easily located and the user can 
+navigate to those other Expressions easily. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_14" title="EprintsAP scenario 14">Availability and alternatives</a>)
+</li><li> <i><b>Proposed solution</b></i>: An empty <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Is_Available_As" title="EPrints Application Profile">Manifestation isAvailableAs</a> element.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=21" title="Functional Requirements">edit</a>]</div><a name="Version_identification"></a><h3> Version identification  </h3>
+<ul><li><i><b>Requirement</b></i>: Offer a preliminary Recommendation to
+ version identification issues.  These include different revisions, 
+statuses, translations and multiple formats.  
+</li><li><i><b>Usage scenario</b></i>: Repository x contains a range of 
+'versions' of a particular eprint, including several numbered drafts, 
+some significantly different to each other and some bearing only minor 
+revisions.  It also contains the unrefereed author's manuscript as 
+submitted to the journal and the refereed publisher's proof.  In 
+addition, the published version has been translated into Swedish and 
+French, and these two translations are also available in the repository.
+  An aggregator would like to be able to pick which 'versions' it 
+harvests metadata for (e.g. drafts might be considered out of scope).  
+An aggregator search service would like to make clear, within its search
+ results or browse tree, that these versions are associated with a 
+single 'work'. It also wants to be able to present clear information 
+about the differences between them. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_3" title="EprintsAP scenario 3">The versions question</a>)
+</li><li> <i><b>Proposed solution</b></i>: The <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Model" title="Model">Model</a> groups different 'versions' together; translations and revisions are identified by the <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Has_Version" title="EPrints Application Profile">Has Version</a> and <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Has_Translation" title="EPrints Application Profile">Has Translation</a> elements; additional versioning elements included (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Version_Number_or_String" title="EPrints Application Profile">Version Number or String</a>, <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Description" title="EPrints Application Profile">Description</a>); the Profile contains a space for additional <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#StatuS" title="EPrints Application Profile">Status</a> values to identify differences between versions.  JISC <a href="http://www.ukoln.ac.uk/repositories/digirep/index/VERSIONS" title="VERSIONS">VERSIONS</a> project are represented on the Working Group.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=22" title="Functional Requirements">edit</a>]</div><a name="Navigation_between_versions"></a><h3> Navigation between versions  </h3>
+<ul><li><i><b>Requirement</b></i>: Support navigation between different 'versions' of the same eprint
+</li><li><i><b>Usage scenario</b></i>:A user of a repository or 
+aggregation service finds an Expression of an Eprint that is of interest
+ but can see clearly that there is only a metadata record for that 
+Expression, i.e. there is no available copy.  Alternative Expressions, 
+for which Copies are available, are easily located and the user can 
+navigate to those other Expressions easily. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_14" title="EprintsAP scenario 14">Availability and alternatives</a>)
+</li><li> <i><b>Proposed solution</b></i>: The <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Model" title="Model">Model</a> facilitates this by grouping different 'versions' together.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=23" title="Functional Requirements">edit</a>]</div><a name="Most_appropriate_copy"></a><h3> Most appropriate copy  </h3>
+<ul><li><i><b>Requirement</b></i>: Support identification of the most appropriate or latest Copy of a discovered version
+</li><li><i><b>Usage scenario</b></i>: When harvesting from a 
+repository, the UK repositories search service wants to ensure that it 
+harvests the metadata record for the latest and most appropriate 
+'version(s)' of a particular eprint and to ensure that its metadata 
+always points to the latest or most appropriate version(s). (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_4" title="EprintsAP scenario 4">The latest version</a>)
+</li><li> <i><b>Proposed solution</b></i>:  <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Date_Modified" title="EPrints Application Profile">Date Modified</a> element.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=24" title="Functional Requirements">edit</a>]</div><a name="Fielded_searching"></a><h3> Fielded searching </h3>
+<ul><li><i><b>Requirement</b></i>: Support search of any, or all, elements, particularly of title, author, description, keyword.
+</li><li><i><b>Usage scenario</b></i>: Simple DC does not contain an 
+element for journal, conference or publication name.  The UK 
+repositories search service wants to offer its users the facility to 
+search, browse or filter by this element.  In addition, they also want a
+ citation that can be used in the context of OpenURLs and OpenURL 
+resolvers. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_2" title="EprintsAP scenario 2">Search or browse by journal, conference or publication title</a>)
+</li><li><i><b>Usage scenario</b></i>: An aggregator wants to offer 
+advanced search, browse and filtering capabilities for a wide range of 
+metadata elements. It has found that the different users of its service 
+have different requirements, some needing only the simplest of searches,
+ but others requiring much more refined search, browse and filtering 
+capabilities. Machine-to-machine cross-searches also need to interrogate
+ specific metadata elements.  For journal publication, peer review is an
+ established process which bestows certain assurances about the 
+authority of a piece of work.  Filtering by peer review status is a 
+particular requirement for some searchers. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_17" title="EprintsAP scenario 17">Search, browse and filter by any element</a>)
+</li><li> <i><b>Proposed solution</b></i>: Richer element set facilitates this.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=25" title="Functional Requirements">edit</a>]</div><a name="Browse_by_any_element"></a><h3> Browse by any element  </h3>
+<ul><li><i><b>Requirement</b></i>: Support browse by any element, as 
+required. This does not including browsing of description or identifier 
+elements, but may include browse by keyword, author, date, publisher, 
+journal, publication, conference, book, series name and originating 
+repository / institution.
+</li><li><i><b>Usage scenario</b></i>: Simple DC does not contain an 
+element for journal, conference or publication name.  The UK 
+repositories search service wants to offer its users the facility to 
+search, browse or filter by this element.  In addition, they also want a
+ citation that can be used in the context of OpenURLs and OpenURL 
+resolvers. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_2" title="EprintsAP scenario 2">Search or browse by journal, conference or publication title</a>)
+</li><li><i><b>Usage scenario</b></i>: An aggregator wants to offer 
+advanced search, browse and filtering capabilities for a wide range of 
+metadata elements. It has found that the different users of its service 
+have different requirements, some needing only the simplest of searches,
+ but others requiring much more refined search, browse and filtering 
+capabilities. Machine-to-machine cross-searches also need to interrogate
+ specific metadata elements.  For journal publication, peer review is an
+ established process which bestows certain assurances about the 
+authority of a piece of work.  Filtering by peer review status is a 
+particular requirement for some searchers. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_17" title="EprintsAP scenario 17">Search, browse and filter by any element</a>)
+</li><li> <i><b>Proposed solution</b></i>: Richer element set facilitates this.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=26" title="Functional Requirements">edit</a>]</div><a name="Controlled_vocabularies"></a><h3> Controlled vocabularies </h3>
+<ul><li><i><b>Requirement</b></i>: Support subject browse based on knowledge of controlled vocabulary
+</li><li><i><b>Usage scenario</b></i>: Repository X classifies its 
+resources using the Library of Congress Subject Headings.  Repository Y 
+uses MESH terms or it's biomedical resources.  An aggregator would like 
+to offer a subject browse facility based on the different vocabularies 
+used.  In order to do this it needs be able to establish which terms 
+come from which vocabularies. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_7" title="EprintsAP scenario 7">Browse by subject, using controlled vocabularies</a>)
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Subject" title="EPrints Application Profile">Subject</a> element allows for use of vocabulary encoding schemes.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=27" title="Functional Requirements">edit</a>]</div><a name="Filtering_of_search_results_and_browse_tree"></a><h3> Filtering of search results and browse tree </h3>
+<ul><li><i><b>Requirement</b></i>: Support filtering of search results and browse tree. For example, by type, publisher, date range, status and version
+</li><li><i><b>Usage scenario</b></i>: An aggregator wants to offer 
+advanced search, browse and filtering capabilities for a wide range of 
+metadata elements. It has found that the different users of its service 
+have different requirements, some needing only the simplest of searches,
+ but others requiring much more refined search, browse and filtering 
+capabilities. Machine-to-machine cross-searches also need to interrogate
+ specific metadata elements.  For journal publication, peer review is an
+ established process which bestows certain assurances about the 
+authority of a piece of work.  Filtering by peer review status is a 
+particular requirement for some searchers. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_17" title="EprintsAP scenario 17">Search, browse and filter by any element</a>)
+</li><li> <i><b>Proposed solution</b></i>: Richer element set facilitates this.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=28" title="Functional Requirements">edit</a>]</div><a name="Identifying_available_copies"></a><h3> Identifying available copies  </h3>
+<ul><li><i><b>Requirement</b></i>: Enable movement from search results and browse tree to available copies
+</li><li><i><b>Usage scenario</b></i>: A user has completed searching or
+ browsing and has identified which items in the list are of interest.  
+The results are displayed in such a way that they can move easily from a
+ basic listing to find out precisely what full-text(s) are available. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_9" title="EprintsAP scenario 9">Easy identification of all available copies</a>)
+</li><li> <i><b>Proposed solution</b></i>: Profiles captures all necessary information to facilitate this.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=29" title="Functional Requirements">edit</a>]</div><a name="Filter_by_format"></a><h3> Filter by format </h3>
+<ul><li><i><b>Requirement</b></i>: Support filtering of available copies by format.
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Format" title="EPrints Application Profile">Format</a> element.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=30" title="Functional Requirements">edit</a>]</div><a name="OpenURL"></a><h3> OpenURL </h3>
+<ul><li><i><b>Requirement</b></i>: Enable movement from search results 
+and browse tree to OpenURL link server.  The Profile should be suitable 
+for use in the context of OpenURLs and OpenURL resolvers i.e. support 
+navigation/discovery of particular version of an eprint (e.g. most 
+recent version of the Author's Original) and navigation/discovery of 
+most appropriate copy of discovered 'version'.
+</li><li><i><b>Usage scenario</b></i>: The UK repositories search 
+service would like to support a range of value-added services in the 
+future. These might include citation analysis of work and/or 
+expressions. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_5" title="EprintsAP scenario 5">Added-value services</a>)
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Bibliographic_Citation" title="EPrints Application Profile">Bibliographic Citation</a> element.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=31" title="Functional Requirements">edit</a>]</div><a name="Citation_analysis"></a><h3> Citation analysis  </h3>
+<ul><li><i><b>Requirement</b></i>: Support citation analysis between expressions
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Bibliographic_Citation" title="EPrints Application Profile">Bibliographic Citation</a> element for each Expression.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=32" title="Functional Requirements">edit</a>]</div><a name="Dublin_Core_Citations_WG"></a><h3> Dublin Core Citations WG </h3>
+<ul><li><i><b>Requirement</b></i>: Be compatible with dc-citation WG recommendations
+</li><li> <i><b>Action</b></i>: DCMI Citation Working Group representative on Working Group.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=33" title="Functional Requirements">edit</a>]</div><a name="Names_and_name_authority"></a><h3> Names and name authority </h3>
+<ul><li><i><b>Requirement</b></i>: Provide for an authoritative form of 
+Agent names, to include personal names (authors) and corporate names 
+(publishers, funders).
+</li><li><i><b>Usage scenario</b></i>:  Having harvested a number of 
+repositories, an aggregator is faced with a number of authors with 
+similar names.  It is difficult to disambiguate these names without some
+ additional analysis or information from other sources.  If an authority
+ name form was used, the author would be unambiguously identified. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_10" title="EprintsAP scenario 10">Authority names</a>)
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Agent" title="EPrints Application Profile">Agent</a> entity.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=34" title="Functional Requirements">edit</a>]</div><a name="Statement_of_responsibility"></a><h3> Statement of responsibility  </h3>
+<ul><li><i><b>Requirement</b></i>: Enable the author name, as it appears on an eprint, to be captured.
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Creator" title="EPrints Application Profile">Creator</a> element.
+</li></ul>
+<p><br>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=35" title="Functional Requirements">edit</a>]</div><a name="Provenance"></a><h3> Provenance </h3>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=36" title="Functional Requirements">edit</a>]</div><a name="Research_funder_and_project_code"></a><h3> Research funder and project code </h3>
+<ul><li><i><b>Requirement</b></i>: Enable identification of the research funder and project code
+</li><li><i><b>Usage scenario</b></i>: A research funder has mandated 
+deposit of materials into repositories.  In order to check this using 
+automated means, a repository must offer details of the funder and 
+project code for works associated with a particular funded piece of 
+research. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_18" title="EprintsAP scenario 18">Identify funder and project code</a>)
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Funder" title="EPrints Application Profile">Funder</a> and <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Grant_Number" title="EPrints Application Profile">Grant Number</a> elements.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=37" title="Functional Requirements">edit</a>]</div><a name="Affiliation"></a><h3> Affiliation </h3>
+<ul><li><i><b>Requirement</b></i>: Enable identification of affiliation of an eprint
+</li><li><i><b>Usage scenario</b></i>: For its RAE return, or other 
+purposes, a department/institution wants to be able to easily browse a 
+list of eprints submitted by authors affiliated with that 
+department/institution.  To do this, it would ideally use a service that
+ could aggregate this information from many sources.  This list should 
+contain both eprints deposited in the department's/institution's own 
+repository and those deposited in other repositories.  Deposit in other 
+repositories might happen because an author has decided to use a subject
+ repository, or because the eprint was deposited by another of the 
+co-authors into their departmental/institutional repository.  If an 
+author moves department, eprints created whilst in the employ of a 
+particular department should maintain information identifying that 
+department/institution, rather than the department/institution to which 
+an author has moved. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_11" title="EprintsAP scenario 11">Identifying institutional affiliation</a> and <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_12" title="EprintsAP scenario 12">Identifying departmental affiliation</a>)
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Affiliated_Institution" title="EPrints Application Profile">Affiliated Institution</a> element.
+</li><li><i><b>Note</b></i>: The above usage scenarios, and the Profile,
+ do not allow the associated between the author and 
+institution/department to be maintained over time.  For example, if an 
+eprint has multiple authors (x, y and z) from different institutions (a,
+ b and c) and author x, moves from institution a to institution g, the 
+metadata specified by the application profile contains information about
+ their current institution g (Agent) and it would know that the eprint 
+is affiliated with institution a (and not with g), but it can no longer 
+tie author x to institution a.
+</li><li><i><b>Note</b></i>: The Profile currently includes Institution 
+only and does not go down to School/Department level; department/school 
+out of current scope.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=38" title="Functional Requirements">edit</a>]</div><a name="Copy_is_made_available_by"></a><h3> Copy is made available by  </h3>
+<ul><li><i><b>Requirement</b></i>: Enable identification of the repository or other service making available the copy of an eprint.
+</li><li><i><b>Usage scenario</b></i>: A user, or service, wishes to discover what other copies, or other services, a repository offers.  (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_18" title="EprintsAP scenario 18">Copy is made available by</a>)
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Is_Part_Of" title="EPrints Application Profile">Is Part Of</a> element.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=39" title="Functional Requirements">edit</a>]</div><a name="Metadata_is_made_available_by"></a><h3> Metadata is made available by </h3>
+<ul><li><i><b>Requirement</b></i>: Enable identification of the repository or other service making available the metadata about an eprint.
+</li><li><i><b>Usage scenario</b></i>: A user, or service, wishes to discover what other metadata records, or other services, a repository offers. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_19" title="EprintsAP scenario 19">Metadata is made available by</a>)
+</li><li> <i><b>Proposed solution</b></i>: Out of scope.  This information is considered administrative and would be included in the OAI-PMH response.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=40" title="Functional Requirements">edit</a>]</div><a name="Intermediate_hosts_of_a_metadata_record"></a><h3> Intermediate hosts of a metadata record </h3>
+<ul><li><i><b>Requirement</b></i>: Enable identification of the intermediate hosts of a metadata record.
+</li><li><i><b>Usage scenario</b></i>: In most cases, when an aggregator
+ harvests from a repository, there is an implicit trust in the metadata 
+being harvested.  In cases where records are transmitted across 
+intermediate hosts, each host in the chain must be trusted to accurately
+ reproduce the record.  An aggregator at one end of the chain wants to 
+be able to identify the hosts through which the record has passed.  If 
+these intermediate hosts have altered the metadata record, this should 
+be made apparent. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_20" title="EprintsAP scenario 20">Intermediate hosts</a>)
+</li><li> <i><b>Proposed solution</b></i>: Outside current scope.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=41" title="Functional Requirements">edit</a>]</div><a name="Human-_and_machine-generated_metadata"></a><h3> Human- and machine-generated metadata </h3>
+<ul><li><i><b>Requirement</b></i>: Enable the distinction between human-generated and machine-generated metadata to be maintained, particularly of keywords.
+</li><li><i><b>Usage scenario</b></i>: [supplied by Emma Tonkin] 
+Machine-generated metadata will have characteristics that reflect its 
+origin (as of course will human-generated values). Providing a marker 
+would allow potential issues to be sidestepped as and when they occur. 
+As an example, say someone implements a keyword extraction mechanism 
+that performs badly on certain categories of document, pulling out 
+irrelevant keywords. The record as a whole remains useful, but it may be
+ that the keywords should be weighted appropriately according to the 
+level of confidence that the metadata consumer has in the accuracy of 
+the information in the current context, which implies providing 
+sufficient information to inform that decision. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_21" title="EprintsAP scenario 21">Human- and machine- generated metadata</a>)
+</li><li> <i><b>Action</b></i>: Outside current scope.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=42" title="Functional Requirements">edit</a>]</div><a name="Publication_title"></a><h3>  Publication title </h3>
+<ul><li><i><b>Requirement</b></i>: Support disambiguation of publication title
+</li><li><i><b>Usage scenario</b></i>: Simple DC does not contain an 
+element for journal, conference or publication name.  The UK 
+repositories search service wants to offer its users the facility to 
+search, browse or filter by this element.  In addition, they also want a
+ citation that can be used in the context of OpenURLs and OpenURL 
+resolvers. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_2" title="EprintsAP scenario 2">Search or browse by journal, conference or publication title</a>)
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Bibliographic_Citation" title="EPrints Application Profile">Bibliographic Citation</a> element contains Journal title.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=43" title="Functional Requirements">edit</a>]</div><a name="Multiple_titles"></a><h3> Multiple titles </h3>
+<ul><li><i><b>Requirement</b></i>: Support title changes between expressions and the main Eprint (Scholarly Work)
+</li><li><i><b>Usage scenario</b></i>: Several Expressions of the same 
+work exist, with slight changes to the title.  In addition, a 
+translation is available, with a translated title.  Multiple titles 
+cause confusion to aggregating services and their users.  A single 'main
+ title' should be provided for use in search results and browse trees.  
+Alternative titles should be included with the metadata record. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_22" title="EprintsAP scenario 22">Multiple titles</a>)
+</li><li> <i><b>Proposed solution</b></i>: Profile allows for different titles.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=44" title="Functional Requirements">edit</a>]</div><a name="Rights"></a><h3> Rights </h3>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=45" title="Functional Requirements">edit</a>]</div><a name="Access_restrictions"></a><h3> Access restrictions </h3>
+<ul><li><i><b>Requirement</b></i>: Facilitate identification of open access materials
+</li><li><i><b>Usage scenario</b></i>: A user of a repository 
+aggregation service wishes to know whether a particular Copy is open 
+access, or subject to some restrictions on access rights.  The 
+aggregator can provide this information easily and unambiguously. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_15" title="EprintsAP scenario 15">Open access, or not</a>)
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Access_Rights" title="EPrints Application Profile">Access Rights</a> and <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Licence" title="EPrints Application Profile">Licence</a> elements.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=46" title="Functional Requirements">edit</a>]</div><a name="Copyright_holders"></a><h3> Copyright holders </h3>
+<ul><li><i><b>Requirement</b></i>: Enable identification of copyright holders of different expressions
+</li><li><i><b>Usage scenario</b></i>: The copyright holder of different
+ Expressions may differ, particularly in cases where an author has 
+signed over copyright to the publisher of a particular Expression.  
+Different publishers have different policies on deposit into 
+repositories.  A service exists that holds information about these 
+policies.  Having established who owns the copyright, an aggregator may 
+wish to use information about copyright holder to interrogate such a 
+service and provide additional information about deposit policies. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_16" title="EprintsAP scenario 16">Identifying copyright holders</a>)
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Copyright_Holder" title="EPrints Application Profile">Copyright Holder</a> element.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=47" title="Functional Requirements">edit</a>]</div><a name="Dates"></a><h3> Dates </h3>
+<ul><li><i><b>Requirements</b></i>:
+<ul><li>Date available - necessary to establish when a piece of work, or
+ a particular copy, was/will be made publicly available 
+(dcterms:available)
+</li><li>Date of modification of a copy - necessary to identify the latest version (dcterms:modified)
+</li><li>Date of formal publication (dcterms:issued) - forms part of the bibliographic citation (dc:bibliographicCitation)
+</li></ul>
+</li><li> <i><b>Proposed solution</b></i>: Elements included for the above dates.
+</li></ul>
+<ul><li><i><b>Consider requirements</b></i>:
+<ul><li>Date copyrighted - can supplement the date available information (dcterms:dateCopyrighted)
+</li><li>Date created - can help identify older material which has only recently been made publicly available (dcterms:created)
+</li></ul>
+</li></ul>
+<ul><li><i><b>Not Required</b></i>:
+<ul><li>Validity periods (dcterms:valid)
+</li><li>Dates of submission to / acceptance by publisher/conference etc. (dcterms:dateSubmitted, dcterms:dateAccepted)
+</li><li>Dates of submission of theses/dissertations (dcterms:dateSubmitted) [out of scope for current work]
+</li><li>Date captured - could be used for digitized versions (dcterms:dateCaptured)
+</li><li>Date of deposit [out of scope - administrative metadata]
+</li></ul>
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=48" title="Functional Requirements">edit</a>]</div><a name="Translated_abstract"></a><h3> Translated abstract </h3>
+<ul><li><i><b>Requirement</b></i>: Support the capture of multiple language versions of an abstract, for translations.
+</li><li><i><b>Usage scenario</b></i>: An eprint and its abstract are 
+deposited into a repository.  At a later point a French translation is 
+added to the repository, with a French abstract. (<a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_scenario_23" title="EprintsAP scenario 23">Translated abstract</a>)
+</li><li> <i><b>Proposed solution</b></i>: Use of a language attribute for abstract.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit&amp;section=49" title="Functional Requirements">edit</a>]</div><a name="Embargo_periods"></a><h3>  Embargo periods  </h3>
+<ul><li><i><b>Requirement</b></i>: Support the identification of publisher-imposed embargo periods.
+</li><li> <i><b>Proposed solution</b></i>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Access_Rights" title="EPrints Application Profile">Access Rights</a> and <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#Licence" title="EPrints Application Profile">Licence</a> and <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile#_Description_of_a_Copy_of_a_Manifestation_of_an_Expression_of_the_eprint" title="EPrints Application Profile">Date Available</a> elements.
+</li></ul>
+<p>A <i><b>Use case</b></i> has been prepared outlining some of the issues from the scenarios listed: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EprintsAP_use_case_1" title="EprintsAP use case 1">Application profile for eprints used by UK repositories search service</a>
+</p>
+<!-- Saved in parser cache with key digirep_wiki_db:pcache:idhash:1708-0!1!0!0!!en!2 and timestamp 20130207072434 -->
+<div class="printfooter">
+Retrieved from "<a href="http://www.ukoln.ac.uk/repositories/digirep/index/Functional_Requirements">/repositories/digirep/index/Functional_Requirements</a>"</div>
+	    <div id="catlinks"><p class="catlinks"><a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Special:Categories&amp;article=Functional_Requirements" title="Special:Categories">Categories</a>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Category:ScholarlyWorksApplicationProfile" title="Category:ScholarlyWorksApplicationProfile">ScholarlyWorksApplicationProfile</a></p></div>	    <!-- end content -->
+	    <div class="visualClear"></div>
+	  </div>
+	</div>
+      </div>
+      <div id="column-one">
+	<div id="p-cactions" class="portlet">
+	  <h5>Views</h5>
+	  <ul>
+	    <li id="ca-nstab-main" class="selected"><a title="View the content page [control-c]" accesskey="c" href="http://www.ukoln.ac.uk/repositories/digirep/index/Functional_Requirements">Article</a></li><li id="ca-talk" class="new"><a title="Discussion about the content page [control-t]" accesskey="t" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Talk:Functional_Requirements&amp;action=edit">Discussion</a></li><li id="ca-edit"><a title="You can edit this page. Please use the preview button before saving. [control-e]" accesskey="e" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=edit">Edit</a></li><li id="ca-history"><a title="Past versions of this page. [control-h]" accesskey="h" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;action=history">History</a></li>	  </ul>
+	</div>
+	<div class="portlet" id="p-personal">
+	  <h5>Personal tools</h5>
+	  <div class="pBody">
+	    <ul>
+	    <li id="pt-login"><a title="You are encouraged to log in, it is not mandatory however. [control-o]" accesskey="o" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Special:Userlogin&amp;returnto=Functional_Requirements">Create an account or log in</a></li>	    </ul>
+	  </div>
+	</div>
+	<div class="portlet" id="p-logo">
+	  <a style="background-image: url(/repositories/digirep/skins/common/images/jisc_ukolo_cetis_version_2.png);" href="http://www.ukoln.ac.uk/repositories/digirep/index/Repositories_Research" title="Repositories Research"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class="portlet" id="p-navigation">
+	  <h5>Navigation</h5>
+	  <div class="pBody">
+	    <ul>
+	    	      <li id="n-mainpage"><a title="Visit the Main Page [control-z]" accesskey="z" href="http://www.ukoln.ac.uk/repositories/digirep/index/Repositories_Research">Repositories Research</a></li>
+	     	      <li id="n-About"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/About">About</a></li>
+	     	      <li id="n-News"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/News">News</a></li>
+	     	      <li id="n-Events"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Events">Events</a></li>
+	     	      <li id="n-Info-and-activities"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/RRT_information_and_activities">Info and activities</a></li>
+	     	      <li id="n-Projects"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Projects">Projects</a></li>
+	     	      <li id="n-Clusters"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Clusters">Clusters</a></li>
+	     	      <li id="n-Scenarios/use-cases/UML"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Scenarios_and_use_cases">Scenarios/use cases/UML</a></li>
+	     	      <li id="n-Workflows"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Workflows">Workflows</a></li>
+	     	      <li id="n-Deposit-API/SWORD"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Deposit">Deposit API/SWORD</a></li>
+	     	      <li id="n-Application-Profiles"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Application_Profiles">Application Profiles</a></li>
+	     	      <li id="n-CRIG"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/CRIG">CRIG</a></li>
+	     	      <li id="n-FAQs"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/FAQs">FAQs</a></li>
+	     	      <li id="n-Links"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Links">Links</a></li>
+	     	      <li id="n-recentchanges"><a title="The list of recent changes in the wiki. [control-r]" accesskey="r" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Recentchanges">Recent changes</a></li>
+	     	      <li id="n-Sandbox"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Sandbox">Sandbox</a></li>
+	     	      <li id="n-Help"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Help:Contents">Help</a></li>
+	     	    </ul>
+	  </div>
+	</div>
+		<div id="p-search" class="portlet">
+	  <h5><label for="searchInput">Search</label></h5>
+	  <div class="pBody">
+	    <form name="searchform" action="/repositories/digirep/index/Special:Search" id="searchform">
+	      <input id="searchInput" name="search" accesskey="f" type="text">
+	      <input name="go" class="searchButton" id="searchGoButton" value="Go" type="submit">&nbsp;<input name="fulltext" class="searchButton" value="Search" type="submit">
+	    </form>
+	  </div>
+	</div>
+	<div class="portlet" id="p-tb">
+	  <h5>Toolbox</h5>
+	  <div class="pBody">
+	    <ul>
+		  		  <li id="t-whatlinkshere"><a title="List of all wiki pages that link here [control-j]" accesskey="j" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Whatlinkshere/Functional_Requirements">What links here</a></li>
+		  		  <li id="t-recentchangeslinked"><a title="Recent changes in pages linked from this page [control-k]" accesskey="k" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Recentchangeslinked/Functional_Requirements">Related changes</a></li>
+		                	      	      	      	      	      	      	      <li id="t-upload"><a title="Upload images or media files [control-u]" accesskey="u" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Upload">Upload file</a></li>	      	      <li id="t-specialpages"><a title="List of all special pages [control-q]" accesskey="q" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Specialpages">Special pages</a></li>	      	      	      <li id="t-print"><a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Functional_Requirements&amp;printable=yes">Printable version</a></li>
+	      	    </ul>
+	  </div>
+	</div>
+	      </div><!-- end of the left (by default at least) column -->
+      <div class="visualClear"></div>
+      <div id="footer">
+    <div id="f-poweredbyico"><a href="http://www.jisc.ac.uk/"><img src="index_files/JISCcolour23.png" alt="Sponsored by JISC" title="Sponsored by JISC"></a></div>	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by-sa/2.5/"><img src="index_files/somerights20.png" alt="Attribution-ShareAlike 2.5"></a></div>	<ul id="f-list">
+	  <li id="f-lastmod"> This page was last modified 10:29, 14 May 2008.</li>	  <li id="f-viewcount">This page has been accessed 63,149 times.</li>	  	  	  <li id="f-copyright">Content is available under <a href="http://creativecommons.org/licenses/by-sa/2.5/" class="external " title="http://creativecommons.org/licenses/by-sa/2.5/" rel="nofollow">Attribution-ShareAlike 2.5</a>.</li>	  <li id="f-about"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/DigiRepWiki:About" title="DigiRepWiki:About">About DigiRepWiki</a></li>	  <li id="f-disclaimer"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/DigiRepWiki:General_disclaimer" title="DigiRepWiki:General disclaimer">Disclaimers</a></li>	  	</ul>
+      </div>
+    </div>
+    <!-- Served by wumpus in 0.19 secs. -->  
+
+</body></html>

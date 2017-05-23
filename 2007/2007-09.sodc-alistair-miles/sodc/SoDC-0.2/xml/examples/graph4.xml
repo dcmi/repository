@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph 
+  xmlns="http://purl.org/net/sodc/xml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://purl.org/net/sodc/xml ../sodc-xml.xsd">  
+
+  <resource>
+    <uri>http://example.com/book#1</uri>
+    <property uri="http://purl.org/dc/elements/1.1/title">
+      <value>
+        <plainliteral lang="en">Winnie the Pooh</plainliteral>
+      </value>
+    </property>
+    <property uri="http://purl.org/dc/elements/1.1/creator">
+      <value>
+        <uri>http://example.com/person#1</uri>
+      </value>
+    </property>
+    <property uri="http://example.com/property#price">
+      <value>
+        <typedliteral datatype="http://www.w3.org/2001/XMLSchema#decimal">9.99</typedliteral>
+      </value>
+    </property>
+  </resource>
+
+  <resource>
+    <uri>http://example.com/person#1</uri>
+    <property uri="http://xmlns.com/foaf/0.1/name">
+      <value>
+        <plainliteral lang="en">A. A. Milne</plainliteral>
+      </value>
+    </property>
+  </resource>
+  
+</graph>

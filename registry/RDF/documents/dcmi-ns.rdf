@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;">
+
+<rdf:Description rdf:about="http://dublincore.org/documents/dcmi-namespace/">
+	<dc:title xml:lang="en-US">Namespace Policy for the Dublin Core Metadata Initiative (DCMI)</dc:title>
+	<dc:description xml:lang="en-US">This document specifies the conventions used for identifying current and future DCMI 
+	namespaces. All DCMI recommendations that make use of namespaces will conform to this recommendation.
+	</dc:description>
+	<dc:date>2001-10-26</dc:date>
+	<dc:format>text/html</dc:format>
+	<dc:language>en-US</dc:language>
+	<dc:publisher xml:lang="en-US">Dublin Core Metadata Initiative</dc:publisher>
+	<dc:contributor>Andy Powell</dc:contributor>
+	<dc:contributor>Harry Wagner</dc:contributor>
+	<dc:contributor>Stuart Weibel</dc:contributor>
+	<dc:contributor>Tom Baker</dc:contributor>
+	<dc:contributor>Tod Matola</dc:contributor>
+	<dc:contributor>Eric Miller</dc:contributor>
+	<dcq:conformsTo rdf:resource="http://dublincore.org/documents/#recommendations"/>
+</rdf:Description>
+
+</rdf:RDF>

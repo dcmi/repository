@@ -1,0 +1,163 @@
+@import "http://dublincore.org/css/default.css";
+
+table.dcap { 
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+}
+
+table.dcap th, table.dcap td  {
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+}
+
+table.dcap th.label {
+	width: 10%;
+	text-align: center;
+}
+
+table.dcap th.qname {
+	width: 20%;
+	text-align: center;
+}
+
+table.dcap th.usage {
+	width: 26%;
+	text-align: center;
+}
+
+table.dcap th.oblig {
+	width: 6%;
+	text-align: center;
+}
+
+table.dcap th.ves {
+	width: 10%;
+	text-align: center;
+}
+
+table.dcap th.vuri {
+	width: 6%;
+	text-align: center;
+}
+
+table.dcap th.vstr {
+	width: 6%;
+	text-align: center;
+}
+
+table.dcap th.ses {
+	width: 10%;
+	text-align: center;
+}
+
+table.dcap th.rich {
+	width: 6%;
+	text-align: center;
+}
+
+table.dcap td.label {
+	width: 10%;
+}
+
+table.dcap td.qname {
+	width: 20%;
+}
+
+table.dcap td.usage {
+	width: 26%;
+}
+
+table.dcap td.oblig {
+	width: 6%;
+	text-align: center;
+}
+
+table.dcap td.ves {
+	width: 10%;
+}
+
+table.dcap td.vuri {
+	width: 6%;
+	text-align: center;
+}
+
+table.dcap td.vstr {
+	width: 6%;
+	text-align: center;
+}
+
+table.dcap td.ses {
+	width: 10%;
+}
+
+table.dcap td.rich {
+	width: 6%;
+	text-align: center;
+}
+
+tr.subhead td {
+	background: #cccccc;
+}
+
+table.propertyUsage th.label { 
+	text-align: left 
+}
+
+table.propertyUsage th.value { 
+	text-align: left 
+}
+
+table.propertyUsage td.label { 
+	text-align: left 
+}
+
+table.propertyUsage td.value { 
+	text-align: left 
+}
+
+
+table.valueRepresentation {
+	width: 75%;
+}
+
+table.valueRepresentation th.vuri {
+	width: 23%;
+	text-align: center;
+}
+
+table.valueRepresentation th.vstr {
+	width: 23%;
+	text-align: center;
+}
+
+table.valueRepresentation th.ses {
+	text-align: center;
+	width: 31%;
+}
+
+table.valueRepresentation th.rich {
+	width: 23%;
+	text-align: center;
+}
+
+table.valueRepresentation td.vuri {
+	width: 23%;
+	text-align: center;
+}
+
+table.valueRepresentation td.vstr {
+	width: 23%;
+	text-align: center;
+}
+
+table.valueRepresentation td.ses {
+	width: 31%;
+}
+
+table.valueRepresentation td.rich {
+	width: 23%;
+	text-align: center;
+}

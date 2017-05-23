@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://dublincore.org/documents/2008/08/04/dc-html/">
+<title>dublincore.org Site Map</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body class="quick-links-and-site-map">
+
+<!--#include virtual="/ssi/header.shtml" -->
+
+<div align="left"  id="leftColumnTitle">   
+    <!-- START TEXT FOR LEFT COLUMN -->
+    <h1>About the Web site</h1>      
+    <div id="leftColumnBody">
+
+        <p>A major redesign of the DCMI Web site was undertaken
+        in September 2009.  For awhile, if you prefer, the <a
+        href="/old/">old home page</a> and <a
+        href="/sitemap/sitemap-20090831.shtml">old site
+        map</a> should remain fairly serviceable, though they
+        will no longer be maintained.</p>
+
+    <!-- END TEXT FOR LEFT COLUMN-->
+  </div>
+</div>
+
+<div id="columnRight">
+  <!-- START Main Content -->
+    <h1>Site Map</h1>
+
+    <h2><a href="/">Home page</a></h2>
+        <ul>
+        <li><a href="/news/">News and announcements</a></li>
+        <li><a href="/news/communications/#statusreport">DCMI Status Reports</a></li>
+        <li><a href="/news/communications/#pressreleases">DCMI Press Releases</a></li>
+        </ul>
+    <h2><a href="/metadata-basics/">Metadata Basics</a></h2>
+        <ul>
+        <li><a href="/documents/dcmi-terms/">DCMI Metadata Terms</a></li>
+        <li><a href="/documents/interoperability-levels/">Interoperability Levels for Dublin Core Metadata</a></li>
+        <li><a href="/workshops/">Dublin Core workshops</a></li>
+        <li><a href="/documents/dces/">Dublin Core Metadata Element Set</a></li>
+        <li><a href="http://www.iso.org/iso/search.htm?qt=15836&searchSubmit=Search&sort=rel&type=simple&published=on">ISO Standard 15836:2009</a></li>
+        <li><a href="http://linkeddata.org/">Linked Data</a></li>
+        <li><a href="/documents/abstract-model/">DCMI Abstract Model</a></li>
+        <li><a href="/documents/singapore-framework/">Singapore Framework for Dublin Core Application Profiles</a>
+        <li><a href="/documents/profile-guidelines/">Guidelines for Dublin Core Application Profiles</a>
+        </ul>
+
+    <h2><a href="/specifications/index.shtml" title="DCMI Specifications">DCMI Specifications</a></h2>
+        <ul>
+        <li><a href="/documents/">Full list of specifications</a>, including superseded specifications</li>
+            <ul>
+            <li><a href="/resources/translations/">Translations</a> of selected specifications</li>
+            </ul>
+        <li>Semantic Recommendations</li>
+            <ul>
+            <li><a href="/documents/dcmi-terms/">DCMI Metadata Terms</a>
+                <ul>
+                <li><a href="/documents/dcmi-namespace/">DCMI Namespace Policy</a>
+                <li><a href="/schemas/rdfs/">DCMI term declarations represented in RDF schema language</a>
+                <li><a href="http://purl.org/dcregistry/">The Dublin Core Metadata Registry</a> 
+                <li><a href="/documents/dces/">Dublin Core Metadata Element Set</a> (a ready-reference 
+                     subset of DCMI Metadata Terms)
+                </ul>
+            </ul>
+        <li>User guidelines</li>
+            <ul>
+            <li><a href="/documents/interoperability-levels/">Interoperability Levels for Dublin Core Metadata</a>
+            <li><a href="/documents/profile-guidelines/">Guidelines for Dublin Core Application Profiles</a>
+            <li><a href="/documents/singapore-framework/">Singapore Framework for Dublin Core Application Profiles</a>
+            <li><a href="/documents/usageguide/">Using Dublin Core</a>
+            </ul>
+        <li>Model-related specifications</li>
+            <ul>
+            <li><a href="/documents/abstract-model/">DCMI Abstract Model</a>
+            <li><a href="/documents/dc-text/">Expressing Dublin Core metadata using the DC-Text format</a>
+            <li><a href="/documents/dc-dsp/">Description Set Profiles: A constraint language for 
+                 Dublin Core Application Profiles</a>
+            <li><a href="/documents/profile-review-criteria/">Criteria for the Review of Application Profiles</a>
+            <li><a href="/documents/dsp-wiki-syntax/">A MoinMoin wiki syntax for Description Set Profiles</a>
+            </ul>
+        <li>Syntax guidelines</li>
+            <ul>
+            <li><a href="/documents/dc-html/">Expressing Dublin Core metadata using the HTML/XHTML meta and link 
+            elements (DC-HTML)</a>
+            <li><a href="/documents/dc-ds-xml/">Expressing Dublin Core Description Sets using XML (DC-DS-XML)</a>
+                <li><a href="/documents/dc-xml-guidelines/">Guidelines for impelmenting Dublin Core in XML (2003)</a>
+                <li><a href="/documents/dc-ds-xml-notes/">Notes on the DC-DS-XML XML format</a>
+            <li><a href="/documents/dc-rdf/">DC-RDF</a>
+            </ul>
+        </ul>
+
+    <h2><a href="/community-and-events/index.shtml" title="Community and Events">Community and Events</a></h2>
+        <ul>
+        <li><a href="/groups/">DCMI Work Structure</a></li>
+        <li><a href="/usage/">DCMI Usage Board</a></li> 
+        <li><a href="/groups/architecture/">DCMI Architecture Forum</a></li>
+        <li><a href="http://www.jiscmail.ac.uk/lists/dc-general.html">DC-General mailing list</a></li>
+        <li><a href="/documents/workstructure/">Operational aspects of DCMI Work structure: Communities and Task Groups</a></li>
+        <li><a href="/documents/approval/">Procedure for approval of proposals by DCMI</a></li>
+        <li><a href="/workshops/">DCMI Conferences and Workshops</a></li>
+        <li><a href="/about/contact/">Feedback page</a></li>
+        <li><a href="/tools/">Tools and software</a></li>
+        <li><a href="/projects/">Alphabetical listing of projects</a></li>
+        <li><a href="/about/feedback/">Web form for feedback</a></li>
+        <li><a href="http://purl.org/dcpapers">DCMI Conference Papers</a></li>
+        </ul>
+
+    <h2><a href="/about-us/">About Us</a></h2>
+        <ul>
+        <li><a href="/about/">About DCMI</a>: mission, bylaws, members, committees, community, policies</li>
+        <li><a href="/about/bylaws/">DCMI By-laws</a></li>
+        <li><a href="/about/executive/">DCMI Executive</a></li>
+        <li><a href="/about/oversight/">DCMI Oversight Committee</a></li>
+        <li><a href="/about/members/">DCMI Members</a></li>
+        <li><a href="/about/partnership/">DCMI Partners</a>, including 
+            <ul>
+            <li><a href="/about/partnership/platinum/">Platinum Partners</a></li>
+            <li><a href="/about/partnership/gold/">Gold Partners</a></li>
+            <li><a href="/about/partnership/activity/">Activity Sponsors</a></li>
+            </ul>
+        <li><a href="/usage/">DCMI Usage Board</a></li>
+        <li><a href="/about/advisory/">DCMI Advisory Board</a></li>
+        <li><a href="/groups/">DCMI Communities and Task Groups</a></li>
+        <li><a href="/about/copyright/">Copyright Statement</a></li>
+        <li><a href="/about/privacy/">Privacy Statement</a></li>
+        </ul>
+
+</div>
+<!-- END Main Content -->
+
+<div>
+  <!--#include virtual="/ssi/footer.shtml" -->
+</div>
+
+</body>
+</html>

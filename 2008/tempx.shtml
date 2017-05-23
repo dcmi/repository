@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>Dublin Core Metadata Initiative (DCMI)</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="../../admin20010920.old/www/index.shtml.rdf" />
+  </head>
+
+  <body>
+    <!--#include virtual="/ssi/headerhome.txt" -->
+
+    <table width="100%" border="0"
+    summary="Layout table: The first cell contains a vertical rule, the second a navigation bar of DCMI general information and ready references, the third a vertical rule, the fourth contains news items, the fifth a vertical rule, the six a navigation bar of DCMI Working Groups, and the seventh a vertical rule.">
+      <tbody>
+        <tr valign="top">
+          <td bgcolor="#EEEEEE" width="150">
+            <table width="100%" cellspacing="0" cellpadding="0"
+            border="0"
+            summary="Layout table: Contains graphical text.">
+              <tbody>
+                <tr bgcolor="#99A59F" align="center">
+                  <td><img src="/images/navlist/overview.gif"
+                  width="150" height="25"
+                  alt="Dublin Core Metadata Initiative Overview"
+                  border="0" /></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table width="100%" cellspacing="0" cellpadding="0"
+            border="0"
+            summary="Layout table: Contains navigation.">
+              <tbody>
+                <tr>
+                  <td class="smallsans">
+                    <dl>
+                      <dt class="navlist"><a href="/about/">About
+                      the Initiative</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/about/contact/">Contact</a></dt>
+
+                      <dt class="navlist"><a href="/news/">DCMI
+                      News</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/documents/">Documents</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/meetings/">Meetings and
+                      Presentations</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/projects/">Projects</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/resources/">Resources</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/schemas/">Schemas</a></dt>
+
+                      <dt class="navlist"><a href="/tools/">Tools
+                      and Software</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/usage/">Usage Board</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/workshops/">Workshops & Conferences</a></dt>
+                    </dl>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table width="100%" cellspacing="0" cellpadding="0"
+            border="0"
+            summary="Layout table: Contains graphical text.">
+              <tbody>
+                <tr bgcolor="#99A59F" align="center">
+                  <td><img src="/images/navlist/readyreference.gif"
+                  width="150" height="25" alt="Ready Reference"
+                  border="0" /></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table width="100%" border="0" cellspacing="0"
+            cellpadding="0"
+            summary="Layout table: Contains navigation.">
+              <tbody>
+                <tr>
+                  <td class="smallsans">
+                    <dl>
+
+                      <dt class="navlist"><a
+                      href="/news/adoption/">Adoption of Dublin Core by Governments</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/about/trustees/">Board of Trustees</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/documents/dces/">DC Element
+                      Set</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/documents/dcmes-qualifiers/">DC
+                      Qualifiers</a></dt>
+
+                      <dt class="navlist"><abbr
+                      title="Frequently Asked Questions"><a
+                      href="/resources/faq/">FAQ</a></abbr></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/mailinglists.shtml">Mailing
+                      Lists</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/resources/translations/">Translations</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/documents/usageguide/">Usage
+                      Guide</a></dt>
+                    </dl>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table width="100%" cellspacing="0" cellpadding="0"
+            border="0"
+            summary="Layout table: Contains graphical text.">
+              <tbody>
+                <tr bgcolor="#99A59F" align="center">
+                  <td><img src="/images/navlist/mirrors.gif"
+                  width="150" height="25" alt="Mirrors"
+                  border="0" /></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table width="90%" border="0" cellspacing="0"
+            cellpadding="0"
+            summary="Layout table: Contains navigation.">
+              <tbody>
+                <tr>
+                  <td class="smallsans">
+                    <dl>
+                      
+              <dt class="navlist"><a
+                      href="http://au.dublincore.org">Australia </a></dt>
+              <dt class="navlist">(hosted by National Library of Australia)</dt>
+                      
+              <dt class="navlist"><a
+                      href="http://uk.dublincore.org">United Kingdom </a></dt>
+              <dt class="navlist">(hosted by UKOLN)</dt>
+                    </dl>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+
+          
+    <td> 
+      <table width="100%" cellspacing="5" cellpadding="5"
+            border="0" summary="Layout table">
+        <tr bgcolor="#A10908"> 
+          <td> 
+            <div align="center"> <a href="http://www.bncf.net/dc2002/"><img
+                    src="images/logos/dc2002_banner.gif" width="400"
+                    height="60" border="0" /></a> </div>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <div class="intro"> <font face="Arial, Helvetica, sans-serif"><b><font size="2">The 
+              Dublin Core Metadata Initiative is an open forum engaged in the 
+              development of interoperable online metadata standards that support 
+              a broad range of purposes and business models. DCMI's activities 
+              include consensus-driven working groups, global workshops, conferences, 
+              standards liaison, and educational efforts to promote widespread 
+              acceptance of metadata standards and practices. </font></b></font> 
+            </div>
+          </td>
+        </tr>
+        <tr> 
+          <td><!--#include virtual="news.txt" --></td>
+        </tr>
+      </table>
+    </td>
+
+          <td bgcolor="#EEEEEE" width="150">
+            <table width="100%" cellspacing="0" cellpadding="0"
+            border="0"
+            summary="Layout table: Contains graphical text.">
+              <tbody>
+                <tr bgcolor="#99A59F" align="center">
+                  <td><img src="/images/navlist/workinprogress.gif"
+                  width="150" height="25" alt="Work In Progress"
+                  border="0" /></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table width="100%" cellspacing="0" cellpadding="0"
+            border="0"
+            summary="Layout table: Contains navigation.">
+              <tbody>
+                <tr valign="top">
+                  <td class="smallsans">
+                    <dl>
+                      
+              <dt class="navlist"><a href="/groups/usage/public-comment.shtml">Public 
+                Comment Needed</a></dt>
+
+                      
+              <dt class="navlist"><a href="/news/communications/deliverables-200106.shtml">Status 
+                of Deliverables</a></dt>
+                    </dl>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table width="100%" cellspacing="0" cellpadding="0"
+            border="0"
+            summary="Layout table: Contains graphical text.">
+              <tbody>
+                <tr bgcolor="#99A59F" align="center">
+                  <td><img src="/images/navlist/workinggroups.gif"
+                  width="150" height="25" alt="Working Groups"
+                  border="0" /></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table width="100%" cellspacing="0" cellpadding="0"
+            border="0"
+            summary="Layout table: Contains navigation.">
+              <tbody>
+                <tr valign="top">
+                  <td class="smallsans">
+                    <dl>
+                      <dt class="navlist"><a
+                      href="/groups/admin/">Administrative
+                      Metadata</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/agents/">Agents</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/architecture/">Architecture</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/citation/">Citation</a></dt>
+
+                      
+              <dt class="navlist"><a
+                      href="/groups/collections/">Collection Description</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/education/">Education</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/government/">Government</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/libraries/">Libraries</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/registry/">Registry</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/standards/">Standards</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/tools/">Tools</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/type/">Type</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/guide/">User Guide</a></dt>
+                    </dl>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table width="100%" border="0" cellspacing="0"
+            cellpadding="0"
+            summary="Layout table: Contains graphical text.">
+              <tbody>
+                <tr bgcolor="#99A59F" align="center">
+                  <td><img src="/images/navlist/interestgroups.gif"
+                  width="150" height="25" alt="Interest Groups"
+                  border="0" /></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table width="100%" border="0" cellspacing="0"
+            cellpadding="0"
+            summary="Layout table: Contains navigation.">
+              <tbody>
+                <tr>
+                  <td class="smallsans">
+                    <dl>
+                      <dt class="navlist"><a
+                      href="/groups/access/">Accessibility</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/biz/">Business</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/environ/">Environment</a></dt>
+
+                      <dt class="navlist"><a
+                      href="/groups/languages/">Localization and Internationalization</a></dt>
+                    </dl>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <!--#include virtual="/ssi/footer.shtml" -->
+  </body>
+</html>
+

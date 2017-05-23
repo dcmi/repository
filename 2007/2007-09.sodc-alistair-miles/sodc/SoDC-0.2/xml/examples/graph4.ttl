@@ -1,0 +1,4 @@
+<http://example.com/book#1> <http://purl.org/dc/elements/1.1/title> """Winnie the Pooh"""@en ;
+   <http://purl.org/dc/elements/1.1/creator> <http://example.com/person#1> ;
+   <http://example.com/property#price> """9.99"""^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.com/person#1> <http://xmlns.com/foaf/0.1/name> """A. A. Milne"""@en .

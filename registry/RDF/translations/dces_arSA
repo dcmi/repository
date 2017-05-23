@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://haddouti.de/DC_arabic.html">
+	<dc:title xml:lang="en-US">Dublin Core Version 1.1 Reference Description (Arabic Translation)</dc:title>
+	<dc:date>1998-12-29</dc:date>
+	<dc:creator xml:lang="en-US">Hachim Haddouti</dc:creator>
+	<dc:creator rdf:resource="mailto:had_de@yahoo.de"/>
+	<dc:language xml:lang="ar-SA">
+	&#x0627;&#x0644;&#x0639;&#x0631;&#x0628;&#x064a;&#x0629; &#x0627;&#x0644;&#x0646;&#x0633;&#x062e;&#x0629;/&#x0639;&#x0631;&#x0628;&#x064a;
+	</dc:language>
+	<dc:language xml:lang="en-US">Arabic</dc:language>
+	<dc:language>ar-SA</dc:language>
+	<dc:source rdf:resource="http://haddouti.de/DC_arabic.html"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DCMI Workplan - 2002</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="workplan-2002.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>DCMI Workplan - 2002</h1>
+<table class="border" cellspacing="0">
+<tr> 
+<th>Month</th>
+<th>WG</th>
+<th>Item</th>
+<th>Responsible</th>
+<th>Confirmed</th>
+</tr>
+<tr> 
+<td>Jan 2002</td>
+<td>EDU</td>
+<td>Audience characteristics data</td>
+<td>Mason, Sutton</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Feb 2002</td>
+<td>ADM</td>
+<td>Revised proposal</td>
+<td>Andresen</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Feb 2002</td>
+<td>CIT</td>
+<td>Proposal for citation element refinement for dc:identifier</td>
+<td>Apps</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Feb 2002</td>
+<td>CIT</td>
+<td>Proposal for a journal article bibliographic citation Dublin Core Structured Value</td>
+<td>Apps</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Feb 2002</td>
+<td>CIT</td>
+<td>List of standard identifier encoding schemes relevant to journal articles and registration (when procedure available)</td>
+<td>Apps</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Feb 2002</td>
+<td>REG</td>
+<td>New charter and workplan</td>
+<td>Heery, Wagner</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Feb 2002</td>
+<td>TYPE</td>
+<td>Proposal for a physical object DCMI Type</td>
+<td>Apps</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>March 2002</td>
+<td>ARCH</td>
+<td>Architecture Roadmap</td>
+<td>Dekkers, Weibel</td>
+<td>no</td>
+</tr>
+<tr>
+<td>March 2002</td>
+<td>ARCH</td>
+<td>Guidelines for implementing DC in XML</td>
+<td>Powell, Johnston</td>
+<td>no</td>
+</tr>
+<tr>
+<td>March 2002</td>
+<td>GOV</td>
+<td>Government Application Profile</td>
+<td>Aagaard, Wilson</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>March 2002</td>
+<td>LIB</td>
+<td>Complet revised draft of DC-Lib application profile</td>
+<td>Guenther</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>March 2002</td>
+<td>TYPE</td>
+<td>Guidance for Domains and Organisations Developing Type vocabularies for use with Dublin Core</td>
+<td>Apps</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Apr 2002</td>
+<td>ARCH</td>
+<td>Dublin Core Qualifiers (HTML encoded META)</td>
+<td>&nbsp;</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Apr 2002</td>
+<td>CIT</td>
+<td>Proposal for a Citation Profile</td>
+<td>Apps</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Apr 2002</td>
+<td>GOV</td>
+<td>Position paper on records management/recordkeeping metadata</td>
+<td>Wilson, Roberts</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Apr 2002</td>
+<td>GOV</td>
+<td>Functional requirements for description of government services using DC</td>
+<td>Roberts</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Apr 2002</td>
+<td>LIB</td>
+<td>Register library encoding schemes</td>
+<td>Guenther</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Apr 2002</td>
+<td>LIB</td>
+<td>Propose any additional element / qualifiers to Usage Board</td>
+<td>Guenther</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Apr 2002</td>
+<td>TYPE</td>
+<td>Annotated list of standard type encoding schemes</td>
+<td>Apps</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>May 2002</td>
+<td>ADM</td>
+<td>Final proposal</td>
+<td>Andresen</td>
+<td>no</td>
+</tr>
+<tr>
+<td>May 2002</td>
+<td>ARCH</td>
+<td>Expressing DC in LDAP</td>
+<td>Matl</td>
+<td>no</td>
+</tr>
+<tr>
+<td>May 2002</td>
+<td>ARCH</td>
+<td>Gentle guide for expressing DC in RDF/XML</td>
+<td>Schw&auml;nzl, Batista, Wagner</td>
+<td>no</td>
+</tr>
+<tr>
+<td>May 2002</td>
+<td>COLL</td>
+<td>Collection Description schema</td>
+<td>Johnston, Powell</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>May 2002</td>
+<td>LIB</td>
+<td>Establish an SML schema for DC-Lib AP</td>
+<td>WG/to be assigned</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>May 2002</td>
+<td>STA</td>
+<td>Possibly combined SC4, SC9 meeting</td>
+<td>Andresen</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Jun 2002</td>
+<td>COLL</td>
+<td>XML schemas for collection description</td>
+<td>Johnston, Powell</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Jun 2002</td>
+<td>EDU</td>
+<td>Teaching processes and characteristics data</td>
+<td>Mason, Sutton</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Jun 2002</td>
+<td>GOV</td>
+<td>Re-survey of Government implementation of DC</td>
+<td>Wilson, Cumming</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Jun 2002</td>
+<td>GUIDES</td>
+<td>New user guide</td>
+<td>Hillmann</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Jun 2002</td>
+<td>LIB</td>
+<td>Consider partnerships to implement testbeds for DC-Lib AP</td>
+<td>WG</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Jun 2002</td>
+<td>TOOLS</td>
+<td>Vendor Workshop</td>
+<td>Schw&auml;nzl, Weibel</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Jul 2002</td>
+<td>COLL</td>
+<td>Usage guidelines</td>
+<td>Johnston, Powell</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Aug 2002</td>
+<td>COLL</td>
+<td>Enumerated list of collection types</td>
+<td>Johnston, Powell</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Aug 2002</td>
+<td>EDU</td>
+<td>Proposal for Type vocabulary</td>
+<td>Mason, Sutton</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Aug 2002</td>
+<td>EDU</td>
+<td>Intrinsic learning objectives</td>
+<td>Mason, Sutton</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Sep 2002</td>
+<td>TOOLS</td>
+<td>Developer Workshop</td>
+<td>Schw&auml;nzl</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Oct 2002</td>
+<td>COLL</td>
+<td>Crosswalks/mapping</td>
+<td>Johnston, Powell</td>
+<td>no</td>
+</tr>
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"  
+            xmlns:dcterms="http://purl.org/dc/terms/">
+  <rdf:Description rdf:about='http://www.some_digital_object'>
+    <dcterms:provenance>
+    This image was purchased from the University of Sometown, Department of Special Collections and Archives in November 2001.
+    </dcterms:provenance>
+  </rdf:Description>
+</rdf:RDF>

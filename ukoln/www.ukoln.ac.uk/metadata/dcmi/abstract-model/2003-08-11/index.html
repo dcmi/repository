@@ -1,0 +1,914 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://dublincore.org/documents/abstract-model/">
+<base href="http://dublincore.org/" />
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+<title>Dublin Core Abstract Model</title>
+<meta http-equiv="Content-Type" content=
+"text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="http://dublincore.org/css/default.css"
+type="text/css" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+<meta name="dc:title" lang="en" content=
+"Dublin Core Abstract Model" />
+<meta name="dc:creator" content=
+"Andy Powell, UKOLN, University of Bath" />
+<meta name="dcterms:issued" scheme="dcterms:W3CDTF" content=
+"2003-08-11" />
+<meta name="dc:identifier" scheme="dcterms:URI" content=
+"http://dublincore.org/documents/abstract-model/" />
+<meta name="dcterms:abstract" content=
+"This document describes an abstract model for Dublin Core metadata records." />
+<meta name="dc:format" scheme="dcterms:IMT" content="text/html" />
+<meta name="dc:type" scheme="dcterms:DCMIType" content="Text" />
+</head>
+<body>
+<div class="menu">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"
+bgcolor="#FF6600" summary="navigation header">
+<tr>
+<td width="70"><a href="/index.shtml"><img src=
+"/images/header/logo_sm.gif" width="150" height="70" alt=
+"Dublin Core Metadata Initiative logo" border="0" /></a></td>
+<td width="100%" height="70" align="right" valign="top">
+<table width="328" cellspacing="0" cellpadding="0" border="0"
+summary="navigation links">
+<tr>
+<td width="82" height="30"><a href="/about/"><img src=
+"/images/menu/about.gif" width="82" height="30" alt=
+"About the Initiative" border="0" /></a></td>
+<td width="82" height="30"><a href="/documents/"><img src=
+"/images/menu/documents.gif" width="82" height="30" alt="Documents"
+border="0" /></a></td>
+<td width="82" height="30"><a href="/groups/"><img src=
+"/images/menu/groups.gif" width="82" height="30" alt=
+"Working Groups" border="0" /></a></td>
+<td width="82" height="30"><a href="/resources/"><img src=
+"/images/menu/resources.gif" width="82" height="30" alt="Resources"
+border="0" /></a></td>
+</tr>
+
+<tr>
+<td width="82" height="30"><a href="/news/"><img src=
+"/images/menu/news.gif" width="82" height="30" alt=
+"Dublin Core Metadata Initiative News" border="0" /></a></td>
+<td width="82" height="30"><a href="/tools/"><img src=
+"/images/menu/tools.gif" width="82" height="30" alt=
+"Tools and Software" border="0" /></a></td>
+<td width="82" height="30"><a href="/meetings/"><img src=
+"/images/menu/meetings.gif" width="82" height="30" alt="Meetings"
+border="0" /></a></td>
+<td width="82" height="30"><a href="/projects/"><img src=
+"/images/menu/projects.gif" width="82" height="30" alt="Projects"
+border="0" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" height="30"><a href="/index.shtml"><img src=
+"/images/header/dcmi_sm.gif" width="329" height="30" alt=
+"Dublin Core Metadata Initiative" border="0" /></a></td>
+</tr>
+</table>
+</div>
+
+<div class="search">
+<table width="100%" cellspacing="0" cellpadding="6" border="0"
+summary="bread crumbs">
+<tr>
+<td class="crumb"><a href="http://dublincore.org/">Home</a>
+&gt;&nbsp;<a href="http://dublincore.org/documents/">
+Documents</a>&nbsp;&gt;&nbsp;</td>
+<td align="right">
+<form action="http://dublincore.org/search/searchServlet" method=
+"post"><input type="hidden" name="predicate" value="all" /> <input
+type="hidden" name="matchType" value="exact phrase" /> <input type=
+"hidden" name="searchCase" value="N" /> 
+
+<table cellspacing="0" cellpadding="2" border="0" summary=
+"keyword search">
+<tr>
+<td nowrap="nowrap"><input type="text" value="Enter keyword" name=
+"searchTerm" size="20" onfocus=
+"if(this.value=='Enter keyword')this.value='';" onblur=
+"if(this.value=='')this.value='Enter keyword';" /> &nbsp;</td>
+<td><input type="submit" name="submit" value="Search" /></td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+</div>
+
+<hr noshade="noshade" size="1" title=
+"separator from menu and keyword search" />
+<table width="100%" border="0" summary=
+"A layout table with descriptive information about this document.">
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Title:</strong></div>
+</td>
+<td width="76%">
+<div align="left">
+<h2>Dublin Core Abstract Model</h2>
+</div>
+</td>
+</tr>
+
+<tr>
+<td height="22" width="24%" valign="top">
+<div align="left"><strong>Creator:</strong></div>
+</td>
+<td height="22" width="76%">
+<div align="left"><a href="mailto:a.powell@ukoln.ac.uk">Andy
+Powell</a><br />
+UKOLN, University of Bath</div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Date Issued:</strong></div>
+</td>
+<td width="76%">
+<div align="left">2003-08-11</div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Identifier:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="/documents/2003/08/11/abstract-model/">
+http://dublincore.org/documents/2003/08/11/abstract-model/</a></div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Replaces:</strong></div>
+</td>
+<td width="76%">
+<div align="left">&nbsp;</div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Is Replaced By:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Latest Version:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="/documents/abstract-model/">
+http://dublincore.org/documents/abstract-model/</a></div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Status of Document:</strong></div>
+</td>
+<td width="76%">
+<div align="left">This is a DCMI <a href=
+"/documents/#workingdrafts">Working Draft</a>.</div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top"><strong>Description of
+Document:</strong></td>
+<td width="76%">This document describes an abstract model for
+Dublin Core metadata records.</td>
+</tr>
+
+<tr>
+<td valign="top" colspan="2">
+<hr />
+</td>
+</tr>
+</table>
+
+<h2>1. Introduction</h2>
+
+<p>This document specifies an abstract model for Dublin Core (DC)
+metadata records [<a href="http://dublincore.org/">DCMI</a>]. The
+primary purpose of this document is to provide a reference model
+against which particular DC encoding guidelines can be compared, in
+order to facilitate better mappings and translations between
+different syntaxes.</p>
+
+<h2>2. Terminology</h2>
+
+<p>This document uses the following terms:</p>
+
+<dl>
+<dt><i>resource</i></dt>
+
+<dd>A <i>resource</i> is anything that has identity. Familiar
+examples include an electronic document, an image, a service (e.g.,
+"today's weather report for Los Angeles"), and a collection of
+other <i>resources</i>. Not all <i>resources</i> are network
+"retrievable"; e.g., human beings, corporations, and bound books in
+a library can also be considered <i>resources</i>.</dd>
+
+<dt><i>property</i></dt>
+
+<dd>A <i>property</i> is a specific aspect, characteristic,
+attribute, or relation used to describe <i>resources</i>.</dd>
+
+<dt><i>element</i></dt>
+
+<dd>An <i>element</i> is a <i>property</i> of a <i>
+resource</i>.</dd>
+
+<dt><i>element refinement</i></dt>
+
+<dd>An <i>element refinement</i> is a <i>property</i> of a <i>
+resource</i> that shares the meaning of a particular DCMI <i>
+element</i> but with narrower semantics. <!--
+In some application environments (notably
+HTML-based encodings), <i>element refinements</i> are used together
+with <i>elements</i> in the manner of natural language "qualifiers"
+(i.e., adjectives).  However,
+--> Since <i>element refinements</i> are <i>properties</i> of a <i>
+resource</i> (like <i>elements</i>), <i>element refinements</i> can
+<!-- alternatively --> be used in metadata <i>records</i>
+independently of the <i>properties</i> they refine. In DCMI
+practice, an <i>element refinement</i> refines just one parent DCMI
+<i>property</i>.</dd>
+
+<dt><i>value</i></dt>
+
+<dd>A <i>value</i> results when an <i>element</i> or <i>element
+refinement</i> is used to describe a <i>resource</i>.</dd>
+
+<dt><i>record</i></dt>
+
+<dd>A <i>record</i> is some structured metadata about a <i>
+resource</i>, comprising one or more <i>properties</i> and their
+associated <i>values</i>.</dd>
+
+<dt><i>value URI</i></dt>
+
+<dd>A <i>value URI</i> is a URI that identifies the value of an <i>
+element</i> or <i>element refinement</i>.</dd>
+
+<dt><i>value string</i></dt>
+
+<dd>A <i>value string</i> is a simple string that represents the
+<i>value</i> of an <i>element</i> or <i>element refinement</i>. In
+general, a <i>value string</i> does not contain any markup.</dd>
+
+<dt><i>value string language</i></dt>
+
+<dd>The <i>value string language</i> indicates the language of the
+<i>value string</i>.</dd>
+
+<dt><i>encoding scheme</i></dt>
+
+<dd>An <i>encoding scheme</i> provides contextual information or
+parsing rules that aid in the interpretation of a <i>value
+string</i>. Such contextual information may take the form of
+controlled vocabularies, formal notations, or parsing rules. If an
+<i>encoding scheme</i> is not understood by a client or agent, the
+<i>value string</i> may still be useful to a human reader. There
+are two types of <i>encoding scheme</i>: <i>vocabulary encoding
+scheme</i> and <i>syntax encoding scheme</i>.</dd>
+
+<dt><i>encoding scheme URI</i></dt>
+
+<dd>An <i>encoding scheme URI</i> is a URI that identifies an <i>
+encoding scheme</i>. For all DCMI recommended <i>encoding
+schemes</i>, the URI is constructed by concatenating the name of
+the <i>encoding scheme</i> with the DCTerms namespace URI.</dd>
+
+<dt><i>vocabulary encoding scheme</i></dt>
+
+<dd>A <i>vocabulary encoding scheme</i> indicates that the <i>value
+string</i> is a term from a controlled vocabulary, such as the
+value "China - History" from the Library of Congress Subject
+Headings.</dd>
+
+<dt><i>syntax encoding scheme</i></dt>
+
+<dd>A <i>syntax encoding scheme</i> indicates that the <i>value
+string</i> is formatted in accordance with a formal notation, such
+as "2000-01-01" as the standard expression of a date.</dd>
+
+<dt><i>marked-up text</i></dt>
+
+<dd>A string that contains HTML, XML or other markup (for example
+TeX) and that is associated with the <i>value</i> of an <i>
+element</i> or <i>element refinement</i>.</dd>
+
+<dt><i>rich value</i></dt>
+
+<dd>Some <i>marked-up text</i>, an image, a video, some audio, etc.
+(or some combination thereof) that is associated with the <i>
+value</i> of an <i>element</i> or <i>element refinement</i>.</dd>
+
+<dt><i>related metadata</i></dt>
+
+<dd>A metadata <i>record</i> that describes a <i>resource</i> that
+is related to the <i>resource</i> described by a DC metadata <i>
+record</i>.</dd>
+
+<dt><i>qualifier</i></dt>
+
+<dd>A <i>qualifier</i> is the generic heading traditionally used
+for terms now usually referred to specifically as <i>element
+refinements</i> or <i>encoding schemes</i>.</dd>
+
+<dt><i>structured value</i></dt>
+
+<dd>A <i>structured value</i> is one of the following: 
+
+<ul>
+<li>A <i>value string</i> that contains machine-parsable component
+parts (and which has an associated <i>syntax encoding scheme</i>
+that indicates how the component parts are encoded within the
+string).</li>
+
+<li>Some <i>marked-up text</i>.</li>
+
+<li>Some <i>related metadata</i></li>
+</ul>
+</dd>
+</dl>
+
+<h2>3. Qualified DC model</h2>
+
+<p>The abstract DC model for qualified DC metadata records is as
+follows:</p>
+
+<ul>
+<li>A <i>qualified DC record</i> is made up of one or more <i>
+properties</i> and their associated <i>values</i>.</li>
+
+<li>Each <i>property</i> is an attribute of the <i>resource</i>
+being described.</li>
+
+<li>Each <i>property</i> must be one of the <i>elements</i> or <i>
+element refinements</i> recommended by the DCMI [<a href=
+"http://dublincore.org/documents/dcmi-terms/">DCTERMS</a>].</li>
+
+<li><i>Properties</i> may be repeated.</li>
+
+<li>Each <i>value</i> may be identified by a <i>value URI</i>.</li>
+
+<li>Each <i>value</i> may have a <i>value string</i>.</li>
+
+<li>Each <i>value string</i> may have an associated <i>encoding
+scheme</i>.</li>
+
+<li>Each <i>encoding scheme</i> is identified by an <i>encoding
+scheme URI</i>.</li>
+
+<li>Each <i>value string</i> may have an associated <i>value string
+language</i> (e.g. en-GB).</li>
+
+<li>Each <i>value</i> may have an associated <i>rich value</i>
+(some marked-up text, an image, a video, some audio, etc. or some
+combination thereof).</li>
+
+<li>Each <i>value</i> may have some associated <i>related
+metadata</i>.</li>
+</ul>
+
+<p>The italicised terms used in this description are defined in the
+terminology section above.</p>
+
+<p>Note that, in general, the value string should be a string that
+does not contain any markup.</p>
+
+<p>It recognised that many real-world metadata applications will
+use additional properties beyond those indicated in the third
+bullet point above. While such usage does not fall strictly within
+the definition of 'qualified DC' provided here, such applications
+are strongly encouraged to conform to the DCMI abstract model in
+order to achieve maximum interoperability with other DC metadata
+records.</p>
+
+<h2>4. Simple DC model</h2>
+
+<p>The abstract model for simple DC metadata records is a
+simplification of the qualified DC model defined above:</p>
+
+<ul>
+<li>A <i>simple DC record</i> is made up of one or more <i>
+properties</i> and their associated <i>values</i>.</li>
+
+<li>Each <i>property</i> is an attribute of the <i>resource</i>
+being described.</li>
+
+<li>Each <i>property</i> must be one of the 15 DCMES elements [<a
+href="http://dublincore.org/documents/dces/">DCMES</a>].</li>
+
+<li><i>Properties</i> may be repeated.</li>
+
+<li>Each value has a <i>value string</i>.</li>
+
+<li>Each <i>value string</i> may have an associated <i>value string
+language</i> (e.g. en-GB).</li>
+</ul>
+
+<h3>4.1 Dumb-down</h3>
+
+<p>The process of translating a qualified DC metadata record into a
+simple DC metadata record is normally referred to as
+'dumbing-down'. In terms of the abstract model, the dumb-down
+algorithm is as follows:</p>
+
+<ol>
+<li>Remove any <i>related metadata</i> and <i>rich values</i>.</li>
+
+<li>Remove any <i>encoding schemes</i> (and <i>encoding scheme
+URIs</i>).</li>
+
+<li>If a <i>value string</i> is not present and a <i>value URI</i>
+is present, use the <i>value URI</i> as the <i>value
+string</i>.</li>
+
+<li>Repeatedly resolve any <i>properties</i> to their 'parent' <i>
+property</i> (as indicated by the 'Refines' attribute in the DCMI
+Metadata Terms recommendation [<a href=
+"http://dublincore.org/documents/dcmi-terms/">DCTERMS</a>]).</li>
+
+<li>Remove any resulting <i>properties</i> that are not one of the
+15 DCMES elements [<a href=
+"http://dublincore.org/documents/dces/">DCMES</a>].</li>
+</ol>
+
+<p>Note that software should make use of the DCMI term declarations
+represented in RDF schema language [<a href=
+"http://dublincore.org/schemas/rdfs/">DC-RDFS</a>] and the DC XML
+namespaces [<a href=
+"http://dublincore.org/documents/dcmi-namespace/">DC-NAMESPACES</a>]
+to automate steps 4 and 5.</p>
+
+<h2>5. Encoding guidelines</h2>
+
+<p>Particular encoding guidelines (HTML meta tags, XML, RDF/XML,
+etc.) [<a href=
+"http://dublincore.org/resources/expressions/">DCMI-ENCODINGS</a>]
+do not need to encode all aspects of the abstract models described
+above. However, DCMI recommendations that provide encoding
+guidelines should refer to the models described this document and
+should indicate which parts of the models are encoded and which are
+not. In particular, encoding guidelines should indicate whether any
+rich values or related metadata records associated with a value are
+embedded within a DC record or are encoded separately and linked to
+it using a URI.</p>
+
+<h2>References</h2>
+
+<dl>
+<dt>DCMI</dt>
+
+<dd>Dublin Core Metadata Initiative<br />
+&lt;<a href=
+"http://dublincore.org/">http://dublincore.org/</a>&gt;</dd>
+
+<dt>DCTERMS</dt>
+
+<dd>DCMI Metadata Terms<br />
+&lt;<a href=
+"http://dublincore.org/documents/dcmi-terms/">http://dublincore.org/documents/dcmi-terms/</a>&gt;</dd>
+
+<dt>DCMES</dt>
+
+<dd>Dublin Core Metadata Element Set, Version 1.1: Reference
+Description<br />
+&lt;<a href=
+"http://dublincore.org/documents/dces/">http://dublincore.org/documents/dces/</a>&gt;</dd>
+
+<dt>DCMI-ENCODINGS</dt>
+
+<dd>DCMI Encoding Guidelines<br />
+&lt;<a href=
+"http://dublincore.org/resources/expressions/">http://dublincore.org/resources/expressions/</a>&gt;</dd>
+
+<dt>DC-RDFS</dt>
+
+<dd>DCMI term declarations represented in RDF schema language<br />
+&lt;<a href=
+"http://dublincore.org/schemas/rdfs/">http://dublincore.org/schemas/rdfs/</a>&gt;</dd>
+
+<dt>DC-NAMESPACES</dt>
+
+<dd>Namespace Policy for the Dublin Core Metadata Initiative
+(DCMI)<br />
+&lt;<a href=
+"http://dublincore.org/documents/dcmi-namespace/">http://dublincore.org/documents/dcmi-namespace/</a>&gt;</dd>
+</dl>
+
+<h2>Acknowledgements</h2>
+
+<p>Thanks to Pete Johnston and the members of the DC Usage Board
+for their comments on previous versions of this document.</p>
+
+<hr />
+<h2>Appendix A - A note about structured values</h2>
+
+<p>This appendix discusses 'structured values', as they are used in
+DC metadata applications at the time of writing.</p>
+
+<p>Many existing applications of DC metadata have attempted to
+encode relatively complex descriptions (i.e. descriptions that
+contain more than simply a property and its string value). These
+attempts have been loosely referred to as 'structured values'. It
+is possible to identify a number of different kinds of structured
+values. Four are enumerated below. The first two of these are
+recommended by the DCMI, in the sense that there are a number of
+existing encoding schemes that define values that conform to these
+definitions of structured values. The latter two are not currently
+recommended, but it is likely that they are in fairly common usage
+across metadata applications worldwide.</p>
+
+<h3>Labelled strings</h3>
+
+<p>These are value strings that contain explicitly labelled
+components within the string. Examples of this kind of structured
+value include:</p>
+
+<dl>
+<dt><a href="http://dublincore.org/documents/dcmi-dcsv/">
+DCSV</a></dt>
+
+<dd>and the various DCMI syntax encoding schemes built on it -
+Period, Point and Box. An example of the use of DCSV in Period is: 
+
+<pre>
+&lt;meta name="dcterms:temporal"
+      scheme="dcterms:Period"
+      content="start=Cambrian period; scheme=Geological timescale; name=Phanerozoic Eon;" /&gt;
+</pre>
+
+<!--
+<dt><a href="http://library.caltech.edu/openurl/">OpenURL</a>
+<dd>
+encoded as a URI.  For example:
+<pre>
+&lt;meta name="dc:relation"
+      content="openurl:?genre=article&
+      atitle=Information%20gateways:%20collaboration%20on%20content
+      &title=Online%20Information%20Review
+      &issn=1468-4527&volume=24&spage=40&epage=45
+      &artnum=1&aulast=Heery&aufirst=Rachel" /&gt;
+</pre>
+--></dd>
+
+<dt><a href="http://www.ietf.org/rfc/rfc2426.txt">vCard</a></dt>
+
+<dd>for example: 
+
+<pre>
+&lt;meta name="dc:creator"
+      content="BEGIN:VCARD\nORG:University of Oxford\nEND:VCARD\n" /&gt;
+</pre>
+</dd>
+</dl>
+
+<p>Note that vCard is not currently a DCMI recommended encoding
+scheme.</p>
+
+<h3>Unlabelled strings</h3>
+
+<p>These are value strings that contain implicit components within
+the string, i.e. the components are determined based solely on
+their position within the string. Examples of this kind of
+structured value include:</p>
+
+<dl>
+<dt><a href="http://www.w3.org/TR/NOTE-datetime">W3CDTF</a></dt>
+
+<dd>the date-time format used within most DC metadata. For example:
+
+
+<pre>
+&lt;meta name="dc:date"
+      scheme="dcterms:W3CDTF"
+      content="2003-06-10" /&gt;
+</pre>
+
+<!--
+<dt>
+<a href="http://www.isi.edu/in-notes/iana/assignments/media-types/media-types">IMT</a>
+<dd>
+the list of Internet media types.  For example:
+<pre>
+&lt;meta name="dc:format"
+      scheme="dcterms:IMT"
+      content="text/html" /&gt;
+</pre>
+ --></dd>
+</dl>
+
+<h3>Marked-up text</h3>
+
+<p>These are strings containing 'presentational' or other markup,
+for example adding paragraph breaks, superscripts or
+chemical/mathematical markup to a dc:description. It is possible to
+characterise various kinds of markup as follows:</p>
+
+<ul>
+<li>Markup based on a version of <a href=
+"http://www.w3.org/MarkUp/">HTML</a>.</li>
+
+<li>Markup based on other XML-based languages such as <a href=
+"http://www.xml-cml.org/">CML</a> and <a href=
+"http://www.w3.org/Math/">MathML</a>.</li>
+
+<li>Non-XML markup languages such as <a href="http://www.tug.org/">
+TeX</a>.</li>
+</ul>
+
+<h3>Related resource description (related metadata)</h3>
+
+<p>These are metadata records that describe a second resource (i.e.
+not the resource being described by the DC record). For example, a
+related metadata record associated with a dc:creator property could
+contain a complete description of the resource author (including
+birthday, eye-colour and favourite beverage if desired!).</p>
+
+<p>In the past, 'related resource descriptions' have tended to be
+encoded using XML, vCard (see above) or by inventing multiple
+'refinements' of DCMES properties (for example DC.Creator.Address).
+The RDF/XML encoding of DC (see below) provides us with a more
+thorough modelling of related metadata records through the use of
+multiple linked nodes in an RDF graph.</p>
+
+<p>In DC metadata records, the following elements (and their
+element refinements) are used to provide the name or identifier of
+a second resource that is related to the resource being
+described:</p>
+
+<ul>
+<li>dc:creator</li>
+
+<li>dc:contributor</li>
+
+<li>dc:publisher</li>
+
+<li>dc:relation</li>
+
+<li>dc:source</li>
+</ul>
+
+<p>In the case of the first three, this is typically done by
+providing the name (or in some cases the name and a small amount of
+additional information in order to better identify the person or
+organisation) of the related resource as the value string.</p>
+
+<p>In the case of the last two, this is typically done by providing
+the URI (or some other identifier) of the related resource as the
+value URI. However, where no identifier is available, the name of
+the related resource can be provided instead (or as well) using the
+value string.</p>
+
+<p>It should be noted that the value strings of these elements (and
+their element refinements) are not intended to be used to provide
+full descriptions of the related resource.</p>
+
+<h3>Summary</h3>
+
+<p>The categories outlined above are not watertight and there are
+certainly overlaps between them. For example, labelled strings can
+be viewed as a type of non-XML markup language. In addition, there
+will be cases where marked-up text (e.g. MathML) can be viewed as a
+related resource description.</p>
+
+<p>Nevertheless, the purpose of the categorisation used here is to
+try and analyse existing usage of complex metadata structures
+within current DC metadata applications. In the context of the
+abstract model proposed here, all the types of structured values
+outlined above form part of the qualified DC model:</p>
+
+<ul>
+<li>A labelled string should typically be treated as <i>related
+metadata</i> (though it should be noted that DCSV and the various
+DCMI syntax encoding schemes built on it - Period, Point and Box -
+are currently treated as <i>value strings</i> with an appropriate
+<i>encoding scheme</i>).</li>
+
+<li>An unlabelled string should be treated as a <i>value string</i>
+with an appropriate <i>encoding scheme</i>.</li>
+
+<li>Marked-up text should typically be treated as a <i>rich
+value</i>.</li>
+
+<li>A related resource description should be treated as <i>related
+metadata</i>.</li>
+</ul>
+
+<hr />
+<h2>Appendix B - RDF and the abstract model</h2>
+
+<p>This appendix discusses the relationship between the DC abstract
+model and the Resource Description Framework (RDF).</p>
+
+<p>RDF currently provides DCMI with the richest encoding
+environment of the available encoding syntaxes. It is therefore
+worth taking a brief look at how the abstract model described here
+compares with the RDF model.</p>
+
+<p>Note that the intention here is not to provide a full and
+detailed description of how to encode DC metadata records in RDF.
+Instead, three simple examples of the use of DC in RDF are
+considered.</p>
+
+<h3>Example 1: dc:creator</h3>
+
+<table width="100%" summary="Example 1 layout">
+<tr>
+<td width="50%" valign="top">
+<p>Figure 1 shows a simple RDF graph (and the RDF/XML document that
+represents it). The graph shows a resource with a single property
+(dc:creator). The <i>value</i> of the property is a second (blank)
+node, representing the creator of the resource. This second blank
+node has several properties, used to describe the creator, and an
+rdfs:label property that is used to provide the <i>value string</i>
+for the dc:creator property.</p>
+</td>
+<td valign="top">
+<p align="center"><img alt="Figure 1" src=
+"http://www.ukoln.ac.uk/metadata/dcmi/abstract-model/2003-08-11/fig1.gif" /><br />
+<b>Figure 1</b></p>
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+<p>Figure 2 shows the same information separated into two graphs.
+In this case the <i>related metadata</i> that describes the creator
+has been more clearly separated from the description of the
+resource by moving it into a separate RDF/XML document. In order to
+do this, the node representing the <i>value</i> has been assigned a
+<i>value URI</i>, allowing the two nodes in the two RDF/XML
+documents to be treated as representing the same thing.</p>
+
+<p>The <i>related metadata</i> in the second RDF/XML document is
+linked to the first using the rdfs:seeAlso property and the URI of
+the RDF/XML document. Note that it is not strictly necessary to
+separate the two graphs in this way; it is perfectly valid to
+represent the second graph as a sub-graph of the first, as shown in
+figure 1. However, for the purposes of this document, the two
+graphs have been separated in order to more clearly differentiate
+the DC metadata <i>record</i> from the <i>related metadata</i>. In
+some cases it will be good practice to facilitate this separation
+anyway. For example, in order to serve the second graph from a
+directory service of some kind.</p>
+</td>
+<td valign="top">
+<p align="center"><img alt="Figure 2" src=
+"http://www.ukoln.ac.uk/metadata/dcmi/abstract-model/2003-08-11/fig2.gif" /><br />
+<b>Figure 2</b></p>
+</td>
+</tr>
+</table>
+
+<h3>Example 2: dc:subject</h3>
+
+<table width="100%" summary="Example 2 layout">
+<tr>
+<td width="50%" valign="top">
+<p>Figure 3 shows a second simple RDF graph (and the RDF/XML
+document that represents it). The graph shows a resource with a
+single property (dc:subject). The <i>value</i> of the property is a
+second (blank) node, representing the subject of the resource. This
+second blank node has an rdfs:label property that is used to
+provide the <i>value string</i> for the dc:subject property, an
+rdf:value property that is used to provide the classification
+scheme notation and an rdf:type property to provide the encoding
+scheme URI.</p>
+</td>
+<td valign="top">
+<p align="center"><img alt="Figure 3" src=
+"http://www.ukoln.ac.uk/metadata/dcmi/abstract-model/2003-08-11/fig3.gif" /><br />
+<b>Figure 3</b></p>
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+<p>Figure 4 shows the same information separated into two graphs.
+In this case the <i>related metadata</i> that describes the subject
+has been more clearly separated from the description of the
+resource by moving it into a separate RDF/XML document. In order to
+do this, the node representing the <i>value</i> has been assigned a
+<i>value URI</i>, allowing the two nodes in the two RDF/XML
+documents to be treated as representing the same thing.</p>
+
+<p>The <i>related metadata</i> in the second RDF/XML document is
+linked to the first using the rdfs:seeAlso property and the URI of
+the RDF/XML document. Note that it is not strictly necessary to
+separate the two graphs in this way; it is perfectly valid to
+represent the second graph as a sub-graph of the first, as shown in
+figure 3. However, for the purposes of this document, the two
+graphs have been separated in order to more clearly differentiate
+the DC metadata <i>record</i> from the <i>related metadata</i>. In
+some cases it will be good practice to facilitate this separation
+anyway. For example, in order to serve the second graph from a
+terminology service of some kind.</p>
+</td>
+<td valign="top">
+<p align="center"><img alt="Figure 4" src=
+"http://www.ukoln.ac.uk/metadata/dcmi/abstract-model/2003-08-11/fig4.gif" /><br />
+<b>Figure 4</b></p>
+</td>
+</tr>
+</table>
+
+<h3>Example 3: dc:description</h3>
+
+<table width="100%" summary="Example 3 layout">
+<tr>
+<td width="50%" valign="top">
+<p>Figure 5 shows a third simple RDF graph (and the RDF/XML
+document that represents it). The graph shows a resource with a
+single property (dc:description). The <i>value</i> of the property
+is a second (blank) node with an rdfs:label property that is used
+to provide the <i>value string</i> for the dc:description property.
+The second node also has an rdfs:seeAlso property that links to a
+<i>rich value</i> - in this case some HTML marked-up text that
+provides a richer representation of the description.</p>
+
+<p>Note that it is possible to embed the marked-up text within a
+single RDF graph (using rdf:parseType="Literal"). However, this is
+not shown here.</p>
+</td>
+<td valign="top">
+<p align="center"><img alt="Figure 5" src=
+"http://www.ukoln.ac.uk/metadata/dcmi/abstract-model/2003-08-11/fig5.gif" /><br />
+<b>Figure 5</b></p>
+</td>
+</tr>
+</table>
+
+<h3>Summary</h3>
+
+<table width="100%" summary="Abstract model layout">
+<tr>
+<td width="50%" valign="top">
+<p>By re-visiting the second figure from example 2 (figure 4) it is
+possible to layer the terminology used in the abstract models above
+over the RDF graph.</p>
+
+<p>A similar exercise could be undertaken for other encoding
+syntaxes (e.g. XML and HTML meta tags). As mentioned above, it may
+be the case that the full richness of the abstract model is not
+able to be offered in all encoding syntaxes.</p>
+</td>
+<td valign="top">
+<p align="center"><img alt="Figure 6" src=
+"http://www.ukoln.ac.uk/metadata/dcmi/abstract-model/2003-08-11/fig6.gif" /><br />
+<b>Figure 6</b></p>
+</td>
+</tr>
+</table>
+
+<hr size="1" title="separator from page content" />
+<p><a href="http://validator.w3.org/check/referer"><img src=
+"/images/logos/valid-xhtml10.gif" alt="Valid XHTML 1.0!" height=
+"31" width="88" border="0" /></a><a href=
+"http://jigsaw.w3.org/css-validator"><img src=
+"/images/logos/vcss.gif" alt="Valid CSS!" border="0" width="88"
+height="31" /></a></p>
+
+<div class="metadata">
+<p>Metadata associated with this resource: <a href=
+"http://dublincore.org/documents/abstract-model/index.shtml.rdf">
+http://dublincore.org/documents/abstract-model/index.shtml.rdf</a></p>
+</div>
+
+<div class="footer">
+<p><a href="/about/copyright/#copyright">Copyright</a> &copy;
+1995-2002 <acronym title="Dublin Core Metadata Initiative"><a href=
+"http://dublincore.org/">DCMI</a></acronym> All Rights Reserved.
+DCMI <a href="/about/copyright/#liability">liability</a>, <a href=
+"/about/copyright/#trademark">trademark/service mark</a>, <a href=
+"/about/copyright/#documentnotice">document use</a> and <a href=
+"/about/software/">software licensing</a> rules apply. Your
+interactions with this site are in accordance with our <a href=
+"/about/privacy/">privacy</a> statements. Please feel free to <a
+href="/about/contact/">contact us</a> for any questions, comments
+or media inquiries.</p>
+</div>
+</body>
+</html>
+

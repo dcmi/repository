@@ -1,0 +1,19 @@
+
+    <!--#include virtual="tool-head.shtml" -->
+    <!--#include virtual="/ssi/header.shtml" -->
+    <h1>DC-dot</h1>
+    <table cellspacing="0" class="noborder">
+<tr><td>Identifier:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.ukoln.ac.uk/metadata/dcdot/">http://www.ukoln.ac.uk/metadata/dcdot/</a></td></tr>
+<tr><td>Description:&nbsp;&nbsp;&nbsp;</td><td>This service will retrieve a Web page and automatically generate Dublin Core metadata, either as HTML <meta> tags or as RDF/XML, suitable for embedding in the <head>...</head> section of the page. The generated metadata can be edited using the form provided and converted to various other formats (USMARC, SOIF, IAFA/ROADS, TEI headers, GILS, IMS or RDF) if required. Optional, context sensitive, help is available while editing.</td></tr>
+<tr><td>Rights:&nbsp;&nbsp;&nbsp;</td><td>free online tool, rights hold by UKOLN</td></tr>
+<tr><td>Language:&nbsp;&nbsp;&nbsp;</td><td>eng (ISO 639-2)</td></tr>
+<tr><td>Creator:&nbsp;&nbsp;&nbsp;</td><td>Andy Powell</td></tr>
+<tr><td>Publisher:&nbsp;&nbsp;&nbsp;</td><td>UKOLN</td></tr>
+<tr><td>Location:&nbsp;&nbsp;&nbsp;</td><td>United Kingdom</td></tr>
+<tr><td>Date:&nbsp;&nbsp;&nbsp;</td><td>2000</td></tr>
+</table>
+    <p><small>For an application profile see the <a href="/groups/tools/map.shtml">DCMI Tools
+    Application Profile</a></small>
+    <!--#include virtual="/ssi/footer.shtml" -->
+    </body>
+    </html>

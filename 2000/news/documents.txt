@@ -1,0 +1,98 @@
+<div class="rss-item">
+<div class="rss-title"><a name="dcedsummary20001005"></a><a href="/documents/education-namespace/">DC-Education Summary Proposal</a></div>
+<div class="rss-description">
+<p>2000-10-05, This document is a Draft Proposal of the Dublin Core Metadata Initiative, and is intended to reflect consensus reached within the Education Working Group of the DCMI. It reports decisions reached by DCEd through its online discussions and face-to-face meetings in Frankfurt (October 25-27, 1999) and Melbourne (February 19-20, 2000).</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a name="wddchtml20000815"></a><a href="/documents/dcq-html/">Recording qualified Dublin Core metadata in HTML meta elements</a></div>
+<div class="rss-description">
+<p>2000-08-15, The Dublin Core Metadata Element Set (DCMES) allows much descriptive information about resources to be expressed. However, in some applications it is desirable to refine the meanings of the DCMES metadata. A method for refining DCMES is encompassed in an extended model known as Qualified Dublin Core metadata, which requires additional labels and data, known generically as qualifiers. In this recommendation, we describe the methods provided directly by HTML, and explain how to record Qualified DCMES metadata in HTML using the meta element in the document head.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a name="rec20000728"></a><a href="/documents/dcmi-box/">Updated Recommendation: DCMI Box Encoding Scheme</a></div>
+<div class="rss-description">
+<p>2000-07-28, Document reflects minor editorial changes.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/dcmi-dcsv/">Updated Recommendation: DCMI Dublin Core Structured Values</a></div>
+<div class="rss-description">
+<p>2000-07-28, Document reflects minor editorial changes.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/dcmi-point/">Updated Recommendation: DCMI Point Encoding Scheme</a></div>
+<div class="rss-description">
+<p>2000-07-28, Document reflects minor editorial changes.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/dcmi-period/">Updated Recommendation: DCMI Period Encoding Scheme</a></div>
+<div class="rss-description">
+<p>2000-07-28, Document reflects minor editorial changes.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/usageguide/">New Working Draft: Using Dublin Core</a>
+</div>
+<div class="rss-description">
+<p>2000-07-16, This document is intended as an entry point for users of Dublin Core. For non-specialists, it will assist in creating simple descriptive records for information resources. Specialists may find the document a useful point of reference to the documentation of Dublin Core as it changes and grows.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/dcmes-xml/">New Working Draft: Using Dublin Core in XML</a></div>
+<div class="rss-description">
+<p>2000-07-14, This document explains how to encode the DCES in XML, provides a DTD to validate the documents and describes a method to link them from web pages.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/dcmes-qualifiers/">New Recommendation: Dublin Core Qualifiers</a></div>
+<div class="rss-description">
+<p>2000-07-11, The DCMI announced today the formal recommendation of the Dublin Core Qualifiers. The addition of the DC Qualifiers enhances the semantic precision of the existing DC Metadata Element Set.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/dcmi-type-vocabulary/">New Recommendation: DCMI Type Vocabulary</a></div>
+<div class="rss-description">
+<p>2000-07-11, The DCMI Type Vocabulary provides a general, cross-domain list of approved terms that may be used as values for the Resource Type element to identify the genre of a resource.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/2000/07/11/dcmi-box/">New Recommendation: DCMI Box Encoding Scheme</a></div>
+<div class="rss-description">
+<p>2000-07-11, A specification of the spatial limits of a place and methods for encoding this in a text string.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/2000/07/11/dcmi-dcsv/">New Recommendation: DCMI DCSV</a></div>
+<div class="rss-description">
+<p>2000-07-11, A syntax for writing a list of label values in a text string.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/2000/07/11/dcmi-period/">New Recommendation: DCMI Period Encoding Scheme</a></div>
+<div class="rss-description">
+<p>2000-07-11, A specification of the limits of a time interval and methods for encoding this in a text string.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/2000/07/11/dcmi-point/">New Recommendation: DCMI Point Encoding Scheme</a></div>
+<div class="rss-description">
+<p>2000-07-11, A specification for a point location in space and methods for encoding this in a text string.</p>
+</div>
+</div>

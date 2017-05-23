@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DCMI Sitemap</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="sitemap.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>DCMI Sitemap</h1>
+
+<p><strong><a href="/">Home page</a></strong></p>
+
+<p><strong><a href="/about/">About</a></strong></p>
+<blockquote>
+<p>Information about the Dublin Core Metadata Initiative, how it works, it's history, the open source software license and the legal statements for copyright and privacy.</p>
+<p>
+<a href="/about/overview/">Overview</a><br />
+<a href="/about/participants/">Community</a><br />
+<a href="/about/history/">History</a><br />
+<a href="/about/organization/">Organization</a><br />
+<a href="/about/trustees/">Board of Trustees</a><br />
+<a href="/about/contact/">Contacts</a><br />
+<a href="/about/liaisons/">Liaisons</a><br />
+<a href="/about/#policies">Policies</a></p>
+</blockquote>
+
+<p><strong><a href="/documents/">Documents</a></strong></p>
+<blockquote>
+<p>The definitive documents for the Dublin Core standard as well as documents that are in-process</p>
+<p><a href="/documents/#recommendations">Recommendations</a> (including the Dublin Core Element Set and Dublin Core Qualifiers)<br />
+<a href="/documents/#proposedrecommendations">Proposed Recommendations</a><br />
+<a href="/documents/#workingdrafts">Working Drafts</a> (including the Usage Guide)<br />
+<a href="/documents/#notes">Notes</a></p>
+</blockquote>
+
+<p><strong><a href="/groups/">Groups</a></strong></p>
+<blockquote>
+<p>Most of the work of the DCMI is accomplished through the working groups and the special interest groups. Each group has their own Homepage which lists information on current discussions, deliverables, meetings and notes.</p>
+<p><a href="/groups/#working">Working Groups</a><br />
+<a href="/groups/#interest">Special Interest Groups</a></p>
+</blockquote>
+
+<p><strong><a href="/meetings/">Meetings</a></strong></p>
+<blockquote>
+<p>A list of upcoming DCMI-sponsored or Working Group-sponsored meetings as well as a list of upcoming meetings where presentations about the DCMI will be given.</p>
+</blockquote>
+
+<p><strong><a href="/news/">News</a></strong></p>
+<blockquote>
+<p>Announcements and news items about the Dublin Core Metadata Initiative</p>
+<p><a href="/news/">General Announcements</a><br />
+<a href="/news/documents.shtml">Documents Announcements</a><br />
+<a href="/news/meetings.shtml">Meeting Announcements</a>
+
+<p><a href="/news/communications/#statusreport">DCMI Status Reports</a><br />
+<a href="/news/communications/#pressreleases">DCMI Press Releases</a></p>
+</blockquote>
+
+<p><strong><a href="/projects/">Projects</a></strong></p>
+<blockquote>
+<p>Real world implementations using Dublin Core metadata.</p>
+</blockquote>
+
+<p><strong><a href="/resources/">Resources</a></strong></p>
+<blockquote>
+<p>A listing of publications and other resources that can help to explain and education about Dublin Core metadata and the Dublin Core Metadata Initiative.</p>
+<p><a href="/resources/bibliography/">Bibliography</a><br />
+<a href="/resources/faq/">FAQ (Frequently Asked Questions)</a><br />
+<a href="/resources/translations/">Translations</a></p>
+</blockquote>
+
+<p><strong><a href="/tools/">Tools and Software</a></strong></p>
+<blockquote>
+<p>Software and utility programs that can assist in the creation, editing, automatic extraction, gathering &amp; production of metadata and the conversion of metadata.</p>
+</blockquote>
+
+<p><strong><a href="/usage/">Usage Board</a></strong></p>
+<blockquote>
+<p>The Usage Board evaluates proposed vocabulary terms (or changes to existing terms) in light of grammatical principle, semantic clarity, and overlap with existing terms. To proposals that are accepted, it assigns a specific status. The Usage Committee strives for consensus, justifying its decisions and interpretations in terms both of principle and of empirical practice.</p>
+</blockquote>
+
+<p><strong><a href="/workshops/">Workshops</a></strong></p>
+<blockquote>
+<p>Links to the agenda, schedule and resources from the annual conferences.</p>
+</blockquote>
+
+<p><strong><a href="/archives/">Archives</a></strong></p>
+<blockquote>
+<p>Files and documents that provide an historical record for the Dublin Core Metadata Initiative.</p>
+</blockquote>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>
+

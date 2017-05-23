@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://www.dublincore.or.kr/elementset.htm">
+	<dc:title xml:lang="ko-KR">
+	Dublin Core &#xba54;&#xd0c0;&#xb370;&#xc774;&#xd130; &#xc694;&#xc18c; &#xc9d1;&#xd569; 
+	Version 1.1 : &#xad00;&#xb828; &#xc124;&#xba85;
+	</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.1 Reference Description (Korean Translation)</dc:title>
+	<dc:creator xml:lang="ko-KR">&#xc624;&#xc0bc;&#xade0;</dc:creator>
+	<dc:creator xml:lang="en-US">Dr. Sam-Gyun Oh</dc:creator>
+	<dc:creator rdf:resource="mailto:samoh@skku.ac.kr"/>
+	<dc:date>1999-07-02</dc:date>
+	<dc:language xml:lang="ko-KR">&#xd55c;&#xad6d;&#xc5b4; (ko-KR)</dc:language>
+	<dc:language xml:lang="en-US">Korean</dc:language>
+	<dc:language>ko-KR</dc:language>
+	<dc:publisher xml:lang="ko-KR">&#xc131;&#xade0;&#xad00;&#xb300;&#xd559;&#xad50;</dc:publisher>
+	<dc:publisher xml:lang="en-US">SungKyunKwan University</dc:publisher>
+	<dc:publisher rdf:resource="http://www.skku.ac.kr/"/>
+	<dc:source rdf:resource="http://www.dublincore.or.kr/elementset.htm"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+         xmlns:eor="&eorns;">
+
+
+<!-- Begin: Title Declaration -->
+
+<rdf:Property rdf:about = "&dcns;title">
+	<rdfs:label xml:lang="ko-KR">
+	&#xd45c;&#xc81c;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xadf8; &#xc790;&#xc6d0;&#xc5d0; &#xbd80;&#xc5ec;&#xb41c; &#xc81c;&#xbaa9;
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xb300;&#xccb4;&#xb85c; &#xd45c;&#xc81c;&#xb294; &#xadf8; &#xc790;&#xc6d0;&#xc744; 
+	&#xacf5;&#xc2dd;&#xc801;&#xc73c;&#xb85c; &#xc9c0;&#xce6d;&#xd558;&#xb294; &#xc774;&#xb984;&#xc77c; 
+	&#xac83;&#xc784;.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+	<rdfs:label xml:lang="ko-KR">
+	&#xae30;&#xd0c0; &#xc81c;&#xc791;&#xc790;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xc81c;&#xc791;&#xc790; &#xc694;&#xc18c;&#xc5d0; &#xba85;&#xc2dc;&#xb41c; &#xac1c;&#xccb4; 
+	&#xc774;&#xc678;&#xc5d0;, &#xc790;&#xc6d0;&#xc758; &#xb0b4;&#xc6a9;&#xc5d0; &#xae30;&#xc5ec;&#xd55c; 
+	&#xcc45;&#xc784;&#xc774; &#xc788;&#xb294; &#xae30;&#xd0c0; &#xac1c;&#xccb4;
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xae30;&#xd0c0; &#xc81c;&#xc791;&#xc790;&#xc758; &#xc608;&#xb85c;&#xc11c;&#xb294;, &#xc0ac;&#xb78c;, 
+	&#xae30;&#xad00;, &#xb610;&#xb294; &#xacf5;&#xacf5;&#xc0ac;&#xc5c5;&#xc774; 
+	&#xd3ec;&#xd568;&#xb41c;&#xb2e4;.  &#xb300;&#xccb4;&#xb85c;, &#xae30;&#xd0c0; 
+	&#xc81c;&#xc791;&#xc790;&#xc758; &#xc774;&#xb984;&#xc774; &#xae30;&#xd0c0; 
+	&#xc81c;&#xc791;&#xc790;&#xb97c; &#xc9c0;&#xc2dc;&#xd558;&#xb294;&#xb370; &#xc0ac;&#xc6a9;&#xb428;.
+	</dc:description>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+	<rdfs:label xml:lang="ko-KR">
+	&#xc81c;&#xc791;&#xc790;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xc790;&#xc6d0;&#xc758; &#xb0b4;&#xc6a9;&#xc5d0; &#xc8fc;&#xb41c; &#xcc45;&#xc784;&#xc744; 
+	&#xac00;&#xc9c4; &#xac1c;&#xccb4;
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xc81c;&#xc791;&#xc790;&#xc758; &#xc608;&#xb85c;&#xc11c;&#xb294;, &#xc0ac;&#xb78c;&#xc774;&#xb098; 
+	&#xae30;&#xad00;, &#xb610;&#xb294; &#xacf5;&#xacf5;&#xc0ac;&#xc5c5;&#xc744; &#xb4e4; &#xc218; 
+	&#xc788;&#xc74c;.  &#xc81c;&#xc791;&#xc790;&#xb97c; &#xd45c;&#xc2dc;&#xd558;&#xae30; 
+	&#xc704;&#xd574;&#xc11c;&#xb294; &#xb300;&#xccb4;&#xb85c; &#xc81c;&#xc791;&#xc790;&#xc758; 
+	&#xc774;&#xb984;&#xc774; &#xc0ac;&#xc6a9;&#xb428;.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+	<rdfs:label xml:lang="ko-KR">
+	&#xbc1c;&#xd589;&#xcc98;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xc790;&#xc6d0;&#xc744; &#xd604;&#xc7ac;&#xc758; &#xd615;&#xd0dc;&#xb85c; 
+	&#xc774;&#xc6a9;&#xac00;&#xb2a5;&#xd558;&#xac8c; &#xb9cc;&#xb4e0; &#xc2e4;&#xccb4;
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xbc1c;&#xd589;&#xcc98;&#xc758; &#xc608;&#xb85c;&#xc11c;&#xb294;, &#xc0ac;&#xb78c;, 
+	&#xae30;&#xad00;, &#xb610;&#xb294; &#xacf5;&#xacf5;&#xc0ac;&#xc5c5; &#xb4f1;&#xc774; 
+	&#xd3ec;&#xd568;&#xb41c;&#xb2e4;.  &#xb300;&#xccb4;&#xb85c; &#xbc1c;&#xd589;&#xcc98;&#xc758; 
+	&#xc774;&#xb984;&#xc774; &#xbc1c;&#xd589;&#xcc98;&#xb97c; &#xc9c0;&#xc2dc;&#xd558;&#xb294;&#xb370; 
+	&#xc0ac;&#xc6a9;&#xb428;.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+	<rdfs:label xml:lang="ko-KR">
+	&#xc8fc;&#xc81c;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xc790;&#xc6d0;&#xc758; &#xb0b4;&#xc6a9;&#xc774; &#xc9c0;&#xb2cc; &#xc8fc;&#xc81c;(topic)
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xb300;&#xccb4;&#xb85c;, &#xc8fc;&#xc81c;&#xb294; &#xc790;&#xc6d0;&#xc758; &#xc8fc;&#xc81c;&#xb97c; 
+	&#xd45c;&#xd604;&#xd558;&#xb294; &#xd0a4;&#xc6cc;&#xb4dc;&#xb098; &#xad6c;&#xc808;, 
+	&#xb610;&#xb294; &#xbd84;&#xb958; &#xcf54;&#xb4dc;&#xb85c; 
+	&#xb098;&#xd0c0;&#xb0b4;&#xc5b4;&#xc9c4;&#xb2e4;.  &#xb610;&#xd55c; &#xd1b5;&#xc81c; 
+	&#xc5b4;&#xd718;&#xb098; &#xacf5;&#xc2dd;&#xc801;&#xc778; &#xbd84;&#xb958; &#xc2a4;&#xd0b4;&#xc5d0; 
+	&#xc758;&#xd55c; &#xac12;&#xc744; &#xc0ac;&#xc6a9;&#xd558;&#xb294; &#xac83;&#xc774; 
+	&#xcd5c;&#xc0c1;&#xc758; &#xbc29;&#xbc95;&#xc73c;&#xb85c;&#xc11c; &#xad8c;&#xc7a5;&#xb418;&#xace0; 
+	&#xc788;&#xb2e4;.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+	<rdfs:label xml:lang="ko-KR">
+	&#xc124;&#xba85;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xc790;&#xc6d0;&#xc758; &#xb0b4;&#xc6a9;&#xc5d0; &#xb300;&#xd55c; &#xc124;&#xba85;
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xc124;&#xba85;&#xc5d0;&#xb294; &#xcd08;&#xb85d;&#xc774;&#xb098; &#xb0b4;&#xc6a9;&#xbaa9;&#xcc28;, 
+	&#xb0b4;&#xc6a9;&#xc5d0; &#xb300;&#xd55c; &#xc2dc;&#xac01;&#xc801;&#xc778;(graphical) 
+	&#xd45c;&#xd604;, &#xb610;&#xb294; &#xc790;&#xc720;&#xb85c;&#xc6b4; &#xd14d;&#xc2a4;&#xd2b8; 
+	&#xae30;&#xc220; &#xb4f1;&#xc774; &#xd3ec;&#xd568;&#xb418;&#xb098;, 
+	&#xc774;&#xac83;&#xb4e4;&#xb85c;&#xb9cc; &#xad6d;&#xd55c;&#xb418;&#xb294; &#xac83;&#xc740; 
+	&#xc544;&#xb2d8;.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+	<rdfs:label xml:lang="ko-KR">
+	&#xb0a0;&#xc9dc;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xc790;&#xc6d0;&#xc758; &#xc874;&#xc7ac; &#xae30;&#xac04; &#xb3d9;&#xc548; 
+	&#xc5b4;&#xb5a0;&#xd55c; &#xc0ac;&#xac74;&#xc774; &#xbc1c;&#xc0dd;&#xd55c; &#xb0a0;&#xc9dc;.
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xb300;&#xccb4;&#xb85c;, &#xb0a0;&#xc9dc;&#xb780; &#xc790;&#xc6d0;&#xc758; &#xc81c;&#xc791;&#xc77c; 
+	&#xb610;&#xb294; &#xc790;&#xc6d0;&#xc774; &#xd604;&#xc7ac;&#xc758; &#xd615;&#xd0dc;&#xb85c; 
+	&#xc774;&#xc6a9;&#xac00;&#xb2a5;&#xd558;&#xac8c; &#xb41c; &#xc2dc;&#xc810;&#xacfc; 
+	&#xad00;&#xb828;&#xb41c;&#xb2e4;. &#xb0a0;&#xc9dc; &#xac12;&#xc758; &#xc778;&#xcf54;&#xb529;&#xc744; 
+	&#xc704;&#xd55c; &#xcd5c;&#xc120;&#xcc45;&#xc73c;&#xb85c;&#xc11c;, 
+	ISO 8601[W3CDTF]&#xc758; YYYY-MM-DD &#xd615;&#xc2dd;&#xc744; &#xcde8;&#xd560; 
+	&#xac83;&#xc774; &#xad8c;&#xc7a5;&#xb428;.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+	<rdfs:label xml:lang="ko-KR">
+	&#xc790;&#xb8cc; &#xc720;&#xd615;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xc790;&#xc6d0; &#xb0b4;&#xc6a9;&#xc758; &#xc131;&#xaca9; &#xb610;&#xb294; &#xc7a5;&#xb974;
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xc790;&#xb8cc; &#xc720;&#xd615;&#xc740; &#xb0b4;&#xc6a9;&#xc758; &#xc77c;&#xbc18;&#xc801;&#xc778; 
+	&#xbc94;&#xc8fc;, &#xae30;&#xb2a5;, &#xc7a5;&#xb974;, &#xb610;&#xb294; &#xc9d1;&#xc131; 
+	&#xc218;&#xc900;&#xc744; &#xd45c;&#xd604;&#xd558;&#xb294; &#xb9d0;&#xc774;&#xb2e4;.  &#xd1b5;&#xc81c; 
+	&#xc5b4;&#xd718;&#xc758; &#xc0ac;&#xc6a9;&#xc774; &#xad8c;&#xc7a5;&#xb418;&#xace0; 
+	&#xc788;&#xc74c;. (&#xc608;&#xb97c; &#xb4e4;&#xba74;, DC&#xc758; &#xc790;&#xb8cc; 
+	&#xc720;&#xd615;&#xc5d0; &#xad00;&#xd55c; &#xc791;&#xc5c5; &#xcd08;&#xc548; 
+	&#xb9ac;&#xc2a4;&#xd2b8;[DCT1]).  &#xc790;&#xc6d0;&#xc758; &#xbb3c;&#xb9ac;&#xc801; 
+	&#xb610;&#xb294; &#xb514;&#xc9c0;&#xd138; &#xd45c;&#xd604; &#xd615;&#xc2dd;&#xc744; 
+	&#xc124;&#xba85;&#xd558;&#xae30; &#xc704;&#xd574;&#xc11c;&#xb294; &#xd615;&#xc2dd;(Format) 
+	&#xc694;&#xc18c;&#xb97c; &#xc0ac;&#xc6a9;&#xd558;&#xb77c;.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+	<rdfs:label xml:lang="ko-KR">
+	&#xd615;&#xc2dd;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xc790;&#xc6d0;&#xc758; &#xbb3c;&#xb9ac;&#xc801; &#xd45c;&#xd604;&#xd615;&#xc2dd; &#xbc0f; &#xb514;&#xc9c0;&#xd138; &#xd45c;&#xd604;&#xd615;&#xc2dd;
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xb300;&#xccb4;&#xb85c;, &#xd615;&#xc2dd;&#xc740; &#xc790;&#xc6d0;&#xc758; &#xb9e4;&#xccb4; 
+	&#xc720;&#xd615;&#xc774;&#xb098; &#xd2b9;&#xc9c8;&#xc744; &#xd3ec;&#xd568;&#xd55c;&#xb2e4;. 
+	&#xd615;&#xc2dd;&#xc740; &#xc790;&#xc6d0;&#xc744; &#xbcf4;&#xc5ec;&#xc8fc;&#xac70;&#xb098; 
+	&#xc2e4;&#xd589;&#xc2dc;&#xd0a4;&#xb294;&#xb370; &#xd544;&#xc694;&#xd55c; 
+	&#xc18c;&#xd504;&#xd2b8;&#xc6e8;&#xc5b4;&#xb098; &#xd558;&#xb4dc;&#xc6e8;&#xc5b4;, &#xb610;&#xb294; 
+	&#xae30;&#xd0c0; &#xc7a5;&#xce58;&#xb97c; &#xacb0;&#xc815;&#xd558;&#xae30; &#xc704;&#xd574;&#xc11c; 
+	&#xc0ac;&#xc6a9;&#xb420; &#xc218; &#xc788;&#xb2e4;. &#xd2b9;&#xc9c8;&#xc758; 
+	&#xc608;&#xb85c;&#xb294;, &#xd06c;&#xae30;(&#xc6a9;&#xb7c9;)&#xb098; &#xae30;&#xac04;&#xc744; 
+	&#xb4e4; &#xc218; &#xc788;&#xb2e4;.  &#xc774;&#xac83; &#xb610;&#xd55c; &#xd1b5;&#xc81c; 
+	&#xc5b4;&#xd718;&#xc758; &#xc0ac;&#xc6a9;&#xc774; &#xad8c;&#xc7a5;&#xb428;. (&#xc608;&#xb97c; 
+	&#xb4e4;&#xba74;, &#xcef4;&#xd4e8;&#xd130; &#xbbf8;&#xb514;&#xc5b4; &#xd615;&#xc2dd;&#xc744; 
+	&#xc815;&#xc758;&#xd558;&#xace0; &#xc788;&#xb294; Internet Media Types[MIME]).
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+	<rdfs:label xml:lang="ko-KR">
+	&#xc2dd;&#xbcc4;&#xc790;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xc790;&#xc6d0;&#xc744; &#xac00;&#xb9ac;&#xd0a4;&#xb294; &#xc9c0;&#xc2dc;&#xc790;. 
+	&#xc8fc;&#xc5b4;&#xc9c4; &#xd615;&#xd0dc;&#xb9cc;&#xc73c;&#xb85c;&#xb294; &#xadf8; 
+	&#xc758;&#xbbf8;&#xb97c; &#xc54c; &#xc218; &#xc5c6;&#xc74c;.
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xc790;&#xc6d0;&#xc758; &#xc2dd;&#xbcc4;&#xc744; &#xac00;&#xc7a5; &#xc798; 
+	&#xc218;&#xd589;&#xd558;&#xae30; &#xc704;&#xd574;&#xc11c;&#xb294; &#xacf5;&#xc778;&#xb41c; 
+	&#xc2dd;&#xbcc4;&#xccb4;&#xacc4;&#xb97c; &#xb530;&#xb974;&#xb294; 
+	&#xbb38;&#xc790;/&#xc22b;&#xc790;&#xc5f4;&#xc744; &#xc0ac;&#xc6a9;&#xd560; &#xac83;&#xc774; 
+	&#xad8c;&#xc7a5;&#xb41c;&#xb2e4;.  &#xacf5;&#xc778;&#xb41c; &#xc2dd;&#xbcc4;&#xccb4;&#xacc4;&#xc758; 
+	&#xc608;&#xb85c;&#xb294;, URI, URL, DOI, ISBN &#xb4f1;&#xc744; &#xb4e4; &#xc218; &#xc788;&#xb2e4;.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+	<rdfs:label xml:lang="ko-KR">
+	&#xc5b8;&#xc5b4;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xc790;&#xc6d0;&#xc758; &#xc9c0;&#xc801;&#xc778; &#xb0b4;&#xc6a9;&#xc744; 
+	&#xae30;&#xc220;&#xd558;&#xace0; &#xc788;&#xb294; &#xc5b8;&#xc5b4;
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xc5b8;&#xc5b4;&#xb97c; &#xd45c;&#xc2dc;&#xd558;&#xb294; &#xcd5c;&#xc120;&#xc758; 
+	&#xbc29;&#xbc95;&#xc73c;&#xb85c;&#xc11c;&#xb294;, 2&#xbb38;&#xc790;&#xc758; &#xc57d;&#xc5b4;&#xb85c; 
+	&#xb41c; &#xc5b8;&#xc5b4;&#xcf54;&#xb4dc;(ISO 639[ISO639]&#xc5d0;&#xc11c; &#xc634;)&#xb97c; 
+	&#xd3ec;&#xd568;&#xd558;&#xb294; RFC 1766 [RFC1766]&#xc744; &#xb530;&#xb97c; &#xac83;&#xc774; 
+	&#xad8c;&#xc7a5;&#xb418;&#xace0; &#xc788;&#xb2e4;.  &#xb610;&#xd55c; 
+	ISO 3166[ISO3166]&#xc5d0;&#xc11c; &#xcde8;&#xd55c; 2&#xbb38;&#xc790;&#xc758; 
+	&#xad6d;&#xac00;&#xcf54;&#xb4dc;&#xb97c; &#xc120;&#xd0dd;&#xc801;&#xc73c;&#xb85c; 
+	&#xc801;&#xc6a9;&#xd560; &#xc218; &#xc788;&#xb2e4;.  &#xc608;&#xb97c; &#xb4e4;&#xc5b4;, 
+	'en'&#xc740; &#xc601;&#xc5b4;&#xb97c;, &#xb610; 'fr'&#xc740; 
+	&#xd504;&#xb791;&#xc2a4;&#xc5b4;&#xb97c; &#xb098;&#xd0c0;&#xb0b4;&#xba70;, 
+	'en-uk'&#xb294; &#xc601;&#xad6d;&#xc5d0;&#xc11c; &#xc0ac;&#xc6a9;&#xb418;&#xb294; 
+	&#xc601;&#xc5b4;&#xb97c; &#xc758;&#xbbf8;&#xd55c;&#xb2e4;.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+	<rdfs:label xml:lang="ko-KR">
+	&#xad00;&#xb828;&#xc790;&#xb8cc;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xad00;&#xb828; &#xc790;&#xc6d0;&#xb4e4;&#xb85c;&#xc758; &#xcc38;&#xc870;
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xad00;&#xb828; &#xc790;&#xb8cc;&#xc5d0;&#xc758; &#xcc38;&#xc870;&#xb97c; 
+	&#xd45c;&#xd604;&#xd568;&#xc5d0; &#xc788;&#xc5b4;&#xc11c;, &#xacf5;&#xc2dd;&#xc801;&#xc778; 
+	&#xc2dd;&#xbcc4;&#xccb4;&#xacc4;&#xc5d0; &#xb530;&#xb77c; &#xb9cc;&#xb4e4;&#xc5b4;&#xc9c0;&#xb294; 
+	&#xbb38;&#xc790;/&#xc22b;&#xc790;&#xb97c; &#xc0ac;&#xc6a9;&#xd560; &#xac83;&#xc774; 
+	&#xad8c;&#xc7a5;&#xb428;.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+	<rdfs:label xml:lang="ko-KR">
+	&#xcd9c;&#xcc98;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xd604;&#xc7ac; &#xc790;&#xc6d0;&#xc758; &#xcd9c;&#xcc98;&#xac00; &#xb418;&#xb294; 
+	&#xc6d0;&#xc815;&#xbcf4;&#xc790;&#xc6d0;&#xc73c;&#xb85c;&#xc758; &#xcc38;&#xc870;
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xd604;&#xc7ac; &#xc790;&#xc6d0;&#xc774; &#xc5b4;&#xb5a0;&#xd55c; 
+	&#xc6d0;&#xc815;&#xbcf4;&#xc790;&#xc6d0;&#xc73c;&#xb85c;&#xbd80;&#xd130; 
+	&#xc804;&#xccb4;&#xc801;&#xc73c;&#xb85c; &#xb610;&#xb294; &#xbd80;&#xbd84;&#xc801;&#xc73c;&#xb85c; 
+	&#xd30c;&#xc0dd;&#xb41c; &#xacbd;&#xc6b0;&#xc5d0; &#xd544;&#xc694;&#xd55c; 
+	&#xc694;&#xc18c;&#xc774;&#xb2e4;.  &#xc6d0;&#xc815;&#xbcf4;&#xc5d0; &#xb300;&#xd55c; 
+	&#xcc38;&#xc870;&#xc5d0;&#xc11c; &#xacf5;&#xc778;&#xb41c; &#xc2dd;&#xbcc4;&#xccb4;&#xacc4;&#xb97c; 
+	&#xb530;&#xb974;&#xb294; &#xbb38;&#xc790;/&#xc22b;&#xc790;&#xc5f4;&#xc744; &#xc0ac;&#xc6a9;&#xd560; 
+	&#xac83;&#xc774; &#xad8c;&#xc7a5;&#xb428;.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+	<rdfs:label xml:lang="ko-KR">
+	&#xb0b4;&#xc6a9;&#xbc94;&#xc704;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xc790;&#xc6d0;&#xc758; &#xb0b4;&#xc6a9; &#xbc94;&#xc704;
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xb0b4;&#xc6a9;&#xbc94;&#xc704;&#xc5d0;&#xb294; &#xb300;&#xccb4;&#xb85c; &#xacf5;&#xac04;&#xc801; 
+	&#xc704;&#xce58;(&#xc7a5;&#xc18c;&#xc758; &#xba85;&#xce6d;, &#xc9c0;&#xb9ac;&#xc801; 
+	&#xc704;&#x00b7;&#xacbd;&#xb3c4;)&#xb098; &#xc2dc;&#xac04;&#xc801;(&#xc2dc;&#xb300;&#xc801;) 
+	&#xbc94;&#xc704;(&#xc2dc;&#xb300;&#xba85;, &#xb0a0;&#xc9dc;, &#xae30;&#xac04; &#xb4f1;), 
+	&#xad00;&#xd560;&#xad8c;(&#xd589;&#xc815;&#xad6c;&#xc5ed;&#xc758; &#xc774;&#xb984;) &#xb4f1;&#xc774; 
+	&#xd3ec;&#xd568;&#xb41c;&#xb2e4;.  &#xb0b4;&#xc6a9;&#xbc94;&#xc704;&#xb97c; &#xae30;&#xc220;&#xd560; 
+	&#xb54c; &#xd1b5;&#xc81c; &#xc5b4;&#xd718;&#xb97c; &#xc0ac;&#xc6a9;&#xd560; &#xac83;&#xc774; 
+	&#xad8c;&#xc7a5;&#xb41c;&#xb2e4;.(&#xc608;&#xb97c; &#xb4e4;&#xba74;, &#xc9c0;&#xb9ac;&#xc801; 
+	&#xba85;&#xce6d;&#xc758; &#xc2dc;&#xc18c;&#xb7ec;&#xc2a4;[TGN], &#xc9c0;&#xb9ac;&#xc801; 
+	&#xc88c;&#xd45c;&#xb098; &#xc2dc;&#xac04;&#xc758; &#xbc94;&#xc704;&#xc640; &#xac19;&#xc740; 
+	&#xc22b;&#xc790;&#xbcf4;&#xb2e4;&#xb294; &#xacf5;&#xc2dd;&#xc801; 
+	&#xc9c0;&#xba85;/&#xae30;&#xac04;&#xba85; &#xb4f1;)
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+	<rdfs:label xml:lang="ko-KR">
+	&#xc774;&#xc6a9;&#xc870;&#xac74;
+	</rdfs:label>
+	<rdfs:comment xml:lang="ko-KR">
+	&#xadf8; &#xc790;&#xc6d0;&#xc5d0; &#xb300;&#xd574;&#xc11c; &#xac16;&#xace0; &#xc788;&#xb294; 
+	&#xad8c;&#xb9ac;&#xc5d0; &#xad00;&#xd55c; &#xc815;&#xbcf4;
+	</rdfs:comment>
+	<dc:description xml:lang="ko-KR">
+	&#xb300;&#xccb4;&#xb85c; &#xc774;&#xc6a9;&#xc870;&#xac74; &#xc694;&#xc18c;&#xb294; 
+	&#xc790;&#xc6d0;&#xc5d0; &#xb300;&#xd55c; &#xc800;&#xc791;&#xad8c; &#xad00;&#xb9ac; 
+	&#xbc0f; &#xc774;&#xc6a9;&#xad8c;&#xb9ac;&#xc5d0; &#xad00;&#xd55c; &#xc124;&#xba85;&#xc774;&#xb098; 
+	&#xadf8;&#xb7ec;&#xd55c; &#xc815;&#xbcf4;&#xb97c; &#xc81c;&#xacf5;&#xd558;&#xb294; 
+	&#xc11c;&#xbe44;&#xc2a4;&#xb85c;&#xc758; &#xc5f0;&#xacb0;&#xc744; &#xd3ec;&#xd568;&#xd55c;&#xb2e4;. 
+	&#xc774;&#xc6a9;&#xc870;&#xac74; &#xc815;&#xbcf4;&#xb294; 
+	&#xc9c0;&#xc801;&#xc7ac;&#xc0b0;&#xad8c;(IPR)&#xc774;&#xb098; &#xc800;&#xc791;&#xad8c; 
+	&#xb4f1;&#xc758; &#xac1c;&#xb150;&#xc744; &#xd3ec;&#xd568;&#xd55c;&#xb2e4;.  &#xb9cc;&#xc57d; 
+	&#xc774;&#xc6a9;&#xc870;&#xac74; &#xc694;&#xc18c;&#xc5d0; &#xb300;&#xd55c; 
+	&#xae30;&#xc220;&#xc774; &#xc5c6;&#xb2e4;&#xace0; &#xd574;&#xc11c; &#xadf8; 
+	&#xc790;&#xc6d0;&#xc744; &#xb9c8;&#xc74c;&#xb300;&#xb85c; &#xc0ac;&#xc6a9;&#xd574;&#xb3c4; 
+	&#xb418;&#xb294; &#xac83;&#xc73c;&#xb85c; &#xd568;&#xbd80;&#xb85c; &#xac04;&#xc8fc;&#xd560; 
+	&#xc218;&#xb294; &#xc5c6;&#xb2e4;.
+	</dc:description>
+</rdf:Property>
+
+</rdf:RDF>

@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Update - February 2000</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+    <link rel="meta" href="nl2000-02.shtml.rdf" />
+  </head>
+
+  
+<body>
+    
+<div class="head">
+      <!--#include virtual="/ssi/header.shtml"-->
+<table summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content." border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr valign="top">
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td bgcolor="#EEEEEE" width="150">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" summary="Layout table: Contains graphical text.">
+<tbody>
+<tr bgcolor="#99A59F" align="center">
+<td><img src="/images/navlist/toc.gif" width="150" height="25" alt="Table of Contents" border="0" /></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellspacing="0" cellpadding="10" border="0" summary="Layout table: Contains navigation.">
+<tbody>
+<tr>
+<td class="smallsans">
+<dl>
+<dt class="navlist"><a href="#action">Action!</a></dt>
+<dt class="navlist"><a href="#newsbriefs">News Briefs</a></dt>
+<dt class="navlist"><a href="#workinggroup">Working Group Updates</a></dt>
+<dt class="navlist"><a href="#advisory">Advisory Committee Updates</a></dt>
+<dt class="navlist"><a href="#workshop">Workshop News</a></dt>
+<dt class="navlist"><a href="#project">Project &amp; Tool Updates</a></dt>
+<dt class="navlist"><a href="#website">Web Site Changes</a></dt>
+<dt class="navlist">Submit a news item</dt>
+</dl>
+</td>
+</tr>
+<tr>
+<td class="note">
+<p>This Newsletter is published monthly by the <a href="../../">Dublin Core Metadata Initiative</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="10" summary="Content table">
+<tbody>
+<tr>
+<td>              
+<h1 align="center">DCMI Update</h1>
+<h3 align="center">Volume 1, Number 2 - February
+              2000</h3>
+<div align="center">
+                
+<p>(A Summary of activities from January 2000)</p>
+<hr size="1" noshade />
+
+                
+<h3 align="left"><a id="action"
+                name="action"></a>Action!</h3>
+</div>
+<ul>
+                
+<li>
+                  
+<div align="left">
+                    <strong>Dublin Core version 1.1 approved as a
+                    CEN Workshop Agreement (CWA)</strong>
+                  </div>
+<p align="left">At last week's meeting of the
+                  CEN/ISSS Workshop on Metadata for Multimedia
+                  Information - Dublin Core (MMI-DC), approval in
+                  unison was given for Dublin Core version 1.1 as a
+                  CEN Workshop Agreement (CWA). It will be
+                  published with a foreword and with some formal
+                  changes of the references in DC 1.1.</p>
+<p align="left">The workshop now continues the
+                  work with Guidance Information for the use of
+                  Dublin Core in Europe. The Guidance material is
+                  intended to bring together documentation on the
+                  use of Dublin Core in Europe in the following
+                  areas:</p>
+<ul>
+<li>
+                   Strategic documentation (i.e.: outlining
+                  the reasons for choosing Dublin Core or another
+                  Metadata Element Set);</li>
+<li>User guidelines;</li>
+<li>Technical implementation guidelines;</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>In parallel with this activity,
+                  is a task for the workshop to maintain and
+                  promote a knowledge base for metadata for
+                  multimedia information (the "Observatory") to
+                  continually assess relationships between Dublin
+                  Core and other initiatives - in order to assist
+                  evolution of standardised metadata schemes. This
+                  knowledge base identifies the key activities
+                  currently being undertaken in Europe and across
+                  the world - the scope of these activities and
+                  related work in European projects and
+                  programs.</p>
+<p>Reported by <a
+                  href="mailto:lea@bs.dk">Leif Andresen</a><br />
+                   <a
+                  href="http://www.mailbase.ac.uk/lists/dc-standards/2000-02/0000.html">
+                  Announcement on DC Standards Mailing List</a></p>
+</blockquote>
+<ul>
+<li><strong>DC-Education Working Group</strong>
+                announces a face-to-face meeting in Australia,
+                19-20 February 2000 The DC-Education working group
+                will be holding its face-to-face meeting in
+                Melbourne, Australia on the weekend of February
+                19-20, 2000. From this meeting, a draft proposal
+                will emerge for possible education-related
+                qualifiers for the Dublin core elements and
+                possible additional elements and qualifiers, if
+                necessary. [<a
+                href="http://www.mailbase.ac.uk/lists/dc-general/2000-01/0005.html">Call for participation</a>] [<a
+                href="http://sunrise.eng.monash.edu.au/dc-ed/">Meeting
+                Information</a>]</li>
+</ul>
+<h3><a id="newsbriefs" name="newsbriefs"></a>News
+              Briefs</h3>
+<ul>
+                
+<li><strong>Dublin Core Element Set now available
+                in Ukrainian</strong><br />
+                 A first step of the DC Implementation task force
+                of the Ukrainian Library Association, this site
+                posts comments and explanations about the Dublin
+                Core Metadata Initiative and the Dublin Core
+                Element Set in Ukrainian. [<a
+                href="http://lucl.lucl.kiev.ua/win/metadata.html">Web
+                Site</a>]
+                </li>
+</ul>
+<h3 align="left"><a id="workinggroup"
+              name="workinggroup"></a>Working Group Updates</h3>
+<ul>
+                
+<li><a href="../groups/languages/">DC-Multiple
+                Languages</a> becomes an Interest Group.
+                </li>
+</ul>
+<h3><a id="advisory" name="advisory"></a>Advisory
+              Committee Updates</h3>
+<ul>
+                
+<li>Jose Borbinha, National Library of Portugal,
+                becomes the newest member of the Advisory
+                Committee. [<a
+                href="http://www.mailbase.ac.uk/lists/dc-international/2000-01/0001.html">Announcement</a>]</li>
+</ul>
+<h3 align="left"><a id="workshop"
+              name="workshop"></a>Workshop News</h3>
+<h3 align="left"><a id="project"
+              name="project"></a>Project and Tool Updates</h3>
+<ul>
+                
+<li><strong>New Project</strong>: <strong><a
+                href="http://lucl.lucl.kiev.ua/win/metadata.html">Ukrainian
+                Library Association Metadata Project</a></strong> -
+                Under the auspices of the Ukrainian Library
+                Association, a task force has been formed. The
+                members of this task force include G. Jaia Barrett,
+                Deputy Executive Director, Association of Research
+                Libraries, Svetlana Sanzhak, Automation Director,
+                Lesia Ukrainka Public Library of Kyiv, Igor Torlin,
+                Automation Director, State Library of the Ukraine
+                for Children and Hanna Voskrensenska, Head, Foreign
+                Publications Department, National Parliamentary
+                Libary of the Ukraine. They have already posted a
+                copy of the Dublin Core Element Set in Ukrainian
+                and hope to provide a template at this site, in the
+                near future, to help web resources' creators to
+                compile DC metadata and to collect metadata of
+                Ukrainian web resources.</li>
+</ul>
+<ul>
+                
+<li>
+                  
+<p><strong>New Project: <a
+                  href="http://www.tki.org.nz/">Te Kete
+                  Ipurangi</a> - the Online Learning
+                  Centre</strong></p>
+<p>This national site, an initiative of New
+                  Zealand's Ministry of Education, is being
+                  developed and managed by <a
+                  href="http://www.tki.org.nz/about/aboutabout.php3">
+                  The Learning Centre Trust</a> to support the
+                  growing online education community in New
+                  Zealand.</p>
+<p>The current online version is phase 1 of a two
+                  phase project. The second phase will see the site
+                  re-launch early in 2000 as a bilingual education
+                  portal+ site which will provide visitors with
+                  both quality-assured content and links to
+                  evaluated online education resources. The site
+                  will continue to be developed and expanded by the
+                  Trust over the next two years and the site
+                  invites contributions from the New Zealand and
+                  global education communities.</p>
+<p>The Trust is currently in the process of
+                  developing a National Education Standard which
+                  will define a Dublin Core education set and an
+                  education metadata set for TKI. The Trust hopes
+                  that this will be developed in collaboration with
+                  the Department of Education, Victoria, Australia
+                  so that an Australasian set can be explored. The
+                  Trust plans to make available to authors of other
+                  New Zealand education sites, tools which will
+                  assist them to apply the agreed Education
+                  Standards to the content they produce.</p>
+<p>For more information about this project,
+                  contact the Project Director, Jill Wilson at <a
+                  href="mailto:jill@tki.org.nz">jill@tki.org.nz</a>.</p>
+</li>
+<li>
+                  
+<p><strong>New Project: Resources Organization
+                  and Searching Specification (ROSS)<br />
+                  </strong> Home page: <a
+                  href="http://ross.lis.ntu.edu.tw">http://ross.lis.ntu.edu.tw</a></p>
+<p>Under the Taiwan Digital Museum Project
+                  (sponsored by the <a
+                  href="http://mars.scie.ntu.edu.tw/%7Edlm/">National
+                  Science Council</a>), we are developing metadata
+                  for various kinds of objects (historical records,
+                  cultural objects, paintings, maps, photos,
+                  butterfly, etc.), and we adopted Dublin Core as
+                  our "core elements."</p>
+</li>
+<li><strong>Project Summary - submitted by <a
+                href="mailto:Gertrud.Berger@lub.lu.se">Gertrud
+                Berger</a> <a
+                href="http://lucl.lucl.kiev.ua/win/metadata.html"></a></strong><br />
+                 <strong><a href="http://mother.lub.lu.se/ELT/">The
+                European Link Treasury</a> (project ends
+                2000-02-01)<br />
+                </strong><br />
+                 ELT is a framework for building multi-lingual
+                search services cooperating in a network and
+                providing useful resource discovery for quality
+                assessed Internet sources. The project is producing
+                a tool kit and methodologies for building databases
+                containing metadata for quality assessed resources.
+                The tools are meant to fulfill the needs of
+                providers of search services in the European school
+                sector. A prototype service is provided as a proof
+                of concept. The resources are described using
+                metadata. The descriptions will be produced by
+                editorial staff (mainly teachers) in Europe.
+                </li>
+</ul>
+<h3 align="left"><a id="website"
+              name="website"></a>Web Site Changes</h3>
+<ul>
+                
+<li>Created a monthly newsletter, DCMI Update.</li>
+<li>Restructured the Project pages to better
+                reflect the international scope of the Dublin Core
+                Metadata Initiative.</li>
+</ul>
+<p>Suggestions, article or item submissions and any
+              comments may be sent to <a
+              href="mailto:dc@oclc.org">dc@oclc.org</a>. Deadline
+              for submissions is the 20th of each month.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+      
+</div>
+    <!--#include virtual="/ssi/footer.txt"-->
+  </body>
+</html>
+

@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+    <title>An XML Encoding of Simple Dublin Core Metadata</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="../../documents/2000/11/dcmes-xml/index.shtml.rdf" />
+  </head>
+
+  <body>
+    <!--#include virtual="/ssi/header.shtml"-->
+
+    <table
+    summary="A layout table with descriptive information about this document."
+     border="0" width="100%" cellspacing="0" cellpadding="2">
+      <tr>
+        <td align="left" width="20%"><strong>Title:</strong> </td>
+
+        <td align="left" valign="top">
+          <h2>An XML Encoding of Simple Dublin Core Metadata</h2>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="left" valign="top">
+        <strong>Creator:</strong> </td>
+
+        <td align="left" valign="top"><a
+        href="mailto:dave.beckett@bristol.ac.uk">Dave Beckett</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="left" valign="top">
+        <strong>Creator:</strong> </td>
+
+        <td align="left" valign="top"><a
+        href="mailto:emiller@oclc.org">Eric Miller</a> </td>
+      </tr>
+
+      <tr>
+        <td align="left" valign="top">
+        <strong>Creator:</strong> </td>
+
+        <td align="left" valign="top" ><a
+        href="mailto:Daniel.Brickley@bristol.ac.uk">Dan
+        Brickley</a> </td>
+      </tr>
+
+      <tr>
+        <td align="left" valign="top"><strong>Date
+        Issued:</strong> </td>
+
+        <td align="left" valign="top" >2000-12-01</td>
+      </tr>
+
+      <tr>
+        <td align="left" valign="top">
+        <strong>Identifier:</strong> </td>
+
+        <td align="left" valign="top" ><a
+        href="/documents/2000/11/dcmes-xml/">http://dublincore.org/documents/2000/11/dcmes-xml/</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="left" valign="top">
+        <strong>Replaces:</strong> </td>
+
+        <td align="left" valign="top" ><a
+        href="/documents/2000/07/14/dcmes-xml/">http://dublincore.org/documents/2000/07/14/dcmes-xml/</a>
+        
+        </td>
+      </tr>
+
+      <tr>
+        <td align="left" valign="top"><strong>Is
+        Replaced By:</strong> </td>
+
+        <td align="left" valign="top" >Not
+        Applicable</td>
+      </tr>
+
+      <tr>
+        <td align="left" valign="top"><strong>Latest
+        version:</strong> </td>
+
+        <td align="left" valign="top" ><a
+        href="/documents/dcmes-xml/">
+        http://dublincore.org/documents/dcmes-xml/</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="left" valign="top"><strong>Status of
+        document:</strong> </td>
+
+        
+<td align="left" valign="top">This is a Dublin Core Metadata Initiative <a href="/documents/#proposedrecommendations">Proposed 
+Recommendation</a>.</td>
+      </tr>
+
+      <tr>
+        <td align="left" valign="top">
+        <strong>Description of document:</strong></td>
+
+        <td align="left" valign="top" >The Dublin Core
+        Metadata Element Set V1.1 (DCMES) can be represented in
+        many syntax formats. This document explains how to encode
+        the DCMES in XML, provides a DTD to validate the documents
+        and describes a method to link them from web pages.</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h2><a id="sec1" name="sec1">1.</a> Introduction and Goals</h2>
+
+    <p>The Dublin Core Metadata Element Set V1.1 (DCMES) <a
+    href="#DCMES">[DCMES]</a> can be represented in many syntax
+    formats. This document gives an encoding for the DCMES in XML<a
+    href="#XML-SPEC">[XML-SPEC]</a>, provides a DTD to validate the
+    documents and describes a method to link them from web
+    pages.</p>
+
+    <p>This document describes an encoding for the DCMES in XML
+    subject to these restrictions:</p>
+
+    <ul>
+      <li>The Dublin Core elements described in the DCMES V1.1
+      reference can be used</li>
+
+      <li>No other elements can be used</li>
+
+      <li>No element qualifiers can be used</li>
+
+      <li>The resulting XML cannot be embedded in web pages</li>
+    </ul>
+
+    <p>The primary goal for this document is to provide a simple
+    encoding, where there are no extra elements, qualifiers,
+    optional or varying parts allowed. This allows the resulting
+    data to be validated against a DTD and guaranteed usable by XML
+    parsers. A secondary goal was to make the encoding also be
+    valid RDF<a href="#RDFMS">[RDFMS]</a> which allows the document
+    to be manipulated using the RDF model. We have tried to limit
+    the RDF <em>constructs</em> to the minimum, and the result is a
+    mostly standard header and footer for every document.</p>
+
+    <p>We acknowledge that there will be further documents
+    describing other encodings for DC without these restrictions
+    however this one is for the simplest possible form. One result
+    of the restrictions is that the encoding does not create
+    documents that can be embedded in HTML pages. Please refer to
+    other Dublin Core documents that can describe how to do
+    that.</p>
+
+    <p>This document is based on previous work such as 
+    <!-- <a href="#DCRDF">[DCRDF]</a>, -->
+     <a href="#EM-DTD">[EM-DTD]</a>, <a href="#BATHP">[BATHP]</a>,
+    <a href="#CIMI-XML-TB">[CIMI-XML-TB]</a> and <a
+    href="#CIMI-DC-DTD">[CIMI-DC-DTD]</a>.</p>
+
+    <h2><a id="sec2" name="sec2">2.</a> An Encoding of Dublin Core
+    in XML</h2>
+
+    <p>This section describes step by step, this method of how to
+    create a document for the DCMES in XML.</p>
+
+    <h3><a id="sec2-1" name="sec2-1">2.1.</a> XML declaration</h3>
+
+    <p>Any well-formed XML document should include a statement of
+    the version of XML used (and content encoding). At present, the
+    only valid version of XML, as defined in the W3C
+    Recommendation, is 1.0. It is therefore
+    <strong>strongly</strong> recommended to include the
+    statement</p>
+<pre>
+&lt;?xml version="1.0"?&gt;
+</pre>
+
+    <p>on the first line.</p>
+
+    
+<h3><a id="sec2-2" name="sec2-2">2.2.</a> Referencing the XML DTD</h3>
+<pre>
+&lt;!DOCTYPE rdf:RDF SYSTEM "http://dublincore.org/2000/12/01-dcmes-xml-dtd.dtd"&gt;
+</pre>
+
+    <h3><a id="sec2-3" name="sec2-3">2.3.</a> Declaring the use of
+    RDF</h3>
+
+    <p>It is necessary to declare that RDF<a
+    href="#RDFMS">[RDFMS]</a> is being used, as this makes it
+    easier for programs to interpret the meaning of the document.
+    This is done by including</p>
+<pre>
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+</pre>
+    as the next line in the document, following the XML DTD
+    reference. 
+
+    <h3><a id="sec2-4" name="sec2-4">2.4.</a> Describing the
+    resources</h3>
+
+    <p>For each resource described by Dublin Core elements, they
+    must be enclosed in a container element - a pair of
+    <tt>rdf:Description</tt> tags - with one container for each
+    resource. Resources may have no, one or several identifiers and
+    these can be URIs. If a resource has at least one URI, the most
+    appropriate one should be used in the <tt>about</tt> attribute
+    of the <tt>rdf:Description</tt> element like this:</p>
+<pre>
+&lt;rdf:Description about="http://..../"&gt;
+...
+&lt;/rdf:Description&gt;
+</pre>
+    (see below for what to do about other <em>Identifier</em>
+    elements) 
+
+    <p>Inside the <tt>rdf:Description</tt> container, put each of
+    the Dublin Core elements with the <tt>dc:</tt> namespace prefix
+    before them, so for example the <em>Title</em> element becomes
+    <tt>dc:title</tt> (all lowercase) and used inside the
+    <tt>rdf:Description</tt> container like this:</p>
+<pre>
+&lt;rdf:Description about="http://..../"&gt;
+  &lt;dc:title&gt;My Home Page&lt;/dc:title&gt;
+&lt;/rdf:Description&gt;
+</pre>
+
+    <p>This can be repeated for all other DCMES elements that are
+    needed with the standard Dublin Core guidelines - all elements
+    are repeatable and optional. Note that the order of the
+    elements is not guaranteed to be preserved.</p>
+
+    <p>If the value of the Dublin Core element is not plain text,
+    but another resource with a URI, that should be recorded using
+    the <tt>rdf:resource</tt> attribute on the element. The element
+    must have no content which is done by starting and closing the
+    element at the same time like this:</p>
+<pre>
+&lt;rdf:Description about="http://..../"&gt;
+  &lt;dc:subject rdf:resource="http://.../"/&gt;
+&lt;/rdf:Description&gt;
+</pre>
+
+    <p>There may be more than one <em>Identifier</em> element for
+    the resource containing URIs or other identifiers. If a URI
+    identifier is available and appropriate to use, it should be
+    made the value of the <tt>about</tt> attribute of the
+    <tt>rdf:Description</tt> element as described above. The
+    remaining values of the <em>Identifier</em> elements should be
+    encoded in the same manner as the other elements. Here is a
+    fragment of a description of a book which has a non-URI
+    identifier:</p>
+<pre>
+&lt;rdf:Description&gt;
+  &lt;dc:title&gt;Internet Ethics&lt;/dc:title&gt;
+  &lt;dc:creator&gt;Duncan Langford&lt;/dc:creator&gt;
+  &lt;dc:format&gt;Book&lt;/dc:format&gt;
+  &lt;dc:identifier&gt;ISBN 0333776267&lt;/dc:identifier&gt;
+&lt;/rdf:Description&gt;
+</pre>
+
+    <p>It may be that there is no identifier for the resource, in
+    which case neither of the above methods need be used. This
+    would result in something like this:</p>
+<pre>
+&lt;rdf:Description&gt;
+  &lt;dc:title&gt;The Mona Lisa&lt;/dc:title&gt;
+  &lt;dc:description&gt;A painting by ...&lt;/dc:description&gt;
+&lt;/rdf:Description&gt;
+</pre>
+
+    <h3><a id="sec2-5" name="sec2-5">2.5.</a> Language and
+    character encoding</h3>
+
+    <p>XML provides an <tt>xml:lang</tt> attribute that can be used
+    on any element. This provides a way to describe the language
+    used for the <em>content</em> of the element. The DCMES
+    provides a <em>Language</em> element which is used to describe
+    the language of the <em>resource</em>.</p>
+
+    <p>The values of the elements and attributes will need to be
+    encoded using the rules of XML when there are special
+    characters in the value. The special characters that need to be
+    encoded, and when they need to be are summarised here for
+    reference:</p>
+
+    <center>
+      <table
+      summary="A layout table with a summary of special characters and their encoding."
+       align="center" border="1">
+        <tbody>
+          <tr>
+            <th>Plain text</th>
+
+            <th>XML Encoding</th>
+
+            <th>Required in</th>
+          </tr>
+
+          <tr>
+            <td>&amp;</td>
+
+            <td>&amp;amp;</td>
+
+            <td>Element and attribute values</td>
+          </tr>
+
+          <tr>
+            <td>&lt;</td>
+
+            <td>&amp;lt;</td>
+
+            <td>Element and attribute values</td>
+          </tr>
+
+          <tr>
+            <td>&gt;</td>
+
+            <td>&amp;gt;</td>
+
+            <td>Element and attribute values</td>
+          </tr>
+
+          <tr>
+            <td>' (apostrophe / single quote)</td>
+
+            <td>&amp;apos;</td>
+
+            <td>Attribute values</td>
+          </tr>
+
+          <tr>
+            <td>" (double quote)</td>
+
+            <td>&amp;quot;</td>
+
+            <td>Attribute values</td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+
+    <p>Note that the &amp;apos; and &amp;quot; only need to be used
+    for those character inside attribute values, which are only
+    needed for the <tt>rdf:resource</tt> attribute (see Section <a
+    href="#sec2-4">2.4</a>) and the <tt>xml:lang</tt> attribute
+    (see Section <a href="#sec2-5">2.5</a>).</p>
+
+    <p>All other characters outside the core US-ASCII range of
+    32-126 should <strong>not</strong> be encoded with the HTML
+    entities such as &amp;eacute; since these are not defined in
+    XML. Numeric entities for the characters should be used which
+    are written as &amp;#ddd; in decimal or &amp;#xABC; in
+    hexadecimal. Alternatively they can be encoded as Unicode in
+    one of the formats such as UTF-8 which is widely supported.</p>
+
+    <h3><a id="sec2-6" name="sec2-6">2.6.</a> Finishing off the
+    document</h3>
+
+    <p>The final thing that needs to be done is to close the
+    <tt>rdf:RDF</tt> element opened at the top of the document by
+    adding the following line:</p>
+<pre>
+&lt;/rdf:RDF&gt;
+</pre>
+
+    <h2><a id="sec3" name="sec3">3.</a> Examples</h2>
+
+    <center>
+      <table summary="A table showing examples." align="center"
+      bgcolor="#ffffff" border="1" cellpadding="10">
+        <tbody>
+          <tr>
+            <td align="center"><a id="example1"
+            name="example1"><strong>Example 1</strong></a></td>
+          </tr>
+
+          <tr>
+            <td>
+<pre>
+<!--#include virtual="../../documents/2000/11/dcmes-xml/ex1.shtml"-->
+</pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+
+    <center>
+      <table summary="A table showing examples." align="center"
+      bgcolor="#ffffff" border="1" cellpadding="10">
+        <tbody>
+          <tr>
+            <td align="center"><a id="example2"
+            name="example2"><strong>Example 2</strong></a></td>
+          </tr>
+
+          <tr>
+            <td>
+<pre>
+<!--#include virtual="../../documents/2000/11/dcmes-xml/ex2.shtml"-->
+</pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+
+    <h2><a id="sec4" name="sec4">4.</a> Linking to Dublin Core
+    metadata in XML from HTML</h2>
+
+    <p>Dublin Core encoded in the method described here can be
+    refered to from an HTML document and associated with it by
+    means of the HTML &lt;LINK&gt; element. The recommended
+    relation type for this purpose is <tt>REL="meta"</tt>, used
+    like this:</p>
+<pre>
+      &lt;LINK REL="meta" HREF="mydoc.dcxml"&gt;
+</pre>
+    where <tt>mydoc.dcxml</tt> is the URI of the XML document being
+    refered to. 
+
+    <h2><a id="sec5" name="sec5">5.</a> Validating the XML with the
+    DTD</h2>
+
+    <p>The DTD and example documents have to be validated with an
+    XML parser that can handle URIs for the DTDs. Unfortunately,
+    this isn't very widely supported at present. One online
+    validator that seems to handle this is the service at <a
+    href="http://www.stg.brown.edu/service/xmlvalid/">http://www.stg.brown.edu/service/xmlvalid/</a></p>
+
+    
+<p>All validating XML parsers support using local files for DTDs in the SYSTEM 
+parameter. This can be used to validate with the DTD by saving it from the URL 
+given in section <a
+    href="#sec2-2">2.2</a> to a local file and amending the DC/XML documents to 
+have, for example:<br />
+     <tt>&lt;!DOCTYPE rdf:RDF SYSTEM "dcmes-xml.dtd"&gt;</tt><br />
+     at the start and then validating with the XML parser. However
+    <strong>DO NOT</strong> publish documents with this local
+    URL!</p>
+
+    <p>The examples in this document have been validated (using the
+    trick described in the previous paragraph) with James Clarks'
+    <a href="http://www.jclark.com/sp/index.htm">SP</a> validating
+    SGML parser V1.3.4 used with XML encoding and XML catalog
+    (xml.soc) as described in his <a
+    href="http://www.jclark.com/sp/xml.htm">XML support
+    page</a>.</p>
+
+    <p>The configuration used on unix was as follows:</p>
+<pre>
+SGML_CATALOG_FILES=/usr/local/lib/sgml/xml.soc nsgmls -wxml document.dcxml
+</pre>
+
+    <h2><a id="appA" name="appA">Appendix A</a> - DTD for Dublin
+    Core Metadata Element Set 1.1 in XML</h2>
+
+    <p>The URI for this DTD is <a
+    href="http://dublincore.org/2000/12/01-dcmes-xml-dtd.dtd">http://dublincore.org/2000/12/01-dcmes-xml-dtd.dtd</a></p>
+<pre>
+<!--#include virtual="../../documents/2000/11/dcmes-xml/dcmes-xml-dtd.shtml"-->
+</pre>
+
+    <h2>References</h2>
+
+    <p><a id="DCMES" name="DCMES"><strong>[DCMES]</strong></a>
+    Dublin Core Metadata Element Set, Version 1.1: Reference
+    Description<br />
+<a
+    href="/documents/1999/07/02/dces/">http://dublincore.org/documents/rec/rec-dces-19990702.shtml</a></p>
+
+    <p><a id="XML-SPEC"
+    name="XML-SPEC"><strong>[XML-SPEC]</strong></a> Extensible
+    Markup Language (XML) 1.0, W3C Recommendation, 10 February
+    1998<br />
+     <a
+    href="http://www.w3.org/TR/REC-xml">http://www.w3.org/TR/REC-xml</a></p>
+    <!--
+              Removed since obsoleted
+              <p><a id="DCRDF" name="DCRDF"><strong>[DCRDF]</strong></a> Guidance on expressing the Dublin Core within the Resource Description Framework (RDF)<br />
+               <a href="http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/">http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/</a></p>
+              -->
+
+    <p><a id="EM-DTD" name="EM-DTD"><strong>[EM-DTD]</strong></a>
+    DTD's for the Dublin Core Element Set, Eric Miller<br />
+     <a
+    href="http://rdf.dev.oclc.org/dc/xml/dtd.html">http://rdf.dev.oclc.org/dc/xml/dtd.html</a></p>
+
+    <p><a id="BATHP" name="BATHP"><strong>[BATHP]</strong></a> <a
+    href="http://www.ukoln.ac.uk/interop-focus/activities/z3950/int_profile/bath/draft/stable1.html">
+    Bath Profile</a> Appendix D - eXtensible Markup Language (XML)
+    Document Type Definition for Dublin Core Simple<br />
+     <a
+    href="http://www.ukoln.ac.uk/interop-focus/activities/z3950/int_profile/bath/draft/Appendix_D__XML_DTD.htm">
+    http://www.ukoln.ac.uk/interop-focus/activities/z3950/int_profile/bath/draft/Appendix_D__XML_DTD.htm</a></p>
+
+    <p><a id="CIMI-XML-TB"
+    name="CIMI-XML-TB"><strong>[CIMI-XML-TB]</strong></a> The use
+    of XML as a transfer syntax for museum records during the CIMI
+    Dublin Core test bed : some practical experiences, Bert
+    Degenhart Drenth<br />
+     MS Word (no non-proprietary format available): <a
+    href="http://www.cimi.org/documents/XML_for_DC_testbed_rev.doc">
+    http://www.cimi.org/documents/XML_for_DC_testbed_rev.doc</a></p>
+
+    <p><a id="CIMI-DC-DTD"
+    name="CIMI-DC-DTD"><strong>[CIMI-DC-DTD</strong>]</a>CIMI
+    Dublin Core DTD<br />
+     MS Word (no non-proprietary format available): <a
+    href="http://www.cimi.org/documents/CIMI-DC-DTD_210400.doc">http://www.cimi.org/documents/CIMI-DC-DTD_210400.doc</a></p>
+
+    <p><a id="RDFMS" name="RDFMS"><strong>[RDFMS]</strong></a>
+    Resource Description Framework (RDF) Model and Syntax
+    Specification, W3C Recommendation, 22 February 1999 <a
+    href="http://www.w3.org/TR/REC-rdf-syntax">http://www.w3.org/TR/REC-rdf-syntax</a>
+    <!-- End of main body --></p>
+    <!--#include virtual="/ssi/footer.shtml"-->
+  </body>
+</html>
+

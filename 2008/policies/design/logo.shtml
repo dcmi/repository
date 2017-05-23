@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  
+<head>
+    
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    
+<title>DCMI Website Standards and Policy Manual - Logo</title>
+    
+<meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    
+<link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+ 
+</script>
+  
+</head>
+
+  
+<body>
+    
+<!--#include virtual="/ssi/policies/header.shtml" -->
+<table
+    summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content."
+     border="0" width="100%" cellspacing="0" cellpadding="5">
+      <tbody>
+        
+<tr valign="top">
+          
+<td bgcolor="#EEEEEE" width="150">
+            
+<!--#include virtual="/ssi/policies/design.shtml" -->
+</td>
+<td>
+<h1>Logo</h1>
+<p>The Dublin Core Metadata Initiative logo is a key element of our identity. It represents all that the organization stands for and provides instant recognition for the DCMI and its activities all over the world.</p>
+<p>The primary DCMI logo is a three-dimensional reflective sphere, surrounded by a ring of fifteen smaller spheres, which are then surrounded by another ring of fifteen spheres.</p>
+<p>The secondary logo is a flat, one color representation of the three-dimensional logo.</p>
+<p>Using a DCMI logo should be a priority when designing DCMI communications materials.</p>
+<h2>Control space</h2>
+<p>A control space must surround both variations of the DCMI logo to ensure they are presented with maximum clarity and visual impact. The size of the control space must be equal to one quarter the height of the logo.</p>
+<h2>Do not:</h2>
+<ul>
+<li>Do not use the logo in its graphic form in headlines or sentences.</li>
+<li>Do not use the logo with, or as part of, another logo or symbol.</li>
+<li>Do not enclose the logo in a shape.</li>
+<li>Do not rotate, invert, spin, angle or pivot the logo.</li>
+<li>Do not skew, bevel, fold, stretch or otherwise alter the shape of the logo.</li>
+<li>Do not apply the logo on low-contrast backgrounds.</li>
+<li>Do not put a drop shadow behind the logo.</li>
+<li>Do not place a trademark symbol with the logo.</li>
+</ul>
+</td>
+</tr>
+      </tbody>
+    
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://dublincore.org/documents/2008/08/04/dc-html/">
+<title>Supporting DCMI Work Themes</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>Support Current DCMI Work Themes!</h1>
+
+<h2>Support DCMI's Work Themes (1 July 2012 - 30 June 2013)</h2>
+
+<p>Your support ensures that DCMI can continue its work in advancing innovation in metadata design and best practices for the global metadata community.  DCMI is a <strong>not-for-profit organization</strong> committed to the development and open availability of resources that support a health global metadata ecology. </p>
+
+<h2>Why Support DCMI?</h2>
+
+<p>Managing ongoing discussion of current DCMI-wide '<em>work themes</em>', the setting up of international and regional events and the curation and open availability of their assets, managing long term curation of DCMI specifications and namespaces, and coordinating the global community of DCMI volunteers all require dedicated, paid effort. In addition to institutional Member and Partner support, DCMI encourages contributions from community members to specific DCMI work themes.  By making a <span style="color: #ff6600;">work theme donation</span> through ChipIn!, you both support the work of that specific theme and 'vote' regarding which themes are most important to you.</p>
+
+<hr style="border-top: 1px dotted #000000;" />
+
+<table border="0" cellpadding="10">
+<tbody>
+<tr><th colspan="2"><span style="color: #ff6600;"><strong>DCAM Update Activity</strong></span></th></tr>
+<tr>
+<td><p><span style="color: #ff6600;"><strong>Community contributions</strong></span> to the <em>DCAM Update Activity</em> support the funding of editorial processes and discussion management.  </p>
+
+<p>This activity is working on updates to the DCMI Abstract Model (DCAM). The DCAM specifies an abstract syntax for "description sets" (metadata records). Finalized as a DCMI Recommendation in March 2005, the DCMI Abstract Model (DC-AM) expressed the style of metadata that had emerged in the Dublin Core community over the previous decade as formal constructs aligned to the W3C Resource Description Framework (for example, by giving a formal definition to the DC-specific notion of a "vocabulary encoding scheme" and providing for the use of parallel labels in multiple languages). The Abstract Model was designed to bridge the modern paradigm of the unbounded, linked data graph and the more familiar paradigm of the validatable metadata record, providing a foundation for the development of application-independent syntax specifications and constraint languages.</p>
+<p><em>Monitor &amp; participate in this activity:</em> 
+		<ul>
+			<li>Meeting Minutes &amp; Work Agenda: <a href="http://wiki.dublincore.org/index.php/DCAM_Revision" target="_blank">DCAM Revision activity wiki</a></li>
+			<li>Discussion: <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-architecture&A=1" target="_blank">Architecture Forum mailing list</a> &amp; <a href="http://www.jiscmail.ac.uk/lists/DC-ARCHITECTURE.html" target="_blank">list archive</a></li>
+		</ul>
+</p>
+
+</td>
+
+<td><object width="250" height="250"><param name="movie" value="http://widget.chipin.com/widget/id/3487747a4a9cedb5"></param><param name="allowScriptAccess" value="always"></param><param name="wmode" value="transparent"></param><param name="color_scheme" value="brown"></param><embed src="http://widget.chipin.com/widget/id/3487747a4a9cedb5" flashVars="color_scheme=brown" type="application/x-shockwave-flash" allowScriptAccess="always" wmode="transparent" width="250" height="250"></embed></object></td></tr>
+
+<tr><td colspan="2"><hr style="border-top: 1px dotted #000000;" /></td></tr>
+
+<tr><th colspan="2"><span style="color: #ff6600;"><strong>Schema.org Mapping Activity</strong></span></th></tr>
+<tr>
+<td><p><span style="color: #ff6600;"><strong>Community contributions</strong></span> to the <em>Schema.org Mapping Activity</em> support the funding of editorial processes and discussion management.  </p>
+
+<p>This activity is working on a mapping between schema.org and Dublin Core properties. The <a href="http://schema.org/" target="_blank">Schema.org initiative</a> aims at providing terms that webmasters can embed in Web pages to improve search results. For simplicity of adoption, the initiative is defining all of its terms in its own namespace. Where Schema.org terms overlap with DCMI metadata terms, this Task Group will define and publish formal mappings.  The Task Group will work with the maintainers of <a href="http://schema.rdfs.org" target="_blank">Schema.RDFS.org</a>&mdash;"a complementary effort by people from the Linked Data community to support Schema.org deployment and usage with a special focus on Linked Data"&mdash;which has already <a href="http://schema.rdfs.org/mappings.html" target="_blank">published a placeholder</a> for future mappings to Dublin Core. The Task Group will identify use cases for the mappings and define a process and workflow to create, publish, and maintain the mappings.</p>
+<p><em>Monitor &amp; participate in this activity:</em> 
+	<ul>
+    	<li>Meeting Minutes &amp; Work Agenda: <a href="http://wiki.dublincore.org/index.php/Schema.org_Alignment" target="_blank">Schema.org mapping activity wiki</a></li>
+    	<li>Discussion: <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-architecture&A=1" target="_blank">Architecture Forum mailing list</a> &amp; <a href="http://www.jiscmail.ac.uk/lists/DC-ARCHITECTURE.html" target="_blank">list archive</a></li>
+	</ul>
+</p>
+
+</td>
+
+<td><object width="250" height="250"><param name="movie" value="http://widget.chipin.com/widget/id/77f474861bb9349e"></param><param name="allowScriptAccess" value="always"></param><param name="wmode" value="transparent"></param><param name="color_scheme" value="brown"></param><embed src="http://widget.chipin.com/widget/id/77f474861bb9349e" flashVars="color_scheme=brown" type="application/x-shockwave-flash" allowScriptAccess="always" wmode="transparent" width="250" height="250"></embed></object></td></tr>
+
+<tr><td colspan="2"><hr style="border-top: 1px dotted #000000;" /></td></tr>
+
+<tr><th colspan="2"><span style="color: #ff6600;"><strong>Vocabulary Preservation Activity</strong></span></th></tr>
+<tr>
+<td><p><span style="color: #ff6600;"><strong>Community contributions</strong></span> to the <em>Vocabulary Preservation Activity</em> support the funding of editorial processes and discussion management.  </p>
+<p>This activity is working on a framework for vocabulary persistence, preservation, and access. Many of the benefits of structured data come about when users can re-use existing vocabularies rather than create new ones, but it is currently difficult for users to find, create, and host new vocabularies. As a foundation for applications, the value of any given vocabulary depends on the perceived certainty that the vocabulary&mdash;both its machine-readable schemas and human-readable specification documents&mdash;will remain reliably accessible over time and that its URIs will not be sold, re-purposed, or simply forgotten.  This activity is examining and articulating the issues around vocabulary sustainability and preservation and what role DCMI should play in this area.</p>
+
+<p>Monitor &amp; participate in this activity:</em> 
+	<ul>
+    	<li>Meeting Minutes &amp; Work Agenda: <a href="http://wiki.dublincore.org/index.php/DCMI_Vocabulary_Management_Community" target="_blank">Vocabulary Management Community wiki</a></li>
+    	<li>Discussion: <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-vocabulary&A=1" target="_blank">Vocabulary Management Community mailing list</a> &amp; <a href="http://www.jiscmail.ac.uk/lists/DC-VOCABULARY.html" target="_blank">list archive</a></li>
+	</ul>
+</p>
+
+</td>
+
+<td><object width="250" height="250"><param name="movie" value="http://widget.chipin.com/widget/id/9870840baae0ec80"></param><param name="allowScriptAccess" value="always"></param><param name="wmode" value="transparent"></param><param name="color_scheme" value="brown"></param><embed src="http://widget.chipin.com/widget/id/9870840baae0ec80" flashVars="color_scheme=brown" type="application/x-shockwave-flash" allowScriptAccess="always" wmode="transparent" width="250" height="250"></embed></object></td></tr>
+
+
+</tbody>
+</table>
+
+<hr style="border-top: 1px dotted #000000;" />
+
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

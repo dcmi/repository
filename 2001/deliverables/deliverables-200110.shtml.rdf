@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about="http://dublincore.org/archives/2001/deliverables/deliverables-200110.shtml">
+<dc:title>DCMI Deliverables - October 2001</dc:title>
+<dc:description>A table showing the status of DCMI deliverables in October 2001.</dc:description> 
+<dc:date>2001-10</dc:date> 
+<dc:format>text/html</dc:format> 
+<dc:creator>Dekkers, Makx</dc:creator>
+<dc:language>en</dc:language> 
+<dc:publisher>Dublin Core Metadata Initiative</dc:publisher> 
+</rdf:Description> 
+</rdf:RDF> 

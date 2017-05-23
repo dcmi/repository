@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+         xmlns:eor="&eorns;">
+
+
+<rdf:Property rdf:about = "&dcns;title">
+	<rdfs:label xml:lang="pl-PL">
+	Tytu&#x0142; 
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	Nazwa nadana &#x017a;r&#x00f3;d&#x0142;u.
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	Zasadniczo Tytu&#x0142; b&#x0119;dzie nazw&#x0105;, pod kt&#x00f3;r&#x0105; 
+	&#x017a;r&#x00f3;d&#x0142;o jest formalnie znane. 
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+	<rdfs:label xml:lang="pl-PL">
+	Wsp&#x00f3;&#x0142;tw&#x00f3;rca
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	Jednostka odpowiedzialna za wsp&#x00f3;&#x0142;udzia&#x0142; w tworzeniu tre&#x015b;ci 
+	&#x017a;r&#x00f3;d&#x0142;a. 
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	Przyk&#x0142;adami wsp&#x00f3;&#x0142;tw&#x00f3;rcy s&#x0105; osoby fizyczne, cia&#x0142;a zbiorowe 
+	lub us&#x0142;ugi.  Zasadniczo dla okre&#x015b;lenia tego elementu nale&#x017c;y u&#x017c;y&#x0107; 
+	nazwy Wsp&#x00f3;&#x0142;tw&#x00f3;rcy. 
+	</dc:description>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+	<rdfs:label xml:lang="pl-PL">
+	Tw&#x00f3;rca
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	Jednostka g&#x0142;&#x00f3;wnie odpowiedzialna za stworzenie tre&#x015b;ci 
+	&#x017a;r&#x00f3;d&#x0142;a 
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	Przyk&#x0142;adami Tw&#x00f3;rcy s&#x0105; osoby fizyczne, cia&#x0142;a korporatywne 
+	lub us&#x0142;ugi. Zasadniczo nazwa Tw&#x00f3;rcy powinna by&#x0107; u&#x017c;ywana do oznaczenia 
+	tej jednostki 
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+	<rdfs:label xml:lang="pl-PL">
+	Wydawca
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	Jednostka odpowiedzialna za udost&#x0119;pnienie &#x017a;r&#x00f3;d&#x0142;a 
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	Przyk&#x0142;adami wydawcy s&#x0105; osoby fizyczne, instytucje, organizacje lub us&#x0142;ugi. 
+	Zasadniczo dla okre&#x015b;lenia tego elementu nale&#x017c;y u&#x017c;y&#x0107; nazwy Wydawcy. 
+	</dc:description> 
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+	<rdfs:label xml:lang="pl-PL">
+	Opis rzeczowy 
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	Temat tre&#x015b;ci &#x017a;r&#x00f3;d&#x0142;a
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	Zasadniczo Opis rzeczowy b&#x0119;dzie wyra&#x017c;ony w formie s&#x0142;&#x00f3;w kluczowych, 
+	hase&#x0142; przedmiotowych lub symboli klasyfikacji opisuj&#x0105;cych temat 
+	&#x017a;r&#x00f3;d&#x0142;a.  Rekomenduje si&#x0119; wyb&#x00f3;r warto&#x015b;ci elementu 
+	Opis rzeczowy ze s&#x0142;ownika kontrolowanego lub formalnego schematu klasyfikacji. 
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+	<rdfs:label xml:lang="pl-PL">
+	Opis
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	Wyliczenie zawarto&#x015b;ci tre&#x015b;ci &#x017a;r&#x00f3;d&#x0142;a.
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	Opis mo&#x017c;e np. zawiera&#x0107; (chocia&#x017c; nie tylko): abstrakt, spis tre&#x015b;ci, 
+	odes&#x0142;anie do graficznego przedstawienia tre&#x015b;ci lub swobodny tekst 
+	okre&#x015b;laj&#x0105;cy tre&#x015b;&#x0107;. 
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+	<rdfs:label xml:lang="pl-PL">
+	Data
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	Data zwi&#x0105;zana z wydarzeniem w okresie istnienia &#x017a;r&#x00f3;d&#x0142;a 
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	W typowych przypadkach Data b&#x0119;dzie zwi&#x0105;zana z powstaniem lub 
+	dost&#x0119;pno&#x015b;ci&#x0105; &#x017a;r&#x00f3;d&#x0142;a. Rekomendowany 
+	najlepszy spos&#x00f3;b na kodowanie daty jest zdefiniowany w profilu ISO 8601 
+	(http://www.w3.org/TR/NOTE-datetime) jako format RRRR-MM-DD. 
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+	<rdfs:label xml:lang="pl-PL">
+	Typ &#x017a;r&#x00f3;d&#x0142;a 
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	Natura lub kategoria tre&#x015b;ci &#x017a;r&#x00f3;d&#x0142;a.
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	Ten element zawiera terminy opisuj&#x0105;ce og&#x00f3;lne kategorie, funkcje, gatunki lub poziomy 
+	agregacji dla tre&#x015b;ci. Rekomenduje si&#x0119; wyb&#x00f3;r warto&#x015b;ci elementu 
+	Typ z kontrolowanego s&#x0142;ownika (np. wersja robocza listy Typ&#x00f3;w Dublin Core - 
+	http://purl.org/DC/documents/wd-typelist.htm). Dla opisu fizycznej lub cyfrowej materializacji 
+	&#x017a;r&#x00f3;d&#x0142;a nale&#x017c;y u&#x017c;y&#x0107; elementu FORMAT. 
+	</dc:description> 
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+	<rdfs:label xml:lang="pl-PL">
+	Format
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	Fizyczna lub cyfrowa materializacja &#x017a;r&#x00f3;d&#x0142;a.
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	W typowych sytuacjach Format mo&#x017c;e zawiera&#x0107; typ medi&#x00f3;w lub wymiary 
+	&#x017a;r&#x00f3;d&#x0142;a. Format mo&#x017c;e by&#x0107; u&#x017c;yty dla okre&#x015b;lenia 
+	oprogramowania, sprz&#x0119;tu lub innego wyposa&#x017c;enia niezb&#x0119;dnego do 
+	wy&#x015b;wietlenia lub dzia&#x0142;ania &#x017a;r&#x00f3;d&#x0142;a. Przyk&#x0142;adami 
+	wymiar&#x00f3;w mog&#x0105; by&#x0107; rozmiar i czas trwania. Rekomenduje si&#x0119; 
+	wyb&#x00f3;r warto&#x015b;ci z kontrolowanego s&#x0142;ownika (np. lista Typ&#x00f3;w 
+	Medi&#x00f3;w Internetu - http://www.isi.edu/in-notes/iana/assignments/media-types/media-types, 
+	definiuj&#x0105;ca formaty medi&#x00f3;w komputerowych). 
+	</dc:description> 
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+	<rdfs:label xml:lang="pl-PL">
+	Identyfikator &#x017a;r&#x00f3;d&#x0142;a 
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	Jednoznaczny odno&#x015b;nik do &#x017a;r&#x00f3;d&#x0142;a w obr&#x0119;bie danego kontekstu. 
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	Rekomenduje si&#x0119; identyfikowanie &#x017a;r&#x00f3;d&#x0142;a poprzez ci&#x0105;g znak&#x00f3;w 
+	lub numer dostosowany do formalnego systemu identyfikacyjnego.  Przyk&#x0142;adem formalnego 
+	systemu identyfikacyjnego jest Uniform Resource Identifier (URI) (zawieraj&#x0105;cy Uniform 
+	Resource Locator (URL)), Digital Object Identifier (DOI) oraz International Standard Book Number 
+	(ISBN). 
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+	<rdfs:label xml:lang="pl-PL">
+	J&#x0119;zyk 
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	J&#x0119;zyk tre&#x015b;ci intelektualnych &#x017a;r&#x00f3;d&#x0142;a.
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	Rekomendowanym najlepszym sposobem dla tworzenia warto&#x015b;ci elementu J&#x0119;zyk jest 
+	ich definiowanie przy u&#x017c;yciu RFC 1766 (http://ww.ietf.org/rfc/rfc1766.txt), kt&#x00f3;ry 
+	zawiera dwuliterowy kod j&#x0119;zyka (pobrany z normy ISO 639 - 
+	http://ww.oasis-open.org/cover/iso639a.html), po kt&#x00f3;rym opcjonalnie nast&#x0119;puje 
+	dwuliterowy kod kraju (pobrany z normy ISO 3166 - http://www.oasis-open.org/cover/country3166.html). 
+	Np. 'en' dla angielskiego, 'fr' dla francuskiego lub 'en-uk' dla angielskiego u&#x017c;ywanego w Wlk. 
+	Brytanii. 
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+	<rdfs:label xml:lang="pl-PL">
+	Relacja
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	Odes&#x0142;anie do &#x017a;r&#x00f3;d&#x0142;a pozostaj&#x0105;cego w relacji z tym opisywanym. 
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	Rekomenduje si&#x0119; powi&#x0105;zanie &#x017a;r&#x00f3;d&#x0142;a przy pomocy ci&#x0105;gu 
+	znak&#x00f3;w lub numeru dostosowanego do formalnego systemu identyfikacyjnego. 
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+	<rdfs:label xml:lang="pl-PL">
+	&#x0179;r&#x00f3;d&#x0142;o
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	Odes&#x0142;anie do pierwotnego &#x017a;r&#x00f3;d&#x0142;a, z kt&#x00f3;rego pochodzi 
+	opisywane &#x017a;r&#x00f3;d&#x0142;o. 
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	Dane &#x017a;r&#x00f3;d&#x0142;o mo&#x017c;e pochodzi&#x0107; ze &#x017a;r&#x00f3;d&#x0142;a 
+	pierwotnego w ca&#x0142;o&#x015b;ci lub cz&#x0119;&#x015b;ci. Rekomendowanym najlepszym sposobem 
+	jest odes&#x0142;anie do &#x017a;r&#x00f3;d&#x0142;a poprzez ci&#x0105;g znak&#x00f3;w lub numer 
+	dostosowany do formalnego systemu identyfikacyjnego. 
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+	<rdfs:label xml:lang="pl-PL">
+	Miejsce i czas
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	Zasi&#x0119;g tre&#x015b;ci &#x017a;r&#x00f3;d&#x0142;a 
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	Miejsce i czas w typowych sytuacjach zawiera lokalizacj&#x0119; przestrzenn&#x0105; 
+	(nazwa miejsca lub wsp&#x00f3;&#x0142;rz&#x0119;dne geograficzne), okres czasowy 
+	(okre&#x015b;lenie okresu, data lub zakres dat) lub jurysdykcj&#x0119; 
+	(tak&#x0105;, jak nazwa jednostki administracyjnej).  Rekomenduje si&#x0119; wyb&#x00f3;r 
+	warto&#x015b;ci elementu Miejsce i Czas ze s&#x0142;ownika kontrolowanego (np. Thesaurus of 
+	Geographic Names - http://ahiva.pub.getty.edu/tgn_browser/ ). Nast&#x0119;pnie, je&#x015b;li 
+	jest to celowe, u&#x017c;yte zostan&#x0105; nazwy miejsc lub okresy czasu, przy czym 
+	preferowane s&#x0105; identyfikatory numeryczne takie jak zestawy wsp&#x00f3;&#x0142;rz&#x0119;dnych 
+	lub zakresy dat. 
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+	<rdfs:label xml:lang="pl-PL">
+	Prawa W&#x0142;asno&#x015b;ci 
+	</rdfs:label>
+	<rdfs:comment xml:lang="pl-PL">
+	Informacja o prawach w&#x0142;asno&#x015b;ci do &#x017a;r&#x00f3;d&#x0142;a 
+	</rdfs:comment>
+	<dc:description xml:lang="pl-PL">
+	W sytuacjach typowych element W&#x0142;asno&#x015b;&#x0107; b&#x0119;dzie zawiera&#x0142; 
+	okre&#x015b;lenie praw w&#x0142;asno&#x015b;ci dla &#x017a;r&#x00f3;d&#x0142;a lub odes&#x0142;anie 
+	do serwisu dostarczaj&#x0105;cego tak&#x0105; informacj&#x0119;. Informacja o w&#x0142;asno&#x015b;ci 
+	przedstawiona jest cz&#x0119;sto jako Intellectual Property Rights (IPR), Copyright i 
+	r&#x00f3;&#x017c;nego rodzaju okre&#x015b;lenia w&#x0142;asno&#x015b;ci.  Je&#x017c;eli brak jest 
+	elementu W&#x0142;asno&#x015b;&#x0107;, nie mo&#x017c;na dokonywa&#x0107; 
+	&#x017c;adnych za&#x0142;o&#x017c;e&#x0144; co do jego statusu i innych praw dotycz&#x0105;cych 
+	&#x017a;r&#x00f3;d&#x0142;a.
+	</dc:description>
+</rdf:Property>
+
+</rdf:RDF>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description about="http://dublincore.org/archives/2001/statusreport/statusreport-200106.shtml">
+<dc:title>Dublin Core Metadata Initiative - Status Report, May-June 2001</dc:title>
+<dc:description>This report on the status of the Dublin Core Metadata Initiative covers the activities that have taken place in the months May and June of 2001.  The first part of the report describes the activities related to the development of the new organizational structure for DCMI.  The second part of the report contains an overview of the work in the various working groups, interest groups and committees in the reporting period.</dc:description>
+<dc:date>2001-07-09</dc:date>
+<dc:format>text/html</dc:format>
+<dc:creator>Makx Dekkers</dc:creator>
+<dc:language>en</dc:language>
+<dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+</rdf:Description>
+</rdf:RDF>

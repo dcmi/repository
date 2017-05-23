@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Update - May 2000</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+    <link rel="meta" href="nl2000-05.shtml.rdf" />
+  </head>
+
+  <body>
+    
+<div class="head">
+      <!--#include virtual="/ssi/header.shtml"-->
+<table summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content." border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr valign="top">
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td bgcolor="#EEEEEE" width="150">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" summary="Layout table: Contains graphical text.">
+<tbody>
+<tr bgcolor="#99A59F" align="center">
+<td><img src="/images/navlist/toc.gif" width="150" height="25" alt="Table of Contents" border="0" /></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellspacing="0" cellpadding="10" border="0" summary="Layout table: Contains navigation.">
+<tbody>
+<tr>
+<td class="smallsans">
+<dl>
+<dt class="navlist"><a href="#newsbriefs">News Briefs</a></dt>
+<dt class="navlist">Submit a news item</dt>
+</dl>
+</td>
+</tr>
+<tr>
+<td class="note">
+<p>This Newsletter is published monthly by the <a href="file:///D%7C/Data/Projects/dcmi/admin/www">Dublin Core Metadata Initiative</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="10" summary="Content table">
+<tbody>
+<tr>
+<td>
+<h1 align="center">DCMI Update</h1>
+<h3 align="center">Volume 1, Number 5 - May 2000</h3>
+<div align="center">
+                
+<p>(A Summary of activities from April 2000)</p>
+<hr size="1" noshade />
+              </div>
+<h3><a id="newsbriefs" name="newsbriefs"></a>News
+              Briefs</h3>
+<ul>
+                
+<li>
+                  
+<p><strong>2000-04-17: Approved Dublin Core
+                  Interoperability Qualifiers
+                  Announced</strong></p>
+<p>The DC-Usage Committee has completed balloting
+                  of the initial round of proposed <a
+                  href="http://www.mailbase.ac.uk/lists/dc-general/2000-04/0010.html">
+                  Dublin Core Interoperability Qualifiers</a>.
+                  These qualifiers are intended to promote
+                  interoperability among applications that use
+                  element refinements and encoding schemes to
+                  increase the semantic precision of metadata.</p>
+<p><strong>Principles of
+                  Qualification</strong></p>
+<p>In judging the suitability of proposed
+                  qualifiers, the DC Usage Committee recognized two
+                  basic categories of qualifiers. It is expected
+                  that these categories will aid application
+                  designers in developing coherent local qualifiers
+                  as well.</p>
+<p>1. Encoding Schemes</p>
+<p>These qualifiers are pointers to schemes that
+                  aid in the interpretation of an element value.
+                  These schemes include controlled vocabularies and
+                  formal notations. A value expressed using an
+                  Encoding Scheme will thus be a token selected
+                  from a vocabulary (e.g., a term from a
+                  classification system or set of subject headings)
+                  or a string formatted in accordance with a
+                  notation (e.g., "2000-01-01" as the standard
+                  expression of a date).</p>
+<p>2. Element Refinements</p>
+<p>These qualifiers make an element's meaning
+                  more specific without extending its meaning. A
+                  refined element shares the meaning of the
+                  unqualified element, but with a more restricted
+                  scope.</p>
+<p>Local versus interoperability qualifiers</p>
+<p>Application designers should keep in mind that
+                  the present set of qualifiers is not intended to
+                  satisfy all applications, and that meeting local
+                  functional requirements with additional local
+                  elements and qualifiers is expected. It is
+                  expected that as local qualifiers are
+                  demonstrated to be of broader use that they will
+                  attract wider deployment and be considered for
+                  adoption as DC Interoperability Qualifiers.</p>
+<p>Syntactic Encodings</p>
+<p>The Dublin Core Metadata Initiative will issue
+                  recommendations in the near future about
+                  syntactic encoding of approved qualified Dublin
+                  Core in HTML, XML, and RDF.</p>
+<p><strong>The DC Usage Committee</strong></p>
+<p>The DC Usage Committee is a subset of the DC
+                  Advisory Committee. Its membership, listed below,
+                  includes representation of librarians, museum
+                  informatics, digital library researchers, the
+                  instructional metadata community, and system
+                  implementers from 8 countries on 4 continents.
+                  These individuals have invested countless hours
+                  since the Frankfurt metadata conference in a
+                  difficult, often contentious task. Many thanks
+                  are due them for their efforts.</p>
+<blockquote>
+                    
+<table width="75%" border="1"
+                    summary="A table listing the members of the DCMI Usage Committee." cellpadding="2" cellspacing="2">
+                      
+<tr>
+                        
+<td width="35%">Simon Cox</td>
+<td width="29%">Renato Iannella</td>
+<td width="36%">Jon Mason</td>
+</tr>
+
+                      
+<tr>
+                        
+<td width="35%">David Bearman</td>
+<td width="29%">Priscilla Caplan</td>
+<td width="36%">Traugott Koch</td>
+</tr>
+
+                      
+<tr>
+                        
+<td width="35%">Juha Hakala</td>
+<td width="29%">Diane Hillmann</td>
+<td width="36%">Stuart Weibel</td>
+</tr>
+
+                      
+<tr>
+                        
+<td width="35%">Andy Powell</td>
+<td width="29%">Makx Dekkers</td>
+<td width="36%">Leif Andresen</td>
+</tr>
+
+                      
+<tr>
+                        
+<td width="35%">Roland Schwaenzl</td>
+<td width="29%">Tom Baker</td>
+<td width="36%">Rebecca Guenther</td>
+</tr>
+
+                      
+<tr>
+                        
+<td width="35%">Eric Childress</td>
+<td width="29%">Stuart Sutton</td>
+<td width="36%">Sigfrid Lundberg</td>
+</tr>
+
+                      
+<tr>
+                        
+<td width="35%">Warwick Cathro</td>
+<td width="29%">Erik Jul</td>
+<td width="36%">Rachel Heery</td>
+</tr>
+
+                      
+<tr>
+                        
+<td width="35%">Diann Rusch-Feja</td>
+<td width="29%">Eric Miller</td>
+<td width="36%">Shigeo Sugimoto</td>
+</tr>
+
+                      
+<tr>
+                        
+<td width="35%">John Kunze</td>
+<td width="29%">Carl Lagoze</td>
+<td width="36%">&nbsp;</td>
+</tr>
+                    
+</table>
+</blockquote>
+<p>Ratification of a proposed qualifier required
+                  approval by 2/3 of the members of the DC Usage
+                  Committee who cast votes.</p>
+</li>
+<li>
+                  <strong>2000-02-16: CIMI Institute Announces
+                  three new venues for its workshop: Helping People
+                  Find What They Want: Implementing the Dublin Core
+                  in Museums</strong> 
+
+                  
+<p>This two day workshop focuses on information
+                  access and management issues in museums and
+                  cultural heritage organizations through the use
+                  of the CIMI recommendations for the Dublin Core
+                  metadata standard. This workshop is designed for
+                  museum and cultural heritage professionals,
+                  information managers, systems staff, and
+                  administrators looking for ways to better manage
+                  information resources and make them available to
+                  the broad World Wide Web audience. Technical
+                  expertise is not required.</p>
+<p>Places and Dates: [<a
+                  href="http://www.cimi.org/cimi_institute/index.html">Workshop information and registration</a>]</p>
+<blockquote>
+<p>
+
+                   May 31-June 1, 2000: Minneapolis, Minnesota,
+                  US
+</p>
+</blockquote>
+</li>
+</ul>
+<p>Suggestions, article or item submissions and any
+              comments may be sent to <a
+              href="mailto:dc@oclc.org">dc@oclc.org</a>. Deadline
+              for submissions is the 20th of each month.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+      
+</div>
+    <!--#include virtual="/ssi/footer.txt"-->
+  </body>
+</html>
+

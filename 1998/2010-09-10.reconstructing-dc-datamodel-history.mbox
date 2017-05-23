@@ -1,0 +1,673 @@
+From tbaker@tbaker.de Thu Sep  9 17:46:42 2010
+Date: Thu, 9 Sep 2010 17:46:42 -0400
+From: Thomas Baker <tbaker@tbaker.de>
+To: DCMI Architecture <dc-architecture@jiscmail.ac.uk>
+Cc: Dan Brickley <danbrickley@gmail.com>, matolat@oclc.org, em@zepheira.com,
+	r.daniel@elsevier.com
+Subject: Reconstructing a bit of DC datamodel (architecture) history...
+Message-ID: <20100909214642.GA1588@octavius>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.4.2.2i
+Status: RO
+Content-Length: 22394
+Lines: 513
+
+Dear all,
+
+While combing the archives for the earliest reference to
+"http://purl.org/dc/elements/1.1/", I came across a reference
+to the namespace in [1] -- an August 2000 preprint published
+on the DCMI Website of the October 2000 D-Lib Magazine article,
+"A Grammar of Dublin Core" [2].
+
+This article refers to "http://purl.org/dc/elements/1.1/title",
+citing DCMES Version 1.1 of July 1999 [3].  DCMES Version 1.1
+does not mention "http://purl.org/dc/elements/1.1/" in the
+body of its text, though it uses the URI in an RDF element
+embedded in the HTML (try "view source") [3].  I note that
+this RDF element was lost when the document was at some point
+reformatted with the modern DCMI style [4].
+
+The previous version of DCMES [5] of October 1997 had an
+embedded RDF element as well, but the prefix dc: was bound
+to the containing document, not to a PURL.
+
+I recalled that a namespace URI had been decided at a Data
+Model meeting in Crete in September 1998 -- a recollection
+confirmed by a reference in a talk by Eric Miller at DC6
+in November 1998 [6] to decisions taken [7], among which
+to create a "DC namespace" for defining the core elements,
+"http://purl.org/dc/elements/1.0/".
+
+Mailbase is long gone, but I found "decisions.html" in my own
+archive and have appended it as text below (to appear as [8]
+at the next build of the DCMI Website).  I feel quite sure
+that these are the notes from the September 1998 data model
+meeting in Crete but would appreciate independent confirmation
+by any of its participants who may be reading this post.
+(These were: Stu Weibel, Diane Hillmann, Dave Beckett, Renato
+Iannella, Tom Baker, Carl Lagoze, Dan Brickley, Paul Miller,
+Eric Miller, Ron Daniel, and Misha Wolf - have I missed anyone?
+See a photograph [17], to appear at the next Web build.)
+
+As far as I can tell:
+
+-- It was decided in September 1998 to coin the DC namespace
+   "http://purl.org/dc/elements/1.0/", though it is not clear 
+   to me that this namespace was ever used to identify DCMI
+   properties.  At the same time, it was decided that "the RDF data
+   model is the foundation for the DC data model" (see below).
+
+-- It was also decided in 1998 to create a DC namespace
+   "http://purl.org/dc/qualifiers/1.0/", though this decision
+   was (thankfully) never implemented in any form, as far as I
+   can tell.
+
+-- When DCMES Version 1.1 was published in July 1999, the
+   namespace "http://purl.org/dc/elements/1.1/" was used to create
+   URIs for the fifteen elements, though these URIs were hidden from
+   view in an embedded RDF element and not highlighted in the text.
+
+-- RDF schemas for DCMES were created as early as 1997
+   [9,10,11], but it wasn't until March 2000 [12] that
+   the (published) schemas used the namespace URI
+   "http://purl.org/dc/elements/1.1/".
+
+-- The Dublin Core Qualifiers were published in July 2000
+   without reference to URIs [13] and without a corresponding
+   RDF schema.
+
+-- A schema published in August 2001 [14] is the first RDF 
+   representation to show the "qualifiers" identified by URI.
+   It uses the DC namespace "http://purl.org/dc/terms/".
+
+-- The documents for DCMI Elements and Element Refinements 
+   [15] and DCMI Encoding Schemes [16] of October 2002 are the 
+   first Web documents to feature the URIs as identifiers for
+   the terms in the text of the document itself.
+
+Does anyone out there recall this differently?
+
+Tom
+
+[1] http://dublincore.org/archives/2001/02/purl-dc-website/documents/notes/grammar-20000807.htm
+[2] http://www.dlib.org/dlib/october00/baker/10baker.html
+[3] http://dublincore.org/archives/2001/02/purl-dc-website/documents/rec-dces-19990702.htm
+[4] http://dublincore.org/documents/1999/07/02/dces/
+[5] http://dublincore.org/archives/2001/02/purl-dc-website/documents/rec-dces-19971002.htm
+[6] http://dublincore.org/archives/2001/02/purl-dc-website/workshops/dc6conference/pp/ws-dc6-breakout-miller-datamodel.ppt
+[7] http://www.mailbase.ac.uk/lists/dc-datamodel/files/decisions.html
+[8] http://dublincore.org/archives/1998/1998-09-24.decisions.html (to appear at the next build)
+[9] http://dublincore.org/1997/10/02-dces
+[10] http://dublincore.org/1997/10/02-dces.xml
+[11] http://dublincore.org/1999/10/27-dces
+[12] http://dublincore.org/2000/03/13/dces
+[13] http://dublincore.org/documents/2000/07/11/dcmes-qualifiers/
+[14] http://dublincore.org/2001/08/14/dcq
+[15] http://dublincore.org/documents/2002/10/06/current-elements/
+[16] http://dublincore.org/documents/2002/10/06/current-schemes/
+[17] http://dublincore.org/archives/1998/1998-09-24.datamodel-meeting.jpg (to appear at the next build)
+
+----------------------------------------------------------------------
+
+             Dublin Core Data Model Working Group Decisions
+
+                    Dublin Core Data Model Working Group
+
+                               Decisions
+
+
+      Contents
+      --------
+      1   Process
+      2   General
+      3   Qualified DC
+      4   Namespaces, specifications, URIs and naming
+      5   Repetition
+      6   Interoperation between DC-Simple and Qualified-DC systems
+      7   RDF Schema
+      8   Multilingual strings
+      9   Element-specific points
+      10  Miscellaneous
+      11  Informative Annex A -- Element Qualifier(s) for dc:Title
+
+1     Process
+      -------
+
+1.1   The draft spec will include explicit mention that it is only a 
+      draft and that element-specific WGs are invited to review it and 
+      comment on it, especially on the element-specific aspects.
+
+2     General
+      -------
+
+2.1   The DC community will "borrow or steal" from other communities 
+      where reasonable.  This applies in particular to terminology, 
+      schemas, vocabularies etc.
+
+2.2   The RDF data model is the foundation for the DC data model.  This 
+      does not mean that DC (qualified or unqualified) must be expressed 
+      in RDF or even in XML.  These langauges do, however, offer us 
+      powerful modelling tools, which we are glad to make use of.
+
+2.3   The value of each of the DC elements may be a string or a URI.  
+      The URI may be either the URI of an RDF node or a URI which should 
+      be resolved in order to obtain a value.
+
+3     Qualified DC
+      ------------
+
+3.1   Qualified DC adds three tools to the toolbox provided by 
+      unqualifed DC.  These are:
+
+      -  Value Qualifiers, which allow us to correctly interpret string 
+         values.
+
+      -  Element Qualifiers, which allow us to make statements such as 
+         "X is a Y".
+
+      -  Value Components, which allow us to make statements such as 
+         "X has a Y".
+
+      The first two of these are referred to as "Qualifiers".  All three 
+      are further discussed below.
+
+      In addition to the above three tools, RDF provides very useful 
+      constructs for the grouping and sequencing of statements.  These 
+      constructs (Seq, Alt, Bag) may be used for both qualified and 
+      unqualified DC.
+
+      DC delegates the handling of language qualification to RDF and XML.
+
+3.2   A Value Qualifier:
+
+      -  Qualifies a string value and can be applied only to string 
+         values.
+
+      -  Defines either an encoding scheme, or a controlled vocabulary.
+
+      -  Is expressed using the machine-readable token "xyz:Scheme" 
+         (where "xyz" is the local abbreviation for the "dcq" namespace).
+
+      -  Takes as a value either a string (eg "ISO-8601") or a URI 
+         (eg "http://www.w3.org/TR/NOTE-datetime").
+
+3.3   We consider that the following definition of Value Qualifiers is 
+      broadly correct but will require further editing:
+
+         A Value Qualifier refers to the value, specifying either an 
+         encoding rule or a controlled vocabulary to aid in interpreting 
+         the value.  Value Qualifiers apply only to strings, but may be 
+         expressed as URIs.  Recommended practice is to use a Value 
+         Qualifier generally understood by the target community, or a 
+         standard encoding or parsing scheme in wide use across 
+         communities.  Repetition of elements allows use of Value 
+         Qualifiers from more than one source or at more than one level 
+         of specificity.
+
+3.4   We consider that the following definition of Element Qualifiers is 
+      broadly correct but will require further editing:
+
+         An Element Qualifier refines the semantics of a DC element to 
+         further specify the relationship of the element to the resource 
+         itself.  The Element Qualifier does not change the definition 
+         of the element, nor does it modify the value.  Recommended 
+         practice is to use an Element Qualifier from the DCQ controlled 
+         list defined for that element or from a domain specific list 
+         approved and maintained by a particular community.  Repetition 
+         of elements allows use of terms from more than one source.
+
+3.5   Each DC Element may have zero or more Element Qualifiers.
+
+3.6   We consider that the following definition of Value Components is 
+      broadly correct but will require further editing:
+
+         Value Components are semantic characteristics (eg name, 
+         haircolor, eyecolor, SSN, etc of a person) of a value.  These 
+         characteristics may be drawn from existing vocabularies or 
+         defined by local communities.  Value Components are intrinsic 
+         to the value regardless of its relationship to a particular 
+         resource.
+
+3.7   We shall use the term "Intermediate Node" to denote a resource in 
+      an RDF graph that does not have an independent existence in the 
+      real world.
+
+3.8   Element Qualifiers and Value Qualifiers are properties of a 
+      structural node.  A single such structural node can have both an 
+      Element Qualifier and a Value Qualifier, eg:
+
+      Unqualified:
+
+         [R1]---dc:Date------->"1998-12-31"
+
+      Qualified:
+
+         [R1]---dc:Date------->[IN1]
+         [IN1]--rdf:Value----->"1998-12-31"
+         [IN1]--dcq:DateType-->"http://....Issued"
+         [IN1]--dcq:Scheme---->"http://www.w3.org/TR/NOTE-datetime"
+
+4     Namespaces, specifications, URIs and naming
+      -------------------------------------------
+
+4.1   We shall use different namespaces for unqualified DC and for 
+      qualified DC.
+
+4.2   For the 15 DC elements defined in RFC 2413, the namespace we shall 
+      use is:
+
+         http://purl.org/dc/elements/1.0/
+
+      We note that the portion:
+
+         purl.org/dc
+
+      may change in the future.
+
+      The corresponding recommended abbreviation is "dc".  The use of a 
+      common abbreviation improves readability.  Note, however, that the 
+      actual choice of abbreviation is a local matter, as the namespace 
+      is defined solely by a URI.
+
+4.3   For the DC qualifiers, the namespace we shall use is:
+
+         http://purl.org/dc/qualifiers/1.0/
+
+      The corresponding recommended abbreviation is "dcq".  The use of a 
+      common abbreviation improves readability.  Note, however, that the 
+      actual choice of abbreviation is a local matter, as the namespace 
+      is defined solely by a URI.
+
+4.4   Some of the terms (eg IsBasedOn) to be used with DC qualifiers (eg 
+      RelationType) will be defined by the DC community.  These will be 
+      grouped into logically related sets of terms (eg the set of 
+      Relation Types).  We shall define a namespace for each such 
+      logically related set of terms (eg for the set of Relation Types).
+
+      [Editorial note: The use of a separate namespace for each group of 
+      terms is under review.]
+
+4.5   We shall not include dots (or any other punctuation) in the names 
+      of qualifiers.
+
+4.6   The DC specifications will define lists of values for some of the 
+      DCQ qualifiers (such as dcq:RelationType) though not for all such 
+      qualifiers.  For some of the qualifiers for which we will define 
+      lists of values, it will be open to other communities to define 
+      additional values.  For those qualifiers for which we do not 
+      define lists of values, all possible values will be defined by 
+      other communities.
+
+4.7   Referring to the point above, the values defined in the DC 
+      specifications will be URIs 
+      (eg "http:/purl.org/.../dublin.../...IsBasedOn").  We are not 
+      imposing such a restriction on values defined by others.  That is, 
+      in general, the value of an Element Qualifier or of a Value 
+      Qualifier may be either a string or a URI.
+
+4.8   Where the DC community specifies a list of values for a DC Element 
+      (or Value Component), those values shall take the form of URIs.
+
+4.9   Developers MUST not assume that all changes to DC-defined 
+      vocabularies (lists of qualifier values or value values) will be 
+      identified by changing the URI of the vocabulary.
+
+4.10  We shall document unqualified and qualified DC in a single 
+      (versioned) spec, while retaining the various distinct namespaces 
+      with their own versions.  The spec version is for human 
+      consumption.  The namespace versions are for machine consumption.
+      Note that qualifiers are not guaranteed to be independent of the 
+      version of the "dc" namespace.  The spec should incorporate the 
+      notion of a migration path.
+
+4.11  The "dcq" spec should include a non-normative section, containing 
+      a statement such as "Developers of new vocabularies MUST state 
+      whether any change to the vocabulary will be identified by 
+      changing the URI of the vocabulary".
+
+5     Repetition
+      ----------
+
+5.1   Multiple instances of a DC PropertyType may be expressed using 
+      simple repetition or any one of the three RDF M&S collection 
+      constructs (Bag, Seq and Alt).  The DC DM WG seeks feedback on 
+      this decision from DC implementors.
+
+5.2   Where multiple instances of a DC PropertyType are to be ordered, 
+      the appropriate RDF M&S collection construct (Seq or Alt) should 
+      be used.
+
+5.3   The above decisions apply also to Element Qualifiers and to Value 
+      Qualifiers (though we cannot see good uses for Alt in this case). 
+      We seek feedback on this decision from DC implementors.
+
+5.4   For the repetition and ordering of values we recommend the use of 
+      a single rdf:value arc pointing to the appropriate one of the 
+      three RDF collection constructs (Alt, Seq, Bag).  In some cases it 
+      may be appropriate, instead, to repeat the entire DC element, with 
+      the additional value.  Where values are provided in multiple 
+      languages and there is no default language, we recommend use of a 
+      Bag; if there is a default language, we recommend use of an Alt.  
+      The DC DM WG seeks feedback on this decision from DC implementors, 
+      particularly those working on multilingual DC.
+
+6     Interoperation between DC-Simple and Qualified-DC systems
+      ---------------------------------------------------------
+
+6.1   A DC agent MUST understand the "dc" namespace and the RDF M&S 
+      namespace (here shown as "rdf").  Understanding the "rdf" 
+      namespace includes understanding how to extract unqualified DC 
+      values from qualified DC constructs.
+
+6.2   Every valid unqualified DC description is a valid qualified DC 
+      description.  In other words, qualifier-capable DC systems can't 
+      require the presence of qualifiers, they must be able to use 
+      unqualified elements.
+
+6.3   Qualifier-capable DC systems MUST not automatically add any 
+      particular qualifier and qualifier value to incoming descriptions
+      which lack them.  For example, don't automatically add 
+      dcq:DateType="...Created" to any incoming dc:Date element.
+
+6.4   Conversion from a qualified-DC description to a simple DC 
+      description is accomplished through the standard procedure given 
+      below:
+
+      // dumb-down(Element)
+      // Returns a string that is the Simple DC version of the qualified
+      // DC description, Element.
+      // The gist of the procedure is to ignore all qualifiers that
+      // originate at structural nodes, and follow the chain of
+      // rdf:value arcs until a String is found. That string is returned
+      // as the value of the procedure. For example,
+      //   [resource]---dc:Title--->[sn01]
+      //   [sn01]---dcq:TitleType--->"alternative"
+      //         ---rdf:value--->"Paris Symphony"
+      // would simplify to
+      //   [resource]---dc:Title--->"Paris Symphony"
+      //
+      // The expected invocation of the procedure is in a loop like:
+      //   For each (qualified) dc element in a description
+      //       currentArc = the arc of the DC element
+      //       string = dumb-down(currentArc);
+      //       replace qualified value of DC element with string
+      //      (if its a null string, then don't specify that DC element)
+
+      procedure dumb-down(theArc) returns a string {
+         if (theArc points to a string)
+            return that string
+         else if (theArc points to a structural node with an rdf:value 
+            arc)
+            return dumb-down(the rdf:value arc from that node)
+         else if (currentArc points to a node of 'known' type)
+            // e.g. a vCard node
+            handle it in the manner appropriate for that known type
+            (this will either return a string or call dumb-down with
+            some arc emenating from that node)
+         else if (currentArc points to a Bag)
+            tempString = null
+            for each member arc j from the bag
+               // member arcs are the _1, _2,... arcs
+               tempString += dumb-down(j);  // += means concatenation
+         else if (currentArc points to a Seq)
+            tempString = null
+            for each member arc j from the seq
+               tempString += dumb-down(j);  // += means concatenation
+         else if (currentArc points to an Alt)
+            pick one  member arc, using the default (first) arc if
+            you have no particular reason to pick another.
+            return dumb-down(the chosen arc)
+         else (currentArc points to a node of unknown type)
+            return a null string
+            // The alternative of mindless concatenation is not
+            // recommended.
+      }
+
+7     RDF Schema
+      ----------
+
+7.1   Element Qualifiers are all instances of a class named something 
+      like dcq:ElementQualifier.  Value Qualifiers and Value Components 
+      may be able use a similar approach.
+
+7.2   The WG has decided that an isDefinedIn property is necessary and 
+      will request that the RDF Schema WG provide such a property.  
+      Failing this, the WG will specify such a property.
+
+8     Multilingual strings
+      --------------------
+
+8.1   The DC community requires the ability to handle multilingual 
+      strings, associating each sub-string with its language.  Language 
+      qualification of an entire string is just a degenerate case of 
+      this requirement.  Hence, the functionality of the Canberra 
+      language qualifier (which applied to entire strings) is satisfied 
+      by XML's xml:lang attribute.
+
+8.2   The DC DM WG asks the XML, I18N and HTML WGs of the W3C to provide 
+      a general mechanism for multilingual strings in XML documents.
+
+8.3   The DC DM WG asks the W3C RDF M&S WG to support the above 
+      mechanism once it has been specified.
+
+9     Element-specific points
+      -----------------------
+
+9.1   An Element Qualifier for the dc:Contributor, dc:Creator and 
+      dc:Publisher elements, which qualifies those elements by 
+      specifying the contributory role, is dcq:AgentRole.  Feedback from 
+      the relevant WG(s) is requested.
+
+9.2   An Element Qualifier for the dc:Relation element, which qualifies 
+      that element by allowing a more specific relation to be given, is 
+      dcq:RelationType.  Feedback from the Relation WG is requested.
+
+9.3   An Element Qualifier for the dc:Date element, which qualifies that 
+      element by allowing a more precise specification of the type of 
+      the date, is dcq:DateType.  Feedback from the Date WG is requested.
+
+9.4   Additional qualifiers will be added over time, via the DC process.
+
+9.5   The semantic purpose of a dc:Identifier is satisfied by the 
+      Resource's own URI.
+
+9.6   We recommend that agents (dc:Creator, dc:Contributor and 
+      dc:Publisher) be described in any of the following ways:
+
+      -  using a string to hold the agent's name,
+
+      -  using in-line RDF from other appropriate namespaces (eg vCard 
+         or LCNAF) once use of such RDF has been sanctioned by the 
+         organisations owning the particular standards (eg vCard or 
+         LCNAF),
+
+      -  using a URI to point to a remote name file (which uses vCard 
+         or LCNAF etc).
+
+9.7   The Personal vs Corporate (etc?) nature of a value is expressed 
+      using the rdf:Type property if the value is a node.  The DC 
+      community will develop a controlled vocabulary incorporating at 
+      least terms representing a person and a corporate body.
+
+10    Miscellaneous
+      -------------
+
+10.1  In RDF, we use only DC element names as the names of properties of 
+      nodes which represent actual resources.  In other words, at the 
+      outermost level, we do not use any property names other than the 
+      fifteen DC element names.
+
+10.2  In RDF, we do not use the fifteen DC element names except as the 
+      names of properties that apply to actual resources.  In other 
+      words, at inner levels, we do not use the fifteen DC element names 
+      to name properties.
+
+11    Informative Annex A -- Element Qualifier(s) for dc:Title
+      --------------------------------------------------------
+
+11.1  An Element Qualifier for the dc:Title element, which qualifies 
+      that element by allowing a more precise specification of the 
+      structure (eg Main, Alternative) of the title, might be 
+      dcq:TitleStructure.
+
+      An example of another possible Element Qualifier for dc:Title 
+      might be dcq:TitleExpression, whose values might be, eg, 
+      Original, Transliterated, Translated, etc.
+
+      Feedback from the Title WG is requested, covering:
+      a) the need for each qualifier,
+      b) the semantics of each qualifier,
+      c) the machine-readable token representing each qualifier,
+      d) the DC-defined values of each qualifier (if any).
+
+
+-- 
+Thomas Baker <tbaker@tbaker.de>
+
+
+From tbaker@tbaker.de Fri Sep 10 08:48:47 2010
+Date: Fri, 10 Sep 2010 08:48:47 -0400
+From: Thomas Baker <tbaker@tbaker.de>
+To: DC-ARCHITECTURE@JISCMAIL.AC.UK
+Subject: Re: Reconstructing a bit of DC datamodel (architecture) history...
+Message-ID: <20100910124847.GA3556@octavius>
+References: <20100909214642.GA1588@octavius>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <20100909214642.GA1588@octavius>
+User-Agent: Mutt/1.4.2.2i
+Status: RO
+Content-Length: 3051
+Lines: 67
+
+On Thu, Sep 09, 2010 at 05:46:43PM -0400, Thomas Baker wrote:
+> -- The Dublin Core Qualifiers were published in July 2000
+>    without reference to URIs [13] and without a corresponding
+>    RDF schema.
+> 
+> -- A schema published in August 2001 [14] is the first RDF 
+>    representation to show the "qualifiers" identified by URI.
+>    It uses the DC namespace "http://purl.org/dc/terms/".
+
+It occurred to me after sending this that there was a crucial
+step between July 2000 and August 2001 -- the creation of a draft
+Namespace Policy in March 2001 [1] which, as I had forgotten, 
+used
+
+    http://dublincore.org/2000/03/13/dcq#
+    http://dublincore.org/2000/03/13/dctype#
+
+as the DC namespaces for the "qualifiers" and Type vocabulary.
+
+The September 2001 revision of the Namespace Policy [2] listed 
+these namespaces as they remain today:
+
+    http://purl.org/dc/terms/
+    http://purl.org/dc/dcmitype/
+
+As a section "Justification" explained:
+
+    Two significant issues were raised during the development of this
+    policy. Firstly, that DCMI namespace URIs should indicate the
+    category of DCMI terms within that namespace. For example, it was
+    proposed that different DCMI namespaces might be used to partition
+    DCMI elements from DCMI qualifiers, or to indicate that a particular
+    term was originally defined by a particular community or within a
+    particular domain. Secondly, that all DCMI namespace URIs should
+    carry versioning information (for example a date stamp) that would
+    be updated as terms within the namespace change.
+
+    On the first issue it was considered that the category of DCMI terms
+    was not necessarily persistent. For example, terms defined initially
+    by the education community might subsequently become useful to other
+    communities. Associating particular URIs with particular categories
+    of terms was not felt to be helpful to the long-term stability of
+    DCMI namespaces or the URIs of DCMI terms within those namespaces.
+
+    On the second issue it was again considered that embedding versioning
+    information within the namespace URI was unlikely to be helpful
+    to the long-term stability of DCMI namespaces or the URIs of DCMI
+    terms within those namespaces. Rather, it was felt that versioning
+    information should be carried within the DCMI recommendations and/or
+    DCMI term declarations associated with DCMI namespaces and terms.
+
+    Finally it should be noted that, although the 15 elements currently
+    within the http://purl.org/dc/elements/1.1/ namespace could have
+    been redefined within the http://purl.org/dc/terms/ namespace, it was
+    considered that the widespread existing usage of the former namespace
+    URI mitigated against any change. Furthermore, the existing use of
+    the purl.org domain for that namespace URI prompted its use for all
+    DCMI namespace URIs.
+
+Tom
+
+[1] http://dublincore.org/documents/2001/03/09/dcmi-namespace/
+[2] http://dublincore.org/documents/2001/09/17/dcmi-namespace/
+
+-- 
+Thomas Baker <tbaker@tbaker.de>
+
+
+From tbaker@tbaker.de Fri Sep 10 11:40:35 2010
+Date: Fri, 10 Sep 2010 11:40:35 -0400
+From: Thomas Baker <tbaker@tbaker.de>
+To: DC-ARCHITECTURE@JISCMAIL.AC.UK
+Subject: Re: Reconstructing a bit of DC datamodel (architecture) history...
+Message-ID: <20100910154035.GA3180@octavius>
+References: <20100909214642.GA1588@octavius>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <20100909214642.GA1588@octavius>
+User-Agent: Mutt/1.4.2.2i
+Status: RO
+Content-Length: 1725
+Lines: 42
+
+After letting grep run through the entire Web site, two 
+corrections...
+
+On Thu, Sep 09, 2010 at 05:46:43PM -0400, Thomas Baker wrote:
+> Mailbase is long gone, but I found "decisions.html" in my own
+> archive and have appended it as text below (to appear as [8]
+> at the next build of the DCMI Website).  I feel quite sure
+> that these are the notes from the September 1998 data model
+> meeting in Crete but would appreciate independent confirmation
+> by any of its participants who may be reading this post.
+> (These were: Stu Weibel, Diane Hillmann, Dave Beckett, Renato
+> Iannella, Tom Baker, Carl Lagoze, Dan Brickley, Paul Miller,
+> Eric Miller, Ron Daniel, and Misha Wolf - have I missed anyone?
+> See a photograph [17], to appear at the next Web build.)
+
+The decisions.html text was indeed written up and formally
+published as a Data Model Working Draft by Misha Wolf on 
+1998-10-07 [1].
+
+> As far as I can tell:
+> 
+> -- It was decided in September 1998 to coin the DC namespace
+>    "http://purl.org/dc/elements/1.0/", though it is not clear 
+>    to me that this namespace was ever used to identify DCMI
+>    properties.  At the same time, it was decided that "the RDF data
+>    model is the foundation for the DC data model" (see below).
+
+The grep results show that the 1.0 namespace was indeed used in
+specifications at the time, such as [2].
+
+I have no time to look at this further right now but have 
+archived the results of the grep search and this email thread
+under http://dublincore.org/archives/1998/.
+
+Tom
+
+[1] http://dublincore.org/documents/1998/10/07/datamodel/index.shtml
+[2] http://dublincore.org/archives/2001/02/purl-dc-website/documents/notes-cox-19990816.htm
+
+-- 
+Thomas Baker <tbaker@tbaker.de>
+
+

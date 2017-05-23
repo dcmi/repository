@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://dublincore.org/documents/dcq-html/">	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dc2008.de/xmlrpc.php?rsd" />
+ <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dc2008.de/wp-includes/wlwmanifest.xml" /> <script type='text/javascript' src='http://dc2008.de/wp-includes/js/prototype.js?ver=1.5.1.1'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-includes/js/scriptaculous/scriptaculous.js?ver=1.7.1-b3'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-includes/js/scriptaculous/effects.js?ver=1.7.1-b3'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-content/plugins/lightbox-2/lightbox.js?ver=2.2'></script>
+<link rel="stylesheet" type="text/css" href="http://dc2008.de/wp-content/plugins/contactforms/styling/cforms.css" />
+<script type="text/javascript" src="http://dc2008.de/wp-content/plugins/contactforms/js/cforms.js"></script>
+		<meta name="DC.publisher" content="DC 2008" />
+		<meta name="DC.publisher.url" content="http://dc2008.de/" />
+		<meta name="DC.title" content="Call for Papers" />
+		<meta name="DC.identifier" content="http://dc2008.de/papers" />
+		<meta name="DC.date.created" scheme="WTN8601" content="2007-08-20T16:53:52" />
+		<meta name="DC.creator" content="DC 2008 Organisation" />
+		<meta name="DC.rights.rightsHolder" content="DC 2008 Organisation" />
+		<meta name="DC.subject" content="DC-2008 Conference in Berlin, Germany" />
+
+	<!-- begin lightbox scripts -->
+	<script type="text/javascript">
+    //<![CDATA[
+    document.write('<link rel="stylesheet" href="http://dc2008.de/wp-content/plugins/lightbox-2/Themes/Black/lightbox.css" type="text/css" media="screen" />');
+    //]]>
+    </script>
+	<!-- end lightbox scripts -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="icon" href="http://dc2008.de/wp-content/themes/dc-2008/pics/favicon.ico" type="image/ico" />
+<meta name="DC.format" scheme="DCTERMS.IMT" content="text/html" />
+<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+
+<title>DC 2008 -    Call for Papers</title>
+<link rel="stylesheet" href="http://dc2008.de/wp-content/themes/dc-2008/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://dc2008.de/wp-content/themes/dc-2008/print.css" type="text/css" media="print" />
+<link rel="alternate" type="application/rss+xml" href="http://dc2008.de/feed" title="News" />
+</head>
+
+ <body>
+  <div id="interface">
+
+   <div id="head">
+   </div>   <div id="container">
+    
+
+    <div id="content">
+     <div id="contentbox">
+      
+
+         <h1 id="post-6">Call for Papers</h1>
+<div id="print_icon">
+</div>
+
+<!-- <br clear="all" /> -->
+<hr class="h2" />
+          <div class="storycontent">
+            <ul>
+<li><a href="#P1">Conference Announcement and Initial Call for Papers</a></li>
+<li><a href="#P2">Conference Theme</a></li>
+<li><a href="#P3">Submission</a></li>
+<li><a href="#P4">Online Submissions</a></li>
+<li><a href="#P5">Deadlines and Important Dates</a></li>
+<li><a href="#P6">Program Committee Co-Chairs</a></li>
+</ul>
+<hr />
+<p><a title="P1" name="P1" id="P1"></a></p>
+<h3>Conference Announcement and Initial Call for Papers</h3>
+<p><strong>DC-2008</strong><br />
+International Conference on Dublin Core and Metadata Applications</p>
+<p><strong>&#8220;Metadata for Semantic and Social Applications&#8221;</strong></p>
+<p>22-26 September 2008<br />
+in Berlin, Germany</p>
+<p><a href="http://www.dc2008.de/">http://www.dc2008.de/</a></p>
+<p>The annual Dublin Core conferences bring together leading metadata researchers and professionals from around the world.  DC-2008 in Berlin will be the eighth in a series of conferences held previously in <a href="http://www.nii.ac.jp/dc2001/" target="_blank">Tokyo</a>, <a href="http://www.bncf.net/dc2002/" target="_blank">Florence</a>, <a href="http://dc2003.ischool.washington.edu/" target="_blank">Seattle</a>, <a href="http://dc2004.library.sh.cn/" target="_blank">Shanghai</a>, <a href="http://dc2005.uc3m.es/" target="_blank">Madrid</a>, <a href="http://dc2006.ucol.mx/" target="_blank">Manzanillo</a>, and <a href="http://www.dc2007.sg/" target="_blank">Singapore</a>.</p>
+<p>The DC-2008 conference is organized jointly by the <a href="http://kim-forum.org/" target="_blank">Competence Centre for Interoperable Metadata (KIM)</a>, <a href="http://www.mpdl.mpg.de/" target="_blank">Max Planck Digital Library</a>, <a href="http://www.sub.uni-goettingen.de/index-e.html" target="_blank">Göttingen State and University Library</a>, the <a href="http://www.d-nb.de/" target="_blank">German National Library</a>, <a href="http://www.hu-berlin.de/" target="_blank">Humboldt Universität zu Berlin</a>, and <a href="http://www.dublincore.org/" target="_blank">Dublin Core Metadata Initiative</a> and supported by <a href="http://www.wikimedia.de/" target="_blank">Wikimedia Deutschland</a>.</p>
+<hr />
+<p><a title="P2" name="P2" id="P2"></a></p>
+<h3 class="margin">Conference Theme</h3>
+<p>Metadata is a key aspect of our evolving infrastructure for information management, social computing, and scientific collaboration.</p>
+<p>DC-2008 will focus on metadata challenges, solutions, and innovation in initiatives and activities underlying semantic and social applications.  Metadata is part of the fabric of social computing, which includes the use of wikis, blogs, and tagging for collaboration and participation.   Metadata also underlies the development of semantic applications, and the Semantic Web &#8212; the representation and integration of multimedia knowledge structures on the basis of semantic models.  These two trends flow together in applications such as Wikipedia, where authors collectively create structured information that can be extracted and used to enhance access to and use of information sources.</p>
+<p>Recent discussion has focused on how existing bibliographic standards can be expressed as Semantic Web vocabularies to facilitate the ingration of library and cultural heritage data with other types of data. Harnessing the efforts of content providers and end-users to link, tag, edit, and describe their information in interoperable ways (&#8221;participatory metadata&#8221;) is a key step towards providing knowledge environments that are scalable, self-correcting, and evolvable.</p>
+<p>DC-2008 will explore conceptual and practical issues in the development and deployment of semantic and social applications to meet the needs of specific communities of practice.</p>
+<p>Papers, reports, and poster submissions are welcome on a wide range of metadata topics, such as:</p>
+<ul>
+<li>Metadata generation (methods, tools, and practices)</li>
+<li>Semantic Web metadata and applications</li>
+<li>Conceptual models and frameworks (e.g., RDF, DCAM, OAIS)</li>
+<li>Social tagging</li>
+<li>Knowledge Organization Systems (KOS) and Simple Knowledge Organization Systems (SKOS) (e.g., ontologies, taxonomies, authority files, folksonomies, and thesauri)</li>
+<li>Metadata in e-Science and grid applications</li>
+<li>Metadata interoperability and internationalization</li>
+<li>Metadata quality, normalization, and mapping</li>
+<li>Cross-domain metadata uses (e.g., recordkeeping, preservation, institutional repositories)</li>
+<li>Vocabulary registries and registry services</li>
+<li>Domain metadata (e.g., for corporations, cultural memory institutions, education, government, and scientific fields)</li>
+<li>Application profiles</li>
+<li>Accessibility metadata</li>
+<li>Search engines and metadata</li>
+<li>Metadata principles, guidelines, and best practices</li>
+<li>Bibliographic standards (e.g., Resource Description and Access (RDA), Functional Requirements for Bibliographic Records (FRBR), subject headings) as Semantic Web vocabularies</li>
+</ul>
+<hr />
+<p><a title="P3" name="P3" id="P3"></a></p>
+<h3 class="margin">Submission</h3>
+<p>All submissions  will be peer-reviewed by the International Program Committee and published in the conference proceedings.  Full papers and short project reports should follow the <a href="http://www.dcmipubs.org/ojs/index.php/pubs/about/submissions#authorGuidelines">Author Guidelines</a>.  Also, a Word template correctly formatted for the DC-2008 Conference Proceedings <a href="http://www.dcmipubs.org/ojs/dcmiTemplates/DC-1col.dot">is available</a>. The Committee is soliciting paper contributions of the following three types:</p>
+<pre>________________________________</pre>
+<p><strong>FULL PAPERS </strong>(8 to 10 pages)</p>
+<p>Full papers either describe innovative original work in detail or provide critical, well-referenced overviews of key developments or good practice in the areas outlined above.  Full papers will be assessed using the following criteria:</p>
+<ul>
+<li>Originality of the approach to implementation</li>
+<li>Generalizability of the methods and results described</li>
+<li>Quality of the contribution to the implementation community</li>
+<li>Significance of the results presented</li>
+<li>Clarity of presentation</li>
+</ul>
+<pre>________________________________</pre>
+<p><strong>PROJECT REPORTS</strong> (4 pages)</p>
+<p>Project reports describe a specific model, application, or activity in a concise, prescribed format.  Project reports will be assessed using the following criteria:</p>
+<ul>
+<li>Conciseness and completeness of technical description</li>
+<li>Usability of the technical description by other potential implementers</li>
+<li>Clarity of presentation</li>
+</ul>
+<p>Paper submissions in both categories must be in English and will be published in both the print and the official electronic versions of the conference proceedings.  Accepted papers must be presented in Berlin by at least one of their authors.</p>
+<pre>________________________________</pre>
+<p><strong>POSTERS </strong>(1 page)</p>
+<p>Posters are for the presentation of projects or research under development or late-breaking results.  Poster proposals should consist of a title, an extended abstract, and contact information for the authors.  Accepted posters will be displayed at the conference and may include additional materials, space permitting.  Abstracts of posters will appear in the conference proceedings.</p>
+<hr />
+<p><a title="P4" name="P4" id="P4"></a></p>
+<h3 class="margin">Online Submissions</h3>
+<p>Authors wishing to submit papers, reports, or poster proposals may do so through the DCMI Peer Review System at <a href="http://www.dcmipubs.org/ojs/index.php/pubs/about/submissions">http://www.dcmipubs.org/ojs/index.php/pubs/about/submissions</a>.  Author registration and links to the submission process appear under the &#8220;Information for Authors&#8221; link.</p>
+<hr />
+<p><a title="P5" name="P5" id="P5"></a></p>
+<h3 class="margin">Deadlines and Important Dates</h3>
+<ul>
+<li>Papers/reports/posters submission:    30 March 2008, <strong>extended to 13 April 2008</strong></li>
+<li>Acceptance notification:                         15 May 2008</li>
+<li>Camera-ready copy due:                       15 June 2008</li>
+</ul>
+<hr />
+<p><a title="P6" name="P6" id="P6"></a></p>
+<h3 class="margin">Program Committee Co-Chairs</h3>
+<ul>
+<li>Jane Greenberg, University of North Carolina at Chapel Hill &lt;janeg (at) email.unc.edu&gt;</li>
+<li>Wolfgang Klas, Universität Wien &lt;Wolfgang.Klas (at) univie.ac.at&gt;</li>
+</ul>
+          </div>
+                  </div>
+     </div>
+     <div id="navi">
+     <div id="navibox">
+      <ul>
+
+<li class="page_item"><a href="http://dc2008.de" title="Home">Home</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/papers" title="Call for Papers">Call for Papers</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/news" title="News">News Archive</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/organisation" title="Organisation">Organisation</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/call-for-sponsors" title="Call for Sponsors">Call for Sponsors</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/programme" title="Programme">Programme</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/information-for-authors" title="Information for Authors">Author Info</a></li>
+ 
+<li class="page_item"><a href="http://dc2008.de/registration" title="Registration">Registration</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/accommodation" title="Accommodation">Accommodation</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/conference-venue" title="Conference Venue">Conference Venue</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/about-berlin" title="About Berlin">About Berlin</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/links" title="Links">Links</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/contact" title="Contact">Contact</a></li>
+</ul> 
+
+<br /><br />
+organised by:
+
+<div align="center">
+<a href="http://www.kim-forum.org/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/kim_logo_skal.png" alt="KIM - Kompetenzzentrum Interoperable Metadaten" /></a>
+
+<a href="http://www.sub.uni-goettingen.de/index-e.html"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/sub_logo_klein.jpg" alt="Niedersächsische Staats- und Universitätsbibliothek Göttingen"/></a>
+
+<a href="http://www.mpdl.mpg.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/mpdl.png"  alt="Max Planck digital library" /></a>
+
+<a href="http://www.d-nb.de/eng/index.htm"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/DNB_neu_skal1.png" alt="Deutsche Nationalbibliothek" /></a>
+
+<a href="http://www.hu-berlin.de/index_html-en?set_language=en&amp;cl=en"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/husiegel.png" alt="Humboldt-Universität zu Berlin" /></a>
+</div>
+
+<a href="http://www.dublincore.org/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/DC_Logo_skla.png" alt="Dublin Core Metadata Initiative"/></a>
+</div>
+
+<br /><br />
+supported by:
+<br /><br />
+<div align="center"><a href="http://www.wikimedia.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/wikimedia.png" alt="Wikimedia Deutschland - Gesellschaft zur Förderung Freien Wissens e.V."/></a><br />
+</div>
+
+<br /><br />
+funded by:
+<br /><br />
+<div align="center"><a href="http://www.dfg.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/dfg_sw.gif" alt="Deutsche Forschungsgemeinschaft" /></a></div>
+<div align="center"><a href="http://www.bmbf.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/bmbf_skal.gif" alt="Bundesministerium für Bildung und Forschung" /></a></div>
+<br /> 
+     </div>
+    </div>
+       <div id="footer" align="center">
+Copyright © 1995-2008 DCMI All Rights Reserved. &mdash; © Pictures:  <a href="http://www.visitberlin.de" target="_blank" class="footerlink">www.visitberlin.de</a> &mdash; <a class="footerlink_impressum" href="http://dc2008.de/impressum">Impressum</a>
+
+   </div>
+  </div>
+ </body>
+</html>

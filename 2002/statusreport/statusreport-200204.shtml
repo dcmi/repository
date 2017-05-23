@@ -1,0 +1,1003 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DCMI Status Report - April 2002</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+<link rel="meta" href="statusreport-200204.shtml.rdf" />
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>DCMI Status Report - April 2002</h1>
+<table class="docinfo" cellspacing="0">
+<tr>
+<th>Creator:</th>
+<td><a href="mailto:mail@makxdekkers.com">Makx Dekkers</a></td>
+</tr>
+<tr>
+<th>Date Issued:</th>
+<td>2002-04-16</td>
+</tr>
+<tr>
+<th>Identifier:</th>
+<td><a href="/news/communications/statusreport-200204.shtml">http://dublincore.org/news/communications/statusreport-200204.shtml</a></td>
+</tr>
+</table>
+
+    <h2><a id="toc" name="toc"></a><b><span>Table of
+    contents</span></b></h2>
+
+    <div class="Section1">
+      
+  <p><span><a href="#_Toc6743843">Introduction</a></span></p>
+  <p><span><a href="#_Toc6743844">Organizational developments</a></span></p>
+
+      <p><span><a href="#_Toc6743845">Overview of activities in
+      Working Groups, Interest Groups and Committees</a></span></p>
+    </div>
+
+    
+<blockquote> 
+  <div class="Section1"> 
+    <p><span><a href="#_Toc6743846">General discussion platform</a></span> </p>
+  </div>
+  <blockquote> 
+    <div class="Section1"><span><a href="#_Toc6743847">DC-General</a></span> </div>
+  </blockquote>
+  <div class="Section1"> 
+    <p><span><a href="#_Toc6743848">Working groups</a></span></p>
+  </div>
+  <blockquote> 
+    <div class="Section1"><span><a href="#_Toc6743849">Administrative metadata 
+      .</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743850">Agents</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743851">Architecture .</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743852">Citation .</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743853">Collection Description 
+      .</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743854">Education .</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743855">Government</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743856">Libraries</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743857">Registry .</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743858">Standards</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743859">Tools</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743860">Type .</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743861">User Guide .</a></span></div>
+  </blockquote>
+  <div class="Section1"> 
+    <p><span><a href="#_Toc6743862">Interest groups</a></span></p>
+  </div>
+  <blockquote> 
+    <div class="Section1"><span><a href="#_Toc6743863">Accessibility .</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743864">Business</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743865">Collaboratory .</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743866">Environment</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743867">Moving Pictures</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743868">Localization and Internationalization 
+      (formerly Multiple Languages)</a></span></div>
+  </blockquote>
+  <div class="Section1"> 
+    <p><span><a href="#_Toc6743869">Other activities</a></span></p>
+  </div>
+  <blockquote> 
+    <div class="Section1"> 
+      <p><span><a href="#_Toc6743870">DC-2002.</a></span></p>
+    </div>
+  </blockquote>
+  <div class="Section1"> 
+    <p><span><a href="#_Toc6743871">Standing Committees</a></span></p>
+  </div>
+  <blockquote> 
+    <div class="Section1"><span><a href="#_Toc6743872">Board of Trustees</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743873">Directorate .</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743874">Advisory Board .</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743875">Executive Committee .</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743876">Advisory Committee .</a></span></div>
+    <div class="Section1"><span><a href="#_Toc6743877">Usage Board.</a><br />
+      </span><span><a href="#_Toc6743878">Web team</a></span></div>
+  </blockquote>
+</blockquote>
+<div class="Section1"> 
+  <h1><a id="_Toc6743843"
+      name="_Toc6743843">Introduction</a></h1>
+  <p><span>This report on the status of the Dublin Core Metadata Initiative covers 
+    the activities that have taken place since DC-2001 in Tokyo, October 2001, 
+    until end of March 2002. A progress report covering the results in the year 
+    2001 and the workplan for 2002 has been published in DLib magazine ( <a
+      href="http://www.dlib.org/dlib/february02/weibel/02weibel.html"> http://www.dlib.org/dlib/february02/weibel/02weibel.html</a>).</span></p>
+  <p><span>The first part of the report describes the activities related to the 
+    development of the new organizational structure for DCMI. The second part 
+    of the report contains an overview of the work in the various working groups, 
+    interest groups and committees in the reporting period.</span></p>
+  <h1><a id="_Toc6743844"
+      name="_Toc6743844"><span>Organizational developments</span></a></h1>
+  <p><span>In January 2002, two major changes have occurred in the organizational 
+    structure of DCMI: the installation of the Board of Trustees, and the establishment 
+    of the Advisory Board that replaces the Advisory Committee. For more information 
+    on these two Boards, see below in the section on Standing Committees.</span></p>
+  <p><span>In February 2002, a group of European organizations submitted a proposal 
+    for a Thematic Network to the European Commission, which aimed at obtaining 
+    funding for a series of meetings of Dublin Core implementers in Europe. The 
+    network, at the time of submission, included 57 organizations from a wide 
+    range of domains (libraries, information services, governments, universities, 
+    research institutes, commercial companies). Since the submission, another 
+    27 organizations have expressed interest. Unfortunately, the evaluators of 
+    the proposal had doubts about the benefits of creating a European forum, and 
+    ranked the proposal low for funding by the European Commission.</span></p>
+  <h1><a id="_Toc6743845" name="_Toc6743845"><span>Overview of activities in Working 
+    Groups, Interest Groups and Committees</span></a></h1>
+  <h2><a id="_Toc6743846" name="_Toc6743846"><span>General discussion platform</span></a></h2>
+  <h3><a id="_Toc6743847"
+      name="_Toc6743847"><span>DC-General</span></a></h3>
+  <p><span>Mailing list subscriptions: 876 on 18 March 2002 (+35 compared to October 
+    2001)</span></p>
+  <p><span>DC-General remains the general platform for discussions in the Dublin 
+    Core Metadata Initiative. In the previous months, many announcements have 
+    been made of meetings, conferences, publications and projects. There have 
+    been a number of discussions about specific aspects of the usage of the Dublin 
+    Core Metadata Element Set and qualifiers. Areas of discussion included:</span></p>
+</div>
+<ul>
+  <li> 
+    <div class="Section1"> <span>Schemas for events</span></div>
+  </li>
+  <li> 
+    <div class="Section1"> <span>XML expression of Dublin Core metadata</span></div>
+  </li>
+  <li> 
+    <div class="Section1"> <span>XHTML expression of Dublin Core metadata</span></div>
+  </li>
+  <li> 
+    <div class="Section1"> <span>The encoding of accented characters in metadata</span></div>
+  </li>
+  <li>
+    <div class="Section1"> <span>Syntax choices for the expression of Dublin Core 
+      metadata</span></div>
+  </li>
+</ul>
+<div class="Section1">
+  <p><span>Furthermore, Public Comment periods took place for the two Architecture 
+    deliverables specifying the expression of simple and qualified Dublin Core 
+    in RDF/XML, as well as for the proposal from DC-Education for a Level qualifier 
+    for the Audience element.</span></p>
+  <h2><a id="_Toc6743848" name="_Toc6743848"><span>Working groups</span></a></h2>
+  <h3><a id="_Toc6743849"
+      name="_Toc6743849"><span>Administrative metadata</span></a></h3>
+  <p><span><a
+      href="http://dublincore.org/groups/admin/">http://dublincore.org/groups/admin/</a></span></p>
+</div>
+<div class="Section1"><span>Chair: Leif Andresen, Denmark</span></div>
+<div class="Section1"><span>Mailing list subscriptions: 42 (+2)</span></div>
+<div class="Section1"> 
+  <p><span>Deliverable status:</span></p>
+</div>
+<ul>
+  <li> 
+    <div class="Section1"> <span>Administrative Dublin Core (A-Core) elements, 
+      working draft 2001-09-10 available, <a
+      href="http://dublincore.org/groups/admin/proposal-20010910.shtml"> http://dublincore.org/groups/admin/proposal-20010910.shtml</a>; 
+      further planning is under revision.</span></div>
+  </li>
+</ul>
+<div class="Section1">
+  <p><span>A report of the Tokyo breakout session was posted to the mailing list 
+    in late October 2001. ( <a
+      href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0110&amp;L=dc-admin&amp;F=&amp;S=&amp;P=188"> 
+    http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0110&amp;L=dc-admin&amp;F=&amp;S=&amp;P=188</a>). 
+    Work on the proposal will continue in 2002. The issue of metadata for resource 
+    management will be discussed with the Government Working Group, where a position 
+    paper is prepared on the subject of records management and recordkeeping metadata.</span></p>
+  <h3><a id="_Toc6743850"
+      name="_Toc6743850"><span>Agents</span></a></h3>
+</div>
+<div class="Section1"></div>
+<blockquote> 
+  <div class="Section1"><span><a
+      href="http://dublincore.org/groups/agents/">http://dublincore.org/groups/agents/</a></span></div>
+  <div class="Section1"><span>Chairs: Jos&eacute; Borbinha, Portugal; John Kunze, 
+    US</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 96 (+9)</span></div>
+  <div class="Section1"><span>Deliverable status:</span></div>
+  <ul>
+    <li> 
+      <div class="Section1"><span>Agent linking convention, first draft scheduled 
+        for February 2002; planning is under revision</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Core set of Agent elements, first draft scheduled 
+        for March 2002; planning is under revision</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>List of CCP (Creator/Contributor/Publisher) 
+        qualifiers. Planning under consideration</span></div>
+    </li>
+  </ul>
+  <div class="Section1">
+    <p><span>In the Tokyo breakout session, the above set of new deliverables 
+      was defined, and volunteers have come forward to help produce them. A report 
+      of the breakout session was posted in December 2001. </span></p>
+    <p><span>( <a
+      href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0112&amp;L=dc-agents&amp;F=&amp;S=&amp;P=55"> 
+      http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0112&amp;L=dc-agents&amp;F=&amp;S=&amp;P=55</a>).</span></p>
+  </div>
+  <div class="Section1"><span>Work in this group is linked to the</span> NSF/DELOS 
+    "Actors and Roles" Working Group, as well as work that is being done as part 
+    of the work on the Libraries Application Profile in the DCMI Libraries Working 
+    Group.</div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743851"
+      name="_Toc6743851"><span>Architecture</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span><a
+      href="http://dublincore.org/groups/architecture/">http://dublincore.org/groups/architecture/</a></span></div>
+  <div class="Section1"><span>Chair: vacant, contact Makx Dekkers</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 111 (+5)</span></div>
+  <div class="Section1"><span>Deliverable status:</span></div>
+  <ul>
+    <li> 
+      <div class="Section1"><span>Guidelines for implementing Dublin Core in XML, 
+        working draft 2002-03-12. <a
+      href="http://www.ukoln.ac.uk/metadata/dcmi/dc-xml-guidelines/"> http://www.ukoln.ac.uk/metadata/dcmi/dc-xml-guidelines/</a>, 
+        scheduled to move to DCMI Proposed Recommendation in May 2002</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Expressing Simple Dublin Core in RDF/XML, Proposed 
+        Recommendation 2001-11-28, <a
+      href="http://dublincore.org/documents/2001/11/28/dcmes-xml/">http://dublincore.org/documents/2001/11/28/dcmes-xml/</a>; 
+        available for Public Comment until 2002-04-01; scheduled to become a DCMI 
+        Recommendation in May 2002</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Expressing Qualified Dublin Core in RDF/XML, 
+        Proposed Recommendation 2001-11-30, <a
+      href="http://dublincore.org/documents/2001/11/30/dcq-rdf-xml/"> http://dublincore.org/documents/2001/11/30/dc-rdf-xml/</a>; 
+        available for Public Comment until 2001-04-01; scheduled to become a DCMI 
+        Recommendation in May 2002</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Recording Qualified Dublin Core metadata in 
+        HTML meta elements, working draft 2000-08-15, <a
+      href="http://www.ned.dem.csiro.au/metadata/qdchtml/">http://www.ned.dem.csiro.au/metadata/dchtml/</a>; 
+        new updated version scheduled for May 2002</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Representing the Dublin Core within X500 and 
+        LDAP. New working draft circulated for comment 2002-03-10, <a
+      href="http://runner.ascs.muni.cz/DC_in_LDAP.txt">http://runner.ascs.muni.cz/DC_in_LDAP.txt</a></span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Gentle guide to expressing Dublin Core in RDF/XML, 
+        first draft scheduled for May 2002</span></div>
+    </li>
+  </ul>
+  <div class="Section1">
+    <p><span>A discussion on what should be at the end of a namespace URI was 
+      continued after the Tokyo workshop. The outcome of the discussion was that 
+      there could be either a human-readable document of a machine-readable schema, 
+      although it was also argued that nothing is supposed to be at the namespace 
+      URI.</span></p>
+    <p><span>There has been a discussion on whether DCMI needs to consider changing 
+      the HTML guidelines from recommending a notation with uppercase and dots 
+      (e.g. DC.Creator) to a notation with lowercase and semicolons (e.g. dc:creator) 
+      in line with XML practice. No such change is currently considered, to avoid 
+      breaking existing implementations that follow the existing recommendations.</span></p>
+  </div>
+  <div class="Section1"><span>A discussion took place on the exact content of 
+    the schema for the Dublin Core, as it was identified that there are a number 
+    of schemas on the DCMI Web site that are incorrect. Two task forces were established: 
+    one for defining a correct schema for Dublin Core elements and qualifiers 
+    in RDF/XML and one for doing this for pure XML.</span></div>
+  <div class="Section1"><span>The XML schema for simple Dublin Core was finalized 
+    in cooperation with OAI and will be made available on the DCMI Web site in 
+    April 2002. Work continues on the XML schemas for qualified Dublin Core and 
+    on the RDF/XML schemas.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743852"
+      name="_Toc6743852"><span>Citation</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span><a
+      href="http://dublincore.org/groups/citation/">http://dublincore.org/groups/citation/</a></span></div>
+  <div class="Section1"><span>Chair: Ann Apps, UK</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 58 (+2)</span></div>
+  <div class="Section1"><span>Deliverable status:</span></div>
+  <ul>
+    <li> 
+      <div class="Section1"><span>A citation element Refinement for dc:identifier. 
+        Final draft 2002-03-28, <a
+      href="http://epub.mimas.ac.uk/DC/citproposal.html">http://epub.mimas.ac.uk/DC/citproposal.html</a>.</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>A Journal Article Bibliographic Citation Dublin 
+        Core Structured Value. Final draft 2002-03-28, <a
+      href="http://epub.mimas.ac.uk/DC/citdcsv.html">http://epub.mimas.ac.uk/DC/citdcsv.html</a>.</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>List of Identifier Encoding Schemes. Working 
+        draft 2002-03-07, <a
+      href="http://epub.mimas.ac.uk/DC/citids.html">http://epub.mimas.ac.uk/DC/citids.html</a>; 
+        comments requested from the WG until 2002-03-28</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Citation Profile. Pending. Scheduled milestone: 
+        First draft 2002-04-30</span></div>
+    </li>
+  </ul>
+  <div class="Section1">
+    <p><span>Discussion at DC9 in Tokyo identified the immediate work items for 
+      this WG. These are: to propose a citation qualifier for dc:identifier; to 
+      propose a means of encoding a journal article bibliographic citation record 
+      within a parsable text string; to identify a list of standard identifiers 
+      applicable to bibliographic citation; and to propose a means of encoding 
+      a journal article bibliographic citation record in XML and RDF. Possible 
+      items for later work have also been identified. A report of the Tokyo meeting 
+      was posted in November 2001. <br />
+      ( <a
+      href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0111&amp;L=dc-citation&amp;F=&amp;S=&amp;P=57"> 
+      http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0111&amp;L=dc-citation&amp;F=&amp;S=&amp;P=57</a>)</span></p>
+    <p><span>A proposal for a citation identifier for dc:identifier and a proposal 
+      to encode a journal article bibliographic citation as a Dublin Core Structured 
+      Value have been finalized. An initial draft list of standard identifiers 
+      has been assembled, including suggested encodings.</span></p>
+  </div>
+  <div class="Section1"><span>The WG web site has been updated to show its current 
+    focus. The 'history' section of this web page records the previous work, decisions 
+    and focus of the earlier DCMI Bibliographic Citations and Versions Working 
+    Group.</span></div>
+  <div class="Section1"><span>Accumulating the list of standard identifiers relevant 
+    to bibliographic citations will continue. These identifiers will be registered 
+    with DCMI if this is appropriate, or alternatively it will include recommended 
+    encodings. The WG will develop a Citation Profile, which will include recommendations 
+    for encoding bibliographic citation information in XML and RDF. The WG will 
+    produce guidelines for encoding a bibliographic citation record using OpenURL 
+    syntax when version 1.0 of<span
+      style="mso-spacerun: yes">&nbsp;</span> the OpenURL standard has been finalized.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743853" name="_Toc6743853"><span>Collection Description</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span><a
+      href="http://dublincore.org/groups/collections/">http://dublincore.org/groups/collections/</a></span></div>
+  <div class="Section1"><span>Chair: Andy Powell, UK; Pete Johnson, UK</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 37 (+17)</span></div>
+  <div class="Section1"><span>Deliverable status:</span></div>
+  <ul>
+    <li> 
+      <div class="Section1"><span>Collection description schema. Scheduled for 
+        May 2002</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>XML schemas for collection description. Scheduled 
+        for June 2002</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Usage guidelines. Scheduled for July 2002</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Enumerated list of collection types. Scheduled 
+        for August 2002</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Crosswalks/mappings. Scheduled for October 2002.</span></div>
+    </li>
+  </ul>
+  <div class="Section1">
+    <p><span>An updated workplan for the group has been posted to the website.</span></p>
+    <p><span>On the first task of developing a DC-based schema for the description 
+      of collections, discussion has been launched using the example of the RSLP 
+      Collection Description schema. The RSLP CD schema in fact provides for the 
+      description of several related entities, and discussion is focusing, in 
+      the first instance at least, on the properties/attributes for the description 
+      of the collection itself.</span></p>
+  </div>
+  </blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743854"
+      name="_Toc6743854"><span>Education</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span><a
+      href="http://dublincore.org/groups/education/">http://dublincore.org/groups/education/</a></span></div>
+  <div class="Section1"><span>Chairs: Jon Mason, Australia; Stuart Sutton, US</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 242 (+21)</span></div>
+  <div class="Section1"><span>Deliverable status:</span></div>
+  <ul>
+    <li> 
+      <div class="Section1"><span>AudienceLevel proposal. Final draft, <a
+      href="http://dublincore.org/groups/education/Audience-Level-Proposal.shtml"> 
+        http://dublincore.org/groups/education/Audience-Level-Proposal.shtml</a>; 
+        submitted to the Usage Board for consideration in its May 2002 meeting.</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Audience characteristics data. Working draft 
+        scheduled for May 2002.</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Proposal for Type vocabulary. Working draft 
+        scheduled for August 2002.</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Gathering teaching/learning processes and characteristics. 
+        Draft foreseen for June 2002</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Intrinsic learning objectives. First discussion 
+        results expected in August 2002.</span></div>
+    </li>
+  </ul>
+  <div class="Section1">
+    <p><span>The report of the breakout session in Tokyo was posted in November 
+      2001. ( <a
+      href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0111&amp;L=dc-education&amp;F=&amp;S=&amp;P=58"> 
+      http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0111&amp;L=dc-education&amp;F=&amp;S=&amp;P=58</a>)</span></p>
+    <p><span>The group discussed the status of its work on an education specific 
+      resource type vocabulary, and decided to revive the work on the vocabulary 
+      after it became clear that the Type WG had dropped its intentions to pursue 
+      a DCT2 vocabulary and to rely instead on work by domain/practice communities. 
+      The participants discussed the work done over the past year to determine 
+      whether additional "Audience" element qualifiers might be justified and 
+      decided to move this discussion to the DC-Education listserv.<span
+      style="mso-spacerun: yes">&nbsp;</span> During the Workshop, there was an 
+      interest group formed to explore the issues of accessibility in the larger 
+      context of DCMI-based metadata. After a brief discussion of a very early 
+      working draft of statements gleaned from a handful of education-based metadata 
+      projects with regard to teaching processes and characteristics, the co-chairs 
+      will continue the development of this draft document through discussions 
+      on the listserv. The WG decided that there was a need for discussion this 
+      coming year regarding the need to capture metadata statements dealing with 
+      learning objectives that are local or intrinsic to a resource.<span style="mso-spacerun: yes">&nbsp;</span> 
+      The focus of this new discussion is on objectives that may have nothing 
+      to do with external criteria; they are purely local to the resource but 
+      nevertheless useful for purposes of discovery.</span></p>
+  </div>
+  </blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743855"
+      name="_Toc6743855"><span>Government</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span><a
+      href="http://dublincore.org/groups/government/">http://dublincore.org/groups/government/</a></span></div>
+  <div class="Section1"><span>Chairs: Andrew Wilson, Australia; Palle Aagaard, 
+    Denmark</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 151 (+14)</span></div>
+  <div class="Section1"><span>Deliverable status:</span></div>
+  <ul>
+    <li> 
+      <div class="Section1"><span>DCMI Government Application profile. Final version 
+        of proposal for extensions to Dublin Core 2002-03-14, submitted for consideration 
+        in Usage Board May meeting</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>New round of survey of government implementations 
+        of DC. Results scheduled for June 2002</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Position paper on records management/recordkeeping 
+        metadata. Scheduled for April 2002</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Functional requirements for description of government 
+        services using DC. Scheduled for April 2002</span></div>
+    </li>
+  </ul>
+  <div class="Section1">
+    <p><span>A report of the Tokyo breakout sessions was posted in December 2001. 
+      ( <a
+      href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0112&amp;L=dc-government&amp;F=&amp;S=&amp;P=221"> 
+      http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0112&amp;L=dc-government&amp;F=&amp;S=&amp;P=221</a>)</span></p>
+    <p><span>The group discussed the need for a further survey of government implementations 
+      of Dublin Core, but most of the time was spent to discuss the comments of 
+      the Usage Board on the Government Application Profile that was submitted 
+      in September. A new proposal was circulated on the list in November concentrating 
+      on the elements in the Application Profile that are not yet in the Dublin 
+      Core standard.</span></p>
+  </div>
+  <div class="Section1"><span>In the first months of 2002, the proposed extensions 
+    have been finalized in a proposal to the Usage Board.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="OLE_LINK1" name="OLE_LINK1"></a><a
+      id="_Toc6743856" name="_Toc6743856"><span
+      style='mso-bookmark: OLE_LINK1'><span>Libraries</span></span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><a href="http://dublincore.org/groups/libraries/"><span
+      style='mso-bookmark:OLE_LINK1'><span>http://dublincore.org/groups/libraries/</span></span></a></div>
+  <div class="Section1"><span style='mso-bookmark:OLE_LINK1'><span>Chair: Rebecca 
+    Guenther, US</span></span></div>
+  <div class="Section1"><span style='mso-bookmark:OLE_LINK1'><span>Mailing list 
+    subscriptions: 326 (+20)</span></span></div>
+  <div class="Section1"><span style='mso-bookmark:OLE_LINK1'><span>Deliverable 
+    status:</span></span></div>
+  <ul>
+    <li> 
+      <div class="Section1"><span
+      style='mso-bookmark:OLE_LINK1'><span>Library application profile, draft 
+        2001-10-15,</span></span> <a
+      href="http://dublincore.org/documents/2001/10/12/library-application-profile/"> 
+        <span
+      style='mso-bookmark:OLE_LINK1'><span>http://dublincore.org/documents/2001/10/12/library-application-profile/</span></span></a><span
+       style='mso-bookmark:OLE_LINK1'><span>. Elements and element refinements 
+        included that are not DC Terms will be brought as proposals to Usage Board 
+        in May 2002. The profile itself will also be considered, although UB process 
+        regarding application profiles has not been finalized</span></span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span
+      style='mso-bookmark:OLE_LINK1'><span>Register library encoding schemes May 
+        2002 (but additional guidance needed from Usage Board)</span></span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span
+      style='mso-bookmark:OLE_LINK1'><span>XML schemas for Library Application 
+        Profile. Scheduled for mid-2002</span></span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span
+      style='mso-bookmark:OLE_LINK1'><span>Partnerships to establish testbeds 
+        for DC-Library Application Profile. Scheduled for June 2002</span></span></div>
+    </li>
+  </ul>
+  <div class="Section1"><span style='mso-bookmark:OLE_LINK1'><span>The report 
+    of the breakout sessions in Tokyo was posted in November 2001. (</span></span> 
+    <a
+      href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0111&amp;L=dc-libraries&amp;F=&amp;S=&amp;P=58"> 
+    <span
+      style='mso-bookmark:OLE_LINK1'><span>http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0111&amp;L=dc-libraries&amp;F=&amp;S=&amp;P=58</span></span></a><span
+       style='mso-bookmark:OLE_LINK1'><span>)</span></span></div>
+  <div class="Section1"><span style='mso-bookmark:OLE_LINK1'><span>A special meeting 
+    on the Application Profile took place in conjunction with the American Library 
+    Association&amp;rsuo;s Midwinter meeting in New Orleans in January 2002. Some 
+    discussion took place on the mailing list on issues related to the work in 
+    the Agents WG.</span></span></div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743857"
+      name="_Toc6743857"><span>Registry</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span><a
+      href="http://dublincore.org/groups/registry/">http://dublincore.org/groups/registry/</a></span></div>
+  <div class="Section1"><span>Chair: Rachel Heery, UK; Harry Wagner, US</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 69 (+2)</span></div>
+  <div class="Section1"><span>Deliverable status:</span></div>
+  <ul>
+    <li> 
+      <div class="Section1"><span>Vocabulary Management and Metadata Registry 
+        Architectural Overview, posted to Web site 2002-02-13, <a
+      href="http://dublincore.org/groups/registry/VMT-Registry-Roadmap-v1.2.ppt"> 
+        http://dublincore.org/groups/registry/VMT-Registry-Roadmap-v1.2.ppt</a></span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>DCMI Roadmap for development of Vocabulary Management 
+        and Schema Registry Systems, draft 2002-02-18, <a
+      href="http://dublincore.org/groups/registry/DCMI-reg-roadmapv4.html"> http://dublincore.org/groups/registry/DCMI-reg-roadmapv4.html</a></span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Purpose and Scope of DCMI Registry, new version 
+        2001-11-08, <a
+      href="http://dublincore.org/groups/registry/scope-20011108.shtml"> http://dublincore.org/groups/registry/scope-20011108.shtml</a></span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Draft DCMI Open Metadata Registry Functional 
+        Requirements, draft 2001-10-31, <a
+      href="http://dublincore.org/groups/registry/fun_req_ph1-20011031.shtml"> 
+        http://dublincore.org/groups/registry/fun_re_ph1-20011031.shtml</a></span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Develop and Implement Phase 1 Metadata Registry. 
+        Scheduled completion September 2002.</span></div>
+    </li>
+  </ul>
+  <div class="Section1"><span>The report of the Tokyo breakout session was posted 
+    in early November 2001. ( <a
+      href="http://homes.ukoln.ac.uk/~lisrmh/DCMI-registry/DC2001RegWG.htm"> http://homes.ukoln.ac.uk/~lisrmh/DCMI-registry/DC2001RegWG.htm</a>)</span></div>
+  <div class="Section1"><span>After Tokyo, the discussion has concentrated on 
+    defining a new charter and deliverable list. A new charter was posted on the 
+    WG Web pages in February 2002.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743858"
+      name="_Toc6743858"><span>Standards</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span><a
+      href="http://dublincore.org/groups/standards/">http://dublincore.org/groups/standards/</a></span></div>
+  <div class="Section1"><span>Chair: Leif Andresen, Denmark</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 72 (+7)</span></div>
+  <div class="Section1"><span>Deliverable status: None</span></div>
+  <div class="Section1"><span>The report of the Tokyo breakout session was posted 
+    in late October 2001. ( <a
+      href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0110&amp;L=dc-standards&amp;F=&amp;S=&amp;P=357"> 
+    http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0110&amp;L=dc-standards&amp;F=&amp;S=&amp;P=357</a>)</span></div>
+  <div class="Section1"><span>Further activities concentrate on bringing Dublin 
+    Core forward for a fast-track procedure in ISO.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743859"
+      name="_Toc6743859"><span>Tools</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span><a
+      href="http://dublincore.org/groups/tools/">http://dublincore.org/groups/tools/</a></span></div>
+  <div class="Section1"><span>Chair: Roland Schw&auml;nzl, Germany</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 60</span></div>
+  <div class="Section1"><span>No activities have taken place in this Working Group. 
+    The mailing list will be transferred to Jiscmail in April 2002.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743860"
+      name="_Toc6743860"><span>Type</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span><a
+      href="http://dublincore.org/groups/type/">http://dublincore.org/groups/type/</a></span></div>
+  <div class="Section1"><span>Chair: Ann Apps, UK</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 60 (-2)</span></div>
+  <div class="Section1"><span>Deliverable status:</span></div>
+  <ul>
+    <li> 
+      <div class="Section1"><span>Proposal for a physical object DCMI Type. Final 
+        draft 2002-03-28, <a
+      href="http://epub.mimas.ac.uk/DC/type-physobj.html">http://epub.mimas.ac.uk/DC/type-physobj.html</a></span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Guidance for Domains and Organisations Developing 
+        Type Vocabularies for use with Dublin Core. Working draft, in progress. 
+        Scheduled milestone: First draft 2002-03-31. Currently an outline, requires 
+        volunteers to write</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Name: Annotated list of standard type encoding 
+        schemes. Working draft, in progress. Scheduled milestone: 2002-04-30. 
+        Currently an empty list. First request made to WG for encoding schemes 
+        on 2002-02-22.</span></div>
+    </li>
+  </ul>
+  <div class="Section1">
+    <p><span>A report of the Tokyo breakout session was posted in November 2001. 
+      ( <a
+      href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0111&amp;L=dc-type&amp;F=&amp;S=&amp;P=152"> 
+      http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0111&amp;L=dc-type&amp;F=&amp;S=&amp;P=152</a>)</span></p>
+    <p><span>From discussion at the Type working group meeting at DC9 in Tokyo 
+      and subsequent discussion on the email list, work items for this group have 
+      been identified. A new charter, which reflects current work by the group, 
+      has been agreed, and the WG's web page has been updated to include this 
+      charter and indicate the new focus of the group.</span></p>
+  </div>
+  <div class="Section1">
+    <p><span>It was decided at the DC9 meeting that this group should no longer 
+      attempt to develop a DCMI sub-type list (previously called DCT2) because 
+      this is not a reasonable or attainable goal. Rather the task of the WG should 
+      be to advise domain-specific groups on identifying their own lists of types 
+      by developing best practice guidelines. An outline of a document 'Guidance 
+      for Domains and Organisations Developing Type Vocabularies for use with 
+      Dublin Core' has been produced.</span></p>
+    <p><span>It was also agreed that the WG would no longer accumulate a list 
+      of domain-specific type lists used within various projects because information 
+      about projects using Dublin Core may be found elsewhere. The group agreed 
+      to identify a list of standard type encoding schemes, and to possibly register 
+      them with DCMI if appropriate. This list will be annotated with information, 
+      such as who uses it and what are its strengths, to assist potential users 
+      to identify an appropriate scheme.</span></p>
+  </div>
+  <div class="Section1">
+    <p><span>Discussion on the email list suggested that the WG should propose 
+      the addition of a 'physical object' type to the DCMI Type Vocabulary encoding 
+      scheme. There is currently no item on this list to indicate a physical object 
+      type, a type that is needed in domains such as museums.</span></p>
+    <p><span>It is hoped that volunteers from within the group will begin to write 
+      the guidance information. WG members have been asked to supply suggested 
+      type encoding schemes to begin the assembling of a list.</span></p>
+  </div>
+  </blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743861" name="_Toc6743861"><span>User Guide</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><a
+      href="http://dublincore.org/groups/guide/">http://dublincore.org/groups/guide/</a></div>
+  <div class="Section1"><span>Chair: Diane Hillmann, US</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 58 (+6)</span></div>
+  <div class="Section1"><span>Deliverable status:</span></div>
+  <ul>
+    <li> 
+      <div class="Section1"><span>Revision plan, scheduled for Summer 2002</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>References and glossary update, scheduled for 
+        summer 2002</span></div>
+    </li>
+    <li> 
+      <div class="Section1"><span>Review and revise examples, scheduled for summer 
+        2002</span></div>
+    </li>
+  </ul>
+  <div class="Section1"><span>No activities have taken place in this Working Group.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h2><a id="_Toc6743862" name="_Toc6743862"><span>Interest groups</span></a></h2>
+  <h3><a id="_Toc6743863"
+      name="_Toc6743863"><span>Accessibility</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><a
+      href="http://dublincore.org/groups/access/">http://dublincore.org/groups/access/</a></div>
+  <div class="Section1"><span>Chair: Liddy Nevile, Australia</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 71</span></div>
+  <div class="Section1"><span>This Interest Group was established from a breakout 
+    session in Tokyo that was held on initiative from Liddy. A report was posted 
+    to DC-General in December 2001. ( <a
+      href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0112&amp;L=dc-general&amp;F=&amp;S=&amp;P=56"> 
+    http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0112&amp;L=dc-general&amp;F=&amp;S=&amp;P=56</a>)</span></div>
+  <div class="Section1"><span>In its charter, the group aims to provide a forum 
+    to discuss a possible role to review the accessibility of the products of 
+    DCMI itself, and to consider the relation between accessibility descriptions 
+    and Dublin Core descriptions.</span></div>
+  <div class="Section1"><span>The group has started by giving the members the 
+    opportunity to share their thoughts and experiences. A related meeting, chaired 
+    by Liddy, will take place in the context of WWW2002 in Hawaii in early May 
+    2002.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743864"
+      name="_Toc6743864"><span>Business</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><a
+      href="http://dublincore.org/groups/biz/">http://dublincore.org/groups/biz/</a></div>
+  <div class="Section1"><span>Chair: Mary Alice Ball, US</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 83 (+15)</span></div>
+  <div class="Section1"><span>No activities have taken place in this Interest 
+    Group. The DCMI Directorate and Board of Trustees are currently considering 
+    ways to increase the participation of various business domains in DCMI activities.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743865"
+      name="_Toc6743865"><span>Collaboratory</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span>Chair: Roland Schw&auml;nzl, Germany</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 24 (+1)</span></div>
+  <div class="Section1"><span>This Interest Group has closed down on suggestion 
+    from the chair, due to insufficient interest.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743866"
+      name="_Toc6743866"><span>Environment</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span><a
+      href="http://dublincore.org/groups/environ/">http://dublincore.org/groups/environ/</a></span></div>
+  <div class="Section1"><span>Chair: Thom Pick, Germany</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 118</span></div>
+  <div class="Section1"><span>This Interest Group was established from a breakout 
+    session in Tokyo. ( <a
+      href="http://www.dublincore.org/groups/environ/bof-tokyo.html"> http://www.dublincore.org/groups/environ/bof-tokyo.html</a>)</span></div>
+  <div class="Section1"><span>According to its charter, this group is a forum 
+    for individuals and organizations involved in implementing Dublin Core in 
+    the environmental domain, with the objective to establish representation of 
+    the domain in DCMI and to promote interoperability within the domain through 
+    the use of Dublin Core. It will collect information on usage of the Dublin 
+    Core in the domain, work on establishing guidelines and develop an Application 
+    Profile for the environmental domain.</span></div>
+  <div class="Section1">The group is now working on the survey. In the next period, 
+    environmental departments of those governments that are known to use DC are 
+    going to be contacted to increase responses for the survey.</div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743867" name="_Toc6743867"><span>Moving Pictures</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span>Chair: Simon Pockley, Australia</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 40 (+7)</span></div>
+  <div class="Section1"><span>This Interest Group has closed down on suggestion 
+    from the chair, due to insufficient interest.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743868" name="_Toc6743868"><span>Localization and Internationalization 
+    (formerly Multiple Languages)</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span><a
+      href="http://dublincore.org/groups/languages/">http://dublincore.org/groups/languages/</a></span></div>
+  <div class="Section1"><span>Chairs: Olga Barysheva, Russia; Shigeo Sugimoto, 
+    Japan</span></div>
+  <div class="Section1"><span>Mailing list subscriptions: 100 (+1)</span></div>
+  <div class="Section1"><span>The group had a lively meeting in Tokyo. In December 
+    2001, Olga posted a new draft charter and topics list.</span></div>
+  <div class="Section1"><span>In discussions on the list it was confirmed that 
+    element labels should not be translated. Further discussion took place on 
+    the way that left-to-right languages can be included in metadata values.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h2><a id="_Toc6743869" name="_Toc6743869"><span>Other activities</span></a></h2>
+  <h3><a id="_Toc6743870"
+      name="_Toc6743870"><span>DC-2002</span></a></h3>
+</div>
+<div class="Section1">
+  <p><span>(Website to be announced in April 2002)</span></p>
+  <p><span>Coordinators: Michiel Tegelaars, Italy; Makx Dekkers, Luxembourg</span></p>
+</div>
+<div class="Section1">
+  <p><span>Program chairs: Mauro Guerrini, Italy; Stu Weibel, USA</span></p>
+  <p><span>The date and venue of DC-2002 has been set for Florence in Italy, 13-17 
+    October 2002. The conference Web site and call for papers are being finalized 
+    and will be made public in April 2002. Like in Tokyo, there will be workshop, 
+    conference and tutorial tracks.</span></p>
+</div>
+<div class="Section1"> 
+  <p><span>The event is hosted by:</span></p>
+</div>
+<ul>
+  <li> 
+    <div class="Section1"> <span>The National Library of Florence, <a
+      href="http://www.bncf.firenze.sbn.it/">http://www.bncf.firenze.sbn.it/</a></span></div>
+  </li>
+  <li> 
+    <div class="Section1"> <span>The Regione Toscana, <a
+      href="http://www.regione.toscana.it/">http://www.regione.toscana.it/</a></span></div>
+  </li>
+  <li> 
+    <div class="Section1"> <span>The Italian Librarians' Association AIB, <a
+      href="http://www.aib.it/">http://www.aib.it/</a></span></div>
+  </li>
+  <li> 
+    <div class="Section1"> <span>The University of Florence, <a
+      href="http://www.unifi.it/">http://www.unifi.it/</a>, with the Firenze University 
+      Press, <a
+      href="http://epress.unifi.it/">http://epress.unifi.it/</a></span></div>
+  </li>
+  <li> 
+    <div class="Section1"> <span>The European University Institute Library, <a
+      href="http://www.iue.it/LIB/">http://www.iue.it/LIB/</a></span></div>
+  </li>
+  <li>
+    <div class="Section1"> <span>The Dublin Core Metadata Initiative, <a
+      href="http://dublincore.org/">http://dublincore.org/</a></span></div>
+  </li>
+</ul>
+<div class="Section1">
+  <p>The title of the conference is: DC-2002: Metadata for e-Communities: Supporting 
+    Diversity and Convergence. The program will include a variety of issues related 
+    to the development and deployment of the Dublin Core, e.g.: e-Government metadata, 
+    search engines, educational metadata, knowledge management, use of DC metadata 
+    for commerce and intranets, semantic web and cataloguing, metadata interoperability 
+    and cultural heritage metadata.</p>
+  <p><span>The Program Committee is now being established, to assist in the review 
+    of submitted papers.</span></p>
+</div>
+<div class="Section1"> 
+  <h2><a id="_Toc6743871" name="_Toc6743871"><span>Standing Committees</span></a></h2>
+  <h3><a id="_Toc6743872" name="_Toc6743872"><span>Board of Trustees</span></a></h3>
+</div>
+<blockquote> 
+  <blockquote> 
+    <div class="Section1"> 
+      <p><span><a
+      href="http://dublincore.org/about/trustees/">http://dublincore.org/about/trustees/</a></span></p>
+      <p>T<span>he DCMI Board of Trustees was installed in January 2002. The nine 
+        Board members, from six countries on four continents, have been recruited 
+        to provide a combination of skills and geographic diversity appropriate 
+        to strengthening the Initiative and broadening its reach.</span></p>
+    </div>
+    <div class="Section1"> 
+      <p><span>The Board will assist in strategic planning and provide guidance 
+        as to choices concerning allocation of resources and the focus of the 
+        Initiative as a whole; assist in the development of community support 
+        that will increase the resources available to the Initiative through development 
+        of sponsors, members, and targeted foundation support; and provide financial 
+        oversight of the Initiative to assure that funds contributed are expended 
+        efficiently and effectively in support of the mission and objectives.</span></p>
+      <p><span>A conference call was held in late January 2002. The first face-to-face 
+        meeting is scheduled to take place on 12 and 13 April 2002 in Lund, Sweden.</span></p>
+    </div>
+  </blockquote>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743873"
+      name="_Toc6743873"><span>Directorate</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1">
+    <p><span><a
+      href="http://dublincore.org/about/organization/committeemembers.shtml#directorate"> 
+      http://dublincore.org/about/organization/committeemembers.shtml#directorate</a></span></p>
+    <p><span>Executive Director: Stu Weibel, USA; Managing Director: Makx Dekkers, 
+      Luxembourg</span></p>
+  </div>
+  <div class="Section1">
+    <p><span>One Directorate meeting has taken place in Dublin, Ohio between Stu 
+      Weibel and Makx Dekkers since the Tokyo event, on 10-12 March 2002.</span></p>
+    <p><span>Main activities of the Directorate in the last period have been the 
+      establishment of the Board of Trustees and the Advisory Board, the establishment 
+      of the Work Plan and Deliverables list for 2002.</span></p>
+  </div>
+  <div class="Section1"><span>A major activity in the next period will be the 
+    further development of plans to attract outside funding for the DCMI. In addition, 
+    the Directorate is in the process of defining an Architecture Roadmap for 
+    the Dublin Core which is scheduled for completion in May 2002.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743874" name="_Toc6743874"><span>Advisory Board</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1">
+    <p><span><a href="/about/advisory/">http://dublincore.org/about/advisory/</a></span></p>
+    <p><span>The Advisory Board was installed in January 2002. It is</span> <span>comprised 
+      of all chairs of DCMI Working Groups and Interest Groups and invited experts. 
+      The Advisory Board gives advice to the DCMI Directorate on all technical 
+      and strategic issues that occur during the operation of the DCMI. It has 
+      a dual role in the DCMI: an internal role to assist in and advise on the 
+      developments that take place within DCMI, and an external role to liaise 
+      with the stakeholder community and other global metadata initiatives. It 
+      has an important role in reviewing charters and activities of Working and 
+      Interest Groups with specific emphasis on recognizing and signaling potential 
+      conflicts between activities, suggesting specific coordination between Working 
+      and Interest Groups, and proposing specific contacts with individuals, groups 
+      or organizations outside the DCMI.</span></p>
+  </div>
+  </blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743875" name="_Toc6743875"><span>Executive Committee</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span>With the establishment of the Board of Trustees, 
+    the Executive Committee has ceased to exist. We want extend warm thanks to 
+    Tom Baker, Renato Iannella, Eric Miller and Paul Miller, who have been members 
+    of the Executive Committee in the past years.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743876" name="_Toc6743876"><span>Advisory Committee</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1"><span>The final activities of the Advisory Committee in 
+    2001 were the establishment of the DCMI Work Plan 2002, the adoption of the 
+    new charters of the Type WG and three Interest Groups (Accessibility, Environment 
+    and Internationalization), and the acceptance of the charter of the Advisory 
+    Board. With that last action, the Advisory Committee was disbanded. Also here, 
+    we want to warmly thank everyone who served on the Advisory Committee in its 
+    five years of its existence. Many of the Advisory Committee members continue 
+    to serve as members of the new Advisory Board.</span></div>
+</blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743877" name="_Toc6743877"><span>Usage Board</span></a></h3>
+</div>
+<blockquote> 
+  <div class="Section1">
+    <p><span><a
+      href="http://dublincore.org/usage/">http://dublincore.org/usage/</a></span></p>
+    <p><span>Chair: Tom Baker, Germany</span></p>
+  </div>
+  <div class="Section1">
+    <p><span>In its meetings in Tokyo, the Usage Board discussed the proposal 
+      brought forward by the Government Working Group, guidelines for registration 
+      of vocabulary and encoding scheme qualifiers, and issues emanating from 
+      the work of the Architecture and Registry Working Groups.</span></p>
+    <p><span>The next meeting will take place on 12 and 13 May 2002 in Bath, UK.</span></p>
+  </div>
+  </blockquote>
+<div class="Section1"> 
+  <h3><a id="_Toc6743878" name="_Toc6743878"><span>Web team</span></a></h3>
+</div>
+<blockquote>
+  <div class="Section1">
+    <p><span>Since the Tokyo event, all Working Group and Interest Group pages 
+      have been updated with the new charters and work plans. New sections concerning 
+      the organizational structure were made to reflect the organizational changes 
+      in the last months.</span></p>
+    <p><span>In the next period, an activity will be started to look at the usability 
+      of the Web site, which may lead to a redesign of the Web site in the next 
+      year.</span></p>
+  </div>
+  </blockquote>
+<!--#include virtual="/ssi/footer.shtml" -->
+  </body>
+</html>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+     <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+     <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+     <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+     <!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+     <!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
+  ]>
+
+  <rdf:RDF 
+     xmlns:rdf="&rdfns;"
+     xmlns:rdfs="&rdfsns;"
+     xmlns:dc="&dcns;"
+     xmlns:dcterms="&dctermsns;"
+     xmlns:dctype="&dctypens;">
+
+
+  <rdf:Property rdf:about="&dctermsns;alternative">
+    <rdfs:label xml:lang="pl-PL">
+	 Wariant
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Dowolna forma tytu&#x0142;u u&#x017c;yta jako substytut lub alternatywa do formalnego tytu&#x0142;u &#x017a;r&#x00f3;d&#x0142;a
+	 </rdfs:comment>
+    <dc:description xml:lang="pl-PL">
+	 Kwalifikator mo&#x017c;e zawiera&#x0107; skr&#x00f3;t tytu&#x0142;u lub jego t&#x0142;umaczenie 
+	 </dc:description>
+  </rdf:Property>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;UDC">
+    <rdfs:label xml:lang="pl-PL">
+	 UKD
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Uniwersalna Klasyfikacja Dziesi&#x0119;tna 
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <rdf:Property rdf:about="&dctermsns;abstract">
+    <rdfs:label xml:lang="pl-PL">
+	 Abstrakt
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Streszczenie tre&#x015b;ci &#x017a;r&#x00f3;d&#x0142;a 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;tableOfContents">
+   <rdfs:label xml:lang="pl-PL">
+	Spis tre&#x015b;ci
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Lista podjednostek tre&#x015b;ci &#x017a;r&#x00f3;d&#x0142;a 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;created">
+    <rdfs:label xml:lang="pl-PL">
+	 Utworzenia
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Data utworzenia &#x017a;r&#x00f3;d&#x0142;a 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;issued">
+    <rdfs:label xml:lang="pl-PL">
+	 Wydania
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Data formalnego wydania (np. publikacji) &#x017a;r&#x00f3;d&#x0142;a 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;modified">
+   <rdfs:label xml:lang="pl-PL">
+	Modyfikacji
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Data przeprowadzenia zmian w &#x017a;r&#x00f3;dle 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;valid">
+    <rdfs:label xml:lang="pl-PL">
+	 Wa&#x017c;no&#x015b;ci
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Data (zwykle zakres dat) wa&#x017c;no&#x015b;ci &#x017a;r&#x00f3;d&#x0142;a
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;available">
+    <rdfs:label xml:lang="pl-PL">
+	 Dost&#x0119;pno&#x015b;ci
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Data (zwykle zakres dat) kiedy &#x017a;r&#x00f3;d&#x0142;o b&#x0119;dzie lub by&#x0142;o dost&#x0119;pne. 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <dcterms:DateScheme rdf:about="&dctermsns;W3CDTF">
+    <rdfs:label xml:lang="pl-PL">
+	 W3C-DTF 
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Zasady kodowania W3C dla dat i czasu - profil oparty na ISO 8601
+	 </rdfs:comment>
+  </dcterms:DateScheme>
+
+  <dcterms:DateScheme rdf:about="&dctermsns;Period">
+    <rdfs:label xml:lang="pl-PL">
+	 Okresy czasu DCMI
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Specyfikacja granic okres&#x00f3;w czasu 
+	 </rdfs:comment>
+  </dcterms:DateScheme>
+
+
+  <rdf:Property rdf:about="&dctermsns;extent">
+    <rdfs:label xml:lang="pl-PL">
+	 Rozmiar
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Rozmiar lub czas trwania &#x017a;r&#x00f3;d&#x0142;a
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;medium">
+    <rdfs:label xml:lang="pl-PL">
+	 No&#x015b;nik
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Materia&#x0142; lub no&#x015b;nik fizyczny &#x017a;r&#x00f3;d&#x0142;a
+	 </rdfs:comment>
+  </rdf:Property>
+
+
+  <dcterms:FormatScheme rdf:about="&dctermsns;IMT">
+   <rdfs:label xml:lang="pl-PL">
+	IMT
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Typ medi&#x00f3;w Internetu &#x017a;r&#x00f3;d&#x0142;a
+	 </rdfs:comment>
+  </dcterms:FormatScheme>
+
+
+  <dcterms:LanguageScheme rdf:about="&dctermsns;RFC1766">
+    <rdfs:label xml:lang="pl-PL">
+	 RFC 1766
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Internet RFC 1766 "Tags for the identification of Language" specyfikuje kody dwuliterowe 
+	 pobrane z ISO 639, z opcjonalnym dwuliterowym kodem kraju pobranym z ISO 3166.
+	 </rdfs:comment>
+  </dcterms:LanguageScheme>
+
+  <dcterms:LanguageScheme rdf:about="&dctermsns;ISO639-2">
+    <rdfs:label xml:lang="pl-PL">
+	 ISO 639-2
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 ISO 639-2: Kody nazw j&#x0119;zyk&#x00f3;w
+	 </rdfs:comment>
+  </dcterms:LanguageScheme>
+
+
+  <rdf:Property rdf:about="&dctermsns;isPartOf">
+    <rdfs:label xml:lang="pl-PL">
+	 Jest Cz&#x0119;&#x015b;ci&#x0105;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Opisywane &#x017a;r&#x00f3;d&#x0142;o jest fizyczn&#x0105; lub logiczn&#x0105; 
+	 cz&#x0119;&#x015b;ci&#x0105; referowanego &#x017a;r&#x00f3;d&#x0142;a. 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasPart">
+    <rdfs:label xml:lang="pl-PL">
+	 Z&#x0142;o&#x017c;ony z
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Opisywane &#x017a;r&#x00f3;d&#x0142;o zawiera referowane &#x017a;r&#x00f3;d&#x0142;o fizycznie 
+	 lub logicznie. 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isVersionOf">
+    <rdfs:label xml:lang="pl-PL">
+	 Jest Wersj&#x0105;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Opisywane &#x017a;r&#x00f3;d&#x0142;o jest wersj&#x0105;, wydaniem lub adaptacj&#x0105; 
+	 &#x017a;r&#x00f3;d&#x0142;a referowanego. Zmiany wersji powoduj&#x0105; znaczne zmiany w 
+	 tre&#x015b;ci raczej ni&#x017c; zmiany w formacie. 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasVersion">
+    <rdfs:label xml:lang="pl-PL">
+	 Ma Wersj&#x0119;
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Opisywane &#x017a;r&#x00f3;d&#x0142;o ma wersj&#x0119;, wydanie lub adaptacj&#x0119;, 
+	 kt&#x00f3;rym jest referowane &#x017a;r&#x00f3;d&#x0142;o. 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isFormatOf">
+    <rdfs:label xml:lang="pl-PL">
+	 Jest Formatem
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Opisywane &#x017a;r&#x00f3;d&#x0142;o posiada t&#x0105; sam&#x0105; tre&#x015b;&#x0107; 
+	 intelektualn&#x0105; co referowane &#x017a;r&#x00f3;d&#x0142;o, ale przedstawione w innym formacie. 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasFormat">
+    <rdfs:label xml:lang="pl-PL">
+	 Ma Format 
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Opisywane &#x017a;r&#x00f3;d&#x0142;o jest wcze&#x015b;niejsze w stosunku do referowanego 
+	 &#x017a;r&#x00f3;d&#x0142;a, kt&#x00f3;re ma w zasadzie t&#x0105; sam&#x0105; tre&#x015b;&#x0107; 
+	 intelektualn&#x0105; przedstawion&#x0105; w innym formacie. 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;references">
+   <rdfs:label xml:lang="pl-PL">
+	Cytuje
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Opisywane &#x017a;r&#x00f3;d&#x0142;o referuje, cytuje lub w inny spos&#x00f3;b wskazuje 
+	 referowane &#x017a;r&#x00f3;d&#x0142;o. 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isReferencedBy">
+    <rdfs:label xml:lang="pl-PL">
+	 Jest cytowane
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Opisywane &#x017a;r&#x00f3;d&#x0142;o jest referowane, cytowane lub w inny spos&#x00f3;b 
+	 wskazywane przez referowane &#x017a;r&#x00f3;d&#x0142;o. 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;requires">
+    <rdfs:label xml:lang="pl-PL">
+	 Wymaga
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Opisywane &#x017a;r&#x00f3;d&#x0142;o wymaga referowanego &#x017a;r&#x00f3;d&#x0142;a dla 
+	 wspomo&#x017c;enia jego funkcji, dostarczania lub sp&#x00f3;jno&#x015b;ci tre&#x015b;ci. 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isRequiredBy">
+    <rdfs:label xml:lang="pl-PL">
+	 Jest Wymagany
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Opisywane &#x017a;r&#x00f3;d&#x0142;o jest wymagane przez referowane &#x017a;r&#x00f3;d&#x0142;o, 
+	 fizycznie lub logicznie. 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;replaces">
+    <rdfs:label xml:lang="pl-PL">
+	 Zast&#x0119;puje 
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Opisywane &#x017a;r&#x00f3;d&#x0142;o zast&#x0119;puje, zmieni&#x0142;o miejsce lub jest 
+	 nast&#x0119;pc&#x0105; referowanego &#x017a;r&#x00f3;d&#x0142;a. 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isReplacedBy">
+    <rdfs:label xml:lang="pl-PL">
+	 Jest Zast&#x0105;piony
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Opisywane &#x017a;r&#x00f3;d&#x0142;o jest zast&#x0105;pione, zmieni&#x0142;o miejsce lub ma 
+	 nast&#x0119;pc&#x0119; w referowanym &#x017a;r&#x00f3;dle. 
+	 </rdfs:comment>
+  </rdf:Property>
+ 
+  <rdf:Property rdf:about="&dctermsns;spatial">
+    <rdfs:label xml:lang="pl-PL">
+	 Miejsce
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Przestrzenne charakterystyki tre&#x015b;ci intelektualnych &#x017a;r&#x00f3;d&#x0142;a 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;temporal">
+   <rdfs:label xml:lang="pl-PL">
+	Czas
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Charakterystyki czasowe tre&#x015b;ci intelektualnych &#x017a;r&#x00f3;d&#x0142;a 
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;TGN">
+    <rdfs:label xml:lang="pl-PL">
+	 TGN
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Getty Thesaurus of Geographic Names 
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;ISO3166">
+    <rdfs:label xml:lang="pl-PL">
+	 ISO 3166
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Kody ISO 3166 dla przedstawienia nazw kraj&#x00f3;w
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;Box">
+   <rdfs:label xml:lang="pl-PL">
+	DCMI Box
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 DCMI Box identyfikuje obszar w przestrzeni przy u&#x017c;yciu jego granic geograficznych.
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;Point">
+    <rdfs:label xml:lang="pl-PL">
+	 DCMI Point
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 DCMI Point identyfikuje punkt w przestrzeni przy u&#x017c;yciu wsp&#x00f3;&#x0142;rz&#x0119;dnych 
+	 geograficznych. 
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:TypeScheme rdf:about="&dctermsns;DCMIType">
+    <rdfs:label xml:lang="pl-PL">
+	 S&#x0142;ownik Typu DCMI
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Lista typ&#x00f3;w u&#x017c;ywana do kategoryzacji natury lub rodzaju tre&#x015b;ci 
+	 &#x017a;r&#x00f3;d&#x0142;a
+	 </rdfs:comment>
+  </dcterms:TypeScheme> 
+
+  <dcterms:IdentifierScheme rdf:about="&dctermsns;URI">
+   <rdfs:label xml:lang="pl-PL">
+	URI
+	 </rdfs:label>
+    <rdfs:comment xml:lang="pl-PL">
+	 Uniform Resource Identifier
+	 </rdfs:comment>
+  </dcterms:IdentifierScheme>
+
+</rdf:RDF> 
+

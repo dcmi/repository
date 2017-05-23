@@ -1,0 +1,6 @@
+<FONT COLOR="#FFFFFF">
+<SCRIPT LANGUAGE="Javascript">
+<!--
+document.write(dayNames[day] + ", " + monthNames[month] + " " + date + ", " + year);
+// -->
+</SCRIPT>&nbsp;&nbsp;&nbsp;</FONT>

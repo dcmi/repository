@@ -1,0 +1,133 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>Relations Working Group </TITLE>
+</HEAD>
+
+<BODY>
+<h3>Relations Working Group</h3>
+
+<P>This report is a record of the efforts of the Relations working
+group constituted following the Helsinki Metadata Workshop (DC-5) of
+October, 1997. The recommendations are provisional and can be expected
+to evolve in the light of further implementation experience.</P>
+
+<P>David Bearman, Chair</P>
+
+<P> I. It is important to indicate the relation between one
+information resource and another in metadata for discovery. Because
+each information resource may have its own metadata set, these
+relations need to be explicit.</P>
+
+<P>II. Relations are indicated in Dublin Core metadata by the Relation
+element. Relation has two sub-elements: Relation.Identifier and
+Relation.Type.</P>
+
+<P>III. The value assigned to Relation.Identifier identifies the
+metadata of the related resource or, where this is not possible, the
+related resource itself. For more information on the use of this
+sub-element, see the description of the Identifier element.</P>
+
+<P>IV. The value assigned to Relation.Type describes the nature of the
+relationship between the current resource and the resource identified
+by Relation.Identifier. The value of this sub-element is selected from
+a list of possible values. The DC community has constructed such a
+list; this is described below. Other organisations may construct their
+own lists, at the cost of interoperability. In due course, scheme
+identification will be used to indicate which list of values, and
+associated meanings, is being invoked.</P>
+
+<P>V. The DC list of values for the Relation.Type sub-element follows.</P>
+
+<P>Six pairs of relations are defined at this time.</P>
+<DIR>
+<DIR>
+
+<P>a) Part/Whole relations are those in which one resource is a physical or logical part of another. The corresponding values of Relation.Type are:</P>
+<DIR>
+<DIR>
+
+<P>IsPartOf</P>
+<P>HasPart</P></DIR>
+</DIR>
+
+<P>b) Version relations are those in which one resource is an historical state or edition of another resource by the same creator. The corresponding values of Relation.Type are:</P>
+<DIR>
+<DIR>
+
+<P>IsVersionOf</P>
+<P>HasVersion</P>
+</DIR>
+</DIR>
+
+<P>c) Format transformation relations are those in which one resource
+has been derived from another by a reproduction or reformatting
+technology which is not fundamentally an interpretation but is
+intended to be a representation. The corresponding values of
+Relation.Type are:</P>
+<DIR>
+<DIR>
+
+<P>IsFormatOf</P>
+<P>HasFormat</P>
+</DIR>
+</DIR>
+
+<P>d) Reference relations are those in which the author of one resource cites, acknowledges, disputes or otherwise refers to another resource. The corresponding values of Relation.Type are:</P>
+<DIR>
+<DIR>
+
+<P>References</P>
+<P>IsReferencedBy</P>
+</DIR>
+</DIR>
+
+<P>e) Creative relations are those in which one resource is a
+performance, production, derivation, translation, adaptation or
+interpretation of another resource. The corresponding values of
+Relation.Type are:</P>
+<DIR>
+<DIR>
+
+<P>IsBasedOn</P>
+<P>IsBasisFor</P>
+</DIR>
+</DIR>
+
+<P>f) Dependency relations are those in which one resource requires
+another resource for its functioning, delivery, or content and cannot
+be used without the related resource being present. The corresponding
+values of Relation.Type are:</P>
+<DIR>
+<DIR>
+
+<P>Requires</P>
+<P>IsRequiredBy</P>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P> </P>
+
+<P>VI. Specialized communities will need to extend the references
+relations to express specific types of references or authorial
+claims.</P>
+
+<P>VII. When the Relation element is used in unqualified Dublin Core
+metadata, the values of the two sub-elements may be placed directly
+within the Relation element. If this is done, recommended best
+practice is to place first the value of the Relation.Type sub-element
+and second the value of the Relation.Identifier sub-element,
+separating the two with a space, eg:</P>
+<DIR>
+<DIR>
+
+<P>IsBasedOn http://a.b.c/foo.bar</P>
+
+<P>&nbsp;</P></DIR>
+</DIR>
+</BODY>
+
+</HTML>

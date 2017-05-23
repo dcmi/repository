@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns = "http://purl.org/dc/elements/1.0/">
+ <rdf:Description about="http://purl.org/DC/documents/wd-typelist.htm">
+   <title>Type Working Group - List of Resource Types</title>
+   <description>Type is used to categorize the nature or genre of the content of the resource.  Recommended best practice is to select a value from a controlled vocabulary.  This document listes suggests a Dublin Core default list of resource types.</description>
+   <date>1999-08-05</date>
+   <format>text/html</format>
+   <language>en</language>
+   <contributor>Dublin Core Metadata Initiative</contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

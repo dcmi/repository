@@ -1,0 +1,990 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="KEYWORDS" content="Mapping the Scholarly Works Application Profile to Simple DC">
+<meta name="robots" content="index,follow">
+<link rel="shortcut icon" href="http://www.ukoln.ac.uk/favicon.ico">
+<link title="Creative Commons" type="application/rdf+xml" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=creativecommons" rel="meta">
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/2.5/">
+    <title>Mapping the Scholarly Works Application Profile to Simple DC - DigiRepWiki</title>
+    <style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/repositories/digirep/skins/monobook/main.css"; /*]]>*/</style>
+    <link rel="stylesheet" type="text/css" media="print" href="index_files/commonPrint.css">
+    <!--[if lt IE 5.5000]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE50Fixes.css";</style><![endif]-->
+    <!--[if IE 5.5000]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE55Fixes.css";</style><![endif]-->
+    <!--[if gte IE 6]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE60Fixes.css";</style><![endif]-->
+    <!--[if lt IE 7]><script type="text/javascript" src="/repositories/digirep/skins/common/IEFixes.js"></script>
+    <meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+    <script type="text/javascript" src="index_files/index.js"></script>    <script type="text/javascript" src="index_files/wikibits.js"></script>
+    <style type="text/css">/*<![CDATA[*/
+@import "/repositories/digirep/index.php?title=MediaWiki:Monobook.css&action=raw&ctype=text/css&smaxage=18000";
+@import "/repositories/digirep/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>              </head>
+  <body class="ns-0">
+    <div id="globalWrapper">
+      <div id="column-content">
+	<div id="content">
+	  <a name="top" id="top"></a>
+	  	  <h1 class="firstHeading">Mapping the Scholarly Works Application Profile to Simple DC</h1>
+	  <div id="bodyContent">
+	    <h3 id="siteSub">From DigiRepWiki</h3>
+	    <div id="contentSub"></div>
+	    	    	    <!-- start content -->
+	    <table class="wikitable" width="100%">
+<tbody><tr>
+<td style="vertical-align: top; padding:1em; border:1px black solid; font-size:80%;">
+<p>[ <a href="http://www.ukoln.ac.uk/repositories/digirep/index/SWAP" title="SWAP">Home</a> | <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Functional_Requirements" title="Functional Requirements">Functional Requirements</a> | <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Model" title="Model">Application Model</a> |
+<a href="http://www.ukoln.ac.uk/repositories/digirep/index/Scholarly_Works_Application_Profile" title="Scholarly Works Application Profile">Application Profile</a> |
+<a href="http://www.ukoln.ac.uk/repositories/digirep/index/Community_Acceptance_Plan" title="Community Acceptance Plan">Community Acceptance Plan</a> |
+<strong>Mapping to Simple DC</strong> | <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_DC_XML" title="Eprints DC XML">XML Format</a>
+</p>
+</td></tr></tbody></table>
+<table id="toc" class="toc"><tbody><tr><td><div id="toctitle"><h2>Contents</h2> <span class="toctoggle">[<a href="javascript:toggleToc()" class="internal" id="togglelink">hide</a>]</span></div>
+<ul>
+<li class="toclevel-1"><a href="#Introduction"><span class="tocnumber">1</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-1"><a href="#Mapping_the_ScholarlyWork_properties"><span class="tocnumber">2</span> <span class="toctext">Mapping the ScholarlyWork properties</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Type"><span class="tocnumber">2.1</span> <span class="toctext">Type</span></a></li>
+<li class="toclevel-2"><a href="#Title"><span class="tocnumber">2.2</span> <span class="toctext">Title</span></a></li>
+<li class="toclevel-2"><a href="#Subject"><span class="tocnumber">2.3</span> <span class="toctext">Subject</span></a></li>
+<li class="toclevel-2"><a href="#Abstract"><span class="tocnumber">2.4</span> <span class="toctext">Abstract</span></a></li>
+<li class="toclevel-2"><a href="#Identifier"><span class="tocnumber">2.5</span> <span class="toctext">Identifier</span></a></li>
+<li class="toclevel-2"><a href="#Creator"><span class="tocnumber">2.6</span> <span class="toctext">Creator</span></a></li>
+<li class="toclevel-2"><a href="#Funder"><span class="tocnumber">2.7</span> <span class="toctext">Funder</span></a></li>
+<li class="toclevel-2"><a href="#Grant_Number"><span class="tocnumber">2.8</span> <span class="toctext">Grant Number</span></a></li>
+<li class="toclevel-2"><a href="#Supervisor"><span class="tocnumber">2.9</span> <span class="toctext">Supervisor</span></a></li>
+<li class="toclevel-2"><a href="#Affiliated_Institution"><span class="tocnumber">2.10</span> <span class="toctext">Affiliated Institution</span></a></li>
+<li class="toclevel-2"><a href="#Has_Adaptation"><span class="tocnumber">2.11</span> <span class="toctext">Has Adaptation</span></a></li>
+<li class="toclevel-2"><a href="#Is_Expressed_As"><span class="tocnumber">2.12</span> <span class="toctext">Is Expressed As</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Mapping_the_Expression_properties"><span class="tocnumber">3</span> <span class="toctext">Mapping the Expression properties</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Title_2"><span class="tocnumber">3.1</span> <span class="toctext">Title</span></a></li>
+<li class="toclevel-2"><a href="#Description"><span class="tocnumber">3.2</span> <span class="toctext">Description</span></a></li>
+<li class="toclevel-2"><a href="#Identifier_2"><span class="tocnumber">3.3</span> <span class="toctext">Identifier</span></a></li>
+<li class="toclevel-2"><a href="#Date_Available"><span class="tocnumber">3.4</span> <span class="toctext">Date Available</span></a></li>
+<li class="toclevel-2"><a href="#Status"><span class="tocnumber">3.5</span> <span class="toctext">Status</span></a></li>
+<li class="toclevel-2"><a href="#Version_Number_or_String"><span class="tocnumber">3.6</span> <span class="toctext">Version Number or String</span></a></li>
+<li class="toclevel-2"><a href="#Language"><span class="tocnumber">3.7</span> <span class="toctext">Language</span></a></li>
+<li class="toclevel-2"><a href="#Type_2"><span class="tocnumber">3.8</span> <span class="toctext">Type</span></a></li>
+<li class="toclevel-2"><a href="#Copyright_Holder"><span class="tocnumber">3.9</span> <span class="toctext">Copyright Holder</span></a></li>
+<li class="toclevel-2"><a href="#Has_Version"><span class="tocnumber">3.10</span> <span class="toctext">Has Version</span></a></li>
+<li class="toclevel-2"><a href="#Has_Translation"><span class="tocnumber">3.11</span> <span class="toctext">Has Translation</span></a></li>
+<li class="toclevel-2"><a href="#Bibliographic_Citation"><span class="tocnumber">3.12</span> <span class="toctext">Bibliographic Citation</span></a></li>
+<li class="toclevel-2"><a href="#References"><span class="tocnumber">3.13</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-2"><a href="#Editor"><span class="tocnumber">3.14</span> <span class="toctext">Editor</span></a></li>
+<li class="toclevel-2"><a href="#Is_Manifested_As"><span class="tocnumber">3.15</span> <span class="toctext">Is Manifested As</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Mapping_the_Manifestation_properties"><span class="tocnumber">4</span> <span class="toctext">Mapping the Manifestation properties</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Format"><span class="tocnumber">4.1</span> <span class="toctext">Format</span></a></li>
+<li class="toclevel-2"><a href="#Date_Modified"><span class="tocnumber">4.2</span> <span class="toctext">Date Modified</span></a></li>
+<li class="toclevel-2"><a href="#Publisher"><span class="tocnumber">4.3</span> <span class="toctext">Publisher</span></a></li>
+<li class="toclevel-2"><a href="#Is_Available_As"><span class="tocnumber">4.4</span> <span class="toctext">Is Available As</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Mapping_the_Copy_properties"><span class="tocnumber">5</span> <span class="toctext">Mapping the Copy properties</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Type_3"><span class="tocnumber">5.1</span> <span class="toctext">Type</span></a></li>
+<li class="toclevel-2"><a href="#Access_Rights"><span class="tocnumber">5.2</span> <span class="toctext">Access Rights</span></a></li>
+<li class="toclevel-2"><a href="#Licence"><span class="tocnumber">5.3</span> <span class="toctext">Licence</span></a></li>
+<li class="toclevel-2"><a href="#Date_Available_2"><span class="tocnumber">5.4</span> <span class="toctext">Date Available</span></a></li>
+<li class="toclevel-2"><a href="#Is_Part_Of"><span class="tocnumber">5.5</span> <span class="toctext">Is Part Of</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Description_of_an_Agent"><span class="tocnumber">6</span> <span class="toctext">Description of an Agent</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Name"><span class="tocnumber">6.1</span> <span class="toctext">Name</span></a></li>
+<li class="toclevel-2"><a href="#Family_Name"><span class="tocnumber">6.2</span> <span class="toctext">Family Name</span></a></li>
+<li class="toclevel-2"><a href="#Given_Name"><span class="tocnumber">6.3</span> <span class="toctext">Given Name</span></a></li>
+<li class="toclevel-2"><a href="#Workplace_Homepage"><span class="tocnumber">6.4</span> <span class="toctext">Workplace Homepage</span></a></li>
+<li class="toclevel-2"><a href="#Mailbox"><span class="tocnumber">6.5</span> <span class="toctext">Mailbox</span></a></li>
+<li class="toclevel-2"><a href="#Homepage"><span class="tocnumber">6.6</span> <span class="toctext">Homepage</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Examples"><span class="tocnumber">7</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Example_1"><span class="tocnumber">7.1</span> <span class="toctext">Example 1</span></a>
+<ul>
+<li class="toclevel-3"><a href="#Description_Set_1_.28ScholarlyWork.29"><span class="tocnumber">7.1.1</span> <span class="toctext">Description Set 1 (ScholarlyWork)</span></a></li>
+<li class="toclevel-3"><a href="#Description_Set_2_.28Copy_1.29"><span class="tocnumber">7.1.2</span> <span class="toctext">Description Set 2 (Copy 1)</span></a></li>
+<li class="toclevel-3"><a href="#Description_Set_3_.28Copy_2.29"><span class="tocnumber">7.1.3</span> <span class="toctext">Description Set 3 (Copy 2)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="#Example_2"><span class="tocnumber">7.2</span> <span class="toctext">Example 2</span></a>
+<ul>
+<li class="toclevel-3"><a href="#Description_Set_1_.28ScholarlyWork.29_2"><span class="tocnumber">7.2.1</span> <span class="toctext">Description Set 1 (ScholarlyWork)</span></a></li>
+<li class="toclevel-3"><a href="#Description_Set_2_.28Copy.29"><span class="tocnumber">7.2.2</span> <span class="toctext">Description Set 2 (Copy)</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></tbody></table>
+<p><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=1" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Introduction"></a><h2> Introduction </h2>
+<p>This document provides a mapping from the <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile" title="EPrints Application Profile">EPrints Application Profile</a> to Simple DC.
+</p><p>The mapping enables software to 'dumb-down' (i.e. transform) a <i>description set</i> that conforms with <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile" title="EPrints Application Profile">EPrints Application Profile</a> to group of <i>description sets</i>,
+ each of which conforms with simple DC, and each of which separately 
+describes a ScholarlyWork or Copy entity from the original <i>description set</i>.
+</p><p>In this context, 'simple DC' means
+</p>
+<ul><li> a <i>description set</i> that comprises a single <i>description</i>,
+</li><li> where each <i>statement</i> within that <i>description</i> uses one the 15 <i>properties</i> in the [<a href="http://dublincore.org/documents/dces/" class="external text" title="http://dublincore.org/documents/dces/" rel="nofollow">Dublin Core Metadata Element Set</a>],
+</li><li> where the same <i>property</i> can be used in multiple <i>statements</i>,
+</li><li> where each <i>statement</i> has a single <i>value string</i>,
+</li><li> where each <i>value string</i> may have an associated <i>language tag</i>
+</li><li> and where there is no use of <i>resource URIs</i>, <i>encoding schemes</i>, <i>value URIs</i> or <i>rich representations</i>.
+</li></ul>
+<p>It is worth noting that by using this mapping, the resulting <i>description set</i> that describes the ScholarlyWork entity will comply  with the <a href="http://www.rdn.ac.uk/projects/eprints-uk/docs/simpledc-guidelines/" class="external text" title="http://www.rdn.ac.uk/projects/eprints-uk/docs/simpledc-guidelines/" rel="nofollow">Using simple DC to describe eprints</a> document produced by the [<a href="http://www.rdn.ac.uk/projects/eprints-uk/" class="external text" title="http://www.rdn.ac.uk/projects/eprints-uk/" rel="nofollow">ePrints UK project</a>].
+</p><p>It is also worth noting that the resulting simple DC <i>description sets</i>
+ describe the eprint at the ScholarlyWork and Copy levels.  This is not 
+the only approach to mapping this application profile to simple DC (for 
+example, it would also be possible to map this application profile to a 
+group of simple DC <i>description sets</i> about every entity in the model or to a single simple DC <i>description set</i> only about the ScholarlyWork.)
+</p><p>Where this application profile and mapping is used within systems that support the [<a href="http://www.openarchives.org/" class="external text" title="http://www.openarchives.org/" rel="nofollow">OAI Protocol for Metadata Harvesting</a>] it should be noted that there will be [<a href="http://www.openarchives.org/OAI/openarchivesprotocol.html#Item" class="external text" title="http://www.openarchives.org/OAI/openarchivesprotocol.html#Item" rel="nofollow">OAI item</a>] identifiers for each of the ScholarlyWork and Copy entities in the system but that records corresponding to the <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile" title="EPrints Application Profile">EPrints Application Profile</a> will only be exposed for those item identifiers corresponding to ScholarlyWorks.
+</p><p>The creation of this particular mapping does not preclude alternative mappings being generated in the future.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=2" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Mapping_the_ScholarlyWork_properties"></a><h2> Mapping the ScholarlyWork properties </h2>
+<p>If the <i>description</i> of the eprint (as a ScholarlyWork) provides a <i>resource URI</i>, use it as the <i>value string</i> of a dc:identifier <i>statement</i> in the simple DC <i>description</i>.
+</p><p>If the <i>description</i> of the eprint (as a ScholarlyWork) provides a <i>resource URI</i>, use it as the <i>value string</i> of a dc:relation <i>statement</i> in the simple DC <i>description</i> about each of the Copies.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=3" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Type"></a><h3> Type </h3>
+<p>Use the <i>value URI</i> as the <i>value string</i> in a dc:type <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value string</i> (and any associated <i>language tag</i>) as the <i>value string</i> in a dc:type <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=4" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Title"></a><h3> Title </h3>
+<p>Use the <i>value string</i> (and any associated <i>language tag</i>) as the <i>value string</i> in a dc:title <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork
+</p><p>Use the <i>value string</i> (and any associated <i>language tag</i>) as the <i>value string</i> in a dc:title <i>statement</i> in the simple DC <i>description</i> about each of the Copies.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=5" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Subject"></a><h3> Subject </h3>
+<p>Use the <i>value string</i> (and any associated <i>language tag</i>) as the <i>value string</i> in a dc:subject <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.  Where there is no <i>value string</i> but there is a <i>value URI</i>, use the <i>value URI</i> as the <i>value string</i> in a dc:subject <i>statement</i>.
+</p><p>Use the <i>value string</i> (and any associated <i>language tag</i>) as the <i>value string</i> in a dc:subject <i>statement</i> in the simple DC <i>description</i> about each of the Copies.  Where there is no <i>value string</i> but there is a <i>value URI</i>, use the <i>value URI</i> as the <i>value string</i> in a dc:subject <i>statement</i>.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=6" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Abstract"></a><h3> Abstract </h3>
+<p>Use the <i>value string</i> (and any associated <i>language tag</i>) as the <i>value string</i> in a dc:description <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value string</i> (and any associated <i>language tag</i>) as the <i>value string</i> in a dc:description <i>statement</i> in the simple DC <i>description</i> about each of the Copies.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=7" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Identifier"></a><h3> Identifier </h3>
+<p>Use the <i>value string</i> as the <i>value string</i> in a dc:identifier <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=8" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Creator"></a><h3> Creator </h3>
+<p>Use the <i>value string</i> as the <i>value string</i> in a dc:creator <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.  Where a <i>value string</i> is not present, but there is a <i>related description</i> about the 'creator' Agent, combine the foaf:family_name and foaf:givenname <i>value strings</i> in the form 'family_name, givenname' to form a <i>value string</i> or simply use the foaf:name <i>value string</i>.
+</p><p>Use the <i>value string</i> as the <i>value string</i> in a dc:creator <i>statement</i> in the simple DC <i>description</i> about each of the Copies.  Where a <i>value string</i> is not present, but there is a <i>related description</i> about the 'creator' Agent, combine the foaf:family_name and foaf:givenname <i>value strings</i> in the form 'family_name, givenname' to form a <i>value string</i> or simply use the foaf:name <i>value string</i>.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=9" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Funder"></a><h3> Funder </h3>
+<p>Ignore.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=10" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Grant_Number"></a><h3> Grant Number </h3>
+<p>Ignore.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=11" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Supervisor"></a><h3> Supervisor </h3>
+<p>Ignore.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=12" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Affiliated_Institution"></a><h3> Affiliated Institution </h3>
+<p>Ignore.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=13" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Has_Adaptation"></a><h3> Has Adaptation </h3>
+<p>Use the <i>value URI</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value URI</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about each of the Copies.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=14" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Is_Expressed_As"></a><h3> Is Expressed As </h3>
+<p>Use the <i>value URI</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value URI</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about each of the Copies.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=15" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Mapping_the_Expression_properties"></a><h2> Mapping the Expression properties </h2>
+<p>For each of the <i>related descriptions</i> about Expressions in the <i>description set</i>, statements using the following <i>properties</i> can also be mapped as indicated below.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=16" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Title_2"></a><h3> Title </h3>
+<p>Use the <i>value string</i> (and any associated <i>language tag</i>) as the <i>value string</i> in a dc:title <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value string</i> (and any associated <i>language tag</i>) as the <i>value string</i> in a dc:title <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Expression.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=17" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Description"></a><h3> Description </h3>
+<p>Use the <i>value string</i> (and any associated <i>language tag</i>) as the <i>value string</i> in a dc:description <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Expression.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=18" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Identifier_2"></a><h3> Identifier </h3>
+<p>Use the <i>value string</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value string</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about each of the Copies.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=19" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Date_Available"></a><h3> Date Available </h3>
+<p>Use the <i>value string</i> as the <i>value string</i> in a dc:date <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value string</i> as the <i>value string</i> in a dc:date <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Expression.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=20" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Status"></a><h3> Status </h3>
+<p>Use the <i>value URI</i> as the <i>value string</i> in a dc:type <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Expression.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=21" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Version_Number_or_String"></a><h3> Version Number or String </h3>
+<p>Ignore.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=22" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Language"></a><h3> Language </h3>
+<p>Use the <i>value string</i> as the <i>value string</i> in a dc:language <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value string</i> as the <i>value string</i> in a dc:language <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Expression.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=23" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Type_2"></a><h3> Type </h3>
+<p>Use the <i>value URI</i> as the <i>value string</i> in a dc:type <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value string</i> (and any associated <i>language tag</i>) as the <i>value string</i> in a dc:type <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value URI</i> as the <i>value string</i> in a dc:type <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Expression.
+</p><p>Use the <i>value string</i> (and any associated <i>language tag</i>) as the <i>value string</i> in a dc:type <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Expression.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=24" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Copyright_Holder"></a><h3> Copyright Holder </h3>
+<p>Use the <i>value string</i> as the "_name_" part of the <i>value string</i> in a dc:rights <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork using the form below.  Where a <i>value string</i> is not present, but there is a <i>related description</i> about the 'copyright holder' Agent, combine the foaf:family_name and foaf:givenname <i>value strings</i> in the form 'family_name, givenname' as the "_name_" part of the <i>value string</i> or simply use the foaf:name <i>value string</i>.
+</p><p>Use the <i>value string</i> as the "_name_" part of the <i>value string</i> in a dc:rights <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Expression using the form below.  Where a <i>value string</i> is not present, but there is a <i>related description</i> about the 'copyright holder' Agent, combine the foaf:family_name and foaf:givenname <i>value strings</i> in the form 'family_name, givenname' as the "_name_" part of the <i>value string</i> or simply use the foaf:name <i>value string</i>.
+</p><p>In all cases, the resulting <i>value string</i> should take the following form: "(c) Copyright _name_".
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=25" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Has_Version"></a><h3> Has Version </h3>
+<p>Use the <i>value URI</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value URI</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Expression.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=26" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Has_Translation"></a><h3> Has Translation </h3>
+<p>Use the <i>value URI</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value URI</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Expression.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=27" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Bibliographic_Citation"></a><h3> Bibliographic Citation </h3>
+<p>Use the <i>value string</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC description about the ScholarlyWork.
+</p><p>Use the <i>value string</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC description about each of the Copies associated with this Expression.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=28" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="References"></a><h3> References </h3>
+<p>Use the <i>value URI</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.  Where a <i>value URI</i> is not present, use the <i>value string</i> as the <i>value string</i>.
+</p><p>Use the <i>value URI</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Expression.  Where a <i>value URI</i> is not present, use the <i>value string</i> as the <i>value string</i>.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=29" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Editor"></a><h3> Editor </h3>
+<p>Use the <i>value string</i> as the <i>value string</i> in a dc:contributor <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.  Where a <i>value string</i> is not present, but there is a <i>related description</i> about the 'editor' Agent, combine the foaf:family_name and foaf:givenname <i>value strings</i> in the form 'family_name, givenname' to form a <i>value string</i> or simply use the foaf:name <i>value string</i>.
+</p><p>Use the <i>value string</i> as the <i>value string</i> in a dc:contributor <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Expression.  Where a <i>value string</i> is not present, but there is a <i>related description</i> about the 'editor' Agent, combine the foaf:family_name and foaf:givenname <i>value strings</i> in the form 'family_name, givenname' to form a <i>value string</i> or simply use the foaf:name <i>value string</i>.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=30" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Is_Manifested_As"></a><h3> Is Manifested As </h3>
+<p>Ignore
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=31" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Mapping_the_Manifestation_properties"></a><h2> Mapping the Manifestation properties </h2>
+<p>For each of the <i>related descriptions</i> about Manifestations in the <i>description set</i>, <i>statements</i> using the following <i>properties</i> can also be mapped as indicated below.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=32" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Format"></a><h3> Format </h3>
+<p>Use the <i>value string</i> as the <i>value string</i> in a dc:format <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value string</i> as the <i>value string</i> in a dc:format <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Manifestation.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=33" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Date_Modified"></a><h3> Date Modified </h3>
+<p>Use the <i>value string</i> as the <i>value string</i> in a dc:date <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value string</i> as the <i>value string</i> in a dc:date <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Manifestation.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=34" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Publisher"></a><h3> Publisher </h3>
+<p>Use the <i>value string</i> as the <i>value string</i> in a dc:publisher <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.  Where a <i>value string</i> is not present, but there is a <i>related description</i> about the 'publisher' Agent, use the foaf:name <i>value string</i> or combine the foaf:family_name and foaf:givenname <i>value strings</i> in the form 'family_name, givenname' as the <i>value string</i>.
+</p><p>Use the <i>value string</i> as the <i>value string</i> in a dc:publisher <i>statement</i> in the simple DC <i>description</i> about each of the Copies associated with this Manifestation.  Where a <i>value string</i> is not present, but there is a <i>related description</i> about the 'publisher' Agent, use the foaf:name <i>value string</i> or combine the foaf:family_name and foaf:givenname <i>value strings</i> in the form 'family_name, givenname' as the <i>value string</i>.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=35" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Is_Available_As"></a><h3> Is Available As </h3>
+<p>Use the <i>value URI</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> of the ScholarlyWork.
+</p><p>Use the <i>value URI</i> as the <i>value string</i> in a dc:identifier <i>statement</i> in the simple DC <i>description</i> of the corresponding Copy.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=36" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Mapping_the_Copy_properties"></a><h2> Mapping the Copy properties </h2>
+<p>For each of the <i>related descriptions</i> about Copies in the <i>description set</i>, <i>statements</i> using the following <i>properties</i> can also be mapped as indicated below.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=37" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Type_3"></a><h3> Type </h3>
+<p>Use the <i>value URI</i> as the <i>value string</i> in a dc:type <i>statement</i> in the simple DC <i>description</i> about the Copy.
+</p><p>Use the <i>value string</i> (and any associated <i>language tag</i>) as the <i>value string</i> in a dc:type <i>statement</i> in the simple DC <i>description</i> about the Copy.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=38" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Access_Rights"></a><h3> Access Rights </h3>
+<p>Use the <i>value string</i> as the <i>value string</i> in a dc:rights <i>statement</i> in the simple DC <i>description</i> about the Copy.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=39" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Licence"></a><h3> Licence </h3>
+<p>Use the <i>value string</i> as the <i>value string</i> in a dc:rights <i>statement</i> in the simple DC <i>description</i> about the Copy.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=40" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Date_Available_2"></a><h3> Date Available </h3>
+<p>Use the <i>value string</i> as the <i>value string</i> in a dc:date <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value string</i> as the <i>value string</i> in a dc:date <i>statement</i> in the simple DC <i>description</i> about the Copy.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=41" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Is_Part_Of"></a><h3> Is Part Of </h3>
+<p>Use the <i>value URI</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value string</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about the ScholarlyWork.
+</p><p>Use the <i>value URI</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about the Copy.
+</p><p>Use the <i>value string</i> as the <i>value string</i> in a dc:relation <i>statement</i> in the simple DC <i>description</i> about the Copy.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=42" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Description_of_an_Agent"></a><h2> Description of an Agent </h2>
+<p>For each of the <i>related descriptions</i> about Agents in the <i>description set</i>, <i>statements</i> using the following <i>properties</i> can also be mapped as indicated below.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=43" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Name"></a><h3> Name </h3>
+<p>Use the <i>value string</i> as the basis for the <i>value string</i> in a dc:creator, dc:contributor or dc:publisher <i>statement</i> in the simple DC <i>descriptions</i> described above.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=44" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Family_Name"></a><h3> Family Name </h3>
+<p>Use a combination of the <i>value string</i> of the foaf:family_name <i>statement</i> and the <i>value string</i> of the foaf:givenname <i>statement</i> in the <i>description</i> of the same entity to form a new <i>value string</i> for a dc:creator, dc:contributor or dc:publisher <i>statement</i> as described above.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=45" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Given_Name"></a><h3> Given Name </h3>
+<p>Use a combination of the <i>value string</i> of the foaf:family_name <i>statement</i> and the <i>value string</i> of the foaf:givenname <i>statement</i> in the <i>description</i> of the same entity to form a new <i>value string</i> for a dc:creator, dc:contributor or dc:publisher <i>statement</i> as described above.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=46" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Workplace_Homepage"></a><h3> Workplace Homepage </h3>
+<p>Ignore.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=47" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Mailbox"></a><h3> Mailbox </h3>
+<p>Ignore.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=48" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Homepage"></a><h3> Homepage </h3>
+<p>Ignore.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=49" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Examples"></a><h2> Examples </h2>
+<p>The following two sections show the simple DC <i>description sets</i> that are generated when the mapping described above is applied to the two examples in the <a href="http://www.ukoln.ac.uk/repositories/digirep/index/EPrints_Application_Profile" title="EPrints Application Profile">ePrints Application Profile</a>.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=50" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Example_1"></a><h3> Example 1 </h3>
+<p>The <i>description set</i> in Example 1 contains five <i>descriptions</i> of:
+</p>
+<ul><li> one ScholarlyWork
+</li><li> one Expression of that ScholarlyWork
+</li><li> one Manifestation of that Expression of that ScholarlyWork
+</li><li> two Copies of that Manifestation of that Expression of that ScholarlyWork
+</li></ul>
+<p>So the mapping generates three simple DC <i>description sets</i>:
+</p>
+<ul><li> one containing a single <i>description</i> of the ScholarlyWork and
+</li><li> the other two each containing a single <i>description</i> of one of the two Copies.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=51" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Description_Set_1_.28ScholarlyWork.29"></a><h4> Description Set 1 (ScholarlyWork) </h4>
+<pre>@prefix dc: &lt;<a href="http://purl.org/dc/elements/1.1/" class="external free" title="http://purl.org/dc/elements/1.1/" rel="nofollow">http://purl.org/dc/elements/1.1/</a>&gt; .
+</pre>
+<pre>DescriptionSet (
+  Description (
+    Statement (
+      #     - from Work/resource URI
+      Property URI ( dc:identifier )
+      Value String ( "<a href="http://eprints.gla.ac.uk/503/" class="external free" title="http://eprints.gla.ac.uk/503/" rel="nofollow">http://eprints.gla.ac.uk/503/</a>" )
+    )
+    Statement (
+      #     - from Work/dc:type
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/entitytype/ScholarlyWork" class="external free" title="http://purl.org/eprint/entitytype/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entitytype/ScholarlyWork</a>" )
+    )
+    Statement (
+      #     - from Expression-1/dc:type
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/entitytype/Expression" class="external free" title="http://purl.org/eprint/entitytype/Expression" rel="nofollow">http://purl.org/eprint/entitytype/Expression</a>" )
+    )
+    Statement (
+      #     - from Work/dc:title
+      Property URI ( dc:title )
+      Value String ( "Attempts to detect retrotransposition and de novo deletion of Alus and other dispersed
+                      repeats at specific loci in the human genome" )
+    )
+    Statement (
+      #     - from Work/dcterms:abstract
+      Property URI ( dc:description )
+      Value String ( "Dispersed repeat elements contribute to genome instability by de novo insertion and unequal
+                      recombination between repeats. To study the dynamics of these processes, we have developed
+                      single DNA molecule approaches to detect de novo insertions at a single locus and Alu-mediated
+                      deletions at two different loci in human genomic DNA. Validation experiments showed these
+                      approaches could detect insertions and deletions at frequencies below 10(-6) per cell. However,
+                      bulk analysis of germline (sperm) and somatic DNA showed no evidence for genuine mutant molecules,
+                      placing an upper limit of insertion and deletion rates of 2 x 10(-7) and 3 x 10(-7), respectively,
+                      in the individuals tested. Such re-arrangements at these loci therefore occur at a rate lower
+                      than that detectable by the most sensitive methods currently available." )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Hollies, C.R." )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Monckton, D.G." )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Jeffreys, A.J." )
+    )
+    Statement (
+      #     - from Expression-1/dcterms:available
+      Property URI ( dc:date )
+      Value String ( "2001-02" )
+    )
+    Statement (
+      #     - from Expression-1/dc:language
+      Property URI ( dc:language )
+      Value String ( "en" )
+    )
+    Statement (
+      #     - from Expression-1/eprint:copyrightHolder
+      Property URI ( dc:rights )
+      Value String ( "(c) Copyright Nature Publishing Group" )
+    )
+    Statement (
+      #     - from Manifestation-1/dc:format
+      Property URI ( dc:format )
+      Value String ( "application/pdf" )
+    )
+    Statement (
+      #     - from Manifestation-1/eprint:isAvailableAs
+      Property URI ( dc:relation )
+      Value String ( "<a href="http://eprints.gla.ac.uk/503/01/Eu_J._Hum_Gen.9%282%29143_.pdf" class="external free" title="http://eprints.gla.ac.uk/503/01/Eu J. Hum Gen.9(2)143 .pdf" rel="nofollow">http://eprints.gla.ac.uk/503/01/Eu_J._Hum_Gen.9(2)143_.pdf</a>" )
+    )
+  )
+)
+</pre>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=52" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Description_Set_2_.28Copy_1.29"></a><h4> Description Set 2 (Copy 1) </h4>
+<pre>@prefix dc: &lt;<a href="http://purl.org/dc/elements/1.1/" class="external free" title="http://purl.org/dc/elements/1.1/" rel="nofollow">http://purl.org/dc/elements/1.1/</a>&gt; .
+</pre>
+<pre>DescriptionSet (
+  Description (
+    Statement (
+      #     - from Manifestation-1/eprint:isAvailableAs
+      Property URI ( dc:identifier )
+      Value String ( "<a href="http://eprints.gla.ac.uk/503/01/Eu_J._Hum_Gen.9%282%29143_.pdf" class="external free" title="http://eprints.gla.ac.uk/503/01/Eu J. Hum Gen.9(2)143 .pdf" rel="nofollow">http://eprints.gla.ac.uk/503/01/Eu_J._Hum_Gen.9(2)143_.pdf</a>" )
+    )
+    Statement (
+      #     - from Expression-1/dc:type
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/entitytype/Expression" class="external free" title="http://purl.org/eprint/entitytype/Expression" rel="nofollow">http://purl.org/eprint/entitytype/Expression</a>" )
+    )
+    Statement (
+      #     - from Expression-1/eprint:status
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/type/status/PeerReviewed" class="external free" title="http://purl.org/eprint/type/status/PeerReviewed" rel="nofollow">http://purl.org/eprint/type/status/PeerReviewed</a>" )
+    )
+    Statement (
+      #     - from Copy-1/dc:type
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/entitytype/Copy" class="external free" title="http://purl.org/eprint/entitytype/Copy" rel="nofollow">http://purl.org/eprint/entitytype/Copy</a>" )
+    )
+    Statement (
+      #     - from Work/dc:title
+      Property URI ( dc:title )
+      Value String ( "Attempts to detect retrotransposition and de novo deletion of Alus and other dispersed
+                      repeats at specific loci in the human genome" )
+    )
+    Statement (
+      #     - from Work/dcterms:abstract
+      Property URI ( dc:description )
+      Value String ( "Dispersed repeat elements contribute to genome instability by de novo insertion and unequal
+                      recombination between repeats. To study the dynamics of these processes, we have developed
+                      single DNA molecule approaches to detect de novo insertions at a single locus and Alu-mediated
+                      deletions at two different loci in human genomic DNA. Validation experiments showed these
+                      approaches could detect insertions and deletions at frequencies below 10(-6) per cell. However,
+                      bulk analysis of germline (sperm) and somatic DNA showed no evidence for genuine mutant molecules,
+                      placing an upper limit of insertion and deletion rates of 2 x 10(-7) and 3 x 10(-7), respectively,
+                      in the individuals tested. Such re-arrangements at these loci therefore occur at a rate lower
+                      than that detectable by the most sensitive methods currently available." )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Hollies, C.R." )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Monckton, D.G." )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Jeffreys, A.J." )
+    )
+    Statement (
+      #     - from Expression-1/dcterms:available
+      Property URI ( dc:date )
+      Value String ( "2001-02" )
+    )
+    Statement (
+      #     - from Expression-1/dc:language
+      Property URI ( dc:language )
+      Value String ( "en" )
+    )
+    Statement (
+      #     - from Expression-1/eprint:copyrightHolder
+      Property URI ( dc:rights )
+      Value String ( "(c) Copyright Nature Publishing Group" )
+    )
+    Statement (
+      #     - from Manifestation-1/dc:format
+      Property URI ( dc:format )
+      Value String ( "application/pdf" )
+    )
+    Statement (
+      #     - from Work/resource URI
+      Property URI ( dc:relation )
+      Value String ( "<a href="http://eprints.gla.ac.uk/503/" class="external free" title="http://eprints.gla.ac.uk/503/" rel="nofollow">http://eprints.gla.ac.uk/503/</a>" )
+    )
+</pre>
+<pre>  )
+)
+</pre>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=53" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Description_Set_3_.28Copy_2.29"></a><h4> Description Set 3 (Copy 2) </h4>
+<pre>@prefix dc: &lt;<a href="http://purl.org/dc/elements/1.1/" class="external free" title="http://purl.org/dc/elements/1.1/" rel="nofollow">http://purl.org/dc/elements/1.1/</a>&gt; .
+</pre>
+<pre>DescriptionSet (
+  Description (
+    Statement (
+      #     - from Manifestation-1/eprint:isAvailableAs
+      Property URI ( dc:identifier )
+      Value String ( "<a href="http://www.nature.com/ejhg/journal/v9/n2/pdf/5200590a.pdf" class="external free" title="http://www.nature.com/ejhg/journal/v9/n2/pdf/5200590a.pdf" rel="nofollow">http://www.nature.com/ejhg/journal/v9/n2/pdf/5200590a.pdf</a>" )
+    )
+    Statement (
+      #     - from Expression-1/dc:type
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/entitytype/Expression" class="external free" title="http://purl.org/eprint/entitytype/Expression" rel="nofollow">http://purl.org/eprint/entitytype/Expression</a>" )
+    )
+    Statement (
+      #     - from Expression-1/eprint:status
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/type/status/PeerReviewed" class="external free" title="http://purl.org/eprint/type/status/PeerReviewed" rel="nofollow">http://purl.org/eprint/type/status/PeerReviewed</a>" )
+    )
+    Statement (
+      #     - from Copy-2/dc:type
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/entitytype/Copy" class="external free" title="http://purl.org/eprint/entitytype/Copy" rel="nofollow">http://purl.org/eprint/entitytype/Copy</a>" )
+    )
+    Statement (
+      #     - from Work/dc:title
+      Property URI ( dc:title )
+      Value String ( "Attempts to detect retrotransposition and de novo deletion of Alus and other dispersed
+                      repeats at specific loci in the human genome" )
+    )
+    Statement (
+      #     - from Work/dcterms:abstract
+      Property URI ( dc:description )
+      Value String ( "Dispersed repeat elements contribute to genome instability by de novo insertion and unequal
+                      recombination between repeats. To study the dynamics of these processes, we have developed
+                      single DNA molecule approaches to detect de novo insertions at a single locus and Alu-mediated
+                      deletions at two different loci in human genomic DNA. Validation experiments showed these
+                      approaches could detect insertions and deletions at frequencies below 10(-6) per cell. However,
+                      bulk analysis of germline (sperm) and somatic DNA showed no evidence for genuine mutant molecules,
+                      placing an upper limit of insertion and deletion rates of 2 x 10(-7) and 3 x 10(-7), respectively,
+                      in the individuals tested. Such re-arrangements at these loci therefore occur at a rate lower
+                      than that detectable by the most sensitive methods currently available." )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Hollies, C.R." )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Monckton, D.G." )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Jeffreys, A.J." )
+    )
+    Statement (
+      #     - from Expression-1/dcterms:available
+      Property URI ( dc:date )
+      Value String ( "2001-02" )
+    )
+    Statement (
+      #     - from Expression-1/dc:language
+      Property URI ( dc:language )
+      Value String ( "en" )
+    )
+    Statement (
+      #     - from Expression-1/eprint:copyrightHolder
+      Property URI ( dc:rights )
+      Value String ( "(c) Copyright Nature Publishing Group" )
+    )
+    Statement (
+      #     - from Manifestation-1/dc:format
+      Property URI ( dc:format )
+      Value String ( "application/pdf" )
+    )
+    Statement (
+      #     - from Work/resource URI
+      Property URI ( dc:relation )
+      Value String ( "<a href="http://eprints.gla.ac.uk/503/" class="external free" title="http://eprints.gla.ac.uk/503/" rel="nofollow">http://eprints.gla.ac.uk/503/</a>" )
+    )
+  )
+)
+</pre>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=54" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Example_2"></a><h3> Example 2 </h3>
+<p>The <i>description set</i> in Example 2 contains four <i>descriptions</i> of:
+</p>
+<ul><li> one ScholarlyWork
+</li><li> one Expression of that ScholarlyWork
+</li><li> one Manifestation of that Expression of that ScholarlyWork
+</li><li> one Copy of that Manifestation of that Expression of that ScholarlyWork
+</li></ul>
+<p>So the mapping generates two simple DC <i>description sets</i>,
+</p>
+<ul><li> one containing a single <i>description</i> of the ScholarlyWork and
+</li><li> the other two each containing a single <i>description</i> of one of the two Copies.
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=55" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Description_Set_1_.28ScholarlyWork.29_2"></a><h4> Description Set 1 (ScholarlyWork) </h4>
+<pre>@prefix dc: &lt;<a href="http://purl.org/dc/elements/1.1/" class="external free" title="http://purl.org/dc/elements/1.1/" rel="nofollow">http://purl.org/dc/elements/1.1/</a>&gt; .
+</pre>
+<pre>DescriptionSet (
+  Description (
+    Statement (
+      #     - from Work/resource URI
+      Property URI ( dc:identifier )
+      Value String ( "<a href="http://eprints.soton.ac.uk/22934/" class="external free" title="http://eprints.soton.ac.uk/22934/" rel="nofollow">http://eprints.soton.ac.uk/22934/</a>" )
+    )
+    Statement (
+      #     - from Work/dc:type
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/entitytype/ScholarlyWork" class="external free" title="http://purl.org/eprint/entitytype/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entitytype/ScholarlyWork</a>" )
+    )
+    Statement (
+      #     - from Expression-1/dc:type
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/entitytype/Expression" class="external free" title="http://purl.org/eprint/entitytype/Expression" rel="nofollow">http://purl.org/eprint/entitytype/Expression</a>" )
+    )
+    Statement (
+      #     - from Expression-1/dc:type
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/type/JournalArticle" class="external free" title="http://purl.org/eprint/type/JournalArticle" rel="nofollow">http://purl.org/eprint/type/JournalArticle</a>" )
+    )
+    Statement (
+      #     - from Work/dc:title
+      Property URI ( dc:title )
+      Value String ( "Structurally integrated brushless PM motor for miniature propeller thrusters" )
+    )
+    Statement (
+      #     - from Work/dc:subject
+      Property URI ( dc:subject )
+      Value String ( "T Technology--TC Hydraulic engineering. Ocean engineering" )
+    )
+    Statement (
+      #     - from Work/dc:subject
+      Property URI ( dc:subject )
+      Value String ( "T Technology--TK Electrical engineering. Electronics Nuclear engineering" )
+    )
+    Statement (
+      #     - from Work/dc:subject
+      Property URI ( dc:subject )
+      Value String ( "T Technology--TL Motor vehicles. Aeronautics. Astronautics" )
+    )
+    Statement (
+      #     - from Work/dcterms:abstract
+      Property URI ( dc:description )
+      Value String ( "The design, analysis and performance of a brushless PM motor that is integrated
+                      in the structure of a  miniature 50 mm diameter propeller thruster is considered;
+                      the stator is fitted in the faired thin duct that surrounds the propeller to improve
+                      its efficiency and protect it from damage, and the rotor is fitted to the rim of the
+                      propeller. Such a thruster is intended for use on small autonomous underwater vehicles
+                      that are being developed for defence, scientific and industry applications. Fitting a
+                      relatively large airgap motor with protective coating within the volume of a thin
+                      propeller duct (&lt;10 mm thick) imposes extreme constraints on the dimensions of the
+                      machine, including a very thin rotor and stator radial thickness and relatively short
+                      axial length in addition to the relatively large airgap, which raises theoretical and
+                      practical issues that have not been considered in the literature. The design of such
+                      a machine is discussed, a demonstrator device is described and FEA and experimental
+                      results are reported." )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Abu Sharkh, S.M.A. (Suleiman)" )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Lai, S.H." )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Turnock, S.R." )
+    )
+    Statement (
+      #     - from Expression-1/dcterms:available
+      Property URI ( dc:date )
+      Value String ( "2004" )
+    )
+    Statement (
+      #     - from Expression-1/dc:language
+      Property URI ( dc:language )
+      Value String ( "en" )
+    )
+    Statement (
+      #     - from Expression-1/eprint:copyrightHolder
+      Property URI ( dc:rights )
+      Value String ( "(c) Copyright Institution of Engineering and Technology" )
+    )
+    Statement (
+      #     - from Manifestation-1/dc:format
+      Property URI ( dc:format )
+      Value String ( "application/pdf" )
+    )
+    Statement (
+      #     - from Manifestation-1/dc:publisher
+      Property URI ( dc:publisher )
+      Value String ( "Institution of Engineering and Technology" )
+    )
+    Statement (
+      #     - from Work/eprint:isExpressedAs
+      Property URI ( dc:relation )
+      Value String ( "<a href="http://dx.doi.org/10.1049/ip-epa:20040736" class="external free" title="http://dx.doi.org/10.1049/ip-epa:20040736" rel="nofollow">http://dx.doi.org/10.1049/ip-epa:20040736</a>" )
+    )
+    Statement (
+      #     - from Expression/dcterms:bibliographicCitation
+      Property URI ( dc:relation )
+      Value String ( "&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article
+                      &amp;rft.atitle=Structurally+integrated+brushless+PM+motor+for+miniature+propeller+thrusters
+                      &amp;rft.jtitle=IEE+Proceedings+-+Electric+Power+Applications&amp;rft.volume=151&amp;rft.issue=5
+                      &amp;rft.spage=513&amp;rft.date=2004&amp;rft.issn=1350-2352
+                      &amp;rft.aulast=Sharkh&amp;rft.auinit=S+M+A
+                      &amp;rfr_id=info:sid/eprints.soton.ac.uk" )
+    )
+    Statement (
+      #     - from Expression/dcterms:bibliographicCitation
+      Property URI ( dc:relation )
+      Value String ( "IEE Proceedings - Electric Power Applications, 151, (5), 513-519 (2004)" )
+    )
+    Statement (
+      #     - from Manifestation-1/eprint:isAvailableAs
+      Property URI ( dc:relation )
+      Value String ( "<a href="http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&amp;id=IEPAER000151000005000513000001&amp;idtype=cvips&amp;prog=normal" class="external free" title="http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&amp;id=IEPAER000151000005000513000001&amp;idtype=cvips&amp;prog=normal" rel="nofollow">http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&amp;id=IEPAER000151000005000513000001&amp;idtype=cvips&amp;prog=normal</a>" )
+    )
+    Statement (
+      #     - from Copy-1/dcterms:isPartOf
+      Property URI ( dc:relation )
+      Value String ( "<a href="http://www.theiet.org/" class="external free" title="http://www.theiet.org/" rel="nofollow">http://www.theiet.org/</a>" )
+    )
+    Statement (
+      #     - from Copy-1/dcterms:isPartOf
+      Property URI ( dc:relation )
+      Value String ( "Institution of Engineering and Technology" )
+    )
+    Statement (
+      #     - from Copy-1/dcterms:isPartOf
+      Property URI ( dc:relation )
+      Value String ( "<a href="http://www.ietdl.org/" class="external free" title="http://www.ietdl.org/" rel="nofollow">http://www.ietdl.org/</a>" )
+    )
+    Statement (
+      #     - from Copy-1/dcterms:isPartOf
+      Property URI ( dc:relation )
+      Value String ( "IET Digital Library" )
+    )
+  )
+)
+</pre>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit&amp;section=56" title="Mapping the Scholarly Works Application Profile to Simple DC">edit</a>]</div><a name="Description_Set_2_.28Copy.29"></a><h4> Description Set 2 (Copy) </h4>
+<pre>@prefix dc: &lt;<a href="http://purl.org/dc/elements/1.1/" class="external free" title="http://purl.org/dc/elements/1.1/" rel="nofollow">http://purl.org/dc/elements/1.1/</a>&gt; .
+</pre>
+<pre>DescriptionSet (
+  Description (
+    Statement (
+      #     - from Manifestation-1/eprint:isAvailableAs
+      Property URI ( dc:identifier )
+      Value String ( "<a href="http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&amp;id=IEPAER000151000005000513000001&amp;idtype=cvips&amp;prog=normal" class="external free" title="http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&amp;id=IEPAER000151000005000513000001&amp;idtype=cvips&amp;prog=normal" rel="nofollow">http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&amp;id=IEPAER000151000005000513000001&amp;idtype=cvips&amp;prog=normal</a>" )
+    )
+    Statement (
+      #     - from Expression-1/dc:type
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/entitytype/Expression" class="external free" title="http://purl.org/eprint/entitytype/Expression" rel="nofollow">http://purl.org/eprint/entitytype/Expression</a>" )
+    )
+    Statement (
+      #     - from Expression-1/dc:type
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/type/JournalArticle" class="external free" title="http://purl.org/eprint/type/JournalArticle" rel="nofollow">http://purl.org/eprint/type/JournalArticle</a>" )
+    )
+    Statement (
+      #     - from Expression-1/eprint:status
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/type/status/PeerReviewed" class="external free" title="http://purl.org/eprint/type/status/PeerReviewed" rel="nofollow">http://purl.org/eprint/type/status/PeerReviewed</a>" )
+    )
+    Statement (
+      #     - from Copy-1/dc:type
+      Property URI ( dc:type )
+      Value String ( "<a href="http://purl.org/eprint/entitytype/Copy" class="external free" title="http://purl.org/eprint/entitytype/Copy" rel="nofollow">http://purl.org/eprint/entitytype/Copy</a>" )
+    )
+    Statement (
+      #     - from Work/dc:title
+      Property URI ( dc:title )
+      Value String ( "Structurally integrated brushless PM motor for miniature propeller thrusters" )
+    )
+    Statement (
+      #     - from Work/dc:subject
+      Property URI ( dc:subject )
+      Value String ( "T Technology--TC Hydraulic engineering. Ocean engineering" )
+    )
+    Statement (
+      #     - from Work/dc:subject
+      Property URI ( dc:subject )
+      Value String ( "T Technology--TK Electrical engineering. Electronics Nuclear engineering" )
+    )
+    Statement (
+      #     - from Work/dc:subject
+      Property URI ( dc:subject )
+      Value String ( "T Technology--TL Motor vehicles. Aeronautics. Astronautics" )
+    )
+    Statement (
+      #     - from Work/dcterms:abstract
+      Property URI ( dc:description )
+      Value String ( "The design, analysis and performance of a brushless PM motor that is integrated
+                      in the structure of a  miniature 50 mm diameter propeller thruster is considered;
+                      the stator is fitted in the faired thin duct that surrounds the propeller to improve
+                      its efficiency and protect it from damage, and the rotor is fitted to the rim of the
+                      propeller. Such a thruster is intended for use on small autonomous underwater vehicles
+                      that are being developed for defence, scientific and industry applications. Fitting a
+                      relatively large airgap motor with protective coating within the volume of a thin
+                      propeller duct (&lt;10 mm thick) imposes extreme constraints on the dimensions of the
+                      machine, including a very thin rotor and stator radial thickness and relatively short
+                      axial length in addition to the relatively large airgap, which raises theoretical and
+                      practical issues that have not been considered in the literature. The design of such
+                      a machine is discussed, a demonstrator device is described and FEA and experimental
+                      results are reported." )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Abu Sharkh, S.M.A. (Suleiman)" )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Lai, S.H." )
+    )
+    Statement (
+      #     - from Work/dc:creator
+      Property URI ( dc:creator )
+      Value String ( "Turnock, S.R." )
+    )
+    Statement (
+      #     - from Expression-1/dcterms:available
+      Property URI ( dc:date )
+      Value String ( "2004" )
+    )
+    Statement (
+      #     - from Expression-1/dc:language
+      Property URI ( dc:language )
+      Value String ( "en" )
+    )
+    Statement (
+      #     - from Expression-1/eprint:copyrightHolder
+      Property URI ( dc:rights )
+      Value String ( "(c) Copyright Institution of Engineering and Technology" )
+    )
+    Statement (
+      #     - from Manifestation-1/dc:format
+      Property URI ( dc:format )
+      Value String ( "application/pdf" )
+    )
+    Statement (
+      #     - from Manifestation-1/dc:publisher
+      Property URI ( dc:publisher )
+      Value String ( "Institution of Engineering and Technology" )
+    )
+    Statement (
+      #     - from Work/resource URI
+      Property URI ( dc:relation )
+      Value String ( "<a href="http://eprints.soton.ac.uk/22934/" class="external free" title="http://eprints.soton.ac.uk/22934/" rel="nofollow">http://eprints.soton.ac.uk/22934/</a>" )
+    )
+    Statement (
+      #     - from Work/eprint:isExpressedAs
+      Property URI ( dc:relation )
+      Value String ( "<a href="http://dx.doi.org/10.1049/ip-epa:20040736" class="external free" title="http://dx.doi.org/10.1049/ip-epa:20040736" rel="nofollow">http://dx.doi.org/10.1049/ip-epa:20040736</a>" )
+    )
+    Statement (
+      #     - from Expression/dcterms:bibliographicCitation
+      Property URI ( dc:relation )
+      Value String ( "&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article
+                      &amp;rft.atitle=Structurally+integrated+brushless+PM+motor+for+miniature+propeller+thrusters
+                      &amp;rft.jtitle=IEE+Proceedings+-+Electric+Power+Applications&amp;rft.volume=151&amp;rft.issue=5
+                      &amp;rft.spage=513&amp;rft.date=2004&amp;rft.issn=1350-2352
+                      &amp;rft.aulast=Sharkh&amp;rft.auinit=S+M+A
+                      &amp;rfr_id=info:sid/eprints.soton.ac.uk" )
+    )
+    Statement (
+      #     - from Expression/dcterms:bibliographicCitation
+      Property URI ( dc:relation )
+      Value String ( "IEE Proceedings - Electric Power Applications, 151, (5), 513-519 (2004)" )
+    )
+    Statement (
+      #     - from Copy-1/dcterms:isPartOf
+      Property URI ( dc:relation )
+      Value String ( "<a href="http://www.theiet.org/" class="external free" title="http://www.theiet.org/" rel="nofollow">http://www.theiet.org/</a>" )
+    )
+    Statement (
+      #     - from Copy-1/dcterms:isPartOf
+      Property URI ( dc:relation )
+      Value String ( "Institution of Engineering and Technology" )
+    )
+    Statement (
+      #     - from Copy-1/dcterms:isPartOf
+      Property URI ( dc:relation )
+      Value String ( "<a href="http://www.ietdl.org/" class="external free" title="http://www.ietdl.org/" rel="nofollow">http://www.ietdl.org/</a>" )
+    )
+    Statement (
+      #     - from Copy-1/dcterms:isPartOf
+      Property URI ( dc:relation )
+      Value String ( "IET Digital Library" )
+    )
+  )
+)
+</pre>
+<!-- Saved in parser cache with key digirep_wiki_db:pcache:idhash:1912-0!1!0!0!!en!2 and timestamp 20130207072436 -->
+<div class="printfooter">
+Retrieved from "<a href="http://www.ukoln.ac.uk/repositories/digirep/index/Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC">/repositories/digirep/index/Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC</a>"</div>
+	    <div id="catlinks"><p class="catlinks"><a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Special:Categories&amp;article=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC" title="Special:Categories">Categories</a>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Category:EprintsApplicationProfile&amp;action=edit" class="new" title="Category:EprintsApplicationProfile">EprintsApplicationProfile</a> | <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Category:ScholarlyWorksApplicationProfile" title="Category:ScholarlyWorksApplicationProfile">ScholarlyWorksApplicationProfile</a></p></div>	    <!-- end content -->
+	    <div class="visualClear"></div>
+	  </div>
+	</div>
+      </div>
+      <div id="column-one">
+	<div id="p-cactions" class="portlet">
+	  <h5>Views</h5>
+	  <ul>
+	    <li id="ca-nstab-main" class="selected"><a title="View the content page [control-c]" accesskey="c" href="http://www.ukoln.ac.uk/repositories/digirep/index/Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC">Article</a></li><li id="ca-talk" class="new"><a title="Discussion about the content page [control-t]" accesskey="t" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Talk:Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit">Discussion</a></li><li id="ca-edit"><a title="You can edit this page. Please use the preview button before saving. [control-e]" accesskey="e" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=edit">Edit</a></li><li id="ca-history"><a title="Past versions of this page. [control-h]" accesskey="h" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;action=history">History</a></li>	  </ul>
+	</div>
+	<div class="portlet" id="p-personal">
+	  <h5>Personal tools</h5>
+	  <div class="pBody">
+	    <ul>
+	    <li id="pt-login"><a title="You are encouraged to log in, it is not mandatory however. [control-o]" accesskey="o" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Special:Userlogin&amp;returnto=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC">Create an account or log in</a></li>	    </ul>
+	  </div>
+	</div>
+	<div class="portlet" id="p-logo">
+	  <a style="background-image: url(/repositories/digirep/skins/common/images/jisc_ukolo_cetis_version_2.png);" href="http://www.ukoln.ac.uk/repositories/digirep/index/Repositories_Research" title="Repositories Research"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class="portlet" id="p-navigation">
+	  <h5>Navigation</h5>
+	  <div class="pBody">
+	    <ul>
+	    	      <li id="n-mainpage"><a title="Visit the Main Page [control-z]" accesskey="z" href="http://www.ukoln.ac.uk/repositories/digirep/index/Repositories_Research">Repositories Research</a></li>
+	     	      <li id="n-About"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/About">About</a></li>
+	     	      <li id="n-News"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/News">News</a></li>
+	     	      <li id="n-Events"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Events">Events</a></li>
+	     	      <li id="n-Info-and-activities"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/RRT_information_and_activities">Info and activities</a></li>
+	     	      <li id="n-Projects"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Projects">Projects</a></li>
+	     	      <li id="n-Clusters"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Clusters">Clusters</a></li>
+	     	      <li id="n-Scenarios/use-cases/UML"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Scenarios_and_use_cases">Scenarios/use cases/UML</a></li>
+	     	      <li id="n-Workflows"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Workflows">Workflows</a></li>
+	     	      <li id="n-Deposit-API/SWORD"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Deposit">Deposit API/SWORD</a></li>
+	     	      <li id="n-Application-Profiles"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Application_Profiles">Application Profiles</a></li>
+	     	      <li id="n-CRIG"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/CRIG">CRIG</a></li>
+	     	      <li id="n-FAQs"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/FAQs">FAQs</a></li>
+	     	      <li id="n-Links"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Links">Links</a></li>
+	     	      <li id="n-recentchanges"><a title="The list of recent changes in the wiki. [control-r]" accesskey="r" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Recentchanges">Recent changes</a></li>
+	     	      <li id="n-Sandbox"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Sandbox">Sandbox</a></li>
+	     	      <li id="n-Help"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Help:Contents">Help</a></li>
+	     	    </ul>
+	  </div>
+	</div>
+		<div id="p-search" class="portlet">
+	  <h5><label for="searchInput">Search</label></h5>
+	  <div class="pBody">
+	    <form name="searchform" action="/repositories/digirep/index/Special:Search" id="searchform">
+	      <input id="searchInput" name="search" accesskey="f" type="text">
+	      <input name="go" class="searchButton" id="searchGoButton" value="Go" type="submit">&nbsp;<input name="fulltext" class="searchButton" value="Search" type="submit">
+	    </form>
+	  </div>
+	</div>
+	<div class="portlet" id="p-tb">
+	  <h5>Toolbox</h5>
+	  <div class="pBody">
+	    <ul>
+		  		  <li id="t-whatlinkshere"><a title="List of all wiki pages that link here [control-j]" accesskey="j" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Whatlinkshere/Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC">What links here</a></li>
+		  		  <li id="t-recentchangeslinked"><a title="Recent changes in pages linked from this page [control-k]" accesskey="k" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Recentchangeslinked/Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC">Related changes</a></li>
+		                	      	      	      	      	      	      	      <li id="t-upload"><a title="Upload images or media files [control-u]" accesskey="u" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Upload">Upload file</a></li>	      	      <li id="t-specialpages"><a title="List of all special pages [control-q]" accesskey="q" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Specialpages">Special pages</a></li>	      	      	      <li id="t-print"><a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC&amp;printable=yes">Printable version</a></li>
+	      	    </ul>
+	  </div>
+	</div>
+	      </div><!-- end of the left (by default at least) column -->
+      <div class="visualClear"></div>
+      <div id="footer">
+    <div id="f-poweredbyico"><a href="http://www.jisc.ac.uk/"><img src="index_files/JISCcolour23.png" alt="Sponsored by JISC" title="Sponsored by JISC"></a></div>	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by-sa/2.5/"><img src="index_files/somerights20.png" alt="Attribution-ShareAlike 2.5"></a></div>	<ul id="f-list">
+	  <li id="f-lastmod"> This page was last modified 10:00, 14 May 2008.</li>	  <li id="f-viewcount">This page has been accessed 66,325 times.</li>	  	  	  <li id="f-copyright">Content is available under <a href="http://creativecommons.org/licenses/by-sa/2.5/" class="external " title="http://creativecommons.org/licenses/by-sa/2.5/" rel="nofollow">Attribution-ShareAlike 2.5</a>.</li>	  <li id="f-about"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/DigiRepWiki:About" title="DigiRepWiki:About">About DigiRepWiki</a></li>	  <li id="f-disclaimer"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/DigiRepWiki:General_disclaimer" title="DigiRepWiki:General disclaimer">Disclaimers</a></li>	  	</ul>
+      </div>
+    </div>
+    <!-- Served by wumpus in 0.22 secs. -->  
+
+</body></html>

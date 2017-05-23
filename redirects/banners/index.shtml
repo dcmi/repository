@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DCMI Banners</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>Banners</h1>
+<p>The following banner is provided in the GIF file format for use by members of the public who wish to include them on a Web site.</p>
+<p><img alt="Dublin Core Used Here" src="/images/banners/dcusedhere/dcuh_88x31.gif" width="88" height="31" /></p>
+<p>No special permission is required from the DCMI to reproduce this image, however, banner must be linked directly to the DCMI Web site at &lt;&nbsp;<strong>http://dublincore.org</strong>&nbsp;&gt;.</p>
+<p>Please let us know if you are using this banner on a web site by sending a message to the address below with your name and the URL of the web site. You can also direct any technical questions about the use of this image to <a href="http://dublincore.org/about/feedback/">http://dublincore.org/about/feedback/</a>.</p>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

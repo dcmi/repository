@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/creator">
+    <rdfs:label xml:lang="cy-GB">Cr&#xeb;wr</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Yr endid sy'n bennaf gyfrifol am greu cynnwys yr adnodd</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Mae unigolyn, sefydliad, neu wasanaeth yn esiamplau o Gr&#xeb;wr. Fel arfer dylid defnyddio enw'r Cr&#xeb;wr i ddynodi'r endid</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/type">
+    <rdfs:label xml:lang="cy-GB">Math o Adnodd</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Natur neu genre cynnwys yr adnodd</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Mae Math yn cynnwys termau sy'n disgrifio categor&#xef;au cyffredinol, gweithrediadau, genres, neu lefelau cyfanrif ar gyfer dogfennau. Cymeradwyir yr arfer da o ddewis gwerth o eirfa reoledig (er enghraifft, DCMI Type Vocabulary [DCT1]). Defnyddir yr elfen FFORMAT i ddisgrifio ymddangosiad ffisegol neu ddigidol adnodd</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/contributor">
+    <rdfs:label xml:lang="cy-GB">Cyfrannwr</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Endid sy'n gyfrifol am wneud cyfraniad at gynnwys yr adnodd</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Mae unigolyn, sefydliad, neu wasanaeth yn esiamplau o Gyfrannwr. Fel arfer dylid defnyddio enw'r Cyfrannwr i ddynodi'r endid</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/description">
+    <rdfs:label xml:lang="cy-GB">Disgrifiad</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Adroddiad am gynnwys yr adnodd</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Mae crynodeb, rhestr gynnwys, cyfeiriad at gynrychioliad graffigol o'r cynnwys neu adroddiad testun-rhydd o'r cynnwys yn enghreifftiau o Ddisgrifiad, ond nid yr unig rai sy'n bosibl</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/source">
+    <rdfs:label xml:lang="cy-GB">Ffynhonnell</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Cyfeiriad at adnodd sy'n ffynhonnell i'r adnodd presennol</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Gall yr adnodd presennol fod wedi'i dynnu'n gyfan gwbl neu'n rhannol o'r adnodd Ffynhonnell. Cymeradwyir yr arfer da o ddynodi'r adnodd trwy linyn neu rif sy'n cydymffurfio &#xe2; sustem ddynodi ffurfiol</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/identifier">
+    <rdfs:label xml:lang="cy-GB">Dynodydd Adnodd</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Cyfeiriad diamwys at yr adnodd o fewn cyd-destun penodo</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Cymeradwyir yr arfer da o ddynodi'r adnodd trwy linyn neu rif yn cydffurfio &#xe2; sustem ddynodi ffurfiol. Mae'r Dynodydd Adnodd Unffurf (URI) (gan gynnwys y Lleoliadur Adnodd Unffurf (URL)), y Dynodydd Gwrthrych Digidol (DOI) a'r Rhif Llyfr Safonol Rhyngwladol (ISBN) yn enghreifftiau o sustemau dynodi ffurfiol</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/relation">
+    <rdfs:label xml:lang="cy-GB">Cysylltiad</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Cyfeiriad at adnodd sy'n gysylltiedig &#xe2;'r adnodd presennol</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Cymeradwyir yr arfer da o ddynodi'r adnodd y cyfeirir ato trwy linyn neu rif sy'n cydymffurfio &#xe2; sustem ddynodi ffurfiol</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/publisher">
+    <rdfs:label xml:lang="cy-GB">Cyhoeddwr</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Endid sy'n gyfrifol am argaeledd yr adnodd</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Mae unigolyn, sefydliad neu wasanaeth yn esiamplau o Gyhoeddwr. Fel arfer dylid defnyddio enw'r Cyhoeddwr i ddynodi'r endid</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/subject">
+    <rdfs:label xml:lang="cy-GB">Pwnc ac Allweddeiriau</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Pwnc cynnwys yr adnodd</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Fel arfer caiff Pwnc ei fynegi trwy allweddeiriau, brawddegau allweddol, neu godau dosbarthu sy'n disgrifio pwnc yr adnodd. Cymeradwyir yr arfer da o ddewis y gwerthoedd o eirfa reoledig neu gynllun dosbarthu ffurfiol</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/title">
+    <rdfs:label xml:lang="cy-GB">Teitl</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Enw a roir i unrhyw adnodd</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Fel arfer Teitl fydd yr enw a ddefnyddir i adnabod yr adnodd</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/language">
+    <rdfs:label xml:lang="cy-GB">Iaith</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Iaith cynnwys deallusol yr adnodd</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Cymeradwyir yr arfer da o ddefnyddio RFC 3066 [RFC3066] sydd, ynghyd ag ISO639 [ISO639]), yn diffinio tagiau cynradd dwy a thair llythyren ynghyd ag isdagiau. Er enghraifft, "cy" neu "cym" ar gyfer Cymraeg, "en" neu "eng" ar gyfer Saesneg, ac "en-US" ar gyfer Saesneg y Taleithiau Unedig</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/coverage">
+    <rdfs:label xml:lang="cy-GB">Cwmpas</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Ystod neu rychwant cynnwys yr adnodd</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Fel arfer, bydd Cwmpas yn cynnwys lleoliad gofodol (enw lle neu gyfesurynnau daearyddol), cyfnod amser (label cyfnod, dyddiad, neu ystod dyddiadau) neu awdurdod (megis endid gweinyddol ag iddo enw). Cymeradwyir yr arfer da o ddewis eu gwerthoedd o eirfa reoledig (er enghraifft, the Thesaurus of Geographic Names [TGN]) a defnyddio, lle mae'n briodol, enwau llefydd a chyfnodau amser yn hytrach na dynodwyr rhifol megis cyfesurynnau ac ystod dyddiadau</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/rights">
+    <rdfs:label xml:lang="cy-GB">Rheolaeth Hawliau</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Gwybodaeth am yr hawliau sydd yn yr adnodd, a throsto</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Fel arfer bydd Hawliau yn cynnwys datganiad rheoli hawliau ar gyfer yr adnodd, neu gyfeiriad at wasanaeth sy'n darparu'r fath wybodaeth. Mae gwybodaeth hawliau yn aml yn cynnwys Hawliau Eiddo Deallusol (IPR), Hawlfraint, a gwahanol Hawliau Eiddo. Os nad yw'r elfen Hawliau yn bresennol ni ddylid deall hynny fel datganiad ynglyn ag unrhyw hawliau sydd yn yr adnodd, neu drosto</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/date">
+    <rdfs:label xml:lang="cy-GB">Dyddiad</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Dyddiad digwyddiad yn ystod oes yr adnodd</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Fel arfer bydd Dyddiad wedi'i gysylltu &#xe2; chreu neu argaeledd yr adnodd. Cymeradwyir yr arfer da o amgodio gwerth y dyddiad gan ddilyn proffil ISO 8601 [W3CDTF] sy'n cynnwys (ymhlith pethau eraill) gosod dyddiadau ar y ffurf BBBB-MM-DD</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/format">
+    <rdfs:label xml:lang="cy-GB">Fformat</rdfs:label>
+    <rdfs:comment xml:lang="cy-GB">Ymddangosiad ffisegol neu ddigidol yr adnodd</rdfs:comment>
+    <dc:description xml:lang="cy-GB">Fel arfer gall Fformat gynnwys y math o gyfrwng neu faint yr adnodd. Gellir defnyddio Fformat i nodi unrhyw feddalwedd, caledwedd, neu offer eraill sydd eu hangen i arddangos neu ddefnyddio'r adnodd. Cymeradwyir yr arfer da o ddewis gwerth o eirfa reoledig (er enghraifft, y rhestr o Internet Media Types [MIME] ar gyfer diffinio fformatiau cyfryngau cyfrifiadurol)</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+</rdf:RDF>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;">
+        
+
+<rdf:Property rdf:about = "&dcns;title">
+	<rdfs:label xml:lang="pt-PT">
+	T&#x00ed;tulo
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	O nome dado ao recurso.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	Tipicamente, um T&#x00ed;tulo ser&#x00e1; o nome pelo qual o recurso &#x00e9; formalmente conhecido.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+	<rdfs:label xml:lang="pt-PT">
+	Outro Contribuinte
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	Uma entidade respons&#x00e1;vel por qualquer contribui&#x00e7;&#x00e3;o para o conte&#x00fa;do do 
+	recurso.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	Exemplos de Outro Contribuinte incluem uma pessoa, organiza&#x00e7;&#x00e3;o ou servi&#x00e7;o. 
+	Tipicamente, o nome de um Outro Contribuinte deve ser usado para indicar a entidade.
+	</dc:description>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+	<rdfs:label xml:lang="pt-PT">
+	Criador
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	A entidade respons&#x00e1;vel em primeira inst&#x00e2;ncia pela exist&#x00ea;ncia do recurso.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	Exemplos de Criador incluem uma pessoa, uma organiza&#x00e7;&#x00e3;o, ou um servi&#x00e7;o. 
+	Tipicamente, o nome de um Criador deve ser usado para indicar uma entidade.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+	<rdfs:label xml:lang="pt-PT">
+	Editor
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	Uma entidade respons&#x00e1;vel por tornar o recurso acess&#x00ed;vel.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	Exemplos de um Editor incluem uma pessoa, uma organiza&#x00e7;&#x00e3;o ou um servi&#x00e7;o. 
+	Tipicamente, o nome de um Editor deve ser usado para indicar a entidade.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+	<rdfs:label xml:lang="pt-PT">
+	Assunto e Palavras Chave
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	O t&#x00f3;pico do conte&#x00fa;do do recurso.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	Tipicamente, um Assunto dever&#x00e1; ser expresso por palavras chave, frases, ou c&#x00f3;digos 
+	de classifica&#x00e7;&#x00e3;o que descrevem o conte&#x00fa;do do recurso. Como boa pr&#x00e1;tica 
+	recomenda-se a selec&#x00e7;&#x00e3;o de termos de vocabul&#x00e1;rios controlados, ou de sistemas 
+	de classifica&#x00e7;&#x00e3;o formais.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+	<rdfs:label xml:lang="pt-PT">
+	Descri&#x00e7;&#x00e3;o
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	Uma descri&#x00e7;&#x00e3;o do conte&#x00fa;do do recurso.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	Descri&#x00e7;&#x00f5;es podem incluir, sem estarem limitadas a tal:	um resumo, um &#x00ed;ndice, 
+	uma refer&#x00ea;ncia a uma representa&#x00e7;&#x00e3;o gr&#x00e1;fica do conte&#x00fa;do, ou 
+	uma descri&#x00e7;&#x00e3;o textual.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+	<rdfs:label xml:lang="pt-PT">
+	Data
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	Uma data associada a um evento do ciclo de vida do recurso.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	Tipicamente, uma Data deve ser associada &#x00e0; cria&#x00e7;&#x00e3;o ou disponibilidade do 
+	recurso. Como boa pr&#x00e1;tica recomenda-se para codifica&#x00e7;&#x00e3;o de valores de datas 
+	um perfil da norma ISO 8601 [W3CDTF], segundo o formato AAAA-MM-DD.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+	<rdfs:label xml:lang="pt-PT">
+	Tipo do Recurso
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	A natureza ou g&#x00e9;nero do conte&#x00fa;do do recurso.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	Tipos incluem termos descrevendo categorias gen&#x00e9;ricas, fun&#x00e7;&#x00f5;es, g&#x00e9;neros, 
+	ou n&#x00ed;veis de agrega&#x00e7;&#x00e3;o para o conte&#x00fa;do. Recomenda-se como boa 
+	pr&#x00e1;tica a selec&#x00e7;&#x00e3;o de valores a partir de vocabul&#x00e1;rios controlados 
+	(por exemplo, a lista do documento de trabalho "Dublin Core Types" [DCT1]). Para descrever a 
+	manifesta&#x00e7;&#x00e3;o f&#x00ed;sica ou digital do recurso, deve ser usado o elemento Formato.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+	<rdfs:label xml:lang="pt-PT">
+	Formato
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	A manifesta&#x00e7;&#x00e3;o f&#x00ed;sica ou digital do recurso.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	Tipicamente, o Formato deve incluir o tipo de meio do recurso, ou as suas dimens&#x00f5;es. 
+	Este elemento deve ser usado para determinar as aplica&#x00e7;&#x00f5;es inform&#x00e1;ticas ou 
+	qualquer tipo de equipamento necess&#x00e1;rio para reproduzir ou operar com o recurso. Exemplos 
+	de dimens&#x00f5;es incluem tamanho e dura&#x00e7;&#x00e3;o. Como boa pr&#x00e1;tica recomenda-se 
+	a selec&#x00e7;&#x00e3;o de valores a partir de vocabul&#x00e1;rios controlados (como por exemplo 
+	a lista de "Internet Media Types" [MIME] definindo formatos e meios).
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+	<rdfs:label xml:lang="pt-PT">
+	Identificador do Recurso
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	Uma refer&#x00ea;ncia n&#x00e3;o amb&#x00ed;gua ao recurso, definida num determinado contexto.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	Como boa pr&#x00e1;tica recomenda-se a identifica&#x00e7;&#x00e3;o do recurso por meio de uma 
+	cadeia de caracteres ou por um n&#x00fa;mero de acordo com um sistema de identifica&#x00e7;&#x00e3;o 
+	formal. Exemplos de sistemas de identifica&#x00e7;&#x00e3;o formais incluem o "Uniform Resource 
+	Identifier" (URI) (incluindo o "Uniform Resource Locator" (URL)), o "Digital Object Identifier" 
+	(DOI) e o "International Standard Book Number" (ISBN).
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+	<rdfs:label xml:lang="pt-PT">
+	L&#x00ed;ngua
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	A l&#x00ed;ngua do conte&#x00fa;do intelectual do recurso.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	Como boa pr&#x00e1;tica recomenda-se para valores do elemento L&#x00ed;ngua a utiliza&#x00e7;&#x00e3;o 
+	do RFC 1766 [RFC1766], o qual inclui um c&#x00f3;digo de l&#x00ed;ngua de duas letras 
+	(retirado da norma ISO 639 [ISO639]), seguido opcionalmente por um c&#x00f3;digo de duas letras 
+	para o pa&#x00ed;s (retirado  da norma ISO 3166 [ISO3166]). Por exemplo, 'en' para Ingl&#x00ea;s, 
+	'fr' Franc&#x00ea;s, ou 'en-uk' para o Ingl&#x00ea;s do Reino Unido.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+	<rdfs:label xml:lang="pt-PT">
+	Rela&#x00e7;&#x00e3;o
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	Uma refer&#x00ea;ncia a um recurso relacionado.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	Como boa pr&#x00e1;tica recomenda-se referir o recurso atrav&#x00e9;s de uma cadeia de caracteres 
+	ou n&#x00fa;mero em conformidade com um sistema de identifica&#x00e7;&#x00e3;o formal.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+	<rdfs:label xml:lang="pt-PT">
+	Fonte
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	Uma refer&#x00ea;ncia a um recurso de onde o presente recurso possa ter derivado.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	O presente recurso pode ter derivado do recurso Fonte na sua totalidade ou apenas em parte. 
+	Como boa pr&#x00e1;tica recomenda-se a refer&#x00ea;ncia ao recurso fonte atrav&#x00e9;s de um 
+	identificador em conformidade com um sistema de identifica&#x00e7;&#x00e3;o formal.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+	<rdfs:label xml:lang="pt-PT">
+	Cobertura
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	A extens&#x00e3;o ou alcance do recurso.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	Cobertura inclui tipicamente uma localiza&#x00e7;&#x00e3;o espacial (o nome de um lugar ou 
+	coordenadas geogr&#x00e1;ficas), um per&#x00ed;odo no tempo (a sua designa&#x00e7;&#x00e3;o, 
+	data, ou intervalo de tempo), ou jurisdi&#x00e7;&#x00e3;o (o nome de uma entidade administrativa). 
+	Como boa pr&#x00e1;tica recomenda-se a selec&#x00e7;&#x00e3;o de valores de vocabul&#x00e1;rios 
+	controlados (como por exemplo o "Thesaurus of Geographic Names" [TGN]), devendo ainda ser usados, 
+	quando apropriado, preferencialmente nomes de lugares e designa&#x00e7;&#x00f5;es de per&#x00ed;odos 
+	no tempo, em vez de identificadores num&#x00e9;ricos tais como coordenadas ou intervalos de datas.
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+	<rdfs:label xml:lang="pt-PT">
+	Gest&#x00e3;o de Direitos
+	</rdfs:label>
+	<rdfs:comment xml:lang="pt-PT">
+	Informa&#x00e7;&#x00e3;o de direitos sobre o recurso ou relativos ao mesmo.
+	</rdfs:comment>
+	<dc:description xml:lang="pt-PT">
+	Tipicamente, este elemento dever&#x00e1; conter uma declara&#x00e7;&#x00e3;o de gest&#x00e3;o de 
+	direitos sobre o recurso, ou uma refer&#x00ea;ncia a um servi&#x00e7;o que fornecer&#x00e1; essa 
+	informa&#x00e7;&#x00e3;o. Tal poder&#x00e1; compreender informa&#x00e7;&#x00e3;o sobre direitos de 
+	propriedade intelectual, direitos de autor, ou outros. A aus&#x00ea;ncia deste elemento n&#x00e3;o 
+	permite formular qualquer hip&#x00f3;tese v&#x00e1;lida sobre quaisquer direitos que possam incidir 
+	sobre o recurso.
+	</dc:description>
+</rdf:Property>
+
+</rdf:RDF>

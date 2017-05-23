@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/DC/groups/languages/wg-language-mr-19970303.htm">
+   <dc:title>Metadata Semantics Shared Across Languages: Dublin Core in languages other than English</dc:title>
+   <dc:description>A report of a meeting held 1997-03-03.</dc:description>
+   <dc:date>1997-08-27</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:contributor>Thomas Baker</dc:contributor>
+   <dc:language>en</dc:language>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

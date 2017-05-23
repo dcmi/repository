@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/workshops/dc2conference/report19960401.htm">
+   <dc:title>A Syntax for Dublin Core Metadata: Recommendations from the Second Metadata Workshop</dc:title>
+   <dc:description>This document summarizes a set of recommendations concerning 
+                the representation of metadata, derived from discussion within 
+                the syntax working group which met at the second Metadata Workshop, 
+                held at Warwick University in April 1996. The discussion begun 
+                in Warwick has been continued electronically by the current authors, 
+                and this paper presents both the recommendations agreed on by 
+                the syntax working group in Warwick and some further developments 
+                for which the authors alone are responsible.</dc:description>
+   <dc:date>1996-04-01</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:contributor>Lou Burnard</dc:contributor>
+   <dc:contributor>Eric Miller</dc:contributor>
+   <dc:contributor>Liam Quin</dc:contributor>
+   <dc:contributor>C.M. Sperberg-McQueen</dc:contributor>
+   <dc:language>en</dc:language>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

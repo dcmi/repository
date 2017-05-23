@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description about="http://dublincore.org/archives/2001/statusreport/statusreport-200104.shtml">
+<dc:title>Dublin Core Metadata Initiative - Status Report, April 2001</dc:title>
+<dc:description>This report is the first of a regular series of status reports of the Dublin Core Metadata Initiative. It covers the activities that have taken place between the last Dublin Core Workshop (Ottawa, October 2000) and April 2001. The first part of the describes the work on defining a new organizational structure for DCMI, and highlights the activities that have taken place towards this new organizational model. The second part of the report contains an overview of the work in the various working groups, interest groups and committees in the reporting period.</dc:description>
+<dc:date>2001-04-30</dc:date>
+<dc:format>text/html</dc:format>
+<dc:creator>Makx Dekkers</dc:creator>
+<dc:language>en</dc:language>
+<dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+</rdf:Description>
+</rdf:RDF>

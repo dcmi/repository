@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<deployment 
+	xmlns="http://xml.apache.org/axis/wsdd/" 
+	xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+	<service name="vocabularyTermsSummary" provider="java:RPC">
+	<!--	<requestFlow>
+			<handler name="LogIt" type="java:services.ServiceLogHandler">
+				<parameter name="filename" value="/usr/apache/tomcat/logs/axis.log"/>
+			</handler>
+		</requestFlow>  -->
+		<parameter name="className" value="services.VocabularyTerms"/>
+		<parameter name="allowedMethods" value="listVocabularyTerms"/>
+	</service>
+	
+	<service name="itemDetail" provider="java:RPC">
+		<parameter name="className" value="services.Detail"/>
+		<parameter name="allowedMethods" value="getItemDetail"/>
+	</service>
+	
+	<service name="refinementsSummary" provider="java:RPC">
+		<parameter name="className" value="services.ElementRefinements"/>
+		<parameter name="allowedMethods" value="listElementRefinements"/>
+	</service>
+	
+	<service name="elementSummary" provider="java:RPC">
+		<parameter name="className" value="services.Elements"/>
+		<parameter name="allowedMethods" value="listElements"/>
+	</service>
+	
+	<service name="encodingSchemesSummary" provider="java:RPC">
+		<parameter name="className" value="services.EncodingSchemes"/>
+		<parameter name="allowedMethods" value="listEncodingSchemes"/>
+	</service>
+	
+	<service name="languagesSummary" provider="java:RPC">
+		<parameter name="className" value="services.Languages"/>
+		<parameter name="allowedMethods" value="listSupportedLanguages"/>
+	</service>
+	
+	<service name="itemSummary" provider="java:RPC">
+		<parameter name="className" value="services.Summary"/>
+		<parameter name="allowedMethods" value="listItemSummary"/>
+	</service>
+	
+	<service name="termUpdates" provider="java:RPC">
+		<parameter name="className" value="services.Updates"/>
+		<parameter name="allowedMethods" value="getTermUpdates"/>
+	</service>
+	
+	<service name="recycleLog" provider="java:RPC">
+		<parameter name="className" value="services.LogManager"/>
+		<parameter name="allowedMethods" value="recycleLog getLogFileName"/>
+	</service>
+</deployment>

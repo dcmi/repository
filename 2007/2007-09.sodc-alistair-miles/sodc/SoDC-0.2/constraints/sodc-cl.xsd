@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: sodc-cl.xsd,v 1.1 2007/08/30 23:39:09 ajm65 Exp $ -->
+<xs:schema 
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:cl="http://purl.org/net/sodc/cl"
+  targetNamespace="http://purl.org/net/sodc/cl"
+  attributeFormDefault="unqualified"
+  elementFormDefault="qualified">
+
+  <xs:element name="constraints">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="profile" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="constraint" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:choice>
+                    <xs:element name="cardinality" type="xs:integer"/>
+                    <xs:element name="mincardinality" type="xs:integer"/>
+                    <xs:element name="maxcardinality" type="xs:integer"/>
+                    <xs:element name="value">
+                      <xs:complexType>
+                        <xs:choice>
+                          <xs:element name="uri"/>
+                          <xs:element name="nodeid"/>
+                          <xs:element name="plainliteral">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="lang" minOccurs="0" maxOccurs="1">
+                                  <xs:complexType>
+                                    <xs:attribute name="use" use="optional" default="required">
+                                      <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                          <xs:enumeration value="required"/>
+                                          <xs:enumeration value="optional"/>
+                                        </xs:restriction>
+                                      </xs:simpleType>
+                                    </xs:attribute>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:choice>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                  <xs:attribute name="property" type="xs:anyURI" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="uri" type="xs:anyURI" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="name" type="xs:string"/>
+    </xs:complexType>
+    <xs:key name="uri">
+      <xs:selector xpath="cl:profile"/>
+      <xs:field xpath="@uri"/>
+    </xs:key>
+  </xs:element>
+  
+</xs:schema>
+<!-- 
+$Log: sodc-cl.xsd,v $
+Revision 1.1  2007/08/30 23:39:09  ajm65
+Initial version.
+  
+-->

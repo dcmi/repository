@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Working Group Page Template</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+    <link rel="meta" href="index.shtml.rdf" />
+  </head>
+
+  <body>
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    
+<h2>DCMI <font color="#FF0000">NAME </font> Working Group</h2>
+
+    <table width="100%" cellspacing="10" cellpadding="10"
+    border="0" summary="Working Group Overview">
+      <tr>
+        <td valign="top">
+          <table summary="static information" bgcolor="#EEEEEE"
+          width="100%">
+            <tr>
+              <td valign="top" width="10%">
+              <strong>Title:</strong></td>
+
+              
+<td valign="top">DCMI <font color="#FF000">Name </font> Working Group</td>
+            </tr>
+
+            <tr>
+              <td valign="top" width="10%">
+              <strong>Chair:</strong></td>
+
+              
+<td valign="top"><font color="#FF0000">First Name Last Name, email address</font></td>
+            </tr>
+
+            <tr>
+              <td valign="top" width="10%">
+              <strong>Status:</strong></td>
+
+              <td valign="top">This working group is currently
+              active.</td>
+            </tr>
+
+            <tr>
+              <td valign="top" width="10%">
+              <strong>Established:</strong></td>
+
+              
+<td valign="top"><font color="#FF0000">Date wg.established YYYY-MM-DD format</font></td>
+            </tr>
+
+            <tr>
+              <td valign="top" width="10%">
+              <strong>Charter:</strong> </td>
+
+              <td valign="top">
+                
+<p><font color="#FF0000">Text of Charter or the text &quot;Under Discussion&quot; 
+if charter is not yet approved</font></p>
+<p></p>
+              </td>
+            </tr>
+          </table>
+        </td>
+
+        <td valign="top">
+          <table summary="dynamic information" bgcolor="#FFFFFF"
+          width="100%">
+            <tr>
+              <td>
+              <!--#include virtual="news.txt" -->
+              </td>
+            </tr>
+          </table>
+        </td>
+
+        <td>
+        </td>
+      </tr>
+    </table>
+
+    <div class="body">
+      <hr />
+
+      <div class="body">
+        <strong class="crumb">Jump to:</strong> <a
+        href="#milestones"><span
+        class="crumb">Milestones/Deliverables</span></a> <span
+        class="crumb">| <a href="#issues">Open Issues</a> | <a
+        href="#forums">Forums</a> | <a
+        href="#background">Background</a> | <a
+        href="#history">History</a> | <a href="#related">Related
+        Work</a> | <a href="#resources">Resources</a></span>
+      </div>
+      <a href="/groups/biz/"><span class="smallsans"><br />
+      </span></a>
+    </div>
+
+    <div class="body">
+      <h2><a id="milestones"
+      name="milestones"></a>Milestones/Deliverables <span
+      class="smallsans">[<a href="#top">top</a>]</span></h2>
+
+      <table border="1" cellpadding="4" cellspacing="2"
+      class="milestone"
+      summary="A textual description of the table.">
+        <tr>
+          <th>Scheduled Milestone</th>
+
+          <th>Description</th>
+
+          <th>Editor/Contact</th>
+
+          <th>Status/History</th>
+        </tr>
+
+        <tr>
+          
+<th> <font color="#FF0000">Milestone Name </font></th>
+<td><font color="#FF0000">Quick description of document plus link (See <a href="/groups/architecture/">DCMI 
+Architecture Working Group</a> as an example)</font></td>
+<td><font color="#FF0000">Names and email link</font></td>
+<td><font color="#FF0000">In process, completed, under discussion for example</font></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="body">
+      <h2><a id="issues" name="issues"></a>Open Issues <span
+      class="smallsans">[<a href="#top">top</a>]</span></h2>
+
+      <p>A list of as yet unresolved issues, or those ideas or
+      problems that are still under discussion.</p>
+    </div>
+
+    <div class="body">
+      <h2><a id="forums" name="forums"></a>Forums <span
+      class="smallsans">[<a href="#top">top</a>]</span></h2>
+      Decisions are made by obtaining a consensus from a broad
+      range of individuals and organizations. Listed here are some
+      of the places where discussions take place: 
+
+      
+<p><font color="#FF0000">Working Group mailing list:</font></p>
+    </div>
+
+    <div class="body">
+      <h2><a id="background" name="background"></a>Background <span
+      class="smallsans">[<a href="#top">top</a>]</span></h2>
+
+      <p>Information on discussions and decisions that were used to
+      support the creation of this working group.</p>
+
+      <h2><a id="history" name="history"></a>History <span
+      class="smallsans">[<a href="#top">top</a>]</span></h2>
+
+      
+<p>Information on when this working group was constituted, dates of group meetings 
+and results from those meetings, etc.</p>
+    </div>
+
+    <ul>
+      <li>
+        
+<div class="body"> <font color="#FF0000">Date Constituted: YYYY-MM-DD format</font></div>
+      </li>
+    </ul>
+
+    <div class="body">
+      <h2><a id="related" name="related"></a>Related Work <span
+      class="smallsans">[<a href="#top">top</a>]</span></h2>
+
+      <p>Links to groups, reports, software, projects, etc. that
+      would be of interest to the participants of this working
+      group.</p>
+
+      <h2><a id="resources" name="resources"></a>Resources <span
+      class="smallsans">[<a href="#top">top</a>]</span></h2>
+
+      <p>Information, standards and reports that were used to
+      support the decisions and discussions in this working
+      group.</p>
+    </div>
+    <!--$Id: wg-template.shtml,v 1.1.1.1 2003/10/23 17:44:23 wagnerh Exp $ -->
+    <!--#include virtual="/ssi/footer.shtml" -->
+  </body>
+</html>
+

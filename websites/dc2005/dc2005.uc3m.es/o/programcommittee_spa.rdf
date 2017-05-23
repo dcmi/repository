@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about="http://dc2005.uc3m.es/o/programcommittee.asp">
+<dc:title>DC-2005. Comité científico del Programa</dc:title>
+<dc:description>Lista de componentes del Comité científico del Programa del DC-2005</dc:description>
+<dc:date>2005-03-31</dc:date>
+<dc:creator>Eva Mendez</dc:creator>
+<dc:creator>Tom Baker</dc:creator>
+<dc:contributor>Iniciativa de Metadatos Dublin Core (DCMI)</dc:contributor>
+<dc:format>text/html</dc:format>
+<dc:language>es</dc:language>
+<dc:publisher>Universidad Carlos III de Madrid. Instituto "Agustín Millares" de Documentación y Gestión de la Información</dc:publisher>
+</rdf:Description>
+</rdf:RDF>

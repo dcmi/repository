@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://dublincore.org/documents/dcq-html/">	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dc2008.de/xmlrpc.php?rsd" />
+ <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dc2008.de/wp-includes/wlwmanifest.xml" /> <script type='text/javascript' src='http://dc2008.de/wp-includes/js/prototype.js?ver=1.5.1.1'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-includes/js/scriptaculous/scriptaculous.js?ver=1.7.1-b3'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-includes/js/scriptaculous/effects.js?ver=1.7.1-b3'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-content/plugins/lightbox-2/lightbox.js?ver=2.2'></script>
+<link rel="stylesheet" type="text/css" href="http://dc2008.de/wp-content/plugins/contactforms/styling/cforms.css" />
+<script type="text/javascript" src="http://dc2008.de/wp-content/plugins/contactforms/js/cforms.js"></script>
+		<meta name="DC.publisher" content="DC 2008" />
+		<meta name="DC.publisher.url" content="http://dc2008.de/" />
+		<meta name="DC.title" content="Links" />
+		<meta name="DC.identifier" content="http://dc2008.de/links" />
+		<meta name="DC.date.created" scheme="WTN8601" content="2007-08-21T12:59:44" />
+		<meta name="DC.creator" content="DC 2008 Organisation" />
+		<meta name="DC.rights.rightsHolder" content="DC 2008 Organisation" />
+		<meta name="DC.subject" content="DC-2008 Conference in Berlin, Germany" />
+
+	<!-- begin lightbox scripts -->
+	<script type="text/javascript">
+    //<![CDATA[
+    document.write('<link rel="stylesheet" href="http://dc2008.de/wp-content/plugins/lightbox-2/Themes/Black/lightbox.css" type="text/css" media="screen" />');
+    //]]>
+    </script>
+	<!-- end lightbox scripts -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="icon" href="http://dc2008.de/wp-content/themes/dc-2008/pics/favicon.ico" type="image/ico" />
+<meta name="DC.format" scheme="DCTERMS.IMT" content="text/html" />
+<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+
+<title>DC 2008 -    Links</title>
+<link rel="stylesheet" href="http://dc2008.de/wp-content/themes/dc-2008/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://dc2008.de/wp-content/themes/dc-2008/print.css" type="text/css" media="print" />
+<link rel="alternate" type="application/rss+xml" href="http://dc2008.de/feed" title="News" />
+</head>
+
+ <body>
+  <div id="interface">
+
+   <div id="head">
+   </div>   <div id="container">
+    
+
+    <div id="content">
+     <div id="contentbox">
+      
+
+         <h1 id="post-9">Links</h1>
+<div id="print_icon">
+</div>
+
+<!-- <br clear="all" /> -->
+<hr class="h2" />
+          <div class="storycontent">
+            <ul class="links">
+<li>DCMI - Dublin Core Metadata Initiative<a href="http://dublincore.org/"><br />
+http://dublincore.org/</a></li>
+<li>KIM - Kompetenzzentrum für Interoperable Metadaten<a href="http://kim-forum.org/"><br />
+http://kim-forum.org/</a></li>
+</ul>
+<h3><a href="http://dublincore.org/workshops/" target="_blank">Past Dublin Core Conferences</a></h3>
+<ul class="links">
+<li>
+<a href="http://www.dc2007.sg/" target="_blank">DC-2007</a>: International Conference on Dublin Core and Metadata Applications<br />
+“Application Profiles and their Application in Practice”<br />
+27-31 August 2007<br />
+Singapore
+</li>
+<li>
+<a href="http://dc2006.ucol.mx/" target="_blank">DC-2006</a>: International Conference on Dublin Core and Metadata Applications<br />
+“Metadata for Knowledge and Learning”<br />
+3-6 October 2006<br />
+Manzanillo, Colima, Mexico
+</li>
+<li>
+<a href="http://dc2005.uc3m.es/" target="_blank">DC-2005</a>: International Conference on Dublin Core and Metadata Applications<br />
+“Metadata Vocabularies in Practice”<br />
+12-15 September 2005<br />
+Leganés (Madrid), Spain
+</li>
+<li>
+<a href="http://dc2004.library.sh.cn/" target="_blank">DC-2004</a>: Metadata Across Languages and Cultures<br />
+10-14 October 2004<br />
+Shanghai, China
+</li>
+<li>
+<a href="http://dc2003.ischool.washington.edu/" target="_blank">DC-2003</a>: Supporting Communities of Discourse and Practice-Metadata Research &#038; Applications<br />
+28 September-2 October 2003<br />
+Seattle, Washington, USA
+</li>
+<li>
+<a href="http://www.bncf.net/dc2002/" target="_blank">DC-2002</a>: Metadata for e-Communities: Supporting Diversity and Convergence<br />
+October 14-17, 2002<br />
+Florence, Italy
+</li>
+<li>
+<a href="http://www.nii.ac.jp/dc2001/" target="_blank">DC-2001</a>: International Conference on Dublin Core and Metadata Applications<br />
+October 22-26, 2001<br />
+Tokyo, Japan
+</li>
+<li>
+<a href="http://www.ifla.org/udt/dc8/index.htm" target="_blank">DC-8</a>: The 8th International Dublin Core Metadata Workshop<br />
+October 4-6, 2000<br />
+Ottawa, Canada
+</li>
+<li>
+<a href="http://dublincore.org/archives/1999/dc7/index.htm" target="_blank">DC-7</a>: The 7th Dublin Core Metadata Workshop<br />
+October 25-27, 1999<br />
+Frankfurt, Germany
+</li>
+<li>
+<a href="http://dublincore.org/workshops/dc6/" target="_blank">DC-6</a>: The 6th Dublin Core Metadata Workshop<br />
+November 2-4, 1998<br />
+Washington D.C. USA
+</li>
+<li>
+<a href="http://www.lib.helsinki.fi/meta/DC5.html" target="_blank">DC-5</a>: The 5th Dublin Core Metadata Workshop<br />
+October 6-8, 1997<br />
+Helsinki, Finland
+</li>
+<li>
+<a href="http://www.dstc.edu.au/DC4" target="_blank">DC-4</a>: NLA/DSTC/OCLC Dublin Core Down Under<br />
+March 3-5, 1997<br />
+Canberra, Australia
+</li>
+<li>
+<a href="http://dublincore.org/workshops/dc3/" target="_blank">DC-3</a>: CNI/OCLC Workshop on Metadata for Networked Images<br />
+September 24-25, 1996<br />
+Dublin, Ohio USA
+</li>
+<li>
+<a href="http://dublincore.org/workshops/dc2/" target="_blank">DC-2</a>: OCLC/UKOLN Metadata Workshop<br />
+April 1-3, 1996<br />
+Warwick, U.K.
+</li>
+<li>
+<a href="http://dublincore.org/workshops/dc1/" target="_blank">DC-1</a>: OCLC/NCSA Metadata Workshop<br />
+March 1-3, 1995<br />
+Dublin, Ohio USA
+</li>
+</ul>
+          </div>
+                  </div>
+     </div>
+     <div id="navi">
+     <div id="navibox">
+      <ul>
+
+<li class="page_item"><a href="http://dc2008.de" title="Home">Home</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/papers" title="Call for Papers">Call for Papers</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/news" title="News">News Archive</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/organisation" title="Organisation">Organisation</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/call-for-sponsors" title="Call for Sponsors">Call for Sponsors</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/programme" title="Programme">Programme</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/information-for-authors" title="Information for Authors">Author Info</a></li>
+ 
+<li class="page_item"><a href="http://dc2008.de/registration" title="Registration">Registration</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/accommodation" title="Accommodation">Accommodation</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/conference-venue" title="Conference Venue">Conference Venue</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/about-berlin" title="About Berlin">About Berlin</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/links" title="Links">Links</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/contact" title="Contact">Contact</a></li>
+</ul> 
+
+<br /><br />
+organised by:
+
+<div align="center">
+<a href="http://www.kim-forum.org/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/kim_logo_skal.png" alt="KIM - Kompetenzzentrum Interoperable Metadaten" /></a>
+
+<a href="http://www.sub.uni-goettingen.de/index-e.html"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/sub_logo_klein.jpg" alt="Niedersächsische Staats- und Universitätsbibliothek Göttingen"/></a>
+
+<a href="http://www.mpdl.mpg.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/mpdl.png"  alt="Max Planck digital library" /></a>
+
+<a href="http://www.d-nb.de/eng/index.htm"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/DNB_neu_skal1.png" alt="Deutsche Nationalbibliothek" /></a>
+
+<a href="http://www.hu-berlin.de/index_html-en?set_language=en&amp;cl=en"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/husiegel.png" alt="Humboldt-Universität zu Berlin" /></a>
+</div>
+
+<a href="http://www.dublincore.org/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/DC_Logo_skla.png" alt="Dublin Core Metadata Initiative"/></a>
+</div>
+
+<br /><br />
+supported by:
+<br /><br />
+<div align="center"><a href="http://www.wikimedia.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/wikimedia.png" alt="Wikimedia Deutschland - Gesellschaft zur Förderung Freien Wissens e.V."/></a><br />
+</div>
+
+<br /><br />
+funded by:
+<br /><br />
+<div align="center"><a href="http://www.dfg.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/dfg_sw.gif" alt="Deutsche Forschungsgemeinschaft" /></a></div>
+<div align="center"><a href="http://www.bmbf.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/bmbf_skal.gif" alt="Bundesministerium für Bildung und Forschung" /></a></div>
+<br /> 
+     </div>
+    </div>
+       <div id="footer" align="center">
+Copyright © 1995-2008 DCMI All Rights Reserved. &mdash; © Pictures:  <a href="http://www.visitberlin.de" target="_blank" class="footerlink">www.visitberlin.de</a> &mdash; <a class="footerlink_impressum" href="http://dc2008.de/impressum">Impressum</a>
+
+   </div>
+  </div>
+ </body>
+</html>

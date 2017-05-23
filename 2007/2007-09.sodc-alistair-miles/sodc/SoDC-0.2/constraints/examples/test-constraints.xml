@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<constraints name="test constraints" 
+  xmlns="http://purl.org/net/sodc/cl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://purl.org/net/sodc/cl ../sodc-cl.xsd">
+
+  <profile uri="http://example.com/profile/test#foo">
+
+    <!-- exact cardinality constraint -->
+    <constraint property="http://example.com/property#a">
+      <cardinality>1</cardinality>
+    </constraint>
+    
+    <!-- maximum cardinality constraint -->
+    <constraint property="http://example.com/property#b">
+      <maxcardinality>1</maxcardinality>
+    </constraint>
+    
+    <!-- minimum cardinality constraint -->
+    <constraint property="http://example.com/property#c">
+      <mincardinality>1</mincardinality>
+    </constraint>
+    
+    <!-- URI-only value constraint -->
+    <constraint property="http://example.com/property#d">
+      <value>
+        <uri/>
+      </value>
+    </constraint>
+    
+    <!-- Nodeid-only value constraint -->
+    <constraint property="http://example.com/property#e">
+      <value>
+        <nodeid/>
+      </value>
+    </constraint>
+    
+    <!-- Plain literal-only value constraint (lang optional, variable) -->
+    <constraint property="http://example.com/property#f">
+      <value>
+        <plainliteral>
+          <lang use="optional"/>
+        </plainliteral>
+      </value>
+    </constraint>
+
+    <!-- Plain literal-only value constraint (lang required, variable) -->
+    <constraint property="http://example.com/property#g">
+      <value>
+        <plainliteral>
+          <lang use="required"/>
+        </plainliteral>
+      </value>
+    </constraint>
+
+  </profile>
+  
+</constraints>

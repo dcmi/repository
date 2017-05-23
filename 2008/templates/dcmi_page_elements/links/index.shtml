@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>DCMI Example</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1 id="title">Links</h1>
+<dl>
+<dt>&quot;Embedded in HTML&quot; Link Guidelines:</dt>
+<ol>
+<li>On Working Group pages, the Deliverables table will be collapsed to 3 columns (Scheduled Milestone, Editor/Contact, Status/History) and the document will be linked with embedded links.</li>
+<li>Links listed under &quot;History&quot; will be linked with embedded links.</li>
+<li>All &quot;mailto&quot; links will be linked with embedded links.</li>
+</ol>
+</dl>
+<dl>
+<dt>&quot;Visible in WYSIWYG View&quot; Link Guidelines:</dt>
+<ol>
+<li>In the DCMI <a href="/templates/dcmi_page_elements/head/head.shtml">head</a> section of all documents, all URLs will be visible in WYSIWYG view.</li>
+<li>In the body content area, relative references will be given (the [DCMI] style of references) and in the "References" section, the title of the reference will have an embedded hyperlink and the URL will be visible in WYSIWYG view.</li>
+<li>URL's that link to Membership or Mailing list information visible in WYSIWYG view.</li>
+</ol>
+</dl>
+<dl>
+<dt>Warnings:</dt>
+<dd>-</dd>
+<dt>Priority:</dt>
+<dd>-</dd>
+</dl>
+<h2>Browser View:</h2>
+<p>FirstName LastName &lt;<a href="mailto:email@host.com">email@host.com</a>&gt;</p>
+<p>
+The semantics for these attributes are specified in Dublin Core Qualifiers/Substructure <a href="#ref-3">[3]</a>.</p>
+<dl>
+<dt><a name="ref-3"></a>[3]</dt>
+<dd>Dublin Core Qualifiers/Substructure<br>
+<a href="http://www.loc.gov/marc/dcqualif.html">http://www.loc.gov/marc/dcqualif.html</a></dd>
+</dl>
+<h2>Source View:</h2>
+<p><code>&lt;P&gt;FirstName LastName &amp;lt;&lt;A HREF=&quot;mailto:email@host.com&quot;&gt;email@host.com&lt;/A&gt;&amp;gt;&lt;/P&gt;</code></p>
+<p>
+<code>
+&lt;P&gt;The semantics for these attributes are specified in Dublin Core Qualifiers/Substructure &lt;a href=&quot;#ref-3&quot;&gt;[3]&lt;/a&gt;.&lt;/P&gt;</code></p>
+<p><code>&lt;dl&gt;<br>
+&lt;dt&gt;&lt;a name=&quot;ref-3&quot;&lt;/a&gt;[3]&lt;/dt&gt;<br>
+&lt;dd&gt;Dublin Core Qualifiers/Substructure&lt;br&gt;<br>
+&lt;a href=&quot;http://www.loc.gov/marc/dcqualif.html&quot;&gt;<br>
+http://www.loc.gov/marc/dcqualif.html&lt;/a&gt;&lt;/dd&gt;<br>
+&lt;/dl&gt;
+</code></p>
+</body>
+</html>

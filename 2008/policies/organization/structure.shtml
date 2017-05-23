@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  
+<head>
+    
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    
+<title>DCMI Website Standards and Policy Manual - Directory Structure</title>
+    
+<meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    
+<link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+ 
+</script>
+  
+</head>
+
+  
+<body>
+    
+<!--#include virtual="/ssi/policies/header.shtml" -->
+<table
+    summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content."
+     border="0" width="100%" cellspacing="0" cellpadding="5">
+      <tbody>
+        
+<tr valign="top">
+          
+<td bgcolor="#EEEEEE" width="150">
+            
+<!--#include virtual="/ssi/policies/organization.shtml" -->
+</td>
+<td>
+<h1>Directory Structure</h1>
+<p>All content should be kept in subdirectories, named according to the list below. A general principle to follow is to group similar items into their own directories. Directory names are always lowercase unless noted.</p>
+<h3>/css/</h3>
+<blockquote>
+			
+<p>The <b>css</b> directory contains all external Cascading Style Sheet files. These files should not be indexed.</p>
+</blockquote>
+<h3>/images/</h3>
+<blockquote>
+			
+<p>The <b>images</b> directory contains all GIF, JPEG, and PNG files; in short, any images for the website. Subdirectories within the images directory should be created for similarly used images, such as for the header, logos, news items, and templates. These files should not be indexed.</p>
+</blockquote>
+<h3>/js/</h3>
+<blockquote>
+			
+<p>The <b>js</b> directory contains all external JavaScript files. These files should not be indexed.</p>
+<p>The current JavaScript file (default.js) is linked from every page in the site. The function of default.js is to refresh the browser window if it is resized in Netscape. It also sets up browser detection variables. These are not currently used for anything, but were added for the possibility of writing a specific Cascading Style Sheet for each browser and platform.</p>
+</blockquote>
+<h3>/Library/</h3>
+<blockquote>
+			
+<p>Libraries are Macromedia Dreamweaver's way to store page elements such as images, text, and other objects that can be reused or updated frequently throughout a website. These elements are called library items.</p>
+<p>The <b>Library</b> directory contains library item files created by Dreamweaver. These are nonpublic files that should not be indexed or accessible by the general public. (Note:&nbsp;Dreamweaver capitalizes this directory name automatically. It should NOT be changed to lowercase.)</p>
+</blockquote>
+<h3>/media/</h3>
+<blockquote>
+			
+<p>The <b>media</b> directory contains any type of audio, video, Shockwave, Flash, or other multimedia file type. Descriptive subdirectories within the media directory should be created to adequately explain the file type (i.e. <b>swf</b> for Flash movies). These files should not be indexed.</p>
+</blockquote>
+<h3>/pdf/</h3>
+<blockquote>
+			
+<p>The <b>pdf</b> directory contains Adobe Portable Document Format files.</p>
+</blockquote>
+<h3>/psd/</h3>
+<blockquote>
+			
+<p>The <b>psd</b> directory contains graphic design files created with Adobe Photoshop. These are nonpublic files that should not be indexed or accessible by the general public.</p>
+</blockquote>
+<h3>/templates/</h3>
+<blockquote>
+			
+<p>The <b>templates</b> directory contains HTML files used by content creators. These files that should not be indexed and should only be accessible to a select audience.</p>
+</blockquote>
+</td>
+</tr>
+      </tbody>
+    
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

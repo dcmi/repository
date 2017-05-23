@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;">
+
+<rdf:Description rdf:about="http://dublincore.org/usage/terms/history/">
+	<dc:title xml:lang="en-US">Dublin Core Metadata Terms (historical)</dc:title>
+	<dc:description xml:lang="en-US">
+	This document is a consolidated, historically complete, and updated representation of
+	all Elements, Element Refinements, Encoding Schemes, and Vocabulary Terms in DCMI-maintained namespaces in
+	all of their historical versions both current and superseded.  While this document may be useful for tracking
+	changes in the status and attributes of terms over time, most users will need just "the latest" information,
+	which is held in the document "DCMI Metadata Terms" at http://dublincore.org/usage/documents/dcmi-terms/
+	</dc:description>
+	<dc:date>2003-11-19</dc:date>
+	<dc:language>en-US</dc:language>
+	<dc:publisher xml:lang="en-US">Dublin Core Metadata Initiative</dc:publisher>
+	<dc:source rdf:resource="http://dublincore.org/usage/terms/history/"/>
+	<dc:format>text/html</dc:format>
+	<dcq:conformsTo rdf:resource="http://dublincore.org/documents/#recommendations"/>
+</rdf:Description>
+ 
+</rdf:RDF>

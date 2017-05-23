@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- $Id: turtlegen-docs.html,v 1.1 2007/09/05 17:21:20 ajm65 Exp $ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <title>TurtleGen -- Son of Dublin Core (SoDC) -- Encoding and Validating
+  Graph-based (Meta)data -- Version 0.2 (alpha)</title>
+  <meta name="generator" content="amaya 9.51, see http://www.w3.org/Amaya/" />
+  <link rel="stylesheet" href="../default.css" type="text/css" />
+</head>
+
+<body>
+<p><a href="../">Son of Dublin Core Version 0.2 (alpha)</a></p>
+<hr />
+
+<h1>TurtleGen -- Translating SoDC-XML into Turtle</h1>
+
+<p>@@TODO say something</p>
+
+<p><strong>Quick Links:</strong></p>
+<ul>
+  <li>SoDC-XML [<a href="sodc-xml.xsd">schema</a>] [<a
+    href="./">documentation</a>]</li>
+  <li>TurtleGen [<a href="turtlegen.xsl">stylesheet</a>]</li>
+</ul>
+
+<p><strong>Table of Contents:</strong></p>
+
+<div class="toc">
+<ul>
+  <li><a href="#L91">1. Introduction</a></li>
+  <li><a href="#L66">2. Translation</a></li>
+  <li><a href="#L78">3. Examples</a></li>
+  <li><a href="#L88">4. Issues</a></li>
+  <li><a href="#L907">5. References</a></li>
+</ul>
+</div>
+
+<h2 id="L91">1. Introduction</h2>
+
+<p>@@TODO</p>
+
+<h2 id="L66">2. Translation</h2>
+
+<p>SoDC-XML is of course a concrete syntax of RDF, and can be transformed to
+other concrete RDF syntaxes.</p>
+
+<p>The Turtlegen stylesheet is an XSL transformation which will generate a
+Turtle document from an SoDC-XML documents, and is at the link below:</p>
+<ul>
+  <li><a href="turtlegen.xsl">turtlegen.xsl</a> -- Turtlegen Stylesheet</li>
+</ul>
+
+<h2 id="L78">3. Examples</h2>
+
+<p>For example, the SoDC-XML document below...</p>
+<pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;graph xmlns="http://purl.org/net/sodc/xml"&gt;  
+
+  &lt;resource&gt;
+    &lt;uri&gt;http://example.com/book#1&lt;/uri&gt;
+    &lt;property uri="http://purl.org/dc/elements/1.1/title"&gt;
+      &lt;value&gt;
+        &lt;plainliteral lang="en"&gt;Winnie the Pooh&lt;/plainliteral&gt;
+      &lt;/value&gt;
+    &lt;/property&gt;
+    &lt;property uri="http://purl.org/dc/elements/1.1/creator"&gt;
+      &lt;value&gt;
+        &lt;uri&gt;http://example.com/person#1&lt;/uri&gt;
+      &lt;/value&gt;
+    &lt;/property&gt;
+    &lt;property uri="http://example.com/property#price"&gt;
+      &lt;value&gt;
+        &lt;typedliteral datatype="http://www.w3.org/2001/XMLSchema#decimal"&gt;9.99&lt;/typedliteral&gt;
+      &lt;/value&gt;
+    &lt;/property&gt;
+  &lt;/resource&gt;
+
+  &lt;resource&gt;
+    &lt;uri&gt;http://example.com/person#1&lt;/uri&gt;
+    &lt;property uri="http://xmlns.com/foaf/0.1/name"&gt;
+      &lt;value&gt;
+        &lt;plainliteral lang="en"&gt;A. A. Milne&lt;/plainliteral&gt;
+      &lt;/value&gt;
+    &lt;/property&gt;
+  &lt;/resource&gt;
+  
+&lt;/graph&gt;</pre>
+
+<p>...is transformed by the Turtlegen stylesheet to the Turtle document
+below...</p>
+<pre>&lt;http://example.com/book#1&gt; &lt;http://purl.org/dc/elements/1.1/title&gt; """Winnie the Pooh"""@en ;
+   &lt;http://purl.org/dc/elements/1.1/creator&gt; &lt;http://example.com/person#1&gt; ;
+   &lt;http://example.com/property#price&gt; """9.99"""^^&lt;http://www.w3.org/2001/XMLSchema#decimal&gt; .
+&lt;http://example.com/person#1&gt; &lt;http://xmlns.com/foaf/0.1/name&gt; """A. A. Milne"""@en .</pre>
+
+<h2 id="L88">4. Issues</h2>
+<ol>
+  <li id="ISSUE-1">FIXED the turtlegen stylesheet breaks for anonymous
+    resources with multiple properties. [<a href="#ISSUE-1">link to this
+    issue</a>]</li>
+  <li id="ISSUE-2"><strong>@@FIXME</strong> the turtlegen stylesheet breaks
+    for XML literal values -- only text value is output. [<a
+    href="#ISSUE-2">link to this issue</a>]</li>
+  <li id="ISSUE-3"><strong>@@FIXME</strong> handling of profile elements in
+    turtlegen -- currently ignored. [<a href="#ISSUE-3">link to this
+    issue</a>]</li>
+</ol>
+
+<h2 id="L907">5. References</h2>
+<dl>
+  <dt>[RDF-CONCEPTS]</dt>
+    <dd><a
+      href="http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/">http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/</a></dd>
+  <dt>[RDF-SEMANTICS]</dt>
+    <dd><a
+      href="http://www.w3.org/TR/2004/REC-rdf-mt-20040210/">http://www.w3.org/TR/2004/REC-rdf-mt-20040210/</a></dd>
+</dl>
+<hr />
+<pre>    --- change log ---
+    $Log: turtlegen-docs.html,v $
+    Revision 1.1  2007/09/05 17:21:20  ajm65
+    rename to avoid content negotiation
+
+    Revision 1.1  2007/09/05 16:56:14  ajm65
+    Initial revision, with refactored content.
+
+    
+
+  </pre>
+
+<p></p>
+</body>
+</html>

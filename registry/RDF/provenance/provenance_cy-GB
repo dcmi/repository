@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+	<!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	xmlns:dcterms="&dctermsns;"
+	xmlns:dctype="&dctypens;">
+	
+	 
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/creator">
+    <rdfs:label rdf:ID="creator_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="creator_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="creator_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/type">
+    <rdfs:label rdf:ID="type_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="type_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="type_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/contributor">
+    <rdfs:label rdf:ID="contributor_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="contributor_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="contributor_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/description">
+    <rdfs:label rdf:ID="description_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="description_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="description_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/source">
+    <rdfs:label rdf:ID="source_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="source_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="source_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/identifier">
+    <rdfs:label rdf:ID="identifier_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="identifier_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="identifier_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/relation">
+    <rdfs:label rdf:ID="relation_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="relation_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="relation_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/publisher">
+    <rdfs:label rdf:ID="publisher_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="publisher_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="publisher_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/subject">
+    <rdfs:label rdf:ID="subject_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="subject_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="subject_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/title">
+    <rdfs:label rdf:ID="title_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="title_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="title_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/language">
+    <rdfs:label rdf:ID="language_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="language_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="language_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/coverage">
+    <rdfs:label rdf:ID="coverage_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="coverage_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="coverage_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/rights">
+    <rdfs:label rdf:ID="rights_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="rights_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="rights_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/date">
+    <rdfs:label rdf:ID="date_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="date_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="date_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/format">
+    <rdfs:label rdf:ID="format_label" xml:lang="cy-GB"/>
+    <rdfs:comment rdf:ID="format_comment" xml:lang="cy-GB"/>
+    <dc:description rdf:ID="format_description" xml:lang="cy-GB"/>
+    
+  </rdf:Description>
+  
+  
+<rdf:Description rdf:about="#creator_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#title_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#title_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#title_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_label">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_comment">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_description">
+<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1:
+disgrifiad cyfeiriol (The Dublin Core Element set, Version 1.1)
+</dc:title>
+<dc:date xml:lang="cy-GB">2003-07-23</dc:date>     
+<dc:creator xml:lang="cy-GB">Lyn Lewis Dafis</dc:creator>
+<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+<dc:description xml:lang="cy-GB">Set o elfennau metadata syml yw Dublin Core er hwyluso disgrifio a darganfod adnoddau. Fe ddatblygodd 
+yn wreidiol mewn cyd-destun digidol. Mae'r ddogfen hon yn gyfieithiad o'r ddogfen wreiddiol Saesneg The Dublin Core Element set, 
+Version 1.1  (http://dublincore.org/documents/dces/) sy'n gosod allan y pymtheg elfen sy'n ffurfio'r Dublin Core. (Dublin Core is a 
+set of simple metadata elements for resource description and discovery which developed originally in a digital context. This document 
+is a translation of the original English document The Dublin Core Element set, Version 1.1 - http://dublincore.org/documents/dces/ 
+which lists the fifteen elements which makes up the Dublin Core.)
+</dc:description>
+<dc:language xml:lang="cy-GB">cy-GB</dc:language>
+<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru (National Library of Wales)</dc:publisher>
+<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+<dc:rights xml:lang="cy-GB">Nid yw'r cyhoeddwr yn gyfrifol am gywirdeb y cyfieithiad hwn. (The publisher disclaims any responsibility 
+for the correctness of this translation)
+</dc:rights>  
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+John Kunze, jak@ckm.ucsf.edu
+A Unified Element Vocabulary for Metadata, 15 May 1996
+-------------------------------------------------------------------------------
+
+Problems arise in designing element name spaces (vocabularies)
+that fit current and projected metadata needs across many uses
+and fields of knowledge.  One need is to support an ongoing
+process of enrolling new names into element vocabularies
+(extending them) while minimizing conflict with natural language
+connotations and existing element definitions.
+
+Appealingly simple solution: partition top-level name space into
+subspaces, distribute control over enrollment to communities.
+
+One problem: divisions relax over time.  Boundaries btw fields
+blur, communities pick up elements from each other, introduce
+inter-community dependencies.  COmmunity interoperability drops.
+Experience w/Z39.50: communities pick and choose elements from
+each other, and they import external vocabularies whole into
+their own.
+
+Rather, we should consider design: a single vocabulary for all
+elements.  Different definitions for the same element would
+appear together as alternates, just as in a natural language
+dictionary.
+
+"To test whether an element vocabulary needs that much room to
+grow, it is sufficient to reflect how hard it is to think of a
+natural language word that could NOT conceivably name an
+element."
+
+This vocabulary would consist of a stable base of approved
+elements augmented by an informally evolving set of commonly used
+elements.  The vocabulary approval process would be lightweight
+and adaptable.  An interesting functional model to borrow from is
+natural language, which has approved vocabularies (eg, the Oxford
+English dictionary) augmented by a set of commonly used terms.
+

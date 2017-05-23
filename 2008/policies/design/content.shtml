@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  
+<head>
+    
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    
+<title>DCMI Website Standards and Policy Manual - Content Area</title>
+    
+<meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    
+<link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+ 
+</script>
+  
+</head>
+
+  
+<body>
+    
+<!--#include virtual="/ssi/policies/header.shtml" -->
+<table
+    summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content."
+     border="0" width="100%" cellspacing="0" cellpadding="5">
+      <tbody>
+        
+<tr valign="top">
+          
+<td bgcolor="#EEEEEE" width="150">
+            
+<!--#include virtual="/ssi/policies/design.shtml" -->
+</td>
+<td>
+<h1>Content Area</h1>
+<p>The content area usually contains a main layout table and possibly smaller layout tables for menus.</p>
+<h2>One column</h2>
+<p>One column content areas do not include a layout table. Used for third and lower level pages.</p>
+<h2>Two columns</h2>
+<p>Consists of a one row, two column layout table. Used for second level pages only.</p>
+<table border="1" cellpadding="6" cellspacing="0">
+			
+<tr valign="top">
+				
+<td><b>Element type</b></td>
+<td>Table</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Summary</b></td>
+<td>Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content.</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Border</b></td>
+<td>0</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Height</b></td>
+<td>variable</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Width</b></td>
+<td>100%</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Cellspacing</b></td>
+<td>0</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Cellpadding</b></td>
+<td>5</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column one width</b></td>
+<td>150 pixels</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column two width</b></td>
+<td>none specified</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column one background color</b></td>
+<td>#EEEEEE</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column two background color</b></td>
+<td>none specified</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column one horizontal alignment</b></td>
+<td>center</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column two horizontal alignment</b></td>
+<td>none specified</td>
+</tr>
+		
+</table>
+<h2>Three columns</h2>
+<p>Consists of a one row, three column layout table. Used for home page only.</p>
+<p></p>
+<table border="1" cellpadding="6" cellspacing="0">
+			
+<tr valign="top">
+				
+<td><b>Element type</b></td>
+<td>Table</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Summary</b></td>
+<td>Layout table: The first cell contains a navigation bar of DCMI general information and ready references, the second contains news items, and the third a navigation bar of DCMI Working Groups.</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Border</b></td>
+<td>0</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Height</b></td>
+<td>variable</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Width</b></td>
+<td>100%</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Cellspacing</b></td>
+<td>none specified</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Cellpadding</b></td>
+<td>none specified</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column one width</b></td>
+<td>150 pixels</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column two width</b></td>
+<td>none specified</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column three width</b></td>
+<td>150 pixels</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column one background color</b></td>
+<td>#EEEEEE</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column two background color</b></td>
+<td>none specified</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column three background color</b></td>
+<td>#EEEEEE</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column one horizontal alignment</b></td>
+<td>center</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column two horizontal alignment</b></td>
+<td>none specified</td>
+</tr>
+			
+<tr valign="top">
+				
+<td><b>Column three horizontal alignment</b></td>
+<td>center</td>
+</tr>
+		
+</table>
+</td>
+</tr>
+      </tbody>
+    
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

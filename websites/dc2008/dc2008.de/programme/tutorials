@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://dublincore.org/documents/dcq-html/">	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dc2008.de/xmlrpc.php?rsd" />
+ <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dc2008.de/wp-includes/wlwmanifest.xml" /> <script type='text/javascript' src='http://dc2008.de/wp-includes/js/prototype.js?ver=1.5.1.1'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-includes/js/scriptaculous/scriptaculous.js?ver=1.7.1-b3'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-includes/js/scriptaculous/effects.js?ver=1.7.1-b3'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-content/plugins/lightbox-2/lightbox.js?ver=2.2'></script>
+<link rel="stylesheet" type="text/css" href="http://dc2008.de/wp-content/plugins/contactforms/styling/cforms.css" />
+<script type="text/javascript" src="http://dc2008.de/wp-content/plugins/contactforms/js/cforms.js"></script>
+		<meta name="DC.publisher" content="DC 2008" />
+		<meta name="DC.publisher.url" content="http://dc2008.de/" />
+		<meta name="DC.title" content="Tutorials" />
+		<meta name="DC.identifier" content="http://dc2008.de/programme/tutorials" />
+		<meta name="DC.date.created" scheme="WTN8601" content="2008-05-26T18:20:55" />
+		<meta name="DC.creator" content="DC 2008 Organisation" />
+		<meta name="DC.rights.rightsHolder" content="DC 2008 Organisation" />
+
+	<!-- begin lightbox scripts -->
+	<script type="text/javascript">
+    //<![CDATA[
+    document.write('<link rel="stylesheet" href="http://dc2008.de/wp-content/plugins/lightbox-2/Themes/Black/lightbox.css" type="text/css" media="screen" />');
+    //]]>
+    </script>
+	<!-- end lightbox scripts -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="icon" href="http://dc2008.de/wp-content/themes/dc-2008/pics/favicon.ico" type="image/ico" />
+<meta name="DC.format" scheme="DCTERMS.IMT" content="text/html" />
+<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+
+<title>DC 2008 -    Tutorials</title>
+<link rel="stylesheet" href="http://dc2008.de/wp-content/themes/dc-2008/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://dc2008.de/wp-content/themes/dc-2008/print.css" type="text/css" media="print" />
+<link rel="alternate" type="application/rss+xml" href="http://dc2008.de/feed" title="News" />
+</head>
+
+ <body>
+  <div id="interface">
+
+   <div id="head">
+   </div>   <div id="container">
+    
+
+    <div id="content">
+     <div id="contentbox">
+      
+
+         <h1 id="post-50">Tutorials</h1>
+<div id="print_icon">
+</div>
+
+<!-- <br clear="all" /> -->
+<hr class="h2" />
+          <div class="storycontent">
+            <p>The Tutorials will take place on Monday 22 September 2008 from 09:00 to 17:00</p>
+<p><a class="h3" name="DC-Tutorials">DC-Tutorials</a></p>
+<p><a name="Tutorial-e1">Tutorial 1</a>: <strong>Dublin Core History and Basics</strong> - <em>Jane Greenberg</em><br/><br />
+This session will cover the background to Dublin Core and its development over the past decade. The growth of DCMI as an organisation and a community of practice will be discussed, as well as the maturing of DC technically and architecturally. The basic concepts used in Dublin Core metadata will be presented, and an overview given of the terms in the original Dublin Core Metadata Element Set.<br/><br/><br />
+<a name="Tutorial-e2">Tutorial 2</a>: <strong>Dublin Core Key Concepts</strong> - <em>Pete Johnston</em><br/><br />
+This tutorial will outline the key concepts used in Dublin Core metadata, drawing on the foundational Dublin Core Abstract Model. These include encoding schemes, values, and the role of formal syntaxes to encode DC metadata.<br/><br/><br />
+<a name="Tutorial-e3">Tutorial 3</a>: <strong>Dublin Core and Other Metadata Schema</strong> - <em>Mikael Nilsson</em><br/><br />
+This session will explore how DC relates to other major metadata schema, and its similarities and differences. It will consider how to use multiple relevant standards in an implementation setting, looking at mapping cross-walking and other interoperability approaches. The concept of Application Profiles will be discussed, including the Singapore Framework which sets out the components of application profile good practice using Dublin Core.<br/><br/><br />
+<a name="Tutorial-e4">Tutorial 4</a>: <strong>Dublin Core in Practice - Implementation Issues</strong> - <em>Marcia Zeng</em><br/><br />
+This session will draw on case studies to explore practical issues in the use of Dublin Core. These considerations include quality, consistency, cost and other factors.<br/><br/><br/></p>
+<p><a class="h3" name="FHP-Tutorials">Tutorials der FH Potsdam</a></p>
+<p><a name="Tutorial-d1">Tutorial 1</a>: <strong>Die Dublin Core Konferenz für Einsteiger</strong> - <em>Bernadette Gandaa</em><br/><br />
+Dieses Tutorial gibt einen Überblick über die Entwicklung der Dublin Core Metadata Initiative (DCMI). Die DCMI, im Jahr 1995 gegründet, charakterisiert sich selbst durch die drei I´s: Independent, International, Influenceable. Was genau bedeutet das? Wie ist die DCMI organisiert? Wie wird sie finanziert? – Dies sind Fragen, die das Einstiegstutorial klären will. Es wird in das Dublin Core Metadata Element Set (DCMES) eingeführt und anhand kurzer Übungen veranschaulicht. Abschließend wird ein kurzer Überblick in die Themenschwerpunkte der diesjährigen Konferenz gegeben.<br/><br/></p>
+<p><a name="Tutorial-d2">Tutorial 2</a>: <strong>Einführung in Semantic Web</strong> - <em>Tina Matzat</em><br/><br />
+Dieses Tutorial widmet sich den Grundlagen des Semantic Web (für Einsteiger). Das Konzept beruht auf einem Vorschlag von Tim Berners-Lee, dem Begründer des World Wide Web. Informationen sollen nicht nur vom Menschen verstanden werden, sondern auch von Maschinen interpretiert und miteinander in Beziehung gesetzt werden können. In dieser Lektion werden die zugrunde liegenden Konzepte (Metadaten, Taxonomien, Onthologien) und Technologien (RDF, OWL, XML), sowie ein aktuelles Projekt behandelt.<br/><br/></p>
+<p><a name="Tutorial-d3">Tutorial 3</a>: <strong>Einführung in RDA (Resource Description and Access)</strong> - <em>Dierk Eichel</em><br/><br />
+Das Tutorial Einführung in RDA (Resource Description and Access) bietet einen Überblick über das neue, in der Entstehung befindliche bibliographische Regelwerk für die Katalogisierung.</p>
+<p>Im Jahr 2009 soll als Nachfolger der AACR2r (Anglo-American Cataloguing Rules) das neue Regelwerk RDA veröffentlicht werden, dessen Einsatz im Zusammenhang mit der Internationalisierung der deutschen Standards auch im deutschsprachigen Raum vorgesehen ist. Das neue Regelwerk soll alle Medientypen abdecken und richtet sich an Bibliotheken, aber auch Archive und Museen. Es basiert auf den konzeptionellen Modellen der Functional Requirements for Bibliographic Records (FRBR) und der Functional Requirements for Authority Data (FRAD).</p>
+<p>Das Tutorial stellt die festgelegten Prinzipien von RDA vor. Für ein besseres Verständnis werden diese anhand anschaulicher Beispiele erläutert. Eine Roadmap zeigt zudem den Entstehungsprozess von RDA auf.<br/><br/></p>
+<p><a name="Tutorial-d4">Tutorial 4</a>: <strong>Einführung in Social Tagging/Computing</strong> - <em>Johannes Hercher</em><br/><br />
+Dieses Tutorial führt in die Welt der “neuen” inhaltlichen Erschließung ein. Social Tagging oder auch gemeinschaftliches Indexieren ist eine Form der freien Verschlagwortung, bei der Deskriptoren ohne feste Regularien von Nutzern selbst vergeben werden. Dieses Konzept und daraus folgende Möglichkeiten für Metadatenanwender und Metadatenentwickler stellen wir Ihnen in diesem Tutorial vor. Wir erläutern dabei die Chancen, Risiken und Trends im Bereich Social Tagging/Computing anhand von Praxisbeispielen. Ziel ist es den Teilnehmern einen aktuellen Wissensstand zum Thema zu vermitteln.<br/><br/></p>
+          </div>
+                  </div>
+     </div>
+     <div id="navi">
+     <div id="navibox">
+      <ul>
+
+<li class="page_item"><a href="http://dc2008.de" title="Home">Home</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/papers" title="Call for Papers">Call for Papers</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/news" title="News">News Archive</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/organisation" title="Organisation">Organisation</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/call-for-sponsors" title="Call for Sponsors">Call for Sponsors</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/programme" title="Programme">Programme</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/information-for-authors" title="Information for Authors">Author Info</a></li>
+ 
+<li class="page_item"><a href="http://dc2008.de/registration" title="Registration">Registration</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/accommodation" title="Accommodation">Accommodation</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/conference-venue" title="Conference Venue">Conference Venue</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/about-berlin" title="About Berlin">About Berlin</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/links" title="Links">Links</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/contact" title="Contact">Contact</a></li>
+</ul> 
+
+<br /><br />
+organised by:
+
+<div align="center">
+<a href="http://www.kim-forum.org/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/kim_logo_skal.png" alt="KIM - Kompetenzzentrum Interoperable Metadaten" /></a>
+
+<a href="http://www.sub.uni-goettingen.de/index-e.html"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/sub_logo_klein.jpg" alt="Niedersächsische Staats- und Universitätsbibliothek Göttingen"/></a>
+
+<a href="http://www.mpdl.mpg.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/mpdl.png"  alt="Max Planck digital library" /></a>
+
+<a href="http://www.d-nb.de/eng/index.htm"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/DNB_neu_skal1.png" alt="Deutsche Nationalbibliothek" /></a>
+
+<a href="http://www.hu-berlin.de/index_html-en?set_language=en&amp;cl=en"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/husiegel.png" alt="Humboldt-Universität zu Berlin" /></a>
+</div>
+
+<a href="http://www.dublincore.org/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/DC_Logo_skla.png" alt="Dublin Core Metadata Initiative"/></a>
+</div>
+
+<br /><br />
+supported by:
+<br /><br />
+<div align="center"><a href="http://www.wikimedia.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/wikimedia.png" alt="Wikimedia Deutschland - Gesellschaft zur Förderung Freien Wissens e.V."/></a><br />
+</div>
+
+<br /><br />
+funded by:
+<br /><br />
+<div align="center"><a href="http://www.dfg.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/dfg_sw.gif" alt="Deutsche Forschungsgemeinschaft" /></a></div>
+<div align="center"><a href="http://www.bmbf.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/bmbf_skal.gif" alt="Bundesministerium für Bildung und Forschung" /></a></div>
+<br /> 
+     </div>
+    </div>
+       <div id="footer" align="center">
+Copyright © 1995-2008 DCMI All Rights Reserved. &mdash; © Pictures:  <a href="http://www.visitberlin.de" target="_blank" class="footerlink">www.visitberlin.de</a> &mdash; <a class="footerlink_impressum" href="http://dc2008.de/impressum">Impressum</a>
+
+   </div>
+  </div>
+ </body>
+</html>

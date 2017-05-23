@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>Emphasis</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1 id="title">Emphasis</h1>
+<dl>
+<dt>HTML Tag:</dt>
+<dd><code>&lt;EM&gt;&lt;/EM&gt;</code></dd>
+<dt>Guidelines:</dt>
+<dd>An <code>EM</code> element is one that is to be rendered differently from running body text to designate emphasis. Browsers have free rein to determine how (or whether) to distinguish <code>EM</code> element content from the rest of the <code>BODY</code> element. Both Navigator and Internet Explorer elect to italicize the text.</dd>
+<dt>Warnings:</dt>
+<dd>-</dd>
+<dt>Priority:</dt>
+<dd>-</dd>
+</dl>
+<h2>Browser View:</h2>
+<p>The deep, fundamental question in statistical analysis is <em>Compared with what?</em></p>
+<h2>Source View:</h2>
+<code>&lt;P&gt;The deep, fundamental question in statistical analysis is &lt;EM&gt;Compared with what?&lt;/EM&gt;&lt;/P&gt;</code>
+</body>
+</html>

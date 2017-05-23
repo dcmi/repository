@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/DC/documents/notes/acore-20000719.htm">
+   <dc:title>Dublin Core Metadata Initiative - The A-Core: Metadata about Content Metadata</dc:title>
+   <dc:description>Metadata about metadata - referred to as the A-Core - is useful to designate information about the provenance, management or administration of other sets of descriptive metadata. The objective of A-Core is to provide simple verification of the integrity, ownership, and authorship of metadata retrieved from networked resources. The A-Core elements are utilised to associate the instruments (who, what) with the events (when) of the process of metadata management.</dc:description>
+   <dc:date>2000-07-19</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:creator>Renato Iannella</dc:creator>
+   <dc:creator>Debbie Campbell</dc:creator>
+   <dc:language>en</dc:language>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

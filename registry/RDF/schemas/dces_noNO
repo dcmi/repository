@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+         xmlns:eor="&eorns;">
+
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label xml:lang="no-NO">
+  Tittel
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  Et navn gitt ressursen.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  Tittelen er vanligvis navnet som ressursen formelt er kjent under.
+  </dc:description> 
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label xml:lang="no-NO">
+  Bidragsyter
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  En enhet som har bidratt til ressursens innhold.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  Eksempler p&#x013a; en bidragsyter er en person, en organisasjon, eller en tjeneste. Vanligvis 
+  angir man her bidragsyterens navn.
+  </dc:description>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label xml:lang="no-NO">
+  Opphavsmann
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  En enhet som er hovedansvarlig for ressursens intellektuelle innhold.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  Eksempler p&#x013a; en opphavsmann er en person, en organisasjon eller en tjeneste. Vanligvis 
+  angir man her opphavsmannens navn.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label xml:lang="no-NO">
+  Utgiver
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  En enhet som er ansvarlig for &#x013a; ha gjort ressursen tilgjengelig.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  Eksempler p&#x013a; en utgiver er en person, en organisasjon, eller en tjeneste. Vanligvis angir 
+  man her utgiverens navn.
+  </dc:description> 
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label xml:lang="no-NO">
+  Emne- og stikkord
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  Et uttrykk for ressursens emnemessige innhold.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  Vanligvis vil et emne bli uttrykt ved hjelp av et emneord/et stikkord eller en klassifikasjonskode 
+  som beskriver hva ressursen handler om.  Anbefalt praksis: Velg termer fra kontrollerte 
+  emneordslister eller klassifikasjonskoder fra formelle klassifikasjonsskjemaer.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label xml:lang="no-NO">
+  Innholdsbeskrivelse
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  En redegj&#x0159;relse for ressursens innhold.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  En beskrivelse av ressursens innhold kan omfatte: et sammendrag, en innholdsfortegnelse, en 
+  referanse til en grafisk framstilling av innholdet eller en uformell beskrivelse av innholdet, 
+  men er ikke avgrenset til dette.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label xml:lang="no-NO">
+  Dato
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  En dato knyttet til en hendelse i levetiden til en ressurs.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  Dato knyttes vanligvis til en ressurs' tilblivelse eller offentliggj&#x0159;relse. Anbefalt praksis: 
+  Dato angis slik det er angitt i ISO 8601 [W3CDTF] og gis i formen 
+  &#x0139;&#x0139;&#x0139;&#x0139;-MM-DD.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label xml:lang="no-NO">
+  Ressurstype
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  En egenskap ved ressursen eller en sjangerbetegnelse som beskriver ressursens innhold.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  Type inkluderer termer som beskriver innholdet i ressursen i generelle kategorier, funksjoner, 
+  sjangre, eller som angir om det dreier seg om et enkeltst&#x013a;ende dokument eller en samling. 
+  Anbefalt praksis: Velg en verdi fra en kontrollert liste (for eksempel, "The Working Draft list of 
+  Dublin Core Types" [DCT1]). Bruk elementet FORMAT for &#x013a; beskrive ressursens fysiske eller 
+  digitale form.
+  </dc:description>  
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label xml:lang="no-NO">
+  Format
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  En ressurs' fysiske eller digitale form.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  Format inkluderer vanligvis ressursens medietype eller omfang. Format kan ogs&#x013a; brukes 
+  til &#x013a; bestemme hva slags programvare, maskinvare eller annet utstyr som er n&#x0159;dvendig 
+  for &#x013a; vise eller bruke ressursen. Eksempler p&#x013a; omfang er st&#x0159;rrelse og varighet. 
+  Anbefalt praksis: Velg en verdi fra en kontrollert liste (for eksempel listen Internet Media 
+  Types [MIME] som definerer format for datamedia).
+  </dc:description>  
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label xml:lang="no-NO">
+  Identifikator
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  En entydig henvisning til ressursen i en gitt kontekst.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  Anbefalt praksis: Identifiser ressursen ved hjelp av en streng eller et nummer i samsvar med et 
+  formelt identifikasjonssystem. Eksempler p&#x013a; formelle identifikasjonssystemer er Uniform 
+  Resource Identifier (URI) (herunder Uniform Resource Locator (URL)), Digital Object Identifier 
+  (DOI) og International Standard Book Number (ISBN).
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label xml:lang="no-NO">
+  Spr&#x013a;k
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  Spr&#x013a;ket som ressursens intellektuelle innhold er skrevet p&#x013a;.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  Anbefalt praksis: For angivelse av spr&#x013a;k b&#x0159;r en f&#x0159;lge anbefalingene som 
+  gis i RFC 1766 [RFC1766]. Koden best&#x013a;r av en to bokstavers spr&#x013a;kkode (tatt fra 
+  standarden ISO 639 [ISO639]), etterfulgt om n&#x0159;dvendig av en valgfri to bokstavers 
+  landekode (tatt fra standarden ISO 3166 [ISO3166]). For eksempel, 'en' for engelsk, 'fr' 
+  for fransk, eller 'en-uk' for engelsk i Storbritannia.
+  </dc:description>
+  
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label xml:lang="no-NO">
+  Relasjon
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  En henvisning til en beslektet ressurs.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  Anbefalt praksis: Henvis til den beslektede ressursen ved hjelp av en streng eller et nummer i 
+  samsvar med et formelt identifikasjonssystem.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label xml:lang="no-NO">
+  Kilde
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  En referanse til den ressursen som foreliggende ressurs er utledet av.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  Den aktuelle ressursen kan stamme helt eller delvis fra "kilderessursen". Anbefalt praksis: 
+  Identifiser ressursen ved hjelp av en streng eller et nummer i samsvar med et formelt 
+  identifikasjonssystem.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label xml:lang="no-NO">
+  Dekning
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  Utstrekningen til eller omfanget av ressursens innhold.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  Dekning inkluderer vanligvis begrep for rom (et geografisk navn eller geografiske koordinater), 
+  begrep for tid (navn p&#x013a; en tidsperiode, dato, eller tidsintervall) eller jurisdiksjon 
+  (som for eksempel en navngitt administrativ enhet). Anbefalt praksis: Velg en term fra en 
+  kontrollert liste (for eksempel Thesaurus of Geographic Names [TGN]). N&#x013a;r det er mulig, 
+  velg navngitte steder eller tidsperioder framfor numeriske identifikatorer som koordinater eller 
+  tidsintervall.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label xml:lang="no-NO">
+  Rettigheter
+  </rdfs:label>
+  <rdfs:comment xml:lang="no-NO">
+  Informasjon om rettigheter knyttet til ressursen.
+  </rdfs:comment>
+  <dc:description xml:lang="no-NO">
+  Elementet inneholder vanligvis en erkl&#x0107;ring om hvordan rettigheter knyttet til ressursen 
+  skal h&#x013a;ndteres, eller en henvisning til en tjeneste som gir slik informasjon. Informasjon 
+  om rettigheter omfatter for eksempel Intellectual Property Rights (IPR), Copyright m.m. Dersom 
+  elementet ikke er registrert, skal det ikke gj&#x0159;res noen antakelse om hvilke rettigheter 
+  som er knyttet til ressursen. 
+  </dc:description>
+</rdf:Property>
+
+</rdf:RDF>

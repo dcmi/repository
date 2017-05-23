@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/groups/title-qualifierreview.htm">
+   <dc:title>Dublin Core Metadata Initiative - DC-Title Working Group - Dublin Core Qualifiers: Title and Identifier</dc:title>
+   <dc:description>A report on possible qualifiers for the Title and Identifier elements.</dc:description>
+   <dc:date>1999-08-30</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Dublin Core Metadata Initiative</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

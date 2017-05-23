@@ -1,0 +1,2075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+	<!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	xmlns:dcterms="&dctermsns;"
+	xmlns:dctype="&dctypens;">
+
+
+<rdf:Property rdf:about = "&dcns;title">
+	<rdfs:label rdf:ID="title_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="title_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+	<rdfs:label rdf:ID="contributor_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="contributor_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+	<rdfs:label rdf:ID="creator_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="creator_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+	<rdfs:label rdf:ID="publisher_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="publisher_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+	<rdfs:label rdf:ID="subject_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="subject_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+	<rdfs:label rdf:ID="description_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="description_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+	<rdfs:label rdf:ID="date_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="date_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+	<rdfs:label rdf:ID="type_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="type_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+	<rdfs:label rdf:ID="format_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="format_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+	<rdfs:label rdf:ID="identifier_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="identifier_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+	<rdfs:label rdf:ID="language_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="language_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+	<rdfs:label rdf:ID="relation_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="relation_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+	<rdfs:label rdf:ID="source_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="source_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+	<rdfs:label rdf:ID="coverage_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="coverage_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+	<rdfs:label rdf:ID="rights_label" xml:lang="uk-UA"/>
+	<rdfs:comment rdf:ID="rights_comment" xml:lang="uk-UA"/>
+</rdf:Property>
+
+
+<rdf:Description rdf:about="#title_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#title_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_label">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_comment">
+	<dc:date xml:lang="uk-UA">1999</dc:date>
+
+	<dc:title xml:lang="uk-UA">
+	&#x0414;&#x0423;&#x0411;&#x041b;&#x0406;&#x041d;&#x0421;&#x042c;&#x041a;&#x0418;&#x0419; 
+	&#x0411;&#x0410;&#x0417;&#x041e;&#x0412;&#x0418;&#x0419; 
+	&#x041a;&#x041e;&#x041c;&#x041f;&#x041b;&#x0415;&#x041a;&#x0422; 
+	&#x0415;&#x041b;&#x0415;&#x041c;&#x0415;&#x041d;&#x0422;&#x0406;&#x0412; 
+	&#x041c;&#x0415;&#x0422;&#x0410;&#x0414;&#x0410;&#x041d;&#x0418;&#x0425; - 
+	&#x0412;&#x0435;&#x0440;&#x0441;&#x0456;&#x044f; 1.0 
+	(&#x043a;&#x043e;&#x0440;&#x043e;&#x0442;&#x043a;&#x0430;)
+	(The Dublin Core Metadata Set - Version 1.0)
+	</dc:title>
+	
+	<dc:creator xml:lang="uk-UA">
+	&#x0413;&#x0430;&#x043d;&#x043d;&#x0430; 
+	&#x0412;&#x043e;&#x0441;&#x043a;&#x0440;&#x0435;&#x0441;&#x0435;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430;, 
+	&#x0411;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0412;&#x0435;&#x0440;&#x0445;&#x043e;&#x0432;&#x043d;&#x043e;&#x0457; 
+	&#x0420;&#x0430;&#x0434;&#x0438; &#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0438; 
+	(Hanna Voskresenska, National Parliamentary Library of Ukraine)
+	</dc:creator>
+
+	<dc:contributor xml:lang="uk-UA">
+	&#x0421;&#x0432;&#x0456;&#x0442;&#x043b;&#x0430;&#x043d;&#x0430; 
+	&#x0421;&#x0430;&#x043d;&#x0436;&#x0430;&#x043a;, 
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Svetlana Sanzhak, Lesya Ukrainka Public Library)
+	</dc:contributor>
+	
+	<dc:description xml:lang="uk-UA"> 
+	&#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434; 
+	&#x0442;&#x0435;&#x0440;&#x043c;&#x0456;&#x043d;&#x0456;&#x0432; DC 
+	(DC term translation)
+	</dc:description>
+	
+	<dc:language xml:lang="uk-UA">
+	&#x0443;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x0441;&#x044c;&#x043a;&#x0430; (uk-UA)
+	</dc:language>
+
+	<dc:publisher xml:lang="uk-UA">
+	&#x041f;&#x0443;&#x0431;&#x043b;&#x0456;&#x0447;&#x043d;&#x0430; 
+	&#x0431;&#x0456;&#x0431;&#x043b;&#x0456;&#x043e;&#x0442;&#x0435;&#x043a;&#x0430; 
+	&#x0456;&#x043c;&#x0435;&#x043d;&#x0456; &#x041b;&#x0435;&#x0441;&#x0456; 
+	&#x0423;&#x043a;&#x0440;&#x0430;&#x0457;&#x043d;&#x043a;&#x0438; 
+	(Lesya Ukrainka Public Library)
+	</dc:publisher>
+	
+	<dc:publisher rdf:resource="http://lucl.lucl.kiev.ua"/>
+	
+	<dc:source rdf:resource="http://lucl.lucl.kiev.ua/win/metadata.html"/>
+	
+	<dc:rights xml:lang="uk-UA">
+	&#x0412;&#x0438;&#x0434;&#x0430;&#x0432;&#x0435;&#x0446;&#x044c; 
+	&#x0432;&#x0456;&#x0434;&#x043c;&#x043e;&#x0432;&#x043b;&#x044f;&#x0454;&#x0442;&#x044c;&#x0441;&#x044f; 
+	&#x0432;&#x0456;&#x0434; &#x0431;&#x0443;&#x0434;&#x044c;-&#x044f;&#x043a;&#x043e;&#x0457; 
+	&#x0432;&#x0456;&#x0434;&#x043f;&#x043e;&#x0432;&#x0456;&#x0434;&#x0430;&#x043b;&#x044c;&#x043d;&#x043e;&#x0441;&#x0442;&#x0456; 
+	&#x0437;&#x0430; &#x043f;&#x0440;&#x0430;&#x0432;&#x0438;&#x043b;&#x044c;&#x043d;&#x0456;&#x0441;&#x0442;&#x044c; 
+	&#x0446;&#x044c;&#x043e;&#x0433;&#x043e; &#x043f;&#x0435;&#x0440;&#x0435;&#x043a;&#x043b;&#x0430;&#x0434;&#x0443;
+	(The publisher disclaims any responsibility for the correctness of this translation)
+	</dc:rights>	
+</rdf:Description>
+
+
+</rdf:RDF>

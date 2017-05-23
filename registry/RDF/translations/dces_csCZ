@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://www.ics.muni.cz/dublin_core/DC-czech-1.1.html">
+	<dc:title xml:lang="cs-CZ">
+	Soubor metadatov&#xfd;ch prvk&#367; Dublin Core, verze 1.1: referen&#269;n&#xed; popis
+	</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.1 Reference Description (Czech Translation)</dc:title>	
+	<dc:date >2000-12-6</dc:date>	
+	<dc:creator xml:lang="cs-CZ">
+	MU v Brn&#283; - &#xda;stav v&#xfd;po&#269;etn&#xed; techniky
+	</dc:creator>
+	<dc:creator xml:lang="en-US">
+	MU Brno - Institute of Computer Science
+	</dc:creator>
+	<dc:creator rdf:resource="mailto:bartosek@ics.muni.cz"/>	
+	<dc:language xml:lang="cs-CZ">&#268;esky</dc:language>
+	<dc:language xml:lang="en-US">Czech</dc:language>
+	<dc:language>cs-CZ</dc:language>	
+	<dc:publisher xml:lang="cs-CZ">MU v Brn&#283; - &#xda;stav v&#xfd;po&#269;etn&#xed; techniky</dc:publisher>
+	<dc:publisher xml:lang="en-US">MU Brno - Institute of Computer Science</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ics.muni.cz/"/>
+	<dc:source rdf:resource="http://www.ics.muni.cz/dublin_core/DC-czech-1.1.html"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>

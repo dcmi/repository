@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Checking out a module in WinCVS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="default.css" type="text/css">
+</head>
+<body>
+<table width="600" border="0" cellspacing="2" cellpadding="2">
+<tr valign="top">
+<td width="75"><div align="center"><a href="index.html" class="menu">Home</a></div></td>
+<td width="75"><div align="center"><a href="preferences.html" class="menu">Setting the Preferences</a></div></td>
+<td width="75"><div align="center"><a href="login.html" class="menu">Logging In</a></div></td>
+<td width="75"><div align="center"><span class="menu">Checking out a module</span></div></td>
+<td width="75"><div align="center"><a href="navigate.html" class="menu">Navigating</a></div></td>
+<td width="75"><div align="center"><a href="adding.html" class="menu">Adding files</a></div></td>
+<td width="75"><div align="center"><a href="committing.html" class="menu">Committing files</a></div></td>
+<td width="75"><div align="center"><a href="logout.html" class="menu">Logging out</a></div></td>
+</tr>
+<tr><td colspan="8"><hr></td></tr>
+</table>
+<h1>Checking out a module in WinCVS</h1>
+<table cellpadding="4">
+<tr>
+<td valign="top"><strong>1</strong></td>
+<td valign="top">To checkout a module after <a href="login.html">logging in</a>, select <strong>Create -&gt; Checkout module</strong>.</td>
+</tr>
+<tr>
+<td valign="top"><img src="images/icons/wincvs.gif" alt="WinCVS icon" width="32" height="32" border="0"></td>
+<td valign="top"><img src="images/checkout/checkout_module.gif" alt="WinCVS" width="509" height="388" border="0"></td>
+</tr>
+<tr>
+<td valign="top"><strong>2</strong></td>
+<td valign="top">
+<p>The <strong>Checkout settings</strong> dialog will appear.</p>
+<p>Select <strong>admin</strong> from the <strong>Enter the module name and path on the server</strong> pulldown menu.</p>
+<p>Make sure the <strong>Local folder to checkout to</strong> is set to the same folder you specified in your <a href="preferences.html">Preferences</a>.</p>
+</td>
+</tr>
+<tr>
+<td></td>
+<td valign="top"><img src="images/checkout/checkout_settings.gif" alt="Checkout settings dialog" width="452" height="313" border="0"></td>
+</tr>
+<tr>
+<td valign="top"><strong>3</strong></td>
+<td valign="top">Make any necessary changes to the <strong>Checkout options</strong> tab as shown below.</td>
+</tr>
+<tr>
+<td></td>
+<td valign="top"><img src="images/checkout/checkout_options.gif" alt="Checkout settings dialog" width="452" height="313" border="0"></td>
+</tr>
+<tr>
+<td valign="top"><strong>4</strong></td>
+<td valign="top">
+<p>From the <strong>General</strong> tab:</p>
+<ul>
+<li>Enter the <strong>CVSROOT</strong>, substituting your user name for <strong>osbornel</strong>.</li>
+<li>Select <strong>&quot;passwd&quot; file on the cvs server</strong> for the Authentication type.</li>
+</ul>
+<p class="note">Note: These settings should be the same as what you had previously set in your <a href="preferences.html">Preferences</a>.</p>
+</td>
+</tr>
+<tr>
+<td></td>
+<td valign="top"><img src="images/checkout/general.gif" alt="Checkout settings dialog" width="452" height="313" border="0"></td>
+</tr>
+<tr>
+<td valign="top"><strong>5</strong></td>
+<td valign="top">Make any necessary changes to the <strong>Globals</strong> tab as shown below.</td>
+</tr>
+<tr>
+<td></td>
+<td valign="top"><img src="images/checkout/globals.gif" alt="Checkout settings dialog" width="452" height="313" border="0"></td>
+</tr>
+<tr>
+<td></td>
+<td valign="top">Once your settings are complete, click the <strong>OK</strong> button.</td>
+</tr>
+<tr>
+<td valign="top"><strong>6</strong></td>
+<td valign="top">
+<p>If this is your first time checking out a module, WinCVS will download the entire module contents to your hard drive. This could take some time, as WinCVS has to download the entire site.</p>
+<p>If you previously checked out a module, WinCVS will only download newer files added since you last checked out the module.</p>
+<p class="note">Note: It is very important that you check out a module every time you use WinCVS, as other people may have made changes to documents that you normally work on!</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><img src="images/icons/wincvs.gif" alt="WinCVS icon" width="32" height="32" border="0"></td>
+<td valign="top"><img src="images/checkout/checking_out.gif" width="509" height="388" alt="WinCVS" border="0"></td>
+</tr>
+<tr>
+<td valign="top"><strong>7</strong></td>
+<td valign="top">
+<p>Once WinCVS has finished checking out the module<strong></strong>, the result in the <strong>Output</strong> area will read:</p>
+<blockquote>
+<pre>*****CVS exited normally with code 1*****</pre>
+</blockquote>
+</td>
+</tr>
+<tr>
+<td valign="top"><img src="images/icons/wincvs.gif" alt="WinCVS icon" width="32" height="32" border="0"></td>
+<td valign="top"><img src="images/checkout/checked_out.gif" width="509" height="388" alt="WinCVS" border="0"></td>
+</tr>
+<tr>
+<td></td>
+<td valign="top">You may now <a href="navigate.html">navigate</a> to your working directory and files.</td>
+</tr>
+</table>
+</body>
+</html>

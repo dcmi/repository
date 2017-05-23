@@ -1,0 +1,415 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>DCMI Document Creation Guidelines, Examples and Templates</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<style type="text/css">
+<!--
+th {  background-color: #CCCCCC};
+td.smallest {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px};
+th.smallest {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px};
+p.smallest {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px};
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="30" topmargin="20" marginwidth="30" marginheight="20">
+<h1>DCMI Document Creation Guidelines, Examples and Templates</h1>
+<p class="smallest">Last updated September 25, 2000</p>
+<hr>
+<ul>
+<li><a href="#html">HTML Elements</a></li>
+<li><a href="#page">DCMI Page Elements</a></li>
+<li><a href="#templates">DCMI Templates</a></li>
+<li><a href="#css">CSS</a></li>
+<li><a href="#javascript">JavaScript</a></li>
+<li><a href="#dreamweaver">Dreamweaver Settings</a></li>
+<li><a href="#homesite">HomeSite Settings</a></li>
+</ul>
+<hr>
+<table border="0" cellspacing="4" cellpadding="2" align="center" bgcolor="#EEEEEE">
+<tr bgcolor="#CCCCCC">
+<th colspan="2" class="smallest">Key:</th>
+</tr>
+<tr>
+<td align="center" class="smallest"><b>Priority 1</b></td>
+<td class="smallest">A Web content developer <b>must</b> satisfy this checkpoint.</td>
+</tr>
+<tr>
+<td align="center" class="smallest"><b>Priority 2</b></td>
+<td class="smallest">A Web content developer <b>should</b> satisfy this checkpoint.</td>
+</tr>
+<tr>
+<td align="center" class="smallest"><b>Priority 3</b></td>
+<td class="smallest">A Web content developer <b>may</b> address this checkpoint.</td>
+</tr>
+<tr>
+<td align="center" class="smallest"><b>*</b></td>
+<td class="smallest">Required if applicable</td>
+</tr>
+<tr>
+<td align="center" class="smallest">?</td>
+<td class="smallest">Unknown use at this time</td>
+</tr>
+</table>
+<hr>
+<a name="html"></a>
+<h2>HTML Elements</h2>
+<table border="1" cellspacing="1" cellpadding="1" width="100%">
+<thead>
+<tr>
+<th>Name</th>
+<th>Guidelines</th>
+<th>Warnings</th>
+<th>Priority</th>
+<th>
+<p>Browser View</p>
+</th>
+<th>Source View</th>
+<th>Template</th>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/abbreviation/index.shtml">Abbreviation</a></td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">3</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/acronym/index.shtml">Acronym</a></td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">3</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/blockquote/index.shtml">Blockquote</a></td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">2</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/citation/index.shtml">Citation</a></td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/preformatted_code/index.shtml">Preformatted Code</a></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/defining_instance/index.shtml">Defining Instance</a></td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/emphasis/index.shtml">Emphasis</a></td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/header/index.shtml">Header Elements<br>
+</a>(H1, H2, H3, H4)</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">2</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/html_head/index.shtml">Head</a><br>
+(HTML document)</td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/image/index.shtml">Image</a></td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">1</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center"><a href="/templates/html_elements/image/template.shtml">view template</a></td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/keyboard/index.shtml">Keyboard</a></td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/language/index.shtml">Language</a></td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">1</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/list/index.shtml">Lists</a></td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">2</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/quotation/index.shtml">Quotation</a></td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">2</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/sample/index.shtml">Sample</a></td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/strong_emphasis/index.shtml">Strong Emphasis</a></td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/table/index.shtml">Table</a></td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">1</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center"><a href="/templates/html_elements/table/template.shtml">view template</a></td>
+</tr>
+<tr>
+<td><a href="/templates/html_elements/var/index.shtml">Variable</a></td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+<hr>
+<a name="page"></a>
+<h2>DCMI Page Elements</h2>
+<table border="1" cellspacing="1" cellpadding="1" width="100%">
+<thead>
+<tr>
+<th>Name</th>
+<th>Guidelines</th>
+<th>Priority</th>
+<th>Browser View</th>
+<th>Source View</th>
+<th>Template</th>
+</tr>
+<tr>
+<td><a href="/templates/rdf/">RDF</a></td>
+<td align="center">X</td>
+<td align="center">1</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center"><a href="/templates/rdf/example.shtml.rdf">view template</a></td>
+</tr>
+<tr>
+<td>Body</td>
+<td align="center">-</td>
+<td align="center">*</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"><a href="/templates/dcmi_page_elements/body/body.html">view template</a></td>
+</tr>
+<tr>
+<td>Footer</td>
+<td align="center">-</td>
+<td align="center">*</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/dcmi_page_elements/form/form.shtml">Form</a></td>
+<td align="center">X</td>
+<td align="center">2</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td>Head (content)</td>
+<td align="center">-</td>
+<td align="center">*</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"><a href="/templates/dcmi_page_elements/head/head.shtml">view template</a></td>
+</tr>
+<tr>
+<td><a href="/templates/dcmi_page_elements/links/index.shtml">Links</a></td>
+<td align="center">X</td>
+<td align="center">*</td>
+<td align="center">X</td>
+<td align="center">X</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/dcmi_page_elements/navbartop/navbartop.shtml">Navigation Bar</a> (top)</td>
+<td align="center">-</td>
+<td align="center">?</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/dcmi_page_elements/navbarbot/navbarbot.shtml">Navigation Bar</a> (bottom)</td>
+<td align="center">-</td>
+<td align="center">?</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td>References</td>
+<td align="center">-</td>
+<td align="center">*</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"><a href="/templates/dcmi_page_elements/references/references.shtml">view template</a></td>
+</tr>
+<tr>
+<td>Table of Contents</td>
+<td align="center">-</td>
+<td align="center">*</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"><a href="/templates/dcmi_page_elements/toc/toc.shtml">view template</a></td>
+</tr>
+<tr>
+<td><a href="/templates/dcmi_page_elements/wai_conformance/wai_conformance.shtml">WAI Conformance</a></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">X</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<hr>
+<a name="templates"></a>
+<h2>DCMI Templates</h2>
+<table width="100%" border="1" cellspacing="1" cellpadding="1">
+<thead>
+<tr>
+<th>Name</th>
+<th>Example</th>
+<th>Template</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Generic</td>
+<td align="center">-</td>
+<td align="center"><a href="/templates/generic.shtml">view template</a></td>
+</tr>
+<tr>
+<td>Notes</td>
+<td align="center"><a href="/templates/notes/notesexample.shtml">view example</a></td>
+<td align="center"><a href="/templates/notes/notes.shtml">view template</a></td>
+</tr>
+<tr>
+<td>Working Groups</td>
+<td align="center"><a href="/templates/wg/workinggroupexample.shtml">view example</a></td>
+<td align="center"><a href="/templates/wg/workinggroup.shtml">view template</a></td>
+</tr>
+<tr>
+<td>Working Group Notes</td>
+<td align="center"><a href="/templates/wg/workinggroupnotesexample.shtml">view example</a></td>
+<td align="center"><a href="/templates/wg/workinggroupnotes.shtml">view template</a></td>
+</tr>
+<tr>
+<td>Header (graphical)</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td><a href="/templates/rdf/">RDF</a></td>
+<td align="center">-</td>
+<td align="center"><a href="/templates/rdf/example.shtml.rdf">view template</a></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<a name="css"></a>
+<h2>CSS</h2>
+<ul>
+<li><a href="/css/default.css">Default</a> (supported by  IE and Netscape)</li>
+<li><a href="/css/imported.css">Imported</a> (imported through the default CSS, not supported by Netscape)</li>
+</ul>
+<hr>
+<a name="javascript"></a>
+<h2>JavaScript</h2>
+<ul>
+<li><a href="/js/default.js">Browser variables/reload page if window resized in Netscape</a></li>
+</ul>
+<hr>
+<a name="dreamweaver"></a>
+<h2>Dreamweaver Settings</h2>
+<p>To prevent Dreamweaver from overriding the case of HTML and XHTML tags, set up your Dreamweaver preferences as highlighted in the screen capture below.</p>
+<ul>
+<li><a href="/templates/thirdparty/dreamweaver/settings.gif">Edit &gt; Preferences &gt; HTML Format</a></li>
+</ul>
+<hr>
+<a name="homesite"></a>
+<h2>HomeSite Settings</h2>
+<p>To prevent HomeSite from overriding the case of HTML and XHTML tags when using the Code Sweeper, set up your CodeSweeper preferences as highlighted in the screen capture below.<a href="/templates/thirdparty/homesite/DCMI.vtm"></a></p>
+<ul>
+<li><a href="/templates/thirdparty/homesite/settings.gif">Options &gt; CodeSweeper Settings</a></li>
+</ul>
+</body>
+</html>

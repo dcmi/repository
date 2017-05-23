@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/DC/banners/index.htm">
+   <dc:title>Dublin Core Metadata Initiative - Banners</dc:title>
+   <dc:description>The following banners and badges are provided in the JPEG file format for use by members of the public who wish to include them on a personal Web site. No special permission is required from the Dublin Core Metadata Initiative to reproduce these images, however, banners must be linked directly to the Dublin Core Metadata Initiative Web site at http://purl.org/dc.</dc:description>
+   <dc:date>2000-02-10</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Dublin Core Metadata Initiative</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

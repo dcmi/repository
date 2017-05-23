@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://www.llgc.org.uk/metadata/dces.htm">
+	<dc:title xml:lang="cy-GB">Set elfennau metadata Dublin Core, fersiwn 1.1: disgrifiad cyfeiriol</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.1 Reference Description (Welsh Translation)</dc:title>
+	<dc:date>2003-07-23</dc:date> 
+	<dc:creator>Lyn Lewis Dafis</dc:creator>
+	<dc:creator rdf:resource="mailto:lvd@llgc.org.uk"/>
+	<dc:language xml:lang="cy-GB">Cymraeg</dc:language>
+	<dc:language xml:lang="en-US">Welsh</dc:language>
+	<dc:language>cy-GB</dc:language>
+	<dc:publisher xml:lang="cy-GB">Llyfrgell Genedlaethol Cymru</dc:publisher>
+	<dc:publisher xml:lang="en-US">National Library of Wales</dc:publisher>
+	<dc:publisher rdf:resource="http://www.llgc.org.uk/"/>
+	<dc:source rdf:resource="http://www.llgc.org.uk/metadata/dces.htm"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"  
+            xmlns:dcterms="http://purl.org/dc/terms/">
+<rdf:Description rdf:about='http://www.some_collection'>
+<dcterms:provenance>
+The Smith collection was held by the Smith family in the library at Smith Hall. Letters written by John Smith and sent to 
+Tom Jones remained in the custody of Jones until his death in 1966 when they were returned to Smith. The Smith collection 
+was presented to the University Library as a gift by James Smith on 5 May 1973.
+</dcterms:provenance>
+</rdf:Description>
+</rdf:RDF>

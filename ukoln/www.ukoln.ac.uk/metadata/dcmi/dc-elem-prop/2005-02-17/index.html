@@ -1,0 +1,2205 @@
+<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<!-- <base href="http://dublincore.org/" /> -->
+<title>XML, RDF, and DCAPs</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="index_files/default.css" type="text/css">
+<link rel="meta" href="http://www.ukoln.ac.uk/metadata/dcmi/dc-elem-prop/2005-02-17/index.shtml.rdf">
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<meta name="dc.title" content="XML Elements, RDF Properties, and DCAPs" lang="en">
+<meta name="dc.creator" content="Pete Johnston">
+<meta name="dcterms.issued" scheme="dcterms.W3CDTF" content="2005-02-17">
+<meta name="dcterms.abstract" content="This document describes the differences between XML and RDF, and between DC elements, XML elements and RDF properties. It seeks to clarify the requirements that must be met before a " term"="" can="" be="" referenced="" in="" a="" dublin="" core="" application="" profile="" (dcap)."="">
+<meta name="dc.format" scheme="dcterms.IMT" content="text/html">
+<meta name="dc.type" scheme="dcterms.DCMIType" content="Text">
+
+
+</head>
+<body>
+
+<!--
+<div class="menu">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"
+bgcolor="#FF6600" summary="navigation header">
+<tr>
+<td width="70"><a href="/index.shtml"><img src=
+"/images/header/logo_sm.gif" width="150" height="70" alt=
+"Dublin Core Metadata Initiative logo" border="0" /></a></td>
+<td width="100%" height="70" align="right" valign="top">
+<table width="328" cellspacing="0" cellpadding="0" border="0"
+summary="navigation links">
+<tr>
+<td width="82" height="30"><a href="/about/"><img src=
+"/images/menu/about.gif" width="82" height="30" alt=
+"About the Initiative" border="0" /></a></td>
+<td width="82" height="30"><a href="/documents/"><img src=
+"/images/menu/documents.gif" width="82" height="30" alt="Documents"
+border="0" /></a></td>
+<td width="82" height="30"><a href="/groups/"><img src=
+"/images/menu/groups.gif" width="82" height="30" alt=
+"Working Groups" border="0" /></a></td>
+<td width="82" height="30"><a href="/resources/"><img src=
+"/images/menu/resources.gif" width="82" height="30" alt="Resources"
+border="0" /></a></td>
+</tr>
+
+<tr>
+<td width="82" height="30"><a href="/news/"><img src=
+"/images/menu/news.gif" width="82" height="30" alt=
+"Dublin Core Metadata Initiative News" border="0" /></a></td>
+<td width="82" height="30"><a href="/tools/"><img src=
+"/images/menu/tools.gif" width="82" height="30" alt=
+"Tools and Software" border="0" /></a></td>
+<td width="82" height="30"><a href="/meetings/"><img src=
+"/images/menu/meetings.gif" width="82" height="30" alt="Meetings"
+border="0" /></a></td>
+<td width="82" height="30"><a href="/projects/"><img src=
+"/images/menu/projects.gif" width="82" height="30" alt="Projects"
+border="0" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" height="30"><a href="/index.shtml"><img src=
+"/images/header/dcmi_sm.gif" width="329" height="30" alt=
+"Dublin Core Metadata Initiative" border="0" /></a></td>
+</tr>
+</table>
+</div>
+
+<div class="search">
+<table width="100%" cellspacing="0" cellpadding="6" border="0"
+summary="bread crumbs">
+<tr>
+<td class="crumb"><a href="http://dublincore.org/">Home</a>
+&gt;&nbsp;<a href="http://dublincore.org/documents/">
+Documents</a>&nbsp;&gt;&nbsp;</td>
+<td align="right">
+<form action="http://dublincore.org/search/searchServlet" method=
+"post"><input type="hidden" name="predicate" value="all" /> <input
+type="hidden" name="matchType" value="exact phrase" /> <input type=
+"hidden" name="searchCase" value="N" />
+
+<table cellspacing="0" cellpadding="2" border="0" summary=
+"keyword search">
+<tr>
+<td nowrap="nowrap"><input type="text" value="Enter keyword" name=
+"searchTerm" size="20" onfocus=
+"if(this.value=='Enter keyword')this.value='';" onblur=
+"if(this.value=='')this.value='Enter keyword';" /> &nbsp;</td>
+<td><input type="submit" name="submit" value="Search" /></td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+</div>
+
+<hr noshade="noshade" size="note1" title=
+"separator from menu and keyword search" />
+-->
+
+<table summary="A layout table with descriptive information about this document." border="0" width="100%">
+<tbody><tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Title:</strong></div>
+</td>
+<td width="76%">
+<div align="left">
+<h1>XML, RDF, and DCAPs</h1>
+</div>
+</td>
+</tr>
+
+<tr>
+<td height="22" valign="top" width="24%">
+<div align="left"><strong>Creator:</strong></div>
+</td>
+<td height="22" width="76%">
+<div align="left">Pete Johnston</div>
+</td>
+</tr>
+
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Date Issued:</strong></div>
+</td>
+<td width="76%">
+<div align="left">2005-02-17</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Identifier:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-elem-prop/2005-02-17/">
+http://www.ukoln.ac.uk/metadata/dcmi/dc-elem-prop/2005-02-17/</a></div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Replaces:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Is Replaced By:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Latest Version:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-elem-prop/">
+http://www.ukoln.ac.uk/metadata/dcmi/dc-elem-prop/</a></div>
+</td>
+</tr>
+
+<!--
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Status of Document:</strong></div>
+</td>
+<td width="76%">
+<div align="left">This is a DCMI <a href=
+"/documents/#workingdrafts">Working Draft</a>.</div>
+</td>
+</tr>
+
+-->
+<tr>
+<td valign="top" width="24%"><strong>Description of Document:</strong></td>
+<td width="76%">This document describes the differences between XML and 
+RDF, and between DC elements, XML elements and RDF properties. It seeks 
+to clarify the requirements that must be met before a "term" can be 
+referenced in a Dublin Core Application Profile (DCAP).</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+<hr>
+</td>
+</tr>
+</tbody></table>
+
+<div>
+
+<div>
+
+<h2>Contents</h2>
+
+<ol>
+<li><a href="#sec1">Introduction</a></li>
+<li><a href="#sec2">XML, XML Elements, XML Namespaces and XML Languages</a></li>
+<li><a href="#sec3">RDF, URI references and RDF/XML</a></li>
+<li><a href="#sec4">XML and RDF</a></li>
+<li><a href="#sec5">Dublin Core and Dublin Core Application Profiles</a></li>
+<li><a href="#sec6">Conclusions and Recommendations</a></li>
+<li><a href="#secW">Notes</a></li>
+<li><a href="#secX">References</a></li>
+</ol>
+
+</div>
+
+
+<div>
+
+<a id="sec1" name="sec1"></a>
+<h2>1. Introduction</h2>
+
+<p>For some time DCMI has advocated the approach that the terms of the 
+Dublin Core metadata vocabularies can be deployed in combination with 
+similar terms defined by other sources. This has led to the development 
+of the concept of the "Dublin Core Application Profile" (DCAP) [<a href="#DCAPUB">DCAPUB</a>], as a specification which:</p>
+
+<ul>
+<li>lists the terms that are used within a class of DC metadata descriptions</li>
+<li>(optionally) describes constraints on how those terms are used within those DC metadata descriptions</li>
+</ul>
+
+<p>A DCAP may be specific to a single application, or it may reflect the usage of an implementer community.</p>
+
+<p>Although the DCMI Usage Board has procedures in place to "review" 
+DCAPs that are submitted to it for evaluation, DCMI does not currently 
+have a formal specification for what constitutes a DCAP. The CEN CWA 
+that described how to present a human-readable representation of a DCAP [<a href="#CWA14855">CWA14855</a>]
+ described a fairly "permissive" notion of a DCAP. Perhaps as a 
+consequence, implementer interpretations of the concept have tended to 
+vary somewhat; in particular, there appears to be some divergence 
+amongst DCAP designers regarding the nature of the "terms" that are 
+referenced or "used" within a DCAP.</p>
+
+
+<p>The DCMI Abstract Model [<a href="#DCMIAM">DCMIAM</a>] describes a 
+conceptual framework for Dublin Core metadata descriptions: it describes
+ the logical components which make up DC metadata descriptions and the 
+relationships between them. Although the notion of the DCAP is not 
+explicitly addressed within the Abstract Model, if a DCAP is to specify 
+how a particular set of DC metadata descriptions are constructed, then 
+it follows that the types of "term" referenced within a DCAP must 
+correspond to the types of component described within the Abstract 
+Model.</p>
+
+<p>This document examines some of the specifications used for the 
+representation of data, and particularly the data models used within 
+those specifications. It seeks to clarify some of the terminology and 
+concepts used within those specifications, and in particular to 
+highlight significant differences between concepts that may at first 
+appear to be similar.</p>
+
+<p>It concludes by returning to the question of the DCAP and makes some suggestions on what is required to provide "terms" that <em>are</em> usable in DC metadata descriptions, and so are appropriate for reference from a DCAP.</p>
+
+<p>Note: This document provides a good deal of technical background 
+information. It is intended principally for the DCMI Usage Board, rather
+ than as a document for general circulation. Once agreement is reached 
+about the nature of the problem and possible approaches to solving it, 
+then a more concise, user-oriented summary of recommendations for good 
+practice might be produced.</p>
+
+</div>
+
+<div>
+
+<a id="sec2" name="sec2"></a>
+<h2>2. XML, XML Elements, XML Namespaces and XML Languages</h2>
+
+<div>
+<a id="sec2.1" name="sec2.1"></a>
+<h3>2.1 XML</h3>
+
+<p>The XML 1.0 specification [<a href="#XML">XML</a>] defines a means of describing structured data in a text-based format. XML uses <strong>tags</strong> embedded in the content of a document to delimit and label parts of the document, and those parts are known as <strong>XML elements</strong>. Tags themselves begin and end with special characters (&lt;....&gt;) so that they can be distinguished from the <strong>element content</strong>, and XML element <strong>end tags</strong> can be distinguished from <strong>start tags</strong> by a special character combination (&lt;/...).</p>
+
+<p>The start and end tags include an <strong>XML element type name</strong> and may also contain <strong>XML attributes</strong>
+ (see below). XML elements may contain character data (only), other XML 
+elements, a combination of character data and XML elements - or nothing,
+ i.e. XML elements can be empty. (See <a href="#note1">Note 1</a>.)</p>
+
+<p>An <strong>XML attribute</strong> is a pair made up of an <strong>attribute name</strong> and an <strong>attribute values</strong>.
+ Multiple XML attributes can occur within the start tag of an element, 
+but each start tag can contain only one XML attribute with a given 
+attribute name. XML attribute values can contain only character data.</p>
+
+<div align="center">
+<a name="example1" id="example1"></a>
+
+<table summary="Example 1" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;metadata&gt;
+  &lt;title lang="en"&gt;DCMI Home Page&lt;/title&gt;
+&lt;/metadata&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 1</strong></p>
+
+</div>
+
+<div align="center">
+<a name="figure1" id="figure1"></a>
+
+<p><img src="index_files/Slide1.png" alt="Fig 1: XML Elements and Attributes"></p>
+
+<p><strong>Figure 1: XML Elements and XML Attributes</strong></p>
+
+</div>
+
+<p>This document uses the term <strong>component</strong> to refer to XML elements and XML attributes.</p>
+
+<p>XML does not provide a fixed set of element type names and attribute 
+names. Rather users of XML define their own sets of element type names 
+and attribute names for use in tags in XML documents. For this reason, 
+XML is sometimes referred to as a <strong>"meta-language"</strong>, a set of rules for defining XML languages.</p>
+
+</div>
+
+<div>
+<a id="sec2.2" name="sec2.2"></a>
+<h3>2.2 XML DTDs and XML Schemas</h3>
+
+<p>XML Document Type Definitions (DTDs) [<a href="#XML">XML</a>] and XML Schemas [<a href="#XMLS">XMLS</a>] provide means of describing/defining constraints on the <strong>structure</strong>
+ of a class of XML documents, the structural relationships that can 
+exist between components: for a named XML element type, the names of the
+ child XML elements it can contain and the XML attributes can be 
+associated with it, and so on. i.e. XML Schemas and XML DTDs describe <strong>content models</strong>
+ for named XML element types and attributes. XML Schema also introduces a
+ datatyping mechanism which is not discussed further in ths document.</p>
+
+<p>An XML document which conforms to the rules of the XML specification 
+and to the structural constraints described by an XML DTD or XML Schema 
+is described as <strong>valid</strong>.</p>
+
+<p>An XML document is described as <strong>well-formed</strong> if it 
+meets certain syntactic constraints: simplifying slightly, 
+well-formedness requires that the document contains only one outermost 
+XML element (the root element), that each XML element has a start and 
+end tag, and that tags are not overlapping. An XML document can be 
+well-formed without being associated with an XML DTD or XML Schema.</p>
+
+</div>
+
+<div>
+<a id="sec2.3" name="sec2.3"></a>
+<h3>2.3 XML Namespaces and XML Qualified Names</h3>
+
+<p>As noted above, users of XML define sets of element type names and 
+attribute names for use in tags in XML documents. Further, it can be 
+useful to (re)use independently defined sets of names in combination 
+within the same XML document. However, this raises the prospect of 
+collisions between names which have been defined in multiple name sets.</p>
+
+<p>The <em>Namespaces in XML</em> specification [<a href="#XMLNS">XMLNS</a>] seeks to address the problem of name collisions by providing a mechanism for giving <strong>expanded names</strong> to XML elements and XML attributes. An expanded name is a pair made up of two parts: an <strong>XML Namespace Name</strong> (which is a URI reference) and a <strong>local name</strong>. N.B. An expanded name is <em>not</em> itself a URI reference.</p>
+
+<p><em>Namespaces in XML</em> also introduces the <strong>XML Qualified Name (QName)</strong>
+ as a syntactic construct for deploying expanded names in XML documents.
+ A QName consists of a prefix and a local part. Namespaces are applied 
+to XML elements and XML attributes through the mechanism of a <strong>namespace declaration</strong>
+ which applies to all XML element and XML attribute names within its 
+scope which have a prefix that matches that specified in the 
+declaration. The namespace declaration is said to "bind" a prefix to an 
+XML Namespace Name.</p>
+
+<div align="center">
+<a name="example2" id="example2"></a>
+
+<table summary="Example 2" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;metadata xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+  &lt;dc:title xml:lang="en"&gt;DCMI Home Page&lt;/dc:title&gt;
+&lt;/metadata&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 2</strong></p>
+
+</div>
+
+<div align="center">
+<a name="figure2" id="figure2"></a>
+
+<p><img src="index_files/Slide2.png" alt="XML Namespaces"></p>
+
+<p><strong>Figure 2: XML Namespaces</strong></p>
+
+</div>
+
+<p>(The prefix xml is reserved and does not require an XML Namespace declaration; it is bound to the namespace name <code>http://www.w3.org/XML/1998/namespace</code>).</p>
+
+
+<p>An <strong>XML Namespace</strong> is a collection of names of XML element types and attributes. N.B. It is only a collection of <strong>names</strong>,
+ not a collection of XML elements and attributes. Further, within a 
+single XML document, the same expanded name may be used as both an XML 
+element type name and an XML attribute name (e.g. in an RDF/XML document
+ the expanded name ("http://purl.org/dc/elements/1.1/", "title") may be 
+used, encoded as an XML QName <code>dc:title</code>, as both an XML element type name and an XML attribute name.</p>
+
+<p>It is important to note that the XML Namespaces specification provides <em>only</em> a means of disambiguating the <em>names</em> of components in an XML document: the XML Namespaces specification does <em>not</em> provide a basis for "merging" together two XML documents. This is discussed further in the next two sections.</p>
+
+</div>
+
+<div>
+<a id="sec2.4" name="sec2.4"></a>
+<h3>2.4 The XML Infoset: the XML "Abstract Model"</h3>
+
+<p>A well-formed XML document can be represented as a <strong>tree structure</strong>, and the XML Information Set [<a href="#XMLINFO">XMLINFO</a>] is an abstract model that describes the set of <strong>information items</strong>
+ of different types which are available from any well-formed XML 
+document. Conversely, any well-formed XML document can be viewed simply 
+as a representation of an XML Information Set.</p>
+
+<p>For example. this XML document</p>
+
+<div align="center">
+<a name="example3" id="example3"></a>
+
+<table summary="Example 3" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;metadata xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+  &lt;dc:title xml:lang="en"&gt;DCMI Home Page&lt;/dc:title&gt;
+  &lt;dc:description xml:lang="en"&gt;DCMI is an open forum engaged in the
+  development of interoperable online metadata standards.&lt;/dc:description&gt;
+  &lt;dc:publisher&gt;DCMI&lt;/dc:publisher&gt;
+  &lt;dc:subject&gt;metadata&lt;/dc:subject&gt;
+  &lt;dc:subject&gt;resource discovery&lt;/dc:subject&gt;
+&lt;/metadata&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 3</strong></p>
+
+</div>
+
+<p>would be represented as the following tree of XML InfoSet items. (See <a href="#note2">Note 2</a>)</p>
+
+<div align="center">
+<a name="figure3" id="figure3"></a>
+
+<p><img src="index_files/Slide3.png" alt="XML Infoset"></p>
+
+<p><strong>Figure 3: The XML Infoset</strong></p>
+
+</div>
+
+<p>Note that:</p>
+
+<ul>
+<li>the types of relationships between items are defined by the XML 
+Infoset and are (at least for the subset of items considered here) 
+parent-has-child/child-has-parent and 
+element-has-attribute/attribute-is-owned-by-element relationships.</li>
+<li>the InfoSet has one root/document item, and each other item has exactly one parent (for an element) or owner (for an attribute)</li>
+<li>the order of the child information items is represented</li>
+<li>information items are not uniquely identified and several 
+information items are associated with the same expanded name (i.e. the 
+two <code>&lt;dc:subject&gt;</code> elements). Information items can be 
+uniquely addressed, but only by some reference to their context in the 
+tree structure, their relationship to other items</li>
+</ul>
+
+<p>Although the XML Infoset is not a specification for an application 
+programme interface, and XML APIs typically do not present all the 
+information described by the XML Infoset specification, most XML parsers
+ present this type of "view" of an XML document. Similarly 
+specifications like XPath (for addressing parts of an XML document) [<a href="#XPATH">XPATH</a>] and XQuery (for querying XML documents) [<a href="#XQUERY">XQUERY</a>] are based on a tree view of the document.</p>
+
+<p>Further, although the XML Infoset specification was created after the
+ XML specification, it is possible to take the view that any XML 
+document is simply a serialisation of an XML Infoset, and a number of 
+XML-based specifications are defined with reference to the XML Infoset 
+rather than to the XML specification. It may be helpful to try to think 
+in terms of the XML Infoset, or at least of a tree structure, rather 
+than the text syntax, when making comparisons between XML and RDF (see 
+below).</p>
+
+<p>XML itself says nothing about the intended meaning of element type 
+names and attribute names. Furthermore, information is also conveyed by 
+the structural relationships between components within XML documents, 
+such as the parent-child relationships between nested XML elements or 
+element-attribute relationships. XML does not prescribe any fixed 
+meaning for those structural relationships, and in different XML 
+applications, the same structural relationship many carry quite 
+different meanings.</p>
+
+<p>Even within the same application, the same structural relationship 
+may carry a different significance at different contexts within the tree
+ structure.</p>
+
+<p>Those meanings are typically described in human-readable documents 
+which specify how a particular set of named XML elements types and 
+attributes are to be interpreted. (See below on XML languages).</p>
+
+<p>So for example, suppose the designer of an XML application wants to 
+represent the information that the document with the title "Progress 
+Report" was authored by an entity named "John Smith". They might choose 
+any of the following XML structures:</p>
+
+<div align="center">
+<a name="example4" id="example4"></a>
+
+<table summary="Example 4" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;my:metadata xmlns:my="http://example.org/my/"&gt;
+  &lt;my:title&gt;Progress Report&lt;/my:title&gt;
+  &lt;my:author&gt;John Smith&lt;/my:author&gt;
+&lt;/my:metadata&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 4</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example5" id="example5"></a>
+
+<table summary="Example 5" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;your:metadata xmlns:="http://example.org/your/"
+   your:title="Progress Report"
+   your:author="John Smith"/&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 5</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example6" id="example6"></a>
+
+<table summary="Example 6" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;his:metadata xmlns:his="http://example.org/his/"&gt;
+  &lt;his:general&gt;
+    &lt;his:title&gt;Progress Report&lt;/his:title&gt;
+  &lt;/his:general&gt;
+  &lt;his:lifecycle&gt;
+    &lt;his:author&gt;John Smith&lt;/his:author&gt;
+  &lt;/his:lifecycle&gt;
+&lt;/his:metadata&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 6</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example7" id="example7"></a>
+
+<table summary="Example 7" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;her:metadata xmlns:her="http://example.org/her/"&gt;
+  &lt;her:x&gt;
+    &lt;her:t&gt;Progress Report&lt;/her:t&gt;
+  &lt;/her:x&gt;
+  &lt;her:y her:a="John Smith"/&gt;
+&lt;/her:metadata&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 7</strong></p>
+
+</div>
+
+<p>All of these are good uses of XML, but they result in very different 
+XML Infosets. It is impossible to interpret what meaning is being 
+conveyed in any of these documents unless the author of the document or 
+the designer of the XML application provides a description which 
+explains what the names of the components and the structural 
+relationships between those components are intended to convey. A human 
+reader (or at least an English-speaking one!) may be tempted to guess at
+ the interpretation based on the names of the components, but as the 
+last example illustrates, XML imposes no requirement that names are 
+drawn from human languages.</p>
+
+<p>Similarly a software application querying these documents would have 
+to be programmed to navigate the four different tree structures. The 
+question "What is the name of the author of the work titled 'Progress 
+Report'?" must be translated into a different query on the tree 
+structure in each case.</p>
+
+</div>
+
+
+<div>
+<a id="sec2.5" name="sec2.5"></a>
+<h3>2.5 Names in XML Vocabularies and XML Languages</h3>
+
+<p>Effective information exchange using XML depends on the sender and 
+receiver of the XML document having a common understanding of the 
+meaning conveyed by the names used in the XML document and by the 
+structural relationships between named components in the XML document. 
+That is, information exchange depends of the on the shared use of <strong>XML languages</strong> (or <strong>formats</strong>)
+ and on the sender and receiver having a common understanding of the 
+rules of the XML language. All XML documents are instances of XML 
+languages, and the interpretation of an XML document is determined by 
+the specification of an XML language.</p>
+
+<p>Such an <strong>XML language</strong> or format has three parts:</p>
+
+<ol>
+<li>An <strong>XML vocabulary</strong>: a set of names, drawn from one 
+or more XML Namespaces (or from none), which are used as XML element 
+type names and XML attribute names.</li>
+<li>A set of <strong>structural constraints</strong> which specifies how
+ the names are to be used as names of components, and describes the 
+permitted content models for those components. The constraints may be 
+expressed by an XML DTD or XML Schema or by some other formalism, or may
+ simply take the form of a narrative description.</li>
+<li>A <strong>description</strong> of how the named components, and the 
+structural relationships between those components, are to be interpreted
+ to convey information. (see <a href="#note3">Note 3</a>)</li>
+</ol>
+
+<div align="center">
+<a name="figure4" id="figure4"></a>
+
+<p>[image to follow]</p>
+
+<!--
+
+<p><img src="image/Slide4.png" alt="Fig 4: XML Vocabularies and XML Languages"></p>
+
+-->
+
+<p><strong>Figure 4: XML Vocabularies and XML Languages</strong></p>
+
+</div>
+
+<p>It is worth exploring some facets of the complex relationships between names, vocabularies, and languages.</p>
+
+<div>
+<a id="sec2.5.1" name="sec2.5.1"></a>
+<h4>2.5.1 XML languages do not <em>require</em> the use of XML Namespaces</h4>
+
+<p>Many XML languages do not make use of XML Namespaces in their 
+vocabularies. Examples include Docbook and Encoded Archival Description 
+(EAD). These two XML languages may include components with the same 
+names, but those components have different content models and the 
+meaning conveyed by those components is different (and is described by 
+the human-readable language specifications).</p>
+
+</div>
+
+<div>
+<a id="sec2.5.2" name="sec2.5.2"></a>
+<h4>2.5.2 XML Vocabularies and XML Namespaces</h4>
+
+<p>There is no simple correspondence between between the set of names 
+used in an XML vocabulary and an XML Namespace. A vocabulary may draw on
+ names that are associated with multiple XML Namespace Names. And the 
+vocabularies of different XML languages may utilise different sets of 
+names associated with the same XML Namespace. e.g. the XHTML 1.0 
+specification defines three different XML languages: XHTML Transitional,
+ XHTML Strict and XHTML Frameset. Each uses a <em>different</em> XML vocabulary but in each case the set of names is associated with the <em>same</em> XML Namespace Name <code>http://www.w3.org/1999/xhtml</code>.</p>
+
+</div>
+
+<div>
+<a id="sec2.5.3" name="sec2.5.3"></a>
+<h4>2.5.3 One name, one component, different constraints</h4>
+
+<p>A <em>single</em> name may be used as the name of an XML component (XML element, XML attribute) in <em>multiple</em> XML languages, and the named component may be associated with a <em>different</em>
+ set of structural constraints in each XML language, e.g. the XML 
+vocabulary of the XHTML Transitional language is a superset of the XML 
+vocabulary of the XHTML Strict languages. However in each of those 
+languages the named components are associated with a different set of 
+structural constraints, different content models.</p>
+
+</div>
+
+<div>
+<a id="sec2.5.4" name="sec2.5.4"></a>
+<h4>2.5.4 One name, multiple components</h4>
+
+<p>Within a single XML language, a <em>single</em> name (whether it is qualified by an XML Namespace Name or not) may be associated with <em>different</em>
+ types of XML component. The information conveyed by those different 
+components may be different, even if their names are the same.</p>
+
+<p>For example, XHTML uses the name <code>link</code> as the name of 
+both an XML element and an XML attribute, but the information conveyed 
+by those two components is quite different.</p>
+
+<p>[This is actually not a good example as the name of the attribute is 
+not namespace qualified so the name of the element is different from the
+ name of the attribute! But the principle holds! I'll try to find a 
+better example.]</p>
+
+</div>
+
+<div>
+<a id="sec2.5.5" name="sec2.5.5"></a>
+<h4>2.5.5 One name, one component, different contexts</h4>
+
+<p>Within a single XML language, the way individual components are 
+interpreted is conditioned by their structural relationships with other 
+components (containment relations, element/attribute relations etc). So 
+the same name may occur as the name of a component in different contexts
+ in the tree-structure, and it may convey different meaning in those two
+ contexts. For example, in the XML format used to represent instances of
+ the IEEE Learning Object Metadata standard, an XML element with the 
+expanded name "http:// (typically represented by the QName <code>lom:language</code>) may occur in three different contexts in the XML tree structure:</p>
+
+<div align="center">
+<a name="example8" id="example8"></a>
+
+<table summary="Example 8" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;lom:lom xmlns:lom="http://ltsc.ieee.org/xsd/LOM"&gt;
+  &lt;lom:general&gt;
+    &lt;lom:language&gt;en&lt;/lom:language&gt;
+  &lt;/lom:general&gt;
+  &lt;lom:metametadata&gt;
+    &lt;lom:language&gt;en&lt;/lom:language&gt;
+  &lt;/lom:metametadata&gt;
+  &lt;lom:educational&gt;
+    &lt;lom:language&gt;en&lt;/lom:language&gt;
+  &lt;/lom:educational&gt;
+&lt;/lom:LOM&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 8</strong></p>
+
+</div>
+
+<p>The same XML element conveys three different pieces of information depending on its context in the tree structure:</p>
+
+<ul>
+<li>as a child element of the <code>lom:general</code> XML element, it is used to represent the language used within the learning object</li>
+<li>as a child element of the <code>lom:metametadata</code> XML element, it is used to represent the language of the metadata instance</li>
+<li>as a child element of the <code>lom:education</code> XML element, it is used to represent the language of a typical user of the learning object</li>
+</ul>
+
+</div>
+
+<div>
+<a id="sec2.5.6" name="sec2.5.6"></a>
+<h4>2.5.6 Ordering of components</h4>
+
+<p>A variant of the previous case of context conditioning interpretation
+ is that the ordering of components may be significant in an XML 
+language. In the LOM XML binding, ordering is considered significant in 
+several parts of the tree-structure e.g. a sequence of source/value XML 
+element pairs is used to represent a list of learning resource types, 
+and according to the LOM standard, "The most dominant kind shall be 
+first".</p>
+
+</div>
+
+<div>
+<a id="sec2.5.7" name="sec2.5.7"></a>
+<h4>2.5.7 One name, different components, different languages</h4>
+
+<p>Consider the following three documents:</p>
+
+<div align="center">
+<a name="example9" id="example9"></a>
+
+<table summary="Example 9" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+  &lt;rdf:Description dc:title="DCMI Home Page" /&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 9: RDF/XML</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example10" id="example10"></a>
+
+<table summary="Example 10" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;description xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+  &lt;dc:title&gt;DCMI Home Page&lt;/dc:title&gt;
+&lt;/description&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 10: DC-XML</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example11" id="example11"></a>
+
+<table summary="Example 11" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;xsl:stylesheet version="1.0"
+                   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+
+  &lt;xsl:template match="/""&gt;
+    &lt;dc:title&gt;
+      &lt;xsl:text&gt;DCMI Home Page&lt;/xsl:text&gt;
+    &lt;/dc:title&gt;
+  &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 11: XSLT</strong></p>
+
+</div>
+
+<p>The XML QName <code>dc:title</code> occurs as the name of a component
+ in all three XML documents, and in each case it corresponds to the same
+ expanded name ("http://purl.org/dc/elements/1.1/", "title").</p>
+
+<p>In <a href="#example9">Example 9</a>, it is the name of an XML 
+attribute, and when the XML document is interpreted following the rules 
+of the RDF/XML specification [<a href="#RDFXML">RDFXML</a>], the XML Infoset is interpreted as representing a single RDF triple.</p>
+
+<p>In <a href="#example10">Example 10</a>, it is the name of an XML 
+element, with text only content, and if the XML document is interpreted 
+following the rules of the DC-XML language described in <em>Guidelines for Expressing DC in XML</em> [<a href="#DCXML">DCXML</a>]
+ [assuming they were better written!], the document is interpreted as 
+representing a Dublin Core metadata description, consisting of a single 
+statement about an unidentified resource.</p>
+
+<p>In <a href="#example11">Example 11</a>, it is again the name of an 
+XML element, but this time with a single child XML element. The document
+ is interpreted following the rules of the XSLT XML language [<a href="#XSLT">XSLT</a>],
+ and the  expanded name ("http://purl.org/dc/elements/1.1/", "title") is
+ interpreted not as part of a DC metadata description, but simply as the
+ name of an element node to be added to the XML result tree generated by
+ the XSLT transformation.</p>
+
+</div>
+
+<div>
+<a id="sec2.5.8" name="sec2.5.8"></a>
+<h4>2.5.8 Summary</h4>
+
+<p>The aim of providing these detailed examples is to illustrate that 
+the same XML expanded name (XML Namespace Name, Local Name pair) may be 
+used in <strong>multiple</strong> XML vocabularies and in <strong>multiple</strong>
+ XML languages. While the XML Namespaces specification provides for the 
+avoidance of name collisions, it does not address the question of what 
+it means to mix named components from different XML languages. XML 
+components (XML elements and XML attributes) are not, in the general 
+case, "stand-alone" and can not be interpreted independently of their 
+context in an XML document. Meaning in XML documents is derived from 
+combinations of named components. There is some expectation that the 
+name has a consistent meaning across XML languages, but the meaning of a
+ named component is always <strong>scoped by the XML language in which it occurs</strong>, and even within a single XML language, the meaning of a named component may be dependent on <strong>the context of that component within the tree structure</strong>.</p>
+
+</div>
+
+</div>
+
+
+<div>
+<a id="sec2.6" name="sec2.6"></a>
+<h3>2.6 Modularity and Extensibility in XML Languages</h3>
+
+<p>The ability to use components of an XML language independently of 
+other components of the language and to (re)use components that are 
+specified within one XML language in the context of another XML language
+ should not be taken for granted. If an XML language is to be 
+extensible, that extensibility must be built into the design of the 
+language.</p>
+
+<p>Some XML languages are defined as essentially standalone and are 
+intended to be used more or less by themselves (e.g. TEI, XHTML). But 
+some XML languages are created to be used in association with other 
+languages.</p>
+
+<p>Some are container languages where the expectation is that they will 
+act as a wrapper for components (sometimes referreed to as a "payload") 
+which are themselves constructed according to the rules of another 
+language, where this second language may not even be known at the time 
+the container language is designed.  Examples of container languages 
+include the SOAP or OAI-PMH formats. The containment function is defined
+ within the rules of the SOAP language: a receiver of a SOAP XML 
+instance interprets that document according to those containment rules, 
+but the contained component is interpreted according to the rules of a 
+second language. Similarly METS, although not only a container language,
+ has well-defined components which do act as containers for other XML 
+formats</p>
+
+<p>At the other extreme are XML languages are intended for use within 
+the context of other languages. For example, MathML can be used 
+stand-alone, but is also intended to be embedded within other languages.
+ Some XML languages can <em>only</em> be deployed in the context of 
+another language e.g. languages like XLink or RDF/A provide only XML 
+attributes, which are intended for use on the XML elements defined by 
+another XML language. (Such languages are sometimes referred to as 
+"parasite" languages as they require a "host".)</p>
+
+<p>[Middle-ground examples e.g. RSS2.0/Atom, RDF/XML, DC in XML - they 
+work because there is another data model layered on top of the XML 
+InfoSet]</p>
+
+</div>
+
+<div>
+<a id="sec2.7" name="sec2.7"></a>
+<h3>2.7 Summary</h3>
+
+<table summary="example" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+
+<div align="left">
+
+<ul>
+<li>XML QNames (as representations of expanded names) are associated 
+with components of XML documents (XML elements, XML attributes). 
+Multiple XML elements in the same document may have the same expanded 
+name.</li>
+<li>XML DTDs and XML Schemas describe structural constraints on a class of XML documents</li>
+<li>An XML language consists of an XML vocabulary (a set of names), a 
+set of structural constraints (which may be expressed by a DTD or XML 
+Schema), and a human-readable specification of how the named components 
+are interpreted</li>
+<li>XML imposes no fixed meaning on the structural relationships between
+ XML components (parent-child relationships between elements or owner 
+relationships between attributes and elements), and the same 
+relationship carries different meaning in different XML languages and in
+ different contexts within the same XML language<p></p>
+</li><li>The same XML QName (representing an expanded name) may be used 
+in the XML vocabulary of multiple XML languages; in each of those XML 
+languages, the named component may be subject to different structural 
+constraints</li>
+<li>Although there is some expectation that names are used consistently 
+across XML languages, the meaning of a name is dependent on the XML 
+language in which it occurs</li>
+<li>The interpretation of an XML document depends not only on the XML 
+vocabulary, but on the rules of the XML language, and these rules - the 
+"semantics" of the language - are available only to the human reader. In
+ particular, they are not part of the XML Infoset, the XML "abstract 
+model".</li>
+</ul>
+
+</div>
+
+</td>
+</tr>
+</tbody></table>
+
+</div>
+
+</div>
+
+<div>
+<a id="sec3" name="sec3"></a>
+<h2>3. RDF, URI references, and RDF/XML</h2>
+
+
+<div>
+<a id="sec3.1" name="sec3.1"></a>
+<h3>3.1 The RDF data model and URI references</h3>
+
+<p>The Resource Description Framework (RDF) set of specifications 
+describe a means of constructing simple statements about resources.</p>
+
+<p>Central to RDF is the idea of the resource, which can be anything you
+ wish to describe -  a document, a physical object, a person, an 
+imaginary being, a concept, anything at all - and the idea of 
+identifying resources using Uniform Resource Identifiers (URIs) (or more
+ accurately URI references). In RDF, URI references are simply names for
+ things. The fact that some URI references used in RDF may also be used 
+by software applications to obtain access to digital objects is 
+irrelevant to RDF. Also RDF treats URI references as "opaque" strings: 
+the internal structure of a URI reference has no significance in RDF. It
+ is important to note that an RDF application can not determine the 
+relationship between a URI reference and a resource - it can only make 
+use of the URI reference as a name.</p>
+
+<p>(The nature of the relationship between URI references and resources 
+has been part of the debate about "social meaning" in RDF. Essentially, 
+URI references are used as if they always identify/denote a single 
+resource, but that assumption is not part of the formal semantics of 
+RDF. (I think I've got that right, but I may be oversimplifying.))</p>
+
+<!-- RDF is based on the assumption that a URI reference identifies the same thing wherever it occurs [<a href="#RDFSEM">RDFSEM</a>].-->
+
+<!--
+<blockquote>
+<p>This document does not take any position on the way that URI references may be composed from other expressions, e.g. from relative URIs or QNames; the semantics simply assumes that such lexical issues have been resolved in some way that is globally coherent, so that a single URI reference can be taken to have the same meaning wherever it occurs. Similarly, the semantics has no special provision for tracking temporal changes. It assumes, implicitly, that URI references have the same meaning whenever they occur. To provide an adequate semantics which would be sensitive to temporal changes is a research problem which is beyond the scope of this document.</p>
+</blockquote>
+-->
+
+<p>The basic building block of the RDF data model is the <strong>triple</strong>, consisting of a subject, a predicate and an object. The <strong>subject</strong> is a URI reference (or a "blank node"), the <strong>predicate</strong> is a URI reference, and the <strong>object</strong>
+ is a URI reference, a blank node or a literal. (This document will not 
+deal with "blank nodes" in any detail - for the purposes of the current 
+discussion a blank node can be considered to be a sort of local 
+identifier for a resource which is not identified by a URI reference.)</p>
+
+<p>Each triple represents a statement: that statement asserts that a 
+relationship exists between the two resources denoted by the subject and
+ the object of the triple, and the type of that relationship is 
+indicated by the predicate URI reference. A URI reference that is used 
+as the predicate of a triple denotes a particular type of resource 
+called a <strong>property</strong>.</p>
+
+<p>As noted above, RDF does not deal with the relationship between a URI
+ reference and the resource it denotes. Although this level of "meaning"
+ - the difference between "having a title" and "having a subject", for 
+example - may be used by the human interpreters of RDF statements, or by
+ programmers writing software to operate on RDF data - it is not 
+accessible to software. However, the RDF specifications, specifically <em>RDF Semantics</em> [<a href="#RDFSEM">RDFSEM</a>],
+ do provide a "formal meaning" for RDF and for the sets of URI 
+references (vocabularies) defined by the RDF specifications. This 
+"formal meaning" is defined in terms of the logical inferences that can 
+be drawn, the "entailments" that follow, from the use of those URI 
+references in RDF statements.</p>
+
+<p>The following four triples represent four statements, each one stating a relationship between two resources:</p>
+
+<div align="center">
+<a name="example12" id="example12"></a>
+
+<table summary="example" align="center" border="1" cellpadding="2" width="90%">
+<tbody><tr>
+<th width="33%">Subject</th>
+<th width="33%">Predicate</th>
+<th width="33%">Object</th>
+</tr>
+<tr>
+<td><small>http://example.org/doc/123</small></td>
+<td><small>http://purl.org/dc/elements/1.1/creator</small></td>
+<td><small>http://example.org/person/John</small></td>
+</tr>
+<tr>
+<td><small>http://example.org/doc/456</small></td>
+<td><small>http://purl.org/dc/elements/1.1/contributor</small></td>
+<td><small>http://example.org/person/John</small></td>
+</tr>
+<tr>
+<td><small>http://example.org/person/John</small></td>
+<td><small>http://xmlns.com/foaf/0.1/name</small></td>
+<td><small>"John Smith"</small></td>
+</tr>
+<tr>
+<td><small>http://example.org/person/John</small></td>
+<td><small>http://xmlns.com/foaf/0.1/knows</small></td>
+<td><small>http://example.org/person/James</small></td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 12</strong></p>
+
+</div>
+
+<p>Since RDF triples by definition accommodate only one subject and one 
+object, a property describes a relationship between two resources, a 
+binary relation. So a property is a "conceptual resource". It is still a
+ resource, however, and a property URI reference can be the subject or 
+object of an RDF triple, i.e. RDF allows you to create statements 
+"about" a property in the same way as about other types of resource.</p>
+
+<div align="center">
+<a name="example13" id="example13"></a>
+
+<table summary="example" align="center" border="1" cellpadding="2" width="90%">
+<tbody><tr>
+<th width="33%">Subject</th>
+<th width="33%">Predicate</th>
+<th width="33%">Object</th>
+</tr>
+<tr>
+<td><small>http://purl.org/dc/elements/1.1/creator</small></td>
+<td><small>http://www.w3.org/2000/01/rdf-schema#label</small></td>
+<td><small>"Creator"</small></td>
+</tr>
+<tr>
+<td><small>http://purl.org/dc/elements/1.1/creator</small></td>
+<td><small>http://www.w3.org/2000/01/rdf-schema#comment</small></td>
+<td><small>"An entity primarily responsible for making the content of the resource."</small></td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 13</strong></p>
+
+</div>
+
+
+<p>While the abstract model of an XML document is a tree, the abstract 
+model for RDF is a "graph": a structure where "nodes" are linked 
+together by "arcs". The subject and object of a triple are represented 
+by nodes and the predicate is a labelled arc linking from the subject 
+node to the object node. The triples in <a href="#example12">Example 12</a> would be represented as the following graph:</p>
+
+<div align="center">
+<a name="figure5" id="figure5"></a>
+
+<p><img src="index_files/Slide5.png" alt="Fig 5: The RDF Graph"></p>
+
+<p><strong>Figure 5: The RDF Graph</strong></p>
+
+</div>
+
+<p>Just as the XML Infoset tree is an alternative view of an XML 
+document, so the RDF graph is an alternative view of the 
+subject-predicate-object triples.</p>
+
+<p>In the RDF graph, the nodes are URI references that name resources of
+ any type, and any node may be linked to an unlimited number of other 
+nodes, and each of those links may carry any URI reference as a label. 
+There is no order in an RDF graph.</p>
+
+<p>The key difference between the XML Infoset tree and the RDF graph is 
+that the RDF data model specifies that each node-arc-node triple  is to 
+be interpreted as a set of statement, whereas XML leaves it to each 
+separate XML language specification to describe how the parent-child and
+ attribute-element relationships in the tree are to be interpreted.</p>
+
+<p>The triple/graph model also makes it easy to merge together two 
+different graphs, two different sets of triples. The merged graph is 
+simply the "union" of the two individual graphs, or the concatenation of
+ the sets of triples, <em>but</em> with care taken to ensure that blank 
+nodes (local identifiers) are maintained as distinct. This means that 
+combining data from different sources, which is complex using XML, is 
+relatively easy using RDF.</p>
+
+</div>
+
+<div>
+<a id="sec3.2" name="sec3.2"></a>
+<h3>3.2 RDF Vocabularies</h3>
+
+<p>In the same way that XML does not provide a fixed set of XML element 
+type names and attribute names, so RDF does not specify a fixed set of 
+URI references that can be used in RDF triples. Rather RDF user 
+communities deploy URI references that denote resources of interest to 
+them. They need not only URI references to denote the particular 
+resources (documents, books, images, concepts etc) they wish to 
+describe, but also URI references to indicate the types of those 
+resources and the properties used to describe their attributes and the 
+relationships between them i.e. user communities define RDF <strong>vocabularies</strong> for their domains of interest.</p>
+
+<p>The RDF Vocabulary Description Language (RDF Schema) [<a href="#RDFS">RDFS</a>] provides.... </p>
+
+<p>(Something about classes and type-ing, subproperty/subclass)</p>
+
+<p>(N.B. URIref opacity - tells you nothing about vocabulary etc.)</p>
+
+</div>
+
+
+<div>
+<a id="sec3.3" name="sec3.3"></a>
+<h3>3.3 Syntaxes for serialising RDF</h3>
+
+<p>In order to exchange RDF data between applications, the data must be 
+represented in some digital format. This process is referred to as <strong>serialisation</strong>.
+ The RDF data model is independent of any specific serialisation syntax.
+ In particular RDF does not rely on XML. There are several XML-based 
+syntaxes for representing sets of RDF statements, and there are also 
+several syntaxes for that are not based on XML.</p>
+
+<div>
+<a id="sec3.3.1" name="sec3.3.1"></a>
+<h4>3.3.1 RDF/XML</h4>
+
+<p>The RDF/XML specification [<a href="#RDFXML">RDFXML</a>] provides a 
+set of rules for representing a set of RDF triples in XML. In the terms 
+of the discussion of XML above, the RDF/XML specification defines 
+RDF/XML as an XML language.</p>
+
+<p>The RDF/XML language specification defines a convention for 
+representing RDF URI references as expanded names, encoded in documents 
+as XML QNames.  It is important to remember that there is a mapping 
+taking place between XML QNames in the XML document and RDF URI 
+references in the RDF graph, and that this is a convention specific to 
+the RDF/XML language. It is <em>not</em> the case that the XML expanded 
+name or the XML QName identifies the RDF property. And indeed a single 
+URI reference may be expressed in RDF/XML using many different XML 
+QNames. See <a href="#example14">Example 14</a> and <a href="#example15">Example 15</a> below.</p>
+
+<p>Further, RDF/XML represents only some URI references as XML QNames 
+(predicate URI references and URI references that represent the type of a
+ resource: other URI references are encoded in full. (Also of course 
+there are XML QNames used in RDF/XML that name components of the RDF/XML
+ language but do not map to URI references (e.g. <code>rdf:Description</code>, <code>rdf:resource</code>, <code>rdf:parseType</code> etc).</p>
+
+
+<p>The triples in <a href="#example12">Example 12</a> could be represented in RDF/XML as follows. All of these XML documents are alternate representations/serialisatiions of the <em>same</em> RDF graph.</p>
+
+<div align="center">
+<a name="example14" id="example14"></a>
+
+<table summary="example" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/"&gt;
+
+  &lt;rdf:Description rdf:about="http://example.org/doc/123"&gt;
+    &lt;dc:creator rdf:resource="http://example.org/person/John"/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description rdf:about="http://example.org/doc/456"&gt;
+    &lt;dc:contributor rdf:resource="http://example.org/person/John"/&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description rdf:about="http://example.org/person/John"&gt;
+    &lt;foaf:name&gt;John Smith&lt;/foaf:name&gt;
+    &lt;foaf:knows rdf:resource="http://example.org/person/James"/&gt;
+  &lt;/rdf:Description&gt;
+
+
+&lt;/rdf:RDF&gt;
+
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 14</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example15" id="example15"></a>
+
+<table summary="example" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/"&gt;
+
+  &lt;rdf:Description rdf:about="http://example.org/doc/123"&gt;
+    &lt;dc:creator&gt;
+      &lt;rdf:Description rdf:about="http://example.org/person/John" foaf:name="John Smith"&gt;
+        &lt;foaf:knows rdf:resource="http://example.org/person/James"/&gt;
+      &lt;/rdf:Description&gt;
+    &lt;/dc:creator&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description rdf:about="http://example.org/doc/456"&gt;
+    &lt;dc:contributor rdf:resource="http://example.org/person/John"/&gt;
+  &lt;/rdf:Description&gt;
+
+&lt;/rdf:RDF&gt;
+
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 15</strong></p>
+
+</div>
+
+
+<div align="center">
+<a name="example16" id="example16"></a>
+
+<table summary="example" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:z="http://purl.org/dc/elements/1.1/c"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/"&gt;
+
+
+  &lt;rdf:Description rdf:about="http://example.org/doc/123"&gt;
+    &lt;z:reator&gt;
+      &lt;rdf:Description rdf:about="http://example.org/person/John" foaf:name="John Smith"&gt;
+        &lt;foaf:knows rdf:resource="http://example.org/person/James"/&gt;
+      &lt;/rdf:Description&gt;
+    &lt;/z:reator&gt;
+  &lt;/rdf:Description&gt;
+
+  &lt;rdf:Description rdf:about="http://example.org/doc/456"&gt;
+    &lt;z:ontributor rdf:resource="http://example.org/person/John"/&gt;
+  &lt;/rdf:Description&gt;
+
+&lt;/rdf:RDF&gt;
+
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 16</strong></p>
+
+</div>
+
+<p><a href="#example16">Example 16</a> was designed to highlight that RDF/XML makes a mapping between XML expanded names and URI references. <a href="#example15">Example 15</a> and <a href="#example16">Example 16</a>
+ have the same XML document structure, a corresponding set of XML 
+components. But those components have a different set of XML expanded 
+names in each case. Yet they both represent the same RDF graph, the same
+ set of RDF triples. It is important to remember that, to an RDF 
+application, these variations in the serialisation syntax - which <em>would</em> be significant in an XML application - are quite invisible and have no significance: the QNames <code>dc:creator</code> (in <a href="#example14">Example 14</a> and <a href="#example15">Example 15</a>) and <code>z:reator</code> (in <a href="#example16">Example 16</a>) are both simply a means of representing the single URI reference <code>http://purl.org/dc/elements/1.1/creator</code>, and many other prefix/namespace name/local name permutations are possible.</p>
+
+</div>
+
+<div>
+<a id="sec3.3.2" name="sec3.3.2"></a>
+<h4>3.3.2 Other syntaxes</h4>
+
+
+<p>RDF/XML is just one syntax for the serialisation of RDF graphs. There
+ are other XML-based syntaxes (e.g. TRiX, ) and also text-based syntaxes
+ not based on XML (e.g. N-Triples, Turtle etc). Many of these syntaxes 
+incorporate a mechanism which permits the encoding of URI references 
+using Qualified Names, though in the case of the non-XML syntaxes these 
+conventions are unrelated to the concept of the <strong>XML</strong> 
+Namespace. A single RDF application might read and write documents in 
+many different RDF serialisation syntaxes, but all the different formats
+ are representations of graphs, sets of triples.</p>
+
+<p>For these reasons, it is important when discussing RDF - and 
+particularly when comparing RDF and XML - to try to focus on the 
+"abstract models" of the RDF graph and the XML tree. Comparison at the 
+syntactic level may lead to confusion and false conclusions, 
+particularly (as the examples above show) regarding the significance or 
+otherwise of the <em>names</em> (QNames, expanded names) used to label 
+XML components. This can be difficult at first for people accustomed to 
+reading XML documents, but it is an absolutely vital step.</p>
+
+</div>
+
+</div>
+
+
+<div>
+<a id="sec3.4" name="sec3.4"></a>
+<h3>3.4 Summary</h3>
+
+<table summary="example" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+
+<div align="left">
+
+<ul>
+<li>URI references are identifiers for resources of any type.</li>
+<li>RDF provides a simple data model for making simple statements about 
+resources in the form of triples composed of a subject, predicate and 
+object. RDF statements make use of URI references as names.</li>
+<li>The RDF "abstract model" is that of a graph, with nodes linked together by labelled arcs.</li>
+<li>The RDF data model is defined quite independently of XML, but sets of RDF triples can be serialised as XML documents.</li>
+<li>(RDF Schema)</li>
+</ul>
+
+</div>
+
+</td>
+</tr>
+</tbody></table>
+
+</div>
+
+
+<div>
+<a id="sec4" name="sec4"></a>
+<h2>4. XML and RDF</h2>
+
+<div>
+<a id="sec4.1" name="sec4.1."></a>
+<h3>4.1 Qualified Names in XML amd RDF</h3>
+
+<p>In XML, XML QNames are used in XML documents to represent the XML 
+expanded names (two part constructs made up of an XML Namespace Name and
+ a local name) that form the vocabulary of an XML language. Those 
+expanded names are used as the names of components in XML documents (XML
+ elements, XML attributes). They are processed and interpreted according
+ to the specification of that XML language. It must be emphasised that 
+in XML generally, XML QNames are <em>not</em> URI references and they are not mapped to URI references.</p>
+
+<p>In RDF, some text-based serialisation syntaxes provide a mechanism 
+for using "qualified names" to abbreviate URI references. And in 
+discussions of RDF generally, it is commonplace to find "qualified 
+names" used, as abbreviations for those URI references, to refer to 
+those properties and classes. So, for example, the property with the URI
+ reference <code>http://purl.org/dc/elements/1.1/title</code> is sometimes referred to as <code>dc:title</code> or <code>DC.title</code>. The qualified name form is simply an abbreviation for the full URI reference.</p>
+
+<p>In RDF/XML, URI references may be represented as XML expanded names, 
+which are encoded as XML QNames used as XML element type names or XML 
+attribute names. However, it is important to bear in mind that the XML 
+components in XML documents are different things from the property 
+itself, and that there is a mapping process taking place which is 
+specific to this XML language.</p>
+
+<p>A focus on the RDF/XML syntax to the exclusion of the RDF data model 
+can lead to false assumptions about the use of names in XML languages 
+and in RDF.</p>
+
+<p>The vocabulary of an XML language (the set of expanded names which is
+ encoded as QNames) i snot the same thing as an RDF vocabulary (a set of
+ URI references). And the existence of an XML vocabulary and the use of 
+the corresponding QNames in XML documents does <em>not</em> result in 
+the creation of a corresponding set of URI references. Approaching RDF 
+on the basis that the QNames that have been used in an XML language can 
+simply be redeployed in RDF/XML is not a coherent approach because it 
+ignores the fact that in the two contexts the names apply to quite 
+different entities and are interpreted in quite different ways.</p>
+
+<p>Certainly, an XML QName currently used in any XML language (XHTML, MODS, METS etc,) <em>could</em>
+ be deployed in an RDF/XML document. URI references do not have to be 
+pre-declared before they appear in RDF triples. And depending on the 
+context in which that XML QName is used in the RDF/XML document, an 
+RDF/XML parser would generate a URI reference from the expanded name and
+ present that URI reference in an RDF triple. It may appear as the 
+predicate of an RDF triple, and on that basis an RDF application will 
+infer that the generated URI reference denotes a property. But that 
+property is not the same thing as the initial XML component</p>
+
+<p>Consider a concrete example. The XHTML XML language includes an XML element type name <code>title</code> associated with the XML Namespace Name <code>http://www.w3.org/1999/xhtml</code>. That name can be deployed in an RDF/XML document:</p>
+
+<div align="center">
+<a name="example17" id="example17"></a>
+
+<table summary="Example 17" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:xhtml="http://www.w3.org/1999/xhtml"&gt;
+  &lt;rdf:Description xhtml:title="DCMI Home Page" /&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 17: RDF/XML</strong></p>
+
+</div>
+
+<p>and an RDF/XML parser will generate the triple</p>
+
+<div align="center">
+<a name="example18" id="example18"></a>
+
+<table summary="example" align="center" border="1" cellpadding="2" width="90%">
+<tbody><tr>
+<th width="33%">Subject</th>
+<th width="33%">Predicate</th>
+<th width="33%">Object</th>
+</tr>
+<tr>
+<td><small>(blank node)</small></td>
+<td><small>http://www.w3.org/1999/xhtmltitle</small></td>
+<td><small>"DCMI Home Page"</small></td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 18</strong></p>
+
+</div>
+
+<p>The RDF/XML parser generates a URI reference and infers that the URI 
+reference denotes a property, but the XHTML specification does not 
+provide any information about a resource with the URI reference <code>http://www.w3.org/1999/xhtmltitle</code>
+ and there is no RDF Schema description of this property. The XHTML 
+specification describes an XML language and describes only XML 
+components with expanded names, to be interpreted in the context of an 
+XML tree structure. The <code>xhtml:title</code> element is described as a container for a text string, not as a property.</p>
+
+<p>Further, using the same XML name as the name of a different component in RDF/XML generates a <em>different</em> RDF graph:</p>
+
+<div align="center">
+<a name="example19" id="example19"></a>
+
+<table summary="Example 19" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:xhtml="http://www.w3.org/1999/xhtml"&gt;
+  &lt;xhtml:title rdfs:label="DCMI Home Page" /&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 19: RDF/XML</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example20" id="example20"></a>
+
+<table summary="example" align="center" border="1" cellpadding="2" width="90%">
+<tbody><tr>
+<th width="33%">Subject</th>
+<th width="33%">Predicate</th>
+<th width="33%">Object</th>
+</tr>
+<tr>
+<td><small>(blank node)</small></td>
+<td><small>http://www.w3.org/1999/02/22-rdf-syntax-ns#</small></td>
+<td><small>http://www.w3.org/1999/xhtmltitle</small></td>
+</tr>
+<tr>
+<td><small>(blank node)</small></td>
+<td><small>http://www.w3.org/2000/01/rdf-schema#label</small></td>
+<td><small>"DCMI Home Page"</small></td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 20</strong></p>
+
+</div>
+
+<p>Here the rules of the RDF/XML language dictate that <code>xhtml:title</code>
+ is interpreted as representing a URI reference that provides the type 
+of the resource, and an RDF processor infers that that URI reference 
+denotes a class. Again no such interpretation is covered by the XHTML 
+specification.</p>
+
+<p>And consider the rest of the vocabulary of the XHTML language. Any name from that vocabulary (<code>xhtml:html, xhtml:p, xhtml:em</code>)
+ could be deployed in the same way, and an RDF triple generated, but 
+such triples do not form - or do not necessarily form - a coherent 
+representation of the information conveyed by the XHTML XML language.</p>
+
+<p>Such an approach is simply transposing names from one context to 
+another with no consideration for the contexts within which the names 
+are deployed and interpreted. In short the names used in an XML language
+ can not simply be transposed into RDF (or rather into RDF/XML), or at 
+least not in any meaningful way. (See <a href="#note4">Note 4</a>)</p>
+
+<p>To map between XML and RDF - or rather, as discussed in the next 
+section, between an XML language and the RDF data model - , it is 
+necessary to consider not simply the vocabulary of the XML language but 
+the meaning that the XML language is intended to convey, the semantics 
+of the language that are not accessible from the XML Infoset.</p>
+
+<p>Note that it may emerge that that "semantic" analysis/re-modelling/mapping process <em>does</em>
+ lead to a decision to use URI references that are encoded using QName 
+forms that are similar to those used in the XML language e.g. in the 
+example above the mapping might specify that an RDFS class called <code>http://www.w3.org/1999/xhtmltitle</code>
+ is required. But that decision would then be the result of the 
+considered analysis and re-modelling, taking into account the contexts 
+of the XML language and the RDF data model, rather than a "blind" 
+transfer of the names.</p>
+
+</div>
+
+<div>
+<a id="sec4.2" name="sec4.2."></a>
+<h3>4.2 Mapping XML Languages to the RDF data model</h3>
+
+<p>It may well be the case that an XML document <em>does</em> represent 
+simple statements about resources. But there is nothing in the XML 
+specification that describes how to represent such statements in the XML
+ tree structure. Different XML language designers make different 
+decisions about how the document author should encode this information 
+in an XML document. As a result, the recipient of the XML document needs
+ access to the specification of the XML language if they are to 
+interpret the XML document as anything other than a simple tree 
+structure.</p>
+
+<p>As a consequence, there is no single way of interpreting an XML tree 
+structure in terms of the RDF data model. Rather it is necessary to:</p>
+
+<ul>
+<li>analyse the specification of the individual XML language to 
+determine what information is being represented by that language, the 
+semantics of the XML language that are not directly accessible from the 
+XML Infoset</li>
+<li>develop a specification of how that information shoyuld be 
+represented using the RDF data model (using URI references from existing
+ RDF vocabularies, or by developing new RDF vocabularies for the 
+concepts specific to the application domain within which the XML 
+language is used, or by a combination of the two approaches)</li>
+<li>describe the mapping or correspondence between constructs used in 
+the XML language and statements made using the URI references selected 
+or created</li>
+</ul>
+
+<p>This is a re-modelling and mapping process: the names and components 
+used in XML documents are quite different from those used in RDF graphs.
+ It is also an XML-language-specific process because, as described 
+above, the interpretation of names and components varies across XML 
+languages. It may also vary according to the context of the named 
+component within the same XML language. Because of the nature of, and 
+the differences between, the XML and RDF data models, there may be no 
+simple one-to-one correspondence between XML element type names and XML 
+attribute names on the one hand and RDF URI references on the other.</p>
+
+<p>Depending on the design of the XML language, there may be regular 
+"patterns" used in that language which make this mapping process easier,
+ and encouraging the adoption of such patterns may facilitate the 
+development of the mapping. But in the general case there is no one set 
+of rules that can be applied to all existing XML languages. This was 
+summarised concisely in a <a href="http://lists.w3.org/Archives/Public/www-rdf-interest/2005Jan/0109.html">recent message</a> to the W3C RDF Interest Group mailing list</p>
+
+<blockquote>
+<p>There is no default mapping of XML document instances to RDF triples,
+ other than the representation of the infoset in RDF, since XML is a 
+generic framework that allows people to create an unbounded amount of 
+applications on top of it.</p>
+<p align="right">- Sean B. Palmer, 2005-01-15</p>
+</blockquote>
+
+<p>Note: None of the above is intended to suggest that RDF is better or 
+worse than XML, simply that they are different and those differences 
+must not be ignored. Both XML and RDF have their uses, and indeed there 
+are many cases where XML may be a better choice than RDF (e.g. when data
+ deals with N-ary relations: while it may be possible to re-model it as a
+ set of binary relations, that re-modelling may not be efficient.)</p>
+
+</div>
+
+</div>
+
+
+<div>
+<a id="sec5" name="sec5"></a>
+<h2>5. Dublin Core and Dublin Core Application Profiles</h2>
+
+<div>
+<a id="sec5.1" name="sec5.1"></a>
+<h3>5.1 The DCMI Abstract Model</h3>
+
+<p>The DCMI Abstract Model defines a DC metadata <strong>description</strong> as a set of <strong>statements</strong> about a single subject <strong>resource</strong>. Each statement is made up of:</p>
+
+<ul>
+<li>a reference to a <strong>property</strong>, in the form of a URI reference (a <strong>property URI reference</strong>)</li>
+<li>a reference to a second resource, the <strong>value</strong>, in the form of either a URI reference  (a <string>value URI reference), a <strong>representation</strong> of the value or a <strong>description</strong> of the value</string></li>
+</ul>
+
+<p>A statement may also contain a reference to a <strong>vocabulary encoding scheme</strong> and a <strong>syntax encoding scheme</strong>, again both in the form of URI references. DC metadata descriptions are typically grouped together as <strong>description sets</strong>.</p>
+
+<div align="center">
+<a name="figure6" id="figure6"></a>
+
+<p><img src="index_files/Slide6.png" alt="DC Metadata Description Set"></p>
+
+<p><strong>Figure 6: A DC Metadata Description Set</strong></p>
+
+</div>
+
+<p>Properties and encoding schemes are referred to in DC metadata 
+descriptions by means of URI references. Without a URI reference, a 
+property or encoding scheme can not be referred to in a DC metadata 
+description.</p>
+
+<p>The Abstract Model is essentially a variation on the RDF data model. 
+Although DC statements appear to have two parts, they are always 
+associated with a description, and a description applies to exactly one 
+resource, so DC statements are really triples.</p>
+
+<p>The Abstract Model differs in</p>
+
+<ul>
+<li>its treatment of literals</li>
+<li>the introduction of description and description set</li>
+</ul>
+
+<p>But essentially all the comments made above about RDF - and 
+particularly the distinctions between RDF and XML - apply to the DC 
+Abstract Model. The Abstract Model is not based on the XML tree model.</p>
+
+</div>
+
+
+<div>
+<a id="sec5.2" name="sec5.2"></a>
+<h3>5.2 Dublin Core Terms, "Elements", Qualified Names and URI references</h3>
+
+<p>DCMI assigns URI references to all the "terms" it defines following the policies and conventions described in the <em>Namespace Policy for DCMI Terms</em> document [<a href="#DCMINS">DCMINS</a>]. Those URI references take the form of PURLs, e.g. <code> http://purl.org/dc/elements/1.1/title</code>.</p>
+
+<p>Note that DCMI uses the word "term" to refer to the conceptual resource rather than the URI reference defined to it.</p>
+
+<p>The "terms" defined by DCMI are of three types:</p>
+
+<ul>
+<li>elements and element refinements</li>
+<li>encoding schemes</li>
+<li>"terms from a controlled vocabulary"</li>
+</ul>
+
+<p>The nature of these "terms" is described by the DCMI Abstract Model. A
+ DC element or element refinement is a property: "a specific aspect, 
+characteristic, attribute, or relation" that can be applied to the 
+description of a resource. An encoding scheme is a class. Although the 
+Abstract Model distinguishes between vocabulary encoding schemes and 
+syntax encoding schemes, DCMI currently models all encoding schemes as 
+classes.</p>
+
+<p>Although DCMI documentation refers to "terms from a controlled 
+vocabulary", the only controlled vocabulary that it currently maintains 
+is the DCMI Type Vocabulary, and the "terms" in this vocabulary have the
+ specific characteristic that they are all classes. This would not 
+necessarily be the case for other "controlled vocabularies", where the 
+"terms" may be resources of any type.</p>
+
+<p>A DC element is <strong>not</strong> the same type of thing as an XML element (or element type):</p>
+
+<ul>
+<li>an <strong>XML element</strong> is a component within an XML 
+document and its characteristics are defined by the XML and XML Infoset 
+specifications. XML elements have element content, child elements, and 
+attributes; an XML element has an XML element type name, which takes the
+ form of an expanded name; and the interpretation of an XML element 
+depends on its use in the context of an XML language, which is described
+ by the human-readable specification of that language</li>
+<li>a <strong>DC element</strong> is a property and its characteristics 
+are defined by the RDF specifications and the DCMI Abstract Model; a 
+property is identified by a URI reference, and that URI reference can be
+ used as a predicate in an RDF triple or a property URI in a DC metadata
+ statement</li>
+</ul>
+
+<p>Although all the DC "terms" - properties and classes - are identified
+ by URI references, it is common in DCMI documentation to find 
+"qualified names" used, as abbreviations for those URI references, to 
+refer to those properties and classes. So, for example, the property 
+with the URI reference <code>http://purl.org/dc/elements/1.1/title</code> is sometimes referred to as <code>dc:title</code> or <code>DC.title</code>.
+ Some text-based syntaxes for serialising RDF graphs also support this 
+construction. The qualified name form is simply an abbreviation for the 
+full URI reference.</p>
+
+<p>However, DC metadata descriptions may also be serialised as XML 
+documents, either using the RDF/XML language or the DC-XML language. In 
+both those XML languages, URI references may be represented as XML 
+expanded names, which are encoded as XML QNames used as XML element type
+ names or XML attribute names. However, it is important to bear in mind 
+that the XML components in XML documents are different things from the 
+property itself, and that there is a mapping process taking place which 
+is specific to these XML languages.</p>
+
+<p>Usually, it is possible to establish from the context whether a 
+qualified name is being used as a shorthand for a URI reference or as an
+ encoding of an XML expanded name, but care needs to be taken.</p>
+
+<p>Taken together, however, these two factors - the unqualified use of 
+the word "element" to refer to two different things and the use of 
+qualified names in two different contexts - have contributed to some 
+confusion. It must be emphasised that in XML generally, XML QNames are <em>not</em>
+ URI references and they are not mapped to URI references: an XML QName 
+is used to encode an expanded name in an XML document, and an expanded 
+name is a two part construct, made up of an XML Namespace Name and a 
+local name. It is interpreted in the context of the XML language in 
+which it is used. (See <a href="#note5">Note 5</a>)</p>
+
+<p>Because the DCMI Abstract Model is based on or similar to the RDF data model, all the points made about XML and RDF in <a href="#sec4">section 4</a>
+ above apply to XML languages and DC metadata applications. The names 
+and components used in an XML language can not be deployed in a DC 
+metadata description: rather it s necessary to follow the process of 
+analysing the meaning that the XML language (or some subset of 
+constructs within the XML language) is intended to convey and developing
+ the <em>new</em> set of "terms" required - and that set of "terms" may 
+include properties, classes, and other resources depending on what 
+information is to be represented.</p>
+
+</div>
+
+<div>
+<a id="sec5.3" name="sec5.3"></a>
+<h3>5.3 Dublin Core Application Profiles and XML Languages</h3>
+
+
+<p>As noted in the introduction, DCMI has not defined a formal model for
+ what a Dublin Core Application Profile (DCAP) actually is (See <a href="#note6">Note 6</a>). Probably the closest to such a model that DCMI has at the present is the statement in the CEN CWA 14855 that:</p>
+
+<blockquote>A Dublin Core Application Profile (DCAP) is a declaration 
+specifying which metadata terms an organization, information provider, 
+or user community uses in its metadata. By definition, a DCAP identifies
+ the source of metadata terms used - whether they have been defined in 
+formally maintained standards such as Dublin Core, in less formally 
+defined element sets and vocabularies, or by the creator of the DCAP 
+itself for local use in an application. Optionally, a DCAP may provide 
+additional documentation on how the terms are constrained, encoded, or 
+interpreted for application-specific purposes.</blockquote>
+
+<p>However CEN CWA 14855 is not clear about many aspects of a DCAP. In 
+particular, the suggestion that "terms" may be referred to within a DCAP
+ even if they are not identified by URI references has caused confusion.</p>
+
+<p>With reference to the the Abstract Model, it seems reasonable to 
+consider that a DCAP specifies the "terms" that are referenced within a 
+particular class of descriptions or description sets. As discussed in <a href="#sec5.1">section 5.1</a> these "terms" are <strong>properties</strong> and <strong>classes</strong>.
+ So the "terms" referenced or "used" in a DCAP are also properties and 
+classes. A DCAP specifes the properties that are used to describe 
+particular types of resource (classes), and how those properties are 
+deployed, including any constraints on their values i.e, any classes to 
+be used as encoding schemes. The properties and classes are referenced 
+by citing their URI references, which may be drawn from any RDF 
+vocabularies, including vocabularies developed by agents other than 
+DCMI.</p>
+
+<p>Central to the idea of the DCAP is the idea that the DCAP does not 
+itself declare new "terms", but rather references or "uses" (or reuses) 
+"terms" that are declared elsewhere. The widespread adoption of XML has 
+led to suggestions that the components used in XML languages are terms 
+that can be referenced in DCAPs.</p>
+
+<p>However, as discussed in detail in the previous section the names and
+ components used in an XML language can not be deployed in an RDF graph 
+or DC metadata description (except as XML Literals or rich 
+representations), and since the very purpose of a DCAP is to specify the
+ URI references that can occur in a DC metadata description, it follows 
+that it is not meaningful to reference them in a DCAP. A DCAP can not 
+"reuse XML elements".</p>
+
+<p>If it is required for a DCAP to describe how to express some 
+information that is currently expressed in an XML language, then it is 
+necessary to develop a means of representing that same information 
+within the framework of the DCMI Abstract Model and the RDF data model 
+i.e. to extablish a means of expressing the information that is 
+currently represented using components within an XML tree structure in 
+terms of the statement-based models of the DCAM and RDF.</p>
+
+<p>That process is outlined in section 4 above. It involves either 
+establishing how that information can be represented using an existing 
+RDF vocabulary or developing a <strong>new</strong> RDF vocabulary i.e. 
+identifying the set of properties, classes, and other resources required
+ to express that information in the statement-based model, and providing
+ URI references so that they can be referenced by DC metadata 
+descriptions. Those new properties, classes and URI references are 
+different things from the names and components used in the XML 
+documents, and there may be no simple one-to-one correspondence between 
+the names of components in the XML language and the URI references of 
+the RDF vocabulary.</p>
+
+<p>In order for those new terms to be useful to consumers of the data, 
+and to be reused by the authors of other data, it is useful to provide 
+descriptions of what those newly-coined URI references denote, either in
+ the form of human-readable documentation, or machine-processable 
+descriptions made using the RDF Schema language, or both.</p>
+
+<p>If the entire XML language or some subset of the constructs used 
+within an XML language is mapped into the DC/RDF data models, then 
+documentation on that mapping and/or tools that apply the mapping to XML
+ documents (e.g. XSLT transforms) are valuable to other implementers. 
+See also GRDDL [<a href="#GRDDL">GRDDL</a>].</p>
+
+<p>The naming and ownership of the URI references of the new RDF 
+vocabulary is a social-political question rather than a technical one, 
+and it is important to distinguish this issue from the semantic 
+modelling/mapping issue. To RDF, URI references are simply opaque 
+strings. As the discussion in section 4 highlights, the properties and 
+classes are different things from the components of an XML language and 
+it is unlikely that there will be a simple one-to-one correspondence 
+between them i.e. there will probably not be a simple correspondence 
+between expanded names/QNames in the XML language and URI references in 
+the RDF vocabulary. It may also be the case that the mapping and the RDF
+ vocabulary is developed quite separately from the XML language, even by
+ an agency that is not the owner of the XML language.</p>
+
+<p>Whatever names are used within the XML language and the RDF vocabulary, it will be necessary to describe a <em>mapping between</em>
+ the XML language and the RDF model and to be absolutely clear that the 
+names (URI references) in the RDF vocabulary are different from the 
+names (expanded names/QNames) in the XML vocabulary (see section 4.1). </p>
+
+<p>It <em>may</em> be possible to select the URI references of the new 
+RDF vocabulary so that when they are represented in RDF/XML as expanded 
+names encoded as XML QNames, those names correspond to the expanded 
+names and QNames used in the initial XML vocabulary. (But see <a href="#note4">Note 4</a>:
+ if a URI reference has been assigned to an XML element type, then that 
+same URI reference can not also be assigned to an RDF property.  
+However, bearing in mind a mapping is always required, and the content 
+models for the named components in RDF/XML will be <em>different</em> 
+from the content models of any component that uses that same name in the
+ XML language - e.g. in the latter a sub-tree structure may be available
+ - it may be preferable to ensure that URI references are chosen so that
+ their XML expanded name/QName representation does <em>not</em> 
+duplicate any of the names used in the vocabulary of the XML language. 
+The LOM XML binding and the LOM RDF binding take this latter approach. 
+There is <em>no</em> overlap between the expanded names/QNames used in 
+the LOM XML binding and those used when a LOM RDF graph is serialised in
+ RDF/XML. It is clear to the user that they are quite different XML 
+vocabularies used in the context of two different XML languages (LOM XML
+ and RDF/XML). That has no impact on the capacity to describe the 
+mapping between the LOM XML language and the RDF data model.</p>
+
+<p>However, the human users and owners of the two vocabularies may feel 
+it is appropriate that the names in the two vocabularies carry some 
+indication of a common source, e.g. that the URI references used in the 
+RDF vocabulary are in some way similar to the URI references used as XML
+ Namespace Names in the XML language.</p>
+
+</div>
+
+<div>
+<a id="sec5.4" name="sec5.4"></a>
+<h3>5.4 Summary</h3>
+
+<table summary="example" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+
+<div align="left">
+
+<ul>
+<li>a DCAP specifies the "terms" that are referenced within a particular
+ class of DC metadata description sets, and these "terms" are properties
+ and classes</li>
+<li>a DCAP does not itself declare new "terms", but rather references or "uses" (or reuses) "terms" that are declared elsewhere</li>
+<li>the names and components defined by an XML language can not be 
+deployed in a DC metadata description and so can not be referenced in a 
+DCAP</li>
+<li>to express in a DC metadata description some information that is 
+currently expressed in an XML language, it is necessary to carry out an 
+analysis of the semantics of that XML language and to develop a means of
+ representing that same information within the framework of the DCMI 
+Abstract Model and the RDF data model, and to specify an RDF vocabulary 
+to do that (either referencing an existing vocabulary or developing a 
+new one)</li>
+<li>a new RDF vocabulary (if required) should be described in human-readable documentation and using the RDF Schema language</li>
+<li>the naming and ownership of any new RDF vocabulary is a separate 
+issue from the semantic analysis/modelling/mapping issue. While it may 
+be socially/politically advantageous that names in XML vocabulary and 
+names in an RDF vocabulary carry some indication of common 
+source/ownership, care must be taken to make it clear that these are 
+different sets of names used in the context of different specifications,
+ and there is a mapping between the XML language and the RDF/DC data 
+model(s).</li>
+</ul>
+
+</div>
+
+</td>
+</tr>
+</tbody></table>
+
+</div>
+
+</div>
+<a id="sec6" name="sec6"></a>
+<h2>6. Conclusions/Recommendations</h2>
+
+<p>Ther is a good deal of confusion surrounding the concept of the DCAP 
+and their construction. The absence of a clear specification of what a 
+DCAP is, together with misunderstandings about XML and RDF, and some 
+ambiguity in DCMI's use of terminology (or users' interpretation of that
+ terminology), have meant that although the general idea of the DCAP has
+ been widely embraced, in practice it has been interpreted and 
+implemented in different ways, sometimes significantly different ways. 
+Sometimes those interpretations and implementations are not consistent 
+with the DCMI Abstract Model and/or with the data models used in the XML
+ and RDF specifications.</p>
+
+<p>This document has sought to highlight a small subset of the issues, 
+particularly on the problem of  of "reusing" or "mixing and matching" 
+"terms". It has tried to clarify in some detail why an unqualified 
+notion of "reuse" is problematic, with particular reference to XML and 
+(in sections 5.3 and 5.4) to suggest how those problems might be 
+addressed so that the conditions can be put in place to make the promise
+ of "mixing and matching" realisable.</p>
+
+</div>
+
+
+
+<div>
+<a id="secX" name="secX"></a>
+<h2>Notes</h2>
+
+<a id="note1" name="note1"></a>
+<p><strong>[1]</strong> This is a slight simplification, since XML 
+documents can also contain other types of item such as comments and 
+processing instructions, and these can form part of XML element content,
+ but for the purposes of this document, we consider XML documents to be 
+made up of XML elements and attributes.</p>
+
+<a id="note2" name="note2"></a>
+<p><strong>[2]</strong> Again this is a simplification as not only are 
+there other types of information item (see Note 1), but the InfoSet 
+provides one "Character" information item for each character of element 
+content: here a sequence of characters is represented as a single item. 
+The Infoset also provides items related to the use of XML Namespaces.</p>
+
+<a id="note3" name="note3"></a>
+<p><strong>[3]</strong> This is typically a human-readable document, though specifications like GRDDL [<a href="#GRDDL">GRDDL</a>]
+ represent an attempt to disclose at least some of that information in 
+machine processable form, by providing access to an XSLT transform 
+(speciffic to that XML language) that generates an RDF/XML document from
+ the XML document.</p>
+
+<a id="note4" name="note4"></a>
+<p><strong>[4]</strong> A fragment of XML conforming to <em>any</em> XML
+ language could, of course, be used as an RDF XML Literal (or a "rich 
+representation" in the terms of the DCMI Abstract Model. In that case it
+ is not interpreted by the RDF/XML parser; it is simply passed to the 
+application as an XML fragment.</p>
+
+<a id="note5" name="note5"></a>
+<p><strong>[5]</strong> The "CORES Resolution" [<a href="#CORESRES">CORESRES</a>]
+ encouraged the owners of metadata standards to assign URI references to
+ their "elements", the "units of meaning comparable and mappable to 
+elements of other standards", but it did not specify what "comparable 
+and mappable" meant. As a consequence the owners of different standards 
+assigned URI references to "elements" that are created within different 
+frameworks and rely on those frameworks for their meaning and 
+interpretation. The assignment of a URI reference to an "element" means 
+that it can be unambiguously cited - and it could be the subject of a DC
+ metadata description - but it does not change the nature of the 
+"element": and it does not mean that it is meaningful to use that URI 
+refererence as, e.g., a property URI in a DC metadata description. 
+Indeed saying that a single URI reference denoted <em>both</em> an element defined within a hierarchical model <em>and</em> a property would contradict the principle that a URI should identify a single resource.</p>
+
+<a id="note6" name="note6"></a>
+<p><strong>[6]</strong> I can't emphasise strongly enough how 
+problematic it is that DCMI has no formal definition of what a DCAP 
+actually is, and that documents like CEN CWA 14855 present a rather 
+"loose" specification. I propose a notion of a DCAP here that seems 
+consistent with most of the approaches to the idea that I've seen and 
+which is based on the DC Abstract Model. But I readily admit I'm 
+influenced by my own experience with various projects, and it is just 
+one possible model for a DCAP!!! Someone else could propose a quite 
+different, but equally valid, notion of a DCAP, also based on the 
+Abstract Model (e.g. that a DCAP defined an application-specific XML 
+language for representing DC metadata descriptions), and the arguments I
+ make below would have to be modified for that case. (As an aside, I 
+think a better name for what I describe here would be a DC Description 
+Set Profile!)</p>
+
+
+</div>
+
+<div>
+<a id="secY" name="secY"></a>
+<h2>References</h2>
+
+<a id="DCAPUB" name="DCAPUB"></a>
+<p><strong>[DCAPUB]</strong><br>Thomas Baker, <em>DCMI Usage Board Review of Application Profiles</em><br><a href="http://dublincore.org/usage/documents/profiles/">http://dublincore.org/usage/documents/profiles/</a></p>
+
+<a id="CWA14855" name="CWA14855"></a>
+<p><strong>[CWA14855]</strong><br><em>CEN CWA14855 - Dublin Core Application Profile guidelines</em><br><a href="http://www.cenorm.be/isss/cwa14855/">http://www.cenorm.be/isss/cwa14855/</a></p>
+
+<a id="DCMIAM" name="DCMIAM"></a>
+<p><strong>[DCMIAM]</strong><br>DCMI Abstract Model<br><a href="http://dublincore.org/documents/abstract-model/">http://dublincore.org/documents/abstract-model/</a></p>
+
+<a id="XML" name="XML"></a>
+<p><strong>[XML]</strong><br><em>Extensible Markup Language (XML) 1.0 (Third Edition)</em>. W3C Recommendation 04 February 2004.<br><a href="http://www.w3.org/TR/REC-xml">http://www.w3.org/TR/REC-xml</a></p>
+
+<a id="XMLSCHEMA" name="XMLSCHEMA"></a>
+<p><strong>[XML]</strong><br><em>XML Schema Part 0: Primer Second Edition</em>. W3C Recommendation 28 October 2004.<br><a href="http://www.w3.org/TR/xmlschema-0/">http://www.w3.org/TR/xmlschema-0/</a></p>
+
+<a id="XMLNS" name="XMLNS"></a>
+<p><strong>[XMLNS]</strong><br><em>Namespaces in XML</em>. W3C Recommendation 14 January 1999.<br><a href="http://www.w3.org/TR/REC-xml-names">http://www.w3.org/TR/REC-xml-names</a></p>
+
+<a id="XMLNS1.1" name="XMLNS1.1"></a>
+<p><strong>[XMLNS1.1]</strong><br><em>Namespaces in XML 1.1</em>. W3C Recommendation 04 February 2004.<br><a href="http://www.w3.org/TR/xml-names11">http://www.w3.org/TR/xml-names11</a></p>
+
+<a id="XMLINFO" name="XMLINFO"></a>
+<p><strong>[XMLINFO]</strong><br><em>XML Information Set (Second Edition)</em>. W3C Recommendation 04 February 2004.<br><a href="http://www.w3.org/TR/xml-infoset">http://www.w3.org/TR/xml-infoset</a></p>
+
+<a id="XPATH" name="XPATH"></a>
+<p><strong>[XPATH]</strong><br><em>XML Path Language (XPath) Version 1.0</em>. W3C Recommendation 16 November 1999.<br><a href="http://www.w3.org/TR/xpath">http://www.w3.org/TR/xpath</a></p>
+
+<a id="XQUERY" name="XQUERY"></a>
+<p><strong>[XQUERY]</strong><br><em>XQuery 1.0: An XML Query Language</em>. W3C Working Draft 11 February 2005.<br><a href="http://www.w3.org/TR/xquery/">http://www.w3.org/TR/xquery/</a></p>
+
+<a id="VERSXML" name="VERSXML"></a>
+<p><strong>[XMLNS1.1]</strong><br><em>[Editorial Draft] Versioning XML Languages</em>. Proposed TAG Finding 16 November 2003.<br><a href="http://www.w3.org/2001/tag/doc/versioning.html">http://www.w3.org/2001/tag/doc/versioning.html</a></p>
+
+
+<a id="LOMXML" name="LOMXML"></a>
+<p>[to be confirmed]</p>
+
+<a id="DCXML" name="DCXML"></a>
+<p><strong>[DCXML]</strong><br><em>Guidelines for implementing Dublin Core in XML</em><br><a href="http://dublincore.org/documents/dc-xml-guidelines/">http://dublincore.org/documents/dc-xml-guidelines/</a></p>
+
+
+<a id="RDFXML" name="RDFXML"></a>
+<p><strong>[RDFCAS]</strong><br><em>RDF/XML Syntax Specification (Revised)</em> W3C Recommendation 10 February 2004.<br><a href="http://www.w3.org/TR/rdf-syntax-grammar/">http://www.w3.org/TR/rdf-syntax-grammar/</a></p>
+
+
+<a id="RDFCAS" name="RDFCAS"></a>
+<p><strong>[RDFCAS]</strong><br><em>Resource Description Framework (RDF): Concepts and Abstract Syntax</em> W3C Recommendation 10 February 2004.<br><a href="http://www.w3.org/TR/rdf-concepts/">http://www.w3.org/TR/rdf-concepts/</a></p>
+
+<a id="RDFSEM" name="RDFSEM"></a>
+<p><strong>[RDFSEM]</strong><br><em>RDF Semantics</em> W3C Recommendation 10 February 2004.<br><a href="http://www.w3.org/TR/rdf-mt/">http://www.w3.org/TR/rdf-mt/</a></p>
+
+<a id="RDFS" name="RDFS"></a>
+<p><strong>[RDFS]</strong><br><em>RDF Vocabulary Description Language 1.0 (RDF Schema)</em> W3C Recommendation 10 February 2004<br><a href="http://www.w3.org/TR/rdf-schema/">http://www.w3.org/TR/rdf-schema/</a></p>
+
+<a id="DCMINS" name="DCMINS"></a>
+<p><strong>[DCMINS]</strong><br><em>Namespace Policy for the Dublin Core Metadata Initiative (DCMI)</em><br><a href="http://dublincore.org/documents/dcmi-namespace/">http://dublincore.org/documents/dcmi-namespace/</a></p>
+
+<a id="GRDDL" name="GRDDL"></a>
+<p><strong>[GRDDL]</strong><br><em>Gleaning Resource Descriptions from Dialects of Languages (GRDDL)</em> W3C Coordination Group Note 13 April 2004<br><a href="http://www.w3.org/TR/rdf-schema/">http://www.w3.org/TR/rdf-schema/</a></p>
+
+<a id="CORESRES" name="CORESRES"></a>
+<p><strong>[CORESRES]</strong><br><em>CORES Standards Interoperability Forum
+Resolution on Metadata Element Identifiers</em><br><a href="http://www.cores-eu.net/interoperability/cores-resolution/">http://www.cores-eu.net/interoperability/cores-resolution/</a></p>
+
+</div>
+
+</div>
+
+
+<hr title="separator from page content" size="note1">
+<p><a href="http://validator.w3.org/check/referer"><img src="index_files/valid-xhtml10.gif" alt="Valid XHTML 1.0!" border="0" height="31" width="88"></a><a href="http://jigsaw.w3.org/css-validator"><img src="index_files/vcss.gif" alt="Valid CSS!" border="0" height="31" width="88"></a></p>
+
+<!--
+<div class="metadata">
+<p>Metadata associated with this resource: <a href=
+"http://dublincore.org/documents/dc-elem-prop/index.shtml.rdf">
+http://dublincore.org/documents/dc-elem-prop/index.shtml.rdf</a></p>
+</div>
+-->
+
+<!--
+
+<div class="footer">
+<p><a href="/about/copyright/#copyright">Copyright</a> &copy;
+1995-2004 <acronym title="Dublin Core Metadata Initiative"><a href=
+"http://dublincore.org/">DCMI</a></acronym> All Rights Reserved.
+DCMI <a href="/about/copyright/#liability">liability</a>, <a href=
+"/about/copyright/#trademark">trademark/service mark</a>, <a href=
+"/about/copyright/#documentnotice">document use</a> and <a href=
+"/about/software/">software licensing</a> rules apply. Your
+interactions with this site are in accordance with our <a href=
+"/about/privacy/">privacy</a> statements. Please feel free to <a
+href="/about/contact/">contact us</a> for any questions, comments
+or media inquiries.</p>
+</div>
+
+-->
+
+
+
+
+</body></html>

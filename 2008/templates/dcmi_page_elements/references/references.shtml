@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>DCMI Example</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h2 id="references"><a name="references"></a>#. References</h2>
+<p>Content.</p>
+<dl>
+<dt><a name="ref-REFERENCE1"></a>[REFERENCE 1]</dt>
+<dd>Content.</dd>
+<dt><a name="ref-REFERENCE2"></a>[REFERENCE 2]</dt>
+<dd>Content.</dd>
+<dt><a name="ref-REFERENCE3"></a>[REFERENCE 3]</dt>
+<dd>Content.</dd>
+</dl>
+</body>
+</html>

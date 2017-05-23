@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/inactive_groups/relation_type.htm">
+   <dc:title>Dublin Core Metadata Initiative - Inactive Working Groups/Relation_Type Working Group</dc:title>
+   <dc:description>A historical record of the activities of the Relation_Type Working Group.</dc:description>
+   <dc:date>1998-11-06</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>The Dublin Core Metadata Initiative</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

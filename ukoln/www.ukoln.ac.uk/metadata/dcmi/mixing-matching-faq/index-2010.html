@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org">
+<title>DCMI Mixing and Matching FAQ</title>
+</head>
+<body>
+<h1 align="center">DCMI Mixing and Matching FAQ</h1>
+
+<p align="center">Andy Powell<br>
+UKOLN, University of Bath</p>
+
+<hr>
+<p>
+This document attempts to answer some of the practical questions
+that implementors ask when faced with a desire to incorporate their
+existing XML metadata semantics into DCMI metadata applications.</p>
+<dl>
+<dt><strong>Question 1: My favorite XML schema contains an element type or attribute
+(e.g. my:price or my:currency)
+that I want to use in my Dublin Core metadata.  How do I do it?</strong></dt>
+<dd>
+<p>
+The bad news is that an existing XML element type or attribute
+<strong>cannot</strong> be used as is in DCMI metadata applications.
+This is a very important point, but is sometimes hard for people to
+understand.
+Before you can use your favorite element or attribute you must declare it
+as a DCMI-compatible term.
+The good news is that doing so need not be an overly onerous task.
+Here's what you have to do:
+</p>
+<ol>
+<li>
+Decide whether your XML element type or attribute corresponds to
+DCMI's notion of a 'property' or an 'encoding scheme'.
+These notions are defined in the
+<a href="http://dublincore.org/documents/abstract-model/">
+DCMI Abstract Model</a> but, for convenience, the definitions are repeated here:
+<blockquote><i>A property is a specific aspect, characteristic, attribute, or relation used to describe resources.</i></blockquote>
+<blockquote><i>Encoding scheme is the generic name for vocabulary encoding scheme and syntax encoding scheme.
+<br />
+A syntax encoding scheme indicates that the value string is formatted in accordance with a formal notation, such as "2000-01-01" as the standard expression of a date.
+<br />
+A vocabulary encoding scheme is a class that indicates that the value of a property is taken from a controlled vocabulary (or concept-space), such as the Library of Congress Subject Headings.
+</i></blockquote>
+</li>
+<li>Next, check whether an equivalent property or encoding scheme  has already been
+defined by the DCMI (or elsewhere), for use in DCMI metadata.
+A good place to start checking is the list of
+<a href="http://dublincore.org/documents/dcmi-terms/">DCMI Metadata Terms</a>.
+</li>
+<li>Next, assign a URI reference to your new property or encoding scheme - see
+question 3 below.
+</li>
+<li>Finally, declare your new property or encoding scheme using the
+RDF Schema language (RDFS) and make this declaration available somewhere
+on the Web - see questions 4 and 5 below.
+</li>
+</ol>
+<p>&nbsp;</p>
+</dd>
+<dt><strong>Question 2: Why can't I just re-use my XML element type or attribute as is?</strong></dt>
+<dd>
+<p>
+Because XML element types and XML attributes are
+component parts of an XML language.
+Their meaning is determined solely by their placement in the XML tree
+structure of the given XML language and the semantics that the developers
+of that language chose to associate with that structure.
+On the other hand, DCMI properties and encoding schemes are conceptual entities
+within the
+<a href="http://dublincore.org/documents/abstract-model/">DCMI Abstract Model</a> - their meanings are defined by the model and by the semantic declarations
+that DCMI make available.
+Furthermore, XML element types and attributes are named using XML
+<i>expanded names</i> (a pair comprising
+an <i>XML Namespace Name</i> (which is a URI reference)
+and a <i>local name</i>).
+On the other hand, DCMI properties and encoding schemes are named
+using URI references.
+</p>
+<p>
+So, although XML element types and DCMI properties
+may look superficially similar, for example <tt>lom:title</tt> looks similar
+to <tt>dc:title</tt> when the two are encoded in XML, in fact they are very
+different entities.
+</p>
+<p>For those who are interested, the <a href=
+"http://www.ukoln.ac.uk/metadata/dcmi/dc-elem-prop/">XML, RDF and
+DCAPs</a> document provides a much more in-depth treatment of the
+differences between XML element types and RDF properties and the
+usage of both in the context of DCMI metadata.
+</p>
+</dd>
+<dt><strong>Question 3: How do I assign a URI to my 'element'?</strong></dt>
+<dd>
+<p>
+Unfortunately, there is little best-practice in this area
+to draw on at the time of writing.
+The <a href="http://www.ukoln.ac.uk/metadata/dcmi/term-identifier-guidelines/">Guidelines for assigning identifiers to metadata terms</a>
+document lists some possible approaches.
+</p>
+<p>
+One immediate issue to consider is whether to make the
+URI reference that
+is assigned to the new property or encoding scheme
+similar to the
+XML expanded name of the XML element or attribute.
+DCMI has chosen to
+keep the two things very similar.  For example, the XML expanded name
+that is used to represent the DC Title property according to the
+<a href="">Guidelines for encoding DC in XML</a> recommendation is
+<tt>dc:title</tt> (correspoinding to the <tt>http://purl.org/dc/elements/1.1/</tt>
+XML namespace name and the <tt>title</tt> local name).
+The DC Title property is assigned the <tt>http://purl.org/dc/elements/1.1/title</tt> URI reference.
+Therefore, the property URI reference is simply a concatenation of the component
+parts of the XML expanded name.
+</p>
+<p>
+On the other hand, the RDF encoding of the IEEE LOM (which has effectively
+made the LOM available for use with DCMI metadata because the
+DCMI Abstract Model is essentially the same as the RDF model)
+has chosen to keep the XML expanded names used in the LOM/XML encoding and the
+URI references assigned to the LOM/RDF properties completely separate.
+<i>Example to be provided</i>
+</p>
+<p>
+Remember that your new property is likely to appear in the various DCMI
+encoding syntaxes using the name that is the final part of the URI
+reference you assign (usually the bit after the final '/' or '#').
+For example, the URI reference <tt>http://example.com/my/terms#color</tt> is likely to appear as
+<tt>my:color</tt> (in XML syntaxes) or <tt>MY.color</tt> (in HTML syntaxes).
+</p>
+<p>
+If in doubt, register with the <a href="http://purl.org/">PURL</a> system
+and assign a PURL to your new property or encoding scheme.
+</p>
+</dd>
+<dt><strong>Question 4: How do I declare my XML element type or attribute as a DCMI property?</strong></dt>
+<dd>
+<p>
+Use the RDF Schema language to do this.
+Take a look
+at the
+<a href="http://purl.org/dc/terms/">DCMI RDFS terms declarations</a>
+for inspiration!
+As a minimum, you'll need something like this:
+</p>
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE rdf:RDF&gt;
+&lt;rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"&gt;
+
+  &lt;rdf:Property rdf:about="http://purl.org/my/terms/price"&gt;
+    &lt;rdfs:label xml:lang="en-US"&gt;Price&lt;/rdfs:label&gt;
+    &lt;rdfs:comment xml:lang="en-US"&gt;The amount of money needed to purchase the resource.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy rdf:resource="http://purl.org/my/terms/"/&gt;
+    &lt;dcterms:issued&gt;2004-12-03&lt;/dcterms:issued&gt;
+    &lt;dcterms:modified&gt;2005-02-21&lt;/dcterms:modified&gt;
+    &lt;dc:type rdf:resource="http://dublincore.org/usage/documents/principles/#element"/&gt;
+  &lt;/rdf:Property&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+<p>
+Make sure that this RDF/XML document is available (in this case) at both <tt>http://purl.org/dc/terms/</tt>
+and <tt>http://purl.org/my/terms/price</tt>.
+</p>
+</dd>
+<dt><strong>Question 5: How do I declare my XML element type or attribute as a DCMI encoding scheme?</strong></dt>
+<dd>
+<p>
+Use the RDF Schema language to do this.
+Take a look
+at the
+<a href="http://purl.org/dc/terms/">DCMI RDFS terms declarations</a>
+for inspiration!
+As a minimum, you'll need something like this:
+</p>
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE rdf:RDF&gt;
+&lt;rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"&gt;
+
+  &lt;rdfs:Class rdf:about="http://purl.org/my/terms/PoundsSterling"&gt;
+    &lt;rdfs:label xml:lang="en-US"&gt;Pounds Sterling&lt;/rdfs:label&gt;
+    &lt;rdfs:comment xml:lang="en-US"&gt;A price in UK pounds sterling, formatted in the following way: "P.pp"
+    (where "P" representents one or more digits for the number of pounds and "pp" represents
+    two digits for the number of pence).&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/&gt;
+    &lt;dcterms:issued&gt;2003-07-11&lt;/dcterms:issued&gt;
+    &lt;dcterms:modified&gt;2004-06-15&lt;/dcterms:modified&gt;
+    &lt;dc:type rdf:resource="http://dublincore.org/usage/documents/principles/#encoding-scheme"/&gt;
+  &lt;/rdfs:Class&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+</p>
+<p>
+The examples used in questions 4 and 5 would allow the following XML
+fragment to be used in a DC/XML document that conforms to the
+<a href="http://dublincore.org/documents/dc-xml-guidelines/">Guidelines for implementing Dublin Core in XML</a> recommendation:
+</p>
+<pre>
+&lt;my:price xsi:type="my:PoundsSterling"&gt;2.99&lt;/my:price&gt;
+</pre>
+<p>
+assuming that the appropriate namespace declarations are in place.  Note that,
+by convention, the XML <i>local name</i> for an encoding scheme starts with an
+uppercase letter.</p>
+</dd>
+<dt><strong>Question 6: I still don't understand!  Do you have another example?</strong></dt>
+<dd>
+<p>
+OK.  Let's say that I want to start using DC metadata to describe car parts,
+and that my company (ZZ Motors) already uses an XML schema that allows for XML fragments like this:
+</p>
+<pre>
+&lt;zz:carpart&gt;
+  &lt;zz:engine&gt;
+    &lt;zz:type&gt;petrol&lt;/zz:type&gt;
+    &lt;zz:capacity&gt;2000cc&lt;/zz:capacity&gt;
+  &lt;/zz:engine&gt;
+  &lt;zz:fueltank&gt;
+    &lt;zz:capacity&gt;25l&lt;/zz:capacity&gt;
+  &lt;/zz:fueltank&gt;
+&lt;zz:carpart&gt;
+</pre>
+<p>
+'zz' being associated with the <tt>http://zz.com/carparts/</tt> XML namespace name.
+</p>
+<p>
+For the sake of argument, let's say that I want to start using a property
+in my DC metadata that indicates the engine capacity.  Looking at my existing XML
+schema, I note that I already have an XML element type with the local name
+<tt>capacity</tt> (under <tt>zz:engine</tt>) that I might be able to use?
+But there's a problem!  I also have an XML element type with the local name
+<tt>capacity</tt> elsewhere in my XML tree structure (under <tt>zz:fueltank</tt>).
+So I cannot simply use 'capacity' as the local name when I'm thinking
+about assigning a URI reference to my new property.
+</p>
+<p>
+The semantics of my current XML element types called <tt>capacity</tt>
+are determined by the placement of those two element types in the XML tree.
+In fact I have two 'properties', which we'll call <tt>engineCapacity</tt>
+and <tt>fueltankCapacity</tt>.
+I'm interested in the first of these.
+</p>
+<p>
+OK, so now I need to assign a URI reference to my new property called
+<tt>engineCapacity</tt>.  I want this property to be widely used (because it'll
+make my supply chains work more smoothly if everyone else uses the same
+property) so I decide to name my new property using a PURL, rather than a
+URI reference somewhere under my company's DNS domain name.
+I choose:
+</p>
+<pre>
+http://purl.org/carparts/terms/engineCapacity
+</pre>
+<p>
+Now I need to declare my new property using RDFS.  I create a file on my
+company's Web site that contains the following:
+</p>
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE rdf:RDF&gt;
+&lt;rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"&gt;
+
+  &lt;rdf:Property rdf:about="http://purl.org/carparts/terms/engineCapacity"&gt;
+    &lt;rdfs:label xml:lang="en-US"&gt;Engine Capacity&lt;/rdfs:label&gt;
+    &lt;rdfs:comment xml:lang="en-US"&gt;The total combustion chamber size of an engine in cubic centimetres.&lt;/rdfs:comment&gt;
+    &lt;rdfs:isDefinedBy rdf:resource="http://purl.org/my/terms/"/&gt;
+    &lt;dcterms:issued&gt;2005-02-21&lt;/dcterms:issued&gt;
+    &lt;dcterms:modified&gt;2005-02-21&lt;/dcterms:modified&gt;
+    &lt;dc:type rdf:resource="http://dublincore.org/usage/documents/principles/#element"/&gt;
+  &lt;/rdf:Property&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+<p>
+Finally, I register two PURLs, <tt>http://purl.org/carparts/terms/</tt> and
+<tt>http://purl.org/carparts/terms/engineCapacity</tt>, and configure them both
+so that they resolve to the RDF/XML document (above) on my Web server.
+</p>
+</dd>
+<hr>
+<small>
+Content by: Andy Powell<br />
+Last updated:
+
+22-Feb-2005
+</small>
+</body>
+</html>
+

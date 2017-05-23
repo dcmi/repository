@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about="http://dublincore.org/archives/2002/pr/pr-200202.shtml">
+<dc:title>Dublin Core Metadata Initiative - Press Release: Dublin Core Metadata Initiative Announces Formation of First Board of Trustees</dc:title>
+<dc:description>The Dublin Core Metadata Initiative (DCMI) announces its first Board of Trustees, formed to provide strategic leadership and support to the organization. Trustees are selected for a variety of characteristics, including personal and professional abilities, geographical representation, and professional sector.</dc:description>
+<dc:creator>Stuart Weibel</dc:creator>
+<dc:creator>Makx Dekkers</dc:creator>
+<dc:contributor>Shirley Hyatt</dc:contributor>
+<dc:contributor>Denise Bedford</dc:contributor>
+<dc:contributor>Joseph Busch</dc:contributor>
+<dc:contributor>Michael Crandall</dc:contributor>
+<dc:contributor>Lorcan Dempsey</dc:contributor>
+<dc:contributor>Juha Hakala</dc:contributor>
+<dc:contributor>Neil Mclean</dc:contributor>
+<dc:contributor>Nigel Oxbrow</dc:contributor>
+<dc:contributor>Shigeo Sugimoto</dc:contributor>
+<dc:date>2002-02-01</dc:date>
+<dc:format>text/html</dc:format>
+<dc:language>en</dc:language>
+<dc:type>press release</dc:type>
+<dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+</rdf:Description>
+</rdf:RDF>

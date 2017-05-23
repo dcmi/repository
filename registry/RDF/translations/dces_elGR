@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+	 
+<rdf:Description rdf:about="http://www.ionio.gr/~sarantos/dc/dublincore10.html">
+	<dc:title xml:lang="en-US">Dublin Core Version 1.0 Reference Description (Greek Translation)</dc:title>
+	<dc:creator xml:lang="el-GR">
+	&#x03a3;&#x03b1;&#x03c1;&#x03ac;&#x03bd;&#x03c4;&#x03bf;&#x03c2; &#x039a;&#x03b1;&#x03c0;&#x03b9;&#x03b4;&#x03ac;&#x03ba;
+	&#x03b7;&#x03c2;
+	</dc:creator>
+	<dc:creator xml:lang="en-US">Sarantos Kapidakis</dc:creator>
+	<dc:creator rdf:resource="mailto:sarantos@ionio.gr"/>
+	<dc:language xml:lang="el-GR">&#x0395;&#x03bb;&#x03bb;&#x03b7;&#x03bd;&#x03b9;&#x03ba;&#x03ac;</dc:language>
+	<dc:language xml:lang="en-US">Greek</dc:language>
+	<dc:language>el-GR</dc:language>
+	<dc:source rdf:resource="http://www.ionio.gr/~sarantos/dc/dublincore10.html"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/1998/09/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>
+
+

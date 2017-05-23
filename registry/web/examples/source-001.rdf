@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/">  
+
+  <rdf:Description>
+        <dc:title xml:lang="fr-FR">Le Dublin Core Version 1.1</dc:title>
+        <dc:publisher rdf:resource="http://www-rocq.inria.fr/"/>
+        <dc:source rdf:resource="http://www-rocq.inria.fr/~vercoust/METADATA/DC-fr.1.1.html"/>
+  </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+>
+
+<channel rdf:about="http://dc2005.uc3m.es">
+<title>International Conference on Dublin Core and Metadata Applications</title>
+<link>http://dc2005.uc3m.es/</link>
+<description>International Conference on Dublin Core and Metadata Applications to be held in Madrid from 12 to 15 September 2005</description>
+<dc:language>en</dc:language>
+<dc:rights>2005</dc:rights>
+<dc:date>2005-11-02</dc:date>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/program/presentations.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/survey/survey.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/dublin_core.exe" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/cg/conferencegalery.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/v/conferencelocationbydate.asp#bn" />
+  <rdf:li rdf:resource="http://marge.uc3m.es/dc2005/" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/v/detailedvenue.asp#usefulinformation" />
+  <rdf:li rdf:resource="http://www.bne.es/index_eng.html" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/v/detailedvenue.asp#polideportivo" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/program/fullprogram.asp#wg11" />
+  <rdf:li rdf:resource="http://marge.uc3m.es/dc2005/" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/program/program.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/program/fullprogram.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/ti/touristinformation.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/s/sponsors.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/program/program.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/o/organization.asp#hoc" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/r/registration.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/r/registrationstep1.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/program/program.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/cfe/callforexhibitors.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/o/programcommittee.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/cfp/callforpaper.asp#sendpaper" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/n/news.asp" />
+  <rdf:li rdf:resource="http://marciana.venezia.sbn.it/dc2005/" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/o/programcommittee.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/cfp/callforpaper.asp#deadlines" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/cfe/submitinfo.asp" />
+  <rdf:li rdf:resource="http://artist.inist.fr/article.php3?id_article=62" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/cfe/callforexhibitors.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/cfp/callforpaper.asp#aguidelines" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es/cfp/callforpaper.asp" />
+  <rdf:li rdf:resource="http://dc2005.uc3m.es" />
+ </rdf:Seq>
+</items>
+</channel>
+
+<item rdf:about="http://dc2005.uc3m.es/program/presentations.asp">
+<title><![CDATA[All presentations has been published]]></title>
+<link>http://dc2005.uc3m.es/program/presentations.asp</link>
+<description><![CDATA[2005-11-02, All the presentations (ppt, etc. files), including keynote speeches are available by way of a link at Presentations menu item.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/survey/survey.asp">
+<title><![CDATA[Conference Evaluation form has been published]]></title>
+<link>http://dc2005.uc3m.es/survey/survey.asp</link>
+<description><![CDATA[2005-09-26, We have published the Conference Evaluation form. Please complete it.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/dublin_core.exe">
+<title><![CDATA[DC-2006 in Colima]]></title>
+<link>http://dc2005.uc3m.es/dublin_core.exe</link>
+<description><![CDATA[2005-09-19, See you in DC-2006 in Colima (Mexico). See Colima venue presentation.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/cg/conferencegalery.asp">
+<title><![CDATA[Conference photo galery]]></title>
+<link>http://dc2005.uc3m.es/cg/conferencegalery.asp</link>
+<description><![CDATA[2005-09-15, DC-2005 finished. Thank you for coming and see you soon. See Conference photo galery.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/v/conferencelocationbydate.asp#bn">
+<title><![CDATA[Shuttle service to the dinner at National Library]]></title>
+<link>http://dc2005.uc3m.es/v/conferencelocationbydate.asp#bn</link>
+<description><![CDATA[2005-09-14, Conference dinner: Shuttle service to the dinner at National Library for those attenders logged in University Residence (20:00 h.) and Tryp Legan&eacute;s Hotel (20:15 h.). At the end of the dinner we will provide buses to go back to Legan&eacute;s.]]></description>
+</item>
+
+<item rdf:about="http://marge.uc3m.es/dc2005/">
+<title><![CDATA[DC-2006 presentation]]></title>
+<link>http://marge.uc3m.es/dc2005/</link>
+<description><![CDATA[2005-09-14, At today's plennary session (19:45 h.) it will be presented DC-2006 by people from University of Colima, Mexico. That will be broadcasted by UC3M-TV.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es">
+<title><![CDATA[Welcome to DC-2005]]></title>
+<link>http://dc2005.uc3m.es</link>
+<description><![CDATA[2005-09-12 Welcome to DC-2005. The International Conference on Dublin Core and Metadata Applications starts today with people from 34 countries that will share their knowledge, questions and work during the next four days in the University Carlos III of Madrid. Thank you for coming!]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/v/detailedvenue.asp#usefulinformation">
+<title><![CDATA[Basic WiFi connection for DC-2005]]></title>
+<link>http://dc2005.uc3m.es/v/detailedvenue.asp#usefulinformation</link>
+<description><![CDATA[2005-09-12 Basic WiFi connection (Web) will be available throughout the places where DC-2005 will be held. See technical features to get full connection or ask DC-2005 staff for more information.]]></description>
+</item>
+
+<item rdf:about="http://www.bne.es/index_eng.html">
+<title><![CDATA[Ticket for dinner at Spanish National Library]]></title>
+<link>http://www.bne.es/index_eng.html</link>
+<description><![CDATA[2005-09-08, All the registered people at DC-2005 could get extra ticket (30 euros) for conference dinner at Spanish National Library to be held on Wednesday, 14. Reception Cocktail at "Las Dehesillas" garden (Leganés) on Monday will be for free for every delegates partner.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/v/detailedvenue.asp#polideportivo">
+<title><![CDATA[University Sport Centre services at student prices]]></title>
+<link>http://dc2005.uc3m.es/v/detailedvenue.asp#polideportivo</link>
+<description><![CDATA[2005-09-07, DC-2005 attenders could use the University Sport Centre services (swimming pool, football and basketball courts, etc.) at student prices.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/program/fullprogram.asp#wg11">
+<title><![CDATA[Change of seminar room]]></title>
+<link>http://dc2005.uc3m.es/program/fullprogram.asp#wg11</link>
+<description><![CDATA[2005-09-02, The Collection Description WG meeting, which will be held on Wednesday 14 has changed the seminar room. It will be held at Videoconference room at the ground floor of the Leganés campus library.]]></description>
+</item>
+
+<item rdf:about="http://marge.uc3m.es/dc2005/">
+<title><![CDATA[Videoconference]]></title>
+<link>http://marge.uc3m.es/dc2005/</link>
+<description><![CDATA[2005-09-01, All the keynote speeches, tutorials, and the daily reports of the Conference, as well as the opening and closing ceremonies will be broadcast by videoconference. Streams will be powered by Audio-Visual department of the IT Service of University Carlos III of Madrid by UC3M-TV (DC-2005). You can find more information daily at UC3M-TV.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/program/program.asp">
+<title><![CDATA[Less than one month for DC-2005 starting]]></title>
+<link>http://dc2005.uc3m.es/program/program.asp</link>
+<description><![CDATA[2005-08-22, It remains less than one month for DC-2005 starting. The exciting program includes 14 Workshops, 10 Special Sessions, 4 keynote presentations by important international speakers, 5 tutorials which will allow you to enhance your knowledge throughout the conference, and interesting papers presentation (14 full papers and 22 short papers). See the Program with links to the Full Program Agenda and don't loose more time on making your Registration.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/program/fullprogram.asp">
+<title><![CDATA[Full program]]></title>
+<link>http://dc2005.uc3m.es/program/fullprogram.asp</link>
+<description><![CDATA[2005-08-12, The DC-2005 full program has been published. It includes Workshops and Special sessions program, information about speakers and all the details about the conference.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/ti/touristinformation.asp">
+<title><![CDATA[Tourist information]]></title>
+<link>http://dc2005.uc3m.es/ti/touristinformation.asp</link>
+<description><![CDATA[2005-08-01, We have published intersting and useful information for visitors at DC-2005 to know a bit more about Spain, Madrid and Leganes. See Tourist information.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/s/sponsors.asp">
+<title><![CDATA[Simultaneous translation of all the Conference due to the help of Instituto Cervantes]]></title>
+<link>http://dc2005.uc3m.es/s/sponsors.asp</link>
+<description><![CDATA[2005-07-28, Due to the help of Instituto Cervantes, devoted to Spanish Language and Culture preservation and diffusion, we will offer simultaneous translation of all the Conference (Tutorials, keynotes, full and short papers presentation and plenaries for workshops reporting). More information at the Program.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/program/program.asp">
+<title><![CDATA[Program update]]></title>
+<link>http://dc2005.uc3m.es/program/program.asp</link>
+<description><![CDATA[2005-07-26, We have updated the program for DC-2005. It will be available too a full program including workshop and special sessions contents.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/o/organization.asp#hoc">
+<title><![CDATA[DC-2005 Volunteers]]></title>
+<link>http://dc2005.uc3m.es/o/organization.asp#hoc</link>
+<description><![CDATA[2005-07-21, The host organising committee has resolved to name as volunteers for the DC-2005 six of our students interested in cooperate with the Conference organisation. See the student's names chosen as "DC-2005 Volunteers".]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/r/registration.asp">
+<title><![CDATA[DC-2005 registration]]></title>
+<link>http://dc2005.uc3m.es/r/registration.asp</link>
+<description><![CDATA[2005-06-22, Make your registration for DC-2005. There are reduced prices available to students and special prices available to software vendors and developers of products and tools for metadata vocabularies to be registered as "exhibitor". See the section on registration fees for more details.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/r/registrationstep1.asp">
+<title><![CDATA[Conference registration is now open]]></title>
+<link>http://dc2005.uc3m.es/r/registrationstep1.asp</link>
+<description><![CDATA[2005-06-15, Conference registration is now open. Note that there are special prices for registration before 15 July, and reduced prices available to students. See the section on registration fees for more details. ]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/program/program.asp">
+<title><![CDATA[A draft of the complete conference program is now available]]></title>
+<link>http://dc2005.uc3m.es/program/program.asp</link>
+<description><![CDATA[2005-06-13, The organising committee for DC-2005 have the pleasure to announce that a draft of the complete conference program is now available. The scientific committee has concluded the review process, accepting 37 of the 54 papers and short papers proposed. Meanwhile the workshop committee has organised workshops and special sessions in accord with the proposals and recommendations received. For more information please consult the complete announcement and the draft program. ]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/cfe/callforexhibitors.asp">
+<title><![CDATA[Call for Exhibitors is still open]]></title>
+<link>http://dc2005.uc3m.es/cfe/callforexhibitors.asp</link>
+<description><![CDATA[2005-05-16, The Organization Committee of DC-2005 wants to remind software vendors and developers of products and tools for metadata vocabularies that Call for Exhibitors is still open. For more information, please contact: dc2005@fund.uc3m.es ]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/o/programcommittee.asp">
+<title><![CDATA[Paper review process has been started]]></title>
+<link>http://dc2005.uc3m.es/o/programcommittee.asp</link>
+<description><![CDATA[2005-05-12, The Program Committee has started the paper review process. As soon as the process finished we will communicate the results to the authors. ]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/cfp/callforpaper.asp#sendpaper">
+<title><![CDATA[Call for Papers deadline extended again]]></title>
+<link>http://dc2005.uc3m.es/cfp/callforpaper.asp#sendpaper</link>
+<description><![CDATA[2005-04-19, Even though deadline for submission of papers officially was over April 15th, the paper submission system will be available during this week.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/n/news.asp">
+<title><![CDATA[Papers in Spanish will be reviewed]]></title>
+<link>http://dc2005.uc3m.es/n/news.asp</link>
+<description><![CDATA[2005-04-19, The organising committee will review papers in Spanish. Acceptance may be conditional on the author providing an English translation. However we encourage submission of papers in Spanish, and will therefore keep the submissions system open for another week.]]></description>
+</item>
+
+<item rdf:about="http://marciana.venezia.sbn.it/dc2005/">
+<title><![CDATA[Call for Papers into Italian]]></title>
+<link>http://marciana.venezia.sbn.it/dc2005/</link>
+<description><![CDATA[2005-04-05, The Biblioteca Nazionale Marciana (Venezia)  has translated the DC-2005 Call for Papers into Italian.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/o/programcommittee.asp">
+<title><![CDATA[List of Program Committee Members]]></title>
+<link>http://dc2005.uc3m.es/o/programcommittee.asp</link>
+<description><![CDATA[2005-04-01, The list of Program Committee Members is available.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/cfp/callforpaper.asp#deadlines">
+<title><![CDATA[Paper Submission Deadline extended to 15 April]]></title>
+<link>http://dc2005.uc3m.es/cfp/callforpaper.asp#deadlines</link>
+<description><![CDATA[2005-03-28, Paper Submission Deadline extended to 15 April.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/cfe/submitinfo.asp">
+<title><![CDATA[Exhibitor proposals deadline extended to 15 July]]></title>
+<link>http://dc2005.uc3m.es/cfe/submitinfo.asp</link>
+<description><![CDATA[2005-03-28, Exhibitor proposals deadline extended to 15 July. Complete the Registration Form to participate as an exhibitor at the Conference.]]></description>
+</item>
+
+<item rdf:about="http://artist.inist.fr/article.php3?id_article=62">
+<title><![CDATA[Call for Papers into French]]></title>
+<link>http://artist.inist.fr/article.php3?id_article=62</link>
+<description><![CDATA[2005-03-15, The ARTIST has translated the DC-2005 Call for Papers into French.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/cfe/callforexhibitors.asp">
+<title><![CDATA[DC-2005 conference will offer Call for Exhibitors]]></title>
+<link>http://dc2005.uc3m.es/cfe/callforexhibitors.asp</link>
+<description><![CDATA[2005-03-07, In addition to paper presentations, this year's DC conference, will offer developers of products and tools for metadata vocabularies to present or exhibit their work.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/cfp/callforpaper.asp#aguidelines">
+<title><![CDATA[See reviewed Author Guidelines and send your papers]]></title>
+<link>http://dc2005.uc3m.es/cfp/callforpaper.asp#aguidelines</link>
+<description><![CDATA[2005-03-04, See reviewed Author Guidelines and send your papers.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es/cfp/callforpaper.asp">
+<title><![CDATA[Conference Web site has been opened with the Call for Papers]]></title>
+<link>http://dc2005.uc3m.es/cfp/callforpaper.asp</link>
+<description><![CDATA[2005-02-07, The Organizing Committee of DC-2005, to be hosted by the University Carlos III of Madrid in Leganes (Madrid) on 12-15 September 2005, has opened the conference Web site, http://dc2005.uc3m.es with the Call for Papers. The call is open until 1 April 2005.]]></description>
+</item>
+
+<item rdf:about="http://dc2005.uc3m.es">
+<title><![CDATA[DC-2005 will take place at the University Carlos III of Madrid]]></title>
+<link>http://dc2005.uc3m.es</link>
+<description><![CDATA[2004-12-20, The DCMI Directorate and the "Agustín Millares" Research Institute of University Carlos III of Madrid are very pleased to announce that DC-2005, next year's International Conference on Dublin Core and Metadata Applications, will take place 12-15 September 2005 at the University Carlos III of Madrid at its Leganés campus just south of Madrid.]]></description>
+</item>
+
+</rdf:RDF>

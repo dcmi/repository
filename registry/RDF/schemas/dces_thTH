@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+         xmlns:eor="&eorns;">
+
+
+<rdf:Property rdf:about = "&dcns;title">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e0a;&#x0e37;&#x0e48;&#x0e2d;&#x0e40;&#x0e23;&#x0e37;&#x0e48;&#x0e2d;&#x0e07;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e0a;&#x0e37;&#x0e48;&#x0e2d;&#x0e02;&#x0e2d;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e42;&#x0e14;&#x0e22;&#x0e17;&#x0e31;&#x0e48;&#x0e27;&#x0e44;&#x0e1b;&#x0e43;&#x0e2b;&#x0e49;&#x0e43;&#x0e0a;&#x0e49;&#x0e0a;&#x0e37;&#x0e48;&#x0e2d;&#x0e40;&#x0e23;&#x0e37;&#x0e48;&#x0e2d;&#x0e07;&#x0e17;&#x0e35;&#x0e48;&#x0e23;&#x0e39;&#x0e49;&#x0e08;&#x0e31;&#x0e01;&#x0e2d;&#x0e22;&#x0e48;&#x0e32;&#x0e07;&#x0e41;&#x0e1e;&#x0e23;&#x0e48;&#x0e2b;&#x0e25;&#x0e32;&#x0e22;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e1c;&#x0e39;&#x0e49;&#x0e23;&#x0e48;&#x0e27;&#x0e21;&#x0e07;&#x0e32;&#x0e19;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e1a;&#x0e38;&#x0e04;&#x0e04;&#x0e25;&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e2b;&#x0e19;&#x0e48;&#x0e27;&#x0e22;&#x0e07;&#x0e32;&#x0e19;&#x0e17;&#x0e35;&#x0e48;&#x0e21;&#x0e35;&#x0e2a;&#x0e48;&#x0e27;&#x0e19;&#x0e23;&#x0e48;&#x0e27;&#x0e21;&#x0e2a;&#x0e23;&#x0e49;&#x0e32;&#x0e07;&#x0e40;&#x0e19;&#x0e37;&#x0e49;&#x0e2d;&#x0e2b;&#x0e32;&#x0e02;&#x0e2d;&#x0e07;&#x0e1c;&#x0e25;&#x0e07;&#x0e32;&#x0e19;
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e42;&#x0e14;&#x0e22;&#x0e17;&#x0e31;&#x0e48;&#x0e27;&#x0e44;&#x0e1b;&#x0e0a;&#x0e37;&#x0e48;&#x0e2d;&#x0e1c;&#x0e39;&#x0e49;&#x0e23;&#x0e48;&#x0e27;&#x0e21;&#x0e07;&#x0e32;&#x0e19;&#x0e04;&#x0e27;&#x0e23;&#x0e43;&#x0e0a;&#x0e49;&#x0e0a;&#x0e37;&#x0e48;&#x0e2d;&#x0e1a;&#x0e38;&#x0e04;&#x0e04;&#x0e25;&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e2b;&#x0e19;&#x0e48;&#x0e27;&#x0e22;&#x0e07;&#x0e32;&#x0e19;&#x0e17;&#x0e35;&#x0e48;&#x0e23;&#x0e48;&#x0e27;&#x0e21;&#x0e1c;&#x0e25;&#x0e34;&#x0e15;&#x0e1c;&#x0e25;&#x0e07;&#x0e32;&#x0e19;
+	</dc:description>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e40;&#x0e08;&#x0e49;&#x0e32;&#x0e02;&#x0e2d;&#x0e07;&#x0e07;&#x0e32;&#x0e19;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e1c;&#x0e39;&#x0e49;&#x0e17;&#x0e35;&#x0e48;&#x0e2a;&#x0e23;&#x0e49;&#x0e32;&#x0e07;&#x0e2a;&#x0e23;&#x0e23;&#x0e04;&#x0e4c;&#x0e40;&#x0e19;&#x0e37;&#x0e49;&#x0e2d;&#x0e2b;&#x0e32;&#x0e02;&#x0e2d;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e15;&#x0e31;&#x0e27;&#x0e2d;&#x0e22;&#x0e48;&#x0e32;&#x0e07; &#x0e40;&#x0e08;&#x0e49;&#x0e32;&#x0e02;&#x0e2d;&#x0e07;&#x0e07;&#x0e32;&#x0e19;&#x0e2b;&#x0e21;&#x0e32;&#x0e22;&#x0e16;&#x0e36;&#x0e07;&#x0e1a;&#x0e38;&#x0e04;&#x0e04;&#x0e25; &#x0e2b;&#x0e19;&#x0e48;&#x0e27;&#x0e22;&#x0e07;&#x0e32;&#x0e19; &#x0e2b;&#x0e19;&#x0e48;&#x0e27;&#x0e22;&#x0e1a;&#x0e23;&#x0e34;&#x0e01;&#x0e32;&#x0e23;
+	&#x0e42;&#x0e14;&#x0e22;&#x0e17;&#x0e31;&#x0e48;&#x0e27;&#x0e44;&#x0e1b;&#x0e0a;&#x0e37;&#x0e48;&#x0e2d;&#x0e40;&#x0e08;&#x0e49;&#x0e32;&#x0e02;&#x0e2d;&#x0e07;&#x0e07;&#x0e32;&#x0e19;&#x0e04;&#x0e27;&#x0e23;&#x0e43;&#x0e0a;&#x0e49;&#x0e0a;&#x0e37;&#x0e48;&#x0e2d;&#x0e1a;&#x0e38;&#x0e04;&#x0e04;&#x0e25;&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e2b;&#x0e19;&#x0e48;&#x0e27;&#x0e22;&#x0e07;&#x0e32;&#x0e19;&#x0e17;&#x0e35;&#x0e48;&#x0e2a;&#x0e23;&#x0e49;&#x0e32;&#x0e07;&#x0e2a;&#x0e23;&#x0e23;&#x0e04;&#x0e4c;&#x0e1c;&#x0e25;&#x0e07;&#x0e32;&#x0e19;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e2a;&#x0e33;&#x0e19;&#x0e31;&#x0e01;&#x0e1e;&#x0e34;&#x0e21;&#x0e1e;&#x0e4c;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e2b;&#x0e19;&#x0e48;&#x0e27;&#x0e22;&#x0e07;&#x0e32;&#x0e19;&#x0e17;&#x0e35;&#x0e48;&#x0e1c;&#x0e25;&#x0e34;&#x0e15;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;     
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e15;&#x0e31;&#x0e27;&#x0e2d;&#x0e22;&#x0e48;&#x0e32;&#x0e07; &#x0e2a;&#x0e33;&#x0e19;&#x0e31;&#x0e01;&#x0e1e;&#x0e34;&#x0e21;&#x0e1e;&#x0e4c; &#x0e2b;&#x0e21;&#x0e32;&#x0e22;&#x0e16;&#x0e36;&#x0e07; &#x0e1a;&#x0e38;&#x0e04;&#x0e04;&#x0e25; &#x0e2b;&#x0e19;&#x0e48;&#x0e27;&#x0e22;&#x0e07;&#x0e32;&#x0e19; &#x0e2b;&#x0e19;&#x0e48;&#x0e27;&#x0e22;&#x0e1a;&#x0e23;&#x0e34;&#x0e01;&#x0e32;&#x0e23;
+	&#x0e42;&#x0e14;&#x0e22;&#x0e17;&#x0e31;&#x0e48;&#x0e27;&#x0e44;&#x0e1b;&#x0e0a;&#x0e37;&#x0e48;&#x0e2d;&#x0e2a;&#x0e33;&#x0e19;&#x0e31;&#x0e01;&#x0e1e;&#x0e34;&#x0e21;&#x0e1e;&#x0e4c;&#x0e04;&#x0e27;&#x0e23;&#x0e43;&#x0e0a;&#x0e49;&#x0e0a;&#x0e37;&#x0e48;&#x0e2d;&#x0e1a;&#x0e38;&#x0e04;&#x0e04;&#x0e25;&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e2b;&#x0e19;&#x0e48;&#x0e27;&#x0e22;&#x0e07;&#x0e32;&#x0e19;&#x0e17;&#x0e35;&#x0e48;&#x0e1c;&#x0e25;&#x0e34;&#x0e15;&#x0e1c;&#x0e25;&#x0e07;&#x0e32;&#x0e19;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e2b;&#x0e31;&#x0e27;&#x0e40;&#x0e23;&#x0e37;&#x0e48;&#x0e2d;&#x0e07;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e2b;&#x0e31;&#x0e27;&#x0e02;&#x0e49;&#x0e2d; &#x0e17;&#x0e35;&#x0e48;&#x0e2d;&#x0e18;&#x0e34;&#x0e1a;&#x0e32;&#x0e22;&#x0e40;&#x0e23;&#x0e37;&#x0e48;&#x0e2d;&#x0e07;&#x0e41;&#x0e25;&#x0e30;&#x0e40;&#x0e19;&#x0e37;&#x0e49;&#x0e2d;&#x0e2b;&#x0e32;&#x0e02;&#x0e2d;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e42;&#x0e14;&#x0e22;&#x0e17;&#x0e31;&#x0e48;&#x0e27;&#x0e44;&#x0e1b;&#x0e43;&#x0e0a;&#x0e49;&#x0e04;&#x0e33;&#x0e2a;&#x0e33;&#x0e04;&#x0e31;&#x0e0d;&#x0e2a;&#x0e33;&#x0e2b;&#x0e23;&#x0e31;&#x0e1a;&#x0e41;&#x0e2a;&#x0e14;&#x0e07;&#x0e2b;&#x0e31;&#x0e27;&#x0e40;&#x0e23;&#x0e37;&#x0e48;&#x0e2d;&#x0e07; &#x0e27;&#x0e25;&#x0e35;&#x0e2a;&#x0e33;&#x0e04;&#x0e31;&#x0e0d; &#x0e41;&#x0e25;&#x0e30;&#x0e23;&#x0e2b;&#x0e31;&#x0e2a;
+	&#x0e2b;&#x0e21;&#x0e27;&#x0e14;&#x0e27;&#x0e34;&#x0e0a;&#x0e32;&#x0e17;&#x0e35;&#x0e48;&#x0e2d;&#x0e18;&#x0e34;&#x0e1a;&#x0e32;&#x0e22;&#x0e40;&#x0e19;&#x0e37;&#x0e49;&#x0e2d;&#x0e2b;&#x0e32;&#x0e02;&#x0e2d;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;
+	&#x0e02;&#x0e49;&#x0e2d;&#x0e41;&#x0e19;&#x0e30;&#x0e19;&#x0e33;&#x0e27;&#x0e34;&#x0e18;&#x0e35;&#x0e1b;&#x0e0f;&#x0e34;&#x0e1a;&#x0e31;&#x0e15;&#x0e34;&#x0e17;&#x0e35;&#x0e48;&#x0e14;&#x0e35;&#x0e17;&#x0e35;&#x0e2a;&#x0e38;&#x0e14;&#x0e04;&#x0e37;&#x0e2d;&#x0e40;&#x0e25;&#x0e37;&#x0e2d;&#x0e01;&#x0e43;&#x0e0a;&#x0e49;&#x0e28;&#x0e31;&#x0e1e;&#x0e17;&#x0e4c;&#x0e04;&#x0e27;&#x0e1a;&#x0e04;&#x0e38;&#x0e21; &#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e23;&#x0e30;&#x0e1a;&#x0e1a;&#x0e08;&#x0e31;&#x0e14;&#x0e2b;&#x0e21;&#x0e39;&#x0e48;&#x0e17;&#x0e35;&#x0e48;
+	&#x0e40;&#x0e1b;&#x0e47;&#x0e19;&#x0e17;&#x0e32;&#x0e07;&#x0e01;&#x0e32;&#x0e23;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e25;&#x0e31;&#x0e01;&#x0e29;&#x0e13;&#x0e30;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e23;&#x0e32;&#x0e22;&#x0e25;&#x0e30;&#x0e40;&#x0e2d;&#x0e35;&#x0e22;&#x0e14;&#x0e40;&#x0e19;&#x0e37;&#x0e49;&#x0e2d;&#x0e2b;&#x0e32;&#x0e02;&#x0e2d;&#x0e07;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28; 
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e25;&#x0e31;&#x0e01;&#x0e29;&#x0e13;&#x0e30;&#x0e2d;&#x0e32;&#x0e08;&#x0e2b;&#x0e21;&#x0e32;&#x0e22;&#x0e16;&#x0e36;&#x0e07; &#x0e1a;&#x0e17;&#x0e04;&#x0e31;&#x0e14;&#x0e22;&#x0e48;&#x0e2d; &#x0e2a;&#x0e32;&#x0e23;&#x0e1a;&#x0e31;&#x0e0d; &#x0e01;&#x0e32;&#x0e23;&#x0e2d;&#x0e49;&#x0e32;&#x0e07;&#x0e2d;&#x0e34;&#x0e07;&#x0e20;&#x0e32;&#x0e1e;&#x0e1b;&#x0e23;&#x0e30;&#x0e01;&#x0e2d;&#x0e1a;&#x0e40;&#x0e19;&#x0e37;&#x0e49;&#x0e2d;&#x0e2b;&#x0e32;
+	&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e01;&#x0e32;&#x0e23;&#x0e1a;&#x0e23;&#x0e23;&#x0e22;&#x0e32;&#x0e22;&#x0e43;&#x0e2b;&#x0e49;&#x0e17;&#x0e23;&#x0e32;&#x0e1a;&#x0e40;&#x0e19;&#x0e37;&#x0e49;&#x0e2d;&#x0e2b;&#x0e32;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e1b;&#x0e35;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e1b;&#x0e35;&#x0e17;&#x0e35;&#x0e48;&#x0e40;&#x0e01;&#x0e35;&#x0e48;&#x0e22;&#x0e27;&#x0e02;&#x0e49;&#x0e2d;&#x0e07;&#x0e01;&#x0e31;&#x0e1a;&#x0e40;&#x0e2b;&#x0e15;&#x0e38;&#x0e01;&#x0e32;&#x0e23;&#x0e13;&#x0e4c;&#x0e43;&#x0e19;&#x0e27;&#x0e07;&#x0e08;&#x0e23;&#x0e0a;&#x0e35;&#x0e27;&#x0e34;&#x0e15;&#x0e02;&#x0e2d;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e42;&#x0e14;&#x0e22;&#x0e17;&#x0e31;&#x0e48;&#x0e27;&#x0e44;&#x0e1b; &#x0e1b;&#x0e35;&#x0e08;&#x0e30;&#x0e2a;&#x0e31;&#x0e21;&#x0e1e;&#x0e31;&#x0e19;&#x0e18;&#x0e4c;&#x0e01;&#x0e31;&#x0e1a;&#x0e01;&#x0e32;&#x0e23;&#x0e2a;&#x0e23;&#x0e49;&#x0e32;&#x0e07;&#x0e2a;&#x0e23;&#x0e23;&#x0e04;&#x0e4c;&#x0e41;&#x0e25;&#x0e30;&#x0e40;&#x0e1c;&#x0e22;&#x0e41;&#x0e1e;&#x0e23;&#x0e48;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;
+	&#x0e02;&#x0e49;&#x0e2d;&#x0e41;&#x0e19;&#x0e30;&#x0e19;&#x0e33;&#x0e27;&#x0e34;&#x0e18;&#x0e35;&#x0e1b;&#x0e0f;&#x0e34;&#x0e1a;&#x0e31;&#x0e15;&#x0e34;&#x0e17;&#x0e35;&#x0e48;&#x0e14;&#x0e35;&#x0e17;&#x0e35;&#x0e48;&#x0e2a;&#x0e38;&#x0e14; &#x0e04;&#x0e37;&#x0e2d;&#x0e40;&#x0e02;&#x0e35;&#x0e22;&#x0e19;&#x0e15;&#x0e32;&#x0e21;&#x0e41;&#x0e1a;&#x0e1a;&#x0e41;&#x0e1c;&#x0e19; ISO 8601 
+	&#x0e41;&#x0e25;&#x0e30;&#x0e15;&#x0e32;&#x0e21;&#x0e41;&#x0e1a;&#x0e1a; &#x0e1b;&#x0e35;-&#x0e40;&#x0e14;&#x0e37;&#x0e2d;&#x0e19;-&#x0e27;&#x0e31;&#x0e19; YYYY-MM-DD
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e1b;&#x0e23;&#x0e30;&#x0e40;&#x0e20;&#x0e17;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e18;&#x0e23;&#x0e23;&#x0e21;&#x0e0a;&#x0e32;&#x0e15;&#x0e34;&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e0a;&#x0e19;&#x0e34;&#x0e14;&#x0e02;&#x0e2d;&#x0e07;&#x0e40;&#x0e19;&#x0e37;&#x0e49;&#x0e2d;&#x0e2b;&#x0e32;&#x0e02;&#x0e2d;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e1b;&#x0e23;&#x0e30;&#x0e40;&#x0e20;&#x0e17;&#x0e2b;&#x0e21;&#x0e32;&#x0e22;&#x0e16;&#x0e36;&#x0e07;&#x0e04;&#x0e33;&#x0e17;&#x0e35;&#x0e48;&#x0e2d;&#x0e18;&#x0e34;&#x0e1a;&#x0e32;&#x0e22;&#x0e2b;&#x0e21;&#x0e27;&#x0e14;&#x0e27;&#x0e34;&#x0e0a;&#x0e32; &#x0e20;&#x0e32;&#x0e23;&#x0e30;&#x0e2b;&#x0e19;&#x0e49;&#x0e32;&#x0e17;&#x0e35;&#x0e48; &#x0e0a;&#x0e19;&#x0e34;&#x0e14; &#x0e2b;&#x0e23;&#x0e37;&#x0e2d; &#x0e25;&#x0e33;&#x0e14;&#x0e31;&#x0e1a;&#x0e0a;&#x0e31;&#x0e49;&#x0e19; 
+	&#x0e02;&#x0e49;&#x0e2d;&#x0e40;&#x0e2a;&#x0e19;&#x0e2d;&#x0e27;&#x0e34;&#x0e18;&#x0e35;&#x0e1b;&#x0e0f;&#x0e34;&#x0e1a;&#x0e31;&#x0e15;&#x0e34;&#x0e17;&#x0e35;&#x0e48;&#x0e14;&#x0e35;&#x0e17;&#x0e35;&#x0e48;&#x0e2a;&#x0e38;&#x0e14; &#x0e04;&#x0e37;&#x0e2d;&#x0e43;&#x0e2b;&#x0e49;&#x0e40;&#x0e25;&#x0e37;&#x0e2d;&#x0e01;&#x0e43;&#x0e0a;&#x0e49;&#x0e28;&#x0e31;&#x0e1e;&#x0e17;&#x0e4c;&#x0e04;&#x0e27;&#x0e1a;&#x0e04;&#x0e38;&#x0e21; &#x0e15;&#x0e31;&#x0e27;&#x0e2d;&#x0e22;&#x0e48;&#x0e32;&#x0e07; &#x0e40;&#x0e0a;&#x0e48;&#x0e19; &#x0e23;&#x0e32;&#x0e22;&#x0e01;&#x0e32;&#x0e23;&#x0e17;&#x0e35;&#x0e48;
+	&#x0e23;&#x0e30;&#x0e1a;&#x0e38;&#x0e43;&#x0e19;&#x0e04;&#x0e39;&#x0e48;&#x0e21;&#x0e37;&#x0e2d;&#x0e1b;&#x0e0f;&#x0e34;&#x0e1a;&#x0e31;&#x0e15;&#x0e34;&#x0e2a;&#x0e33;&#x0e2b;&#x0e23;&#x0e31;&#x0e1a;&#x0e14;&#x0e31;&#x0e1a;&#x0e25;&#x0e34;&#x0e19;&#x0e04;&#x0e2d;&#x0e23;&#x0e4c;&#x0e09;&#x0e1a;&#x0e31;&#x0e1a;&#x0e23;&#x0e48;&#x0e32;&#x0e07; &#x0e2a;&#x0e48;&#x0e27;&#x0e19;&#x0e01;&#x0e32;&#x0e23;&#x0e2d;&#x0e18;&#x0e34;&#x0e1a;&#x0e32;&#x0e22;&#x0e25;&#x0e31;&#x0e01;&#x0e29;&#x0e13;&#x0e30;&#x0e23;&#x0e39;&#x0e1b;&#x0e23;&#x0e48;&#x0e32;&#x0e07;
+	&#x0e02;&#x0e2d;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;&#x0e43;&#x0e2b;&#x0e49;&#x0e43;&#x0e0a;&#x0e49;&#x0e2a;&#x0e48;&#x0e27;&#x0e19;&#x0e04;&#x0e33;&#x0e22;&#x0e48;&#x0e2d;&#x0e22; &#x0e23;&#x0e39;&#x0e1b;&#x0e41;&#x0e1a;&#x0e1a;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e23;&#x0e39;&#x0e1b;&#x0e41;&#x0e1a;&#x0e1a;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e01;&#x0e32;&#x0e23;&#x0e2d;&#x0e18;&#x0e34;&#x0e1a;&#x0e32;&#x0e22;&#x0e25;&#x0e31;&#x0e01;&#x0e29;&#x0e13;&#x0e30;&#x0e23;&#x0e39;&#x0e1b;&#x0e23;&#x0e48;&#x0e32;&#x0e07;&#x0e02;&#x0e2d;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;&#x0e40;&#x0e0a;&#x0e34;&#x0e07;&#x0e01;&#x0e32;&#x0e22;&#x0e20;&#x0e32;&#x0e1e;&#x0e41;&#x0e25;&#x0e30;&#x0e14;&#x0e34;&#x0e08;&#x0e34;&#x0e17;&#x0e31;&#x0e25; 
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e42;&#x0e14;&#x0e22;&#x0e17;&#x0e31;&#x0e48;&#x0e27;&#x0e44;&#x0e1b; &#x0e23;&#x0e39;&#x0e1b;&#x0e41;&#x0e1a;&#x0e1a;&#x0e2d;&#x0e32;&#x0e08;&#x0e23;&#x0e27;&#x0e21;&#x0e1b;&#x0e23;&#x0e30;&#x0e40;&#x0e20;&#x0e17;&#x0e02;&#x0e2d;&#x0e07;&#x0e2a;&#x0e37;&#x0e48;&#x0e2d;&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e21;&#x0e34;&#x0e15;&#x0e34;&#x0e02;&#x0e2d;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;  &#x0e23;&#x0e39;&#x0e1b;&#x0e41;&#x0e1a;&#x0e1a;
+	&#x0e2d;&#x0e32;&#x0e08;&#x0e43;&#x0e0a;&#x0e49;&#x0e1a;&#x0e2d;&#x0e01;&#x0e27;&#x0e48;&#x0e32;&#x0e40;&#x0e1b;&#x0e47;&#x0e19;&#x0e0b;&#x0e2d;&#x0e1f;&#x0e15;&#x0e4c;&#x0e41;&#x0e27;&#x0e23;&#x0e4c;&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e2d;&#x0e38;&#x0e1b;&#x0e01;&#x0e23;&#x0e13;&#x0e4c;&#x0e17;&#x0e35;&#x0e48;&#x0e15;&#x0e49;&#x0e2d;&#x0e07;&#x0e43;&#x0e0a;&#x0e49;&#x0e43;&#x0e19;&#x0e01;&#x0e32;&#x0e23;&#x0e41;&#x0e2a;&#x0e14;&#x0e07;&#x0e1c;&#x0e25;
+	&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e40;&#x0e1e;&#x0e37;&#x0e48;&#x0e2d;&#x0e1b;&#x0e0f;&#x0e34;&#x0e1a;&#x0e31;&#x0e15;&#x0e34;&#x0e01;&#x0e32;&#x0e23;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e23;&#x0e2b;&#x0e31;&#x0e2a;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e01;&#x0e32;&#x0e23;&#x0e2d;&#x0e49;&#x0e32;&#x0e07;&#x0e2d;&#x0e34;&#x0e07;&#x0e16;&#x0e36;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;&#x0e43;&#x0e19;&#x0e23;&#x0e39;&#x0e1b;&#x0e41;&#x0e1a;&#x0e1a;&#x0e1b;&#x0e31;&#x0e08;&#x0e08;&#x0e38;&#x0e1a;&#x0e31;&#x0e19; 
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e02;&#x0e49;&#x0e2d;&#x0e40;&#x0e2a;&#x0e19;&#x0e2d;&#x0e27;&#x0e34;&#x0e18;&#x0e35;&#x0e1b;&#x0e0f;&#x0e34;&#x0e1a;&#x0e31;&#x0e15;&#x0e34;&#x0e17;&#x0e35;&#x0e48;&#x0e14;&#x0e35;&#x0e17;&#x0e35;&#x0e48;&#x0e2a;&#x0e38;&#x0e14; &#x0e04;&#x0e37;&#x0e2d;&#x0e43;&#x0e2b;&#x0e49;&#x0e23;&#x0e30;&#x0e1a;&#x0e38;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e42;&#x0e14;&#x0e22;&#x0e43;&#x0e0a;&#x0e49;&#x0e2a;&#x0e32;&#x0e22;&#x0e2d;&#x0e31;&#x0e01;&#x0e02;&#x0e23;&#x0e30;&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e15;&#x0e31;&#x0e27;&#x0e40;&#x0e25;&#x0e02;
+	&#x0e15;&#x0e32;&#x0e21;&#x0e41;&#x0e1a;&#x0e1a;&#x0e41;&#x0e1c;&#x0e19;&#x0e01;&#x0e32;&#x0e23;&#x0e01;&#x0e33;&#x0e2b;&#x0e19;&#x0e14;&#x0e23;&#x0e2b;&#x0e31;&#x0e2a;&#x0e1b;&#x0e23;&#x0e30;&#x0e08;&#x0e33;&#x0e15;&#x0e31;&#x0e27; &#x0e15;&#x0e31;&#x0e27;&#x0e2d;&#x0e22;&#x0e48;&#x0e32;&#x0e07; &#x0e23;&#x0e30;&#x0e1a;&#x0e1a;&#x0e23;&#x0e2b;&#x0e31;&#x0e2a;&#x0e40;&#x0e25;&#x0e02;&#x0e1b;&#x0e23;&#x0e30;&#x0e08;&#x0e33;&#x0e15;&#x0e31;&#x0e27; &#x0e40;&#x0e0a;&#x0e48;&#x0e19; 
+	URI,URL, DOI, ISBN
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e20;&#x0e32;&#x0e29;&#x0e32;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e20;&#x0e32;&#x0e29;&#x0e32;&#x0e17;&#x0e35;&#x0e48;&#x0e43;&#x0e0a;&#x0e49;&#x0e43;&#x0e19;&#x0e01;&#x0e32;&#x0e23;&#x0e40;&#x0e23;&#x0e35;&#x0e22;&#x0e1a;&#x0e40;&#x0e23;&#x0e35;&#x0e22;&#x0e07;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e02;&#x0e49;&#x0e2d;&#x0e40;&#x0e2a;&#x0e19;&#x0e2d;&#x0e27;&#x0e34;&#x0e18;&#x0e35;&#x0e1b;&#x0e0f;&#x0e34;&#x0e1a;&#x0e31;&#x0e15;&#x0e34;&#x0e17;&#x0e35;&#x0e48;&#x0e14;&#x0e35;&#x0e17;&#x0e35;&#x0e48;&#x0e2a;&#x0e38;&#x0e14;&#x0e2a;&#x0e33;&#x0e2b;&#x0e23;&#x0e31;&#x0e1a;&#x0e02;&#x0e49;&#x0e2d;&#x0e04;&#x0e27;&#x0e32;&#x0e21;&#x0e43;&#x0e19;&#x0e2a;&#x0e48;&#x0e27;&#x0e19;&#x0e04;&#x0e33;&#x0e22;&#x0e48;&#x0e2d;&#x0e22; &#x0e20;&#x0e32;&#x0e29;&#x0e32; 
+	&#x0e43;&#x0e0a;&#x0e49;&#x0e15;&#x0e32;&#x0e21;&#x0e41;&#x0e1a;&#x0e1a; RFC 1766 &#x0e04;&#x0e37;&#x0e2d;&#x0e43;&#x0e0a;&#x0e49;&#x0e23;&#x0e2b;&#x0e31;&#x0e2a;&#x0e1e;&#x0e22;&#x0e31;&#x0e0d;&#x0e0a;&#x0e19;&#x0e30; 2 &#x0e15;&#x0e31;&#x0e27;&#x0e2d;&#x0e31;&#x0e01;&#x0e29;&#x0e23; (ISO 639)
+	&#x0e15;&#x0e32;&#x0e21;&#x0e14;&#x0e49;&#x0e27;&#x0e22;&#x0e23;&#x0e2b;&#x0e31;&#x0e2a;&#x0e1b;&#x0e23;&#x0e30;&#x0e40;&#x0e17;&#x0e28; 2 &#x0e15;&#x0e31;&#x0e27;&#x0e2d;&#x0e31;&#x0e01;&#x0e29;&#x0e23; (ISO 3166) &#x0e15;&#x0e31;&#x0e27;&#x0e2d;&#x0e22;&#x0e48;&#x0e32;&#x0e07; 'en-uk' &#x0e2a;&#x0e33;&#x0e2b;&#x0e23;&#x0e31;&#x0e1a;
+	&#x0e20;&#x0e32;&#x0e29;&#x0e32;&#x0e2d;&#x0e31;&#x0e07;&#x0e01;&#x0e24;&#x0e29;&#x0e17;&#x0e35;&#x0e48;&#x0e43;&#x0e0a;&#x0e49;&#x0e43;&#x0e19;&#x0e1b;&#x0e23;&#x0e30;&#x0e40;&#x0e17;&#x0e28;&#x0e2d;&#x0e31;&#x0e07;&#x0e01;&#x0e24;&#x0e29;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e40;&#x0e23;&#x0e37;&#x0e48;&#x0e2d;&#x0e07;&#x0e17;&#x0e35;&#x0e48;&#x0e40;&#x0e01;&#x0e35;&#x0e48;&#x0e22;&#x0e27;&#x0e02;&#x0e49;&#x0e2d;&#x0e07;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e01;&#x0e32;&#x0e23;&#x0e2d;&#x0e49;&#x0e32;&#x0e07;&#x0e2d;&#x0e34;&#x0e07;&#x0e16;&#x0e36;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;&#x0e17;&#x0e35;&#x0e48;&#x0e40;&#x0e01;&#x0e35;&#x0e48;&#x0e22;&#x0e27;&#x0e02;&#x0e49;&#x0e2d;&#x0e07;
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e02;&#x0e49;&#x0e2d;&#x0e40;&#x0e2a;&#x0e19;&#x0e2d;&#x0e27;&#x0e34;&#x0e18;&#x0e35;&#x0e1b;&#x0e0f;&#x0e34;&#x0e1a;&#x0e31;&#x0e15;&#x0e34;&#x0e17;&#x0e35;&#x0e48;&#x0e14;&#x0e35;&#x0e17;&#x0e35;&#x0e48;&#x0e2a;&#x0e38;&#x0e14;&#x0e04;&#x0e37;&#x0e2d; &#x0e43;&#x0e2b;&#x0e49;&#x0e2d;&#x0e49;&#x0e32;&#x0e07;&#x0e2d;&#x0e34;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e42;&#x0e14;&#x0e22;&#x0e43;&#x0e0a;&#x0e49;&#x0e2a;&#x0e32;&#x0e22;&#x0e2d;&#x0e31;&#x0e01;&#x0e02;&#x0e23;&#x0e30;&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e15;&#x0e31;&#x0e27;&#x0e40;&#x0e25;&#x0e02;
+	&#x0e15;&#x0e32;&#x0e21;&#x0e41;&#x0e1a;&#x0e1a;&#x0e41;&#x0e1c;&#x0e19;&#x0e01;&#x0e32;&#x0e23;&#x0e01;&#x0e33;&#x0e2b;&#x0e19;&#x0e14;&#x0e23;&#x0e2b;&#x0e31;&#x0e2a;&#x0e1b;&#x0e23;&#x0e30;&#x0e08;&#x0e33;&#x0e15;&#x0e31;&#x0e27;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e15;&#x0e49;&#x0e19;&#x0e09;&#x0e1a;&#x0e31;&#x0e1a;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e01;&#x0e32;&#x0e23;&#x0e2d;&#x0e49;&#x0e32;&#x0e07;&#x0e2d;&#x0e34;&#x0e07;&#x0e16;&#x0e36;&#x0e07;&#x0e17;&#x0e35;&#x0e48;&#x0e21;&#x0e32;&#x0e02;&#x0e2d;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;&#x0e09;&#x0e1a;&#x0e31;&#x0e1a;&#x0e1b;&#x0e31;&#x0e08;&#x0e08;&#x0e38;&#x0e1a;&#x0e31;&#x0e19;&#x0e2d;&#x0e32;&#x0e08;&#x0e14;&#x0e31;&#x0e14;&#x0e41;&#x0e1b;&#x0e25;&#x0e07;&#x0e1a;&#x0e32;&#x0e07;&#x0e2a;&#x0e48;&#x0e27;&#x0e19;&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e17;&#x0e31;&#x0e49;&#x0e07;&#x0e40;&#x0e23;&#x0e37;&#x0e48;&#x0e2d;&#x0e07; &#x0e02;&#x0e49;&#x0e2d;&#x0e40;&#x0e2a;&#x0e19;&#x0e2d;&#x0e27;&#x0e34;&#x0e18;&#x0e35;
+	&#x0e1b;&#x0e0f;&#x0e34;&#x0e1a;&#x0e31;&#x0e15;&#x0e34;&#x0e17;&#x0e35;&#x0e48;&#x0e14;&#x0e35;&#x0e17;&#x0e35;&#x0e48;&#x0e2a;&#x0e38;&#x0e14; &#x0e04;&#x0e37;&#x0e2d;&#x0e43;&#x0e2b;&#x0e49;&#x0e23;&#x0e30;&#x0e1a;&#x0e38;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e42;&#x0e14;&#x0e22;&#x0e43;&#x0e0a;&#x0e49;&#x0e2a;&#x0e32;&#x0e22;&#x0e2d;&#x0e31;&#x0e01;&#x0e02;&#x0e23;&#x0e30;&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e15;&#x0e31;&#x0e27;&#x0e40;&#x0e25;&#x0e02;&#x0e15;&#x0e32;&#x0e21;&#x0e41;&#x0e1a;&#x0e1a;&#x0e41;&#x0e1c;&#x0e19;
+	&#x0e01;&#x0e32;&#x0e23;&#x0e01;&#x0e33;&#x0e2b;&#x0e19;&#x0e14;&#x0e23;&#x0e2b;&#x0e31;&#x0e2a;&#x0e1b;&#x0e23;&#x0e30;&#x0e08;&#x0e33;&#x0e15;&#x0e31;&#x0e27;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e02;&#x0e2d;&#x0e1a;&#x0e40;&#x0e02;&#x0e15;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e23;&#x0e30;&#x0e22;&#x0e30;&#x0e40;&#x0e27;&#x0e25;&#x0e32;&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e02;&#x0e2d;&#x0e1a;&#x0e40;&#x0e02;&#x0e15;&#x0e40;&#x0e19;&#x0e37;&#x0e49;&#x0e2d;&#x0e2b;&#x0e32;&#x0e02;&#x0e2d;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e42;&#x0e14;&#x0e22;&#x0e17;&#x0e31;&#x0e48;&#x0e27;&#x0e44;&#x0e1b;&#x0e02;&#x0e2d;&#x0e1a;&#x0e40;&#x0e02;&#x0e15;&#x0e2b;&#x0e21;&#x0e32;&#x0e22;&#x0e16;&#x0e36;&#x0e07; &#x0e2a;&#x0e16;&#x0e32;&#x0e19;&#x0e17;&#x0e35;&#x0e48; &#x0e17;&#x0e35;&#x0e48;&#x0e15;&#x0e31;&#x0e49;&#x0e07; &#x0e0a;&#x0e37;&#x0e48;&#x0e2d;&#x0e20;&#x0e39;&#x0e21;&#x0e34;&#x0e28;&#x0e32;&#x0e2a;&#x0e15;&#x0e23;&#x0e4c; &#x0e0a;&#x0e48;&#x0e27;&#x0e07;&#x0e40;&#x0e27;&#x0e25;&#x0e32; 
+	&#x0e27;&#x0e31;&#x0e19;&#x0e17;&#x0e35;&#x0e48; &#x0e02;&#x0e2d;&#x0e1a;&#x0e40;&#x0e02;&#x0e15;&#x0e2d;&#x0e33;&#x0e19;&#x0e32;&#x0e08;&#x0e01;&#x0e32;&#x0e23;&#x0e1a;&#x0e23;&#x0e34;&#x0e2b;&#x0e32;&#x0e23;&#x0e01;&#x0e32;&#x0e23;&#x0e1b;&#x0e01;&#x0e04;&#x0e23;&#x0e2d;&#x0e07;
+	&#x0e02;&#x0e49;&#x0e2d;&#x0e40;&#x0e2a;&#x0e19;&#x0e2d;&#x0e27;&#x0e34;&#x0e18;&#x0e35;&#x0e1b;&#x0e0f;&#x0e34;&#x0e1a;&#x0e31;&#x0e15;&#x0e34;&#x0e17;&#x0e35;&#x0e48;&#x0e14;&#x0e35;&#x0e17;&#x0e35;&#x0e48;&#x0e2a;&#x0e38;&#x0e14;&#x0e04;&#x0e37;&#x0e2d;&#x0e01;&#x0e32;&#x0e23;&#x0e40;&#x0e25;&#x0e37;&#x0e2d;&#x0e01;&#x0e43;&#x0e0a;&#x0e49;&#x0e28;&#x0e31;&#x0e1e;&#x0e17;&#x0e4c;&#x0e1a;&#x0e31;&#x0e07;&#x0e04;&#x0e31;&#x0e1a; &#x0e40;&#x0e0a;&#x0e48;&#x0e19; &#x0e2d;&#x0e23;&#x0e23;&#x0e16;&#x0e32;&#x0e20;&#x0e34;&#x0e18;&#x0e32;&#x0e19; 
+	&#x0e2d;&#x0e31;&#x0e01;&#x0e02;&#x0e23;&#x0e32;&#x0e19;&#x0e38;&#x0e01;&#x0e23;&#x0e21;&#x0e20;&#x0e39;&#x0e21;&#x0e34;&#x0e28;&#x0e32;&#x0e2a;&#x0e15;&#x0e23;&#x0e4c; &#x0e1b;&#x0e23;&#x0e30;&#x0e01;&#x0e32;&#x0e28;&#x0e23;&#x0e32;&#x0e0a;&#x0e1a;&#x0e31;&#x0e13;&#x0e11;&#x0e34;&#x0e15;&#x0e22;&#x0e2a;&#x0e16;&#x0e32;&#x0e19;&#x0e27;&#x0e48;&#x0e32;&#x0e14;&#x0e49;&#x0e27;&#x0e22;&#x0e01;&#x0e32;&#x0e23;&#x0e16;&#x0e2d;&#x0e14;&#x0e2d;&#x0e31;&#x0e01;&#x0e29;&#x0e23;&#x0e44;&#x0e17;&#x0e22;&#x0e40;&#x0e1b;&#x0e47;&#x0e19;&#x0e42;&#x0e23;&#x0e21;&#x0e31;&#x0e19; 
+	&#x0e41;&#x0e25;&#x0e30;&#x0e01;&#x0e32;&#x0e23;&#x0e2a;&#x0e30;&#x0e01;&#x0e14;&#x0e0a;&#x0e37;&#x0e48;&#x0e2d;&#x0e20;&#x0e39;&#x0e21;&#x0e34;&#x0e28;&#x0e32;&#x0e2a;&#x0e15;&#x0e23;&#x0e4c; &#x0e41;&#x0e25;&#x0e30;&#x0e43;&#x0e2b;&#x0e49;&#x0e40;&#x0e02;&#x0e35;&#x0e22;&#x0e19;&#x0e0a;&#x0e37;&#x0e48;&#x0e2d;&#x0e2a;&#x0e16;&#x0e32;&#x0e19;&#x0e17;&#x0e35;&#x0e48;&#x0e23;&#x0e30;&#x0e22;&#x0e30;&#x0e40;&#x0e27;&#x0e25;&#x0e32;&#x0e40;&#x0e1b;&#x0e47;&#x0e19;&#x0e04;&#x0e33;&#x0e1a;&#x0e23;&#x0e23;&#x0e22;&#x0e32;&#x0e22;&#x0e41;&#x0e17;&#x0e19;&#x0e15;&#x0e31;&#x0e27;&#x0e40;&#x0e25;&#x0e02;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+	<rdfs:label xml:lang="th-TH">
+	&#x0e2a;&#x0e34;&#x0e17;&#x0e18;&#x0e34;
+	</rdfs:label>
+	<rdfs:comment xml:lang="th-TH">
+	&#x0e02;&#x0e49;&#x0e2d;&#x0e21;&#x0e39;&#x0e25;&#x0e40;&#x0e01;&#x0e35;&#x0e48;&#x0e22;&#x0e27;&#x0e01;&#x0e31;&#x0e1a;&#x0e40;&#x0e08;&#x0e49;&#x0e32;&#x0e02;&#x0e2d;&#x0e07;&#x0e2a;&#x0e34;&#x0e17;&#x0e18;&#x0e34;&#x0e43;&#x0e19;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;
+	</rdfs:comment>
+	<dc:description xml:lang="th-TH">
+	&#x0e42;&#x0e14;&#x0e22;&#x0e17;&#x0e31;&#x0e48;&#x0e27;&#x0e44;&#x0e1b; &#x0e2b;&#x0e19;&#x0e48;&#x0e27;&#x0e22;&#x0e02;&#x0e49;&#x0e2d;&#x0e21;&#x0e39;&#x0e25;&#x0e22;&#x0e48;&#x0e2d;&#x0e22;  &#x0e2a;&#x0e34;&#x0e17;&#x0e18;&#x0e34; &#x0e08;&#x0e30;&#x0e41;&#x0e2a;&#x0e14;&#x0e07;&#x0e43;&#x0e19;&#x0e23;&#x0e39;&#x0e1b;&#x0e02;&#x0e49;&#x0e2d;&#x0e04;&#x0e27;&#x0e32;&#x0e21;&#x0e1b;&#x0e23;&#x0e30;&#x0e01;&#x0e32;&#x0e28;&#x0e27;&#x0e48;&#x0e32;&#x0e14;&#x0e49;&#x0e27;&#x0e22;&#x0e01;&#x0e32;&#x0e23;
+	&#x0e08;&#x0e31;&#x0e14;&#x0e01;&#x0e32;&#x0e23;&#x0e2a;&#x0e34;&#x0e17;&#x0e18;&#x0e34;&#x0e43;&#x0e19;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28; &#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e2d;&#x0e49;&#x0e32;&#x0e07;&#x0e2d;&#x0e34;&#x0e07;&#x0e16;&#x0e36;&#x0e07;&#x0e2b;&#x0e19;&#x0e48;&#x0e27;&#x0e22;&#x0e17;&#x0e35;&#x0e48;&#x0e1a;&#x0e23;&#x0e34;&#x0e01;&#x0e32;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28; 
+	&#x0e02;&#x0e49;&#x0e2d;&#x0e21;&#x0e39;&#x0e25;&#x0e40;&#x0e01;&#x0e35;&#x0e48;&#x0e22;&#x0e27;&#x0e01;&#x0e31;&#x0e1a;&#x0e2a;&#x0e34;&#x0e17;&#x0e18;&#x0e34;&#x0e23;&#x0e27;&#x0e21;&#x0e16;&#x0e36;&#x0e07;&#x0e2a;&#x0e34;&#x0e17;&#x0e18;&#x0e34;&#x0e02;&#x0e2d;&#x0e07;&#x0e17;&#x0e23;&#x0e1e;&#x0e22;&#x0e4c;&#x0e2a;&#x0e34;&#x0e19;&#x0e17;&#x0e32;&#x0e07;&#x0e1b;&#x0e31;&#x0e0d;&#x0e0d;&#x0e32; &#x0e25;&#x0e34;&#x0e02;&#x0e2a;&#x0e34;&#x0e17;&#x0e18;&#x0e34;&#x0e4c; &#x0e41;&#x0e25;&#x0e30;&#x0e2a;&#x0e34;&#x0e17;&#x0e18;&#x0e34;&#x0e43;&#x0e19;
+	&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e4c;&#x0e2a;&#x0e34;&#x0e19;&#x0e2d;&#x0e37;&#x0e48;&#x0e19;&#x0e46; &#x0e16;&#x0e49;&#x0e32;&#x0e44;&#x0e21;&#x0e48;&#x0e21;&#x0e35;&#x0e02;&#x0e49;&#x0e2d;&#x0e04;&#x0e27;&#x0e32;&#x0e21;&#x0e1b;&#x0e23;&#x0e30;&#x0e01;&#x0e32;&#x0e28;&#x0e43;&#x0e19;&#x0e2a;&#x0e48;&#x0e27;&#x0e19;&#x0e04;&#x0e33;&#x0e22;&#x0e48;&#x0e2d;&#x0e22; &#x0e2a;&#x0e34;&#x0e17;&#x0e18;&#x0e34; &#x0e2b;&#x0e21;&#x0e32;&#x0e22;&#x0e04;&#x0e27;&#x0e32;&#x0e21;&#x0e27;&#x0e48;&#x0e32;&#x0e44;&#x0e21;&#x0e48;
+	&#x0e2a;&#x0e32;&#x0e21;&#x0e32;&#x0e23;&#x0e16;&#x0e2a;&#x0e23;&#x0e38;&#x0e1b;&#x0e2a;&#x0e16;&#x0e32;&#x0e19;&#x0e30;&#x0e2b;&#x0e23;&#x0e37;&#x0e2d;&#x0e2a;&#x0e34;&#x0e17;&#x0e18;&#x0e34;&#x0e04;&#x0e27;&#x0e32;&#x0e21;&#x0e40;&#x0e1b;&#x0e47;&#x0e19;&#x0e40;&#x0e08;&#x0e49;&#x0e32;&#x0e02;&#x0e2d;&#x0e07;&#x0e17;&#x0e23;&#x0e31;&#x0e1e;&#x0e22;&#x0e32;&#x0e01;&#x0e23;&#x0e2a;&#x0e32;&#x0e23;&#x0e2a;&#x0e19;&#x0e40;&#x0e17;&#x0e28;&#x0e40;&#x0e23;&#x0e37;&#x0e48;&#x0e2d;&#x0e07;&#x0e19;&#x0e31;&#x0e49;&#x0e19;&#x0e46;
+	</dc:description>
+</rdf:Property>
+
+</rdf:RDF>

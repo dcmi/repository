@@ -1,0 +1,23 @@
+
+    <!--#include virtual="tool-head.shtml" -->
+    <!--#include virtual="/ssi/header.shtml" -->
+    <h1>Open Data Profiler</h1>
+    <table cellspacing="0" class="noborder">
+<tr><td>Identifier:&nbsp;&nbsp;&nbsp;</td><td><a href="http://sourceforge.net/projects/dataprofiler/">http://sourceforge.net/projects/dataprofiler/</a></td></tr>
+<tr><td>Description:&nbsp;&nbsp;&nbsp;</td><td>Open Data Profiler is a an open source, extensible data profiler, which enables users to analyze and gather automatically data quality facts on data sources in various formats (XML, JDBC or CSV).
+
+The profiler works in three steps. First, the analysis to perform on the dataset has to be set up by creating an XML profile specification file in which is specified which one of the five available analyses runs on which column of the dataset. In a second step, the profiler itself is launched, which will read the .xml file and store the result of the profiling into a local repository and the information about the profiling execution into a catalog file. The catalog file is used to record what profile specification (.xml file) was used as a basis for profiling and to retrieve the results from the local repository. Third, the visualizer is run to view the profile execution results. These can then be exported for further analysis in another tool.
+</td></tr>
+<tr><td>Rights:&nbsp;&nbsp;&nbsp;</td><td>open-source software released under the GNU General Public License (GPL) version 2</td></tr>
+<tr><td>Language:&nbsp;&nbsp;&nbsp;</td><td>eng (ISO 639-2)</td></tr>
+<tr><td>Creator:&nbsp;&nbsp;&nbsp;</td><td>Yves Bontemps</a></td></tr>
+<tr><td>Publisher:&nbsp;&nbsp;&nbsp;</td><td><a href="http://sourceforge.net/">http://sourceforge.net/</a></td></tr>
+<tr><td>Location:&nbsp;&nbsp;&nbsp;</td><td>Belgium</td></tr>
+<tr><td>Date:&nbsp;&nbsp;&nbsp;</td><td>2008</td></tr>
+</table>
+    <p><small>For an application profile see the <a href="/groups/tools/map.shtml">DCMI Tools
+    Application Profile</a></small>
+    <!--#include virtual="/ssi/footer.shtml" -->
+    </body>
+    </html>
+    

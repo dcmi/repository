@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>Sample</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1 id="title">Sample</h1>
+<dl>
+<dt>HTML Tag:</dt>
+<dd><code>&lt;SAMP&gt;&lt;/SAMP&gt;</code></dd>
+<dt>Guidelines:</dt>
+<dd>A <code>SAMP</code> element is one that contains text that is a sample output from a computer program or script. This is different from a code example, which is covered by the <code>CODE</code> element. Browsers have free rein to determine how (or whether) to distinguish <code>SAMP</code> element content from the rest of the <code>BODY</code> element. Both Navigator and Internet Explorer elect to render the text in monospace font.</dd>
+<dt>Warnings:</dt>
+<dd>-</dd>
+<dt>Priority:</dt>
+<dd>-</dd>
+</dl>
+<h2>Browser View:</h2>
+<p>When you press the Enter key, you will see <samp>Hello, world!</samp> on the screen.</p>
+<h2>Source View:</h2>
+<code>&lt;P&gt;When you press the Enter key, you will see &lt;SAMP&gt;Hello, world!&lt;/SAMP&gt; on the screen.&lt;/P&gt;</code>
+</body>
+</html>

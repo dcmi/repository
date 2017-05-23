@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/DC/documents/rec/dcmi-dcsv-20000711.htm">
+   <dc:title>Dublin Core Metadata Initiative - DCMI DCSV</dc:title>
+   <dc:creator>Simon Cox</dc:creator>
+   <dc:creator>Renato Iannella</dc:creator>
+   <dc:description>We describe a method for recording 
+                    lists of labelled values in a text string, called Dublin Core 
+                    Structured Values, with the label DCSV. The notation is intended 
+                    for structured information within attribute values in markup-languages 
+                    such as HTML and XML. This is likely to be useful in recording 
+                    complex element values in metadata systems based on the qualified 
+                    Dublin Core model.</dc:description>
+   <dc:date>2000-07-11</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

@@ -1,0 +1,19 @@
+
+    <!--#include virtual="tool-head.shtml" -->
+    <!--#include virtual="/ssi/header.shtml" -->
+    <h1>CollectiveAccess</h1>
+    <table cellspacing="0" class="noborder">
+<tr><td>Identifier:&nbsp;&nbsp;&nbsp;</td><td><a href="http://collectiveaccess.org/">http://collectiveaccess.org/</a></td></tr>
+<tr><td>Description:&nbsp;&nbsp;&nbsp;</td><td>CollectiveAccess is a full-featured collections management and online access application for museums, archives and digital collections. It is designed to handle large, heterogeneous collections that have complex cataloguing requirements and require support for a variety of metadata standards and media formats. Unlike most other collections management applications, CollectiveAccess is completely web-based. All cataloging, search and administrative functions are accessed using common web-browser software, untying users from specific operating systems and making cataloguing by distributed teams and online access to collections information simple, efficient and inexpensive.</td></tr>
+<tr><td>Rights:&nbsp;&nbsp;&nbsp;</td><td>open-source software released under the GNU General Public License (GPL) version 2</td></tr>
+<tr><td>Language:&nbsp;&nbsp;&nbsp;</td><td>eng (ISO 639-2), translations in German, French and Dutch are being prepared</td></tr>
+<tr><td>Creator:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.whirl-i-gig.com/">http://www.whirl-i-gig.com/</a></td></tr>
+<tr><td>Publisher:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.whirl-i-gig.com/">http://www.whirl-i-gig.com/</a></td></tr>
+<tr><td>Location:&nbsp;&nbsp;&nbsp;</td><td>USA</td></tr>
+<tr><td>Date:&nbsp;&nbsp;&nbsp;</td><td>2009</td></tr>
+</table>
+    <p><small>For an application profile see the <a href="/groups/tools/map.shtml">DCMI Tools
+    Application Profile</a></small>
+    <!--#include virtual="/ssi/footer.shtml" -->
+    </body>
+    </html>

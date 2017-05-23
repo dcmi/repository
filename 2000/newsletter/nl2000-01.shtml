@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Update - January 2000</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+    <link rel="meta" href="nl2000-01.shtml.rdf" />
+  </head>
+
+  <body bgcolor="#FFFFFF" text="#000000">
+    
+<div class="head">
+      <!--#include virtual="/ssi/header.shtml"-->
+<table summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content." border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr valign="top">
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td bgcolor="#EEEEEE" width="150">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" summary="Layout table: Contains graphical text.">
+<tbody>
+<tr bgcolor="#99A59F" align="center">
+<td><img src="/images/navlist/toc.gif" width="150" height="25" alt="Table of Contents" border="0" /></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellspacing="0" cellpadding="10" border="0" summary="Layout table: Contains navigation.">
+<tbody>
+<tr>
+<td class="smallsans">
+<dl>
+<dt class="navlist"><a href="#action">Action!</a></dt>
+<dt class="navlist"><a href="#newsbriefs">News Briefs</a></dt>
+<dt class="navlist"><a href="#workinggroup">Working Group Updates</a></dt>
+<dt class="navlist"><a href="#advisory">Advisory Committee Updates</a></dt>
+<dt class="navlist"><a href="#workshop">Workshop News</a></dt>
+<dt class="navlist"><a href="#project">Project &amp; Tool Updates</a></dt>
+<dt class="navlist"><a href="#website">Web Site Changes</a></dt>
+<dt class="navlist">Submit a news item</dt>
+</dl>
+</td>
+</tr>
+<tr>
+<td class="note">
+<p>This Newsletter is published monthly by the <a href="../../">Dublin Core Metadata Initiative</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="10" summary="Content table">
+<tbody>
+<tr>
+<td>
+<h1 align="center">DCMI Update</h1>
+<h3 align="center">Volume 1, Number 1 - January
+              2000</h3>
+<div align="center">
+                
+<p>(A Summary of activities from December 1999)</p>
+<hr noshade size="1" />
+
+                
+<h3 align="left"><a id="action"
+                name="action"></a>Action!</h3>
+</div>
+<ul>
+                
+<li>Usage Working Group is in the process of
+                balloting qualifiers; results of the balloting can
+                be expected in February 2000.</li>
+</ul>
+<h3><a id="newsbriefs" name="newsbriefs"></a>News
+              Briefs</h3>
+<ul>
+                
+<li><strong>1999-12-16 <a
+                href="http://www.ietf.org/rfc/rfc2731.txt">IETF RFC
+                2731</a> "Encoding Dublin Core Metadata in HTML" is
+                now available.</strong><br />
+                 This document is the end product of the
+                substantial efforts of John Kunze, who developed
+                its antecedent, an Internet Draft, managed the
+                revision of the draft, and its evolution into the
+                present document. The Dublin Core community is
+                indebted to John for his substantial efforts in
+                bringing this important document to fruition, and
+                to the many others who contributed to the evolution
+                of this important convention for expressing
+                metadata in HTML.
+                </li>
+<li><strong>1999-12- 06 DCMI web site announces
+                mirror sites in <a
+                href="http://mirror.nla.gov.au/dc">Australia</a>
+                and the <a
+                href="http://mirrored.ukoln.ac.uk/dc/">U.K.</a></strong>
+                </li>
+</ul>
+<h3 align="left"><a id="workinggroup"
+              name="workinggroup"></a>Working Group Updates</h3>
+<ul>
+                
+<li><strong>1999-12-21 New provisional working
+                group: <a
+                href="../groups/registry/">DC-Registry</a></strong></li>
+<li><strong>1999-12-14 New provisional working
+                group: <a
+                href="../groups/government/">DC-Government</a></strong><br />
+                 The Government working group is a forum for
+                individuals involved in implementing Dublin Core
+                within and between government agencies. The working
+                group will also be active in promoting use of DC
+                within government agencies considering developing
+                metadata-based information services.<br />
+                </li>
+<li><strong>1999-12-07 New provisional working
+                group: <a
+                href="../groups/libraries/">DC-Libraries</a></strong><br />
+                 The Libraries working group will work towards
+                fostering increased operability between DC and
+                library metadata by identifying issues and
+                solutions; keeping the library community informed
+                on DC developments; encouraging experimentation
+                more widely with Dublin Core in libraries; building
+                a library implementors community and exploring the
+                need for a cross-domain namespace to register
+                non-DC elements and qualifiers needed by the
+                library community.
+                </li>
+</ul>
+<h3><a id="advisory" name="advisory"></a>Advisory
+              Committee Updates</h3>
+<ul>
+                
+<li><strong>1999-12-14 New Advisory Committee
+                member: <a href="mailto:terry.kuny@xist.com">Terry
+                Kuny</a>, chair of <a
+                href="../groups/government/">DC-Government.</a></strong></li>
+<li><strong>1999-12-07 New chair of <a
+                href="../groups/implementors/">DC-Implementors</a>
+                working group: <a
+                href="mailto:siglun@gungner.lub.lu.se">Sigfrid
+                Lundberg</a></strong></li>
+<li><strong>1999-12-07 New Advisory Committee
+                member: <a
+                href="mailto:sasutton@u.washington.edu">Stuart
+                Sutton</a></strong></li>
+</ul>
+<h3 align="left"><a id="workshop"
+              name="workshop"></a>Workshop News</h3>
+<h3 align="left"><a id="project"
+              name="project"></a>Project and Tool Updates</h3>
+<ul>
+                
+<li><strong>1999-12-17 New Project:
+                MetaChem</strong><br />
+                 MetaChem is a single Web-based focal point for
+                access to chemistry information resources of all
+                kinds.</li>
+<li><strong>1999-12-17 New Project URL: <a
+                href="http://physnet.uni-oldenburg.de/PhysNet/physnet.html">PhysNet</a></strong><br />
+                 PhysNet now has a new URL (
+                <a
+                href="http://physnet.uni-oldenburg.de/PhysNet/physnet.html">http://physnet.uni-oldenburg.de/PhysNet/physnet.html</a>
+                ). PhysNet offers a set of lists of links to all
+                Physics Institutions worldwide ordered by country
+                and town and a search facility on the Web through
+                the local Physics Institutions for locally stored
+                documents.
+                </li>
+</ul>
+<h3 align="left"><a id="website"
+              name="website"></a>Web Site Changes</h3>
+<ul>
+                
+<li>1999-12-20 Incorporated "Dublin Core in the
+                Press" into the "Selected Publications and
+                Presentations" page.</li>
+<li>1999-12-13 Updated and reorganized the <a
+                href="../resources/faq/">FAQ page</a>; added the
+                question, "Is there metadata on the Dublin Core
+                Metadata Initiative's web site pages?"</li>
+<li>1999-12-03 Collapsed the different document
+                directories for Recommendations, Proposed
+                Recommendations, Working Drafts, and Notes into a
+                single Documents directory.</li>
+</ul>
+<p>Suggestions, article or item submissions and any
+              comments may be sent to <a
+              href="mailto:dc@oclc.org">dc@oclc.org</a>. Deadline
+              for submissions is the 20th of each month.</p>
+           </td>
+</tr>
+</tbody>
+</table> </td>
+</tr>
+</tbody>
+</table>
+      
+</div>
+    <!--#include virtual="/ssi/footer.txt"-->
+  </body>
+</html>
+

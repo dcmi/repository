@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Converting Word documents to Adobe PDF</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#ffffff" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="20">
+<tr>
+<td>
+<h1>Converting Word documents to Adobe PDF</h1>
+<p>Microsoft Word includes the ability to convert Word documents to Adobe PDF. The following instructions will help you set up your Conversion Settings to obtain high resolution quality.</p>
+<hr>
+<table cellpadding="4">
+<tr>
+<td><strong>Low resolution (undesirable):</strong></td>
+<td>&nbsp;</td>
+<td><strong>High resolution (desirable):</strong></td>
+</tr>
+<tr>
+<td><img src="images/low_resolution.gif" width="220" height="160"></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><img src="images/high_resolution.gif" width="220" height="160"></td>
+</tr>
+</table>
+<hr>
+<h2>Conversion Settings</h2>
+<table cellpadding="4">
+<tr>
+<td valign="top"><strong>1</strong></td>
+<td valign="top">In Microsoft Word, go to the  <strong>Acrobat</strong> -&gt; <strong>Change Conversion Settings</strong> menu.</td>
+</tr>
+<tr>
+<td valign="top"><strong>2</strong></td>
+<td valign="top">The <strong>Conversion Settings</strong> dialog will display.</td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+<td valign="top"><img src="images/conversion_settings/settings.gif" width="463" height="482"></td>
+</tr>
+<tr>
+<td valign="top"><strong>3</strong></td>
+<td valign="top">
+<p>Click on the <strong>Edit Conversion Settings</strong> button. The <strong>Job Options</strong> dialog will display.</p>
+<p>Change the settings on each tab (<a href="#general">General</a>, <a href="#compression">Compression</a>, <a href="#fonts">Fonts</a>, <a href="#color">Color</a>, <a href="#advanced">Advanced</a>) as specified in the screens below.</p>
+</td>
+</tr>
+<tr>
+<td valign="top"><a name="general"></a></td>
+<td valign="top"><strong>General options</strong></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+<td valign="top"><img src="images/job_options/general.gif" width="536" height="503"></td>
+</tr>
+<tr>
+<td valign="top"><a name="compression"></a></td>
+<td valign="top"><strong>Compression options</strong></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+<td valign="top"><img src="images/job_options/compression.gif" width="536" height="503"></td>
+</tr>
+<tr>
+<td valign="top"><a name="fonts"></a></td>
+<td valign="top"><strong>Fonts options</strong></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+<td valign="top"><img src="images/job_options/fonts.gif" width="536" height="503"></td>
+</tr>
+<tr>
+<td valign="top"><a name="color"></a></td>
+<td valign="top"><strong>Color options</strong></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+<td valign="top"><img src="images/job_options/color.gif" width="536" height="503"></td>
+</tr>
+<tr>
+<td valign="top"><a name="advanced"></a></td>
+<td valign="top"><strong>Advanced options</strong></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+<td valign="top"><img src="images/job_options/advanced.gif" width="536" height="503"></td>
+</tr>
+<tr>
+<td valign="top"><strong>4</strong></td>
+<td valign="top">After making the necessary changes, you may save your settings. Click on the <strong>Save As</strong> button and save your settings as <strong>DCMI.joboptions</strong></td>
+</tr>
+<tr>
+<td valign="top">&nbsp;</td>
+<td valign="top"><img src="images/save_as.gif" width="426" height="264"></td>
+</tr>
+<tr>
+<td valign="top"><strong>5</strong></td>
+<td valign="top">After saving your settings, click on the <strong>OK</strong> button.</td>
+</tr>
+<tr>
+<td valign="top"><strong>6</strong></td>
+<td valign="top">To convert a Word document to PDF, go to the  <strong>Acrobat</strong> -&gt; <strong>Convert to Adobe PDF</strong> menu.</td>
+</tr>
+</table>
+<p><strong>Last updated on February 20, 2003.</strong></p>
+</td>
+</tr>
+</table>
+</body>
+</html>

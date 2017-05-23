@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+]>
+<rdf:RDF 
+    xmlns:dcterms="http://purl.org/dc/terms/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:rda="http://RDVocab.info/Elements/"
+    xmlns:rdarole="http://RDVocab.info/roles/"
+    xmlns:marcrelator="http://www.loc.gov/loc.terms/relators/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdakey="http://purl.org/net/rdakey/"
+    xml:base="http://placeholder/">
+
+
+    <!-- URI constructed from mods/identifier[@type='lccn'] -->
+    <frbr:Manifestation rdf:about="manifestation/00000002">
+        
+        <!-- link to expression -->
+        <frbr:embodimentOf rdf:resource="expression/00000002"/>
+        
+        <!-- mapped from mods/titleInfo/title -->
+        <rda:titleProper rdf:datatype="&xsd;string">Botanical materia medica and pharmacology</rda:titleProper>
+        
+        <!-- mapped from mods/titleInfo/subTitle -->
+        <rda:parallelTitle rdf:datatype="&xsd;string">drugs considered from a botanical, pharmaceutical, physiological, therapeutical and toxicological standpoint</rda:parallelTitle>
+        
+        <!-- mapped from mods/note[@type='statement of responsibility'] -->
+        <rda:statementOfResponsibilityRelatingToTitle rdf:datatype="&xsd;string">By S. H. Aurand.</rda:statementOfResponsibilityRelatingToTitle>  
+
+        <!-- @@TODO mods/physicalDescription -->
+        
+    </frbr:Manifestation>
+    
+    
+    <!-- URI constructed from mods/identifier[@type='lccn'] -->
+    <frbr:Expression rdf:about="expression/00000002">
+
+        <!-- link to manifestation -->
+        <frbr:embodiment rdf:resource="manifestation/00000002"/>
+
+        <!-- link to work -->
+        <frbr:realizationOf rdf:resource="work/00000002"/>
+        
+        <!-- mods/typeOfResource as rda:contentType -->
+        <rda:contentType rdf:resource="http://RDVocab.info/termList/RDAContentType/1020"/>
+        
+    </frbr:Expression>
+
+
+    <!-- URI constructed from mods/identifier[@type='lccn'] -->
+    <frbr:Work rdf:about="work/00000002">
+
+        <!-- link to expression -->
+        <frbr:realization rdf:resource="expression/00000002"/>
+        
+        <!-- mapped from mods/titleInfo/title -->
+        <rda:preferredTitleForTheWork rdf:datatype="&xsd;string">Botanical materia medica and pharmacology</rda:preferredTitleForTheWork>
+        
+        <!-- mapped from mods/name[@type='personal'] -->
+        <!-- property mapped from mods/name[@type='personal']/role/roleTerm[@authority='marcrelator'] via http://lcweb2.loc.gov/cocoon/loc.terms/relators/dc-relators.xml -->
+        <marcrelator:CRE rdf:resource="person/00000002-1"/> 
+        <frbr:creator rdf:resource="person/00000002-1"/>
+        <rdarole:author rdf:resource="person/00000002-1"/>
+        
+        <!-- use a simple hash of the heading text for LCSH URIs for now (ideally would use official URIs constructed from heading lccn, but need a lookup table for that) -->
+        
+        <frbr:subject rdf:resource="lcsh/botanymedical"/>
+        <dcterms:subject rdf:resource="lcsh/botanymedical"/>
+
+        <frbr:subject rdf:resource="lcsh/homeopathy"/>
+        <dcterms:subject rdf:resource="lcsh/homeopathy"/>
+        
+        <!-- output hashed keys to help identify works across records -->
+        <rdakey:workTitleSimpleHash rdf:datatype="&xsd;string">botanicalmateriamedicaandpharmacology</rdakey:workTitleSimpleHash>
+        
+    </frbr:Work>    
+
+
+    <!-- URI constructed from mods/identifier[@type='lccn'] and position of name in name sequence -->
+    <frbr:Person rdf:about="person/00000002-1">
+        
+        <!-- mapped from mods/name[@type='personal']/namePart -->
+        <rda:preferredNameForThePerson rdf:datatype="&xsd;string">Aurand, Samuel Herbert</rda:preferredNameForThePerson>
+        
+        <!-- mapped from mods/name[@type='personal']/namePart[@type='date'] -->
+        <rda:dateAssociatedWithThePerson rdf:datatype="&xsd;string">1854-</rda:dateAssociatedWithThePerson>
+        
+        <!-- output hashed keys to help identify persons across records -->
+        <rdakey:personNameSimpleHash  rdf:datatype="&xsd;string">aurandsamuelherbert1854</rdakey:personNameSimpleHash>
+        
+    </frbr:Person>    
+    
+    
+</rdf:RDF>

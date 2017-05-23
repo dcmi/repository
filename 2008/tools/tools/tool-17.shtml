@@ -1,0 +1,19 @@
+
+    <!--#include virtual="tool-head.shtml" -->
+    <!--#include virtual="/ssi/header.shtml" -->
+    <h1>Omeka</h1>
+    <table cellspacing="0" class="noborder">
+<tr><td>Identifier:&nbsp;&nbsp;&nbsp;</td><td><a href="http://omeka.org/">http://omeka.org/</a></td></tr>
+<tr><td>Description:&nbsp;&nbsp;&nbsp;</td><td>Omeka is a free, flexible, and open source web-publishing platform for the display of library, museum, archives, and scholarly collections and exhibitions. Its “five-minute setup” makes launching an online exhibition as easy as launching a blog. Omeka is designed with non-IT specialists in mind, allowing users to focus on content and interpretation rather than programming. It brings Web 2.0 technologies and approaches to academic and cultural websites to foster user interaction and participation. It makes top-shelf design easy with a simple and flexible templating system.</td></tr>
+<tr><td>Rights:&nbsp;&nbsp;&nbsp;</td><td>open-source software released under the GNU General Public License (GPL)</td></tr>
+<tr><td>Language:&nbsp;&nbsp;&nbsp;</td><td>eng (ISO 639-2)</td></tr>
+<tr><td>Creator:&nbsp;&nbsp;&nbsp;</td><td><a href="http://chnm.gmu.edu/">http://chnm.gmu.edu/</a></td></tr>
+<tr><td>Publisher:&nbsp;&nbsp;&nbsp;</td><td><a href="http://chnm.gmu.edu/">http://chnm.gmu.edu/</a></td></tr>
+<tr><td>Location:&nbsp;&nbsp;&nbsp;</td><td>USA</td></tr>
+<tr><td>Date:&nbsp;&nbsp;&nbsp;</td><td>2010</td></tr>
+</table>
+    <p><small>For an application profile see the <a href="/groups/tools/map.shtml">DCMI Tools
+    Application Profile</a></small>
+    <!--#include virtual="/ssi/footer.shtml" -->
+    </body>
+    </html>

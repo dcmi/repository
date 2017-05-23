@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+     <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+     <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+     <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+     <!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+     <!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
+  ]>
+
+  <rdf:RDF 
+     xmlns:rdf="&rdfns;"
+     xmlns:rdfs="&rdfsns;"
+     xmlns:dc="&dcns;"
+     xmlns:dcterms="&dctermsns;"
+     xmlns:dctype="&dctypens;">
+
+
+  <rdf:Property rdf:about="&dctermsns;alternative">
+    <rdfs:label xml:lang="es-ES">
+		Alternativa
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Cualquier alternativa al t&#x00ed;tulo usada para sustituir al t&#x00ed;tulo formal del recurso.
+	 </rdfs:comment>
+    <dc:description xml:lang="es-ES">
+		Puede incluir abreviaciones y traducciones.
+	 </dc:description>
+  </rdf:Property>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;LCSH">
+    <rdfs:label xml:lang="es-ES">
+		LCSH
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Library of Congress Subject Headings.
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;LCC">
+    <rdfs:label xml:lang="es-ES">
+		LCC
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Library of Congress Classification.
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;DDC">
+   <rdfs:label xml:lang="es-ES">
+	 DDC
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Dewey Decimal Classification. 
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;UDC">
+    <rdfs:label xml:lang="es-ES">
+		UDC
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Universal Decimal Classification.
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <dcterms:SubjectScheme rdf:about="&dctermsns;MESH">
+    <rdfs:label xml:lang="es-ES">
+		MeSH
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Medical Subject Headings.
+	 </rdfs:comment>
+  </dcterms:SubjectScheme>
+
+  <rdf:Property rdf:about="&dctermsns;abstract">
+    <rdfs:label xml:lang="es-ES">
+		Resumen
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Un resumen del contenido del recurso.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;tableOfContents">
+   <rdfs:label xml:lang="es-ES">
+	 Tabla de Contenidos
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Una lista de subunidades del contenido del recurso.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;created">
+    <rdfs:label xml:lang="es-ES">
+		Creado
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Fecha de creaci&#x00f3;n del recurso.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;issued">
+    <rdfs:label xml:lang="es-ES">
+		Publicado
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Fecha de la emisi&#x00f3;n formal (publicaci&#x00f3;n) del recurso.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;modified">
+   <rdfs:label xml:lang="es-ES">
+	 Modificado
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Fecha en la cual el recurso fue cambiado.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <dcterms:DateScheme rdf:about="&dctermsns;W3CDTF">
+    <rdfs:label xml:lang="es-ES">
+		W3C-DTF
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Reglas de codificaci&#x00f3;n de W3C para las fechas y las &#x00e9;pocas - un perfil basado en ISO 8601.
+	 </rdfs:comment>
+  </dcterms:DateScheme>
+
+  <dcterms:DateScheme rdf:about="&dctermsns;Period">
+    <rdfs:label xml:lang="es-ES">
+		Per&#x00ed;odo
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Una especificaci&#x00f3;n de los l&#x00ed;mites de un intervalo de tiempo.
+	 </rdfs:comment>
+  </dcterms:DateScheme>
+
+
+  <rdf:Property rdf:about="&dctermsns;extent">
+    <rdfs:label xml:lang="es-ES">
+		Extensi&#x00f3;n
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El tama&#x00f1;o o duraci&#x00f3;n del recurso.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;medium">
+    <rdfs:label xml:lang="es-ES">
+		Medio
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El portador material o f&#x00ed;sico del recurso.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <dcterms:FormatScheme rdf:about="&dctermsns;IMT">
+   <rdfs:label xml:lang="es-ES">
+	 IMT
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El tipo de medios de comunicaci&#x00f3;n de Internet del recurso.
+	 </rdfs:comment>
+  </dcterms:FormatScheme>
+	
+  <dcterms:LanguageScheme rdf:about="&dctermsns;RFC1766">
+    <rdfs:label xml:lang="es-ES">
+		RFC 1766
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El RFC 1766 son etiquetas de Internet para la identificaci&#x00f3;n del lenguaje, especifica un c&#x00f3;digo de dos caracteres tomado de ISO 639, seguidos opcionalmente por un c&#x00f3;digo de pa&#x00ed;s de dos caracteres tomado de ISO 3166.
+	 </rdfs:comment>
+  </dcterms:LanguageScheme>
+
+  <dcterms:LanguageScheme rdf:about="&dctermsns;ISO639-2">
+    <rdfs:label xml:lang="es-ES">
+		ISO 639-2
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		ISO 639-2: C&#x00f3;digos para la representaci&#x00f3;n de nombres de lenguajes.
+	 </rdfs:comment>
+  </dcterms:LanguageScheme>
+
+
+  <rdf:Property rdf:about="&dctermsns;isPartOf">
+    <rdfs:label xml:lang="es-ES">
+		Es parte de
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El recurso descrito es una parte f&#x00ed;sica o l&#x00f3;gica del recurso referido.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasPart">
+    <rdfs:label xml:lang="es-ES">
+		Tiene parte
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El recurso descrito incluye el recurso referido f&#x00ed;sicamente o l&#x00f3;gicamente.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isVersionOf">
+    <rdfs:label xml:lang="es-ES">
+		Es versi&#x00f3;n de
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El recurso descrito es una versi&#x00f3;n, la edici&#x00f3;n, o la adaptaci&#x00f3;n del recurso referido. Los cambios de la versi&#x00f3;n implican cambios sustanciales de contenido m&#x00e1;s que diferencias del formato.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasVersion">
+    <rdfs:label xml:lang="es-ES">
+		Tiene la versi&#x00f3;n
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El recurso descrito tiene una versi&#x00f3;n, la edici&#x00f3;n, o la adaptaci&#x00f3;n del recurso referido.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isFormatOf">
+    <rdfs:label xml:lang="es-ES">
+		Es el formato de
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El recurso descrito tiene el mismo contenido intelectual del recurso referido, pero est&#x00e1; presentado en otro formato.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasFormat">
+    <rdfs:label xml:lang="es-ES">
+		Tiene el formato
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El recurso descrito preexisti&#x00f3; al recurso referido, que es esencialmente el mismo contenido intelectual presentado en otro formato.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;references">
+   <rdfs:label xml:lang="es-ES">
+	 Referencias
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Las referencias del recurso descritas, citan, o indican el recurso referido.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isReferencedBy">
+    <rdfs:label xml:lang="es-ES">
+		Es referido por
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El recurso descrito es referido, citado, o indicado por el recurso referido.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;requires">
+    <rdfs:label xml:lang="es-ES">
+		Requiere
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El recurso descrito requiere el recurso referido para apoyar su funci&#x00f3;n, entrega, o la coherencia de contenido.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isRequiredBy">
+    <rdfs:label xml:lang="es-ES">
+		Es requerido por
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El recurso descrito es requerido por el recurso referido, f&#x00ed;sicamente o l&#x00f3;gicamente.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;replaces">
+    <rdfs:label xml:lang="es-ES">
+		Sustituye
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El recurso descrito suplanta, desplaza, o reemplaza el recurso referido.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isReplacedBy">
+    <rdfs:label xml:lang="es-ES">
+		Es sustituido por
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El recurso descrito es suplantado, desplazado, o supercedido por el recurso referido.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;spatial">
+    <rdfs:label xml:lang="es-ES">
+		Espacial
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Las caracter&#x00ed;sticas espaciales del contenido intelectual del recurso.
+ </rdfs:comment>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;temporal">
+   <rdfs:label xml:lang="es-ES">
+	 Temporal
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Las caracter&#x00ed;sticas temporales del contenido intelectual del recurso.
+	 </rdfs:comment>
+  </rdf:Property>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;TGN">
+    <rdfs:label xml:lang="es-ES">
+		TGN
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		The Getty Thesaurus of Geographic Names
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;ISO3166">
+    <rdfs:label xml:lang="es-ES">
+		ISO 3166
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		ISO 3166 C&#x00f3;digos para la representaci&#x00f3;n de los nombres de pa&#x00ed;ses
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;Box">
+   <rdfs:label xml:lang="es-ES">
+	 Caja
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		La Caja DCMI identifica una regi&#x00f3;n del espacio que usa sus l&#x00ed;mites geogr&#x00e1;ficos.
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;Point">
+    <rdfs:label xml:lang="es-ES">
+		Punto
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		El Punto de DCMI identifica un punto en el espacio que usa sus coordenadas geogr&#x00e1;ficas.
+	 </rdfs:comment>
+  </dcterms:SpatialScheme>
+
+  <dcterms:TypeScheme rdf:about="&dctermsns;DCMIType">
+    <rdfs:label xml:lang="es-ES">
+		Tipo DCMI
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Una lista de tipos para categorizar la naturaleza o el g&#x00e9;nero del contenido del recurso.
+	 </rdfs:comment>
+  </dcterms:TypeScheme> 
+
+  <dcterms:IdentifierScheme rdf:about="&dctermsns;URI">
+   <rdfs:label xml:lang="es-ES">
+	 URI
+	 </rdfs:label>
+    <rdfs:comment xml:lang="es-ES">
+		Identificador Uniforme del Recurso (URI)
+	 </rdfs:comment>
+  </dcterms:IdentifierScheme>
+				
+</rdf:RDF>

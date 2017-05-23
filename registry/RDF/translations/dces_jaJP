@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://www.dl.ulis.ac.jp/DC/">
+	<dc:title xml:lang="ja-JP">DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33;</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.1 Reference Description (Japanese Translation)</dc:title>
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4;</dc:creator>
+	<dc:creator xml:lang="en-US">Shigeo Sugimoto</dc:creator>
+	<dc:creator rdf:resource="mailto:sugimoto@ulis.ac.jp"/>	
+	<dc:publisher xml:lang="ja-JP">&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66;</dc:publisher>
+	<dc:publisher xml:lang="en-US">University of Library and Information Science</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:language xml:lang="ja-JP">&#x65e5;&#x672c;&#x8a9e;</dc:language>
+	<dc:language xml:lang="en-US">Japanese</dc:language>
+	<dc:language>ja-JP</dc:language>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>

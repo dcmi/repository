@@ -1,0 +1,552 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  
+<head>
+    
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    
+<title>DCMI Website Standards and Policy Manual - Header</title>
+    
+<meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    
+<link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+ 
+</script>
+  
+</head>
+
+  
+<body>
+    
+<!--#include virtual="/ssi/policies/header.shtml" -->
+<table
+    summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content."
+     border="0" width="100%" cellspacing="0" cellpadding="5">
+      <tbody>
+        
+<tr valign="top">
+          
+<td bgcolor="#EEEEEE" width="150">
+            
+<!--#include virtual="/ssi/policies/design.shtml" -->
+</td>
+<td>
+<h1>Header</h1>
+<p>The header appears at the top on every page of the Dublin Core Metadata Initiative website and gives the user a visual clue as to at where they are located, what sections are available for browsing, and a method of returning back to the home page.</p>
+<p>The header should be used on ALL pages resident on dublincore.org. The header code should not be changed in any way. The header needs to appear at the top of the page and the code should be right after the opening BODY tag in each document.</p>
+<p>Use the following header code for all pages (with the exception of the DCMI home page):</p>
+<blockquote>
+			
+<p><code>&lt;!--#include virtual=&quot;/ssi/header.shtml&quot;--&gt;</code></p>
+</blockquote>
+<h2>Header Elements</h2>
+<h3>DCMI logo</h3>
+<p>The DCMI logo is the main branding element on the DCMI website. It should always be referenced from the dublincore.org root level directory.</p>
+<p>The DCMI logo should not be distorted in any way, and should always appear crisp. Bitmap versions of the DCMI logo must not be resized. Use the exact size of the supplied bitmap, or obtain new bitmaps from DCMI.</p>
+<p>The logo always links back to the dublincore.org home page.</p>
+<p>The DCMI logo used on the DCMI website is white on an orange background color field. No variations are permitted.</p>
+<table border="1" cellpadding="6" cellspacing="0" width="100%">
+			
+<tr>
+				
+<th width="30%">Color</th>
+<th width="30%">RGB</th>
+<th width="30%">Hex</th>
+<th width="10%">&nbsp;</th>
+</tr>
+			
+<tr>
+				
+<td width="30%">Orange</td>
+<td width="30%">255, 102, 0</td>
+<td width="30%">#FF6600</td>
+<td bgcolor="#FF6600" width="10%">&nbsp;</td>
+</tr>
+			
+<tr>
+				
+<td width="30%">Black</td>
+<td width="30%">0, 0, 0</td>
+<td width="30%">#000000</td>
+<td bgcolor="#000000" width="10%">&nbsp;</td>
+</tr>
+			
+<tr>
+				
+<td width="30%">White</td>
+<td width="30%">255, 255, 255</td>
+<td width="30%">#FFFFFF</td>
+<td width="10%">&nbsp;</td>
+</tr>
+		
+</table>
+<p>&nbsp;</p>
+<table border="1" cellpadding="6" cellspacing="0" width="100%">
+<tr valign="top">
+<td colspan="2"><img src="/images/header/logo_sm.gif" width="150" height="70"></td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Element Name</b></td>
+<td width="65%">Dublin Core Metadata Initiative logo</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>ALT text</b></td>
+<td width="65%">Dublin Core Metadata Initiative logo</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Name</b></td>
+<td width="65%">logo_sm.gif</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Location</b></td>
+<td width="65%">/images/header/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Hyperlink</b></td>
+<td width="65%">/index.shtml</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Width</b></td>
+<td width="65%">150 pixels</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Height</b></td>
+<td width="65%">70 pixels</td>
+</tr>
+		
+</table>
+<h3>Title</h3>
+<p>The website's title should appear in the bottom left corner of the header on all pages of the site. The slogan &quot;Making it easier to find information.&quot; is only required to appear on the website's home page.</p>
+<p>The title image always links back to the dublincore.org home page.</p>
+<p>The font for the title on the Title image is 12 point Meta, with 6 point spacing. The text should be in upper and lowercase.</p>
+<table border="1" cellpadding="6" cellspacing="0" width="100%">
+<tr valign="top">
+<td colspan="2"><img src="/images/header/dcmi_sm.gif" width="329" height="30"></td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Element Name</b></td>
+<td width="65%">Dublin Core Metadata Initiative</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>ALT text</b></td>
+<td width="65%">Dublin Core Metadata Initiative</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Name</b></td>
+<td width="65%">dcmi_sm.gif</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Location</b></td>
+<td width="65%">/images/header/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Hyperlink</b></td>
+<td width="65%">/index.shtml</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Width</b></td>
+<td width="65%">329 pixels</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Height</b></td>
+<td width="65%">30 pixels</td>
+</tr>
+		
+</table>
+<h3>Global navigation</h3>
+<p>Links to the main sections of the site appear in uppercase graphical text in the top right corner of the header on all pages.</p>
+<table border="1" cellpadding="6" cellspacing="0" width="100%">
+<tr valign="top">
+<td colspan="2"><img src="/images/menu/about.gif" width="82" height="30"></td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Element Name</b></td>
+<td width="65%">ABOUT THE INITIATIVE</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>ALT text</b></td>
+<td width="65%">About the Initiative</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Name</b></td>
+<td width="65%">about.gif</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Location</b></td>
+<td width="65%">/images/menu/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Hyperlink</b></td>
+<td width="65%">/about/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Width</b></td>
+<td width="65%">82 pixels</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Height</b></td>
+<td width="65%">30 pixels</td>
+</tr>
+		
+</table>
+<p>&nbsp;</p>
+<table border="1" cellpadding="6" cellspacing="0" width="100%">
+<tr valign="top">
+<td colspan="2"><img src="/images/menu/news.gif" width="82" height="30"></td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Element Name</b></td>
+<td width="65%">DCMI NEWS</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>ALT text</b></td>
+<td width="65%">Dublin Core Metadata Initiative News</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Name</b></td>
+<td width="65%">news.gif</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Location</b></td>
+<td width="65%">/images/menu/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Hyperlink</b></td>
+<td width="65%">/news/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Width</b></td>
+<td width="65%">82 pixels</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Height</b></td>
+<td width="65%">30 pixels</td>
+</tr>
+		
+</table>
+<p>&nbsp;</p>
+<table border="1" cellpadding="6" cellspacing="0" width="100%">
+<tr valign="top">
+<td colspan="2"><img src="/images/menu/documents.gif" width="82" height="30"></td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Element Name</b></td>
+<td width="65%">DOCUMENTS</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>ALT text</b></td>
+<td width="65%">Documents</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Name</b></td>
+<td width="65%">documents.gif</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Location</b></td>
+<td width="65%">/images/menu/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Hyperlink</b></td>
+<td width="65%">/documents/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Width</b></td>
+<td width="65%">82 pixels</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Height</b></td>
+<td width="65%">30 pixels</td>
+</tr>
+		
+</table>
+<p>&nbsp;</p>
+<table border="1" cellpadding="6" cellspacing="0" width="100%">
+<tr valign="top">
+<td colspan="2"><img src="/images/menu/tools.gif" width="82" height="30"></td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Element Name</b></td>
+<td width="65%">TOOLS AND SOFTWARE</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>ALT text</b></td>
+<td width="65%">Tools and Software</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Name</b></td>
+<td width="65%">tools.gif</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Location</b></td>
+<td width="65%">/images/menu/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Hyperlink</b></td>
+<td width="65%">/tools/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Width</b></td>
+<td width="65%">82 pixels</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Height</b></td>
+<td width="65%">30 pixels</td>
+</tr>
+		
+</table>
+<p>&nbsp;</p>
+<table border="1" cellpadding="6" cellspacing="0" width="100%">
+<tr valign="top">
+<td colspan="2"><img src="/images/menu/meetings.gif" width="82" height="30"></td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Element Name</b></td>
+<td width="65%">MEETINGS AND PRESENTATIONS</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>ALT text</b></td>
+<td width="65%">Meetings and Presentations</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Name</b></td>
+<td width="65%">meetings.gif</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Location</b></td>
+<td width="65%">/images/menu/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Hyperlink</b></td>
+<td width="65%">/meetings/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Width</b></td>
+<td width="65%">82 pixels</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Height</b></td>
+<td width="65%">30 pixels</td>
+</tr>
+		
+</table>
+<p>&nbsp;</p>
+<table border="1" cellpadding="6" cellspacing="0" width="100%">
+<tr valign="top">
+<td colspan="2"><img src="/images/menu/resources.gif" width="82" height="30"></td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Element Name</b></td>
+<td width="65%">RESOURCES</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>ALT text</b></td>
+<td width="65%">Resources</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Name</b></td>
+<td width="65%">resources.gif</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Location</b></td>
+<td width="65%">/images/menu/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Hyperlink</b></td>
+<td width="65%">/resources/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Width</b></td>
+<td width="65%">82 pixels</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Height</b></td>
+<td width="65%">30 pixels</td>
+</tr>
+		
+</table>
+<p>&nbsp;</p>
+<table border="1" cellpadding="6" cellspacing="0" width="100%">
+<tr valign="top">
+<td colspan="2"><img src="/images/menu/projects.gif" width="82" height="30"></td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Element Name</b></td>
+<td width="65%">PROJECTS</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>ALT text</b></td>
+<td width="65%">Projects</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Name</b></td>
+<td width="65%">projects.gif</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Location</b></td>
+<td width="65%">/images/menu/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Hyperlink</b></td>
+<td width="65%">/projects/</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Width</b></td>
+<td width="65%">82 pixels</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Height</b></td>
+<td width="65%">30 pixels</td>
+</tr>
+		
+</table>
+<h3>Bread Crumbs</h3>
+<p>Bread crumbs appear on every page of the DCMI website with the exception of the home page, and give the user a visual clue as to where the user is currently located. Bread crumbs are located on the bottom left of the header.</p>
+<p>When a user is deep within the content, the bread crumb should reflect the section the user is browsing. For example, if the user is browsing a page within the DCMI Overview section, the bread crumb would reflect <code><b>Home &gt; About &gt;&nbsp;Overview &gt;</b></code>.</p>
+<p>The following bread crumb code is embedded within the header server-side include file (with the exception of the DCMI home page):</p>
+<blockquote>
+			
+<p><code>&lt;!--#exec cgi=&quot;/cgi-bin/path.cgi&quot;--&gt;</code></p>
+</blockquote>
+<h3>Keyword Search</h3>
+<p>Keyword search appears on every page of the DCMI website including the home page, and gives the user a quick method of searching the website. Keyword search is located on the bottom right of the header.</p>
+</td>
+</tr>
+      </tbody>
+    
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

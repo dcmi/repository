@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>Acronym</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1 id="title">Acronym</h1>
+<dl>
+<dt>HTML Tag:</dt>
+<dd><code>&lt;ACRONYM TITLE=&quot;&quot;&gt;&lt;/ACRONYM&gt;</code></dd>
+<dt>Guidelines:</dt>
+<dd>Provides an encapsulation and enumeration mechanism for acronyms that appear in the body text.</dd>
+<dt>Warnings:</dt>
+<dd>-</dd>
+<dt>Priority:</dt>
+<dd>[Priority 3] A Web content developer <strong>may</strong> address this checkpoint.</dd>
+</dl>
+<h2>Example of Browser View:</h2>
+<p><acronym title="Dublin Core Metadata Initiative">DCMI</acronym></p>
+<p><acronym title="Massachusetts Institute of Technology">MIT</acronym></p>
+<p><acronym title="Online Computer Library Center">OCLC</acronym></p>
+<p><acronym title="World Wide Web Consortium">W3C</acronym></p>
+<p>
+<h2>Example of Source View:</h2>
+<code>
+&lt;P&gt;&lt;ACRONYM TITLE=&quot;Dublin Core Metadata Initiative&quot;&gt;DCMI&lt;/ACRONYM&gt;&lt;/P&gt;<br>
+&lt;P&gt;&lt;ACRONYM TITLE=&quot;Massachusetts Institute of Technology&quot;&gt;MIT&lt;/ACRONYM&gt;&lt;/P&gt;<br>
+&lt;P&gt;&lt;ACRONYM TITLE=&quot;Online Computer Library Center&quot;&gt;OCLC&lt;/ACRONYM&gt;&lt;/P&gt;<br>
+&lt;P&gt;&lt;ACRONYM TITLE=&quot;World Wide Web Consortium&quot;&gt;W3C&lt;/ACRONYM&gt;&lt;/P&gt;</code>
+</body>
+</html>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;">
+
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label xml:lang="cs-CZ">
+  N&#x00e1;zev
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  Jm&#x00e9;no dan&#x00e9; zdroji.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  N&#x00e1;zev bude typicky jm&#x00e9;no, pod n&#x00ed;m&#x017e; je zdroj ofici&#x00e1;ln&#x011b; 
+  zn&#x00e1;m.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label xml:lang="cs-CZ">
+  P&#x0159;isp&#x011b;vatel
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  Entita, kter&#x00e1; p&#x0159;isp&#x011b;la k vytvo&#x0159;en&#x00ed; obsahu zdroje.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  P&#x0159;&#x00ed;klady P&#x0159;isp&#x011b;vatele zahrnuj&#x00ed; osobu, organizaci 
+  nebo slu&#x017e;bu. K ozna&#x010d;en&#x00ed; entity se typicky pou&#x017e;&#x00ed;v&#x00e1; 
+  jm&#x00e9;no p&#x0159;isp&#x011b;vatele.
+  </dc:description>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label xml:lang="cs-CZ">
+  Tv&#x016f;rce
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  Entita prim&#x00e1;rn&#x011b; odpov&#x011b;dn&#x00e1; za vytvo&#x0159;en&#x00ed; obsahu zdroje.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  P&#x0159;&#x00ed;klady Tv&#x016f;rce zahrnuj&#x00ed; osobu, organizaci nebo slu&#x017e;bu. 
+  K ozna&#x010d;en&#x00ed; entity se typicky pou&#x017e;&#x00ed;v&#x00e1; jm&#x00e9;no tv&#x016f;rce.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label xml:lang="cs-CZ">
+  Vydavatel
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  Entita odpov&#x011b;dn&#x00e1; za zp&#x0159;&#x00ed;stupn&#x011b;n&#x00ed; zdroje.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  P&#x0159;&#x00ed;klady Vydavatele zahrnuj&#x00ed; osobu, organizaci nebo slu&#x017e;bu. 
+  K ozna&#x010d;en&#x00ed; entity se typicky pou&#x017e;&#x00ed;v&#x00e1; jm&#x00e9;no vydavatele.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label xml:lang="cs-CZ">
+  P&#x0159;edm&#x011b;t a kl&#x00ed;&#x010d;ov&#x00e1; slova
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  T&#x00e9;ma obsahu zdroje.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  P&#x0159;edm&#x011b;t bude typicky vyj&#x00e1;d&#x0159;en pomoc&#x00ed; kl&#x00ed;&#x010d;ov&#x00fd;ch 
+  slov, kl&#x00ed;&#x010d;ov&#x00fd;ch fr&#x00e1;z&#x00ed; nebo klasifika&#x010d;n&#x00ed;ch znak&#x016f; 
+  popisuj&#x00ed;c&#x00ed;ch t&#x00e9;ma zdroje. Doporu&#x010d;uje se vyb&#x00ed;rat hodnotu 
+  prvku z &#x0159;&#x00ed;zen&#x00e9;ho slovn&#x00ed;ku nebo form&#x00e1;ln&#x00ed;ho 
+  klasifika&#x010d;n&#x00ed;ho sch&#x00e9;matu.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label xml:lang="cs-CZ">
+  Popis
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  Vysv&#x011b;tlen&#x00ed; obsahu zdroje.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  Popis m&#x016f;&#x017e;e obsahovat (mimo jin&#x00e9;): abstrakt, obsah, odkaz na grafick&#x00e9; 
+  nebo voln&#x00e9; textov&#x00e9; vyj&#x00e1;d&#x0159;en&#x00ed; obsahu.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label xml:lang="cs-CZ">
+  Datum
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  Datum spojen&#x00e9; s ur&#x010d;itou ud&#x00e1;lost&#x00ed; b&#x011b;hem existence zdroje.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  Datum bude typicky spojeno s vytvo&#x0159;en&#x00ed;m nebo zp&#x0159;&#x00ed;stupn&#x011b;n&#x00ed;m 
+  zdroje. Doporu&#x010d;en&#x00fd; postup pro k&#x00f3;dov&#x00e1;n&#x00ed; hodnoty data je 
+  definov&#x00e1;n v ISO 8601 [W3CDTF]: form&#x00e1;t RRRR-MM-DD.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label xml:lang="cs-CZ">
+  Typ zdroje
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  Povaha nebo druh obsahu zdroje.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  Typ obsahuje term&#x00ed;ny popisuj&#x00ed;c&#x00ed; obecn&#x00e9; kategorie, funkce, druhy nebo 
+  agrega&#x010d;n&#x00ed; &#x00fa;rovn&#x011b; obsahu. Doporu&#x010d;uje se vyb&#x00ed;rat 
+  hodnotu z &#x0159;&#x00ed;zen&#x00e9;ho slovn&#x00ed;ku (nap&#x0159;. pracovn&#x00ed; n&#x00e1;vrh 
+  seznamu Typ&#x016f; Dublin Core [DCT1]). K popisu fyzick&#x00e9; nebo digit&#x00e1;ln&#x00ed; 
+  reprezentace zdroje u&#x017e;ijte prvek Form&#x00e1;t.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label xml:lang="cs-CZ">
+  Form&#x00e1;t
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  Fyzick&#x00e1; nebo digit&#x00e1;ln&#x00ed; reprezentace zdroje.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  Typicky m&#x016f;&#x017e;e Form&#x00e1;t obsahovat typ m&#x00e9;dia nebo rozm&#x011b;ry zdroje. 
+  Form&#x00e1;t lze pou&#x017e;&#x00ed;vat k ur&#x010d;en&#x00ed; softwaru, hardwaru 
+  nebo dal&#x0161;&#x00ed;ho za&#x0159;&#x00ed;zen&#x00ed; pot&#x0159;ebn&#x00e9;ho k zobrazen&#x00ed; 
+  nebo k manipulaci se zdrojem. P&#x0159;&#x00ed;klady rozm&#x011b;r&#x016f; zahrnuj&#x00ed; velikost a 
+  dobu trv&#x00e1;n&#x00ed;. Doporu&#x010d;uje se vyb&#x00ed;rat hodnotu z &#x0159;&#x00ed;zen&#x00e9;ho 
+  slovn&#x00ed;ku (nap&#x0159;. seznam typ&#x016f; internetov&#x00fd;ch m&#x00e9;di&#x00ed; [MIME] 
+  definuj&#x00ed;c&#x00ed; form&#x00e1;ty po&#x010d;&#x00ed;ta&#x010d;ov&#x00fd;ch m&#x00e9;di&#x00ed;).
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label xml:lang="cs-CZ">
+  Identifik&#x00e1;tor zdroje
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  Jednozna&#x010d;n&#x00fd; odkaz na zdroj v r&#x00e1;mci dan&#x00e9;ho kontextu.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  Doporu&#x010d;uje se identifikovat zdroj znakov&#x00fd;m &#x0159;et&#x011b;zcem nebo 
+  &#x010d;&#x00ed;slem odpov&#x00ed;daj&#x00ed;c&#x00ed;m n&#x011b;kter&#x00e9;mu z 
+  form&#x00e1;ln&#x00ed;ch identifika&#x010d;n&#x00ed;ch syst&#x00e9;m&#x016f;. P&#x0159;&#x00ed;klady 
+  form&#x00e1;ln&#x00ed;ch identifika&#x010d;n&#x00ed;ch syst&#x00e9;m&#x016f; zahrnuj&#x00ed; Uniform 
+  Resource Identifier (URI) (v&#x010d;etn&#x011b; Uniform Resource Locator (URL)), Digital Object 
+  Identifier (DOI) a Mezin&#x00e1;rodn&#x00ed; standardn&#x00ed; &#x010d;&#x00ed;slo knihy (ISBN).
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label xml:lang="cs-CZ">
+  Jazyk
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  Jazyk intelektu&#x00e1;ln&#x00ed;ho obsahu zdroje.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  Doporu&#x010d;en&#x00fd; postup pro hodnoty prvku Jazyk je definov&#x00e1;n v RFC 1766 [RFC1766]: 
+  dvouznakov&#x00fd; k&#x00f3;d jazyka (p&#x0159;evzat&#x00fd; z normy ISO 639 [ISO639]) 
+  voliteln&#x011b; n&#x00e1;sledovan&#x00fd; dvouznakov&#x00fd;m k&#x00f3;dem zem&#x011b; 
+  (p&#x0159;evzat&#x00fd;m z normy ISO 3166 [ISO3166] ). Nap&#x0159;&#x00ed;klad 'en' pro 
+  angli&#x010d;tinu, 'fr' pro francouz&#x0161;tinu, 'cs' pro &#x010d;e&#x0161;tinu, nebo 'en-uk' 
+  pro angli&#x010d;tinu u&#x017e;&#x00ed;vanou ve Spojen&#x00e9;m kr&#x00e1;lovstv&#x00ed;.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label xml:lang="cs-CZ">
+  Vztah
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  Odkaz na p&#x0159;&#x00ed;buzn&#x00fd; zdroj.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  Doporu&#x010d;uje se odkazovat zdroj znakov&#x00fd;m &#x0159;et&#x011b;zcem nebo &#x010d;&#x00ed;slem 
+  odpov&#x00ed;daj&#x00ed;c&#x00ed;m n&#x011b;kter&#x00e9;mu z form&#x00e1;ln&#x00ed;ch 
+  identifika&#x010d;n&#x00ed;ch syst&#x00e9;m&#x016f;.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label xml:lang="cs-CZ">
+  Zdroj
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  Odkaz na zdroj, z n&#x011b;ho&#x017e; je popisovan&#x00fd; zdroj odvozen.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  Popisovan&#x00fd; zdroj m&#x016f;&#x017e;e b&#x00fd;t zcela nebo z&#x010d;&#x00e1;sti odvozen ze 
+  zdroje uveden&#x00e9;ho v prvku Zdroj. Doporu&#x010d;uje se odkazovat zdroj 
+  znakov&#x00fd;m &#x0159;et&#x011b;zcem nebo &#x010d;&#x00ed;slem odpov&#x00ed;daj&#x00ed;c&#x00ed;m 
+  n&#x011b;kter&#x00e9;mu z form&#x00e1;ln&#x00ed;ch identifika&#x010d;n&#x00ed;ch syst&#x00e9;m&#x016f;.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label xml:lang="cs-CZ">
+  Pokryt&#x00ed;
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  Rozsah nebo z&#x00e1;b&#x011b;r obsahu zdroje.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  Pokryt&#x00ed; bude typicky obsahovat prostorov&#x00e9; um&#x00ed;st&#x011b;n&#x00ed; (jm&#x00e9;no 
+  m&#x00ed;sta nebo zem&#x011b;pisn&#x00e9; sou&#x0159;adnice), &#x010d;asov&#x00e9; obdob&#x00ed; 
+  (ozna&#x010d;en&#x00ed; obdob&#x00ed;, datum nebo &#x010d;asov&#x00fd; interval) nebo jurisdikci 
+  (nap&#x0159;. jm&#x00e9;no administrativn&#x00ed; jednotky). Doporu&#x010d;uje se vyb&#x00ed;rat 
+  hodnotu z &#x0159;&#x00ed;zen&#x00e9;ho slovn&#x00ed;ku (nap&#x0159;. Thesaurus of Geographic Names 
+  [TGN] ) a tam, kde je to vhodn&#x00e9;, uv&#x00e1;d&#x011b;t m&#x00ed;sta nebo &#x010d;asov&#x00e9; 
+  &#x00fa;seky sp&#x00ed;&#x0161;e jm&#x00e9;nem ne&#x017e; &#x010d;&#x00ed;seln&#x00fd;mi 
+  identifik&#x00e1;tory jako jsou soubory sou&#x0159;adnic nebo &#x010d;asov&#x00e9; intervaly.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label xml:lang="cs-CZ">
+  Spr&#x00e1;va autorsk&#x00fd;ch pr&#x00e1;v
+  </rdfs:label>
+  <rdfs:comment xml:lang="cs-CZ">
+  Informace o pr&#x00e1;vech vztahuj&#x00ed;c&#x00ed;ch se k popisovan&#x00e9;mu zdroji.
+  </rdfs:comment>
+  <dc:description xml:lang="cs-CZ">
+  Prvek Pr&#x00e1;va bude typicky obsahovat ustanoven&#x00ed; o spr&#x00e1;v&#x011b; 
+  autorsk&#x00fd;ch/vlastnick&#x00fd;ch pr&#x00e1;v ke zdroji nebo odkaz na slu&#x017e;bu 
+  poskytuj&#x00ed;c&#x00ed; takov&#x00e9;to informace. Informace o pr&#x00e1;vech &#x010d;asto 
+  zahrnuj&#x00ed; pr&#x00e1;va du&#x0161;evn&#x00ed;ho vlastnictv&#x00ed; (IPR), autorsk&#x00e9; 
+  pr&#x00e1;vo a r&#x016f;zn&#x00e1; vlastnick&#x00e1; pr&#x00e1;va. Jestli&#x017e;e 
+  prvek Pr&#x00e1;va chyb&#x00ed;, nelze odvozovat &#x017e;&#x00e1;dn&#x00e9; p&#x0159;edpoklady o 
+  stavu t&#x011b;chto a jin&#x00fd;ch pr&#x00e1;v vztahuj&#x00ed;c&#x00ed;ch se k popisovan&#x00e9;mu 
+  zdroji.
+  </dc:description>
+</rdf:Property>
+
+
+</rdf:RDF>

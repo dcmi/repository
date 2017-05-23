@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://www.iccu.sbn.it/dublinco.html">
+	<dc:title xml:lang="it-IT">Dublin Core Metadata Element Set, versione 1.1: Traduzione Italiana</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.1 Reference Description (Italian Translation)</dc:title>
+	<dc:creator rdf:resource="mailto:sistema@iccu.sbn.it"/>
+	<dc:creator>ICCU</dc:creator>	
+	<dc:language xml:lang="it-IT">Italiano</dc:language>
+	<dc:language xml:lang="en-US">Italian</dc:language>
+	<dc:language>it-IT</dc:language>	
+	<dc:publisher xml:lang="it-IT">
+	Istituto Centrale per il Catalogo Unico delle Biblioteche Italiane e per le Informazioni 
+	Bibliografiche
+	</dc:publisher>
+	<dc:publisher xml:lang="en-US">
+	ICCU (Department of Methodology of Cataloguig and Training-Central Institute 
+	for the Union Catalogue of Italian Libraries and for Bibliographic Information)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.iccu.sbn.it/"/>
+	<dc:source rdf:resource="http://www.iccu.sbn.it/dublinco.html"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>

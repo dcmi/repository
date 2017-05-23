@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://dublincore.org/documents/dcq-html/">	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dc2008.de/xmlrpc.php?rsd" />
+ <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dc2008.de/wp-includes/wlwmanifest.xml" /> <script type='text/javascript' src='http://dc2008.de/wp-includes/js/prototype.js?ver=1.5.1.1'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-includes/js/scriptaculous/scriptaculous.js?ver=1.7.1-b3'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-includes/js/scriptaculous/effects.js?ver=1.7.1-b3'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-content/plugins/lightbox-2/lightbox.js?ver=2.2'></script>
+<link rel="stylesheet" type="text/css" href="http://dc2008.de/wp-content/plugins/contactforms/styling/cforms.css" />
+<script type="text/javascript" src="http://dc2008.de/wp-content/plugins/contactforms/js/cforms.js"></script>
+		<meta name="DC.publisher" content="DC 2008" />
+		<meta name="DC.publisher.url" content="http://dc2008.de/" />
+		<meta name="DC.title" content="Workshops" />
+		<meta name="DC.identifier" content="http://dc2008.de/programme/workshops" />
+		<meta name="DC.date.created" scheme="WTN8601" content="2007-08-21T13:01:42" />
+		<meta name="DC.creator" content="DC 2008 Organisation" />
+		<meta name="DC.rights.rightsHolder" content="DC 2008 Organisation" />
+		<meta name="DC.subject" content="DC-2008 Conference in Berlin, Germany" />
+
+	<!-- begin lightbox scripts -->
+	<script type="text/javascript">
+    //<![CDATA[
+    document.write('<link rel="stylesheet" href="http://dc2008.de/wp-content/plugins/lightbox-2/Themes/Black/lightbox.css" type="text/css" media="screen" />');
+    //]]>
+    </script>
+	<!-- end lightbox scripts -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="icon" href="http://dc2008.de/wp-content/themes/dc-2008/pics/favicon.ico" type="image/ico" />
+<meta name="DC.format" scheme="DCTERMS.IMT" content="text/html" />
+<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+
+<title>DC 2008 -    Workshops</title>
+<link rel="stylesheet" href="http://dc2008.de/wp-content/themes/dc-2008/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://dc2008.de/wp-content/themes/dc-2008/print.css" type="text/css" media="print" />
+<link rel="alternate" type="application/rss+xml" href="http://dc2008.de/feed" title="News" />
+</head>
+
+ <body>
+  <div id="interface">
+
+   <div id="head">
+   </div>   <div id="container">
+    
+
+    <div id="content">
+     <div id="contentbox">
+      
+
+         <h1 id="post-13">Workshops</h1>
+<div id="print_icon">
+</div>
+
+<!-- <br clear="all" /> -->
+<hr class="h2" />
+          <div class="storycontent">
+            <p><a class="h3" name="Workshop1">Workshop 1</a>: <strong>DC-Education Application Profile Task Group Meeting</strong> - <em>Led by Education Community Moderators Sarah Currier and Diane Hillmann</em><br/><br />
+The DC-Education Community&#8217;s Application Profile Task Group will have a Draft Application Profile ready to present to the Usage Board prior to the Conference for preliminary feedback.  This meeting will be for feedback from the DCMI Education Community, and planning remaining work to create a Final Draft for formal presentation at a later date.  All those with an interest in metadata for describing educational resources are welcome.  We would ask that all familiarise themselves with the work to date on the DC-Education Wiki: <a href="http://dublincore.org/educationwiki/" target="_blank">http://dublincore.org/educationwiki/</a><br/><br/></p>
+<p><a class="h3" name="Workshop2">Workshop 2</a>: <strong>DC-Government Application Profile Task Force and<br />
+Government Community</strong> - <em>Palle Aagaard</em><br/><br />
+The DC-Government Application Profile Task Force and Community will have an open meeting discussing the progress in the government area and the future of the community. <br/>There will be the following agenda:</p>
+<ul>
+<li>Welcome to the session</li>
+<li>Brief introduction to the Task Force and to the Community</li>
+<li>The Dutch Dublin Core based metadatastandard - presentation by Hans Overbeek </li>
+<li>Other Government presentations and contributions from the audience (call for presentations in progress) </li>
+<li>UK Transformational Government - presentation by Michael Warner</li>
+<li>Dublin Core Government Application Profile - the progress - the future organization etc. by Hans Overbeek</li>
+<li>The Government Community - the need of it and how it should work in the future</li>
+<li>Any other item</li>
+</ul>
+<p><br/></p>
+<p><a class="h3" name="Workshop3">Workshop 3</a>: <strong>DC-Libraries Community</strong> - <em>Christine Frodl</em><br/><br />
+The DC-Libraries Community and the DCMI Libraries Application Profile Task Group will have an open meeting. Presentations and discussion will be focussed on the DC-LIB Application Profile, RDA and topics related to library activities in metadata.<br/></p>
+<p>Preliminary agenda:</p>
+<ol>
+<li>Introduction to the DCMI Libraries Community and the DCMI Libraries Task Group</li>
+<li>DC Libraries Application Profile</li>
+<li>RDA - Impact on DC-LIB AP</li>
+<li>KIM, Metadata and Libraries</li>
+<li>Discussion</li>
+<li>Work plan and future work</li>
+</ol>
+<p><br/></p>
+<p><a class="h3" name="Workshop4">Workshop 4</a>: <strong>Tagging Session</strong> - <em>Liddy Nevile</em><br/><br />
+The Tagging Session will consider some of the progress made in tagging research in the past year. Presenters will contribute live and virtually with reviews of developments and ideas for standardising tagging activities and making them more interoperable without losing their value as easy-to-make metadata.<br/><br/></p>
+<p><a class="h3" name="Workshop5">Workshop 5</a>: <strong>NKOS Special Session</strong> - <em>Traugott Koch</em><br/><br />
+This session aims to demonstrate what NKOS (Networked Knowledge Organization) work could contribute to metadata solutions, especially to the main topic of the conference: Metadata for Semantic and Social Applications. Three main presentations will deal with a) KOS and social tagging in combination; b) Controlled vocabulary in metadata for semantic web usages; and c) Metadata and terminology registries: Synergies and differences.<br />
+As much time as the presentations will be spend on comprehensive discussions lead by a discussant/enabler/opponent, involving colleagues from different communities.</p>
+<p>The preliminary agenda is on the preparation wiki page:<br />
+<a href="http://colab.mpdl.mpg.de/mediawiki/NKOSevents_2008_preparation">http://colab.mpdl.mpg.de/mediawiki/NKOSevents_2008_preparation</a><br/><br/></p>
+<p><a class="h3" name="Workshop6">Workshop 6</a>: <strong>RDA: Finding Your Place on the Evolutionary Path</strong> - <em>Diane Hillmann</em><br/><br />
+This workshop session will update attendees on the progress of development of RDA (Resource Description and Access), the new metadata content standard replacing AACR2. In addition to the textual instruction being developed by the Joint Steering Committee for the Development of RDA, formal representation of the RDA Elements and Vocabularies are being developed in parallel.<br/>As part of this session, Gordon Dunsire of the University of Strathclyde and co-chair of the DCMI/RDA Task Group will reprise his presentation made at the RDA satellite pre-conference at IFLA in August. He will show how the RDF/SKOS representation (and especially URIs) can support the JSC&#8217;s three metadata architecture/scenarios: 1) flat-file (catalogue card), 2) current OPAC (bibliographic description record plus links to authority headings), and 3) semantic web (disaggregated structured metadata brought together/linked via URIs, RDF, etc.).<br/>Other highlights of the session will be a discussion of how the FRBR entities might be used with the RDA Elements and Vocabularies to build community specific Application Profiles, and how scenarios for record creation might be envisioned in this environment.<br/><br/></p>
+<p><a class="h3" name="Workshop7">Workshop 7</a>: <strong>DCMI Identifiers Community Session</strong> - <em>Muriel Foulonneau</em><br/><br />
+The Identifiers Community will have an open meeting featuring presentations and discussions around the design and use of identifiers in metadata.</p>
+<p>Agenda:</p>
+<ul>
+<li>Introduction to the Identifiers Community</li>
+<li>Mikael Nilsson: W3C&#8217;s linked data approach - Four rules for using URIs to assign names to everything so they can be linked together</li>
+<li>John Kunze: Persistent identifier principles and practice - The goals of persistent identifiers and designing services around identifiers</li>
+<li>Updates from the field - Brief updates on identifier-related work or news (all present are invited to talk)</li>
+<li>Open discussion - Potential topics include: opinions on W3C&#8217;s linked data approach, the use of URI-based identifiers in library-based metadata, possible involvement in other DCMI communities and task forces, and identifying topics for ongoing discussion on the listserv.</li>
+</ul>
+<p><br/><br/></p>
+<p><a class="h3" name="Workshop8">Workshop 8</a>: <strong>DCMI Tools Community Session</strong> - <em>Thomas Severiens</em><br/><br />
+The DCMI Tools Community is a forum for individuals and organizations involved in the development and usage of metadata applications.  The DC2008/DCMI Tools Community meeting agenda includes:  </p>
+<ol>
+<li>Demonstrations of three to four new metadata applications or tool<br />
+evaluation/summary reports (10 minutes per demo/report);</li>
+<li>A round-robin session with all participants highlighting pressing<br />
+metadata tool issues, challenges, and activities;</li>
+<li>A discussion of priorities for the 2008/2009 year; and</li>
+<li>An update on the DCMI Tools&#8217; Service.</li>
+</ol>
+<p>Confirmed presenters for demonstrations include Seth van Hooland, Université Libre de Bruxelles, and Seth Kaufman, <a href="http://www.opencollection.org">OpenCollection</a> developer. Additional presenters to-be-confirmed.<br />
+<br/><br/></p>
+<p><a class="h3" name="Workshop9">Workshop 9</a>: <strong>DCMI Scholar Session</strong> - <em>Rosemary Russell</em><br/><br />
+This workshop session will be dedicated to the DC Scholarly Communications community.  We will present work by the Dublin Core Usage Board to review the <a href="http://www.ukoln.ac.uk/repositories/digirep/index/SWAP">Scholarly Works Application Profile</a> (SWAP) and open the discussion to gather any issues or suggestions for future work on SWAP.</p>
+<p>There will also be time for interactive discussion of other application profiles within the Scholarly Communications realm and in particular time to look at the challenges of interoperability and take-up for different profiles. Further information will be made available on the DC-Scholar wiki: <a href="http://dublincore.org/groups/scholar/">http://dublincore.org/groups/scholar/</a><br/><br/></p>
+<p><a class="h3" name="Workshop10">Workshop 10</a>: <strong>DCMI/IEEE</strong> - <em>Mikael Nilsson<br />
+</em><br/>The meeting will provide an update on the work of the Task Force, and will review the current set of draft documents, particularly in the light of developments such as the circulation of the DCMI Working Draft on Description Set Profiles and current guidance from the W3C for the publication of vocabularies on the Web. The meeting will discuss any outstanding issues and plan what is required to move the drafts forward to a stable release.<br/><br/></p>
+<p><a class="h3" name="Workshop11">Workshop 11</a>: <strong>DCMI Knowledge Management Community</strong> - <em>Johannes Keizer, Mary Woodley</em><br/><br />
+This session will be the first meeting of the DCMI Knowledge Management Community. The goal of the Community is to deliver a platform to discuss the use of metadata in corporate knowledge management. <br/><br />
+Various Web 2.0 techniques and methodologies are more and more used also in an corporate environment. Blogs, Wikis, Fora have become mainstream. This has a great potential for knowledge management. With every blog you get a basic set of metadata (title, author, date created&#8230;.) and in many cases also a semi-semantic mark up (tags). This could be used for more explicit semantics and to interlink blogs in a specific corporate environment or community.<br/><br />
+Goal of the session is to outline a work program for the next year.<br/></p>
+<p>Agenda of the session</p>
+<ol>
+<li>Presentation of the Survey results</li>
+<li>Michael Warner: The implementation of metadata and semantics into a corporate SharePoint application</li>
+<li>Johannes Keizer: Mainstream CMS on their way to use effective metadata the example of Drupal.</li>
+<li>Brainstorming on the priorities of the Knowledge Management Community in the next year.</li>
+</ol>
+<p><br/></p>
+<p><a class="h3" name="Workshop12">Workshop 12</a>: <strong>DCMI Registry Community</strong> - <em>Emma Tonkin</em><br/> This meeting of the DCMI Registry Community has as its primary purpose to bring together representatives from existing registry developments and those who share an interest in issues related to schema registries and related developments. With this in mind, we have this year chosen to link the meeting to the NKOS event scheduled earlier in DC-2008, in order to support ongoing discussion of registry-related issues. Additionally, the DC Registry WG will be introduced and will report back on progress and opportunities to participate.<br/><br />
+Should the discussion of practical development opportunities (see point 5) lead to an immediately achievable task, we will arrange a venue for this at the end of the DC-2008 conference.<br/><br />
+Agenda:</p>
+<ol>
+<li>Introductions and scene setting</li>
+<li>Updates from registry developments worldwide</li>
+<li>Introduction to the DC Registry WG; report on current progress</li>
+<li>Task: Interoperability in Metadata Registries (discussion)</li>
+<li>Practical tasks for the near future (discussion)</li>
+<li>Future charter and group activity</li>
+</ol>
+<p><br/></p>
+<p><a class="h3" name="Workshop13">Workshop 13</a>: <strong>DCMI Architecture Open Session</strong> - <em>Mikael Nilsson</em><br/> The DCMI Architecture Forum is where technical specifications and approaches for metatdata applications are discussed, such as the generic model for metadata records (DCMI Abstract Model), customized record formats (Description Set Profile), syntax encoding methods (DC-RDF, DC-HTML, DC-XML), and how these technologies build on each other to meet implementation requirements (Singapore Framework). The DCMI Architecture Forum Open Session will review the status of these specifications in the context of a broader discussion of semantic and syntactic interoperability. The participation of newcomers and non-experts is encouraged.<br/><br/></p>
+<p><a class="h3" name="Workshop14">Workshop 14</a>: <strong>DCMI Accessibility Workshop</strong> - <em>Liddy Nevile</em><br/> The Accessibility Session will provide participants with an update on recent achievements in accessibility work, including how the United Nations Convention on the Rights of Persons with Disabilities has reinforced the significance of accessibility metadata. ISO/IEC JTC1 will publish the AccessForAll standard 2008:N24751 Parts 1-3 in September 2008. At least 5 other parts are in progress and these will be explained.<br />
+Accessibility metadata makes an enormous difference to people with disabilities and needs to be very easy to produce and use. HiSoftware will demonstrate software that evaluates content site-wide and produces accessibility (and other) metadata; show how major content development software, such as major office software, is integrating accessibility<br />
+and metadata into work processes, and launch an easy-to-use online accessibility generator for single pages.<br/><br/></p>
+<p><a class="h3" name="Workshop15">Workshop 15</a>: <strong>DCMI Localization and Internationalization Community</strong> - <em>Karen Rollitt</em><br/> This meeting will be an opportunity for members of the DCMI L&#038;I Community to meet and exchange ideas and share experiences on localization and internationalisation issues arising from or relating to the use of Dublin Core in a variety of languages and cultures.</p>
+<ol>
+<li>A call for short presentations will be made on topics, such as use of DC and application profiles in local languages and cultures; interoperability of metadata in the global community; definitions of elements and qualifiers to express language or culture specific information; maintenance of element/qualifier definitions in a variety of languages, and multilingual metadata description and vocabularies.</li>
+<li>One half of this session will be dedicated to a discussion on language translations of DC Terms.  If you are planning on translating DC Terms or recently worked on a translation this workshop will be of interest. Topics to be discussed can include for example: why and what DC Terms to translate; prioritising, and translation steps. The DCMI Localization and Internationalization Community have established a Task Group whose goal is to ensure quality in the translation of DC terms for languages. This workshop will inform the work of the Task Force.</li>
+</ol>
+<p><br/></p>
+<p><a class="h3" name="Workshop16">Workshop 16</a>: <strong>Metadata for Scientific Datasets</strong> - <em>Jane Greenberg</em><br/><br />
+Funders of research in the US, Europe, Asia, and Australia are increasingly attentive to the management of scientific data sets so that the full value of research investments can be realized and preserved. Doing so will require greater attention to the description and structure of datasets such that their value can be embedded and retained more readily in the scaffolding of scientific knowledge. The central challenges include:</p>
+<ul>
+<li>Canonical identification of datasets. Critical for establishing provenance, auditing value and use, and attracting social-networking attention that will enhance their value.</li>
+<li>Unfound data is unused data.  Datasets that cannot be discovered will not be reused, and the value of the data is thus unavailable for further exploitation.</li>
+<li>Unstructured data is difficult to use: Datasets should be designed and structured for reuse at the time of experimental design.</li>
+</ul>
+<p>This session will explore interest and opportunities in the Dublin Core community around these emerging topics, with the objective of creating an international forum to help advance solutions.<br/><br/></p>
+<p><a class="h3" name="Workshop17">Workshop 17</a>: <strong>DCMI Architecture Technical Session</strong> - <em>Mikael Nilsson</em><br/><br />
+In contrast to the DCMI Architecture Forum Open Session (see above), the Architecture Technical Session will review outstanding issues in the ongoing development of technical documents such as HTML and XML syntax guidelines and the Description Set Profile specification.<br/><br/></p>
+          </div>
+                  </div>
+     </div>
+     <div id="navi">
+     <div id="navibox">
+      <ul>
+
+<li class="page_item"><a href="http://dc2008.de" title="Home">Home</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/papers" title="Call for Papers">Call for Papers</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/news" title="News">News Archive</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/organisation" title="Organisation">Organisation</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/call-for-sponsors" title="Call for Sponsors">Call for Sponsors</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/programme" title="Programme">Programme</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/information-for-authors" title="Information for Authors">Author Info</a></li>
+ 
+<li class="page_item"><a href="http://dc2008.de/registration" title="Registration">Registration</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/accommodation" title="Accommodation">Accommodation</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/conference-venue" title="Conference Venue">Conference Venue</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/about-berlin" title="About Berlin">About Berlin</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/links" title="Links">Links</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/contact" title="Contact">Contact</a></li>
+</ul> 
+
+<br /><br />
+organised by:
+
+<div align="center">
+<a href="http://www.kim-forum.org/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/kim_logo_skal.png" alt="KIM - Kompetenzzentrum Interoperable Metadaten" /></a>
+
+<a href="http://www.sub.uni-goettingen.de/index-e.html"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/sub_logo_klein.jpg" alt="Niedersächsische Staats- und Universitätsbibliothek Göttingen"/></a>
+
+<a href="http://www.mpdl.mpg.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/mpdl.png"  alt="Max Planck digital library" /></a>
+
+<a href="http://www.d-nb.de/eng/index.htm"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/DNB_neu_skal1.png" alt="Deutsche Nationalbibliothek" /></a>
+
+<a href="http://www.hu-berlin.de/index_html-en?set_language=en&amp;cl=en"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/husiegel.png" alt="Humboldt-Universität zu Berlin" /></a>
+</div>
+
+<a href="http://www.dublincore.org/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/DC_Logo_skla.png" alt="Dublin Core Metadata Initiative"/></a>
+</div>
+
+<br /><br />
+supported by:
+<br /><br />
+<div align="center"><a href="http://www.wikimedia.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/wikimedia.png" alt="Wikimedia Deutschland - Gesellschaft zur Förderung Freien Wissens e.V."/></a><br />
+</div>
+
+<br /><br />
+funded by:
+<br /><br />
+<div align="center"><a href="http://www.dfg.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/dfg_sw.gif" alt="Deutsche Forschungsgemeinschaft" /></a></div>
+<div align="center"><a href="http://www.bmbf.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/bmbf_skal.gif" alt="Bundesministerium für Bildung und Forschung" /></a></div>
+<br /> 
+     </div>
+    </div>
+       <div id="footer" align="center">
+Copyright © 1995-2008 DCMI All Rights Reserved. &mdash; © Pictures:  <a href="http://www.visitberlin.de" target="_blank" class="footerlink">www.visitberlin.de</a> &mdash; <a class="footerlink_impressum" href="http://dc2008.de/impressum">Impressum</a>
+
+   </div>
+  </div>
+ </body>
+</html>

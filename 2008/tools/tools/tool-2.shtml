@@ -1,0 +1,19 @@
+
+    <!--#include virtual="tool-head.shtml" -->
+    <!--#include virtual="/ssi/header.shtml" -->
+    <h1>DC-assist</h1>
+    <table cellspacing="0" class="noborder">
+<tr><td>Identifier:&nbsp;&nbsp;&nbsp;</td><td><a href="http://www.ukoln.ac.uk/metadata/dcassist/">http://www.ukoln.ac.uk/metadata/dcassist/</a></td></tr>
+<tr><td>Description:&nbsp;&nbsp;&nbsp;</td><td>A small, flexible help utility for metadata applications and is intended to complement the help pages embedded within existing software.</td></tr>
+<tr><td>Rights:&nbsp;&nbsp;&nbsp;</td><td>free online tool, rights hold by UKOLN</td></tr>
+<tr><td>Language:&nbsp;&nbsp;&nbsp;</td><td>eng (ISO 639-2)</td></tr>
+<tr><td>Creator:&nbsp;&nbsp;&nbsp;</td><td>Andy Powell</td></tr>
+<tr><td>Publisher:&nbsp;&nbsp;&nbsp;</td><td>UKOLN</td></tr>
+<tr><td>Location:&nbsp;&nbsp;&nbsp;</td><td>United Kingdom</td></tr>
+<tr><td>Date:&nbsp;&nbsp;&nbsp;</td><td>2001</td></tr>
+</table>
+    <p><small>For an application profile see the <a href="/groups/tools/map.shtml">DCMI Tools
+    Application Profile</a></small>
+    <!--#include virtual="/ssi/footer.shtml" -->
+    </body>
+    </html>

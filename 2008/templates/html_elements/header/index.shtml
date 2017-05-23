@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>Header Elements</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<div class="body">
+<h1 id="title">Header Elements</h1>
+<dl>
+<dt>HTML Tag:</dt>
+<dd><code>&lt;H1&gt;&lt;/H1&gt;<br>
+&lt;H2&gt;&lt;/H2&gt;<br>
+&lt;H3&gt;&lt;/H3&gt;<br>
+&lt;H4&gt;&lt;/H4&gt;<br>
+&lt;H5&gt;&lt;/H5&gt;<br>
+&lt;H6&gt;&lt;/H6&gt;</code></dd>
+<dt>Guidelines:</dt>
+<dd>Use header elements to convey document structure and use them according to specification. For example, use <code>H2</code> to indicate a subsection of <code>H1</code>.</dd>
+<dt>Warnings:</dt>
+<dd>Do not use headers for font effects. Headers lower than H4 will usually display smaller in size than the default text.</dd>
+<dt>Priority:</dt>
+<dd>[Priority 2] A Web content developer <strong>should</strong> satisfy this checkpoint.</dd>
+</dl>
+<h2>Browser View:</h2>
+<h1>Header 1</h1>
+<h2>Header 2, subsection of Header 1</h2>
+<h3>Header 3, subsection of Header 2</h3>
+<h4>Header 4, subsection of Header 3</h4>
+<h5>Header 5, subsection of Header 4</h5>
+<h6>Header 6, subsection of Header 5</h6>
+<h2>Source View:</h2>
+<code>&lt;H1&gt;Header 1&lt;/H1&gt;</code><br>
+<code>&lt;H2&gt;Header 2, subsection of Header 1&lt;/H2&gt;</code><br>
+<code>&lt;H3&gt;Header 3, subsection of Header 2&lt;/H3&gt;</code><br>
+<code>&lt;H4&gt;Header 4, subsection of Header 3&lt;/H4&gt;<br>
+&lt;H4&gt;Header 5, subsection of Header 4&lt;/H4&gt;<br>
+&lt;H4&gt;Header 6, subsection of Header 5&lt;/H4&gt;</code></div>
+</body>
+</html>

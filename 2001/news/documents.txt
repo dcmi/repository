@@ -1,0 +1,85 @@
+<div class="rss-item">
+<div class="rss-title">New versions of the Draft Recommendations for RDF/XML Expression of the Dublin Core are now available.</div>
+<div class="rss-description">
+<p>2001-12-07, The DCMI Directorate is pleased to announce that newly modified versions of the Draft Recommendations for RDF/XML expression of the Dublin Core are now available for a second round of Public Comment until January 7, 2002. Changes have been applied to the sections on language qualification. Comments should be sent to <a href="http://www.jiscmail.ac.uk/lists/dc-general.html">DC-General</a>.</p>
+<p><a href="/documents/2001/11/28/dcmes-xml/"> Expressing Simple Dublin Core in RDF / XML</a><br /><a href="/documents/2001/11/30/dcq-rdf-xml/">Expressing Qualified Dublin Core in RDF / XML</a> [<a href="/documents/2001/11/30/dcq-rdf-xml/dcq-rdf-xml-changelog.html">More Information...</a>]</p>
+</div>
+</div>
+
+<div class="rss-item"> 
+<div class="rss-title"><a href="/documents/2001/10/26/dcmi-namespace/"><strong>Namespace Policy for the Dublin Core Metadata Initiative (DCMI)</strong></a> becomes DCMI Recommendation.</div>
+<div class="rss-description">
+<p>2001-11-15, The DCMI Directorate is pleased to announce that the document "<a href="/documents/2001/10/26/dcmi-namespace/">Namespace Policy for the Dublin Core Metadata Initiative (DCMI)</a>" is now a DCMI Recommendation. We consider this one of the basic documents necessary for the effective deployment of Dublin Core on the Web. This document specifies the conventions used for identifying current and future DCMI namespaces. It gives the URIs for the DCMI namespaces and defines the policy for changes to DCMI terms.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/2001/10/12/library-application-profile/">Revised Working Draft of a Library Application Profile is now available</a></div>
+<div class="rss-description">
+<p>2001-10-12, This document is a revision of the earlier application profile that clarifies the use of the Dublin Core Metadata Element Set in libraries and library-related applications and projects. It will be discussed at the DCMI Conference in Tokyo, October 2001.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title">Two new documents are now available for public comment.</div>
+<div class="rss-description">
+<p>2001-09-21, Further to the announcement of 18 September, there are now two more documents available for public comment,.</p>
+<blockquote> 
+&quot;<a href="/documents/2001/09/20/dcmes-xml/">Expressing Simple Dublin Core in RDF/XML</a>&quot; and<br />&quot;<a href="/documents/2001/08/29/dcq-rdf-xml/">Expressing Qualified Dublin Core in RDF/XML</a>.&quot;
+</blockquote>
+<p>These two documents describe how Dublin Core metadata can be encoded in RDF/XML, and give practical examples. Together with the <a href="/documents/2001/09/17/dcmi-namespace/">Namespace Policy</a>, also under review, we consider these basic documents necessary for the effective deployment of Dublin Core on the Web.</p>
+<p>The public comment period is open until October 19, 2001. Comments should be sent to the <a href="http://www.jiscmail.ac.uk/lists/dc-general.html">DC-General mailing list</a> and will be discussed at the Architecture session at the Tokyo Workshop.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/2001/09/17/gov-application-profile/">DCMI-Government Application Profile </a><strong> </strong>is now available for comment</div>
+<div class="rss-description">
+<p>2001-09-20, A working draft for a DCMI-Government Application Profile is now available. This working draft was prepared by the Managing Information for e-Government (MIReG) group in conjunction with the DCMI-Government working group. The Working Group behind the working draft thanks everybody who has contributed and commented on the initial proposal. The intention is to submit a proposal to the DCMI Usage Board before the Tokyo Conference. The working group is still interested in comments, as soon as possible. Mailto: <a href="http://www.jiscmail.ac.uk/lists/dc-government.html">DC-Government mailing list.</a></p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/2001/09/17/dcmi-namespace/">Namespace Policy for the Dublin Core Metadata Initiative (DCMI)</a> is now available for public comment</div>
+<div class="rss-description">
+<p>2001-09-18, The DCMI Directorate is pleased to announce that the document "Namespace Policy for the Dublin Core Metadata Initiative (DCMI)" is now available for public comment until October 19, 2001. Comments should be sent to the <a href="http://www.jiscmail.ac.uk/lists/dc-general.html">DC-General Mailing list</a>.</p>
+<p>This document specifies the conventions used for identifying current and future DCMI namespaces. It gives the URIs for the DCMI namespaces, defines a policy for changes to DCMI terms and discusses some major issues that were raised during the development of the namespace policy.</p>
+<p>It has been developed by a group of experts and reviewed by the DCMI Advisory Committee. We consider this one of the basic documents necessary for the effective deployment of Dublin Core on the Web.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/2001/08/08/library-application-profile/">New Working Draft of a Library Application Profile is now available</a></div>
+<div class="rss-description">
+<p>2001-08-09, This document proposes a possible application profile that clarifies the use of the Dublin Core Metadata Element Set in libraries and library-related applications and projects. It will be discussed at a meeting of the DC-Libraries Working Group in Boston, Massachusetts on 22 August in conjunction with the IFLA conference. <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0108&amp;L=dc-general&amp;O=D&amp;P=673">More Information...</a></p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a href="/documents/2001/04/12/usageguide/">"Using Dublin Core" Usage Guide is now a DCMI Recommendation</a></div>
+<div class="rss-description">
+<p>2001-06-01, The DCMI Directorate is pleased to announce that the new version of "Using Dublin Core" is now a DCMI Recommendation following the public comment period that ended May 15, 2001. This document is intended to be an entry point for users of Dublin Core. </p>
+<p>For non-specialists, it will assist them in creating simple descriptive records for information resources (for example, electronic documents, JPEG images, video clips). Specialists may find the document a useful point of reference to the documentation of Dublin Core, as it changes and grows. </p>
+<p>Linked to the guide, there are examples of generic usage of the core elements and encoding examples of the core elements and qualifiers in HTML. RDF examples will be added in the near future, after work has completed on the DCMI-Architecture deliverable "Expressing Qualified Dublin Core in RDF".</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a name="guide20010425"></a><a href="/documents/2001/04/12/usageguide/">A New Version of &quot;Using Dublin Core&quot; is now available</a></div>
+<div class="rss-description">
+<p>2001-04-25, The DCMI Directorate is pleased to announce that a new version of &quot;Using Dublin Core&quot; is now available for public comment until May 15, 2001. Comments should be sent to <a href="http://www.jiscmail.ac.uk/lists/dc-general.html">DC-General</a> Mailing list.</p>
+<p>This document is intended to be an entry point for users of Dublin Core. For non-specialists, it will assist them in creating simple descriptive records for information resources (for example, electronic documents, JPEG images, video clips). Specialists may find the document a useful point of reference to the documentation of Dublin Core, as it changes and grows.</p>
+<p>The guide shows in a non-technical fashion how Dublin Core metadata may be used by anyone to make their material more accessible. This guide discusses the layout and content of Dublin Core metadata elements, how to use them in composing a complete Dublin Core metadata record, as well as how to qualify elements to support use by a wide variety of communities.</p>
+<p>Another important goal of this document is to promote &quot;best practices&quot; for describing resources using the Dublin Core element set. The Dublin Core community recognizes that consistency in creating metadata is an important key to achieving complete retrieval and intelligible display across disparate sources of descriptive records. Inconsistent metadata effectively hides desired records, resulting in uneven, unpredictable or incomplete search results.</p>
+<p>The guide first introduces the concept of metadata in general and then highlights the scope of the Dublin Core as a simple yet effective element set for describing a wide range of networked resources. It then outlines the basic principles of the descriptive elements and introduces the core elements and the two classes of qualifiers (element refinements and encoding schemes) that can be used.</p>
+<p>Linked to the guide, there are examples of generic usage of the core elements and encoding examples of the core elements and qualifiers in both HTML and RDF.</p>
+<p>There is also an extensive glossary of terms related to the Dublin Core and a reference section with a large number of links to bibliographies, specifications, other guidelines and tools, and background reading material going back to 1995.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a name="prec20010116"></a><a href="http://dublincore.org/documents/#proposedrecommendations">Dublin Core Metadata Initiative Announces New Proposed Recommendation</a></div>
+<div class="rss-description">
+<p>2001-01-16, The DCMI Directorate is pleased to announce that <a href="http://dublincore.org/documents/2000/11/dcmes-xml/">An XML Encoding of Simple Dublin Core Metadata</a> has reached Proposed Recommendation status.</p>
+</div>
+</div>

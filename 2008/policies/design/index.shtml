@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  
+<head>
+    
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    
+<title>DCMI Website Standards and Policy Manual - Design Elements</title>
+    
+<meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    
+<link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+ 
+</script>
+  
+</head>
+
+  
+<body>
+    
+<!--#include virtual="/ssi/policies/header.shtml" -->
+<table
+    summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content."
+     border="0" width="100%" cellspacing="0" cellpadding="5">
+      <tbody>
+        
+<tr valign="top">
+          
+<td bgcolor="#EEEEEE" width="150">
+            
+<!--#include virtual="/ssi/policies/design.shtml" -->
+</td>
+<td>
+<h1>Identity Elements</h1>
+<h2>Overview</h2>
+<p>A brand's visual identity includes elements such as logo, color, typography and imagery. By consistently leveraging these elements, the Dublin Core Metadata Initiative presents a familiar and reliable brand to our users.</p>
+<h3>General Guidelines</h3>
+<p>Here is a helpful overview of the most important things you can do to help enhance and protect the DCMI brand identity:</p>
+<ol>
+<li>Be consistent. Inconsistent or unclear design can erode the brand.</li>
+<li>Use only approved DCMI logo artwork, and use it properly.
+			
+<li>Make it a priority to use the DCMI logo on all communications.</li>
+<li>Use Meta as a primary typeface for graphical text.</li>
+<li>Communicate positive messages that reflect our key message.</li>
+<li>When using imagery, be sensitive to our audiences and their cultures.
+			
+<li>Write in a style that is clear, friendly and knowledgeable.</li>
+</ol>
+<h1>Elements of the Design</h1>
+<p>The current Dublin Core Metadata Initiative website design consists of several common areas. Information on how to use the element is also included, using the following format:</p>
+<table border="1" cellpadding="6" cellspacing="0" width="100%">
+			
+<tr valign="top">
+				
+<td width="35%"><b>Element Name</b></td>
+<td width="65%">The name of the element described.</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>ALT text</b></td>
+<td width="65%">The text used in the ALT&nbsp;tag (images only).</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Name</b></td>
+<td width="65%">The naming/suggested naming convention for the image.</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Image Location</b></td>
+<td width="65%"> The location/suggested location on the server of the image.</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Hyperlink</b></td>
+<td width="65%">The location the element links to.</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Height</b></td>
+<td width="65%">The height of the element.</td>
+</tr>
+			
+<tr valign="top">
+				
+<td width="35%"><b>Width</b></td>
+<td width="65%">The width of the element.</td>
+</tr>
+		
+</table>
+<p>Templates for the DCMI design have also been created to speed up your development process. They include all the common elements and appropriate server-side includes.</p>
+<p>By using these templates, you can be assured that your authored pages will maintain the look and feel of the other pages on the DCMI website.</p>
+</td>
+</tr>
+      </tbody>
+    
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

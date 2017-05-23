@@ -1,0 +1,718 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+
+<html title="DC Architecture 0.1" lang="en">
+  <head title="DC Architecture 0.1">
+    <meta name="generator" content="HTML Tidy, see www.w3.org">
+
+    <title>DC Architecture 0.1</title>
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=iso-8859-1">
+    <link rel="alternate" media="print" href="printversion.txt">
+    <link rel="previous" href="file.html">
+    <link rel="next" href="file.html">
+    <link rel="contents" href="file.html">
+    <link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body bgcolor="#FFFFFF" text="#000000">
+    <h1 id="title"><span class="dc:title">DC Architecture
+    0.1</span></h1>
+
+    <dl>
+      <dt>Creator:</dt>
+
+      <dd><span class="dc:creator">Tod Matola</span></dd>
+
+      <dt>Creator:</dt>
+
+      <dd><span class="dc:creator">Eric Miller</span></dd>
+
+      <dt>Date issued:</dt>
+
+      <dd><span class="dc:date">2000-09-19</span></dd>
+
+      <dt>Identifier:</dt>
+
+      <dd><span class="dc:identifier"><a href=
+      "http://dublincore.org/temp/dc_arch.html">
+	    http://dublincore.org/temp/dc_arch.html</a></span></dd>
+
+      <dt>Latest version:</dt>
+
+      <dd><span class="dc:">http://dublincore.org/temp/dc_arch.html</span></dd>
+
+      <dt>Status of document:</dt>
+
+      <dd><span class="dc:status">Pre-draft</span></dd>
+
+      <dt>Subject:</dt>
+
+      <dd><span class="dc:subject">SUBJECT</span></dd>
+
+      <dt>Description of document:</dt>
+
+      <dd><span class="dc:description">DESCRIPTION</span></dd>
+
+      <dt>Contributor:</dt>
+
+      <dd><span class="dc:contributor">Rael Dornfest</span></dd>
+
+      <dt>Type:</dt>
+
+      <dd><span class="dc:type">RESOURCE TYPE</span></dd>
+
+      <dt>Format:</dt>
+
+      <dd><span class="dc:format">RESOURCE FORMAT</span></dd>
+
+      <dt>Source:</dt>
+
+      <dd><span class="dc:source">SOURCE</span></dd>
+
+      <dt>Language:</dt>
+
+      <dd><span class="dc:language">LANGUAGE</span></dd>
+
+      <dt>Document metadata:</dt>
+
+      <dd>RDF</dd>
+
+      <dt>NOTICE TO IMPLEMENTORS:</dt>
+
+      <dd>NOTICE</dd>
+    </dl>
+    <hr title="separator from head">
+
+    <div class="toc">
+      <h2 id="table-of-contents"><a name="contents"></a>Table of
+      Contents</h2>
+
+      <ul class="toc">
+        <li class="tocline2"><a href="#1">1. Introduction</a></li>
+
+        <li style="list-style: none">
+          <ul class="toc">
+            <li class="tocline3">1.1 <a href=
+            "#1.1">Classification of extensions</a></li>
+
+            <li class="tocline3">1.2 <a href=
+            "#1.2">Subsection</a></li>
+
+            <li class="tocline3">1.3 <a href=
+            "#1.3">Subsection</a></li>
+
+            <li class="tocline3">1.4 <a href=
+            "#1.4">Subsection</a></li>
+
+            <li class="tocline3">1.5 <a href=
+            "#1.5">Subsection</a></li>
+          </ul>
+        </li>
+
+        <li class="tocline2"><a href="#2">2. Section</a></li>
+
+        <li style="list-style: none">
+          <ul class="toc">
+            <li class="tocline3">2.1 <a href=
+            "#2.1">Subsection</a></li>
+
+            <li class="tocline3">2.2 <a href=
+            "#2.2">Subsection</a></li>
+
+            <li class="tocline3">2.3 <a href=
+            "#2.3">Subsection</a></li>
+
+            <li class="tocline3">2.4 <a href=
+            "#2.4">Subsection</a></li>
+
+            <li class="tocline3">2.5 <a href=
+            "#2.5">Subsection</a></li>
+          </ul>
+        </li>
+
+        <li class="tocline2"><a href="#3">3. Section</a></li>
+
+        <li style="list-style: none">
+          <ul class="toc">
+            <li class="tocline3">3.1 <a href=
+            "#3.1">Subsection</a></li>
+
+            <li class="tocline3">3.2 <a href=
+            "#3.2">Subsection</a></li>
+
+            <li class="tocline3">3.3 <a href=
+            "#3.3">Subsection</a></li>
+
+            <li class="tocline3">3.4 <a href=
+            "#3.4">Subsection</a></li>
+
+            <li class="tocline3">3.5 <a href=
+            "#3.5">Subsection</a></li>
+          </ul>
+        </li>
+
+        <li class="tocline2"><a href="#4">4. Section</a></li>
+
+        <li style="list-style: none">
+          <ul class="toc">
+            <li class="tocline3">4.1 <a href=
+            "#4.1">Subsection</a></li>
+
+            <li class="tocline3">4.2 <a href=
+            "#4.2">Subsection</a></li>
+
+            <li class="tocline3">4.3 <a href=
+            "#4.3">Subsection</a></li>
+
+            <li class="tocline3">4.4 <a href=
+            "#4.4">Subsection</a></li>
+
+            <li class="tocline3">4.5 <a href=
+            "#4.5">Subsection</a></li>
+          </ul>
+        </li>
+
+        <li class="tocline2"><a href="#5">5. Procdure
+        Outline</a></li>
+
+        <li style="list-style: none">
+          <ul class="toc">
+            <li class="tocline3">5.1 <a href="#5.1">RSS-DEV
+            Procdures</a></li>
+
+            <li class="tocline3">5.2 <a href="#5.2">Sub</a></li>
+
+            <li class="tocline3">5.3 <a href=
+            "#5.3">Subsection</a></li>
+
+            <li class="tocline3">5.4 <a href=
+            "#5.4">Subsection</a></li>
+
+            <li class="tocline3">5.5 <a href=
+            "#5.5">Subsection</a></li>
+          </ul>
+        </li>
+
+        <li class="toc"><a href="#references">6.
+        References</a></li>
+      </ul>
+    </div>
+    <hr title="separator from table of contents">
+
+    <div class="body">
+      <h2 id="introduction"><a name="1"></a>1. Introduction</h2>
+
+<p>
+    The Dublin Core Metadata Initiative recognized
+    early on that various communities may choose to utilize richer
+    semantic definitions that those provided by the Dublin Core
+    Element Set in their descriptions. A requirement that evolved
+    form this recognition was the need for associating relations
+    between these richer semantics and those of the Dublin Core
+    Element Set (DCES). 
+
+Due to the number of groups actively extending the DCES, in a variety of 
+different ways, this document defines a proposed methodlogy for 
+managing these richer semantic. 
+
+
+</p>
+
+    <p>It is suggested (but not required) that any addition
+    semantics be described using the conventions defined by the <a
+    href="http://www.w3.org/TR/2000/CR-rdf-schema-20000327/">W3C
+    RDF Schema Specification</a>. For example:</p>
+<pre>
+&lt;rdf:Property rdf:ID = "http://dublincore.org/2000/08/22-dced#audience"&gt;
+  &lt;rdfs:label&gt;Audience&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;A category of user for whom the resource is intended.
+Comment: Frequently, creators and publishers of resources in education
+and training explicitly state the category of user for whom the
+resource is intended. In like fashion, end-users in the
+education/training domain frequently search using audience
+characteristics as search terms.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/08/22-dced" /&gt;
+&lt;/rdf:Property&gt;
+</pre>
+
+
+      <br>
+      <br>
+       
+
+      <h3 id="subsection"><a name="1.1"></a>1.1 Classification of 
+	extensions</h3>
+
+      <p>
+      <ol>
+        <li>Informal extension</li>
+
+        <li>Formal extension</li>
+
+        <li>Formal Endorsed extension</li>
+      </ol>
+      </p>
+
+
+
+
+      <h3 id="subsection"><a name="1.2"></a>1.2 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="1.3"></a>1.3 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="1.4"></a>1.4 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="1.5"></a>1.5 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+      <hr title="separator from introduction">
+
+      <h2 id="section"><a name="2"></a>2. Section</h2>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="2.1"></a>2.1 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="2.2"></a>2.2 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="2.3"></a>2.3 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="2.4"></a>2.4 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="2.5"></a>2.5 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+      <hr title="separator from section 2">
+
+      <h2 id="section"><a name="3"></a>3. Section</h2>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="3.1"></a>3.1 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="3.2"></a>3.2 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="3.3"></a>3.3 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="3.4"></a>3.4 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="3.5"></a>3.5 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+      <hr title="separator from section 3">
+      <a name="4"></a> 
+
+      <h2 id="section">4. Section</h2>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="4.1"></a>4.1 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="4.2"></a>4.2 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="4.3"></a>4.3 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="4.4"></a>4.4 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="4.5"></a>4.5 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+      <hr title="separator from section 4">
+      <a name="5"></a> 
+
+      <h2 id="section">5. Section</h2>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="5.1"></a>5.1 RSS-DEV
+      Procdures</h3>
+
+      <h3 id="subsection">RSS-DEV Procdures</h3>
+
+      <table summary="RSS_DEV Produres" border="0" cellspacing="0"
+      cellpadding="0" width="100%">
+        <tr bgcolor="#CCCCFF" width="100%">
+          <td bgcolor="#CCCCFF" width="100%"><font size=
+          "-3">&nbsp;</font> </td>
+        </tr>
+
+        <tr bgcolor="#FFFFFF">
+          <td width="100%" valign="top">
+            <p><!-- Body !-->
+            </p>
+
+            <p><font size="-1"><b>From:</b> Rael
+            Dornfest&nbsp;&nbsp;&lt; <a href=
+            "/post/rss-dev?protectID=194166192078146190218038186064247164071179066034">
+            rael@o...</a>&gt;</font><br>
+             <font size="-1"><b>Date:</b>
+            Thu&nbsp;Sep&nbsp;14,&nbsp;2000&nbsp;10:04am</font><br>
+             <font size="-1"><b>Subject:</b> Procedures</font><br>
+            <br>
+            <br>
+            </p>
+<pre>
+<font size="3">Howdy,
+
+In response to some of the calls on RSS-DEV for some procedures, I've
+drafted the following proposal.
+
+I look forward to discussing this together, figuring out what needs
+tweaking, and coming up with a system that balances open involvement and the
+ability to get things done.
+
+As I've mentioned at the end of the proposal, the adoption of a process will
+necessarily require a little bootstrapping -- a nice test of the process
+itself.
+
+Rael
+
+
+#####
+
+RSS-DEV Procedures Proposal
+===========================
+
+Motion
+------
+
+This is a motion for policy and procedures to be adopted by the RSS-DEV
+mailing list, <a href=
+"mailto:rss-dev@egroups.com">rss-dev@egroups.com</a>[1].
+
+The proposal draws from various sources, including the Apache Software
+Foundation (ASF)[2], Robert's Rules of Order[3], and informal observation of
+similar endeavours.
+
+Assumptions
+-----------
+
+1. This process should be open.
+
+2. This process should allow for both on- and off-topic discussion by group
+   members, regardless of their level of expertise.
+
+3. This process should allow contribution by any group member, regardless of
+   their level of expertise.
+
+4. This process should recognise differing levels of commitment and
+   involvement by group members.
+
+5. There should be a clear process in place for moving from proposal and
+   discussion of modifications to their adoption and incorporation.
+
+Charter
+-------
+
+The RSS-DEV Mailing List ("RSS-DEV") is for the discussion and further
+development of the proposed RSS 1.0 specification[4].
+
+RSS-DEV is:
+
+* Open - anyone can join without need of approval
+
+* Unmoderated -- any member may post without need of post approval
+
+* Public -- the message archives, documents, links, and other associated
+  facilities are publicly viewable.
+
+
+Organisation
+------------
+
+RSS-DEV is structured as follows:
+
+* Interest Group ("IG") -- all mailing list members
+
+  o may join and leave at will
+
+  o may discuss any matter within the limits of the RSS-DEV charter
+
+  o may propose changes to the RSS-DEV charter, "working code" RSS 1.0
+    specification, and modules (including adoption of a module as a
+    "Standard Module)
+
+  o may second proposals
+
+  o may call for a poll
+
+  o may second a call for a poll
+
+* Working Group ("WG")
+
+  o are IG members, with consummate rights and privileges
+
+  o are nominated and voted in by the current WG
+
+  o may leave at will
+
+  o may establish a poll
+
+  o may call for a vote
+
+  o may second a call for a vote
+
+  o may establish a vote
+
+  o may vote
+
+Procedures for Motions
+----------------------
+
+The procedure for a motion is as follows:
+
+1. A member proposes a motion.
+
+2. The motion must be seconded ("I second the motion put forth in {URL}").
+   Failure of a second results in the motion being dropped.
+
+3. The motion is registered by a WG member as a link to the motion message
+   under <a href="http://www.egroups.com/links/rss-dev/Motions/"
+target="_top">http://www.egroups.com/links/rss-dev/Motions/</a>.
+
+4. Discussion takes place.
+
+5. A poll may be taken at any point to determine rough consensus.
+
+   5.1. A member may call for a poll; members are asked to allow
+        (subjectively) for the conversation to die down before calling for a
+        poll to give discussion a chance.
+
+   5.2. A member seconds the call for a poll a minimum of 1 business day
+        following the poll call to allow for discussion of poll wording.
+        Failure of a second within 5 business days results in the poll call
+        being dropped.
+
+   5.3. A poll is established by a WG member and left open for 2 business
+        days, during which time all members may participate.
+
+        Note: A poll must always include an "I Abstain" option.
+
+   5.4. The poll is concluded by a WG member and results emailed to all
+         members.
+
+6. A vote may be called at any point to ratify or reject the proposal.
+
+   6.1. A WG member may call for a vote at any time; as with polls, Working
+        Group members are asked to allow (subjectively) for the conversation
+        to die down before calling for a vote to give discussion a chance.
+
+   6.2. A WG member seconds a call for a vote. Failure of a second by a WG
+        member results in the vote call being dropped.
+
+   6.3. A vote is established by a WG member and left open for a minimum of
+        2 business days, after-which it may be concluded at the discretion
+        of the WG chair.
+
+        Note: A vote must always include an "I Abstain" option.
+  
+   6.4. The vote is concluded by the WG chair and results emailed to all
+        members.
+
+   6.5. Motions must be passed by a 2/3 majority of voters.
+
+        If passed, the changes are made to the charter, specification,
+        module (including adoption of a module as a "Standard Module"), or
+        WG roster.
+
+        If not passed, the motion is dropped. Dropped motions may be
+        re-proposed at any time by any member; members are asked to modify
+        the motion as appropriate before re-proposing.
+
+Initial Working Group ("WG") Members
+------------------------------------
+
+The initial Working Group members shall consist of the original RSS 1.0
+Specification proposal[4] authors, namely:
+
+* Gabe Beged-Dov
+* Dan Brickley
+* Rael Dornfest
+* Ian Davis
+* Leigh Dodds
+* Jonathan Eisenzopf
+* David Galbraith
+* R.V. Guha
+* Eric Miller
+* Eric van der Vlist
+
+The Working Group chair shall elected by the Working Group members upon the
+adoption of this process.
+
+Off-Topic / Out-of-Band Discussions
+-----------------------------------
+
+Off-topic or out of band discussions should adopt the convention of
+prefixing the email subject with [OT]. This allows for free and open
+discussion while affording uninterested members to filter out said threads.
+
+Process Adoption
+----------------
+
+Adoption of this proposal for RSS-DEV policy and procedures will rely upon a
+level of bootstrapping, using the process itself to put it into place.
+
+[1] <a href="http://www.egroups.com/group/rss-dev/" target=
+"_top">http://www.egroups.com/group/rss-dev/</a>
+[2] <a href="http://www.apache.org/" target=
+"_top">http://www.apache.org/</a>
+[3] <a href="http://cyberbuzz.gatech.edu/apo/robert.html" target=
+"_top">http://cyberbuzz.gatech.edu/apo/robert.html</a>
+[4] <a href="http://purl.org/rss/1.0/" target=
+"_top">http://purl.org/rss/1.0/</a>
+
+#####
+
+
+------------------------------------------------------------------
+   Rael Dornfest                  <a href=
+"/post/rss-dev?protectID=194166192078146190218038186064247164071179066034">rael@o...</a>
+   Maven                          <a href=
+"http://www.oreillynet.com/~rael" target=
+"_top">http://www.oreillynet.com/~rael</a>
+   The O'Reilly Network           <a href=
+"http://meerkat.oreillynet.com" target=
+"_top">http://meerkat.oreillynet.com</a>
+------------------------------------------------------------------</font>
+</pre>
+            <br>
+             <br>
+             <br>
+             <br>
+             
+          </td>
+        </tr>
+      </table>
+      <br>
+      <br>
+       
+
+      <h3 id="subsection"><a name="5.2"></a>5.2 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="5.3"></a>5.3 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="5.4"></a>5.4 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+
+      <h3 id="subsection"><a name="5.5"></a>5.5 Subsection</h3>
+
+      <h3 id="subsection">Subsection</h3>
+
+      <p>Content.</p>
+      <hr title="separator from section 5">
+
+      <h2 id="references"><a name="references"></a>6.
+      References</h2>
+
+      <p>Content.</p>
+
+      <dl>
+        <dt><a name="ref-REFERENCE1"></a>[REFERENCE 1]</dt>
+
+        <dd>Content.</dd>
+
+        <dt><a name="ref-REFERENCE2"></a>[REFERENCE 2]</dt>
+
+        <dd>Content.</dd>
+
+        <dt><a name="ref-REFERENCE3"></a>[REFERENCE 3]</dt>
+
+        <dd>Content.</dd>
+      </dl>
+    </div>
+    <hr>
+
+    <address>
+      <a href="mailto:matola@oclc.org">Tod Matola</a>
+    </address>
+    <!-- Created: Tue Sep 19 22:45:25 EDT 2000 -->
+    <!-- hhmts start -->
+Last modified: Wed Sep 20 00:00:15 EDT 2000
+<!-- hhmts end -->
+  </body>
+</html>
+

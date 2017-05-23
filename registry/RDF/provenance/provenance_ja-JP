@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+	<!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	xmlns:dcterms="&dctermsns;"
+	xmlns:dctype="&dctypens;">
+	 
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label rdf:ID="title_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="title_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label rdf:ID="contributor_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="contributor_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label rdf:ID="creator_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="creator_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label rdf:ID="publisher_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="publisher_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label rdf:ID="subject_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="subject_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label rdf:ID="description_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="description_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label rdf:ID="date_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="date_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label rdf:ID="type_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="type_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label rdf:ID="format_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="format_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label rdf:ID="identifier_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="identifier_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label rdf:ID="language_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="language_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label rdf:ID="relation_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="relation_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label rdf:ID="source_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="source_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label rdf:ID="coverage_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="coverage_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label rdf:ID="rights_label" xml:lang="ja-JP"/>
+  <rdfs:comment rdf:ID="rights_comment" xml:lang="ja-JP"/>
+</rdf:Property>
+
+
+<rdf:Property rdf:about="&dctermsns;alternative">
+    <rdfs:comment rdf:ID="alternative_comment" xml:lang="ja-JP"/>
+    <dc:description rdf:ID="alternative_description" xml:lang="ja-JP"/>
+ </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;abstract">
+    <rdfs:comment rdf:ID="abstract_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;tableOfContents">
+    <rdfs:comment rdf:ID="tableOfContents_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;created">
+    <rdfs:comment rdf:ID="created_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;issued">
+    <rdfs:comment rdf:ID="issued_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;modified">
+    <rdfs:comment rdf:ID="modified_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;valid">
+    <rdfs:comment rdf:ID="valid_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;available">
+    <rdfs:comment rdf:ID="available_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <dcterms:DateScheme rdf:about="&dctermsns;W3CDTF">
+    <rdfs:comment rdf:ID="W3CDTF_comment" xml:lang="ja-JP"/>
+  </dcterms:DateScheme>
+
+  <dcterms:DateScheme rdf:about="&dctermsns;Period">
+    <rdfs:comment rdf:ID="Period_comment" xml:lang="ja-JP"/>
+  </dcterms:DateScheme>
+
+  <rdf:Property rdf:about="&dctermsns;extent">
+    <rdfs:comment rdf:ID="extent_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;medium">
+    <rdfs:comment rdf:ID="medium_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <dcterms:FormatScheme rdf:about="&dctermsns;IMT">
+    <rdfs:comment rdf:ID="IMT_comment" xml:lang="ja-JP"/>
+  </dcterms:FormatScheme>
+
+  <dcterms:LanguageScheme rdf:about="&dctermsns;RFC1766">
+    <rdfs:comment rdf:ID="RFC1766_comment" xml:lang="ja-JP"/>
+  </dcterms:LanguageScheme>
+
+  <dcterms:LanguageScheme rdf:about="&dctermsns;ISO639-2">
+    <rdfs:comment rdf:ID="ISO639-2_comment" xml:lang="ja-JP"/>
+  </dcterms:LanguageScheme>
+
+  <rdf:Property rdf:about="&dctermsns;isPartOf">
+    <rdfs:comment rdf:ID="isPartOf_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasPart">
+    <rdfs:comment rdf:ID="hasPart_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isVersionOf">
+    <rdfs:comment rdf:ID="isVersionOf_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasVersion">
+    <rdfs:comment rdf:ID="hasVersion_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isFormatOf">
+    <rdfs:comment rdf:ID="isFormatOf_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;hasFormat">
+    <rdfs:comment rdf:ID="hasFormat_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;references">
+    <rdfs:comment rdf:ID="references_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isReferencedBy">
+    <rdfs:comment rdf:ID="isReferencedBy_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;requires">
+    <rdfs:comment rdf:ID="requires_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isRequiredBy">
+    <rdfs:comment rdf:ID="isRequiredBy_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;replaces">
+    <rdfs:comment rdf:ID="replaces_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;isReplacedBy">
+    <rdfs:comment rdf:ID="isReplacedBy_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+ 
+  <rdf:Property rdf:about="&dctermsns;spatial">
+    <rdfs:comment rdf:ID="spatial_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:about="&dctermsns;temporal">
+    <rdfs:comment rdf:ID="temporal_comment" xml:lang="ja-JP"/>
+  </rdf:Property>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;TGN">
+    <rdfs:comment rdf:ID="TGN_comment" xml:lang="ja-JP"/>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;ISO3166">
+    <rdfs:comment rdf:ID="ISO3166_comment" xml:lang="ja-JP"/>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;Box">
+    <rdfs:comment rdf:ID="Box_comment" xml:lang="ja-JP"/>
+  </dcterms:SpatialScheme>
+
+  <dcterms:SpatialScheme rdf:about="&dctermsns;Point">
+    <rdfs:comment rdf:ID="Point_comment" xml:lang="ja-JP"/>
+  </dcterms:SpatialScheme>
+
+  <dcterms:TypeScheme rdf:about="&dctermsns;DCMIType">
+    <rdfs:comment rdf:ID="DCMIType_comment" xml:lang="ja-JP"/>
+  </dcterms:TypeScheme>
+  
+   <dcterms:DCMIType rdf:about="&dctypens;Collection">
+   <rdfs:comment rdf:ID="Collection_comment" xml:lang="ja-JP"/>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;Dataset">
+    <rdfs:comment rdf:ID="Dataset_comment" xml:lang="ja-JP"/>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;Event">
+    <rdfs:comment rdf:ID="Event_comment" xml:lang="ja-JP"/>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;Image">
+    <rdfs:comment rdf:ID="Image_comment" xml:lang="ja-JP"/>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;InteractiveResource">
+    <rdfs:comment rdf:ID="InteractiveResource_comment" xml:lang="ja-JP"/>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;Software">
+    <rdfs:comment rdf:ID="Software_comment" xml:lang="ja-JP"/>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;Service">
+    <rdfs:comment rdf:ID="Service_comment" xml:lang="ja-JP"/>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;Sound">
+    <rdfs:comment rdf:ID="Sound_comment" xml:lang="ja-JP"/>
+ </dcterms:DCMIType>
+
+ <dcterms:DCMIType rdf:about="&dctypens;Text">
+    <rdfs:comment rdf:ID="Text_comment" xml:lang="ja-JP"/>
+ </dcterms:DCMIType>
+
+
+<rdf:Description rdf:about="#title_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#title_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#contributor_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#creator_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#publisher_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#publisher_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#subject_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#subject_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#description_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#description_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#date_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#date_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#type_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#type_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#format_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#format_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#identifier_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#identifier_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#language_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#language_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#relation_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#relation_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#source_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#source_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#coverage_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#coverage_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="#rights_label">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#rights_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+ <rdf:Description rdf:about="#alternative_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#alternative_description">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#abstract_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#tableOfContents_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#created_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#issued_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#modified_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#valid_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#available_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#W3CDTF_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#Period_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#extent_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#medium_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#IMT_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#RFC1766_comment"> 
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#ISO639-2_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#isPartOf_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#hasPart_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#isVersionOf_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#hasVersion_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#isFormatOf_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#hasFormat_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#references_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#isReferencedBy_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#requires_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#isRequiredBy_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#replaces_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#isReplacedBy_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#spatial_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#temporal_comment"> 
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#TGN_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#ISO3166_comment"> 
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#Box_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#Point_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+	
+<rdf:Description rdf:about="#DCMIType_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Collection_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Dataset_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+<rdf:Description rdf:about="#Event_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+    
+<rdf:Description rdf:about="#Image_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+   
+<rdf:Description rdf:about="#InteractiveResource_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+    
+<rdf:Description rdf:about="#Software_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+    
+<rdf:Description rdf:about="#Service_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>	
+   
+<rdf:Description rdf:about="#Sound_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+ 
+<rdf:Description rdf:about="#Text_comment">
+	<dc:creator xml:lang="ja-JP">&#x6749;&#x672c;&#x91cd;&#x96c4; (Shigeo Sugimoto)</dc:creator>
+	<dc:description xml:lang="ja-JP">
+	DC&#x7528;&#x8a9e;&#x306e;&#x65e5;&#x672c;&#x8a9e;&#x8a33; (DC term translation)
+	</dc:description>
+	<dc:publisher xml:lang="ja-JP">
+	&#x56f3;&#x66f8;&#x9928;&#x60c5;&#x5831;&#x5927;&#x5b66; (University of Library and Information Science)
+	</dc:publisher>
+	<dc:publisher rdf:resource="http://www.ulis.ac.jp/"/>
+	<dc:source rdf:resource="http://www.dl.ulis.ac.jp/DC/"/>
+	<dc:rights xml:lang="ja-JP">
+	&#x8a33;&#x8005;&#x306f;&#x65e5;&#x672c;&#x8a9e;&#x8a33;&#x306e;&#x6b63;&#x78ba;&#x3055;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x8ca0;&#x308f;&#x306a;&#x3044;&#x3002;		 
+	(The publisher waives all responsibility for the correctness of this translation) 
+	</dc:rights>
+</rdf:Description>
+
+
+</rdf:RDF>

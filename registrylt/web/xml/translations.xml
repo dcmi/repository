@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<strings>
+	<lang RFC3066="en-US">
+		<str lang="en-US" name="help">Help</str>
+		<str lang="en-US" name="search">Search</str>
+		<str lang="en-US" name="navigate">Browse</str>
+		<str lang="en-US" name="display">Display</str>
+		<str lang="en-US" name="login">Administration</str>
+		<str lang="en-US" name="summary">Summary of All Terms</str>
+		<str lang="en-US" name="schemas">Schemas</str>
+		<str lang="en-US" name="classes">Classes</str>
+		<str lang="en-US" name="properties">Properties</str>
+		<str lang="en-US" name="namespaces">Namespaces</str>
+		<str lang="en-US" name="submit">Submit</str>
+		<str lang="en-US" name="reset">Reset</str>
+		<str lang="en-US" name="apply">Apply</str>
+		<str lang="en-US" name="elements">Elements</str>
+		<str lang="en-US" name="qualifiers">Qualifiers</str>
+		<str lang="en-US" name="refinements">Element Refinements</str>
+		<str lang="en-US" name="controlledTerms">Controlled Vocabulary Terms</str>
+		<str lang="en-US" name="encodingSchemes">Vocabulary and Encoding Schemes</str>
+		<str lang="en-US" name="other">Other</str>
+		<str lang="en-US" name="overview">Terms Overview</str>
+		<str lang="en-US" name="SSGFI">SSGFI</str>
+		<str lang="en-US" name="items_found">Items Found</str>
+		<str lang="en-US" name="summary_all">Summary of All Registry Contents</str>
+		<str lang="en-US" name="summary_termsOverview">DCMI Terms Overview</str>		
+		<str lang="en-US" name="summary_elements">Summary of DCMI Elements</str>
+		<str lang="en-US" name="summary_qualifiers">Summary of DCMI Element Refinements</str>
+		<str lang="en-US" name="summary_terms">Summary of DCMI Controlled Vocabulary Terms</str>
+		<str lang="en-US" name="summary_schemes">Summary of DCMI Vocabulary and Encoding Schemes</str>
+		<str lang="en-US" name="search_for">Search for</str>
+		<str lang="en-US" name="case_sensitive">Case sensitive?</str>
+		<str lang="en-US" name="yes">Yes</str>
+		<str lang="en-US" name="no">No</str>
+		<str lang="en-US" name="display_results">Display results that match</str>
+		<str lang="en-US" name="exact_phrase">Exact phrase</str>
+		<str lang="en-US" name="all_terms">All terms</str>
+		<str lang="en-US" name="any_term">Any term</str>
+		<str lang="en-US" name="term">Term</str>
+		<str lang="en-US" name="terms">Terms</str>
+		<str lang="en-US" name="property">Property</str>
+		<str lang="en-US" name="provenance">Provenance information for</str>
+		<str lang="en-US" name="about">About</str>
+		<str lang="en-US" name="language">Language Preference</str>
+		<str lang="en-US" name="collections">Collections</str>
+		<str lang="en-US" name="searchtheregistry">Search the registry for terms and other metadata</str>
+		<str lang="en-US" name="browsetheregistry">Browse the registry by classification type</str>
+		<str lang="en-US" name="canonical">Canonical translation</str>
+		<str lang="en-US" name="viewas">View</str>
+		<str lang="en-US" name="rdf_type">RDF Type</str>
+		<str lang="en-US" name="rdf_value">Value</str>
+		<str lang="en-US" name="rdfs_label">Label</str>
+		<str lang="en-US" name="rdfs_domain">Domain</str>
+		<str lang="en-US" name="rdfs_isDefinedBy">Is Defined By</str>
+		<str lang="en-US" name="rdfs_subPropertyOf">Refines</str>
+		<str lang="en-US" name="rdfs_range">Range</str>             
+		<str lang="en-US" name="rdfs_comment">Definition</str>  
+		<str lang="en-US" name="rdfs_subClassOf">Refines</str>
+		<str lang="en-US" name="rdfs_seeAlso">See Also</str>
+		<str lang="en-US" name="dc_title">Title</str> 
+		<str lang="en-US" name="dc_creator">Creator</str>
+		<str lang="en-US" name="dc_subject">Subject</str> 
+		<str lang="en-US" name="dc_description">Description</str>
+		<str lang="en-US" name="dc_publisher">Publisher</str>
+		<str lang="en-US" name="dc_contributor">Contributor</str>
+		<str lang="en-US" name="dc_date">Date</str>
+		<str lang="en-US" name="dc_type">Type</str>
+		<str lang="en-US" name="dc_format">Format</str>
+		<str lang="en-US" name="dc_identifier">Identifier</str> 
+		<str lang="en-US" name="dc_source">Source</str> 
+		<str lang="en-US" name="dc_language">Language</str>
+		<str lang="en-US" name="dc_relation">Relation</str> 
+		<str lang="en-US" name="dc_coverage">Coverage</str> 
+		<str lang="en-US" name="dc_rights">Rights Management</str>
+		<str lang="en-US" name="dcq_abstract">Abstract</str>
+		<str lang="en-US" name="dcq_alternative">Alternative</str>
+		<str lang="en-US" name="dcq_audience">Audience</str>
+		<str lang="en-US" name="dcq_available">Available</str>
+		<str lang="en-US" name="dcq_conformsTo">Conforms To</str>
+		<str lang="en-US" name="dcq_created">Created</str>
+		<str lang="en-US" name="dcq_extent">Extent</str>
+		<str lang="en-US" name="dcq_hasFormat">Has Format</str>
+		<str lang="en-US" name="dcq_hasPart">Has Part</str>
+		<str lang="en-US" name="dcq_hasVersion">Has Version</str>
+		<str lang="en-US" name="dcq_isFormatOf">Is Format Of</str>
+		<str lang="en-US" name="dcq_isPartOf">Is Part Of</str>
+		<str lang="en-US" name="dcq_isReferencedBy">Is Referenced By</str>
+		<str lang="en-US" name="dcq_isReplacedBy">Is Replaced By</str>
+		<str lang="en-US" name="dcq_isRequiredBy">Is Required By</str>
+		<str lang="en-US" name="dcq_issued">Issued</str>
+		<str lang="en-US" name="dcq_isVersionOf">Is Version Of</str>
+		<str lang="en-US" name="dcq_mediator">Mediator</str>
+		<str lang="en-US" name="dcq_medium">Medium</str>
+		<str lang="en-US" name="dcq_modified">Modified</str>
+		<str lang="en-US" name="dcq_references">References</str>
+		<str lang="en-US" name="dcq_replaces">Replaces</str>
+		<str lang="en-US" name="dcq_requires">Requires</str>
+		<str lang="en-US" name="dcq_spatial">Spatial</str>
+		<str lang="en-US" name="dcq_tableOfContents">Table Of Contents</str>
+		<str lang="en-US" name="dcq_temporal">Temporal</str>
+		<str lang="en-US" name="dcq_valid">Valid</str>
+		<str lang="en-US" name="reg_hasUsage">Has Usage</str>
+		<str lang="en-US" name="reg_relatedSchemes">Related Scheme(s)</str>
+		<str lang="en-US" name="reg_controlledTerms">Controlled Vocabulary</str>
+		<str lang="en-US" name="reg_examples">Usage Example(s)</str>
+		<str lang="en-US" name="reg_includes">Defines</str>
+		<str lang="en-US" name="reg_superPropertyOf">Is Refined By</str>
+		<str lang="en-US" name="reg_superClassOf">Is Refined By</str>
+	</lang>
+	<lang RFC3066="es-ES">
+		<str lang="es-ES" name="help">Ayuda</str>
+		<str lang="es-ES" name="search">Buscar</str>
+		<str lang="es-ES" name="navigate">Browse</str>
+		<str lang="es-ES" name="display">Exhibici&#243;n:</str>
+		<str lang="es-ES" name="login">Administraci&#243;n</str>
+		<str lang="es-ES" name="summary">resumen</str>
+		<str lang="es-ES" name="submit">Aceptar</str>
+		<str lang="es-ES" name="reset">Reajustar</str>
+		<str lang="es-ES" name="apply">Apliq&#250;ese</str>
+		<str lang="es-ES" name="elements">Elementos</str>
+		<str lang="es-ES" name="qualifiers">Qualifiers</str>
+		<str lang="es-ES" name="refinements">Refinamientos del elemento</str>
+		<str lang="es-ES" name="controlledTerms">T&#233;rminos controlados del vocabulario</str>
+		<str lang="es-ES" name="encodingSchemes">Vocabulario y esquemas de codificaci&#243;n</str>
+		<str lang="es-ES" name="other">Other</str>
+		<str lang="es-ES" name="overview">Terms Overview</str>
+		<str lang="es-ES" name="SSGFI">SSGFI</str>
+		<str lang="es-ES" name="returnStmts">Declaraciones de vuelta escritas adentro:</str>
+		<str lang="es-ES" name="items_found">Art&#237;culos Encontrados:</str>
+		<str lang="es-ES" name="summary_all">Resumen de todo el contenido del registro</str>
+		<str lang="es-ES" name="summary_termsOverview">DCMI Terms Overview</str>		
+		<str lang="es-ES" name="summary_elements">Resumen de los elementos de DCMI</str>
+		<str lang="es-ES" name="summary_qualifiers">Resumen de los refinamientos del elemento de DCMI</str>
+		<str lang="es-ES" name="summary_terms">Resumen de los t&#233;rminos controlados del vocabulario de DCMI</str>
+		<str lang="es-ES" name="summary_schemes">Resumen del vocabulario de DCMI y de los esquemas de codificaci&#243;n</str>
+		<str lang="es-ES" name="summary_AgMES">Summary of Registered AgMES Elements</str>
+		<str lang="es-ES" name="search_for">buscar por:</str>
+		<str lang="es-ES" name="case_sensitive">&#191;Caso sensible?</str>
+		<str lang="es-ES" name="yes">S&#237;</str>
+		<str lang="es-ES" name="no">No</str>
+		<str lang="es-ES" name="display_results">Resultados de la exhibici&#243;n que emparejan:</str>
+		<str lang="es-ES" name="exact_phrase">Frase exacta</str>
+		<str lang="es-ES" name="all_terms">Todos los t&#233;rminos</str>
+		<str lang="es-ES" name="any_term">Cualquier t&#233;rmino</str>
+		<str lang="es-ES" name="term">Term</str>
+		<str lang="es-ES" name="terms">Terms</str>
+		<str lang="es-ES" name="property">Property</str>
+		<str lang="es-ES" name="provenance">Provenance information for</str>
+		<str lang="es-ES" name="about">About</str>
+		<str lang="es-ES" name="language">Language Preference</str>
+		<str lang="es-ES" name="collections">Collections</str>
+		<str lang="es-ES" name="searchtheregistry">Search the registry for terms and other metadata</str>
+		<str lang="es-ES" name="browsetheregistry">Browse the registry by classification type</str>
+		<str lang="es-ES" name="canonical">Canonical translation</str>
+		<str lang="es-ES" name="viewas">View</str>
+		<str lang="es-ES" name="rdf_type">Tipo de RDF</str>
+		<str lang="es-ES" name="rdf_value">Valor</str>
+		<str lang="es-ES" name="rdfs_label">Etiqueta</str>
+		<str lang="es-ES" name="rdfs_domain">Dominio</str>
+		<str lang="es-ES" name="rdfs_isDefinedBy">Define</str>
+		<str lang="es-ES" name="rdfs_subPropertyOf">Refines</str>
+		<str lang="es-ES" name="rdfs_range">Gama</str>          
+		<str lang="es-ES" name="rdfs_comment">Definici&#243;n</str> 
+		<str lang="es-ES" name="rdfs_subClassOf">Refines</str>
+		<str lang="es-ES" name="rdfs_seeAlso">Vea Tambi&#233;n</str>
+		<str lang="es-ES" name="eor_comment">Comentario</str> 
+		<str lang="es-ES" name="dc_title">T&#237;tulo</str> 
+		<str lang="es-ES" name="dc_creator">Creador</str> 
+		<str lang="es-ES" name="dc_subject">Tema</str>
+		<str lang="es-ES" name="dc_description">Descripci&#243;n</str>
+		<str lang="es-ES" name="dc_publisher">Editor</str> 
+		<str lang="es-ES" name="dc_contributor">Contribuidor</str>
+		<str lang="es-ES" name="dc_date">Fecha</str> 
+		<str lang="es-ES" name="dc_type">Tipo</str>
+		<str lang="es-ES" name="dc_format">Formato</str>
+		<str lang="es-ES" name="dc_identifier">Identificador</str> 
+		<str lang="es-ES" name="dc_source">Fuente</str> 
+		<str lang="es-ES" name="dc_language">Lengua</str>
+		<str lang="es-ES" name="dc_relation">Relaci&#243;n</str> 
+		<str lang="es-ES" name="dc_coverage">Cobertura</str> 
+		<str lang="es-ES" name="dc_rights">Gerencia De las Derechas</str>
+		<str lang="es-ES" name="reg_includes">Define</str>
+		<str lang="es-ES" name="reg_superClassOf">Is Refined By</str>
+		<str lang="es-ES" name="reg_superPropertyOf">Is Refined By</str>
+		<str lang="es-ES" name="dcq_abstract">Extracto</str>
+		<str lang="es-ES" name="dcq_alternative">Alternativa</str>
+		<str lang="es-ES" name="dcq_available">Disponible</str>
+		<str lang="es-ES" name="dcq_conformsTo">Se conforma Con</str>
+		<str lang="es-ES" name="dcq_created">Creado</str>
+		<str lang="es-ES" name="dcq_extent">Grado</str>
+		<str lang="es-ES" name="dcq_hasFormat">Tiene Formato</str>
+		<str lang="es-ES" name="dcq_hasPart">Tiene Parte</str>
+		<str lang="es-ES" name="dcq_hasVersion">Tiene Versi&#243;n</str>
+		<str lang="es-ES" name="dcq_isFormatOf">Es El Formato De</str>
+		<str lang="es-ES" name="dcq_isPartOf">Es parte De</str>
+		<str lang="es-ES" name="dcq_isReferencedBy">Se refiere Cerca</str>
+		<str lang="es-ES" name="dcq_isReplacedBy">Se substituye Cerca</str>
+		<str lang="es-ES" name="dcq_isRequiredBy">Se requiere Cerca</str>
+		<str lang="es-ES" name="dcq_issued">Publicado</str>
+		<str lang="es-ES" name="dcq_isVersionOf">Es La Versi&#243;n De</str>
+		<str lang="es-ES" name="dcq_mediator">Mediador</str>
+		<str lang="es-ES" name="dcq_medium">Medio</str>
+		<str lang="es-ES" name="dcq_modified">Modificado</str>
+		<str lang="es-ES" name="dcq_references">Referencias</str>
+		<str lang="es-ES" name="dcq_replaces">Substituye</str>
+		<str lang="es-ES" name="dcq_requires">Requiere</str>
+		<str lang="es-ES" name="dcq_spatial">Espacial</str>
+		<str lang="es-ES" name="dcq_tableOfContents">Contenido</str>
+		<str lang="es-ES" name="dcq_temporal">Temporal</str>
+		<str lang="es-ES" name="dcq_valid">V&#225;lido</str>
+		<str lang="es-ES" name="reg_hasUsage">Has Usage</str>
+		<str lang="es-ES" name="reg_relatedSchemes">Related Scheme(s)</str>
+		<str lang="es-ES" name="reg_controlledTerms">Controlled Vocabulary</str>
+		<str lang="es-ES" name="reg_examples">Usage Example(s)</str>
+	</lang>
+	<lang RFC3066="de-DE">
+		<str lang="de-DE" name="help">Hilfe</str>
+		<str lang="de-DE" name="search">Suche</str>
+		<str lang="de-DE" name="navigate">Browse</str>
+		<str lang="de-DE" name="display">Anzeige</str>
+		<str lang="de-DE" name="login">Leitung</str>
+		<str lang="de-DE" name="preferences">Pr&#228;ferenzen</str>
+		<str lang="de-DE" name="summary">Zusammenfassung</str>
+		<str lang="de-DE" name="submit">Ausf&#252;hren</str>
+		<str lang="de-DE" name="reset">Zur&#252;cksetzen</str>
+		<str lang="de-DE" name="apply">Treffen Sie</str>
+		<str lang="de-DE" name="elements">Metadaten-Elemente</str>
+		<str lang="de-DE" name="qualifiers">N&#228;here Bestimmungen</str>
+		<str lang="de-DE" name="refinements">Element-Verfeinerungen</str>
+		<str lang="de-DE" name="controlledTerms">Kontrolliertes Vokabular</str>
+		<str lang="de-DE" name="encodingSchemes">Vokabular und Kodierungen</str>
+		<str lang="de-DE" name="other">Other</str>
+		<str lang="de-DE" name="overview">Terms Overview</str>
+		<str lang="de-DE" name="SSGFI">SSGFI</str>
+		<str lang="de-DE" name="items_found">Anzahl der Treffer</str>
+		<str lang="de-DE" name="summary_all">Ergebnisliste: Gesamter registrierter Inhalt</str>
+		<str lang="de-DE" name="summary_termsOverview">DCMI Terms Overview</str>
+		<str lang="de-DE" name="summary_elements">Ergebnisliste: Registrierte DCMI Metadaten-Elemente</str> 
+		<str lang="de-DE" name="summary_qualifiers">Ergebnisliste: Registrierte DCMI Element-Verfeinerungen</str>
+		<str lang="de-DE" name="summary_terms">Ergebnisliste: Registriertes, kontrolliertes DCMI Vokabular</str>
+		<str lang="de-DE" name="summary_schemes">Ergebnisliste: Registriertes Vokabular und Kodierungen</str>
+		<str lang="de-DE" name="search_for">Suche nach</str>
+		<str lang="de-DE" name="case_sensitive">Ber&#252;cksichtigung Gross-/Kleinschreibung?</str>
+		<str lang="de-DE" name="yes">Ja</str>
+		<str lang="de-DE" name="no">Nein</str>
+		<str lang="de-DE" name="display_results">Ergebnisse finden mit</str>
+		<str lang="de-DE" name="exact_phrase">der genauen Phrase</str>
+		<str lang="de-DE" name="all_terms">allen W&#246;rtern</str>
+		<str lang="de-DE" name="any_term">einem der W&#246;rter</str>
+		<str lang="de-DE" name="term">Term</str>
+		<str lang="de-DE" name="terms">Terms</str>
+		<str lang="de-DE" name="property">Property</str>
+		<str lang="de-DE" name="provenance">Provenance information for</str>
+		<str lang="de-DE" name="about">About</str>
+		<str lang="de-DE" name="language">Language Preference</str>
+		<str lang="de-DE" name="collections">Collections</str>
+		<str lang="de-DE" name="searchtheregistry">Search the registry for terms and other metadata</str>
+		<str lang="de-DE" name="browsetheregistry">Browse the registry by classification type</str>
+		<str lang="de-DE" name="canonical">Canonical translation</str>
+		<str lang="de-DE" name="viewas">View</str>
+		<str lang="de-DE" name="rdf_type">RDF-Typ</str>
+		<str lang="de-DE" name="rdf_value">Wert</str>
+		<str lang="de-DE" name="rdfs_label">Bezeichung</str>
+		<str lang="de-DE" name="rdfs_domain">Gebiet</str>
+		<str lang="de-DE" name="rdfs_isDefinedBy">Definiert</str>
+		<str lang="de-DE" name="rdfs_subPropertyOf">Refines</str>
+		<str lang="de-DE" name="rdfs_range">Strecke</str>
+		<str lang="de-DE" name="rdfs_comment">Definition</str> 
+		<str lang="de-DE" name="rdfs_subClassOf">Refines</str>
+		<str lang="de-DE" name="rdfs_seeAlso">Siehe auch</str>
+		<str lang="de-DE" name="eor_comment">Anmerkung</str>
+		<str lang="de-DE" name="dc_title">Titel</str>
+		<str lang="de-DE" name="dc_creator">Sch&#246;pfer</str> 
+		<str lang="de-DE" name="dc_subject">Thema</str>
+		<str lang="de-DE" name="dc_description">Beschreibung</str> 
+		<str lang="de-DE" name="dc_publisher">Verleger</str>
+		<str lang="de-DE" name="dc_contributor">Mitwirkender</str> 
+		<str lang="de-DE" name="dc_date">Datum</str>
+		<str lang="de-DE" name="dc_type">Art</str>
+		<str lang="de-DE" name="dc_format">Format</str>
+		<str lang="de-DE" name="dc_identifier">Bezeichner</str> 
+		<str lang="de-DE" name="dc_source">Quelle</str>
+		<str lang="de-DE" name="dc_language">Sprache</str>
+		<str lang="de-DE" name="dc_relation">Relation</str>
+		<str lang="de-DE" name="dc_coverage">Deckung</str>
+		<str lang="de-DE" name="dc_rights">Rechte-Management</str>
+		<str lang="de-DE" name="reg_includes">Definiert</str>
+		<str lang="de-DE" name="reg_superClassOf">Is Refined By</str>
+		<str lang="de-DE" name="reg_superPropertyOf">Is Refined By</str>
+		<str lang="de-DE" name="dcq_abstract">Auszug</str>
+		<str lang="de-DE" name="dcq_alternative">Alternative</str>
+		<str lang="de-DE" name="dcq_audience">Publikum</str>
+		<str lang="de-DE" name="dcq_available">Vorhanden</str>
+		<str lang="de-DE" name="dcq_conformsTo">Pa&#223;t Sich An</str>
+		<str lang="de-DE" name="dcq_created">Verursacht</str>
+		<str lang="de-DE" name="dcq_extent">Umfang</str>
+		<str lang="de-DE" name="dcq_hasFormat">Hat Format</str>
+		<str lang="de-DE" name="dcq_hasPart">Hat Teil</str>
+		<str lang="de-DE" name="dcq_hasVersion">Hat Version</str>
+		<str lang="de-DE" name="dcq_isFormatOf">Ist Format Von</str>
+		<str lang="de-DE" name="dcq_isPartOf">Ist Ein Teil Von</str>
+		<str lang="de-DE" name="dcq_isReferencedBy">Wird referenziert von</str>
+		<str lang="de-DE" name="dcq_isReplacedBy">Wird Vorbei Ersetzt</str>
+		<str lang="de-DE" name="dcq_isRequiredBy">Wird ben&#246;etigt fuer</str>
+		<str lang="de-DE" name="dcq_issued">Herausgegeben</str>
+		<str lang="de-DE" name="dcq_isVersionOf">Ist Version Von</str>
+		<str lang="de-DE" name="dcq_mediator">Vermittler</str>
+		<str lang="de-DE" name="dcq_medium">Mittel</str>
+		<str lang="de-DE" name="dcq_modified">Ge&#228;ndert</str>
+		<str lang="de-DE" name="dcq_references">Hinweise</str>
+		<str lang="de-DE" name="dcq_replaces">Ersetzt</str>
+		<str lang="de-DE" name="dcq_requires">Ben&#246;tigt</str>
+		<str lang="de-DE" name="dcq_spatial">R&#228;umlich</str>
+		<str lang="de-DE" name="dcq_tableOfContents">Inhaltsverzeichnis</str>
+		<str lang="de-DE" name="dcq_temporal">Zeitlich</str>
+		<str lang="de-DE" name="dcq_valid">G&#252;ltig</str>
+		<str lang="de-DE" name="reg_hasUsage">Has Usage</str>
+		<str lang="de-DE" name="reg_relatedSchemes">Related Scheme(s)</str>
+		<str lang="de-DE" name="reg_controlledTerms">Controlled Vocabulary</str>
+		<str lang="de-DE" name="reg_examples">Usage Example(s)</str>
+	</lang>
+	<lang RFC3066="zh-CN">
+		<str lang="zh-CN" name="help">&#x5e2e;&#x52a9;</str>
+		<str lang="zh-CN" name="search">&#x67e5;&#x5bfb;</str>
+		<str lang="zh-CN" name="navigate">Browse</str>
+		<str lang="zh-CN" name="display">&#x663e;&#x793a;</str>
+		<str lang="zh-CN" name="login">&#x7ba1;&#x7406;</str>
+		<str lang="zh-CN" name="summary">&#x603b;&#x7ed3;</str>
+		<str lang="zh-CN" name="submit">&#x63d0;&#x4ea4;</str>
+		<str lang="zh-CN" name="reset">&#x91cd;&#x7f6e;</str>
+		<str lang="zh-CN" name="apply">&#x9009;&#x62e9;</str>
+		<str lang="zh-CN" name="elements">&#x5143;&#x7d20;</str>
+		<str lang="zh-CN" name="qualifiers">&#x9650;&#x5b9a;&#x53e5;</str>
+		<str lang="zh-CN" name="refinements">&#x5143;&#x7d20;&#x63d0;&#x70bc;</str>
+		<str lang="zh-CN" name="controlledTerms">&#x63a7;&#x5236;&#x8bcd;&#x6c47;</str>
+		<str lang="zh-CN" name="encodingSchemes">&#x8bcd;&#x6c47;&#x91cf;&#x548c;&#x7f16;&#x7801;&#x65b9;&#x5f0f;</str>
+		<str lang="zh-CN" name="other">Other</str>
+		<str lang="zh-CN" name="overview">Terms Overview</str>
+		<str lang="zh-CN" name="SSGFI">SSGFI</str>
+		<str lang="zh-CN" name="items_found">&#x53d1;&#x73b0;&#x7684;&#x6b3e;&#x76ee;:</str>
+		<str lang="zh-CN" name="summary_all">&#x6240;&#x6709;&#x767b;&#x8bb0;&#x5185;&#x5bb9;&#x603b;&#x7ed3;</str>
+		<str lang="zh-CN" name="summary_termsOverview">DCMI Terms Overview</str>
+		<str lang="zh-CN" name="summary_elements">DCMI &#x5143;&#x7d20;&#x603b;&#x7ed3;</str>
+		<str lang="zh-CN" name="summary_qualifiers">DCMI &#x5143;&#x7d20;&#x63d0;&#x70bc;&#x603b;&#x7ed3;</str>
+		<str lang="zh-CN" name="summary_terms">DCMI &#x63a7;&#x5236;&#x7684;&#x8bcd;&#x6c47;&#x91cf;&#x671f;&#x9650;&#x603b;&#x7ed3;</str>
+		<str lang="zh-CN" name="summary_schemes">DCMI &#x8bcd;&#x6c47;&#x91cf;&#x548c;&#x7f16;&#x7801;&#x65b9;&#x5f0f;&#x603b;&#x7ed3;</str>
+		<str lang="zh-CN" name="search_for">&#x67e5;&#x5bfb;:</str>
+		<str lang="zh-CN" name="case_sensitive">&#x5927;&#x5c0f;&#x5199;&#x654f;&#x611f;?</str> 
+		<str lang="zh-CN" name="yes">&#x662f;</str>
+		<str lang="zh-CN" name="no">&#x4e0d;</str>
+		<str lang="zh-CN" name="display_results">&#x663e;&#x793a;&#x5339;&#x914d;&#x7684;&#x7ed3;&#x679c;:</str> 
+		<str lang="zh-CN" name="exact_phrase">&#x786e;&#x5207;&#x7684;&#x8bcd;&#x7ec4;</str>
+		<str lang="zh-CN" name="all_terms">&#x6240;&#x6709;&#x9879;</str>
+		<str lang="zh-CN" name="any_term">&#x4efb;&#x610f;&#x9879;</str>
+		<str lang="zh-CN" name="term">Term</str>
+		<str lang="zh-CN" name="terms">Terms</str>
+		<str lang="zh-CN" name="property">Property</str>
+		<str lang="zh-CN" name="provenance">Provenance information for</str>
+		<str lang="zh-CN" name="about">About</str>
+		<str lang="zh-CN" name="language">Language Preference</str>
+		<str lang="zh-CN" name="collections">Collections</str>
+		<str lang="zh-CN" name="searchtheregistry">Search the registry for terms and other metadata</str>
+		<str lang="zh-CN" name="browsetheregistry">Browse the registry by classification type</str>
+		<str lang="zh-CN" name="canonical">Canonical translation</str>
+		<str lang="zh-CN" name="viewas">View</str>
+		<str lang="zh-CN" name="rdf_type">RDF &#x7c7b;&#x578b;</str>
+		<str lang="zh-CN" name="rdf_value">&#x503c;</str>
+		<str lang="zh-CN" name="rdfs_label">&#x6807;&#x6ce8;</str>
+		<str lang="zh-CN" name="rdfs_domain">&#x9886;&#x57df; &#xff08;&#x8303;&#x56f4;&#xff09;</str>
+		<str lang="zh-CN" name="rdfs_isDefinedBy">&#x5b9a;&#x4e49;</str>
+		<str lang="zh-CN" name="rdfs_subPropertyOf">Refines</str>
+		<str lang="zh-CN" name="rdfs_range">&#x8303;&#x56f4;</str>
+		<str lang="zh-CN" name="rdfs_comment">&#x5b9a;&#x4e49;</str>
+		<str lang="zh-CN" name="rdfs_seeAlso">&#x53e6;&#x5916;&#x53c2;&#x7167;</str>
+		<str lang="zh-CN" name="rdfs_subClassOf">Refines</str>
+		<str lang="zh-CN" name="eor_comment">&#x6ce8;&#x89e3;</str>
+		<str lang="zh-CN" name="dc_title">&#x9898;&#x76ee; (&#x6807;&#x9898;)</str> 
+		<str lang="zh-CN" name="dc_creator">&#x4f5c;&#x8005; (&#x521b;&#x4f5c;&#x8005;)</str> 
+		<str lang="zh-CN" name="dc_subject">&#x4e3b;&#x9898;</str>
+		<str lang="zh-CN" name="dc_description">&#x5185;&#x5bb9;&#x63cf;&#x8ff0; (&#x63cf;&#x8ff0;)</str> 
+		<str lang="zh-CN" name="dc_publisher">&#x516c;&#x5e03;&#x8005; (&#x51fa;&#x7248;&#x8005;)</str>
+		<str lang="zh-CN" name="dc_contributor">&#x6295;&#x7a3f;&#x8005; (&#x534f;&#x4f5c;&#x8005;)</str>
+		<str lang="zh-CN" name="dc_date">&#x65e5;&#x671f;</str>
+		<str lang="zh-CN" name="dc_type">&#x7c7b;&#x578b;</str>
+		<str lang="zh-CN" name="dc_format">&#x5f62;&#x5f0f;</str>
+		<str lang="zh-CN" name="dc_identifier">&#x6807;&#x5fd7;&#x7b26;</str>
+		<str lang="zh-CN" name="dc_source">&#x8d44;&#x6e90; (&#x51fa;&#x5904;)</str> 
+		<str lang="zh-CN" name="dc_language">&#x8bed;&#x8a00;</str>
+		<str lang="zh-CN" name="dc_relation">&#x5173;&#x7cfb;</str>
+		<str lang="zh-CN" name="dc_coverage">&#x8303;&#x56f4; (&#x65f6;&#x7a7a;&#x8303;&#x56f4;)</str> 
+		<str lang="zh-CN" name="dc_rights">&#x6240;&#x6709;&#x6743; (&#x7248;&#x6743;) &#x7ba1;&#x7406;</str>
+		<str lang="zh-CN" name="reg_includes">&#x5b9a;&#x4e49;</str>
+		<str lang="zh-CN" name="reg_superClassOf">Is Refined By</str>
+		<str lang="zh-CN" name="reg_superPropertyOf">Is Refined By</str>
+		<str lang="zh-CN" name="dcq_abstract">&#x62bd;&#x8c61;</str>
+		<str lang="zh-CN" name="dcq_alternative">&#x5176;&#x4ed6;&#x9009;&#x62e9;</str> 
+		<str lang="zh-CN" name="dcq_audience">&#x89c2;&#x4f17;(&#x8bfb;&#x8005;)</str>
+		<str lang="zh-CN" name="dcq_available">&#x53ef;&#x7528;&#x7684;</str>
+		<str lang="zh-CN" name="dcq_conformsTo">&#x9075;&#x4ece;</str>
+		<str lang="zh-CN" name="dcq_created">&#x521b;&#x59cb;</str>
+		<str lang="zh-CN" name="dcq_extent">&#x7a0b;&#x5ea6;</str>
+		<str lang="zh-CN" name="dcq_hasFormat">&#x5177;&#x6709;&#x683c;&#x5f0f;</str>
+		<str lang="zh-CN" name="dcq_hasPart">&#x5177;&#x6709;&#x90e8;&#x5206;</str>
+		<str lang="zh-CN" name="dcq_hasVersion">&#x5177;&#x6709;&#x7248;&#x672c;</str>
+		<str lang="zh-CN" name="dcq_isFormatOf">&#x662f;...&#x7684;&#x683c;&#x5f0f;</str>
+		<str lang="zh-CN" name="dcq_isPartOf">&#x662f;...&#x7684;&#x90e8;&#x5206;</str>
+		<str lang="zh-CN" name="dcq_isReferencedBy">&#x5f15;&#x7528;&#x4e8e;</str>
+		<str lang="zh-CN" name="dcq_isReplacedBy">&#x53d6;&#x4ee3;&#x4e8e;</str>
+		<str lang="zh-CN" name="dcq_isRequiredBy">&#x8981;&#x6c42;&#x4e8e;</str>
+		<str lang="zh-CN" name="dcq_issued">&#x53d1;&#x8868;</str>
+		<str lang="zh-CN" name="dcq_isVersionOf">&#x662f;...&#x7684;&#x7248;&#x672c;</str>
+		<str lang="zh-CN" name="dcq_mediator">&#x8c03;&#x89e3;&#x8005;</str>
+		<str lang="zh-CN" name="dcq_medium">&#x4e2d;&#x95f4;</str>
+		<str lang="zh-CN" name="dcq_modified">&#x4fee;&#x6539;&#x8fc7;&#x7684;</str>
+		<str lang="zh-CN" name="dcq_references">&#x5f15;&#x7528;</str>
+		<str lang="zh-CN" name="dcq_replaces">&#x53d6;&#x4ee3;</str>
+		<str lang="zh-CN" name="dcq_requires">&#x8981;&#x6c42;</str>
+		<str lang="zh-CN" name="dcq_spatial">&#x7a7a;&#x95f4;&#x7684;</str>
+		<str lang="zh-CN" name="dcq_tableOfContents">&#x5185;&#x5bb9;&#x76ee;&#x5f55;</str>
+		<str lang="zh-CN" name="dcq_temporal">&#x65f6;&#x95f4;&#x7684;</str>
+		<str lang="zh-CN" name="dcq_valid">&#x6709;&#x6548;&#x7684;</str>
+		<str lang="zh-CN" name="cores_uses">Uses</str>
+		<str lang="zh-CN" name="cores_isUsageIn">Is Usage In</str>
+		<str lang="zh-CN" name="cores_associatedEncodingScheme">Associated Encoding Scheme</str>
+		<str lang="zh-CN" name="cores_responsibleAgency">Responsible Agency</str>
+		<str lang="zh-CN" name="cores_datatype">Datatype</str>
+		<str lang="zh-CN" name="cores_obligation">Obligation</str>
+		<str lang="zh-CN" name="cores_maximumOccurrence">Maximum Occurrence</str>
+		<str lang="zh-CN" name="cores_usageNote">Usage Note</str>
+		<str lang="zh-CN" name="cores_version">Version</str>
+		<str lang="zh-CN" name="cores_status">Status</str>
+		<str lang="zh-CN" name="cores_xmlNamespace">XML Namespace</str>
+		<str lang="zh-CN" name="cores_xmlNamespacePrefix">XML NS Prefix</str>
+		<str lang="zh-CN" name="reg_hasUsage">Has Usage</str>
+		<str lang="zh-CN" name="reg_relatedSchemes">Related Scheme(s)</str>
+		<str lang="zh-CN" name="reg_controlledTerms">Controlled Vocabulary</str>
+		<str lang="zh-CN" name="reg_examples">Usage Example(s)</str>
+	</lang>
+</strings>

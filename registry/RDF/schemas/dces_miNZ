@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+	
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/creator">
+    <rdfs:label xml:lang="mi-NZ">Kaihanga</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">Te p&#363;tahi, nan&#257;, n&#257; r&#257;tou r&#257;nei i m&#257;tua whakaoti ai te hanganga o te rauemi.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">Ko te tangata, he p&#363;tahitanga, he ratonga r&#257;nei &#275;tahi tauira Kaihanga. Ko te tikanga, ko te Kaihanga te ingoa ka whakamahia hei tohu i te p&#363;tahi n&#257; r&#257;tou te hanganga.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/description">
+    <rdfs:label xml:lang="mi-NZ">Whakaaturanga</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">He whakaaturanga o ng&#257; kaupapa o te rauemi.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">Ka uru atu, engari ehara noa ko te whakar&#257;popototanga k&#333;rero, te ihirangi, te tohutanga o te kaupapa m&#257; te whakaahua, te whakaaturanga kore kupu r&#257;nei, o te kauapapa.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/publisher">
+    <rdfs:label xml:lang="mi-NZ">Kaiwhakaputa</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">Te p&#363;tahi n&#257;na i whakaputa te rauemi.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">Ko te tangata, he p&#363;tahitanga, he ratonga r&#257;nei &#275;tahi tauira Kaiwhakaputa. Ko te tikanga, ka whakamahia te ingoa o te Kaiwhakaputa hei tohu i te p&#363;tahi.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/subject">
+    <rdfs:label xml:lang="mi-NZ">Kaupapa e Keywords</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">Te take o te rauemi.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">Ko te tikanga, ka whakaaturia te kaupapa o te rauemi e ng&#257; kupu m&#257;tua, ng&#257; kimahi?? m&#257;tua, ng&#257; tohu wehewehenga whakaahua r&#257;nei.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/relation">
+    <rdfs:label xml:lang="mi-NZ">Whai P&#257;nga</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">He tohutoro ki t&#275;tahi rauemi whai p&#257;nga.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">Ko te tino huarahi kua tohua, ko te tohutoro ki te rauemi m&#257; te aho, te tau ranei, e h&#257;ngai ana ki te p&#363;naha taututanga okawa.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/language">
+    <rdfs:label xml:lang="mi-NZ">Reo</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">Te reo o te whakakaupapatanga o ng&#257; m&#257;tauranga o te rauemi.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">Ko te tino huarahi kua tohua m&#333; ng&#257; uara o te huanga reo kua whakaritea ki te RFC 1766 [RFC1766] kei roto te Tohu Reo kupu-rua (two-letter Language Code) (n&#333; te aro wh&#257;nui ISO 639 [ISO639], ka taea e t&#275;tahi tohu kupu-rua te whai atu (n&#333; te aro whanui ISO 3166) [ISO3166]). Hei tauira, te 'en' mo te Ingarihi, te 'fr' m&#333; te Akkadian, 'te en-uk' m&#333; te reo Ingarihi e whakamahia ana i Ingarangi (UK)</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/date">
+    <rdfs:label xml:lang="mi-NZ">R&#257;</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">He r&#257; e whai p&#257;nga ana ki te huringa ora o te rauemi.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">Ko te tikanga, ka whai p&#257;nga te r&#257; ki te hanganga, te w&#257;teatanga r&#257;nei, o te rauemi. Ko te huarahi tino pai hei tohu i te uara o te r&#257; (date value) kua whakaritea i roto i te whakaritenga IS0 8601 [W3CDTF], &#257;, e whai atu ana ki te whakatakotoranga YYYY-MM-DD.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/type">
+    <rdfs:label xml:lang="mi-NZ">Momo</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">Te &#257;hua, te t&#363; &#257;huatanga r&#257;nei o ng&#257; kaupapa o te rauemi.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">Kei roto i te Momo ng&#257; kupu whakaatu i ng&#257; wehewehenga wh&#257;nui, nga &#257;heinga, ng&#257; t&#363; &#257;huatanga, te whakaritenga r&#257;nei o ng&#257; taumata o te/ ng&#257; kaupapa. Ko te huarahi tino pai kua tohua, ko te tipako i t&#275;tahi uara mai i ng&#257; kupu kua whakaritea (hei tauira, ko te tauira r&#257;rangi e whakamahia ana o ng&#257; Dublin Core Types [DCT1]. Hei whakaatu i te whakatinanatanga o te rauemi, whakamahia ko te huanga WHAKATAKOTORANGA.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/contributor">
+    <rdfs:label xml:lang="mi-NZ">Kaituku</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">Te p&#363;tahi n&#257;na, n&#257; r&#257;tou r&#257;nei ng&#257; whakakaupapatanga whakaaro te rauemi.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">Ko te tangata, he p&#363;tahitanga, he ratonga r&#257;nei &#275;tahi tauira Kaituku. Ko te tikanga ka whakamahia te ingoa o te Kaituku hei tohu i te p&#363;tahi.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/source">
+    <rdfs:label xml:lang="mi-NZ">M&#257;t&#257;puna</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">He tohutoro ki t&#275;tahi rauemi koir&#257; te m&#257;t&#257;puna o te rauemi e tirohia ana.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">T&#275;r&#257; pea i puta te katoa, t&#275;tahi w&#257;hanga r&#257;nei o te rauemi, e tirohia ana, mai i t&#275;tahi rauemi. Ko te tino huarahi kua tohua ko te tohutoro ki te rauemi ma te aho, m&#257; te tau r&#257;nei e h&#257;ngai ana ki t&#275;tahi p&#363;naha taututanga &#333;kawa.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/identifier">
+    <rdfs:label xml:lang="mi-NZ">Taututanga</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">He tohutoro e h&#257;ngai ana ki te rauemi i roto i t&#275;tahi horopaki.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">Ko te tino huarahi kua tohua, ko te tautu i te rauemi m&#257; t&#275;tahi aho (string), tau r&#257;nei, e h&#257;ngai ana ki t&#275;tahi p&#363;naha taututanga &#333;kawa. Ko &#275;tahi p&#363;naha taututanga &#333;kawa ko te Taututanga Rauemi &#332;rite (Uniform Resource Identifier - URI), te Taututanga Rauemi Tohu-wahi (Uniform Resource Locator - URL), te Mea &#257;-mati (Digital Object Identifier - DOI) me te Tau Pukapuka Aro Wh&#257;nui o te Ao (International Standard Book Number - ISBN).</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/coverage">
+    <rdfs:label xml:lang="mi-NZ">Kapitanga</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">Te roanga, te wh&#257;nuitanga r&#257;nei o te whakakaupapatanga o te rauemi.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">Ko te tikanga, ka uru atu te w&#257;hi mokow&#257; (te ingoa o t&#275;tahi w&#257;hi, whakapiritanga matawhenua r&#257;nei), whakaritenga w&#257; he tapatanga w&#257; (period label, r&#257;, whakatakotoranga wh&#257;nui o ng&#257; r&#257;), te whakaritenga ture (p&#275;nei i te p&#363;tahi whakahaere). Ko te tino huarahi kua tohua, ko te tipako uara mai i t&#275;tahi whakaritenga kupu (hei tauira, i t&#275;tahi Puna Kupu Ingoa Matawhenua (Geographic Names [TGN] i ng&#257; w&#257;hi tika, ko ng&#257; w&#257;hi me ng&#257; whakaritenga w&#257; ka whakamahia i mua i te whakamahitanga o ng&#257; taututanga tau p&#275;nei i ng&#257; huinga whakapiritanga me ng&#257; whakatakotoranga wh&#257;nui o ng&#257; r&#257;.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/title">
+    <rdfs:label xml:lang="mi-NZ">Taitara</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">Te ingoa ka tapaina t&#275;tahi rauemi.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">Ko te tikanga, ko te Taitara te ingoa ka m&#333;hio wh&#257;nuitia te ingoa.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/rights">
+    <rdfs:label xml:lang="mi-NZ">Ng&#257; tika</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">Ko ng&#257; m&#333;hiohio ki ng&#257; tika o t&#275;tahi rauemi.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">Ko te tikanga, kei te huanga tika e pupuri ana he k&#333;rero m&#333; te whakaritenga motika m&#333; te rauemi, he ratonga tohutoro e whakarato ana r&#257;nei i &#275;nei t&#363;momo m&#333;hiohio. He nui ng&#257; w&#257;, puta ai i roto i te m&#333;hiohio Motika te Mana Whakairo Hinegaro (Intellectual Property Rights - (IPR)), te Manat&#257;rua me ng&#257; T&#363;&#257;hua Mana Taonga (Property Rights). Ki te kore te huanga Tika, k&#257;ore e taea te p&#333;h&#275;h&#275; noa ki te mana o &#275;nei, me &#275;tatu atu ng&#257; tika r&#257;nei e p&#257; ana ki te rauemi.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/format">
+    <rdfs:label xml:lang="mi-NZ">Whakatakotoranga</rdfs:label>
+    <rdfs:comment xml:lang="mi-NZ">Te whakatinanatanga, te whakaputanga &#257;-mati o te rauemi.</rdfs:comment>
+    <dc:description xml:lang="mi-NZ">Ko te tikanga, ka taea te whakatakotoranga te whakamahi hei whakarite i te rawa-ngohe (software), te rawa-m&#257;r&#333; (hardware), m&#257; &#275;tahi taputapu r&#257;nei me m&#257;tua whiwhi, hei whakahaere i te rauemi. Ko te rahi me te roanga &#275;tahi tauira hanga. Ko te tino huarahi kua tohua ko te tipako uara mai i t&#275;tahi whakaritenga kupu (hei tauira, te r&#257;rangi o ng&#257; Tumomo P&#257;p&#257;ho Ipurangi (Internet Media Types [MIME]) e whakaatu ana i ng&#257; whakatakotoranga p&#257;p&#257;ho rorohiko.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  
+</rdf:RDF>

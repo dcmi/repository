@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<HTML>
+<HEAD>
+
+<TITLE>Dublin Core Metadata Element Set</TITLE>
+
+<META name = "DC.subject" content = " Dublin Core Element Set">
+<META name = "DC.subject" content = "Reference Definition of Dublin Core Elements">
+<META name = "DC.publisher" content = "OCLC Online Computer Library Center, Inc.">
+ <META name = "DC.title" content = "Dublin Core Element Set">
+<META name = "DC.date" type = "creation" scheme = "ISO" content = "1996-06-02">
+<META name = "DC.form"       scheme = "IMT" content="text/html">
+<META name = "DC.language"   scheme = "ISO 639" content="en">
+<META name = "DC.identifier" scheme = "URL" content = "http://">
+</HEAD>
+<BODY>
+<H3 align = "center">Dublin Core Metadata Element Set: Reference Description
+</h3>
+<center>
+ 
+<EM> August 29, 1996 </EM>
+</center>
+<hr size = 1>
+
+See  the Dublin Core <A HREF="http://purl.org/metadata/dublin_core"> home page </A> for further information about the workshops, reports,
+working group papers, projects, and new developments concerning the Dublin Core
+metadata element set. <P>
+
+This document is the reference description of the Dublin Core Metadata Element
+Set, as elaborated in the report on the OCLC/NCSA Metadata Workshop of March 1995 and subsequently modified by working groups constituted at the OCLC/UKOLN Metadata Workshop of April 1996.<p>
+
+<hr size = 1>
+
+<B> This is a preliminary draft version put in place to test the Meta Tag LINK consensus agreement of the W3C Distributed Indexing Workshop in Boston (May 28-29, 1996).  It will be replaced by a more complete document in the near future. </b><P>
+<hr size = 1>
+
+<H2>Element Descriptions</H2>
+
+<UL>
+<LI>
+<A NAME = "title"><H3>Title</H3></A>  The name given to the work by the author or publisher. <P>
+
+<LI>
+<A NAME = "subject"><H3>Subject</H3></A> The topic of the work, or keywords that describe the content of the work.<P>
+
+<LI>
+<A NAME = "author"><H3>Author</H3> The person(s) primarily responsible for the intellectual content of the object.<P>
+
+<LI>
+<A NAME = "publisher"> <H3>Publisher</H3></A>
+The organization responsible for making the work available in its present form.  Generally a publisher, an institution (university department, for example) or a corporate entity.   <P>
+
+<LI>
+<A NAME = "other agent"> <H3>Other Agent</H3> </A>
+The person(s) other than author(s) who have made other significant
+intellectual contributions to the work (for example, editors,
+transcribers, illustrators, convenors).<P>
+
+
+<LI>
+<A NAME = "date"> <H3>Date</H3> </A>
+The date the work was made available in its present form.  <P>
+
+<LI>
+<A NAME = "object type"><H3>Object Type</H3> </A>
+The genre of the object, such as home page, novel, poem, working paper,
+technical report, essay, dictionary, etc.<P>
+
+<LI>
+<A NAME = "form"><H3>Form</H3> </A>
+The data representation of the object, such as text/html, ASCII,
+Postscript file, Windows executable file, etc.<p>
+ 
+<LI>
+<A NAME = "identifier"><H3>Identifier</H3> </A>
+String or number used to uniquely identify the object.  Examples for
+networked resources include URLs, URNs (when implemented).  For non-networked
+objects, one might have an ISBN, Library of Congress Catalog Number, or other
+formal name.<p>
+
+<LI>
+<A NAME = "source"><H3>Source</H3> </A>
+Object, either print or electronic, from which this object is derived,
+if applicable.  For example, an html encoding of a Shakespearean
+sonnet might identify the paper version of the sonnet from which the
+electronic version was transcribed.<p>
+
+<LI>
+<A NAME = "language "><H3>Language:</H3> </A>
+Language of the intellectual content of the object. <P>
+
+<LI>
+<A NAME = "relation"><H3>Relation:</H3> Relationship to other objects.<p>
+
+<LI><A NAME = "coverage"> <H3>Coverage</H3> </A>
+The spatial locations and temporal durations characteristic of the object .<P>
+
+</UL><P>
+     
+</body>
+</html>
+
+   
+

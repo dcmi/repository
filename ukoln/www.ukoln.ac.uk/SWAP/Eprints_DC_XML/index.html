@@ -1,0 +1,884 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="KEYWORDS" content="Eprints DC XML">
+<meta name="robots" content="index,follow">
+<link rel="shortcut icon" href="http://www.ukoln.ac.uk/favicon.ico">
+<link title="Creative Commons" type="application/rdf+xml" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=creativecommons" rel="meta">
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/2.5/">
+    <title>Eprints DC XML - DigiRepWiki</title>
+    <style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/repositories/digirep/skins/monobook/main.css"; /*]]>*/</style>
+    <link rel="stylesheet" type="text/css" media="print" href="index_files/commonPrint.css">
+    <!--[if lt IE 5.5000]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE50Fixes.css";</style><![endif]-->
+    <!--[if IE 5.5000]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE55Fixes.css";</style><![endif]-->
+    <!--[if gte IE 6]><style type="text/css">@import "/repositories/digirep/skins/monobook/IE60Fixes.css";</style><![endif]-->
+    <!--[if lt IE 7]><script type="text/javascript" src="/repositories/digirep/skins/common/IEFixes.js"></script>
+    <meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+    <script type="text/javascript" src="index_files/index.js"></script>    <script type="text/javascript" src="index_files/wikibits.js"></script>
+    <style type="text/css">/*<![CDATA[*/
+@import "/repositories/digirep/index.php?title=MediaWiki:Monobook.css&action=raw&ctype=text/css&smaxage=18000";
+@import "/repositories/digirep/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>              </head>
+  <body class="ns-0">
+    <div id="globalWrapper">
+      <div id="column-content">
+	<div id="content">
+	  <a name="top" id="top"></a>
+	  	  <h1 class="firstHeading">Eprints DC XML</h1>
+	  <div id="bodyContent">
+	    <h3 id="siteSub">From DigiRepWiki</h3>
+	    <div id="contentSub"></div>
+	    	    	    <!-- start content -->
+	    <table class="wikitable" width="100%">
+<tbody><tr>
+<td style="vertical-align: top; padding:1em; border:1px black solid; font-size:80%;">
+<p>[ <a href="http://www.ukoln.ac.uk/repositories/digirep/index/SWAP" title="SWAP">Home</a> | <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Functional_Requirements" title="Functional Requirements">Functional Requirements</a> | <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Model" title="Model">Application Model</a> |
+<a href="http://www.ukoln.ac.uk/repositories/digirep/index/Scholarly_Works_Application_Profile" title="Scholarly Works Application Profile">Application Profile</a> |
+<a href="http://www.ukoln.ac.uk/repositories/digirep/index/Community_Acceptance_Plan" title="Community Acceptance Plan">Community Acceptance Plan</a> |
+<a href="http://www.ukoln.ac.uk/repositories/digirep/index/Mapping_the_Scholarly_Works_Application_Profile_to_Simple_DC" title="Mapping the Scholarly Works Application Profile to Simple DC">Mapping to Simple DC</a> | <strong>XML Format</strong>
+</p>
+</td></tr></tbody></table>
+<table id="toc" class="toc"><tbody><tr><td><div id="toctitle"><h2>Contents</h2> <span class="toctoggle">[<a href="javascript:toggleToc()" class="internal" id="togglelink">hide</a>]</span></div>
+<ul>
+<li class="toclevel-1"><a href="#Introduction"><span class="tocnumber">1</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-1"><a href="#The_DCMI_Abstract_Model_and_Eprints-DC-XML"><span class="tocnumber">2</span> <span class="toctext">The DCMI Abstract Model and Eprints-DC-XML</span></a></li>
+<li class="toclevel-1"><a href="#The_Eprints-DC-XML_Syntax"><span class="tocnumber">3</span> <span class="toctext">The Eprints-DC-XML Syntax</span></a>
+<ul>
+<li class="toclevel-2"><a href="#URIs_in_Eprints-DC-XML"><span class="tocnumber">3.1</span> <span class="toctext">URIs in Eprints-DC-XML</span></a></li>
+<li class="toclevel-2"><a href="#Encoding_a_Description_Set:_The_Description_Set_Element"><span class="tocnumber">3.2</span> <span class="toctext">Encoding a Description Set: The Description Set Element</span></a></li>
+<li class="toclevel-2"><a href="#Encoding_Descriptions:_Description_Elements"><span class="tocnumber">3.3</span> <span class="toctext">Encoding Descriptions: Description Elements</span></a>
+<ul>
+<li class="toclevel-3"><a href="#The_Resource_URI"><span class="tocnumber">3.3.1</span> <span class="toctext">The Resource URI</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="#Encoding_Statements:_Statement_Elements"><span class="tocnumber">3.4</span> <span class="toctext">Encoding Statements: Statement Elements</span></a>
+<ul>
+<li class="toclevel-3"><a href="#The_Property_URI"><span class="tocnumber">3.4.1</span> <span class="toctext">The Property URI</span></a></li>
+<li class="toclevel-3"><a href="#The_Value_URI"><span class="tocnumber">3.4.2</span> <span class="toctext">The Value URI</span></a></li>
+<li class="toclevel-3"><a href="#The_Vocabulary_Encoding_Scheme_URI_Attribute"><span class="tocnumber">3.4.3</span> <span class="toctext">The Vocabulary Encoding Scheme URI Attribute</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="#Encoding_Value_Strings_and_Rich_Representations:_Value_Representation_Elements"><span class="tocnumber">3.5</span> <span class="toctext">Encoding Value Strings and Rich Representations: Value Representation Elements</span></a>
+<ul>
+<li class="toclevel-3"><a href="#Empty_Statement_Elements"><span class="tocnumber">3.5.1</span> <span class="toctext">Empty Statement Elements</span></a></li>
+<li class="toclevel-3"><a href="#The_Value_String"><span class="tocnumber">3.5.2</span> <span class="toctext">The Value String</span></a>
+<ul>
+<li class="toclevel-4"><a href="#The_Value_String_Language"><span class="tocnumber">3.5.2.1</span> <span class="toctext">The Value String Language</span></a></li>
+<li class="toclevel-4"><a href="#The_Syntax_Encoding_Scheme_URI"><span class="tocnumber">3.5.2.2</span> <span class="toctext">The Syntax Encoding Scheme URI</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3"><a href="#Rich_Representations"><span class="tocnumber">3.5.3</span> <span class="toctext">Rich Representations</span></a>
+<ul>
+<li class="toclevel-4"><a href="#XML_Data"><span class="tocnumber">3.5.3.1</span> <span class="toctext">XML Data</span></a></li>
+<li class="toclevel-4"><a href="#Binary_Data"><span class="tocnumber">3.5.3.2</span> <span class="toctext">Binary Data</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-2"><a href="#Encoding_Descriptions_of_Values"><span class="tocnumber">3.6</span> <span class="toctext">Encoding Descriptions of Values</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#GRDDL"><span class="tocnumber">4</span> <span class="toctext">GRDDL</span></a></li>
+<li class="toclevel-1"><a href="#W3C_XML_Schema"><span class="tocnumber">5</span> <span class="toctext">W3C XML Schema</span></a></li>
+<li class="toclevel-1"><a href="#Examples"><span class="tocnumber">6</span> <span class="toctext">Examples</span></a></li>
+<li class="toclevel-1"><a href="#Appendix_A._DC-TEXT_Representation_of_Examples"><span class="tocnumber">7</span> <span class="toctext">Appendix A. DC-TEXT Representation of Examples</span></a></li>
+<li class="toclevel-1"><a href="#Notes"><span class="tocnumber">8</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+</ul>
+</td></tr></tbody></table>
+<p><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=1" title="Eprints DC XML">edit</a>]</div><a name="Introduction"></a><h2> Introduction </h2>
+<p>This document specifies an XML format for representing a DC metadata <i>description set</i>. This XML format is known as "Eprints-DC-XML". It is based closely on a working draft of the <a href="http://dublincore.org/groups/architecture/%7CDCMI" class="external text" title="http://dublincore.org/groups/architecture/|DCMI" rel="nofollow">Architecture Working Group</a> for an XML format for representing DC metadata [<a href="#DCXMLFULL" title="">DCXMLFULL</a>]. The format described in this document does not have any status witin the DCMI.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=2" title="Eprints DC XML">edit</a>]</div><a name="The_DCMI_Abstract_Model_and_Eprints-DC-XML"></a><h2> The DCMI Abstract Model and Eprints-DC-XML </h2>
+<p>Readers that are not familiar with the DCMI Abstract Model [<a href="#DCAM" title="">DCAM</a>] should read <a href="http://www.ukoln.ac.uk/repositories/digirep/index/A_note_about_the_DCMI_Abstract_Model" title="A note about the DCMI Abstract Model">A note about the DCMI Abstract Model</a>.
+</p><p>According to the DCAM description model:
+</p>
+<ul><li> a <i>description set</i> is made up of one or more <i>descriptions</i>
+</li><li> a <i>description</i> is made up of
+<ul><li> zero or one <i>resource URI</i> and
+</li><li> one or more <i>statements</i>
+</li></ul>
+</li><li> a <i>statement</i> is made up of
+<ul><li> exactly one <i>property URI</i> and
+</li><li> zero or one <i>reference to</i> a value in the form of a <i>value URI</i>
+</li><li> zero or more <i>representations of</i> a value, each in the form of a <i>value representation</i>
+</li><li> zero or one <i>vocabulary encoding scheme URI</i>
+</li></ul>
+</li><li> a <i>value representation</i> is either
+<ul><li> a <i>value string</i> or
+</li><li> a <i>rich representation</i>
+</li></ul>
+</li><li> a <i>value string</i> may be associated with either a <i>value string language</i> or a <i>syntax encoding scheme URI</i>
+</li><li> a <i>value</i> may be the <i>described resource</i> of another <i>description</i> in the <i>description set</i>
+</li></ul>
+<p>The Eprints-DC-XML format described in this document implements all the features of the DCAM description model.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=3" title="Eprints DC XML">edit</a>]</div><a name="The_Eprints-DC-XML_Syntax"></a><h2> The Eprints-DC-XML Syntax </h2>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=4" title="Eprints DC XML">edit</a>]</div><a name="URIs_in_Eprints-DC-XML"></a><h3> URIs in Eprints-DC-XML </h3>
+<p>The DCAM description model uses Uniform Resource Identifiers (URIs) [<a href="#RFC3986" title="">RFC3986</a>] to refer both to resources described within DC metadata <i>description sets</i> and to the metadata terms (<i>properties</i>,<i>classes</i>,<i> vocabulary encoding schemes</i> and <i>syntax encoding schemes</i>) used in those <i>description sets</i>. 
+</p><p>In Eprints-DC-XML, those URIs are encoded as XML attribute 
+values. Later sections of this document describe the use of those 
+different XML attributes in detail. The purpose of this section is to 
+make some general points about the representation of these URIs in 
+Eprints-DC-XML.
+</p><p>In Eprints-DC-XML, URIs are encoded as URI references, used as 
+XML attribute values. A URI reference is either a URI or a relative 
+reference [<a href="#RFC3986" title="">RFC3986</a>].
+</p><p>The URI may be represented in full. The following example shows a URI as the value of the <tt>epdcx:propertyURI</tt> attribute: 
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet 
+   xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description&gt;
+                                &lt;-- Property URI --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+ &lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><b>XML Example 1: URI as attribute value</b>
+</p><p>The representation of the URI may be abbreviated through the use of an XML entity reference as follows, for example:
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE epdcx:descriptionSet [
+  &lt;!ENTITY dc '<a href="http://purl.org/dc/elements/1.1/%27" class="external free" title="http://purl.org/dc/elements/1.1/'" rel="nofollow">http://purl.org/dc/elements/1.1/'</a>&gt;
+ ]&gt;
+&lt;epdcx:descriptionSet 
+   xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description&gt;
+                                &lt;-- Property URI using XML entity reference --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="&amp;dc;title"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><b>XML Example 2: URI as attribute value (with XML entity reference)</b>
+</p><p>Note: the use of XML entity references requires the presence of a
+ suitable entity declaration in the internal subset of the XML document.
+ Where an Eprints-DC-XML instance is embedded within another XML format 
+(e.g. when the instance is contained within an&lt;oai:metadata&gt; 
+element in an OAI-PMH response message), the generation of an internal 
+subset may be outside of the control of the metadata application. 
+</p><p>For all of the attributes in Eprints-DC-XML which have URIs as 
+values, the value may also be a relative reference. The relative 
+reference is resolved relative to a base URI, obtained either from the 
+value of an <tt>xml:base</tt> attribute or from the URI of the document itself. In the following example, the value of the <tt>epdcx:propertyURI</tt> attribute is a relative reference. It is resolved relative to the base URI provided by the <tt>xml:base</tt> attribute to obtain a target URI of <tt><a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a></tt>:
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet 
+  xml:base="<a href="http://purl.org/dc/elements/1.1/" class="external free" title="http://purl.org/dc/elements/1.1/" rel="nofollow">http://purl.org/dc/elements/1.1/</a>"
+   xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description&gt;
+                                &lt;-- Property URI as relative reference --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="title"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><b>XML Example 3: Relative reference as attribute value</b>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=5" title="Eprints DC XML">edit</a>]</div><a name="Encoding_a_Description_Set:_The_Description_Set_Element"></a><h3> Encoding a Description Set: The Description Set Element </h3>
+<p>A <i>description set</i> is a set of one or more <i>descriptions</i>.
+</p><p>In Eprints-DC-XML, a <i>description set</i> is represented by an XML element known as a Description Set Element (See <a href="#Note2" title="">Note 2</a>).  A Eprints-DC-XML instance represents a single DC <i>description set</i>, so has exactly one Description Set Element.
+</p><p>A Description Set Element has an expanded name (XML Namespace Name/local name pair) with the XML Namespace Name <tt><a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a></tt> and local name <tt>descriptionSet</tt>. 
+</p><p>In the examples presented in this document, the XML Namespace Name <tt><a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a></tt>
+ is always associated with the prefix "epdcx". For convenience, after 
+this point, the names of XML elements and XML attributes are presented 
+in the text as XML QNames (e.g. <tt>epdcx:descriptionSet</tt>, <tt>epdcx:resourceURI</tt>), rather than as expanded names, but they should be read as XML expanded names: the prefix used is not significant.
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+       &lt;-- Description Set Element --&gt;
+&lt;epdcx:descriptionSet 
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 4: The Description Set Element</b>
+</p><p>The Description Set Element must contain one or more <a href="#Encoding_Descriptions:_Description_Elements" title="">Description Elements</a>.
+</p><p><br>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=6" title="Eprints DC XML">edit</a>]</div><a name="Encoding_Descriptions:_Description_Elements"></a><h3> Encoding Descriptions: Description Elements </h3>
+<p>A <i>description</i> is a set of one or more <i>statements</i> about a resource.
+</p><p>In Eprints-DC-XML, a <i>description</i> is represented by an XML 
+element known as a Description Element.  A Description Element is a 
+child element of a Description Set Element and has the name <tt>epdcx:description</tt>.
+</p><p>The following example shows a <i>description set</i> consisting of a single <i>description</i>:
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+                     &lt;-- Description Element --&gt;
+  &lt;epdcx:description&gt; 
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 5: A Description Element</b>
+</p><p>A <i>description set</i> may contain multiple <i>descriptions</i>.
+</p><p>In Eprints-DC-XML, each <i>description</i> is represented by a 
+separate Description Element. The order of the Description Elements 
+within a Description Set Element is not significant.
+</p><p>The following example shows a <i>description set</i> consisting of two <i>descriptions</i>:
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+               &lt;-- 1st Description Element --&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>" 
+                     epdcx:valueURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>" /&gt;
+  &lt;/epdcx:description&gt;
+               &lt;-- 2nd Description Element --&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>"&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/Expression" class="external free" title="http://purl.org/eprint/entityType/Expression" rel="nofollow">http://purl.org/eprint/entityType/Expression</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/language" class="external free" title="http://purl.org/dc/elements/1.1/language" rel="nofollow">http://purl.org/dc/elements/1.1/language</a>"
+                     epdcx:vesURI="<a href="http://purl.org/dc/terms/RFC3066" class="external free" title="http://purl.org/dc/terms/RFC3066" rel="nofollow">http://purl.org/dc/terms/RFC3066</a>"&gt;
+      &lt;epdcx:valueString&gt;en&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 6: Multiple Description Elements</b>
+</p><p>The encoding of <i>description sets</i> with multiple <i>descriptions</i> is described further in <a href="#Encoding_Descriptions_of_Values" title="">Encoding Descriptions of Values</a>.
+</p><p>A Description Element may have various attributes and it must contain one or more <a href="#Encoding_Statements:_Statement_Elements" title="">Statement Elements</a>.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=7" title="Eprints DC XML">edit</a>]</div><a name="The_Resource_URI"></a><h4> The Resource URI </h4>
+<p>A <i>description</i> may have an associated <i>resource URI</i>.
+</p><p>In Eprints-DC-XML, a <i>resource URI</i> is represented as the value of an XML attribute of the Description Element. The attribute has the name <tt>epdcx:resourceURI</tt>.
+</p><p>The example below shows a <i>description</i> with the <i>resource URI</i> <tt><a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a></tt>.
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+                                        &lt;-- resource URI --&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt; 
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>" 
+                     epdcx:valueURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>" /&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 7: The Resource URI Attribute</b>
+</p><p>Note that the representation of the <i>resource URI</i> may be abbreviated through the use of an XML entity reference or a URI relative reference (see <a href="#URIs_in_Eprints-DC-XML" title="">URIs in Eprints-DC-XML</a>).
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=8" title="Eprints DC XML">edit</a>]</div><a name="Encoding_Statements:_Statement_Elements"></a><h3> Encoding Statements: Statement Elements </h3>
+<p>A <i>description</i> is made up of one or more <i>statements</i>.
+</p><p>In Eprints-DC-XML, each child XML element of a Description Element represents a single <i>statement</i> and is known as a Statement Element. A Statement Element always has the name <tt>epdcx:statement</tt>.
+</p><p>The following example shows <i>description set</i> with a single <i>description</i> consisting of a single <i>statement</i>:
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt;
+                   &lt;-- Statement Element --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 8: A Statement Element</b>
+</p><p>A <i>description</i> may be made up of multiple <i>statements</i>,
+ each represented by a separate Statement Element. The order of the 
+Statement Elements within a Description Element is not significant.
+</p><p>The following example shows <i>description set</i> with a single <i>description</i> consisting of three <i>statements</i>:
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt; 
+                   &lt;-- 1st Statement Element --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>" /&gt;
+                   &lt;-- 2nd Statement Element --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+                   &lt;-- 3rd Statement Element --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>" 
+                     epdcx:valueURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>" /&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 9: Multiple Statement Elements</b>
+</p><p>A Statement Element may have various attributes and it may contain zero or more <a href="#Encoding_Value_Strings_and_Rich_Representations:_Value_Representation_Elements" title="">Value Representation Elements</a>.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=9" title="Eprints DC XML">edit</a>]</div><a name="The_Property_URI"></a><h4> The Property URI </h4>
+<p>A <i>statement</i> must contain exactly one <i>property URI</i>.
+</p><p>In Eprints-DC-XML, a <i>property URI</i> is represented as the value of an XML attribute of the Statement Element. The attribute has the name <tt>epdcx:propertyURI</tt>.
+</p><p>The example below shows a <i>description</i> consisting of three <i>statements</i> where the <i>property URIs</i> are  <tt><a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a></tt>, <tt><a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a></tt> and <tt><a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a></tt>.
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt; 
+                                         &lt;-- property URI --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>" /&gt;
+                                         &lt;-- property URI --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+                                         &lt;-- property URI --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>" 
+                     epdcx:valueURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>" /&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 10: The Property URI Attribute</b>
+</p><p>Note that the representation of the <i>property URI</i> may be abbreviated through the use of an XML entity reference or a URI relative reference (see <a href="#URIs_in_Eprints-DC-XML" title="">URIs in Eprints-DC-XML</a>).
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=10" title="Eprints DC XML">edit</a>]</div><a name="The_Value_URI"></a><h4> The Value URI </h4>
+<p>A <i>statement</i> may contain a <i>value URI</i>.
+</p><p>In Eprints-DC-XML, a <i>value URI</i> is represented as the value of an XML attribute of the Statement Element.  The attribute has the name <tt>epdcx:valueURI</tt>.
+</p><p>The example below shows a <i>description</i> consisting of three <i>statements</i> where the first <i>statement</i> includes the <i>value URI</i> <tt><a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a></tt> and the third <i>statement</i> includes the <i>value URI</i> <tt><a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a></tt>.
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt; 
+                                             &lt;-- value URI --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+                                             &lt;-- value URI --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>" 
+                     epdcx:valueURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>" /&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 11: The Value URI Attribute</b>
+</p><p>The representation of the <i>value URI</i> may be abbreviated through the use of an XML entity reference or a URI relative reference (see <a href="#URIs_in_Eprints-DC-XML" title="">URIs in Eprints-DC-XML</a>).
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=11" title="Eprints DC XML">edit</a>]</div><a name="The_Vocabulary_Encoding_Scheme_URI_Attribute"></a><h4> The Vocabulary Encoding Scheme URI Attribute </h4>
+<p>A <i>statement</i> may include a <i>vocabulary encoding scheme URI</i>.
+</p><p>In Eprints-DC-XML, a <i>vocabulary encoding scheme URI</i> is represented as the value of an XML attribute of the Statement Element. The attribute has the name <tt>epdcx:vesURI</tt>.
+</p><p>The example below shows a <i>description</i> consisting of four <i>statements</i> where the third <i>statement</i> includes the <i>vocabulary encoding scheme URI</i> <tt><a href="http://purl.org/dc/terms/LCSH" class="external free" title="http://purl.org/dc/terms/LCSH" rel="nofollow">http://purl.org/dc/terms/LCSH</a></tt>.
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt; 
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>" 
+                     epdcx:valueURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>" /&gt;
+                          &lt;-- vocabulary encoding scheme URI --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/subject" class="external free" title="http://purl.org/dc/elements/1.1/subject" rel="nofollow">http://purl.org/dc/elements/1.1/subject</a>"
+                     epdcx:vesURI="<a href="http://purl.org/dc/terms/LCSH" class="external free" title="http://purl.org/dc/terms/LCSH" rel="nofollow">http://purl.org/dc/terms/LCSH</a>"&gt;
+      &lt;epdcx:valueString&gt;Genetics&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 12: The Vocabulary Encoding Scheme URI Attribute</b>
+</p><p>Note that the representation of the <i>vocabulary encoding scheme URI</i> may be abbreviated through the use of an XML entity reference or a URI relative reference (see <a href="#URIs_in_Eprints-DC-XML" title="">URIs in Eprints-DC-XML</a>).
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=12" title="Eprints DC XML">edit</a>]</div><a name="Encoding_Value_Strings_and_Rich_Representations:_Value_Representation_Elements"></a><h3> Encoding Value Strings and Rich Representations: Value Representation Elements </h3>
+<p>A <i>statement</i> may contain zero or more <i>value representations</i>.
+</p><p>In Eprints-DC-XML, the <i>value representations</i> are 
+represented by child elements of the Statement Element known as Value 
+Representation Elements. The order of the Value Representation Elements 
+within a Statement Element is not significant.
+</p><p>A value representation may take the form of a <i>value string</i> or a <i>rich representation</i>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=13" title="Eprints DC XML">edit</a>]</div><a name="Empty_Statement_Elements"></a><h4> Empty Statement Elements </h4>
+<p>The presence of a <i>value representation</i> in a <i>statement</i> is optional.
+</p><p>In Eprints-DC-XML, the Statement Element may therefore be empty.
+</p><p>The example below shows a <i>description</i> consisting of four <i>statements</i> where the first <i>statement</i> and the third <i>statement</i> provide a <i>value URI</i> but no <i>value representation</i>.
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt; 
+    &lt;-- statement with no value representation --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;-- statement with no value representation --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>" 
+                     epdcx:valueURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/subject" class="external free" title="http://purl.org/dc/elements/1.1/subject" rel="nofollow">http://purl.org/dc/elements/1.1/subject</a>"
+                  epdcx:vesURI="<a href="http://purl.org/dc/terms/LCSH" class="external free" title="http://purl.org/dc/terms/LCSH" rel="nofollow">http://purl.org/dc/terms/LCSH</a>"&gt;
+      &lt;epdcx:valueString&gt;Genetics&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><b>XML Example 13: Empty Statement Element</b>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=14" title="Eprints DC XML">edit</a>]</div><a name="The_Value_String"></a><h4> The Value String </h4>
+<p>A <i>value string</i> is represented by an XML element with the element name <tt>epdcx:valueString</tt>.
+</p><p>The example below shows a <i>description</i> consisting of four <i>statements</i> of which the second and fourth <i>statements</i> each include a <i>value string</i>.
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt; 
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;-- value string --&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>" 
+                     epdcx:valueURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/subject" class="external free" title="http://purl.org/dc/elements/1.1/subject" rel="nofollow">http://purl.org/dc/elements/1.1/subject</a>"
+                  epdcx:vesURI="<a href="http://purl.org/dc/terms/LCSH" class="external free" title="http://purl.org/dc/terms/LCSH" rel="nofollow">http://purl.org/dc/terms/LCSH</a>"&gt;
+      &lt;-- value string --&gt;
+      &lt;epdcx:valueString&gt;Genetics&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 14: The Value String</b>
+</p><p>A <i>statement</i> may contain multiple <i>value strings</i>, each represented by a separate <tt>epdcx:valueString</tt> child XML element.
+</p><p>The following example shows <i>description set</i> with two <i>descriptions</i>. The first <i>description</i> consists of five <i>statements</i> of which the third <i>statement</i> provides three <i>value strings'; the second </i>description<i> consists of xxx </i>statements<i> of which the xxx </i>statement<i> provides two </i>value strings'
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt; 
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/terms/abstract" class="external free" title="http://purl.org/dc/terms/abstract" rel="nofollow">http://purl.org/dc/terms/abstract</a>"&gt;
+      &lt;-- 1st value string --&gt;
+      &lt;epdcx:valueString&gt;The human genome holds an extraordinary trove of information about human 
+                         development, physiology, medicine and evolution. Here we report the results 
+                         of an international collaboration to produce and make freely available a 
+                         draft sequence of the human genome. We also present an initial analysis of 
+                         the data, describing some of the insights that can be gleaned from the 
+                         sequence.&lt;/epdcx:valueString&gt;
+      &lt;-- 2nd value string --&gt;
+      &lt;epdcx:valueString&gt;Le génome humain....&lt;/epdcx:valueString&gt;
+      &lt;-- 3rd value string --&gt;
+      &lt;epdcx:valueString&gt;El genoma humano....&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>" 
+                     epdcx:valueURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/subject" class="external free" title="http://purl.org/dc/elements/1.1/subject" rel="nofollow">http://purl.org/dc/elements/1.1/subject</a>"
+                  epdcx:vesURI="<a href="http://purl.org/dc/terms/LCSH" class="external free" title="http://purl.org/dc/terms/LCSH" rel="nofollow">http://purl.org/dc/terms/LCSH</a>"&gt;
+      &lt;epdcx:valueString&gt;Genetics&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+   &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>"&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/Expression" class="external free" title="http://purl.org/eprint/entityType/Expression" rel="nofollow">http://purl.org/eprint/entityType/Expression</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/language" class="external free" title="http://purl.org/dc/elements/1.1/language" rel="nofollow">http://purl.org/dc/elements/1.1/language</a>"
+                     epdcx:vesURI="<a href="http://purl.org/dc/terms/RFC3066" class="external free" title="http://purl.org/dc/terms/RFC3066" rel="nofollow">http://purl.org/dc/terms/RFC3066</a>"&gt;
+      &lt;epdcx:valueString&gt;en&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/terms/abstract" class="external free" title="http://purl.org/dc/terms/abstract" rel="nofollow">http://purl.org/dc/terms/abstract</a>"&gt;
+      &lt;-- 1st value string --&gt;
+      &lt;epdcx:valueString&gt;Lander ES, Linton LM, Birren B, Nusbaum C, Zody MC, et al. (2001) Initial sequencing and analysis of the human genome. Nature 409: 860--921.&lt;/epdcx:valueString&gt;
+      &lt;-- 2nd value string --&gt;
+      &lt;epdcx:valueString&gt;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal
+                 &amp;rft.jtitle=Nature&amp;rft.volume=409=1&amp;rft.spage=860&amp;rft.epage=921
+                 &amp;rft.atitle=Initial sequencing and analysis of the human genome
+                 &amp;rft.aulast=Lander&amp;rft.auinit=ES&amp;rft.date=2000
+                 &amp;rfr_id=....&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+</pre>
+<p>&lt;/epdcx:descriptionSet&gt;
+</p><p><br>
+<b>XML Example 15: Multiple Value Strings</b>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=15" title="Eprints DC XML">edit</a>]</div><a name="The_Value_String_Language"></a><h5> The Value String Language </h5>
+<p>A <i>value string</i> may have an associated <i>value string language</i>.
+</p><p>In Eprints-DC-XML, a <i>value string language</i> is represented by an <tt>xml:lang</tt> attribute of the <tt>epdcx:valueString</tt> XML element representing the <i>value string</i>.
+</p><p>The example below shows a <i>description</i> consisting of five <i>statements</i> where the third <i>statement</i> provides three <i>value strings</i> and each has an associated <i>value string language</i>:
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt; 
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/terms/abstract" class="external free" title="http://purl.org/dc/terms/abstract" rel="nofollow">http://purl.org/dc/terms/abstract</a>"&gt;
+                   &lt;-- value string language --&gt;
+      &lt;epdcx:valueString xml:lang="en"&gt;The human genome holds an extraordinary trove of information about human 
+                         development, physiology, medicine and evolution. Here we report the results 
+                         of an international collaboration to produce and make freely available a 
+                         draft sequence of the human genome. We also present an initial analysis of 
+                         the data, describing some of the insights that can be gleaned from the 
+                         sequence.&lt;/epdcx:valueString&gt;
+                   &lt;-- value string language --&gt;
+      &lt;epdcx:valueString xml:lang="fr"&gt;Le génome humain....&lt;/epdcx:valueString&gt;
+                   &lt;-- value string language --&gt;
+      &lt;epdcx:valueString xml:lang="es"&gt;El genoma humano....&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>" 
+                     epdcx:valueURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/subject" class="external free" title="http://purl.org/dc/elements/1.1/subject" rel="nofollow">http://purl.org/dc/elements/1.1/subject</a>"
+                  epdcx:vesURI="<a href="http://purl.org/dc/terms/LCSH" class="external free" title="http://purl.org/dc/terms/LCSH" rel="nofollow">http://purl.org/dc/terms/LCSH</a>"&gt;
+      &lt;epdcx:valueString&gt;Genetics&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 16: The Value String Language</b>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=16" title="Eprints DC XML">edit</a>]</div><a name="The_Syntax_Encoding_Scheme_URI"></a><h5> The Syntax Encoding Scheme URI </h5>
+<p>A <i>value string</i> may have an associated <i>syntax encoding scheme URI</i>.
+</p><p>In Eprints-DC-XML, a <i>syntax encoding scheme URI</i> is represented as the value of an attribute of the the <tt>epdcx:valueString</tt> XML element representing the <i>value string</i>. The  attribute has the name <tt>epdcx:sesURI</tt>.
+</p><p>The example below shows a <i>description set</i> in which the second <i>description</i> has three <i>statements</i> and the third <i>statement</i> associates the <i>syntax encoding scheme URI</i> <tt><a href="http://purl.org/dc/terms/W3CDTF" class="external free" title="http://purl.org/dc/terms/W3CDTF" rel="nofollow">http://purl.org/dc/terms/W3CDTF</a></tt> with the <i>value string</i> "2004-09-23":
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt; 
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>" 
+                     epdcx:valueURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>" /&gt;
+  &lt;/epdcx:description&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>"&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/Expression" class="external free" title="http://purl.org/eprint/entityType/Expression" rel="nofollow">http://purl.org/eprint/entityType/Expression</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/language" class="external free" title="http://purl.org/dc/elements/1.1/language" rel="nofollow">http://purl.org/dc/elements/1.1/language</a>"
+                     epdcx:vesURI="<a href="http://purl.org/dc/terms/RFC3066" class="external free" title="http://purl.org/dc/terms/RFC3066" rel="nofollow">http://purl.org/dc/terms/RFC3066</a>"&gt;
+      &lt;epdcx:valueString&gt;en&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/terms/available" class="external free" title="http://purl.org/dc/terms/available" rel="nofollow">http://purl.org/dc/terms/available</a>"&gt;
+                              &lt;-- syntax encoding scheme URI --&gt;
+      &lt;epdcx:valueString epdcx:sesURI="<a href="http://purl.org/dc/terms/W3CDTF" class="external free" title="http://purl.org/dc/terms/W3CDTF" rel="nofollow">http://purl.org/dc/terms/W3CDTF</a>"&gt;2004-09-23&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 17: The Syntax Encoding Scheme URI Attribute</b>
+</p><p>Note that the representation of the <i>syntax encoding scheme URI</i> may be abbreviated through the use of an XML entity reference or a URI relative reference (see <a href="#URIs_in_Eprints-DC-XML" title="">URIs in Eprints-DC-XML</a>).
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=17" title="Eprints DC XML">edit</a>]</div><a name="Rich_Representations"></a><h4> Rich Representations </h4>
+<p>A <i>value</i> may also be represented by a <i>rich representation</i> - i.e. by some XML data or by a binary data object.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=18" title="Eprints DC XML">edit</a>]</div><a name="XML_Data"></a><h5> XML Data </h5>
+<p>An XML data <i>rich representation</i> is represented by the content of a Value Representation Element with the element name <tt>epdcx:XMLRepresentation</tt>.
+</p><p>The example below shows a <i>description</i> consisting of five <i>statements</i> of which the third <i>statement</i> includes both a <i>value string</i> and a <i>rich representation</i> of the <i>value</i> in the form of an XML fragment:
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt; 
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/terms/abstract" class="external free" title="http://purl.org/dc/terms/abstract" rel="nofollow">http://purl.org/dc/terms/abstract</a>"&gt;
+      &lt;epdcx:valueString&gt;The human genome holds an extraordinary trove of information about human 
+                         development, physiology, medicine and evolution. Here we report the results 
+                         of an international collaboration to produce and make freely available a 
+                         draft sequence of the human genome. We also present an initial analysis of 
+                         the data, describing some of the insights that can be gleaned from the 
+                         sequence.&lt;/epdcx:valueString&gt;
+                                                &lt;-- XML data --&gt;
+      &lt;epdcx:XMLRepresentation&gt;
+        &lt;div xmlns="<a href="http://www.w3.org/1999/xhtml" class="external free" title="http://www.w3.org/1999/xhtml" rel="nofollow">http://www.w3.org/1999/xhtml</a>"&gt;
+          &lt;p&gt;The human genome holds an extraordinary trove of information about human 
+             development, physiology, medicine and evolution. Here we report the results 
+             of an international collaboration to produce and make freely available a 
+             draft sequence of the human genome. We also present an initial analysis of 
+             the data, describing some of the insights that can be gleaned from the 
+             sequence.
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/epdcx:XMLRepresentation&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>" 
+                     epdcx:valueURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/subject" class="external free" title="http://purl.org/dc/elements/1.1/subject" rel="nofollow">http://purl.org/dc/elements/1.1/subject</a>"
+                  epdcx:vesURI="<a href="http://purl.org/dc/terms/LCSH" class="external free" title="http://purl.org/dc/terms/LCSH" rel="nofollow">http://purl.org/dc/terms/LCSH</a>"&gt;
+      &lt;epdcx:valueString&gt;Genetics&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 18: Rich Representation - XML Data</b>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=19" title="Eprints DC XML">edit</a>]</div><a name="Binary_Data"></a><h5> Binary Data </h5>
+<p>A binary data <i>rich representation</i> is represented by the content of a Value Representation Element with the element name <tt>epdcx:binaryRepresentation</tt>. The XML element content is a Base64 encoding of the binary object. The <i>media type</i> of the <i>rich representation</i> is represented by the value of an attribute of the Value Representation Element. The attribute has the name <tt>epdcx:mediaType</tt>, and the value must be a MIME Media Type.
+</p><p>The example below shows a <i>description</i> consisting of two <i>statements</i> of which the second <i>statement</i> includes a <i>rich representation</i> of the <i>value</i> in the form of a binary data object:
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description
+   epdcx:resourceURI="<a href="http://dublincore.org/pages/home" class="external free" title="http://dublincore.org/pages/home" rel="nofollow">http://dublincore.org/pages/home</a>"&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString xml:lang="en-GB"&gt;DCMI Home Page&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/description" class="external free" title="http://purl.org/dc/elements/1.1/description" rel="nofollow">http://purl.org/dc/elements/1.1/description</a>"&gt;
+                                &lt;-- binary data --&gt;
+      &lt;epdcx:binaryRepresentation epdcx:mediaType="image/png"&gt;AABBCCDDEEFF&lt;/epdcx:binaryRepresentation&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 19: Rich Representation - Binary Data</b>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=20" title="Eprints DC XML">edit</a>]</div><a name="Encoding_Descriptions_of_Values"></a><h3> Encoding Descriptions of Values </h3>
+<p>As noted in <a href="#Encoding_Descriptions:_Description_Elements" title="">Encoding Descriptions: Description Elements</a>, <i>description sets</i> may contain multiple <i>descriptions</i>. Each <i>description</i> is represented by a separate Description Element. The order of the Description Elements has no significance.
+</p><p>It may be that the resource which is a <i>value</i> in a <i>statement</i> in one <i>description</i> is the <i>described resource</i> of another <i>description</i> within the <i>description set</i>. If that resource has been assigned a URI, then that URI appears as the <i>value URI</i> in the <i>statement</i> where the resource is the <i>value</i> and as a <i>resource URI</i> in the <i>description</i> of that resource, as shown below:
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt;  
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+                                                  &lt;-- value URI --&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>" 
+                     epdcx:valueURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>" /&gt;
+  &lt;/epdcx:description&gt;
+                     &lt;-- value URI used as resource URI in separate description --&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/expressions/12345678/" class="external free" title="http://eprints.bath.ac.uk/expressions/12345678/" rel="nofollow">http://eprints.bath.ac.uk/expressions/12345678/</a>"&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/Expression" class="external free" title="http://purl.org/eprint/entityType/Expression" rel="nofollow">http://purl.org/eprint/entityType/Expression</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/language" class="external free" title="http://purl.org/dc/elements/1.1/language" rel="nofollow">http://purl.org/dc/elements/1.1/language</a>"
+                     epdcx:vesURI="<a href="http://purl.org/dc/terms/RFC3066" class="external free" title="http://purl.org/dc/terms/RFC3066" rel="nofollow">http://purl.org/dc/terms/RFC3066</a>"&gt;
+      &lt;epdcx:valueString&gt;en&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><b>XML Example 20: Value as Described Resource</b>
+</p><p>In some cases the resource will not have a URI assigned, or the URI will not be known.  Such a resource may still be a <i>value</i> in a <i>statement</i> in one description and the <i>described resource</i> of another <i>description</i> in the same <i>description set</i>.
+</p><p>In such cases, the association between the <i>statement</i> in the first <i>description</i> and the second <i>description</i>
+ is made by using an identifier for the resource which is local to an 
+Eprints-DC-XML instance. This local identifier is used as the value of a
+ <tt>epdcx:valueRef</tt> XML attribute of one or more Statement Elements
+ and as the value of a 'epdcx:resourceId' XML attribute of a Description
+ Element. Each value of a <tt>epdcx:valueRef</tt> XML attribute must match the value of a <tt>epdcx:resourceId</tt> attribute in the same Eprints-DC-XML instance.
+</p><p>Note that this is a syntactic mechanism for linking references to <i>values</i> in <i>statements</i> to the <i>descriptions</i> of those <i>values</i>: the local identifier itself does not appear in the <i>description set</i>.
+</p><p><br>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;epdcx:descriptionSet
+  xmlns:epdcx="<a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>"&gt;
+  &lt;epdcx:description epdcx:resourceURI="<a href="http://eprints.bath.ac.uk/works/12345678/" class="external free" title="http://eprints.bath.ac.uk/works/12345678/" rel="nofollow">http://eprints.bath.ac.uk/works/12345678/</a>"&gt;  
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/ScholarlyWork" class="external free" title="http://purl.org/eprint/entityType/ScholarlyWork" rel="nofollow">http://purl.org/eprint/entityType/ScholarlyWork</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/title" class="external free" title="http://purl.org/dc/elements/1.1/title" rel="nofollow">http://purl.org/dc/elements/1.1/title</a>"&gt;
+      &lt;epdcx:valueString&gt;Initial sequencing and analysis of the human genome&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/eprint/terms/isExpressedAs" class="external free" title="http://purl.org/eprint/terms/isExpressedAs" rel="nofollow">http://purl.org/eprint/terms/isExpressedAs</a>" 
+                     epdcx:valueRef="expression1" /&gt;  &lt;-- reference to value using local identifier --&gt;
+  &lt;/epdcx:description&gt;
+                     &lt;-- described resource identified by local identifier --&gt;
+  &lt;epdcx:description epdcx:resourceId="expression1"&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/type" class="external free" title="http://purl.org/dc/elements/1.1/type" rel="nofollow">http://purl.org/dc/elements/1.1/type</a>" 
+                     epdcx:valueURI="<a href="http://purl.org/eprint/entityType/Expression" class="external free" title="http://purl.org/eprint/entityType/Expression" rel="nofollow">http://purl.org/eprint/entityType/Expression</a>" /&gt;
+    &lt;epdcx:statement epdcx:propertyURI="<a href="http://purl.org/dc/elements/1.1/language" class="external free" title="http://purl.org/dc/elements/1.1/language" rel="nofollow">http://purl.org/dc/elements/1.1/language</a>"
+                     epdcx:vesURI="<a href="http://purl.org/dc/terms/RFC3066" class="external free" title="http://purl.org/dc/terms/RFC3066" rel="nofollow">http://purl.org/dc/terms/RFC3066</a>"&gt;
+      &lt;epdcx:valueString&gt;en&lt;/epdcx:valueString&gt;
+    &lt;/epdcx:statement&gt;
+  &lt;/epdcx:description&gt;
+&lt;/epdcx:descriptionSet&gt;
+</pre>
+<p><br>
+<b>XML Example 21: Value as Described Resource</b>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=21" title="Eprints DC XML">edit</a>]</div><a name="GRDDL"></a><h2> GRDDL </h2>
+<p>An XSLT transformation from Eprints-DC-XML to RDF/XML [<a href="#RDFXML" title="">RDFXML</a>] is available
+</p><p><a href="http://purl.org/eprint/epdcx/xslt/2006-11-16/epdcx2rdfxml.xsl" class="external free" title="http://purl.org/eprint/epdcx/xslt/2006-11-16/epdcx2rdfxml.xsl" rel="nofollow">http://purl.org/eprint/epdcx/xslt/2006-11-16/epdcx2rdfxml.xsl</a>
+</p><p>The GRDDL specification [<a href="#GRDDL" title="">GRDDL</a>] defines a set of conventions for associating an XML instance document with a transformation. 
+</p><p>The transformation will be associated with the set of 
+Eprints-DC-XML instances by providing information about the 
+transformation in a "namespace document"
+</p><p><a href="http://purl.org/eprint/epdcx/2006-11-16/" class="external free" title="http://purl.org/eprint/epdcx/2006-11-16/" rel="nofollow">http://purl.org/eprint/epdcx/2006-11-16/</a>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=22" title="Eprints DC XML">edit</a>]</div><a name="W3C_XML_Schema"></a><h2> W3C XML Schema </h2>
+<ul><li> <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_DC_XML/W3CXMLSchemas" title="Eprints DC XML/W3CXMLSchemas">Eprints DC XML/W3CXMLSchemas</a>
+</li></ul>
+<p><b>See also RELAX NG Schema:</b>
+</p>
+<ul><li> <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_DC_XML/RELAXNGSchemas" title="Eprints DC XML/RELAXNGSchemas">Eprints DC XML/RELAXNGSchemas</a>
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=23" title="Eprints DC XML">edit</a>]</div><a name="Examples"></a><h2> Examples </h2>
+<ul><li> <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_DC_XML/Instances" title="Eprints DC XML/Instances">Eprints DC XML/Instances</a>
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=24" title="Eprints DC XML">edit</a>]</div><a name="Appendix_A._DC-TEXT_Representation_of_Examples"></a><h2> Appendix A. DC-TEXT Representation of Examples </h2>
+<p>This appendix provides representations of all the examples provided in the main body of the document using the DC-Text syntax [<a href="#DCTEXT" title="">DCTEXT</a>]. 
+</p><p>(to be completed)
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=25" title="Eprints DC XML">edit</a>]</div><a name="Notes"></a><h2> Notes </h2>
+<p><span id="Note1"> </span><b>[1]</b> This document defines one XML 
+format for representing DC metadata description sets in XML. Other 
+formats may exist supporting other subsets of the DCMI Abstract Model. 
+For example, the Open Archives Initiative Protocol for Metadata 
+Harvesting [<a href="#OAIPMH" title="">OAIPMH</a>] defines a format, 
+commonly known as oai_dc, which supports the serialisation only of 
+description sets containing a single description, with statements 
+referencing only the fifteen properties of the DCMES, and using value 
+strings only. oai_dc is a different XML format from Eprints-DC-XML, but 
+that does not change the value and usefulness of oai_dc as a format for 
+serialising that particular subclass of DC metadata description sets.
+</p><p><span id="Note2"> </span><b>[2]</b> In this document the term 
+"element" is used to refer only to XML elements, and it should always be
+ interpreted in that sense wherever it occurs. It is not used to refer 
+to the properties of the DCMES.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit&amp;section=26" title="Eprints DC XML">edit</a>]</div><a name="References"></a><h2> References </h2>
+<p><span id="XML"> </span><b>[XML]</b> <i>Extensible Markup Language (XML) 1.0 (Third Edition)</i>. W3C Recommendation 04 February 2004. <a href="http://www.w3.org/TR/REC-xml" class="external free" title="http://www.w3.org/TR/REC-xml" rel="nofollow">http://www.w3.org/TR/REC-xml</a>
+</p><p><span id="DCXMLFULL"> </span><b>[DCXMLFULL]</b> Expressing Dublin Core metadata using XML (DC-XML-Full). Version 2006-09-18 Working Draft. <a href="http://dublincore.org/architecturewiki/DCXMLRevision/DCXMLFGuidelines/2006-09-18" class="external free" title="http://dublincore.org/architecturewiki/DCXMLRevision/DCXMLFGuidelines/2006-09-18" rel="nofollow">http://dublincore.org/architecturewiki/DCXMLRevision/DCXMLFGuidelines/2006-09-18</a>
+</p><p><span id="DCAM"> </span><b>[DCAM]</b> DCMI Abstract Model <a href="http://dublincore.org/documents/abstract-model/" class="external free" title="http://dublincore.org/documents/abstract-model/" rel="nofollow">http://dublincore.org/documents/abstract-model/</a>
+</p><p><span id="XMLSCHEMA"> </span><b>[XMLSCHEMA]</b> <i>XML Schema Part 0: Primer Second Edition</i>. W3C Recommendation 28 October 2004. <a href="http://www.w3.org/TR/xmlschema-0/" class="external free" title="http://www.w3.org/TR/xmlschema-0/" rel="nofollow">http://www.w3.org/TR/xmlschema-0/</a>
+</p><p><span id="RFC3986"> </span><b>[RFC3986]</b> <i>Uniform Resource Identifier (URI): Generic Syntax</i> <a href="http://www.ietf.org/rfc/rfc3986.txt" class="external free" title="http://www.ietf.org/rfc/rfc3986.txt" rel="nofollow">http://www.ietf.org/rfc/rfc3986.txt</a>
+</p><p><span id="RDFXML"> </span><b>[RDFXML]</b> <i>RDF/XML Syntax Specification (Revised)</i> W3C Recommendation 10 February 2004. <a href="http://www.w3.org/TR/rdf-syntax-grammar/" class="external free" title="http://www.w3.org/TR/rdf-syntax-grammar/" rel="nofollow">http://www.w3.org/TR/rdf-syntax-grammar/</a>
+</p><p><span id="GRDDL"> </span><b>[GRDDL]</b> <i>Gleaning Resource Descriptions from Dialects of Languages (GRDDL)</i> W3C Working Draft 24 October 2006 <a href="http://www.w3.org/TR/2006/WD-grddl-20061024/" class="external free" title="http://www.w3.org/TR/2006/WD-grddl-20061024/" rel="nofollow">http://www.w3.org/TR/2006/WD-grddl-20061024/</a>
+</p><p><span id="OAIPMH"> </span><b>[OAIPMH]</b> <i>The Open Archives Initiative Protocol for Metadata Harvesting</i> Protocol Version 2.0 of 2002-06-14.
+<a href="http://www.openarchives.org/OAI/openarchivesprotocol.html" class="external free" title="http://www.openarchives.org/OAI/openarchivesprotocol.html" rel="nofollow">http://www.openarchives.org/OAI/openarchivesprotocol.html</a>
+</p><p><span id="DCTEXT"> </span><b>[DCTEXT]</b> <i>DC-Text: A Text Syntax for Dublin Core Metadata</i> Draft of 2006-09-18.
+<a href="http://dublincore.org/architecturewiki/DCText/2006-09-18" class="external free" title="http://dublincore.org/architecturewiki/DCText/2006-09-18" rel="nofollow">http://dublincore.org/architecturewiki/DCText/2006-09-18</a>
+</p>
+<!-- Saved in parser cache with key digirep_wiki_db:pcache:idhash:1946-0!1!0!0!!en!2 and timestamp 20130207100837 -->
+<div class="printfooter">
+Retrieved from "<a href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_DC_XML">/repositories/digirep/index/Eprints_DC_XML</a>"</div>
+	    <div id="catlinks"><p class="catlinks"><a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Special:Categories&amp;article=Eprints_DC_XML" title="Special:Categories">Categories</a>: <a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Category:EprintsApplicationProfile&amp;action=edit" class="new" title="Category:EprintsApplicationProfile">EprintsApplicationProfile</a> | <a href="http://www.ukoln.ac.uk/repositories/digirep/index/Category:ScholarlyWorksApplicationProfile" title="Category:ScholarlyWorksApplicationProfile">ScholarlyWorksApplicationProfile</a></p></div>	    <!-- end content -->
+	    <div class="visualClear"></div>
+	  </div>
+	</div>
+      </div>
+      <div id="column-one">
+	<div id="p-cactions" class="portlet">
+	  <h5>Views</h5>
+	  <ul>
+	    <li id="ca-nstab-main" class="selected"><a title="View the content page [control-c]" accesskey="c" href="http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_DC_XML">Article</a></li><li id="ca-talk" class="new"><a title="Discussion about the content page [control-t]" accesskey="t" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Talk:Eprints_DC_XML&amp;action=edit">Discussion</a></li><li id="ca-edit"><a title="You can edit this page. Please use the preview button before saving. [control-e]" accesskey="e" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=edit">Edit</a></li><li id="ca-history"><a title="Past versions of this page. [control-h]" accesskey="h" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;action=history">History</a></li>	  </ul>
+	</div>
+	<div class="portlet" id="p-personal">
+	  <h5>Personal tools</h5>
+	  <div class="pBody">
+	    <ul>
+	    <li id="pt-login"><a title="You are encouraged to log in, it is not mandatory however. [control-o]" accesskey="o" href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Special:Userlogin&amp;returnto=Eprints_DC_XML">Create an account or log in</a></li>	    </ul>
+	  </div>
+	</div>
+	<div class="portlet" id="p-logo">
+	  <a style="background-image: url(/repositories/digirep/skins/common/images/jisc_ukolo_cetis_version_2.png);" href="http://www.ukoln.ac.uk/repositories/digirep/index/Repositories_Research" title="Repositories Research"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class="portlet" id="p-navigation">
+	  <h5>Navigation</h5>
+	  <div class="pBody">
+	    <ul>
+	    	      <li id="n-mainpage"><a title="Visit the Main Page [control-z]" accesskey="z" href="http://www.ukoln.ac.uk/repositories/digirep/index/Repositories_Research">Repositories Research</a></li>
+	     	      <li id="n-About"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/About">About</a></li>
+	     	      <li id="n-News"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/News">News</a></li>
+	     	      <li id="n-Events"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Events">Events</a></li>
+	     	      <li id="n-Info-and-activities"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/RRT_information_and_activities">Info and activities</a></li>
+	     	      <li id="n-Projects"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Projects">Projects</a></li>
+	     	      <li id="n-Clusters"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Clusters">Clusters</a></li>
+	     	      <li id="n-Scenarios/use-cases/UML"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Scenarios_and_use_cases">Scenarios/use cases/UML</a></li>
+	     	      <li id="n-Workflows"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Workflows">Workflows</a></li>
+	     	      <li id="n-Deposit-API/SWORD"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Deposit">Deposit API/SWORD</a></li>
+	     	      <li id="n-Application-Profiles"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Application_Profiles">Application Profiles</a></li>
+	     	      <li id="n-CRIG"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/CRIG">CRIG</a></li>
+	     	      <li id="n-FAQs"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/FAQs">FAQs</a></li>
+	     	      <li id="n-Links"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Links">Links</a></li>
+	     	      <li id="n-recentchanges"><a title="The list of recent changes in the wiki. [control-r]" accesskey="r" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Recentchanges">Recent changes</a></li>
+	     	      <li id="n-Sandbox"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Sandbox">Sandbox</a></li>
+	     	      <li id="n-Help"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/Help:Contents">Help</a></li>
+	     	    </ul>
+	  </div>
+	</div>
+		<div id="p-search" class="portlet">
+	  <h5><label for="searchInput">Search</label></h5>
+	  <div class="pBody">
+	    <form name="searchform" action="/repositories/digirep/index/Special:Search" id="searchform">
+	      <input id="searchInput" name="search" accesskey="f" type="text">
+	      <input name="go" class="searchButton" id="searchGoButton" value="Go" type="submit">&nbsp;<input name="fulltext" class="searchButton" value="Search" type="submit">
+	    </form>
+	  </div>
+	</div>
+	<div class="portlet" id="p-tb">
+	  <h5>Toolbox</h5>
+	  <div class="pBody">
+	    <ul>
+		  		  <li id="t-whatlinkshere"><a title="List of all wiki pages that link here [control-j]" accesskey="j" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Whatlinkshere/Eprints_DC_XML">What links here</a></li>
+		  		  <li id="t-recentchangeslinked"><a title="Recent changes in pages linked from this page [control-k]" accesskey="k" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Recentchangeslinked/Eprints_DC_XML">Related changes</a></li>
+		                	      	      	      	      	      	      	      <li id="t-upload"><a title="Upload images or media files [control-u]" accesskey="u" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Upload">Upload file</a></li>	      	      <li id="t-specialpages"><a title="List of all special pages [control-q]" accesskey="q" href="http://www.ukoln.ac.uk/repositories/digirep/index/Special:Specialpages">Special pages</a></li>	      	      	      <li id="t-print"><a href="http://www.ukoln.ac.uk/repositories/digirep/index.php?title=Eprints_DC_XML&amp;printable=yes">Printable version</a></li>
+	      	    </ul>
+	  </div>
+	</div>
+	      </div><!-- end of the left (by default at least) column -->
+      <div class="visualClear"></div>
+      <div id="footer">
+    <div id="f-poweredbyico"><a href="http://www.jisc.ac.uk/"><img src="index_files/JISCcolour23.png" alt="Sponsored by JISC" title="Sponsored by JISC"></a></div>	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by-sa/2.5/"><img src="index_files/somerights20.png" alt="Attribution-ShareAlike 2.5"></a></div>	<ul id="f-list">
+	  <li id="f-lastmod"> This page was last modified 15:20, 5 December 2006.</li>	  <li id="f-viewcount">This page has been accessed 36,545 times.</li>	  	  	  <li id="f-copyright">Content is available under <a href="http://creativecommons.org/licenses/by-sa/2.5/" class="external " title="http://creativecommons.org/licenses/by-sa/2.5/" rel="nofollow">Attribution-ShareAlike 2.5</a>.</li>	  <li id="f-about"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/DigiRepWiki:About" title="DigiRepWiki:About">About DigiRepWiki</a></li>	  <li id="f-disclaimer"><a href="http://www.ukoln.ac.uk/repositories/digirep/index/DigiRepWiki:General_disclaimer" title="DigiRepWiki:General disclaimer">Disclaimers</a></li>	  	</ul>
+      </div>
+    </div>
+    <!-- Served by wumpus in 0.19 secs. -->  
+
+</body></html>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;">
+
+
+<rdf:Property rdf:about = "&dcns;title">
+	<rdfs:label xml:lang="zh-TW">
+	&#x984c;&#x540d;&#xff08;Title&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x8cc7;&#x6e90;&#x6240;&#x8ce6;&#x4e88;&#x7684;&#x540d;&#x7a31;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x984c;&#x540d;&#x662f;&#x8cc7;&#x6e90;&#x7684;&#x6b63;&#x5f0f;&#x540d;&#x7a31;&#x3002;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+	<rdfs:label xml:lang="zh-TW">
+	&#x8ca2;&#x737b;&#x8005;&#xff08;Contributor&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x9664;&#x5275;&#x4f5c;&#x8005;&#x5916;&#xff0c;&#x5c0d;&#x65bc;&#x8cc7;&#x6e90;&#x5167;&#x5bb9;&#x4e4b;&#x5275;&#x4f5c;&#x6709;&#x8ca2;&#x737b;&#x8005;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x8ca2;&#x737b;&#x8005;&#x5305;&#x62ec;&#x500b;&#x4eba;&#x3001;&#x5718;&#x9ad4;&#x6a5f;&#x69cb;&#x6216;&#x670d;&#x52d9;&#x7cfb;&#x7d71;&#x3002;
+	</dc:description>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+	<rdfs:label xml:lang="zh-TW">
+	&#x5275;&#x4f5c;&#x8005;&#xff08;Creator&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x8cc7;&#x6e90;&#x4e4b;&#x4e3b;&#x8981;&#x5275;&#x4f5c;&#x8005;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x5275;&#x4f5c;&#x8005;&#x5305;&#x62ec;&#x500b;&#x4eba;&#x3001;&#x5718;&#x9ad4;&#x6a5f;&#x69cb;&#x6216;&#x670d;&#x52d9;&#x7cfb;&#x7d71;&#x3002;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+	<rdfs:label xml:lang="zh-TW">
+	&#x51fa;&#x7248;&#x8005;&#xff08;Publisher&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x4f7f;&#x8cc7;&#x6e90;&#x53ef;&#x4f9b;&#x53d6;&#x7528;&#x8005;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x51fa;&#x7248;&#x8005;&#x5305;&#x62ec;&#x500b;&#x4eba;&#x3001;&#x5718;&#x9ad4;&#x6a5f;&#x69cb;&#x6216;&#x670d;&#x52d9;&#x7cfb;&#x7d71;&#x3002;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+	<rdfs:label xml:lang="zh-TW">
+	&#x4e3b;&#x984c;&#x548c;&#x95dc;&#x9375;&#x8a5e;&#xff08;Subject and Keywords&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x6709;&#x95dc;&#x8cc7;&#x6e90;&#x5167;&#x5bb9;&#x4e4b;&#x63cf;&#x8ff0;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x53ef;&#x7528;&#x95dc;&#x9375;&#x8a5e;&#x6216;&#x5206;&#x985e;&#x865f;&#x4f86;&#x8868;&#x793a;&#x8cc7;&#x6e90;&#x4e4b;&#x5167;&#x5bb9;&#xff0c;&#x5efa;&#x8b70;&#x4f7f;&#x7528;&#x63a7;&#x5236;&#x8a5e;&#x5f59;&#x6216;&#x5206;&#x985e;&#x8868;&#x3002;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+	<rdfs:label xml:lang="zh-TW">
+	&#x7c21;&#x8ff0;&#xff08;Description&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x5c0d;&#x65bc;&#x8cc7;&#x6e90;&#x4e4b;&#x76f8;&#x95dc;&#x8aaa;&#x660e;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x7c21;&#x8ff0;&#x53ef;&#x5305;&#x62ec;&#x6458;&#x8981;&#x3001;&#x76ee;&#x6b21;&#x3001;&#x5716;&#x793a;&#x8cc7;&#x6599;&#x4e4b;&#x4f86;&#x6e90;&#x8aaa;&#x660e;&#x3001;&#x6216;&#x5c0d;&#x65bc;&#x5167;&#x5bb9;&#x7684;&#x6587;&#x5b57;&#x6558;&#x8ff0;&#x7b49;&#x3002;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+	<rdfs:label xml:lang="zh-TW">
+	&#x65e5;&#x671f;&#xff08;Date&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x5728;&#x8cc7;&#x6e90;&#x751f;&#x547d;&#x9031;&#x671f;&#x4e2d;&#xff0c;&#x67d0;&#x4e8b;&#x4ef6;&#x4e4b;&#x65e5;&#x671f;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x65e5;&#x671f;&#x901a;&#x5e38;&#x53ef;&#x7528;&#x4f86;&#x8868;&#x793a;&#x8cc7;&#x6e90;&#x7684;&#x5275;&#x4f5c;&#x6216;&#x53ef;&#x4f9b;&#x4f7f;&#x7528;&#x7684;&#x6642;&#x9593;&#x3002;&#x5efa;&#x8b70;&#x9075;&#x5faa; ISO 8601 [W3CDTF]&#x4e4b;&#x6a19;&#x6e96;&#x8457;&#x9304;&#x65e5;&#x671f;&#xff0c;&#x5373;&#x4ee5;YYYY-MM-DD&#x7684;&#x683c;&#x5f0f;&#x8457;&#x9304;&#x3002;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+	<rdfs:label xml:lang="zh-TW">
+	&#x8cc7;&#x6599;&#x985e;&#x578b;&#xff08;Type&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x8cc7;&#x6e90;&#x4e4b;&#x6027;&#x8cea;&#x6216;&#x985e;&#x578b;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x8cc7;&#x6e90;&#x985e;&#x578b;&#x5305;&#x62ec;&#x63cf;&#x8ff0;&#x8cc7;&#x6e90;&#x4e4b;&#x6027;&#x8cea;&#x3001;&#x529f;&#x80fd;&#x3001;&#x985e;&#x5225;&#x3002;&#x4ee5;&#x53ca;&#x63cf;&#x8ff0;&#x4e4b;&#x55ae;&#x4f4d;&#x70ba;&#x55ae;&#x4ef6;&#x6216;&#x5408;&#x96c6;&#x4f5c;&#x54c1;&#x7b49;&#x3002;&#x5efa;&#x8b70;&#x4f7f;&#x7528;&#x63a7;&#x5236;&#x8a5e;&#x5f59;&#xff0c;&#x4f8b;&#x5982;DCMI&#x6240;&#x5b9a;&#x7fa9;&#x7684;&#x8a5e;&#x5f59;&#xff08;DCMI Type Vocabulary, DCT&#xff09;&#x3002;&#x8cc7;&#x6e90;&#x4e4b;&#x5be6;&#x9ad4;&#x6216;&#x662f;&#x6578;&#x4f4d;&#x5a92;&#x9ad4;&#x4e4b;&#x63cf;&#x8ff0;&#xff0c;&#x5247;&#x4f7f;&#x7528;Format&#x6b04;&#x4f4d;&#x8457;&#x9304;&#x3002;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+	<rdfs:label xml:lang="zh-TW">
+	&#x8cc7;&#x6599;&#x683c;&#x5f0f;&#xff08;Format&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x8cc7;&#x6e90;&#x4e4b;&#x5be6;&#x9ad4;&#x6216;&#x6578;&#x4f4d;&#x5316;&#x5a92;&#x9ad4;&#x4e4b;&#x63cf;&#x8ff0;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x8cc7;&#x6599;&#x683c;&#x5f0f;&#x5305;&#x62ec;&#x5a92;&#x9ad4;&#x985e;&#x578b;&#x6216;&#x8cc7;&#x6e90;&#x7684;&#x5ea6;&#x91cf;&#x8cc7;&#x6599;&#xff0c;&#x8cc7;&#x6599;&#x683c;&#x5f0f;&#x4e5f;&#x53ef;&#x4ee5;&#x7528;&#x4f86;&#x8868;&#x660e;&#x5448;&#x73fe;&#x6216;&#x64cd;&#x4f5c;&#x8cc7;&#x6e90;&#x6642;&#x9700;&#x7528;&#x7684;&#x8edf;&#x786c;&#x9ad4;&#x6216;&#x5176;&#x4ed6;&#x8a2d;&#x5099;&#x3002;&#x5ea6;&#x91cf;&#x8cc7;&#x6599;&#x5247;&#x5305;&#x62ec;&#x9ad8;&#x5ee3;&#x5c3a;&#x5bf8;&#x8207;&#x653e;&#x6620;&#x6642;&#x9593;&#x3002;&#x5efa;&#x8b70;&#x4f7f;&#x7528;&#x63a7;&#x5236;&#x8a5e;&#x5f59;&#xff0c;&#x5982;&#x7db2;&#x8def;&#x5a92;&#x9ad4;&#x985e;&#x578b;MIME&#xff08;Multipurpose Internet Mail Extensions&#xff09;&#x6240;&#x5b9a;&#x7fa9;&#x7684;&#x96fb;&#x8166;&#x5a92;&#x9ad4;&#x683c;&#x5f0f;&#x3002;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+	<rdfs:label xml:lang="zh-TW">
+	&#x8b58;&#x5225;&#x78bc;&#xff08;Resource Identifier&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x8cc7;&#x6e90;&#x5728;&#x67d0;&#x74b0;&#x5883;&#x4e2d;&#x660e;&#x78ba;&#x7684;&#x8fa8;&#x8b58;&#x8cc7;&#x6599;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x5efa;&#x8b70;&#x5229;&#x7528;&#x5b57;&#x4e32;&#x6216;&#x6578;&#x5b57;&#x7d44;&#x6210;&#x7684;&#x8b58;&#x5225;&#x7cfb;&#x7d71;&#x4f86;&#x8fa8;&#x8b58;&#x8cc7;&#x6e90;&#xff0c;&#x5982;&#xff1a; URI(Uniform Resource Identifier)&#xff08;&#x542b;URL&#xff09;&#xff0c;DOI(Digital Object Identifier)&#xff0c;&#x4ee5;&#x53ca;ISBN(International Standard Book Number)&#x7b49;&#x3002;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+	<rdfs:label xml:lang="zh-TW">
+	&#x8a9e;&#x6587;&#xff08;Language&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x8cc7;&#x6e90;&#x5167;&#x5bb9;&#x4e4b;&#x8a9e;&#x6587;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x5efa;&#x8b70;&#x4f7f;&#x7528;RFC1766&#x4e26;&#x4f75;&#x7528;ISO639&#x6a19;&#x6e96;&#xff0c;&#x8a72;&#x6a19;&#x6e96;&#x4f7f;&#x7528;&#x5169;&#x500b;&#x8207;&#x4e09;&#x500b;&#x5b57;&#x6bcd;&#x505a;&#x70ba;&#x8a9e;&#x6587;&#x4ee3;&#x78bc;&#x3002;&#x4e4b;&#x5f8c;&#xff0c;&#x53ef;&#x9078;&#x64c7;&#x518d;&#x52a0;&#x4e0a;&#x5169;&#x500b;&#x5b57;&#x6bcd;&#x7684;&#x570b;&#x5bb6;&#x4ee3;&#x78bc;&#x3002;&#x4f8b;&#x5982;&#xff0c;'en'&#x6216;'eng'&#x4ee3;&#x8868;&#x82f1;&#x8a9e;&#xff0c;'akk'&#x4ee3;&#x8868;&#x963f;&#x5361;&#x4e01;&#x8a9e;(Akkadian)&#xff0c;'en-GB'&#x4ee3;&#x8868;&#x5728;&#x82f1;&#x570b;&#x4f7f;&#x7528;&#x7684;&#x82f1;&#x8a9e;&#x3002;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+	<rdfs:label xml:lang="zh-TW">
+	&#x95dc;&#x9023;&#xff08;Relation&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x76f8;&#x95dc;&#x8cc7;&#x6e90;&#x4e4b;&#x53c3;&#x7167;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x5efa;&#x8b70;&#x4f7f;&#x7528;&#x5b57;&#x4e32;&#x6216;&#x6578;&#x5b57;&#x6240;&#x7d44;&#x6210;&#x7684;&#x8b58;&#x5225;&#x7cfb;&#x7d71;&#x4f86;&#x8fa8;&#x8b58;&#x53c3;&#x7167;&#x8cc7;&#x6e90;&#x3002;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+	<rdfs:label xml:lang="zh-TW">
+	&#x4f86;&#x6e90;&#xff08;Source&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x8aaa;&#x660e;&#x884d;&#x751f;&#x51fa;&#x672c;&#x8cc7;&#x6e90;&#x7684;&#x539f;&#x59cb;&#x8cc7;&#x6e90;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x672c;&#x8cc7;&#x6e90;&#x53ef;&#x80fd;&#x5b8c;&#x5168;&#x6216;&#x90e8;&#x4efd;&#x7531;&#x539f;&#x59cb;&#x8cc7;&#x6e90;&#x884d;&#x751f;&#x800c;&#x51fa;&#x3002;&#x5efa;&#x8b70;&#x5229;&#x7528;&#x5b57;&#x4e32;&#x6216;&#x6578;&#x5b57;&#x6240;&#x7d44;&#x6210;&#x7684;&#x8b58;&#x5225;&#x7cfb;&#x7d71;&#x4f86;&#x8868;&#x793a;&#x5176;&#x539f;&#x59cb;&#x8cc7;&#x6e90;&#x3002;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+	<rdfs:label xml:lang="zh-TW">
+	&#x6642;&#x7a7a;&#x6db5;&#x84cb;&#x7bc4;&#x570d;&#xff08;Coverage&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x8cc7;&#x6e90;&#x5167;&#x5bb9;&#x6240;&#x6db5;&#x84cb;&#x4e4b;&#x7a7a;&#x9593;&#x6216;&#x6642;&#x9593;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x6642;&#x7a7a;&#x6db5;&#x84cb;&#x7bc4;&#x570d;&#x5305;&#x62ec;&#x5730;&#x9ede;&#xff08;&#x5730;&#x540d;&#x6216;&#x5730;&#x7406;&#x5ea7;&#x6a19;&#xff09;&#xff0c;&#x6642;&#x671f;&#xff08;&#x6642;&#x671f;&#x540d;&#x7a31;&#x3001;&#x65e5;&#x671f;&#x6216;&#x671f;&#x9593;&#xff09;&#xff0c;&#x6216;&#x653f;&#x6cbb;&#x8f44;&#x5340;&#xff08;&#x5982;&#x67d0;&#x884c;&#x653f;&#x5be6;&#x9ad4;&#xff09;&#x3002;&#x5efa;&#x8b70;&#x4f7f;&#x7528;&#x63a7;&#x5236;&#x8a5e;&#x5f59;&#xff08;&#x5982;Thesaurus of Geographic Names [TGN]&#xff09;&#xff0c;&#x4e26;&#x4f7f;&#x7528;&#x6578;&#x5b57;&#x8868;&#x793a;&#x5730;&#x7406;&#x5ea7;&#x6a19;&#x6216;&#x65e5;&#x671f;&#x671f;&#x9593;&#x3002;
+	</dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+	<rdfs:label xml:lang="zh-TW">
+	&#x6b0a;&#x9650;&#x7ba1;&#x7406;&#xff08;Rights Management&#xff09;
+	</rdfs:label>
+	<rdfs:comment xml:lang="zh-TW">
+	&#x6709;&#x95dc;&#x6b0a;&#x9650;&#x7684;&#x76f8;&#x95dc;&#x8cc7;&#x8a0a;&#xff0c;&#x5305;&#x62ec;&#x8cc7;&#x6e90;&#x539f;&#x6709;&#x7684;&#x6216;&#x88ab;&#x8ce6;&#x4e88;&#x7684;&#x6b0a;&#x9650;&#x3002;
+	</rdfs:comment>
+	<dc:description xml:lang="zh-TW">
+	&#x6b0a;&#x9650;&#x7ba1;&#x7406;&#x5305;&#x62ec;&#x8cc7;&#x6e90;&#x7684;&#x6b0a;&#x9650;&#x7533;&#x660e;&#xff0c;&#x6216;&#x8aaa;&#x660e;&#x63d0;&#x4f9b;&#x8a72;&#x8cc7;&#x6e90;&#x7684;&#x670d;&#x52d9;&#x6a5f;&#x69cb;&#x3002;&#x6b0a;&#x9650;&#x8cc7;&#x8a0a;&#x901a;&#x5e38;&#x5305;&#x62ec;&#x667a;&#x6167;&#x8ca1;&#x7522;&#x6b0a;&#x3001;&#x8457;&#x4f5c;&#x6b0a;&#x53ca;&#x5176;&#x4ed6;&#x7522;&#x6b0a;&#x3002;&#x82e5;&#x6b64;&#x6b0a;&#x9650;&#x7ba1;&#x7406;&#x7684;&#x6b04;&#x4f4d;&#x672a;&#x8457;&#x9304;&#xff0c;&#x4f7f;&#x7528;&#x8005;&#x4ea6;&#x4e0d;&#x5f97;&#x64c5;&#x81ea;&#x8a8d;&#x5b9a;&#x8cc7;&#x6e90;&#x672c;&#x8eab;&#x539f;&#x6709;&#x7684;&#x6216;&#x88ab;&#x8ce6;&#x4e88;&#x7684;&#x6b0a;&#x9650;&#x3002;
+	</dc:description>
+</rdf:Property>
+
+</rdf:RDF>

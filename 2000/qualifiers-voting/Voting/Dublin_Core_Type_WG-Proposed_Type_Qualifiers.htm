@@ -1,0 +1,263 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0051)http://www.loc.gov/marc/dc/typequalif-19991210.html -->
+<HTML><HEAD><TITLE>Dublin Core Type WG - Proposed Type Qualifiers</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META content="Resource Type qualifiers Dublin Core" name=keywords>
+<META 
+content="Proposes use of qualifiers in Dublin Core implementations for the element Resource Type." 
+name=description>
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff>
+<H1>Dublin Core Metadata Initiative</H1>
+<P>
+<H2>DC Type Qualifiers</H2>
+<P>
+<H3>DC Working Draft - 10 December 1999</H3>
+<P>
+<H4><B>This version:</B>&lt;<A 
+href="http://lcweb.loc.gov/marc/dc/typequalif-19991210.html">http://lcweb.loc.gov/marc/dc/typequalif-19991210.html</A>&gt; 
+</H4>
+<H4><B>Latest version:</B>&lt;<A 
+href="http://lcweb.loc.gov/marc/dc/typequalif-19991210.html">http://lcweb.loc.gov/marc/dc/typequalif-19991210.html</A>&gt;</H4>
+<P><B>Editor:</B>Rebecca Guenther &lt;<A 
+href="mailto://rgue@loc.gov">mailto://rgue@loc.gov</A>&gt; 
+<P>
+<H3>Status of this document</H3>
+<P>This document is a Working Draft of the Dublin Core Metadata Initiative 
+[DCMI], and is intended to reflect consensus reached within the Type Working 
+Group [DCTYPE] of the DCMI. 
+<P>This is the FINAL version of the Working Draft. Publication as a Final 
+Working Draft does not imply endorsement by the DCMI. This document has been 
+submitted to the DCMI Usage Committee as input into the development of the 
+Qualifiers for the Dublin Core Metadata Element Set. 
+<P>Comments and feedback should be sent to the working group mailing list, 
+&lt;<A 
+href="http://lcweb.loc.gov/marc/dc/dc-type@mailbase.ac.uk">dc-type@mailbase.ac.uk</A>&gt;, 
+the archives for which may be browsed at &lt;<A 
+href="http://www.mailbase.ac.uk/lists/dc-type/">http://www.mailbase.ac.uk/lists/dc-type/</A>&gt; 
+(NOTE, you must be a member of the WG to post messages to the WG) or, 
+alternatively, send your feedback to the Editor of this Working Draft. 
+<P>
+<HR>
+
+<P>
+<H2><B>QUALIFIER PROPOSAL : TYPE : TYPE QUALIFIER</B></H2>
+<P>Since most implementors do not qualify RESOURCE TYPE with type qualifiers it 
+is proposed that they not be used. Although one was proposed in the previous 
+proposal (Note), it was not endorsed at the DC7 meeting. Consensus was that any 
+textual notes about genre should go in DC.Description. 
+<P>Any other type qualifiers will be considered application-specific qualifiers, 
+such as those used by the Australian Government Information Service (Qualifiers: 
+Category, aggregationLevel, documentType, serviceType) 
+<P>
+<HR>
+
+<P>
+<H2><B>QUALIFIER PROPOSAL : TYPE : DCT1 </B></H2>
+<UL>
+  <LI><I>working group defining the qualifier</I> <BR>DC-Type 
+  <LI><I>which DC element is being qualified?</I> <BR><B>Type</B> 
+  <LI><I>proposed name of the qualifier</I> <BR><B>DCT1</B> 
+  <LI><I>definition of the qualifier</I> <BR>A controlled vocabulary indicating 
+  the nature or genre of the resource. 
+  <LI><I>does the qualifier refine the semantics of the element (y/n)</I> 
+  <BR>yes 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by the DCMI? (y/n) </I><BR>yes 
+  <LI><I>is the qualifier a controlled vocabulary (enumerated list of values) 
+  maintained by another organization? (y/n). If yes, please supply a URL 
+  pointing to further information about the vocabulary (if available). 
+  </I><BR>no 
+  <LI><I>is the qualifier a formal encoding format (y/n). If yes, please supply 
+  a URL pointing to further information about the format (if available).</I> 
+  <BR>no 
+  <LI><I>identify potential overlap/conflicts with other qualifiers if 
+  applicable (optional)</I> <BR>There is a potential conflict between 
+  'Physical', in the DCF1 value qualifier for Format, and the possible inclusion 
+  of 'physical object', in the proposed DCT1 value qualifier for Type. 
+  <LI><I>justification/explanation (optional but recommended)</I><BR>In the 
+  absense of an application-specific list, <A 
+  href="http://purl.org/dc/documents/wd-typelist.htm">DCT1</A> is provided as a 
+  general list (as modified below). In cases where a specific list is used, best 
+  practice is to use a value from DCT1 in addition to any from the specific 
+  list. Many implementors tend to use their own lists of values for types, 
+  developed for their particular applications. The scheme qualifier is used to 
+  specify the specific list. </LI></UL>
+<P>DCT1 is a DCMI-maintained enumerated list containing the following possible 
+values. 
+<P>
+<UL>
+  <LI>collection 
+  <LI>dataset 
+  <LI>event 
+  <LI>image 
+  <LI>interactive resource 
+  <LI>model 
+  <LI>party 
+  <LI>physical object 
+  <LI>place 
+  <LI>service 
+  <LI>software 
+  <LI>sound 
+  <LI>text</LI></UL>
+<P>These can be defined and used as follows:</P>
+<DL>
+  <DT><I>collection</I>
+  <DD>an aggregation of items. The term collection means that the resource is 
+  described as a group; its parts may be separately described and navigated.
+  <DT><I>dataset</I> 
+  <DD>structured information encoded in lists, tables, databases, etc., which 
+  will normally be in a format available for direct machine processing. For 
+  example - spreadsheets, databases, GIS data, midi data. Note that unstructured 
+  numbers and words will normally be considered to be type <I>text</I>. 
+  <DT><I>event</I> 
+  <DD>a non-persistent, time-based occurrence. Metadata for an event provides 
+  descriptive information that is the basis for discovery of the purpose, 
+  location, duration, responsible agents, and links to related events and 
+  resources. The resource of type <I>event</I> may not be retrievable if the 
+  described instantiation has expired or is yet to occur. Examples - exhibition, 
+  web-cast, conference, workshop, open-day, performance, battle, trial, wedding, 
+  tea-party, conflagration. 
+  <DT><I>image</I>
+  <DD>the content is primarily symbolic visual representation other than text. 
+  For example - images and photographs of physical objects, paintings, prints, 
+  drawings, other images and graphics, animations and moving pictures, film, 
+  diagrams, maps, musical notation. Note that image may include both electronic 
+  and physical representations.
+  <DT><I>interactive resource</I>
+  <DD>a resource which requires interaction from the user to be understood, 
+  executed, or experienced. For example - forms on web pages, applets, 
+  multimedia learning objects, chat services, virtual reality. 
+  <DT><I>model</I>
+  <DD>an abstraction of the real thing, i.e. some generalisation and 
+  interpretation. Models could be considered a symbolic representation. Examples 
+  include performance models, cost models, mechanical models, etc. 
+  <DT><I>party</I>
+  <DD>a person, organization, cultural group, or institution. 
+  <DT><I>place</I> 
+  <DD>a geographic area. 
+  <DT><I>physical object</I> 
+  <DD>a non-human object or substance. This category includes objects that do 
+  not fit into any of the other categories on this list. In addition these 
+  objects must be approached physically to make use of them. For example - a 
+  computer, the great pyramid, a sculpture, wheat. Note that digital 
+  representations of, or surrogates for, these things should use <I>image</I>, 
+  <I>text</I> or one of the other types. 
+  <DT><I>service</I> 
+  <DD>a system that provides one or more functions of value to the end-user. 
+  Examples include: a photocopying service, a banking service, an authentication 
+  service, interlibrary loans, a Z39.50 or Web server. 
+  <DT><I>software</I> 
+  <DD>a computer program in source or compiled form which may be available for 
+  installation non-transiently on another machine. For software which exists 
+  only to create an interactive environment, use <I>interactive</I> instead. 
+  <DT><I>sound</I>
+  <DD>a resource whose content is primarily audio or intended to be realized in 
+  audio. For example - music, speech, recorded sounds. This category includes 
+  musical notation, including score, which is unrealized in sound.
+  <DT><I>text</I> 
+  <DD>a resource whose content is primarily words for reading. For example - 
+  books, letters, dissertations, poems, newspapers, articles, archives of 
+  mailing lists. Note that facsimiles or images of texts are still of the genre 
+  text. 
+  <UL></UL><BR>Examples include:
+  <P>DC.Type (scheme=DCT1) = image <BR>DC.Type (scheme=DCT1) = collection<BR>
+  <P>Type may be repeated as necessary to include different categories. Examples 
+  are multimedia resources, which should include each appropriate category, and 
+  collections, which should include "collection" and any other appropriate 
+  type(s) (e.g. "text", "image", etc.). 
+  <P>Note that the values above consist of names that may be represented as 
+  tokens. Tokens should be expressed as follows: 
+  <P>
+  <CENTER>
+  <TABLE border=1 width="80%">
+    <TBODY>
+    <TR>
+      <TH>
+    <TR>
+      <TD width="50%">Name</TD>
+      <TD width="50%">Token</TD></TR></TH>
+    <TR>
+      <TD>collection</TD>
+      <TD>collection</TD></TR>
+    <TR>
+      <TD>dataset</TD>
+      <TD>dataset</TD></TR>
+    <TR>
+      <TD>event</TD>
+      <TD>event</TD></TR>
+    <TR>
+      <TD>image</TD>
+      <TD>image</TD></TR>
+    <TR>
+      <TD>interactive resource</TD>
+      <TD>interactive</TD></TR>
+    <TR>
+      <TD>model</TD>
+      <TD>model</TD></TR>
+    <TR>
+      <TD>party</TD>
+      <TD>party</TD></TR>
+    <TR>
+      <TD>physical object</TD>
+      <TD>physical</TD></TR>
+    <TR>
+      <TD>place</TD>
+      <TD>place</TD></TR>
+    <TR>
+      <TD>service</TD>
+      <TD>service</TD></TR>
+    <TR>
+      <TD>software</TD>
+      <TD>software</TD></TR>
+    <TR>
+      <TD>sound</TD>
+      <TD>sound</TD></TR>
+    <TR>
+      <TD>text</TD>
+      <TD>text</TD></TR></TBODY></TABLE></CENTER>
+  <P>
+  <HR>
+
+  <H2><B>QUALIFIER PROPOSAL : TYPE : SCHEME QUALIFIERS</B></H2>
+  <P>
+  <P>Proposal is to use an enumerated list of values and to specify the list 
+  being used. Future work includes compiling a list of schemes maintained 
+  outside of DCMI. 
+  <P>
+  <HR>
+
+  <P><B>
+  <H2>Future work:</H2></B>
+  <P>It is proposed that the Type Working Group investigate the following: 
+  <UL>
+    <LI>consider whether any list of resource types exists for general use that 
+    might be used to further specify subtypes within the broad categories of 
+    values in DCT1 
+    <LI>If not, develop a "DCT2" that includes the broad categories of DCT1 with 
+    subtypes 
+    <LI>compile a document specifying existing lists of resource types for 
+    specific applications</LI></UL>Note that the DC Citation Working Group 
+  concluded that "journal article" should be included as a value on a controlled 
+  list of types with subtypes. 
+  <P>
+  <HR>
+
+  <P><B>
+  <H3>Previous versions:</H3></B>
+  <P>[1] &lt;<A href="http://lcweb.loc.gov/marc/dc/typequalif-19991118.html">DC 
+  Type Working Group Proposal for Qualifier Usage (Revised 18 November 
+  1999)</A>&gt;<BR>[2] &lt;<A 
+  href="http://lcweb.loc.gov/marc/dc/typelist-19991118.html">List of Resource 
+  Types (DCT1) Proposed Revision November 1999</A>&gt;<BR>[3] &lt;<A 
+  href="http://www.oclc.org/oclc/research/projects/core/groups/qualifierproposal-type.htm"> 
+  DC Type Working Group Proposal for Qualifier Usage (September 
+  1999)</A>&gt;<BR>[4] &lt;<A 
+  href="http://purl.org/dc/documents/wd-typelist.htm">List of Resource Types 
+  (DCT1)</A>&gt; (August 1999)<BR>
+  <H3><B>Related document:</B></H3>[1] &lt;<A 
+  href="http://www.loc.gov/marc/dc/typequalif.html">DC Type Working Group Review 
+  of Resource Type Qualifier Usage</A>&gt; (August 1999) 
+  <P>
+  <HR>
+  </DD></DL></BODY></HTML>

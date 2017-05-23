@@ -1,0 +1,1219 @@
+<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<!-- <base href="http://dublincore.org/" /> -->
+<meta name="generator" content="HTML Tidy, see www.w3.org">
+<title>MARC Relator Properties in Dublin Core Metadata</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="index_files/default.css" type="text/css">
+<link rel="meta" href="http://www.ukoln.ac.uk/metadata/dcmi/marcrel-ex/index.shtml.rdf">
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<meta name="dc.title" content="MARC Relator Properties in Dublin Core Metadata" lang="en">
+<meta name="dc.creator" content="Pete Johnston">
+<meta name="dcterms.issued" scheme="dcterms.W3CDTF" content="2005-12-07">
+<meta name="dcterms.abstract" content="This document provides some examples of the use of the MARC Relator properties in Dublin Core metadata descriptions.">
+<meta name="dc.format" scheme="dcterms.IMT" content="text/html">
+<meta name="dc.type" scheme="dcterms.DCMIType" content="Text">
+
+
+</head>
+<body>
+
+<!--
+<div class="menu">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"
+bgcolor="#FF6600" summary="navigation header">
+<tr>
+<td width="70"><a href="/index.shtml"><img src=
+"/images/header/logo_sm.gif" width="150" height="70" alt=
+"Dublin Core Metadata Initiative logo" border="0" /></a></td>
+<td width="100%" height="70" align="right" valign="top">
+<table width="328" cellspacing="0" cellpadding="0" border="0"
+summary="navigation links">
+<tr>
+<td width="82" height="30"><a href="/about/"><img src=
+"/images/menu/about.gif" width="82" height="30" alt=
+"About the Initiative" border="0" /></a></td>
+<td width="82" height="30"><a href="/documents/"><img src=
+"/images/menu/documents.gif" width="82" height="30" alt="Documents"
+border="0" /></a></td>
+<td width="82" height="30"><a href="/groups/"><img src=
+"/images/menu/groups.gif" width="82" height="30" alt=
+"Working Groups" border="0" /></a></td>
+<td width="82" height="30"><a href="/resources/"><img src=
+"/images/menu/resources.gif" width="82" height="30" alt="Resources"
+border="0" /></a></td>
+</tr>
+
+<tr>
+<td width="82" height="30"><a href="/news/"><img src=
+"/images/menu/news.gif" width="82" height="30" alt=
+"Dublin Core Metadata Initiative News" border="0" /></a></td>
+<td width="82" height="30"><a href="/tools/"><img src=
+"/images/menu/tools.gif" width="82" height="30" alt=
+"Tools and Software" border="0" /></a></td>
+<td width="82" height="30"><a href="/meetings/"><img src=
+"/images/menu/meetings.gif" width="82" height="30" alt="Meetings"
+border="0" /></a></td>
+<td width="82" height="30"><a href="/projects/"><img src=
+"/images/menu/projects.gif" width="82" height="30" alt="Projects"
+border="0" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" height="30"><a href="/index.shtml"><img src=
+"/images/header/dcmi_sm.gif" width="329" height="30" alt=
+"Dublin Core Metadata Initiative" border="0" /></a></td>
+</tr>
+</table>
+</div>
+
+<div class="search">
+<table width="100%" cellspacing="0" cellpadding="6" border="0"
+summary="bread crumbs">
+<tr>
+<td class="crumb"><a href="http://dublincore.org/">Home</a>
+&gt;&nbsp;<a href="http://dublincore.org/documents/">
+Documents</a>&nbsp;&gt;&nbsp;</td>
+<td align="right">
+<form action="http://dublincore.org/search/searchServlet" method=
+"post"><input type="hidden" name="predicate" value="all" /> <input
+type="hidden" name="matchType" value="exact phrase" /> <input type=
+"hidden" name="searchCase" value="N" />
+
+<table cellspacing="0" cellpadding="2" border="0" summary=
+"keyword search">
+<tr>
+<td nowrap="nowrap"><input type="text" value="Enter keyword" name=
+"searchTerm" size="20" onfocus=
+"if(this.value=='Enter keyword')this.value='';" onblur=
+"if(this.value=='')this.value='Enter keyword';" /> &nbsp;</td>
+<td><input type="submit" name="submit" value="Search" /></td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+</div>
+
+<hr noshade="noshade" size="note1" title=
+"separator from menu and keyword search" />
+-->
+
+<table summary="A layout table with descriptive information about this document." border="0" width="100%">
+<tbody><tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Title:</strong></div>
+</td>
+<td width="76%">
+<div align="left">
+<h2>MARC Relator Properties in Dublin Core Metadata</h2>
+</div>
+</td>
+</tr>
+
+<tr>
+<td height="22" valign="top" width="24%">
+<div align="left"><strong>Creator:</strong></div>
+</td>
+<td height="22" width="76%">
+<div align="left">Pete Johnston</div>
+</td>
+</tr>
+
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Date Issued:</strong></div>
+</td>
+<td width="76%">
+<div align="left">2005-12-07</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Identifier:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/marcrel-ex/2005-12-07/">
+http://www.ukoln.ac.uk/metadata/dcmi/marcrel-ex/2005-12-07/</a></div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Replaces:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/marcrel-ex/2005-12-06/">
+http://www.ukoln.ac.uk/metadata/dcmi/marcrel-ex/2005-12-06/</a></div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Is Replaced By:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="24%">
+<div align="left"><strong>Latest Version:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/marcrel-ex/">
+http://www.ukoln.ac.uk/metadata/dcmi/marcrel-ex/</a></div>
+</td>
+</tr>
+
+<!--
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Status of Document:</strong></div>
+</td>
+<td width="76%">
+<div align="left">This is a DCMI <a href=
+"/documents/#workingdrafts">Working Draft</a>.</div>
+</td>
+</tr>
+
+-->
+<tr>
+<td valign="top" width="24%"><strong>Description of
+Document:</strong></td>
+<td width="76%">This document provides some examples of the use of the MARC Relator properties in Dublin Core metadata descriptions.</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+<hr>
+</td>
+</tr>
+</tbody></table>
+
+<div>
+
+<div>
+
+<h3>Element Refinement: Summary</h3>
+
+<p>According to the <em>DCMI Abstract Model</em>, a DC metadata 
+description is a set of one or more statements about a single resource, 
+and a statement is a two-part construct consisting of a reference to a 
+property and a reference to a second resource, a value [<a href="#DCMIAM">DCMIAM</a>].
+ The reference to the subject of the description is made by a URI (the 
+"resource URI"). The reference to a property also takes the form of a 
+URI (the "property URI"). The reference to the value may take the form 
+of a URI or a "value representation". For the purposes of this 
+discussion, the examples show the simplest cases where that reference 
+takes the form of a URI (a "value URI") or a representation in the form 
+of a string (a "value string").</p>
+
+<p>Each statement asserts that a relationship of the type indicated by 
+the property exists between two resources: the resource that is the 
+subject of the description, and the value.</p>
+
+<p>If the definitions of two properties are such that whenever two 
+resources are related by the first property they are also related by the
+ second property, the first property is said to "refine", or to be a 
+"refinement" of the second property.</p>
+
+<p>So for example, the definition of the property <code>marcrel:CTG</code>
+ (Cartographer) is "A person or organization responsible for the 
+creation of maps and other cartographic materials", and the definition 
+of the property <code>dc:contributor</code> is "An entity responsible 
+for making contributions to the content of the resource". A cartographer
+ is always "An entity responsible for making contributions to the 
+content of the resource", so the <code>marcrel:CTG</code> property refines the <code>dc:contributor</code> property (see note [<a href="#note1">1</a>]).</p>
+
+<p>Conversely, with the information that the <code>marcrel:CTG</code> property refines the <code>dc:contributor</code> property, if an application encounters the description:</p>
+
+<table align="center" border="note1" cellpadding="note1" width="90%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URI
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="30%">
+<p><code>http://example.org/things/resource</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="33%">
+Property URI
+</th>
+<th align="center" width="33%">
+Value URI
+</th>
+<th align="center" width="33%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+<p><code>http://www.loc.gov/loc.terms/relators/CTG</code></p>
+</td>
+<td align="center" valign="top" width="33%">
+<p>&nbsp;</p>
+</td>
+<td align="center" valign="top" width="33%">
+<p align="left"><code>"John Smith"</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<p>then it can be inferred that it is also true that</p>
+
+<table align="center" border="note1" cellpadding="note1" width="90%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URI
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="30%">
+<p><code>http://example.org/things/resource</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="33%">
+Property URI
+</th>
+<th align="center" width="33%">
+Value URI
+</th>
+<th align="center" width="33%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+<p><code>http://purl.org/dc/elements/1.1/contributor</code></p>
+</td>
+<td align="center" valign="top" width="33%">
+<p>&nbsp;</p>
+</td>
+<td align="center" valign="top">
+<p align="left"><code>"John Smith"</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<p>The "dumb-down" process utilises inferences such as this to derive 
+(wherever possible) statements that reference the properties of the 
+Dublin Core Metadata Element Set.</p>
+
+</div>
+
+<div>
+
+<h3>Example 1 : Contributor</h3>
+
+<p>The information that a named entity is a contributor to the content of a resource could be represented as follows:</p>
+
+<table align="center" border="note1" cellpadding="note1" width="90%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URI
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="30%">
+<p><code>http://example.org/things/resource</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="33%">
+Property URI
+</th>
+<th align="center" width="33%">
+Value URI
+</th>
+<th align="center" width="33%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+<p><code>http://purl.org/dc/elements/1.1/contributor</code></p>
+</td>
+<td align="center" valign="top" width="33%">
+<p>&nbsp;</p>
+</td>
+<td align="center" valign="top" width="33%">
+<p align="left"><code>"John Smith"</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<br><br>
+
+<div align="center">
+<a name="example1RDF" id="example1RDF"></a>
+
+<table summary="Example 1: RDF" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+
+  &lt;rdf:Description rdf:about="http://example.org/things/resource"
+                   dc:contributor="John Smith" /&gt;
+
+&lt;/rdf:RDF&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 1: RDF/XML</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example1XHTML" id="example1XHTML"></a>
+
+<table summary="Example 1: XHTML" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+
+  &lt;head profile="http://dublincore.org/documents/dcq-html/"&gt;
+    &lt;link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" /&gt;
+    &lt;meta name="DC.contributor" content="John Smith" /&gt;
+  &lt;/head&gt;
+
+&lt;/html&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 1: XHTML</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example1DCXML" id="example1DCXML"></a>
+
+<table summary="Example 1: DC-XML" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;descriptionSet xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+
+  &lt;description&gt;
+    &lt;dc:contributor&gt;John Smith&lt;/dc:contributor&gt;
+  &lt;/description&gt;
+
+&lt;descriptionSet&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 1: DC-XML</strong></p>
+
+</div>
+
+<p>Note: The XML format defined by the current guidelines for encoding DC metadata in XML [<a href="#DC-XML">DC-XML</a>] does not provide a mechanism for encoding a Resource URI.</p>
+
+</div>
+
+<div>
+
+<h3>Example 2: MARC Relator property is not subproperty of DC property</h3>
+
+<p>The information that a named entity is the owner of a resource could be represented as follows:</p>
+
+<table align="center" border="note1" cellpadding="note1" width="90%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URI
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="30%">
+<p><code>http://example.org/things/resource</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="33%">
+Property URI
+</th>
+<th align="center" width="33%">
+Value URI
+</th>
+<th align="center" width="33%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+<p><code>http://www.loc.gov/loc.terms/relators/OWN</code></p>
+</td>
+<td align="center" valign="top" width="33%">
+<p>&nbsp;</p>
+</td>
+<td align="center" valign="top" width="33%">
+<p align="left"><code>"John Smith"</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<br><br>
+
+<div align="center">
+<a name="example2RDF" id="example2RDF"></a>
+
+<table summary="Example 2: RDF" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"&gt;
+
+  &lt;rdf:Description rdf:about="http://example.org/things/resource"
+                   marcrel:OWN="John Smith" /&gt;
+
+&lt;/rdf:RDF&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 2: RDF/XML</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example2XHTML" id="example2XHTML"></a>
+
+<table summary="Example 2: XHTML" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+
+  &lt;head profile="http://dublincore.org/documents/dcq-html/"&gt;
+    &lt;link rel="schema.MARCREL" href="http://www.loc.gov/loc.terms/relators/" /&gt;
+    &lt;meta name="MARCREL.OWN" content="John Smith" /&gt;
+  &lt;/head&gt;
+
+&lt;/html&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 2: XHTML</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example2DCXML" id="example2DCXML"></a>
+
+<table summary="Example 2: DC-XML" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;descriptionSet xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"&gt;
+
+  &lt;description&gt;
+    &lt;marcrel:OWN&gt;John Smith&lt;/marcrel:OWN&gt;
+  &lt;/description&gt;
+
+&lt;descriptionSet&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 2: DC-XML</strong></p>
+
+</div>
+
+<p>As there is no assertion of a refinement relationship between the property <code>marcrel:OWN</code>
+ and any other property, no inference can be made, and this statement 
+would not be represented in a "dumbed-down" metadata description.</p>
+
+</div>
+
+
+<div>
+
+<h3>Example 3: MARC Relator property is subproperty of DC property</h3>
+
+<p>The information that a named entity is the illustrator of a resource could be represented as follows:</p>
+
+<table align="center" border="note1" cellpadding="note1" width="90%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URI
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="30%">
+<p><code>http://example.org/things/resource</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="33%">
+Property URI
+</th>
+<th align="center" width="33%">
+Value URI
+</th>
+<th align="center" width="33%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+<p><code>http://www.loc.gov/loc.terms/relators/ILL</code></p>
+</td>
+<td align="center" valign="top" width="33%">
+<p>&nbsp;</p>
+</td>
+<td align="center" valign="top" width="33%">
+<p align="left"><code>"John Smith"</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<br><br>
+
+<div align="center">
+<a name="example3RDF" id="example3RDF"></a>
+
+<table summary="Example 2: RDF" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"&gt;
+
+  &lt;rdf:Description rdf:about="http://example.org/things/resource"
+                   marcrel:ILL="John Smith" /&gt;
+
+&lt;/rdf:RDF&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 3: RDF/XML</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example3XHTML" id="example3XHTML"></a>
+
+<table summary="Example 3: XHTML" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+
+  &lt;head profile="http://dublincore.org/documents/dcq-html/"&gt;
+    &lt;link rel="schema.MARCREL" href="http://www.loc.gov/loc.terms/relators/" /&gt;
+    &lt;meta name="MARCREL.ILL" content="John Smith" /&gt;
+  &lt;/head&gt;
+
+&lt;/html&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 3: XHTML</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example3DCXML" id="example3DCXML"></a>
+
+<table summary="Example 3: DC-XML" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;descriptionSet xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"&gt;
+
+  &lt;description&gt;
+    &lt;marcrel:ILL&gt;John Smith&lt;/marcrel:ILL&gt;
+  &lt;/description&gt;
+
+&lt;descriptionSet&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 3: DC-XML</strong></p>
+
+</div>
+
+
+<p>As the property <code>marcrel:ILL</code> is declared to be a refinement of the property <code>dc:contributor</code>, the "dumb-down" process would generate the following metadata description:</p>
+
+<table align="center" border="note1" cellpadding="note1" width="90%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URI
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="30%">
+<p><code>http://example.org/things/resource</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="33%">
+Property URI
+</th>
+<th align="center" width="33%">
+Value URI
+</th>
+<th align="center" width="33%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+<p><code>http://purl.org/dc/elements/1.1/contributor</code></p>
+</td>
+<td align="center" valign="top" width="33%">
+<p>&nbsp;</p>
+</td>
+<td align="center" valign="top" width="33%">
+<p align="left"><code>"John Smith"</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+
+</div>
+
+
+
+<div>
+
+<h3>Example 4: Two different relationships between same two resources (1)</h3>
+
+<p>If the same entity is both an owner of a resource and a publisher of 
+the resource, then that can be represented as two statements about the 
+resource:</p>
+
+<table align="center" border="note1" cellpadding="note1" width="90%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URI
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="30%">
+<p><code>http://example.org/things/resource</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="33%">
+Property URI
+</th>
+<th align="center" width="33%">
+Value URI
+</th>
+<th align="center" width="33%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+<p><code>http://purl.org/dc/elements/1.1/publisher</code></p>
+</td>
+<td align="center" valign="top" width="33%">
+<p>&nbsp;</p>
+</td>
+<td align="center" valign="top">
+<p align="left"><code>"John Smith"</code></p>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+<p><code>http://www.loc.gov/loc.terms/relators/OWN</code></p>
+</td>
+<td align="center" valign="top" width="33%">
+<p>&nbsp;</p>
+</td>
+<td align="center" valign="top" width="33%">
+<p align="left"><code>"John Smith"</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<br><br>
+
+<div align="center">
+<a name="example4RDF" id="example4RDF"></a>
+
+<table summary="Example 4: RDF" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"&gt;
+
+  &lt;rdf:Description rdf:about="http://example.org/things/resource"
+                   dc:publisher="John Smith" marcrel:OWN="John Smith" /&gt;
+
+&lt;/rdf:RDF&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 4: RDF/XML</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example4XHTML" id="example4XHTML"></a>
+
+<table summary="Example 4: XHTML" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+
+  &lt;head profile="http://dublincore.org/documents/dcq-html/"&gt;
+    &lt;link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" /&gt;
+    &lt;link rel="schema.MARCREL" href="http://www.loc.gov/loc.terms/relators/" /&gt;
+    &lt;meta name="DC.publisher" content="John Smith" /&gt;
+    &lt;meta name="MARCREL.OWN" content="John Smith" /&gt;
+  &lt;/head&gt;
+
+&lt;/html&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 4: XHTML</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example4DCXML" id="example4DCXML"></a>
+
+<table summary="Example 4: DC-XML" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;descriptionSet xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"
+                xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+
+  &lt;description&gt;
+    &lt;dc:publisher&gt;John Smith&lt;/dc:publisher&gt;
+    &lt;marcrel:OWN&gt;John Smith&lt;/marcrel:OWN&gt;
+  &lt;/description&gt;
+
+&lt;descriptionSet&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 4: DC-XML</strong></p>
+
+</div>
+
+
+<p>The "dumb-down" process would result in a description containing only a single statement:</p>
+
+<table align="center" border="note1" cellpadding="note1" width="90%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URI
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="30%">
+<p><code>http://example.org/things/resource</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="33%">
+Property URI
+</th>
+<th align="center" width="33%">
+Value URI
+</th>
+<th align="center" width="33%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+<p><code>http://purl.org/dc/elements/1.1/publisher</code></p>
+</td>
+<td align="center" valign="top" width="33%">
+<p>&nbsp;</p>
+</td>
+<td align="center" valign="top" width="33%">
+<p align="left"><code>"John Smith"</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+</div>
+
+
+
+<div>
+
+<h3>Example 5: Two different relationships between same two resources (2)</h3>
+
+<p>If the same entity is both an illustrator of a resource and a 
+publisher of the resource, then that can be represented as two 
+statements about the resource:</p>
+
+<table align="center" border="note1" cellpadding="note1" width="90%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URI
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="30%">
+<p><code>http://example.org/things/resource</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="33%">
+Property URI
+</th>
+<th align="center" width="33%">
+Value URI
+</th>
+<th align="center" width="33%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+<p><code>http://purl.org/dc/elements/1.1/publisher</code></p>
+</td>
+<td align="center" valign="top" width="33%">
+<p>&nbsp;</p>
+</td>
+<td align="center" valign="top">
+<p align="left"><code>"John Smith"</code></p>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+<p><code>http://www.loc.gov/loc.terms/relators/ILL</code></p>
+</td>
+<td align="center" valign="top" width="33%">
+<p>&nbsp;</p>
+</td>
+<td align="center" valign="top" width="33%">
+<p align="left"><code>"John Smith"</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<br><br>
+
+<div align="center">
+<a name="example5RDF" id="example5RDF"></a>
+
+<table summary="Example 5: RDF" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"&gt;
+
+  &lt;rdf:Description rdf:about="http://example.org/things/resource"
+                   dc:publisher="John Smith" marcrel:ILL="John Smith" /&gt;
+
+&lt;/rdf:RDF&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 5: RDF/XML</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example5XHTML" id="example5XHTML"></a>
+
+<table summary="Example 5: XHTML" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+
+  &lt;head profile="http://dublincore.org/documents/dcq-html/"&gt;
+    &lt;link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" /&gt;
+    &lt;link rel="schema.MARCREL" href="http://www.loc.gov/loc.terms/relators/" /&gt;
+    &lt;meta name="DC.publisher" content="John Smith" /&gt;
+    &lt;meta name="MARCREL.ILL" content="John Smith" /&gt;
+  &lt;/head&gt;
+
+&lt;/html&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 5: XHTML</strong></p>
+
+</div>
+
+<div align="center">
+<a name="example5DCXML" id="example5DCXML"></a>
+
+<table summary="Example 5: DC-XML" align="center" cellpadding="5" width="90%">
+<tbody><tr>
+<td bgcolor="#cccccc">
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;descriptionSet xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"
+                xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+
+  &lt;description&gt;
+    &lt;dc:publisher&gt;John Smith&lt;/dc:publisher&gt;
+    &lt;marcrel:ILL&gt;John Smith&lt;/marcrel:ILL&gt;
+  &lt;/description&gt;
+
+&lt;descriptionSet&gt;
+</pre>
+</td>
+</tr>
+</tbody></table>
+
+<p><strong>Example 5: DC-XML</strong></p>
+
+</div>
+
+
+<p>As the property <code>marcrel:ILL</code> is declared to be a refinement of the property <code>dc:contributor</code>, the "dumb-down" process would result in a description containing two statements:</p>
+
+<table align="center" border="note1" cellpadding="note1" width="90%">
+<tbody><tr>
+<th align="center" width="30%">
+Resource URI
+</th>
+<th align="center" width="70%">
+Statements
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="30%">
+<p><code>http://example.org/things/resource</code></p>
+</td>
+<td>
+<table border="note1" cellpadding="note1" width="100%">
+<tbody><tr>
+<th align="center" width="33%">
+Property URI
+</th>
+<th align="center" width="33%">
+Value URI
+</th>
+<th align="center" width="33%">
+Value String
+</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+<p><code>http://purl.org/dc/elements/1.1/publisher</code></p>
+</td>
+<td align="center" valign="top" width="33%">
+<p>&nbsp;</p>
+</td>
+<td align="center" valign="top" width="33%">
+<p align="left"><code>"John Smith"</code></p>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="33%">
+<p><code>http://purl.org/dc/elements/1.1/contributor</code></p>
+</td>
+<td align="center" valign="top" width="33%">
+<p>&nbsp;</p>
+</td>
+<td align="center" valign="top" width="33%">
+<p align="left"><code>"John Smith"</code></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+</div>
+
+
+
+<div>
+<a id="secX" name="secX"></a>
+<h3>Notes</h3>
+
+<a id="note1" name="note1"></a>
+<p><strong>[1]</strong> For the sake of brevity, in the text of this 
+document, property URIs are represented by Qualified Names. Prefixes are
+ assumed to be associated with Namespace Names as follows:</p>
+
+<ul>
+<li><strong>dc:</strong> <code>http://purl.org/dc/elements/1.1/</code></li>
+<li><strong>dcterms:</strong> <code>http://purl.org/dc/terms/</code></li>
+<li><strong>dcmitype:</strong> <code>http://purl.org/dc/dcmitype/</code></li>
+<li><strong>marcrel:</strong> <code>http://www.loc.gov/loc.terms/relators/</code></li>
+<li><strong>rdf:</strong> <code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></li>
+<li><strong>rdfs:</strong> <code>http://www.w3.org/2000/01/rdf-schema#</code></li>
+<li><strong>ex:</strong> <code>http://example.org/things/</code></li>
+</ul>
+
+<p>In the tabular representations of the DC metadata descriptions, the full URI is included.</p>
+
+</div>
+
+<div>
+<a id="secY" name="secY"></a>
+<h3>References</h3>
+
+<a id="DCMIAM" name="DCMIAM"></a>
+<p><strong>[DCMIAM]</strong><br>DCMI Abstract Model<br><a href="http://dublincore.org/documents/abstract-model/">http://dublincore.org/documents/abstract-model/</a></p>
+
+<a id="DC-XML" name="DC-XML"></a>
+<p><strong>[DC-XML]</strong><br>Guidelines for implementing Dublin Core in XML<br><a href="http://dublincore.org/documents/dc-xml-guidelines/">http://dublincore.org/documents/dc-xml-guidelines/</a></p>
+
+</div>
+
+</div>
+
+
+<hr title="separator from page content" size="note1">
+<p><a href="http://validator.w3.org/check/referer"><img src="index_files/valid-xhtml10.gif" alt="Valid XHTML 1.0!" border="0" height="31" width="88"></a><a href="http://jigsaw.w3.org/css-validator"><img src="index_files/vcss.gif" alt="Valid CSS!" border="0" height="31" width="88"></a></p>
+
+<!--
+<div class="metadata">
+<p>Metadata associated with this resource: <a href=
+"http://dublincore.org/documents/dc-elem-refine/index.shtml.rdf">
+http://dublincore.org/documents/dc-elem-refine/index.shtml.rdf</a></p>
+</div>
+-->
+
+<!--
+
+<div class="footer">
+<p><a href="/about/copyright/#copyright">Copyright</a> &copy;
+1995-2004 <acronym title="Dublin Core Metadata Initiative"><a href=
+"http://dublincore.org/">DCMI</a></acronym> All Rights Reserved.
+DCMI <a href="/about/copyright/#liability">liability</a>, <a href=
+"/about/copyright/#trademark">trademark/service mark</a>, <a href=
+"/about/copyright/#documentnotice">document use</a> and <a href=
+"/about/software/">software licensing</a> rules apply. Your
+interactions with this site are in accordance with our <a href=
+"/about/privacy/">privacy</a> statements. Please feel free to <a
+href="/about/contact/">contact us</a> for any questions, comments
+or media inquiries.</p>
+</div>
+
+-->
+
+
+
+
+</body></html>

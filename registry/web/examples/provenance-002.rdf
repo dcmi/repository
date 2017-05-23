@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"  
+            xmlns:dcterms="http://purl.org/dc/terms/">
+<rdf:Description rdf:about='http://www.some_physical_object'>
+<dcterms:provenance>
+The volume was presented to John Smith by Jones and Company on the occasion of his retirement from the company in 1888, and 
+was located in Smith's private library until 1895, when it was sold to Wilson Booksellers of Liverpool. It was purchased for 
+the National Library at auction in Manchester in June 1899.
+</dcterms:provenance>
+</rdf:Description>
+</rdf:RDF>

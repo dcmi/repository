@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/dc/groups/title-openissues.htm">
+   <dc:title>Dublin Core Metadata Initiative - DC-Title Working Group - Open Issues</dc:title>
+   <dc:description>These open issues have been submitted to the DC.Title Working Group for resolution if possible by October 20, 1999, or
+          before the DC 7 meeting. The DC.Title Working Group will not meet in a specific Working Group session at the DC 7
+          meeting, but the final report on the work of the DC.Title WG will be made.</dc:description>
+   <dc:date>1999-10-13</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Dublin Core Metadata Initiative</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

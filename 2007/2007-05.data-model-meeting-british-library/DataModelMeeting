@@ -1,0 +1,137 @@
+@@ Using ID 1175270371.79.57060.
+@@ Comment: None
+@@ Notify: (x) Yes  ( ) No
+@@ Add category: (x) None
+@                ( ) CategoryCategory
+@                ( ) CategoryHomepage
+= RDA Data Models Meeting - 30 April-1 May 2007 =
+= Participants =
+
+||<rowbgcolor='#ffffcc'>'''Tom Baker   '''||Chair of Usage Board, Director Specifications and Documentation, Co-chair DC-Architecture, Dublin Core Metadata Initiative; Co-chair, W3C Semantic Web Deployment Working Group; Co-chair, KIM Working Group (Germany)||
+||<rowbgcolor='#ffffcc'>'''Tom Delsey   '''||RDA Editor.  Consultant to: IFLA Working Group on Functional Requirements for Bibiliographic Records -- FRBR (1992-1997); AGICOA, CISAC, FIAPF, IFPI, International ISBN Agency, ISO TC46/SC9/WG3, and the ISSN International Centre -- Content Development and Rights Management (ISO Technical Report 21449) (2001); Library of Congress, Networks and MARC Standards Office -- Functional Analysis of the MARC 21 Bibliographic and Holdings Formats (2001); IFLA UBCIM Working Group on Functional Requirements and Numbering for Authority Records -- FRAD (2002-2003); IFLA ISBD Review Group -- Mapping ISBD Elements to FRBR Attributes and Relationships (2004); Library of Congress -- Defining an Access Level MARC/AACR Catalog Record (2004).||
+||<rowbgcolor='#ffffcc'>'''Gordon Dunsire   '''||Centre for Digital Library Research, Strathclyde University. Member, CILIP-BL Committee on AACR; Member, RDA Outreach Group; Chair, Cataloguing and Indexing Group in Scotland; Member, Finish Group for DC AP for Collections; Contributor, DC AP for Eprints||
+||<rowbgcolor='#ffffcc'>'''Diane Hillmann   '''||Dublin Core Metadata Initiative Liaison to ALA CC-DA; Member, Dublin Core Usage Board and Advisory Board; Co-Coordinator, DC-Education Community; Editor, "Using Dublin Core"; Administrator, AskDCMI; Research Librarian, Cornell University||
+||<rowbgcolor='#ffffcc'>'''Alistair Miles   '''||Rutherford Appleton Laboratory, UK; Editor, Simple Knowledge Organisation System (SKOS); Editor, "Best Practice Recipes for Publishing RDF Vocabularies"; Member, W3C Semantic Web Deployment Working Group||
+||<rowbgcolor='#ffffcc'>'''[mailto:mikael@nilsson.name Mikael Nilsson]'''||[http://kmr.nada.kth.se KMR Group], KTH Royal Institute of Technology, Sweden, Co-author of DCMI Abstract Model and DC-in-RDF specifications, co-chair of DC-Architecture and of Joint DCMI-IEEE LTSC Task Force (for expressing IEEE LOM using the DCAM)||
+||<rowbgcolor='#ffffcc'>'''Andy Powell'''||Eduserv Foundation; Co-editor, Eprints Application Profile, Co-author, DCMI Abstract Model||
+||<rowbgcolor='#ffffcc'>'''Barbara Tillett   '''||Joint Steering Committee for Revision of AACR ||
+||<rowbgcolor='#ffffcc'>'''Robina Clayphan   '''||Co-ordinator of Bibliographic and Metadata Standards at The British Library; Moderator of DCMI Libraries Community; member of DCMI Advisory Board; member of CILIP-BL Committee on AACR; member of RDA Outreach Working Group. ||
+
+-------------------------------------------------------------------------------
+
+= Documents =
+[attachment:Agenda.doc Agenda]
+
+[attachment:DataModelsMeeting-readings.pdf PDF packet of reading materials]
+
+[http://www.bl.uk/services/bibliographic/meeting.html Meeting resolution]
+
+[attachment:Group-photograph Group photograph (with Anthony Panizzi)]
+
+
+
+== Background ==
+
+IFLA Study Group on the Functional Requirements of Bibliographic Records [[BR]]
+[http://www.ifla.org/VII/s13/frbr/frbr.htm FRBR] [[BR]]
+
+Functional Requirements for Authority Data [[BR]]
+[http://www.ifla.org/VII/d4/wg-franar.htm FRANAR] [[BR]]
+
+See also http://www.loc.gov/cds/downloads/FRBR.PDF
+
+[http://www.loc.gov/loc/ifla/imeicc/pdf/statement-draft3_apr06cleancopy.pdf IME ICC draft Statement of International Cataloguing Principles] [[BR]]
+
+== RDA ==
+[http://www.collectionscanada.ca/jsc/stratplan.html The RDA Strategic Plan] [[BR]]
+
+[http://www.collectionscanada.ca/jsc/docs/5rda-objectives.pdf RDA Objectives and Principles] [[BR]]
+
+Tom Delsey [[BR]]
+[http://www.collectionscanada.ca/jsc/docs/5rda-scope.pdf RDA - Resource Description and Access: Scope and Structure][[BR]]
+[http://www.collectionscanada.ca/jsc/docs/5editor2.pdf RDA Implementation Scenarios][[BR]]
+
+[attachment:Encoding-RDA-Data.doc Encoding RDA data]
+
+[attachment:RDA-Scope-analysis-note.doc RDA-Scope analysis note]
+
+[attachment:RDA-Scope-analysis-table.xls RDA-Scope analysis table]
+
+[attachment:RDA-DCLib-mapping.xls RDA-DCLib mapping]
+
+
+== Discussion material ==
+Karen Coyle, Diane Hillmann [[BR]]
+[http://www.dlib.org/dlib/january07/coyle/01coyle.html RDA, Cataloguing Rules for the 20th Century] [[BR]]
+
+Karen Coyle, Diane Hillmann, Jonathan Rochkind, Paul Weiss[[BR]]
+[http://futurelib.pbwiki.com/Framework Framework for a Bibliographic future]  [[BR]]
+[http://sandbox.metadataregistry.org/vocabulary/show/id/44.html Demonstration of Vocabulary registration using RDA Carriers] -- see explanation in [http://kcoyle.blogspot.com/2007/03/theres-always-something-new.html Karen Coyle blog post] [[BR]]
+
+== Dublin Core documents ==
+Andy Powell, Mikael Nilsson et al[[BR]]
+[http://dublincore.org/documents/2007/04/02/abstract-model/ DCMI Abstract Model, 2 April revision] [[BR]]
+
+Julie Allinson, Pete Johnston and Andy Powell [[BR]]
+[http://www.ariadne.ac.uk/issue50/allinson-et-al/ A Dublin Core Application Profile for Scholarly Works]
+
+Nilsson et al. DC2007, [http://kmr.nada.kth.se/~mini/papers/TowardsAFramework.pdf Towards an interoperability framework for metadata standards] ([http://dc2006.ucol.mx/papers/14.00/Framework.ppt Presentation])
+
+== SKOS documents ==
+
+Alistair Miles [[BR]]
+SKOS: Requirements for Standardisation, DCMI Conference 2006 [[http://dc2006.ucol.mx/papers/miercoles/10.30/presentation.pdf presentation]] [[http://isegserv.itd.rl.ac.uk/public/skos/press/dc2006/camera-ready-paper.pdf paper]]
+
+Alistair Miles and Dan Brickley eds.[[BR]]
+[http://www.w3.org/TR/2005/WD-swbp-skos-core-guide-20051102 SKOS Core Guide, W3C Working Draft 2 November 2005]
+
+Alistair Miles ed.[[BR]]
+[http://www.w3.org/TR/2005/WD-swbp-thesaurus-pubguide-20050517 Quick Guide to Publishing a Thesaurus on the Semantic Web, W3C Working Draft 17 May 2005]
+
+== For information ==
+Working Group on the Future of Bibliographic Control [[BR]]
+[http://www.loc.gov/bibliographic-future/meetings/index.html  Link to papers from the meetings of Bibliographic Control Working Group] [[BR]]
+
+Gordon Dunsire [[BR]]
+Distinguishing Content from Carrier: The RDA/ONIX Framework for Resource Categorization[[BR]]
+http://www.dlib.org/dlib/january07/dunsire/01dunsire.html
+[[BR]]
+
+----
+
+= Formal Declaration of RDA Vocabularies =
+
+N.B. this is highly experimental.
+
+== RDA Elements Vocabulary ==
+
+An initial version of an RDA elements vocabulary, declared as a set of RDF properties, can be downloaded from the following location:
+
+ * [http://isegserv.itd.rl.ac.uk/cvs-public/rda/rdf/rda-elements.rdf http://isegserv.itd.rl.ac.uk/cvs-public/rda/rdf/rda-elements.rdf]
+
+The RDF document was generated using an XSL transformation, from an XML document cut from the RDA Scope Analysis Table (an Excel Workbook) saved as an XML workbook.
+
+The source data for the transformation can be downloaded from the following location:
+
+ * [http://isegserv.itd.rl.ac.uk/cvs-public/rda/data/scope-analysis.xml http://isegserv.itd.rl.ac.uk/cvs-public/rda/data/scope-analysis.xml]
+
+The XSL transformation can be downloaded from the following location:
+
+ * [http://isegserv.itd.rl.ac.uk/cvs-public/rda/trans/raw-table-proc.xsl http://isegserv.itd.rl.ac.uk/cvs-public/rda/trans/raw-table-proc.xsl]
+
+= Some Comments on the Outcomes of the Meeting =
+
+ * Alistair Miles: [http://isegserv.itd.rl.ac.uk/blogs/alistair/archives/53 http://isegserv.itd.rl.ac.uk/blogs/alistair/archives/53]
+ * Ed Summers: [http://www.inkdroid.org/journal/2007/05/03/rdafrbr-and-the-semantic-web/ http://www.inkdroid.org/journal/2007/05/03/rdafrbr-and-the-semantic-web/]
+ * Karen Coyle: [http://kcoyle.blogspot.com/2007/05/astonishing-announcement-rda-goes-20.html http://kcoyle.blogspot.com/2007/05/astonishing-announcement-rda-goes-20.html]
+ * William Denton: [http://www.frbr.org/2007/05/04/rda-dc-frbr-frad-rdf http://www.frbr.org/2007/05/04/rda-dc-frbr-frad-rdf]
+ * Andy Powell: [http://efoundations.typepad.com/efoundations/2007/05/when_worlds_col.html]
+ * Jonathan Rochkind: [http://bibwild.wordpress.com/2007/05/04/rda-jsc-dcam-rdf-frbr/]
+ * Jenn Riley: [http://inquiringlibrarian.blogspot.com/2007/05/dc-and-rda-beginning-of-beautiful.html]
+ * Bruce D'Arcus [http://netapps.muohio.edu/blogs/darcusb/darcusb/archives/2007/05/07/dcmi-abstract-model-and-rdf]
+ * Lorcan Dempsey: [http://orweblog.oclc.org/archives/001345.html]
+ * Ivan Herman/W3C [http://www.w3.org/blog/SW/2007/05/15/rda_rdf_the_world_s_libraries_move_towar]
+
+----
+
+[http://www.flickr.com/photos/londonbonsaipurple/sets/72157600176212375/ See how the work was done ... (photos from Alistair Miles)]

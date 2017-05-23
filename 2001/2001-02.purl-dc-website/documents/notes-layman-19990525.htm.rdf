@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://purl.org/DC/documents/notes/notes-layman-19990525.htm">
+   <dc:title>Description and Cataloging of XML-Data Schemas</dc:title>
+   <dc:description>The Dublin Core Metadata Element Set is a collection of fifteen elements designed to categorize and catalog electronic resources.  The elements are sufficiently general that they are suitable for categorizing and describing XML-Data schemas.  This paper proposes a schema, based on Dublin Core elements, and then gives guidelines for it's application in XML-Data schemas.</dc:description>
+   <dc:date>1999-05-25</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Andrew Layman</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

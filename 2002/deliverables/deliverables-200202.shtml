@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DCMI Deliverables - February 2002</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="deliverables-200202.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>DCMI Deliverables</h1>
+<h2>February 2002</h2>
+<table class="border" cellspacing="0">
+<tr> 
+<th>Name</th>
+<th>Editor/contact</th>
+<th>Document status</th>
+<th>WG reference</th>
+<th>Process Status</th>
+<th>Scheduled Completion</th>
+</tr>
+<tr> 
+<td>DCMI Architecture roadmap</td>
+<td>Makx Dekkers / Stu Weibel</td>
+<td>-</td>
+<td>Directorate</td>
+<td>-</td>
+<td>2002-03</td>
+</tr>
+<tr>
+<td><a href="/groups/admin/proposal-20010910.shtml">Administrative Dublin Core (A-Core) elements</a></td>
+<td>Jytte Hansen, Leif Andresen</td>
+<td>Draft 2001-09-10</td>
+<td>Administrative Metadata</td>
+<td>WG</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Agent linking convention</td>
+<td>Becky Dean, Barbara Tillett, Andy Powell, Ed O'Neil, Stuart Weibel</td>
+<td>-</td>
+<td>Agents</td>
+<td>WG</td>
+<td>2002-02</td>
+</tr>
+<tr>
+<td>Core set of Agent elements</td>
+<td>Lynne Marko, Barbara Tillett, Andrew Wilson, Hans Becker, Heike Neuroth, Warwick Cathro, Jos&eacute; Borbinha</td>
+<td>-</td>
+<td>Agents</td>
+<td>WG</td>
+<td>2002-03</td>
+</tr>
+<tr>
+<td>List of CCP (Creator / Contributor / Publisher) qualifiers</td>
+<td>Robina Clayphan, Rebecca Guenther</td>
+<td>Draft 2002-03</td>
+<td>Agents</td>
+<td>WG</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-xml-guidelines/"> Guidelines for implementing Dublin Core in XML</a></td>
+<td>Andy Powell, Pete Johnston</td>
+<td>Draft 2002-01-31</td>
+<td>Architecture</td>
+<td>WG</td>
+<td>2002-03</td>
+</tr>
+<tr>
+<td><a href="/documents/2001/11/28/dcmes-xml/">Expressing Simple Dublin Core in RDF/XML</a></td>
+<td>Dave Beckett, Eric Miller, Dan Brickley</td>
+<td>Proposed Recommendation, updated version 2001-11-28</td>
+<td>Architecture</td>
+<td>Public Comment</td>
+<td>2002-05</td>
+</tr>
+<tr>
+<td><a href="/documents/2001/11/30/dcq-rdf-xml/">Expressing Qualified Dublin Core in RDF/XML</a></td>
+<td>Roland Schw&auml;nzl, Stefan Kokkelink</td>
+<td>Proposed Recommendation 2001-11-30</td>
+<td>Architecture</td>
+<td>Public Comment</td>
+<td>2001-10</td>
+</tr>
+<tr>
+<td><a href="http://www.ned.dem.csiro.au/metadata/qdchtml/">Recording qualified Dublin Core metadata in HTML meta elements</a></td>
+<td>Simon Cox, Eric Miller, Andy Powell</td>
+<td>Draft 2000-08-15</td>
+<td>Architecture</td>
+<td>WG</td>
+<td>2002-05</td>
+</tr>
+<tr>
+<td><a href="http://runner.ascs.muni.cz/DC_in_LDAP.txt">Representing the Dublin Core within X.500 and LDAP</a></td>
+<td>Rostislav Matl</td>
+<td>Draft 2001-09</td>
+<td>Architecture</td>
+<td>WG</td>
+<td>2002-04</td>
+</tr>
+<tr>
+<td>Gentle guide to Expressing Dublin Core in RDF/XML</td>
+<td>Roland Schw&auml;nzl, Ana Alice Baptista, Harry Wagner</td>
+<td>-</td>
+<td>Architecture</td>
+<td>WG</td>
+<td>2002-05</td>
+</tr>
+<tr>
+<td><a href="http://epub.mimas.ac.uk/DC/citids.html">List of Identifier encoding schemes</a></td>
+<td>Ann Apps</td>
+<td>Draft 2002-02-01</td>
+<td>Citation</td>
+<td>WG</td>
+<td>2002-02</td>
+</tr>
+<tr>
+<td><a href="http://epub.mimas.ac.uk/DC/citdcsv.html">A Journal Article Bibliographic Citation Dublin Core Structured Value</a></td>
+<td>Ann Apps</td>
+<td>Draft 2002-02-01</td>
+<td>Citation</td>
+<td>WG</td>
+<td>2002-02</td>
+</tr>
+<tr>
+<td><a href="http://epub.mimas.ac.uk/DC/citproposal.html">A citation element Refinement for dc:identifier</a></td>
+<td>Ann Apps</td>
+<td>Draft 2002-02-01</td>
+<td>Citation</td>
+<td>WG</td>
+<td>2002-02</td>
+</tr>
+<tr>
+<td>Citation Profile</td>
+<td>Ann Apps</td>
+<td>-</td>
+<td>Citation</td>
+<td>WG</td>
+<td>2002-04</td>
+</tr>
+<tr>
+<td>Collection Description schema</td>
+<td>Pete Johnston, Andy Powell</td>
+<td>-</td>
+<td>Collection</td>
+<td>WG</td>
+<td>2002-05</td>
+</tr>
+<tr>
+<td>XML schemas for collection description</td>
+<td>Pete Johnston, Andy Powell</td>
+<td>-</td>
+<td>Collection</td>
+<td>WG</td>
+<td>2002-06</td>
+</tr>
+<tr>
+<td>Usage guidelines</td>
+<td>Pete Johnston, Andy Powell</td>
+<td>-</td>
+<td>Collection</td>
+<td>WG</td>
+<td>2002-07</td>
+</tr>
+<tr>
+<td>Enumerated list of collection types</td>
+<td>Pete Johnston, Andy Powell</td>
+<td>-</td>
+<td>Collection</td>
+<td>WG</td>
+<td>2002-08</td>
+</tr>
+<tr>
+<td>Crosswalks/mapping</td>
+<td>Pete Johnston</td>
+<td>-</td>
+<td>Collection</td>
+<td>WG</td>
+<td>2002-10</td>
+</tr>
+<tr>
+<td><a href="/groups/education/Audience-Level-Proposal.shtml">AudienceLevel proposal</a></td>
+<td>Stuart Sutton</td>
+<td>Draft 2002-01-01</td>
+<td>Education</td>
+<td>Public Comment 2002-02; review usage board 2002-05</td>
+<td>2002-06</td>
+</tr>
+<tr>
+<td>Audience characteristics data</td>
+<td>Jon Mason, Stuart Sutton</td>
+<td>-</td>
+<td>Education</td>
+<td>WG</td>
+<td>2002-02</td>
+</tr>
+<tr>
+<td>Gathering teaching processes and characteristics data</td>
+<td>Jon Mason, Stuart Sutton</td>
+<td>-</td>
+<td>Education</td>
+<td>WG</td>
+<td>2002-06</td>
+</tr>
+<tr>
+<td>Proposal for 'type' vocabulary</td>
+<td>Jon Mason, Stuart Sutton</td>
+<td>-</td>
+<td>Education</td>
+<td>WG</td>
+<td>2002-08</td>
+</tr>
+<tr>
+<td>Intrinsic learning objectives</td>
+<td>Jon Mason, Stuart Sutton</td>
+<td>-</td>
+<td>Education</td>
+<td>WG</td>
+<td>2002-08</td>
+</tr>
+<tr>
+<td><a href="/groups/government/profile-2000202.shtml">DCMI Government Application Profile</a></td>
+<td>Palle Aagaard, Andrew Wilson</td>
+<td>Draft 2002-02-12</td>
+<td>Government</td>
+<td>WG, Review Usage Board, 2002-05</td>
+<td>2002-06</td>
+</tr>
+<tr>
+<td>Re-Survey of Government Implementation of DC</td>
+<td>Andrew Wilson, Maewyn Cumming</td>
+<td>-</td>
+<td>Government</td>
+<td>WG</td>
+<td>2002-06</td>
+</tr>
+<tr>
+<td>Position paper on records management/recordkeeping metadata</td>
+<td>Andrew Wilson, John Roberts</td>
+<td>-</td>
+<td>Government</td>
+<td>WG</td>
+<td>2002-04</td>
+</tr>
+<tr>
+<td>Functional requirements for description of government services using DC</td>
+<td>John Roberts</td>
+<td>-</td>
+<td>Government</td>
+<td>WG</td>
+<td>2002-04</td>
+</tr>
+<tr>
+<td>Revision Plan</td>
+<td>Diane Hillmann</td>
+<td>-</td>
+<td>User Guide</td>
+<td>WG</td>
+<td>2002-summer</td>
+</tr>
+<tr>
+<td>References &amp; Glossary update</td>
+<td>Diane Hillmann</td>
+<td>-</td>
+<td>User Guide</td>
+<td>WG</td>
+<td>2002-summer</td>
+</tr>
+<tr>
+<td>Review and revise examples</td>
+<td>Diane Hillmann</td>
+<td>-</td>
+<td>User Guide</td>
+<td>WG</td>
+<td>2002-summer</td>
+</tr>
+<tr>
+<td><a href="/documents/2001/10/12/library-application-profile/">Library Application Profile</a></td>
+<td>Rebecca Guenther</td>
+<td>Draft 2001-10-12</td>
+<td>Libraries</td>
+<td>WG, Revised draft 2002-04, Review Usage Board 2002-05</td>
+<td>2002-06</td>
+</tr>
+<tr>
+<td>Register library encoding schemes</td>
+<td>-</td>
+<td>-</td>
+<td>Libraries</td>
+<td>WG</td>
+<td>2002-04</td>
+</tr>
+<tr>
+<td>XML schema for DC-Lib AP</td>
+<td>-</td>
+<td>-</td>
+<td>Libraries</td>
+<td>WG</td>
+<td>2002-05</td>
+</tr>
+<tr>
+<td>Partnerships to implement testbeds for DC-Lib AP</td>
+<td>-</td>
+<td>-</td>
+<td>Libraries</td>
+<td>WG</td>
+<td>2002-06</td>
+</tr>
+<tr>
+<td>DCMI Registry charter</td>
+<td>Rachel Heery, Harry Wagner</td>
+<td>-</td>
+<td>Registry</td>
+<td>WG</td>
+<td>2002-02</td>
+</tr>
+<tr>
+<td>Proposal for ISO fast track</td>
+<td>Leif Andresen</td>
+<td>-</td>
+<td>Standards</td>
+<td>WG</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Tools Workshop for Vendors</td>
+<td>Stu Weibel, Roland Schw&auml;nzl</td>
+<td>-</td>
+<td>Tools</td>
+<td>WG</td>
+<td>2002-spring</td>
+</tr>
+<tr>
+<td>Tools Workshop for Developers</td>
+<td>Roland Schw&auml;nzl</td>
+<td>-</td>
+<td>Tools</td>
+<td>WG</td>
+<td>2002-summer</td>
+</tr>
+<tr>
+<td><a href="http://epub.mimas.ac.uk/DC/type-physobj.html">Proposal for a physical object DCMI Type</a></td>
+<td>Ann Apps</td>
+<td>Draft 2002-02-20</td>
+<td>Type</td>
+<td>WG</td>
+<td>2002-02-28</td>
+</tr>
+<tr>
+<td><a href="http://epub.mimas.ac.uk/DC/typeguide.html">Guidance for Domains and Organisations Developing Type Vocabularies for use with Dublin Core</a></td>
+<td>Ann Apps</td>
+<td>Draft 2001-11-28</td>
+<td>Type</td>
+<td>WG</td>
+<td>2002-03-31</td>
+</tr>
+<tr>
+<td><a href="http://epub.mimas.ac.uk/DC/type-stds.html">Annotated list of standard type encoding schemes</a></td>
+<td>Ann Apps</td>
+<td>Draft 2002-02-22</td>
+<td>Type</td>
+<td>WG</td>
+<td>2002-04-30</td>
+</tr>
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;">
+
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label xml:lang="da-DK">
+  Titel
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+  Navnet p&#x00e5; ressourcen, som regel givet af Ophav eller Udgiver. Som en del af titlen 
+  angives evt. udgave eller releasebetegnelse i DC.Title.Release.
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  Hvis der er b&#x00e5;de titel og undertitel, placeres begge i samme element.
+Hvis man er i tvivl om hvad der udg&#x00f8;r titlen, gentages Titelelementet, og man anvender 
+varianter i efterf&#x00f8;lgende gentagelser af titlen. Hvis ressourcen er i HTML, b&#x00f8;r man 
+unders&#x00f8;ge kildedokumentet for at sikre sig at den titel, der er n&#x00e6;vnt i TITLE, 
+ogs&#x00e5; er med som DC.Title.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label xml:lang="da-DK">
+  Anden bidragyder
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+  En person eller organisation der ikke er specificeret i DC.Creator og som har bidraget 
+intellektuelt til ressourcen, men hvor bidraget er sekund&#x00e6;rt i forhold til personer eller 
+organisationer n&#x00e6;vnt i DC.Creator.
+Det kan v&#x00e6;re redakt&#x00f8;r, overs&#x00e6;tter eller en illustrator. Personer hvis indsats 
+alene er teknisk, men som ikke bidrager til indholdet, skal ikke registreres.
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  Der g&#x00e6;lder samme retningslinier for anvendelse af navne p&#x00e5; personer eller organisationer 
+som i DC.Creator.
+  </dc:description>
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label xml:lang="da-DK">
+  Forfatter eller ophav
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+  Den person eller organisation der prim&#x00e6;rt er ansvarlig for det intellektuelle 
+indhold i ressourcen.
+Det kan f.eks. v&#x00e6;re forfattere af skrevne dokumenter eller kunstnere, fotografer eller 
+illustratorer, n&#x00e5;r det drejer sig om visuelle ressourcer.
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  Ophavsm&#x00e6;nd anf&#x00f8;res i hvert sit DC.Creator-element i samme orden, som de forekommer i 
+publikationen. Personnavne skrives med efternavn f&#x00f8;rst, efterfulgt af fornavn med komma 
+imellem. I tvivlssp&#x00f8;rgsm&#x00e5;l angives navnet som det fremst&#x00e5;r - man b&#x00f8;r ikke 
+invertere i disse tilf&#x00e6;lde.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label xml:lang="da-DK">
+  Udgiver
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+  Den enhed der er ansvarlig for at stille ressourcen til r&#x00e5;dighed i dens aktuelle 
+form. Udgiver kan v&#x00e6;re et forlag, et firma, en forening, et universitetsinstitut eller en 
+anden offentlig institution.
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  Hensigten med at specificere dette felt er at identificere den enhed der giver adgang til ressourcen. 
+Hvis Ophav og Udgiver er den samme, gentages navnet ikke i udgiverfeltet. Hvis ansvarsforholdet er 
+uklart, anbefales det at bruge DC.Publisher for organisationer og DC.Creator for enkeltpersoner. 
+I tilf&#x00e6;lde af begr&#x00e6;nset ansvar anvendes DC.Contributor.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label xml:lang="da-DK">
+  Emne og n&#x00f8;gleord
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+  Ressourcens emne.
+Emnet vil typisk v&#x00e6;re udtrykt i stikord eller s&#x00e6;tninger der beskriver emnet eller 
+indholdet af ressourcen. Det er muligt at bruge kontrollerede og formelle klassifikationssystemer.
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  V&#x00e6;lg emneord der beskriver hvad ressourcen handler om. Hvis emnet er en person eller en 
+organisation, anvendes den samme navneform som hvis personen eller organisationen var et ophav, 
+men navnet skal ikke gentages i DC.Creator.
+V&#x00e6;lg de mest betydningsfulde og specifikke emneord og undg&#x00e5; de mere generelle til at 
+beskrive en bestemt ressource. 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label xml:lang="da-DK">
+ Beskrivelse
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+	En beskrivelse af ressourcens indhold.
+Beskrivelsen kan omfatte uddrag af teksten i tilf&#x00e6;lde af dokumentlignende materiale eller 
+indholdsbeskrivelse i tilf&#x00e6;lde af visuelle ressourcer.
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  Eftersom beskrivelsesfeltet er en potentielt v&#x00e6;rdifuld kilde til indeksering i 
+s&#x00f8;gerobotter, anbefales det at dette element anvendes. Visse metadata indeholder 
+indholdsbeskrivelser (f.eks. spektral analyse af en visuel ressource) som ikke kan indlejres 
+i nuv&#x00e6;rende netv&#x00e6;rkssystemer. I det tilf&#x00e6;lde kan man forsyne posten med 
+et link til en s&#x00e5;dan beskrivelse, i stedet for selve beskrivelsen.
+Beskrivende information kan tages fra selve ressourcen hvis der ikke findes et resum&#x00e9; 
+eller anden struktureret beskrivelse. Hvis der ikke i forvejen findes en beskrivelse forrest i 
+publikationen eller i de indledende afsnit, b&#x00f8;r metadata producenten selv udarbejde en kort 
+beskrivelse. Normalt anbefales det at begr&#x00e6;nse beskrivelsen til nogle f&#x00e5; s&#x00e6;tninger. 
+Men findes der et resum&#x00e9; i forvejen, kan dette anvendes. Det kan v&#x00e6;re p&#x00e5; engelsk 
+uanset om ressourcen er p&#x00e5; dansk - det er bedre at have et resum&#x00e9; p&#x00e5; engelsk end 
+ingen beskrivelse. Der kan ogs&#x00e5; v&#x00e6;re et resum&#x00e9; p&#x00e5; engelsk og en beskrivelse 
+p&#x00e5; dansk.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label xml:lang="da-DK">
+  Dato
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+  Udgivelsestidspunktet: dato for oprettelse eller tilg&#x00e6;ngeligg&#x00f8;relse af 
+ressourcen. En s&#x00e5;dan dato b&#x00f8;r ikke forveksles med en der vedr&#x00f8;rer ressourcens 
+emnem&#x00e6;ssige afgr&#x00e6;nsning og som kun ville v&#x00e6;re tilknyttet ressourcen hvis det 
+intellektuelle indhold p&#x00e5; en eller anden m&#x00e5;de omfatter denne dato. En udgave af den 
+danske grundlov skal s&#x00e5;ledes ikke dateres hverken 1849 eller 1953, men den dato, som den er 
+lagt p&#x00e5; nettet.
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  Anbefalet praksis er formen &#x00c5;&#x00c5;&#x00c5;&#x00c5;-MM-DD, s&#x00e5;ledes som defineret i: 
+Date and Time Formats (based on ISO 8601), W3C Technical Note [http://www.w3.org/TR/NOTE-datetime]. 
+Det betyder at datoen 15. november 1950 skrives s&#x00e5;ledes: 1950-11-15. Hvis den fulde dato ikke 
+kendes, kan m&#x00e5;ned og &#x00e5;r (&#x00c5;&#x00c5;&#x00c5;&#x00c5;-MM) eller kun &#x00e5;r 
+(&#x00c5;&#x00c5;&#x00c5;&#x00c5;) anvendes.
+Der kan anvendes mange andre former, men de kan v&#x00e6;re sv&#x00e6;re at "l&#x00e6;se" for 
+s&#x00e5;vel brugere som software.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label xml:lang="da-DK">
+  Ressourcetype
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+  Ressourcens indhold. Elementet anvendes til at beskive ressourcens generelle 
+indholdsm&#x00e6;ssige karakteristika, s&#x00e5;som tekst, billede, lydoptagelse, software m.v.
+Af hensyn til ensartethed og genkendelighed i beskrivelsen af ressourcen, b&#x00f8;r ressourcetypen 
+angives med betegnelser, valgt fra nedenst&#x00e5;ende liste over mulige typer.
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  Det anbefales at kun f&#x00f8;lgende typebetegnelser anvendes til beskrivelse af ressourcen: text, 
+image, sound, dataset, software, interactive 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label xml:lang="da-DK">
+  Format
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+  Ressourcens dataformat; anvendes til at identificere software, eventuelt hardware som 
+m&#x00e5;tte v&#x00e6;re n&#x00f8;dvendigt for at fremvise eller h&#x00e5;ndtere ressourcen.
+Information om ressourcens st&#x00f8;rrelse kan medtages i elementet. Af hensyn til ensartethed og 
+genkendelighed i beskrivelsen af ressourcen, b&#x00f8;r dataformatet angives med betegnelser, valgt 
+fra nedenst&#x00e5;ende liste over mulige termer.
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  Det anbefales at f&#x00f8;lgende formatangivelser om muligt anvendes til beskrivelse af ressourcen: 
+text/plain, text/html, multipart, application/postscript, application/rtf, application/pdf, 
+application/zip, application/msword, application/sgml, image/jpeg, image/gif, image/tiff, audio, 
+video/mpeg, video/quicktime 
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label xml:lang="da-DK">
+  Identifikator
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+  En streng eller et tal der bruges til unik identifikation af ressourcen.
+Dette element kan ogs&#x00e5; anvendes til lokale identifikatorer (f.eks. ID-numre eller kaldenr.), 
+tildelt af ophavsmanden til ressourcen, som g&#x00e6;lder en bestemt enhed.
+System for anvendt identifikationsnummer kan angives ved hj&#x00e6;lp af SCHEME.
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  Der er mulighed for at anvende identifikationsnumre efter f&#x00f8;lgende systemer hvor URL er 
+standardv&#x00e6;rdi. URL angives uden SCHEME. Efter hver af disse f&#x00f8;lger en henvisning 
+til yderligere oplysninger.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label xml:lang="da-DK">
+  Sprog
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+  Sproget i ressourcens intellektuelle indhold.
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  Kodet eller tekstlig information kan anbringes her. Hvis indholdet er p&#x00e5; mere end et sprog, 
+kan elementet gentages.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label xml:lang="da-DK">
+  Relationer
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+  Identifikation af en relateret ressource og dens forbindelse med den aktuelle ressource.
+Dette element tillader at forbindelser mellem relaterede ressourcer og ressourcebeskrivelser kan angives.
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  A: Angivelse af parallel trykt udgave: Hvis standardnumre anvendes til identifikation af den relaterede 
+ressource, kan dette angives ved anvendelse af SCHEME (se eksempel nedenfor).
+B: Fortegnelse over filer i ressourcen: En listning af tilh&#x00f8;rende filer. Ved automatisk 
+indeksering af ressourcen eller Det Kongelige Biblioteks kopiering af en anmeldt ressource bruges 
+listen for at sikre at alle dele af det samlede dokument medtages.
+C: Fortegnelse over n&#x00f8;dvendige programmer: Udfyldes ikke hvis DC.Format indeholder angivelse 
+af program.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label xml:lang="da-DK">
+  Kilde (originalt v&#x00e6;rk)
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+  Henvisning til det originale v&#x00e6;rk hvorfra den nuv&#x00e6;rende ressource stammer.
+Til oplysninger om evt. parallel udgivelse af en trykt version eller andre relaterede versioner af 
+ressourcen anvendes DC.Relation.
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  Elementet kan indeholde dato, format, identifikator eller andre metadata om den originale ressource, 
+hvis det sk&#x00f8;nnes at v&#x00e6;re n&#x00f8;dvendigt til fremfinding af denne.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label xml:lang="da-DK">
+  D&#x00e6;kning
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+  Geografisk og/eller tidsm&#x00e6;ssig d&#x00e6;kning af det intellektuelle indhold i 
+ressourcen. Geografisk d&#x00e6;kning refererer til det geografiske omr&#x00e5;de eller sted ressourcen omhandler. 
+Tidsm&#x00e6;ssig d&#x00e6;kning refererer ligeledes til indholdet i ressourcen og ikke til 
+hvorn&#x00e5;r den blev skabt eller blev gjort tilg&#x00e6;ngelig (sidstn&#x00e6;vnte h&#x00f8;rer 
+ind under datoelementet).
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  Der er endnu ikke internationalt nogle faste regler for hvordan indholdet i dette element b&#x00f8;r 
+udformes. Man b&#x00f8;r bestr&#x00e6;be sig p&#x00e5; at angive konsekvent og enkel information som 
+brugeren kan tolke.
+  </dc:description>
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label xml:lang="da-DK">
+  Rettigheder
+  </rdfs:label>
+  <rdfs:comment xml:lang="da-DK">
+  En rettighedsmanagement (copyright) erkl&#x00e6;ring der evt. kan kombineres med et link 
+til en service der giver information om rettighedsmanagement i forbindelse med ressourcen.
+  </rdfs:comment>
+  <dc:description xml:lang="da-DK">
+  Der er ingen faste regler for hvordan indholdet i dette element b&#x00f8;r udformes. Man b&#x00f8;r 
+bestr&#x00e6;be sig p&#x00e5; at angive konsekvent information som brugeren kan tolke. Henvisninger 
+til en generel copyrightnote b&#x00f8;r anvendes med varsomhed, da det indeb&#x00e6;rer en 
+vedligeholdelse.
+  </dc:description>
+</rdf:Property>
+
+
+</rdf:RDF>

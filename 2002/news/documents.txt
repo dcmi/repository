@@ -1,0 +1,75 @@
+<div class="rss-item">
+<div class="rss-title">Position paper on records management / recordkeeping metadata is now available for Comment</div>
+<div class="rss-description">
+<p>2002-09-03, This report was prepared by Andrew Wilson, co-chair of DC-Government WG and John Roberts and surveys the current state of international and/or global work on the development of records management / recordkeeping metadata element sets. The purpose of this was to determine whether DCMI should work on developing its own set or become involved in international projects carrying out this work. The report makes a number of recommendations for DCMI involvement, including the establishment of an Interest Group.</p>
+<p>The report is available at: <a href="/groups/government/DCMIResourceManagement.html">http://dublincore.org/groups/government/DCMIResourceManagement.html</a></p>
+<p>Comments can be posted to the DC-General list until 29 September 2002.</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title">The Usage Board has announced the availability of a new set of documents</div>
+<div class="rss-description">
+<p>2002-08-05, Besides initiating processes for the review and approval of new Dublin Core elements and qualifiers, the Usage Board has revamped the way Dublin Core Metadata Initiative documents its work. The documents, accessible from <a href="/usage/">http://dublincore.org/usage/</a>, currently include:</p>
+<ul>
+<li>Up-to-the-minute listings of all current Elements, Element Refinements, Encoding Schemes, and DCMI Type Vocabulary terms [7,8]. These will supersede Web documents currently in use as authoritative sources of up-to-date information on DCMI metadata terms.</li>
+<li>For the historically- or archivally-minded, a complete listing of all Elements, Element Refinements, and Encoding Schemes -- including past versions of terms that have been corrected or revised [5]. Each term has a cross-reference to a related Decision, and each such Decision points to supporting documentation in the archive. This master file is used as the source for periodically generating the updated listings [7,8].</li>
+<li>DCMI Usage Board Decisions [4], each of which is numbered for unambiguous identification.</li>
+<li>DCMI Usage Board Review of Application Profiles [15] -- principles and criteria by which the Board will review profiles which use or extend Dublin Core in various ways.</li>
+</ul>
+<p>At its latest meeting, on 12-13 May 2002 in Bath, the Usage Board revised and simplified its model for conferring status on terms, making it easier for working groups to put new terms of proven usefulness into the DCMI-maintained namespaces. The Usage Board now distinguishes the following:</p>
+<ul>
+<li>"Recommended" Elements, Element Refinements, and DCMI Type Vocabulary terms useful for resource discovery across domains.</li>
+<li>"Conforming" Elements and Element Refinements -- terms for which an implementation community has a demonstrated need and which conform to the grammar of Elements and Element Refinements, though without necessarily meeting the stricter criteria of usefulness across domains or usefulness for resource discovery.</li>
+<li>"Registered" Encoding Schemes -- terms which identify parsing rules or controlled vocabularies useful for interpreting particular metadata values. All encoding schemes, new and legacy, have the status of Registered.</li>
+</ul>
+<p>The new distinction between "Recommended" versus "Conforming" replaces one of "Recommended as Cross-Domain" versus "Recommended as Domain-Specific"--a model that had presupposed usefulness for resource discovery. After its first year of experience with the older model, the Usage Board recognized the difficulty presented by numerous "borderline" proposals and acknowledged a need for a managed and persistent namespace where terms of demonstrated need could be placed without following acceptance criteria in their strictest possible interpretations.</p>
+<p>It should be noted that there was some dissent within the Usage Board on this move towards inclusiveness. There are several ways to "draw the line" between terms that are taken in versus terms that are kept out. All Board members recognized a difficult trade-off between exclusiveness and inclusiveness--between purity of ideals versus meeting demand. New terms recognized as Conforming under the new model include three element refinements for Date (dateAccepted, dateCopyrighted, and dateSubmitted). See [1] and [2] for complete documentation of these and other recent decisions along with their rationales.</p>
+<p>In order to catch any errors that may have crept into the documents, especially in the links among them, the new and updated Usage Board documents will be available for public scrutiny and comment until 15 August, after which they will replace many of the documents currently in use, such as [2,3,4], as authoritative sources of information on DCMI terms.</p>
+<p>Generic addresses for the elements and qualifiers [14,15] will be redirected to [6], and the generic address for the DCMI Type Vocabulary [16] will be redirected to [9].</p>
+<p>Tom Baker, Chair, Usage Board</p>
+<p>[1] <a href="/usage/decisions/#Decision-2002-01">http://dublincore.org/usage/decisions/#Decision-2002-01</a><br />
+[2] <a href="/documents/1999/07/02/dces/">http://dublincore.org/documents/1999/07/02/dces/</a><br />
+[3] <a href="/documents/2000/07/11/dcmes-qualifiers/">http://dublincore.org/documents/2000/07/11/dcmes-qualifiers/</a><br />
+[4] <a href="/documents/2000/07/11/dcmi-type-vocabulary/">http://dublincore.org/documents/2000/07/11/dcmi-type-vocabulary/</a><br />
+[5] <a href="/usage/decisions/">http://dublincore.org/usage/decisions/ </a><br />
+[6] <a href="/usage/terms/dc/">http://dublincore.org/usage/terms/dc/</a><br />
+[7] <a href="/usage/terms/dc/current-elements/">http://dublincore.org/usage/terms/dc/current-elements/</a><br />
+[8] <a href="/usage/terms/dc/current-schemes/">http://dublincore.org/usage/terms/dc/current-schemes/</a><br />
+[9] <a href="/usage/terms/dcmitype/">http://dublincore.org/usage/terms/dcmitype/</a><br />
+[10] <a href="/usage/documents/profiles/">http://dublincore.org/usage/documents/profiles/</a><br />
+[11] <a href="/usage/decisions/2000/">http://dublincore.org/usage/decisions/2000/</a><br />
+[12] <a href="/documents/dcmi-namespace/">http://dublincore.org/documents/dcmi-namespace/</a><br />
+[13] <a href="/usage/documents/profiles/">http://dublincore.org/usage/documents/profiles/</a><br />
+[14] <a href="/documents/dces/">http://dublincore.org/documents/dces/ </a><br />
+[15] <a href="/documents/dcmes-qualifiers/">http://dublincore.org/documents/dcmes-qualifiers/</a><br />
+[16] <a href="/documents/dcmi-type-vocabulary/">http://dublincore.org/documents/dcmi-type-vocabulary/</a><br />
+[17] <a href="/usage/decisions/#Decision-2002-02">http://dublincore.org/usage/decisions/#Decision-2002-02</a></p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title">Proposed XML Schema for Qualified Dublin Core is now available for Comment</div>
+<div class="rss-description">
+<p>2002-07-25, A small group has been working together to formulate a proposed XML schema for qualified Dublin Core. This work builds on a number of efforts including the joint work by the OAI (<a href="http://www.openarchives.org">http://www.openarchives.org</a>) and DCMI that led to the release of an XML schema for unqualified Dublin Core at <a href="/schemas/xmls/simpledc20020312.xsd">http://dublincore.org/schemas/xmls/simpledc20020312.xsd</a>, and the metadata work within the Harmony Project (<a href="http://metadata.net/harmony/">http://metadata.net/harmony</a>).</p>
+<p>The proposal is available at <a href="http://www.ukoln.ac.uk/metadata/dcmi/xmlschema/">http://www.ukoln.ac.uk/metadata/dcmi/xmlschema/</a>.</p>
+<p>Comments on this proposal can be posted on the <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A0=dc-architecture&amp;T=0">DC-Architecture list</a> until 16 August 2002. [<a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0207&amp;L=dc-architecture&amp;T=0&amp;F=&amp;S=&amp;P=6274">More information</a>]</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title">New version of the &quot;Guidelines for implementing Dublin Core in XML&quot; now available</div>
+<div class="rss-description">
+<p>2002-07-25, A new version of the "Guidelines for implementing Dublin Core in XML" document is available at: <a href="/documents/2002/07/23/dc-xml-guidelines/">http://dublincore.org/documents/2002/07/23/dc-xml-guidelines/</a>. The principal change in this version is to Recommendation 7 in line with the conventions adopted in the proposed XML schemas for qualified DC: <a href="http://www.ukoln.ac.uk/metadata/dcmi/xmlschema/">http://www.ukoln.ac.uk/metadata/dcmi/xmlschema/</a>.</p>
+<p>Comments on this proposal can be posted on the <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A0=dc-architecture&amp;T=0">DC-Architecture list</a> until 16 August 2002. [<a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?A2=ind0207&amp;L=dc-architecture&amp;T=0&amp;F=&amp;S=&amp;P=8522">More information</a>]</p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title">DC-Education Proposal for new Audience element qualifier is now available for review and public comment</div>  
+<div class="rss-description">
+<p>2002-02-05, the Usage Board announces the availability for review and public comment of a proposal for a new Audience element qualifier submitted to the Board by the DC-Education Working Group. The text of the proposal can be reached from the &quot;News&quot; link on the <a href="/groups/education/">DC-Education Working Group page</a>.</p>
+<p>Under the Usage Board Administrative Processes, proposals for new elements or element qualifiers submitted to the Board are posted on DC-General for a public comment period of one month. Public Comment is open for this document until 01 March 2002. Comments should be sent to <a href="http://www.jiscmail.ac.uk/lists/dc-general.html">DC-General</a> with the title of the document in the subject.</p>
+</div>
+</div>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about="http://dc2005.uc3m.es/v/campusmap.asp">
+<dc:title>DC2005. Lugar de celebración en el campus de Leganés. Universidad Carlos III de Madrid.</dc:title>
+<dc:description>Plano general del campus de Leganés de la Universidad Carlos III de Madrid</dc:description>
+<dc:date>2005-08-18</dc:date> 
+<dc:creator>Eva Méndez</dc:creator>
+<dc:contributor>Iniciativa de Metadatos Dublin Core (DCMI)</dc:contributor>
+<dc:format>text/html</dc:format>
+<dc:language>es</dc:language>
+<dc:publisher>Universidad Carlos III de Madrid. Instituto "Agustín Millares" de Documentación y Gestión de la Información</dc:publisher>
+</rdf:Description>
+</rdf:RDF>

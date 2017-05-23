@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<metadata
+  xmlns="http://example.org/myapp/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://example.org/myapp/schema.xsd"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <dc:title xml:lang="en-US">
+    The Boat Who Wouldn't Float
+  </dc:title>
+
+  <dc:description xml:lang="en-US">
+   The story of "Happy Adventure", a schooner with one fatal flaw - it leaked like a sieve.
+  </dc:description>
+
+</metadata>

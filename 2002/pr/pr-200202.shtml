@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DCMI Press Release: Dublin Core Releases Recommended Qualifiers</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="pr-200202.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>DCMI PRESS RELEASE</h1>
+<h2>Dublin Core Metadata Initiative (DCMI) Announces Formation of its First Board of Trustees</h2>
+<p><strong>DUBLIN, Ohio (USA), February 1, 2002</strong>&mdash;The Dublin Core Metadata Initiative (DCMI) announces its first Board of Trustees, formed to provide strategic leadership and support to the organization. Trustees are selected for a variety of characteristics, including personal and professional abilities, geographical representation, and professional sector. The DCMI Board of Trustees consists of:</p>
+<ul>
+<li><strong>DENISE BEDFORD</strong>, Thesaurus Manager and Senior Information Officer, World Bank Group (Washington, D.C., U.S.A.)</li>
+<li><strong>JOSEPH BUSCH</strong>, Director of Solutions Architecture, Interwoven (Sunnyvale, California, U.S.A.)</li>
+<li><strong>MICHAEL CRANDALL</strong>, Technology Manager, Libraries and Public Access to Information Program, Bill &amp; Melinda Gates Foundation (Seattle, Washington, U.S.A.)</li>
+<li><strong>LORCAN DEMPSEY</strong>, Vice President, OCLC Research (Dublin, Ohio, U.S.A.)</li>
+<li><strong>JUHA HAKALA</strong>, Development director, Helsinki University Library - The National Library of Finland (Helsinki, Finland)</li>
+<li><strong>NATHALIE LEROY</strong>, Chief, Information Processing Section, Library, United Nations Office at Geneva (Switzerland)</li>
+<li><strong>NEIL MCLEAN</strong>, Director, IMS Australia, Macquarie University (Sydney, Australia)</li>
+<li><strong>NIGEL OXBROW</strong>, Chief Executive, TFPL Ltd. (London, U.K.), and</li>
+<li><strong>SHIGEO SUGIMOTO</strong>, Professor, University of Library and Information Science (Tsukuba, Japan).</li>
+</ul>
+
+<p>&ldquo;DCMI is very happy to have this group of people help guide and promote the Initiative,&rdquo; said Stu Weibel, DCMI's Executive Director. &ldquo;The Board of Trustee members come from 6 countries on 4 continents and bring the perspectives of many professional backgrounds. Their counsel will help raise the profile of the Initiative and further its development and sustainability.&rdquo; More information about the Board and its Members is available online at &lt;<a href="/about/trustees/">http://dublincore.org/about/trustees/</a>&gt;.</p>
+<p><strong>About DCMI</strong></p>
+<p>The Dublin Core Metadata Initiative &lt;<a href="/about/">http://dublincore.org/about/</a>&gt; is dedicated to promoting the widespread adoption of interoperable metadata standards and developing specialized metadata vocabularies for describing resources that enable more intelligent information discovery systems. It is the maintenance agency for the Dublin Core Metadata Element Set standard.</p>
+<p><strong>About Dublin Core</strong></p>
+<p>The collaboratively developed Dublin Core &lt;<a href="/documents/dces/">http://dublincore.org/documents/dces/</a>&gt; is an ANSI-approved, internationally accepted metadata standard for describing electronic information. It includes 15 data elements for describing and organizing electronic resources to make them easier to find and access over the Web. Dublin Core elements can be extended to meet the special needs of individual disciplines while promoting interoperability among disciplines. A significant and growing number of people, organizations &lt;<a href="/about/participants/">http://dublincore.org/about/participants/</a>&gt; and governments &lt;<a href="/news/adoption/">http://dublincore.org/news/adoption/</a>&gt; use the Dublin Core and participate in DCMI activities.</p>
+<p><strong>About OCLC</strong></p>
+<p>OCLC Online Computer Library Center, Inc. &lt;<a href="http://www.oclc.org/">http://www.oclc.org/</a>&gt; is a not-for-profit, global cooperative of libraries, specializing in metadata services. OCLC is DCMI's current host and supports the costs of the DCMI directorate.&nbsp;&nbsp;</p>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

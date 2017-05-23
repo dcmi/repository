@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+	<!ENTITY dcqns 'http://purl.org/dc/terms/'>
+	<!ENTITY regns 'http://dublincore.org/registry#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+	 xmlns:dcq="&dcqns;"
+	 xmlns:reg="&regns;">
+
+<rdf:Description rdf:about="http://bioinfo.ernet.in/~shubha/dc/element.htm">    
+	<dc:title xml:lang="mr-IN">
+	&#x0921;&#x0940;.&#x0938;&#x0940;. &#x0918;&#x091f;&#x0915;&#x093e;&#x0902;&#x091a;&#x0947; &#x092d;&#x093e;&#x0937;&#x093e;
+	&#x0902;&#x0924;&#x0930;
+	</dc:title>
+	<dc:title xml:lang="en-US">Dublin Core Version 1.1 Reference Description (Marathi Translation)</dc:title>
+	<dc:creator xml:lang="mr-IN">&#x0936;&#x0941;&#x092d;&#x0926;&#x093e; &#x0928;&#x0917;&#x0930;&#x0915;&#x0930;</dc:creator>
+	<dc:creator xml:lang="en-US">Shubhada Nagarkar</dc:creator>
+	<dc:creator rdf:resource="mailto:shubha@bioinfo.ernet.in"/>
+	<dc:date xml:lang="mr-IN">2002-09-05</dc:date> 
+	<dc:language xml:lang="mr-IN">&#x092e;&#x0930;&#x093e;&#x0920;&#x0940;</dc:language>
+	<dc:language xml:lang="en-US">Marathi</dc:language>
+	<dc:language>mr-IN</dc:language>
+	<dc:publisher xml:lang="en-US">Bioinformatics Centre, University of Pune, India</dc:publisher>
+	<dc:publisher rdf:resource="http://bioinfo.ernet.in/"/>
+	<dc:source rdf:resource="http://bioinfo.ernet.in/~shubha/dc/element.htm"/>
+	<dcq:isFormatOf rdf:resource="http://dublincore.org/documents/dces/"/>
+	<dc:format>text/html</dc:format>
+</rdf:Description>
+
+</rdf:RDF>

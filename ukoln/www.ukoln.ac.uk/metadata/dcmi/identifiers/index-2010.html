@@ -1,0 +1,787 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+<title>Guidelines for using resource identifiers in Dublin Core
+metadata</title>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.title" content=
+"Guidelines for using resource identifiers in Dublin Core metadata" />
+<meta name="DC.description" content=
+"This document provides guidelines for using a number of widely adopted identifier schemes in Dublin Core (DC) metadata." />
+<meta name="DC.creator" content="Andy Powell" />
+<meta name="DC.creator" content="Pete Johnston" />
+<meta name="DC.creator" content="Lorna Campbell" />
+<meta name="DC.creator" content="Phil Barker" />
+<meta name="DC.publisher" content=
+"Dublin Core Metadata Initiative" />
+<meta http-equiv="Content-Type" content=
+"text/html; charset=iso-8859-1" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="stylesheet" href="http://dublincore.org/css/default.css"
+type="text/css" />
+<script src="http://dublincore.org/js/default.js" type=
+"text/javascript">
+</script>
+</head>
+<body>
+<div class="header">
+<table width="100%" cellspacing="0" cellpadding="0" summary=
+"page layout" bgcolor="#FF6600">
+<tr>
+<td width="70"><a href="/index.shtml"><img src=
+"/images/header/logo_sm.gif" width="150" height="70" alt=
+"Dublin Core Metadata Initiative logo" /></a></td>
+<td width="100%" height="70" align="right" valign="top">
+<table width="328" cellspacing="0" cellpadding="0" summary=
+"page layout">
+<tr>
+<td width="82" height="30"><a href="/about/"><img src=
+"/images/menu/about.gif" width="82" height="30" alt=
+"About the Initiative" /></a></td>
+<td width="82" height="30"><a href="/documents/"><img src=
+"/images/menu/documents.gif" width="82" height="30" alt=
+"Documents" /></a></td>
+<td width="82" height="30"><a href="/groups/"><img src=
+"/images/menu/groups.gif" width="82" height="30" alt=
+"Working Groups" /></a></td>
+<td width="82" height="30"><a href="/resources/"><img src=
+"/images/menu/resources.gif" width="82" height="30" alt=
+"Resources" /></a></td>
+</tr>
+
+<tr>
+<td width="82" height="30"><a href="/news/"><img src=
+"/images/menu/news.gif" width="82" height="30" alt=
+"Dublin Core Metadata Initiative News" /></a></td>
+<td width="82" height="30"><a href="/tools/"><img src=
+"/images/menu/tools.gif" width="82" height="30" alt=
+"Tools and Software" /></a></td>
+<td width="82" height="30"><a href="/projects/"><img src=
+"/images/menu/projects.gif" width="82" height="30" alt=
+"Projects" /></a></td>
+<td width="82" height="30"><a href="http://askdcmi.askvrd.org/">
+<img src="/images/menu/askdcmi.gif" width="82" height="30" alt=
+"AskDCMI" /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" height="30"><a href="/index.shtml"><img src=
+"/images/header/dcmi_sm.gif" width="329" height="30" alt=
+"Dublin Core Metadata Initiative" /></a></td>
+</tr>
+</table>
+
+<table width="100%" cellspacing="0" cellpadding="6" summary=
+"page layout">
+<tr>
+<td class="crumb"><a href="http://dublincore.org/">Home</a>
+&gt;&nbsp;<a href="http://dublincore.org/documents/">
+Documents</a>&nbsp;&gt;&nbsp;<a href=
+"http://dublincore.org/documents/dcidentifiers/">
+DCidentifiers</a>&nbsp;&gt;&nbsp;</td>
+<td align="right">
+<form method="post" action="/cgi-bin/htsearch"><input type="hidden"
+name="method" value="and" /><input type="hidden" name="format"
+value="builtin-long" /><input type="hidden" name="sort" value=
+"score" /><input type="hidden" name="config" value="htdig" /><input
+type="hidden" name="restrict" value="" /><input type="hidden" name=
+"exclude" value="" /> 
+
+<table cellspacing="0" cellpadding="2" summary="page layout">
+<tr>
+<td nowrap="nowrap"><input type="text" value="Enter keyword" name=
+"words" size="20" onfocus=
+"if(this.value=='Enter keyword')this.value='';" onblur=
+"if(this.value=='')this.value='Enter keyword';" class=
+"search" />&nbsp;</td>
+<td><input type="submit" name="submit" value="Search" class=
+"button" /></td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+</div>
+
+<h1>Guidelines for using resource identifiers in Dublin Core
+metadata</h1>
+
+<table cellspacing="0" class="docinfo" summary="page layout">
+<tr>
+<th>Creator:</th>
+<td><a href="mailto:a.powell@ukoln.ac.uk">Andy Powell</a>, UKOLN,
+University of Bath</td>
+</tr>
+
+<tr>
+<th>Creator:</th>
+<td><a href="mailto:p.johnston@ukoln.ac.uk">Pete Johnston</a>,
+UKOLN, University of Bath</td>
+</tr>
+
+<tr>
+<th>Creator:</th>
+<td><a href="mailto:lmc@strath.ac.uk">Lorna Campbell</a>,
+CETIS</td>
+</tr>
+
+<tr>
+<th>Creator:</th>
+<td><a href="mailto:philb@icbl.hw.ac.uk">Phil Barker</a>,
+CETIS</td>
+</tr>
+
+<tr>
+<th>Date Issued:</th>
+<td>2005-04-11</td>
+</tr>
+
+<tr>
+<th>Identifier:</th>
+<td><a href="/documents/2005/04/11/dcidentifiers/">
+http://dublincore.org/documents/2005/04/11/dcidentifiers/</a></td>
+</tr>
+
+<tr>
+<th>Replaces:</th>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<th>Is Replaced By:</th>
+<td>Not applicable</td>
+</tr>
+
+<tr>
+<th>Latest Version:</th>
+<td><a href="/documents/dcidentifiers/">
+http://dublincore.org/documents/dcidentifiers/</a></td>
+</tr>
+
+<tr>
+<th>Status of Document:</th>
+<td><a href="/documents/#recommendedresources">DRAFT DCMI
+Recommended Resource</a></td>
+</tr>
+
+<tr>
+<th>Description of Document:</th>
+<td>This document provides guidelines for using a number of widely
+adopted identification systems in Dublin Core (DC) metadata.</td>
+</tr>
+</table>
+
+<h2>1. Introduction</h2>
+
+<p>This document provides guidelines for using a number of widely
+adopted identification systems in <a href="http://dublincore.org/">
+Dublin Core (DC) metadata</a> <small>[<a href=
+"#DCMI">DCMI</a>]</small>.</p>
+
+<h2>2. Definitions</h2>
+
+<p>In the <a href="http://dublincore.org/documents/dces/">Dublin
+Core Metadata Element Set defintion</a> <small>[<a href=
+"#DCMES">DCMES</a>]</small>, the Dublin Core Metadata Initiative
+(DCMI) defines an identifier as:</p>
+
+<blockquote><i>An unambiguous reference to [a] resource within a
+given context.</i></blockquote>
+
+<p>and goes on to note that:</p>
+
+<blockquote><i>Recommended best practice is to identify the
+resource by means of a string or number conforming to a formal
+identification system. Example formal identification systems
+include the Uniform Resource Identifier (URI) (including the
+Uniform Resource Locator (URL)), the Digital Object Identifier
+(DOI) and the International Standard Book Number
+(ISBN).</i></blockquote>
+
+<p>In DC metadata, identifiers are typically used with the
+Identifier, Source and Relation elements, though they may also be
+used elsewhere, for example with the Rights element as a <i>
+reference</i> to a service providing a rights statement.</p>
+
+<p>The <a href="http://www.ietf.org/rfc/rfc3986.txt">Uniform
+Resource Identifier (URI): Generic Syntax</a> Internet-Draft
+<small>[<a href="#URI">URI</a>]</small> defines an identifier
+as:</p>
+
+<blockquote><i>An identifier embodies the information required to
+distinguish what is being identified from all other things within
+its scope of identification.</i></blockquote>
+
+<p>URIs are a fundamental building block of the <a href=
+"http://www.w3.org/2001/sw/">semantic Web</a> <small>[<a href=
+"#SW">SW</a>]</small>, the <a href="http://www.w3.org/RDF/">
+Resource Description Framework</a> <small>[<a href=
+"#RDF">RDF</a>]</small> and the <a href=
+"http://dublincore.org/documents/abstract-model/">Dublin Core
+Abstract Model</a> <small>[<a href="#DCAM">DCAM</a>]</small>. The
+<a href="http://www.w3.org/TR/webarch/">Architecture of the World
+Wide Web</a> <small>[<a href="#WEBARCH">WEBARCH</a>]</small>
+contains the following principle:</p>
+
+<blockquote><i>To benefit from and increase the value of the World
+Wide Web, agents should provide URIs as identifiers for
+resources.</i></blockquote>
+
+<h2>3. General guidelines</h2>
+
+<p>All formal identifiers used in DC metadata should be URIs. The
+phrase 'formal identifier' is used here to mean an identifier that
+conforms to a widely recognised identifier scheme. URIs provide a
+simple, extensible and widely deployed mechanism for identifying
+resources that supports the use (through mapping) of existing
+identification schemes including the common Uniform Resource
+Locator (URL) <small>[<a href=
+"#URI-CLARIFICATION">URI-CLARIFICATION</a>]</small>. In DC metadata
+(with the exception of simple DC), the 'URI' encoding scheme should
+be indicated if appropriate, in accordance with the <a href=
+"http://dublincore.org/resources/expressions/">DCMI encoding
+guidelines</a> <small>[<a href=
+"#DCMI-ENCODINGS">DCMI-ENCODINGS</a>]</small>. For example:</p>
+
+<table width="90%" summary="example" align="center" cellpadding=
+"5">
+<tr>
+<td bgcolor="#cccccc">
+<div align="right"><small>[<a href=
+"#DC-XHTML-ENCODING">DC/XHTML-ENCODING</a>]</small></div>
+
+<pre>
+&lt;meta name="DC.identifier" scheme="DCTERMS.URI" content="http://www.ukoln.ac.uk/" /&gt;
+&lt;link rel="DC.relation" href="http://www.bath.ac.uk/" /&gt;
+...
+</pre>
+</td>
+</tr>
+</table>
+
+<table width="90%" summary="example" align="center" cellpadding=
+"5">
+<tr>
+<td bgcolor="#cccccc">
+<div align="right"><small>[<a href=
+"#DC-XML-ENCODING">DC/XML-ENCODING</a>]</small></div>
+
+<pre>
+&lt;metadata ...&gt;
+  &lt;dc:identifier xsi:type="dcterms:URI"&gt;http://www.ukoln.ac.uk/&lt;/dc:identifier&gt;
+  &lt;dc:relation xsi:type="dcterms:URI"&gt;http://www.bath.ac.uk/&lt;/dc:relation&gt;
+  ...
+&lt;/metadata&gt;
+</pre>
+</td>
+</tr>
+</table>
+
+<table width="90%" summary="example" align="center" cellpadding=
+"5">
+<tr>
+<td bgcolor="#cccccc">
+<div align="right"><small>[<a href=
+"#DC-RDF-ENCODING">DC/RDF-ENCODING</a>]</small></div>
+
+<pre>
+&lt;rdf:RDF ...&gt;
+  &lt;rdf:Description rdf:about="http://www.ukoln.ac.uk/"&gt;
+    &lt;dc:relation rdf:resource="http://www.bath.ac.uk/" /&gt;
+    ...
+  &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+</td>
+</tr>
+</table>
+
+<p>Recommended best practice is to use URIs that conform to a
+registered URI scheme, since this helps to ensure that the URIs are
+unique. A list of <a href=
+"http://www.iana.org/assignments/uri-schemes">registered URI
+schemes</a> is maintained by IANA <small>[<a href=
+"#URI-SCHEMES">URI-SCHEMES</a>]</small>.</p>
+
+<p>A URL is simply a type of URI that identifies a resource via a
+representation of its primary access mechanism (e.g., its network
+"location"), rather than by some other attributes it may have.
+Thus, an 'http' URL is a URI (or to put it another way, 'http' is a
+URI scheme).</p>
+
+<p>A Uniform Resource Name (URN) is a URI that uses the 'urn' URI
+scheme and that is intended to 'name' a resource in a persistent
+way. The URN defines sub-spaces, called 'namespaces', which are
+assigned namespace identifiers. Thus, 'ISBN' is a URN namespace
+identifier (see below):</p>
+
+<table width="90%" summary="example" align="center" cellpadding=
+"5">
+<tr>
+<td bgcolor="#cccccc">
+<pre>
+&lt;link rel="DC.source" href="urn:ISBN:1-56592-149-6" /&gt;
+</pre>
+</td>
+</tr>
+</table>
+
+<p>A list of <a href=
+"http://www.iana.org/assignments/urn-namespaces">registered URN
+namespace identifiers</a> is maintained by IANA <small>[<a href=
+"#URN-NIDS">URN-NIDS</a>]</small>.</p>
+
+<p>The <a href="http://info-uri.info/registry/drafts.html">'info'
+URI scheme</a> <small>[<a href="#INFO-URI">INFO-URI</a>]</small>
+<small>[<a href="#INFO-REG">INFO-REG</a>]</small> has been
+developed from within the library and publishing communities to
+expedite the referencing by URIs of information assets that have
+identifiers in public namespaces but have no representation within
+the URI allocation. However, at the time of writing, the 'info' URI
+scheme had not been registered with IANA.</p>
+
+<h2>4. Specific identifier scheme guidelines</h2>
+
+<p>The following sections show how identifiers from specific
+identification systems can be used. An example of each is shown,
+using the DC/XHTML encoding.</p>
+
+<p>These guidelines are based on the following decision tree:</p>
+
+<ol>
+<li>If the identifier is an 'http' URI, use it as is</li>
+
+<li>else, if the identifier is, or can be mapped to, a URI using a
+registered URI scheme, use that</li>
+
+<li>else, if the identifier is, or can be mapped to, a URI using a
+registered URN namespace, use that</li>
+
+<li>else, if the identifier is, or can be mapped to, an
+unregistered URI scheme or an unregistered URN namespace use
+that.</li>
+</ol>
+
+<h3>4.1 ARK</h3>
+
+<p>The <a href=
+"http://www.ietf.org/internet-drafts/draft-kunze-ark-09.txt">ARK
+(Archival Resource Key)</a> naming scheme is designed to facilitate
+the high-quality and persistent identification of information
+objects [<a href="#ARK">ARK</a>]. An ARK is a special kind of URL
+that connects users to three things: the named object, its
+metadata, and the provider's promise about its persistence. An ARK
+has five components: an optional and mutable Name Mapping Authority
+Hostport, the "ark:" label, the Name Assigning Authority Number
+(NAAN), the assigned Name, and an optional and possibly mutable
+Qualifier supported by the NMA.</p>
+
+<p>Map ARKs to 'http' URIs, using the Name Mapping Authority
+Hostport component. For example:</p>
+
+<table width="90%" summary="example" align="center" cellpadding=
+"5">
+<tr>
+<td bgcolor="#cccccc">
+<pre>
+&lt;link rel="DC.relation"
+      href="http://loc.gov/ark:/12025/654xz321" /&gt;
+</pre>
+</td>
+</tr>
+</table>
+
+<h3>4.2 DOI</h3>
+
+<p>The <a href="http://www.doi.org/">Digital Object Identifier</a>
+<small>[<a href="#DOI">DOI</a>]</small> is a persistent identifier
+of intellectual property entities. DOIs are most commonly mapped to
+'http' URIs using the http://dx.doi.org/ prefix or to URIs using
+the 'doi' URI scheme <small>[<a href=
+"#DOI-HANDBOOK">DOI-HANDBOOK</a>]</small>. For example:</p>
+
+<pre>
+http://dx.doi.org/10.1000/182
+doi:10.1000/182
+</pre>
+
+<p>However, they may also be mapped to <a href=
+"http://info-uri.info/registry/drafts.html">'info' URIs</a> <small>
+[<a href="#INFO-URI">INFO-URI</a>]</small> <small>[<a href=
+"#INFO-REG">INFO-REG</a>]</small>. For example:</p>
+
+<pre>
+info:doi/10.1000/182
+</pre>
+
+<p>Note: at the time of writing, the 'doi' and 'info' URI schemes
+had not been registered with IANA.</p>
+
+<p>For example:</p>
+
+<table width="90%" summary="example" align="center" cellpadding=
+"5">
+<tr>
+<td bgcolor="#cccccc">
+<pre>
+&lt;link rel="DC.relation" href="http://dx.doi.org/10.1000/182" /&gt;
+</pre>
+</td>
+</tr>
+</table>
+
+<p>Note: software applications that consume metadata should accept
+and understand the other forms of DOIs shown above.</p>
+
+<h3>4.3 Handle</h3>
+
+<p>The <a href="http://www.handle.net/">Handle System</a> <small>
+[<a href="#HANDLE">HANDLE</a>]</small> is a comprehensive system
+for assigning, managing, and resolving persistent identifiers,
+known as "handles," for digital objects and other resources on the
+Internet. Handles are most commonly mapped to 'http' URIs using the
+http://hdl.handle.net/ prefix or to URIs using the 'hdl' URI
+scheme. For example:</p>
+
+<pre>
+http://hdl.handle.net/4263537/4069
+hdl:4263537/4069
+</pre>
+
+<!--
+<p>However, they may also be mapped to <a href="http://info-uri.info/registry/drafts.html">'info' URIs</a> <small>[<a href=
+"#INFO-URI">INFO-URI</a>]</small> <small>[<a href="#INFO-REG">INFO-REG</a>]</small>. For
+example:</p>
+
+<pre>
+info:hdl/4263537/4069
+</pre>
+
+<p>Note: at the time of writing, the 'hdl' and 'info' URI schemes
+had not been registered with IANA.</p>
+-->
+<p>Note: at the time of writing, the 'hdl' URI scheme had not been
+registered with IANA.</p>
+
+<p>For example:</p>
+
+<table width="90%" summary="example" align="center" cellpadding=
+"5">
+<tr>
+<td bgcolor="#cccccc">
+<pre>
+&lt;link rel="DC.relation" href="http://hdl.handle.net/4263537/4069" /&gt;
+</pre>
+</td>
+</tr>
+</table>
+
+<p>Note: software applications that consume metadata should accept
+and understand the 'hdl' URI form of Handles shown above.</p>
+
+<!--
+<p>Note: software applications that consume metadata should accept and understand the other forms of Handles shown above.</p>
+-->
+<h3>4.4 ISBN</h3>
+
+<p>An International Standard Book Number (ISBN) identifies an
+edition of a monographic work and is defined by the standard
+NISO/ANSI/ISO 2108:1992. <a href=
+"http://www.ietf.org/rfc/rfc3187.txt">RFC-3187</a> <small>[<a href=
+"#RFC3187">RFC3187</a>]</small> defines the mechanism for mapping
+an ISBN to a URN.</p>
+
+<p>Map ISBNs to URNs, using the 'ISBN' URN namespace identifier.
+For example:</p>
+
+<table width="90%" summary="example" align="center" cellpadding=
+"5">
+<tr>
+<td bgcolor="#cccccc">
+<pre>
+&lt;link rel="DC.relation" href="urn:ISBN:1-56592-149-6" /&gt;
+</pre>
+</td>
+</tr>
+</table>
+
+<p>Note that the hyphens in the ISBN are optional (and should be
+removed before comparing two ISBN URNs) and that the 'ISBN' URN
+namespace identifier is case-insensitive.</p>
+
+<h3>4.5 ISSN</h3>
+
+<p>The <a href="http://www.issn.org/">International Standard Serial
+Number (ISSN)</a> is an eight-digit number which identifies
+periodical publications, including electronic serials <small>[<a
+href="#ISSN">ISSN</a>]</small>. <a href=
+"http://www.ietf.org/rfc/rfc3044.txt">RFC-3044</a> <small>[<a href=
+"#RFC3044">RFC3044</a>]</small> defines the mechanism for mapping
+an ISSN to a URN.</p>
+
+<p>Map ISSNs to URNs, using the 'ISSN' URN namespace identifier.
+For example:</p>
+
+<table width="90%" summary="example" align="center" cellpadding=
+"5">
+<tr>
+<td bgcolor="#cccccc">
+<pre>
+&lt;link rel="DC.relation" href="urn:ISSN:1361-3200" /&gt;
+</pre>
+</td>
+</tr>
+</table>
+
+<p>Note that the hyphens in the ISSN are optional (and should be
+removed before comparing two ISSN URNs) and that the 'ISSN' URN
+namespace identifier is case-insensitive.</p>
+
+<h3>4.6 PURL</h3>
+
+<p>A <a href="http://purl.org/">PURL</a> is a Persistent Uniform
+Resource Locator <small>[<a href="#PURL">PURL</a>]</small>.
+Functionally, a PURL is a URL. However, instead of pointing
+directly to the location of an Internet resource, a PURL points to
+an intermediate resolution service. Because PURLs conform to the
+URI specification, they can be used unmodified in DC metadata. For
+example:</p>
+
+<table width="90%" summary="example" align="center" cellpadding=
+"5">
+<tr>
+<td bgcolor="#cccccc">
+<pre>
+&lt;link rel="DC.relation"
+      href="http://purl.org/net/ukoln" /&gt;
+</pre>
+</td>
+</tr>
+</table>
+
+<h4>4.6.1 POI</h4>
+
+<p>The <a href="http://www.ukoln.ac.uk/distributed-systems/poi/">
+PURL-based Object Identifier (POI)</a> provides a simple
+specification for resource identifiers based on the PURL system
+<small>[<a href="#POI">POI</a>]</small>. Because POIs conform to
+the URI specification, they can be used unmodified in DC metadata.
+For example:</p>
+
+<table width="90%" summary="example" align="center" cellpadding=
+"5">
+<tr>
+<td bgcolor="#cccccc">
+<pre>
+&lt;link rel="DC.relation"
+      content="http://purl.org/poi/xtcat.oclc.org/OCLCNo/ocm41020136" /&gt;
+</pre>
+</td>
+</tr>
+</table>
+
+<h3>4.7 SICI</h3>
+
+<p>The Serial Item and Contribution Identifier (SICI) standard
+defines a variable length code that provides unique identification
+of serial items (e.g., issues) and the contributions (e.g.,
+articles) contained in a serial title. SICI is specified in
+NISO/ANSI Z39.56-1996. The <a href=
+"http://info-uri.info/registry/drafts.html">'info' URI Scheme</a>
+Internet-Draft <small>[<a href="#INFO-URI">INFO-URI</a>]</small>
+provides a mechanism for mapping a SICI to an 'info' URI.</p>
+
+<p>Note: at the time of writing, the 'info' URI scheme had not been
+registered with IANA.</p>
+
+<p>Map SICIs to 'info' URIs. For example:</p>
+
+<table width="90%" summary="example" align="center" cellpadding=
+"5">
+<tr>
+<td bgcolor="#cccccc">
+<pre>
+&lt;link rel="DC.relation"
+      href="info:sici/1046-8188(199501)13:1%3C69:FTTHBI%3E2.0.TX;2-4" /&gt;
+</pre>
+</td>
+</tr>
+</table>
+
+<h2>References</h2>
+
+<p><a id="DCMI" name="DCMI"><strong>[DCMI]</strong></a> Dublin Core
+Metadata Initiative<br />
+<a href="http://dublincore.org/">http://dublincore.org/</a></p>
+
+<p><a id="DCMES" name="DCMES"><strong>[DCMES]</strong></a> Dublin
+Core Metadata Element Set, Version 1.1: Reference Description<br />
+<a href=
+"http://dublincore.org/documents/dces/">http://dublincore.org/documents/dces/</a></p>
+
+<p><a id="DCQ" name="DCQ"><strong>[DCQ]</strong></a> Dublin Core
+Qualifiers<br />
+<a href=
+"http://dublincore.org/documents/dcmes-qualifiers/">http://dublincore.org/documents/dcmes-qualifiers/</a></p>
+
+<p><a id="URI" name="URI"><strong>[URI]</strong></a> Uniform
+Resource Identifiers (URI): Generic Syntax<br />
+<a href=
+"http://www.ietf.org/rfc/rfc3986.txt">http://www.ietf.org/rfc/rfc3986.txt</a></p>
+
+<p><a id="SW" name="SW"><strong>[SW]</strong></a> Semantic
+Web<br />
+<a href=
+"http://www.w3.org/2001/sw/">http://www.w3.org/2001/sw/</a></p>
+
+<p><a id="RDF" name="RDF"><strong>[RDF]</strong></a> Resource
+Description Framework<br />
+<a href="http://www.w3.org/RDF/">http://www.w3.org/RDF/</a></p>
+
+<p><a id="DCAM" name="DCAM"><strong>[DCAM]</strong></a> Dublin Core
+Abstract Model<br />
+<a href=
+"http://dublincore.org/documents/abstract-model/">http://dublincore.org/documents/abstract-model/</a></p>
+
+<p><a id="WEBARCH" name="WEBARCH"><strong>[WEBARCH]</strong></a>
+Architecture of the World Wide Web, First Edition<br />
+<a href=
+"http://www.w3.org/TR/webarch/">http://www.w3.org/TR/webarch/</a></p>
+
+<p><a id="URI-CLARIFICATION" name="URI-CLARIFICATION"><strong>
+[URI-CLARIFICATION]</strong></a> URIs, URLs, and URNs:
+Clarifications and Recommendations 1.0<br />
+<a href=
+"http://www.w3.org/TR/uri-clarification/">http://www.w3.org/TR/uri-clarification/</a></p>
+
+<p><a id="DCMI-ENCODINGS" name="DCMI-ENCODINGS"><strong>
+[DCMI-ENCODINGS]</strong></a> DCMI Encoding Guidelines<br />
+<a href=
+"http://dublincore.org/resources/expressions/">http://dublincore.org/resources/expressions/</a></p>
+
+<p><a id="DC-XHTML-ENCODING" name="DC-XHTML-ENCODING"><strong>
+[DC/XHTML-ENCODING]</strong></a> Expressing Dublin Core in
+HTML/XHTML meta and link elements<br />
+<a href=
+"http://dublincore.org/documents/dcq-html/">http://dublincore.org/documents/dcq-html/</a></p>
+
+<p><a id="DC-XML-ENCODING" name="DC-XML-ENCODING"><strong>
+[DC/XML-ENCODING]</strong></a> Guidelines for implementing Dublin
+Core in XML<br />
+<a href=
+"http://dublincore.org/documents/dc-xml-guidelines/">http://dublincore.org/documents/dc-xml-guidelines/</a></p>
+
+<p><a id="DC-RDF-ENCODING" name="DC-RDF-ENCODING"><strong>
+[DC/RDF-ENCODING]</strong></a> Expressing Simple Dublin Core in
+RDF/XML<br />
+<a href=
+"http://dublincore.org/documents/dcmes-xml/">http://dublincore.org/documents/dcmes-xml/</a></p>
+
+<p><a id="URI-SCHEMES" name="URI-SCHEMES"><strong>
+[URI-SCHEMES]</strong></a> Uniform Resource Identifier (URI)
+SCHEMES<br />
+<a href=
+"http://www.iana.org/assignments/uri-schemes">http://www.iana.org/assignments/uri-schemes</a></p>
+
+<p><a id="URN-NIDS" name="URN-NIDS"><strong>[URN-NIDS]</strong></a>
+URN Namespaces<br />
+<a href=
+"http://www.iana.org/assignments/urn-namespaces">http://www.iana.org/assignments/urn-namespaces</a></p>
+
+<p><a id="ARK" name="ARK"><strong>[ARK]</strong></a> The ARK
+Persistent Identifier Scheme<br />
+<a href=
+"http://www.ietf.org/internet-drafts/draft-kunze-ark-09.txt">http://www.ietf.org/internet-drafts/draft-kunze-ark-09.txt</a></p>
+
+<p><a id="DOI" name="DOI"><strong>[DOI]</strong></a> The Digital
+Object Identifier System<br />
+<a href="http://www.doi.org/">http://www.doi.org/</a></p>
+
+<!--
+<p>
+<a id="DOI-URI" name="DOI-URI"><strong>[DOI-URI]</strong></a>
+Uniform Resource Identifier (URI) scheme for Digital Object Identifiers (DOIs)<br>
+<a href="http://www.ietf.org/internet-drafts/draft-paskin-doi-uri-00.txt">http://www.ietf.org/internet-drafts/draft-paskin-doi-uri-00.txt</a>
+</p>
+-->
+<p><a id="DOI-HANDBOOK" name="DOI-HANDBOOK"><strong>
+[DOI-HANDBOOK]</strong></a> DOI Handbook<br />
+<a href=
+"http://www.doi.org/hb.html">http://www.doi.org/hb.html</a></p>
+
+<p><a id="INFO-URI" name="INFO-URI"><strong>[INFO-URI]</strong></a>
+The "info" URI Scheme for Information Assets with Identifiers in
+Public Namespaces<br />
+<a href=
+" http://info-uri.info/registry/drafts.html">http://info-uri.info/registry/drafts.html</a></p>
+
+<p><a id="INFO-REG" name="INFO-REG"><strong>[INFO-REG]</strong></a>
+"info" URI scheme registry<br />
+<a href=
+"http://info-uri.info/registry/">http://info-uri.info/registry/</a></p>
+
+<p><a id="HANDLE" name="HANDLE"><strong>[HANDLE]</strong></a> The
+Handle System<br />
+<a href="http://www.handle.net/">http://www.handle.net/</a>&gt;</p>
+
+<p><a id="RFC3187" name="RFC3187"><strong>[RFC3187]</strong></a>
+RFC-3187: Using International Standard Book Numbers as Uniform
+Resource Names<br />
+<a href=
+"http://www.ietf.org/rfc/rfc3187.txt">http://www.ietf.org/rfc/rfc3187.txt</a></p>
+
+<p><a id="ISSN" name="ISSN"><strong>[ISSN]</strong></a>
+International Standard Serial Number<br />
+<a href="http://www.issn.org/">http://www.issn.org/</a></p>
+
+<p><a id="RFC3044" name="RFC3044"><strong>[RFC3044]</strong></a>
+RFC-3044: Using The ISSN (International Serial Standard Number) as
+URN (Uniform Resource Names) within an ISSN-URN Namespace<br />
+<a href=
+"http://www.ietf.org/rfc/rfc3044.txt">http://www.ietf.org/rfc/rfc3044.txt</a></p>
+
+<p><a id="PURL" name="PURL"><strong>[PURL]</strong></a> Persistent
+Uniform Resource Locator<br />
+<a href="http://purl.org/">http://purl.org/</a></p>
+
+<p><a id="POI" name="POI"><strong>[POI]</strong></a> The PURL-based
+Object Identifier (POI)<br />
+<a href=
+"http://www.ukoln.ac.uk/distributed-systems/poi/">http://www.ukoln.ac.uk/distributed-systems/poi/</a></p>
+
+<div class="footer">
+<p><a href="http://validator.w3.org/check/referer"><img src=
+"/images/logos/valid-xhtml10.gif" alt="Valid XHTML 1.0!" height=
+"31" width="88" /></a><a href=
+"http://jigsaw.w3.org/css-validator"><img src=
+"/images/logos/vcss.gif" alt="Valid CSS!" width="88" height=
+"31" /></a></p>
+
+<p>Metadata associated with this resource: <a href=
+"http://dublincore.org/documents/dcidentifiers/index.shtml.rdf">
+http://dublincore.org/documents/dcidentifiers/index.shtml.rdf</a></p>
+
+<p><a href="/about/copyright/index.shtml#copyright">Copyright</a>
+&copy; 1995-2005 <acronym title="Dublin Core Metadata Initiative">
+<a href="/index.shtml">DCMI</a></acronym> All Rights Reserved. DCMI
+<a href="/about/copyright/index.shtml#liability">liability</a>, <a
+href="/about/copyright/index.shtml#trademark">trademark/service
+mark</a>, <a href="/about/copyright/index.shtml#documentnotice">
+document use</a> and <a href="/about/software/">software
+licensing</a> rules apply. Your interactions with this site are in
+accordance with our <a href="/about/privacy/">privacy</a>
+statements. Please feel free to <a href="/about/contact/">contact
+us</a> for any questions, comments or media inquiries.</p>
+
+<p>DCMI and the DCMI Web site are hosted by <a href=
+"http://www.oclc.org/research/">OCLC Research</a>.</p>
+</div>
+</body>
+</html>
+

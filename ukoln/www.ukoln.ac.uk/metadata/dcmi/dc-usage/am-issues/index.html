@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org">
+<title>Issues arising from DCMI Abstract Model</title>
+</head>
+<body bgcolor="#ffffff">
+<h1>DC Usage Board</h1>
+
+<h2>Issues arising from DCMI Abstract Model</h2>
+
+<hr>
+<p>This document summarises issues for discussion at the March 2004
+meeting of the DC Usage Board that arise out of the <a href=
+"../../abstract-model/">DCMI Abstract Model working draft</a>.</p>
+
+<p>This is not a full list of issues arising from the AM - just
+those that appear to be of interest to the UB. Apart from the first
+two, all these issues are primarily for information at this stage -
+no immediate decisions or actions are required by the UB.</p>
+
+<h3>Relation of the AM to other "foundational" documents maintained
+by DCMI</h3>
+
+<p>There are a number of older DCMI documents that have overlaps
+with the DCMI Abstarct Model Working Draft. I don't think this
+matters too much, provided the terminology used across all the
+documents is the same and appropriate linkages are put in place
+between documents.</p>
+
+<p>More drastic action could be taken, like removing some of the
+older documents. However, I don't think that would be justified at
+this stage.</p>
+
+<p><strong>Action:</strong> Align terminology at appropriate
+time.</p>
+
+<p><strong>Action:</strong> Add links from older DCMI documentation
+to the AM at appropriate time.</p>
+
+<h3>Wording of term defintions</h3>
+
+<p>This is an issue which affects how we define new DCMI terms. The
+AM states that the values of all DCMI properties are resources -
+people, organisations, concepts, places, etc.</p>
+
+<blockquote><i>"A DCMI metadata value is the physical or conceptual
+entity that is associated with a property when it is used to
+describe a resource. For example, the value of the DC Creator
+property is a person, organisation or service - a physical entitiy.
+The value of the DC Date property is a point in time - a conceptual
+entity. The value of the DC Coverage property may be a geographic
+region or country - a physical entity. The value of the DC Subject
+property may be a concept - a conceptual entity - or a physical
+object or person - a physical entity. Each of these entities is a
+resource. The value may be identified using a value URI; the value
+may be represented by one or more value strings and/or rich values;
+the value may have some related descriptions - but the value is a
+resource."</i></blockquote>
+
+<p>The wording of new DCMI property definitions needs to reflect
+this. For example, definitions should <strong>not</strong> use
+phrases like "A reference to ..." or "A URI for ...".</p>
+
+<p>Some of the existing terms definitions are poor in this respect.
+However, it is probably not possible to change these definitions at
+this stage.</p>
+
+<h3>Special case of dcterms:URI</h3>
+
+<p>It is worth noting that 'dcterms:URI' is treated specially in
+our syntax encodings. It is used to indicate a <i>value URI</i>
+rather than a <i>value string</i>. You'll note that dcterms:URI is
+almost never used is the RDF/XML and new XHTML encodings, because
+these have alternative mechanisms for indicating that a <i>value
+URI</i> is being provided ('rdf:resource' and the XHTML 'link'
+element respectively).</p>
+
+<p>Therfore, dcterms:URI is not a normal syntax encoding
+scheme.</p>
+
+<h3>Special case of dc:type</h3>
+
+<p>The 'dc:type' property is again a slightly special case w.r.t
+the AM because it is used to indicate the class of the resource
+being provided.</p>
+
+<p>One might expect little use to be made of 'dc:type' in RDF/XML
+encodings, because RDF has separate mechanisms for indicating the
+class of a resource.</p>
+
+<h3>Special case of dc:identifier</h3>
+
+<p>Similarily, in combination with 'dcterms:URI', the
+'dc:identifier' element can be used to provide the URI of the
+resource being described.</p>
+
+<p>Again, one would expect little use to be made of 'dc:identifier'
+in the RDF/XML encoding because RDF provides a separate mechanism
+for indicating the URI of a resource. The exception to this is
+where the identifier being provided cannot be encoded as a URI.</p>
+
+<h3>Element refinement and resource classes</h3>
+
+<p>This is very much an issue on the distant horizon... but
+<strong>if</strong> DCMI moves to a position where resources and
+values are more strongly typed, for example if we start making more
+use of rdfs:domain and rdfs:range in our RDFS term declarations
+(this is a big if!), <strong>then</strong> we will have to consider
+what impact this has on our notion of <i>element refinement</i>.
+For example, I assume that it will be the case that valid element
+refinement will only occur when the domain and range of the element
+refinement are the same as or narrower than the domain and range of
+the element being refined.</p>
+
+<h3>Vocabulary terms as URIs</h3>
+
+<p>When a vocabulary term gets a URI assigned to it, it changes
+from being a <i>value string</i> to being a <i>value URI</i> and
+the encoding needs to change to reflect that. So for example in
+XML, instead of</p>
+
+<pre>
+&lt;dc:subject xsi:type="dcterms:DDC"&gt;Internet&lt;/dc:subject&gt;
+</pre>
+
+<p>or</p>
+
+<pre>
+&lt;dc:subject xsi:type="dcterms:DDC"&gt;004.678&lt;/dc:subject&gt;
+</pre>
+
+<p>depending on your preference for numbers or words, the encoding
+would change to something more like</p>
+
+<pre>
+&lt;dc:subject xsi:type="dcterms:URI"&gt;info:ddc/22/eng//004.678&lt;/dc:subject&gt;
+</pre>
+
+<p>'DDC' is no longer required as a DCMI encoding scheme because
+the DDCness of the value is indicated by the URI. Therefore, there
+is no requirement to 'register' DDC with DCMI.</p>
+
+<p>DCMI needs to consider whether it is better to encourage owners
+of vocabularies to move towards the use of URIs for their terms, or
+continue to encourage the registration of new schemes with DCMI or
+to adopt a mixed approach for the time being.</p>
+
+<h3>Vocabulary Encoding Schemes and Syntax Encoding Schemes</h3>
+
+<p>The AM clearly distinguishes between Vocabulary Encoding Schemes
+and Synatx Encoding Schemes, because they are fundamentally
+different: one provides classes/types of value resources, the other
+deals with the format/interpretation of literals. It would appear
+that these map exactly onto the distinction between Class and
+Datatype in RDF?</p>
+
+<p>DCMI does currently distinguish these things, but I wonder if
+that distinction is made forcefully enough in some of our
+documentation. It is perhaps worth noting, that the lable
+'Vocabulary Encoding Scheme' now looks slightly unfortunate, given
+that this is now seen as a mechanism for indicating the class of
+the value - however, it may not be sensible or possible to change
+our terminology at this point.</p>
+
+<h3>Descriptions, records and schemas/application profiles</h3>
+
+<p>Rachel has pointed out the the AM, as current presented, doesn't
+clearly indicate the relationships between descriptions/records and
+the schemas (or application profiles) that define those things.</p>
+
+<p>Our current thinking, but this hasn't been agreed with all the
+AM authors, is to extend the model slightly, introducing the notion
+of a <i>description set</i>. A <i>description set</i> is a
+collection of related <i>descriptions</i>. We will replace <i>
+record</i> by <i>description set</i> in the current 'description'
+model. We will then add a new 'record' model which indicates that a
+<i>record</i> is an instantiation of a <i>description set</i> in a
+particular encoding syntax.</p>
+
+<p>
+This has the advantage of clearly separating the conceptual parts of the model
+(the 'resource' model and the 'description' model') from
+the instantiated part of the model (the new 'record' model).
+</p>
+
+<p>It is important to remember that there are two kinds of schemas
+- syntactic and semantic. A <i>syntax schema</i> will be associated
+with a <i>record</i> and will define how the syntax is being used.
+The most common examples of <i>syntax schemas</i> are those using
+the XML schema language. A <i>semantic schema</i>
+defines what
+classes of resource are being described, which terms are being used
+and what their semantics are. The most common examples of <i>
+semantic schemas</i> are those using the RDF Schema and OWL
+languages.
+<i>Semantic schemas</i> are not necessarily tightly bound to anything
+in the AM - for example, a <i>semantic schema</i> will commonly be used
+to declare all the terms in a particular namespace.
+</p>
+<p>
+In this view, an <i>application profile</i> is a special kind of <i>semantic schema</i>
+that is associated with a <i>description set</i>.
+The important thing to note is that <i>application profiles</i>
+don't need to say anything about syntax, but do need to cover cases
+where multiple resources of different classes are being described (e.g. a
+document and its author).
+</p>
+<p>Finally, it is worth noting that, although <i>syntax schemas</i>
+are currently bound to <i>records</i> in a formal way (for example, using
+xml:schemaLocation), there is no direct linkage between
+an <i>application profile</i>
+or <i>semantic schema</i>
+and a <i>description set</i>. I.e. there is no 'hard line' between these
+things and any other entities in the AM.</p>
+
+<hr>
+<small>Andy Powell, UKOLN, University of Bath<br>
+March 2004</small>
+</body>
+</html>
+

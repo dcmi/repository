@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DCMI Tools and Software</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>Tools and Software</h1>
+<table cellspacing="0" class="noborder">
+<tr>
+<td width="200"><!--#include virtual="/tools/menu.txt" --></td>
+<td>
+<a id="utilities" name="utilities"></a>
+<h2>Utilities</h2>
+<a id="mkdoc" name="mkdoc"></a>
+<p><a href="http://www.mkdoc.org/"><strong>MKDoc</strong></a></p>
+<blockquote>
+<p>MKDoc is a web site content management system that can produce HTML and RDF qualified Dublin Core metadata for every document. It also supports Dublin Core metadata via the generation of RSS 1.0 syndication feeds. MKDoc is free software and released under the General Public License.</p>
+<p>All content in an MKDoc web site is managed via a web interface and it has been designed to make the creation of usable, accessible, semantically rich and valid web sites as easy as possible.</p>
+<p>The following Dublin Core metadata can be set for every document:</p>
+<ul>
+<li>Lang</li>
+<li>Title</li>
+<li>Subject</li>
+<li>Description</li>
+<li>Publisher</li>
+<li>Rights</li>
+</ul>
+<p>In addition MKDoc automatically generates the following Dublin Core metadata for documents:</p>
+<ul>
+<li>Identifier</li>
+<li>Creator</li>
+<li>Contributor</li>
+<li>Date Created</li>
+<li>Date Modified</li>
+<li>References</li>
+<li>Replaces</li>
+</ul>
+</blockquote>
+
+<p><a href="http://www.splintered.co.uk/experiments/73/"><strong>Mozilla Firefox Dublin Core Viewer Extension</strong></a><br />This extension adds a button to the browser's status bar (and, optionally, the toolbar) to access an overview list of Dublin Core Metadata embedded in HTML/XHTML documents with META and LINK elements.</p>
+<p><a href="http://www.ukoln.ac.uk/metadata/dcassist/"><strong>DC-assist</strong></a><br />A small, flexible help utility for metadata applications and is intended to complement the help pages embedded within existing software.</p>
+<a id="creatingmetadata" name="creatingmetadata"></a>
+<h2>Creating Metadata (Templates)</h2>
+<!--
+<p><strong>AHDS</strong>; Newcastle DC creator</p>
+-->
+<p><strong>DC-dot</strong> (UKOLN)<br /><a href="http://www.ukoln.ac.uk/metadata/dcdot/">http://www.ukoln.ac.uk/metadata/dcdot/</a></p>
+<p><strong>DC-dot Java</strong> (UKOLN), requires Java 1.1<br /><a href="ftp://ftp.ukoln.ac.uk/metadata/tools/dcdot/java/">ftp://ftp.ukoln.ac.uk/metadata/tools/dcdot/java/</a></p>
+<p><strong>Deutscher Bildungsserver</strong> (Germany)<br /><a href="http://dbs.schule.de/db/inconeue.html">http://dbs.schule.de/db/inconeue.html</a></p>
+<p><strong>EdNA Metadata wizard</strong> (Australia)</p>
+<p><strong>Foto RDF-Gen</strong><br />Foto RDF-Gen es una aplicaci&oacute;n que genera el contenido de ficheros RDF para describir im&aacute;genes, especialmente fotograf&iacute;as.<br /><a href="http://www.webposible.com/utilidades/generador_rdf_foto.html">http://www.webposible.com/utilidades/generador_rdf_foto.html</a></p>
+<p><strong>GEM Gateway to Educational Materials</strong> (ERIC)<br /><a href="http://geminfo.org/">http://geminfo.org/</a></p>
+<p><strong>Mathematics Metadata Markup Editor</strong> (Germany)<br /><a href="http://www.mathematik.uni-osnabrueck.de/projects/META/">http://www.mathematik.uni-osnabrueck.de/<br />projects/META/</a></p>
+<p><strong>Medical Metadata Creator</strong> (Oregon Health Sciences University)<br />A combination of DC-dot, Paul Millers template and H. Suarez' and G. Malet's medical subject terms generators.<br /><a href="http://www.ohsu.edu/dmice/">http://www.ohsu.edu/dmice/</a></p>
+<p><strong>Metabrowser</strong> (free)<br />Site: <a href="http://metabrowser.spirit.net.au">http://metabrowser.spirit.net.au</a><br />Download: <a href="http://metabrowser.spirit.net.au/download/metabrowser.exe">http://metabrowser.spirit.net.au/download/metabrowser.exe</a></p>
+<p><strong>My Meta Maker</strong> (Germany - Physics)<br /><a href="http://www.physik.uni-oldenburg.de/EPS/mmm/">http://www.physik.uni-oldenburg.de/EPS/mmm/</a></p>
+<p><strong>Nordic DC metadata creator</strong> (including URN generator)<br /><a href="http://www.lub.lu.se/cgi-bin/nmdc.pl">http://www.lub.lu.se/cgi-bin/nmdc.pl</a>
+</p>
+<p>Variants on this template: 
+</p>
+<ul>
+<li>InDoReg, Danish National Bibliography<br /><a href="http://purl.dk/metadata/meta_lang.htm">http://purl.dk/metadata/meta_lang.htm</a></li>
+<li>National Library of Denmark, template for publishers<br /><a href="http://www.pligtaflevering.dk/anmeld/anmeld.pl">http://www.pligtaflevering.dk/anmeld/anmeld.pl</a></li>
+<li>National Library of Finland, Finnish version</li>
+<li>SAFARI Swedish Research Database<br /><a href="http://safari.hsv.se/metadata/safari.pl?lang=sv">http://safari.hsv.se/metadata/safari.pl?lang=sv</a></li>
+<li>DC-Template: Dublin Core Metadaten Generator (simple)<br /><a href="http://www.bsz-bw.de/diglib/medserv/konvent/metadat/dcmake2t.html">http://www.bsz-bw.de/diglib/medserv/konvent/metadat/dcmake2t.html</a></li>
+<li>DC-Template: Dublin Core Metadaten Generator (complete)<br /><a href="http://www.bsz-bw.de/diglib/medserv/konvent/metadat/dcmake1t.html">http://www.bsz-bw.de/diglib/medserv/konvent/metadat/dcmake1t.html</a></li>
+</ul>
+<p><strong>Photo RDF-Gen</strong><br />Generates the content of RDF files to describe images, especially photography.<br /><a href="http://www.webposible.com/utilidades/photo_rdf_generator_en.html">http://www.webposible.com/utilidades/photo_rdf_generator_en.html</a></p>
+<p><strong>Reggie</strong> (DSTC - Australia)<br />A specific configuration file has to be given as input to the tool.<br /><a href="http://metadata.net/dstc/">http://metadata.net/dstc/</a></p>
+<p><strong>Svesoek</strong>, Swedish National Library<br /><a href="http://www.svesok.kb.se/">http://www.svesok.kb.se/</a></p>
+<p><strong>Swedish Environet</strong><br /><a href="http://smn.environ.se/miljonat/english/index.htm">http://smn.environ.se/miljonat/english/index.htm</a></p>
+<a id="toolscreation" name="toolscreation"></a>
+<h2>Tools for the Creation/Change of Templates</h2>
+<p><strong>Reggie</strong> (DSTC - Australia)<br />A specific configuration file has to be given as input to the tool.<br /><a href="http://metadata.net/dstc/">http://metadata.net/dstc/</a></p>
+<p><strong>Mantis</strong><br /> Administration, create a template without knowing XML.<br /><a href="http://purl.oclc.org/mantis/">http://purl.oclc.org/mantis/</a></p>
+<p><strong>Metabrowser</strong> (free)<br />Site: <a href="http://metabrowser.spirit.net.au">http://metabrowser.spirit.net.au</a><br />Download: <a href="http://metabrowser.spirit.net.au/download/metabrowser.exe">http://metabrowser.spirit.net.au/download/metabrowser.exe</a></p>
+<a id="automaticextraction" name="automaticextraction"></a>
+<h2>Automatic Extraction/Gathering of Metadata</h2>
+<p><strong>DC-dot</strong><br />Extracts and validates metadata from HTML resources and MS Office files.<br /><a href="http://www.ukoln.ac.uk/metadata/dcdot/">http://www.ukoln.ac.uk/metadata/dcdot/</a></p>
+<p><strong>Mantis</strong><br /><a href="http://purl.oclc.org/mantis">http://purl.oclc.org/mantis</a></p>
+<p><strong>HotMETA</strong><br /><a href="http://purl.org/dstc/hotmeta">http://purl.org/dstc/hotmeta</a></p>
+<a id="automaticproduction" name="automaticproduction"></a>
+<h2>Automatic Production of Metadata</h2>
+<p><strong>Klarity</strong><br />Automatically generates metadata for HTML pages based on concepts found in the text.<br /><a href="http://www.klarity.com.au/">http://www.klarity.com.au/</a></p>
+<p><strong>Nordic URN generator</strong><br />Integrated into the DC metadata creator.<br /><a href="http://www.lub.lu.se/cgi-bin/nmurn.pl">http://www.lub.lu.se/cgi-bin/nmurn.pl</a></p>
+<p><strong>Scorpion</strong><br />Automatic classification to DDC.<br /><a href="http://purl.oclc.org/scorpion">http://purl.oclc.org/scorpion</a></p>
+<p><strong>Viewer-Generator Dublin Core metadata</strong><br />An online form to test a URL for the presence of Dublin Core metadata. Also automatically generates Dublin Core metadata for a page that contains only traditional HTML metadata.<br />
+<a href="http://www.library.kr.ua/dc/lookatdce.html">http://www.library.kr.ua/dc/lookatdce.html</a></p>
+<a id="conversion" name="conversion"></a>
+<h2>Conversion Between Metadata Formats</h2>
+<p><strong>DC-dot</strong><br />Extracts and validates metadata from HTML resources and MS Office files.<br /><a href="http://www.ukoln.ac.uk/metadata/dcdot/">http://www.ukoln.ac.uk/metadata/dcdot/</a></p>
+<p><strong>Editor-Converter Dublin Core metadata</strong><br />This online program can be used for two purposes: as a Dublin Core metadata editor, and as a converter to UNIMARC.<br />
+After conversion to UNIMARC format, metadata can be saved to your local hard drive as an ISO-2709 file. Viewable in Ukrainian, Russian and English.<br />The English interface can be found at <a href="http://www.library.kr.ua/dc/dceditunie.html">http://www.library.kr.ua/dc/dceditunie.html</a></p>
+<p><strong>Nordic Metadata Project: DC to MARC converter</strong><br /><a href="http://www.bibsys.no/meta/d2m/">http://www.bibsys.no/meta/d2m/</a></p>
+<a id="integratedtoolenvironments" name="integratedtoolenvironments"></a>
+<h2>Integrated (Tool) Environments</h2>
+<p><strong>BIBLINK</strong><br /><a href="http://hosted.ukoln.ac.uk/biblink/">http://hosted.ukoln.ac.uk/biblink/</a></p>
+<p><strong>DONOR</strong><br /><a href="http://www.konbib.nl/coop/donor/mg-start.html">http://www.konbib.nl/coop/donor/mg-start.html</a></p>
+<p><strong>Mantis</strong><br /><a href="http://purl.oclc.org/mantis">http://purl.oclc.org/mantis</a></p>
+<a id="commercial" name="commercial"></a>
+<h2>Commercially Available Software</h2>
+<p><a href="http://www.imap.dk/prodcm.htm"><strong>Content Mapper</strong></a></p>
+<p>Content Mapper is a Word-based, custom tool for creating, editing, and publishing high quality XML content including metadata (e.g. Dublin Core) and for interfacing with Content management Solutions (CMS). Content Mapper is designed to be the easy to use front-end editor to any XML-based CMS or database. For example:</p>
+<ul>
+<li>Open Text Livelink</li>
+<li>Documentum</li>
+<li>Tridion</li>
+<li>SQL databases</li>
+</ul>
+<a id="illuminet" name="illuminet"></a>
+<p><a href="http://www.illuminet.se/"><strong>IllumiNet Corpus</strong></a></p>
+<blockquote>
+<p>Corpus is a search engine written in Java that index content, context and metadata in documents on the network or on the local file system. It is used as a &quot;distributed relational database&quot; for document-oriented solutions with metadata as indexed keys.</p>
+<p><strong>It also features:</strong></p>
+<ul>
+<li>Rich result overviews, structured by document context or by clustering</li>
+<li>XML and RSS result output from built in HTTP server east to integrate with XSL transforms</li>
+<li>Parser for multiple formats including HTML, XML-formats, PDF, DOC etc.</li>
+<li>Auto generate metadata agent that uses LDAP and URL mappings</li>
+<li>Direct indexing using WebDAV log or file system auditing events.</li>
+<li>Web and command line administration</li>
+<li>API's for new agents, spiders and parsers</li>
+</ul>
+<p><strong>Contact:</strong></p>
+<p>Jonas Bosson, IllumiNet AB, Stockholm, Sweden<br />+46-(0)8 666 96 61 (CET)<br /><a href="http://www.illuminet.se/">http://www.illuminet.se/</a><br /><a href="mailto:jonas@illuminet.se">jonas@illuminet.se</a></p>
+</blockquote>
+<p><a href="http://metabrowser.spirit.net.au"><strong>Metabrowser Server</strong></a></p>
+<blockquote>
+<p>Metabrowser Server is a fully functional metadata repository for medium to low end metadata initiatives.</p>
+<p>Metadata is input directly into a repository via Metabrowser Client (a free tool) and is published in a Yahoo style search and browse directory. See example at <a href="http://natindex.nohsc.gov.au">http://natindex.nohsc.gov.au</a></p>
+<ul>
+<li>The search and browse interface makes use of controlled lists as filters for the catalog</li>
+<li>Synonyms are used to map search terms to controlled vocabularies </li>
+<li>In context display of search terms in results</li>
+<li>Failed search analysis for tuning the catalog</li>
+<li>Exporting between Metabrowser Server applications and/or other systems is done via RDF - RSS - XML - HCL or delimited html metadata.</li>
+</ul>
+</blockquote>
+<p><a href="http://dstc.edu.au/Products/metaSuite"><strong>MetaSuite</strong></a></p>
+<blockquote>
+<p>MetaSuite includes an OAI 2.0 metadata repository and query engine (HotMeta), gathering/indexing, OAI 2.0 harvesting, a metadata creation tool (MetaEdit) with validation and vetting, metadata schema tailoring (MetaSchema), and &quot;browse tree&quot; generation (MetaSaurus).</p>
+</blockquote>
+
+<p><a href="http://www.signposter.com/"><strong>SignPoster</strong></a><br /><a href="http://www.interlyn.com/">InterLyn</a></p>
+<blockquote>
+<p>SignPoster is web promotion software. SignPoster uses straightforward, honest and dependable techniques to help your website achieve better search engine rankings.</p>
+<p>SignPoster's layout is logical and simple, making it easy to get to grips with the software. A concise but comprehensive help file is also provided. Technical support is also readily available, with a dedicated tool to send requests to the support team.</p>
+<p>SignPoster supports the Dublin Core metadata standard.</p>
+</blockquote>
+<p><a href="http://www.hisoftware.com/trialware.htm"><strong>TagGen - Dublin Core Edition</strong></a><br /><a href="http://www.hisoftware.com/">Hiawatha Island Software Company</a></p>
+<blockquote>
+<p>TagGen Dublin Core is a metatag generator that is use to create metatags in an enhanced wizard interface. Using the TagGen Wizard you can add Page Properties, Site Properties, PICS Properties, and all other search engine related metadata.</p>
+<p>Other features include the ability to:</p>
+<ul>
+<li>Import existing metadata automatically.</li>
+<li>View how your site will appear to the search engines with our metadata analysis module.</li>
+<li>Update 1 or 100 pages in seconds with the click of a button.</li>
+<li>Update Web documents with intellectual property specific elements. Select your entire Web site document collection and apply information like publisher, author, company, and copyright statement, as well as copyright tag.</li>
+<li>Update Web documents with site-specific default elements. Select your entire Web site document collection and apply information like expiration, archive, reply-to, PICS, and/or other controlled vocabulary.</li>
+<li>Generate the keywords for all documents in your site via batch and the HiSoftware keyword density checker.</li>
+<li>Use batch to generate XML records for your entire document collection.</li>
+</ul>
+<p>This product is used by libraries, state agencies and schools around the country, including The State of Minnesota <a href="http://bridges.state.mn.us/taggen.html">http://bridges.state.mn.us/taggen.html</a></p>
+</blockquote>
+<a id="xdirectory" name="xdirectory"></a>
+<p><a href="http://www.espritsoutronpartnership.com/products/xdirectory/index.asp"><strong>xdirectory</strong></a><br /><a href="http://www.espritsoutronpartnership.com/index.asp">Esprit Soutron Partnership Ltd</a></p>
+<blockquote>
+<p>xdirectory is the core of ESP's information management suite. Built from the ground up for the web, it offers a fully configurable, browser-based environment for creating and publishing searchable web-based information directories. xdirectory hand you the power to construct database-driven e-directories for your organisations intranet or public web-site.</p>
+<p>The 'Core Edition' of this software is fully Dublin Core capable allowing metadata collections to be constructed and published for searching and browsing via the web using simple or qualified Dublin Core. The software allows multiple record 'types' to be defined, each of which can use the DC element set (with qualifiers if required) as its base and then incorporate additional elements to the meet specific need.</p>
+</blockquote>
+</td>
+</tr>
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

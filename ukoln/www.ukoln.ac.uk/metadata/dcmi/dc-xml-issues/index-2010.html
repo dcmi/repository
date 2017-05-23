@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<title>DC-XML and the DCMI Abstract Model</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="http://dublincore.org/css/default.css" type="text/css" />
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+<meta name="dc.identifier" lang="en" content="http://www.ukoln.ac.uk/metadata/dcmi/dc-xml-issues/" />
+<meta name="dc.title" lang="en" content="DC-XML and the DCMI Abstract Model" />
+<meta name="dc.creator" content="Pete Johnston" />
+<meta name="dcterms.issued" scheme="dcterms.W3CDTF" content="2005-09-11" />
+<meta name="dcterms.abstract" content="This document analyses the current XML binding for Dublin Core metadata with reference to the DCMI Abstract Model. It highlights that the current binding has several shortcomings because the model on which it is based is more limited than the DCAM, and suggests that a binding which implements more features of the DCAM is required." />
+<meta name="dc.format" scheme="dcterms.IMT" content="text/html" />
+<meta name="dc.type" scheme="dcterms.DCMIType" content="Text" />
+
+</head>
+<body>
+
+<table width="100%" border="0" summary=
+"A layout table with descriptive information about this document.">
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Title:</strong></div>
+</td>
+<td width="76%">
+<div align="left">
+<h1>DC-XML and the DCMI Abstract Model</h1>
+</div>
+</td>
+</tr>
+
+<tr>
+<td height="22" width="24%" valign="top">
+<div align="left"><strong>Creator:</strong></div>
+</td>
+<td height="22" width="76%">
+<div align="left">Pete Johnston</div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Date Issued:</strong></div>
+</td>
+<td width="76%">
+<div align="left">2005-09-11</div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Identifier:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-xml-issues/2005-09-11/">
+http://www.ukoln.ac.uk/metadata/dcmi/dc-xml-issues/2005-09-11/</a></div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Replaces:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Is Replaced By:</strong></div>
+</td>
+<td width="76%">
+<div align="left">Not applicable</div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Latest Version:</strong></div>
+</td>
+<td width="76%">
+<div align="left"><a href="http://www.ukoln.ac.uk/metadata/dcmi/dc-xml-issues/">
+http://www.ukoln.ac.uk/metadata/dcmi/dc-xml-issues/</a></div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top">
+<div align="left"><strong>Status of Document:</strong></div>
+</td>
+<td width="76%">
+<div align="left">This is a working document which has no status within DCMI.</div>
+</td>
+</tr>
+
+<tr>
+<td width="24%" valign="top"><strong>Description of
+Document:</strong></td>
+<td width="76%">This document analyses the current XML binding for Dublin Core metadata with reference to the DCMI Abstract Model. It highlights that the current binding has several shortcomings because the model on which it is based is more limited than the DCAM, and suggests that a binding which implements more features of the DCAM is required.</td>
+</tr>
+
+<tr>
+<td valign="top" colspan="2">
+<hr />
+</td>
+</tr>
+</table>
+
+<div>
+
+<div>
+<h2>Introduction</h2>
+
+<p>The Dublin Core metadata standard is not defined in terms of a single data format. Rather, DCMI distinguishes between, on the one hand, a "conceptual model" of what constitutes a Dublin Core metadata "description set", and, on the other, a set of specifications of how instances of that model may be encoded or serialised in various different data formats.</p>
+
+<p>The articulation of a conceptual model for Dublin Core metadata is a process which has taken place over an extended period of time. Over that period of time, various models and frameworks have been discussed and indeed used: those various models and frameworks have exhibited different approaches and sometimes include different, incompatible concepts; perhaps most confusingly for the reader sometimes the same or similar labels have been applied over time to name concepts which, on closer examination, are different, to some greater or lesser degree.</p>
+
+<p>However, DCMI has recently taken a significant step to address this with the approval of the <em>DCMI Abstract Model</em> [<a href="#DCAM">DCAM</a>] as a DCMI Recommendation. The DCAM provides a description of a conceptual model for Dublin Core metadata, with the intent that this description serves as a reference model to which other specifications (created by DCMI and by other agencies) can refer.</p>
+
+<p>According to the DCAM:</p>
+
+<blockquote style="background: #EEE">
+<p>The abstract model of DCMI metadata <em>descriptions</em> is as follows:</p>
+<ul>
+<li>A <em>description</em> is made up of one or more <em>statements</em> (about one, and only one, <em>resource</em>) and zero or one <em>resource URI</em> (a URI reference that identifies the <em>resource</em> being described).</li>
+<li>Each <em>statement</em> instantiates a <em>property/value pair</em> and is made up of a <em>property URI</em> (a URI reference that identifies a <em>property</em>), zero or one <em>value URI</em> (a URI reference that identifies a <em>value</em> of the <em>property</em>), zero or one <em>vocabulary encoding scheme URI</em> (a URI reference that identifies the <em>class</em> of the <em>value</em>) and zero or more <em>value representations</em> of the <em>value</em>.</li>
+<li>The <em>value representation</em> may take the form of a <em>value string</em> or a <em>rich representation</em>.</li>
+<li>Each <em>value string</em> is a simple, human-readable string that is a representation of the <em>resource</em> that is the <em>value</em> of the <em>property</em>.</li>
+<li>Each <em>value string</em> may have an associated <em>syntax encoding scheme URI</em> that identifies a <em>syntax encoding scheme</em>.</li>
+<li>Each <em>value string</em> may have an associated <em>value string language</em> that is an ISO language tag (e.g. en-GB).</li>
+<li>Each <em>rich representation</em> is some <em>marked-up text</em>, an image, a video, some audio, etc. or some combination thereof that is a representation of the <em>resource</em> that is the <em>value</em> of the <em>property</em>.</li>
+<li>Each <em>value</em> may be the subject of a separate <em>related description</em>.</li>
+</ul>
+</blockquote>
+
+<p>Also:</p>
+
+<blockquote style="background: #EEE">
+<ul>
+<li>A <em>description set</em> is a set of one or more <em>descriptions</em> about one or more <em>resources</em>.</li>
+<li>A DCMI metadata <em>record</em> is a <em>description set</em> that is instantiated according to one of the DCMI encoding guidelines (XHTML meta tags, XML, RDF/XML, etc.)</li>
+</ul>
+</blockquote>
+
+<p>The specifications of how instances of that conceptual model are to be encoded are sometimes referred to as "bindings". Each such binding provides a "mapping" between the constructs in the conceptual model and the components and structures used in a data format (or maybe some abstraction of those components and structures, such as the XML InfoSet for XML). For an "encoding" application generating a record, it provides the information that enables the application to determine what syntactic components to use to <strong>represent</strong> entities and relationships in the conceptual model; and conversely, for a "decoding" application, it specifies how the syntactic components in the data format should be <strong>interpreted</strong> in terms of the conceptual model.</p>
+
+<p>A binding for Dublin Core metadata may implement the full DCMI Abstract Model or it may implement some subset of that model - i.e. some bindings may not support all the features of the model - but for whatever set of features are implemented, it should provide an unambiguous mapping between the conceptual model and the syntax.</p>
+
+<p>Currently, DCMI provides four "encoding guidelines" specifications which describe formats for representing Dublin Core metadata descriptions:</p>
+
+<ul>
+<li>using HTML/XHTML <code>meta</code> and <code>link</code> elements [<a href="#DC-XHTML">DC-XHTML</a>]</li>
+<li>using RDF/XML [<a href="#DCS-RDF">DCS-RDF</a>, <a href="#DCQ-RDF">DCQ-RDF</a>]</li>
+<li>using XML [<a href="#DC-XML-2003">DC-XML-2003</a>]</li>
+</ul>
+
+<p>All of the above specifications pre-date the DCMI Abstract Model. In addition to these DCMI-provided bindings, DC metadata implementers have developed other bindings for DC metadata descriptions (See e.g. IPTC News Metadata Framework)</p>
+
+<p>The current DCMI-recommended convention for representing Dublin Core metadata in XML is specified by the <i>Guidelines for implementing Dublin Core in XML</i> [<a href="#DC-XML-2003">DC-XML-2003</a>].DC-XML-2003 document, and it is that specification with which this the first part of this document is concerned. For convenience, this document will use the label "DC-XML-2003" to refer specifically to that specification, as distinct from the general notion of an XML binding for Dublin Core metadata, or to other such bindings, current or proposed.</p>
+
+</div>
+
+<div>
+
+<h2>The DC-XML-2003 Abstract Models and the DCMI Abstract Model</h2>
+
+<p>In keeping with the general approach outlined above, the DC-XML-2003 document first describes "abstract models" for two types of Dublin Core "record" and then specifies how records conforming to those two models should be represented in XML.</p>
+
+<p>It is important to note that the DC-XML-2003 specification <strong>preceded</strong> the development of the DCMI Abstract Model: as a consequence, the models for DC metadata described in the DC-XML-2003 specification <strong>differ</strong> from the model described by the DCAM.</p>
+
+<p>Appendix C of the DCAM attempts to describe which features of the DCAM are implemented by the DC-XML-2003 specification. It does this by examining examples of XML instances constructed according to the DC-XML-2003 binding. However, that approach is problematic in that it fails to acknowledge the fact that the DC-XML-2003 specification does <strong>not</strong> purport to provide a binding for the conceptual model of a DC description specified by the DCAM: the DCAM did not exist at that point. Rather, the DC-XML-2003 specification provides a binding for the models specified in the DC-XML-2003 specification itself. To understand the limitations of the DC-XML-2003 binding it is necessary to examine, not examples of XML instances, but the models which it states that it supports, and to compare the features of those models with the features of the DCAM.</p>
+
+<p>The model for "Simple Dublin Core" in DC-XML-2003 is described as:</p>
+
+<blockquote style="background: #EEE">
+<ul>
+<li>A <em>simple DC record</em> is made up of one or more <em>properties</em> and their associated <em>values</em>.</li>
+<li>Each <em>property</em> is an attribute of the <em>resource</em> being described.</li>
+<li>Each <em>property</em> must be one of the 15 DCMES [<a href="#DCMES">DCMES</a>] elements.</li>
+<li><em>Properties</em> may be repeated.</li>
+<li>Each <em>value</em> is a literal string.</li>
+<li>Each literal string <em>value</em> may have an associated language (e.g. en-GB).</li></ul>
+<p>Note that there is no formal linkage between a <em>simple DC record</em> and the <em>resource</em> being described. Such a linkage may be made by encoding the URI of the <em>resource</em> as the <em>value</em> of the DC Identifier element, however this is not mandatory.</p>
+<p>Note that while the <em>value</em> of a <em>property</em> may be a URI, there is nothing in the simple DC model that indicates this is the case. At their own risk, implementations may choose to guess which <em>values</em> are URIs and which are not.</p>
+</blockquote>
+
+<p>The model for "Qualified Dublin Core" in DC-XML-2003 is described as:</p>
+
+<blockquote style="background: #EEE">
+<ul>
+<li>A <em>qualified DC record</em> is made up of one or more <em>properties</em> and their associated <em>values</em>.</li>
+<li>Each <em>property</em> is an attribute of the <em>resource</em> being described.</li>
+<li>Each <em>property</em> must be either:
+<ul>
+<li>one of the 15 DC elements,</li>
+<li>one of the other elements recommended by the DCMI (e.g. audience) [<a href="#DCTERMS">DCTERMS</a>],</li>
+<li>one of the <em>element refinements</em> listed in the DCMI Metadata Terms recommendation [<a href="#DCTERMS">DCTERMS</a>].</li>
+</ul>
+</li>
+<li><em>Properties</em> may be repeated.</li>
+<li>Each <em>value</em> is a literal string.</li>
+<li>Each <em>value</em> may have an associated <em>encoding scheme</em>.</li>
+<li>Each <em>encoding scheme</em> has a <em>name</em>.</li>
+<li>Each literal string <em>value</em> may have an associated language (e.g. en-GB).</li>
+</ul>
+</blockquote>
+
+<p>The principal differences between the DC-XML-2003 conceptual models and the DCMI Abstract Model are as follows:</p>
+
+<div>
+
+<h3>Description Sets, Descriptions and Records</h3>
+
+<p>The DCAM takes the approach that the conceptual entity which is encoded is a <em>description set</em>, made up of one or more <em>descriptions</em>, and the result of that encoding process is a <em>record</em>. In DC-XML-2003, the term record is used for the conceptual entity which is encoded, and a record describes a single resource. i.e. DC-XML-2003 uses the term record for what the DCAM calls a description, and DC-XML-2003 does not include the concept of a description set.</p>
+
+</div>
+
+<div>
+
+<h3>Resource URI</h3>
+
+<p>Both the DCAM and DC-XML-2003 take the approach that a description (record in DC-XML-2003) describes a single subject resource. In the DCAM, a description may include a <em>resource URI</em> which identifies that subject resource; DC-XML-2003 does not include the notion of a resource URI.</p>
+
+</div>
+
+<div>
+
+<h3>Statement</h3>
+
+<p>The DCAM has the explicit concept of a statement representing a "property/value pair". DC-XML-2003 makes no explicit reference to a statement though it is perhaps implicit in the description of a record as "made up of one or more properties and their associated values".</p>
+
+</div>
+
+<div>
+
+<h3>Properties</h3>
+
+<p>In the DCAM, a <em>property</em> is a conceptual resource. A property is referenced in a statement (using a <em>property URI</em>) but the property itself is not part of the description; in DC-XML-2003, the "property" is described as being part of the "record".</p>
+
+</div>
+
+<div>
+
+<h3>Values</h3>
+
+<p>In the DCAM, a <em>value</em> is a resource. A value may be referenced in a statement (using a value URI) or represented in a statement (using a value string or rich representation), or the value may be the subject of a second ("related") description, or all three. But the value itself does not appear in the statement.</p>
+
+<p>In contrast, DC-XML-2003 uses the term "value" to refer to a string which forms part of the record i.e. "values" in DC-XML-2003 are strings which represent resources: DC-XML-2003 uses the term "value" for what the DCAM calls a <em>value string</em>.</p>
+
+</div>
+
+
+<div>
+
+<h3>Value URIs</h3>
+
+<p>In the DCAM, a value may be referenced in a statement using a <em>value URI</em>, which identifies that value; DC-XML-2003 does not include the notion of a value URI.</p>
+
+</div>
+
+<div>
+
+<h3>Value Representations</h3>
+
+<p>In the DCAM, a value may be represented in a statement using a value string or rich representation. DC-XML-2003 does not include the notion of a rich representation.</p>
+
+<p>DC-XML-2003 does include the concept of what the DCAM calls a value string, though it uses the term "value" to refer to it. It includes the concept that the "value" may be associated with a language tag.</p>
+
+<p>Indeed, the DCAM supports the notion that a statement may provide multiple value representations, or no representation at all; in DC-XML-2003, exactly one "value" (a value string in DCAM terms) is always present in a "property-value pair".</p>
+
+</div>
+
+<div>
+
+<h3>Vocabulary and Syntax Encoding Schemes</h3>
+
+<p>The DCAM distinguishes between a <em>vocabulary encoding scheme</em> (a class of which the value is an instance) and a <em>syntax encoding scheme</em> (a datatype associated with a value string). A statement may contain zero or one references to a vocabulary encoding scheme (using a vocabulary encoding scheme URI). A value string may be associated with a syntax encoding scheme (using a syntax encoding scheme URI).</p>
+
+<p>The DC-XML-2003 model for "Qualified Dublin Core" specifies that a "value" (a value string in DCAM terms) may be associated with an "encoding scheme", but it does not distinguish between a vocabulary encoding scheme and a syntax encoding scheme (nor, of course, the fact that one the former is associated with the value and the latter is associated with a value string).</p>
+
+</div>
+
+
+<div>
+
+<h3>Related Descriptions</h3>
+
+<p>In the DCAM, a value may be the subject of a second ("related") description. DC-XML-2003 does not include the concept of a related description.</p>
+
+</div>
+
+<div>
+
+<h3>Types of Record/Description</h3>
+
+<p>By explicitly distinguishing "Simple DC Records" and "Qualified DC Records" DC-XML-2003 introduces the idea that there are types or classes of DC metadata description, categorised according to the terms which are referenced in those descriptions and/or the features of the Abstract Model which are deployed in the descriptions.</p>
+
+</div>
+
+<div>
+
+<h3>Summary</h3>
+
+<p>The abstract models used in the DC-XML-2003 specification differ from the DCMI Abstract Model. In some cases the difference is only that a different label is used for the same (or a very similar) concept.</p>
+
+<ul>
+<li>DC-XML-2003 "record" = DCAM description</li>
+<li>DC-XML-2003 "property and its associated value" = DCAM statement</li>
+<li>DC-XML-2003 "value" = DCAM value string</li>
+</ul>
+
+<p>However, several features of the DCAM are absent from the DC-XML-2003 models, specifically:</p>
+
+<ul>
+<li>resource URIs</li>
+<li>value URIs</li>
+<li>multiple value representations</li>
+<li>rich representations</li>
+<li>description sets/related descriptions</li>
+</ul>
+
+<p>As we shall see below, some of these omissions have significant consequences for implementers.</p>
+
+<p>Finally, in one important aspect the DC-XML-2003 models conflate two features which the DCAM treats as distinct:</p>
+
+<ul>
+<li>DC-XML-2003 "encoding scheme" v DCAM vocabulary encoding schemes and syntax encoding schemes.</li>
+</ul>
+
+</div>
+
+</div>
+
+<div>
+
+<h2>The DC-XML-2003 Abstract Models and the DC-XML-2003 Binding</h2>
+
+<p>There is one area in which the DC-XML-2003 specification presents a significant problem even with respect to its own conceptual models.</p>
+
+<div>
+<h3>Mixing metadata schemas</h3>
+
+<p>In section 6, "Mixing metadata schemas", the DC-XML-2003 departs from its approach of describing a conceptual model and then describing a mapping of that model to the XML syntax. This section includes two examples where fragments of well-formed XML, structured according to the rules of externally defined XML formats are embedded as "sibling" XML elements of XML elements which represent "property value pairs"/statements.</p>
+
+<p>Consider the origins of those XML fragments. They are constructed according to the rules of another XML format. It is highly unlikely that that XML format is designed to represent "property-value pairs"/statements as defined in the DC-XML-2003 models. Instead the format is designed to represent some data which is structured according to the rules of that particular XML format. And conversely the interpretation of that XML fragment is defined by the rules of that external XML format.</p>
+
+<p>However, the example is to be interpreted according to the rules of the DC-XML-2003 binding, and following those rules, the "root" XML element of the fragment should be interpreted as representing a "property-value pair"/statement. The DC-XML-2003 binding specifies that:</p>
+
+<ul>
+<li>the name of the XML element should be mapped to the URI of a property</li>
+<li>the XML element content represents the "value" (value string), a literal</li>
+</ul>
+
+<p>While the decoding application can interpret the name of the "root" element as representing the URI of a property, its content is an ordered list of child XML elements. It can not interpret that list of XML elements as a "value" (value string). </p>
+
+<p>Clearly it is not possible to interpret the XML fragment according to the rules of the DC-XML-2003 binding: it can not be mapped to the DC-XML-2003 abstract models (nor to the DCMI Abstract Model).</p>
+
+<p>The very purpose of the DC-XML-2003 document is to describe a binding for DC metadata descriptions: to provide a mapping from the conceptual models described to components within the XML syntax. The examples in section 6 fail to meet this requirement and this suggests that their inclusion represents an error in the specification.</p>
+
+</div>
+
+</div>
+
+<div>
+
+<h2>Discussion: Limitations of the DC-XML-2003 Models</h2>
+
+<p>This section examines the implications of the differences and omissions identified in the previous section.</p>
+
+<div>
+
+<h3>Resource URIs and Value URIs</h3>
+
+<p>The absence of the concepts of a resource URI or a value URI from the DC-XML-2003 models means that it is not possible to specify the URI of the subject resource or the URI of the value resource. These are fundamental requirements for DC metadata applications but the DC-XML-2003 binding does not support them.</p>
+
+<p>Typically, metadata creators seek to compensate for this omission by trying to adopt conventions involving the use of an "encoding scheme" <code>http://purl.org/dc/terms/URI</code> with a value string. However, the lack of clarity in the DC-XML-2003 models about what an encoding scheme is, and the absence of a distinction between vocabulary and syntax encoding schemes renders this approach problematic, as the following examples illustrate.</p>
+
+<div>
+
+<h4>Interpreting "Encoding Scheme" as Vocabulary Encoding Scheme?</h4>
+
+<p>Consider the "resource URI" case first i.e. the intent is to provide a URI to identify the subject resource. Suppose the encoded data is:</p>
+
+<pre class="example">
+&lt;dc:identifier xsi:type=&quot;dcterms:URI&quot;&gt;http://example.org/subject&lt;/dc:identifier&gt;
+</pre>
+
+<p>The only interpretation of this fragment supported by the DC-XML-2003 model is</p>
+
+<pre class="example">
+Statement:
+  Property URI: http://purl.org/dc/elements/1.1/identifier
+  Encoding Scheme URI: http://purl.org/dc/terms/URI
+  Value String: http://example.org/subject
+</pre>
+
+<p>If http://purl.org/dc/terms/URI is interpreted as an indicator of the type of the value i.e. as what the DCAM calls a vocabulary encoding scheme URI, then it conveys the information that the value, the identifier, is a URI (which is what the author wishes to convey).</p>
+
+<p>Now consider the "value URI" case i.e. the intent is to provide a URI to identify the value resource. Suppose the encoded data is:</p>
+
+<pre class="example">
+&lt;dc:relation xsi:type=&quot;dcterms:URI&quot;&gt;http://example.org/value&lt;/dc:relation&gt;
+</pre>
+
+<p>As above, the only interpretation of this fragment supported by the DC-XML-2003 model is</p>
+
+<pre class="example">
+Statement:
+  Property URI: http://purl.org/dc/elements/1.1/relation
+  Encoding Scheme URI: http://purl.org/dc/terms/URI
+  Value String: http://example.org/value
+</pre>
+
+<p>Now in this case an interpretation which presents http://purl.org/dc/terms/URI as an indicator of the type of the value - a vocabulary encoding scheme URI - contradicts the author's intent. Such an interpretation states that the value resource is a URI, but in this second case that is not the author's intent. The value resource is not itself a URI. It is a resource of some other type, identified by a URI.</p>
+
+<p>Further, there may be examples of this second case where the <code>dc:identifier</code> property is used. The definition of <code>dc:identifier</code> permits any resource to act as an identifier of the subject resource, including a second resource which is itself identified by a URI. Again, in this case the value is not a URI but a resource of some other type, identified by a URI</p>
+
+<p>In short, if the DC-XML-2003 "encoding scheme" mechanism is interpreted as an indicator of the type of the value - as a vocabulary encoding scheme - , the device of using the <code>http://purl.org/dc/terms/URI</code> scheme can not be used to represent value URIs.</p>
+
+</div>
+
+<div>
+
+<h4>Interpreting "Encoding Scheme" as Syntax Encoding Scheme?</h4>
+
+<p>Again consider the "resource URI" case first i.e. the intent is to provide a URI to identify the subject resource. Suppose the encoded data is:</p>
+
+<pre class="example">
+&lt;dc:identifier xsi:type=&quot;dcterms:URI&quot;&gt;http://example.org/subject&lt;/dc:identifier&gt;
+</pre>
+
+<p>The only interpretation of this fragment supported by the DC-XML-2003 model is</p>
+
+<pre class="example">
+Statement:
+  Property URI: http://purl.org/dc/elements/1.1/identifier
+  Encoding Scheme URI: http://purl.org/dc/terms/URI
+  Value String: http://example.org/subject
+</pre>
+
+<p>If http://purl.org/dc/terms/URI is interpreted as the URI of a literal datatype, as what the DCAM calls a syntax encoding scheme URI, then this indicates that the URI http://example.org/subject "represents" the value resource. It does not say explicitly that the value resource itself is a resource of type URI (which is what the author intends). Although it does not result in a contradiction, it does not satisfy the author's intent of saying that the value is a URI, a resource of type URI.</p>
+
+<p>Now consider the "value URI" case i.e. the intent is to provide a URI to identify the value resource. Suppose the encoded data is:</p>
+
+<pre class="example">
+&lt;dc:relation xsi:type=&quot;dcterms:URI&quot;&gt;http://example.org/value&lt;/dc:relation&gt;
+</pre>
+
+<p>As above, the only interpretation of this fragment supported by the DC-XML-2003 model is</p>
+
+<pre class="example">
+Statement:
+  Property URI: http://purl.org/dc/elements/1.1/relation
+  Encoding Scheme URI: http://purl.org/dc/terms/URI
+  Value String: http://example.org/value
+</pre>
+
+<p>As above an interpretation which presents http://purl.org/dc/terms/URI as a literal datatype - a syntax encoding scheme URI - indicates that the URI http://example.org/value "represents" the value resource. It does not say explicitly that the value resource itself is a resource of type URI (which in this case would contradict what the author intends). Although it does not result in a contradiction, neither does it satisfy the author's intent of saying that the URI http://example.org/value identifies the value resource.</p>
+
+</div>
+
+<div>
+<h4>Multiple Statements</h4>
+
+<p>The examples above illustrate that there is no way of representing the DCAM concept of a value URI in the DC-XML-2003 binding. The resource URI case may seem slightly less clear, in so far as the interpretation of DC-XML-2003 encoding scheme as DCAM vocabulary encoding scheme does support the construction of statements using the <code>dc:identifier</code> property in which the value is a URI (i.e. the first example of the four above)</p>
+
+<p>However, a single description may contain several such statements using the <code>dc:identifier</code> property. Accoding to the DCAM, a description has only a single resource URI; if multiple such statements are provided, it is impossible to determine which of the values should be treated as the resource URI.</p>
+
+</div>
+
+<div>
+<h4>Summary</h4>
+
+<p>This discussion has sought to illustrate that attempts to represent the DCAM concepts of resource URI and value URI using features of the DC-XML-2003 abstract models are problematic: the concepts are simply not part of those models and therefore the XML binding makes no provision for them.</p>
+
+<p><strong>Recommendation: Given the importance of resource URIs and value URIs in the DCAM, it is a requirement for an XML binding for DC metadata that both resource URIs and value URIs can be unambiguously encoded. This requirement is not met by the DC-XML-2003 specification.</strong></p>
+
+</div>
+
+</div>
+
+<div>
+
+<h3>Vocabulary Encoding Schemes and Syntax Encoding Schemes</h3>
+
+<p>In the DCAM, the concepts of vocabulary encoding scheme and syntax encoding scheme are clearly distinguished. They convey different pieces of information about other components of the statement. That distinction is not present in the DC-XML-2003 models, so any attempt to make such a distinction in the interpretation of an XML instance constructed according to the DC-XML-2003 specification is problematic. As the examples above illustrate, such attempts rely on ad hoc decisions by the interpreter about the intent of the author.</p>
+
+<p>Furthermore, the DCAM supports the notion that a single statement may include a reference to a vocabulary encoding scheme and references to multiple value representations each of which may include a reference to a syntax encoding scheme. Even if the approach is taken to adopt a subset of the DCAM such that a statement includes only a single value represntation, a statement may reference both a vocabulary encoding scheme and a syntax encoding scheme.</p>
+
+<p><strong>Recommendation: The distinction between vocabulary encoding scheme and syntax encoding scheme is significant in the DCAM, and it is a requirement that an XML binding for DC metadata should support that distinction.  This requirement is not met by the DC-XML-2003 specification.</strong></p>
+
+</div>
+
+<div>
+
+<h3>Description Sets</h3>
+
+<p>Earlier discussion [<a href="#DC-ARCH-2004">DC-ARCH-2004</a>] recommended that the XML binding for DC metadata should support the encoding of multiple descriptions (as description sets).</p>
+
+</div>
+
+</div>
+
+<div>
+<h2>Binding Issues in DC-XML-2003</h2>
+
+<div>
+<h3>Encoding Schemes and XML Schema Datatypes</h3>
+
+<p>The DC-XML-2003 binding maps "encoding schemes" to XML Schema datatypes. It is important to note that the mapping is <strong>not</strong> simply from "encoding scheme" to the value of an XML attribute with the name <code>xsi:type</code>. The "semantics" of the <code>xsi:type</code> XML attribute are defined by the XML Schema specification (and built into the behaviour of parsers and other tools that support XML Schema).</p>
+
+<blockquote>
+<p>The Simple Type Definition (§2.2.1.2) or Complex Type Definition (§2.2.1.3) used in ·validation· of an element is usually determined by reference to the appropriate schema components. An element information item in an instance may, however, explicitly assert its type using the attribute xsi:type. [<a href="#W3C-XMLS-STR">W3C-XMLS-STR</a>]</p>
+</blockquote>
+
+<p>In using the <code>xsi:type</code> XML attribute, then, the DC-XML-2003 binding is committed to building on the semantics of XML Schema: the value of an <code>xsi:type</code> attribute is the name of the datatype of the XML element.</p>
+
+<p>The datatyping mechanism in XML Schema [<a href="#W3C-XMLS-DAT">W3C-XMLS-DAT</a>] is designed to provide datatypes for <strong>XML document content</strong> i.e. for XML element content and for XML attribute values.</p>
+
+<p>The DC-XML-2003 binding maps "encoding schemes" specifically to XML Schema complex types, which are applied to the content of the XML element which represents a "property-value" pair. As already noted, the content of that XML element is what DC-XML-2003 calls the "value" - what the DCAM calls the value string, a representation of the value resource.</p>
+
+<p>The DCAM highlights that in fact "encoding schemes" in Dublin Core metadata are of two distinct types, which have two distinct functions in the DCAM:</p>
+
+<ul>
+<li>vocabulary encoding schemes define the type of the value resource</li>
+<li>syntax encoding schemes provide a datatype for the value string. A single value resource may be represented by <strong>multiple</strong> value string/syntax encoding scheme pairs; and indeed the <strong>same</strong> value string/syntax encoding scheme pair may be deployed as a representation of two <strong>different</strong> value resources of different types</li>
+</ul>
+
+<p>Given that in DC-XML-2003 the content of the XML element is mapped to the value string, the use of XML Schema datatypes to represent syntax encoding schemes seems consistent with the XML Schema specification. However trying to represent vocabulary encoding schemes using this construct seems more problematic.</p>
+
+<p>Even for the syntax encoding scheme case, however, there is a difficulty. According to the models specified in DC-XML-2003 and in the DCAM, the use of an "encoding scheme"/syntax encoding scheme is optional: it is not required that "values" in DC-XML-2003 are associated with an "encoding scheme", and there is no "default" encoding scheme implied if none is specified in a DC metadata instance.</p>
+
+<p>However for a processor which applies XML Schema validation, all XML elements are associated with a datatype: the <code>xsi:type</code> attribute provides a means of specifying the datatype in the XML instance but if no <code>xsi:type</code> attribute is provided in the instance the datatype, the processor determines the datatype by referring to the types specified by the relevant XML Schemas. It is not possible for the XML element to have no datatype - but on the other hand the DC-XML-2003 models (and the DCAM) both specify that the use of a (syntax) encoding scheme is optional.</p>
+
+<p>In short, it is not clear that the DC-XML-2003 mapping of "encoding schemes" to XML Schema datatypes meets the requirements of the conceptual models it seeks to support.</p>
+
+<p>A secondary issue - distinct from the mapping itself - is that the datatypes currently used in the XML Schemas provided by DCMI for DC-XML-2003 - employ a type derivation strategy which some (many?) XML Schema processors do not handle correctly (the derivation of a complex type with simple content by restriction of a complex type with complex content) [<a href="#XMLS-NOTES">XMLS-NOTES</a>].</p>
+
+<p>Leaving aside the issue of whether this is valid or not, the reason for providing the "base" mixed content type is to enable implementers to derive types which support markup in DC-XML-2003 "values" i.e. to support rich representations. However, the DC-XML-2003 conceptual models do not include support for rich representations, only for value strings. If rich representations are to be supported then that requires a change to the conceptual models and the provision of an appropriate mapping to a syntactic construct.</p>
+
+</div>
+
+</div>
+
+<div>
+<h2>Proposals</h2>
+
+
+<p>Two proposals for alternate XML bindings for Dublin Core metadata have been prepared: one which implements a subset of the features of the DCAM, and one which implements the full DCAM.</p>
+
+<p>(To follow)</p>
+
+</div>
+
+
+<div>
+<h2>Compatibility between the proposed bindings and DC-XML-2003</h2>
+
+<p>The approach taken in developing these proposals was that compatibility with the DC-XML-2003 binding was <strong>not</strong> a requirement.</p>
+
+<p>Even if the decision is taken to limit the features of the DCAM supported by a new binding to some subset of the DCAM which is similar to the features of the DC-XML-2003 binding, the fact that the DC-XML-2003 models conflate in a single concept what the DCAM treats as two distinct concepts - vocabulary and syntax encoding schemes - raises fundamental problems. The DC-XML-2003 binding maps "encoding schemes" to a single syntactic construct (XML Schema complex types referenced as QName values of the <code>xsi:type</code> attribute). Given an XML instance constructed according to the DC-XML-2003, it is impossible to distinguish vocabulary encoding scheme URIs from syntax encoding scheme URIs. It is not possible to interpret an XML instance constructed according to the DC-XML-2003 binding in terms of conceptual features which were not part of the models on which the DC-XML-2003 binding was based. As noted above, users of the DC-XML-2003 binding have resorted to ad hoc interpretations to try to address this, but the result is inconsistency, contradiction and ambiguity.</p>
+
+<p>Constructing a binding which meets the requirements of representing essential features of the DCAM and is backwards compatible with the DC-XML-2003 binding does not seem possible, because the DC-XML-2003 binding is inherently ambiguous in its treatment of features of the DCAM.</p>
+
+<p>This raises the question of how to manage the existence of two incompatible bindings - the DC-XML-2003 binding and a new XML binding (DC-XML-2005) that does explicitly support the DCAM (or some subset of it) - or a transition from DC-XML-2003 to DC-XML-2005:</p>
+
+<p>Possible options include:</p>
+
+<ul>
+<li>leave DC-XML-2003 in place, acknowledge that it does not implement the DCAM, and provide no XML binding for the DCAM. (There is no DC-XML-2005 in this option).</li>
+<li>maintain both DC-XML-2003 and DC-XML-2005 in parallel, emphasise that DC-XML-2005 implements DCAM, DC-XML-2003 implements simple model. Can map DC-XML-2005 to DC-XML-2003, but <strong>not</strong> DC-XML-2003 to DC-XML-2005</li>
+<li>deprecate DC-XML-2003 and promote only DC-XML-2005</li>
+</ul>
+
+</div>
+
+<div>
+
+<h2>References</h2>
+
+<a id="DCMIAM" name="DCMIAM"></a>
+<p><strong>[DCMIAM]</strong><br />DCMI Abstract Model<br /><a href="http://dublincore.org/documents/abstract-model/">http://dublincore.org/documents/abstract-model/</a></p>
+
+<a id="DC-XHTML" name="DC-XHTML"></a>
+<p><strong>[DC-XHTML]</strong><br />Expressing Dublin Core in HTML/XHTML meta and link elements<br /><a href="http://dublincore.org/documents/dcq-html/">http://dublincore.org/documents/dcq-html/</a></p>
+
+<a id="DC-RDF" name="DC-RDF"></a>
+<p><strong>[DC-RDF]</strong><br />Expressing Simple Dublin Core in RDF/XML<br /><a href="http://dublincore.org/documents/dcmes-xml/">http://dublincore.org/documents/dcmes-xml/</a></p>
+
+<a id="DCQ-RDF" name="DCQ-RDF"></a>
+<p><strong>[DCQ-RDF]</strong><br />Expressing Qualified Dublin Core in RDF/XML<br /><a href="http://dublincore.org/documents/dcq-rdf-xml/">http://dublincore.org/documents/dcq-rdf-xml/</a></p>
+
+<a id="DC-XML-2003" name="DC-XML-2003"></a>
+<p><strong>[DC-XML-2003]</strong><br />Guidelines for implementing Dublin Core in XML<br /><a href="http://dublincore.org/documents/dc-xml-guidelines/">http://dublincore.org/documents/dc-xml-guidelines/</a></p>
+
+<a id="XMLS-NOTES" name="XMLS-NOTES"></a>
+<p><strong>[XMLS-NOTES]</strong><br />Notes on the W3C XML Schemas for Qualified Dublin Core<br /><a href="http://dublincore.org/schemas/xmls/qdc/2003/04/02/notes/">http://dublincore.org/schemas/xmls/qdc/2003/04/02/notes/</a></p>
+
+<a id="DC-ARCH-2004" name="DC-ARCH-2004"></a>
+<p><strong>[DC-ARCH-2004]</strong><br />DC Architecture WG meeting report, DC2004<br /><a href="http://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0410&amp;L=dc-architecture&amp;P=4565">http://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0410&amp;L=dc-architecture&amp;P=4565</a></p>
+
+<a id="W3C-XMLS-STR" name="W3C-XMLS-STR"></a>
+<p><strong>[W3C-XMLS-STR]</strong><br />XML Schema Part 1: Structures Second Edition<br /><a href="http://www.w3.org/TR/xmlschema-1/">http://www.w3.org/TR/xmlschema-1/</a></p>
+
+<a id="W3C-XMLS-DAT" name="W3C-XMLS-DAT"></a>
+<p><strong>[W3C-XMLS-DAT]</strong><br />XML Schema Part 2: Datatypes Second Edition<br /><a href="http://www.w3.org/TR/xmlschema-2/">http://www.w3.org/TR/xmlschema-2/</a></p>
+
+<a id="DC-XML-2" name="DC-XML-2"></a>
+<p><strong>[DC-XML-2]</strong><br />DC-XML: An XML format for Dublin Core metadata<br /></p>
+
+<a id="DC-XML-3" name="DC-XML-3"></a>
+<p><strong>[DC-XML-3]</strong><br />DC-XML: An XML format for Dublin Core metadata<br /></p>
+
+</div>
+
+<div>
+
+<h2>Changes made in this version</h2>
+<ul>
+<li>Initial version.</li>
+</ul>
+
+</div>
+
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0"?> <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:dc= "http://purl.org/dc/elements/1.1/"> <rdf:Description about="http://purl.org/dc/about/dcmi-ieee-mou-20001206.htm"> 
+    <dc:title>Memorandum of Understanding between the Dublin Core Metadata Initiative 
+and the IEEE Learning Technology Standards Committee</dc:title> 
+    <dc:description>The Dublin Core Metadata Initiative (DCMI) and the IEEE Learning Technology Standards 
+Committee P1484 (IEEE LTSC) express their joint commitment to collaboration on the development of 
+interoperable metadata for learning, education and training. In particular, both organisations see 
+benefit in maintaining compatibility between the ongoing development of the IEEE LTSC Learning Object 
+Metadata (LOM) and the Dublin Core Metadata Element Set (DCMES).</dc:description> 
+    <dc:date>2000-12-06</dc:date> 
+    <dc:format>text/html</dc:format> 
+    <dc:language>en</dc:language> 
+    <dc:contributor>Dublin Core Metadata Initiative</dc:contributor> 
+    <dc:contributor>IEEE</dc:contributor>
+    <dc:contributor>Learning Technology Standards Committee</dc:contributor>
+  </rdf:Description> 
+</rdf:RDF> 

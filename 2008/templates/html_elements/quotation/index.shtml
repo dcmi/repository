@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>Quotation</title>
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<div class="body">
+<h1 id="title">Quotation</h1>
+<dl>
+<dt>HTML Tag:</dt>
+<dd><code>&lt;Q&gt;&lt;/Q&gt;</code></dd>
+<dt>Guidelines:</dt>
+<dd>Mark up quotations. Do not use quotation markup for formatting effects such as indentation.</dd>
+<dt>Warnings:</dt>
+<dd>The <code>Q</code> element is not supported in Navigator (up to version 4.x).</dd>
+<dt>Priority:</dt>
+<dd>[Priority 2] A Web content developer <strong>should</strong> satisfy this checkpoint.</dd>
+</dl>
+<h2>Browser View:</h2>
+<p>The preamble to the U.S. Constitution begins,
+<q>We the People of the United States</q></p>
+<h2>Source View:</h2>
+<code>&lt;P&gt;The preamble to the U.S. Constitution begins, &lt;Q&gt;We the People of the United States&lt;/Q&gt;&lt;/P&gt;</code></div>
+</body>
+</html>

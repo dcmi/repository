@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html title="An advisory description of the element." lang="en">
+<head title="An advisory description of the element.">
+<title>Dublin Core Metadata Initiative (DCMI) News Archive</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="previous" href="/news/index.shtml">
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="10" summary="Content table">
+<tbody>
+<tr>
+<td><h1 id="title">News Archive - 1998 and before</h1>
+<p><strong>1998-11-02: </strong><a href="../workshops/dc6conference/index.htm"><strong>dc:DC The Sixth Dublin Core Metadata Workshop</strong></a> </p>
+<p>November 2-4, 1998 <br>Library of Congress, Washington, DC., USA</p>
+<hr noshade size="1" title="separator from news item" />
+<p><strong>1997-11-07: </strong><a href="http://www.oclc.org/oclc/press/971107a.htm"><strong>Dublin Core and Web MetaData Standards Converge in Helsinki 1997-11-07</strong></a></p>
+<p>The National Library of Finland and OCLC cosponsored the fifth metadata workshop Oct. 6-8 in Helsinki, Finland, with support from the National Science Foundation and the Coalition for Networked Information.</p>
+<p>Seventy-five experts from libraries, the networking research community, the digital library research community and content providers continued work begun in 1995 to reach consensus on conventions for describing resources on the Internet.</p>
+<hr noshade size="1" title="separator from news item" />
+<p><strong>1997-10-03: </strong> <strong><a href="http://www.w3.org/Press/RDF">World Wide Web Consortium Published Public Draft of Resource Description Framework (RDF) 1997-10-03</a></strong></p>
+<p>The <a href="http://www.w3.org/">World Wide Web Consortium (W3C)</a> today announced the first public draft of a work-in-progress of the <a href="http://www.w3.org/Press/RDF">Resource Description Framework (RDF)</a>, providing interoperability between applications that exchange machine-understandable information on the Web.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<!--#include virtual="/ssi/footer.txt" -->
+</body>
+</html>

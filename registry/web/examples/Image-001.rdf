@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:dctype="http://purl.org/dc/dcmitype/">   
+<dctype:Image>
+  <dc:creator>Ansel Adams</dc:creator>
+</dctype:Image>
+</rdf:RDF>

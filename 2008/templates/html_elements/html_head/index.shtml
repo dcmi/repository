@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head title="An advisory description of the element.">
+<title>Head (HTML Document)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="alternate" media="print" href="/templates/printversion.txt">
+<link rel="previous" href="/templates/file.html">
+<link rel="next" href="/templates/file.html">
+<link rel="contents" href="/templates/file.html">
+<link rel="stylesheet" href="/css/default.css" type="text/css">
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1 id="title">Head (HTML Document)</h1>
+<dl>
+<dt>HTML Tags:</dt>
+<dd>See examples below.</dd>
+<dt>Guidelines:</dt>
+<dd>-</dd>
+<dt>Warnings:</dt>
+<dd>-</dd>
+<dt>Priority:</dt>
+<dd>-</dd>
+</dl>
+<h2>Browser View:</h2>
+<p>None. View source of this document for HTML Head example.</p>
+<h2>Source View:</h2>
+<code>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;<br>
+&lt;HTML TITLE=&quot;An advisory description of the element." LANG="en"&gt;<br>
+&lt;HEAD TITLE=&quot;An advisory description of the element."&gt;<br>
+&lt;TITLE&gt;DCMI Example&lt;/TITLE&gt;<br>
+&lt;META HTTP-EQUIV=&quot;Content-Type&quot; CONTENT=&quot;text/html; charset=iso-8859-1&quot;&gt;<br>
+&lt;LINK REL=&quot;alternate&quot; MEDIA=&quot;print&quot; HREF=&quot;printversion.txt&quot;&gt;<br>
+&lt;LINK REL=&quot;previous&quot; HREF=&quot;file.html&quot;&gt;<br>
+&lt;LINK REL=&quot;next&quot; HREF=&quot;file.html&quot;&gt;
+&lt;LINK REL=&quot;contents&quot; HREF=&quot;file.html&gt;<br>
+&lt;LINK REL=&quot;stylesheet&quot; HREF=&quot;/css/default.css&quot; TYPE=&quot;text/css&quot;&gt;<br>
+&lt;SCRIPT SRC=&quot;/js/default.js&quot; TYPE=&quot;text/javascript&quot;&gt;&lt;/SCRIPT&gt;<br>
+&lt;/HEAD&gt;
+</code>
+</body>
+</html>

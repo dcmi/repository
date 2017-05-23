@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns = "http://purl.org/dc/elements/1.0/">
+ <rdf:Description about="http://purl.org/DC/documents/wd-typelist-19990312.htm">
+   <title>Resource Type Working Group - List of Resource Types, 1999-03-12</title>
+   <description>A proposed list of resource types.</description>
+   <date>1990-03-12</date>
+   <format>text/html</format>
+   <language>en</language>
+   <contributor>Dublin Core Metadata Initiative</contributor>
+ </rdf:Description>
+</rdf:RDF>
+

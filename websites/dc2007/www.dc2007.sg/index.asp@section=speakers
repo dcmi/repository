@@ -1,0 +1,339 @@
+<html>
+<head>
+<title>DC-2007 Dublin Core and Metadata Applications</title>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<meta name="DC.title" content="DC-2007 Dublin Core and Metadata Applications" />
+<meta name="DC.subject" content="Application Profiles: Theory and Practice" />
+<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+<meta name="DC.format" content="text/html" />
+<meta name="DC.format" content="17163 bytes" />
+<meta name="DC.identifier" scheme="DCTERMS.URI" content="http://www.dc2007.sg" />
+
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#ffffff">
+
+<table border="0" cellpadding="0" cellspacing="0" width="800" height="600" align="center">
+  <!--DWLayoutTable-->
+<!-- fwtable fwsrc="5.png" fwbase="iisstart.jpg" fwstyle="Generic" fwdocid = "742308039" fwnested="0" -->
+  <tr>
+    <td height="94" colspan="2" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <!--DWLayoutTable-->
+      <tr>
+        <td height="125" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="605" height="125">
+          <param name="movie" value="Header.swf">
+          <param name="quality" value="high">
+          <embed src="Header.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="605" height="125"></embed>
+        </object></td>
+      <td width="195" valign="top" align="left"><img src="Logo.gif" width="195" height="125"></td>
+      </tr>
+    </table>    </td>
+  </tr>
+  <tr>
+     <td width="178" height="505" valign="top" bgcolor="#FFF9F9"><html>
+<head>
+<title>left_Banner.jpg</title>
+<meta http-equiv="Content-Type" content="text/html;">
+
+<script language="JavaScript">
+<!-- hide
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+// stop hiding -->
+</script>
+</head>
+<body bgcolor="#ffffff">
+
+  <script language="JavaScript">
+  <!-- hide 
+  if (document.images) {
+  Home_f2 = new Image(174 ,24); Home_f2.src = "Home_f2.jpg";
+  Home_f1 = new Image(174 ,24); Home_f1.src = "Home.jpg";
+  Organization_f2 = new Image(174 ,25); Organization_f2.src = "Organization_f2.jpg";
+  Organization_f1 = new Image(174 ,25); Organization_f1.src = "Organization.jpg";
+  Programme_f2 = new Image(174 ,26); Programme_f2.src = "Programme_f2.jpg";
+  Programme_f1 = new Image(174 ,26); Programme_f1.src = "Programme.jpg";
+  Speakers_f2 = new Image(174 ,26); Speakers_f2.src = "Speakers_f2.jpg";
+  Speakers_f1 = new Image(174 ,26); Speakers_f1.src = "Speakers.jpg";
+  Sessions_f2 = new Image(174 ,26); Sessions_f2.src = "Sessions_f2.jpg";
+  Sessions_f1 = new Image(174 ,26); Sessions_f1.src = "Sessions.jpg";
+  Registration_f2 = new Image(174 ,26); Registration_f2.src = "Registration_f2.jpg";
+  Registration_f1 = new Image(174 ,26); Registration_f1.src = "Registration.jpg";
+  CallforPapers_f2 = new Image(174 ,26); CallforPapers_f2.src = "CallforPapers_f2.jpg";
+  CallforPapers_f1 = new Image(174 ,26); CallforPapers_f1.src = "CallforPapers.jpg";
+  CallforSponsors_f2 = new Image(174 ,26); CallforSponsors_f2.src = "CallforSponsors_f2.jpg";
+  CallforSponsors_f1 = new Image(174 ,26); CallforSponsors_f1.src = "CallforSponsors.jpg";
+  conferenceSponsors_f2 = new Image(174 ,26); conferenceSponsors_f2.src = "conferenceSponsors_f2.jpg";
+  conferenceSponsors_f1 = new Image(174 ,26); conferenceSponsors_f1.src = "conferenceSponsors.jpg";
+  conferenceVenue_f2 = new Image(174 ,25); conferenceVenue_f2.src = "conferenceVenue_f2.jpg";
+  conferenceVenue_f1 = new Image(174 ,25); conferenceVenue_f1.src = "conferenceVenue.jpg";
+  accommodation_f2 = new Image(174 ,26); accommodation_f2.src = "accommodation_f2.jpg";
+  accommodation_f1 = new Image(174 ,26); accommodation_f1.src = "accommodation.jpg";
+  AboutSingapore_f2 = new Image(174 ,26); AboutSingapore_f2.src = "AboutSingapore_f2.jpg";
+  AboutSingapore_f1 = new Image(174 ,26); AboutSingapore_f1.src = "AboutSingapore.jpg";
+  DublinCoreLogo_f2 = new Image(140 ,49); DublinCoreLogo_f2.src = "DublinCoreLogo_f2.jpg";
+  DublinCoreLogo_f1 = new Image(140 ,49); DublinCoreLogo_f1.src = "DublinCoreLogo.jpg";
+  NLBLogo_f2 = new Image(81 ,53); NLBLogo_f2.src = "NLBLogo_f2.jpg";
+  NLBLogo_f1 = new Image(81 ,53); NLBLogo_f1.src = "NLBLogo.jpg";
+  NanyangLogo_f2 = new Image(87 ,32); NanyangLogo_f2.src = "NanyangLogo_f2.jpg";
+  NanyangLogo_f1 = new Image(87 ,32); NanyangLogo_f1.src = "NanyangLogo.jpg";
+  ilds_f2 = new Image(140 ,49); ilds_f2.src = "ilds_f2.jpg";
+  ilds_f1 = new Image(140 ,49); ilds_f1.src = "ilds.jpg";
+  IFLALogo_f2 = new Image(140 ,49); IFLALogo_f2.src = "IFLALogo_f2.jpg";
+  IFLALogo_f1 = new Image(140 ,49); IFLALogo_f1.src = "IFLALogo.jpg";
+  }
+  // stop hiding -->
+  </script>
+<table border="0" cellpadding="0" cellspacing="0" width="183">
+<!-- fwtable fwsrc="left_banner2.png" fwbase="left_Banner.jpg" fwstyle="Generic" fwdocid = "742308039" fwnested="0" -->
+  <tr>
+   <td><img src="spacer.gif" width="10" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="81" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="6" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="53" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="24" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="9" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+
+  <tr>
+   <td colspan="5"><a href="index.asp?section=intro" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Home','','Home_f2.jpg',1);"><img name="Home" src="Home.jpg" width="174" height="24" border="0" alt="Home"></a></td>
+   <td rowspan="25"><img name="left_Banner_r1_c6" src="left_Banner_r1_c6.jpg" width="9" height="680" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="24" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=organization" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Organization','','Organization_f2.jpg',1);"><img name="Organization" src="Organization.jpg" width="174" height="25" border="0" alt="Organization"></a></td>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2" colspan="5"><a href="index.asp?section=programme" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Programme','','Programme_f2.jpg',1);"><img name="Programme" src="Programme.jpg" width="174" height="26" border="0" alt="Programme"></a></td>
+   <td><img src="spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=speakers" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Speakers','','Speakers_f2.jpg',1);"><img name="Speakers" src="Speakers.jpg" width="174" height="26" border="0" alt="Speakers"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=session"><img name="Sessions" src="Sessions.jpg" width="174" height="26" border="0" alt="Sessions"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=registration" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Registration','','Registration_f2.jpg',1);"><img name="Registration" src="Registration.jpg" width="174" height="26" border="0" alt="Registration"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=callforpapers" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('CallforPapers','','CallforPapers_f2.jpg',1);"><img name="CallforPapers" src="CallforPapers.jpg" width="174" height="26" border="0" alt="Call for Papers"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=callforsponsors" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('CallforSponsors','','CallforSponsors_f2.jpg',1);"><img name="CallforSponsors" src="CallforSponsors.jpg" width="174" height="26" border="0" alt="Call for Sponsors"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=sponsors" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('conferenceSponsors','','conferenceSponsors_f2.jpg',1);"><img name="conferenceSponsors" src="conferenceSponsors.jpg" width="174" height="26" border="0" alt="Conference Sponsors"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=venue" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('conferenceVenue','','conferenceVenue_f2.jpg',1);"><img name="conferenceVenue" src="conferenceVenue.jpg" width="174" height="25" border="0" alt="Conference Venue"></a></td>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2" colspan="5"><a href="index.asp?section=accommodation" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('accommodation','','accommodation_f2.jpg',1);"><img name="accommodation" src="accommodation.jpg" width="174" height="26" border="0" alt="Accommodation"></a></td>
+   <td><img src="spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp?section=aboutSingapore" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('AboutSingapore','','AboutSingapore_f2.jpg',1);"><img name="AboutSingapore" src="AboutSingapore.jpg" width="174" height="26" border="0" alt="About Singapore"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><img name="left_Banner_r15_c1" src="left_Banner_r15_c1.jpg" width="174" height="68" border="0" usemap="#m_left_Banner_r15_c1" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="68" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="10"><img name="left_Banner_r16_c1" src="left_Banner_r16_c1.jpg" width="10" height="304" border="0" alt=""></td>
+   <td colspan="3"><a href="http://www.dublincore.org" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('DublinCoreLogo','','DublinCoreLogo_f2.jpg',1);"><img name="DublinCoreLogo" src="DublinCoreLogo.jpg" width="140" height="49" border="0" alt="Dublin Core Metadata Initiative"></a></td>
+   <td rowspan="10"><img name="left_Banner_r16_c5" src="left_Banner_r16_c5.jpg" width="24" height="304" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="49" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="left_Banner_r17_c2" src="left_Banner_r17_c2.jpg" width="140" height="8" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="8" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><a href="http://www.nlb.gov.sg" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('NLBLogo','','NLBLogo.jpg',1);"><img name="NLBLogo" src="NLBLogo.jpg" width="81" height="53" border="0" alt="NLB"></a></td>
+   <td rowspan="2" colspan="2"><img name="left_Banner_r18_c3" src="left_Banner_r18_c3.jpg" width="59" height="64" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="53" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="left_Banner_r19_c2" src="left_Banner_r19_c2.jpg" width="81" height="11" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="11" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="2"><a href="http://www.ntu.edu.sg/sci/" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('NanyangLogo','','NanyangLogo.jpg',1);"><img name="NanyangLogo" src="NanyangLogo.jpg" width="87" height="32" border="0" alt="Nanyang Technology University"></a></td>
+   <td rowspan="2"><img name="left_Banner_r20_c4" src="left_Banner_r20_c4.jpg" width="53" height="59" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="32" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="2"><img name="left_Banner_r21_c2" src="left_Banner_r21_c2.jpg" width="87" height="27" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="27" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><a href="http://www.nlbconference.com/ilds" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('ilds','','ilds.jpg',1);"><img name="ilds" src="ilds.jpg" width="140" height="49" border="0" alt="Interlending and Document Supply Conference"></a></td>
+   <td><img src="spacer.gif" width="1" height="49" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="left_Banner_r23_c2" src="left_Banner_r23_c2.jpg" width="140" height="9" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="9" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><a href="http://blogs.nlb.gov.sg/newspaper_conf08/" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('IFLALogo','','IFLALogo.jpg',1);"><img name="IFLALogo" src="IFLALogo.jpg" width="140" height="49" border="0" alt="IFLA International Newspaper Conference 2008"></a></td>
+   <td><img src="spacer.gif" width="1" height="49" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="left_Banner_r25_c2" src="left_Banner_r25_c2.jpg" width="140" height="17" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="17" border="0" alt=""></td>
+  </tr>
+<map name="m_left_Banner_r15_c1">
+<area shape="rect" coords="51,26,162,38" href="mailto:dc2007@nlb.gov.sg?Subject=Contact DC2007" title="dc2007@nlb.gov.sg" alt="dc2007@nlb.gov.sg" >
+</map>
+</table>
+</body>
+</html>
+</td>	 
+  <td width="622" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <!--DWLayoutTable-->
+    <tr>
+      <td width="622" height="505" valign="top"><link href="style.css" rel="stylesheet" type="text/css">
+<TABLE width="620">
+  <TR>
+    <TD><img src="speakers_header.gif" width="618" height="26"></TD>
+  </TR>
+  <TR>
+    <TD><TABLE cellspacing="0" cellpadding="10">
+        <TR>
+          <TD><span class="englishHeader">Keynote Speakers</span></TD>
+        </TR>
+        <TR>
+          <TD><span class="englishContentBold"><a name="Johannes" id="Johannes"></a>Johannes Keizer</span><br>
+            <span class="englishContentBold">Food and Agriculture Organization of the United Nations</span></TD>
+        </TR>
+        <TR>
+          <TD><div align="justify"><span class="englishContent"> Johannes Keizer works at the <a href="http://en.wikipedia.org/wiki/Food_&_Agriculture_Organization" target="_blank" class="anchorClass">Food & Agriculture Organization</a> (FAO) of the <a href="http://en.wikipedia.org/wiki/United_Nations" target="_blank" class="anchorClass">United Nations</a>, where he is responsible for scientific documentation and related activities, such as the international cooperative information network, AGRIS.  Dr Keizer's group has launched various initiatives over recent years, taking advantage of the new possibilities of the Internet to access scientific and technological information for FAO's member countries, to develop, among other things, a Semantic web in FAO's subject areas through the setting up of the <a href="http://en.wikipedia.org/wiki/Agricultural_Ontology_Service" target="_blank" class="anchorClass">Agricultural Ontology Service</a> (AOS) and the <a href="http://en.wikipedia.org/wiki/AgMES" target="_blank" class="anchorClass">AgMES</a> (Agricultural Metadata Element Set) initiatives.  Johannes Keizer holds a PhD in Biology from the University of Mainz.  Before joining FAO in 2000, he worked as a researcher in biochemistry at the Italian Advanced Institute of Health, and later as free-lance consultant for the management of scientific data.  He lives in Rome.</span></div></TD>
+        </TR>
+        <TR>
+          <TD><span class="englishContentBold"><a name="Zhang" id="Zhang"></a>Zhang Xiaoxing</span><br>
+            <span class="englishContentBold">Deputy Director</span><br>
+            <span class="englishContentBold">National Cultural Information Resource Center of China</span> </TD>
+        </TR>
+        <TR>
+          <TD><div align="justify"><span class="englishContent">Zhang Xiaoxing was formerly Deputy Director of the National Library of China.  He plays a key role in the development of the China Digital Library.</span></div></TD>
+        </TR>
+      </TABLE></TD>
+  </TR>
+  <TR>
+    <TD><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p>
+      <hr></TD>
+  </TR>
+  <TR>
+    <TD><TABLE cellpadding="10" cellspacing="0">
+        <TR>
+          <TD><span class="englishHeader">Seminar Leads</span></TD>
+        </TR>
+        <TR>
+          <TD><span class="englishContentBold"><a name="Ivan" id="Ivan"></a>Ivan Herman</span><br>
+            <span class="englishContentBold">Semantic Web Activity Lead</span><br>
+            <span class="englishContentBold">World Wide Web Consortium</span></TD>
+        </TR>
+        <TR>
+          <TD><div align="justify"><span class="englishContent"> Ivan Herman received a PhD degree in Computer Science in 1990 at the <a href="http://www.leidenuniv.nl/" target="_blank" class="anchorClass">University of Leiden</a>, in the Netherlands. He served as Head of <a href="http://www.w3.org/Consortium/Offices" target="_blank" class="anchorClass">Offices</a> for the W3C team from 2001 until June 2006, when he was asked to take the <a href="http://www.w3.org/2001/sw/" target="_blank" class="anchorClass">Semantic Web</a> Activity Lead position, which is now his principal work at W3C.  Before joining W3C he worked in quite different areas (distributed and dataflow programming, language design, system programming), but spent most of his research years in computer graphics and visualization. He also participated in various graphics related ISO standardization activities and software developments.  Ivan is also member of <a href="http://www.iw3c2.org/" target="_blank" class="anchorClass">IW3C2</a>, the committee responsible for the World Wide Web Conference series.</span> </div></TD>
+        </TR>
+        <TR>
+          <TD><span class="englishContentBold"><a name="Diane" id="Diane"></a>Diane Hillmann</span><br>
+            <span class="englishContentBold">Research Librarian</span><br>
+            <span class="englishContentBold">Cornell University Library</span></TD>
+        </TR>
+        <TR>
+          <TD><div align="justify"><span class="englishContent"> Diane Hillmann is currently Research Librarian at Cornell University Library.  She was Director of Library Services and Operations for the <a href="http://nsdl.org/" target="_blank" class="anchorClass">National Science Digital Library</a> between 2000-2005.  Prior to joining the NSDL, she worked for the Cornell University Library as cataloger and technical services manager, including managing authorities and maintenance processes for the library’s database.  She was a liaison to and member of MARBI from the late 1980’s to 2000, specializing in the Holdings and Authorities formats.   Diane was an early participant in the Dublin Core Metadata Initiative, and is currently editor of "Using Dublin Core" (<a href="http://dublincore.org/documents/usageguide/" target="_blank" class="anchorClass">http://dublincore.org/documents/usageguide/</a>), a member of the DCMI Usage and Advisory Boards and Co-Moderator of the DC-Education Community. She recently edited (with Elaine Westbrooks) “Metadata in Practice,” published by ALA Editions (2004) and publishes frequently on digital library issues.</span> </div></TD>
+        </TR>
+        <TR>
+          <TD><span class="englishContentBold"><a name="Sarah" id="Diane"></a>Sarah Pulis</span><br>
+           <span class="englishContentBold">La Trobe University</span></TD>
+        </TR>
+        <TR>
+          <TD><div align="justify"><span class="englishContent">
+Sarah's background is in computer science and cognitive science.  She worked as a Master student on the ARC-funded Quinkan Culture Matchbox project, a cultural heritage management system for Indigenous cultural preservation.  She completed her Master of Science (Research) at La Trobe University last year in which she created a MOF metamodel for the DCMI Abstract Model.  The intention of the metamodel was to support software development for Dublin Core metadata.		  
+		  </span></div>		  </TD>
+        </TR>
+     </TABLE></TD>
+  </TR>
+  <TR>
+    <TD><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p>
+      <hr></TD>
+  </TR>
+  <TR>
+    <TD><TABLE cellpadding="10" cellspacing="0">
+        <TR>
+          <TD><span class="englishHeader">Tutorial Leads</span></TD>
+        </TR>
+        <TR>
+          <TD><span class="englishContentBold"><a name="Alistair" id="Alistair"></a>Alistair Miles</span><br>
+            <span class="englishContentBold">Research Associate</span><br>
+            <span class="englishContentBold">STFC Rutherford Appleton Laboratory</span></TD>
+        </TR>
+        <TR>
+          <TD><div align="justify"><span class="englishContent"> Alistair Miles is a research associate in the e-Science department at the STFC Rutherford Appleton Laboratory. His research focus is on the application of Semantic Web technologies to problems of data, information and knowledge management and digital curation within scientific domains. Alistair is a member of the W3C Semantic Web Deployment Working Group, and an editor of several W3C technical reports including the Simple Knowledge Organisation System (SKOS) and the Best Practice Recipes for Publishing RDF Vocabularies.</span> </div></TD>
+        </TR>
+        <TR>
+          <TD><span class="englishContentBold"><a name="Mikael" id="Mikael"></a>Mikael Nilsson</span><br>
+            <span class="englishContentBold">Knowledge Management Research Group</span><br>
+            <span class="englishContentBold">Royal Institute of Technology, Sweden</span></TD>
+        </TR>
+        <TR>
+          <TD><div align="justify"><span class="englishContent">Mikael Nilsson has a background in Mathematics and Computer Science, and is currently finishing his PhD studies at the Knowledge Management Research Group at the Royal Institute of Technology in Stockholm and Uppsala University. His research focuses on metadata interoperability in the web environment, and he has been involved in the design and development of several groundbreaking initiatives in that field, such as the P2P infrastructure Edutella, the frameworks SCAM and SHAME, and the concept browser Conzilla. He is heavily involved in several international standardisation efforts within technology-enhanced learning and metadata, co-chairing the Dublin Core Architecture Forum and the Joint DCMI/IEEE LTSC Task force.</span></div></TD>
+        </TR>
+        <TR>
+          <TD><span class="englishContentBold"><a name="Stuart" id="Stuart"></a>Stuart Sutton</span><br>
+            <span class="englishContentBold">Associate Professor</span><br>
+            <span class="englishContentBold">University of Washington – Information School</span> </TD>
+        </TR>
+        <TR>
+          <TD><div align="justify"><span class="englishContent"> Dr. Stuart Sutton’s research areas include metadata and networked information discovery and retrieval, technology-mediated teaching and learning, cognition and the information seeking behavior of discourse communities, mental models in information system design, and the law and policy of intellectual property. He teaches in the areas of information law and policy, legal informatics, and the organization of information.</span> </div></TD>
+        </TR>
+      </TABLE></TD>
+  </TR>
+  <TR>
+    <TD><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p>
+      <hr></TD>
+  </TR>
+</TABLE>
+</td>
+        </tr>
+  </table></td>
+  </tr>
+  <TR>
+     <td colspan="2" bgcolor="#FFF9F9" class="footer"><DIV align="center">Copyright &copy; 1995-2007 DCMI All Rights Reserved.</DIV></td>
+  </TR>
+</table>
+</body>
+</html>

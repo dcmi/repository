@@ -1,0 +1,26 @@
+<div class="rss-item">
+<div class="rss-title"><a name="xdirectory"></a><a href="http://www.espritsoutronpartnership.com/index.asp">xdirectory</a></div>
+<div class="rss-description">
+<p>2002-02-21, xdirectory is the core of ESP's information management suite. Built from the ground up for the web, it offers a fully configurable, browser-based environment for creating and publishing searchable web-based information directories. xdirectory hand you the power to construct database-driven e-directories for your organisations intranet or public web-site.</p>
+<p>The 'Core Edition' of this software is fully Dublin Core capable allowing metadata collections to be constructed and published for searching and browsing via the web using simple or qualified Dublin Core. The software allows multiple record 'types' to be defined, each of which can use the DC element set (with qualifiers if required) as its base and then incorporate additional elements to the meet specific need.</p>
+<p><a href="http://www.espritsoutronpartnership.com/products/xdirectory/index.asp">xdirectory</a><br /><a href="http://www.espritsoutronpartnership.com/index.asp">Esprit Soutron Partnership Ltd</a></p>
+</div>
+</div>
+
+<div class="rss-item">
+<div class="rss-title"><a name="illuminet"></a><a href="http://www.illuminet.se/">IllumiNet Corpus</a></div>
+<div class="rss-description">
+<p>2002-02-11, Corpus is a search engine written in Java that index content, context and metadata in documents on the network or on the local file system. It is used as a &quot;distributed relational database&quot; for document-oriented solutions with metadata as indexed keys.</p>
+<p><strong>It also features:</strong></p>
+<ul>
+<li>Rich result overviews, structured by document context or by clustering</li>
+<li>XML and RSS result output from built in HTTP server east to integrate with XSL transforms</li>
+<li>Parser for multiple formats including HTML, XML-formats, PDF, DOC etc.</li>
+<li>Auto generate metadata agent that uses LDAP and URL mappings</li>
+<li>Direct indexing using WebDAV log or file system auditing events.</li>
+<li>Web and command line administration</li>
+<li>API's for new agents, spiders and parsers</li>
+</ul>
+<p><strong>Contact:</strong><br />Jonas Bosson, IllumiNet AB, Stockholm, Sweden<br />+46-(0)8 666 96 61 (CET)<br /><a href="http://www.illuminet.se/">http://www.illuminet.se/</a><br /><a href="mailto:jonas@illuminet.se">jonas@illuminet.se</a></p>
+</div>
+</div>

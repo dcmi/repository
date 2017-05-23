@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head profile="http://dublincore.org/documents/2008/08/04/dc-html/">
+<title>DCMI Financial Reports</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://dublincore.org/news.rss" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body class="about-us-landing">
+  
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>DCMI Financial Reports</h1>
+
+
+<h1><img src="http://dublincore.org/images/DCMI_logo_cropped.jpg" width="15" alt="DCMI logo" title="DCMI logo" /> Annual Audits (2008&mdash;&nbsp;&nbsp;&nbsp;)</h1>
+
+<p>The following Annual Audits cover the period between 23 December 2008 and 30 June 2013 when DCMI functioned as DCMI Ltd.&mdash;a company limited by guarantee in Singapore.  On 30 June 2013, DCMI Ltd. ceased operations in Singapore and became a project of the Association for Information Science and Technology (ASIS&amp;T)&mdash;a U.S. 501(c)(3) non-profit.  Annual reporting for DCMI starting 1 July 2013 will be part of the overall ASIS&amp;T annual audit.</p>
+
+<ul>
+<li><a href="/archives/finance/audits/DCMI_audit_report_FY12-13.pdf">Fiscal Year 2012-2013</a></li>
+<li><a href="/archives/finance/audits/DCMI_audit_report_FY11-12.pdf">Fiscal Year 2011-2012</a></li>
+<li><a href="/archives/finance/audits/DCMI_audit_report_FY10-11.pdf">Fiscal Year 2010-2011</a></li>
+<li><a href="/archives/finance/audits/DCMI_audit_report_FY09-10.pdf">Fiscal Year 2009-2010</a></li>
+<li><a href="/archives/finance/audits/DCMI_audit_report_FY08-09.pdf">Fiscal Year 2008-2009</a></li>
+</ul>
+
+<div> 
+<!--#include virtual="/ssi/footer.shtml" --> 
+</div> 
+    
+</body>
+</html>

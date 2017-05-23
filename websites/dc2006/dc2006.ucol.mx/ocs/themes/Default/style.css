@@ -1,0 +1,288 @@
+/* Open Conference Systems 1.0 */
+/* (c) The Public Knowledge Project 2002-2004 */
+/* http:/*www.pkp.ubc.ca */
+/* */
+/* themes/Default/style.css */
+/* site-wide cascading stylesheet */
+
+
+H1 {
+	color: #840000;
+      }
+
+H2 {
+	color: #840000;
+      }
+
+H3 {
+	color: #840000;
+      }
+
+H4 {
+	color: #840000;
+      }
+
+A {
+	text-decoration: none;
+      }
+
+A:link {
+	color: #0000FF;
+      }
+
+A:active {
+	color: #056DC5;
+      }
+
+A:visited {
+	color: #0000FF;
+      }
+
+A:hover {
+	color: #FF0000;
+      }
+
+HTML, BODY, TD {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 10pt;
+      }
+
+P {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 10pt;
+      }
+
+.instructions {
+	color: #840000;
+      }
+
+input {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+      }
+
+textarea {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+      }
+
+select {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+      }
+
+INPUT.button {
+	font-weight: bold;
+	color: #000066;
+	background: #CC9900;
+      }
+
+
+.MenuSection {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none
+	}
+
+.SmallText {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+      }
+
+.MenuSubsection {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+	line-height: normal;
+	font-weight: bold;
+	color: #606699;
+	text-decoration: none
+	}
+
+A.MenuLink {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+	color: #0000FF;
+	text-decoration: none
+	}
+
+.Blank {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+	line-height: normal;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none
+	}
+
+.Citation {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+	line-height: normal;
+	color: #7777AA;
+	text-decoration: none
+	}
+
+.MainText {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 10pt;
+	line-height: 120%;
+	text-decoration: none
+	}
+
+.MetaText {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 9pt;
+	line-height: 120%;
+	text-decoration: none
+	}
+
+.ArticleAbstract {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	line-height: 125%;
+	text-decoration: none
+	}
+
+.ArticleTitle {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 11pt;
+	color: #840000;
+	line-height: normal;
+	font-weight: bold;
+	text-decoration: none
+	}
+
+.ArticleHeader {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 14pt;
+	color: #000000;
+	line-height: normal;
+	text-decoration: none
+      }
+
+.ConferenceTitle {
+	font-family: Garamond, "Galliard BT", "ChelthmlTC Bk BT", Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 24pt;
+	color: #0066BB;
+	line-height: normal;
+	font-weight: bold;
+	text-decoration: none
+	}
+
+A.MainTextLink {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 10pt;
+	line-height: 120%;
+	color: #0000FF;
+	text-decoration: none
+	}
+
+.WhiteText {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 10pt;
+	line-height: 120%;
+	color: #FFFFFF;
+	text-decoration: none
+	}
+
+A.AuthorTextLink {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 9pt;
+	line-height: normal;
+	color: #840000;
+	font-weight: bold;
+	text-decoration: none
+	}
+
+.SecondaryText {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+	line-height: normal;
+	color: #840000;
+	font-weight: bold;
+	text-decoration: none
+	}
+
+.AffiliationLink {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+	font-style: italic;
+	line-height: normal;
+	color: #840000;
+	font-weight: bold;
+	text-decoration: none
+	}
+
+A.Content {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 10pt;
+	line-height: normal;
+	font-weight: bold;
+	color: #213588;
+	text-decoration: none
+	}
+
+.ContentHdr {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 10pt;
+	line-height: normal;
+	font-weight: bold;
+	color: #669966;
+	text-decoration: none
+	}
+
+A.TopMenu {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+	line-height: normal;
+	font-weight: bold;
+	color: #CCFFFF;
+	text-decoration: none
+	}
+
+.Divider {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none
+	}
+
+.TopMenu {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 9pt;
+	line-height: normal;
+	font-weight: bold;
+	text-decoration: none
+      }
+A.Sponsor {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 10pt;
+	line-height: normal;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: none
+      }
+
+A.NavTree {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none
+      }
+
+.NavTree {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 8pt;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none
+      }

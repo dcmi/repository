@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+-<rss version="0.91">
+-<channel>
+ <title>DCMI Update</title>
+ <link>http://purl.org/dc</link>
+ <description>Dublin Core Metadata Initiative related news including new additions to the Dublin Core Web site.</description>\
+ <language>en</language>
+ <webMaster>dc@oclc.org</webMaster>
+ <copyright>Copyright 2000, DCMI.</copyright>
+ <pubDate>Wednesday, 2000-05-17, 15:25:00 GMT</pubDate>
+-<image>
+  <title>Dublin Core Metadata Initiative</title>
+  <url>http://purl.org/dc/images/logo/core_cream/core_cream_152d.gif</url>
+  <link>http://purl.org/dc/</link>
+ </image>
+-<item>
+  <link>http://www-rocq.inria.fr/~vercoust/METADATA/DC-fr.1.1.html</link>
+  <title>Dublin Core Element Set, version 1.1</title>
+  <description>The French translation of the Dublin Core Element Set, v. 1.1 is now available. Translated by Anne-Marie Vercoustre, an RDF definition of DCES 1.1 in French is also included.[2000-05-06]</description>
+ </item>
+-<item>
+  <link>http://www.scd.univ-tours.fr/</link>
+  <title>Francois Rabelais University Libraries</title>
+  <description> The web site for the Francois Rabelais University is now indexed with Dublin Core metadata. The website for the Francois Rabelais University allows users to access several parts of the University library and five different departmental library sites. The web site also gives access to the OPAC of the University Library and the CESR (Center for Higher Renaissance Studies).[2000-05-04]</description>
+ </item>
+-<item>
+ <link>http://www.mailbase.ac.uk/lists/dc-general/2000-04/0010.html</link>
+ <title>Approved Dublin Core Interoperability Qualifiers Announced</title>
+ <description>The DC-Usage Committee has completed balloting of the initial round of proposed Dublin Core Interoperability Qualifiers. These qualifiers are intended to promote interoperability among applications that use element refinements and encoding schemes to increase the semantic precision of metadata.[2000-04-17]</description>
+ </item>
+-<item>
+ <link>http://www.cenorm.be/news/press_notices/metadata.htm</link>
+ <title>CEN Press Release on the acceptance of Dublin Core as a CEN Workshop Agreement.</title>
+ <description>At a meeting of the CEN/ISSS Workshop on Metadata for Multimedia Information - Dublin Core (MMI-DC), approval in unison was given for Dublin Core version 1.1 as a CEN Workshop Agreement (CWA). It will be published with a foreword and with some formal changes of the references in DC 1.1.[2000-03-28]</description>
+ </item>
+</channel>
+</rss>
+
+
+
+
+
+

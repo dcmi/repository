@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+<title>DCMI Website Standards and Policy Manual - Accessibility Guidelines</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/policies/header.shtml" -->
+<h1>Accessibility Guidelines</h1>
+<p>The DCMI Web site supports Priority 1 checkpoints for accessibility as per the W3C recommendation for <a href="http://www.w3.org/TR/WAI-WEBCONTENT/">Web Content Accessibility Guidelines 1.0</a>. The Priority 1  checkpoint is as follows:</p>
+<blockquote>
+<p><b>Priority 1</b><br />A Web content developer <strong>must</strong> satisfy this checkpoint. Otherwise, one or more groups will find it impossible to access information in the document. Satisfying this checkpoint is a basic requirement for some groups to be able to use Web documents.</p>
+</blockquote>
+<p>The following are the applied guidelines and their corresponding Priority 1 checkpoints:</p>
+<h2>Guideline 1. Provide equivalent alternatives to auditory and visual content.</h2>
+<table width="100%" border="1">
+<tr>
+<th width="70%">Checkpoint</th>
+<th width="30%">Currently Implemented?</th>
+</tr>
+<tr valign="top">
+<td width="70%">Provide a text equivalent for every non-text element (e.g., via &quot;alt&quot;, &quot;longdesc&quot;, or in element content). This includes: images, graphical representations of text (including symbols), image map regions, animations (e.g., animated GIFs), applets and programmatic objects, ascii art, frames, scripts, images used as list bullets, spacers, graphical buttons, sounds (played with or without user interaction), stand-alone audio files, audio tracks of video, and video.</td>
+<td align="center" width="30%">Yes</td>
+</tr>
+<tr valign="top">
+<td width="70%">Provide redundant text links for each active region of a server-side image map.</td>
+<td align="center" width="30%">
+<p>NA</p>
+<p>No image maps are used on the site.</p>
+</td>
+</tr>
+<tr valign="top">
+<td width="70%">Provide an auditory description of the important information of the visual track of a multimedia presentation.</td>
+<td align="center" width="30%">
+<p>NA</p>
+<p>No multimedia presentations are used on the site.</p>
+</td>
+</tr>
+<tr valign="top">
+<td width="70%">For any time-based multimedia presentation (e.g., a movie or animation), synchronize equivalent alternatives (e.g., captions or auditory descriptions of the visual track) with the presentation.</td>
+<td align="center" width="30%">
+<p>NA</p>
+<p>No multimedia presentations are used on the site.</p>
+</td>
+</tr>
+</table>
+<h2>Guideline 2. Don't rely on color alone.</h2>
+<table width="100%" border="1">
+<tr>
+<th width="70%">Checkpoint</th>
+<th width="30%">Currently Implemented?</th>
+</tr>
+<tr valign="top">
+<td width="70%">Ensure that all information conveyed with color is also available without color, for example from context or markup.</td>
+<td align="center" width="30%">Yes</td>
+</tr>
+</table>
+<h2>Guideline 4. Clarify natural language usage.</h2>
+<table width="100%" border="1">
+<tr>
+<th width="70%">Checkpoint</th>
+<th width="30%">Currently Implemented?</th>
+</tr>
+<tr valign="top">
+<td width="70%">Clearly identify changes in the natural language of a document's text and any text equivalents (e.g., captions).</td>
+<td align="center" width="30%">Yes</td>
+</tr>
+</table>
+<h2>Guideline 5. Create tables that transform gracefully.</h2>
+<table width="100%" border="1">
+<tr>
+<th width="70%">Checkpoint</th>
+<th width="30%">Currently Implemented?</th>
+</tr>
+<tr valign="top">
+<td width="70%">For data tables, identify row and column headers.</td>
+<td align="center" width="30%">No</td>
+</tr>
+<tr valign="top">
+<td width="70%">For data tables that have two or more logical levels of row or column headers, use markup to associate data cells and header cells.</td>
+<td align="center" width="30%">No</td>
+</tr>
+</table>
+<h2>Guideline 6. Ensure that pages featuring new technologies transform gracefully.</h2>
+<table width="100%" border="1">
+<tr>
+<th width="70%">Checkpoint</th>
+<th width="30%">Currently Implemented?</th>
+</tr>
+<tr valign="top">
+<td width="70%">Organize documents so they may be read without style sheets. For example, when an HTML document is rendered without associated style sheets, it must still be possible to read the document.</td>
+<td align="center" width="30%">Yes</td>
+</tr>
+<tr valign="top">
+<td width="70%">Ensure that equivalents for dynamic content are updated when the dynamic content changes.</td>
+<td align="center" width="30%">NA</td>
+</tr>
+<tr valign="top">
+<td width="70%">Ensure that pages are usable when scripts, applets, or other programmatic objects are turned off or not supported. If this is not possible, provide equivalent information on an alternative accessible page.</td>
+<td align="center" width="30%">Yes</td>
+</tr>
+</table>
+<h2>Guideline 7. Ensure user control of time-sensitive content changes.</h2>
+<table width="100%" border="1">
+<tr>
+<th width="70%">Checkpoint</th>
+<th width="30%">Currently Implemented?</th>
+</tr>
+<tr valign="top">
+<td width="70%">Avoid causing the screen to flicker.</td>
+<td align="center" width="30%">
+<p>Yes</p>
+<p>Nothing causes the screen to flicker.</p>
+</td>
+</tr>
+</table>
+<h2>Guideline 8. Ensure direct accessibility of embedded user interfaces.</h2>
+<table width="100%" border="1">
+<tr>
+<th width="65%">Checkpoint</th>
+<th width="15%">Priority</th>
+<th width="15%">Currently Implemented?</th>
+</tr>
+<tr valign="top">
+<td width="65%">Make programmatic elements such as scripts and applets directly accessible or compatible with assistive technologies.</td>
+<td align="center" width="15%">Priority 1 if functionality is important and not presented elsewhere, otherwise Priority 2</td>
+<td align="center" width="15%">
+<p>NA</p>
+<p>Functionality is not important.</p>
+</td>
+</tr>
+</table>
+<h2>Guideline 9. Design for device-independence.</h2>
+<table width="100%" border="1">
+<tr>
+<th width="70%">Checkpoint</th>
+<th width="30%">Currently Implemented?</th>
+</tr>
+<tr valign="top">
+<td width="70%">Provide client-side image maps instead of server-side image maps except where the regions cannot be defined with an available geometric shape.</td>
+<td align="center" width="30%">
+<p>NA</p>
+<p>Image maps are not used on the site.</p>
+</td>
+</tr>
+</table>
+<h2>Guideline 11. Use W3C technologies and guidelines.</h2>
+<table width="100%" border="1">
+<tr>
+<th width="70%">Checkpoint</th>
+<th width="30%">Currently Implemented?</th>
+</tr>
+<tr valign="top">
+<td width="70%">If, after best efforts, you cannot create an accessible page, provide a link to an alternative page that uses W3C technologies, is accessible, has equivalent information (or functionality), and is updated as often as the inaccessible (original) page.</td>
+<td align="center" width="30%">NA</td>
+</tr>
+</table>
+<h2>Guideline 12. Provide context and orientation information.</h2>
+<table width="100%" border="1">
+<tr>
+<th width="70%">Checkpoint</th>
+<th width="30%">Currently Implemented?</th>
+</tr>
+<tr valign="top">
+<td width="70%">Title each frame to facilitate frame identification and navigation.</td>
+<td align="center" width="30%">
+<p>NA</p>
+<p>Frames are not used on the site.</p>
+</td>
+</tr>
+</table>
+<h2>Guideline 14. Ensure that documents are clear and simple.</h2>
+<table width="100%" border="1">
+<tr>
+<th width="70%">Checkpoint</th>
+<th width="30%">Currently Implemented?</th>
+</tr>
+<tr valign="top">
+<td width="70%">Use the clearest and simplest language appropriate for a site's content.</td>
+<td align="center" width="30%">Yes</td>
+</tr>
+</table>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

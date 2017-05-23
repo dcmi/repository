@@ -1,0 +1,450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>Using Dublin Core in XML</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="../../documents/2000/10/05/education-namespace/index.shtml.rdf" />
+  </head>
+
+  <body>
+    <!--#include virtual="/ssi/header.shtml"-->
+
+    <table
+    summary="A layout table with descriptive information about this document.">
+      <tr>
+        <td width="24%" valign="top"><strong>Title:</strong></td>
+
+        <td width="76%">
+          <h2>Education Working Group: Draft Proposal</h2>
+        </td>
+      </tr>
+
+      <tr>
+        <td width="24%" valign="top">
+          <div align="left">
+            <strong>Creator:</strong>
+          </div>
+        </td>
+
+        <td width="76%">
+          <div align="left">
+            <a href="mailto:jmason@educationau.edu.au">Jon
+            Mason</a>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td width="24%" valign="top">
+          <div align="left">
+            <strong>Creator:</strong>
+          </div>
+        </td>
+
+        <td width="76%">
+          <div align="left">
+            <a href="mailto:sasutton@u.washington.edu">Stuart
+            Sutton</a>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td width="24%" valign="top" height="23">
+          <div align="left">
+            <strong>Date Issued:</strong>
+          </div>
+        </td>
+
+        <td width="76%" height="23">
+          <div align="left">
+            2000-10-05
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td width="24%" valign="top">
+          <div align="left">
+            <strong>Identifier:</strong>
+          </div>
+        </td>
+
+        <td width="76%">
+          <div align="left">
+            <a
+            href="/documents/2000/10/05/education-namespace/">http://dublincore.org/documents/2000/10/05/education-namespace/</a>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td width="24%" valign="top">
+          <div align="left">
+            <strong>Replaces:</strong>
+          </div>
+        </td>
+
+        <td width="76%">
+          <div align="left">
+            <a
+            href="/documents/2000/04/30/education-namespace/">http://dublincore.org/documents/2000/04/30/education-namespace/</a>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td width="24%" valign="top">
+          <div align="left">
+            <strong>Is Replaced By:</strong>
+          </div>
+        </td>
+
+        <td width="76%">
+          <div align="left">
+            Not applicable
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td width="24%" valign="top">
+          <div align="left">
+            <strong>Latest Version:</strong>
+          </div>
+        </td>
+
+        <td width="76%">
+          <div align="left">
+            <a
+            href="/documents/education-namespace/">http://dublincore.org/documents/education-namespace/</a>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td width="24%" valign="top">
+          <div align="left">
+            <strong>Status of Document:</strong>
+          </div>
+        </td>
+
+        <td width="76%">
+          <div align="left">
+            This is a DCMI <a
+            href="/documents/#workingdrafts">Working Draft</a>.
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td width="24%" valign="top"><strong>Description of
+        Document:</strong></td>
+
+        <td width="76%">This document is a Proposal from the Dublin
+        Core Education Working Group [DCEd] to the Dublin Core
+        Usage Committee of the Dublin Core Metadata Initiative
+        [DCMI]. The content of this document is intended to reflect
+        the consensus reached within DCEd. It reports decisions
+        reached by DCEd through its online discussions and
+        face-to-face meetings in Frankfurt (October 25-27, 1999)
+        and Melbourne (February 19-20, 2000). A <em>Report of
+        Deliberations</em> is referenced throughout in support of
+        the Proposal. DCEd proposes the adoption of the following:
+        (1) two new domain-specific elements with accompanying
+        element qualifiers for a dc-ed namespace; and (2) a new
+        domain-specific qualifier to dc:relation for the dc-ed
+        namespace. In addition, DCEd proposes the endorsement of
+        three elements from the Instructional Management Systems
+        (IMS) namespace (pursuant to the Memorandum of
+        Understanding with IEEE LTSC).</td>
+      </tr>
+
+      <tr>
+        <td width="100%" valign="top" colspan="2">
+          <hr />
+        </td>
+      </tr>
+    </table>
+
+    <p>This document is a Proposal from the Dublin Core Education
+    Working Group [<a href="/groups/education/">DCEd</a>] to the
+    Dublin Core Usage Committee of the Dublin Core Metadata
+    Initiative [<a href="/">DCMI</a>]. The content of this document
+    is intended to reflect the consensus reached within DCEd. It
+    reports decisions reached by DCEd through its online
+    discussions and face-to-face meetings in Frankfurt (October
+    25-27, 1999) and Melbourne (February 19-20, 2000). A <a
+    href="http://www.ischool.washington.edu/sasutton/dc-ed/Dc-ac/DC-Education_Report.html">
+    Report of Deliberations</a> is referenced throughout in support
+    of the Proposal.</p>
+
+    <p>DCEd proposes the adoption of the following: (1) two new
+    domain-specific elements with accompanying element qualifiers
+    for a dc-ed namespace; and (2) a new domain-specific qualifier
+    to dc:relation for the dc-ed namespace. In addition, DCEd
+    proposes the endorsement of three elements from the
+    Instructional Management Systems (IMS) namespace (pursuant to
+    the Memorandum of Understanding with IEEE LTSC).</p>
+    <hr />
+
+    <h2>Proposal 1:<br />
+     dc-ed:audience Element</h2>
+
+    <p>In the education and training domain, the capacity to
+    designate various aspects of the intended users of (or audience
+    for) the educational resource being described is an important
+    function for networked information discovery and retrieval.</p>
+
+    <p><strong>Name:</strong> audience<br />
+     <strong>Label:</strong> Audience<br />
+     <strong>Definition:</strong> A category of user for whom the
+    resource is intended.<br />
+     <strong>Comment:</strong> Frequently, creators and publishers
+    of resources in education and training explicitly state the
+    category of user for whom the resource is intended. In like
+    fashion, end-users in the education/training domain frequently
+    search using audience characteristics as search terms.<br />
+     <strong>See Also:</strong> dc-ed:audience Element discussion
+    in the <a
+    href="http://www.ischool.washington.edu/sasutton/dc-ed/Dc-ac/DC-Education_Report.html">
+    Report of Deliberations</a>.</p>
+
+    <center>
+      <h4>Proposed Encoding Schemes for dc-ed:audience:</h4>
+    </center>
+
+    <p>DCEd recognizes the need for increased search precision
+    through the use of controlled vocabularies. Various
+    implementations in the education domain have adopted such
+    element encoding schemes to denote various classes of audience
+    traits based on national, organizational, and cultural needs.
+    No DCEd element encoding schemes are put forward in this
+    proposal.</p>
+
+    <center>
+      <h4>Proposed Qualifier that Refines dc-ed:audience: [1]</h4>
+    </center>
+
+    <p><strong>Name:</strong> mediator<br />
+     <strong>Label:</strong> Mediator<br />
+     <strong>Definition:</strong> An entity that mediates access to
+    the resource.<br />
+     <strong>Comment:</strong> The audience for a resource in the
+    education/training domain are of two basic classes: (1) an
+    utimate beneficiary of the resource (usually a student or
+    trainee), and (2) frequently, an entity that mediates access to
+    the resource (usually a teacher or trainor). The dc-ed:mediator
+    element refinement represents the second of these two
+    classes.</p>
+
+    <center>
+      <h4>Proposed Encoding Schemes for dc-ed:mediator:</h4>
+    </center>
+
+    <p>DCEd recognizes the need for increased search precision
+    through the use of controlled vocabularies. Various
+    implementations in the education domain have adopted such
+    element encoding schemes to denote types of mediators based on
+    national, organizational, and cultural needs. No DCEd value
+    qualifier encoding schemes are put forward in this
+    proposal.</p>
+
+    <p><font size="-1">[1] DCEd recognizes that in addition to the
+    dc-ed:mediator element refinement, dc-ed:audience may be more
+    precisely expressed in the education domain through a number of
+    facets denoting audience traits (e.g., education/training
+    level, levels of pysical and intellectual ability, etc.). These
+    traits will most likely suggest additional element refinements
+    in the future. No such additional element refinements are put
+    forward in this proposal.</font></p>
+    <hr  />
+
+    <h2>Proposal 2:<br />
+     dc-ed:standard Element [2]</h2>
+
+    <p>In the education and training domain, the capacity to
+    designate various academic and process standards to which the
+    educational/training resource being described has been
+    associated is an important function for networked information
+    discovery and retrieval. Frequently, end-users search for
+    resources that are useful in helping students/trainees in
+    achieving educational goals and objectives as promulgated by
+    various companies, organizations, and governmental bodies.</p>
+
+    <p><strong>Name:</strong> standards<br />
+     <strong>Label:</strong> Standards<br />
+     <strong>Definition:</strong> A reference to an established
+    education or training standard to which the resource is
+    associated. [3]<br />
+     <strong>See Also:</strong> dc-ed:standard Element discussion
+    in the <a
+    href="http://www.ischool.washington.edu/sasutton/dc-ed/Dc-ac/DC-Education_Report.html">
+    Report of Deliberations</a>.</p>
+
+    <center>
+      <h4>Proposed Encoding Schemes for dc-ed:standards:</h4>
+    </center>
+
+    <p>The recommended scheme for dc-ed:standard is the Uniform
+    Resource Identifier (URI) referencing a process or content
+    standard. In the absence of a URI, good practice includes the
+    text of the standard being associated with reference to the
+    controlling scheme.</p>
+
+    <center>
+      <h4>Proposed Qualifiers that refine dc-ed:standard:</h4>
+    </center>
+
+    <p><strong>Name:</strong> identifier<br />
+     <strong>Label:</strong> Identifier<br />
+     <strong>Definition:</strong> Where available, an identifier
+    that serves to uniquely identify the standard being
+    associated.</p>
+
+    <p><strong>Name:</strong> version<br />
+     <strong>Label:</strong> Version<br />
+     <strong>Definition:</strong> Information identifying the
+    version of the standard being referenced (e.g., a year of
+    publication, a version number, etc.).<br />
+     <strong>Comment:</strong> Occasionally, the unique
+    identification of a standard is a function of both an
+    identifier and a version.</p>
+
+    <p><font size="-1">[2] The dc-ed:standard proposal is one of
+    two alternative mechanisms for handling the need to reference
+    academic and process standards. See also, Proposal 3
+    below.</font></p>
+
+    <p><font size="-1">[3] An alternative (possibly more useful )
+    general description is: &ldquo;A reference to an established
+    standard to which the resource is associated.&rdquo;</font></p>
+    <hr />
+
+    <h2>Proposal 3:<br />
+     dc-ed:conforms to Qualifier to the dc:relation Element
+    [4]</h2>
+
+    <p>In the education and training domain, the capacity to
+    designate various academic and process standards to which the
+    educational/training resource being described has been
+    associated is an important function for networked information
+    discovery and retrieval. Frequently, end-users search for
+    resources that are useful in helping students/trainees in
+    achieving educational goals and objectives as promulgated by
+    various companies, organizations, and governmental bodies.</p>
+
+    <p><strong>Name:</strong> conformsto<br />
+     <strong>Label:</strong> ConformsTo<br />
+     <strong>Definition:</strong> A reference to an established
+    education or training standard to which the resource is
+    associated. [5]<br />
+     <strong>See Also:</strong> dc-ed:standard Element discussion
+    in the <a
+    href="http://www.ischool.washington.edu/sasutton/dc-ed/Dc-ac/DC-Education_Report.html">
+    Report of Deliberations</a>.</p>
+
+    <p><font size="-1">[4] The dc-ed:standard proposal is one of
+    two alternative mechanisms for handling the need to reference
+    academic and process standards. See also, Proposal 2
+    above.</font></p>
+
+    <p><font size="-1">[5] An alternative (possibly more useful )
+    general description is: &ldquo;A reference to an established
+    standard to which the resource is associated.&rdquo;</font></p>
+    <hr />
+
+    <h2>Proposal 4:<br />
+     Endorsements of Data Elements in the IEEE LOM/IMS
+    Namspace</h2>
+
+    <p>In conformance with the DCMI commitment to modular metadata,
+    DCEd proposes <em>endorsement</em> of the use of the
+    <em>InteractivityType</em>, <em>InteractivityLevel</em>, and
+    <em>TypicalLearningTime</em> data elements (Education Category:
+    5.1, 5.3, and 5.9 respectively) from the IEEE Learning Object
+    Metadata (LOM) standard for P1484.12.</p>
+
+    <center>
+      <h4>Proposal 4(a): Endorsement of the lom:interactivitytype
+      Data Element:</h4>
+    </center>
+
+    <p><strong>Name:</strong> interactivitytype<br />
+     <strong>Label:</strong> InteractivityType<br />
+     <strong>Definition:</strong> The flow of interaction between
+    this resource and the intended user.<br />
+     <strong>See Also:</strong> IEEE LOM Data element discussion in
+    the <a
+    href="http://www.ischool.washington.edu/sasutton/dc-ed/Dc-ac/DC-Education_Report.html">
+    Report of Deliberations</a>.</p>
+
+    <center>
+      <h4>Proposed Encoding Schemes for lom:interactivitytype:</h4>
+    </center>
+
+    <p>IEEE restricted vocabulary.</p>
+
+    <center>
+      ==0==
+    </center>
+
+    <center>
+      <h4>Proposal 4(b): Endorsement of the lom:interactivitylevel
+      Data Element:</h4>
+    </center>
+
+    <p><strong>Name:</strong> interactivitylevel<br />
+     <strong>Label:</strong> InteractivityLevel<br />
+     <strong>Definition:</strong> The degree of interactivity
+    between the end user and this resource.<br />
+     <strong>See Also:</strong> IEEE LOM Data element discussion in
+    the <a
+    href="http://www.ischool.washington.edu/sasutton/dc-ed/Dc-ac/DC-Education_Report.html">
+    Report of Deliberations</a>.</p>
+
+    <center>
+      <h4>Proposed Encoding Schemes for interactivitylevel:</h4>
+    </center>
+
+    <p>IEEE restricted vocabulary.</p>
+
+    <center>
+      ==0==
+    </center>
+
+    <center>
+      <h4>Proposal 4(c): Endorsement of the lom:typicallearningtime
+      Data Element:</h4>
+    </center>
+
+    <p><strong>Name:</strong> TypicalLearningTime<br />
+     <strong>Label:</strong> TypicalLearningTime<br />
+     <strong>Definition:</strong> Approximate or typical time it
+    takes to work with this resource.<br />
+     <strong>See Also:</strong> IEEE LOM Data element discussion in
+    the <a
+    href="http://www.ischool.washington.edu/sasutton/dc-ed/Dc-ac/DC-Education_Report.html">
+    Report of Deliberations</a>.</p>
+
+    <center>
+      <h4>Proposed Encoding Schemes for
+      lom:typicallearningtime:</h4>
+    </center>
+
+    <p>IEEE restricted vocabulary.</p>
+
+    <center>
+      ==0==
+    </center>
+    <!--#include virtual="/ssi/footer.shtml"-->
+  </body>
+</html>
+

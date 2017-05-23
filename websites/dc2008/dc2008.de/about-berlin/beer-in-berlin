@@ -1,0 +1,511 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://dublincore.org/documents/dcq-html/">	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dc2008.de/xmlrpc.php?rsd" />
+ <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dc2008.de/wp-includes/wlwmanifest.xml" /> <script type='text/javascript' src='http://dc2008.de/wp-includes/js/prototype.js?ver=1.5.1.1'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-includes/js/scriptaculous/scriptaculous.js?ver=1.7.1-b3'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-includes/js/scriptaculous/effects.js?ver=1.7.1-b3'></script>
+<script type='text/javascript' src='http://dc2008.de/wp-content/plugins/lightbox-2/lightbox.js?ver=2.2'></script>
+<link rel="stylesheet" type="text/css" href="http://dc2008.de/wp-content/plugins/contactforms/styling/cforms.css" />
+<script type="text/javascript" src="http://dc2008.de/wp-content/plugins/contactforms/js/cforms.js"></script>
+		<meta name="DC.publisher" content="DC 2008" />
+		<meta name="DC.publisher.url" content="http://dc2008.de/" />
+		<meta name="DC.title" content="Beer in Berlin" />
+		<meta name="DC.identifier" content="http://dc2008.de/about-berlin/beer-in-berlin" />
+		<meta name="DC.date.created" scheme="WTN8601" content="2007-11-22T12:32:01" />
+		<meta name="DC.creator" content="DC 2008 Organisation" />
+		<meta name="DC.rights.rightsHolder" content="DC 2008 Organisation" />
+
+	<!-- begin lightbox scripts -->
+	<script type="text/javascript">
+    //<![CDATA[
+    document.write('<link rel="stylesheet" href="http://dc2008.de/wp-content/plugins/lightbox-2/Themes/Black/lightbox.css" type="text/css" media="screen" />');
+    //]]>
+    </script>
+	<!-- end lightbox scripts -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="icon" href="http://dc2008.de/wp-content/themes/dc-2008/pics/favicon.ico" type="image/ico" />
+<meta name="DC.format" scheme="DCTERMS.IMT" content="text/html" />
+<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+
+<title>DC 2008 -    Beer in Berlin</title>
+<link rel="stylesheet" href="http://dc2008.de/wp-content/themes/dc-2008/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://dc2008.de/wp-content/themes/dc-2008/print.css" type="text/css" media="print" />
+<link rel="alternate" type="application/rss+xml" href="http://dc2008.de/feed" title="News" />
+</head>
+
+ <body>
+  <div id="interface">
+
+   <div id="head">
+   </div>   <div id="container">
+    
+
+    <div id="content">
+     <div id="contentbox">
+      
+
+         <h1 id="post-33">Beer in Berlin</h1>
+<div id="print_icon">
+</div>
+
+<!-- <br clear="all" /> -->
+<hr class="h2" />
+          <div class="storycontent">
+            <p>List created and maintained by <a href="http://www.mpdl.mpg.de/staff/tkoch/">Traugott Koch</a>.</p>
+<p>Last updated: 2008-09-02</p>
+<h2><a title="toc" name="toc"></a>Microbreweries, brewpubs and pubs, by district</h2>
+<p><br clear="all" /></p>
+<ul style="margin-left: 20px">
+<li><a href="#mitte">District Mitte</a></li>
+<li><a href="#tiergarten">District Tiergarten</a></li>
+<li><a href="#charlottenburg">District Charlottenburg</a></li>
+<li><a href="#schoeneberg">District Schoeneberg</a></li>
+<li><a href="#prenzlauberg">District Prenzlauer Berg</a></li>
+<li><a href="#kreuzberg">District Kreuzberg</a></li>
+<li><a href="#friedrichshain">District Friedrichshain</a></li>
+<li><a href="#neukoelln">District Neukoelln</a></li>
+<li><a href="#spandau">District Spandau</a></li>
+<li><a href="#tegel">District Tegel</a></li>
+<li><a href="#wedding">District Wedding</a></li>
+<li><a href="#koepenick">District Koepenick</a></li>
+<li><a href="#treptow">District Treptow</a></li>
+<li><a href="#potsdam">Potsdam</a></li>
+</ul>
+<h2>Selection: Good food in addition to great beer</h2>
+<p><br clear="all" /></p>
+<ul>
+<li>Schwarzwaldstuben (Mitte)</li>
+<li>Sophieneck (Mitte)</li>
+<li>Brewbaker (Tiergarten)</li>
+<li>Alois S. (Prenzlauer Berg)</li>
+<li>Weltrestaurant Markthalle (Kreuzberg)</li>
+</ul>
+<h2>Selection: Beer gardens at lakes, suitable for nice weather excursions</h2>
+<p><br clear="all" /></p>
+<ul>
+<li>Cafe am Neuen See (Tiergarten)</li>
+<li>Prater (Prenzlauer Berg), no lake</li>
+<li>Braeustuebel (Koepenik)</li>
+<li>Zenner (Treptow)</li>
+<li>Meiereibrauhaus (Potsdam)</li>
+</ul>
+<h2>Larger local breweries</h2>
+<p><br clear="all" /></p>
+<ul>
+<li>Berliner Pilsner</li>
+<li>Kindl</li>
+<li>Schultheiss</li>
+<li>Buergerbraeu</li>
+</ul>
+<hr class="blue_line" />
+<p id="beerlist">&nbsp;</p>
+<h2>District Mitte</h2>
+<p>(<a href="#toc" title="mitte" name="mitte">top</a>)</p>
+<h3><a title="mittemicro" name="mittemicro"></a>Microbrews</h3>
+<h4>Lemke</h4>
+<ul>
+<li>Dircksenstr., S-Bahnbogen 143</li>
+<li><img src="../../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Hackescher Markt; <img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Alexanderplatz;</li>
+<li>Notes: <em>Lemke Original, Pils, Hefeweizen; seasonal. Food incl. sausages; </em></li>
+<li>Open: 12-</li>
+</ul>
+<h4>Marcus-Braeu</h4>
+<ul>
+<li>Muenzstr. 1-3</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Alexanderplatz</li>
+<li>Notes: <em>Tiny microbrew; Marcus-Braeu Pils, Preussen Dunkel; seasonal. Food</em></li>
+<li>Open: 11/16-03</li>
+</ul>
+<h4>Brauhaus Mitte</h4>
+<ul>
+<li>Karl-Liebknecht Str. 13, Berlin Carre</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Alexanderplatz</li>
+<li>Notes: <em>Brauhaus Pils, Dunkel, Hefeweizen Hell; seasonal; bavarian food. Owned by Lemke</em></li>
+<li>Open: 11-24</li>
+</ul>
+<h4>Georgbraeu</h4>
+<ul>
+<li>Spreeufer 4, Nicolaiviertel</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Alexanderplatz 0,7 km</li>
+<li>Notes: <em>Georg Pils Hell, Pils Dunkel; food</em></li>
+<li>Open: 12-</li>
+</ul>
+<h3><a title="beerother" name="beerother"></a>Other restaurants and bars with a decent beer offer</h3>
+<h4>Berliner Republik</h4>
+<ul>
+<li>Schiffbauerdamm 8</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Friedrichstr.</li>
+<li>Notes: <em>Bierboerse (Brokers Beer Exchange) from 6 p.m.; about 18 different German Pils. 29 beers in total. Food</em></li>
+<li>Open: 11-04</li>
+</ul>
+<h4>Staendige Vertretung</h4>
+<ul>
+<li>Schiffbauerdamm 8</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Friedrichstr.</li>
+<li>Notes: <em>Gaffel Koelsch, Weihenstephan, Koestritzer. Food: Rheinisch. Named after the steady representation of the Federal Republic in the GDR</em></li>
+<li>Open: 10-01</li>
+</ul>
+<h4>Aufsturz</h4>
+<ul>
+<li>Oranienburger Str. 67</li>
+<li><img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Oranienburger Str.; <img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Oranienburger Tor</li>
+<li>Notes: <em>100 beers, in bottles only, incl. belgian; 40 whiskys, food -24, live musik</em></li>
+<li>Open: 12-02</li>
+</ul>
+<h4>Schwarzwaldstuben</h4>
+<ul>
+<li>Tucholskystr. 48</li>
+<li><img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Oranienburger Str.</li>
+<li>Notes: <em>Rothaus Tannenzaepfle and Pils; food</em></li>
+<li>Open: 9-24</li>
+</ul>
+<h4>Tucholsky</h4>
+<ul>
+<li>Torstrasse 189</li>
+<li><img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Oranienburger Str.; <img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Oranienburger Tor</li>
+<li>Notes: <em>Beer garden; food</em></li>
+<li>Open: 12-</li>
+</ul>
+<h4>Sophieneck</h4>
+<ul>
+<li>Gr. Hamburgerstr. 37</li>
+<li><img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Hackescher Markt; <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" />  Oranienburger Str.</li>
+<li>Notes: <em>Murphys, Stoertebecker Schwarzbier, Sion Koelsch; food</em></li>
+<li>Open: 12-02</li>
+</ul>
+<h4>Weihenstephan (brewpub)</h4>
+<ul>
+<li>Am Hackeschen Markt</li>
+<li><img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Hackescher Markt</li>
+<li>Notes: <em>Food</em></li>
+</ul>
+<h4>Zum Nussbaum</h4>
+<ul>
+<li>Am Nussbaum 3/Propststrasse 2</li>
+<li>Nicolaiviertel</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Alexanderplatz; M4, 5, 6 Spandauer Str./Marienkirche</li>
+<li>Notes: <em>Maerkischer Landmann; reconstructed historic pub; Food -22.30</em></li>
+<li>Open: 12-02</li>
+</ul>
+<h4>Zur letzten Instanz</h4>
+<ul>
+<li>Waisenstr. 14-16</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Klosterstr.; <img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Alexanderplatz</li>
+<li>Notes: <em>Berlins oldest pub 1621. Maerkischer Landmann, Rotkehlchen, Schultheiss, Berlin food.</em></li>
+<li>Open: 12-01 Mon-Sat</li>
+</ul>
+<h4>Gaffel Haus (brewpub)</h4>
+<ul>
+<li>Taubenstrasse 26</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Hausvogteiplatz</li>
+<li>Notes: <em>Gaffel Koelsch</em></li>
+<li>Open:</li>
+</ul>
+<h4>Loewenbraeu (brewpub)</h4>
+<ul>
+<li>Leipziger Str. 65</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Hausvogteiplatz; <img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Stadtmitte</li>
+<li>Notes: <em>Food</em></li>
+<li>Open:</li>
+</ul>
+<h2>District Tiergarten</h2>
+<p>(<a href="#toc" title="tiergarten" name="tiergarten">top</a>)</p>
+<h4>Brewbaker (microbrew)</h4>
+<ul>
+<li>S-Bahn-Bogen 415, Flensburger Str.</li>
+<li><img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Bellevue</li>
+<li>Notes: <em>Brewbaker/Bellevue Pils, Weizen, two seasonal beers. Andechs Dunkel. Weihenstephan; gourmet  food</em></li>
+<li>Open: 14/16-23</li>
+</ul>
+<h4>Tiergartenquelle (microbrew)</h4>
+<ul>
+<li>S-Bahn-Bogen 482, Bachstr. 6</li>
+<li><img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Tiergarten</li>
+<li>Notes: <em>Lemke Original, Pils, Hefeweizen, seasonal; food</em></li>
+<li>Open: 17-/12-</li>
+</ul>
+<h4>Lindenbraeu im Sony-Center (microbrew)</h4>
+<ul>
+<li>Bellevuestr. 3-5</li>
+<li> <img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Potsdamer Platz</li>
+<li> Notes: <em>Naturtruebe Hofbraeu Weisse. Hofbraeuhaus Traunstein: Fuersten Pils, Altbairisch Dunkel. Food.</em></li>
+<li>Open: -01/02</li>
+</ul>
+<h4>Mommsen Eck, Haus der 100 Biere</h4>
+<ul>
+<li>Alte Potsdamer Str. 1</li>
+<li> <img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Potsdamer Platz</li>
+<li> Notes: <em>100 beers, 15 draft beers. Food. Related to Mommsen Eck, District Charlottenburg</em></li>
+<li>Open: -01, Fri/Sat -03</li>
+</ul>
+<h4>Hopfingerbraeu im Hauptbahnhof (microbrew)</h4>
+<ul>
+<li><img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Hauptbahnhof</li>
+<li> Notes: <em>Naturtruebe Hofbraeu Weisse. Hofbraeuhaus Traunstein: Fuersten Pils, Altbairisch Dunkel. Seasonal. Food. Same owner as Lindenbraeu</em></li>
+</ul>
+<h4>Cafe am Neuen See</h4>
+<ul>
+<li>Lichtensteinallee 2</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Zoologischer Garten</li>
+<li>Notes: <em>Weissbier; Paulaner Hefe; Hacker Pschorr Helles. Beer garden</em></li>
+<li>Open: 10-</li>
+</ul>
+<h4>Paulaner im Spreebogen (brewpub)</h4>
+<ul>
+<li>Alt Moabit 98, in der Alten Meierei</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Turmstr.; <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Bellevue</li>
+<li>Notes: <em>4 diff. Paulaner beers; Beer garden. food -23. Related to Brauhaus Rixdorf</em></li>
+<li>Open: 11-24</li>
+</ul>
+<h2>District Charlottenburg</h2>
+<p>(<a href="#toc" title="charlottenburg" name="charlottenburg">top</a>)</p>
+<h4>Brauhaus Lemke (microbrew)</h4>
+<ul>
+<li>Luisenplatz 1, close to the castle</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Richard Wagner Platz</li>
+<li>Notes: <em>Lemke Original, Pils, Hefeweizen, seasonal; food. Owned by Lemke, District Mitte</em></li>
+<li>Open: 11-</li>
+</ul>
+<h4>Kastanie</h4>
+<ul>
+<li>Schlosstr. 22</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Sophie-Charlotte Platz</li>
+<li>Notes: <em>Koenig Ludwig Dunkel, Frueh Koelsch, Schneider Weisse, Weihenstephan Weizen, Erdinger. Beer garden; food</em></li>
+<li>Open: -02</li>
+</ul>
+<h4>Schwarzer Abt (brewpub)</h4>
+<ul>
+<li>Seelingstr. 36</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Sophie-Charlotte Platz</li>
+<li>Notes: <em>Neuzeller Kloster-Braeu: many diff. beers;  food</em></li>
+<li>Open:</li>
+</ul>
+<h4>Mommsen Eck</h4>
+<ul>
+<li>Mommsenstr. 45, corner Wilmersdorfer Str.</li>
+<li><img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Charlottenburg</li>
+<li>Notes: <em>100 beers, 15 draft beers. Beer garden. Food</em></li>
+<li>Open: 8-24, Fri/Sat 8-01</li>
+</ul>
+<h4>Haus der 100 Biere, Mommsen Eck</h4>
+<ul>
+<li>Kurfuerstendamm 100</li>
+<li><img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Halensee</li>
+<li>Notes: <em>100 beers, 15 draft beers. Food</em></li>
+<li>Open: 8-24, Fri/Sat 8-01</li>
+</ul>
+<h2>District Schoeneberg</h2>
+<p>(<a href="#toc" title="schoeneberg" name="schoeneberg">top</a>)</p>
+<h4>Felsenkeller (Moeve)</h4>
+<ul>
+<li>Akazienstr. 2, near Hauptstr.</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Eisenacher Str.</li>
+<li>Notes: <em>Rothaus; Fuerstenberg; Jever; Budvar. 1920&#8217;s style room</em></li>
+<li>Open: 16/18-02</li>
+</ul>
+<h2>District Prenzlauer Berg</h2>
+<p>(<a href="#toc" title="prenzlauberg" name="prenzlauberg">top</a>)</p>
+<h4>Prater (microbrew)</h4>
+<ul>
+<li>Kastanienallee 7-9</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Eberswalder Str.</li>
+<li>Notes: <em>Praterbier: Pilz, Schwarz; Beer garden; food</em></li>
+<li>Open: 18-24, Sun 12-</li>
+</ul>
+<h4>Alois S.</h4>
+<ul>
+<li>Senefelder Str. 18</li>
+<li><img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Prenzlauer Allee; M2; M10</li>
+<li>Notes: <em>Rothaus Tannenzaepfle; Augustiner; Kuehlbauer Alte Liebe; ecological beer; beer of the week. Spanish food -24, Tapas, Sunday Brunch </em></li>
+<li>Open: Summer 18-02, Winter 15-02/10-02</li>
+</ul>
+<h2>District Kreuzberg</h2>
+<p>(<a href="#toc" title="kreuzberg" name="kreuzberg">top</a>)</p>
+<h4>Yorkschloesschen</h4>
+<ul>
+<li>Yorckstr. 15</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Mehringdamm</li>
+<li>Notes: <em>Hohenthanner Schlossbrauerei Pils, Dunkel, Hefeweisse; Neuzeller Klosterbraeu Dunkel; Meisel Kristall, Hefe Weizen; Veltins, Jever, Gaffel Koelsch. Beer garden; food; Jazz and Blues Wed, Fri, Sat 21-24, Su 14-18, booking necessary. 100 years old. Free WLAN</em></li>
+<li>Open: Summer 10-, Winter 17-03</li>
+</ul>
+<h4>Weltrestaurant Markthalle</h4>
+<ul>
+<li>Puecklerstr. 34</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Goerlitzer Bahnhof; M29</li>
+<li>Notes: <em>Berliner Eschenbraeu, Altberliner Dunkel. Food -24 incl. Wiener Schnitzel</em></li>
+</ul>
+<h4>Brauhaus Suedstern (microbrew)</h4>
+<ul>
+<li>Hasenheide 69</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Suedstern, Bus M 41</li>
+<li>Notes: <em>Suedstern Hell, Dunkel, Weizen, seasonal</em></li>
+<li>Open: -01</li>
+</ul>
+<h4>Max und Moritz</h4>
+<ul>
+<li>Oranienstrasse 162</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Kottbusser Tor; <img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Moritzplatz, Bus M29</li>
+<li>Notes: <em>Kulmbacher Pils, Moenchshof Schwarzbier, Barre Pils, Kapuziner helles Hefeweizen. Food</em></li>
+<li>Open: 18-/Sun 12-</li>
+</ul>
+<h4>Zur kleinen Markthalle</h4>
+<ul>
+<li>Legiendamm 32</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Kottbusser Tor; <img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Moritzplatz, Bus M29</li>
+<li>Notes: <em>Kulmbacher Klosterschwarzbier; Schneider Dunkle Hefe, Weisse; Krombacher; Schultheiss. Beer garden. Food. Building 1888</em></li>
+<li>Open: 18-</li>
+</ul>
+<h2>District Friedrichshain</h2>
+<p>(<a href="#toc" title="friedrichshain" name="friedrichshain">top</a>)</p>
+<h4>Gasthausbrauerei Hops&amp;Barley (microbrew)</h4>
+<ul>
+<li>Wuehlischstr. 22-23</li>
+<li> <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Warschauer Strasse; <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Ostkreuz</li>
+<li>Notes: <em>Friedrichshainer Pilsner, Dunkles.  Cider. </em></li>
+<li>Open: 17-02</li>
+</ul>
+<h2>District Neukoelln</h2>
+<p>(<a href="#toc" title="neukoelln" name="neukoelln">top</a>)</p>
+<h4>Brauhaus in Rixdorf (microbrew)</h4>
+<ul>
+<li>Glasower Str. 27</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Herrmannstrasse</li>
+<li>Notes: <em>Rixdorfer Hell, Dunkel; seasonal. Beer garden. Food: Bavarian/Austrian. Former iron foundry in art-nouveau owners house, 1885. Linked to Paulaner Tiergarten</em></li>
+<li>Open: 12-01; closed Mon</li>
+</ul>
+<h2>District Spandau</h2>
+<p>(<a href="#toc" title="spandau" name="spandau">top</a>)</p>
+<h4>Brauhaus Spandau (microbrew)</h4>
+<ul>
+<li>Neuendorfer Str. 1 An der Zitadelle</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Altstadt Spandau</li>
+<li>Notes: <em>Havelbraeu (Pils), seasonal. Food. </em></li>
+<li>Open: -24/-01</li>
+</ul>
+<h2>District Tegel</h2>
+<p>(<a href="#toc" title="tegel" name="tegel">top</a>)</p>
+<h4>Alter Fritz (microbrew)</h4>
+<ul>
+<li>Karolinenstr. 12</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Alt Tegel 1,1 km + bus 124, 133, 222 to Heiligenseestr./Ruppiner Chaussee</li>
+<li>Notes: <em>Alter Fritz Kupfer, Messing, seasonal</em></li>
+<li>Open: -01/-02</li>
+</ul>
+<h2>District Wedding</h2>
+<p>(<a href="#toc" title="wedding" name="wedding">top</a>)</p>
+<h4>Eschenbraeu Braukeller (microbrew)</h4>
+<ul>
+<li>Triftstr. 67</li>
+<li><img src="../dateien/U-Bahn-Logo.png" alt="Underground" height="10" width="10" /> Wedding; <img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Wedding</li>
+<li>Notes: <em>Eschenbraeu Pils, Altberliner Dunkel, Hefeweizen; monthly seasonal. Beer garden. Local apple juice. No food</em></li>
+<li>Open: from 17-</li>
+</ul>
+<h2>District Koepenick</h2>
+<p>(<a href="#toc" title="koepenick" name="koepenick">top</a>)</p>
+<h4>Schlossplatzbrauerei Koepenick (microbrew)</h4>
+<ul>
+<li>Schlossplatz</li>
+<li><img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Koepenick 1,5 km + tram</li>
+<li>Notes: <em>Smallest microbrewery; Hell, Kupfer; seasonal</em></li>
+<li>Open: -23</li>
+</ul>
+<h4>Braeustuebel (brewpub)</h4>
+<ul>
+<li>Mueggelseedamm 164</li>
+<li><img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Friedrichshagen 1,2 km + trams</li>
+<li>Notes: <em>Berliner Buergerbraeu Premium Pils, Bernauer Schwarzbier, Rotkehlchen, seasonal. Sun brunch 11-15</em></li>
+<li>Open: 12-24; closed Mon</li>
+</ul>
+<h2>District Treptow</h2>
+<p>(<a href="#toc" title="treptow" name="treptow">top</a>)</p>
+<h4>Zenner</h4>
+<ul>
+<li>Alt Treptow 14-17</li>
+<li><img src="../../dateien/S-Bahn-Logo.png" alt="suburban train" height="10" width="10" /> Treptower Park</li>
+<li>Notes: <em>Kindl Pils, Schoefferhofer, Maerkischer Landmann. Old beer garden 1903, views; interesting building. Live jazz and brunch Sun 10-14</em></li>
+<li>Open: -02, Fri/Sat -04</li>
+</ul>
+<h2>Potsdam</h2>
+<p>(<a href="#toc" title="potsdam" name="potsdam">top</a>)</p>
+<h4>Meiereibrauhaus (microbrew)</h4>
+<ul>
+<li>Im Neuen Garten 10. Jungfernsee. North of Cecilienhof, Bus 692</li>
+<li>Notes: <em>Meierei Hell, Meierei Spezial=Potsdamer Schwarze, seasonals. Food. Beer garden with great views Am Jungfernsee</em></li>
+<li>Open: 10-23</li>
+</ul>
+          </div>
+                  </div>
+     </div>
+     <div id="navi">
+     <div id="navibox">
+      <ul>
+
+<li class="page_item"><a href="http://dc2008.de" title="Home">Home</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/papers" title="Call for Papers">Call for Papers</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/news" title="News">News Archive</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/organisation" title="Organisation">Organisation</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/call-for-sponsors" title="Call for Sponsors">Call for Sponsors</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/programme" title="Programme">Programme</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/information-for-authors" title="Information for Authors">Author Info</a></li>
+ 
+<li class="page_item"><a href="http://dc2008.de/registration" title="Registration">Registration</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/accommodation" title="Accommodation">Accommodation</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/conference-venue" title="Conference Venue">Conference Venue</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/about-berlin" title="About Berlin">About Berlin</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/links" title="Links">Links</a></li>
+
+<li class="page_item"><a href="http://dc2008.de/contact" title="Contact">Contact</a></li>
+</ul> 
+
+<br /><br />
+organised by:
+
+<div align="center">
+<a href="http://www.kim-forum.org/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/kim_logo_skal.png" alt="KIM - Kompetenzzentrum Interoperable Metadaten" /></a>
+
+<a href="http://www.sub.uni-goettingen.de/index-e.html"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/sub_logo_klein.jpg" alt="Niedersächsische Staats- und Universitätsbibliothek Göttingen"/></a>
+
+<a href="http://www.mpdl.mpg.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/mpdl.png"  alt="Max Planck digital library" /></a>
+
+<a href="http://www.d-nb.de/eng/index.htm"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/DNB_neu_skal1.png" alt="Deutsche Nationalbibliothek" /></a>
+
+<a href="http://www.hu-berlin.de/index_html-en?set_language=en&amp;cl=en"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/husiegel.png" alt="Humboldt-Universität zu Berlin" /></a>
+</div>
+
+<a href="http://www.dublincore.org/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/DC_Logo_skla.png" alt="Dublin Core Metadata Initiative"/></a>
+</div>
+
+<br /><br />
+supported by:
+<br /><br />
+<div align="center"><a href="http://www.wikimedia.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/wikimedia.png" alt="Wikimedia Deutschland - Gesellschaft zur Förderung Freien Wissens e.V."/></a><br />
+</div>
+
+<br /><br />
+funded by:
+<br /><br />
+<div align="center"><a href="http://www.dfg.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/dfg_sw.gif" alt="Deutsche Forschungsgemeinschaft" /></a></div>
+<div align="center"><a href="http://www.bmbf.de/"><img src="http://dc2008.de/wp-content/themes/dc-2008/pics/bmbf_skal.gif" alt="Bundesministerium für Bildung und Forschung" /></a></div>
+<br /> 
+     </div>
+    </div>
+       <div id="footer" align="center">
+Copyright © 1995-2008 DCMI All Rights Reserved. &mdash; © Pictures:  <a href="http://www.visitberlin.de" target="_blank" class="footerlink">www.visitberlin.de</a> &mdash; <a class="footerlink_impressum" href="http://dc2008.de/impressum">Impressum</a>
+
+   </div>
+  </div>
+ </body>
+</html>

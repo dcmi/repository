@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"
+xml:lang="en-US">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Update - June 2000</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+    <link rel="meta" href="nl2000-06.shtml.rdf" />
+  </head>
+
+  
+<body>
+    
+<div class="head">
+      <!--#include virtual="/ssi/header.shtml"-->
+<table summary="Layout table: The first cell contains a navigation bar of links relavant to this page. The second cell contains the content." border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr valign="top">
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td bgcolor="#EEEEEE" width="150">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" summary="Layout table: Contains graphical text.">
+<tbody>
+<tr bgcolor="#99A59F" align="center">
+<td><img src="/images/navlist/toc.gif" width="150" height="25" alt="Table of Contents" border="0" /></td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellspacing="0" cellpadding="10" border="0" summary="Layout table: Contains navigation.">
+<tbody>
+<tr>
+<td class="smallsans">
+<dl>
+<dt class="navlist"><a href="#action">Action!</a></dt>
+<dt class="navlist"><a href="#newsbriefs">News Briefs</a></dt>
+<dt class="navlist">Submit a news item</dt>
+</dl>
+</td>
+</tr>
+<tr>
+<td class="note">
+<p>This Newsletter is published monthly by the <a href="file:///D%7C/Data/Projects/dcmi/admin/www">Dublin Core Metadata Initiative</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td background="/images/vrule.gif" width="1"><img src="/images/vrule.gif" width="1" height="500" alt="vertical rule" /></td>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="10" summary="Content table">
+<tbody>
+<tr>
+<td><h1 align="center">DCMI Update</h1>
+
+              <h3 align="center">Volume 1, Number 6 - June
+              2000</h3>
+
+              <div align="center">
+                <p>(A Summary of activities from May 2000)</p>
+                
+<hr size="1" noshade />
+
+                <h3 align="left"><a id="action"
+                name="action"></a>Action!</h3>
+              </div>
+
+              <ul>
+                
+<li>
+                  <strong>2000-06-01:</strong> <strong><a href="http://www.ifla.org/udt/dc8/call.htm">The 8th
+                  International Dublin Core Metadata Initiative
+                  Workshop (DC8): Call for Participation</a></strong> 
+
+                  <p>The Dublin Core Metadata Initiative, in
+                  conjunction with the National Library of Canada,
+                  the IFLA UDT program, and OCLC, is pleased to
+                  announce the 8th International Dublin Core
+                  Metadata Workshop, to be held October 4-6, 2000
+                  at the National Library of Canada in Ottawa,
+                  Canada.</p>
+
+                  
+<p>Previous workshops have attracted librarians,
+                  museum informatics specialists, archivists,
+                  digital library researchers, government
+                  information providers, publishers, and content
+                  specialists from a broad cross-section of sectors
+                  and disciplines. Participants are expected to be
+                  <strong>familiar with Dublin Core basics</strong>
+                  and should have <strong>expertise and interest in
+                  advancing the state of Dublin Core standards or
+                  deployment</strong>. Representatives of other
+                  metadata initiatives or standards interested in
+                  liaison with DCMI are also encouraged to
+                  participate.</p>
+                </li>
+              </ul>
+
+              <h3><a id="newsbriefs" name="newsbriefs"></a>News
+              Briefs</h3>
+
+              <ul>
+                <li>
+                  <p><strong>2000-06-02: Dublin Core Element Set,
+                  v. 1.1 now available in Italian</strong></p>
+
+                  
+<p>The Dublin Core Element Set has now been
+                  translated into more than 20 languages. A list of
+                  the translations can be found on the <a
+                  href="../groups/languages.htm">Multiple Languages
+                  Interest Group</a> page. The Italian translation
+                  was done by <a href="http://www.iccu.sbn.it/dublinco.html">ICCU</a> (the Central Institute for the
+                  Union Catalogue of Italian Libraries and for
+                  Bibliographic Information).</p>
+                  ICCU is responsible for setting guidelines and
+                  for producing and disseminating standard National
+                  and International cataloguing rules covering all
+                  types of materials ranging from manuscripts to
+                  multimedia documents.
+                </li>
+              </ul>
+
+              
+<ul>
+                
+<li>
+                  <strong>2000-05-06: French translation of the
+                  Dublin Core Element Set, v. 1.1 is now
+                  available</strong> 
+
+                  
+<p>The <a
+                  href="http://www-rocq.inria.fr/%7Evercoust/METADATA/DC-fr.1.1.html">
+                  French translation</a> of the Dublin Core Element
+                  Set, v. 1.1 is now available. Translated by
+                  Anne-Marie Vercoustre, an RDF definition of DCES
+                  1.1 in French is also included.</p>
+</li>
+<li>
+                  <strong>2000-05-04: New Project: Francois
+                  Rabelais University is indexed with Dublin
+                  Core</strong> 
+
+                  
+<p>The website for the <a
+                  href="http://www.scd.univ-tours.fr/">Francois
+                  Rabelais University</a> allows users to access
+                  several parts of the University library and five
+                  different departmental library sites. The web
+                  site also gives access to the OPAC of the
+                  University Library and the CESR (Center for
+                  Higher Renaissance Studies).</p>
+</li>
+</ul>
+
+              <p>Suggestions, article or item submissions and any
+              comments may be sent to <a
+              href="mailto:dc@oclc.org">dc@oclc.org</a>. Deadline
+              for submissions is the 20th of each month.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+      
+</div>
+    <!--#include virtual="/ssi/footer.txt"-->
+  </body>
+</html>
+

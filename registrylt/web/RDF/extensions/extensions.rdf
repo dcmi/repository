@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dctypes="http://purl.org/dc/dcmitype/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dcreg="http://dublincore.org/dcregistrylt/">	
+	
+	<rdf:Description rdf:about="http://dublincore.org/dcregistrylt/2005513152430011">
+		<rdfs:label>elements</rdfs:label>
+		<dcreg:prop rdf:resource="http://purl.org/dc/elements/1.1/type"/>
+		<dcreg:prop_value rdf:resource="http://dublincore.org/usage/documents/principles/#element" />
+		<dcreg:class>elementsServlet</dcreg:class>
+		<dcreg:stylesheet>elements-4col.xsl</dcreg:stylesheet>
+		<dcreg:seq_number>001</dcreg:seq_number>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://dublincore.org/dcregistrylt/2005513152430214">
+		<rdfs:label>refinements</rdfs:label>
+		<dcreg:prop rdf:resource="http://purl.org/dc/elements/1.1/type"/>
+		<dcreg:prop_value rdf:resource="http://dublincore.org/usage/documents/principles/#element-refinement" />
+		<dcreg:class>refinementsServlet</dcreg:class>
+		<dcreg:stylesheet>refinements-4col.xsl</dcreg:stylesheet>
+		<dcreg:seq_number>002</dcreg:seq_number>
+	</rdf:Description>	
+	
+	<rdf:Description rdf:about="http://dublincore.org/dcregistrylt/2005513152430998">
+		<rdfs:label>controlledTerms</rdfs:label>
+		<dcreg:prop rdf:resource="http://purl.org/dc/elements/1.1/type"/>
+		<dcreg:prop_value rdf:resource="http://dublincore.org/usage/documents/principles/#vocabulary-term" />
+		<dcreg:class>controlledTermsServlet</dcreg:class>
+		<dcreg:stylesheet>controlledTerms-4col.xsl</dcreg:stylesheet>
+		<dcreg:seq_number>003</dcreg:seq_number>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://dublincore.org/dcregistrylt/2005513152430432">
+		<rdfs:label>encodingSchemes</rdfs:label>
+		<dcreg:prop rdf:resource="http://purl.org/dc/elements/1.1/type"/>
+		<dcreg:prop_value rdf:resource="http://dublincore.org/usage/documents/principles/#encoding-scheme" />
+		<dcreg:class>encodingSchemesServlet</dcreg:class>
+		<dcreg:stylesheet>encodingSchemes-4col.xsl</dcreg:stylesheet>
+		<dcreg:seq_number>004</dcreg:seq_number>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://dublincore.org/dcregistrylt/2005513152430105">
+		<rdfs:label>summary</rdfs:label>
+		<dcreg:class>summaryServlet</dcreg:class>
+		<dcreg:stylesheet>summary-4col-itemized.xsl</dcreg:stylesheet>
+		<dcreg:seq_number>005</dcreg:seq_number>
+	</rdf:Description>	
+  
+</rdf:RDF>
