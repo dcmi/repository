@@ -1,0 +1,378 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html title="An advisory description of the element." lang="en"
+xmlns="http://www.w3.org/1999/xhtml">
+  <head title="An advisory description of the element.">
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+    <title>DCMI Workshops - DC5: Schedule and Agenda</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="meta" href="schedule.shtml" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body bgcolor="#FFFFFF" text="#000000">
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <h1 align="center"><font color="#cc0033"><em>DC-5 Final
+    Agenda</em></font></h1>
+    <br />
+    5 October 1997 <em>Stuart Weibel, Juha Hakala</em> 
+
+    <p></p>
+    <hr />
+
+    <p></p>
+
+    <h2 align="center"><font color="#cc0033">Monday</font></h2>
+
+    <table border="0"
+    summary="A layout table with the daily events and time listed.">
+      <tbody>
+        <tr>
+          <td>08:00</td>
+
+          <td><strong>Bus leaves from the Conference hotel</strong>
+          (30-40 minutes drive)</td>
+        </tr>
+
+        <tr>
+          <td>08:45 - 09:00</td>
+
+          <td><strong>Registration</strong></td>
+        </tr>
+
+        <tr>
+          <td>09:00 - 09:10</td>
+
+          <td><strong>Greeting from the National Library</strong>
+          <em>(Director Esko H&auml;kli)</em></td>
+        </tr>
+
+        <tr>
+          <td>09:10 - 09:50</td>
+
+          <td><strong>Introductory Plenary</strong> <em>(Juha
+          Hakala and Stuart Weibel)</em> </td>
+        </tr>
+
+        <tr>
+          <td>09:50 - 12:00</td>
+
+          <td><strong>Plenary 1: Interoperability</strong></td>
+        </tr>
+
+        <tr>
+          <td>09:50 - 10:30</td>
+
+          <td><strong>P1.1 Z39.50 Profiles and the Dublin
+          Core</strong> <em>(Cliff Lynch)</em></td>
+        </tr>
+
+        <tr>
+          <td>10:30 - 11:00</td>
+
+          <td><strong>Coffee Break</strong> </td>
+        </tr>
+
+        <tr>
+          <td>11:00 - 11:20</td>
+
+          <td><strong>P1.2 RDF: The Resource Description Framework
+          for the Web</strong> (<em>Eric Miller)</em></td>
+        </tr>
+
+        <tr>
+          <td>11:20 - 11:40</td>
+
+          <td><strong>P1.3 Overview of Syntactic Options for DC
+          Metadata</strong> <em>(Renato Iannella)</em> </td>
+        </tr>
+
+        <tr>
+          <td>11:40 - 12:00</td>
+
+          <td><strong>P1.4 The STARTS Initiative and the Dublin
+          Core</strong> <em>(Carl Lagoze)</em></td>
+        </tr>
+
+        <tr>
+          <td>12:00 - 13:00</td>
+
+          <td><strong>Buffet Lunch</strong> </td>
+        </tr>
+
+        <tr>
+          <td>13:00 - 14:30</td>
+
+          <td><strong>Plenary 2: Open discussion of major
+          deployment impediments, prominent unresolved issues and
+          refinement priorities</strong> </td>
+        </tr>
+
+        <tr>
+          <td>14:30 - 15:00</td>
+
+          <td><strong>Afternoon Coffee</strong></td>
+        </tr>
+
+        <tr>
+          <td>15:00 - 16:00</td>
+
+          <td><strong>Breakout group discussions</strong> </td>
+        </tr>
+
+        <tr>
+          <td>
+          </td>
+
+          <td>Discuss refinement priorities and propose solutions
+          and plans</td>
+        </tr>
+
+        <tr>
+          <td>16:00 - 17:30</td>
+
+          <td><strong>Plenary 3:</strong> Breakout group reports
+          and open discussion</td>
+        </tr>
+
+        <tr>
+          <td>17:45</td>
+
+          <td><strong>Bus leaves from the Conference
+          center</strong></td>
+        </tr>
+
+        <tr>
+          <td>19:00 - 22:00</td>
+
+          <td><strong>Conference Dinner</strong> <em>(Restaurant
+          Kanavaranta)</em></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p></p>
+    <hr />
+
+    <p></p>
+
+    <h2 align="center"><font color="#cc0033">Tuesday</font></h2>
+
+    <table
+    summary="A layout table with the daily events and time listed.">
+      <tbody>
+        <tr>
+          <td>08:15</td>
+
+          <td><strong>Bus leaves from the conference
+          hotel</strong></td>
+        </tr>
+
+        <tr>
+          <td>09:00 - 10:30</td>
+
+          <td><strong>Implementation Reports</strong> </td>
+        </tr>
+
+        <tr>
+          <td>
+          </td>
+
+          <td>The Nordic Metadata Project</td>
+        </tr>
+
+        <tr>
+          <td>
+          </td>
+
+          <td>Denmark: Overview, Netpublikationer and INDOREG</td>
+        </tr>
+
+        <tr>
+          <td>
+          </td>
+
+          <td>The National Library of the Netherlands</td>
+        </tr>
+
+        <tr>
+          <td>10:30 - 11:00</td>
+
+          <td><strong>Coffee Break</strong></td>
+        </tr>
+
+        <tr>
+          <td>11:00 - 12:00</td>
+
+          <td><strong>DC user studies</strong> </td>
+        </tr>
+
+        <tr>
+          <td>12:00 - 13:00</td>
+
+          <td><strong>Buffet Lunch</strong> </td>
+        </tr>
+
+        <tr>
+          <td>13:00 - 14:30</td>
+
+          <td><strong>Working Group Discussions</strong>
+          (self-selected groups)</td>
+        </tr>
+
+        <tr>
+          <td>14:30 - 15:00</td>
+
+          <td><strong>Afternoon Coffee</strong></td>
+        </tr>
+
+        <tr>
+          <td>15:00 - 16:00</td>
+
+          <td><strong>Working Group Reports</strong></td>
+        </tr>
+
+        <tr>
+          <td>16:00 - 17:00</td>
+
+          <td><strong>Implementation Reports</strong> </td>
+        </tr>
+
+        <tr>
+          <td>
+          </td>
+
+          <td>AGCRC</td>
+        </tr>
+
+        <tr>
+          <td>
+          </td>
+
+          <td>University of Washington Digital Library Project</td>
+        </tr>
+
+        <tr>
+          <td>
+          </td>
+
+          <td>Florida International University Digital Library
+          Project</td>
+        </tr>
+
+        <tr>
+          <td>
+          </td>
+
+          <td>Interconnect Technologies Corp. Project</td>
+        </tr>
+
+        <tr>
+          <td>17:15</td>
+
+          <td><strong>Bus leaves from the Conference
+          center</strong> </td>
+        </tr>
+
+        <tr>
+          <td>
+          </td>
+
+          <td>Please note that the National Supercomputer Center is
+          located half a mile from the Conference Center, so those
+          preferring computers to libraries will walk.</td>
+        </tr>
+
+        <tr>
+          <td>17.45-19:00</td>
+
+          <td><strong>Visit to the <a
+          href="http://www.lib.helsinki.fi/hyk/hul/">National
+          library</a> or <a
+          href="http://www.csc.fi/english/index.html">National
+          supercomputer center, CSC</a></strong></td>
+        </tr>
+
+        <tr>
+          <td>20:00 - 22:00</td>
+
+          <td><strong>Dinner</strong></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p></p>
+    <hr />
+
+    <p></p>
+
+    <h2 align="center"><font color="#cc0033">Wednesday</font></h2>
+
+    <table
+    summary="A layout table with the daily events and time listed.">
+      <tbody>
+        <tr>
+          <td>08:15</td>
+
+          <td><strong>Bus from the conference hotel</strong></td>
+        </tr>
+
+        <tr>
+          <td>09:00 - 10:30</td>
+
+          <td><strong>Working Group Reports and Discussion</strong>
+          </td>
+        </tr>
+
+        <tr>
+          <td>10:00 - 12.30</td>
+
+          <td><strong>Closing Plenary:</strong> Discussion of
+          standing working groups and goals</td>
+        </tr>
+
+        <tr>
+          <td>12:30 - 13:30</td>
+
+          <td><strong>Buffet Lunch</strong> </td>
+        </tr>
+
+        <tr>
+          <td>13:30 - ??:??</td>
+
+          <td><strong>Working Group Meetings</strong> (Chairs and
+          Diehards)</td>
+        </tr>
+
+        <tr>
+          <td>
+          </td>
+
+          <td>Drafting Committee Meeting</td>
+        </tr>
+
+        <tr>
+          <td>13:30</td>
+
+          <td><strong>Bus leaves from the conference center to the
+          <a href="http://www.finnair.fi/hgateway.htm">Helsinki
+          airport</a></strong> (approximately 45 minutes
+          drive)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p></p>
+    <hr />
+
+    <h1 align="left">
+    <!--#include virtual="/ssi/footer.txt" --></h1>
+  </body>
+</html>
+

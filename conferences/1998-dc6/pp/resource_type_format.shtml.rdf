@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://dublincore.org/workshops/dc6/pp/resource_type_format.shtml">
+   <dc:title>DCMI Workshops - DC6: Report on the Resource Type and Format breakout group meeting</dc:title>
+   <dc:description>Meeting report presented at DC6</dc:description>
+   <dc:date>1998-11-02</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Simon Cox</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

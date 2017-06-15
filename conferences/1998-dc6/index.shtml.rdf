@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://dublincore.org/workshops/dc6/">
+   <dc:title>DCMI Workshops - dc:DC The Sixth Dublin Core Metadata Workshop</dc:title>
+   <dc:description>Home page for the Sixth Dublin Core Metadata Workshop.</dc:description>
+   <dc:date>1998-05-01</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Dublin Core Metadata Initiative</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

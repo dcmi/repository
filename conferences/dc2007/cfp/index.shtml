@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>DC-2007 Call for Papers</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+
+<h2 align="center">CALL FOR PAPERS</h2>
+
+<p align="center">DC-2007 INTERNATIONAL CONFERENCE ON<br />DUBLIN CORE AND METADATA APPLICATIONS:</p> 
+
+<p align="center"><strong>"Application Profiles: Theory and Practice"</strong></p>
+
+<p align="center">27-31 August 2007, Singapore<br /><a href="http://conferences.nlb.gov.sg/dc2007/">http://conferences.nlb.gov.sg/dc2007/</a></p>
+
+<p>The annual Dublin Core conferences bring together leading metadata researchers and professionals from around the world.
+The 2006 conference in Manzanillo, Mexico attracted 234 participants from 25 countries. DC-2007 in Singapore will be
+the seventh in a series of conferences previously held in Tokyo (2001), Florence (2002), Seattle (2003), Shanghai (2004),
+Madrid (2005), and Manzanillo, Mexico (2006).</p>
+
+<hr width="50%">
+
+<h3 align="center"><strong>Conference Theme:</strong></h3>  
+
+<p>The DC-2007 theme focuses on the theory and practice of developing application profiles. Application profiles provide the means
+to document the use of metadata terms within specific contexts and to combine terms from disparate namespaces. Application profiles
+may apply to communities of practice (e.g. cooperation projects) as well as to organizations in the public and private sectors.
+Emerging experience in the creation of application profiles reveals layers of complexity involved in combining terms from mixed
+abstract models.  DC-2007 seeks to explore the conceptual and practical issues in the development and deployment of application
+profiles to meet the needs of specific communities of practice.</p>
+
+<p>In addition to contributions focusing on the DC-2007 conference theme, papers and workshop proposals are welcome on a wide range
+of metadata topics, such as:</p>
+<ul>
+<li>Accessibility</li>
+<li>Business Models for Metadata</li>
+<li>Conceptual Models</li>
+<li>Cross-domain Processes (e.g., Recordkeeping, Preservation, Institutional Repositories)</li>
+<li>Domain Metadata (e.g., Commerce, Corporate/Enterprise, Cultural Heritage Institutions (Museums, Libaries, and Archives), Education,
+Geo-Spatial, Government, Social Spaces)</li>
+<li>Metadata Generation Processes (e.g., Human, Automatic, and Hybrid)</li>
+<li>Metadata Harvesting</li>
+<li>Multilingual Issues</li>
+<li>Interoperability</li>
+<li>Knowledge Organization Systems (e.g., Ontologies, Taxonomies, and Thesauri)</li>
+<li>Localization and Internationalization</li>
+<li>Normalization and Crosswalks</li>
+<li>Quality and Evaluation</li>
+<li>Registries and Registry Services</li>
+<li>Search Engines and Metadata</li>
+<li>Social Tagging</li>
+</ul>
+
+<hr width="50%">
+
+<h3 align="center"><strong>Paper Categories:</strong></h3> 
+
+<p>All paper submissions to the Conference Proceedings are peer reviewed by the International Program Committee. The Committee is soliciting
+paper contributions of the following two types:</p>
+<ol>
+<li><strong>Full Papers (8 to 10 pages).</strong> Full papers either describe innovative original work in detail or provide critical,
+well-referenced overviews of key developments or good practice in the areas outlined above.  Full papers will be assessed
+using the following criteria:
+<ul>
+     <li>Originality of the approach to implementation</li>
+     <li>Generalizability of the methods and results described</li>
+     <li>Quality of the contribution to the implementation community</li>
+     <li>Significance of the results presented</li>
+     <li>Clarity of presentation</li>
+</ul>
+</li>
+
+<li><strong>Project Reports (3 to 5 pages).</strong>  Project reports describe a specific model, application, or activity in a concise,
+prescribed format.  Project reports will be assessed using the following criteria:
+<ul>
+     <li>Conciseness and completeness of technical description</li>
+     <li>Usability of the technical description by other potential implementers</li>
+     <li>Clarity of presentation</li>
+</ul>
+</ol>
+
+<p>Paper submissions in both categories must be in English and will be published in both the print and the official electronic versions
+of the conference proceedings. Accepted papers must be presented in Singapore by at least one of their authors.</p>
+
+<hr width="50%">
+
+<h3 align="center"><strong>Workshop Proposals:</strong></h3> 
+
+<p><strong>Workshop Proposals (1 page).</strong>  Workshop proposals define the topic of a workshop session at the conference, identify
+session organizers, and describe a process for inviting and reviewing contributions.</p>
+
+<hr width="50%">
+
+<h3 align="center"><strong>Online Submission:</strong></h3>
+
+Authors wishing to submit papers or workshop proposals may do so through the <a href="http://www.dcmipubs.org/ojs/index.php/pubs/">DCMI Peer
+Review System</a>. Author registration and links to the submission process appear under the "Information for Authors" link.
+
+<hr>
+
+<h2 align="center">DEADLINES AND IMPORTANT DATES:</h2>
+
+<p align="center">Submission of papers: <b>16 April 2007</b> <font color="#FF0000">&lt;== EXTENDED</font></p>
+<p align="center">Acceptance notification: 1 June 2007</p>
+<p align="center">Camera-ready copy due: 2 July 2007</p>
+
+<hr>
+
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

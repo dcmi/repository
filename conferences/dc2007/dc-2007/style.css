@@ -1,0 +1,252 @@
+BODY {
+
+} 
+
+.englishRegistration{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 9pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	text-align:justify;	    
+}
+
+.englishContent{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 9pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+}
+
+.englishContentRegistration{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 8pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	text-align:justify;	 
+}
+
+.englishContentRegistrationItalic{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 8pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION:none;
+	font-style:italic;
+	color:#0000CC;	
+	text-align:justify;	 
+}
+
+.englishRegistrationFont{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 8pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	font-weight:bold;
+}
+
+.englishRegistrationHeaderFont{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 9pt;
+	letter-spacing: 1px;
+    TEXT-DECORATION: none;
+	font-weight:bold;
+}
+
+.englishHotelHeader{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 9pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+}
+
+.englishContentBold{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 9pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	font-weight:bold;
+}
+
+.englishRegistrationMandatoryField{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 9pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	text-align:right;
+	vertical-align:middle;    
+	color:#FF0000;
+}
+
+.footer{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 8pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	text-align:justify;
+	text-align:center;	    
+	
+}
+
+.englishItalic{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 9pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	text-align:justify;
+	font-style:italic;	 	   
+}
+
+.englishItalicRegistration{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 8pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	text-align:justify;
+	font-style:italic;	 	   
+}
+
+.englishBold{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 9pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	text-align:justify;
+    font-weight:bold; 
+	   
+}
+
+.englishHeader{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 9pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	text-align:justify;
+	font-weight:bold;
+	color:#FF0000;
+		    
+}
+
+.englishSessionHeader{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 9pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	text-align:justify;
+	font-weight:bold;
+	color:#990000;
+		    
+}
+
+.headerRegistrationTreeRed{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 8pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	text-align:justify;
+	font-weight:bold;
+	color:#FF0000;
+		    
+}
+
+.headerRegistrationTreePink{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 8pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	text-align:justify;
+	font-weight:bold;
+	color:#FFCCCC;
+		    
+}
+
+.headerRegistrationTreeWhite{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 8pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	text-align:justify;
+	font-weight:bold;
+	color:#FFFFFF;
+		    
+}
+
+.englishHeaderRegistration{
+    FONT-FAMILY: verdana ;
+    FONT-SIZE: 8pt;
+	letter-spacing: 0px;
+    TEXT-DECORATION: none;
+	text-align:justify;
+	font-weight:bold;
+	color:#FF0000;
+		    
+}
+
+hr {
+   border: 0;   
+   background-color:#CCCCCC;
+}
+
+.cp_header{
+   background-color:#FFF2DF;    
+}
+
+.cp_header2{
+   background-color:#FFFDDF;
+}
+
+.cp_content{
+   background-color:#FFDFDF;     
+}
+
+.cp_choco{
+   background-color:#FFE271;
+}
+
+.cp_purple{
+   background-color:#FCE4F9;
+}
+
+.cp_blue{
+   background-color:#C8E6FB;
+}
+
+.cp_green{
+   background-color:#D3FEDA;
+}
+
+
+
+table.OnceBackground{
+   background-repeat:no-repeat;
+}
+
+td.OnceBack{
+   background-repeat:no-repeat;
+}
+
+div.scroll{
+
+  text-align:justify;
+  padding : 0px;
+  width : 100%;
+  height : 100%;
+  overflow: auto;
+
+}
+
+div.registrationBackground{
+   background-color:#FFFFCC;
+}
+
+A.anchorClass:link{
+   color:#333399;
+   text-decoration: none;
+}
+
+A.anchorClass:visited{
+   color:#333399;
+   text-decoration: none;
+}
+
+A.anchorClass:hover{
+   color:#FF6600;
+}

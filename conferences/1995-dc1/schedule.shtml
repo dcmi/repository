@@ -1,0 +1,476 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Workshops - DC1: Schedule</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="schedule.shtml.rdf" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body>
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <h3><strong>OCLC/NCSA Metadata Workshop: The Essential Elements
+    of Network Object Description</strong></h3>
+
+    <h3><strong>Schedule and Agenda</strong></h3>
+    <hr />
+
+    <table border="0" width="100%" cellspacing="0" cellpadding="2"
+    summary="A layout table with the schedule for each day listed. The first column has the time of day; the second column is the name of the session and the third column lists the speaker's name.">
+      <tr>
+        <td colspan="3" width="10%" valign="top">
+          <p><strong>Action Items</strong></p>
+
+          <p>Sign up for Stake-holders Forum and/or Implementors
+          Open Mike.<br />
+           View the current agenda for Stake-holders Forum and/or
+          Implementors Open Mike.</p>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="3" width="10%" valign="top"><strong>All
+        Plenary Sessions will be held in the OCLC
+        Auditorium</strong></td>
+      </tr>
+
+      <tr>
+        <td colspan="3" width="10%" valign="top"><strong>Wednesday,
+        March 1</strong></td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">08:15</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Registration and Continental
+          Breakfast</strong><br />
+           (The Atrium)</p>
+
+          <p>A shuttle bus will transport conferees from the hotel
+          to OCLC between 8:00 and 8:15. It is a very short walk in
+          good weather.</p>
+        </td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">09:00</td>
+
+        <td width="50%" valign="top"><strong>Welcome and
+        Introduction</strong></td>
+
+        <td width="30%" valign="top">Stuart Weibel</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">09:30</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Metadata in Document Management, Digital
+          Libraries and the Web</strong></p>
+        </td>
+
+        <td width="30%" valign="top">Larry Masinter</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">10:00</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Library Legacies: The Lessons of 30 Years of
+          MARC</strong></p>
+        </td>
+
+        <td width="30%" valign="top">Priscilla Caplan</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">10:30</td>
+
+        <td width="50%" valign="top"><strong>Break</strong> <br />
+         (The Atrium)</td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">10:45</td>
+
+        <td width="50%" valign="top"><strong>The Text Encoding
+        Initiative</strong></td>
+
+        <td width="30%" valign="top">M. Sperberg-McQueen</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">11:15</td>
+
+        <td width="50%" valign="top"><strong>Moderated
+        Discussion</strong></td>
+
+        <td width="30%" valign="top">Erik Jul</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">12:00</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Lunch: CNI NIDR White Paper</strong></p>
+
+          <p>OCLC Cafeteria (Meal Tickets Provided)<br />
+           Seating in Private Dining Room</p>
+        </td>
+
+        <td width="30%" valign="top">Clifford Lynch</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">1:30</td>
+
+        <td width="50%" valign="top"><strong>Staying out of the
+        Tarpits: Abstract Element Description</strong></td>
+
+        <td width="30%" valign="top">Ralph LeVan</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">2:00</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Small Working Groups</strong></p>
+
+          <p>Preassigned groups will attempt to formulate a list of
+          core elements that will comprise a useful record for
+          resource discovery and retrieval of what is commonly
+          understood as a document. The goal is to NOT to
+          articulate a description record for arbitrary network
+          objects, but it is hoped that the experience and
+          judgement of the stakeholders will result in a list of
+          data elements that will be naturally extensible to other
+          object types.</p>
+        </td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">3:45</td>
+
+        <td width="50%" valign="top"><strong>Break<br />
+        </strong> (The Atrium)</td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">4:00</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Panel discussion: Work Group
+          Reports</strong></p>
+
+          <p>Work group leaders will report on the deliberations of
+          their groups in plenary session.</p>
+        </td>
+
+        <td width="30%" valign="top">Moderator: Yuri Rubinsky</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">5:00</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Adjourn for the day</strong></p>
+
+          <p>Shuttles provided for return to the hotel</p>
+        </td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">6:30</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Dinner</strong></p>
+
+          <p>The Worthington Inn<br />
+           (Bus will depart from the Marriott Courtyard at
+          6:30)</p>
+        </td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+    </table>
+    <hr />
+
+    <table border="0" width="100%" cellspacing="0" cellpadding="2"
+    summary="A layout table with the schedule for each day listed. The first column has the time of day; the second column is the name of the session and the third column lists the speaker's name.">
+      <tr>
+        <td colspan="3" width="10%" valign="top"><strong>Thursday,
+        March 2</strong></td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">08:30</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Continental Breakfast and Sign
+          In</strong><br />
+           (The Atrium)</p>
+
+          <p>A shuttle bus will transport conferees from the hotel
+          to OCLC between 8:15 and 8:30. It is a very short walk in
+          good weather.</p>
+
+          <p>Please note that security procedures at OCLC require
+          that all visitors sign in each day. Your Workshop Badge
+          will be your identification badge.</p>
+        </td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">09:00</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Stake-Holders Forum - position statements by
+          various communities</strong></p>
+
+          <p>An opportunity for conferees to articulate a
+          particular position representative of a particular
+          stakeholder community.</p>
+
+          <p>Available time will be divided among those who sign up
+          in advance (to sign up, see the Agenda Web Page, or send
+          mail to <a
+          href="mailto:metadata@oclc.org">metadata@oclc.org</a>)</p>
+        </td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">10:45</td>
+
+        <td width="50%" valign="top"><strong>Break</strong> <br />
+         (The Atrium)</td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">11:00</td>
+
+        <td width="50%" valign="top"><strong>Special Problems
+        Session:<br />
+        </strong> Perspectives on Particularly Difficult
+        Problems</td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">&nbsp;</td>
+
+        <td width="50%" valign="top">
+        <strong>Versioning</strong></td>
+
+        <td width="30%" valign="top">Barbara Tillet<br />
+         Alan Emtage</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">&nbsp;</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Collection Hierarchy
+          Relationships</strong></p>
+        </td>
+
+        <td width="30%" valign="top">Lennie Stoval<br />
+         Steve Newcomb</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">12:00</td>
+
+        <td width="50%" valign="top"><strong>Photo Session<br />
+        </strong> (The Atrium)</td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">12:15</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Lunch</strong></p>
+
+          <p>OCLC Cafeteria (Meal Tickets Provided)<br />
+           Seating in Private Dining Room</p>
+        </td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">1:30</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Small Working Groups</strong></p>
+
+          <p>Preassigned groups will refine the set of data
+          elements from the previous day's work groups in light of
+          the discussions of stakeholder's communities and special
+          problems session (as well as hallway or bar
+          conversations). The deliverable for this session is a
+          matrix: data elements on one axis, communities on the
+          other axis, with cells indicating the importance of each
+          element to the various communities.</p>
+        </td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">3:30</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Break<br />
+          </strong> (The Atrium)</p>
+        </td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">4:00</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Panel discussion: Work Group
+          Reports</strong></p>
+
+          <p>Work group leaders will report on the deliberations of
+          their groups</p>
+        </td>
+
+        <td width="30%" valign="top">Moderator: Joseph Hardin</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">5:00</td>
+
+        <td width="50%" valign="top"><strong>Adjourn for the
+        day</strong> </td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">6:15-8:30</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Dinner</strong></p>
+
+          <p>Shuttles provided from the Marriott Courtyard at 6:15,
+          returning at 8:30</p>
+        </td>
+
+        <td width="30%" valign="top">&nbsp;</td>
+      </tr>
+    </table>
+    <hr />
+
+    <table border="0" width="100%" cellspacing="0" cellpadding="2"
+    summary="A layout table with the schedule for each day listed. The first column has the time of day; the second column is the name of the session and the third column lists the speaker's name.">
+      <tr>
+        <td colspan="3" width="10%" valign="top"><strong>Friday,
+        March 3</strong></td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">08:30</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Continental Breakfast and Sign In<br />
+          </strong> (The Atrium)</p>
+
+          <p>Shuttle busses will transport conferees from the hotel
+          to OCLC between 8:15 and 8:30. It is a very short walk in
+          good weather.</p>
+
+          <p>Please note that security procedures at OCLC require
+          that all visitors sign in each day. Your workshop badge
+          will be your identification badge.</p>
+        </td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">09:00</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Implementors' Open Mike</strong></p>
+
+          <p>An opportunity for those with ongoing or planned
+          projects to share their plans and experiences with
+          conferees.</p>
+
+          <p>Available time will be divided among those who sign up
+          in advance (see the Agenda Web Page, or send mail to <a
+          href="mailto:metadata@oclc.org">metadata@oclc.org</a>)</p>
+        </td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">10:45</td>
+
+        <td width="50%" valign="top"><strong>Break<br />
+        </strong> (The Atrium)</td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">11:00</td>
+
+        <td width="50%" valign="top">
+          <p><strong>Agreements, Disagreements, and Next
+          Steps</strong></p>
+
+          <p>Wrap up session intended to identify areas of
+          consensus, areas of wide divergence of opinion, and
+          possible next steps for making progress.</p>
+        </td>
+
+        <td width="30%" valign="top">Moderator: Stuart Weibel</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="top">12:00</td>
+
+        <td width="50%" valign="top"><strong>Adjourn</strong></td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+    </table>
+    <!--#include virtual="/ssi/footer.shtml" -->
+  </body>
+</html>
+

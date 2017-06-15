@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html title="An advisory description of the element." lang="en"
+xmlns="http://www.w3.org/1999/xhtml">
+  <head title="An advisory description of the element.">
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+    <title>DCMI Workshops - DC6: Report on the Breakout Group on
+    Resource Type and Format</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="resource_type_format.shtml.rdf" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body bgcolor="#FFFFFF" text="#000000">
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <h1 align="left">DC-6 Resource Type and Format breakout</h1>
+
+    <h3 align="left">The focus of the breakout was</h3>
+
+    <p align="left"><em>(1) examining how the DCQ structured data
+    model, with its element and value qualifiers, can be used for
+    the Type and<br />
+     Format elements in DC</em></p>
+
+    <p align="left"><em>(2) teasing out the proper semantics of
+    Type, in particular clarifying its relationship with
+    Format.</em></p>
+
+    <p align="left">This breakout group had the advantage, or
+    possibly baggage, of corresponding to an existing DC working
+    group. Thus, a deal of background work was available. However,
+    while many of those present had a strong background in some of
+    the issues because of this, there were a number of people at
+    the breakout who were coming relatively new to the issues and
+    had to be brought up to speed as possible.</p>
+
+    <p align="left">The working group had in particular been
+    wrestling with proposals for controlled vocabularies or list of
+    terms to be used as recommended in the RFC:</p>
+
+    <h3 align="left">"For the sake of interoperability, Type|Format
+    should be selected from a list that is currently under
+    development in the workshop series."<br />
+    </h3>
+
+    <p align="left"><strong>Format</strong></p>
+
+    <p align="left">For Format it has generally been accepted that
+    <strong>digital</strong> resources can be adequately described
+    using IMT or MIME types. This obviates the need for the DC
+    community to maintain a list or vocabulary.</p>
+
+    <p align="left">One outstanding issue in this, however, is the
+    requirement<br />
+    sometimes to indicate nested formats, exemplified by the
+    case<br />
+    of compressed formats which in turn contain data in
+    another<br />
+    special format. A further form of nesting is exemplified<br />
+    by a CD-ROM (ie a piece of plastic), containing an<br />
+    ISO-#### digital data stream, which in turn contains
+    files<br />
+    of various MIME types. The problem here really comes down<br />
+    to application of the 1:1 principle</p>
+
+    <p align="left">However, with the extension of DC to also cover
+    non-digital resources, the solution is less clear. In the
+    generalised usage, the Format element can be used in the sense
+    of "form of instantiation for operational purposes". This
+    should cover the "museum's" requirements for a "physical
+    description". For this usage there are a number of vocabularies
+    or coding systems available, such as the Getty Art and
+    Architecture Thesaurus Physical Media. The particular
+    vocabulary used for any instance may be indicated using the DCQ
+    value qualifier, also known as "scheme".</p>
+
+    <p align="left">Another outstanding issue for the Format
+    element is the requirement to encode size information in
+    addition to media. Size clearly represents a particular usage
+    of the Format element which probably requires the element to be
+    qualified, ie a Format "type" of "size", in contrast to another
+    Format "type" of "media" or similar. Furthermore, for many
+    resources several different measurements of size can be made,
+    so capturing this in a machine-readable way will require some
+    structuring or qualification of the element and content. This
+    was not explored in the breakout.</p>
+
+    <p align="left">Most outstanding questions related to the
+    Format element appear to be largely engineering issues which
+    can be accommodated by convention within the DCQ structure.</p>
+
+    <h3 align="left">Type</h3>
+
+    <p align="left">Discussions around Type were much more
+    contentious. In particular, there is still a lot of confusion
+    about the distinction between Type and Format.</p>
+
+    <p align="left">The generalised definition of Format given
+    above ("form of instantiation for operational purposes")
+    appears to successfully capture a useful semantic for Format,
+    and thus imply what Type does not cover.</p>
+
+    <p align="left">The existing definition of Type refers to the
+    "genre" of the resource, and has been generally understood well
+    in relation to information resources.</p>
+
+    <p align="left">Genre terms such as "novel", "poem", etc are
+    quoted in the definition of Type in the current RFC. Several
+    very rich vocubularies are available for these from the
+    communities dealing with bibliographic information, and also
+    for education and art. Terms from these vocabularies may be
+    used for Type, with the source indicated using a DCQ value
+    qualifier or "scheme". Of course the use of domain-specific
+    vocabularies will limit semantic interoperability.</p>
+
+    <p align="left">However, the notion of "genre" is more
+    problematic in the expanded universe to be described by DC
+    which includes things other than information resources.</p>
+
+    <h3 align="left">A "minimalist" list of values for Type</h3>
+
+    <p align="left">(the cross-domain 8 or XD8) has been developed
+    by<br />
+    the working group, to fulfill the requirement<br />
+    from the RFC quoted above, as follows:<br />
+    text<br />
+    image<br />
+    sound<br />
+    dataset<br />
+    software<br />
+    interactive<br />
+    event<br />
+    physical object</p>
+
+    <p align="left">This list has the benefit of attempting to be
+    fully cross-domain, and is also simple (short!) enough to be
+    generally used. However, an inspection of the XD8 reveals that
+    it is strongly biased with much finer granularity for
+    information resources in the first six items (the I6), and then
+    a rump of two ("event" and "physical object") for all other
+    resources (the O2).</p>
+
+    <h3 align="left">However, there were questions about</h3>
+
+    <p align="left">(a) whether the granularity in the I6, though
+    finer than in the O2, was in fact useful for any particular
+    real-world application,<br />
+    (b) whether the specific terms in the O2 are comprehensive
+    (unlikely, especially in view of the absence of a fall-through
+    value of "other")<br />
+    (c) what was the basis for privileging the O2 over other
+    possible non-information-resource terms (special pleading was
+    suggested!),<br />
+    (d) (in particular) whether the aspect of the property
+    distinguished between the I6 was followed through in the rest
+    of the list.</p>
+
+    <p align="left">A number of other requirements were also raised
+    as requiring additional attention. These included</p>
+
+    <p align="left">(1) the need to distinguish between
+    "collections" and "items" (particularly important for
+    archivists): since more-or-less all resources can occur in
+    either form, this appears to be a distinction approximately
+    orthogonal to other genre indications, and thus may be
+    accommodated through DCQ qualification of the Type element with
+    a "type=aggregation-level", in contrast to the
+    "type=genre";</p>
+
+    <p align="left">(2) needs for Type values of "abstract work",
+    "service", "moving-image".</p>
+
+    <p align="left">The specific requirements could be seen in some
+    cases to emanate mainly from specific communities. In fact,
+    recognising the functional needs of specific domains is often
+    the key to understanding the basis for arguments around the
+    Type element. Different communities have different views of the
+    world driven by their particular requirements, which may in
+    fact require different solutions, equally valid in context.</p>
+
+    <p align="left">Clearly some work remains to be done in
+    cleaning up the semantics of the Type element, even before
+    proceeding to recommendations and the engineering issues. It is
+    likely that some pragmatic compromise and "rules-of-thumb" will
+    be needed.</p>
+    <hr />
+
+    <p align="left">The problems in both Format and Type appear to
+    have been incited by the generalisation of DC to describe
+    non-digital resources, and in particular, non-information
+    resources. A particular consequence of this has been to muddy
+    the 1:1 issue which appears to particular confuse the use of
+    the Type and Format elements.<br />
+    </p>
+    <hr />
+
+    <p align="left">Dr Simon Cox - Australian Geodynamics
+    Cooperative Research Centre<br />
+    CSIRO Exploration &amp; Mining, PO Box 437, Nedlands, WA 6009
+    Australia<br />
+    T: +61 8 9389 8421 F: +61 8 9389 1906
+    Simon.Cox@dem.csiro.au<br />
+    http://www.ned.dem.csiro.au/SimonCox/</p>
+    <!--#include virtual="/ssi/footer.txt" -->
+  </body>
+</html>
+

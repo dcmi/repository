@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en"
+xmlns="http://www.w3.org/1999/xhtml">
+  <head >
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+    <title>Dublin Core Metadata Initiative (DCMI) Workshops</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="index.shtml.rdf" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body >
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <h1 >DC1: OCLC/NCSA Metadata Workshop: The Essential
+    Elements of Network Object Description</h1>
+
+    <p><strong>1995-03-01 - 1995-03-03</strong></p>
+
+    <p>This invitational workshop convened selected professionals
+    from diverse but related fields of computer science,
+    librarianship, online information services, abstracting and
+    indexing, imaging and geospatial data, museum and archive
+    control, and others, to address and advance the state of the
+    art in the development and extension of methods, standards, and
+    protocols to facilitate the description, organization,
+    discovery, and access of network information resources.</p>
+
+    <table border="0" width="100%" align="center" cellspacing="0"
+    cellpadding="4"
+    summary="A layout table with references to the workshop agenda, schedule, participants list and resources.">
+      <tr>
+        <td>
+          
+<p><strong><a href="report.shtml">Workshop Position Paper</a></strong></p>
+        </td>
+
+        <td>Editors:<br />
+        Stuart Weibel, Jean Godby, Eric Miller, and Ron Daniel</td>
+      </tr>
+
+      <tr>
+        
+<td><strong><a href="general.shtml">General Information</a></strong></td>
+
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        
+<td><strong><a href="org.shtml">Organization</a></strong></td>
+
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        
+<td><strong><a href="schedule.shtml">Schedule and Agenda</a></strong></td>
+
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        
+<td><strong><a href="participants.shtml">Registration List</a></strong></td>
+
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td><strong>Conference Discussion List
+        Archive</strong></td>
+
+        <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        
+<td><strong><a href="resources.shtml">Resources and Related Projects</a></strong></td>
+
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+
+    
+<p><strong>Coveners</strong></p>
+
+    <ul>
+      <li>Stuart Weibel, OCLC Office of Research</li>
+
+      <li>Joseph Hardin, NCSA Software Development Group</li>
+
+      <li>Yuri Rubinsky, Softquad, Inc.</li>
+    </ul>
+    <!--#include virtual="/ssi/footer.shtml" -->
+  </body>
+</html>
+

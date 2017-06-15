@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://dublincore.org/workshops/dc6/pp/v2.shtml">
+   <dc:title>Requirements for DC V2.0</dc:title>
+   <dc:description>Meeting notes from DC6</dc:description>
+   <dc:date>1998-11-03</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:contributor>Ron Daniels</dc:contributor>
+ </rdf:Description>
+</rdf:RDF>
+
+

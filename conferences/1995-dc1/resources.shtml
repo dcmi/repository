@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head >
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+    <title>DCMI Workshops - DC1: Resources</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="resources.shtml.rdf" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body >
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <h3><strong>Metadata Workshop: The Essential Elements of
+    Network Object Description</strong></h3>
+
+    <h3><strong>Resources and Related Projects</strong></h3>
+    <hr />
+
+    <p><em>last modified: December 6, 1995</em></p>
+
+    <p>To add to this resource list, send mail to:<br />
+     <a href="mailto:weibel@oclc.org">weibel@oclc.org</a> with a
+    complete bibliographic citation.</p>
+    <hr />
+
+    
+    <p><a href="resources-bearman.shtml">Metadata Requirements for Evidence </a><em>David 
+    Bearman and Ken Sochats</em> </p>
+
+    <p>The CNI White Paper on Networked Information Discovery and
+    Retrieval<br />
+     <em>Lynch, Michelson, Preston, and Summerhill</em><br />
+     <a
+    href="http://www.cni.org/projects/nidr/www/toc.html">http://www.cni.org/projects/nidr/nidr.html</a></p>
+
+    <p>Intent to Develop a Federal Information Processing Standard
+    (FIPS) for a Data Standard for Record Description Records<br />
+     <a
+    href="http://nii.nist.gov/rdr.html">http://nii.nist.gov/rdr.html</a></p>
+
+    <p>URC Pointers<br />
+     <em>(Compiled by Dan LaLiberte and Michael Shapiro of
+    NCSA)</em><br />
+     <a
+    href="http://union.ncsa.uiuc.edu/HyperNews/get/www/URCs.html">http://union.ncsa.uiuc.edu/HyperNews/get/www/URCs.html</a></p>
+
+    <p>Scientific and Technical Attribute Set<br />
+     <em>(Submitted by Les Wibberly of Chemical Abstracts
+    Service)</em><br />
+     <a
+    href="http://stas.cnidr.org/STAS.html">http://stas.cnidr.org/STAS.html</a></p>
+
+    <p>University of Michigan Digital Library Conspectus<br />
+     <a
+    href="http://http2.sils.umich.edu/UMDL/conspectus/controlled-vocab.html">
+    http://http2.sils.umich.edu/UMDL/conspectus/controlled-vocab.html</a></p>
+    <hr />
+
+    <p>(revised 1998-12-17 ecm)</p>
+
+    
+    <!--#include virtual="/ssi/footer.shtml" -->
+  </body>
+</html>
+

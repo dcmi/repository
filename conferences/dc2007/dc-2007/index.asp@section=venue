@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>DC-2007 Dublin Core and Metadata Applications</title>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<meta name="DC.title" content="DC-2007 Dublin Core and Metadata Applications" />
+<meta name="DC.subject" content="Application Profiles: Theory and Practice" />
+<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+<meta name="DC.format" content="text/html" />
+<meta name="DC.format" content="17163 bytes" />
+<meta name="DC.identifier" scheme="DCTERMS.URI" content="http://www.dc2007.sg" />
+
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#ffffff">
+
+<table border="0" cellpadding="0" cellspacing="0" width="800" height="600" align="center">
+  <!--DWLayoutTable-->
+<!-- fwtable fwsrc="5.png" fwbase="iisstart.jpg" fwstyle="Generic" fwdocid = "742308039" fwnested="0" -->
+  <tr>
+    <td height="94" colspan="2" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <!--DWLayoutTable-->
+      <tr>
+        <td height="125" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="605" height="125">
+          <param name="movie" value="Header.swf">
+          <param name="quality" value="high">
+          <embed src="Header.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="605" height="125"></embed>
+        </object></td>
+      <td width="195" valign="top" align="left"><img src="Logo.gif" width="195" height="125"></td>
+      </tr>
+    </table>    </td>
+  </tr>
+  <tr>
+     <td width="178" height="505" valign="top" bgcolor="#FFF9F9"><html>
+<head>
+<title>left_Banner.jpg</title>
+<meta http-equiv="Content-Type" content="text/html;">
+
+<script language="JavaScript">
+<!-- hide
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+// stop hiding -->
+</script>
+</head>
+<body bgcolor="#ffffff">
+
+  <script language="JavaScript">
+  <!-- hide 
+  if (document.images) {
+  Home_f2 = new Image(174 ,26); Home_f2.src = "Home_f2.jpg";
+  Home_f1 = new Image(174 ,26); Home_f1.src = "Home.jpg";
+  Organization_f2 = new Image(174 ,25); Organization_f2.src = "Organization_f2.jpg";
+  Organization_f1 = new Image(174 ,25); Organization_f1.src = "Organization.jpg";
+  Programme_f2 = new Image(174 ,26); Programme_f2.src = "Programme_f2.jpg";
+  Programme_f1 = new Image(174 ,26); Programme_f1.src = "Programme.jpg";
+  Speakers_f2 = new Image(174 ,26); Speakers_f2.src = "Speakers_f2.jpg";
+  Speakers_f1 = new Image(174 ,26); Speakers_f1.src = "Speakers.jpg";
+  Sessions_f2 = new Image(174 ,26); Sessions_f2.src = "Sessions_f2.jpg";
+  Sessions_f1 = new Image(174 ,26); Sessions_f1.src = "Sessions.jpg";
+  Registration_f2 = new Image(174 ,26); Registration_f2.src = "Registration_f2.jpg";
+  Registration_f1 = new Image(174 ,26); Registration_f1.src = "Registration.jpg";
+  CallforPapers_f2 = new Image(174 ,26); CallforPapers_f2.src = "CallforPapers_f2.jpg";
+  CallforPapers_f1 = new Image(174 ,26); CallforPapers_f1.src = "CallforPapers.jpg";
+  CallforSponsors_f2 = new Image(174 ,26); CallforSponsors_f2.src = "CallforSponsors_f2.jpg";
+  CallforSponsors_f1 = new Image(174 ,26); CallforSponsors_f1.src = "CallforSponsors.jpg";
+  conferenceSponsors_f2 = new Image(174 ,26); conferenceSponsors_f2.src = "conferenceSponsors_f2.jpg";
+  conferenceSponsors_f1 = new Image(174 ,26); conferenceSponsors_f1.src = "conferenceSponsors.jpg";
+  conferenceVenue_f2 = new Image(174 ,25); conferenceVenue_f2.src = "conferenceVenue_f2.jpg";
+  conferenceVenue_f1 = new Image(174 ,25); conferenceVenue_f1.src = "conferenceVenue.jpg";
+  accommodation_f2 = new Image(174 ,26); accommodation_f2.src = "accommodation_f2.jpg";
+  accommodation_f1 = new Image(174 ,26); accommodation_f1.src = "accommodation.jpg";
+  AboutSingapore_f2 = new Image(174 ,26); AboutSingapore_f2.src = "AboutSingapore_f2.jpg";
+  AboutSingapore_f1 = new Image(174 ,26); AboutSingapore_f1.src = "AboutSingapore.jpg";
+  DublinCoreLogo_f2 = new Image(140 ,49); DublinCoreLogo_f2.src = "DublinCoreLogo_f2.jpg";
+  DublinCoreLogo_f1 = new Image(140 ,49); DublinCoreLogo_f1.src = "DublinCoreLogo.jpg";
+  NLBLogo_f2 = new Image(81 ,53); NLBLogo_f2.src = "NLBLogo_f2.jpg";
+  NLBLogo_f1 = new Image(81 ,53); NLBLogo_f1.src = "NLBLogo.jpg";
+  NanyangLogo_f2 = new Image(87 ,32); NanyangLogo_f2.src = "NanyangLogo_f2.jpg";
+  NanyangLogo_f1 = new Image(87 ,32); NanyangLogo_f1.src = "NanyangLogo.jpg";
+  ilds_f2 = new Image(140 ,49); ilds_f2.src = "ilds_f2.jpg";
+  ilds_f1 = new Image(140 ,49); ilds_f1.src = "ilds.jpg";
+  }
+  // stop hiding -->
+  </script>
+<table border="0" cellpadding="0" cellspacing="0" width="183">
+<!-- fwtable fwsrc="left_banner2.png" fwbase="left_Banner.jpg" fwstyle="Generic" fwdocid = "742308039" fwnested="0" -->
+  <tr>
+   <td><img src="spacer.gif" width="10" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="81" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="6" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="53" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="24" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="9" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+
+  <tr>
+   <td colspan="6"><img name="left_Banner_r1_c1" src="left_Banner_r1_c1.jpg" width="183" height="3" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="3" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=intro" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Home','','Home_f2.jpg',1);"><img name="Home" src="Home.jpg" width="174" height="26" border="0" alt="Home"></a></td>
+   <td rowspan="23"><img name="left_Banner_r2_c6" src="left_Banner_r2_c6.jpg" width="9" height="627" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=organization" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Organization','','Organization_f2.jpg',1);"><img name="Organization" src="Organization.jpg" width="174" height="25" border="0" alt="Organization"></a></td>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2" colspan="5"><a href="index.asp@section=programme" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Programme','','Programme_f2.jpg',1);"><img name="Programme" src="Programme.jpg" width="174" height="26" border="0" alt="Programme"></a></td>
+   <td><img src="spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=speakers" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Speakers','','Speakers_f2.jpg',1);"><img name="Speakers" src="Speakers.jpg" width="174" height="26" border="0" alt="Speakers"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=session" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Sessions','','Sessions_f2.jpg',1);"><img name="Sessions" src="Sessions.jpg" width="174" height="26" border="0" alt="Sessions"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=registration" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Registration','','Registration_f2.jpg',1);"><img name="Registration" src="Registration.jpg" width="174" height="26" border="0" alt="Registration"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=callforpapers" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('CallforPapers','','CallforPapers_f2.jpg',1);"><img name="CallforPapers" src="CallforPapers.jpg" width="174" height="26" border="0" alt="Call for Papers"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=callforsponsors" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('CallforSponsors','','CallforSponsors_f2.jpg',1);"><img name="CallforSponsors" src="CallforSponsors.jpg" width="174" height="26" border="0" alt="Call for Sponsors"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=sponsors" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('conferenceSponsors','','conferenceSponsors_f2.jpg',1);"><img name="conferenceSponsors" src="conferenceSponsors.jpg" width="174" height="26" border="0" alt="Conference Sponsors"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=venue" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('conferenceVenue','','conferenceVenue_f2.jpg',1);"><img name="conferenceVenue" src="conferenceVenue.jpg" width="174" height="25" border="0" alt="Conference Venue"></a></td>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2" colspan="5"><a href="index.asp@section=accommodation" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('accommodation','','accommodation_f2.jpg',1);"><img name="accommodation" src="accommodation.jpg" width="174" height="26" border="0" alt="Accommodation"></a></td>
+   <td><img src="spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=aboutSingapore" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('AboutSingapore','','AboutSingapore_f2.jpg',1);"><img name="AboutSingapore" src="AboutSingapore.jpg" width="174" height="26" border="0" alt="About Singapore"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><img name="left_Banner_r16_c1" src="left_Banner_r16_c1.jpg" width="174" height="71" border="0" usemap="#m_left_Banner_r16_c1" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="71" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="8"><img name="left_Banner_r17_c1" src="left_Banner_r17_c1.jpg" width="10" height="246" border="0" alt=""></td>
+   <td colspan="3"><a href="http://www.dublincore.org" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('DublinCoreLogo','','DublinCoreLogo.jpg',1);"><img name="DublinCoreLogo" src="DublinCoreLogo.jpg" width="140" height="49" border="0" alt="Dublin Core Metadata Initiative"></a></td>
+   <td rowspan="8"><img name="left_Banner_r17_c5" src="left_Banner_r17_c5.jpg" width="24" height="246" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="49" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="left_Banner_r18_c2" src="left_Banner_r18_c2.jpg" width="140" height="11" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="11" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><a href="http://www.nlb.gov.sg" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('NLBLogo','','NLBLogo.jpg',1);"><img name="NLBLogo" src="NLBLogo.jpg" width="81" height="53" border="0" alt="NLB"></a></td>
+   <td rowspan="2" colspan="2"><img name="left_Banner_r19_c3" src="left_Banner_r19_c3.jpg" width="59" height="64" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="53" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="left_Banner_r20_c2" src="left_Banner_r20_c2.jpg" width="81" height="11" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="11" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="2"><a href="http://www.ntu.edu.sg/sci/" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('NanyangLogo','','NanyangLogo.jpg',1);"><img name="NanyangLogo" src="NanyangLogo.jpg" width="87" height="32" border="0" alt="Nanyang Technology University"></a></td>
+   <td rowspan="2"><img name="left_Banner_r21_c4" src="left_Banner_r21_c4.jpg" width="53" height="61" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="32" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="2"><img name="left_Banner_r22_c2" src="left_Banner_r22_c2.jpg" width="87" height="29" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="29" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><a href="http://www.nlbconference.com/ilds" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('ilds','','ilds.jpg',1);"><img name="ilds" src="ilds.jpg" width="140" height="49" border="0" alt="Interlending and Document Supply Conference"></a></td>
+   <td><img src="spacer.gif" width="1" height="49" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="left_Banner_r24_c2" src="left_Banner_r24_c2.jpg" width="140" height="12" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="12" border="0" alt=""></td>
+  </tr>
+<map name="m_left_Banner_r16_c1">
+<area shape="rect" coords="51,26,162,38" href="mailto:dc2007@nlb.gov.sg?Subject=Contact DC2007" title="dc2007@nlb.gov.sg" alt="dc2007@nlb.gov.sg" >
+</map>
+</table>
+</body>
+</html>
+</td>	 
+  <td width="622" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <!--DWLayoutTable-->
+    <tr>
+      <td width="622" height="505" valign="top"><link href="style.css" rel="stylesheet" type="text/css" />
+<TABLE width="618" background="venue_bac.jpg" class="OnceBackground">
+   <!--DWLayoutTable-->
+   <TR>
+      <TD height="28" colspan="2" valign="top"><img src="venue_header.gif" width="618" height="26" /></TD>
+   </TR>
+   <TR>
+     <TD width="611" height="600" valign="top"><p class="englishRegistration">     
+<TABLE cellpadding="0" cellspacing="10">
+	      <TR>
+	         <TD colspan="2" class="englishRegistration"><p>The main conference venue is the <strong>InterContinental  Singapore</strong>, which is across the road from the National Library  building.&nbsp; Meeting rooms at the National  Library will be used for some of the special sessions and meetings.</p></TD>
+	      </TR>
+		  <tr>
+		     <td align="center"><br><img src="venue.jpg" alt="Venue" width="305" height="474" /></td>
+		  </tr>
+     </TABLE>	 
+              </p>       </TD>
+   </TR>
+</TABLE>
+</td>
+        </tr>
+  </table></td>
+  </tr>
+  <TR>
+     <td colspan="2" bgcolor="#FFF9F9" class="footer"><DIV align="center">Copyright &copy; 1995-2007 DCMI All Rights Reserved.</DIV></td>
+  </TR>
+</table>
+</body>
+</html>

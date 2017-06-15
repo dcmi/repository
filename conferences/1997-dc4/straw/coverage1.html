@@ -1,0 +1,186 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>ELEMENT: COVERAGE</TITLE>
+
+<META NAME="GENERATOR" CONTENT="Internet Assistant for Microsoft Word 2.0z">
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+
+<P>
+<FONT SIZE=2>ELEMENT: COVERAGE<BR>
+Strawman, version 1.0</FONT>
+<P>
+<FONT SIZE=2>fabricated by</FONT>
+<P>
+<FONT SIZE=2>Mary L. Larsgaard, Alexandria Digital Library/Davidson
+Library, UC Santa Barbara </FONT>
+<P>
+<FONT SIZE=2>2/24/97<BR>
+</FONT>
+<P>
+<U><B><FONT SIZE=2>Definition</FONT></B></U><FONT SIZE=2>:</FONT>
+<P>
+<FONT SIZE=2>The Coverage element describes the spatial and temporal
+characteristics of the object or resource and is the key element
+for supporting spatial or temporal range searching on document-like
+objects that are georeferenced or time-referenced. Coverage may
+be modified by the qualifiers &quot;spatial&quot; and 
+&quot;temporal&quot;.</FONT>
+<P>
+<FONT SIZE=2>A resource may have both spatial and temporal coverages,
+or just one of the two. This element may be used in describing
+resources from many different fields, e.g., archaeology, art,
+cartography, geography, geographic information systems, medicine,
+natural sciences, etc. - any field that deals with georeferenced
+information, spatial data, or time-referenced data. Thus for example,
+resources describing the Grand Canyon of the United States include
+text, maps, music (e.g., Ferde Grofe's Grand Canyon Suite), statistics
+(e.g., number of visitors per year), works of art (such as the
+panoramas that appear in the 1882 publication, &quot;Atlas to
+accompany the monograph on the Tertiary history of the Grand Canon
+district&quot;), etc.; and each could use Coverage - Spatial and
+in some cases Coverage - Temporal.<BR>
+</FONT>
+<P>
+<FONT SIZE=2>Spatial information may be given by numbers (e.g.,
+degrees) or by text. Temporal information may also be given by
+numbers or by text. <BR>
+</FONT>
+<P>
+<FONT SIZE=2>General HTML pattern could be something like:</FONT>
+<P>
+<FONT SIZE=2>&lt;META name=&quot;dc.Coverage (type=spatial, scheme=LCSH)</FONT>
+<P>
+<FONT SIZE=2>content=&quot;Grand Canyon (Ariz.)&quot;&gt; <BR>
+<BR>
+</FONT>
+<P>
+<U><B><FONT SIZE=2>Examples of Qualifiers and Values</FONT></B></U><FONT 
+SIZE=2>:</FONT>
+<P>
+<FONT SIZE=2>There are many possible schemas; the following are
+some more frequently used schemas within the library world. The
+element value describes some sort of spatial information from
+the set described by the Scheme qualifier.</FONT>
+<P>
+<FONT SIZE=2>SPATIAL<BR>
+</FONT>
+<P>
+<FONT SIZE=2>Spatial Coverage Defined by Text<BR>
+</FONT>
+<P>
+<FONT SIZE=2>Examples of this are:</FONT>
+<OL>
+<LI><FONT SIZE=2>Library of Congress Subject Headings (LCSH):</FONT>
+
+</OL>
+
+<P>
+<FONT SIZE=2>Grand Canyon (Ariz.)</FONT>
+<P>
+<FONT SIZE=2>         2. free text:</FONT>
+<P>
+<FONT SIZE=2>Grand Canyon, Arizona<BR>
+</FONT>
+<P>
+<FONT SIZE=2>Spatial Coverage Defined by Numbers<BR>
+</FONT>
+<P>
+<FONT SIZE=2>A. LongLat: This qualifier specifies a latitude and
+longitude. The format of a &quot;LongLat&quot; element is longitude
+value(s) first and latitude value(s) second. The values may be:
+a longitude/latitude pair (for a point); a set of four longitude/latitude
+values for a bounding box (in the order westernmost longitude,
+easternmost longitude, northernmost latitude, southernmost latitude);
+or a set of n longitude/latitude values for any polygon or for
+a line. For the planet Earth, longitude values are given in degrees
+west/east of the Greenwich meridian; latitude values are given
+in degrees north/south of the Equator. Earth is assumed as location;
+if another planetary body is being reference (e.g., Earth's Moon),
+this must be stated immediately before the coordinates are given.
+Coordinates for imaginary places must have the imaginary place
+noted preceding the coordinates.<BR>
+</FONT>
+<P>
+<FONT SIZE=2>Coordinates may be given several different ways:</FONT>
+<OL>
+<LI><FONT SIZE=2>- using N, S, E, W as appropriate, in degrees/minutes/seconds;
+</FONT>
+</OL>
+
+<P>
+<FONT SIZE=2>W 120 degrees 30 minutes 10 seconds, W 118 degrees
+20 minutes 3 seconds, N 80 degrees 10 minutes, N 79 degrees 50
+minutes 4 seconds</FONT>
+<P>
+<FONT SIZE=2>OR</FONT>
+<OL>
+<LI><FONT SIZE=2>-  in decimal degrees, with longitude west of
+Greenwich and latitude south of the Equator negative, and longitude
+east of Greenwich and latitude north of the Equator positive.</FONT>
+
+</OL>
+
+<P>
+<FONT SIZE=2>-120.503, -118.334, 80.167, 79.834<BR>
+</FONT>
+<P>
+<FONT SIZE=2>B. Various grids, such as the Ordnance Survey National
+Grid Reference, or the UTM (Universal Transverse Mercator) grid
+- I've got a 5-page handout I wrote on how the latter are derived
+and expressed; if anyone really wants to know, I'll provide copy
+of it.<BR>
+<BR>
+</FONT>
+<P>
+<FONT SIZE=2>TEMPORAL<BR>
+</FONT>
+<P>
+<FONT SIZE=2>Again, there are many possible schema. The following
+are a few of those frequently used in libraries.</FONT>
+<P>
+<FONT SIZE=2>The element value describes some sort of temporal
+information from the set described by the Scheme qualifier.<BR>
+</FONT>
+<P>
+<FONT SIZE=2>Temporal Coverage Defined by Text<BR>
+</FONT>
+<P>
+<FONT SIZE=2>a. LCSH:</FONT>
+<P>
+<FONT SIZE=2>Cretaceous</FONT>
+<P>
+b. <FONT SIZE=2>free text:</FONT> 
+<P>
+<FONT SIZE=2>Lower Cretaceous<BR>
+<BR>
+</FONT>
+<P>
+<FONT SIZE=2>Temporal Coverage Defined by Numbers</FONT>
+<P>
+<FONT SIZE=2>This should include the option to include beginning
+and ending date, e.g.:</FONT>
+<P>
+<FONT SIZE=2>&#133; [Begin=19910101, End=19930601}<BR>
+</FONT>
+<OL>
+<LI><FONT SIZE=2>as defined in ANSI X3.30-1985:</FONT> 
+</OL>
+
+<P>
+<FONT SIZE=2>A.D. Era to December 31, 9999 A.D.: YYYYMMDD</FONT>
+<P>
+<FONT SIZE=2>&quot;19970303&quot;</FONT>
+<P>
+<FONT SIZE=2>and in ANSI X3.43-1986: HHMMSSSS</FONT>
+<P>
+<FONT SIZE=2>2. other &#133; <BR>
+<BR>
+</FONT>
+</BODY>
+
+</HTML>

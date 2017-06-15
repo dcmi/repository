@@ -1,0 +1,308 @@
+<!doctype html public "-//W30//DTD WWW HTML 2.0//EN">
+<html>
+<head>
+<title>Dublin Core Qualifiers/Substructure</title>
+<base href="http://lcweb.loc.gov/marc/dcqualif.html">
+</head>
+<body>
+<h1 align=center>Dublin Core Qualifiers/Substructure</h1>
+<h3 align=center>Rebecca Guenther</h3>
+<h4 align=center>Last updated:  15 October 1997</h4>
+<hr>
+<h3><strong>Introduction.</strong></h3><br>The following proposes
+a core set of qualifiers for the Dublin Core element set.  It
+attempts to find a middle ground between the "minimalists" (those
+wanting a minimum of DC qualifiers and substructure if any) and
+the "structuralists" (those wanting more precision in refinement
+of the elements for searching).  
+<p>
+The document has been updated as a result of discussions at DC5 in Helsinki in October 1997.  It
+may be replaced in the near future by the report of the DC5 Subelement Working Group, which
+discussed the type qualifier.  This document also includes information on the scheme qualifier.  The
+concept of a registry was discussed at DC4, which would need to be established and would maintain
+any qualifier list.  
+<p>
+This document deals only with the qualifiers "scheme" and "type". 
+A scheme qualifier is used to interpret the value in the content
+and is generally based on external standards.  A type qualifier
+refines the definition of the data element itself.  
+<p>
+Two principles were agreed upon at the DC4 meeting in Canberra
+relating to the type qualifier (also known as Dublin Core subelement):
+<ul>
+<li>that it may be used only to refine the element, not to extend
+its semantics<br>
+<li>that if the element list is used without qualifiers, the
+content can still be understood. Thus, each element shall have a
+default meaning.</ul>
+<p>
+If a Dublin Core subelement does not meet these principles, then an
+extensibility mechanism may be used (i.e., indicate the
+extensible element set from which the qualifier came).  In this
+case the metadata would not be regarded as falling within the
+Dublin Core list of elements.
+<p>
+Further principles for subelements were established at DC5, which will be reported in the Subelement
+Working Group report.  There was little discussion about scheme qualifiers, so that information in
+this document is preliminary.
+<p>
+Following is a list of qualifiers ("core qualifiers") which
+is an intermediate approach between the minimalist approach
+of using no or few qualifiers and the more complex approach in<a
+href="http://www.roads.lut.ac.uk/Metadata/DC-SubElements.html">
+Dublin Core Qualifiers</a> by Jon Knight and Martin Hamilton.  The
+latter document has been heavily used, but the number of
+qualifiers is considerably lessened here.
+<p>
+Definitions are taken from the Weibel/Kunze/Lagoze RFC <a
+href="http://purl.oclc.org/metadata/dublin_core_elements">Dublin Core Metadata
+Element Set:
+Reference Description</a> (as updated 2 October 1997).  All qualifiers are optional.  The default
+for "scheme" is
+nothing (it is not controlled by any standard).  The default
+for "type" is the definition of the element iteself.  If the default is used, no
+qualifier is given.
+<p>
+<h3><strong>Proposed Dublin Core Qualifiers/Subelements</strong></h3><br>
+<strong>1. Title</strong><br>
+     The name given to the resource by the CREATOR or PUBLISHER.
+<p>
+<em>SCHEME</em>: not necessary<br>
+<p>
+<em>TYPE</em>:<ul><li>DC.Title (unqualified)<br>
+           <li>DC.Title.Alternative (used for any titles other
+           than the main title including subtitle, etc.)</ul><br>
+<p>
+<strong>2. Author or Creator</strong><br>
+     The person(s) or organization(s) primarily responsible for
+     the intellectual content of the resource.  For example,
+     authors in the case of written documents, artists,
+     photographers, or illustrators in the case of visual
+     resources.
+<p>
+<em>SCHEME</em>:<ul><li>LCNAF (Library of Congress Name Authority
+File)</ul><br>
+<em>TYPE</em>:<ul><li>DC.Creator (unqualified)<br>
+<li>DC.Creator.PersonalName<br>
+<li>DC.Creator.CorporateName (includes conference name)<br>
+<li>DC.Creator.PersonalName.Address (includes any type of address, email or otherwise)<br>
+<li>DC.Creator.CorporateName.Address<br></ul>
+Note that qualifiers listed in the Knight/Hamilton document
+extend the element rather than refine it (e.g., postal, phone,
+fax, affiliation, etc.).  Only address is included here because it
+has been used frequently in current metadata projects.  Email may
+be considered an alternative way of specifying the author. 
+If other qualifiers are needed (e.g. affiliation), they should be used as local extensions.
+<p>
+<strong>3. Subject and Keywords</strong><br>
+The topic of the resource. Typically, subject will be expressed as keywords or phrases
+that describe the subject or content of the resource. The use of controlled vocabularies
+and formal classification schemas is encouraged.<br>
+<p>
+<em>SCHEME</em>:<ul><li> (Unqualified: Keyword is default)<br>
+<li>LCSH (Library of Congress Subject Headings)<br>
+<li> MeSH (Medical Subject Headings<br>
+<li> AAT (Art and Architechture Thesaurus)<br>
+<li>LCNAF (Library of Congress Name Authority File): for names used as subjects<br>
+<li> DDC (Dewey Decimal Classification)<br>
+<li> LCC (Library of Congress Classification)<br>
+<li>NLM (National Library of Medicine Classification)<br>
+<li>UDC (Universal Decimal Classification</ul><br>
+The above are the most frequently used.  The scheme could point
+to the controlled list maintained by the Library of Congress in
+the <a href="gopher://marvel.loc.gov/00/.listarch/usmarc/relators.txt">USMARC
+Code List for Relators, Sources, Description Conventions</a>, which includes many others (Part
+III: Classification Sources
+and Part IV: Subject/Index Term Sources; these documents are currently under
+revision for a new edition).  Many locally defined thesauri or classification schemes are
+possible.<br>
+<br>
+<em>TYPE</em>: not necessary<br>
+<p>
+<strong>4. Description</strong><br>
+     A textual description of the content of the resource,
+     including abstracts in the case of document-like objects or
+     content descriptions in the case of visual resources. <br>
+<p>
+<em>SCHEME</em>: <ul><li>(Abstract is default)<br>
+<li>URL</ul><br>
+<em>TYPE</em>: not necessary <br>
+<p>
+<strong>5. Publisher</strong><br>
+The entity responsible for making the resource available in its present form, such as a
+ publishing house, a university department, or a corporate entity.<br>
+<p>
+<em>SCHEME</em>: not necessary<br>
+<em>TYPE</em>:  <ul><li>DC.Publisher (unqualified)<br>
+<li>DC.Publisher.PersonalName<br>
+<li> DC.Publisher.CorporateName<br>
+<li>DC.Publisher.PersonalName.Address
+<li>DC.Publisher.CorporateName.Address</ul><br>
+<p>
+<strong>6. Other Contributor </strong><br>
+A person or organization not specified in a <em>creator</em> element who has made
+  significant intellectual contributions to the resource but whose contribution is secondary
+  to any person or organization specified in a <em>creator</em> element (for example,
+  editor, transcriber, and illustrator).<br>
+<p>
+<em>SCHEME</em>:<ul><li>LCNAF (Library of Congress Name Authority
+File)</ul><br>
+<em>TYPE</em>:<ul><li>DC.Contributor (unqualified)<br>
+<li> DC.Contributor.PersonalName<br>
+<li> DC.Contributor.CorporateName<br>
+<li>DC.Contributor.PersonalName.Address
+<li>DC.Contributor.CorporateName.Address</ul><br>
+At DC4 it was decided that role was not needed. It has thus not been
+included here. If needed, it could be included as a local extension. (At the Library of Congress, we
+have found that names are all searched in the same index and there is
+no need to further specify role in the work. We ceased to
+indicate this in bibliographic records a long time ago.)
+<p>
+<strong>7. Date</strong><br>
+Date associated with the creation or availability of the resource.<br>
+NOTE that this definition was changed at DC5.  The date can be a single date or a range of
+dates.<p>
+<em>SCHEME</em>:<ul><li> (Default is ISO 8601)<br>
+<li>ANSI X3.30<br> 
+<li>IETF RFC 822<br>
+<li>(Others?)</ul><br>
+<em>TYPE</em>:  Note that the names of the subelements have not been agreed upon.  The
+Date Working Group continues to work on these.  There was some controversy at the end of DC5 as
+to whether the first two type subelements should be combined.  It was also uncertain whether to
+include the last three subelements.<br>
+<ul><li>DC.Date.Creation_of_intellectual_content<br>
+<li>DC.Date.Creation/Modification_of_present_form<br>
+<li>DC.Date.Formal_publication<br>
+<li>DC.Date.Available<br>
+<li>DC.Date.Valid (includes verification)<br>
+<li>DC.Date.Acquisition/Accession<br>
+<li>DC.Date.Accepted<br>
+<li>DC.Date.DataGathering</ul><br>
+<p>
+<strong>8. Resource Type </strong><br>
+The category of the resource, such as home page, novel, poem, working paper, technical
+  report, essay, dictionary. For the sake of interoperability, <em>type</em> should be
+  selected from an enumerated list that is under development in the workshop series at the
+  time of publication of this document. See <a  
+href="http://sunsite.berkeley.edu/Metadata/types.html">http://sunsite.berkeley.edu/Metadata/types.h
+tml </a>for current thinking on the application of this element.<br>
+<p>
+<em>SCHEME</em>: not necessary, but an enumerated list of types is.<br>
+<p>
+<strong>9. Format  </strong><br>
+The data format of the resource, used to identify the software and possibly hardware
+  that might be needed to display or operate the resource. For the sake of interoperability,
+  <em>format</em> should be selected from an enumerated list that is under development in
+  the workshop series at the time of publication of this document. <br>
+<p>
+<em>SCHEME</em>:<ul><li>IMT (i.e. MIME)<br>
+<li>DCPMT (Dublin Core Physical Medium Type) This is a new concept discussed by the
+Subelement Working Group at DC5.  It would be an enumerated list of types of
+physical media when an IMT is inappropriate (e.g. a nonelectronic resource)
+</ul><br>
+<em>TYPE</em>: not necessary
+<p>
+<strong>10. Resource Identifier </strong><br>
+String or number used to uniquely identify the resource. Examples for networked
+  resources include URLs and URNs (when implemented). Other globally-unique identifiers,such
+  as International Standard Book Numbers (ISBN) or other formal names would also be
+  candidates for this element in the case of off-line resources. <br>
+<p>
+<em>SCHEME</em>:<ul><li> (URL is default)<br>
+<li>URN (Uniform Resource Name)<br>
+<li>ISBN (International Standard Book Number)<br>
+<li>ISSN (International Standard Serial Number)<br>
+<li>SICI (Serial Item and Contribution Identifier) <br>
+<li>FPI (Formal Public Identifier)</ul><br>
+<em>TYPE</em>: Not necessary<br>
+<p>
+<strong>11. Source</strong><br>
+A string or number used to uniquely identify the work from which this resource was
+  derived, if applicable. For example, a PDF version of a novel might have a <em>source</em>
+  element containing an ISBN number for the physical book from which the PDF version was
+  derived. <br>
+<p>
+<em>SCHEME</em>:<ul><li>(Free text is default)<br>
+<li>URL<br>
+<li>URN<br>
+<li>ISBN<br>
+<li>ISSN</ul><br>
+<em>TYPE</em>: not necessary<br>
+<p>
+<strong>12. Language </strong><br>
+     Language(s) of the intellectual content of the resource. 
+     Where practical, the content of this field should coincide
+     with RFC 1766. See: <a
+  href="http://ds.internic.net/rfc/rfc1766.txt">http://ds.internic.net/rfc/rfc1766.txt</a><br>
+<p>
+<em>SCHEME</em>:<ul><li>IETF RFC 1766<br>
+<li>Z39.53<br>
+<li>ISO 639-1<br>
+<li>ISO 639-2/B (after final publication)</ul><br>
+<em>TYPE</em>: Not necessary<br>
+Note that the current ISO 639 (to become ISO 639-1 when ISO 639-2
+3-character code is approved), which is used in RFC 1766, covers only about 140 languages as
+compared with the newly developed standard ISO 639-2, which includes about
+400 languages.  (For instance, ISO 639-1 does not distinguish
+ancient languages from modern languages.)  Many agencies will
+need the larger more extensive list that ISO 639-2 provides. 
+ISO 639-2 was approved in 1997; approval of the Final Draft International Standard is forthcoming
+followed by publication by ISO.  Note that ISO 639-2 includes a bibliographic set (ISO 639-2/B) and
+a terminologic set (ISO 639-2/T); the bibliographic set is preferred for metadata because of its
+widespread use in bibliographic agencies.  The new standard is closer to Z39.53 than to ISO 639-1.
+<p>
+<strong>13. Relation</strong><br>
+     Relationship to other resources.  The intent of specifying
+     this element is to provide a means to express relationships
+     among resources that have formal relationships to others,
+     but exist as discrete resources themselves.  For example,
+     images in a document, chapters in a book, or items in a
+     collection.  A formal specification of RELATION is currently
+     under development.  Users and developers should understand
+     that use of this element should be currently considered
+     experimental.<br>
+<p>
+<em>SCHEME</em>:<ul><li>(Default is free text)<br>
+<li>URL<br>
+<li>URN<br>
+<li>ISBN</ul><br>
+<em>TYPE</em>:  This element is considered to be developing rapidly within the context of
+collection-level descriptions.  Subelements may be defined at a later date.  The following Relation
+categories were enumerated at DC5; these should not be considered formal subelement names:<br>
+<ul><li>Creative (e.g. translation, annotation)<br>
+<li>Mechanical (copy, format change, mirror copy)<br>
+<li>Version (edition, draft)<br>
+<li>Inclusion (collection, part)<br>
+<li>Reference (citation)</ul><br>
+<p>
+<strong>14. Coverage</strong><br>
+The spatial and/or temporal characteristics of the resource. Formal specification 
+of <em>coverage</em> is currently under development. Users and developers should understand
+that use of this element is currently considered to be experimental. <br>
+<p>
+<em>SCHEME</em>:  To be determined by Coverage Working Group<br>
+<em>TYPE</em>: The following were determined by the Coverage Working Group.  More
+information is in <a
+href="http://www.sdc.ucsb.edu/~mary/coverage.htm">http://www.sdc.ucsb.edu/~mary/coverage.
+htm </a> <br>
+<ul><li>DC.Coverage.PeriodName<br>
+<li>DC.Coverage.PlaceName<br>
+<li>DC.Coverage.t<br>
+<li>DC.Coverage.x<br>
+<li>DC.Coverage.y<br>
+<li>DC.Coverage.z<br>
+<li>DC.Coverage.Polygon<br>
+<li>DC.Coverage.Line<br>
+<li>DC.Coverage.3d</ul><br>
+<p>
+<strong>15. Rights Management</strong><br>
+A link to a copyright notice, to a rights-management statement, or to a service that
+ would provide information about terms of access to the resource. Formal specification of
+<em>rights</em>
+  is currently under development. Users and developers should understand that use of this
+  element is currently considered to be experimental.<br>
+<em>SCHEME</em>:<ul><li>(Default is free text)<br>
+<li>URL<br>
+<li>URN</ul><br>
+<em>TYPE</em>: Not necessary; subelements are implementation specific.
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>Dublin Core Metadata Initiative (DCMI) Workshops</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="meta" href="index.shtml.rdf" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body>
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <div align="center">
+      <h1 align="left">DCMI Workshops: DC8</h1>
+
+      <h3 align="left">October 4-6, 2000<br />
+       Ottawa, Canada</h3>
+
+      <h3 align="left">Co-sponsored by the <a
+      href="http://www.nlc-bnc.ca/">National Library of Canada</a>
+      and <a href="http://www.oclc.org/">OCLC Online Computer
+      Library Center, Inc.</a></h3>
+
+      <p align="left">&nbsp;</p>
+
+      <p align="left"><strong>Home Page:</strong> <a
+      href="http://www.ifla.org/udt/dc8/index.htm">http://www.ifla.org/udt/dc8/index.htm</a></p>
+
+      <p align="left"><strong>Call for Participation:</strong> <a
+      href="call.shtml">http://dublincore.org/workshops/dc8/call.shtml</a></p>
+
+      <p align="left"><strong>Workshop Agenda with links to
+      Presentations (both HTML and PowerPoint):</strong> <a
+      href="agenda-resources.shtml">http://dublincore.org/workshops/dc8/agenda-resources.shtml</a></p>
+    </div>
+    <!--#include virtual="/ssi/footer.shtml" -->
+  </body>
+</html>
+

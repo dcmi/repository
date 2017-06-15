@@ -1,0 +1,2604 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en"
+xmlns="http://www.w3.org/1999/xhtml">
+  <head >
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+    <title>DCMI Workshops - DC1: Resources - Bearman</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="resources-bearman.shtml.rdf" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body >
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <p>NOTE: This draft has been provided by the author for
+    informational purposes only. It is a work in progress and
+    should not be considered the authoritative version. Please
+    contact the author for further information on the status of
+    this work:</p>
+
+    <p>David Bearman <a
+    href="mailto:dbear@lis.pitt.edu">dbear@lis.pitt.edu</a></p>
+    <hr />
+
+    <h3>Metadata Requirements for Evidence</h3>
+
+    <p>by David Bearman, Archives &amp; Museum Informatics and Ken
+    Sochats, University of Pittsburgh, School of Library &amp;
+    Information Science</p>
+
+    <p>DRAFT</p>
+
+    <p>10/95</p>
+
+    <p>Introduction: Towards A Reference Model for Business
+    Acceptable Communications Managers in application domains from
+    commerce to health care, and from research and development to
+    manufacturing, are seeking to define standards for data
+    interchange adequate for their business purposes. The
+    literature is replete with discussions of how to enable
+    end-to-end electronic business interaction, how to support the
+    requirements of electronic patient records or electronic
+    laboratory notebooks, and how to implement the documentation
+    demanded by CALS or ISO-9000.(1)</p>
+
+    <p>At the same time, managers of existing information networks
+    and technical personnel charged with planning the National
+    Information Infrastructure of the future, are encountering the
+    requirements to identify, control access, manage software
+    dependencies, represent the business meaning, and document the
+    use of data, in these vast,distributed, heterogeneous,
+    computing environments.(2) Many observers feel that unless we
+    can satisfy requirements for "integrity","authenticity",
+    "reliability" and "archiving" of digital information,the
+    National and Global Information Infrastructures will never be
+    able to support serious work.(3)</p>
+
+    <p>The professions traditionally concerned with evidence and
+    records have not ignored these emerging requirements.(4) At the
+    University of Pittsburgh School of Library and Information
+    Science, faculty and students engaged in a research project
+    funded by the National Historical Publications and Records
+    Commission have been examining the"Functional Requirements for
+    Record keeping" as defined in a broad range of sources from
+    law, regulation and best practices. From this "literary
+    warrant" they have derived a specification of the attributes
+    of"recordness" or evidentiality.(5)</p>
+
+    <p>The specification defines thirteen properties which are
+    identified in law, regulation and best practices throughout the
+    society as the fundamental properties of records.(6) These
+    characteristics can be formally expressed as "production rules"
+    or logical statements of simple observable attributes.(7) One
+    problem associated with deriving a set of requirements from the
+    written prose of the literature is that the specifications are
+    often ambiguous, imprecise and subject to a high degree of
+    interpretation. The research group elected to represent the
+    specification of each of the requirements formally as a set of
+    production rules. The production rule formalism was used during
+    the process of developing a requirement in addition to being
+    used as a representation mechanism for the requirement. This
+    helped to guarantee that the requirement specifications were as
+    explicit and unambiguous as possible. It also allowed the
+    specifications to be logically refined such that the component
+    statements of the specifications were observable states or
+    properties. These observables provided the foundation for the
+    identification of a specific set of metadata which,when
+    present, satisfies the informational needs of the
+    specification. If this metadata is inextricably linked to, and
+    retained with, the data associated with each business
+    transaction it guarantees that the data object will be usable
+    over time, be accessible only under the terms and conditions
+    established by its creator, and have properties required to be
+    fully trustworthy for purposes of executing business.(8)
+    Additional metadata retained in system and organizational
+    accountability documentation assures full evidentiality.</p>
+
+    <p>In order to facilitate implementation of environments in
+    which electronic evidence can be created, the project has taken
+    its findings one step further and proposed a "Reference Model"
+    for "Business Acceptable Communications (BAC)". The metadata
+    requirements for evidentiality or "recordness" are necessary
+    components of the reference model. One could imagine this as a
+    scheme for addressing electronic envelopes containing business
+    communications that would ensure that the envelope could be
+    opened by different computers and software in the future and
+    its contents would still be completely understandable. Because
+    it has been empirically found to correspond closely with the
+    metadata specified in or required by strategies adopted by a
+    range of discrete standardization efforts underway in a variety
+    of application niches, the reference model appears to have
+    relevance to, and value for, the process of defining standards
+    for any type of BAC.(9)</p>
+
+    <p>The need for such a standard is widespread. Not only would
+    it make communications received over networks trustworthy for
+    the purposes of conducting business, and help to ensure
+    accountability and protect organizations against the risks of
+    loss of proof of their past behavior, it would greatly
+    simply:</p>
+
+    <p>the management of huge volumes of communications from
+    heterogeneous hosts,the proper retention and disposition of
+    records,auditing the use of records for business, and the
+    appropriate management of private, secure, proprietary and
+    business confidential data.</p>
+
+    <p>A side effect of such a record keeping standard is that it
+    will enhance the business value of the data that it preserves.
+    These business benefits include:</p>
+
+    <ul>
+      <li>providing data for market and other research.</li>
+
+      <li>documenting decisions, policies, events, etc.</li>
+
+      <li>documenting R&amp;D and other business related
+      processes.</li>
+    </ul>
+
+    <p>To understand what data is necessary for such
+    communications, we must begin by examining the nature of
+    electronic evidence (or the essential properties of
+    records).</p>
+
+    <p>Records are at one and the same time the carriers, products
+    and documentation, of business transactions. Transactions
+    (trans-actions) by definition are actions communicated from one
+    person to another, from a person to a store of information
+    (such as a filing cabinet or computer database) and thereby
+    available to another person at a later time, or communications
+    from a store of information to a person or another
+    computer.(10) Because such transactions must leave the mind,
+    computer memory, or software process in which they are created
+    (or must be used, "over-the-shoulder" as it were, by a person
+    with access to the same computer memory), the transaction
+    record must be conveyed across a software layer, and typically
+    across a number of hardware devices.</p>
+
+    <p>Not all data that has been is communicated across software
+    and hardware layers is a record. In fact, most information
+    created by and managed in information systems, is not a record
+    because it lacks the properties of evidence. Records oriented
+    professionals within organizations, such as senior management,
+    legal counsel, auditors, Freedom of Information and Privacy
+    officials, and archivists all require records, and not just
+    information, but creators of the records frequently only need
+    continued access to the information to support their work.
+    Therefore, application environments that support the ongoing
+    work of the organization frequently, or even usually, do not
+    satisfy the requirements for creating evidence. In this paper
+    we subsequently distinguish between the terms "records" and
+    "data", using records exclusively when we mean information that
+    provides evidence of a transaction.</p>
+
+    <p>The Functional Requirements for Evidence within Record
+    keeping</p>
+
+    <p>Any organization that wants to use electronic documentation
+    as evidence in the future will need to satisfy the requirements
+    of evidence in the normal course of conducting its business. It
+    has been difficult to do so in the computer based
+    communications environments we have implemented in the past
+    because applications software sold by third parties has not met
+    these requirements. Information systems are generally designed
+    to hold timely, non-redundant and manipulable information,
+    while record keeping systems store time bound, inviolable and
+    redundant records. Few, if any, in-house information managers
+    have been able to devote the energy to rigorous definition of
+    the distinct requirements for record keeping or, if they had,
+    would be able to envision how to satisfy these throughout all
+    systems. Without such explicit and testable specifications,
+    computing application and electronic communications systems
+    have failed to satisfy the requirements for record keeping and
+    are, therefore, a growing liability to companies even while
+    they are contributing directly to day-to-day corporate
+    effectiveness.</p>
+
+    <p>The University of Pittsburgh research project identified
+    hundreds of sources in law, regulation, best practice
+    guidelines, and general societal discourse which relate to the
+    properties of evidence. From these it is clear that if records
+    that are critical to the organization for long term
+    accountability and to protect its rights are not created by
+    transactions, they cannot be created after the fact from data
+    in information systems. Information captured in the process of
+    communication will only be evidence if the content, structure
+    and context metadata required to satisfy the functional
+    requirements for record keeping is captured, maintained and
+    usable. The requirements of record keeping are corporate
+    requirements, not those of any given business function or
+    application, and are therefore present for any communications.
+    They are the foundation of good business practices and are
+    essential elements in reducing the risks of increased
+    liabilities and decreased opportunities that accompany poor
+    record keeping practices.</p>
+
+    <p>The functional requirements in table 1 below are derived
+    from the many sources we consulted which defined what
+    constitutes evidence. In addition to interviewing experts, we
+    have systematically reviewed hundreds of sources considered
+    authoritative by lawyers, auditors, information technology
+    specialists and archivists and records managers. In these
+    sources we have identified statements that pertain explicitly
+    to the characteristics or attributes of evidence or records.
+    Analysis of these authoritative sources revealed twenty
+    functional requirements for evidence which fell into three
+    broad categories. In retrospect the small number of
+    requirements should not have surprised us, since they reflect a
+    relatively tight social consensus about what it means for
+    written testimony about an act in the past to be considered
+    trustworthy in the future.</p>
+
+    <p>Table 1: FUNCTIONAL REQUIREMENTS FOR EVIDENCE IN RECORD
+    KEEPING</p>
+<pre>
+Conscientious Organization
+</pre>
+<pre>
+        Compliant (1)
+</pre>
+<pre>
+Accountable Record keeping System
+</pre>
+<pre>
+        Responsible
+</pre>
+<pre>
+                Assigned (2)
+</pre>
+<pre>
+                Documented (3)
+</pre>
+<pre>
+        Implemented (4)
+</pre>
+<pre>
+        Consistent (5)
+</pre>
+<pre>
+Functional Records
+</pre>
+<pre>
+        Comprehensive (6)
+</pre>
+<pre>
+        Identifiable (7)
+</pre>
+<pre>
+        Complete
+</pre>
+<pre>
+                Accurate (8)
+</pre>
+<pre>
+                Understandable (9)
+</pre>
+<pre>
+                Meaningful (10)
+</pre>
+<pre>
+        Authorized (11)
+</pre>
+<pre>
+        Preserved
+</pre>
+<pre>
+                Inviolate (12)
+</pre>
+<pre>
+                Coherent (13)
+</pre>
+<pre>
+                Auditable (14)
+</pre>
+<pre>
+        Removable (15)
+</pre>
+<pre>
+        Exportable (16)
+</pre>
+<pre>
+        Accessible
+</pre>
+<pre>
+                Available (17)
+</pre>
+<pre>
+                Renderable (18)
+</pre>
+<pre>
+                Evidential (19)
+</pre>
+<pre>
+        Redactable (20)
+</pre>
+
+    <p>Organization: Conscientious</p>
+
+    <p>1. Compliant: Organizations must comply with the legal and
+    administrative requirements for record keeping within the
+    jurisdictions in which they operate, and they must demonstrate
+    awareness of best practices for the industry or business sector
+    to which they belong and the business functions in which they
+    are engaged.</p>
+
+    <p>1a. External record keeping requirements are known.</p>
+
+    <p>1a1. Laws of jurisdiction with authority over the record
+    creating organizations are known.</p>
+
+    <p>1a2. Regulatory issuances of entities with administrative
+    authority over the record creating organizations are known.</p>
+
+    <p>1a3. Best practices of record keeping established by
+    professional and business organizations within the industry and
+    business functions of the organization are known.</p>
+
+    <p>1b. Records created by organizational business transactions
+    which are governed by external record keeping requirements are
+    linked to an internal retention rule referencing the documented
+    law, regulation, or statement of best practice.</p>
+
+    <p>1c. Laws, regulations, and statements of best practice with
+    requirements for record keeping are tracked so that changes to
+    them are reflected in updated internal record keeping
+    instructions.</p>
+
+    <p>Record keeping Systems: Accountable</p>
+
+    <p>2. Responsible: Record keeping systems must have accurately
+    documented policies, assigned responsibilities, and formal
+    methodologies for their management.</p>
+
+    <p>2a. Assigned A person or office is designated in writing as
+    responsible for satisfying record keeping requirements in each
+    system.</p>
+
+    <p>2b. Documented</p>
+
+    <p>2b1. System policies and procedures are written and changes
+    to them are maintained and current.</p>
+
+    <p>2b2. System management methods are defined for all routine
+    tasks.</p>
+
+    <p>2b3. System management methods are defined for events in
+    which the primary system fails.</p>
+
+    <p>3. Implemented: Record keeping systems must be employed at
+    all times in the normal course of business.</p>
+
+    <p>3a. Business transactions are conducted only through the
+    documented record keeping system and its documented exception
+    procedures.</p>
+
+    <p>3b. No records can be created in the record keeping systems
+    except through execution of a business transaction.</p>
+
+    <p>3c. Record keeping systems and/or documented exception
+    procedures can be demonstrated to have been operating at all
+    times.</p>
+
+    <p>4. Consistent: Record keeping systems must process
+    information in a fashion that assures that the records they
+    create are credible.</p>
+
+    <p>4a. Identical data processes permitted by the system must
+    produce identical outcomes regardless of the conditions under
+    which they are executed.</p>
+
+    <p>4b. Results of executing systems logic are demonstrable
+    outside the system.</p>
+
+    <p>4c. All operational failures to execute instructions are
+    reported by the system.</p>
+
+    <p>4d. In the event of system failures, processes under way are
+    recovered and re-executed.</p>
+
+    <p>Records: Captured</p>
+
+    <p>5. Comprehensive: Records must be created for all business
+    transactions.</p>
+
+    <p>5a. Communications in the conduct of business between two
+    people, between a person and a store of information available
+    to others, and between a source of information and a person,
+    all generate a record.</p>
+
+    <p>5b. Data interchanged within and between computers under the
+    control of software employed in the conduct of business creates
+    a record when the consequence of the data processing function
+    is to modify records subsequently employed by people in the
+    conduct of business.</p>
+
+    <p>6. Identifiable: Records must be bounded by linkage to a
+    transaction which used all the data in the record and only that
+    data.</p>
+
+    <p>6a. There exists a discrete record, representing the sum of
+    all data associated with a business transaction.</p>
+
+    <p>6b. All data in the record belongs to the same
+    transaction.</p>
+
+    <p>6c. Each record is uniquely identified.</p>
+
+    <p>7. Complete: Records must contain the content, structure,
+    and context generated by the transaction they document.</p>
+
+    <p>7a. Accurate: The content of records must be quality
+    controlled at input to ensure that information in the system
+    correctly reflects what was communicated in the
+    transaction.</p>
+
+    <p>7a1. Data capture practices and system functions ensure that
+    source data is exactly replicated by system or corrected to
+    reflect values established in system authority files.</p>
+
+    <p>7b. Understandable: The relationship between elements of
+    information content must be represented in a way that supports
+    their intended meaning.</p>
+
+    <p>7b1. Meaning conveyed by presentation of data are retained
+    or represented.</p>
+
+    <p>7b2. System defined views or permissions are retained and
+    the effects are reflected in the record represented.</p>
+
+    <p>7b3. Logical relations defined across physical records are
+    retained or represented.</p>
+
+    <p>7b4. Software functionality invoked by data values in the
+    content of the record are supported or represented.</p>
+
+    <p>7c. Meaningful: The contextual linkages of records must
+    carry information necessary to understand correctly the
+    transactions that created and used them.</p>
+
+    <p>7c1. The business rules for transactions, which minimally
+    locate the transaction within a business function, are
+    captured.</p>
+
+    <p>7c2. A representation of the source and time of the
+    transaction which generated a record is captured.</p>
+
+    <p>7c3. Links between transactions which comprised a single
+    logical business activity are captured.</p>
+
+    <p>8. Authorized: An authorized records creator must have
+    originated all records.</p>
+
+    <p>8a. All records have creators which are documented.</p>
+
+    <p>8b. Records creators must have been authorized to engage in
+    the business transaction that generated the record.</p>
+
+    <p>Records: Maintained</p>
+
+    <p>9. Preserved: Records must continue to reflect content,
+    structure, and context within any systems by which the records
+    are retained over time.</p>
+
+    <p>9a. Inviolate: Records are protected from accidental or
+    intended damage or destruction and from any modification.</p>
+
+    <p>9a1. No data within a record may be deleted, altered, or
+    lost once the transaction which generated it has occurred.</p>
+
+    <p>9b. Coherent: The information content and structure of
+    records must be retained in reconstructible relations.</p>
+
+    <p>9b1. If records are migrated to new software environments,
+    content, structure, and context information must be linked to
+    software functionality that preserves their executable
+    connections or representations of their relations must enable
+    humans to reconstruct the relations that pertained in the
+    original software environment.</p>
+
+    <p>9b2. Logical record boundaries must be preserved regardless
+    of physical representations.</p>
+
+    <p>9c. Auditable: Record context represents all processes in
+    which records participated.</p>
+
+    <p>9c1. All uses of records are transactions.</p>
+
+    <p>9c2. Transactions which index, classify, schedule, file,
+    view, copy, distribute, or move a record without altering it
+    are documented by audit trails attached to the original
+    record.</p>
+
+    <p>9c3. Transactions which execute a records disposition
+    instruction, whether for retention or destruction, are
+    documented by audit trails attached to the original record.</p>
+
+    <p>10. Removable: Records content and structure supporting the
+    meaning of content must be deletable.</p>
+
+    <p>10a. Authority for deletion of record content and structure
+    exists.</p>
+
+    <p>10b. Deletion transactions are documented as audit
+    trails.</p>
+
+    <p>10c. Deletion transactions remove the content and structural
+    information of records without removing audit trails reflecting
+    context.</p>
+
+    <p>Records: Usable</p>
+
+    <p>11. Exportable: It must be possible to transmit records to
+    other systems without loss of information.</p>
+
+    <p>11a. Exporting protocols should be reversible.</p>
+
+    <p>11b. Functionality should be represented in a fashion that
+    produces the same result in the target system as in the
+    originating environment.</p>
+
+    <p>12. Accessible: It must be possible to output record
+    content, structure, and context.</p>
+
+    <p>12a. Available: Records must be available.</p>
+
+    <p>12b. Renderable: Records must display, print, or be
+    abstractly represented as they originally appeared at the time
+    of creation and initial receipt.</p>
+
+    <p>12b1. The structure of data in a record must appear to
+    subsequent users as it appeared to the recipient of the record
+    in the original transaction or a human meaningful
+    representation of that original rendering should accompany the
+    presentation of the original context.</p>
+
+    <p>12c. Evidential: Record's representations must reflect the
+    context of the creation and use of the records.</p>
+
+    <p>13. Redactable: Records must be masked when it is necessary
+    to deliver censored copies and the version as released must be
+    documented in a linked transaction.</p>
+
+    <p>13a. The release of redacted versions of a record is a
+    discrete business transaction.</p>
+
+    <p>13b. The fact of the release of a redacted version of a
+    record is an auditable use of the original record and therefore
+    results in creation of an audit trail with a link to the
+    transaction which released the redaction.</p>
+
+    <p>[It should be noted by the reader that these requirements
+    delineate the requirements for evidence in record keeping Thus,
+    they are only a subset of the functional requirements for an
+    automated record keeping systems environment. Requirements for
+    security, compatibility, interfaces, standards, business
+    strategy and similar issues would need to be addressed in a
+    comprehensive statement of the requirements for acquiring a
+    record keeping system.]</p>
+
+    <p>Over the course of the past two years, this prose
+    requirements statement has been subjected to rigorous analysis
+    as we expressed it in a formal representation. This version,
+    which we call the "Production Rules Representation of the
+    Functional Requirements for Evidence" has forced us to
+    operationalize a number of concepts that are not very precise
+    in the literary warrant and were not specific enough in the
+    prose specification to ensure that a computer system would be
+    able to validate their presence or absence. Care has been taken
+    in the development of the specification of the requirements to
+    include only those elements that are required to delineate the
+    requirement. It is very easy to fall into the trap of
+    overspecification and include statements that would pre-define
+    some level of implementation. For this reason, some of the
+    requirements appear to to be very abstract. These higher level
+    specifications need to be further defined by the implementer to
+    indentify specific system design artifacts. We have made an
+    effort to ensure that only observable data or calculations from
+    observables reside at the leaf nodes of the production rules.
+    The observables consist of metadata and a very limited
+    predicate vocabulary has been used to simplify system
+    requirements for auditing the production rules. The production
+    rules representation is reproduced in table 2, below.</p>
+
+    <p>Table 2: PRODUCTION RULE REPRESENTATION OF REQUIREMENTS FOR
+    EVIDENCE</p>
+<pre>
+&lt;RECORD KEEPING_REQUIREMENTS Satisfied&gt;: (1.0)
+</pre>
+<pre>
+        &lt;ORGANIZATION Compliant&gt; (2.0)
+</pre>
+<pre>
+        &lt;SYSTEM Accountable&gt; (3.0)
+</pre>
+<pre>
+        &lt;RECORDS Functional&gt; (4.0)
+</pre>
+<pre>
+&lt;ORGANIZATION Compliant&gt; :(2.0)
+</pre>
+<pre>
+        &lt;EXTERNAL_REQUIREMENTS Delineated&gt; (2.0a)
+</pre>
+<pre>
+        &lt;Linked INTERNAL_RULES EXTERNAL_REQUIREMENTS &gt; (2.0b)
+</pre>
+<pre>
+        &lt;INTERNAL_RULES Up-to-Date&gt; (2.0c)
+</pre>
+<pre>
+&lt;EXTERNAL_REQUIREMENTS Delineated&gt;: (2.0a)     
+</pre>
+<pre>
+        &lt;LEGAL_REQUIREMENTS Known&gt;(2.0a1)
+</pre>
+<pre>
+        &lt;REGULATORY_ISSUANCES Identified&gt; (2.0a2)
+</pre>
+<pre>
+        &lt;BEST_PRACTICES Identified&gt; (2.0a3)
+</pre>
+<pre>
+&lt;LEGAL_REQUIREMENTS Known&gt;:(2.0a1)     
+</pre>
+<pre>
+        &lt;LEGISLATIVE_AUTHORITY Identified&gt;(2.0a1a)             
+</pre>
+<pre>
+        &lt;Has_Jurisdiction LEGISLATIVE_AUTHORITY  ORGANIZATION&gt; (2.0a1b)
+</pre>
+<pre>
+        &lt;Notification_Methods(LEGISLATIVE_AUTHORITY) Identified&gt;(2.0a1c)
+</pre>
+<pre>
+        &lt;Relevant Laws(LEGISLATIVE_AUTHORITY) 
+</pre>
+<pre>
+                                RECORD KEEPING_REQUIREMENTS&gt;(2.0a1d)
+</pre>
+<pre>
+        &lt;Relevant Laws(LEGISLATIVE_AUTHORITY) ORGANIZATION&gt;(2.0a1e)
+</pre>
+<pre>
+        &lt;Laws(LEGISLATIVE_AUTHORITY) In-effect&gt;(2.0a1f)
+</pre>
+<pre>
+&lt;REGULATORY_ISSUANCES Known&gt;: (2.0a2)  
+</pre>
+<pre>
+        &lt;REGULATOR Identified&gt;(2.0a2a)
+</pre>
+<pre>
+        &lt;Has_Legal_Authority REGULATOR ORGANIZATION&gt; (2.0a2b)
+</pre>
+<pre>
+        &lt;Has_Administrative_Authority REGULATOR ORGANIZATION&gt; (2.0a2c)
+</pre>
+<pre>
+        &lt;Relevant Regulatory_Issuances(REGULATOR)
+</pre>
+<pre>
+                                         RECORD KEEPING_REQUIREMENTS&gt;(2.0a2d)
+</pre>
+<pre>
+        &lt;Notification_Methods(REGULATOR) Identified&gt;(2.0a2e)
+</pre>
+<pre>
+        &lt;Relevant Regulatory_Issuances(REGULATOR) ORGANIZATION&gt;(2.0a2f)
+</pre>
+<pre>
+        &lt;Regulatory_Issuances(REGULATOR) In-effect&gt;(2.0a2g)
+</pre>
+<pre>
+&lt;BEST_PRACTICES Known&gt;: (2.0a3)
+</pre>
+<pre>
+        &lt;PROFESSIONAL_ORGANIZATION Identified&gt;(2.0a3a)
+</pre>
+<pre>
+        &lt;Has_Purview PROFESSIONAL_ORGANIZATION BUSINESS_FUNCTION&gt;(2.0a3b)
+</pre>
+<pre>
+        &lt;Notification_Methods(PROFESSIONAL_ORGANIZATION) Identified&gt;(2.0a2e)
+</pre>
+<pre>
+        &lt;Relevant Best_Practices(PROFESSIONAL_ORGANIZATION)
+</pre>
+<pre>
+                                         RECORD KEEPING_REQUIREMENTS&gt; (2.0a3d)
+</pre>
+<pre>
+        &lt;Relevant Best_Practices(PROFESSIONAL_ORGANIZATION)
+</pre>
+<pre>
+ORGANIZATION&gt;                                                                                   (2.0a3e)
+</pre>
+<pre>
+        &lt;Best_Practices(PROFESSIONAL_ORGANIZATION) In-effect&gt; (2.0a3f)
+</pre>
+<pre>
+&lt;Linked EXTERNAL_REQUIREMENTS INTERNAL_RULES&gt;: (2.0b)  
+</pre>
+<pre>
+        &lt;Cited Rule_Identifier(RECORD) Identifier(RETENTION_RULE)&gt; (2.0b1)
+</pre>
+<pre>
+        &lt;Cited External_Identifier(RETENTION_RULE)
+</pre>
+<pre>
+                                Identifier(EXTERNAL_REQUIREMENT)&gt;  (2.0b2)
+</pre>
+<pre>
+&lt;INTERNAL_RULES Up-to_Date&gt;: (2.0c)    
+</pre>
+<pre>
+        &lt;NOTIFICATIONS Acquired) &gt;(2.0c1)
+</pre>
+<pre>
+        &lt;Derived EXTERNAL_REQUIREMENTS NOTIFICATION&gt;(2.0c2)
+</pre>
+<pre>
+&lt;SYSTEM Accountable&gt; :  (3.0)
+</pre>
+<pre>
+        &lt;SYSTEM Responsible&gt; (3.0a)
+</pre>
+<pre>
+        &lt;SYSTEM Implemented&gt; (3.0b)
+</pre>
+<pre>
+        &lt;SYSTEM Consistent&gt; (3.0c)
+</pre>
+<pre>
+&lt;SYSTEM Responsible&gt; : (3.0a)
+</pre>
+<pre>
+        &lt;MANAGEMENT Formalized&gt; (3.0a1)
+</pre>
+<pre>
+&lt;MANAGEMENT Formalized&gt;: (3.0a1)       
+</pre>
+<pre>
+        &lt;Defined  MANAGEMENT_METHODS TRANSACTIONS &gt; (3.0a1b)
+</pre>
+<pre>
+        &lt;Defined  BUSINESS_PROCESSES TRANSACTIONS &gt; (3.0a1c)
+</pre>
+<pre>
+&lt;Defined MANAGEMENT_METHODS TRANSACTIONS &gt;: (3.0a1a)
+</pre>
+<pre>
+        &lt;MANAGEMENT_METHODS Written&gt; (3.0a1a1)
+</pre>
+<pre>
+        &lt;Prescribed BUSINESS_RULES TRANSACTIONS&gt; (3.0a1a)
+</pre>
+<pre>
+        &lt;Permissions(TRANSACTION) Assigned&gt; (3.0a1a5)
+</pre>
+<pre>
+&lt;Defined BUSINESS_PROCESSES TRANSACTIONS&gt;: (3.0a1b)    
+</pre>
+<pre>
+        &lt;BUSINESS_PROCESSES Written&gt; (3.0a1b1)
+</pre>
+<pre>
+        &lt;Prescribed BUSINESS_PROCESSES TRANSACTIONS&gt; (3.0a1a)
+</pre>
+<pre>
+        &lt;Permissions(AGENTS) Assigned&gt;(3.0a1b2)
+</pre>
+<pre>
+&lt;SYSTEM Implemented&gt;: (3.0b)   
+</pre>
+<pre>
+        &lt;SYSTEM In_Effect&gt; (3.0b1)
+</pre>
+<pre>
+        &lt;State(SYSTEM) Functioning &gt; (3.0b3a)
+</pre>
+<pre>
+&lt;SYSTEM In_Effect&gt; :(3.0b1)
+</pre>
+<pre>
+        &lt;Processed_By  PROCEDURE TRANSACTION&gt; (3.0b1a)
+</pre>
+<pre>
+&lt;SYSTEM In_Effect&gt; :(3.0b1)    
+</pre>
+<pre>
+        &lt;Processed_By EXCEPTION_PROCEDURE TRANSACTION &gt; (3.0b1a')
+</pre>
+<pre>
+&lt;SYSTEM Consistent&gt; : (3.0c)   
+</pre>
+<pre>
+        &lt;OUTCOME Uniform&gt; (3.0c1)
+</pre>
+<pre>
+        &lt;SYSTEM Logical&gt; (3.0c2)
+</pre>
+<pre>
+        &lt;FAILURES Evident&gt; (3.0c3)
+</pre>
+<pre>
+        &lt;FAILURES Corrected&gt; (3.0c4)
+</pre>
+<pre>
+&lt;OUTCOMES Uniform&gt;:  (3.0c1)   
+</pre>
+<pre>
+        &lt;Equal SYSTEM_PROCESS(Transaction Time1)
+</pre>
+<pre>
+SYSTEM_PROCESS(Transaction Time2) )&gt; (3.0c1a)
+</pre>
+<pre>
+&lt;SYSTEM Logical&gt;:  (3.0c2)     
+</pre>
+<pre>
+        &lt;Equal TEST(SYSTEM_LOGIC) (BUSINESS_RULES)&gt; (3.0c2a)
+</pre>
+<pre>
+&lt;FAILURES Evident&gt;:  (3.0c3)   
+</pre>
+<pre>
+        &lt;Creates RECORD FAILURE &gt; (3.0c3a)
+</pre>
+<pre>
+&lt;FAILURES Corrected&gt;: (3.0c4)  
+</pre>
+<pre>
+        &lt;PROCESSES Recovered&gt; (3.0c4a)
+</pre>
+<pre>
+        &lt;PROCESSES Re-executed&gt; (3.0c4b)
+</pre>
+<pre>
+&lt;RECORDS Functional&gt;: (4.0)
+</pre>
+<pre>
+        &lt;RECORDS Captured&gt; (4.0a)
+</pre>
+<pre>
+        &lt;RECORDS Maintained&gt; (4.0b)
+</pre>
+<pre>
+        &lt;RECORDS Usable&gt; (4.0c)
+</pre>
+<pre>
+&lt;RECORDS Captured&gt;:  (4.0a)
+</pre>
+<pre>
+        &lt;RECORDS Comprehensive&gt; (4.0a1)
+</pre>
+<pre>
+        &lt;RECORDS Identifiable&gt; (4.0a2)
+</pre>
+<pre>
+        &lt;RECORDS Complete&gt; (4.0a3)
+</pre>
+<pre>
+        &lt;RECORDS Authorized&gt; (4.0a4)
+</pre>
+<pre>
+&lt;RECORDS Comprehensive&gt; (4.0a1):
+</pre>
+<pre>
+        &lt;Create RECORDS  TRANSACTIONS&gt; (4.0a1a)
+</pre>
+<pre>
+&lt;RECORD Identifiable&gt;: (4.0a2)
+</pre>
+<pre>
+        &lt;Cited Transaction_Identifier(RECORD) Identifier(TRANSACTION)&gt; (4.0a2a)
+</pre>
+<pre>
+        &lt;Identifier(RECORD) Unique&gt; (4.0a2b)
+</pre>
+<pre>
+&lt;RECORD Complete&gt; : (4.0a3)
+</pre>
+<pre>
+        &lt; RECORD Accurate&gt; (4.0a3a)
+</pre>
+<pre>
+        &lt; RECORD Understandable&gt; (4.0a3b)
+</pre>
+<pre>
+        &lt; RECORD Meaningful&gt; (4.0a3c)
+</pre>
+<pre>
+               
+</pre>
+<pre>
+&lt; RECORD Accurate&gt; (4.0a3a):
+</pre>
+<pre>
+        &lt;Contains Content( RECORD) TRANSACTION  &gt; (4.0a3a1)
+</pre>
+<pre>
+&lt; RECORD Understandable&gt;:  (4.0a3b)    
+</pre>
+<pre>
+        &lt;Contains Presentation_Data(RECORD)  DATA_PRESENTATION &gt; (4.0a3b1)
+</pre>
+<pre>
+        &lt;Contains System_Views(RECORD) SYSTEM_VIEWS&gt; (4.0a3b2)
+</pre>
+<pre>
+        &lt;Contains Logical_Relations(RECORD) LOGICAL_RELATIONS&gt; (4.0a3b3)
+</pre>
+<pre>
+        &lt;Contains Functionality(RECORD) FUNCTIONALITY&gt; (4.0a3b4)
+</pre>
+<pre>
+        &lt;Contains Permissions(RECORD) PERMISSIONS&gt;(4.0a3b5)
+</pre>
+<pre>
+&lt; RECORD Meaningful&gt; : (4.0a3c)
+</pre>
+<pre>
+        &lt;Contains Business_Rules(RECORD) BUSINESS_RULES &gt; (4.0a3c1)
+</pre>
+<pre>
+        &lt;Cited Transaction_Identifier(RECORD) Identifier(TRANSACTION) &gt; (4.0a3c2)
+</pre>
+<pre>
+        &lt;Contains Record_Links(RECORD) BUSINESS_PROCESS&gt; (4.0a3c3)
+</pre>
+<pre>
+&lt;RECORDS Authorized&gt; : (4.0a4) 
+</pre>
+<pre>
+        &lt;Conduct TRANSACTION RESPONSIBLE_AGENT&gt; (4.0a4a)
+</pre>
+<pre>
+        &lt;Equal Permission(AGENT) Permission(TRANSACTION)&gt; (4.0a4b)
+</pre>
+<pre>
+        &lt;Permission(AGENT) Documented &gt; (4.0a4c)
+</pre>
+<pre>
+&lt;RECORDS Maintained&gt; :  (4.0b)
+</pre>
+<pre>
+        &lt;RECORDS Preserved&gt; (4.0b1)
+</pre>
+<pre>
+        &lt;RECORDS Removable&gt; (4.0b2)
+</pre>
+<pre>
+&lt;RECORDS Preserved&gt;: (4.0b1)   
+</pre>
+<pre>
+        &lt;RECORDS Inviolate&gt; (4.0b1a)
+</pre>
+<pre>
+        &lt;RECORDS Coherent&gt; (4.0b1b)
+</pre>
+<pre>
+        &lt;RECORDS Auditable&gt; (4.0b1c)
+</pre>
+<pre>
+&lt;RECORDS Inviolate&gt;:  (4.0b1a) 
+</pre>
+<pre>
+        &lt;Equal Content(RECORD ?T1) Content(RECORD ?T2)&gt; (4.0b1a1)
+</pre>
+<pre>
+               
+</pre>
+<pre>
+&lt;RECORDS Coherent&gt;:  (4.0b1b)  
+</pre>
+<pre>
+        &lt;SYSTEM Changed&gt; (4.0b1b1)
+</pre>
+<pre>
+        &lt;Equivalent Structure(RECORD ?T1)  Structure(RECORD ?T1)&gt; (4.0b1b2)
+</pre>
+<pre>
+&lt;RECORDS Auditable&gt;:  (4.0b1c) 
+</pre>
+<pre>
+        &lt;Use RECORD TRANSACTION&gt; (4.0b1c1)
+</pre>
+<pre>
+        &lt;Log USE History(RECORD)&gt;  (4.0b1c2)
+</pre>
+<pre>
+&lt;RECORDS Removable&gt;:  (4.0b2)  
+</pre>
+<pre>
+        &lt;DELETE Authorized&gt; (4.0b2a)
+</pre>
+<pre>
+        &lt;DELETE Audited&gt; (4.0b2b)
+</pre>
+<pre>
+        &lt;DELETE Complete&gt; (4.0b2c)
+</pre>
+<pre>
+&lt;DELETE Complete&gt; (4.0b2c)      :
+</pre>
+<pre>
+        &lt;Content(RECORD) Deleted&gt; (4.0b2c1)
+</pre>
+<pre>
+        &lt;Structure(RECORD) Deleted&gt; (4.0b2c2)
+</pre>
+<pre>
+        &lt;NOT (Context(RECORD) Deleted)&gt; (4.0b2c3)
+</pre>
+<pre>
+        &lt;NOT (History(RECORD) Deleted)&gt; (4.0b2c4)
+</pre>
+<pre>
+&lt;RECORDS Usable&gt;        : (4.0c)
+</pre>
+<pre>
+        &lt;RECORDS Exportable&gt; (4.0c1)
+</pre>
+<pre>
+        &lt;RECORDS Accessible&gt; (4.0c2)
+</pre>
+<pre>
+        &lt;RECORDS Redactable&gt; (4.0c3)
+</pre>
+<pre>
+&lt;RECORDS Exportable&gt;: (4.0c1)  
+</pre>
+<pre>
+        &lt;Equal Content(RECORD, ?SYSTEMA) Content(RECORD ?SYSTEMB)&gt;(4.0c1a)
+</pre>
+<pre>
+        &lt;Equal Context(RECORD, ?SYSTEMA) Context(RECORD ?SYSTEMB)&gt;(4.0c1b)
+</pre>
+<pre>
+        &lt;Equal PastHistory(RECORD, ?SYSTEMA) History(RECORD ?SYSTEMB)&gt;(4.0c1c)
+</pre>
+<pre>
+        &lt;Equivalent Structure(RECORD, ?SYSTEMA) Structure(RECORD ?SYSTEMB)&gt;(4.0c1d)
+</pre>
+<pre>
+&lt;RECORDS Accessible&gt;: (4.0c2)  
+</pre>
+<pre>
+        &lt;RECORDS Available&gt; (4.0c2a)
+</pre>
+<pre>
+        &lt;RECORDS Renderable&gt;: (4.0c2b) 
+</pre>
+<pre>
+        &lt;RECORDS Evidential&gt;: (4.0c2c) 
+</pre>
+<pre>
+&lt;RECORDS Available&gt;: (4.0c2a)  
+</pre>
+<pre>
+        &lt;Operates RETRIEVAL_MECHANISM&gt;(4.0c2a1)
+</pre>
+<pre>
+&lt;RECORDS Renderable&gt;: (4.0c2b) 
+</pre>
+<pre>
+        &lt;Equivalent Display(RECORD ?TIME1) Display(RECORD ?TIME2)&gt;(4.0c2b1)
+</pre>
+<pre>
+&lt;RECORDS Evidential&gt;: (4.0c2c) 
+</pre>
+<pre>
+        &lt;Display USE History(RECORD) &gt;(4.0c2c1)
+</pre>
+<pre>
+&lt;RECORDS Redactable&gt;: (4.0c3)  
+</pre>
+
+    <p>Metadata Specifications for Evidence</p>
+
+    <p>Ideally a metadata specification for evidence could be
+    completely deducible from the Production Rules version of the
+    Functional Requirements for Evidence. We believe we have
+    achieved such a specification and that it serves to identify
+    the data required for such purposes as are proposed in the
+    draft NIST standard for a "Record Description Record" or the
+    Research Library Group/Commission on Preservation and Access
+    Task Force on Archiving of Digital Information. We also believe
+    this specification satisfies the needs for entries in
+    electronic laboratory notebooks, electronic patient records and
+    multivalent electronic commerce.</p>
+
+    <p>The functional requirements for record keeping dictate the
+    creation of records that are comprehensive, identifiable
+    (bounded), complete (containing content, structure and
+    context), and authorized. These four properties are defined by
+    the requirements in sufficient detail to permit us to specify
+    what metadata items would need to describe them in order to
+    audit these properties. This descriptive metadata cannot be
+    separated from them or changed after the record has been
+    created. Several additional requirements define how the data
+    must be maintained and ultimately how it and other metadata can
+    be used when the record is accessed in the future. The metadata
+    created with the record must allow the record to be preserved
+    over time and ensure that it will continue to be usable long
+    after the individuals, computer systems and even information
+    standards under which it was created have ceased to be. The
+    metadata required to ensure that functional requirements are
+    satisfied must be captured by the overall system through which
+    business is conducted, which includes personnel, policy,
+    hardware and software</p>
+
+    <p>We envisage transactions taking place as metadata
+    encapsulated objects, although records might not be physically
+    stored in this manner. When transmitted, the contents of the
+    transaction would be preceded by information identifying the
+    record, the terms for access, the way to open and read it, and
+    the business meaning of the communication much as a train of
+    baggage cars is preceded by an engine. Metadata encapsulated
+    objects may contain other metadata encapsulated objects,
+    because records frequently consist of other records brought
+    together under a new "cover", as when correspondence, reports
+    and results of database projections are forwarded to a
+    management committee for decision. They may also contain the
+    information content of previous records which have been copied
+    into an information system where the creator of this
+    transaction has had the opportunity to modify them; in this
+    case they may contain a citation to a previous record but would
+    not contain the encapsulated version of the previous
+    record.</p>
+
+    <p>Ideally the contents of all data objects that we want to
+    communicate would be "interoperable" and encoded in standard
+    formats to give them a degree of software independence (the
+    actual degree depends on how long any given "standard" can be
+    expected to remain a standard, which in archival terms is not
+    very long). In any event, many data objects we create today
+    will not be standard and the metadata with which we label them
+    must flag the dependencies of the data (including their
+    dependency on standards) so that a future review of record
+    headers can locate sources of brittleness and segregate records
+    requiring migration to new software formats before they become
+    unreadable.(11)</p>
+
+    <p>Our concept of evidence makes it important to know when
+    records were used and how, in what ways they were filed,
+    classified and restricted in the past, and, if they have been
+    destroyed under proper disposition authority, when and by whom
+    that act took place. It is also important to us to know what
+    redacted versions of records were released over time.
+    Transactional data reflecting the history of its use (events in
+    its life subsequent to creation), provides the documentation
+    traditionally associated with archival description, but instead
+    of such data residing only at aggregate levels, it is possible
+    to define electronic records metadata structures that enable us
+    to search for specific records based on information about the
+    instance or concrete business transaction which generated
+    them.</p>
+
+    <p>In addition to ensuring that the data we capture is a
+    record, and can serve as evidence, metadata should be defined
+    so that it makes data objects communicated across software and
+    hardware layers (and therefore any communications over a
+    network):</p>
+
+    <p>self-documenting</p>
+
+    <p>self-authenticating</p>
+
+    <p>self-redacting</p>
+
+    <p>self-migrating</p>
+
+    <p>self-disposing</p>
+
+    <p>These properties, while important for simplifying the
+    management of records (especially in an inter-networked
+    environment in which hundreds of millions of records are
+    created daily), can be made to be direct consequences of
+    keeping records if attention is paid to the structuring of the
+    metadata that makes records evidence.</p>
+
+    <p>Furthermore, a system for metadata management which has
+    appropriate modularity and content standardization can support
+    formally auditing the business system which generated the
+    information object transactions and the software, hardware,
+    procedures and policies surrounding a system to determine where
+    they contribute, or fail to contribute, to the creation,
+    maintenance and use of evidence. While no system of management
+    can be self-auditing, a communications system built to ensure
+    that appropriate metadata is captured for evidence can support
+    a level of management accountability that it was never
+    previously possible to implement or enforce.</p>
+
+    <p>We recognize however that a specification based solely on
+    necessary and sufficient conditions for recordness does not
+    address certain other desirable functionalities of a business
+    communications environment because evidentiality is not the
+    only requirement for such a system. Among the other
+    requirements we have seen being addressed in the effort to
+    develop widely applicable models for network metadata
+    management are:support for a system of access and use rights
+    management support for networked information discovery and
+    retrieval support for registration of intellectual
+    property.</p>
+
+    <p>Therefore, we have proposed a draft Reference Model for
+    Business Acceptable Communications that attempts to
+    specifically address these additional requirements as part of a
+    dialog that must take place between advocates of mechanisms to
+    support these different fundamental purposes through an overall
+    structure for metadata encapsulated objects. (12)</p>
+
+    <p>The Proposed Reference Model</p>
+
+    <p>The metadata elements needed to execute the production rules
+    expression of the University of Pittsburgh Functional
+    Requirements for Evidence possess no intrinsic order. Criteria
+    for ordering these elements must be derived from scenarios of
+    their anticipated use within an overall system of record
+    keeping</p>
+
+    <p>The initial clustering of these data elements to achieve
+    functional modularity, led researchers to organize them in six
+    layers which they labeled:</p>
+<pre>
+                Registration
+</pre>
+<pre>
+                Terms &amp; Conditions
+</pre>
+<pre>
+                Structure
+</pre>
+<pre>
+                Context
+</pre>
+<pre>
+                Content
+</pre>
+<pre>
+                History of Use
+</pre>
+
+    <p>The addition of the requirements noted earlier from other
+    object standardization efforts designed to provide support for
+    a system of access and use rights management, for networked
+    information discovery and retrieval and for registration of
+    intellectual property suggests a need to add substantially to
+    the properties identified as necessary for assurance of
+    evidence, in layers devoted to identification and terms and
+    conditions. In particular it suggests a need for "resolving"
+    agents or services for dealing with terms and conditions of
+    access or use and managing information discovery and retrieval
+    for the aggregate resource of which a given record forms a
+    part. This required us to introduce a resource descriptor
+    element (not present in the December 1994 draft) that points to
+    a compilation of which the record might be a part and through
+    which it would be accessed.</p>
+
+    <p>It was evident in the discussion of NIDR the Spring 1995 CNI
+    meeting (13) that the kinds of relevance ranking and
+    intellectual content representation for information retrieval
+    functions being considered essential to the networked
+    information discovery and retrieval requirement operate at a
+    level of compilations, repositories or services for records of
+    business transactions and that these publications, services, or
+    repositories will have quite different descriptive data
+    associated with them. Indeed this is consistent with the focus
+    of the Library of Congress Electronic cataloging meeting in
+    October 1994 and the recent announcement by OCLC of its
+    intention to catalog Internet resources.</p>
+
+    <p>It was also clear from the discussion of network management
+    issues associated with identification of intellectual property
+    (14) that much more attention needs to be given to naming of
+    objects in this domain than has been necessary for the more
+    limited purposes of unique identification of evidence. The
+    simplifying reality that no change can take place in a record
+    and that any interaction with a record, even looking at it or
+    forwarding it, creates a new record, ignores the social
+    dependence of the concept of original creation at the
+    foundation of intellectual property.</p>
+
+    <p>This (summer 1995) draft of the Reference Model, therefore,
+    attempts to place the specific and limited requirements for
+    metadata of evidence in the context of the other tasks that
+    have been imputed to such descriptors. It does so by renaming
+    the layer previously labeled "Registration" by the new name
+    "Handle" indicating both the requirement for more robust
+    methods of identification than are necessary to evidence and
+    the need for documentation of the contents, or pointers to
+    documentation of the contents, to facilitate discovery and
+    retrieval. No effort is made here to elaborate on how these
+    additional requirements could or should represent the
+    information required to satisfy their further requirements,
+    since this will best be done by the communities most concerned
+    with that functionality. The clusters were described as
+    "metadata/properties" reflecting the distaste expressed for the
+    term metadata by spokesmen for these communities at the recent
+    CNI meeting.</p>
+
+    <p>Rather than pursue these matters any further, this paper
+    explores the metadata content required by the Functional
+    Requirements for Record keeping which dictate mandatory and
+    optional data elements within defined data clusters at each of
+    the six layers of the metadata model. In certain areas,
+    particularly regarding structural dependencies of data objects
+    representing non-textual content, we have specified a
+    potentially extensible set of modality specific data elements.
+    This reflects the recognition that we can never completely
+    specify the data that will be required to document the
+    structural dependencies of future data types.</p>
+
+    <p>The clusters are part of the reference model and must always
+    occur, but the optional metadata elements may or may not be
+    present based on characteristics of the application. The
+    metadata content directly related to satisfying requirements
+    for evidence is mandatory. Hence evidence, required for the
+    conduct of business and for accountability, is ensured by a
+    "Metadata Encapsulated Object" conforming to the reference
+    model for "Business Acceptable Communications". The metadata
+    content which contributes to record keeping, or management of
+    records, but is not essential to evidence, is optional.
+    Metadata content useful for specific domains or business
+    functions may be defined by those domains as mandatory for
+    business in that domain or optional within the domain. All such
+    metadata would be optional for anyone outside the domain. The
+    layers and clusters of the reference model are shown in table
+    3, below.</p>
+
+    <p>Table 3: Reference Model for Business Acceptable
+    Communications: layers and data clusters</p>
+<pre>
+        Handle Layer
+</pre>
+<pre>
+                Registration Metadata/Properties
+</pre>
+<pre>
+                Record Identifier
+</pre>
+<pre>
+                Information Discovery and Retrieval
+</pre>
+<pre>
+        Terms &amp; Conditions Layer
+</pre>
+<pre>
+                Rights Status Metadata
+</pre>
+<pre>
+                Access Metadata
+</pre>
+<pre>
+                Use Metadata
+</pre>
+<pre>
+                Retention Metadata
+</pre>
+<pre>
+        Structural Layer
+</pre>
+<pre>
+                File Identification &lt;Repeatable for each file&gt;
+</pre>
+<pre>
+                File Encoding Metadata &lt;Repeatable for each file&gt;
+</pre>
+<pre>
+                File Rendering Metadata &lt;Repeatable for each file&gt;
+</pre>
+<pre>
+                Record Rendering Metadata &lt;for whole record&gt;
+</pre>
+<pre>
+                Content Structure Metadata
+</pre>
+<pre>
+                Source Metadata
+</pre>
+<pre>
+        Contextual Layer
+</pre>
+<pre>
+                Transaction Context
+</pre>
+<pre>
+                Responsibility
+</pre>
+<pre>
+                Business Function
+</pre>
+<pre>
+        Content Layer
+</pre>
+<pre>
+                Content-Description
+</pre>
+<pre>
+        Use History Layer &lt;Repeatable Transaction Table&gt;
+</pre>
+
+    <p>The purpose of specifying metadata as part of this model is
+    to ensure recordness. When the metadata needed by a specialized
+    domain has an essential application related purpose but is not
+    required for recordness, it is preferable to satisfy this
+    application purpose by definition of a standard interchange
+    format. The interchange standard can be cited in the metadata
+    for Business Acceptable Communications and the data content can
+    then be opened by knowledge of the requirements and structures
+    of the standard without further elaboration. This has the dual
+    advantage of efficiency of definition and ease of migratability
+    as all records corresponding to a specified protocol can be
+    re-presented in a new standard if the old format is
+    superseded.</p>
+
+    <p>Implementation Issues</p>
+
+    <p>How can the Reference Model be implemented?</p>
+
+    <p>We imagine two possible scenarios for the long term: in the
+    first, each organization implements its own methods for
+    capturing metadata and encapsulating objects, while in the
+    second the requirement is imposed on software developers and
+    networks as a consequence of standards adopted by their
+    clients. In either case, any implementation must acknowledge
+    that the level of analysis and documentation at which computer
+    mediated communications are evidence is that of the individual
+    business transaction. This means that we are not concerned with
+    capturing metadata at higher levels, such as that of the
+    resource or lower levels such as that of a single document,
+    data item/file, or computer system transaction. It also means
+    that the data and metadata we capture must always be related
+    back to a specific transaction whether corporate or personal.
+    It also requires that we be able to incorporate multiple
+    physical files within a single record, and any number of prior
+    records within a new record.</p>
+
+    <p>Practically, one might view the implementation of metadata
+    recording and management as a continuum. At one end, all of the
+    metadata is encapsulated, stored and transported with the
+    record. The record in this case is physically self explanatory.
+    The problem with this is that a high amount of overhead is
+    associated with every action taken with a record. The opposite
+    approach would be to store none of the metadata with the
+    record. The metadata would be stored in a data base on a kind
+    of archival server and each record would contain a pointer to
+    its metadata. While this approach avoids the overhead
+    associated with communicating records, it requires more
+    sophisticated management and is susceptible to problems
+    associated with corrupt pointers decoupling a record from its
+    metadata.</p>
+
+    <p>The actual implementation adopted by an organization will
+    probably lie somewhere between these two extremes. In the
+    inter-organizational exchange of records, the first model must
+    be used. For intra-organizational use it is likely that an
+    intermediate approach is used. Some metadata will be
+    encapsulated and carried with the record, particularly metadata
+    that will be used by subsequent processes or procedures. Other
+    metadata such as citation of business rules, standards and
+    legal authority will be stored in a data base and referenced by
+    pointers encapsulated with the record.</p>
+
+    <p>Very few existing information systems are designed to
+    execute business rules or document business processes.
+    Therefore they will currently typically create a new computer
+    record for a software transaction which involves no business
+    transaction but changes the data in the system (such as
+    background saving of a file on which I am working) but create
+    no record of common business transactions which do not change
+    data in the system but nevertheless require evidence (such as
+    querying a database for decision support). Implementation will
+    need to impose the concept of business transactions, rather
+    than that of systems transactions, on their environment. In
+    addition, they will need to interface with business process
+    models to capture appropriate identifying data.</p>
+
+    <p>It would be possible to design application software that did
+    recognize business transactions boundaries but the differences
+    between organizations would likely make implementing such
+    software complex and maintaining its knowledge of local
+    business processes costly. Nevertheless, certain parameterized
+    features of application systems can already be employed to
+    ensure the satisfaction of some of the functional requirements
+    for record keeping For example, word processing systems can
+    support corporate record creating requirements if the users of
+    such systems exclusively employ style sheets defined in such a
+    way as to distinguish between transactions based on their
+    process location and business purposes. Geographic information
+    systems often have reporting features that allow the user to
+    create output files of all the relevant layers of data
+    incorporated into a query response.</p>
+
+    <p>At least in the short term, however, the need to create
+    electronic records with metadata conforming to the reference
+    model will require systems implementers (possibly in
+    cooperation with users) to construct traps outside of
+    applications software in which they can capture the metadata
+    required for evidential transactions. Assuming no changes were
+    made in applications systems, implementers could capture some
+    of the requisite data items in the user interface layer. For
+    example, by enhancing the information captured when users sign
+    on to the system so that authorizations, logical business
+    location, and types of transactions allowed to an individual
+    are brought into the system memory for assignment to
+    transactions as needed. They could then provide icons
+    representing the business tasks in which a user may engage
+    (based on process data models and business rules of the
+    organization) rather than icons representing software
+    applications.</p>
+
+    <p>Indeed the user interface could easily be designed so that
+    users never open software applications directly, but rather
+    they engage special 'clients' which open and configure the
+    application software in a way that utilizes its style sheets,
+    macros, self-documenting features, for the particular business
+    function in which the user is engaged. This way only clients
+    representing specific business processes can be admitted and
+    the rules governing such uses can be imposed on the system.
+    These clients could then provide the necessary metadata to
+    identify the business transaction when a record of it is
+    created.</p>
+
+    <p>Alternatively, or in conjunction with user interface
+    interventions, implementers could develop an "evidence" service
+    in the Application Platform Interface to capture transactions
+    addressed in particular ways and assign them metadata
+    attributes required to ensure their authenticity and survival.
+    Such a service could be customized with the rules of a
+    particular business so as to identify transactions of specific
+    types and adhere to the appropriate retention periods, access
+    and use rights, and filing rules.</p>
+
+    <p>Finally, information systems staff could identify components
+    in the systems architecture, from storage devices serving as
+    corporate file rooms to telecommunication switches linking to
+    other LAN's, WAN's or systems, which assigned yet other
+    metadata attributes to records when they were communicated.
+    Thus records filed in certain places and under particular
+    headings would be given metadata attributes upon arrival at the
+    filing server application. Records deemed to be lacking
+    appropriate metadata to leave an organizations' boundaries, or
+    even to pass outside the LAN serving one work group, could be
+    assigned those attributes or returned to sender to provide the
+    necessary descriptors. In conjunction with corporate policy and
+    procedure individuals could participate in completing document
+    routing and description templates for all transactions, or be
+    required to default to pre-set templates for a series of
+    identical transactions.</p>
+
+    <p>One of the questions that must be answered by research is
+    whether some metadata elements are easier to capture in certain
+    layers of the architecture than others. We believe that certain
+    of the metadata required for recordness, specifically that
+    pertaining to compliant organizations and accountable systems,
+    will best be documented by means other than transaction level
+    metadata capture because of the inherent inefficiency of
+    capture of such systemic proofs at a transaction level and the
+    difficulty of a system ascertaining the state of organizational
+    compliance or of its own logical correctness.</p>
+
+    <p>In sum, it appears that through a combination of policy,
+    implementation and design, and standards, an organization can
+    ensure that only "business acceptable communications" are
+    generated from its information systems, maintained in its
+    record keeping systems, and made available through to its
+    information retrieval systems.</p>
+
+    <p>Implementers will recognize that when a user requests a
+    record, a copy of that record is passed to the information
+    retrieval sub-system, but if the user opens the record contents
+    under the control of another application, the contents are
+    incorporated within the application in which he or she is
+    working and will become part of the contents of a new
+    transaction. If the user intends only to append or forward a
+    record, this does not involve opening the record and may, in
+    some environments, be accomplished by pointing to it while in
+    others it will involve incorporating an encapsulated version of
+    the record within the current transaction. When users generate
+    a communication in this environment, a "Business Acceptable
+    Communication", encapsulated by metadata necessary to ensure
+    its integrity and longevity, would presumably be split off from
+    the information system stream and sent to a record keeping
+    system or warehouse where it would be kept intact. Another
+    version of the transaction would normally remain within the
+    application environment where it would be available for further
+    manipulation, update and editing, or would do the jobs of
+    updating databases, launching procedures or generating reports
+    in that environment. From the perspective of the business, all
+    data in information systems can be treated as a convenience
+    copy, to be kept as long as required for on-going business
+    purposes and to be altered as desired to increase
+    efficiency.</p>
+
+    <p>When needed, records from record keeping systems may be
+    copied to information systems which need require their content,
+    but the record itself will never be deleted from, or changed
+    within, the record keeping system except with specific records
+    disposition authority. Record keeping systems will store and
+    provide access to metadata encapsulated objects. Sometimes the
+    purposes of such access will be to make use of the data content
+    of records in subsequent business transactions which create
+    their own records. These transactions will take place through
+    application systems, which like most information systems, are
+    not designed to make or keep records.</p>
+
+    <p>Sometimes the purpose of access is simply to view the
+    records outside of the business purposes of the creating
+    organization. Traditionally such reference uses of archives
+    have not created new records, although logically they are the
+    record of the use of the archives which is itself a function of
+    the organization. In an evidential environment, viewing a
+    record in conjunction with a business transaction creates a new
+    record for the record keeping system and leaves a transaction
+    trail in the original record.</p>
+
+    <p>There is no specific computing model that must be employed
+    in the maintenance of record keeping systems although it may
+    seem that the discussion of communicated transactions to this
+    point has used the terminology of object orientation. Once
+    these transactions are communicated (typically by a serial
+    process but always in such a way as to produce a serial record
+    on the receiving end, and hence as an encapsulated object),
+    they can be treated as if the metadata was structured database
+    information in a standard relational, hierarchical or flat file
+    database management system. A simple method for doing this
+    securely would be to store a hash of the contents in the
+    metadata record and a hash of the metadata record with the
+    contents.</p>
+
+    <p>Logically, metadata content must either follow an external
+    standard or contain its own declarations (e.g.,.
+    meta-meta-data). It would be greatly more efficient for the
+    society at large if instead of requiring individual
+    organizations to implement systems in ways that supported the
+    requirements for evidence, a standard for communications could
+    be adopted that placed the burden for creating metadata
+    encapsulated objects on the application software and network
+    software developers.</p>
+
+    <p>The definition of a standard for Business Acceptable
+    Communications presumes the existence of software and services
+    that can use the metadata which must be associated with an
+    object. Specific types of services, for example, are envisioned
+    to follow up on address information contained in Terms and
+    Conditions metadata layer to translate it into concrete prices,
+    permissions, and data views. The presumption is that Terms and
+    Conditions metadata will be expressed in abstract categorical
+    terms, not in concrete terms so that it can be processed
+    correctly as the situation variables (inflation, changes in
+    permissions based on elapse of time since the event,
+    re-engineered business processes, etc.) change. The model for
+    implementing control based on Terms and Conditions is that a
+    "resolver" will be put in place by the owner/creator of a
+    record that is designed to operate against the categorically
+    expressed terms and conditions data in a dynamic manner. This
+    allows the terms and conditions to be calculated for the
+    moment, based on the user, and sensitive to the conditions of
+    use. It is envisioned that these applications will be
+    maintained by those interested in restricting rights and their
+    functionality can be ensured in part by establishing a
+    mechanism that allows users access to the records if no
+    restrictive permissions manager is operating.</p>
+
+    <p>Conclusions:</p>
+
+    <p>The Reference Model for Business Acceptable Communications
+    discussed here and proposed in the accompanying formal
+    presentation, builds upon and extends work underway in
+    standards committees in many areas. It attempts to provide a
+    generic structure and theoretical grounding for work items
+    proposing metadata encapsulated objects as a tactic for
+    interchange. While it will doubtless be refined before a fully
+    acceptable reference model is adopted, it is our hope that the
+    formulation of this model will place the functional
+    requirements for evidence at the heart of any discussion of
+    what makes a business communication acceptable.</p>
+
+    <p>The Reference Model acknowledges, but does not solve, some
+    fundamental problems in the distributed network environment.
+    For example, a major concern is how the identifier uniquely
+    assigned by one domain is guaranteed to be unique when the
+    object is incorporated into a universe in which identifiers
+    assigned by other domains are present. Obviously uniqueness can
+    be ensured by combining a unique identifier within a domain
+    with a unique identifier for the domain. The problematic aspect
+    of this is that domain identifiers need to be truly unique to a
+    person or organization but we want to define a system in which
+    the domain identifier does not have to carry too much
+    intelligence and yet can be meaningfully related to its
+    successor and precursor identifiers. Also, it must be possible
+    to issue domain identifiers without serious overhead. Billions
+    of unique business transactions will flow through worldwide
+    communications systems within and between organizations and
+    between individuals and/or computers, daily. It must be
+    possible to uniquely identify all these. Mechanisms for unique
+    identification of computing systems and sources of
+    communications are being worked out for such open domains as
+    the Internet (by the IETF) but also need to be developed within
+    specific corporate communications contexts.</p>
+
+    <p>It may also be necessary to search for records that satisfy
+    criteria based on their content, even though this is not
+    essentially an archival requirement. The Reference Model is
+    designed to hold metadata that can satisfy such requirements
+    but it is not currently populated by metadata designed to
+    support NIDR. Recent work on this area by the Coalition for
+    Networked Information and by the U.S. library community may
+    define structures within this cluster although the problems of
+    defining what records are "about", rather than what they are
+    "of" has been a vexing one since the advent of archives. The
+    volume of records that are created has always defied cataloging
+    individual records and the content description of records,
+    which are not created to be about their content but rather as a
+    consequence of business transactions, tends in any case to be
+    either misleading or inadequate. Substantial practical research
+    will continue to be required to determine how best to provide
+    access to records of specific kinds or records documenting
+    particular types of transactions.</p>
+
+    <p>Another concern is how as a practical matter, to best
+    monitor metadata values in order to make the necessary software
+    migrations at appropriate times in the life of records. Not
+    only do we need to make sure to migrate the records to new
+    structures before the old ones are no longer supported, we need
+    to make good decisions about logical mappings in order not to
+    introduce too much noise with every migration and ultimately
+    lose the message in digital copying as surely as with did with
+    multi-generational copying of analog messages. Needless to say,
+    some people also worry that these software migrations, if they
+    continue to need to be done as often as once a decade or more,
+    will become too costly to support and that as a consequence
+    some records of value will be abandoned. Within the environment
+    in which record keeping takes place, stringent approaches to
+    configuration management will be essential to ensure that
+    record documentation retains critical usable metadata.</p>
+
+    <p>At the same time, it is noteworthy that the proposed
+    approach to archiving and to maintenance of business acceptable
+    communications does not require us to include information about
+    physical formats and media within the record metadata. Rather
+    the environment in which records are kept will need to be one
+    in which managers move data from one medium to another as
+    required to assure backup and preservation of the data. It is
+    presumed that media that are currently supported will always be
+    used and that data transfer to current media will take place in
+    the normal course of operations. Documentation of the data
+    processing center backup and recovery functions is not part of
+    the model because the model presumes that day-to-day data
+    management will be responsible.</p>
+
+    <p>Footnotes/Citations</p>
+
+    <p>1) The Functional Requirements for Record keeping project
+    has compiled a database of "warrant" for the requirements we
+    have defined. The most up-to-date version of the requirements,
+    specifications, production rules, metadata standards, literary
+    warrant and research papers on the variables in electronic
+    record keeping in organizations are maintained on the project
+    WWW server at:</p>
+
+    <p>http://www2.lis.pitt.edu/~sochats/nhprc.html</p>
+
+    <p>Examples of the kinds of sources from which "literary
+    warrant" has been drawn include:</p>
+
+    <p>Code of Federal Regulations, 36 CFR PART 1234 -- Electronic
+    Records Management. Subpart C -- Standards for the Creation,
+    Use, Preservation, and Disposition of Electronic Records</p>
+
+    <p>Electronic Industry Data Exchange. ASC 12 Convention:
+    Version 3: Electronic Industry Data Guidelines. Washington
+    Publishing Co., 1994 Federal Rules of Evidence. 1990</p>
+
+    <p>Guttman, B.Computer security considerations in Federal
+    procurements. National Institute of Standards and Technology,
+    NIST Pub 800-4</p>
+
+    <p>Institute of Internal Auditors Research Foundation. Systems
+    Auditability and Control Report. Researched by Price
+    Waterhouse, 1991</p>
+
+    <p>IS0 9001 Quality systems - Model for quality assurance in
+    design/development, production, installation and servicing,
+    1987</p>
+
+    <p>FIRMR: federal information resources management regulation.
+    Washington, DC : U.S. General Services Administration, Office
+    of Information Resources Management, 1990</p>
+
+    <p>McCormick on Evidence. 4th ed. by John William Strong,
+    general editor. (St.Paul, Minn: West Pub. Co, 1992)</p>
+
+    <p>Miller, Larry P., GAAS guide: a comprehensive restatement of
+    all current promulgated generally accepted accounting
+    principles. San Diego : Harcourt Brace Professional Pub.;
+    1994</p>
+
+    <p>2) for an example, see: IEEE Mass Storage Systems Standards
+    Technical Committee Metadata Project, Second Meeting on
+    Metadata for the Administration and Access of Stored
+    Information, Austin Texas February 17-18, 1994. Documents
+    discussed at this meeting included:</p>
+
+    <ul>
+      <li>"The Intelligent Archive" (UCRL-TB-115079-6 Lawrence
+      Livermore Laboratory, Carol Hunter Project Manager)</li>
+
+      <li>"Whitepaper on Data Management", Robyne Sumpter, Lawrence
+      Livermore Laboratory Feb.10, 1994</li>
+
+      <li>"A Metadata Capability Supporting the Hierarchical
+      Storage and Access of Large Abstract Data Entities",
+      J.C.Almond and Rekha Singhal, University of Texas CHPC</li>
+    </ul>
+
+    <p>3) for example, see:</p>
+
+    <p>Clifford Lynch, "The Integrity of Digital Information:
+    Mechanics and Definitional Issues", Journal of the American
+    Society for Information Science, vol.45#10, December 1994
+    p.737-744;</p>
+
+    <p>Peter Graham, "Intellectual Preservation in the
+    ElectronicEnvironment", Proceedings, Library Collections and
+    Technical Services1992 pp.18-32 (Chicago, ALA, 1992);</p>
+
+    <p>Henry Perritt, "Public Information in the National
+    Information Infrastructure", Report to the Regulatory
+    Information Service Center,General Services Administration and
+    to the Administrator, Office of Information and Regulatory
+    Affairs, Office of Management and Budget,5/20/94</p>
+
+    <p>Other activities, currently underway, to which the reference
+    model seems relevant are the Research Libraries Group and
+    Commission on Preservation and Access Joint Task Force on
+    Archiving Digital Documents, the Coalition for Networked
+    Information sponsored working group on Networked Information
+    Discovery and Retrieval, and the National Institute of
+    Standards proposed Federal Information Processing Standard for
+    "Record Description Records".</p>
+
+    <p>4) New York State Archives &amp; Records Administration,
+    Guidelines for the Legal Acceptance of Public Records in an
+    Emerging Electronic Environment (Albany, Dept. of Education,
+    1994) 35pp.</p>
+
+    <p>5) David Bearman, Electronic Evidence: Strategies for
+    Managing Records in Contemporary Organizations (Pittsburgh,
+    Archives &amp; Museum Informatics, 1994)</p>
+
+    <p>6) NHPRC grant #93-030, "Variables in the Satisfaction of
+    Requirements for Electronic Records Management"</p>
+
+    <p>7) David Bearman and Ken Sochats, "Formalizing Functional
+    Requirements for Record keeping" unpublished draft paper
+    included in University of Pittsburgh Record keeping Functional
+    Requirements Project: Reports and Working Papers
+    (LIS055/LS94001) September 1994</p>
+
+    <p>8) David Bearman, Functional Requirements for Record
+    keeping: Metadata Specification (Unpublished Draft,
+    2/21/94)</p>
+
+    <p>9) References to:</p>
+<pre>
+        Datastream for Folder Interchange (ISO 161/17-WG6 NWI)
+</pre>
+<pre>
+        Electronic Document Interchange (EDI) standards, including EDIFACT
+</pre>
+<pre>
+        ATM protocols
+</pre>
+<pre>
+        Spatial Data Interchange Format (SDIF) and DIGEST
+</pre>
+
+    <p>10) David Bearman, "Electronic Records Management
+    Guidelines: A Manual for Development and Implementation" in
+    United Nations, Administrative Coordinating Committee for
+    Information Systems, Management of Electronic Records: Issues
+    and Guidelines (New York, UN, 1990) reprinted in Electronic
+    Evidence, op.cit.fn5</p>
+
+    <p>11) There is a consensus that "preservation" in electronic
+    environment means refreshing. For an early, but still sound,
+    articulation of the reasons, see: Margaret Hedstrom, "Optical
+    Disks: Are Archivists Repeating the Mistakes of the Past?",
+    Archives &amp; Museum Informatics Newsletter, vol.2 (1988)
+    p.52; also her "Electronic Archives: Integrity and Access in
+    the Networked Environment" in Stephanie Kenna and Seamus Ross,
+    eds., Networking in the Humanities (London, Bowker/Saur, 1995)
+    p.77-95</p>
+
+    <p>12) We believe this model takes into account requirements
+    such as those implied by the plans of the German Government for
+    its move from Bonn to Berlin over the next decade. In that
+    planning process they it has become obvious that much of the
+    communication between governmental departments will take place
+    electronically between individuals with little if any face to
+    face contact who will require secure and authenticated
+    communications and the ability to make and keep records. In
+    defining an architecture to support these requirements, the
+    PoliTeam, established for this purpose, defined an architecture
+    that could take advantage of the functional requirements for
+    record keeping, but they did not identify those requirements.
+    In reforms in the Dutch civil service over the past several
+    years, earlier opening of government records was one objective,
+    and the studies undertaken to support this goal revealed a need
+    to begin to plan for electronic communications systems. In
+    their reforms, the Dutch government has begun to take advantage
+    of the functional requirements for record keeping and is
+    encountering many of the same issues of metadata management
+    being addressed by this paper. The Canadian government has been
+    defining "Guidelines on the Management of Electronic Records in
+    the Electronic Work Environment" as a component of the
+    "Electronic Work Environment (EWE) Vision" being promulgated by
+    the Canadian Treasury Board. Popularizations of the
+    implications of these activities have been published recently
+    by Terry Cook in "It's 10 O'Clock, Do You Know Where Your Data
+    Are", Technology Review, January 1995; also his, "Electronic
+    Records, PaperMinds: The Revolution in information Management
+    and Archives in the Post-Custodial and Post-Modernist Era,
+    Archives &amp; Manuscripts, vol.22#2, p.300-328</p>
+
+    <p>13. Clifford Lynch presentation (unpublished)at the
+    Coalition for Networked Information Meeting, Spring 1995</p>
+
+    <p>14. Bill Arms presentation (unpublished) at the Coalition
+    for Networked Information meeting, Spring 1995</p>
+
+    <p>APPENDIX A. REFERENCE MODEL FOR BUSINESS ACCEPTABLE
+    COMMUNICATIONS[version Nov.1, 1995; format by Kimberley Barata
+    and Wendy Duff]</p>
+
+    <p>I. HANDLE LAYER</p>
+
+    <p>Flags the following data as a record and assigns
+    distinguishing identifiers indicating the record's domain, from
+    which the provenance derives. In addition, descriptors are
+    identified in this layer to enable retrieval.</p>
+
+    <p>I.A. Record Identifier/Registration Metadata</p>
+
+    <p>The purpose is to create a unique identifier made up of a
+    code of three (3) data elements (Record-Declaration,
+    Domain-Identifier, Instance Identifier).</p>
+
+    <p>I.A.1. Record-Declaration [Mandatory]</p>
+
+    <p>Identifies the data as a record. This data element consists
+    of a standard bit stream asserting that what follows is a
+    record.</p>
+
+    <p>I.A.2. Domain-Identifier [Mandatory]</p>
+
+    <p>Identifies the domain from which the record originated.</p>
+
+    <p>I.A.3. Instance-Identifier [Mandatory]</p>
+
+    <p>This code may consist of a combination of a transaction ID
+    and a sequential instance number.</p>
+
+    <p>I.B. Information Discovery &amp; Retrieval Data
+    (Repeatable)</p>
+
+    <p>Provides the search terms necessary to retrieve the record
+    at a later date.</p>
+
+    <p>I.B.1. Descriptor-Type [Optional]</p>
+
+    <p>Identifies a type of standardized heading(s) given the
+    record to enable retrieval - should be domain specific.</p>
+
+    <p>I.B.2. Descriptor-Term [Optional]</p>
+
+    <p>Specific standardized recognizable terms used within the
+    record that may enable retrieval.</p>
+
+    <p>II. TERMS &amp; CONDITIONS LAYER</p>
+
+    <p>Invokes security measures controlling the potential use of a
+    record. Recognizes and acknowledges the level of permission
+    given a user, identifies if payment is necessary in order to
+    use the record and then arranges for the transfer of payment,
+    redacts records based on the level of privacy, confidentiality,
+    or secrecy outlined in tables set by the system.</p>
+
+    <p>II.A. Rights Status Metadata</p>
+
+    <p>Identifies the initial security parameters - establishes the
+    terms of access and use.</p>
+
+    <p>II.A.1. Access-Rights-Status [Mandatory]</p>
+
+    <p>Identifies the various levels of access permissions that any
+    given user may have. These are meaningful only to the access
+    resolver and are assigned by the creating organization when the
+    record is created. It should be noted that this may also carry
+    a value of null if there are either no restrictions on access
+    or if the organization does not maintain a resolver.</p>
+
+    <p>II.A.2. Use-Rights-Status [Mandatory]</p>
+
+    <p>Identifies the various levels of use permissions that any
+    given user may have. These are meaningful only to the use
+    resolver and are assigned by the creating organization when the
+    record is created. It should be noted that this may also carry
+    a value of null if there are either no restrictions on access
+    or if the organization does not maintain a resolver.</p>
+
+    <p>II.B. Access Metadata</p>
+
+    <p>Identifies access parameters - i.e. the conditions regarding
+    access.</p>
+
+    <p>II.B.1. Access-Basis [Mandatory]</p>
+
+    <p>Identifies the basic conditions of access. Access
+    (unrestricted or restricted) may be determined by any number of
+    possible resolvers that would identify any applicable payments,
+    permissions, identities, times of use, etc. Consists of
+    pointers to these various resolvers.</p>
+
+    <p>II.B.1.a. Payment-Terms-Resolver-Address</p>
+
+    <p>[Mandatory for restricted data only] Recognizes if payment
+    is required to use the record.</p>
+
+    <p>II.B.1.b. Permission-Terms-Resolver-Address [Mandatory for
+    restricted data only]</p>
+
+    <p>Identifies the various views of the record permitted the
+    user.</p>
+
+    <p>II.B.1.c.</p>
+
+    <p>Identity-Terms-Access-Resolver-Address [Mandatory for
+    restricted data only] Identifies the address to which
+    identification data needed to enable a dialogue with the user
+    must be sent.</p>
+
+    <p>II.B.1.d. Time-Rule-Resolver-Address [Mandatory for
+    restricted data only]</p>
+
+    <p>Identifies the length of time the user is permitted to view
+    the record.</p>
+
+    <p>II.C. Use Metadata</p>
+
+    <p>Identifies use parameters - i.e. the conditions regarding
+    use.</p>
+
+    <p>II.C.1. Use-Basis [Mandatory]</p>
+
+    <p>Identifies the basic types of authorized use of the record's
+    content (i.e. unrestricted, view only, licensed, etc.).</p>
+
+    <p>II.C.1.a. Use-Citation [Optional]</p>
+
+    <p>Comprised of textual information supplied by the rights
+    owner of the record - i.e. policies governing use.</p>
+
+    <p>II.C.1.b. View Only-Copy Protection-Key [Optional]</p>
+
+    <p>Disallows the ability to copy the record electronically.</p>
+
+    <p>II.C.1.c. License-Terms-Resolver-Address</p>
+
+    <p>[Mandatory for Licensed Data] If the data is licensed, this
+    enables the proper resolution of use of the record according to
+    the guidelines set by the license.</p>
+
+    <p>II.D. Retention Metadata</p>
+
+    <p>Identifies retention parameters - i.e. the conditions
+    regarding retention.</p>
+
+    <p>II.D.1. Removal-Authority [Mandatory]</p>
+
+    <p>Identifies under whose/what authority a record (whole or in
+    part) may be purged from the system. The identification of this
+    authority resides with the record and is established at the
+    time of the record's creation.</p>
+
+    <p>II.D.2. Retention-Policy-Citation [Optional; good
+    practice]</p>
+
+    <p>Comprised of textual information identifying the
+    organization's internal policy/policies for record's retention
+    - indicates the specific policy number(s) governing
+    retention.</p>
+
+    <p>II.D.3. Retention-Law/Regulation-Citation [Optional; good
+    practice]</p>
+
+    <p>Comprised of textual information regarding the legislative
+    or governmental law(s)/regulation(s) governing record retention
+    (ex. Code of Federal Regulations) - indicating the specific
+    legal/regulatory policy number, version, dates issued, dates
+    effective, etc.</p>
+
+    <p>II.D.4. Retention-Law/Regulation-Authority [Optional; good
+    practice]</p>
+
+    <p>Comprised of textual information identifying the issuing
+    organization that has jurisdiction over the
+    law(s)/regulation(s) governing records retention.</p>
+
+    <p>II.D.5. Retention-Period-End-Time [Mandatory]</p>
+
+    <p>Indicates scheduled retention period end date (mmddyy) for
+    the record. This information is determined at the time of the
+    record's creation.</p>
+
+    <p>II.D.6. Disposition-Instruction-Code [Optional]</p>
+
+    <p>Identifies the actual methods that apply to the ultimate
+    disposition of the record. This information may be determined
+    at the time of the record's creation and is included in it's
+    textual form.</p>
+
+    <p>III. STRUCTURAL LAYER</p>
+
+    <p>Enables the record's ability to be utilized over time, as
+    opposed to becoming unusable due to hardware/software
+    obsolescence. Allows for the ability to indicate when migration
+    of the data is necessary.</p>
+
+    <p>III.A. File Identification (Repeatable for each file)</p>
+
+    <p>Enables the identification of individuals files that
+    comprise a record and affords the ability to verify their
+    authenticity.</p>
+
+    <p>III.A.1. File-ID [Mandatory]</p>
+
+    <p>Identifies each file that makes up a record. This affords
+    the ability for the system to bring together all of the parts
+    to form the whole.</p>
+
+    <p>III.A.2. File-Authentification-Key [Mandatory]</p>
+
+    <p>Enables the system, through the use of an algorithm, to
+    verify that the record's content has not been modified - in
+    addition, it disallows the creator to reject the authenticity
+    of the record.</p>
+
+    <p>III.B. File Encoding Metadata (Repeatable for each file)</p>
+
+    <p>Identifies the types of encoding pertinent to the individual
+    files that comprise a record.</p>
+
+    <p>III.B.1. File-Modality [Mandatory]</p>
+
+    <p>Identifies what type of file is being dealt with by the
+    system (i.e. text, numeric, graphic, geographic, image, sound,
+    video, multi-sensory, etc.).</p>
+
+    <p>III.B.2. File-Encoding-Base [Mandatory]</p>
+
+    <p>Could default to digital base 2.</p>
+
+    <p>III.B.3. File-Data-Encoding-Type [Mandatory]</p>
+
+    <p>Identifies what type of encoding was used to capture the
+    data identified by the File-Modality (i.e. character or ASN.1,
+    vector,raster, sampled, matrix, cartesian grid, CAD/CAM, object
+    code, etc.).</p>
+
+    <p>III.B.4. Data-Code [Mandatory]</p>
+
+    <p>Indicates specifically how the data is coded:</p>
+
+    <blockquote>
+      <p>Character: ASCII, EBCIDIC, UNICODE, etc.</p>
+
+      <p>Vector: topological, spaghetti, chain-node, etc.</p>
+
+      <p>Raster: no. of samples per second</p>
+
+      <p>Sampled: no. of samples per second</p>
+
+      <p>Matrix: grid: attribute</p>
+
+      <p>Each other data type...</p>
+    </blockquote>
+
+    <p>May require a great deal of actual data coding if the code
+    is not standard.</p>
+
+    <p>III.B.5. Compression-Method [Mandatory]</p>
+
+    <p>Identifies the method of compression, if any, that was used
+    (ex: None,JPEG, MPEG, Quicktime, LZW, etc.). If the method
+    complies to aspecific standard, this may consist of only the
+    identification of that standard (name, version, etc.), as
+    opposed to consisting of the actual code.</p>
+
+    <p>III.B.6. Encryption-Key: Address [Mandatory]</p>
+
+    <p>Identifies the algorithms used by the record originator to
+    encrypt the record's content. This may consist of a daemon that
+    would make sure this has an address at all times. If the
+    address is not maintained, it would need the ability to roll
+    back and unencrypt the data.</p>
+
+    <p>III.C. File Rendering Metadata (Repeatable for each
+    file)</p>
+
+    <p>Identifies how the record was created in order to recreate
+    it as it would have been viewed at the time of creation.</p>
+
+    <p>III.C.1. Application-Dependency [Mandatory]</p>
+
+    <p>Indicates which operating system application, if any, the
+    record is dependent upon. If there is a dependency, the name of
+    the application, the version, and registration information may
+    be recorded at the time of record creation. This information is
+    to represented as a pointer to the actual registered library
+    that may be maintained by an organization, such as the
+    Copyright Office or Patent Office.</p>
+
+    <p>III.C.2. Software-Environment-Dependency [Mandatory -
+    Repeatable]</p>
+
+    <p>Indicates what software, if any, the record is dependent
+    upon. If there is a dependency, the name of the software
+    package(s), the version, registration information, display
+    information, and font sets (all software dependent attributes)
+    may be recorded at the time of record creation.</p>
+
+    <p>III.C.3. Hardware-Dependency [Mandatory - Repeatable]</p>
+
+    <p>Indicates what hardware, if applicable, the record is
+    dependent upon. If there is a dependency, the hardware needed,
+    model number,configuration, and drivers required (all hardware
+    dependent attributes)may be recorded at the time of record
+    creation.</p>
+
+    <p>III.C.4. Rendering-Rules [Mandatory; Modality
+    specific/domain specific]</p>
+
+    <p>Identifies the procedures necessary to enable the record to
+    be displayed, printed, or otherwise represented as it had been
+    at the time of creation (macros, dimension, spatial reference
+    data, etc.) - may operate at different levels.</p>
+
+    <p>III.C.5. Dimensions [Mandatory]</p>
+
+    <p>Identifies what kind of chunks the data consists of - both
+    modality and domain specific. Consider burying in
+    File-Encoding-Metadata</p>
+
+    <p>III.C.6. Metrics [Mandatory]</p>
+
+    <p>Identifies what portion of the following bit stream should
+    be chunked together, as well as how to chunk the bits of data.
+    It also identifies what is actually being represented by each
+    chunk (a word, a color, 32bytes of 8 bit code, etc.). It
+    enables the system to determine what portion of the structure
+    of a record a given bit stream represents when rendered - i.e.
+    how should it been viewed?.</p>
+
+    <p>III.C.7. Representation-Standard/De Facto Standard
+    [Mandatory]</p>
+
+    <p>Identifies any standard(s) applied to the file that affect
+    how the file is rendered (ex: SGML, Postscript, TIFF,
+    etc.).</p>
+
+    <p>III.C.8. Representation-Standard-Version [Mandatory]</p>
+
+    <p>Identifies the version number or date used to identify which
+    version of the standard was used.</p>
+
+    <p>III.D. Record Rendering Metadata</p>
+
+    <p>Applicable to the record as a whole.</p>
+
+    <p>III.D.1. File-Linking-Rule/Standard [Mandatory]</p>
+
+    <p>Identifies the rules or standards required to enable the
+    necessary linkages between files that make up the record.
+    Contains textual information regarding the actual rules or
+    standards applied.</p>
+
+    <p>III.D.2. File-Interchange-Standard: Version [Mandatory]</p>
+
+    <p>Identifies the standard(s) (including identifying the
+    appropriate version) employed by the record to enable file
+    interchange.</p>
+
+    <p>III.E. Content Structure Metadata</p>
+
+    <p>Enables the correct structural order necessary to create the
+    right relationships between substructures.</p>
+
+    <p>III.E.1. Content-Structure [Mandatory]</p>
+
+    <p>Indicates whether the content of the record is structured or
+    unstructured.</p>
+
+    <p>III.E.2. Content-Data Set [Mandatory]</p>
+
+    <p>If the content is identified as being structured, the data
+    set indicated how it is structured (i.e. what type of data set
+    was used, ex: DTD, etc.). This consists of the actual name of
+    the data set definition. If a data set definition is neither
+    registered or a well-known registered identity, then it will
+    need to be registered.</p>
+
+    <p>III.E.3. Application-Dictionary [Mandatory, if no other
+    content data set]</p>
+
+    <p>Identifies the data dictionary for the entire database. This
+    consists of the actual data dictionary itself - or it could
+    take the form of a set of referential integrity controls.</p>
+
+    <p>III.E.4. Delimiters/Labels [Mandatory]</p>
+
+    <p>Consists of the actual delimiters/labels used throughout the
+    data.</p>
+
+    <p>III.E.5. Data Value-Lookup Tables [Mandatory, where
+    existing]</p>
+
+    <p>Consists of the authority file containing the values of the
+    codes used throughout the record.</p>
+
+    <p>III.E.6. Data View-at Creation [Mandatory, if partial
+    view]</p>
+
+    <p>Identifies how the application viewed the record at the time
+    of the record's creation. This is the redaction subset of the
+    data dictionary.</p>
+
+    <p>III.E.7. Version-Relationships [Mandatory, if prior version
+    exists]</p>
+
+    <p>Consists of any Record-Identifiers or File-IDs identified as
+    belonging to previous versions of the record or file.</p>
+
+    <p>III.E.8. Set-Relationships [Mandatory, if other set members
+    exist]</p>
+
+    <p>Identifies if the record belongs to an overall set of
+    records. If so, this contains the Record-Identifier(s) of other
+    records belonging to that set - passive with respect to each
+    other.</p>
+
+    <p>III.E.9. Hierarchical-Relationships [Mandatory, if
+    higher/lower exists]</p>
+
+    <p>Identifies what data is required from other records/files in
+    order to populate other values. This is active in set
+    relationships where a record cannot be opened unless other
+    records are used.</p>
+
+    <p>III.E.10. Domain-Description-Standard [Optional]</p>
+
+    <p>Identifies what standards were employed to structure the
+    domain description.</p>
+
+    <p>III.E.11. Domain-Access-Terminology [Optional]</p>
+
+    <p>Identifies those terms used by the office of origin to
+    describe and/or</p>
+
+    <p>index the object.</p>
+
+    <p>III.F. Source Metadata</p>
+
+    <p>Identifies the source of the record and any relevant
+    documentation that illustrates the functional responsibility
+    environment.</p>
+
+    <p>III.F.1. Data Source-Type [Mandatory]</p>
+
+    <p>Identifies the type of source that created the data - refers
+    to the actual record keeping system.</p>
+
+    <p>III.F.2. System-Data Source-Documentation</p>
+
+    <p>[Mandatory, if system is source]</p>
+
+    <p>Identifies the documentation that outlines the conditions
+    needed to create the record - contains information on the data
+    processing function. Consists of the actual documentation
+    itself.</p>
+
+    <p>III.F.3. Data Capture-Instrument-Type [Mandatory, if
+    instrument]</p>
+
+    <p>Identifies what type of instrument was used to capture the
+    data (i.e. light recording, sound recording, temperature
+    recording, location recording, etc.). Consists of actual
+    information about the instrument used (manufacturer, model
+    number, etc.)</p>
+
+    <p>III.F.4. Data Capture-Instrument-Documentation [Mandatory;
+    Domain Specific]</p>
+
+    <p>Identifies any relevant documentation about those
+    instruments used to collect the data. Consists of information
+    on what settings, calibration, etc. were in effect when the
+    data was captured.</p>
+
+    <p>III.F.5. Source-Data-Natural Language [Optional]</p>
+
+    <p>Identifies what language the data was recorded in (ex:
+    English, French, Portuguese, German, etc.).</p>
+
+    <p>III.F.6. Source Data-Quality [Optional, Domain Specific]</p>
+
+    <p>Identifies the degree of reliability of the data generated
+    by the source - established in the system's authority files.
+    Must ensure that the source data is replicated exactly to
+    reflect those values established at the time of the record's
+    creation.</p>
+
+    <p>IV. CONTEXTUAL LAYER</p>
+
+    <p>Identifies the provenance (i.e. the person, system, or
+    instrument that is responsible for generating the record) of
+    the record/data to maintain its use as evidence of a
+    transaction and verify the record's accountability.</p>
+
+    <p>IV.A. Transaction Content</p>
+
+    <p>Identifies contextual information regarding the transaction
+    - i.e. what is it a record of?</p>
+
+    <p>IV.A.1. Originator-Identification [Mandatory]</p>
+
+    <p>Identifies the organization or person that initiated the
+    transaction.</p>
+
+    <p>IV.A.2. Recipient-Identification [Mandatory]</p>
+
+    <p>Identifies either the office/position that serves as the
+    recipient of the transaction.</p>
+
+    <p>IV.A.3. Copy-Identification [Mandatory]</p>
+
+    <p>Identifies whether the copy encapsulated by the metadata is
+    the sender's or the recipient's copy.</p>
+
+    <p>IV.A.4. Business-Transaction-Type [Optional]</p>
+
+    <p>Identifies the type of transaction, as well as the function
+    that the transaction is a result of, that was being engaged in
+    when the record was created - requires content specific
+    naming.</p>
+
+    <p>IV.A.5. Business-Transaction Procedure Reference
+    [Optional]</p>
+
+    <p>Identifies the originating organization's specific
+    policy/policies and/or procedure(s) (i.e. business rules)
+    governing the nature of the transaction. Consists of the actual
+    policy/policies and/or procedure(s) - noting the relevant
+    version, effective dates, etc.</p>
+
+    <p>IV.A.6. Linked-Prior Transaction [Mandatory, if
+    applicable]</p>
+
+    <p>Identifies the Record-Identifier(s) for a record that is
+    part of the same business activity - defines what the members
+    of a set may be.</p>
+
+    <p>IV.A.7. Action-Requested [Optional, good practice]</p>
+
+    <p>Identifies if an action is requested as a result of the
+    transaction. Consists of links to past transactions only if
+    they occurred. If this transaction called for a response - this
+    requests that the system searches for that response.</p>
+
+    <p>IV.A.8. User Specific-Configuration Data [Optional, good
+    practice]</p>
+
+    <p>Identifies all of the possible permissions and views that a
+    record could have. Refers to the data dictionary.</p>
+
+    <p>IV.B. Responsibility</p>
+
+    <p>Outlines the reporting structure responsible for creating
+    the record and under whose or what authorization the are
+    operating under.</p>
+
+    <p>IV.B.1. Originating-Organization [Mandatory]</p>
+
+    <p>Identifies all levels of the reporting structure that
+    created the record - from the office of origin to the top of
+    the hierarchy.</p>
+
+    <p>IV.B.2. Authorization [Mandatory]</p>
+
+    <p>Identifies the specific office(s)/position(s) authorized to
+    engage in the identified transaction.</p>
+
+    <p>V. CONTENT LAYER</p>
+
+    <p>Describes the actual data engaged in the transaction of
+    which the record is evidence of. The form of the data cannot be
+    defined specifically because it may take any form.</p>
+
+    <p>V.A. Content Description</p>
+
+    <p>Describes the actual content of the record.</p>
+
+    <p>V.A.1. Content-Created [Optional*]</p>
+
+    <p>Identifies the data described by the preceding metadata.
+    Consists of the actual data - if there is any.</p>
+
+    <p>V.A.2. Content-Incorporated [Optional*]</p>
+
+    <p>Identifies any other records incorporated into the content
+    of the record encapsulated by the metadata. Consists of the
+    actual data contained in these other records.</p>
+
+    <p>VI. USE HISTORY LAYER</p>
+
+    <p>Establishes when and how the record was used previously -
+    for example: what redacted versions have been released and
+    when, if the record was destroyed, under whose or what
+    authority it was destroyed and when, how was the record indexed
+    (identifies anything that was done to the record since its
+    creation). This layer is reserved for the end because it is the
+    only layer that will be continuously added to without having to
+    open the record.</p>
+
+    <p>VI.A. Use History (Repeatable Transaction Table)</p>
+
+    <p>Identifies the history of use of the record - the type of
+    use, when it was used, and by whom. Also indicated any
+    redactions of the data.</p>
+
+    <p>VI.A.1. Use-Type [Mandatory]</p>
+
+    <p>Identifies how the data was used: viewed, copied, edited,
+    filed, indexed, classified, sent, disposed, etc. This involves
+    identifying the various types of use permitted by the
+    system.</p>
+
+    <p>VI.A.3. Use-Instance-Time [Mandatory]</p>
+
+    <p>Identifies when the data was used - i.e. the date and time
+    the data was used.</p>
+
+    <p>VI.A.4. Use-Instance-User [Mandatory]</p>
+
+    <p>Identifies who or what used the data on a given date at a
+    given time.</p>
+
+    <p>VI.A.5. Use-Redactions [Mandatory if redacted on
+    release]</p>
+
+    <p>Identifies what part of the record was viewed.</p>
+
+    <p>* Note: Although it is possible to conduct a transaction
+    that adds no new data content to existing records (e.g., only
+    forwards pre-existing material, without so much as a cover
+    note), and it is possible to have transactions which do not
+    incorporate previously existing records, it is not possible to
+    have a transaction without any content. Thus the "Record"
+    cluster is mandatory, although the metadata items in it are
+    both optional. The "Content" level is therefore also
+    mandatory.</p>
+    <!--#include virtual="/ssi/footer.shtml" -->
+  </body>
+</html>
+

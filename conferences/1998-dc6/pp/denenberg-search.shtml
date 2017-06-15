@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html title="An advisory description of the element." lang="en"
+xmlns="http://www.w3.org/1999/xhtml">
+  <head title="An advisory description of the element.">
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+    <title>DCMI Workshops - DC6: Report on the Breakout Group on
+    Searching</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="denenberg-search.shtml.rdf" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body bgcolor="#FFFFFF" text="#000000">
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <div align="center">
+      <h3>The Search breakout group met the afternoon of Tuesday,
+      November 3.</h3>
+
+      <p align="left"><strong>The group developed the following
+      action items.</strong></p>
+    </div>
+
+    <div align="left">
+      <p>1. Define functional requirements for Dublin Core
+      searching.</p>
+    </div>
+
+    <blockquote>
+      <div align="left">
+        However, before doing so:
+      </div>
+
+      <div align="left">
+        <br />
+        1.1_ Articulate what are the inadequacies of Internet
+        searching (and Web searching in particular) that need to be
+        solved.<br />
+        1.2_ Define the audience for these requirements: vendors,
+        standards developers, users?<br />
+        1.3_ And define just who the users are. Are we developing
+        requirements for "power" users or just recreational/casual
+        users, or both?<br />
+        1.4_ Determine whether or not there should be a working
+        group to develop search requirements. (Note: subsequently,
+        at the Wednesday plenary session, "Search" was listed among
+        the working groups to be formed. Presumably that group will
+        address search requirements.)<br />
+        1.5_ Answer the following preliminary questions:<br />
+        1.5.1 Which DC elements are access points? All of
+        them?<br />
+        1.5.2 Does DC searching apply to unqualified DC, qualified
+        DC, or both? This question corresponds closely to 1.3
+        above.<br />
+        1.6 Develop user scenarios for
+        searching/discovery/navigation/browsing. First, however,
+        develop working definitions for these concepts (search,
+        discovery, navigation, browsing) and their
+        inter-relationships.<br />
+        1.7 Define requirements for cross-domain searching. Do DC
+        search requirements include cross-domain searching?
+        Describe the differences between and similarities among DC
+        searching and cross-domain searching.
+      </div>
+    </blockquote>
+
+    <div align="center">
+      <p align="left">2. After defining requirements, answer the
+      following:</p>
+    </div>
+
+    <blockquote>
+      <div align="left">
+        2.1 Is there a requirement for a DC search service
+        definition?
+      </div>
+
+      <div align="left">
+        2.2 Does a DC search service definition assume an abstract
+        layer? For example, are DC access points "abstract" access
+        points (as in the Z39.50 model)? And if so, to what extent
+        are we to be concerned about mappings of abstract to real
+        access points?
+      </div>
+
+      <div align="left">
+        2.3 Is retrieval within the scope of a search definition?
+        Or can a search definition be developed independent of
+        retrieval considerations? Discussion:
+      </div>
+    </blockquote>
+
+    <div align="center">
+      <p align="left">In the Z39.50 model, search and retrieval are
+      very clearly distinguished: In the search phase of a
+      search/retrieval scenario, the client sends a query to the
+      server and asks the server to (a) identify records that meet
+      the criteria specified by the query, (b) create a (local)
+      result set corresponding to the records, and (c) report the
+      number of records. In the retrieval phase, the client
+      requests the server to send one or more of the records that
+      were identified in the search phase. However, even though
+      there are distinct models for search and retrieval, the two
+      models are closely related; for example, both rely on the
+      concept of a result set.</p>
+
+      <p align="left">Thus the question is: must a DC search
+      definition consider matters such as element selection (for
+      example, to retrieve metadata only, or even selected
+      metadata) and record syntax? Or might a simple model suffice,
+      where only record pointers are retrieved, and real retrieval
+      is declared out-of-scope?</p>
+
+      <p align="left">3. Develop a working a definition of
+      Interoperability as it pertains to searching, and define
+      meaningful levels of interoperability. The Search breakout
+      group suggested the following: "syntactic", "semantic", and
+      "content", as levels of interoperability. Develop guidelines
+      for each defined level of interoperability.</p>
+
+      <p align="left">4. Though the breakout group was not tasked
+      with suggesting requirements, a few very basic requirements
+      came up as a by-product of discussion and the group could not
+      resist listing them. (Please note that the group did not
+      spend time trying to brainstorm requirements so this is by no
+      means an exhaustive list of basic requirements.)</p>
+    </div>
+
+    <blockquote>
+      <div align="left">
+        4.1 Some sort of "Explain" facility, allowing a client to
+        determine what search capabilities are supported on a
+        server.<br />
+        4.2 Fielded Searching.<br />
+        4.3 Boolean searching.<br />
+        4.4 Ranking. (Note that in the discussion of ranking,
+        de-duplication was discussed but there was no consensus on
+        listing it.)<br />
+      </div>
+    </blockquote>
+    <!--#include virtual="/ssi/footer.txt" -->
+  </body>
+</html>
+

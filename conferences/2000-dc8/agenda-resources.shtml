@@ -1,0 +1,790 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Workshops - DC8: Agenda with Resources</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+    <link rel="meta" href="agenda-resources.shtml.rdf" />
+  </head>
+
+  <body>
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <h2>DC8 - Agenda with links to Presentations</h2>
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="10"
+    summary="Content table">
+      <tbody>
+        <tr>
+          <td height="3241">
+            <table border="0" cellpadding="5" width="100%"
+            summary="DC8 agenda information with links to power point and HTML versions of presentations.">
+              <tbody>
+                <tr>
+                  <td align="left" colspan="4" valign="top">
+                    <h3>DAY 1: Wednesday, October 4</h3>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top" width="10">
+                  <b>8:00</b></td>
+
+                  <td align="left" colspan="3" valign="top">
+                  <b>Registration</b></td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top" width="10">
+                  <b>9:00</b></td>
+
+                  <td align="left" colspan="3" valign="top">
+                  <b>Plenary I:</b></td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top" width="10">&nbsp;
+                  </td>
+
+                  <td align="left" colspan="2" valign="top"><b>I.A.
+                  Welcome to DC-8</b></td>
+
+                  <td align="right" valign="top">20 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top" width="10">&nbsp;
+                  </td>
+
+                  <td align="left" valign="top"><b>I.B. Dublin Core
+                  Basics</b></td>
+
+                  <td align="left" valign="top">Stuart Weibel</td>
+
+                  <td align="right" valign="top">40 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top" width="10">&nbsp;
+                  </td>
+
+                  <td align="left" colspan="3" valign="top">
+                    <p><i>A review of the milestones and
+                    accomplishments of the previous year and a look
+                    at the strategic plan for the Dublin Core
+                    Metadata Initiative, including progress in
+                    standardization, evolution of the mission and
+                    progress, and liaisons with other metadata
+                    activities.</i></p>
+
+                    <blockquote>
+                      <p>The Dublin Core Metadata Initiative - 8th
+                      Plenary Workshop [<a
+                      href="pp/dc-8-plenary.ppt">Powerpoint</a>]
+                      [<a href="plenary/">HTML</a>]</p>
+                    </blockquote>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" valign="top"><b>I.C. DC
+                  Qualifiers and a Grammar for DC Metadata</b></td>
+
+                  <td align="left" valign="top">Tom Baker</td>
+
+                  <td align="right" valign="top">30 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" colspan="3" valign="top">
+                    <p><i>The background, process, and principles
+                    that led to the approval of the Dublin Core
+                    Qualifiers, and how these developments have
+                    influenced both semantic and syntactic
+                    specifications for DC metadata.<br />
+                     see <a
+                    href="http://www.gmd.de/People/Thomas.Baker/DC-Grammar.html">
+                    http://www.gmd.de/People/Thomas.Baker/DC-Grammar.html</a><br />
+                     for Tom Baker's discussion paper on Dublin
+                    Core as a metadata grammar.</i></p>
+
+                    <blockquote>
+                      <p>Dublin Core Qualifiers and A Grammar for
+                      Dublin Core [<a
+                      href="pp/dc-8-baker.ppt">Powerpoint</a>] [<a
+                      href="dcgrammar/">HTML</a>]</p>
+                    </blockquote>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>10:30</b></td>
+
+                  <td align="left" colspan="2" valign="top">Morning
+                  Break</td>
+
+                  <td align="right" valign="top">30 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>11:00</b></td>
+
+                  <td align="left" colspan="3" valign="top">
+                  <b>Plenary II: Modular management of
+                  complexity</b></td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" valign="top"><b>II.A Application
+                  Profiles</b></td>
+
+                  <td align="left" valign="top">Rachel Heery</td>
+
+                  <td align="right" valign="top">30 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" colspan="3" valign="top">
+                    <p><i>An explanation of recent developments in
+                    mixing and managing multiple metadata schemas,
+                    and how these techniques can be used to support
+                    modular deployment of metadata packages,
+                    enabling applications to adopt specific
+                    components of DC metadata, add local
+                    extensions, and combine them with other
+                    metadata schemas. The talk will address syntax
+                    issues, description of structured entities
+                    within application profiles, and suggest means
+                    to accomodate domain-specific metadata.<br />
+                     see <a
+                    href="http://homes.ukoln.ac.uk/~lisrmh/app-prof.htm">
+                    http://homes.ukoln.ac.uk/~lisrmh/app-prof.htm</a><br />
+                     for a discussion paper on application
+                    profiles</i></p>
+
+                    <blockquote>
+                      <p>Application Profiles: managing metadata
+                      schemas [<a
+                      href="pp/dc8-ap-v3.ppt">Powerpoint</a>] [<a
+                      href="applicationprofiles/">HTML</a>]</p>
+                    </blockquote>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" valign="top"><b>II.B Structured
+                  Metadata for Richer Description</b></td>
+
+                  <td align="left" valign="top">Eric Miller and Dan
+                  Brickley</td>
+
+                  <td align="right" valign="top">30 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" colspan="3" valign="top">
+                    <p><i>The issue of how best to accomodate
+                    metadata with substructure (metadata values
+                    which themselves have metadata attributes) has
+                    been the subject of longstanding controversy in
+                    the DC community. The description of agents,
+                    and how they relate to information resources is
+                    a prime example of this problem, but there are
+                    others as well. This session is intended to
+                    expose some of the problems and opportunities
+                    facing the DC community in this important area.
+                    These include accomodating the diversity of
+                    functional requirements, and balancing the
+                    tension between local pragmatics and broad
+                    interoperability.</i></p>
+
+                    <blockquote>
+                      <p>DCMI Architecture [<a
+                      href="pp/DCMIArchitecture2.ppt">Powerpoint</a>]
+                      [<a href="DCMIArchitecture2/">HTML</a>]</p>
+                    </blockquote>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" colspan="2" valign="top"><b>II.C
+                  Discussion and Questions</b></td>
+
+                  <td align="right" valign="top">30 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>12:30</b></td>
+
+                  <td align="left" colspan="2" valign="top">
+                  Lunch</td>
+
+                  <td align="right" valign="top">90 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>2:00</b></td>
+
+                  <td align="left" colspan="2" valign="top">
+                  <b>Break Out Sessions</b></td>
+
+                  <td align="right" valign="top">120 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" colspan="3" valign="top">
+                    <ul>
+                      <li>
+                        Agents and Authority Linking 
+
+                        <ul>
+                          <li>Presentation: Agents and Authority
+                          Linking [<a
+                          href="pp/dc-agents-1.ppt">Powerpoint</a>]
+                          [<a
+                          href="agents-authority/">HTML</a>]<br />
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        DC-Guides 
+
+                        <ul>
+                          <li><a
+                          href="http://www.ifla.org/udt/dc8/guides.htm">
+                          DC-8-Guides-Agenda</a></li>
+
+                          <li>Presentation: DC-Guides at DC-8 [<a
+                          href="pp/DC-8-guides-hillmann.ppt">Powerpoint</a>]
+                          [<a href="guides/">HTML</a>]</li>
+
+                          
+<li><a
+                          href="/groups/guide/mr-20001004.shtml">Report on UserGuides 
+WG meeting</a></li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        Collection Description issues 
+
+                        <ul>
+                          <li><a
+                          href="http://www.ukoln.ac.uk/metadata/resources/dc/dc8/cld.html">
+                          http://www.ukoln.ac.uk/metadata/resources/dc/dc8/cld.html</a></li>
+
+                          <li>Presentation: Collection Level
+                          Description [ <a
+                          href="pp/miller-collectionwg-2000-10-04.ppt">
+                          Powerpoint</a>] [<a
+                          href="collectiondevelopment/">HTML</a>]</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        Administrative Metadata 
+
+                        <ul>
+                          <li><a
+                          href="http://www.ifla.org/udt/dc8/note.htm">
+                          Note about Administrative
+                          Metadata</a></li>
+
+                          <li>Presentation: Administrative Metadata
+                          [<a
+                          href="pp/adm-metadata.ppt">Powerpoint</a>]
+                          [<a href="adminmetadata/">HTML</a>]<br />
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>Birds-of-a-Feather (Open for Ad-Hoc
+                      meeting)</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>4:00</b></td>
+
+                  <td align="left" colspan="2" valign="top">
+                  Afternoon Break</td>
+
+                  <td align="right" valign="top">30 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>4:30</b></td>
+
+                  <td align="left" colspan="2" valign="top"><b>IV.
+                  Plenary: Discussion of afternoon WG
+                  Sessions</b></td>
+
+                  <td align="right" valign="top">90 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>7:00
+                  pm</b></td>
+
+                  <td align="left" colspan="3" valign="top">
+                  Dinner<br />
+                   Cocktails served as of 6 pm</td>
+                </tr>
+
+                <tr>
+                  <td align="left" colspan="4" valign="center">
+                    <h3>DAY 2: Thursday, October 5</h3>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>08:30</b></td>
+
+                  <td align="left" colspan="3" valign="top"><b>V.
+                  Plenary: Discussion of Domain Specific
+                  Metadata</b></td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" colspan="2" valign="top"><b>V.A:
+                  DC-Education: Domain Specific Metadata</b></td>
+
+                  <td align="right" valign="top">30 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" colspan="3" valign="top">
+                    <i>The DC-Education Working group is the first
+                    example of a DC working group intended to
+                    develop domain specific metadata. The
+                    activities of this group and its implications
+                    for other DC activites will be discussed.</i> 
+
+                    <p><i><a
+                    href="/documents/2000/04/30/education-namespace/">
+                    http://dublincore.org/documents/2000/04/30/education-namespace/</a></i></p>
+
+                    <blockquote>
+                      <p>DC-Education Working Group: The DC-Ed
+                      Application Profile<br />
+                       [<a
+                      href="pp/DC-8-education-mason-sutton.ppt">Powerpoint</a>]
+                      [<a href="education-approfile/">HTML</a>]</p>
+                    </blockquote>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" colspan="2" valign="top"><b>V.B:
+                  DCMI Registry</b></td>
+
+                  <td align="right" valign="top">30 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" colspan="3" valign="top">
+                    <p><i>Metadata Registries are an emerging
+                    technology necessary for managing the
+                    complexity of multiple namespace metadata
+                    implementations and multiple language
+                    representations of metadata. This session will
+                    illustrate progress in this area in the Dublin
+                    Core community.<br />
+                     <a
+                    href="http://rdf.dev.oclc.org/myrdf/services/EOpenRegistry">
+                    http://rdf.dev.oclc.org/myrdf/services/EOpenRegistry</a></i></p>
+
+                    <blockquote>
+                      <p>DC8 Registries Breakout [<a
+                      href="pp/dc8-reg-wg.ppt">Powerpoint</a>] [<a
+                      href="registries/">HTML</a>]</p>
+
+                      <p>Registry breakout group [<a
+                      href="pp/dc8-regwg-3.ppt">Powerpoint</a>] [<a
+                      href="registry-breakout/">HTML</a>]</p>
+
+                      <p>DCMI Open Registry [<a
+                      href="pp/emiller-dc8-registry.ppt">Powerpoint</a>]
+                      [<a href="emiller-registry/">HTML</a>]</p>
+                    </blockquote>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" colspan="2" valign="top"><b>V.C:
+                  Metadata Reports from the field</b></td>
+
+                  <td align="right" valign="top">60 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" colspan="3" valign="top">
+                    <i>This session consists of reports on
+                    standardization and representative liaison
+                    activities with other metadata ativities.</i> 
+
+                    <ul>
+                      <li><i>CEN-MMI DC Workshop Agreement - Leif
+                      Andresen</i></li>
+
+                      <li><i>European Schema Project - Makx
+                      Dekkers</i></li>
+
+                      <li>
+                        <i>European Environmental Agency - Thomas
+                        Pick</i> 
+
+                        <ul>
+                          <li>Presentation: European Environmental
+                          Agency Contact Information<br />
+                           [<a
+                          href="pp/pick-dc8.ppt">Powerpoint</a>]
+                          [<a href="dc8-pick/">HTML</a>]</li>
+                        </ul>
+                      </li>
+
+                      <li><i>RDF Site Summary Working Group - Rael
+                      Dornfest</i></li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>10:30</b></td>
+
+                  <td align="left" colspan="2" valign="top">Morning
+                  Break</td>
+
+                  <td align="right" valign="top">30 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>11:00</b></td>
+
+                  <td align="left" colspan="2" valign="top"><b>VI.
+                  Break-out sessions</b></td>
+
+                  <td align="right" valign="top">90 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top">&nbsp;</td>
+
+                  <td align="left" colspan="3" valign="top">
+                    <ul>
+                      <li>
+                        DC-Citation 
+
+                        <ul>
+                          <li><a
+                          href="http://www.ifla.org/udt/dc8/citation.htm">
+                          Agenda for DC-Citation Break-Out
+                          Session</a></li>
+
+                          <li>Presentation: DC-Citation WG DC-8 [<a
+                          href="pp/dc-8-citation.ppt">Powerpoint</a>]
+                          [<a href="citation/">HTML</a>]</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        DC-Education 
+
+                        <ul>
+                          <li><a
+                          href="http://www.ifla.org/udt/dc8/edcation.htm">
+                          DC-Education Working Group Agrenda for
+                          DC-8</a></li>
+
+                          <li><a
+                          href="http://www.ifla.org/udt/dc8/resource.pdf">
+                          Authority and Source Detail for "Resource
+                          Type" Element</a><br />
+                           [PDF Format 44KB]</li>
+
+                          <li><a
+                          href="http://www.ifla.org/udt/dc8/mapping.pdf">
+                          Mapping of Levels of Education</a><br />
+                           [PDF Format 40KB]</li>
+
+                          <li>Presentation: Agenda Sessions 1-2 [
+                          <a
+                          href="pp/DC-8-education-agenda_session_1-2.ppt">
+                          Powerpoint</a>] [<a
+                          href="education-workplan/">HTML</a>]</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        DC-Libraries 
+
+                        <ul>
+                          <li><a
+                          href="http://www.ifla.org/udt/dc8/interest.htm">
+                          DC-Library Interest Group Agenda</a></li>
+
+                          <li>Presentation: 2000-2001 Work Plan [<a
+                          href="pp/Dc8lib.ppt">Powerpoint</a>] [<a
+                          href="library/">HTML</a>]</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        DC-Registry 
+
+                        <ul>
+                          <li>Registry Working Group DC-8
+                          Agenda<br />
+                           <a
+                          href="http://homes.ukoln.ac.uk/~lisrmh/DC8/reg.htm">
+                          http://homes.ukoln.ac.uk/~lisrmh/DC8/reg.htm</a></li>
+                        </ul>
+                      </li>
+
+                      <li style="list-style: none">
+                        <ul>
+                          <li>Tom Baker's Strawman Proposal for the
+                          status of DC Vocabulary Terms
+                          (tokens)<br />
+                           <a
+                          href="http://www.mailbase.ac.uk/lists/dc-registry/2000-08/0002.html">
+                          http://www.mailbase.ac.uk/lists/dc-registry/2000-08/0002.html</a></li>
+
+                          <li>Presentation: DC8 Registries Breakout
+                          [<a
+                          href="pp/dc8-reg-wg.ppt">Powerpoint</a>]
+                          [<a href="registries/">HTML</a>]</li>
+
+                          <li>Presentation: Registry breakout group
+                          [<a
+                          href="pp/dc8-regwg-3.ppt">Powerpoint</a>]
+                          [<a
+                          href="registry-breakout/">HTML</a>]</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        Using Dublin Core<br />
+                         
+
+                        <ul>
+                          <li>Diane Hillmann<br />
+                           <a
+                          href="/documents/2000/07/16/usageguide/">http://dublincore.org/documents/2000/07/16/usageguide/</a></li>
+
+                          <li>Presentation: DC-Guides at DC-8 [<a
+                          href="pp/DC-8-guides-hillmann.ppt">Powerpoint</a>]
+                          [<a href="guides/">HTML</a>]</li>
+
+                          
+<li><a
+                          href="/groups/guide/mr-20001004.shtml">Report on UserGuides 
+WG meeting</a></li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        DC-Government 
+
+                        <ul>
+                          <li>Presentation: DC-Government: Overview
+                          [<a
+                          href="pp/dc-government.ppt">Powerpoint</a>]
+                          [<a href="government/">HTML</a>]</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        Research 
+
+                        <ul>
+                          <li><a
+                          href="http://www.ifla.org/udt/dc8/interest.htm">
+                          Dublin Core Metadata Initiative Special
+                          Interest Group</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>12:30</b></td>
+
+                  <td align="left" colspan="2" valign="top">
+                  Lunch</td>
+
+                  <td align="right" valign="top">&nbsp;</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>2:00</b></td>
+
+                  <td align="left" colspan="2" valign="top"><b>VII.
+                  Plenary: Morning WGs Reports and
+                  Discussion</b></td>
+
+                  <td align="right" valign="top">60 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>3:00</b></td>
+
+                  <td align="left" colspan="2" valign="top">
+                  <b>VIII. Break-Out Sessions</b></td>
+
+                  <td align="right" valign="top">90 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="left" valign="top">&nbsp;</td>
+
+                  <td align="left" colspan="3" valign="top">
+                    <ul>
+                      <li>Architecture, Syntax, and Registry
+                      issues</li>
+
+                      <li>Agents II</li>
+
+                      <li>DC-Registry II</li>
+
+                      <li>DC-EDU II</li>
+
+                      <li>
+                        DC-Type 
+
+                        <ul>
+                          <li><a
+                          href="http://www.ifla.org/udt/dc8/subtypes.htm">
+                          Dublin Core Type Vocabulary: Subtypes
+                          Working Draft</a></li>
+                        </ul>
+                      </li>
+
+                      <li>BOF</li>
+                    </ul>
+
+                    <p>2nd meetings of any of the other groups as
+                    necessary</p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>4:30</b></td>
+
+                  <td align="left" colspan="2" valign="top"><b>IX.
+                  Vendor demonstrations and Poster Sessions and
+                  Wine and Cheese Reception</b></td>
+
+                  <td align="right" valign="top">120 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>7:00</b></td>
+
+                  <td align="left" colspan="2" valign="top">
+                  Dinner</td>
+
+                  <td align="right" valign="top">&nbsp;</td>
+                </tr>
+
+                <tr>
+                  <td align="left" colspan="4" valign="center">
+                    <h3>DAY 3: Friday, October 6</h3>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>9:00</b></td>
+
+                  <td align="left" colspan="2" valign="top"><b>X.
+                  Plenary: Reports from WGs and Discussion</b></td>
+
+                  <td align="right" valign="top">60 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>10:00</b></td>
+
+                  <td align="left" colspan="2" valign="top">Morning
+                  Break</td>
+
+                  <td align="right" valign="top">&nbsp;</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>10:30</b></td>
+
+                  <td align="left" colspan="2" valign="top"><b>XI.
+                  Plenary Discussion of Open Issues and Workplan
+                  for 2001</b></td>
+
+                  <td align="right" valign="top">120 MIN</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>12:30</b></td>
+
+                  <td align="left" colspan="2" valign="top">
+                  <b>Close of Workshop</b></td>
+
+                  <td align="right" valign="top">&nbsp;</td>
+                </tr>
+
+                <tr>
+                  <td align="right" valign="top"><b>1:00</b></td>
+
+                  <td align="left" colspan="2" valign="top">
+                  <b>DC-Advisory Committee Meeting (Debriefing and
+                  planning)</b></td>
+
+                  <td align="right" valign="top">&nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!--#include virtual="/ssi/footer.shtml" -->
+  </body>
+</html>
+

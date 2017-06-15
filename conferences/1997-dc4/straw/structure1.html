@@ -1,0 +1,208 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML  3.2//EN">
+<HTML>
+  <HEAD>
+    <TITLE>Dublin Core Element Substructure (Why The Dublin Core Needs Qualifiers)</TITLE>
+    <META NAME="RCS.ID" CONTENT="$Id: proposal.html,v 1.3 1997/02/23 16:54:24 djb1 Exp $">
+    <META NAME="DC.Title" CONTENT="Why The Dublin Core Needs Qualifiers">
+    <META NAME="DC.Title" CONTENT="(Type=Subtitle) Dublin Core Element Substructure">
+    <META NAME="DC.Creator" CONTENT="(Scheme=Name) Dave Beckett">
+    <META NAME="DC.Creator" CONTENT="(Scheme=Email) D.J.Beckett@ukc.ac.uk">
+    <META NAME="DC.Subject" CONTENT="(Scheme=Keyword) metadata, dublin core, qualifiers">
+    <META NAME="DC.Format" CONTENT="(Scheme=imt) text/html">
+    <META NAME="DC.Language" CONTENT="(Scheme=ISO.639) en">
+    <LINK REL="SCHEMA.dc" HREF="http://purl.org/metadata/dublin_core_elements">
+  </HEAD>
+
+  <BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+    <P ALIGN=right><A HREF="http://www.hensa.ac.uk/parallel/www/djb1.html">Dave Beckett</A><BR>
+      <A HREF="mailto:D.J.Beckett@ukc.ac.uk"><EM>D.J.Beckett@ukc.ac.uk</EM></A><BR>
+      Computing Laboratory<BR>
+      <A HREF="http://www.ukc.ac.uk/">University of Kent at Canterbury</A>
+    </P>
+
+
+    <H1 ALIGN=center>Dublin Core Element Substructure<BR>
+      (Why The Dublin Core needs Qualifiers)</H1>
+
+    <P>The DC has 15 elements that can be used for <EM>simple</EM>
+      resource descriptions by unskilled cataloguers.  The meanings
+      of these elements and the values are, however, only broadly
+      defined.  We propose that a DC with <EM>Qualifiers</EM> is not
+      just <EM>useful</EM> but is <EM>required</EM> for DC to be
+      taken up in the large.</P>
+
+    <P><STRONG>Qualifiers are:</STRONG></P>
+    <BLOCKQUOTE>
+      <EM>An unordered set of unique Attribute: Value pairs that are
+      attached to each element.  There are core qualifiers for all
+      elements and per-element ones.</EM><A HREF="#ref-dc-qual">[1]</A>
+    </BLOCKQUOTE>
+
+
+    <P>Early experiences in embedding DC in HTML (hand crafted DC,
+      Nordic Metadata Project[<A HREF="#ref-nordic">2</A>,<A HREF="#ref-nordic-dc">3</A>], ADS[<A HREF="#ref-ads">4</A>], ...) show that:</P>
+
+    <UL>
+      <LI>Qualifiers are already heavily used in most embedded DC in
+	WWW/HTML pages -- qualifiers for the <STRONG>Creator</STRONG>
+	/ <STRONG>Author</STRONG> elements for ``white-pages''-like
+	information; format schemes; language schemes etc.
+
+      <LI>There is a need for precision -- the best example is in the
+	<STRONG>Date</STRONG> element where there must be precise
+	knowledge of the format so that entries like
+	<TT>01/02/03</TT> have a meaning.  This implies a compulsory
+	standard for the default free text (unlikely to be
+	enforcable) <EM>or</EM> a qualifier to specify the date
+	format being used (which should support four digit years and be
+	unambiguous).
+    </UL>
+
+    <P>As an example of the above two points, the DC reference page[<A HREF="#ref-dc-ref">5</A>] uses:<BR>
+      <TT>&lt;META name = "DC.date" type = "creation" scheme = "ISO" content = "1996-06-02"&gt;</TT><BR>
+      (which is not valid HTML 2 however, attributes type and scheme do
+      not exist) but shows the need for qualification and
+      standardisation -- i.e. what ISO standard is implied here?</P>
+
+    <UL>
+      <LI>In the <STRONG>Subject</STRONG> and other elements, there
+	is a great desire for an ability for the particular
+	<EM>scheme</EM> or subject theasaurus to be declared so that
+	the field can have a precise meaning for subject specialists
+	(MeSH, LCSH, ...).
+
+      <LI>Qualifiers are necessary to define the Language, Encoding,
+	and Character Repertoire/Set for Internationalization (I18N)
+	when not using defaults.  Others will speak to I18N issues so
+	I won't expand them here.
+<!-- 	The current suggested defaults are -->
+<!-- 	Language=en (International English) although this may be -->
+<!-- 	controversial it is the defacto online default; -->
+<!-- 	CharSet of ISO-8859-1 (Latin-1) or ISO-10646 (Unicode 2.0); -->
+<!-- 	Encoding UTF-8. -->
+
+      <LI>At DC III<A HREF="#ref-dciii">[6]</A>, DLOs were found to
+	include (static) images / visual resources and for these more
+	complex qualification of the <STRONG>Format</STRONG> element
+	will be needed, for example, to describe multiple image
+	formats, sizes, ... etc.
+
+      <LI>Even if qualifiers are <STRONG>not</STRONG> added now, an
+	escape mechanism must be added to <EM>future-proof</EM> the
+	current DC so that when qualifiers are added, existing
+	non-qualified DC still can work.  We do <STRONG>not</STRONG>
+	recommend this, and expect if one RFC appears, people will
+	only use that as a basis and ignore later
+	<EM>incompatible</EM> ones.
+
+    </UL>
+
+
+    <H2>Messy Syntax Issues on Embedding DC in HTML &lt;META&gt; tags</H2>
+
+    <H3>Issue: Where do the qualifiers go in the &lt;META&gt; tag?</H3>
+
+    <P>The current practice is a mixture of three places, which
+      is unsatisfactory:</P>
+
+    <DL>
+      <DT>The NAME attribute
+      <DD>This needs some syntax defined, has a limited character set
+	(and size in HTML 2) and is thus restricting on qualifier
+	names and values (and unsafe for HTML 2 but do we care if
+	HTML 3.2 is the standard?)	
+      <DT>The CONTENT attribute
+      <DD>No problems with validation, needs an escaping mechanism, may
+	look messy / be difficult to explain to unskilled users
+	however do we expect most people will be using programs to
+	put DC in HTML?
+      <DT>New attributes
+      <DD>Easy to explain but breaks HTML validation and it is
+	unrealistic to expect we can change HTML to fix this.
+    </DL>
+
+    <P>Using the CONTENT attribute is the current most popular
+      experimental method.</P>
+
+
+    <H3>Issue: Syntax for qualifiers</H3>
+
+    <P>For the CONTENT attribute, current suggestions for syntax are
+    a list of prefixes of the form:<BR>
+      <TT>(</TT><EM>Qualifier Name</EM><TT>=</TT><EM>Qualifier Value</EM><TT>)</TT><BR>
+      This is easy to write and flexible has some problems with
+      encoding when an element value begin with a <TT>(</TT>.  There
+      are three suggested ways to fix this:</P>
+
+    <OL>
+      <LI>Use white space to separate qualifiers and element value<BR>
+	This is simple but has the problem that white space tends
+	to be added/removed from data by programs silently.
+
+      <LI>Encode the <TT>(</TT> by using the HTML character
+	entity for <TT>(</TT> - &amp;#40;<BR>
+	This may not work since an SGML parser could legitimately
+	replace it with <TT>(</TT> silently.
+	
+      <LI>Encode the <TT>(</TT> using another encoding such as the
+	%hex encoding for URLs<BR>
+	This needs more thought - do we just encode the 1st character
+	of the value in % format if it is '(' <EM>or</EM> '%' or all
+	of the value?
+	
+      <LI>Encode a leading <TT>(</TT> by duplicating it <TT>((</TT><BR>
+	This has the advantage that it is unambiguous -- no qualifier
+	can be in this format but may be difficult to explain.
+    </OL>
+
+
+    <P>For the NAME attribute, current suggestions for syntax are:</P>
+
+    <OL>
+      <LI><EM>Element</EM><TT>.</TT><EM>Special Qualifier Value</EM><TT>.</TT><EM>Qualifier Name</EM><TT>.</TT><EM>Qualifier Value</EM><TT>.</TT>...<BR>
+	Where the special qualifiers such as <EM>Role</EM> for
+	<STRONG>Contributor</STRONG> have reserved positions (can be
+	omitted with <TT>..</TT>) Disadvantages: each element has
+	different special qualifiers so the result will be a
+	confusing mix of qualifiers with some having the qualifier
+	names and others just the value.  Advantages: Simple
+
+      <LI><EM>Element</EM><TT>.</TT><EM>Qualifier Name</EM><TT>.</TT><EM>Qualifier Value</EM><TT>.</TT>...<BR>
+	Disadvantages: Rather long.  Advantages: Orthogonal.
+    </OL>
+
+
+    <H2>Acknowledgements</H2>
+
+    <P>This work derives a lot from <A HREF="#ref-strawman">[7]</A>
+      and discussions with Jon Knight of ROADS, Paul Miller of ADS
+      and Misha Wolf of Reuters.</P>
+
+
+    <H2>References</H2>
+    <DL>
+      <DT><A NAME="ref-dc-qual">[1]</A> <EM>Dublin Core Qualifiers</EM>
+      <DD>by Jon Knight and Martin Hamilton, ROADS Project, Department of Computer Studies, Loughborough University at &lt;URL:<A HREF="http://www.roads.lut.ac.uk/Metadata/DC-Qualifiers.html">http://www.roads.lut.ac.uk/Metadata/DC-Qualifiers.html</A>&gt;
+
+      <DT><A NAME="ref-nordic">[2]</A> <EM>The Nordic Metadata Project</EM>
+      <DD>at &lt;URL:<A HREF="http://linnea.helsinki.fi/meta/index.html">http://linnea.helsinki.fi/meta/index.html</A>&gt;
+
+      <DT><A NAME="ref-nordic-dc">[3]</A> <EM>Nordic Metadata Project - Dublin Core Metadata Template</EM>
+      <DD>at &lt;URL:<A HREF="http://www.ub2.lu.se/~traugott/DC_creator.html">http://www.ub2.lu.se/~traugott/DC_creator.html</A>&gt;
+
+      <DT><A NAME="ref-ads">[4]</A> <EM>An application of Dublin Core from the Archaeology Data Service</EM>
+      <DD>by Paul Miller, University Computing Service, University of Newcastle, UK at &lt;URL:<A HREF="http://intarch.ac.uk/ahds/project/metadata/dublin.html">http://intarch.ac.uk/ahds/project/metadata/dublin.html</A>&gt;
+
+      <DT><A NAME="ref-dc-ref">[5]</A> <EM>Dublin Core Metadata Element Set: Reference Description</EM>
+      <DD>at &lt;URL:<A HREF="http://purl.org/metadata/dublin_core_elements">http://purl.org/metadata/dublin_core_elements</A>&gt;
+
+      <DT><A NAME="ref-dciii">[6]</A> <EM>CNI/OCLC Metadata Workshop Workshop on Metadata for Networked Images</EM>
+      <DD>&lt;URL:<A HREF="http://purl.oclc.org/metadata/image">http://purl.oclc.org/metadata/image</A>&gt;
+
+      <DT><A NAME="ref-strawman">[7]</A> <EM>Strawman Proposal for Defining Qualifiers for Dublin Core Elements</EM>
+      <DD>by Jon Knight, ROADS Project, Department of Computer Studies, Loughborough University at &lt;URL:<A HREF="http://www.roads.lut.ac.uk/Metadata/DC-QualProposal.html">http://www.roads.lut.ac.uk/Metadata/DC-QualProposal.html</A>&gt;
+    </DL>
+
+  </BODY>
+</HTML>

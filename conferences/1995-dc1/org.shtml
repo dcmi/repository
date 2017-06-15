@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head >
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+    <title>Dublin Core Metadata Initiative (DCMI) Workshops</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="org.shtml.rdf" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body >
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <h2>Metadata Workshop: The Essential Elements of Network Object
+    Description</h2>
+
+
+    <h3>Organization</h3>
+    <hr />
+
+    <p>This invitational workshop convenes selected professionals
+    from diverse but related fields of computer science,
+    librarianship, online information services, abstracting and
+    indexing, imaging and geospatial data, museum and archive
+    control, and others, to address and advance the state of the
+    art in the development and extension of methods, standards, and
+    protocols to facilitate the description, organization,
+    discovery, and access of network information resources.</p>
+
+    <p><em>This conference is available by invitation
+    only.</em></p>
+    <hr />
+
+    <p><strong>Organizing Committee</strong></p>
+
+    <ul>
+      <li>Stuart Weibel, OCLC Office of Research<br />
+       <a href="mailto:weibel@oclc.org">weibel@oclc.org</a></li>
+
+      <li>Yuri Rubinsky, SoftQuad<br />
+       <a href="mailto:yuri@sq.com">yuri@sq.com</a></li>
+
+      <li>Joseph Hardin, NCSA<br />
+       <a
+      href="mailto:hardin@ncsa.uiuc.org">hardin@ncsa.uiuc.org</a></li>
+
+      <li>Jim Fullton, CNIDR<br />
+       <a href="mailto:jmf@cnidr.org">jmf@cnidr.org</a></li>
+    </ul>
+    <strong>Additional Organizational Planning and Support</strong>
+    
+
+    <ul>
+      <li>Erik Jul, OCLC<br />
+       <a href="mailto:jul@oclc.org">jul@oclc.org</a></li>
+
+      <li>Dan LaLiberte, NCSA<br />
+       <a
+      href="mailto:liberte@ncsa.uiuc.edu">liberte@ncsa.uiuc.edu</a></li>
+
+      <li>Tom Magliery, NCSA<br />
+       <a
+      href="mailto:mag@ncsa.uiuc.edu">mag@ncsa.uiuc.edu</a></li>
+
+      <li>Michael Shapiro, NCSA<br />
+       <a
+      href="mailto:mshapiro@ncsa.uiuc.edu">mshapiro@ncsa.uiuc.edu</a></li>
+    </ul>
+    <strong>Advisors</strong> 
+
+    <ul>
+      <li>Clifford Lynch, University of California<br />
+       <a
+      href="mailto:calur@uccmvsa.ucop.edu">calur@uccmvsa.ucop.edu</a></li>
+
+      <li>Priscilla Caplan, University of Chicago<br />
+       <a
+      href="mailto:pcaplan@midway.uchicago.edu">pcaplan@midway.uchicago.edu</a></li>
+
+      <li>Larry Masinter, Xerox Parc<br />
+       <a
+      href="mailto:masinter@parc.xerox.com">masinter@parc.xerox.com</a></li>
+
+      <li>Rebecca Guenther, Library of Congress<br />
+       <a href="mailto:rgue@loc.gov">rgue@loc.gov</a></li>
+    </ul>
+
+    
+    <!--#include virtual="/ssi/footer.shtml" -->
+  </body>
+</html>
+

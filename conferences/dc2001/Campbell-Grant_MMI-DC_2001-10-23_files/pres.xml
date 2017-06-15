@@ -1,0 +1,66 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint">
+ <p:presentation>
+  <p:master id="4" type="main" href="master04.htm" xmlhref="master04.xml"
+   template="Gul streg" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#000000,#FFFFCC,#5E574E,#FFCC00,#CC9900,#FF6600,#FF0000,#FFFFCC"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#5E574E,#000000,#FF6600,#FFCC00,#996633,#808000"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#393939,#000000,#CBCBCB,#868686,#4D4D4D,#EAEAEA"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#5E574E,#800000,#FF6600,#FFCC00,#FF0000,#FFFFCC"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000066,#000000,#0000FF,#0066FF,#33CCCC,#FF00FF,#9933FF"/>
+    <p:colorscheme
+     colors="#000066,#FFFFFF,#000000,#FFCC00,#0066FF,#33CCCC,#FF00FF,#9933FF"/>
+    <p:colorscheme
+     colors="#800000,#FFFFCC,#5E574E,#FFCC00,#CC9900,#FF6600,#FF0000,#FFFFCC"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="5" type="title" href="master05.htm" xmlhref="master05.xml"
+   layout="title_subtitle"
+   slots="centerTitle,subTitle,dateTime,footer,slideNumber"/>
+  <p:master id="1" type="notes" href="master01.htm" layout="notes"
+   slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:master id="2" type="handout" href="master02.htm" layout="handout"
+   slots="header,dateTime,footer,slideNumber"/>
+  <p:slide id="1" href="slide0001.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="45" href="slide0045.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="48" href="slide0048.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="57" href="slide0057.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="80" href="slide0080.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="77" href="slide0077.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="58" href="slide0058.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="61" href="slide0061.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="59" href="slide0059.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="60" href="slide0060.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="50" href="slide0050.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="53" href="slide0053.htm"/>
+  <p:slide id="67" href="slide0067.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="68" href="slide0068.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="69" href="slide0069.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="66" href="slide0066.htm" layout="title_only" slots="title"/>
+  <p:slide id="76" href="slide0076.htm" layout="title_body" slots="title,body"/>
+  <p:viewstate type="slideView" scale="75" vertbarstate="0" horizbarstate="2"/>
+  <p:kinsoku language="Japanese" level="levelOne"/>
+  <p:font name="Times New Roman" charset="0" type="4"/>
+  <p:font name="Arial Black" charset="0" type="4" family="34"/>
+  <p:font name="Tahoma" charset="0" type="4" family="34"/>
+  <p:font name="Monotype Sorts" charset="2" type="4" family="2"/>
+  <p:font name="Arial" charset="0" type="4"/>
+  <p:font name="Arial Unicode MS" charset="128" type="6" family="50"/>
+  <p:headersfooters noheader="t"/>
+  <p:headersfooters notes="t" slidenumber="t"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"/>
+  <p:htmlpublishsettings browsersupport="v4"
+   href="D:\Data\dublincore\dekkers\Campbell-Grant_MMI-DC_2001-10-23.htm"
+   hidespeakernote="t" noloadinbrowser="t"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="156674">
+  <o:colormru v:ext="edit" colors="#06f"/>
+ </o:shapedefaults></xml>

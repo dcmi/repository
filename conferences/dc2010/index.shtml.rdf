@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about="http://dublincore.org/workshops/dc2010/">
+<dc:title>DC-2010: Call for Expressions of Interest</dc:title>
+<dc:description>Call for Expression of Interest for hosting DC-2010 in North America.</dc:description>
+<dc:date>2009-05-11</dc:date>
+<dc:format>text/html</dc:format> 
+<dc:language>en</dc:language> 
+<dc:publisher>Dublin Core Metadata Initiative</dc:publisher> 
+</rdf:Description> 
+</rdf:RDF> 

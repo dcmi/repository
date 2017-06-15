@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Call for Proposals: DC-2009 Conference Tutorials</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr><td valign="middle" style="padding:8px 0px 8px 0px;"><div align="left"><a href="http://www.dc2009.kr/"><img src="/images/dc/dc2009_banner.gif" width="600" height="117" alt="Graphic for the DC-2009 International Conference" title="DC-2009: International Conference on Dublin Core and Metadata Applications; Seoul, Korea, 12-16 October 2009" /></a></div></td></tr>
+</table>
+
+<h1>Call for Proposals: DC-2009 Conference Tutorials</h1>
+<p>Proposals are invited from anyone interested in delivering tutorials at the <a href="http://www.dc2009.kr/">Dublin Core 2009 Conference</a>
+to be held in Seoul, Korea from 12 to 16 October 2009. We wish to include both <a href="#introductory">Introductory</a> and
+<a href="#advanced">Advanced</a> tutorials in the programme, and would welcome proposals in both categories, as described below.</p>
+
+<hr />
+
+<a name="introductory" id="introductory"></a>
+<h2>Introductory Tutorials</h2>
+
+<p>A half-day introductory tutorial stream is envisaged for the Monday before the main conference (12 October 2009).
+It is expected that this will be comprised of two sessions of two hours.
+The purpose of this stream is to give new participants a thorough grounding in the Dublin Core Metadata Initiative.
+In particular, the tutorials should cover:</p>
+
+<ul>
+<li>the <a href="/about/">development and focus of DCMI</a></li>
+<li>the <a href="/documents/dcmi-terms/">Dublin Core Metadata Terms</a></li>
+<li>the <a href="/documents/abstract-model/">DCMI Abstract Model</a>, its role and key concepts</li>
+<li>the <a href="/documents/singapore-framework/">Singapore Framework</a>, and the development and use of Dublin Core Application Profiles</li>
+</ul>
+
+<p>Support for attendance will be provided to presenters of introductory tutorials.
+Proposals are invited from individuals, indicating the topics they would cover, relevant experience, and the learning approach.
+Joint proposals covering the all the desired material are particularly encouraged.</p>
+
+<hr />
+
+<a name="advanced" id="advanced"></a>
+<h2>Advanced Tutorials</h2>
+
+<p>DC-2009 will focus on linked data and the enabling of the Semantic Web.
+Conference participants will explore the conceptual and practical issues in breaking the constraints of data silos and connecting pieces of data,
+information, and knowledge.  Proposals for advanced tutorials are invited that would explore practice issues related to this theme.
+It is envisaged that advanced tutorials would be offered twice, on the Monday (12 October 2009) and Friday (16 October 2009),
+and proposals for both half and full day tutorials are welcome.
+No direct support will be provided to advanced tutorial presenters, but revenue will be split between the Conference and the presenters.
+(Registration for half day tutorials will be US$100, for full day tutorials US$200).</p>
+
+<hr />
+
+<h2>Submission and selection process</h2>
+
+<p>The language for all tutorials will be English. Proposals should be submitted by 15 May 2009 to the Tutorial Chairs,
+<a href="mailto:john.roberts@archives.govt.nz">John Roberts</a>  and <a href="mailto:heesop@mail.knu.ac.kr">Heesop Kim</a>.
+
+Please feel free to contact us with any queries regarding this call.</p>
+
+<p>Successful proposals will be advised by 22 June 2009, in line with notification of paper acceptance for the main conference.
+It is expected that tutorial presenters will provide handout materials by 11 September 2009 in time for copying and inclusion
+in conference material for delegates. Authors of tutorial materials need to agree to grant DCMI a perpetual, non-exclusive licence
+to use, copy and distribute the material and/or create adaptations or derivatives from the material in any medium for any purpose
+and without fee or royalty.</p>
+
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>

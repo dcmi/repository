@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html title="An advisory description of the element." lang="en"
+xmlns="http://www.w3.org/1999/xhtml">
+  <head title="An advisory description of the element.">
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+    <title>DCMI Workshops - DC6: Report on the Breakout Group on
+    Standardisation</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="v2.shtml.rdf" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body bgcolor="#FFFFFF" text="#000000">
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <div align="center">
+      <h1>REPORT ON THE BREAK-OUT GROUP ON STANDARDISATION<br />
+       DC-6, Washington, DC; 3 November 1998</h1>
+    </div>
+
+    <p>Participants in the meeting</p>
+
+    <p>Priscilla Caplan<br />
+     Eliot Christian<br />
+     Makx Dekkers<br />
+     Pat Harris<br />
+     Terry Kuny<br />
+     John Kunze<br />
+     Clifford Lynch<br />
+     Sally MacCallum<br />
+     Cecilia Preston<br />
+     Ralph Swick</p>
+
+    <p>&nbsp;</p>
+    <hr />
+
+    <p>I. Why standardise Dublin Core?</p>
+
+    <p>1. To stabilise</p>
+
+    <p>There is a sense of instability in the current definition of
+    the Dublin Core among organisations that want to start
+    implementing. Organisations directly involved in the Dublin
+    Core activity have started implementing in the understanding
+    that the definitions were open to change as a result of their
+    experiences. Other organisations, however, are waiting for a
+    stable situation before they start investing substantial
+    amounts of effort and money in<br />
+     creating Dublin Core metadata. Standardising the Dublin Core
+    would (a) clearly mark a stable version of the agreements and
+    (b) make the process of change verifiable.</p>
+
+    <p>2. To ratify</p>
+
+    <p>Some organisations are required to use (international)
+    standards for their activities. Examples are government
+    agencies who are bound by public procurement policies. Being
+    able to refer to an international standard for metadata would
+    give them a tool to implement and/or procure products that
+    conform to this standard. In relation to this, it was mentioned
+    that standardising DC could help in ISO 9000 compliance.</p>
+    <hr />
+
+    <p>II. What should be standardised?</p>
+
+    <p>1. The current state of the consensus described in RFC 2413
+    (now referred to as version 1.0) is the clear candidate to act
+    as the basis for international standardisation as this is the
+    version that has currently been implemented by a large number
+    of projects. This version will therefore be proposed as input
+    for the standardisation process.</p>
+
+    <p>2. It is true that there are still discussions over the
+    semantics of some of the elements in version 1.0. In DC-6, a
+    short-term action was agreed to tidy up the definitions of
+    version 1.0. This will lead to DC version 1.1, with the same 15
+    elements as version 1.0, but with clarified descriptions. Given
+    the intended timescale for this (3 months?), it is likely that
+    version 1.1 can be injected in the standards process, together
+    with any other ballot<br />
+     comments, before a standard is ratified.</p>
+
+    <p>3. The standardisation of version 2.0 that is under
+    construction can be progressed as a new version of the DC
+    standard probably at the end of 1999 at the earliest.</p>
+    <hr />
+
+    <p>III. Where can DC 1.0 be standardised?</p>
+
+    <p>There are various options for standardisation of Dublin
+    Core. Candidate standardisation bodies that have been
+    identified are:<br />
+     (a) ISO, the International Organisation for
+    Standardisation<br />
+     (b) CEN/ISSS, the Information Society Standardization System
+    of the European Committee for Standardization<br />
+     (c) NISO, the US National Information Standards
+    Organization</p>
+
+    <p>A parallel approach is proposed, submitting DC 1.0 as a work
+    item to the three bodies at the same time, addressing it
+    to:<br />
+     1. ISO TC46/SC4/WG7<br />
+     2. CEN/ISSS Workshop on Metadata for Multimedia Information
+    (MMI) for adoption as a CEN Workshop Agreement (CWA)<br />
+     3. NISO Standards Development Committee</p>
+
+    <p>The timescale of the standardisation process depends on
+    the<br />
+     established procedures of the three bodies. Of course,
+    the<br />
+     proposal has to go through these procedures, although wherever
+    possible, a fast-track option will be pursued. Hopefully, the
+    ballot process for all three tracks can be well underway at the
+    time of DC-7 in Frankfurt.</p>
+
+    <p>In any case, there was a consensus in the break-out session
+    that the DC community would retain "ownership" of DC, so that,
+    for example, it would be the DC process and not any external
+    standards organisation that would control changes.</p>
+    <hr />
+
+    <p>IV. What could be problems in the process?</p>
+
+    <p>Three issues were identified:</p>
+
+    <p>1. Copyright issues<br />
+     All of the standardisation bodies have certain policies
+    towards copyright on the standards they publish. A solution can
+    be proposed where the standards bodies have shared copyright,
+    which allows them to sell the standard document, whereas the
+    Dublin Core Metadata Initiative at the same time should retain
+    the rights on making the content freely available on the Web. A
+    similar solution has been found between ISO, NISO and the
+    Z39.50 maintenance agency<br />
+     concerning the Z39.50 standard.</p>
+
+    <p>2. Document format<br />
+     All of the standardisation bodies have certain rules
+    pertaining to the layout and format of published standards.
+    There should be a certain flexibility, provided that the core
+    body of the standard is identical. An example of this is again
+    the Z39.50 standard where the content of the ISO and NISO
+    standard documents is identical.</p>
+
+    <p>3. Maintenance agency<br />
+     In any case, the responsible body for the maintenance of the
+    content of DC should be a more-or-less formalised maintenance
+    agency much like the Z39.50 Maintenance Agency supported by the
+    Z39.50 Implementers Group is responsible for the maintenance of
+    Z39.50. The proposals for the Organization and Process of the
+    Dublin Core Metadata Initiative (Directorate, Technical and
+    Policy Advisory Committees, and DC Workshops) should lead to a
+    similar<br />
+     identifiable maintenance agency.</p>
+    <!--#include virtual="/ssi/footer.txt" -->
+  </body>
+</html>
+

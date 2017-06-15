@@ -1,0 +1,271 @@
+<html>
+<head>
+<title>RDF Gateway Implementation Notes</title>
+<link rel="Stylesheet" href="GEM-Help.css" type="text/css" media="screen" />
+<link rel="Stylesheet" href="GEM-Help.css" type="text/css" media="print" />
+</head>
+<body bgcolor="#FFFFFF">
+<a name="top"></a>
+<table width="668" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr valign="top"><td><div class="gemLabel"><strong>RDF Gateway Implementation Notes</strong></div></td></tr>
+<tr valign="top">
+<td colspan="3" bgcolor="#FFFFFF"><img src="img/spacer.gif" width="668" height="10" border="0"></td>
+</tr>
+
+<tr><td>
+<table width="674" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr valign="top">
+<td width="116" align="center" ><img src="img/image2.gif" alt="Image" width="115" height="77" border="0"></td>
+<td width="52" align="center" ><img src="img/image1.gif" alt="Image" width="51" height="77" border="0"></td>
+<td width="115" align="center" ><img src="img/image5.gif" alt="Image" width="115" height="77" border="0"></td>
+<td width="51" align="center" ><img src="img/image4.gif" alt="Image" width="51" height="77" border="0"></td>
+<td width="115" align="center" ><img src="img/image6.gif" alt="Image" width="115" height="77" border="0"></td>
+<td width="51" align="center" ><img src="img/image3.gif" alt="Image" width="51" height="77" border="0"></td>
+<td width="115" align="center" ><img src="img/image7.gif" alt="Image" width="115" height="77" border="0"></td>
+<td width="51" align="center" ><img src="img/image8.gif" alt="Image" width="51" height="77" border="0"></td>
+</tr>
+</table>
+</td></tr>
+
+<tr valign="top">
+<td colspan="3" bgcolor="#FFFFFF"><img src="img/spacer.gif" width="674" height="20" border="0"></td>
+</tr>
+</table>
+
+<table width="674" border="0" align="center" cellpadding="0" cellspacing="0">
+
+<tr valign="top">
+<td valign="top" colspan="3">
+<div class="gemFeed"><strong>RDF Gateway+ Note Topics:</strong>|&nbsp;&nbsp;&nbsp;<a href="#facetSearch">Faceted Search</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#searchOperators">Search Operators</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#knownBugs">Known Bugs</a>&nbsp;&nbsp;&nbsp;|</div>
+</td></tr>
+
+<tr valign="top">
+<td colspan="3" bgcolor="#FFFFFF"><img src="img/spacer.gif" width="668" height="20" border="0"></td>
+</tr>
+
+<tr valign="top">
+<td width="427" bgcolor="#FFFFFF" valign="top">
+
+<a name="facetSearch"></a>
+<p><div class="gemText"><strong><font color=#ff0000>Faceted Search:</font></strong></p> 
+
+<p>Note that the search engine for the Gateway+ is very different from the previous GEM search engines.  While the past GEM search engines may be characterized as basic boolean engines that permited the construction of fairly complex queries, they may also be characterized as relatively difficult to use for novice searchers.  The Gateway+ search engine has been designed to eliminate boolean complexity and still allow the end user to use it in sophisticated ways.</p>
+
+<p>The plus (+) in Gateway+ stands for what is called faceted searching.  Faceted searching is a mechanism for combining the attributes of searching and browsing into a single process.  A Gateway+ search begins like any other simple Web search engine search&#150;i.e., a Google<sup>&reg;</sup>-like search&#150; by entering a brief text string that describes the information need.<p>
+
+<p>Generally, the results of the Gateway+ text query is a fairly large (sometimes very large) retrieval set.  When a user inputs a simple text query such as "earth fire water air", the terms are executed with a boolean "or".  At this time (and with the exceptions noted in the table below), boolean operators are not supported in the free text query box.  When the user adds selections from the GEM subject drop-down menus or from the grade level selection buttons, those facets of the search are combined using the boolean "and".   </p> 
+
+<p>Usually, but not always, the second phase of the faceted search is to begin narrowing down the retrieval set based on various facets of the resources in that set.  For example, one facet of the records in the retrieval set is their "Resource Type"&#150;i.e., some may be lesson plans, others are activities, and still others may be applets and computer applications.</p>
+
+<p>At the top of each retrieval set returned by Gateway+ is a set of facets and clickable terms under each facet that have been derived from the retrieval set.  So, for example, an end user that is only interested in looking at lesson plans can reduce the set of retrieved resources to only lesson plans by clicking on the term in the facet list for Resource Type.  In like fashion, picking the term Parents from the Audience element will reduce the retrieval set even further to only those resources that are lesson plans and useful for parents.  This form of browsing&#150;burrowing down into the retrieval set&#150;may be continued until the retrieval set contains only those resources that fit the desired facet choices of interest.</p>
+
+<p>When retrieval sets are displayed to the user, the sequence of records in the display (i.e., relevance ranking) is a function of weighting the terms in the query based on the elements in which they occur.  Thus, query terms are given weight in the descending order of the following elements: keywords, subject, title, description, anywhere else.</p>
+
+
+<a name="searchOperators"></a>
+<p><div class="gemText"><p><strong><font color=#ff0000>Search Operators:</font></strong></p> 
+
+<table  width="100%" border="1" cellspacing="0" cellpadding="4">
+	<tr>
+		<!-- Row 1 Column 1 -->
+		<td >
+			<b>
+				<div class="gemText">Operator</div>
+			</b>
+		</td>
+		<!-- Row 1 Column 2 -->
+		<td >
+			<b>
+				<center><div class="gemText">Description</div></center>
+			</b>
+		</td>
+	</tr>
+	<tr>
+		<td >
+	            <div class="gemText"><center><strong>+</strong></center></div>	
+      	</td>
+		<td >
+	            <div class="gemText"><p>A leading plus sign indicates that this word must be present in every element returned.</P>
+			<center><em>Example:</em><br>+apple +juice</center><br>Find elements that contain both "apple" and "juice."
+<p>
+<center><em>Example:</em><br>
++apple macintosh</center><br>Find elements that contain at least the word "apple'', but rank it higher if it also contain "macintosh''.</div>	
+		</td>
+	</tr>
+	<tr>
+		<td >
+	            <div class="gemText"><center><strong>-</strong></center></div>	
+      	</td>
+		<td >
+	            <div class="gemText"><p>A leading minus sign indicates that this word must <strong>not</strong> be present in any element returned.</P>
+<center><em>Example:</em><br>
++apple -macintosh</center><br>Find elements that contain at least the word "apple'' but not "macintosh''.</div>	
+		</td>
+	</tr>
+	<tr>
+		<td >
+	            <div class="gemText"><center><strong>&lt; &gt;</strong><br>( )</center></div>	
+      	</td>
+		<td >
+	            <div class="gemText"><p>These two operators are used to change a word's contribution to the relevance value that is assigned to an element. The &lt; operator decreases the contribution and the &gt; operator increases it. Parentheses are used to group words into subexpressions.</p>
+<center><em>Example:</em><br>
++apple +(&gt;pie &lt;strudel)</center><br>Find elements that contain at least the word "apple'' and "pie'', or "apple'' and "strudel'' (in any order), but rank "apple pie'' higher than "apple strudel''.</div>	
+		</td>
+	</tr>
+	<tr>
+		<td >
+	            <div class="gemText"><center><strong>~</strong></center></div>	
+      	</td>
+		<td >
+	            <div class="gemText"><p>A leading tilde acts as a negation operator, causing the word's contribution to the element relevance to be negative. It's useful for marking noise words. An element that contains such a word will be rated lower than others, but will not be excluded altogether, as it would be with the - operator.</p>
+</div>	
+		</td>
+	</tr>
+	<tr>
+		<td >
+	            <div class="gemText"><center><strong>*</strong></center></div>	
+      	</td>
+		<td >
+	            <div class="gemText"><p>An asterisk is the truncation operator. Unlike the other operators, it should be appended to the word, not prepended.</p>
+<center><em>Example:</em><br>
+apple* </center><br>Find elements that contain at least the word "apple'' and "applet'', or "appleton''.</div>	
+		</td>
+	</tr>
+	<tr>
+		<td >
+	            <div class="gemText"><center><strong>" "</strong></center></div>	
+      	</td>
+		<td >
+	            <div class="gemText"><p>The phrase that is enclosed in double quotes matches only elements that contain this phrase literally as it was typed.  Note: At this time, the exact text match ignores words of three letters or less.</p>
+</div>	
+		</td>
+	</tr>
+</table>
+
+<a name="knownBugs"></a>
+<p><div class="gemText"><strong><font color=#ff0000>Known Bugs:</font></strong></p> 
+<p>The following table contains known bugs and identified feature issues.  We are working our way through  the bugs.  Substantial feature requests will be rolled over into the EG implementation of the Gateway+.</p>
+
+
+<table  width="100%" border="1" cellspacing="0" cellpadding="4">
+	<tr>
+		<!-- Row 1 Column 1 -->
+		<td >
+			<b>
+				<center><div class="gemText">SF#</div></center>
+			</b>
+		</td>
+		<!-- Row 1 Column 2 -->
+		<td >
+			<b>
+				<center><div class="gemText">Description</div></center>
+			</b>
+		</td>
+	</tr>
+	<tr>
+		<!-- Row 1 Column 1 -->
+		<td >
+			<b>
+				<center><div class="gemText">&nbsp;</div></center>
+			</b>
+		</td>
+		<!-- Row 1 Column 2 -->
+		<td >
+		<div class="gemText">Missing elements in the full record display:  Currently, the full record display is incomplete.  Missing are a number of elements as well as linked values (e.g., relation URLs that are not active links).  We will continue cleaning up these issues over the next week.</div></center>
+		</td>
+	</tr>
+	<tr>
+		<!-- Row 1 Column 1 -->
+		<td >
+			<b>
+				<center><div class="gemText">&nbsp;</div></center>
+			</b>
+		</td>
+		<!-- Row 1 Column 2 -->
+		<td >
+		<div class="gemText">Screen formatting of GEM subjects in full display is incorrect.  Currently, GEM subjects at both the first and second level appear in the full display but not in their hierarchical form.  We will fix this display problem over the next week.</div></center>
+		</td>
+	</tr>
+	<tr>
+		<!-- Row 1 Column 1 -->
+		<td >
+			<b>
+				<center><div class="gemText">&nbsp;</div></center>
+			</b>
+		</td>
+		<!-- Row 1 Column 2 -->
+		<td >
+		<div class="gemText">Grade selections on the search screen.  Currently, the user cannot execute a search consisting only of a grade or grade range selection.  In other words, the user cannot ask: "Give me everything you have for the third grade."  Grade selections as qualifiers of either a full text entry or a GEM subject selection works.</div></center>
+		</td>
+	</tr>
+	<tr>
+		<!-- Row 1 Column 1 -->
+		<td >
+			<b>
+				<center><div class="gemText">&nbsp;</div></center>
+			</b>
+		</td>
+		<!-- Row 1 Column 2 -->
+		<td >
+		<div class="gemText">GEM subject terms in the faceted list.  We are displaying GEM vocabulary terms (both first and second level) as a simple list in the facets.  This is <strong>not</strong> an error but a design choice.</div></center>
+		</td>
+	</tr>
+	<tr>
+		<!-- Row 1 Column 1 -->
+		<td >
+			<b>
+				<center><div class="gemText">&nbsp;</div></center>
+			</b>
+		</td>
+		<!-- Row 1 Column 2 -->
+		<td >
+		<div class="gemText">Facet terms displayed is incomplete.  Given the limited screen real estate for the facet display, only a limited number of terms are displayed unto each facet.  We plan to have a "[more ...]" button at the bottom of all facet lists where additional terms (beyond the limit set for the default display) exist.  By clicking on "[more ...]", the user can get a list of the remaining terms for that facet.</div></center>
+		</td>
+	</tr>
+	<tr>
+		<!-- Row 1 Column 1 -->
+		<td >
+			<b>
+				<center><div class="gemText">&nbsp;</div></center>
+			</b>
+		</td>
+		<!-- Row 1 Column 2 -->
+		<td >
+		<div class="gemText">Rights &gt; Cost display.  Unlike the Inktomi version of the Gateway, Gateway+ has removed the end user free/fee-based selection from the query page and will permit the user to "toggle" back and forth using facet terms.  Note: The Rights facet (6th on the facet display) has not been implemented.  We will be adding it to the display within a week or so.</div></center>
+		</td>
+	</tr>
+</table>
+
+<p><div class="gemSidebar"><a href="#top">return to top</a> ...</div></p>
+<p><center><div class="gemText"><form action="http://128.230.185.138">
+ <input type="submit" value="Access the RDF Gateway+ Test Search Engine"/></form></div></center></p>
+
+</td>
+<td width="41" bgcolor="#FFFFFF" background="img/rule_dashed.gif"><img src="img/spacer.gif" width="41" height="1" border="0"></td>
+<td width="200" bgcolor="#FFFFFF">
+<div class="gemSidebar">
+<p><strong>News &amp; Announcements</strong>
+</div>
+
+<p><div class="gemSidebar">The Gateway+ Version 1.0 is now available for testing.  Problems with the Gateway+ application should be reported to <a href="mailto:gemmail@geminfo.org
+">gemmail@geminfo.org
+</a></p></div></td>
+
+</tr>
+<tr valign="top">
+<td colspan="3" bgcolor="#FFFFFF"><img src="img/spacer.gif" width="668" height="20" border="0">
+<table width="668" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<div class="gemFooter">
+<p>Last updated: April 23, 2003 (8:45AM)<br>
+Copyright &copy; 2003 GEM Consortium. All Rights Reserved.</p>
+</div></td>
+</tr>
+</table></td>
+</tr>
+</table>
+
+
+</body>
+</html>

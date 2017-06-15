@@ -1,0 +1,331 @@
+<!-- Copyright DSTC, RDNCRC, 1995, 1996. -->
+
+<html>
+<head>
+
+<META  name="DC.Title" content="PICS Extension Proposal">
+<META  name="DC.Author" content="Renato Iannella">
+<META  name="DC.Subject" content="PICS, Metadata, Dublin Core">
+<META  name="DC.Date" content="1997-02-11">
+
+<title>Extensibility Strawman Proposal using PICS</title>
+</head>
+
+<body bgcolor=#f7feff text=#000000 link=#0000ff vlink=#0000e0>
+
+<h1>Extensibility Strawman Proposal using PICS</h1>
+
+<hr>
+
+<h3>Introduction and Motivation</h3>
+
+The <a href="http://www.w3.org/pub/WWW/PICS/">Platform for Internet Content Selection</a> (PICS) defines two recommendations. One for the  <a href="http://www.w3.org/pub/WWW/PICS/services.html">Rating
+Services and Systems</a>
+and the other for <a href="http://www.w3.org/pub/WWW/PICS/labels.html">Label Syntax and Communications</a>. The former defines the
+rating system (via a RAT file), the second tells you how to use it for
+your content (via Label information).
+
+<P>
+Supporting extensible text-based metadata, with minimal changes to the PICS recommendation, is possible
+with the addition of the <i>string</i> data type and exploitation of the PICS Extension Mechanism.
+
+The PICS extension mechanism (by defining two such extensions):
+<UL>
+  <LI><B>rat-inherit</b>
+  <LI><b>sub-label</b>
+</UL>      
+
+A client which sees <i>rat-inherit</i> in a service description should interpret it as meaning that
+the <i>quotedURL</i> will point to another RAT system which <b>must</b> be read and incorporated
+into the current RAT system. This will enable simple inheritance of RAT systems.
+The extension is always <i>mandatory</i>.
+<P>
+A client which sees <i>sub-label</i> in a service description should interpret it as meaning that
+the <i>quotedURL</i> will point to a RAT system which <b>could</b> be read and incorporated
+into the current RAT system as label sub-elements information. This RAT file would only contain
+numeric RAT information and would be applied to a specific (string-based) label in the original RAT system.
+The extension is <i>optional</i>, meaning that it is not necessary for the successful use of the RAT system,
+but could be <i>mandatory</i> is this is required.
+
+
+
+<h3>Example Rating Service and System using text-based Metadata</h3>
+
+To illustrate the use of the <i>string</i> data type and the above defined PICS extension mechanisms,
+the <a href="http://purl.org/metadata/dublin_core">Dublin Core metadata set</a> will be used. The Dublin Core metadata set has also a set of <a href="http://www.roads.lut.ac.uk/Metadata/DC-SubElements.html">qualifiers or sub-elements</a> and <a href="http://www.roads.lut.ac.uk/Metadata/DC-ObjectTypes.html">standard object types</a> defined.
+<p>
+Four example cases  are shown below:
+<UL>
+  <LI>The first defines the Dublin Core metadata element set.
+  <LI>The second defines the sub-labels for Dublin Core.
+  <LI>The third defines a new metadata set (St Lucia) which inherits all of Dublin Core and adds a new element.
+  <LI>The fourth defines a new metadata set (Yeronga) with inherits all of Dublin Core and adds a new sub-label to one of the elements.
+</UL>
+
+<h4>1. PICS service with Dublin Core</h4>
+
+<font size=-1><pre>
+(( PICS-version 2.0)
+   (rating-service "http://metadata.net/dublin-core/")
+   (rating-system "http://metadata.net/dublin-core/V1.0/")
+   (name "The Dublin Core Metadata Element Set Service")
+
+   (default (multivalue true) (unordered false) )
+
+   (category
+      (transmit-as "dc.title")
+      (name "Title")
+      (description "The name given to the resource by the creator or publisher")
+      (string)
+      (extension (optional "http://www.w3.org/pub/WWW/PICS/extensions/sub-label"
+                           "http://metadata.net/dublin-core/V1.0/sub/std.rat" ))
+      (extension (optional "http://www.w3.org/pub/WWW/PICS/extensions/sub-label"
+                           "http://metadata.net/dublin-core/V1.0/sub/title.rat" ))
+
+   (category
+      (transmit-as "dc.creator")
+      (name "Author/Creator")
+      (description "The person(s) primarily responsible for the intellectual content of the
+                    resource")
+      (string)
+      (extension (optional "http://www.w3.org/pub/WWW/PICS/extensions/sub-label"
+                           "http://metadata.net/dublin-core/V1.0/sub/std.rat" ))
+      (extension (optional "http://www.w3.org/pub/WWW/PICS/extensions/sub-label"
+                           "http://metadata.net/dublin-core/V1.0/sub/person.rat" ))
+      (extension (optional "http://www.w3.org/pub/WWW/PICS/extensions/sub-label"
+                           "http://metadata.net/dublin-core/V1.0/sub/creator.rat" ))
+
+   (category
+      (transmit-as "dc.subject")
+      (name "Subject/Keywords")
+      (description "The topic or keywords of the work that describe the subject or content
+                    of the resource")
+      (string)
+      (extension (optional "http://www.w3.org/pub/WWW/PICS/extensions/sub-label"
+                           "http://metadata.net/dublin-core/V1.0/sub/std.rat" ))
+      (extension (optional "http://www.w3.org/pub/WWW/PICS/extensions/sub-label"
+                           "http://metadata.net/dublin-core/V1.0/sub/subject.rat" ))
+
+   (category
+      (transmit-as "dc.description")
+      (name "Description")
+      (description "A textual description (eg abstract) of the content of the resource")
+      (string (multiline true) )
+      (extension (optional "http://www.w3.org/pub/WWW/PICS/extensions/sub-label"
+                           "http://metadata.net/dublin-core/V1.0/sub/std.rat" ))
+      (extension (optional "http://www.w3.org/pub/WWW/PICS/extensions/sub-label"
+                           "http://metadata.net/dublin-core/V1.0/sub/description.rat" ))
+
+   (category
+      (transmit-as "dc.contributors")
+      (name "Other Contributors")
+      (description "The other creators who have made significant (but secondary) intellectual
+                    contributions to the resource")
+      (string)
+      (extension (optional "http://www.w3.org/pub/WWW/PICS/extensions/sub-label"
+                           "http://metadata.net/dublin-core/V1.0/sub/std.rat" ))
+      (extension (optional "http://www.w3.org/pub/WWW/PICS/extensions/sub-label"
+                           "http://metadata.net/dublin-core/V1.0/sub/person.rat" ))
+      (extension (optional "http://www.w3.org/pub/WWW/PICS/extensions/sub-label"
+                           "http://metadata.net/dublin-core/V1.0/sub/contributor.rat" ))
+
+    ....
+</pre></font>
+
+Note: To support  I18N, it is a good idea for <i>transmit-as</i> values to be mainly numeric, but
+      for readability and understanding (in this document), longer english terms will be used.
+  
+<h4>2. PICS Dublin Core Sub-Label service</h4>
+
+<h5>Common sub-labels</h5>
+
+<font size=-1><pre>
+(( PICS-version 2.0)
+   (rating-service "http://metadata.net/dublin-core/")
+   (rating-system "http://metadata.net/dublin-core/V1.0/sub/std/")
+   (name "Common sub-labels for all Dublin Core elements")
+
+   (default (multivalue false) (unordered false) (label-only true))
+
+   (category
+      (transmit-as "Language")
+      (name "Language")
+      (description "The Language used for the value of the element from ISO 639")
+      (label (name "Unknown") (value 0))
+      (label (name "EN")      (value 1))
+      (label (name "FR")      (value 2))
+      (label (name "IT")      (value 3)))
+
+   (category
+      (transmit-as "Charset")
+      (name "Character Set")
+      (description "The Character Set used for the value of the element")
+      (label (name "Unknown")    (value 0))
+      (label (name "ISO.8859-1") (value 1))
+      (label (name "UTF-8")      (value 2))
+      (label (name "Unicode")    (value 3))))
+</pre></font>
+
+<h5>Person sub-labels</h5>
+
+<font size=-1><pre>
+(( PICS-version 2.0)
+   (rating-service "http://metadata.net/dublin-core/")
+   (rating-system "http://metadata.net/dublin-core/V1.0/sub/person/")
+   (name "Person sub-labels for some Dublin Core elements")
+
+   (default (multivalue false) (unordered false) (label-only true))
+
+   (category
+      (transmit-as "Person")
+      (name "Person")
+      (description "Person specific information")
+      (label (name "Name") (value 0))
+      (label (name "Affiliation") (value 1))
+      (label (name "Address")     (value 2))
+      (label (name "Email")       (value 3))
+      (label (name "Phone")       (value 4))
+      (label (name "Fax")         (value 5))))
+</pre></font>
+
+<h5>Sub-labels for Other Contributor element</h5>
+
+<font size=-1><pre>
+(( PICS-version 2.0)
+   (rating-service "http://metadata.net/dublin-core/")
+   (rating-system "http://metadata.net/dublin-core/V1.0/sub/contributor/")
+   (name "Sub-Labels for Other Contributor element")
+
+   (default (multivalue false) (unordered false) (label-only true))
+
+   (category
+      (transmit-as "scheme")
+      (name "Schemes for Contributors")
+      (description "The Schemes used to describe the encoding of the values for the Contributors")
+      (label (name "None")   (value 0))
+      (label (name "SGML")   (value 1))
+      (label (name "USMARC") (value 2)))
+  
+   (category
+      (transmit-as "role")
+      (name "Roles for Contributors")
+      (description "The Roles undertaken by the Contributors")
+      (label (name "None")         (value 0))
+      (label (name "Editor")       (value 1))
+      (label (name "Illustrator")  (value 2))
+      (label (name "Translator")   (value 3))
+      (label (name "Reviewer")     (value 4))
+      (label (name "Commentary")   (value 5))))
+</pre></font>
+
+
+<h4>3. Extending PICS Dublin Core with more elements, creating a new Metadata service</h4>
+
+<font size=-1><pre>
+(( PICS-version 2.0)
+   (rating-service "http://metadata.net.au/st-lucia/")
+   (rating-system "http://metadata.net.au/st-lucia/V1.0/")
+   (name "The St Lucia Metadata Element Set Service, based on Dublin Core")
+
+   (extension (mandatory "http://www.w3.org/pub/WWW/PICS/extensions/rat-inherit"
+                         "http://metadata.net/dublin-core/V1.0/dc.rat" ))
+
+   (category
+      (transmit-as "sl.method")
+      (name "Methodology")
+      (description "The methodology used to create the resource")
+      (string)
+      (extension (optional "http://www.w3.org/pub/WWW/PICS/extensions/sub-label"
+                           "http://metadata.net/dublin-core/V1.0/sub/std.rat" ))
+      (extension (optional "http://www.w3.org/pub/WWW/PICS/extensions/sub-label"
+                           "http://metadata.net.au/st-lucia/V1.0/sub/method.rat" ))
+</pre></font>
+  
+<h4>4. Extending PICS Dublin Core with more sub-labels, creating a new Metadata service</h4>
+
+<font size=-1><pre>
+(( PICS-version 2.0)
+   (rating-service "http://metadata.net.au/yeronga/")
+   (rating-system "http://metadata.net.au/yeronga/V1.0/")
+   (name "The Yeronga Metadata Element Set Service, based on Dublin Core")
+
+   (extension (mandatory "http://www.w3.org/pub/WWW/PICS/extensions/rat-inherit"
+                         "http://metadata.net/dublin-core/V1.0/dc.rat" ))
+
+    (category
+      (transmit-as "dc.contributor/role")
+      (label (name "Compiler") (value 1001))))
+</pre></font>
+
+Note: The <i>transmit-as</i> has to be an exact match from the source.
+
+
+<h3>Example Label Syntax using text-based Metadata</h3>
+
+Given the above RAT service specifications, the generation of the Labels
+should be straight-forward. The PICS labels might look like the following:
+
+<font size=-1><pre>
+(PICS-2.0 "http://metadata.net/dublin-core/V1.0/"
+   labels for "http://www.marliyn.net/book/"
+   ra ( ( dc.title "Viva!"
+          dc.title/language 1/type 1 "An album of photographs in praise of the star from
+                                      Mae West to Marilyn Monroe")
+          dc.title/language 3/type 1 "Un album di photographia che fortuna di la star da
+                                      Mae West to Marilyn Monroe")
+       ( dc.creator "Paul Flora" )
+        ( dc.contributor/person 0/role 5 "Spike Milligan"
+          dc.contributor/person 1 "United Artists"
+          dc.contributor/person 3 "spike@ua.com" )
+        ( dc.publisher "D. Dobson"
+          dc.publisher/type 1 "London")
+        ( dc.date "1965" )
+        ( dc.language/scheme 1 "en" )
+        ( dc.subject "Marilyn Monroe, Mae West"
+          dc.subject/scheme 1 "Actors and actresses - Portraits"
+        { ( dc.type "Monograph" )
+          ( dc.format "118 Pages, 21cm" )
+          ( dc.identifier/scheme 4 "60014597" ) }
+        { ( dc.type/type 3 "" )
+          ( dc.format/scheme 1 "" )
+          ( dc.identifier/scheme 1 "http://www.marliyn.net/book/viva/" ) } ) )
+</pre></font>
+
+<hr>
+
+<table>
+  <tr>
+   <td width=200>
+      <a href="http://www.dstc.edu.au/"><img align=middle src = "/images/dstclogo9.gif"
+       alt="DSTC" border=0></a>
+    <P>
+<center><Font size=-5>Copyright DSTC Pty Ltd 1997</font></center>
+    </td>
+   <td>
+
+      <center>
+<Font size=-2>
+	For further information, contact Renato Iannella at <a href="mailto:renato@dstc.edu.au">&lt;renato@dstc.edu.au&gt;</a> or browse the RDU Home Page
+       at <a href="http://www.dstc.edu.au/RDU/"><b>http://www.dstc.edu.au/RDU/</b></a><p>
+DSTC Pty Ltd, Level 7, Gehrmann Laboratories<br>The University of Queensland, Qld
+4072, Australia<br>
+Telephone: +61 7 3365 4310,
+Fax: +61 7 3365 4311</center>
+       <P>
+<i>Acknowledgement:</i> The work reported in this paper has been funded in part by the Cooperative Research Centres Program, through the Department of the Prime Minister and Cabinet of Australia.
+   </font>
+  </td>	
+  </tr>
+</table>
+
+<hr>
+
+</body>
+
+</html>
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+	 xmlns:dc = "http://purl.org/dc/elements/1.1/">
+ <rdf:Description about="http://dublincore.org/workshops/dc2/general.shtml">
+   <dc:title>Metadata Workshop II: General Information</dc:title>
+   <dc:description>The Second Invitational Metadata Workshop is intended to broaden 
+                the scope of the effort begun in March of 1995 at the OCLC/NCSA 
+                Metadata Workshop. The first meeting convened a mix of computer 
+                science, text markup, and library professionals who achieved consensus 
+                concerning a simple resource description record that may serve 
+                as a foundation for unifying various network resource description 
+                models.</dc:description>
+   <dc:date>1996-04-01</dc:date>
+   <dc:format>text/html</dc:format>
+   <dc:language>en</dc:language>
+   <dc:publisher>Dublin Core Metadata Initiative</dc:publisher>
+ </rdf:Description>
+</rdf:RDF>
+
+

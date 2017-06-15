@@ -1,0 +1,464 @@
+body{
+font:76% Arial,Helvetica,sans-serif;
+text-align:center;
+}
+
+
+/* Layout and positioning
+	based on: http://redmelon.net/tstme/3cols2/index.htm
+----------------------------------------------- */
+#wrapper{
+border:1px solid #000000;
+width:980px;/* total width */
+margin:0 auto;
+text-align:left;
+}
+#globalmenubar,#breadcrumbbar,#header,#footer{
+width:100%;
+position:relative;
+z-index:13;
+}
+#header{
+width:980px;/* width of image */
+overflow:hidden;
+height: 192px !important; /* for most browsers */
+#background: url(bannerdc.jpg) no-repeat center;
+background: url(bannerweb980x192.jpg) no-repeat center;
+}
+#globalmenubar{
+width:980px;/* width of image */
+margin:0;
+padding:3px 0;
+border-top:2px solid #e96622;
+border-bottom:2px solid #e96622;
+background:#e96622;
+font-size:12px;
+}
+#breadcrumbbar{
+padding:12px 0;
+background:#edf1f4;
+}
+#contentwrapper{
+border-left-width:220px;/* left column width */
+border-left-color:#ffffff;/* left column colour */
+border-right-width:220px;/* right column width */
+border-right-color:#ffffff;/* right column colour */
+width:auto;
+border-left-style:solid;
+border-right-style:solid;
+padding:12px 24px;
+background:#ffffff;
+}
+#content{
+margin:0;
+width:100%;
+}
+#left{
+width:220px;/* left column width */
+margin-left:-220px;/* _negative_ left column width */
+float:left;
+position:relative;
+z-index:10;
+}
+#center{
+float:left;
+width:440px;
+padding:0 24px;
+position:relative;
+z-index:12;
+}
+#bigcenter{
+float:left;
+width:684px;
+margin-right:-684px;/* _negative_ right column width */
+padding:0 24px;
+position:relative;
+z-index:12;
+}
+#fullcenter{
+float:left;
+width:auto;
+margin-left:-220px;/* _negative_ left column width */
+margin-right:-220px;/* _negative_ right column width */
+padding-left:0;
+padding-right:0;
+position:relative;
+z-index:15;
+}
+#right{
+width:220px;/* right column width */
+margin-right:-220px;/* _negative_ right column width */
+float:right;
+position:relative;
+z-index:11;
+}
+#bigleft {
+float:left;
+margin-left:-244px;
+width:684px;
+padding:0 24px;
+position:relative;
+z-index:12;
+}
+#footer{
+color:#000000;
+background:#ffffff;
+font-size:0.8em;
+text-align:center;
+padding-bottom:1em;
+}
+div.clear{
+clear:both;
+margin-top:-1px;
+height:1px;
+overflow:hidden;
+}
+
+
+/* Main Logo Image Replacement
+	based on: LIR:http://www.kryogenix.org/code/browser/lir/
+----------------------------------------------- */
+h1#logo{
+margin:0 0 0 24px;
+padding:72px 0 0 0;/* height of image */
+width:350px;/* width of image */
+#background:url(dc2010banner2.jpg) no-repeat;
+background:url(bannerweb980x192.jpg) no-repeat;
+overflow:hidden;
+height: 0px !important; /* for most browsers */
+height /**/:72px; /* for IE5.5's bad box model */
+}
+
+
+
+/* Top Level Menu
+	utilitymenu: sign in, contact us, site index
+----------------------------------------------- */
+#utilitymenu{
+width:240px;
+float:right;
+margin:-28px 0 0 0;
+padding:0;
+border-top:2px solid #ffffff;
+padding:6px 0;
+white-space:nowrap;
+}
+#utilitymenu li{
+border-left:2px solid #ffffff;
+padding:6px 12px;
+display:inline;
+font-weight:bold;
+font-size:12px;
+}
+#utilitymenu a{
+margin:0;
+text-decoration:none;
+}
+#utilitymenu a:link,#utilitymenu a:visited{
+color:#000000;
+}
+#utilitymenu a:hover,#utilitymenu a:focus,#utilitymenu a:active{
+color:#0000ff;
+}
+
+
+/* Main Menu
+	globalmenu: big purplish-blue menu bar: about asist, membership...
+----------------------------------------------- */
+#globalmenu{
+margin:0;
+padding:0;
+white-space:nowrap;
+display:inline;
+color:#ffffff;
+background:#e96622;
+}
+#globalmenu li{
+padding:0 6px 0 8px;
+margin:0;
+display:inline;
+list-style-type:none;
+font-weight:bold;
+vertical-align:middle;
+}
+#globalmenu li.last{
+border-right:none;
+}
+#globalmenu a{
+padding:6px 6px;
+margin:0;
+text-decoration:none;
+}
+#globalmenu a.current:link, #globalmenu a.current:visited {
+color:#000000;
+background:#e96622;
+}
+#globalmenu a:link,#globalmenu a:visited {
+color:#ffffff;
+}
+#globalmenu a:hover,#globalmenu a:focus,#globalmenu a:active{
+color:#ffffff;
+background:#e96622;
+}
+
+
+/* Search Box
+----------------------------------------------- */
+#search{
+margin:0 0 0 114px;
+padding:0;
+display:inline;
+vertical-align:middle;
+}
+#search div{
+margin:0;
+padding:0;
+display:inline;
+}
+#search div input{
+font-size:12px;
+}
+
+
+/* Breadcrumb Bar
+----------------------------------------------- */
+#breadcrumbbar {
+font-size:.9em;
+}
+#breadcrumbbar ul{
+margin-left:0;
+padding-left:24px;
+display:inline;
+}
+#breadcrumbbar ul li{
+margin-left:0;
+padding-left:2px;
+list-style:none;
+display:inline;
+}
+
+
+/* Local Menu
+	Menu on left hand side, dependent on what page you are on
+----------------------------------------------- */
+#localmenu{
+width:220px;
+margin-left:0;
+margin-top:0;
+padding-left:0;
+margin-bottom:0;
+list-style-type:none;
+}
+#localmenu a{
+padding:3px 6px;
+width:100%;
+border-bottom:1px solid #edf1f4;
+display:block;
+color:#000000;
+background: #c8d1dd;
+font-weight:bold;
+text-decoration:none;
+}
+#localmenu a.membersonly {
+	background: #c8d1dd url(/stat-files/lock.gif) no-repeat right;
+}
+#localmenu a:link,#localmenu a:visited{
+color:#000000;
+}
+#localmenu a.current:link, #localmenu a.current:visited  {
+	color:#ffffff;
+	background:#94a6be;
+}
+#localmenu a.membersonly:link,#localmenu a.membersonly:visited{
+color:#000000;
+background: #c8d1dd url(/stat-files/lock.gif) no-repeat right;
+}
+#localmenu a.currentmembersonly:link, #localmenu a.currentmembersonly:visited  {
+	color:#ffffff;
+	background: #94a6be url(/stat-files/lock.gif) no-repeat right;
+}
+#localmenu a:hover,#localmenu a:focus,#localmenu a:active{
+color:#ffffff;
+background:#94a6be;
+}
+#localmenu a.membersonly:hover,#localmenu a.membersonly:focus,#localmenu a.membersonly:active {
+color:#ffffff;
+background: #94a6be url(/stat-files/lock.gif) no-repeat right;
+}
+
+
+
+/* Content type styles
+----------------------------------------------- */
+.whitebox{
+margin-bottom:24px;
+background:#ffffff;
+}
+.box{
+margin-bottom:24px;
+background:#ffffff;
+}
+#left .box p, #right .box p, #left input, #right input, #left select, #right select {
+	font-size:.9em;
+}
+h2{
+margin-top:0;
+font-size:1.6em;
+}
+h2 .subhead {
+font-size:.8em;
+font-weight:normal;
+margin-left:100px;
+}
+h3{
+position:relative;
+margin:0;
+font-size:1.2em;
+}
+h4 {
+position:relative;
+font-size:1.1em;
+font-weight:bold;
+margin:1em 0 0 0;
+padding:3px 0;
+}
+p{
+padding:0.5em;
+margin:0;
+font-size:1em;
+}
+hr{
+border-top:2px dotted #cccccc;
+border-left:none;
+border-right:none;
+border-bottom:none;
+width:90%;
+margin-top:12px;
+color:#ffffff;
+background:#ffffff;
+text-align:center;
+height:12px;
+}
+.banner, .bannersummit{
+padding:3px 6px;
+background:#cccccc;
+font-weight:bolder;
+}
+.bannersummit {
+	background: #94A6BE;
+}
+.box p{
+padding:6px;
+line-height:1.5em;
+}
+.boxlocalmenu {
+background:#edf1f4;
+}
+p.menumessage img {
+	float:left;
+}
+em.required {
+	color:red;
+}
+
+.box form{
+margin:0;
+padding:6px;
+}
+#center .box, #bigleft .box, #bigcenter .box, #fullcenter .box{
+padding:12px;
+}
+.box input{
+margin-bottom:12px;
+}
+
+#breadcrumbbar ul li ul,#center .box p,#bigleft .box p{
+padding-left:0;
+}
+.button{
+display:block;
+}
+.buttonlink {
+	background-color:#81082B;
+	padding:3px 6px;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+	border-top:1px solid #E5CCD9;
+	border-left:1px solid #E5CCD9;
+	border-bottom:1px solid #51051B;
+	border-right:1px solid #51051B;
+}
+a.buttonlink:hover {
+	border-bottom:1px solid #E5CCD9;
+	border-right:1px solid #E5CCD9;
+	border-top:1px solid #51051B;
+	border-left:1px solid #51051B;
+}
+
+
+
+/* Forms
+----------------------------------------------- */
+form{
+padding:0;
+margin:0;
+}
+fieldset{
+border:none;
+margin:0;
+padding:0;
+}
+textarea{
+overflow:auto;
+}
+label,input,textarea,select{
+cursor:pointer;
+}
+input,textarea,select{
+font:1em Arial,Helvetica,sans-serif;
+}
+input.checkbox{
+margin-left:0;
+vertical-align:middle;
+margin-top:1em;
+}
+.box select {
+	margin-bottom:1em;
+}
+td.label{
+width:120px;
+text-align:right;
+vertical-align: text-top;
+line-height:2em;
+padding-right:24px;
+}
+td.labelright {
+	vertical-align: text-top;
+	padding-top:4px;
+}
+td.middlelabel {
+	width:120px;
+	text-align:right;
+	font-weight:bold;
+	padding-right:12px;
+}
+.left {
+	display:block;
+	float:left;
+}
+.right {
+	display:block;
+	float:right;
+}
+.highlight{ 
+        background:rgb(127, 222, 255); 
+        color:rgb(63, 27, 0); 
+        border-bottom: 2px solid rgb(207, 207, 207); 
+        padding: 0.1em; 
+        padding-left: 1em; 
+        font-weight:bold;       
+}
+
+

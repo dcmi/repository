@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Workshops - DC3: Home page</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="meta" href="index.shtml" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body>
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <h1>CNI/OCLC Metadata Workshop</h1>
+
+    <h1 align="center">Workshop on Metadata for Networked
+    Images</h1>
+
+    
+
+    <h3 align="center">September 24-25, 1996<br />
+    OCLC Online Computer Library Center, Inc.<br />
+    Dublin, Ohio, USA</h3>
+    <hr />
+
+    <p align="left">The Coalition for Networked Information (CNI)
+    and OCLC Online Computer Library Center, Inc. are organizing an
+    invitational workshop to promote convergence among alternative
+    approaches to describing images and image databases in
+    networked environments. Professionals from computer science,
+    librarianship, online information services, geographical
+    information systems, museum and archive control, medical
+    imaging, and other fields have been convened to address the
+    description of networked image resources. The objective is to
+    promote standards and protocols for the description,
+    organization and discovery of networked images and image
+    databasebase resources.</p>
+
+    <p>This workshop will build upon the outcomes of two previous
+    metadata workshops: the OCLC/NCSA Metadata Workshop, held at
+    Dublin, Ohio, in March, 1995, and the OCLC/UKOLN Metadata
+    Workshop held at the University of Warkwick, United Kingdom, in
+    April, 1996. These two workshops addressed the general issue of
+    metadata in networked environments. The current workshop will
+    address the metadata requirements of networked images and
+    imagebases by refining and extending element set that comprises
+    the "Dublin Core" and "The Warwick Framework" that resulted
+    from the previous workshops.</p>
+
+    <p><b>Organizing Committee</b></p>
+
+    <p><b>Paul M. Gherman (Chair)</b>, Vanderbilt University,
+    gherman@library.vanderbilt.edu<br />
+    <b>Howard Besser</b>, University of California,
+    howard@sims.berkeley.edu<br />
+    <b>Stuart Glogoff</b>, University of Arizona,
+    sglogoff@bird.library.arizona.edu<br />
+    <b>Eric Miller</b>, OCLC, emiller@oclc.org<br />
+    <b>Paul Evan Peters</b>, CNI, paul@cni.org<br />
+    <b>Bradley Watson</b>, OCLC, watson@oclc.org<br />
+    <b>Stuart Weibel</b>, OCLC, weibel@oclc.org</p>
+    <hr />
+
+    <table width="75%" border="0" summary="A layout table.">
+      <tr>
+        <td>
+          
+      <p><b><a href="overview.shtml">General:</a><br />
+          </b> High-level overview of the workshop</p>
+        </td>
+
+        
+    <td><b><a href="agenda.shtml">Schedule &amp; Agenda:</a></b> <br />
+        Outline and framework of the workshop</td>
+      </tr>
+
+      <tr>
+        
+    <td><b><a href="participants.shtml">Participants:</a></b> <br />
+        Names, email contacts, and personal and<br />
+        project home pages of attendees</td>
+
+        <td><b>Conference Listserv:</b> <br />
+        Subscription information regarding the metadata<br />
+        conference listserv</td>
+      </tr>
+
+      <tr>
+        <td>
+          <p><b>Navigate Listserv:<br />
+          </b> Search and Browse the metadata conference
+          listserv</p>
+        </td>
+
+        
+    <td><b><a href="resources.shtml">Additional Resources:</a></b> <br />
+        References to background metadata intiatives</td>
+      </tr>
+    </table>
+
+    <p>&nbsp;</p>
+    <!--#include virtual="/ssi/footer.shtml" -->
+  </body>
+</html>
+

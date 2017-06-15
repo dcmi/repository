@@ -1,0 +1,314 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <TITLE>DUBLIN CORE ELEMENT: COVERAGE</TITLE>
+</HEAD>
+<BODY>
+
+<CENTER><FONT SIZE="+2">DUBLIN CORE ELEMENT: COVERAGE</FONT></CENTER>
+
+<CENTER><FONT SIZE="+2">constructed by</FONT></CENTER>
+
+<CENTER><FONT SIZE="+2">Ad Hoc Working Group: Coverage Element</FONT></CENTER>
+
+<CENTER><FONT SIZE="+2">Hans Becker; Arthur Chapman; Andrew Daviel; Karen
+Kaye; Mary Larsgaard (co-chair); Paul Miller; Doug Nebert (co-chair); Andrew
+Prout; Misha Wolf</FONT></CENTER>
+
+<CENTER><FONT SIZE="+2">June 11, 1997</FONT></CENTER>
+
+<CENTER><B><FONT SIZE="+2">[<A HREF="#Definition">Definition</A>]&nbsp; [<A HREF="#Qualifiers">Use
+of Qualifiers</A>]&nbsp; [<A HREF="#Schemes">Use of Schemes</A>]&nbsp;
+[<A HREF="#Examples">Examples</A>]</FONT>&nbsp; [<FONT SIZE="+2"><A HREF="#References">References</A>]</FONT></B></CENTER>
+
+
+<P><A NAME="Definition"></A><FONT SIZE="+2"><B>Definition</B>:</FONT>
+<BR>The Coverage element describes the spatial and temporal characteristics
+of the object or resource and is the key element for supporting spatial
+or temporal range searching on document-like objects that are spatially
+referenced or time-referenced. Coverage may be modified by the "type" qualifiers
+"spatial" and "temporal".
+
+<P>A resource may have both spatial and temporal coverages, or just one
+of the two, or none. This element may be used in describing resources from
+many different fields, e.g., archaeology, art, cartography, geography,
+geographic information systems, medicine, natural sciences, etc. - any
+field that deals with georeferenced information, spatial data, or time-referenced
+data. Thus for example, resources describing the Grand Canyon of the United
+States include text, maps, music (e.g., Ferde Grofe's Grand Canyon Suite),
+statistics (e.g., number of visitors per year), works of art (such as the
+panoramas that appear in the 1882 publication, "Atlas to accompany the
+monograph on the Tertiary history of the Grand Canon district"), etc.;
+and each could use Coverage - Spatial and in some cases Coverage - Temporal.
+
+<P>Spatial information may be given in numeric form (e.g., degrees) or
+in text. Temporal information may also be given in numeric form or in text.
+Numbers are preferred. If scheme is not given, none is used. No defaults
+are assumed.
+
+<P><A NAME="Qualifiers"></A><B><FONT SIZE="+2">Use of Qualifiers:</FONT></B>
+
+<P>The Coverage element can be defined initially as:
+<BR>
+<UL>
+<LI>coverage.periodName
+<LI>coverage.placeName
+<LI>coverage.x
+<LI>coverage.y
+<LI>coverage.z
+<LI>coverage.t
+<LI>coverage.polygon
+<LI>coverage.line</LI></UL>
+
+
+<P>where the placeName and periodName are qualifiers for textual representation,
+and the remainder are for coordinate-based classification. The coordinates
+used are qualified by the scheme modifier to support different coordinate
+systems (see below).
+
+<P>The coverage.x, .y, .z, .t options handle the dimensionality of spatial
+and temporal extent, and - if they are not further qualified - represent
+a point in space or time or both. The polygon and line modifiers are required
+where a complex 2-dimensional extent is required -- the polygon in the
+case of areal extent or "footprint," and the line in the case of a flight
+path associated with a suite or aerial photographs, for example. Inheritance
+may be extended such that the x,y,z,t&nbsp; qualifiers reference beginning
+and ending points in space and time to "bound" a coverage:
+<UL>
+<LI>coverage.x.min
+<LI>coverage.x.max
+<LI>coverage.y.min
+<LI>coverage.y.max
+<LI>coverage.t.min
+<LI>coverage.t.max</LI></UL>
+
+
+<P>With these six properties, a document can be classified as to its rough 
+geographic extent with a beginning and ending time of coverage.
+
+<P>To accommodate both spatial and temporal discontinuities, and as per
+Dublin-Core general policy that all fields are repeatable and option, all
+these elements may be repeated. It is conceivable that some data sets may
+cover multiple, non-contiguous geographic footprints (e.g., the U.S. Exclusive
+Economic Zone including Hawaii, Puerto Rico, Guam, and American Samoa).
+
+<P>Therefore for x, y, z, and t, a numeric grouping subelement is added
+at the end to keep the correct x with the correct y:
+<BR>&nbsp;
+<UL><LI>coverage.x.min.1
+<LI>coverage.x.max.1
+<LI>coverage.y.min.1
+<LI>coverage.y.max.1
+<LI>coverage.x.min.2
+<LI>coverage.x.max.2
+<LI>coverage.y.min.2
+<LI>coverage.y.max.2</LI></UL>
+
+
+<P>where groupings 1 and 2 describe two distinct bounding rectangles of
+coverage that may be discontinuous. The time dimension is handled in the
+same way. Spatially, footprints can also exhibit what is known as the "swiss
+cheese" effect, where there is general overall coverage but there are islands
+where there are no data. These exclusion and inclusion regions should be
+accounted for in the semantics and syntax. The use of the polygon inclusion
+and exclusion regions is given as:
+<BR>&nbsp;
+<UL><LI>coverage.polygon.include
+<LI>coverage.polygon.exclude</LI></UL>
+
+
+<P>where the values of this qualifier are stored as a single, closed chain
+of x and y pairs. These inclusion and exclusion regions can be linked with
+multiple exclusions associated with a given inclusion area, if needed,
+using the .number syntax referenced above.
+
+<P><A NAME="Schemes"></A><B><FONT SIZE="+2">Use of Schemes:</FONT></B>
+
+<P>This Coverage proposal includes the possibility for the use of multiple
+classification schemes to further qualify the incoming information. Latitude
+and longitude must occur in pairs; the schema used must be able to deal
+with points, lines, and polygons - bounding rectangles and points being
+the most frequently used. The use of an explicit scheme is encouraged,
+as there are a large number of "native" coordinate representations that
+may be easy to encode but difficult for the classifier to translate.
+
+<P>Other planetary bodies, medical data, etc., may be differentiated by
+specifying a schema. For imaginary places, no schema or latitude/longitude
+will be given.
+
+<P>Apart from specifying how the data is expressed (e.g., "DMS" for degrees-minutes-seconds;
+"DD" for decimal degrees; "text" for text), the geodetic datum (e.g., WGS84,
+NAD83, NAD27 CONUS, etc.) should be given when it is known. Examples follow:
+<BR>&nbsp;
+<UL><LI>&lt;meta name="DC.coverage.x" scheme="NAD27.DDM" content="-91.89"&gt
+<LI>&lt;meta name="DC.coverage.z" scheme="WGS84.DDM" content="47"&gt
+<LI>&lt;meta name="DC.coverage.y" scheme="UTM10" content="5454818"&gt
+<LI>&lt;meta name="DC.coverage.x" scheme="UTM10" content="483282"&gt 
+<BR>(DDM = Decimal degrees, metres)</LI></UL>
+
+
+<P>Spatial schemes should include, but not be limited to:
+
+<P>1. numeric: examples follow
+
+<P>DMS: Degrees-Minutes-Seconds, in DDD-MM-SSX format, where D=Degrees,
+M=Minutes, S=Seconds, and X=N or S for North or South latitude, respectively,
+and E or W for East or West longitude.
+
+<P>DD: Decimal-Degrees, in DD.XXXX format, where D=Degrees and the XXXX
+represent decimal portions of a degree. This is preceded by a minus sign
+(-) if the latitude is S or the longitude is W.
+
+<P>Self-documenting data strings should be used whenever possible. Examples
+follow:
+<BR>&nbsp;
+<UL><LI>49d4.5N 123d6.45W 45m
+<LI>49d44'32"N 123d06'21W 120ft
+<LI>49 44 32 N 123 06 21 W 45 m
+</LI></UL>
+OSGB -- Ordnance Survey Grid Base -- a local planimentric (x,y) system
+used in Great Britain with units of measure being metres
+<BR>
+<BR>
+UTMXX -- Universal Transverse Mercator where the scheme qualifier XX
+represents the appropriate UTM zone of measure, with units in metres.
+
+
+<P>2. text:
+
+<P>a. authority-list/thesaurus: examples follow
+
+<P>Library of Congress Subject Headings (LCSH): Grand Canyon (Ariz.)
+
+<P>b. free text: examples follow
+
+<P>Grand Canyon, Arizona
+
+<P>13 Lincoln's Inn Fields, London, England [address of Sir John Soane's house]
+
+<P>Grand Canal, Venice [ location shown in Canaletto's view of the Grand Canal]
+
+<P>Temporal schemes include:
+<BR>
+1. text
+<UL>
+<LI>a. authority-list/thesaurus: any situation where authorities in a given field have issued a thesaurus or list of terms; examples of sources
+follow
+</LI></UL>
+
+
+<P>Library of Congress Subject Headings
+
+<P>Art &amp; Architecture Thesaurus Styles and Period Hierarchy (bounded
+periods defined by art historians):
+
+<P>Lexicon of stratigraphic nomenclature (names of geologic formations)
+<UL><LI>b. free text: examples follow</LI></UL>
+13th century
+
+<P>ca. 1650
+
+<P>before 1725
+
+<P>between 1912 and 1914
+<BR>
+<BR>
+2. numeric: must include option of providing both beginning and ending
+dates, e.g.:
+
+
+<P>[Begin=19910101, End=19930601}
+<BR>&nbsp;
+<UL>
+<LI>a. as defined in ISO8601: yyyy-mm-dd for date, hh:mm:22.22M for time,
+where M is code for meridian used (e.g., Z indicates Zulu, that is, Greenwich
+time); examples follow</LI></UL>
+
+
+<P>1985-04-12 (April 12, 1985)
+
+<P>23:20:50.52Z (20 minutes and 50.52 seconds after 23<SUP>rd</SUP> hour,
+Zulu time)
+<BR>&nbsp;
+<UL><LI>b. as defined in ANSI X3.30-1985:</LI></UL>
+
+
+<P>A.D. Era to December 31, 9999 A.D.: YYYYMMDD
+
+<P>and in ANSI X3.43-1986: HHMMSSSS
+
+<P><A NAME="Examples"></A><B><FONT SIZE="+2">Examples:</FONT></B>
+
+<P>1. Geologic data for Mississippi:
+<BR>&nbsp;
+<UL>
+<LI>&lt; meta name= "DC.coverage.x.min" scheme = "DD" content = "-91.89"&gt
+<LI>&lt; meta name= "DC.coverage.x.max" scheme = "DD" content = "-87.85"&gt
+<LI>&lt; meta name= "DC.coverage.y.min" scheme = "DD" content = "29.94"&gt
+<LI>&lt; meta name= "DC.coverage.y.max" scheme = "DD" content = "35.25"&gt;</LI></UL>
+2. The Great Wall, seen from the Space Shuttle:
+
+<P>former URL:http://southport.jpl.nasa.gov/imagemaps/html/srl-greatwall.html
+<BR>&nbsp;
+<UL>
+<LI> &lt; meta name = "DC.coverage.line" scheme = "DD" content = "33 160 32 161 31 160"&gt
+<LI>&lt; meta name = "DC.coverage.periodName" scheme = "historic" content = "Ming Dynasty"&gt
+<LI>&lt; meta name = "DC.coverage.periodName" scheme = "historic" content = "Qin Dynasty"&gt
+</LI></UL>
+<BR>
+<A NAME="References"></A><B><FONT SIZE="+2">References</FONT></B>
+
+<P><A HREF="http://www.fgdc.gov/Metadata/metav1-0.html">Content standard
+for digital geospatial data.</A>
+
+<P><A HREF="ftp://ds.internic.net/internet-drafts/draft-newman-datetime-01.txt">Date
+and time on the Internet.</A>
+
+<P><A HREF="http://purl.org/metadata/dublin_core_elements">Dublin Core
+metadata element set: reference description.</A>
+
+<P><A HREF="http://www.hdm.com/gis3e.htm">Great GIS net sites! Index, GIS
+WWW resources.</A>
+
+<P><A HREF="http://www.ru/gisa/english/cssitr/format/index.htm">List of
+formats and standards for spatial data transfer.</A>
+
+<P><A HREF="http://lcweb.loc.gov/marc/marc.html">MARC standards.</A>
+
+<P><A HREF="http://www.kei.com/homepages/ckd/dns-loc/">RFC 1876 resources.</A>
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+<BR>&nbsp;
+</BODY>
+</HTML>

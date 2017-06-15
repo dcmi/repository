@@ -1,0 +1,1368 @@
+<html>
+<head>
+<title>DC-2007 Dublin Core and Metadata Applications</title>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<meta name="DC.title" content="DC-2007 Dublin Core and Metadata Applications" />
+<meta name="DC.subject" content="Application Profiles: Theory and Practice" />
+<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+<meta name="DC.format" content="text/html" />
+<meta name="DC.format" content="17163 bytes" />
+<meta name="DC.identifier" scheme="DCTERMS.URI" content="http://www.dc2007.sg" />
+
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#ffffff">
+
+<table border="0" cellpadding="0" cellspacing="0" width="800" height="600" align="center">
+  <!--DWLayoutTable-->
+<!-- fwtable fwsrc="5.png" fwbase="iisstart.jpg" fwstyle="Generic" fwdocid = "742308039" fwnested="0" -->
+  <tr>
+    <td height="94" colspan="2" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <!--DWLayoutTable-->
+      <tr>
+        <td height="125" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="605" height="125">
+          <param name="movie" value="Header.swf">
+          <param name="quality" value="high">
+          <embed src="Header.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="605" height="125"></embed>
+        </object></td>
+      <td width="195" valign="top" align="left"><img src="Logo.gif" width="195" height="125"></td>
+      </tr>
+    </table>    </td>
+  </tr>
+  <tr>
+     <td width="178" height="505" valign="top" bgcolor="#FFF9F9"><html>
+<head>
+<title>left_Banner.jpg</title>
+<meta http-equiv="Content-Type" content="text/html;">
+
+<script language="JavaScript">
+<!-- hide
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+// stop hiding -->
+</script>
+</head>
+<body bgcolor="#ffffff">
+
+  <script language="JavaScript">
+  <!-- hide 
+  if (document.images) {
+  Home_f2 = new Image(174 ,24); Home_f2.src = "Home_f2.jpg";
+  Home_f1 = new Image(174 ,24); Home_f1.src = "Home.jpg";
+  Organization_f2 = new Image(174 ,25); Organization_f2.src = "Organization_f2.jpg";
+  Organization_f1 = new Image(174 ,25); Organization_f1.src = "Organization.jpg";
+  Programme_f2 = new Image(174 ,26); Programme_f2.src = "Programme_f2.jpg";
+  Programme_f1 = new Image(174 ,26); Programme_f1.src = "Programme.jpg";
+  Speakers_f2 = new Image(174 ,26); Speakers_f2.src = "Speakers_f2.jpg";
+  Speakers_f1 = new Image(174 ,26); Speakers_f1.src = "Speakers.jpg";
+  Sessions_f2 = new Image(174 ,26); Sessions_f2.src = "Sessions_f2.jpg";
+  Sessions_f1 = new Image(174 ,26); Sessions_f1.src = "Sessions.jpg";
+  Registration_f2 = new Image(174 ,26); Registration_f2.src = "Registration_f2.jpg";
+  Registration_f1 = new Image(174 ,26); Registration_f1.src = "Registration.jpg";
+  CallforPapers_f2 = new Image(174 ,26); CallforPapers_f2.src = "CallforPapers_f2.jpg";
+  CallforPapers_f1 = new Image(174 ,26); CallforPapers_f1.src = "CallforPapers.jpg";
+  CallforSponsors_f2 = new Image(174 ,26); CallforSponsors_f2.src = "CallforSponsors_f2.jpg";
+  CallforSponsors_f1 = new Image(174 ,26); CallforSponsors_f1.src = "CallforSponsors.jpg";
+  conferenceSponsors_f2 = new Image(174 ,26); conferenceSponsors_f2.src = "conferenceSponsors_f2.jpg";
+  conferenceSponsors_f1 = new Image(174 ,26); conferenceSponsors_f1.src = "conferenceSponsors.jpg";
+  conferenceVenue_f2 = new Image(174 ,25); conferenceVenue_f2.src = "conferenceVenue_f2.jpg";
+  conferenceVenue_f1 = new Image(174 ,25); conferenceVenue_f1.src = "conferenceVenue.jpg";
+  accommodation_f2 = new Image(174 ,26); accommodation_f2.src = "accommodation_f2.jpg";
+  accommodation_f1 = new Image(174 ,26); accommodation_f1.src = "accommodation.jpg";
+  AboutSingapore_f2 = new Image(174 ,26); AboutSingapore_f2.src = "AboutSingapore_f2.jpg";
+  AboutSingapore_f1 = new Image(174 ,26); AboutSingapore_f1.src = "AboutSingapore.jpg";
+  DublinCoreLogo_f2 = new Image(140 ,49); DublinCoreLogo_f2.src = "DublinCoreLogo_f2.jpg";
+  DublinCoreLogo_f1 = new Image(140 ,49); DublinCoreLogo_f1.src = "DublinCoreLogo.jpg";
+  NLBLogo_f2 = new Image(81 ,53); NLBLogo_f2.src = "NLBLogo_f2.jpg";
+  NLBLogo_f1 = new Image(81 ,53); NLBLogo_f1.src = "NLBLogo.jpg";
+  NanyangLogo_f2 = new Image(87 ,32); NanyangLogo_f2.src = "NanyangLogo_f2.jpg";
+  NanyangLogo_f1 = new Image(87 ,32); NanyangLogo_f1.src = "NanyangLogo.jpg";
+  ilds_f2 = new Image(140 ,49); ilds_f2.src = "ilds_f2.jpg";
+  ilds_f1 = new Image(140 ,49); ilds_f1.src = "ilds.jpg";
+  IFLALogo_f2 = new Image(140 ,49); IFLALogo_f2.src = "IFLALogo_f2.jpg";
+  IFLALogo_f1 = new Image(140 ,49); IFLALogo_f1.src = "IFLALogo.jpg";
+  }
+  // stop hiding -->
+  </script>
+<table border="0" cellpadding="0" cellspacing="0" width="183">
+<!-- fwtable fwsrc="left_banner2.png" fwbase="left_Banner.jpg" fwstyle="Generic" fwdocid = "742308039" fwnested="0" -->
+  <tr>
+   <td><img src="spacer.gif" width="10" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="81" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="6" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="53" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="24" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="9" height="1" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+
+  <tr>
+   <td colspan="5"><a href="index.asp@section=intro" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Home','','Home_f2.jpg',1);"><img name="Home" src="Home.jpg" width="174" height="24" border="0" alt="Home"></a></td>
+   <td rowspan="25"><img name="left_Banner_r1_c6" src="left_Banner_r1_c6.jpg" width="9" height="680" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="24" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=organization" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Organization','','Organization_f2.jpg',1);"><img name="Organization" src="Organization.jpg" width="174" height="25" border="0" alt="Organization"></a></td>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2" colspan="5"><a href="index.asp@section=programme" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Programme','','Programme_f2.jpg',1);"><img name="Programme" src="Programme.jpg" width="174" height="26" border="0" alt="Programme"></a></td>
+   <td><img src="spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=speakers" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Speakers','','Speakers_f2.jpg',1);"><img name="Speakers" src="Speakers.jpg" width="174" height="26" border="0" alt="Speakers"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=session"><img name="Sessions" src="Sessions.jpg" width="174" height="26" border="0" alt="Sessions"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=registration" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Registration','','Registration_f2.jpg',1);"><img name="Registration" src="Registration.jpg" width="174" height="26" border="0" alt="Registration"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=callforpapers" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('CallforPapers','','CallforPapers_f2.jpg',1);"><img name="CallforPapers" src="CallforPapers.jpg" width="174" height="26" border="0" alt="Call for Papers"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=callforsponsors" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('CallforSponsors','','CallforSponsors_f2.jpg',1);"><img name="CallforSponsors" src="CallforSponsors.jpg" width="174" height="26" border="0" alt="Call for Sponsors"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=sponsors" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('conferenceSponsors','','conferenceSponsors_f2.jpg',1);"><img name="conferenceSponsors" src="conferenceSponsors.jpg" width="174" height="26" border="0" alt="Conference Sponsors"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=venue" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('conferenceVenue','','conferenceVenue_f2.jpg',1);"><img name="conferenceVenue" src="conferenceVenue.jpg" width="174" height="25" border="0" alt="Conference Venue"></a></td>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2" colspan="5"><a href="index.asp@section=accommodation" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('accommodation','','accommodation_f2.jpg',1);"><img name="accommodation" src="accommodation.jpg" width="174" height="26" border="0" alt="Accommodation"></a></td>
+   <td><img src="spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img src="spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><a href="index.asp@section=aboutSingapore" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('AboutSingapore','','AboutSingapore_f2.jpg',1);"><img name="AboutSingapore" src="AboutSingapore.jpg" width="174" height="26" border="0" alt="About Singapore"></a></td>
+   <td><img src="spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="5"><img name="left_Banner_r15_c1" src="left_Banner_r15_c1.jpg" width="174" height="68" border="0" usemap="#m_left_Banner_r15_c1" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="68" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="10"><img name="left_Banner_r16_c1" src="left_Banner_r16_c1.jpg" width="10" height="304" border="0" alt=""></td>
+   <td colspan="3"><a href="http://www.dublincore.org" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('DublinCoreLogo','','DublinCoreLogo_f2.jpg',1);"><img name="DublinCoreLogo" src="DublinCoreLogo.jpg" width="140" height="49" border="0" alt="Dublin Core Metadata Initiative"></a></td>
+   <td rowspan="10"><img name="left_Banner_r16_c5" src="left_Banner_r16_c5.jpg" width="24" height="304" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="49" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="left_Banner_r17_c2" src="left_Banner_r17_c2.jpg" width="140" height="8" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="8" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><a href="http://www.nlb.gov.sg" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('NLBLogo','','NLBLogo.jpg',1);"><img name="NLBLogo" src="NLBLogo.jpg" width="81" height="53" border="0" alt="NLB"></a></td>
+   <td rowspan="2" colspan="2"><img name="left_Banner_r18_c3" src="left_Banner_r18_c3.jpg" width="59" height="64" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="53" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="left_Banner_r19_c2" src="left_Banner_r19_c2.jpg" width="81" height="11" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="11" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="2"><a href="http://www.ntu.edu.sg/sci/" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('NanyangLogo','','NanyangLogo.jpg',1);"><img name="NanyangLogo" src="NanyangLogo.jpg" width="87" height="32" border="0" alt="Nanyang Technology University"></a></td>
+   <td rowspan="2"><img name="left_Banner_r20_c4" src="left_Banner_r20_c4.jpg" width="53" height="59" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="32" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="2"><img name="left_Banner_r21_c2" src="left_Banner_r21_c2.jpg" width="87" height="27" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="27" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><a href="http://www.nlbconference.com/ilds" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('ilds','','ilds.jpg',1);"><img name="ilds" src="ilds.jpg" width="140" height="49" border="0" alt="Interlending and Document Supply Conference"></a></td>
+   <td><img src="spacer.gif" width="1" height="49" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="left_Banner_r23_c2" src="left_Banner_r23_c2.jpg" width="140" height="9" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="9" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><a href="http://blogs.nlb.gov.sg/newspaper_conf08/" target="_blank" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('IFLALogo','','IFLALogo.jpg',1);"><img name="IFLALogo" src="IFLALogo.jpg" width="140" height="49" border="0" alt="IFLA International Newspaper Conference 2008"></a></td>
+   <td><img src="spacer.gif" width="1" height="49" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="left_Banner_r25_c2" src="left_Banner_r25_c2.jpg" width="140" height="17" border="0" alt=""></td>
+   <td><img src="spacer.gif" width="1" height="17" border="0" alt=""></td>
+  </tr>
+<map name="m_left_Banner_r15_c1">
+<area shape="rect" coords="51,26,162,38" href="mailto:dc2007@nlb.gov.sg?Subject=Contact DC2007" title="dc2007@nlb.gov.sg" alt="dc2007@nlb.gov.sg" >
+</map>
+</table>
+</body>
+</html>
+</td>	 
+  <td width="622" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <!--DWLayoutTable-->
+    <tr>
+      <td width="622" height="505" valign="top"><link href="style.css" rel="stylesheet" type="text/css">
+<TABLE align="center" width="620">
+<TR>
+   <TD><img src="session_header.gif" width="618" height="26"></TD>
+</TR>
+<TR>
+   <TD>
+      <TABLE cellspacing="0" cellpadding="5">
+	     <TR>
+	        <TD class="englishHeader"><a href="index.asp@section=session#Keynote" class="anchorClass">Keynote and Plenary Sessions</a></TD>
+		 </TR>
+		 <TR>
+		    <TD class="englishHeader"><a href="index.asp@section=session#PaperSessions" class="anchorClass">Paper Sessions</a></TD>
+		 </TR>
+		 <TR>
+		    <td class="englishHeader"><a href="index.asp@section=session#Special" class="anchorClass">Special Sessions</a></td>
+	     </TR>
+		 <TR>		
+		    <TD class="englishHeader"><a href="index.asp@section=session#Meeting" class="anchorClass">Meetings of DCMI Communities and Task Groups</div></a></TD>
+	     </TR>
+		 <TR>		
+		    <TD class="englishHeader"><a href="index.asp@section=session#Seminars" class="anchorClass">Seminars</a></TD>
+	     </TR>
+		 <TR>		
+		    <TD class="englishHeader"><a href="index.asp@section=session#Tutorials" class="anchorClass">Tutorials</a></TD>
+	     </TR>		
+	  </TABLE>
+   </TD>
+</TR>
+<TR>
+   <TD><hr></TD>
+</TR>
+<TR>
+   <TD>
+      <TABLE cellspacing="0" cellpadding="10">
+	     <TR>
+		    <TD colspan="2"><span class="englishHeader"><a name="Keynote"></a>Keynote and Plenary Sessions</span></TD>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Keynote1" id="Keynote1"></a></span>Keynote 1</span></TD>
+			<TD align="right"><span class="englishContentRegistrationItalic">Tue 28 Aug 10:00, Ballroom</span></TD>			
+		 </TR>	
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContentBold">"ags - Application Profiles" - Building Blocks for a Semantic "Bus" in Agricultural Information<br>
+	        </span><span class="englishContent"><I>Keynote Speaker: <a href="index.asp@section=speakers#Johannes" class="anchorClass">Johannes Keizer</a></I></span></div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2">
+			<div align="justify"><span class="englishContent">
+The Food and Agriculture Organization of the United Nations (FAO) has as its goal to combat hunger and poverty in the World.  FAO's Strategic Framework has as one of the major strategies to "improve decision-making through the provision of information and assessments and fostering of knowledge
+management for food and agriculture."  Its membership is pressing the organization to be more efficient in the facilitation of global knowledge exchange in Agriculture.<br><br>
+A huge efficiency gain was always expected from the realization of the semantic web.  In a recent interview, Sir Tim Berners-Lee described the use of RDF for sharing information via a semantic "bus".  The RDF layer contains information about a resource, viewed from outside the resource, and includes information such as its title, author, and publisher.  The agricultural community is adopting Dublin Core (DC) as its de-facto standard for exchanging such information.  However, extensions have been made to the basic DC set to accommodate agriculture specific requirements, such as inclusion of 
+AGROVOC, CAB and NAL Thesauri as schemes for "Subject".  Additionally, some semantic extensions were also made to the existing DC elements to allow improved understanding of the exchanged metadata.  These extensions of Dublin Core are made available for reuse via the Agricultural Metadata Element Set namespace (AgMES).  The schema currently adapted and widely used for exchanging Document-like Information objects (DLIOs) is the AGRIS Application Profile.
+In addition, FAO and its partner organizations have created application profiles (based on Dublin Core and AgMES) for description of events, organizations, learning resources and projects that now are used for various data bus channels.
+<br><br>			
+One of the next steps in this process is to convert the AGRIS Application Profile schema to an ontology, making the relationships and constraints between concepts more explicit.  Experiments are underway to test the ontology on top of an XML repository of 2.5 million instances.
+<br><br>
+This presentation highlights the lessons learned in the development and implementation of Application Profiles as the building blocks, or the semantic "bus", of the "agricultural" semantic web.
+			</span></div>
+			</TD>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold">Keynote 2</span><br><span class="englishContent"><I>Keynote Speaker: <a href="index.asp@section=speakers#Zhang" class="anchorClass">Zhang Xiaoxing</a></I></span></TD>
+			<TD align="right"><span class="englishContentRegistrationItalic">Thu 30 Aug 09:00, Ballroom</span></TD>			
+		 </TR>		
+         <TR>
+		    <TD><span class="englishContentBold"><a name="ApplicationProfileModelPlenarySession" id="ApplicationProfileModelPlenarySession"></a>Application Profile Model Plenary Session</span><br>
+	       <span class="englishContent"><I>Speakers: Tom Baker & <a href="index.asp@section=speakers#Mikael" class="anchorClass">Mikael Nilsson</a></I></span></TD>
+			<TD align="right"><span class="englishContentRegistrationItalic">Tue 28 Aug 13:30, Ballroom</span></TD>			
+		 </TR>	
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">This session will introduce a formal model for application profiles based on the DCMI Abstract Model, a structured document format for developing application profiles in a wiki, and methods for transforming the wiki documents into XML formats usable in applications.</span></div></TD>
+		 </TR>		  	 	 	 	 
+	  </TABLE>
+   </TD>
+</TR>
+<TR>
+   <TD><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p><hr></TD>
+</TR>
+<TR>
+   <TD>
+      <TABLE cellpadding="10" cellspacing="0">
+	     <TR>
+		    <TD colspan="2"><span class="englishHeader"><a name="PaperSessions"></a>Paper Sessions</span></TD>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold"><a name="PaperSession1"></a>Paper Session 1: Conceptual Modeling</span></TD>
+			<TD align="right"><span class="englishContentRegistrationItalic">Tue 28 Aug 11:30, Ballroom</span></TD>
+		 </TR>		 		 
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishSessionHeader"><B><a name="1.1"></a>Parallel Writing Tradition in East Asian Language Data and Metadata Representation: Under the Light of the DCMI Abstract Model</B></span><br>
+	            <span class="englishContent"><I>by Akira Miyazawa</I></span></div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">This paper discusses the parallel writing tradition in East Asian languages and its representation in metadata.  Parallel writing systems in these languages do not use the same scripts, but they all share a common scheme, and they have a well-established tradition in bibliographic data.  Data representation of these parallel writing systems in the MARC bibliographic format is done in various ways.  Even in the metadata world, the representation of parallel writing shows some inconsistencies.  It is therefore desirable to establish a new common way of representation.  For this purpose, this paper discusses the class of the represented values in terms of the DCMI Abstract Model (DCAM).  In the case of properties such as “Title,” it is possible to see the associated value as a “literal,” but for parallel writing it is more appropriate to see such a value as “a sequence of words”.  Accordingly parallel writing can be represented as multiple value strings associated with a value of the class “sequence of words”.  Even so, one remaining problem is that the languages tags used in the value string language cannot also specify writing systems.  Enumeration of the type of writing systems in various languages and registration to RFC 4646 would be required in order to express this information in DCAM value string languages.</span></div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishSessionHeader"><B><a name="1.2"></a>Annotation Profiles: Configuring Forms to Edit RDF</B></span><br>
+	            <span class="englishContent"><I>by Matthias Palmér, Fredrik Enoksson, <a href="index.asp@section=speakers#Mikael" class="anchorClass">Mikael Nilsson</a>, Ambjörn Naeve</I></span></div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">Most of today's generic annotation tools for Semantic Web metadata (RDF) are designed for experts. People with no or little knowledge about RDF are therefore forced to use simplified and often domain-specific tools that work with fixed sets of metadata elements. This paper introduces the Annotation Profile Model as a configuration mechanism from which annotation tools can be automatically generated. The intention is to encourage metadata- or domain experts to define annotation profiles according to metadata standards/schemas or combinations thereof. This will allow end-users or administrators to select appropriate annotation profiles for the task at hand, and then an editor will be provided by the underlying system. This paper discusses the design of the Annotation Profile Model, which consists of a data-capturing part (the Graph Pattern Model) and a presentation part (the Form Template model). An implementation that can generate both Web-based and standalone editors is also introduced.</span></div></TD>
+		 </TR>		 
+	  </TABLE>
+   </TD>
+</TR>
+<TR>
+   <TD><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p><hr></TD>
+</TR>
+<TR>
+   <TD>
+      <TABLE cellpadding="10" cellspacing="0">
+	     <TR>
+		    <TD><span class="englishContentBold"><a name="PaperSession2"></a>Paper Session 2: Project Reports 1</span></TD>
+			<TD align="right"><span class="englishContentRegistrationItalic">Tue 28 Aug 15:00, Ballroom</span></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishSessionHeader"><a name="2.1"></a>SCROL Application Profile</span><br>
+		          <span class="englishContent"><I>by Steven Wan Wu, Barbara Reed, Paul Loke</I></span>  			
+	        </div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">The National Heritage Board’s virtual repository project which resulted in SCROL (“Singapore Cultural Resources Online”) was launched in August 2006. This Web-based repository pulls data and images from multiple information resources without the need to modify the existing databases. For advanced resource discovery, SCROL is equipped with a metadata search facility that retrieves relevant museum and archive records which have been ingested from several independent databases. Arguably, the SCROL application profile development has been an evolutionary process that restructured and refined existing schemas and standards in use. The final phase saw the consolidation of metadata elements through a methodological approach that also integrated comprehensive subject taxonomy. This paper presents a case study in designing a Dublin Core-compliant application profile for cultural heritage. The rationale used in selecting and refining the SCROL element set so as to accommodate existing schemas in order to enable data re-use is explained. Future maintenance and review issues are also discussed.</span>
+	        </div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishSessionHeader"><a name="2.2"></a>The DCMI Tools Application Profile</span><br>
+	            <span class="englishContent"><I>by Thomas Severiens, Jane Greenberg</I></span></div></TD>
+		 </TR>	
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">This paper reports on the DCMI Tools application profile for describing metadata applications. The paper defines the metadata tools landscape; presents the steps to develop the application profile; and presents the DCMI Tools application profile and taxonomy for tool functionalities. The paper concludes by highlighting next steps related to the implementation of the application profile.</span></div></TD>
+		 </TR>	
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishSessionHeader"><a name="2.3"></a>The DRIADE Project: Phased Application Profile Development in Support of Open Science</span><br>
+	            <span class="englishContent"><I>by Jane Greenberg, Sarah Carrier, Jed Dube</I></span></div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">DRIADE (Digital Repository of Information and Data for Evolution) is a project being developed for the acquisition, preservation, sharing and re-use of heterogeneous data in support of published research in the field of evolutionary biology. Metadata is a fundamental part of DRIADE’s information architecture. This paper reports on DRIADE’s overarching goals. We describe our phased approach to developing a modularized application profile, which supports three phases of DRIADE's development. We present a multi-method approach to developing the application profile. Our methods included a requirements assessment, content analysis, and crosswalk analysis. The paper concludes by identifying next steps and discussing the applicability of DRIADE’s work to other initiatives seeking to tightly couple published research and data.</span></div></TD>
+		 </TR>		 		 		 	 	 		 
+	  </TABLE>
+   </TD>
+</TR>
+<TR>
+   <TD><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p><hr></TD>
+</TR>
+<TR>
+   <TD>
+      <TABLE cellspacing="0" cellpadding="10">
+	     <TR>
+		    <TD><span class="englishContentBold"><span class="englishSessionHeader"><a name="PaperSession3"></a></span>Paper Session 3: Application Profiles–Issues and Practice</span></TD>
+			<TD align="right"><span class="englishContentRegistrationItalic">Wed 29 Aug 09:00, Ballroom</span></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishSessionHeader"><B><a name="3.1" id="3.1"></a>Theory and Practice of Application Profile Development</B></span><br>
+	            <span class="englishContent"><I>by Jon Mason, Helen Galatis</I></span></div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">This paper is divided into two main sections that cover the theory and practice of metadata application profile development in Australian education and training. A range of historical and theoretical perspectives are discussed with emphasis upon the fact that there exists scope for a variety of interpretations as to how best to develop and/or express an application profile. Through providing summaries of a selection of Australian initiatives that span some ten years it is demonstrated that developing clarity about business requirements can be seen as the most important step in the process. In this broad historical context it is also highlighted that both theory and practice inform each other. From the diversity in requirements it is clear that one standard, one schema, or one application profile is not sufficient in the diversity of learning, education, training, and research contexts.</span></div></TD>
+		 </TR>		
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishSessionHeader"><a name="3.2" id="3.2"></a>Application Profiles: Exposing and Enforcing Metadata Quality</span><br>
+	            <span class="englishContent"><I>by Diane Ileana Hillmann, Jon Phipps</I></span></div></TD>
+		 </TR>			  	 
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">In this paper, we explore a range of issues yet to be addressed in the large-scale use of application profiles. While considerable attention has been paid to human-readable application profiles, there is a growing need for machine-readable application profiles that can support quality control mechanisms including, but not limited to, data validation. We examine these issues in the context of the evolving Semantic Web and the DCMI commitment to RDF and the challenges presented. We frame the discussion in terms of select functions to be served by application profiles and our notion of data profiles. While much remains to be done to address these issues, positive movement toward solutions is dependent on the appropriate framing of those issues in terms of the needs of large-scale applications such as metadata aggregators.</span></div></TD>
+		 </TR>		
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishSessionHeader"><a name="3.3" id="3.3"></a>Using an Application Profile Based Service Registry</span><br>
+	            <span class="englishContent"><I>by Ann Apps</I></span></div></TD>
+		 </TR>	
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">The JISC Information Environment Service Registry (IESR) aims to assist other applications, to discover and devolve materials that match their users’ interests in their research, learning and teaching. This paper describes the experience of using an application profile throughout the application development process, from initial data design, through application implementation, to scenarios illustrating application use. Also discussed is the benefit of using an application profile to share both a data schema and actual data with similar initiatives.</span></div></TD>
+		 </TR>		 		 		 
+	  </TABLE>
+   </TD>
+</TR>
+<TR>
+   <TD><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p><hr></TD>
+</TR>
+<TR>
+   <TD>
+      <TABLE cellpadding="10" cellspacing="0">
+	     <TR>
+		    <TD><span class="englishContentBold"><span class="englishSessionHeader"><a name="PaperSession4" id="PaperSession4"></a></span>Paper Session 4: Identification, Registries and Reuse</span></TD>
+			<TD align="right"><span class="englishContentRegistrationItalic">Wed 29 Aug 11:00, Ballroom</span></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishSessionHeader"><a name="4.1" id="4.1"></a>Identifying the Identifiers</span><br>
+	            <span class="englishContent"><I>by Douglas Campbell</I></span></div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">Identifying and labeling things is what we all do every day; it is how we communicate about the things in the world around us, e.g. “please pass the salt” or “my ticket is for seat D3”. Identifying things and assigning identifiers to them is also a fundamental part of working in the digital realm. We need to identify resources, concepts, agents, relationships, mappings, properties, namespaces, schemas, profiles, etc. Many of these have confusing subtleties of meaning, so it may help to deconstruct the identification processes we perform intuitively so we can reconstruct a sensible approach to designing our identifiers. This paper looks at how we identify things by comparing the sameness of their characteristics, how we associate symbols with things to simplify identifying them, and concludes there are six aspects that make up an identifier: a thing, a symbol, an association, a context, an agent, and a remembrance. It then considers some of the qualities of identifiers in more detail: scope, uniqueness, granularity, intelligence, actionability, persistence, extensibility, and context. It finally provides a simple checklist for designing identifiers.</span></div></TD>
+		 </TR>		 
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishSessionHeader"><a name="4.2" id="4.2"></a>Using Metadata Schema Registry as a Core Function to Enhance Usability and Reusability of Metadata Schemas</span><br>
+	            <span class="englishContent"><I>by Mitsuharu Nagamori, Shigeo Sugimoto</I></span></div></TD>
+		 </TR>	 
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">
+		      Metadata schema registries have a large potential to enhance usability and reusability of metadata schemas. Application profile, which is a key concept for Dublin Core, has a crucial role to promote reuse of metadata schemas. This paper is aimed to discuss basic concepts and models of metadata schema in order to clarify functional requirements to extend registry functions to enhance usability and reusability of metadata schemas. It also show two experimental tools developed to help users find, browse and build metadata schemas.</span>			
+	        </div></TD>
+		 </TR>	 
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishSessionHeader"><a name="4.3" id="4.3"></a>Virtual Archival Exhibition System: An Authoring Tool for Developing Web-based Virtual Exhibitions</span><br>
+	            <span class="englishContent"><I>by Ruan Yang, Chennupati K. Ramaiah, Schubert Foo</I></span></div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent"> This paper describes the design and development of a Virtual Archival Exhibition System (VAES) that facilitates the authoring of Web-based virtual exhibitions that can be tailored to serve the needs of various user groups. Based on an XML-based metadata database, VAES provides tools for users to create, update, extract, and search metadata of artifacts and exhibitions stored in the database. The actual digital artifacts (information objects) are reused by referencing as necessary without duplicating the artifacts. Dublin Core (DC) elements and non-DC elements with layered tags are used to describe and provide tailored information of each artifact for different users. In VAES, a virtual exhibition is created based on the pre-defined exhibition metadata and artifact metadata stored in the database. An authoring tool provides a direct manipulation work area for users to browse, display and layout the exhibition page content that is extracted from the database. XML’s Extended Style Sheets (XSL) and Cascading Style Sheet (CSS) are then applied to the layout to yield the final exhibition in HTML format. By using different information layers, reusing the layout setting, and the application of different style sheets, it is easier for authors or archivists, especially for those who are less proficient in IT, to create multiple versions of the same exhibition that vary in content, layout and presentation to meet the varying information needs of a range of different user communities.</span>
+	        </div></TD>
+		 </TR>		 
+	  </TABLE>
+   </TD>
+</TR>
+<TR>
+   <TD><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p><hr></TD>
+</TR>
+<TR>
+   <TD>
+      <TABLE cellspacing="0" cellpadding="10">
+	     <TR>
+		    <TD><span class="englishContentBold"><span class="englishSessionHeader"><a name="PaperSession5" id="PaperSession5"></a></span>Paper Session 5: Project Reports 2</span></TD>
+			<TD align="right"><span class="englishContentRegistrationItalic">Wed 29 Aug 16:00, Ballroom</span></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><span class="englishSessionHeader"><a name="5.1" id="5.1"></a>Education.au and Metadata for Events</span><br>
+	       <span class="englishContent"><I>by Pru Mitchell, Kim Edgar</I></span></TD>			
+		 </TR>	
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent"> This paper outlines the ongoing work in the area of metadata for events being undertaken by Australia’s ICT in education agency, education.au. Calendars of conferences, opportunities and celebrations of interest to Australia’s education and training community are a core service of Education Network Australia (edna), education.au’s premier service. The ongoing development of an events metadata application profile for the edna calendars is described, and the current implementation discussed. The process of refinement involves both the metadata profile, the metadata repository, the edna website used to display the calendars and the xml services used to share events metadata with external sources. The paper concludes with a discussion of the future directions for events metadata in edna and other education.au projects, including our wish list of increased participatory and automated generation of events metadata, and development of relationship metadata to provide a more integrated user experience across services.</span>			
+	        </div></TD>			
+		 </TR>	
+		 <TR>
+		    <TD colspan="2"><span class="englishSessionHeader"><a name="5.2" id="5.2"></a>Integrating Dublin Core and Learning Object Metadata for Describing Learning Objects for Enhanced Reusability</span><br>
+	       <span class="englishContent"><I>by Abdul Halim Abdul, Abdus Sattar Chaudhry</I></span></TD>			
+		 </TR>	
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">
+		      A repository of learning objects (LOs) is being built to investigate the usability aspects of LOs as part of a doctoral dissertation project. Enhanced description of LOs is considered an important step in this effort. Among other things, use of metadata and taxonomies are being explored for enhancing the description to promote use and reuse of LOs. Our initial review indicated that the various metadata schemes currently in use do not adequately support description of special features of LOs, e.g., granularity and reusability. However, features from different schemes can be combined to develop a profile that can effectively support the peculiarities of LOs. Leveraging on the flexibility in the design of Dublin Core and its provisions of refinement and extension of elements, we decided to extend certain DCMI-EDS elements by integrating some elements from IEEE-LOM to cover requirements of LOs. This paper describes the elements from the two schemes and discusses the issues that need to be addressed to make this work. We also suggest the addition of new metadata terms that describe granularity and reusability. We hope that this example may be useful for developing an application profile for describing learning objects in various repositories.</span>			
+	        </div></TD>			
+		 </TR>		 
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishSessionHeader"><a name="5.3" id="5.3"></a>Audience-Centric Taxonomy: Using Taxonomies to Support Heterogeneous User Communities</span><br>
+	            <span class="englishContent"><I>by Dave Clarke, Pei Jiun Tan</I></span></div></TD>			
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">
+		      Controlled vocabularies enhance precision and recall but sometimes they achieve this at the expense of imposing a prescribed terminology and a homogeneous worldview upon a heterogeneous user community. Folksonomies allow end-users the freedom to describe content any way they want, but in doing so they create meta noise which diminishes precision and recall. This paper presents an alternative model called audience-centric taxonomy, which blends the best practices of top-down controlled vocabularies with the bottom-up approach of folksonomy. The result is a semantically rich and well structured vocabulary that can adapt how it presents itself to different end-user communities ensuring each audience sees the language and worldview that it prefers. The paper describes how the National Library Board, Singapore intends to utilize audience centric taxonomy to provide enhanced information access to its multilingual, multi-cultural user community.</span>			
+	        </div></TD>			
+		 </TR>		 		 		 	 		 	 	 
+	  </TABLE>
+   </TD>
+</TR>
+<TR>
+   <TD><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p><hr></TD>
+</TR>
+<TR>
+   <TD>
+      <TABLE cellspacing="0" cellpadding="10">
+	     <TR>
+		    <TD><span class="englishContentBold"><span class="englishSessionHeader"><a name="PaperSession6" id="PaperSession6"></a></span>Paper Session 6: Metadata Generation and Integration</span></TD>
+			<TD align="right"><span class="englishContentRegistrationItalic">Thu 30 Aug 10:00, Ballroom</span></TD>
+		 </TR>   
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishSessionHeader"><a name="6.1" id="6.1"></a>Integrating Dublin Core Metadata for Cultural Heritage Collections Using Ontologies</span><br>
+	            <span class="englishContent"><I>by Constantia Kakali, Irene Lourdi, Thomais Stasinopoulou, Lina Bountouri, Christos Papatheodorou, Martin Doerr, Manolis Gergatsoulis</I></span></div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">Cultural heritage collections are related to historical events and depict the customs of human societies. Their main characteristic is that they consist of heterogeneous objects, which usually are described by a variety of metadata schemas. Dublin Core Metadata Initiative plays a significant role in the interoperability of such collections. This paper proposes the exploitation of the CIDOC/CRM ontology as a mediating schema to which metadata sources can be mapped and integrated. In this context a methodology for mapping DC Types Vocabulary terms to CIDOC/CRM is presented, demonstrating a real-world effort for ontology-based metadata integration.</span></div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishSessionHeader"><a name="6.2" id="6.2"></a>Can a system make novice users experts? Important Factors for Automatic Metadata Generation Systems</span><br>
+	            <span class="englishContent"><I>by Sueyeon Syn, Michael B. Spring</I></span></div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent"> The description of Web resources is one of the problems related to the development of the Semantic Web. The major problem in metadata generation is due to lack of experts and tremendous amount of Web resources. It is expected that an automated system would encourage creation of metadata for web resources. This work is focused on suggesting four classes of descriptive elements – bibliographic, semantic, keywords, structure – in designing an automated metadata generation system. In addition, this study tries to assess how the level of knowledge or skill impacts the quality of the metadata generated and based on the results it suggests factors that automatic metadata generation tools should suggest to users.</span>			
+	        </div></TD>
+		 </TR>
+	  </TABLE>
+   </TD>
+</TR>
+<TR>
+   <TD><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p><hr></TD>
+</TR>
+<TR>
+   <TD>
+      <TABLE cellpadding="10" cellspacing="0">
+	     <TR>
+		    <TD colspan="2"><span class="englishHeader"><a name="Special"></a>Special Sessions</span></TD>
+		 </TR>		 
+	     <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Special1" id="Special1"></a></span>Identifiers</span><br>
+	       <span class="englishContent">[Lead: Douglas Campbell]</span></TD>
+			<TD align="right"><span class="englishContentRegistrationItalic">Thu 30 Aug 11:30, Karimata Room</span></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">
+		      Identifiers are a crucial part of future Dublin Core metadata, especially when supporting the Abstract Model.  But designing and assigning identifiers can be confusing.  This session is aimed at those interested in finding out more about work underway around identifiers and to participate in identifying the issues from the DCMI community's perspective.</span>			
+	        </div></TD>
+		 </TR>	
+		 <TR>
+		    <TD colspan="2">
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">
+			   <TR>
+			   <TD>                
+			   <TABLE border="0" cellpadding="3" cellspacing="0" width="100%">
+			      <TR>
+				     <TD rowspan="10" valign="top" width="60"><span class="englishContent">Agenda:</span></TD>
+					 <TD><span class="englishContent">1.</span></TD>
+					 <TD colspan="2"><div align="justify"><span class="englishContent">Existing identifier work:</span></div></TD>
+				  </TR>
+				  <TR>
+				     <TD>&nbsp;</TD>				  
+				     <TD><span class="englishContent">-</span></TD>
+				     <TD><div align="justify"><span class="englishContent">NISO identifiers roundtable - John Kunze</span></div></TD>
+				  </TR>
+				  <TR>
+				     <TD>&nbsp;</TD>				  				  
+				     <TD><span class="englishContent">-</span></TD>
+				     <TD><div align="justify"><span class="englishContent">ISBNs, DOIs & URNs (to be confirmed)</span></div></TD>
+				  </TR>				  
+				  <TR>
+				     <TD>&nbsp;</TD>				  				  
+				     <TD><span class="englishContent">-</span></TD>
+				     <TD><div align="justify"><span class="englishContent">Identifier principles - Stu Weibel</span></div></TD>
+				  </TR>				  				  
+				  <TR>
+				     <TD>&nbsp;</TD>				  				  
+				     <TD><span class="englishContent">-</span></TD>
+				     <TD><div align="justify"><span class="englishContent">Identifiers at National Library of New Zealand - Douglas Campbell</span></div></TD>
+				  </TR>		
+				  <TR>
+				     <TD>&nbsp;</TD>				  				  
+				     <TD><span class="englishContent">-</span></TD>
+				     <TD><div align="justify"><span class="englishContent">(Also relevant is the paper "Identifying the Identifiers" presented on<br>&nbsp;Wed 29 Aug, 11am)</span></div></TD>
+				  </TR>		
+			      <TR>
+					 <TD><span class="englishContent">2.</span></TD>
+					 <TD colspan="2"><div align="justify"><span class="englishContent">Discussion on identifier issues:</span></div></TD>
+				  </TR>		
+				  <TR>
+				     <TD>&nbsp;</TD>				  				  
+				     <TD><span class="englishContent">-</span></TD>
+				     <TD><div align="justify"><span class="englishContent">What are the issues or areas of confusion?</span></div></TD>
+				  </TR>
+				  <TR>
+				     <TD>&nbsp;</TD>				  				  
+				     <TD><span class="englishContent">-</span></TD>
+				     <TD><div align="justify"><span class="englishContent">What are the areas we DO understand?</span></div></TD>
+				  </TR>	  				  		  				  				  				  					  		  				  		  				  				
+				  <TR>
+				     <TD>&nbsp;</TD>				  				  
+				     <TD><span class="englishContent">-</span></TD>
+				     <TD><div align="justify"><span class="englishContent">What are some best practices?</span></div></TD>
+				  </TR>  				  					  		  				  		  				  				  				  
+			   </TABLE>
+			   </TD>
+			   </TR>
+			   </TABLE>
+			</TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><span class="englishContent">Other suggestions for topics/issues are welcome: <a href="mailto:douglas.campbell@natlib.govt.nz">douglas.campbell@natlib.govt.nz</a></span></TD>
+		 </TR>	 	 		 
+	     <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Special2" id="Special2"></a></span>Ontology Modeling Using Topic Maps and RDF/OWL</span><br>
+	       <span class="englishContent">[Lead: Sam Oh]</span></TD>
+			<TD valign="top" align="right"><span class="englishContentRegistrationItalic">Wed 29 Aug 14:00, Sunda Room</span></TD>
+		 </TR>		
+	     <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">This session will introduce two standard ontology languages, i.e., Topic Maps (ISO) and RDF/OWL (W3C).  The first half of the session will cover the concepts of Topic Maps such as topic, associations, and occurrences as well as elaborations on the benefits of Topic Map modeling in information and knowledge management.  The rest of the session will focus on the major concepts and technologies related to RDF, RDF schema, and OWL.  Participants will be able to see the difference between thesaurus and ontology, and the difference between data and ontology modeling.</span></div></TD>
+		 </TR>		
+	     <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Special3" id="Special3"></a></span>RDA</span><br>
+	       <span class="englishContent">[Lead: Robina Clayphan]</span></TD>
+			<TD valign="Top" align="right"><span class="englishContentRegistrationItalic"><I>Thu 30 Aug 14:30, Vault</I></span></TD>
+		 </TR>			 		 	 	
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">
+		      Resource Description and Access (RDA) is the content standard for resource description being developed on the foundations of library cataloguing practice established in the Anglo-American Cataloguing Rules (AACR).  Dublin Core members have provided input to the RDA development process from a non-traditional metadata perspective and this culminated in a meeting between several metadata communities at the British Library earlier this year. (see <a href="http://www.bl.uk/services/bibliographic/meeting.html">http://www.bl.uk/services/bibliographic/meeting.html</a>) The participants identified key strands of work that would be useful to take forward collaboratively: the declaration of an RDA element set, declaration of RDA controlled vocabularies, and development of an RDA DC Application  Profile.  This RDA Special Session is intended for those who  are interested in the background to these developments and the current position in relation to the proposed work items.  There will also be an opportunity for discussion.</span> 			
+	        </div></TD>
+		 </TR> 
+		 <TR>
+		    <TD colspan="2">
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">
+			   <TR>
+			   <TD>                
+			   <TABLE border="0" cellpadding="3" cellspacing="0" width="100%">
+			      <TR>
+				     <TD width="60" rowspan="5" align="center" valign="top"><span class="englishContent">Agenda:</span></TD>
+					 <td valign="top">-</td>
+					 <TD><span class="englishContent">
+				      <div align="justify"><span class="englishContent">Welcome and Introduction - Robina Clayphan</span></div></TD>
+				  </TR>
+				  <TR>
+				     <td valign="top">-</td>
+				     <TD><div align="justify"><span class="englishContent">Background to RDA and DC development - <a href="index.asp@section=speakers#Diane" class="anchorClass">Diane Hillmann</a> and Gordon Dunsire</span></div></TD>
+				  </TR>
+				  <TR>
+				     <td valign="top">-</td>
+				     <TD><div align="justify"><span class="englishContent">Current RDA/DC work plan - <a href="index.asp@section=speakers#Diane" class="anchorClass">Diane Hillmann</a> and Gordon Dunsire</span></div></TD>
+				  </TR>		
+				  <TR>
+				     <td valign="top">-</td>
+				     <TD><div align="justify"><span class="englishContent">Future developments - <a href="index.asp@section=speakers#Diane" class="anchorClass">Diane Hillmann</a> and Gordon Dunsire</span></div></TD>
+				  </TR>	
+				  <TR>
+				     <td valign="top">-</td>
+				     <TD><div align="justify"><span class="englishContent">Discussion - Robina Clayphan and All</span></div></TD>
+				  </TR>					  		  
+		      </TABLE>			  </TD>	  
+			  </TR>	  			  
+			  </TABLE>			</TD>
+		 </TR>
+	  </TABLE>
+   </TD>
+</TR>
+<TR>
+   <TD><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p><hr></TD>
+</TR>
+<TR>
+   <TD>
+      <TABLE cellpadding="10" cellspacing="0">
+	     <TR>
+		    <TD colspan="2"><span class="englishHeader"><a name="Meeting"></a>Meetings of DCMI Communities and Task Groups</span></TD>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Meeting1" id="Meeting1"></a></span>Accessibility Community</span><br>
+	       <span class="englishContent">[Lead: Liddy Neville]</span></TD>
+		    <TD valign="top" align="right"><span class="englishContentRegistrationItalic">Thu 30 Aug 11:30, Sunda Room</span></TD>			
+		 </TR>		
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">
+		      The Accessibility Community, working with W3C/WAI, ISO, CEN, IMS, DC and others, have done substantial re-thinking and re-drafting of specifications in recent years.  Finally, the specifications for accessibility metadata have somewhat stabilised.  This session will offer a final opportunity to those interested in the DC accessibility application profile module to present reports and discuss the proposal.  Important references for this work are available in the DC Accessibility Community site at <a href="http://dublincore.org/groups/access/">http://dublincore.org/groups/access/</a></span> 			
+	        </div></TD>
+		 </TR> 
+		 <TR>
+		    <TD colspan="2">
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">
+			   <TR>
+			   <TD>
+			   <TABLE cellpadding="3" cellspacing="0">
+			      <TR>
+				     <TD width="60" rowspan="4" valign="top"><span class="englishContent">Agenda:</span></TD>
+					 <td>-</td>
+					 <TD><div align="justify"><span class="englishContent">Brief explanation of the specifications</span></div></TD>
+				  </TR>
+				  <TR>
+				     <td>-</td>
+				     <TD><div align="justify"><span class="englishContent">Reports from implementers</span></div></TD>
+				  </TR>
+				  <TR>
+				     <td>-</td>				  
+				     <TD><div align="justify"><span class="englishContent">Presentations related to modifications</span></div></TD>					 
+				  </TR>
+				  <TR>
+				     <td>-</td>				  
+				     <TD><div align="justify"><span class="englishContent">Plans for finalisation of the activity - promotion, training materials, a usage guide?</span></div></TD>
+				  </TR>
+			   </TABLE>
+			   </TD>
+			   </TR>
+			   </TABLE>
+			</TD>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Meeting2" id="Meeting2"></a></span>Architecture Forum Technical Meeting</span><br>
+	       <span class="englishContent">[Lead: <a href="index.asp@section=speakers#Mikael" class="anchorClass">Mikael Nilsson</a> & Tom Baker]</span></TD>
+			<TD valign="top" align="right"><span class="englishContentRegistrationItalic">Tue 28 Aug 15:00, Vault</span></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2">
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">
+			   <TR>
+			   <TD>			
+			   <TABLE border="0" cellpadding="3" cellspacing="0"> 
+			      <TR>
+				     <TD width="60" rowspan="5" valign="top"><span class="englishContent">Agenda:</span></TD>
+					 <TD><div align="justify"><span class="englishContent">1. DCMI architectural specifications</span></div></TD>
+				  </TR>
+				  <TR>
+				     <TD>
+					    <TABLE align="center" width="100%">
+						   <TR>
+						      <TD><div align="justify"><span class="englishContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- DCMI Abstract Model</span></div></TD>
+						   </TR>
+						   <TR>	  
+						      <TD><div align="justify"><span class="englishContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Expressing Dublin Core Metadata in RDF</span></div></TD>							  
+						   </TR>
+						   <TR>	  
+						      <TD><div align="justify"><span class="englishContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Expressing Dublin Core Metadata using XML</span></div></TD>
+						   </TR>
+						   <TR>	  
+						      <TD><div align="justify"><span class="englishContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- DC-TEXT - a text syntax for Dublin Core Metadata</span></div></TD>
+						   </TR>
+						   <TR>
+						      <TD><div align="justify"><span class="englishContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Domains and ranges for DCMI properties</span></div></TD>		  							  							
+						   </TR>
+						</TABLE>
+					 </TD>
+				  </TR>
+				  <TR>
+				     <TD><div align="justify"><span class="englishContent">2. Formal model for application profiles</span></div></TD>
+				  </TR>
+				  <TR>
+				     <TD>
+					    <TABLE width="100%">
+						   <TR>
+						      <TD><div align="justify"><span class="englishContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Description Set Profile and related wiki syntax</span></div></TD>
+						   </TR>
+						</TABLE>
+					 </TD>
+				  </TR>	
+				  <TR>
+				     <TD><div align="justify"><span class="englishContent">3. Work Plan 2007-2008</span></div></TD>
+				  </TR>				  			  
+			   </TABLE>
+			   </TD>
+			   </TR>
+			   </TABLE>
+			</TD>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Meeting3" id="Meeting3"></a></span>Collection Description Community</span><BR>
+	       <span class="englishContent">[Lead: Ann Apps]</span></TD>
+		    <TD valign="top" align="right"><span class="englishContentRegistrationItalic">Tue 28 Aug 15:00, Sunda Room</span></TD>			
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">
+		      A 'collection' is an aggregation of physical or digital items.  Examples include: library collections, museum collections, archives, catalogues, web indexes. Collection descriptions advertise the existence and availability of collections.  Describing collections using structured, open and standardised, machine-readable formats enables users to discover and locate collections of interest, and to perform searches across multiple collections.  The Dublin Core Collections Application Profile (DCCAP) defines a set of collection description properties.  This workshop will discuss collection description and the DCCAP, describe further work both within the Dublin Core community and within a wider standards area, and hear about practical applications of collection description.</span>			
+	        </div></TD>
+		 </TR>
+		 <TR>
+		 <TD colspan="2">
+  	     <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">		 
+		 <TR>
+		 <TD>
+		 <TABLE cellpadding="5" cellspacing="0">
+		 <TR>
+		    <TD width="60" valign="top"rowspan="5"><span class="englishContent">Proposed Agenda:</span></TD>
+			<TD>-</TD>
+			<TD><div align="justify"><span class="englishContent">Overview of collection description and background to the DCMI Collection Description Community</span></div></TD>
+		 </TR>
+		 <TR>
+			<TD>-</TD>		 
+		    <TD><div align="justify"><span class="englishContent">The Dublin Core Collections Application Profile (DCCAP)</span></div></TD>
+		 </TR>
+		 <TR>
+			<TD>-</TD>		 
+		    <TD><div align="justify"><span class="englishContent">Further work of the DCMI Collection Description Application Profile Task Group</span></div></TD>
+		 </TR>
+		 <TR>
+			<TD>-</TD>		 
+		    <TD><div align="justify"><span class="englishContent">Current status of the NISO Metasearch Initiative Collection Description Specification (Z39.91-2000x) and how it correlates to the DCCAP</span></div></TD>
+		 </TR>
+		 <TR>
+			<TD>-</TD>					 
+		    <TD> <div align="justify"><span class="englishContent">Case studies of applications that are based on DCCAP or derived Application Profiles. Offers of short presentations are very welcome (please contact <a href="mailto:ann.apps@manchester.ac.uk">ann.apps@manchester.ac.uk</a>).</span></div></TD>
+		 </TR>	 		 		 		 
+		 </TABLE>
+		 </TD>
+		 </TR>
+		 </TABLE>
+		 </TD>
+		 </TR>		 
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Meeting4" id="Meeting4"></a></span>Date Task Group</span><br>
+	       <span class="englishContent">[Lead: Douglas Campbell]</span></TD>
+			<TD valign="top" align="right"><span class="englishContentRegistrationItalic">Wed 29 Aug 14:00, Karimata Room</span></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">This session is for members of the task group and anyone interested in date encoding.  The purpose is to share details of progress so far and to discuss ideas and issues.</span></div></TD>
+		 </TR>
+		 <TR>
+		    <td colspan="2">
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">
+			   <TR>
+			   <TD>			
+			   <TABLE cellpadding="3" cellspacing="0">
+			      <TR>
+				     <TD width="60" rowspan="6" valign="top"><span class="englishContent">Agenda:</span></TD>
+					 <TD>-</TD>
+					 <TD><div align="justify"><span class="englishContent">Review activity</span></div></TD>
+				  </TR>
+				  <TR>
+					 <TD>-</TD>				  
+				     <TD><div align="justify"><span class="englishContent">Date encoding requirements</span></div></TD>
+				  </TR>
+				  <TR>
+					 <TD>-</TD>				  
+				     <TD><div align="justify"><span class="englishContent">Short form note proposal</span></div></TD>
+				  </TR>		
+				  <TR>
+					 <TD>-</TD>				  
+				     <TD><div align="justify"><span class="englishContent">Date encoding format proposals</span></div></TD>
+				  </TR>		
+				  <TR>
+					 <TD>-</TD>				  
+				     <TD><div align="justify"><span class="englishContent">General discussion</span></div></TD>
+				  </TR>		
+				  <TR>
+					 <TD>-</TD>				  
+				     <TD><div align="justify"><span class="englishContent">Plan future work</span></div></TD>
+				  </TR>					  				  				  		  
+			   </TABLE>
+			   </TD>
+			   </TR>
+			   </TABLE>
+			</td>
+		 </TR>		
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Meeting5" id="Meeting5"></a></span>DCMI/IEEE LOM Task Group</span><br>
+	       <span class="englishContent">[Lead: <a href="index.asp@section=speakers#Mikael" class="anchorClass">Mikael Nilsson</a>]</span></TD>
+			<TD valign="top" align="right"><span class="englishContentRegistrationItalic">Wed 29 Aug 16:00, Malacca Room</span></TD>
+		 </TR>	
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">There is an increasing demand for interoperable definitions of Dublin Core metadata terms and IEEE LOM data elements which allow these to be used together in metadata instances. The Joint DCMI/IEEE LTSC Taskforce will approach part of this situation by describing how to use IEEE LOM
+		      and Dublin Core terms together in Dublin Core metadata instances.  The intention is to publish the recommendation as both an IEEE Recommended Practice and a DCMI Recommendation.  The taskforce consists of members of both DC-Education and IEEE LTSC, and interacts with the DCMI through the DC Education working group.  The taskforce maintains a wiki page at 
+		      <a href="http://dublincore.org/educationwiki/DCMIIEEELTSCTaskforce" target="_blank">http://dublincore.org/educationwiki/DCMIIEEELTSCTaskforce</a></span> 
+		      
+	        </div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2">
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">
+			   <TR>
+			   <TD>			
+			   <TABLE cellpadding="3" cellspacing="0" width="100%" border="0">
+			      <TR>
+				     <TD rowspan="4" valign="top" width="60"><span class="englishContent">Agenda:</span></TD>
+					 <td><span class="englishContent">-</span></td>
+					 <td><span class="englishContent">Summary of new developments - new DCAM and syntaxes (<a href="index.asp@section=speakers#Mikael" class="anchorClass">Mikael</a>)</span></td>
+				  </TR>
+			      <TR>
+					 <td><span class="englishContent">-</span></td>
+					 <td><span class="englishContent">Summary of the Description Set Profile notion and implications for this work (<a href="index.asp@section=speakers#Mikael" class="anchorClass">Mikael</a>)</span></td>
+				  </TR>		
+			      <TR>
+					 <td><span class="englishContent">-</span></td>
+					 <td><span class="englishContent">Review of previous documentation produced by this group in light of the above.</span></td>
+				  </TR>	
+			      <TR>
+					 <td><span class="englishContent">-</span></td>
+					 <td><span class="englishContent">Open discussion on related issues.</span></td>
+				  </TR>					  				  		  
+			   </TABLE>
+			   </TD>
+			   </TR>
+			   </TABLE>
+			</TD>
+		 </TR>	
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Meeting6" id="Meeting6"></a></span>Education Community and AP Task Group</span><br>
+	       <span class="englishContent">[Lead: Sarah Currier]</span></TD>
+			<TD align="right" valign="top"><span class="englishContentRegistrationItalic">Wed 29 Aug 14:00, Vault</span></TD>
+		 </TR>		   
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">
+		      The DCMI Education Community is a forum for those involved in implementing Dublin Core and other learning resource metadata (including the IEEE LOM) in the education domain.  The objective of the Community is to promote interoperability within the domain through the use of standard metadata and consensus good practices.  This Community session is open to anyone with an interest in working together to further these aims.</span>			
+	        </div></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2">
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">
+			   <TR>
+			   <TD>			
+			   <TABLE cellpadding="3" cellspacing="0" width="100%" border="0">
+			      <TR>
+				     <TD colspan="2"><span class="englishContent">Agenda:</span></TD>
+				  </TR>
+				  <TR>
+				     <TD width="90"><span class="englishContent">14:00-14:10</span></TD>
+				     <TD><div align="justify"><span class="englishContent">Welcome and overview of DC-Ed Community Work</span></div></TD>					 
+				  </TR>
+				  <TR>
+				     <TD valign="top"><span class="englishContent">14:10-14:45</span></TD>
+				     <TD><div align="justify"><span class="englishContent">Presentation and discussion of DC-Ed Application Profile: Use Cases, Properties (including from the LOM), use of DCAM as basis for AP.</span></div></TD>					 
+				  </TR>
+				  <TR>
+				     <TD><span class="englishContent">14:45-15:00</span></TD>
+				     <TD><div align="justify"><span class="englishContent">Presentation and discussion of DC-Ed Candidate Vocabularies.</span></div></TD>					 
+				  </TR>
+				  <TR>
+				     <TD valign="top"><span class="englishContent">15:00-15:20</span></TD>
+				     <TD><div align="justify"><span class="englishContent">Presentation on Educational Application Profile developed in Taiwan by the NDAP MAAT Group.</span></div></TD>		 
+				  </TR>
+				  <TR>
+				     <TD><span class="englishContent">15:20-15:30</span></TD>
+				     <TD><div align="justify"><span class="englishContent">Conclusion: work items for 2007/2008.</span></div></TD>					 
+				  </TR>				  				  				  				  
+			   </TABLE>
+			   </TD>
+			   </TR>
+			   </TABLE>
+			</TD>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="global" id="global"></a></span>Global Corporate Circle Working Session</span><BR>
+	       <span class="englishContent">[Lead: Joseph Busch]</span></TD>
+			<TD align="right" valign="top"><span class="englishContentRegistrationItalic">Tue 28 Aug 15:00, Karimata Room</span></TD>
+		 </TR>	
+		 <TR>
+		    <TD colspan="2">
+		       <div align="justify"><span class="englishContent">
+			         The Dublin Core specification provides for 15 elements, but only minimal guidance on how to standardize the values used to populate them. This session will present and discuss emerging best practices for specifying and using controlled vocabularies in DC-compliant information management applications. Topics to be addressed will include:
+				 </span> 
+			     </div>
+			</TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2">
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">
+			   <TR>
+			   <TD>			
+			   <TABLE cellspacing="0" cellpadding="3">
+			      <TR>
+				     <TD valign="top">-</TD>
+					 <TD><div align="justify"><span class="englishContent">Tradeoffs and best practices around organization-dependent vs. sharable common controlled vocabularies.</span></div></TD>
+				  </TR>
+				  <TR>
+				     <TD valign="top">-</TD>
+					 <TD><div align="justify"><span class="englishContent">Tagging content for internal vs. external audiences using the same metadata and controlled vocabularies.</span></div></TD>
+				  </TR>
+				  <TR>
+				     <TD valign="top">-</TD>
+					 <TD><div align="justify"><span class="englishContent">When and how to map different taxonomies to each other.</span></div></TD> 		 
+				  </TR>
+			   </TABLE>
+			   </TD>
+			   </TR>
+			   </TABLE>
+			</TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent"> Case studies from large organizations such as Oracle, Harvard Business School Publications and NASA will be used to illustrate emerging metadata and controlled vocabularies best practices. The presentation will be followed by a discussion about the experiences in other organizations. The session will be relevant to participants from any organization—public, private or NGO—because these issues transcend corporations and apply to all large organizations and large, heterogeneous information resources.</span>			
+	        </div></TD>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Government" id="Government"></a></span>Government Community</span><br>
+	       <span class="englishContent">[Lead: John Roberts]</span></TD>
+			<TD align="right" valign="top"><span class="englishContentRegistrationItalic">Wed 29 Aug 16:00, Sunda Room</span></TD>
+		 </TR>	
+		 <TR>
+		    <TD colspan="2"><span class="englishContent">The DC-Government session will cover the following:</span></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"> 
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">
+			   <TR>
+			   <TD>			
+			   <TABLE cellpadding="3" cellspacing="0">
+			      <TR>
+				     <TD valign="top"><span class="englishContent">1.</span></TD>
+					 <TD><div align="justify"><span class="englishContent">Information exchange on Government use of Dublin Core, and developments in e-Government metadata frameworks. An opportunity for delegates to share comment on the use(s) of Dublin Core and other metadata standards in their jurisdictions.</span></div></TD>
+				  </TR>
+				  <TR>
+				     <TD valign="top"><span class="englishContent">2.</span></TD>
+					 <TD><div align="justify"><span class="englishContent">Update on DC-Government Application Profile (DC-GAP). There has been little activity on the proposed DC-GAP in recent times. A discussion to explore the reasons for this, test the ongoing interest in an Application Profile, and determine how to progress the work in light of current thinking on application profile best practice.</span></div></TD>
+				  </TR>
+				  <TR>
+				     <TD valign="top"><span class="englishContent">3.</span></TD>
+					 <TD><div align="justify"><span class="englishContent">Metadata priorities for e-Government. An opportunity to discuss key issues for delegates, and the potential for the DC-Government community to contribute to addressing these.
+					   This session will be informal and participative, with any brief presentations from delegates welcome.</span>
+				     </div></TD>
+				  </TR>
+		      </TABLE>
+			  </TD>
+			  </TR>
+			  </TABLE>	
+			</TD>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="kernel" id="kernel"></a></span>Kernel Community</span><br>
+	       <span class="englishContent">[Lead: John Kunze]</span></TD>
+			<TD valign="top" align="right"><span class="englishContentRegistrationItalic">Thu 30 Aug 14:30, Karimata Room</span></TD>
+		 </TR>	
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">This meeting will review the latest draft of the Kernel Metadata Application Profile, which is concerned with a very lightweight representation of Dublin Core metadata that attempts to maximize utility and minimize cost of metadata record creation, maintenance, and exchange.  Topics will include a brief review of the current DCMI Abstract Model and its effect on application profiles.  Feedback from this meeting will be conveyed to the Kernel Metadata Task Group.</span></div></TD>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Meeting7" id="Meeting7"></a></span>Libraries Community and AP Task Group</span><br>
+	       <span class="englishContent">[Lead: Robina Clayphan]</span></TD>
+			<TD valign="top" align="right"><span class="englishContentRegistrationItalic">Thu 30 Aug 11:30, Vault</span></TD>
+		 </TR>		
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">
+		      This meeting of the DC Libraries Community will serve two purposes.  As the reporting group for the Library Application Profile Task Group we will discuss the current position of DC-Lib and the ongoing work of the Task Group.  The remainder of the meeting will be used to hear short presentations about the real-life application of DC in a library context.  A special session in the afternoon will focus on DC work with RDA.</span>			
+	        </div></TD>
+		 </TR>	
+		 <TR>
+		    <TD colspan="2">
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">			
+			   <TR>
+			   <TD>
+			   <TABLE cellpadding="3" cellspacing="0">
+			      <TR>
+				     <TD width="60" rowspan="4" valign="top"><span class="englishContent">Agenda:</span></TD>
+					 <TD>-</TD>
+					 <TD><span class="englishContent">Overview and update of DC-Lib</span></TD>
+				  </TR>
+				  <TR>
+					 <TD>-</TD>				  
+				     <TD><span class="englishContent">Future work of the Task Group</span></TD>
+				  </TR>
+				  <TR>
+					 <TD>-</TD>				  
+				     <TD><span class="englishContent">Short presentations:</span></TD>
+				  </TR>				  
+				  <TR>
+					 <TD>&nbsp;</TD>				  
+				     <TD>
+					    <TABLE>
+						   <TR>
+						      <TD><span class="englishContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i)</span></TD>
+							  <td><span class="englishContent">National Library of Singapore, Haliza Jailani</span></td>
+						   </TR>
+						   <TR>
+						      <TD><span class="englishContent">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)</span></TD>
+							  <td><span class="englishContent">The European Library, Sally Chambers</span></td>		  						   
+						   </TR>
+						</TABLE>	
+					 </TD>
+				  </TR>
+			   </TABLE>
+			   </TD>
+			   </TR>
+			   </TABLE>
+			</TD>
+		 </TR>	 	 	 		 
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Localization" id="Localization"></a></span>Localization and Internationalization Community</span><br>
+	       <span class="englishContent">[Lead: Karen Rollitt]</span></TD>
+			<TD valign="top" align="right"><span class="englishContentRegistrationItalic">Tue 28 Aug 15:00, Malacca Room</span></TD>
+		 </TR>	
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">
+		      This meeting will be an excellent opportunity to share information and exchange ideas on the use of Dublin Core in local and/or domain specific activities.  The theme of the conference is applications profiles and so here is an opportunity to discuss the relevance of application profiles for and to languages and cultures.  We would like community group members and other interested parties to provide a short presentation about developments in translations of DC Terms, and developments or issues in using DC in local languages. For the latest summary information on translations see:<br> <a href="http://dublincore.org/groups/languages/Survey_of_DC_Implementations_2004_FINAL.DOC">http://dublincore.org/groups/languages/Survey_of_DC_Implementations_2004_FINAL.DOC</a>
+		      Presentations on any topics that are in scope for this community are also welcome (see  <a href="http://dublincore.org/groups/languages/">http://dublincore.org/groups/languages/</a> ).  Part 2 of the session can be a general discussion on the use of and applicability of applications profile for language and culture.</span>			
+	        </div></TD>
+		 </TR>  	 	 		 
+		 <TR>
+		    <TD><span class="englishContentBold"><a name="preservation"></a>Preservation Community</span><br><span class="englishContent">[Lead: Raju Buddharaju]</span></TD>
+			<TD valign="top" align="right"><span class="englishContentRegistrationItalic">Wed 29 Aug 14:00, Malacca Room</span></TD>
+		 </TR>		
+		 <TR>
+		    <TD colspan="2">
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">			
+			   <TR>
+			   <TD>			
+			   <TABLE cellpadding="3" cellspacing="">
+			      <TR>
+				     <TD rowspan="5" valign="top" width="60"><span class="englishContent">Agenda:</span></TD>
+				     <TD><span class="englishContent">1.</span></TD>					 
+					 <TD><span class="englishContent">Review the task group's goals and work done</span></TD>
+				  </TR>
+			      <TR>
+				     <TD><span class="englishContent">2.</span></TD>					 
+					 <TD><span class="englishContent">Work plans of the task group for year 2008</span></TD>
+				  </TR>	
+			      <TR>
+				     <TD><span class="englishContent">3.</span></TD>					 
+					 <TD><span class="englishContent">Short presentations on preservation schemas in practice</span></TD>
+				  </TR>								  			    			  
+		      </TABLE>
+			  </TD>
+			  </TR>
+			  </TABLE>			
+			</TD>
+		 </TR>	 	 	 		 
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Registry" id="Registry"></a></span>Registry Community</span><br>
+	       <span class="englishContent">[Lead: Emma Tonkin]</span></TD>
+			<TD valign="top" align="right"><span class="englishContentRegistrationItalic">Thu 30 Aug 11:30, Malacca Room</span></TD>
+		 </TR>	
+		 <TR>
+		    <TD colspan="2">
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">			
+			   <TR>
+			   <TD>			
+			   <TABLE cellpadding="3" cellspacing="">
+			      <TR>
+				     <TD rowspan="5" valign="top" width="60"><span class="englishContent">Agenda:</span></TD>
+				     <TD><span class="englishContent">1.</span></TD>					 
+					 <TD><span class="englishContent">Introductions</span></TD>
+				  </TR>
+			      <TR>
+				     <TD><span class="englishContent">2.</span></TD>					 
+					 <TD><span class="englishContent">Reporting back from recent events: the Metadata Open Forum (NY)</span></TD>
+				  </TR>	
+			      <TR>
+				     <TD><span class="englishContent">3.</span></TD>					 
+					 <TD><span class="englishContent">Updates on present Registry development activity.</span></TD>
+				  </TR>					
+			      <TR>
+				     <TD><span class="englishContent">4.</span></TD>					 
+					 <TD><span class="englishContent">Discussion</span></TD>
+				  </TR>		
+			      <TR>
+				     <TD><span class="englishContent">5.</span></TD>					 
+					 <TD><span class="englishContent">Future charter and group activity</span></TD>
+				  </TR>					  			    			  
+		      </TABLE>
+			  </TD>
+			  </TR>
+			  </TABLE>
+			</TD>
+		 </TR>	  	 	 		 
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="Meeting8" id="Meeting8"></a></span>Tagging Community</span><br>
+	       <span class="englishContent">[Lead: Liddy Neville]</span></TD>
+			<TD valign="top" align="right"><span class="englishContentRegistrationItalic">Thu 30 Aug 14:30, Sunda Room</span></TD>
+		 </TR>	
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">
+		      The 2006 Social Tagging session launched an interesting discussion about the phenomenon of tagging and its relationship to DC metadata.  This session will provide an opportunity for participants to consider how the maturity of tagging activity has changed the possibilities, how tagging can be harnessed by DC metadata users, and a bit about the future and what should be done.  In particular, the Social Tagging wiki established in 2006 was used as a resource, for both ideas and more detailed content about tagging.  Enriching this wiki as a result of the 2007 session is one goal of the session. Participants interested in leading this community in the future will be welcomed.</span>			
+	        </div></TD>
+		 </TR> 	
+		 <TR>
+		    <TD colspan="2">
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">			
+			   <TR>
+			   <TD>
+			   <TABLE cellpadding="3" cellspacing="0">
+			      <TR>
+				     <TD valign="top" rowspan="4" width="60" ><span class="englishContent">Agenda:</span></TD>
+					 <TD>-</TD> 
+					 <TD><span class="englishContent">Presentations from the community</span></TD>
+				  </TR>
+				  <TR>
+					 <TD>-</TD> 				  
+				     <TD><span class="englishContent">Discussion</span></TD>
+				  </TR>
+				  <TR>
+					 <TD>-</TD> 				  
+				     <TD><span class="englishContent">Setting an agenda for the future</span></TD>
+				  </TR>	
+				  <TR>
+					 <TD>-</TD> 				  
+				     <TD><span class="englishContent">Election of leaders</span></TD>
+				  </TR>					  			  
+			   </TABLE>
+			   </TD>
+			   </TR>
+			   </TABLE>
+			</TD>
+		 </TR> 	
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="tools" id="tools"></a></span>Tools Community</span><br>
+	       <span class="englishContent">[Lead: Jane Greenberg & Thomas Severiens]</span></TD>
+			<TD valign="top" align="right"><span class="englishContentRegistrationItalic">Wed 29 Aug 16:00, Vault</span></TD>
+		 </TR>	
+		 <TR>
+		    <TD colspan="2">
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">			
+			   <TR>
+			   <TD>			
+			   <TABLE>
+			      <TR>
+				     <TD rowspan="7" valign="top" width="60"><span class="englishContent">Agenda:</span></TD><Td><span class="englishContent">1.</span></Td><td><div align="justify"><span class="englishContent">Introduction</span></div></td>
+				  </TR>
+				  <TR>	 
+					 <TD><span class="englishContent">2.</span></TD><TD><div align="justify"><span class="englishContent">Update of year's activity</span></div></TD>
+				  </TR>
+				  <TR>	 
+					 <TD valign="top"><span class="englishContent">3.</span></TD><TD><div align="justify"><span class="englishContent">DCMI Tool Community and related communities, e.g. code4lib, ngc4lib, perl4lib, xml4lib, oss4lib, etc.  (Corey Harper, Metadata Librarian, New York University)</span></div></TD>
+				  </TR>
+				  <TR>	 
+					 <TD><span class="englishContent">4.</span></TD><TD><div align="justify"><span class="englishContent">SKOS tools/developments (to-be-confirmed)</span></div></TD>
+				  </TR>
+				  <TR>	 
+					 <TD valign="top"><span class="englishContent">5.</span></TD><TD><div align="justify"><span class="englishContent">DCMI Tools Community application profile and documentation<br>
+					 <TABLE>
+					    <TR>
+						   <TD><span class="englishContent">-</span></TD>
+						   <TD><span class="englishContent">open discussion and review</span></TD>
+						</TR>
+						<TR>    
+						   <TD><span class="englishContent">-</span></TD>
+						   <TD><span class="englishContent">formal review process via DCMI Usage Board (Tom Baker)</span></TD>						   						</TR>
+					 </TABLE>
+					 </span></div></TD>
+				  </TR>
+				  <TR> 	 
+					 <TD><span class="englishContent">6.</span></TD><TD><div align="justify"><span class="englishContent">Open discussion</span></div></TD>
+				  </TR>
+				  <TR>	 
+					 <TD><span class="englishContent">7.</span></TD><TD><div align="justify"><span class="englishContent">Set agenda for next year 2007/2008</span></div></TD>
+				  </TR>
+				  </TABLE>
+				  </TD>
+				  </TR>
+			   </TABLE>
+			</TD>
+		 </TR>		 	 	 		 		  
+	  </TABLE>
+   </TD>
+</TR>
+<TR>
+   <TD><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p><hr></TD>
+</TR>
+<TR>
+   <TD>
+      <TABLE cellspacing="0" cellpadding="10" width="100%">
+	     <TR>
+		    <TD colspan="2"><span class="englishHeader"><a name="Seminars"></a>Seminars</span></TD>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishBold"><span class="englishHeader"><a name="Seminar1" id="Seminar1"></a></span>Seminar 1: Introduction to the Semantic Web</span><br>
+	       <span class="englishContent">Seminar Lead: <a href="index.asp@section=speakers#Ivan" class="anchorClass">Ivan Herman</a></span></TD>
+			<TD valign="Top" align="right"><span class="englishContentRegistrationItalic">Fri 31 Aug 09:00, Ballroom</span></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2">
+			   <TABLE border="1" bordercolor="#000000" style='border-collapse:collapse;' width="100%">
+			   <TR>
+			   <TD>			
+			   <TABLE cellpadding="3" cellspacing="0">
+			      <TR>
+				     <TD><span class="englishContent">Seminar outline:</span></TD>
+				  </TR>
+			      <TR>
+				     <TD><span class="englishContent">1. Introductory Example on Semantic Web</span></TD>
+				  </TR>
+			      <TR>
+				     <TD><span class="englishContent">2. Resource Description Framework (RDF) and RDF Vocabulary Description (RDFS)</span></TD>
+				  </TR>
+			      <TR>
+				     <TD><span class="englishContent">3. RDF Query Language (SPARQL)</span></TD>
+				  </TR>
+			      <TR>
+				     <TD><span class="englishContent">4. Getting RDF(S) Data (GRDDL, RDFa, linking to databases)</span></TD>
+				  </TR>
+			      <TR>
+				     <TD><span class="englishContent">5. Ontologies (OWL)</span></TD>
+				  </TR>
+			      <TR>
+				     <TD><span class="englishContent">6. Simple Knowledge Organizaiton System (SKOS)</span></TD>
+				  </TR>				  				  				  				  				  				  
+			      <TR>
+				     <TD><span class="englishContent">7. Available documents, tools, public discussion forums</span></TD>
+				  </TR>				  				  				  				  				  				  				  			      <TR>
+				     <TD><span class="englishContent">8. Application Examples</span></TD>
+				  </TR>				  				  				  				  				  				  
+			   </TABLE>
+			   </TD>
+			   </TR>
+			   </TABLE>
+			</TD>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold"><span class="englishHeader"><a name="seminar2" id="seminar2"></a></span>Seminar 2: Metadata That Works: Making Good Decisions</span><br>
+	       <span class="englishContent">Seminar Leads: <a href="index.asp@section=speakers#Diane" class="anchorClass">Diane Hillmann</a> & <a href="index.asp@section=speakers#Sarah" class="anchorClass">Sarah Pulis</a></span></TD>
+			<TD valign="top" align="right"><span class="englishContentRegistrationItalic">Fri 31 Aug 14:00, Ballroom</span></TD>
+		 </TR>
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">
+		      Many new Dublin Core users wonder how to ensure high quality content their metadata, for current and future needs. This workshop will focus on metadata strategies based on understanding of DC data relationships (e.g. the Dublin Core Abstract Model), and utilize the most current efforts to define quality metrics for metadata. The workshop will emphasize effective data normalization practices for shared metadata, appropriate use of controlled vocabularies, and cost-effective maintenance strategies.</span>			
+	        </div></TD>
+		 </TR>	
+		 <TR>
+		    <TD colspan="2"><div align="justify"><span class="englishContent">
+		      This practical, step-by-step workshop will:</span> 			
+	        </div></TD>
+		 </TR>	 
+		 <TR>
+		    <TD colspan="2">
+		    <TABLE border="0" bordercolor="#000000" style='border-collapse:collapse;' width="100%">			
+			<TR>
+			<TD>
+			<TABLE cellpadding="3" cellspacing="0">
+			   <TR>
+			      <TD valign="top"><span class="englishContent">1.</span></TD>
+			      <TD><div align="justify"><span class="englishContent">Prepare participants for making good metadata decisions, with full understanding of the DC Abstract Model and how to build on that model</span></div></TD>				  
+			   </TR>
+			   <TR>
+			      <TD valign="top"><span class="englishContent">2.</span></TD>
+				  <TD><div align="justify"><span class="englishContent">Provide guidance on analyzing the needs for controlled vocabularies and normalized data in Dublin Core metadata, accommodating a variety of settings, so that data can be “future-proofed”</span> 
+			      </div></TD>
+			   </TR>
+			   <TR>
+			      <TD valign="top"><span class="englishContent">3.</span></TD>
+				  <TD><div align="justify"><span class="englishContent">Discuss the practical issues involved when implementing controlled vocabularies in a real world metadata</span></div></TD>
+			   </TR>	
+			   <TR>
+			      <TD valign="top"><span class="englishContent">4.</span></TD>
+				  <TD><div align="justify"><span class="englishContent">Review a variety of metadata updating strategies, focusing on the challenges of maintaining vocabulary values in metadata records</span>				  
+			      </div></TD>
+			   </TR>	
+			   <TR>
+			      <TD valign="top"><span class="englishContent">5.</span></TD>
+				  <TD><div align="justify"><span class="englishContent">Tips and suggestions for building and maintaining community or project guidelines and documentation.</span>  
+			      </div></TD>
+			   </TR>				   			   		   
+			</TABLE>
+			</TD>
+			</TR>
+			</TABLE>			
+			</TD>
+		 </TR>
+	  </TABLE>
+   </TD>
+</TR>
+<TR>
+   <TD><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p><hr></TD>
+</TR>
+<TR>
+   <TD>
+      <TABLE cellpadding="10" cellspacing="0" width="100%">
+	     <TR>
+		    <TD colspan="2"><span class="englishHeader"><a name="Tutorials"></a>Tutorials</span></TD>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold">Tutorial 1: Basic Semantics</span><br><span class="englishContent">Lead: <a href="index.asp@section=speakers#Stuart" class="anchorClass">Stuart Sutton</a></span><br><span class="englishContent"><I><a href="T1-BasicSemantics.pdf" class="anchorClass">Download presentation slides</a></I></span></TD>
+			<td valign="top" align="right"><span class="englishContentRegistrationItalic">Mon 27 Aug 09:00, Ballroom</span></td>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold">Tutorial 2: Basic Syntaxes</span><br><span class="englishContent">Lead: <a href="index.asp@section=speakers#Mikael" class="anchorClass">Mikael Nilsson</a></span><br><span class="englishContent"><I><a href="T2-BasicSyntaxes.pdf" class="anchorClass">Download presentation slides</a></I></span></TD>
+			<td valign="top" align="right"><span class="englishContentRegistrationItalic">Mon 27 Aug 11:00, Ballroom</span></td>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold">Tutorial 3: Vocabularies</span><br><span class="englishContent">Lead: <a href="index.asp@section=speakers#Alistair" class="anchorClass">Alistair Miles</a></span><br><span class="englishContent"><I><a href="T3-Vocabularies.pdf" class="anchorClass">Download presentation slides</a></I></span></TD>
+			<td valign="top" align="right"><span class="englishContentRegistrationItalic">Mon 27 Aug 14:00, Ballroom</span></td>
+		 </TR>
+		 <TR>
+		    <TD><span class="englishContentBold">Tutorial 4: Application Profiles</span><br><span class="englishContent">Lead: <a href="index.asp@section=speakers#Diane" class="anchorClass">Diane Hillmann</a></span><br><span class="englishContent"><I><a href="T4-ApplicationProfiles.pdf" class="anchorClass">Download presentation slides</a></I></span></TD>
+			<td valign="top" align="right"><span class="englishContentRegistrationItalic">Mon 27 Aug 16:00, Ballroom</span></td>
+		 </TR>		 		 		 
+	  </TABLE>
+   </TD>
+</TR>
+<TR>
+   <TD><p align="right" style="margin: 0px;"><img src="arrow_up_sml.gif"/><span class="footer"><a href="#">top</a></span></p><hr></TD>
+</TR>
+</TABLE></td>
+        </tr>
+  </table></td>
+  </tr>
+  <TR>
+     <td colspan="2" bgcolor="#FFF9F9" class="footer"><DIV align="center">Copyright &copy; 1995-2007 DCMI All Rights Reserved.</DIV></td>
+  </TR>
+</table>
+</body>
+</html>

@@ -1,0 +1,1533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head >
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+    <title>DCMI Workshops - DC1: Report</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="report.shtml.rdf" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body >
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <h2>OCLC/NCSA Metadata Workshop Report</h2>
+
+    <p>Stuart Weibel, Jean Godby, Eric Miller<br />
+     <em>Office of Research, OCLC Online Computer Library Center,
+    Inc.</em></p>
+
+    <p>Ron Daniel<br />
+     <em>Advanced Computing Lab, Los Alamos National
+    Laboratory</em></p>
+    <hr />
+
+    <h2>1.0 Executive Summary</h2>
+
+    <p>The March 1995 Metadata Workshop, sponsored by the Online
+    Computer Library Center (OCLC) and the National Center for
+    Supercomputing Applications (NCSA), convened 52 selected
+    researchers and professionals from librarianship, computer
+    science, text encoding, and related areas, to advance the state
+    of the art in the development of resource description (or
+    metadata) records for networked electronic information
+    objects.</p>
+
+    <h3>1.1 Goals</h3>
+
+    <p>Goals of the workshop included (1) fostering a common
+    understanding of the needs, strengths, shortcomings, and
+    solutions of the stakeholders; and (2) reaching consensus on a
+    core set of metadata elements to describe networked
+    resources.</p>
+
+    <h3>1.2 Scope</h3>
+
+    <p>The size and complexity of the resource description problem
+    required limiting the scope of deliberations. Given that the
+    majority of current networked information objects are
+    recognizably "documents", and that the metadata records are
+    immediately needed to facilitate resource discovery on the
+    Internet, the proposed set of metadata elements (The Dublin
+    Core) is intended to describe the essential features of
+    electronic documents that support resource discovery. Other
+    important metadata elements, such as those describing cost
+    accounting or archiving information, were excluded from
+    consideration. It was recognized that these elements might be
+    included in a more complete record that could be derived from
+    the Dublin Core by a well-defined extension.</p>
+
+    <h3>1.3 The Intended Niche</h3>
+
+    <p>The Dublin Core is not intended to supplant other resource
+    descriptions, but rather to complement them. There are
+    currently two types of resource descriptions for networked
+    electronic documents: automatically generated indexes used by
+    locator services such as Lycos and WebCrawler; and cataloging
+    records, such as MARC, created by professional information
+    providers. Automatically generated records often contain too
+    little information to be useful, while manually generated
+    records are too costly to create and maintain for the large
+    number of electronic documents currently available on the
+    Internet. Records created from the Dublin Core are intended to
+    mediate these extremes, affording a simple structured record
+    that may be enhanced or mapped to more complex records as
+    called for, either by direct extension or by a link to a more
+    elaborate record.</p>
+
+    <h3>1.4 Next Steps</h3>
+
+    <p>The work of the 1995 workshop is one of a series of steps
+    being taken to improve the description of networked information
+    objects. A Metadata Workshop Steering Committee is being formed
+    to extend the work of the March 1995 Workshop through a series
+    of similar activities that will bring together stakeholder
+    communities to focus on discrete parts of the larger problem.
+    As with the initial workshop, promoting effective communication
+    among the communities will be a primary goal. The diversity of
+    implementation efforts influenced by the Dublin Core testifies
+    to the benfits of such communication, and promises to help
+    integrate related activities among librarians, the Internet
+    Engineering Task Force (IETF), text encoding researchers, and
+    other researchers who have substantial investments in resource
+    description.</p>
+
+    <h2>2.0 Introduction</h2>
+
+    <p>The explosive growth of interest in the Internet and the
+    World Wide Web in the past five years has created a digital
+    extension of the academic research library for certain kinds of
+    materials. Valuable collections of texts, images and sounds
+    from many scholarly communities--collections that may even be
+    the subject of state-of-the-art discussions in these
+    communities--now exist only in electronic form and may be
+    accessible from the Internet. Knowledge regarding the
+    whereabouts and status of this material is often passed on by
+    word of mouth among members of a given community. For
+    outsiders, however, much of this material is so difficult to
+    locate that it is effectively unavailable.</p>
+
+    <p>Why is it so difficult to find items of interest on the
+    Internet or the World Wide Web? A number of well-designed
+    locator services, such as Lycos <a
+    href="http://lycos.cs.cmu.edu/">[http://lycos.cs.cmu.edu/]</a>
+    are now available that automatically index every resource
+    available on the Web and maintain up-to-date databases of
+    locations. But it has not yet been demonstrated that indexes
+    contain sufficiently rich resource descriptions, especially if
+    the location databases are large and span many fields of study.
+    Moreover, a huge number of resources on the Internet have no
+    description at all beyond a filename which may or may not carry
+    semantic content. If these resources are to be discovered
+    through a systematic search, they must be described by someone
+    familiar with their intellectual content, preferably in a form
+    appropriate for inclusion in a database of pointers to
+    resources. But current attempts to describe electronic
+    resources according to formal standards (e.g, the TEI header <a
+    href="#TEI">[TEI]</a> or MARC <a href="#MARC">[MARC]</a>
+    cataloging) can accomodate only a small subset of the most
+    important resources.</p>
+
+    <p>Another solution, not yet implemented, that promises to
+    mediate these extremes involves the manual creation of a record
+    that is more informative than an index entry but is less
+    complete than a formal cataloging record. If only a small
+    amount of human effort were required to create the record, more
+    objects could be described, especially if the author of the
+    resource could be encouraged to create the description. And if
+    the description followed an established standard, only the
+    creation of the record would require human intervention;
+    automated tools could discover the descriptions and collect
+    them into searchable databases.</p>
+
+    <p>What should this hypothetical description contain? Put in a
+    convenient jargon, the question is about
+    <strong>metadata</strong>--literally, data about data--or the
+    contents of a surrogate record that characterize an object.
+    Thus the question can be recast more precisely: how can a
+    simple metadata record be defined that sufficiently describes a
+    wide range of electronic objects? Recognizing the need to
+    answer this and a multitude of associated questions, the Online
+    Computer Library Center (OCLC) and the National Center for
+    Supercomputing Applications (NCSA) sponsored the invitational
+    Metadata Workshop on March 1-3, 1995, in Dublin, Ohio.
+    Fifty-two librarians, archivists, humanities scholars and
+    geographers, as well as standards makers in the Internet,
+    Z39.50 and Standard Generalized Markup Language (SGML)
+    communities, met to identify the scope of the problem, to
+    achieve consensus on a list of metadata elements that would
+    yield simple descriptions of data in a wide range of subject
+    areas, and to lay the groundwork for achieving further progress
+    in the definition of metadata elements that describe electronic
+    information. This paper reports on the progress made at that
+    workshop.</p>
+
+    <h2>3.0 The Dublin Metadata Workshop</h2>
+
+    <p>Since the Internet will contain more information than
+    professional abstractors, indexers and catalogers can manage
+    using existing methods and systems, it was agreed that a
+    reasonable alternative way to obtain usable metadata for
+    electronic resources is to give authors and information
+    providers a means to describe the resources themselves, without
+    having to undergo the extensive training required to create
+    records conforming to established standards. As one step toward
+    realizing this goal, the major task of the Metadata Workshop
+    was to identify and define a simple set of elements for
+    describing networked electronic resources. To make this task
+    manageable, it was limited in two ways. First, only those
+    elements necessary for the discovery of the resource were
+    considered. It was believed that resource discovery is the most
+    pressing need that metadata can satisfy, and one that would
+    have to be satisfied regardless of the subject matter or
+    internal complexity of the object.</p>
+
+    <p>The discussion was further restricted to the metadata
+    elements required for the discovery of what were called
+    <strong>document-like objects</strong>, or
+    <strong>DLOs</strong> by the workshop participants. It was
+    believed that DLOs are still the most common type of resource
+    sought in the Internet and that whatever solution could be
+    proposed for DLOs could be extended to other kinds of
+    resources. More importantly, the likelihood of making progress
+    on this challenging problem would be increased if attention
+    could initially be restricted to something familiar.</p>
+
+    <p>DLOs were not rigorously defined, but were understood by
+    example. For example, an electronic version of a newspaper
+    article or a dictionary is a DLO, while an unannotated
+    collection of slides is not. Of course, the crux of the problem
+    is that in a networked environment, DLOs can be arbitrarily
+    complex because they can consist of text with callouts to
+    images, audio or video clips, or to other hypertext documents.
+    The participants of the Metadata Workshop made no attempt to
+    limit the complexity of DLOs, except possibly to say that the
+    intellectual content of a DLO is primarily text, and that the
+    metadata required for describing DLOs will bear a strong
+    resemblance to the metadata that describes traditional printed
+    texts.</p>
+
+    <p>As a result of the restricted focus of the workshop, certain
+    issues required for a complete description of DLOs, such as
+    cost, archival status and copyright information, were
+    eliminated from the scope of the discussion. Elements required
+    for the description of objects other than DLOs, such as the
+    elements required for the description of complex geological
+    strata in a geospatial resource, were also beyond the scope of
+    the discussion. The goal was to define a small, universally
+    understood set of metadata elements that would allow authors
+    and information providers to describe their work and to
+    facilitate interoperability among resource discovery tools. But
+    because the core elements do not yield a description of objects
+    that meets the needs of specialized user communities, careful
+    consideration was also given to mechanisms for extending the
+    element set.</p>
+
+    <p>The primary deliverable from the workshop was a set of
+    thirteen metadata elements, named the <strong>Dublin Metadata
+    Core Element Set</strong> (or Dublin Core, for short) by the
+    workshop participants. The Dublin Core was proposed as the
+    minimum number of metadata elements required to facilitate the
+    discovery of document-like objects in a networked environment
+    such as the Internet. The syntax was deliberately left
+    unspecified as an implementation detail. The semantics of these
+    elements was intended to be clear enough to be understood by a
+    wide range of users.</p>
+
+    <p>Below is an introductory discussion of the elements in the
+    Dublin Core</p>
+
+    <p><strong>Element Description</strong></p>
+
+    <ul>
+      <li><strong>Subject:</strong> The topic addressed by the
+      work</li>
+
+      <li><strong>Title:</strong> The name of the object</li>
+
+      <li><strong>Author:</strong> The person(s) primarily
+      responsible for the intellectual content of the object</li>
+
+      <li><strong>Publisher:</strong> The agent or agency
+      responsible for making the object available</li>
+
+      <li><strong>OtherAgent:</strong> The person(s), such as
+      editors and transcribers, who have made other significant
+      intellectual contributions to the work</li>
+
+      <li><strong>Date:</strong> The date of publication</li>
+
+      <li><strong>ObjectType:</strong> The genre of the object,
+      such as novel, poem, or dictionary</li>
+
+      <li><strong>Form:</strong> The data representation of the
+      object, such as Postscript file or Windows executable
+      file</li>
+
+      <li><strong>Identifier:</strong> String or number used to
+      uniquely identify the object</li>
+
+      <li><strong>Relation:</strong> Relationship to other
+      objects</li>
+
+      <li><strong>Source:</strong> Objects, either print or
+      electronic, from which this object is derived, if
+      applicable</li>
+
+      <li><strong>Language:</strong> Language of the intellectual
+      content</li>
+
+      <li><strong>Coverage:</strong> The spatial locations and
+      temporal durations characteristic of the object</li>
+    </ul>
+
+    <p>To make this discussion concrete, consider an electronic
+    record created with the relevant portions of the Dublin Core,
+    and a sample syntax, that describes an electronic version of
+    Maya Angelou's poem "On the Pulse of Morning". This description
+    is based on a record created by the University of Virginia
+    Library's Electronic Text Center. (For a description of that
+    project, see Gaynor <a href="#Gaynor">[Gaynor]</a> .)</p>
+
+    <ul>
+      <li><strong>Title:</strong> On the Pulse of Morning</li>
+
+      <li><strong>Author:</strong> Maya Angelou</li>
+
+      <li><strong>Publisher:</strong> University of Virgina Library
+      Electronic Text Center</li>
+
+      <li><strong>OtherAgent:</strong> Transcribed by the
+      University of Virginia Electronic Text Center</li>
+
+      <li><strong>Date:</strong> 1993</li>
+
+      <li><strong>Object:</strong> Poem</li>
+
+      <li><strong>Form:</strong> 1 ASCII file</li>
+
+      <li><strong>Source:</strong> Newspaper stories and oral
+      performance of text at the presidential inauguration of Bill
+      Clinton</li>
+
+      <li><strong>Language:</strong> English</li>
+    </ul>
+
+    <p>Although the goal of the Dublin Metadata Workshop was to
+    develop a simple set of metadata elements, these elements also
+    had to be defined in such a way that they could be mapped into
+    more complex and highly controlled systems such as USMARC.
+    These conflicting demands have been reconciled in two ways. The
+    first was to create a set of metadata elements with definitions
+    that could be understood easily without the need for user
+    training, as well as an approach to modification that meets the
+    needs of specialized communities for more precise descriptions.
+    This is described in Section 5. The second was to provide
+    mechanisms for extending the core element set to describe items
+    other than document-like objects. These mechanisms are
+    discussed in Section 6.</p>
+
+    <p>As Guenther <a href="#Guenther">[Guenther]</a>points out, a
+    small set of metadata elements such as the Dublin Core would be
+    valuable for at least four reasons. First, it would encourage
+    authors and publishers to provide metadata, in a form that
+    automated resource discovery tools could collect it, when they
+    make data available. Second, it would encourage the creation of
+    network publishing tools that contain a template for metadata
+    elements, further simplifying the task of creating metadata
+    records. Third, a record created with the Dublin Core could
+    serve as the basis for a more detailed cataloging record if the
+    need arises. Finally, if something like the Dublin Core became
+    a standard, metadata records could be understood across user
+    communities.</p>
+
+    <p>Since the difficult work of identifying a simple but useful
+    specification for the description of networked resources has
+    only begun, the major accomplishment of the Metadata Workshop
+    was to define the problem and sketch out a solution. Many
+    details of that solution need further refinement. Accordingly,
+    one goal of this paper is to focus discussion by identifying
+    the areas that need the most work. Section 7 lists the most
+    pressing unresolved issues. The appendices identify further
+    problems that arise when an attempt is made to formalize what
+    has been proposed so far. Section 8 describes projects already
+    underway that increase our understanding of how resources on
+    the Internet should be described and show what is possible if a
+    metadata element set such as the Dublin Core becomes a
+    standard. Finally, Section 9 outlines the steps that are being
+    taken to ensure that progress on this important problem
+    continues to be made.</p>
+
+    <h2>4.0 Underlying Assumptions</h2>
+
+    <p>The discussions at the Metadata Workshop revealed several
+    principles that should guide the further development of the
+    element set. Adherence to these principles increases the
+    likelihood that the core element set will be kept as small as
+    possible, that the meanings of the elements will be understood
+    by most users, and that the element set will be flexible enough
+    for the description of resources in a wide range of subject
+    areas. These principles are intrinsicality, extensibility,
+    syntax-independence, optionality, repeatability and
+    modifiability.</p>
+
+    <h3>4.1 Intrinsicality</h3>
+
+    <p>The Dublin Core concentrates on describing intrinsic
+    properties of the object. Intrinsic data refer to the
+    properties of the work that could be discovered by having the
+    work in hand, such as its intellectual content and physical
+    form. This is distinguished from extrinsic data, which describe
+    the context in which the work is used. For example, the
+    "Subject" element is intrinsic data, while transaction
+    information such as cost and access considerations are
+    extrinsic data. Though extrinsic data may be important for a
+    complete description of an object, it is handled by the
+    extension mechanisms described in Section 6.</p>
+
+    <h3>4.2 Extensibility</h3>
+
+    <p>In addition to its use in dealing with extrinsic data, the
+    extension mechanism will allow the inclusion of intrinsic data
+    for objects that cannot be adequately described by a small set
+    of elements.</p>
+
+    <p>Extensibility is important because users may wish to add
+    extra descriptive material for site-specific purposes or
+    specialized fields. In addition, the specification of the
+    Dublin Core itself may change over time, and the extension
+    mechanism allows revisions while maintaining some backward
+    compatibility with the originally defined element set.</p>
+
+    <h3>4.3 Syntax-Independence</h3>
+
+    <p>Syntactic bindings are avoided because it is too early to
+    propose formal definitions and because the Dublin Core is
+    intended to be eventually used in a range of disciplines and
+    application programs. The examples in Appendix I show some
+    sample encodings.</p>
+
+    <h3>4.4 Optionality</h3>
+
+    <p>For two reasons, all the elements are optional. First, the
+    Dublin Core may eventually be applied to objects for which some
+    elements have no meaning. Who is the author of a satellite
+    image? Second, it seems futile to mandate complex descriptions
+    if the creators of the content are expected to provide the
+    descriptive material. A simple description is better than no
+    description at all.</p>
+
+    <h3>4.5 Repeatability</h3>
+
+    <p>All elements in the Dublin Core are repeatable. For example,
+    multiple author elements would be used when a resource has
+    multiple authors.</p>
+
+    <h3>4.6 Modifiability</h3>
+
+    <p>Each element in the Dublin Core has a definition that is
+    intended to be self-explanatory. However, it is also necessary
+    that the definitions of the elements satisfy the needs of
+    different communities. This goal is accomplished by allowing
+    each element to be modified by an optional qualifier. If no
+    qualifier is present, the element has its common-sense meaning;
+    otherwise, the definition of the element is modified by the
+    value of the qualifier.</p>
+
+    <p>Qualifiers will be typically derived from well-known
+    conventions in the library community or from the field of
+    knowledge appropriate to the resource. Qualifiers are important
+    because they give the Dublin Core a mechanism for bridging the
+    gap between casual and sophisticated users. For example, the
+    data in the <strong>Subject</strong> element consists of any
+    word or phrase that describes the object's content. However, a
+    professional cataloger may wish to supply the name of the
+    authoritative source from which the subject terms are taken. In
+    such a case, the element may be written as <strong>Subject
+    (scheme=LCSH)</strong>, indicating that the subject terms are
+    taken from the Library of Congress Subject Headings.</p>
+
+    <h2>5.0 A Detailed Description of the Elements in the Dublin
+    Core</h2>
+
+    <p>This section presents detailed definitions of the elements
+    in the Dublin Core. The simple and informal records that would
+    result from the application of this element set will help raise
+    the standards of resource description without imposing the
+    overhead normally associated with more exacting standards. But
+    when necessary, the elements in the Dublin Core should support
+    definitions that are precise enough to enable the mapping of
+    records to widely used standards such as USMARC, TEI or
+    FGDC.</p>
+
+    <p>To accomplish this goal, each element in the Dublin Core can
+    be qualified with a scheme. Schemes are used whenever it is
+    necessary to describe the rationale for the encoding of the
+    data associated with the element, such as when reference is
+    made to controlled vocabulary, a well-known notation or a
+    published standard. This section describes the use of schemes,
+    but since qualification is still an active topic of discussion,
+    other qualifiers will undoubtedly be proposed in future
+    versions of the Dublin Core. See Appendix II for a sample SGML
+    Document Type Definition (DTD) <a
+    href="#Herwijnen">[Herwijnen]</a> that defines additional
+    qualifiers for some of the elements.</p>
+
+    <p>A comment about syntax is necessary at this point. As stated
+    in Section 4.3, the elements in the Dublin Core were purposely
+    defined in a syntax-independent manner. Nonetheless, providing
+    examples is often the best way to communicate, so the following
+    descriptions include examples represented in a simple syntax
+    that might be suitable for a HyperText Markup Language (HTML)
+    document. This should not be considered as the definitive
+    representation, but rather as a possible representation.</p>
+
+    <h3>5.1 Subject</h3>
+
+    <p>The <strong>Subject</strong> is the field of knowledge to
+    which the work belongs. This may be a general description of a
+    broad discipline, or a series of descriptors of differing
+    scope.</p>
+
+    <p>The <strong>Subject</strong> element can be qualified by a
+    scheme, which specifies adherence to a known classification
+    system such as the Library of Congress Subject Headings, the
+    Dewey Decimal System, or the Art and Architecture Thesaurus, to
+    name a few. For example:</p>
+
+    <ul>
+      <li>Subject (scheme=LCSH) = UNIX (Computer system)</li>
+
+      <li>Subject (scheme=Dewey Decimal System)=004.251
+      Supercomputers--systems design</li>
+    </ul>
+
+    <p>Without the scheme, the <strong>Subject</strong> element is
+    a keyword and may contain any word or phrase that describes the
+    intellectual content of the object. For example:</p>
+
+    <ul>
+      <li>Subject = Network Information Discovery and
+      Retrieval</li>
+
+      <li>Subject = Information Retrieval</li>
+
+      <li>Subject = Cataloging of Internet Resources</li>
+
+      <li>Subject = Metadata</li>
+
+      <li>Subject = Description of electronic resources</li>
+    </ul>
+
+    <h3>5.2 Title</h3>
+
+    <p><strong>Title</strong> is defined as the name of the object.
+    Most document-like objects will have an obvious title, but if
+    the Dublin Core is eventually used to describe resources such
+    as satellite images or objects in a museum, there will be no
+    designated character string that is understood as a title. A
+    descriptive phrase might be appropriate instead. For
+    example:</p>
+
+    <ul>
+      <li>Title = Statistical Summary of Web Site Usage for NASA's
+      Shoemaker Levy Home Page</li>
+
+      <li>Title = A Description of Networked Information: The
+      Dublin Core Element Set</li>
+
+      <li>Title = Benjamin Franklin's Spectacles</li>
+    </ul>
+
+    <p>If greater precision is desired, titles may be qualified by
+    a scheme. For example:</p>
+
+    <ul>
+      <li>Title (scheme=AACR2) = The structure of language</li>
+    </ul>
+
+    <h3>5.3 Author</h3>
+
+    <p>The common understanding of <strong>author</strong> is the
+    person(s) or agent primarily responsible for the intellectual
+    content of the work. For example:</p>
+
+    <ul>
+      <li>Author = Smith, Jeffrey K.</li>
+
+      <li>Author = World Book Encyclopedia</li>
+    </ul>
+
+    <p>The <strong>author</strong> element could also be modified
+    by a scheme such as USMARC. In the example below, the author is
+    a person with an honorific title who lived between 1859 and
+    1930.</p>
+
+    <ul>
+      <li>Author (scheme=USMARC) = 100 1 Doyle, Author Conan $c
+      Sir, $d 1859-1930</li>
+    </ul>
+
+    <p>This example illustrates an important problem. As Guenther
+    <a href="#Guenther">[Guenther]</a> argues, the Dublin Core does
+    not achieve an unambiguous mapping to a complex scheme such as
+    USMARC with the above syntax because the
+    <strong>Author</strong> element can map to many fields in the
+    USMARC standard. It is also necessary to specify the portion of
+    the external scheme that is being referenced. This is a general
+    problem with all of the Dublin Core elements, and more
+    discussion is required to solve it in a way that is
+    satisfactory to all affected user communities.</p>
+
+    <h3>5.4 Publisher</h3>
+
+    <p><strong>Publisher</strong> is defined as the the agent or
+    agency responsible for making the object available. For
+    example:</p>
+
+    <ul>
+      <li>Publisher = University of Virginia Center for Electronic
+      Text</li>
+    </ul>
+
+    <h3>5.5 OtherAgent</h3>
+
+    <p><strong>OtherAgent</strong>s are the persons or
+    organizations other than authors or publishers who have made
+    significant intellectual contributions to the work. Strictly
+    speaking, authors, publishers, and others responsible for
+    intellectual content could all be described by an appropriately
+    qualified element such as <strong>OtherAgent</strong>. The more
+    verbose description adopted here is intended to make clearer
+    the common roles of Author and Publisher. The
+    <strong>OtherAgent</strong> element is intended to describe
+    less common roles, such as editor, illustrator, compiler,
+    convenor, photographer, or any secondary but significant role
+    of content responsibility.</p>
+
+    <p><strong>OtherAgent</strong> can be further specified using a
+    scheme. For example, the TEI <a href="#TEI">[TEI]</a> standard
+    contains valuable detail regarding the roles involved in
+    creating document-like objects.</p>
+
+    <ul>
+      <li>OtherAgent (scheme=TEI) =
+      &lt;pubStmt&gt;&lt;role&gt;Creation of machine-readable
+      version&lt;/role&gt; &lt;name&gt;The Ohio State
+      University&lt;/name&gt; &lt;/pubStmt&gt;</li>
+    </ul>
+
+    <p>Some workshop participants suggested that it would be useful
+    to define a set of common roles for the
+    <strong>OtherAgent</strong> element so they could be used
+    without referring to an external scheme. If this list were
+    defined, the OtherAgent element could take the following
+    forms:</p>
+
+    <ul>
+      <li>OtherAgent (role=Editor) = Weibel, Stuart L.</li>
+
+      <li>OtherAgent (role=Illustrator) = Dennis, Wesley</li>
+    </ul>
+
+    <h3>5.6 Date</h3>
+
+    <p>The <strong>Date</strong> of publication is intended to
+    reflect the date at which the object became available in its
+    current form.</p>
+
+    <ul>
+      <li>Date = May 6, 1995</li>
+    </ul>
+
+    <p>The scheme may be used to identify the syntactic form of the
+    date. For example:</p>
+
+    <ul>
+      <li>Date (scheme=ANSI X3.30-1985) = 950506</li>
+    </ul>
+
+    <p>One problem with the <strong>Date</strong> element is that
+    it is potentially misleading. Since electronic objects can be
+    easily copied, the date stamp of a particular object may have
+    no significance. It may be necessary to define a way to refer
+    to more meaningful dates, such as latest date of the current
+    controlled version for executable software, or the date of the
+    original for digitized texts. More discussion is required to
+    resolve this issue.</p>
+
+    <h3>5.7 ObjectType</h3>
+
+    <p><strong>ObjectType</strong> is defined as the abstract
+    category or genre of the object, such as novel, poem,
+    dictionary, thesaurus, executable software, source code, data
+    file, or any other category judged to be useful for the
+    discovery and retrieval of the resource being described. For
+    example:</p>
+
+    <ul>
+      <li>ObjectType = Internet Draft Informational RFC</li>
+    </ul>
+
+    <p>The scheme can be used to indicate that the words used to
+    describe the <strong>ObjectType</strong> are taken from
+    controlled vocabulary. For example:</p>
+
+    <ul>
+      <li>ObjectType (scheme=AACR2) = computer file</li>
+    </ul>
+
+    <h3>5.8 Form</h3>
+
+    <p><strong>Form</strong> is defined as the data representation
+    of the object and is intended to provide an information seeker
+    with information about the hardware or software resources
+    necessary to display or operate the object. Information
+    included should provide a sufficient description to make
+    possible a judgement of usefulness prior to accessing an
+    object. Examples might include Postscript-II document, Windows
+    3.1 executable file, HTML file, or WordPerfect 6.1 document. In
+    the example below, the form is an Internet Media Type.</p>
+
+    <ul>
+      <li>Form (scheme=IMT) = text/html</li>
+    </ul>
+
+    <p>The use of the <strong>scheme</strong> qualifier for the
+    <strong>Form</strong> element is analogous to that defined for
+    the <strong>ObjectType</strong> element.</p>
+
+    <h3>5.9 Identifier</h3>
+
+    <p>The <strong>Identifier</strong> is the string or number used
+    to uniquely identify an object. To enhance the usefulness of
+    this data, a scheme value will specify the authority of the
+    identifier. For example:</p>
+
+    <ul>
+      <li>Identifier (scheme=ISBN) = 0-8230-2355-9</li>
+
+      <li>Identifier (scheme=URL) =
+      http://www.oclc.org/metadata.html</li>
+    </ul>
+
+    <p>Non-public identifiers, such as a university department's
+    technical paper number, could also be used.</p>
+
+    <h3>5.10 Relation</h3>
+
+    <p>The <strong>Relation</strong> element identifies the
+    object's relationship to other objects, print or electronic,
+    such as other parts of a document hierarchy, other parts of a
+    collection of documents, or another of a series of
+    documents.</p>
+
+    <p>The <strong>Relation</strong> element is designed to give
+    the author flexibility when selecting the scope of the resource
+    being described. In a hypertext environment, the resource might
+    reasonably be a paragraph from a larger text, an entry on a Web
+    page, or a slide in a collection. Of course, the resource may
+    also be isolated or freestanding, in which case the
+    <strong>Relation</strong> element is not relevant to the
+    description. The simple record of the Maya Angelou poem in
+    Section 2 omits the <strong>Relation</strong> element for this
+    reason.</p>
+
+    <p>The exact form of the <strong>Relation</strong> element
+    needs to be worked out by further discussion, but it needs to
+    contain at least two sub-elements: a description of the
+    relation and a pointer to the related item. In the example
+    below, it is assumed that the sub-elements
+    <strong>Type</strong> and <strong>Identifier</strong> have been
+    defined. The example below contains a URL, establishing the
+    fact that the object being described is part of the proceedings
+    from the Third International World-Wide Web Conference.</p>
+
+    <ul>
+      <li>Relation (type=ContainedIn) (identifier = URL) =
+      http://www.elsevier.nl/</li>
+    </ul>
+
+    <h3>5.11 Source</h3>
+
+    <p>The <strong>Source</strong> element identifies the object
+    from which the object being described is derived. This element
+    is intended to connect an electronic object with a previous
+    version, possibly in another medium, that establishes the
+    history of the object. The <strong>Source</strong> element
+    identifies other objects with the same intellectual content as
+    the resource being described, while the
+    <strong>Relation</strong> element identifies objects of
+    different intellectual content with which the resource is
+    logically connected.</p>
+
+    <p>The data in the <strong>Source</strong> element is most
+    easily understood as an identifier, named in the scheme, that
+    uniquely points to the record describing the previous version.
+    For example:</p>
+
+    <ul>
+      <li>Source (scheme=ISBN) = 0-201-63337-X</li>
+    </ul>
+
+    <p>If it is more convenient, the <strong>Source</strong>
+    element may contain an extensive bibliographic citation or even
+    a recursive instance of the Dublin Core, as one of the examples
+    in Appendix I illustrates. In such a case, the scheme is
+    "Dublin Core."</p>
+
+    <h3>5.12 Language</h3>
+
+    <p>The <strong>Language</strong> element should specify the
+    language of the intellectual content of the object being
+    described. For example:</p>
+
+    <ul>
+      <li>Language = English</li>
+    </ul>
+
+    <p>If an abbreviation is used, the scheme can be used to
+    identify the source. For example:</p>
+
+    <ul>
+      <li>Language (scheme=USMARC) = Eng</li>
+    </ul>
+
+    <h3>5.13 Coverage</h3>
+
+    <p>The <strong>Coverage</strong> element describes the spatial
+    and temporal characteristics of the object and is the key
+    element for supporting spatial or temporal range searching on
+    document-like objects that describe geospatial data The first
+    example below is a simple, nontechnical use of the
+    <strong>Coverage</strong> element. The second example
+    illustrates spatial coverage, with the scheme identifying the
+    data as latitude/longitude coordinates; and the third example
+    shows temporal coverage, with the scheme identifying the syntax
+    of the dates.</p>
+
+    <ul>
+      <li>Coverage (type = spatial) = The Atlantic Ocean</li>
+
+      <li>Coverage (type = spatial, scheme = LATLONG) = {West =
+      180, East = 180, North = 90, South = 90}</li>
+
+      <li>Coverage (type = temporal, scheme = ANSI X3.30-1985) =
+      {Begin = 19910101, End = 19930601}</li>
+    </ul>
+
+    <p>For greater precision, some workshop participants suggested
+    that <strong>Coverage</strong> should be modified by the
+    qualifiers <strong>spatial</strong> and
+    <strong>temporal</strong>. See the sample SGML Document Type
+    Definition in Appendix II.</p>
+
+    <h2>6.0 Extensions to the Dublin Core</h2>
+
+    <p>Extensibility is an essential feature of any metadata system
+    because a single set of metadata elements, no matter how large,
+    cannot possibly accommodate all resource types. But increasing
+    the size of the core element set would complicate rather than
+    simplify the problem because a large element set would be less
+    comprehensible to a diverse user population. To reconcile these
+    conflicting demands, the Dublin Core has been designed from the
+    outset to be small but extensible.</p>
+
+    <p>This is manifested in three ways. First, local additions are
+    accommodated by allowing elements to be added to the record
+    that describes a resource. These additional fields are not
+    guaranteed to be understood outside the community that proposed
+    them, but they need not cause errors for systems that
+    understand the core element set. The extensions may be an
+    unstructured string of text, a pointer to another record that
+    conforms to an established standard, or even the record
+    itself.</p>
+
+    <p>The second mechanism for implementing extensibility is the
+    "scheme" sub-element, described in the previous section. The
+    set of values for "scheme" is open-ended and unspecified in the
+    Dublin Core because these are expected to be supplied by user
+    communities. For some elements, such as
+    <strong>Subject</strong>, the set of values will be small
+    because only a limited number of classification hierarchies are
+    available from which subject terms can be derived. For other
+    elements, the set of scheme values may be large, reflecting the
+    complexity of the resources being described. For example, the
+    <strong>Identifier</strong> element may have schemes of
+    <strong>FTP</strong>, <strong>URL</strong>,
+    <strong>URN</strong>, <strong>ISBN</strong>, or any number of
+    locally assigned schemes. These scheme values must necessarily
+    reflect our current understanding of the difficult problem of
+    name resolution for electronic objects accessible from the
+    Internet.</p>
+
+    <p>The third mechanism for extensibility is the labeling of the
+    Dublin Core itself. This can be understood as a version number
+    and it may be changed if new elements are added to the base set
+    or if the semantics of existing elements changes. The current
+    version of the Dublin Core is 0.1.</p>
+
+    <p>This discussion describes the principles by which records
+    created with the Dublin Core can be extended, but a separate
+    paper is required for a more rigorous discussion that proposes
+    implementation solutions.</p>
+
+    <h2>7.0 Unresolved Issues</h2>
+
+    <p>This document describes the work of a relatively small
+    number of people who have begun to address the difficult issues
+    arising from the need to provide descriptions of resources in
+    order to promote their discovery in a networked environment
+    such as the Internet. Of course, this is a large problem, and
+    the work has only begun. One of the goals of this document is
+    to record what has been proposed so far--in the Dublin Metadata
+    Workshop, and in followup discussions with the participants. If
+    this effort has succeeded, others need not spend time covering
+    the same ground, and it will be possible to move quickly to the
+    issues that remain. Of course, more discussion and refinement
+    of the core element set is expected. But there are larger
+    problems to be solved, especially those involving versions,
+    extensibility and character sets.</p>
+
+    <h3>7.1 Versions</h3>
+
+    <p>The treatment of different versions of an electronic
+    resource has not been addressed in this document because there
+    is no consensus regarding the definition or even the vocabulary
+    used to describe versions of electronic objects. They seem to
+    be fundamentally different from the versions of printed
+    materials, such as editions and printings, which have been
+    well-described by scholars in the library community. Unlike
+    printed versions, new electronic versions often supplant or
+    obliterate older versions. Electronic versions also proliferate
+    more easily, and as a result, differences between versions may
+    be more slight.</p>
+
+    <p>It is therefore nontrivial to ask: when are two different
+    versions of an electronic resource the same work? The easy
+    answer is that they are the same if bitwise comparisons reveal
+    them to be identical. But this criterion is too restrictive
+    because two electronic objects, such as a document that exists
+    in WordPerfect and ASCII formats, could have identical
+    intellectual content but fail the test of bitwise identity.</p>
+
+    <p>Without a better understanding of electronic versions, it
+    may not be possible to use the Dublin Core to create
+    unambiguous records that describe different versions of a
+    resource. If the creators of records judged two versions to be
+    the same work, they would use the <strong>Source</strong>
+    element to describe the earlier version; otherwise, they would
+    record this data in the <strong>Relation</strong> field. This
+    shows that the important and reasonably well-understood concept
+    of <em>Edition</em> can be captured in either of two elements
+    of the Dublin Core.</p>
+
+    <h3>7.2 Extensibility</h3>
+
+    <p>Although the principles for extending the Dublin Core are
+    straightforward, much work remains to be done before an
+    important question is answered: how can records be extended in
+    such a way that meets the needs of different communities while
+    maintaining some level of interoperability? The extended
+    records could conform to the specifications of the Dublin Core,
+    yet still contain an infinite variety of data types and
+    standards. There are several ways to solve this problem but
+    none of them are currently feasible.</p>
+
+    <p>First, the problem could be eliminated by requiring a single
+    consistent transfer syntax such as SGML. But this would violate
+    one of the underlying assumptions of the Dublin Core and would
+    be impossible to enforce. Second, a requirement could be added
+    to the Dublin Core stipulating that an extended record must
+    contain a pointer to the software that understands it. This
+    violates the rule that all elements in the Dublin Core are
+    optional and assumes the existence of software that understands
+    the heterogeneous records yet to be created. Third, user
+    communities could devise and maintain their own standards.
+    However, there is no guarantee that the independent evolution
+    of standards for the specification of metadata to promote
+    resource discovery in an electronic environment will produce
+    even minimal interoperability.</p>
+
+    <h3>7.3 Character Sets</h3>
+
+    <p>ASCII is the most widely deployed representation of text,
+    and in the interest of interoperability, information exchange
+    on the Internet relies on it almost exclusively. However, the
+    Internet reaches communities all over the world. If it is to
+    become a significant cultural force, the needs of languages
+    using non-ASCII character sets will eventually have to be
+    addressed. These issues have been avoided in this document
+    because the intent is to adopt the solutions put forth by other
+    standards makers.</p>
+
+    <p>The Multipurpose Internet Mail Extensions (MIME) introduces
+    Internet Media Types, including text representations other than
+    ASCII. HTML, used by most World-Wide Web browsers, is a
+    proposed Internet Media Type as well as an SGML application. In
+    the MIME and SGML specifications, however, character
+    representation is notoriously complex, and the two
+    specifications are inconsistent and incompatible. The Internet
+    Engineering Task Force (IETF), and the MIME_SGML, HTML and
+    HyperTextTransfer Protocol (HTTP) working groups are attempting
+    to rectify these inconsistencies and are discussing the best
+    ways of incorporating text representations other than
+    ASCII.</p>
+
+    <h3>7.4 "Third-party" Metadata</h3>
+
+    <p>In the largest sense, "metadata" includes any information
+    which purports to be about other information. Some of the most
+    useful metadata is produced by persons other than librarians
+    and document owners, and it can be found neither in card
+    catalogs nor in self-descriptions of the documents themselves.
+    Many kinds of such "third-party" metadata (e.g.,
+    bibliographies) are indispensable aids to information
+    discovery. It should be possible to allow topic-oriented
+    metadata documents with semantic network functionality to be
+    cooperatively authored, interchanged, and integrated into
+    master documents. Such documents (and amalgamated master
+    documents) might resemble traditional catalogs, indexes,
+    thesauri, encyclopediae, bibliographies, etc., with functional
+    enhancements such as the hiding of references that are outside
+    the scope of the researcher's interest, etc. Early work in this
+    area is being done by the <a href="#CApH">[CApH]</a> group.</p>
+
+    <h2>8.0 Implementations</h2>
+
+    <p>The OCLC/NCSA Metadata Workshop is one of a series of
+    developments that will lead to more effective resource
+    discovery systems for the Internet. Other developments include
+    the Denver 1992 data element discussions, the Library of
+    Congress 1994 Workshop on the description of electronic
+    resources, the IETF Uniform Resource Locator working group
+    meetings, the Digital Library projects funded by the National
+    Science Foundation, and many other activities in stakeholder
+    communitites, as well as the experimental Web crawler
+    "infobots."</p>
+
+    <p>It is no small challenge to integrate these disparate
+    activities, each with vocabularies, agendas, and objectives of
+    their own, into a coherent whole. One of the goals of the
+    OCLC/NCSA Metadata Workshop was to bring many of the relevant
+    stakeholders together for such discussions, and some progress
+    has been achieved toward this end.</p>
+
+    <p>All of these activities are but the first hesitant steps
+    toward the goal of rational resource description. Whatever
+    advances in understanding and communication among the
+    participants were achieved at the Dublin Workshop, the most
+    important measures of success will be the dissemination of
+    these ideas in the community. But the ultimate proof is in the
+    implementations of these ideas.</p>
+
+    <p>A number of Metadata Workshop conferees represent
+    organizations that have ongoing activities or are starting
+    activities that will be influenced by the results of the
+    workshop. These include:</p>
+
+    <h4>8.1.1 The OCLC Spectrum Project</h4>
+
+    <p>The primary goal of the Spectrum project is to develop a
+    tool that enables individuals, with or without specialized
+    knowledge of library cataloging or markup to create records for
+    describing and accessing networked electronic resources of
+    various types.</p>
+
+    <p><strong>Contact:</strong>"Diane Vizine-Goetz" email =
+    vizine@oclc.org</p>
+
+    <h4>8.1.2 The OCLC Internet Resources Cataloging Project</h4>
+
+    <p>A group of volunteer libraries is participating in a U.S.
+    Department of Education-funded project to identify, select, and
+    catalog Internet-accessible electronic resources using
+    standards and conventions widely adopted in the library
+    community.</p>
+
+    <p>The overall objectives of this project are to employ,
+    evaluate and extend the library catalog model to embrace
+    Internet resources, and to focus the intellectual resources of
+    scores of professions on the attendant problems and
+    opportunities. Records created in this project will conform to
+    USMARC standards and will be suitable for integration within
+    local and national library catalogs.</p>
+
+    <p><strong>Contact:</strong>Erik Jul, <em>jul@oclc.org</em></p>
+
+    <h4>8.1.3 Library of Congress</h4>
+
+    <p>The Machine-Readabale Bibliographic Information (MARBI)
+    Committee at LC has drafted a discussion paper (DP86: Mapping
+    the Dublin core metadata elements to USMARC <a
+    href="#Guenther">[Guenther]</a>) for review at the summer
+    meeting. MARBI is the committee responsible for overseeing
+    changes to the USMARC format.</p>
+
+    <p><strong>Contact:</strong>Rebecca Guenther,
+    <em>rgue@loc.gov</em></p>
+
+    <h4>8.1.4 O'Reilly Associates</h4>
+
+    <p>O'Reilly &amp; Associates, a leading publisher of Internet
+    books, is exploring online publishing with HTML and SGML. They
+    are supporting a definition of HTML 2.0 containing the META
+    element to permit the inclusion of metadata records such as the
+    Dublin Core.</p>
+
+    <p><strong>Contact:</strong>Terry Allen,
+    <em>terry@ora.com</em></p>
+
+    <h4>8.1.5 Los Alamos National Laboratory and Indiana
+    University</h4>
+
+    <p>Researchers at LANL and IU are cooperating in the
+    implementation of a META tag implementation for application of
+    the Dublin Core element set in HTML documents.</p>
+
+    <p><strong>Contact:</strong>Ron Daniel Jr.,
+    <em>rdaniel@acl.lanl.gov</em><br />
+     <strong>Contact:</strong>Pete Percival</p>
+
+    <h4>8.1.6 Bunyip Systems</h4>
+
+    <p>Bunyip will be indexing the DublinCore in its deployment of
+    WHOIS++. In addition, Bunyip will be advocating the use of the
+    Internet Anonymous FTP Archive (IAFA) templates (a superset of
+    the Dublin Core) for the indexing of Anonymous FTP archives
+    through its archie service.</p>
+
+    <p><strong>Contact:</strong>Chris Weider,
+    <em>clw@bunyip.com</em></p>
+
+    <h4>8.1.7 Georgia Institute of Technology</h4>
+
+    <p>Implementors are using the Dublin Core as the set of
+    metadata elements to include in a resource discovery system
+    based on whois++ and the centroids mesh. It will act primarily
+    as a method for transforming different data formats. In
+    particular it will translate from the more complex TEI header
+    into a simpler attribute/value flat list based on the Dublin
+    Core. This flat list will be the basis for limited information
+    discovery.</p>
+
+    <p><strong>Contact:</strong>Michael Mealling,
+    <em>michael.mealling@oit.gatech.edu</em>, <a
+    href="http://www.gatech.edu/iiir">http://www.gatech.edu/iiir</a></p>
+
+    <h4>8.1.8 SoftQuad</h4>
+
+    <p>SoftQuad Panorama, the company's SGML viewer for the Web,
+    will become metadata-aware as implementations of Dublin Core
+    records become available. It will support, through the use of
+    SGML Document Type Definitions, both the basic core set as well
+    as site-specific extended versions.</p>
+
+    <p><strong>Contact:</strong>Yuri Rubinsky,
+    <em>yuri@sq.com</em></p>
+
+    <h4>8.1.9 Concordia University</h4>
+
+    <p>The semantic header is a metadata structure which stores
+    indexing information about Internet resources. This information
+    will be stored in distributed databases and will be accessible
+    for search using a GUI. The metadata elements contained in the
+    semantic header have been influenced by the Metadata
+    Workshop.</p>
+
+    <p><strong>Contact:</strong>Bipin Desai,
+    <em>bcdesai@cs.concordia.ca</em>, <a
+    href="http://www.cs.concordia.ca/~faculty/bcdesai/cindi-system-1.0.html">
+    http://www.cs.concordia.ca/~faculty/bcdesai/cindi-system-1.0.html</a></p>
+
+    <h2>9.0 Next Steps</h2>
+
+    <p>Refinement and standardization of the metadata element set
+    defined in this document will be an ongoing, dynamic process
+    involving many stakeholder communities. No single forum will
+    suffice to air all concerns and no single standard can be
+    expected to accommodate the needs of all communities. The
+    problem must be divided into manageable chunks and the process
+    must engage the relevant stakeholder communities. Implicit in
+    the present activity is the proposition that there are core
+    elements common to many object types, and that a simple,
+    extensible framework of such elements can be defined to support
+    more complete resource descriptions.</p>
+
+    <p>The initial objective--the specification of elements for the
+    discovery of document-like objects--can be extended in a
+    variety of directions.</p>
+
+    <ul>
+      <li>Expansion of the Dublin Core to include other object
+      types, such as services or collections.</li>
+
+      <li>Expansion of the Dublin Core to embrace functionality
+      other than resource discovery, such as archival control and
+      the authentication of users and charging mechanisms.</li>
+
+      <li>Establishing standardized methods for extensibility.</li>
+
+      <li>Refinement of existing work. The Dublin Core is an
+      untested approach to the description of resources that will
+      need to be modified with experience.</li>
+    </ul>
+
+    <p>OCLC and NCSA will establish a workshop series to address
+    aspects of this agenda. A Metadata Workshop Steering Committee
+    will be established to define topics and assure appropriate
+    representation of stakeholders. Design groups of perhaps a
+    dozen or fewer individuals will be solicited to prepare
+    discussion papers to focus workshop activities. Participants
+    will be invited based on their publicly evident accomplishments
+    in relevant areas or by reviewed application. Workshops will be
+    limited to 50 or fewer participants and conducted in roughly
+    the style of the March 1995 Workshop.</p>
+
+    <p>Further work will be done at a Birds of a Feather (BOF)
+    meeting planned for the Stockholm IETF Meeting in July of 1995.
+    A BOF discussion is an initial step in the establishment of an
+    IETF working group. The IETF serves best in the capacity of
+    validating design work that is done by smaller, more focused
+    groups. An IETF working group on Metadata will provide an
+    effective way of involving the technical stakeholders in the
+    computer and networking community that must implement and use
+    the standards.</p>
+
+    <p>Finally, active promotion of results will be carried out by
+    establishing liaison with formal associations of stakeholders.
+    In the library community, MARC standards evolve under the
+    guidance of the Machine-Readable Bibliographic Information
+    Committee (MARBI), composed of representatives of the Library
+    of Congress and other stakeholders in the library community. A
+    close relationship should be sustained between this committee
+    and the Metadata Work Group. Relationships should also be
+    established with publishers, document vendors, SGML vendors and
+    theoreticians working on the problem of text encoding. Other
+    communities also have requirements that must be accommodated in
+    any framework for resource description. These communities
+    include the GIS community, Government information providers and
+    business communication groups.</p>
+    <hr size="4" />
+
+    <h3>References</h3>
+
+    <p><strong><a id="CApH" name="CApH"></a>[CApH]</strong><br />
+     Conventions for the Application of HyTime (CApH). "Semantic
+    Assignment Module" and "Topic Relationship Module." 1995.
+    Graphic Communications Association, Alexandria, VA.
+    (ftp.techno.com, pub/HyTime/CApH)</p>
+
+    <p><strong><a id="FGDC" name="FGDC"></a>[FGDC]</strong><br />
+     Federal Geographic Data Committee. 1994. Content standards for
+    digital geospatial metadata (June 8). Federal Geographic Data
+    Committee. Washington, D.C.</p>
+
+    <p><strong><a id="Gaynor"
+    name="Gaynor"></a>[Gaynor]</strong><br />
+     Gaynor, Edward. 1994. "Cataloging Electronic Texts: The
+    University of Virginia Library Experience." Library Resources
+    and Technical Services 38(4): 403-413 (October 1994).</p>
+
+    <p><strong><a id="Guenther"
+    name="Guenther"></a>[Guenther]</strong><br />
+     Guenther, Rebecca. 1995. "Mapping the Dublin Core Metadata
+    Elements to USMARC" MARBI Discussion Paper NO. 86.</p>
+
+    <p><strong><a id="Herwijnen"
+    name="Herwijnen"></a>[Herwijnen]</strong><br />
+     Herwijnen, Eric van, Practical SGML , Kluwer Academic
+    Publishers, 1994</p>
+
+    <p><strong><a id="MARC" name="MARC"></a>[MARC]</strong><br />
+     Network Development and MARC Standards, Office, ed. 1994.
+    USMARC Format for Bibliographic data. 1994. Washington, DC:
+    Cataloging Distribution Service, Library of Congress.</p>
+
+    <p><strong><a id="TEI" name="TEI"></a>[TEI]</strong><br />
+     Sperberg-McQueen, C. M., and Leu Burnard, ed. 1994. Guidelines
+    for Electronic Text Encoding and Interchange. Chicago and
+    Oxford: Text Encoding Initiative.</p>
+    <hr size="4" />
+
+    <h2>Appendix 1.0: Sample Records Encoded Using the Dublin
+    Metadata Core</h2>
+
+    <p>This Appendix contains two sample Dublin Core records
+    encoded in a simple syntax that might be translated easily to
+    SGML. As in all other examples in this document, the syntax of
+    these records is presented only for clarity of exposition.</p>
+
+    <p>The first example was created by a subject-matter specialist
+    who has no library cataloging expertise. It describes an
+    Internet Request for Comment (RFC) found on a Web page
+    containing similar RFCs. The Relation element points to the Web
+    page and to a similar record on the same page.</p>
+<pre>
+Subject:     IETF, URI, Uniform Resource Identifiers
+Title:       A Unifying Syntax for the Expression of Names and Addresses of Objects
+             on the Network as used in the World-Wide Web.
+Title:       (Subtitle) Universal Resource Identifiers in WWW
+Author:      Berners-Lee, T.
+Publisher:   CERN
+Date:        1994
+Object-Type: Internet RFC
+Form (scheme=IMT): text/plain
+Identifier(scheme=URL): gopher://gopher.es.net:70/0R0-57601-/pub/rfcs/rfc1630.txt
+Relation (type=child)(identifier=URL):  http://ds.internic.net/ds/dspg1intdoc.html
+Relation (type=sibling)(identifier=URL):http://ds.internic.net/rfc/rfc1738.txt"&gt;
+</pre>
+
+    <p>The second Dublin Core record was created by a librarian for
+    a Postscript version of a monograph that is derived from a
+    previous printed edition. It contains references to schemes
+    commonly used in the library community. The link to the printed
+    version is described in the <strong>Source</strong> element,
+    here realized as a recursive instance of the Dublin Core
+    record.</p>
+
+    <h3>Example 1: Dublin Core record for an electronic version of
+    an OCLC Research Report</h3>
+<pre>
+Element Name                  Content
+
+Subject:                       
+  scheme=LCSH:                Internet (Computer network)                  
+                              Cataloging of computer files
+                              Information networks
+                              Computer networks
+                              Libraries--Communication systems
+                              Information storage and retrieval
+                              systems
+
+Title:                        Assessing Information on the
+                              Internet: Toward Providing Library
+                              Services for Computer Mediated
+                              Communication
+
+Author:                       Martin Dillon
+Author:                       Erik Jul
+Author:                       Mark Burge
+Author:                       Carol Hickey
+
+Publisher:                    OCLC
+
+Date:                         1994
+
+Identifier:                    
+   Scheme=OCLC:               155653163X
+                              
+Object type:                  
+   Scheme=AACR2:              monograph
+
+Form:                         7 postscript files
+                              1 Unix tar file
+
+Relation:                     For a Web page listing Internet
+                              accessible OCLC research
+                              publications go to:
+                              http://www.oclc.org/oclc/menu/resch
+                              doc.htm
+
+Language:                     English
+
+Source(scheme=DublinCore):    Subject:
+                                  scheme=LCSH:
+                                     Internet (Computer network)                  
+                                     Cataloging of computer files
+                                     Information networks
+                                     Computer networks
+                                     Libraries--Communication systems
+                                     Information storage and retrieval systems
+                              Title:                         
+                                     Assessing Information on the
+                                     Internet: Toward Providing Library
+                                     Services for Computer Mediated
+                                     Communication
+
+                              Author: Martin Dillon
+                              Author: Erik Jul
+                              Author: Mark Burge
+                              Author: Carol Hickey
+
+                              Identifier:
+                                  scheme=OCLC Technical Report Number:
+                                      1234567
+
+                              Date: 1993
+                              Object type
+                                   Scheme=AACR2: monograph
+                              Form:
+                                Scheme=AACR2: 1 v. (various
+                              pagings) : ill. ; 29 cm.
+                              Publisher: OCLC
+</pre>
+    <hr size="4" />
+
+    <h2>Appendix 2.0: A Proposed Document Type Definition for the
+    Dublin Metadata Core</h2>
+
+    <p>This sample DTD is included here to make the proposals in
+    this paper more precise and to promote discussion among those
+    wishing to make improvements. The attribute
+    <strong>Scheme</strong> is used when reference is made to an
+    external authority for notation or vocabulary.</p>
+
+    <p>As in all examples in this paper, the DTD in this appendix
+    specifies one possible syntax for an SGML version of the Dublin
+    core. It is for illustrative purposes only.</p>
+<pre>
+&lt;!-- This is the ISO8879:1986 document type definition for the DublinCore URC.	--&gt;
+&lt;!--  Note: This DTD is subject to discussion and/or modification by the 
+	    participants of the OCLC/NSCA Metadata Workshop.  
+            95/20/06, eric j. miller, emiller@oclc.org		 		--&gt;
+
+
+&lt;!-- ============ Parameterizable Lists =============== --&gt;
+
+&lt;!-- MeSH (Medical Subject Heading) Publication Types can be found 
+	&lt;URL:http://www.sils.umich.edu/~nscherer/Medline/Table1.html&gt;		--&gt;
+
+&lt;!ENTITY	% Subject.Scheme	
+		"LCSH | MeSH | Sears | AAT | INSPEC | ERIC | DDC | Other" &gt;
+
+&lt;!-- TEI Information can be found &lt;URL:http://etext.virginia.edu/TEI.html&gt; 	--&gt;
+
+&lt;!ENTITY	% Title.Scheme
+		"AACR2 | TEI | Other" &gt;
+
+&lt;!ENTITY	% Author.Scheme
+		"AACR2 | TEI | Other" &gt;
+
+&lt;!ENTITY	% OtherAgent.Scheme
+		"AACR2 | TEI | MARC | Other" &gt;
+
+&lt;!ENTITY	% Publisher.Scheme
+		"AACR2 | TEI | Other" &gt;
+
+&lt;!-- ANSIX3.30 ::== yyyymmdd (4 for the year, 2 for the month, 2 for the day) 	--&gt;
+&lt;!-- ANSIX3.43 ::== hhmmss.f (2 for the hour, 2 for the minute, 2 for the sec 
+	and 2 for the fraction of the second including the decimal point 	--&gt;
+&lt;!-- ANSIX3.51 ::== 								--&gt;
+
+&lt;!ENTITY	% Date.Scheme
+		"ANSIX3.30 | ANSIX3.43 | ANSIX3.51 | Other" &gt;
+
+&lt;!ENTITY	% ObjectType.Scheme
+		"NLM | Other"&gt;
+
+&lt;!ENTITY	% Form.Scheme
+		"IMT | X.400 | Other"&gt;
+
+&lt;!ENTITY	% Identifier.Scheme
+		"URN | URL | LCCN | ISBN | ISSN | SICI | MessageID | FPI | Other" &gt;
+
+&lt;!ENTITY	% Source.Scheme
+		"TEI | Other" &gt;
+
+&lt;!ENTITY	% Language.Scheme
+		"MARC | Other" &gt;
+
+&lt;!ENTITY	% Relationship.Scheme
+		"URN | URL | LCCN | ISBN | ISSN | SICI | MessageID | FPI | Other" &gt;
+
+&lt;!ENTITY	% Hierarchy.Link
+		"Top | Parent | Child | Sibling | Other" &gt;
+
+&lt;!ENTITY	% Relationship.Type
+		"Supersedes | Continues | Continued.From |
+		Contained.In | Superseded.By | Cites | Extracted.From | 
+		Is.Part.Of | Contains | IsIndexOf | IsIndexedBy | GlossaryOf |
+		Predecessor | Successor | IsDerivativeOf | Child | Parent | 
+		Sibling" &gt;
+
+&lt;!ENTITY	% n.spacewindow
+		"WestBounding, EestBounding, NorthBounding, SouthBounding" &gt;
+
+&lt;!ENTITY	% n.timewindow
+		"Begin | End" &gt;
+
+
+
+&lt;!-- ============ Body of the DublinCore Metadata DTD == =============== --&gt;
+
+&lt;!-- Element list: Subject to change --&gt;
+
+&lt;!ELEMENT	DublinCore	- -	
+		(BaseDesc?, Extension*) &gt;
+&lt;!ATTLIST	DublinCore	Version		CDATA			#IMPLIED &gt;
+
+&lt;!ELEMENT	BaseDesc	- - 
+		(Subject | Title | Author | OtherAgent | Publisher |
+		Date | ObjectType | Form | Identifier | Relation |
+		Source | Language | Coverage)* &gt;
+
+		
+&lt;!ELEMENT	Subject			- -	ANY &gt;
+&lt;!ATTLIST	Subject		Scheme		(%Subject.Scheme;)	#IMPLIED &gt;
+
+&lt;!ELEMENT	Title			- -	ANY &gt;
+&lt;!ATTLIST	Title		Scheme		(%Title.Scheme;)	#IMPLIED &gt;
+
+&lt;!ELEMENT	Author			- -	ANY &gt;
+&lt;!ATTLIST	Author 		Scheme		(%Author.Scheme;)	#IMPLIED &gt;
+
+&lt;!ELEMENT	OtherAgent 		- -	ANY &gt;
+&lt;!ATTLIST	OtherAgent	Scheme		(%OtherAgent.Scheme;)	#IMPLIED &gt;
+
+&lt;!ELEMENT	Publisher		- -	ANY &gt;
+&lt;!ATTLIST	Publisher	Scheme		(%Publisher.Scheme;)	#IMPLIED &gt;
+
+&lt;!ELEMENT	Date			- -	ANY &gt;
+&lt;!ATTLIST	Date		Scheme		(%Date.Scheme;)		#IMPLIED &gt;
+
+&lt;!ELEMENT	ObjectType		- -	ANY &gt;
+&lt;!ATTLIST	ObjectType	Scheme		(%ObjectType.Scheme;)	#IMPLIED &gt;
+
+&lt;!ELEMENT	Form			- -	ANY &gt;
+&lt;!ATTLIST	Form		Scheme		(%Form.Scheme;)		#IMPLIED &gt;
+
+&lt;!ELEMENT 	Identifier		- -	ANY &gt;
+&lt;!ATTLIST	Identifier	Scheme		(%Identifier.Scheme;)	#IMPLIED &gt;
+
+&lt;!ELEMENT	Relation		- -	ANY &gt;
+&lt;!ATTLIST	Relation	Scheme		(%Relationship.Scheme;)	#IMPLIED
+				Type		(%Relationship.Type;)	#IMPLIED &gt;
+
+&lt;!ELEMENT 	Source			- - 	ANY &gt;
+&lt;!ATTLIST	Source		Scheme		(%Source.Scheme;)	#IMPLIED &gt;
+
+&lt;!ELEMENT	Language		- -	ANY &gt;
+&lt;!ATTLIST	Language	Scheme		(%Language.Scheme;)	#IMPLIED &gt;
+
+&lt;!ELEMENT	Coverage		- - 	((Spatial | Temporal)+) &gt;
+&lt;!ELEMENT 	Spatial			- - 	((WestBounding,
+						  EastBounding,
+					   	  SouthBounding,
+					          NorthBounding)? | Place*) &gt;
+&lt;!ELEMENT	Place			- - 	ANY &gt; 
+&lt;!ELEMENT	WestBounding		- - 	ANY &gt;
+&lt;!ELEMENT	EastBounding		- - 	ANY &gt;
+&lt;!ELEMENT	SouthBounding		- - 	ANY &gt;
+&lt;!ELEMENT	NorthBounding		- - 	ANY &gt;
+&lt;!ELEMENT 	Temporal		- - 	((Begin, End)? | Time*) &gt;
+&lt;!ELEMENT	Time			- - 	ANY &gt; 
+&lt;!ELEMENT	Begin			- - 	ANY &gt;
+&lt;!ATTLIST	Begin		Scheme		(%Date.Scheme;)		#IMPLIED &gt;
+&lt;!ELEMENT	End			- - 	ANY &gt;
+&lt;!ATTLIST	End		Scheme		(%Date.Scheme;)		#IMPLIED &gt;
+
+&lt;!ELEMENT	Extension		- - 	CDATA &gt;
+</pre>
+
+    
+    <!--#include virtual="/ssi/footer.shtml" -->
+  </body>
+</html>
+

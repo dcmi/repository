@@ -1,0 +1,329 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML  3.2//EN">
+<html>
+<head>
+<title>A Strawman Proposal for Metadata Extensibility</title>
+<META NAME="DC.Title" CONTENT="A Strawman Proposal for Metadata Extensibility">
+<META NAME="DC.Creator" CONTENT="(Scheme=Name) Andrew Waugh">
+<META NAME="DC.Creator" CONTENT="(Scheme=Email) andrew.waugh@cmis.csiro.au">
+<META NAME="DC.Subject" CONTENT="(Scheme=Keyword) metadata, dublin core, schema">
+<META NAME="DC.Format" CONTENT="(Scheme=imt) text/html">
+<META NAME="DC.Language" CONTENT="(Scheme=ISO.639) en">
+<LINK REL="SCHEMA.dc" HREF="http://purl.org/metadata/dublin_core_elements">
+</head>
+<body bgcolor=#f7feff text=#000000>
+<p align=right>
+Andrew Waugh<br>
+andrew.waugh@cmis.csiro.au<br>
+Resource Discovery Unit<br>
+DSTC<br>
+CSIRO Mathematics and Information Sciences
+</p>
+<h1 align=center>A Strawman Proposal for Metadata Extensibility</h1>
+<p>
+<h2>1. The Problem</h2>
+Extensiblity means the ability to change or augment metadata standards
+- either 'officially' (by changing the standard) or 'unofficially' (to
+support local extensions). 
+<p>
+Extensions range from adding a new metadata element to creating an
+entirely new metadata set.
+<p>
+Extensibility causes problems to both the human users of the metadata
+system and to the software that supports them.
+<p>
+The human creating metadata first of all needs to be notified that
+standard has changed, and then needs to be able to find out what the
+changes mean. What values, for example, are legal in the new metadata
+element? The human viewing metadata needs to be able to find out
+what the information entered into the changed metadata elements
+actually means.
+<p>
+Note that the human issues of extensibility are a special case of the
+general problem of understanding metadata. In current systems, for
+example, how does a new creator discover what metadata elements are
+available for use and what data should be entered into them?
+<p>
+For software designers, the issue is how to reconfigure the software
+used by metadata creation tools, metadata storage engines, and metadata
+display programs to take into account the changed metadata standard.
+For a widely distributed system this reconfiguration must be automatic
+(or as close to automatic as possible). The economic cost of manual
+reconfiguration is simply prohibitive, even if it were practicable.
+<p>
+Further, the ability to easily configure metadata software to handle
+different metadata sets opens the possibility of metadata software which
+can easily handle multiple metadata sets (even ones not yet defined).
+This reduces the cost of the development of metadata systems and assists
+in the introduction of such systems.
+<p>
+<h2>2. A Strawman Solution</h2>
+<p>
+The essence of metadata extensibility is the ability to electronically
+publish a metadata schema. This allows metadata creators to understand
+what information they should add to a set of metadata, and metadata
+users to understand the meaning of the metadata sets they receive.
+Representing this schema in a machine processable form
+allows software to automatically adjust to new metadata elements.
+<p>
+The following strawman proposal has been based on the schema
+specification system used in X.500. Experience has shown that this
+system is very extensible; although with certain limitations. The
+use of HTML to publish the schema is designed to address these
+limitations.
+<p>
+A mechanism for linking a reference description of a metadata schema has
+been proposed in <a href="#ref-dc">[1]</a>.
+This proposal is simply an extension of this schema idea to address the
+problems of extensibility.
+<p>
+This proposal is intended to broadly indicate how a metadata schema
+system would work and what information it would contain. The examples
+are <em>not</em> intended as syntax proposals. Nor is their any suggestion that
+this is all that the schema would contain.
+<p>
+<h2>3. Metadata Schema Publishing</h2>
+<p>
+The basic approach is to include in each metadata set a URI pointing
+to the metadata schema specification for that set. The specification
+can be viewed as a more formal version of the document proposed in
+<a href="#ref-dc">[1]</a>, so the same linkage mechanism could be used:
+<p>
+<tt>
+&lt;LINK REL = SCHEMA.dc HREF = "http://purl.org/metadata/dublin_core"&gt;
+</tt>
+</em>
+<p>
+which states that a set of Web pages describing the schema used to
+construct this metadata set can be found at the specified URL. (A URN
+would be preferable, but in the absence of a deployed URN scheme, URLs
+will work.)
+<p>
+The structure of the pages pointed to by the metadataSchema URL are
+shown in Figure 1.
+<p>
+The root page describes the metadata set as a whole, and includes lists
+of metadata elements (attributes) which may and must be contained in the
+set. Each metadata element has a page which describes the purpose of
+that element, and links to pages which describe the syntax and semantics
+of the element.
+<p>
+<h2>4. Metadata Set Schema</h2>
+<p>
+The page describing the Metadata Set would contain the following
+information
+<ul>
+<li>The name of the metadata set
+<li>The version and date
+<li>A text description of the purpose of the metadata set
+<li>A list of mandatory metadata elements
+<li>A list of optional metadata elements
+<li>A pointer to the formal standard describing the metadata
+set (if one exists)
+</ul>
+<p>
+The Dublin Core metadata set might be described in the following
+example:
+<p>
+<em>
+Dublin Core Metadata Element Set
+Version 2 Date 15 January 1997
+<p>
+The Dublin Core Metadata Element Set is intended to describe document
+like objects. This includes documents, maps, programs.
+<p>
+Mandatory Elements:
+<p>
+Optional Elements:
+<ul>
+<li>Title
+<li>Creator (or Author)
+<li>Subject (or Keywords)
+<li>Description
+<li>Publisher
+<li>Contributors
+<li>Date
+<li>Type (Resource Type)
+<li>Format
+<li>Identifier (Resource Identifier)
+<li>Source
+<li>Language
+<li>Relation
+<li>Coverage
+<li>Rights (Rights Management)
+</ul>
+<p>
+The Dublin Core Metadata Element Set is standardised in
+http://purl.org/metadata/dublin_core_elements
+</em>
+<p>
+<h2>5. Metadata Element Schema</h2>
+<p>
+A page describing a metadata element would contain the following
+information
+<ul>
+<li>The name of the metadata element
+<li>A textual description of the purpose of the metadata element
+<li>An optional pointer to the syntax of the metadata element
+<li>An optional list of semantics of the metadata element
+<li>A pointer to the formal standard describing the metadata
+element (if one exists)
+</ul>
+<p>
+An example might be:
+<p>
+<em>
+Language
+<p>
+Language(s) of the intellectual content of the resource. Where
+practical, the content of this field should coincide with the Z39.53
+three character codes for written languages.
+<p>
+Syntax: String
+<br>
+Semantics: Z39.53
+<br>
+Standard: http://purl.org/metadata/dublin_core_elements
+</em>
+<p>
+The metadata element schema has been separated from the page describing
+the metadata set as a whole to allow individual metadata elements to be
+referenced by multiple metadata set specifications.
+<p>
+<h2>6. Metadata Element Syntax Schema</h2>
+<p>
+This portion of the schema specifies syntactic limitations on metadata
+values. For example, a metadata values may be limited to 'upper case
+strings'.
+<p>
+A syntax instructs the user of the metadata set (human or machine) how
+metadata values are represented. This allows values to be consistent
+and aids machine processing and display of previously unrecognised
+metadata elements.
+<p>
+At a basic level, a syntax is equivalent to a type in a programming
+language. The basic syntaxes are strings, integers, floating point
+numbers and booleans. Although most (all?) current metadata elements
+would fall into one of these four basic syntaxes, it is likely that
+more complicated, structured, syntaxes will be used in future (e.g. a
+metadata element might contain a sequence of a string, an integer, and
+then a further string).
+<p>
+The syntax may also specify limitations on the values over and above the
+broad limitations of strings, integers, floats, and booleans. A string
+might have a maximum number of characters or on the range of characters.
+<p>
+A page describing a metadata element syntax would contain the following
+information
+<ul>
+<li>The name of the syntax
+<li>A textual description of the syntax
+<li>A textual description of the rules for comparing two values
+<li>A formal description of the syntax
+<li>A pointer to the formal standard describing the syntax
+specification (if one exists)
+</ul>
+<p>
+An example might be:
+<p>
+<em>
+Telephone Number Syntax
+<p>
+A telephone number is a string of up to 32 characters which complies
+with ITU recommendation E.123. Such a string has the following format:
+<ul>
+<li>A leading '+'
+<li>The country code (e.g. '1' for the US)
+<li>The area code (with no brackets or leading zero)
+<li>The telephone number
+</ul>
+The telephone number may contain spaces.
+An example telephone number is '+61 3 9282 2615'
+<p>
+Two telephone numbers are the same if they have the same digits in the
+same order. Spaces are not significant.
+</em>
+<p>
+The metadata element syntax has been separated from the metadata element
+specification itself so that many metadata elements may share the same
+syntax (e.g. fax machines are labeled by telephone numbers).
+<p>
+There is a close relation between the syntax and semantics of a metadata
+element; both can control the values that can be placed in the metadata
+element. The syntax is intended to be used to specify mechanical rules
+controlling values (e.g. all characters must be in upper case). The
+semantics are intended to control values by specifying meaning (e.g.
+taxonomies). However, there is a large overlap and one or other might
+be more appropriate in a particular case.
+<p>
+<h2>7. Metadata Element Semantic Schema</h2>
+<p>
+This portion of the schema specifies semantic limitations on metadata
+values. For example, the values might be limitted to Library of
+Congress subject headings.
+<p>
+A metadata element may have multiple semantic schemes (and so the actual
+metadata element needs to contain a qualifier) specifying which scheme
+is actually used.
+<p>
+A page describing metadata element semantics would contain the 
+following information:
+<ul>
+<li>The name of the scheme
+<li>A textual description of the scheme (possibly just referring to
+the 'well known' standard)
+<li>A pointer to the formal standard describing the semantics
+(if one exists)
+</ul>
+<p>
+The metadata element semantics have been separated from the metadata
+element specification itself so that many metadata elements may share
+the same semantics.
+<p>
+There is a close relation between the syntax and semantics of a metadata
+element; both can control the values that can be placed in the metadata
+element. The syntax is intended to be used to specify mechanical rules
+controlling values (e.g. all characters must be in upper case). The
+semantics are intended to control values by specifying meaning (e.g.
+taxonomies). However, there is a large overlap and one or other might
+be more appropriate in a particular case.
+<p>
+<h2>8. Bootstrapping</h2>
+<p>
+A set of pages describing a metadata scheme are useless if creators of
+metadata sets do not know the URI of the page to include in the metadata
+set. Possible methods of bootstrapping this knowledge include:
+<ul>
+<li>Discovery through Altavista like searching
+<li>Discovery through metadata schema index pages
+<li>Automatic inclusion via configuration of metadata generators
+</ul>
+<h2>9. Use of the Web Pages</h2>
+The Web pages describing the metadata schema can be used in two ways:
+<ul>
+<li>As Help files.
+The Web pages describe the metadata set, the metadata elements, and the
+values that can be placed in metadata elements. The information in the
+pages can be used as the source material for 'help' files to assist the
+metadata creator and metadata user in creating or using a metadata
+instance. These are more useful than on line standards because the
+pages are logically segmented so that a user does not have to, for
+example, retrieve (and read) the entire document when obtaining a help
+for a particular attribute.
+<li>As configuration files.
+Although not shown in the examples in this proposal, the information in
+the schema can also be encoded into a machine recognisable format and
+included in the Web pages. When creating or using a metadata instances,
+the software tool can retrieve the schema and use it as a configuration
+file.
+</ul>
+<h2>References</h2>
+<dl>
+<dt>
+<a name="#ref-dc">[1]</a>
+<em>A Proposed Convention for Embedding Metadata in HTML,</em>
+Reported by
+Stuart Weibel, June 1996
+<dd>at &lt;URL:<a href="http://www.oclc.org:5046/~weibel/html-meta.html">http://www.oclc.org:5046/~weibel/html-meta.html</a>&gt;
+</dl>
+</body>
+</html>

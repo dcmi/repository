@@ -1,0 +1,808 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html title="An advisory description of the element." lang="en"
+xmlns="http://www.w3.org/1999/xhtml">
+  <head title="An advisory description of the element.">
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Workshops - DC6: Schedule and Agenda</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="meta" href="schedule.shtml" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body bgcolor="#FFFFFF" text="#000000">
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <h1><strong>dc:DC The Sixth Dublin Core Metadata
+    Workshop</strong></h1>
+
+    <h2><strong>Schedule and Agenda</strong></h2>
+
+    <h3><strong>November 2-4, 1998</strong><br />
+     <strong>Library of Congress, Washington, DC.,
+    USA</strong></h3>
+    <hr noshade />
+
+    <table border="0" width="75%" cellspacing="0" cellpadding="2"
+    bgcolor="#FFFFFF"
+    summary="A layout table with event times in the first column, event description in the second column, and event presenter in the third column.">
+      <tr>
+        <td colspan="4" width="10%" valign="TOP" bgcolor="#000000">
+        <font color="#FFFFFF"><strong>Monday, November
+        2</strong></font></td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">08:30</td>
+
+        <td width="10%" valign="TOP">09:00</td>
+
+        <td width="50%" valign="TOP">Registration, Coffee, and
+        Pastries</td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">09:00</td>
+
+        <td width="10%" valign="TOP">09:10</td>
+
+        <td width="50%" valign="TOP">Welcome to the Library of
+        Congress</td>
+
+        <td width="30%" valign="TOP">Rebecca Guenther</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">09:10</td>
+
+        <td width="10%" valign="TOP">09:45</td>
+
+        <td width="50%" valign="TOP">
+          <p>I. Introduction to dc:DC</p>
+
+          <p><font>An Introduction to the Dublin Core Metadata
+          Initiative, the process supporting the evolution of the
+          standard, and the procedures and goals for the dc:DC
+          workshop in particular.</font></p>
+        </td>
+
+        <td width="30%" valign="TOP">Stuart Weibel</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">09:45</td>
+
+        <td width="10%" valign="TOP">10:00</td>
+
+        <td width="50%" valign="TOP">
+          <p>II. Summary of Projects</p>
+
+          <p><font>A summary of selected DC Projects and some
+          general lessons learned, followed by 15 minute case
+          studies from the field.</font></p>
+        </td>
+
+        <td width="30%" valign="TOP">Gail Clement &amp; John
+        Perkins</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">10:00</td>
+
+        <td width="10%" valign="TOP">10:15</td>
+
+        <td width="50%" valign="TOP">CIMI Interoperability
+        Testbed</td>
+
+        <td width="30%" valign="TOP">John Perkins, Canada</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">10:15</td>
+
+        <td width="10%" valign="TOP">10:30</td>
+
+        <td width="50%" valign="TOP"><a
+        href="pp/renato-dstc.ppt">Australian Government Information
+        Locator Service</a></td>
+
+        <td width="30%" valign="TOP">Renato Iannella, Distributed
+        Systems Technology Centre</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">10:30</td>
+
+        <td width="10%" valign="TOP">11:00</td>
+
+        <td width="50%" valign="TOP">Coffee Break</td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">11:00</td>
+
+        <td width="10%" valign="TOP">11:15</td>
+
+        <td width="50%" valign="TOP"><a
+        href="pp/morgan-gem.ppt">Gateway for Educational Materials
+        (GEM)</a></td>
+
+        <td width="30%" valign="TOP">Nancy Morgan, USA</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">11:15</td>
+
+        <td width="10%" valign="TOP">11:30</td>
+
+        <td width="50%" valign="TOP"><a
+        href="pp/schimmer-goettingen.ppt">Goettingen Library
+        Metadata</a></td>
+
+        <td width="30%" valign="TOP">Ralf Schimmer, Germany</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">11:30</td>
+
+        <td width="10%" valign="TOP">11:45</td>
+
+        <td width="50%" valign="TOP"><a
+        href="pp/titia-donor.ppt">DONOR</a></td>
+
+        <td width="30%" valign="TOP"><font>Titia van der Werf,
+        Netherlands</font></td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">11:45</td>
+
+        <td width="10%" valign="TOP">12:00</td>
+
+        <td width="50%" valign="TOP"><a
+        href="pp/miller-netscape.ppt">Netscape's Site Preview
+        Format</a></td>
+
+        <td width="30%" valign="TOP"><font>Eric Miller,
+        USA</font></td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">12:00</td>
+
+        <td width="10%" valign="TOP">12:30</td>
+
+        <td width="50%" valign="TOP">
+          <p>Plenary Discussion of Case Studies</p>
+
+          <p>Open plenary discussion of DC projects, lessons
+          learned, and problems identified from implementation</p>
+        </td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">12:30</td>
+
+        <td width="10%" valign="TOP">14:00</td>
+
+        <td width="50%" valign="TOP">Lunch</td>
+
+        <td width="30%" valign="TOP">Remarks by Winston Tabb,
+        Library of Congress</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">14:00</td>
+
+        <td width="10%" valign="TOP">15:30</td>
+
+        <td width="50%" valign="TOP">
+          <p>III. RDF and the Dublin Core Data Model</p>
+        </td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">
+          <p><a href="pp/swick-rdf.ppt">The Resource Description
+          Framework: An Infrastructure for Metadata on the
+          Web</a></p>
+
+          <p>The goal of this session is to introduce RDF (the
+          Resource Description Format), and provide sufficient
+          background for a common understanding of the syntactic
+          infrastructure RDF provides for the implementation of
+          metadata in general, and Dublin Core metadata in
+          particular, on the Web.</p>
+        </td>
+
+        <td width="30%" valign="TOP">Ralph Swick</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">
+          <p><a href="pp/miller-datamodel.ppt">The Dublin Core Data
+          Model: A Foundation for Interoperability for Dublin Core
+          with Qualifiers</a></p>
+
+          <p>The goal of this session is to report on the ongoing
+          activities of the DC Data Model Working Group and how
+          these activities support the encoding of Dublin Core
+          metadata in RDF.</p>
+        </td>
+
+        <td width="30%" valign="TOP">Eric Miller</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">General Discussion and
+        Question and Answer Period on RDF and the DC Data
+        Model</td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">15:30</td>
+
+        <td width="10%" valign="TOP">16:00</td>
+
+        <td width="50%" valign="TOP">Coffee Break</td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">16:00</td>
+
+        <td width="10%" valign="TOP">17:30</td>
+
+        <td width="50%" valign="TOP">
+          <p>IV. Breakout Groups</p>
+
+          <p>The goal of these Breakout groups is to discuss the
+          implications of RDF and the DC data model for each of the
+          clusters of elements identified below and identify
+          problems or work items necessary to provide
+          implementation guidance.</p>
+          Breakout groups will each have a chair and a recorder.
+        </td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">1. Creator, Contributor,
+        Publisher</td>
+
+        <td width="30%" valign="TOP">Chair: David Bearman</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">2. <a
+        href="pp/sourcerelationidentifier.ppt">Source, Relation,
+        Identifier</a></td>
+
+        <td width="30%" valign="TOP">Report by Erik Jul</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">3. <a
+        href="pp/resource_type_format.shtml">Format and
+        Type</a></td>
+
+        <td width="30%" valign="TOP">Chair: Simon Cox</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">4. Coverage, Date, and
+        Language</td>
+
+        <td width="30%" valign="TOP">Chair: Eric Miller</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">5. Title, Subject and
+        Description</td>
+
+        <td width="30%" valign="TOP">Chair: Diane Hillmann</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">6. Rights</td>
+
+        <td width="30%" valign="TOP">Chair: Carl Lagoze</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">19:00</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">
+          <p>Dinner at The Library of Congress</p>
+
+          <p><font>Working Group Chairs are encouraged to assemble
+          Informal meetings at and following dinner.</font></p>
+
+          <p><font>Breakout Group leaders should have report on
+          breakout groups to conference chair by
+          close-of-bar.</font></p>
+        </td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+    </table>
+    <hr noshade />
+
+    <table border="0" width="75%" cellspacing="0" cellpadding="2"
+    summary="A layout table with event times in the first column, event description in the second column, and event presenter in the third column.">
+      <tr>
+        <td colspan="4" width="10%" valign="TOP" bgcolor="#000000">
+        <strong><font color="#FFFFFF">Tuesday, November
+        3</font></strong></td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">08:30</td>
+
+        <td width="10%" valign="TOP">09:00</td>
+
+        <td width="50%" valign="TOP">Coffee and Pastries</td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">09:00</td>
+
+        <td width="10%" valign="TOP">10:30</td>
+
+        <td width="50%" valign="TOP">
+          <p>V. Plenary: Breakout Group Reports and Discussion</p>
+
+          <p>Recorders from Monday afternoon breakout groups will
+          report and entertain brief questions (10 minutes each),
+          followed by general plenary discussion.</p>
+        </td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">10:30</td>
+
+        <td width="10%" valign="TOP">11:00</td>
+
+        <td width="50%" valign="TOP">Coffee Break</td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">11:00</td>
+
+        <td width="10%" valign="TOP">12:30</td>
+
+        <td width="50%" valign="TOP">
+          <p>VI. Reports and Proposals</p>
+
+          <p>The following reports will provide information on the
+          status of activities of broad interest to the DC
+          community:</p>
+        </td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        
+<td width="50%" valign="TOP">1. <a
+        href="/documents/1998/02/02/dc-z3950/">Z39.50</a></td>
+
+        <td width="30%" valign="TOP">Ralph LeVan</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">2. User Guides</td>
+
+        <td width="30%" valign="TOP">Diane Hillmann</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">3. <a
+        href="pp/baker-multilingual.ppt">Multilinguality</a></td>
+
+        <td width="30%" valign="TOP">Tom Baker</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">4. <a href="pp/agents.ppt">The
+        Agent Proposal</a></td>
+
+        <td width="30%" valign="TOP">David Bearman</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">5. <a
+        href="pp/datadefinitions.ppt">Data Definitions</a></td>
+
+        <td width="30%" valign="TOP">Godfrey Rust</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">12:30</td>
+
+        <td width="10%" valign="TOP">14:00</td>
+
+        <td width="50%" valign="TOP">Lunch</td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">14:00</td>
+
+        <td width="10%" valign="TOP">15:30</td>
+
+        <td width="50%" valign="TOP">
+          <p>VII. Breakout Groups</p>
+
+          <p>The following breakout groups are intended to serve as
+          special interest BOFs and preliminary working groups. The
+          topics may be changed or tailored to reflect issues which
+          rise to prominence during the course of the workshop.</p>
+        </td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">1. <a
+        href="pp/denenberg-search.shtml">Searching Issues</a></td>
+
+        <td width="30%" valign="TOP">Chair: Ray Denenberg</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">2. <a
+        href="pp/standardisation.shtml">Standardization</a></td>
+
+        <td width="30%" valign="TOP">Chair: Priscilla Caplan</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">3. Collaborative Research
+        Opportunities<br />
+         There are many national funding projects for digital
+        library initiatives. This Breakout group will provide the
+        opportunity for researchers to discuss possible
+        collaborations and funding opportunities on an
+        international basis.</td>
+
+        <td width="30%" valign="TOP">Chair: Carl Lagoze</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">4. <a
+        href="pp/v2.shtml">Requirements for DC V2.0</a></td>
+
+        <td width="30%" valign="TOP">Chair: Ron Daniels</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">5. Implementation and Testbed
+        Issues</td>
+
+        <td width="30%" valign="TOP">Chair: John Perkins</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">6. DC Citation Scheme<br />
+         The DC community needs a standard scheme for encoding
+        citation information. This breakout group begin work on
+        identifying the scope and functional requirements for such
+        a scheme.</td>
+
+        <td width="30%" valign="TOP">Chair: Cliff Morgan</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">15:30</td>
+
+        <td width="10%" valign="TOP">16:00</td>
+
+        <td width="50%" valign="TOP">Afternoon Break</td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">16:00</td>
+
+        <td width="10%" valign="TOP">17:30</td>
+
+        <td width="50%" valign="TOP">
+          <p><font>VIII. Breakout Group Reports</font></p>
+
+          <p><font>Recorders from Tuesday afternoon breakout groups
+          will report and entertain brief questions (10 minutes
+          each), followed by general plenary discussion.</font></p>
+        </td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">19:00</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">
+          <p>Dinner at The Smithsonian Institution</p>
+
+          <p>Working Group Chairs are encouraged to assemble
+          Informal meetings at and following dinner</p>
+        </td>
+
+        <td width="30%" valign="TOP">&nbsp;</td>
+      </tr>
+    </table>
+    <hr noshade />
+
+    <table border="0" width="75%" cellspacing="0" cellpadding="2"
+    summary="A layout table with event times in the first column, event description in the second column, and event presenter in the third column.">
+      <tr>
+        <td colspan="4" width="10%" valign="TOP" bgcolor="#000000">
+        <strong><font color="#FFFFFF">Wednesday, November
+        4</font></strong></td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">08:30</td>
+
+        <td width="10%" valign="TOP">09:00</td>
+
+        <td width="50%" valign="TOP">Coffee and Pastries (and
+        sign-up for BOFs and Breakout Group Meetings)</td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">09:00</td>
+
+        <td width="10%" valign="TOP">10:30</td>
+
+        <td width="50%" valign="TOP">
+          <p>IX. Breakout Groups</p>
+
+          <p>Breakout groups will organize around major work areas
+          identified in Session VIII breakout group reports. These
+          sessions are intended to promote the formation of DC
+          Working Groups and special interest groups, and
+          preliminary agendas for these working groups.</p>
+        </td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">1. <a href="pp/1to1.ppt">1 to
+        1 Reconsidered</a></td>
+
+        <td width="30%">Erik Jul</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">2. TBD</td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">3. TBD</td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">4. TBD</td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">5. TBD</td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">6. TBD</td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">10:30</td>
+
+        <td width="10%" valign="TOP">11:00</td>
+
+        <td width="50%" valign="TOP">Coffee Break</td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">11:00</td>
+
+        <td width="10%" valign="TOP">12:15</td>
+
+        <td width="50%" valign="TOP">
+          <p>X. Plenary Discussion of Working Groups necessary to
+          advance the DC work agenda.</p>
+
+          <p>Plenary discussion of preliminary working group
+          meetings to integrate the post DC-6 work plan.</p>
+        </td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">12:15</td>
+
+        <td width="10%" valign="TOP">12:30</td>
+
+        <td width="50%" valign="TOP">Closing Remarks</td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">12:30</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">(Participants are on their own
+        for this lunch)</td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td width="10%" valign="TOP">14:00</td>
+
+        <td width="10%" valign="TOP">&nbsp;</td>
+
+        <td width="50%" valign="TOP">Meeting space will be
+        available Wednesday afternoon for a limited number of
+        groups to meet if there is interest in doing so.</td>
+
+        <td width="30%">&nbsp;</td>
+      </tr>
+    </table>
+
+    <h1 align="left">
+    <!--#include virtual="/ssi/footer.txt" --></h1>
+  </body>
+</html>
+

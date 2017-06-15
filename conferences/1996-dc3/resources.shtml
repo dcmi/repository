@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Workshops - DC3: Resources</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="meta" href="resources.shtml" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body>
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <h1 align="center">CNI/OCLC Metadata Workshop</h1>
+
+    <h1 align="center">Workshop on Metadata for Networked
+    Images</h1>
+
+    <h3 align="center">September 24-25, 1996<br />
+     Online Computer Library Center, Inc.<br />
+     Dublin, Ohio, USA</h3>
+
+    <h3 align="left">The OCLC Metadata Workshop Series</h3>
+
+    <div align="left">
+      <ul>
+        <li>
+          <strong>OCLC/UKOLN Metadata Workshop II</strong> 
+
+          <ul>
+            <li>Workshop Home Page &lt;URL:<a
+            href="/workshops/dc2/">http://dublincore.org/workshops/dc2/</a>&gt;</li>
+
+            <li>The Warwick Metadata Workshop: A framework for the
+            deployment of resource description.<br />
+            Lorcan Dempsey and Stuart Weibel, DLib Magazine
+            (July/August, 1996) &lt;URL:<a
+            href="http://www.dlib.org/dlib/july96/07weibel.html">http://www.dlib.org/dlib/july96/07weibel.html</a>&gt;</li>
+
+            <li>A proposed consensus for embedding metadata in HTML
+            from the W3C Distributed Indexing Workshop, May 28-29,
+            1996.
+            &lt;URL:http://www.oclc.org:5046/~weibel/html-meta.html&gt;</li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>OCLC/NCSA Metadata Workshop I</strong> 
+
+          <ul>
+            <li>Workshop Home Page &lt;URL:<a
+            href="/workshops/dc1/">http://dublincore.org/workshops/dc1/</a>&gt;</li>
+
+            <li>OCLC/NCSA Metadata Workshop Report. Stuart Weibel,
+            Jean Godby, Eric Miller, and Ron Daniel (June, 1995).
+            &lt;URL:<a
+            href="/workshops/dc1/report.shtml">http://dublincore.org/workshops/dc1/report.shtml</a>&gt;</li>
+
+            <li><a
+            href="http://www.dlib.org/dlib/July95/07weibel.html">Metadata:
+            The Foundations of Resource Description</a> DLib
+            Magazine (July, 1995)
+            http://www.dlib.org/dlib/July95/07weibel.html</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <h3 align="left"><br />
+     Suggested Online References</h3>
+
+    <p align="left"><strong>Papers</strong></p>
+
+    <div align="left">
+      <ul>
+        <li>CNI White Paper on Networked Information Discovery and
+        Retrieval<br />
+         Clifford Lynch, Avra Michelson, Cicilia Preston, Craig
+        Summerhill<br />
+         &lt;URL:http://www.cni.org/projects/nidr/www/toc.html&gt;</li>
+
+        <li>Metadata Requirements for Evidence<br />
+         David Bearman, Archives &amp; Museum Informatics and Ken
+        Sochats, University of<br />
+         Pittsburgh, School of Information Science<br />
+         &lt;URL:http://www.lis.pitt.edu/~nhprc/BACartic.html&gt;</li>
+
+        <li>Image Standards Needed<br />
+         Howard Besser, Prepared for Napa CIMI Meeting, Getty Art
+        History Information Program<br />
+         &lt;URL:http://sunsite.berkeley.edu/Imaging/Databases/Standards/napa.html&gt;</li>
+      </ul>
+    </div>
+
+    <p align="left"><strong>Proposed Image Description
+    Standards</strong></p>
+
+    <div align="left">
+      <ul>
+        <li>Content Standards for Digital Geospatial Metadata<br />
+         &lt;URL:http://geochange.er.usgs.gov/pub/tools/metadata/standard/metadata.html&gt;</li>
+
+        <li>GeoTIFF Home Page
+        &lt;URL:http://www-mipl.jpl.nasa.gov/cartlab/geotiff/geotiff.html&gt;<br />
+         GeoTIFF Format Specification v1.0<br />
+         &lt;URL:http://www-mipl.jpl.nasa.gov/cartlab/geotiff/latest/geotiffhome.html&gt;</li>
+      </ul>
+    </div>
+
+    <p align="left"><strong>Proposed Image Format
+    Standards</strong></p>
+
+    <div align="left">
+      <ul>
+        <li>Portable Network Graphics (PNG) Home Page
+        &lt;URL:http://quest.jpl.nasa.gov/PNG/&gt;<br />
+         HENSA PNG Archive, Search PNG images metadata
+        &lt;URL:http://www.hensa.ac.uk/png/&gt;</li>
+      </ul>
+    </div>
+
+    <p align="left"><strong>Additional
+    Conferences/Workshops</strong></p>
+
+    <div align="left">
+      <ul>
+        <li>First International Workshop on Image Databases and
+        Multi Media Search<br />
+         &lt;URL:http://www.fwi.uva.nl/research/idb-mms/&gt;, 22-23
+        August 1996, Amsterdam, THE<br />
+         NETHERLANDS</li>
+      </ul>
+    </div>
+
+    <p align="left"><strong>Image Collections and
+    Imagebases</strong></p>
+
+    <div align="left">
+      <ul>
+        <li>The Photo Collection at the Berkeley Digital
+        Library<br />
+         &lt;URL:http://elib.cs.berkeley.edu/photos/&gt;</li>
+
+        <li>Eastman's Originals Collection<br />
+         &lt;URL:http://www.lib.ucdavis.edu/speccoll/html/newstuff.html&gt;</li>
+
+        <li>Registre du Comite Medicale de la Nouvelle
+        Orleans<br />
+         &lt;URL:http://www.tulane.edu/~matas/SpecColl/registre.html&gt;</li>
+
+        <li>Univeristy of Chicago, Architecture and Art
+        Library<br />
+         &lt;URL:http://www.uic.edu:80/depts/lib/archartlib/&gt;<br />
+         Paris Image Collection
+        &lt;URL:http://www.uic.edu:80/depts/lib/archartlib/paris&gt;</li>
+
+        <li>Stanfords digitization projects
+        &lt;URL:http://wish.stanford.edu.8080/mainminidig.html&gt;<br />
+         Stanford's collection of dime novels/penny dreadfuls<br />
+         &lt;URL:http://wish.stanford.edu.8080/pn/&gt;</li>
+
+        <li>Scholarly Communications Project of VPI &amp; SU
+        &lt;URL:http://scholar.lib.vt.edu&gt;<br />
+         Virginia Tech Digital Library
+        &lt;URL:http://scholar.lib.vt.edu/digilib/&gt;<br />
+         Virginia Tech ImageBase
+        &lt;URL:http://scholar.lib.vt.edu/imagebase.html&gt;</li>
+
+        <li>Georgetown University: Special Collections and Archives
+        - Lauinger Library<br />
+         &lt;URL:http://gulib.lausun.goergetown.edu/dept/speccoll&gt;</li>
+
+        <li>The Costume Site
+        &lt;URL:http://ddi.digital.net/~milieux/costume.html&gt;,
+        Online Costuming<br />
+         Sources for Historical, Science Fiction &amp; Fantasy
+        Costumers</li>
+
+        <li>Alexandria Digital Library
+        &lt;URL:http://alexandria.sdc.ucsb.edu/&gt;<br />
+         Summary of metadata efforts
+        &lt;URL:http://alexandria.sdc.ucsb.edu/public-documents/metadata/&gt;</li>
+      </ul>
+    </div>
+
+    <p align="left"><strong>Miscellaneous</strong></p>
+
+    <div align="left">
+      <ul>
+        <li>Jennifer Trant Personal URL
+        &lt;URL:http://www.io.org/~jtrant&gt;</li>
+      </ul>
+    </div>
+
+    <p align="left"><strong>Additional References</strong></p>
+
+    <div align="left">
+      <ul>
+        <li>Ann R. Kenney and Stephen Chapman, Digital Imaging for
+        Libraries and Archives, Ithaca, NY: Department of
+        Preservation and Conservation. 1996, 198 p. (loose-leaf),
+        $75.00 + s/h</li>
+      </ul>
+    </div>
+
+    <ul>
+      <li>
+        <p align="left"><strong>Description:</strong> The
+        Department of Preservation and Conservation, Cornell
+        University Library, is pleased to announce the publication
+        of Digital Imaging for Libraries and Archives by Anne R.
+        Kenney and Stephen Chapman. This 200 page guide represents
+        a greatly expanded version of the training manual used in
+        Cornell's series of digital imaging workshops. It begins
+        with a theoretical overview of the key concepts,
+        vocabulary, and challenges associated with digital
+        conversion of paper- and film-based materials. This is
+        followed by an overview of the hardware/software,
+        communications, and managerial considerations associated
+        with implementing a technical infrastructure to support a
+        full imaging program. Additional chapters present
+        information on the creation of databases and indexes, the
+        implications of outsourcing imaging services, converting
+        photographs and film intermediates, issues associated with
+        providing long-term access to digital information, and
+        suggestions for continuing education. The guide is issued
+        in loose-leaf format to facilitate updates and includes two
+        formula cards designed to assist librarians and archivists
+        with determining conversion, storage, and access
+        requirements. The price of the guide is $75.00 plus $5.00
+        for shipping and handling within North America, or $8.00
+        for overseas shipping. Orders must be prepaid, with checks
+        made payable to "Department of Preservation, Cornell
+        University," with payment in U.S. funds. For ordering
+        information, contact Mary Arsenault, 214 John M. Olin
+        Library, Cornell University, Ithaca, NY 14853, or
+        mla4@cornell.edu</p>
+      </li>
+    </ul>
+    <!--#include virtual="/ssi/footer.shtml" -->
+  </body>
+</html>
+

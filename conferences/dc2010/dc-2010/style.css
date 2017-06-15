@@ -1,0 +1,155 @@
+BODY
+{
+	font-size : 10px
+}
+
+.nof_AvailOrangeBlueBanners2-Default
+{
+	font-family : verdana;
+	font-size: 24px;
+	font-weight : 700;
+	font-style : normal;
+	color : #08346b
+}
+
+.nof_AvailOrangeBlueNavbar4-Regular
+{
+	font-family : verdana;
+	font-size: 13px;
+	font-weight : 700;
+	font-style : normal;
+	color : #ffffff
+}
+
+.nof_AvailOrangeBlueNavbar5-Rollover
+{
+	font-family : verdana;
+	font-size: 13px;
+	font-weight : 700;
+	font-style : normal;
+	color : #ffffcc
+}
+
+.nof_AvailOrangeBlueNavbar6-Highlighted
+{
+	font-family : verdana;
+	font-size: 13px;
+	font-weight : 700;
+	font-style : normal;
+	color : #ffffff
+}
+
+.nof_AvailOrangeBlueNavbar7-HighlightedRollover
+{
+	font-family : verdana;
+	font-size: 13px;
+	font-weight : 700;
+	font-style : normal;
+	color : #ffffcc
+}
+
+.nof_AvailOrangeBlueNavbar9-Regular
+{
+	font-family : verdana;
+	font-size: 13px;
+	font-weight : 700;
+	font-style : normal;
+	color : #ffffff
+}
+
+.nof_AvailOrangeBlueNavbar10-Rollover
+{
+	font-family : verdana;
+	font-size: 13px;
+	font-weight : 700;
+	font-style : normal;
+	color : #ffffcc
+}
+
+.nof_AvailOrangeBlueNavbar11-Highlighted
+{
+	font-family : verdana;
+	font-size: 13px;
+	font-weight : 700;
+	font-style : normal;
+	color : #ffffff
+}
+
+.nof_AvailOrangeBlueNavbar12-HighlightedRollover
+{
+	font-family : verdana;
+	font-size: 13px;
+	font-weight : 700;
+	font-style : normal;
+	color : #ffffcc
+}
+
+.nof_AvailOrangeBlueTableStyles18-row1cell1
+{
+	font-size : medium;
+	color : rgb(0,0,0);
+	font-weight : bold;
+	background-color : rgb(255,255,255)
+}
+
+.nof_AvailOrangeBlueTableStyles18-row2cell1
+{
+	color : rgb(255,255,255);
+	font-weight : bold;
+	background-color : rgb(0,0,0)
+}
+
+.nof_AvailOrangeBlueTableStyles18-row3cell1
+{
+	color : rgb(0,0,0);
+	background-color : rgb(255,255,255)
+}
+
+.nof_AvailOrangeBlueTableStyles20-row1cell1
+{
+	font-size : small;
+	color : rgb(255,255,255);
+	font-weight : bold;
+	background-color : rgb(0,0,0)
+}
+
+.nof_AvailOrangeBlueTableStyles20-row2cell1
+{
+	color : rgb(0,0,0);
+	font-weight : normal;
+	font-style : normal;
+	background-color : rgb(192,192,192);
+	border-bottom : 1pt solid rgb(0,0,0)
+}
+
+.nof_AvailOrangeBlueTableStyles20-row3cell1
+{
+	color : rgb(0,0,0);
+	background-color : rgb(160,160,164);
+	border-bottom : 1pt solid rgb(0,0,0)
+}
+
+.nof_AvailOrangeBlueTableStyles22-row1cell1
+{
+	font-size : small;
+	color : rgb(255,255,255);
+	font-weight : bold;
+	background-color : rgb(0,0,0)
+}
+
+.nof_AvailOrangeBlueTableStyles22-row2cell1
+{
+	color : rgb(0,0,0);
+	font-weight : normal;
+	font-style : normal;
+	background-color : rgb(192,192,192);
+	border-bottom : 1pt solid rgb(0,0,0)
+}
+
+.nof_AvailOrangeBlueTableStyles22-row3cell1
+{
+	color : rgb(0,0,0);
+	background-color : rgb(160,160,164);
+	border-bottom : 1pt solid rgb(0,0,0)
+}
+

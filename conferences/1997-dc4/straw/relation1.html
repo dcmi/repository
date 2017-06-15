@@ -1,0 +1,311 @@
+<!-- --------------------------------------------------------------
+
+Copyright (C) DSTC Pty Ltd (ACN 052 372 577) 1993, 1994, 1995.
+Unpublished work.  All Rights Reserved.
+
+The software contained on this media is the property of the
+DSTC Pty Ltd.  Use of this software is strictly in accordance
+with the license agreement in the accompanying LICENSE.DOC file.
+If your distribution of this software does not contain a
+LICENSE.DOC file then you have no rights to use this software
+in any manner and should contact DSTC at the address below
+to determine an appropriate licensing arrangement.
+
+     DSTC Pty Ltd
+     Level 7, Gehrmann Labs
+     University of Queensland
+     St Lucia, 4072
+     Australia
+     Tel: +61 7 3365 4310
+     Fax: +61 7 3365 4311
+     Email: enquiries@dstc.edu.au
+
+This software is being provided "AS IS" without warranty of
+any kind.  In no event shall DSTC Pty Ltd be liable for
+damage of any kind arising out of or in connection with
+the use or performance of this software.
+
+
+Project:  OIL: Organisational Information Locator
+
+File:     $Source$
+
+Description:
+          Strawman suggestion for structure of Dublin Core relation element
+
+History:
+          26-Feb-1997  Nigel Ward (nigel) : created
+
+static char *rcsid = "@(#)$RCSfile$ $Revision$";
+$Log$
+
+<-------------------------------------------------------------- -->
+
+<HTML>
+<HEAD>
+
+<TITLE>Using the Dublin Core relation Element</TITLE>
+<META NAME = "dc.title"	CONTENT = "Using the Dublin Core relation Element">
+<META NAME = "dc.author" CONTENT = "Nigel Ward, DSTC, nigel@dstc.edu.au">
+<META NAME = "dc.subject" CONTENT = "metadata, conference, workshop, dublin core element set, relation element">
+<META NAME = "dc.form" CONTENT = "(scheme = IMT) text/html">
+<META NAME = "dc.identifier" CONTENT = "(scheme = URL) http://www.dstc.edu.au/DC4/straw/relation1.html">
+
+</HEAD>
+
+<BODY bgcolor="#FFFFFF">
+
+<H1>Using the Dublin Core relation Element</H1>
+
+<HR>
+
+<h2>Definition</h2>
+
+<blockquote>
+Relationship to other resources. The intent of specifying this element
+is to provide a means to express relationships among resources that
+have formal relationships to others, but exist as discrete resources
+themselves. For example, images in a document, chapters in a book, or
+items in a collection. 
+</blockquote>
+
+
+<h2>Justifications and Uses</h2>
+
+Digital resources are rarely published in isolation.  Most are published
+as part of a collection of related resources.  For example, HTML pages
+are often published in hyper-linked webs, and images are often
+published in thematic galleries.
+
+<p>
+
+Much intellectual effort is spent organising collections.  Part of
+this organisation is a description of the relationships between
+resources in the collection.  This organisation allows users to discover
+resources in a structured way.  For example, users can browse through
+a library collection using the subject headings in the catalog until
+they find a subject of interest to them.
+
+<p>
+
+Some resources have their relationship to other resources embedded
+within them. For example, a hypertext link within a HTML page
+describes a relationship to another resource.  Other resources have no
+facility for doing this.  The Dublin Core relation element is intended
+to support the description of relationships to other resources within
+the metadata for a resource.
+
+<p>
+
+Potential uses of the relation element include:
+<ul>
+  <li>allowing users to browse through resource collections using only
+      metadata descriptions
+  <li>aiding metadata indexing tools to decide on the value of
+      resources (those with the most references)
+</ul>
+
+<h2>Other Work on Relations</h2>
+
+The <a href="http://www.roads.lut.ac.uk/Metadata/DC-Qualifiers.html">ROADS
+discussion document on Dublin Core Qualifiers</a> suggests a number of
+qualifiers for Dublin Core elements, including the following TYPE
+qualifiers for the relation element:
+
+<ul>
+  <li>IsParentOf
+  <li>IsChildOf
+  <li>IsMemberOf
+  <li>IsDerivedFrom
+  <li>HasBibliographicInfoIn
+  <li>IsRevisionHistoryFor
+  <li>IsCriticalReviewof
+  <li>IsOverviewOf
+  <li>IsContentRatingFor
+  <li>IsTermsandConditionsFor
+  <li>IsDataFor
+</ul>
+
+The <a
+href="http://lcweb.loc.gov/z3950/agency/profiles/collections.html">Z39.50
+Profile for Access to Digital Collections</a> identifies that a given
+digital resource may be related to resources which are
+
+<ul>
+  <li>duplicates or surrogates
+  <li>superior or subordinate
+  <li>related or provide context
+</ul>
+
+The <a
+href="http://www.softquad.com/papers/draft-ietf-html-relrev-00.txt">Hypertext
+links in HTML Internet draft</a> analyses the use of hypertext links
+on the World Wide Web and provides suggestions for explicitly marking
+up hypertext links with relationship descriptions.  It identifies a
+number of categories of relationships:
+
+<ul>
+  <li>Navigation aids such as
+      <ul>
+	<li>contents - link to a table of contents
+	<li>index - link to an index
+      </ul>
+  <li>Hierarchy links such as
+      <ul>
+	<li>child
+	<li>sibling
+	<li>top
+      </ul>
+  <li>Sequence links such as
+      <ul>
+	<li>begin
+	<li>end
+	<li>next
+	<li>previous
+      </ul>
+  <li>Related links such as
+      <ul>
+	<li>biblioentry - bibliographic entry
+	<li>glossary
+      </ul>
+</ul>
+
+The <a href="http://www.omg.org/library/corbserv.htm">CORBA Relationship Service Specification</a> defines a very general
+service for defining and manipulating relationships between
+distributed resources.  This service is too general for our
+requirements, but does identify four commonly used relationships:
+
+<ul>
+  <li>contains
+  <li>contained_in
+  <li>references
+  <li>referenced_in
+</ul>
+
+<h2>A Strawman</h2>
+
+Examining the relationship description techniques mentioned above, it
+is obvious that the possible relationships between resources depend
+heavily on the domain of the resources, and hence impossible to
+enumerate all of them.  For that reason, this strawman proposal
+suggests the definition of a core set of relationships which are
+useful and understood in most domains.  Specialists in certain domains
+may extend this core set, but should not expect the extensions to be
+understood outside their domain.
+
+<p>
+
+Most of the relationship descriptions mentioned above allow
+description of <strong>hierarchy</strong>,
+<strong>containment</strong>, <strong>citation</strong>, and
+<strong>context</strong> relationships.  The strawman proposal
+suggests that these be used as the core set of relation qualifiers.
+
+<h3>Hierarchy</h3>
+
+<dl>
+  <dt>TYPE=IsParentOf
+  <dd>The resource being described is higher in some arbitrary
+      hierarchy than the resource being pointed to by this relation
+      element.
+  <dt>TYPE=IsChildOf
+  <dd>The resource being described is lower in some arbitrary
+      hierarchy than the resource being pointed to by this relation
+      element.
+</dl>
+
+For example, in a web of HTML documents describing an organisations
+departmental structure, a page describing a particular Unit may refer to the organisations home page.
+
+<pre>
+    RELATION (Scheme=URL) (Type=IsChildOf) http://www.dstc.edu.au/
+</pre>
+
+<h3>Containment</h3>
+
+<dl>
+  <dt>TYPE=Contains
+  <dd>The resource being described contains the resource being pointed
+      to by this relation element.
+  <dt>TYPE=ContainedIn
+  <dd>The resource being described is contained in the resource being pointed
+      to by this relation element.
+</dl>
+
+For example, the metadata for a document which contains an image of an
+albatross could include the relation element
+
+<pre>
+    RELATION (Scheme=URL) (Type=Contains)
+      http://seabirds.com/albatross.gif
+</pre>
+
+<h3>Citation</h3>
+
+<dl>
+  <dt>TYPE=References
+  <dd>The resource being described makes reference
+      to the resource being pointed to by this relation element.
+  <dt>TYPE=ReferencedIn
+  <dd>The resource being described is refered to in
+      the resource being pointed to by this relation element.
+</dl>
+
+For example, the metadata for this document could include a relation
+element describing one the hypertext links:
+
+<pre>
+    RELATION (Scheme=URL) (Type=References)
+      http://lcweb.loc.gov/z3950/agency/profiles/collections.html
+</pre>
+
+<h3>Context</h3>
+
+<dl>
+  <dt>TYPE=RelatedTo
+  <dd>The resource being described is somehow related to the resource
+      pointed to by this relation element.  This is the default type
+      value if the type is not explicitly stated.
+</dl>
+
+For example, the metadata for the albatross image could include a
+relation element which pointed to a nesting albatross:
+
+<pre>
+    RELATION (Scheme=URL) (Type=RelatedTo)
+      http://seabirds.com/albatross_nest.gif
+</pre>
+
+
+<HR>
+
+<table>
+  <tr>
+   <td width=200>
+      <a href="http://www.dstc.edu.au/"><img align=middle src = "/images/dstclogo9.gif"
+       alt="DSTC" border=0></a>
+    <P>
+<center><Font size=-5>Copyright DSTC Pty Ltd 1997</font></center>
+    </td>
+   <td>
+
+      <center>
+<Font size=-2>
+	For further information, contact Nigel Ward at <a href="mailto:nigel@dstc.edu.au">&lt;nigel@dstc.edu.au&gt;</a> or browse the RDU Home Page
+       at <a href="http://www.dstc.edu.au/RDU/"><b>http://www.dstc.edu.au/RDU/</b></a><p>
+DSTC Pty Ltd, Level 7, Gehrmann Laboratories<br>The University of Queensland, Qld
+4072, Australia<br>
+Telephone: +61 7 3365 4310,
+Fax: +61 7 3365 4311</center>
+       <P>
+<i>Acknowledgement:</i> The work reported in this paper has been funded in part by the Cooperative Research Centres Program, through the Department of the Prime Minister and Cabinet of Australia.
+   </font>
+  </td>	
+  </tr>
+</table>
+
+<HR>
+
+
+</BODY>
+</HTML>

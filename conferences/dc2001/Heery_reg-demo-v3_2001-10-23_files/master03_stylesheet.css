@@ -1,0 +1,239 @@
+body
+	{width:534px;
+	height:400px;}
+.T
+	{text-align:center;
+	font-family:Arial;
+	font-weight:bold;
+	font-style:italic;
+	color:#3333CC;
+	mso-color-index:5;
+	font-size:209%;}
+.BB
+	{mso-special-format:bullet•;
+	color:#3333CC;
+	mso-color-index:5;}
+.B
+	{text-align:left;
+	font-family:Arial;
+	color:black;
+	mso-color-index:1;
+	font-size:133%;}
+.B1B
+	{mso-special-format:bullet•;
+	color:#3333CC;
+	mso-color-index:5;}
+.B1
+	{text-align:left;
+	font-family:Arial;
+	font-weight:bold;
+	color:black;
+	mso-color-index:1;
+	font-size:133%;}
+.B2B
+	{mso-special-format:bullet–;
+	color:#3333CC;
+	mso-color-index:5;}
+.B2
+	{text-align:left;
+	font-family:Arial;
+	color:black;
+	mso-color-index:1;
+	font-size:114%;}
+.B3
+	{text-align:left;
+	font-family:Arial;
+	color:black;
+	mso-color-index:1;
+	font-size:85%;}
+.B4
+	{text-align:left;
+	font-family:Arial;
+	color:black;
+	mso-color-index:1;
+	font-size:95%;}
+.N
+	{text-align:left;
+	font-family:"Times New Roman";
+	color:black;
+	mso-color-index:1;
+	font-size:57%;}
+.N1
+	{text-align:left;
+	font-family:"Times New Roman";
+	color:black;
+	mso-color-index:1;
+	font-size:57%;}
+.N2
+	{text-align:left;
+	font-family:"Times New Roman";
+	color:black;
+	mso-color-index:1;
+	font-size:57%;}
+.N3
+	{text-align:left;
+	font-family:"Times New Roman";
+	color:black;
+	mso-color-index:1;
+	font-size:57%;}
+.N4
+	{text-align:left;
+	font-family:"Times New Roman";
+	color:black;
+	mso-color-index:1;
+	font-size:57%;}
+.O
+	{text-align:left;
+	font-family:"Times New Roman";
+	color:black;
+	mso-color-index:1;
+	font-size:114%;}
+.CBB
+	{mso-special-format:nobullet•;
+	color:#3333CC;
+	mso-color-index:5;}
+.CB
+	{text-align:center;
+	font-family:Arial;
+	color:black;
+	mso-color-index:1;
+	font-size:133%;}
+.CB1B
+	{mso-special-format:nobullet•;
+	color:#3333CC;
+	mso-color-index:5;}
+.CB1
+	{font-family:Arial;
+	font-weight:bold;}
+.CB2B
+	{mso-special-format:nobullet–;
+	color:#3333CC;
+	mso-color-index:5;}
+.CB2
+	{font-family:Arial;}
+.CB3
+	{font-family:Arial;
+	font-size:85%;}
+.CB4
+	{font-family:Arial;}
+.CT
+	{text-align:center;
+	font-family:Arial;
+	font-weight:bold;
+	font-style:italic;
+	color:#3333CC;
+	mso-color-index:5;
+	font-size:209%;}
+.HBB
+	{mso-special-format:bullet•;
+	color:#3333CC;
+	mso-color-index:5;}
+.HB
+	{text-align:left;
+	font-family:Arial;
+	color:black;
+	mso-color-index:1;
+	font-size:114%;}
+.HB1B
+	{mso-special-format:bullet•;
+	color:#3333CC;
+	mso-color-index:5;}
+.HB1
+	{text-align:left;
+	font-family:Arial;
+	font-weight:bold;
+	color:black;
+	mso-color-index:1;
+	font-size:114%;}
+.HB2B
+	{mso-special-format:bullet–;
+	color:#3333CC;
+	mso-color-index:5;}
+.HB2
+	{font-family:Arial;}
+.HB3
+	{font-family:Arial;
+	font-size:76%;}
+.HB4
+	{font-family:Arial;}
+.QBB
+	{mso-special-format:bullet•;
+	color:#3333CC;
+	mso-color-index:5;}
+.QB
+	{font-family:Arial;
+	font-size:95%;}
+.QB1B
+	{mso-special-format:bullet•;
+	color:#3333CC;
+	mso-color-index:5;}
+.QB1
+	{font-family:Arial;
+	font-weight:bold;}
+.QB2B
+	{mso-special-format:bullet–;
+	color:#3333CC;
+	mso-color-index:5;}
+.QB2
+	{font-family:Arial;}
+.QB3
+	{font-family:Arial;
+	font-size:66%;}
+.QB4
+	{font-family:Arial;}
+.TblB
+	{mso-special-format:nobullet•;
+	color:#3333CC;
+	mso-color-index:5;}
+.Tbl
+	{font-family:Arial;
+	font-size:114%;}
+.Tbl1B
+	{mso-special-format:nobullet•;
+	color:#3333CC;
+	mso-color-index:5;}
+.Tbl1
+	{font-family:Arial;
+	font-weight:bold;}
+.Tbl2B
+	{mso-special-format:nobullet–;
+	color:#3333CC;
+	mso-color-index:5;}
+.Tbl2
+	{font-family:Arial;}
+.Tbl3
+	{font-family:Arial;
+	font-size:76%;}
+.Tbl4
+	{font-family:Arial;}
+.defaultB
+	{mso-special-format:nobullet•;}
+.default
+	{text-align:left;
+	font-family:"Times New Roman";
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	text-shadow:none;
+	text-effect:none;
+	mso-fareast-hint:no;
+	layout-flow:horizontal;
+	color:black;
+	mso-color-index:1;
+	font-size:114%;
+	mso-text-raise:0%;
+	mso-line-spacing:"100 0 0";
+	mso-margin-left-alt:0;
+	mso-text-indent-alt:0;
+	mso-char-wrap:0;
+	mso-kinsoku-overflow:0;
+	direction:ltr;
+	mso-word-wrap:1;
+	mso-vertical-align-special:baseline;
+	mso-ansi-language:EN-US;}
+a:link
+	{color:#CCCCFF !important;}
+a:active
+	{color:#3333CC !important;}
+a:visited
+	{color:#B2B2B2 !important;}

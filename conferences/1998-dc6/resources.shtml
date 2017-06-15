@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html title="An advisory description of the element." lang="en"
+xmlns="http://www.w3.org/1999/xhtml">
+  <head title="An advisory description of the element.">
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Workshops - DC6: Additional Resources</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="meta" href="resources.shtml" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body bgcolor="#FFFFFF" text="#000000">
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <h1><strong>dc:DC The Sixth Dublin Core Metadata
+    Workshop</strong></h1>
+
+    <h2><strong>Additional Resources</strong></h2>
+
+    <h3><strong>November 2-4, 1998</strong><br />
+     <strong>Library of Congress, Washington, DC.,
+    USA</strong></h3>
+    <hr noshade />
+
+    <h3><strong>The OCLC Metadata Workshop Series</strong></h3>
+
+    <p>The Dublin Core Workshop Series has gathered experts from
+    the library world, the networking and digital library research
+    communities, and a variety of content specialties in a series
+    of focussed, invitational workshops. The building of an
+    interdisciplinary, international consensus around a core
+    element set is the central feature of the three-year evolution
+    of The Dublin Core. The progress represents the emergent wisdom
+    and collective experience of many stakeholders in the resource
+    description arena.</p>
+
+    <p><strong>DC-5: The 5th Dublin Core Metadata
+    Workshop</strong></p>
+
+    <ul>
+      
+<li>Home Page: http://linnea.helsinki.fi/meta/DC5.html</li>
+
+      <li>Report of the 5th Dublin Core Workshop by Paul Miller and
+      Tony Gill: <a
+      href="http://www.ariadne.ac.uk/issue12/metadata">http://www.ariadne.ac.uk/issue12/metadata</a></li>
+
+      <li>DC-5: The Helsinki Metadata Workshop by Stuart Weibel and
+      Juha Hakala. D-Lib Magazine, February 1998: <a
+      href="http://www.dlib.org/dlib/february98/02weibel.html">http://www.dlib.org/dlib/february98/02weibel.html</a></li>
+    </ul>
+
+    <h3>DC-4: NLA/DSTC/OCLC Dublin Core Down Under</h3>
+
+    <ul>
+      <li>Home Page: <a
+      href="http://www.dstc.edu.au/DC4">http://www.dstc.edu.au/DC4</a></li>
+
+      <li>Weibel, Stuart, Warwick Cathro, and Renato Iannella. The
+      4th Dublin Core Metadata Workshop Report. D-Lib Magazine,
+      June 1997 <a
+      href="http://www.dlib.org/dlib/june97/metadata/06weibel.html">
+      http://www.dlib.org/dlib/june97/metadata/06weibel.html</a>.</li>
+    </ul>
+
+    <h3>DC-3: CNI/OCLC Workshop on Metadata for Networked
+    Images</h3>
+
+    
+<ul>
+<li>Home Page: <a
+      href="/workshops/dc3/">http://dublincore.org/workshops/dc3/</a></li>
+<li><a
+      href="http://www.dlib.org/dlib/january97/oclc/01weibel.html">Image Description 
+on the Internet: A Summary of the CNI/OCLC Image Metadata Workshop</a><br>
+Stuart Weibel 
+and Eric Miller, DLib Magazine, <a href="http://www.dlib.org/dlib/january97/oclc/01weibel.html"> 
+</a>(January, 1997) </li>
+</ul>
+<h3>DC-2: OCLC/UKOLN Metadata Workshop</h3>
+
+    
+<ul>
+<li>Home Page: <a
+      href="/workshops/dc2/">http://dublincore.org/workshops/dc2/</a></li>
+<li><a
+      href="http://www.dlib.org/dlib/july96/07weibel.html">The Warwick Metadata 
+Workshop: A framework for the deployment of resource description</a>.</li>
+<br>
+Lorcan Dempsey and Stuart Weibel. DLib Magazine (July/August, 1996). 
+</ul>
+
+    <h3>DC-1: OCLC/NCSA Metadata Workshop</h3>
+
+    
+<ul>
+<li>Home Page: <a
+      href="/workshops/dc1/">http://dublincore.org/workshops/dc1/</a></li>
+<li><a href="/workshops/dc1/report.shtml">OCLC/NCSA Metadata Workshop Report.<br>
+</a>Stuart 
+Weibel, Jean Godby, Eric Miller, and Ron Daniel (June, 1995).</li>
+</ul>
+    <hr noshade />
+
+    <h2>The W3C RDF Resource Description Framework</h2>
+
+    <p>The Resource Description Framework (RDF) is a specification
+    currently under development within the <a
+    href="http://www.w3.org/Metadata">W3C Metadata activity</a>.
+    RDF is designed to provide an infrastructure to support
+    metadata across many web-based activities. RDF is the result of
+    a number of metadata communities bringing together their needs
+    to provide a robust and flexible architecture for supporting
+    metadata on the Internet and WWW. Example applications include
+    sitemaps, content ratings, stream channel definitions, search
+    engine data collection (web crawling), digital library
+    collections, and distributed authoring.</p>
+
+    <p>RDF will allow different application communities to define
+    the metadata property set that best serves the needs of each
+    community. RDF will provide a uniform and interoperable means
+    to exchange the metadata between programs and across the Web.
+    Furthermore, RDF will provide a means for publishing both a
+    human-readable and a machine-understandable definition of the
+    property set itself.</p>
+
+    <p>RDF will use XML as the transfer syntax in order to leverage
+    other tools and code bases being built around XML.</p>
+
+    <p>The following documents have been released for public
+    comment:</p>
+
+    <ul>
+      <li>A <a href="http://www.w3.org/TR/WD-rdf-syntax">revised
+      public draft of the RDF Model and Syntax Specification</a>
+      was released on August 19, 1998.</li>
+
+      <li>A <a href="http://www.w3.org/TR/WD-rdf-schema">revised
+      public draft of the RDF Schema Specification</a> was released
+      on August 14, 1998.</li>
+    </ul>
+
+    <p>A last call draft of the RDF Model and Syntax Specification
+    is currently being drafted. It should be released in early
+    September 1998.</p>
+
+    <p>A new draft of the RDF Schema Specification is expected
+    shortly after the Model and Syntax Specification last call
+    draft is released.</p>
+
+    <p>More information on RDF including software, projects,
+    papers, etc. can be found on the <a
+    href="http://www.w3.org/RDF/">W3C RDF Home Page</a>.</p>
+
+    <h1 align="left">&nbsp;</h1>
+
+    <p align="left"><!--#include virtual="/ssi/footer.txt" --></p>
+  </body>
+</html>
+

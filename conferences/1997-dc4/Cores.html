@@ -1,0 +1,192 @@
+<HEAD>
+<TITLE>
+Dublin Cores in languages other than English
+</TITLE>
+</HEAD>
+<BODY>
+<H2>Metadata Semantics Shared Across Languages: Dublin Cores in languages
+other than English</H2><BR>
+
+<H4>Thomas Baker, baker@gmd.de, National Science and Technology
+Development Agency, Bangkok, Thailand</H4>
+
+
+<P>
+The Dublin Core is a set of fifteen basic categories (such as creator,
+title, subject, and publisher) for describing information resources (see
+<A HREF=http://purl.org/metadata/dublin_core>http://purl.org/metadata/dublin_core</A>).  When embedded in documents on
+the World-Wide Web, these Core descriptions can be extracted by global
+indexing services for use like a sort of library catalog.  Some first
+adopters of the Dublin Core appreciate the generic simplicity of these
+fifteen basic categories and use them "as is" -- let's call them the
+"minimalists".  Others -- let's call them the "specialists" -- use
+qualifiers to narrow the semantics of Core categories for specialized uses
+-- for example, to specify that a particular "creator" is a "composer"
+as opposed to an "author" or "photographer".  The success of the Dublin
+Core as a standard will depend on its ability to satisfy the specialists'
+need for this kind of specificity without compromising the semantic
+integrity of the fifteen broad categories expected by the minimalists.
+
+<P>
+Until now, the Dublin Core has been defined and implemented only in
+English.  Yet the meanings of these fifteen basic categories in their
+"minimalist" sense could just as well be explained in French, German,
+Japanese, or Thai.  The Dublin Core could become that which has long
+eluded internationalist-minded librarians: a simple description model
+consistent across many languages and scientific disciplines.
+
+<P>
+But if the Dublin Core is to meet the need of specialists across many
+languages, it will also have to allow users in those languages to
+define their own qualifiers.  And since the Dublin Core has so far been
+used only in English and on the World-Wide Web, where indexing tags
+must use only the English alphabet, its designers have not yet had to
+cope with multiple sets of tags and qualifiers in multiple languages
+and alphabets.  (Note that the language of the Dublin Core itself is
+independent of the language of documents being described; records
+created with the Thai Dublin Core could refer to articles in Japanese.)
+
+<P>
+These issues were discussed most recently at the Fourth
+Dublin Core Workshop in Canberra, Australia, 3-5 March 1997
+(<A HREF=http://www.dstc.edu.au/DC4/>http://www.dstc.edu.au/DC4/</A>).  This paper reports some conclusions
+reached there and the consensus of a break-out group on how we might
+move towards a manageable multiplicity of Dublin Cores in languages
+other than English.
+
+<P>
+For the purposes of indexing and searching, equivalencies between
+parallel Dublin Cores in multiple languages could be assured by an
+agreed set of fifteen machine-readable indexing tags -- let's call
+them, more generically, tokens -- standing for the fifteen Core
+categories.  These tokens, embedded with HTML in documents (or wherever
+else metadata may be placed), would flag the Core elements for
+automatic Web indexers.  For better or for worse, the tokens currently
+used for this are English words and will most likely remain so for now,
+just as HTML tags for Web documents and the function words of most
+computer programming languages are English-like.
+
+<P>
+But the problem is more complex when we consider qualifiers.  Qualifiers
+guarantee interoperability of more precise semantics to the extent that
+they are shared by communities of users.  Similarly, they would guarantee
+interoperability across languages to the extent that they were shared
+between Dublin Cores in different languages.  A few qualifiers, such as
+"author", will be useful all over the world and will likely have universal
+tokens.  One could therefore search for an author regardless of whether
+the search form labelled it "author" or "putang" ("author" in Thai).
+
+<P>
+But as the Web increasingly becomes used for local and regional
+purposes, it seems likely that qualifiers will proliferate for which
+one will not need the global interoperability afforded by such widely
+shared concepts.  As the Dublin Core is adopted more widely, Web-based
+registries will evolve to document these qualifiers, both local and
+universal, along with their tokens and definitions.  One can picture a
+Thai registry for Dublin Core that listed fifty or so qualifiers shared
+with other Dublin Cores alongside qualifiers specific to the Thai
+language and Thai cataloging practice.
+
+<P>
+For a Dublin Core in Thai, one would ideally like to have a framework
+for defining two parallel sets of tokens for qualifiers: a set of local
+tokens expressed in the Thai language and alphabet, and a set of
+matching universal tokens for those qualifiers that were shared with
+other Dublin Cores.  Local tokens with no universal equivalents, while
+useful locally, would simply be ignored by the global crawler
+services.  Records created in Thailand, using local qualifiers, and
+indexed by a global crawler service that ignored those qualifiers,
+could still be retrieved in France via a "minimalist" search over the
+fifteen Core categories.
+
+<P>
+For several reasons, this ideal cannot readily be realised with today's
+Web technology.  The current HTML format for metadata (the META tag)
+does not provide any standard way to distinguish between global and
+local tokens.  And within HTML, machine-readable tokens -- whether
+universal or local -- must be expressed in 7-bit ASCII (the English
+alphabet from A to Z, plus numbers).
+
+<P>
+Just how serious these obstacles are for deploying Dublin Core in
+languages other than English depends in part on how metadata will be
+created in the future.  If we were to assume that metadata will be
+typed in largely by hand -- and the most popular program for creating
+Web pages today is Microsoft's Notepad, a simple text editor -- then
+the limitation of ASCII will be a real problem.  However, it is much
+more likely that users will type their descriptions into pop-up forms,
+perhaps with help menus and validation procedures.  Software will take
+care of formatting the metadata properly and with the appropriate tokens.
+In such controlled environments, one might get around the limitations
+of ASCII by using transliteration: a user would type a qualifier in Thai
+letters and software would perform the necessary conversion into ASCII.
+Of course, the raw results might no longer be entirely comprehensible
+or editable by native speakers with plain text editors, so one could
+object to this workaround on grounds of principle.
+
+<P>
+Fortunately, it seems likely that these limitations of ASCII and HTML
+will be transcended by new technologies over the next year or two.
+The character-set limitation on tag names will fade as 7-bit ASCII
+is replaced by 16-bit Unicode, a code table that encompasses all the
+characters of the world's most common scripts.  And the limitations on
+metadata tagging will be transcended by two new Web formats: PICS-NG and
+Web Collections.  PICS was originally designed to support systems for
+rating Internet content (for example, to allow users to block access to
+pornography), though it is evolving into a general system in which labels
+and local tokens in many languages can be mapped onto generic metadata
+structures (see <A HREF=http://www.w3.org/pub/WWW/PICS/>http://www.w3.org/pub/WWW/PICS/</A>).  Web Collections is a
+recent initiative for designing a general way to define sets of metadata
+(see <A HREF=http://www-ee.technion.ac.il/W3C/WebCollection.html>http://www-ee.technion.ac.il/W3C/WebCollection.html</A>).
+
+<P>
+Both PICS-NG and Web Collections will implement the basic elements
+needed for multiple Dublin Cores: global tokens, local tokens, and local
+descriptions.  Moreover, both of these metadata frameworks are being
+developed by heterogenous communities of experts in resource description,
+annotations, digital signatures, digital cash, and resource description,
+and they have the support of the biggest software companies.  Indeed,
+these initiatives are shaping the next big version of HTML itself.
+It is quite possible that both of these proposals will be sanctioned by
+the World-Wide Web Consortium (W3C) in June of 1997, after which it will
+hopefully take but a few months to a year for stable browsers, servers,
+and tools to come to market.  To the participants in the Canberra workshop
+interested in creating Dublin Cores in languages other than English,
+it seemed wiser to anticipate these new solutions than to invest much
+energy in extending today's HTML.
+
+<P>
+While waiting for this deployment, communities can work on translating
+the Dublin Core into various languages.  These translations will
+need to be discussed and reworked until they really make sense to
+native speakers.  The resulting descriptions will need to reflect as
+precisely as possible the intent and semantic scope of the fifteen basic
+Core elements.  Beyond that, local needs will determine the choice of
+qualifiers and their correspondence or non-correspondence to qualifiers
+in the English-language model.
+
+<P>
+As a simple first step, it seems desirable to make the descriptions of
+Dublin Cores in languages other than English available on Web pages,
+perhaps with lists of qualifiers, explanatory material, and examples
+of usage.  These Web sites could be linked among themselves; indeed,
+the Thai description of, say, the Subject element might usefully
+be linked to the descriptions of that element in English and German.
+Help pages might describe the advantages of using universal qualifiers.
+Perhaps these interlinked Web servers could provide a platform for
+future, more advanced registry services, such as automated lookups of
+element values across languages, which could assist retrieval in ways we
+cannot yet clearly imagine.  In such an infrastructure of peer servers,
+no one model would dominate (in a logical sense), as the English-language
+Dublin Core does now.
+
+<P>
+Researchers from several countries have indicated interest in establishing
+Dublin Cores, and projects are already underway in Berlin, at the
+Humboldt University in collaboration with the Max Planck Institute,
+and in Bangkok, at the Technical Information Access Center of the
+National Science and Technology Development Agency.  A mailing list
+has been established to discuss Dublin Cores in multiple languages,
+and further workshops are foreseen.  For further info, please contact
+Tom Baker at thomas.baker@cs.ait.ac.th.
+</BODY>

@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html title="An advisory description of the element." lang="en"
+xmlns="http://www.w3.org/1999/xhtml">
+  <head title="An advisory description of the element.">
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>DCMI Workshops - DC5: Home Page</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="meta" href="index.shtml" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body bgcolor="#FFFFFF" text="#000000">
+    <!--#include virtual="/ssi/header.shtml" -->
+
+    <h1 align="center"><font color="#cc0033">The 5th Dublin Core
+    Metadata Workshop</font></h1>
+
+    <h2 align="center">Helsinki, Finland, October 6-8, 1997</h2>
+
+    <h3 align="center">National Library of Finland</h3>
+
+    <table
+    summary="A layout table with two cells for the old Dublin Core logo and the Nationa Library of Finland logo.">
+      <tbody>
+        <tr>
+          <td width="430">
+            <h3 align="center"><a
+            href="http://linnea.helsinki.fi/meta/"><img border="0"
+            height="120"
+            src="The 5th Dublin Core Metadata Workshop_index_files/wordless_apple.gif"
+             width="107"
+            alt="old apple core version of the Dublin Core logo" />
+            </a></h3>
+          </td>
+
+          <td>
+            <a href="http://www.oclc.org/"><img border="0"
+            src="The 5th Dublin Core Metadata Workshop_index_files/oclccolr_web.gif"
+             alt="logo for the Online Computer Library Center, Inc." />
+            </a> 
+
+            <p><a href="http://linnea.helsinki.fi/"><img border="0"
+            src="The 5th Dublin Core Metadata Workshop_index_files/hul-logo.gif"
+             alt="logo for the National Library of Finland" />
+            </a></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+
+    <p>The Dublin Core workshop series promotes and develops the
+    metadata elements required to facilitate the discovery of
+    resources (documents and images) in a networked environment
+    such as the Internet and support interoperability amongst
+    heterogenous metadata systems. The workshop participants cover
+    a wide range people from industry, academic, research, and
+    library communities.</p>
+
+    <p>The <a href="http://www.oclc.org:5047/">Online Computer
+    Library Center (OCLC)</a> and the <a
+    href="http://linnea.helsinki.fi/hyk/hul/">National Library of
+    Finland</a> are pleased to host the 5th Dublin Core Metadata
+    Workshop. This fifth workshop in the series will concentrate on
+    implementation of the Dublin Core. It will provide developers
+    and planners an opportunity to share experiences with each
+    other.</p>
+
+    <center>
+      <table width="80%"
+      summary="A layout table for the table of contents for the DC5 web site pages."
+       border="0">
+        <tbody>
+          <tr>
+            <td><strong>General:</strong> High-level overview of
+            the workshop</td>
+
+            <td>
+            </td>
+
+            <td><a href="schedule.shtml"><strong>Schedule &amp;
+            Agenda:</strong></a> Outline and framework of the
+            workshop</td>
+          </tr>
+
+          <tr>
+            <td><strong>Participants:</strong> Names, email
+            contacts, and personal and project home pages of
+            registered attendees</td>
+
+            <td>
+            </td>
+
+            <td><strong>Conference Mailing List:</strong>
+            Subscription information regarding the metadata
+            conference mailing list</td>
+          </tr>
+
+          <tr>
+            <td><strong>Registration:</strong> Open up to
+            30.9.1997, but only for those who have been
+            invited.</td>
+
+            <td>
+            </td>
+
+            <td><a href="../../"><strong>Additional
+            Resources:</strong></a> References to background Dublin
+            Core information and previous workshops</td>
+          </tr>
+
+          <tr>
+            <td><a
+            href="http://www.hel.fi/english"><strong>Helsinki:</strong></a>
+            Information on Helsinki, Capital of Finland (in
+            Finnish, English, German and Swedish)</td>
+
+            <td>
+            </td>
+
+            <td><a
+            href="http://linnea.helsinki.fi/meta/nordic.html"><strong>
+            Nordic Metadata Workshop:</strong></a> Free Metadata
+            workshop on 9.10.1997, Espoo, Finland</td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+    <hr />
+
+    <table border="0"
+    summary="A layout table for additional workshop information.">
+      <tbody>
+        <tr>
+          <td>
+            <h3>Workshop Organising Committee</h3>
+
+            <p>Stuart Weibel, <em>weibel@oclc.org</em></p>
+
+            <p>Juha Hakala, <em>juha.hakala@helsinki.fi</em></p>
+            <hr />
+
+            <p>The organisers gratefully acknowledge the support of
+            the National Science Foundation and the Coalition for
+            Networked Information for providing travel assistance
+            to help defray the costs of atttendance for a number of
+            US participants.</p>
+
+            <center>
+              <a href="http://www.nsf.gov/"><img border="0"
+              src="The 5th Dublin Core Metadata Workshop_index_files/logo.gif"
+               alt="logo for the National Science Foundation" />
+              </a>
+            </center>
+          </td>
+        </tr>
+
+        <tr>
+          <td width="260">
+            <center>
+              <font size="6">C</font>oalition for <font
+              size="6">N</font>etworked <font
+              size="6">I</font>nformation
+            </center>
+          </td>
+        </tr>
+
+        <tr>
+          <td width="260">
+            <center>
+              <font size="-1">To Advance Scholarship<br />
+               and Intellectual Productivity</font><br />
+            </center>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+
+    <h3>Workshop Steering Committee</h3>
+
+    <table
+    summary="A layout table for additional workshop information.">
+      <tbody>
+        <tr>
+          <td>Names to be announced</td>
+
+          <td>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+
+    <h4>Presentation Slides used at DC5 and the Nordic Metadata
+    Seminar 9.10.1997</h4>
+
+    <div style="margin-left: 2em">
+      Will be added later.
+    </div>
+    <hr />
+
+    <h4>Outcome Reports from DC5</h4>
+
+    <div style="margin-left: 2em">
+      Will be added later.
+    </div>
+    <hr />
+
+    <address>
+      <a
+      href="mailto:juha.hakala@helsinki.fi">juha.hakala@helsinki.fi</a>
+    </address>
+
+    <p>&nbsp;</p>
+
+    <h1 align="center">&nbsp;</h1>
+
+    <p>&nbsp;</p>
+
+    <h1 id="title">&nbsp;</h1>
+    <!--#include virtual="/ssi/footer.txt" -->
+  </body>
+</html>
+
