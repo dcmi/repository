@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Dublin Core Metadata Initiative (DCMI) Presentations</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+<link rel="meta" href="index.shtml.rdf" />
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>DCMI Presentations</h1>
+<h2>General presentation on the benefits of using Dublin Core Metadata</h2>
+<p><a href="/resources/presentations/Dublin_Core_overview_2007.pdf"><strong>Making Information Work: the Dublin Core Way</strong></a></p>
+
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>
