@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+  <head>
+    <title>Tools that make my life easier...</title>
+    <link rel="stylesheet" href="/css/default.css" type="text/css">
+  </head>
+
+  <body>
+    <h1>Tools that make my life easier...</h1>
+
+    <h3>Tidy</h3>
+
+    <p><a href="http://www.w3.org/People/Raggett/Tidy">Tidy</a>
+    rules... plain and simple. Anyone interested in collaboratively
+    editing and effectively managing HTML documents will benefit
+    from the validation and formatting this program offers. I've
+    found seemlessly integrating Tidy into Xemacs (which I used as
+    my HTML editor) to be a very useful and time-saving addition to
+    my personal "communication" toolkit.</p>
+
+    <p>Pete Gelbman posted a very useful way of integrating Tidy
+    into emacs. Since Xemacs design is slightly different, however,
+    this technique didn't work. After contacting Pete and getting
+    the following tip:</p>
+
+<ul>
+<pre>
+Subject: Re: Tidy/Emacs combo tip
+   Date: Wed, 13 Sep 2000 13:29:09 -0400
+   From: Pete Gelbman &lt;pete@arraycomm.com&gt;
+    To:  emiller@oclc.org
+
+Just realized I goofed slightly yesterday - 
+
+pete@arraycomm.com said:
+&gt;One additional comment: if you add the (interactive) call to my
+&gt;function it  works better - the cursor stays in the same spot in your
+&gt;primary buffer after  "Tidying". So replace the Lisp snippet from the
+&gt;Tidy webpage with this one:
+
+Scratch that - I meant to say add the (save excursion) call it works
+better. 
+So actually the function should be this:
+ 
+; Function to run Tidy HTML parser on region 
+; NOTE: this requires external Tidy program
+(defun tidy-region ()
+  "Run Tidy HTML parser on current region."
+  (interactive)
+  (let ((START (mark))
+        (END (point))
+        (COMMAND "tidy"))
+        (save excursion
+        (shell-command-on-region START END COMMAND t t  
+shell-command-default-error-buffer))))
+
+Sorry about the confusion.
+-- 
+
+~pete
+</pre>
+</ul>
+
+    <a href="mailto:matola@oclc.org">Tod Matola</a> was able to
+    extrapolate from this and build this handly little <A href =
+    "./13/tidy.el">tidy.el</A> routine that integrates Tidy and
+    Xemacs. Adding the following to .emacs file:
+<ul>
+<pre>
+(load-file "$path-to-el-file/tidy.el")
+</pre>
+</ul>
+    give me the desired capabilities... Thanks Pete and Tod!<br>
+    <br>
+     
+
+    <h3>Text Referencing/Extraction routines</h3>
+
+    <ul>
+      <li><a href="http://www.w3.org/2000/08/eb58">Dan Connolly's
+      extraction routines</a>... specifically little bookmarklets
+      useful for emailing extracted text 
+
+(<a href="javascript:location.href='mailto:?SUBJECT='+escape(document.title)+'&BODY='+escape('[[[\n'+document.getSelection()+'\n]]]\n\n--\n'+document.title+'\n'+location.href+'\n'+new Date(document.lastModified).toUTCString())">select-n-email</a> button for Netscape and a 
+
+<a href="javascript:Hd=document.title; Qu=document.selection.createRange(); Today=new Date(document.lastModified).toUTCString(); void(window.open('mailto:emiller@oclc.org?subject='+document.title+'&body='+escape('[[[\n')+escape(Qu.htmlText)+escape('\n]]]\n--\n')+escape(document.title)+escape('\n')+location.href+escape('\n')+Today+escape('\n\n')));">select-n-email</a> button for IE)
+
+	</li>
+
+    </ul>
+    <hr>
+    $Id: 13-tools.html,v 1.1.1.1 2003/10/23 17:44:30 wagnerh Exp $
+  </body>
+</html>
+

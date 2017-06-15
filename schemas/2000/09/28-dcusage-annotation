@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<!-- 
+  DC Usage registry annotation of the Dublin Core Element Set 
+  2000/09/28
+  comments, etc. to eric miller, emiller@oclc.org 
+-->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:agent="http://dublincore.org/2000/03/13-dcagent#"
+         xmlns:dc="http://dublincore.org/2000/03/13-dces#"
+         xmlns:av="http://dublincore.org/2000/09/28-annotation#">
+
+<av:Annotation rdf:about="http://dublincore.org/2000/28-dcusage">
+  <!-- dumb down rule... use rdf:value for a simple default name -->	
+  <rdf:value>DC Usage registry annotation of the Dublin Core Element Set</rdf:value>
+  <dc:title>DC Usage registry annotation of the Dublin Core Element Set</dc:title>
+  <dc:publisher>The Dublin Core Metadata Initiative</dc:publisher>
+  <dc:description>The DC Usage registry annotation is a formal means
+of expressing the endorsement of elements defined by the Dublin Core
+Element Set</dc:description>
+  <dc:language>English</dc:language>
+  <dc:date>2000-09-28</dc:date>
+</av:Annotation>
+
+<agent:Organization rdf:about="http://dublincore.org/dcmi/groups/usage">
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#contributor" />
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#coverage" />
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#creator" />
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#date" />
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#description" />
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#format" />
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#identifier" />
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#language" />
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#publisher" />
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#relation" />
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#rights" />
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#source" />
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#subject" />
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#title" />
+  <av:endorses rdf:resource = "http://dublincore.org/2000/03/13-dces#type" />
+</agent:Organization>
+
+</rdf:RDF>

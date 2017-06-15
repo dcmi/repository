@@ -1,0 +1,36 @@
+<!-- The Dublin Core Metadata Initiative Organizational Vocabulary -->
+
+<?xml version = "1.0"?>
+
+<rdf:RDF
+  xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs = "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+  xmlns:dc = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#"
+  xmlns:dct = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#">
+
+<dct:Schema rdf:about = "">
+  <dc:title>Eric's Contact Vocabulary</dc:title>
+  <dc:creator>Eric Miller, emiller@oclc.org</dc:creator>
+  <dc:description>This vocabulary is designed to describe and manage contact information</dc:description>
+  <dc:date>1999-11-03</dc:date>
+</dct:Schema>
+
+<rdfs:Property rdf:ID = "name">
+  <rdfs:label>Name</rdfs:label>
+  <rdfs:comment>Name of contact</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Property>
+
+<rdfs:Property rdf:ID = "email">
+  <rdfs:label>Email</rdfs:label>
+  <rdfs:comment>E-mail address of contact</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Property>
+
+<rdfs:Property rdf:ID = "phone">
+  <rdfs:label>Phone</rdfs:label>
+  <rdfs:comment>Phone number of contact</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Property>
+
+</rdf:RDF>

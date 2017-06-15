@@ -1,0 +1,779 @@
+<?xml version = "1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      	 xmlns:rdfs="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+         xmlns:dc="http://rdf.dev.oclc.org/eor/1999/12/23-dcv#"
+         xmlns:dct="http://rdf.dev.oclc.org/eor/1999/12/24-dctype#"
+         xmlns:my="http://rdf.dev.oclc.org/eor/1999/12/12-myrdf#">
+
+<dct:Schema rdf:about="http://rdf.dev.oclc.org/eor/1999/12/23-dcv">
+  <dc:title>The Dublin Core Vocabulary v1.0</dc:title>
+  <dc:creator>The Dublin Core Metadata Initiative</dc:creator>
+  <dc:description>The Dublin Core metadata vocabulary is a simple vocabulary
+      intended to facilitate discovery of resources.</dc:description>
+  <dc:date>1999-12-23</dc:date>
+</dct:Schema>
+
+<!-- Begin: Title Declaration -->
+
+<rdf:Property rdf:ID = "title">
+  <rdfs:label>Title</rdfs:label>
+  <rdfs:comment>A name given to the resource.</rdfs:comment>
+  <my:comment>Typically, a Title will be a name by which the resource is formally known.</my:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<!-- subProperty Declaration -->
+
+<rdf:Property rdf:ID = "alternativeTitle">
+  <rdfs:label>Alternative Title</rdfs:label>
+  <rdfs:comment>An alternative title by which the resource is also known.</rdfs:comment>
+  <my:comment>This qualifier can include Title abbreviations as well as translations.</my:comment>
+  <rdfs:subPropertyOf rdf:resource = "title" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<!-- End: Title Declaration -->
+
+<!-- Being: Agent Declaration -->
+
+<!-- subProperty declaration -->
+
+<rdf:Property rdf:ID = "agent">
+  <rdfs:label>Contributor, Creator, Publisher</rdfs:label>
+  <rdfs:comment>An entity responsible for making contributions to the content of the resource.</rdfs:comment>
+  <my:comment>Examples of a Contributor include a person, an organisation, or a service.  Typically, the name of a Contributor should be used to indicate the entity.</my:comment>
+  <my:note>Agent proposal implies a class of resources that are the target of agents.  To accomplish this, I'm binding this to the dc:types class declaration of 'Party' due to clear overlap.</my:note>
+  <rdfs:range rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype#Agent" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "contributor">
+  <rdfs:label>Contributor</rdfs:label>
+  <rdfs:comment>An entity responsible for making contributions to the content of the resource.</rdfs:comment>
+  <my:comment>Examples of a Contributor include a person, an organisation, or a service.  Typically, the name of a Contributor should be used to indicate the entity.</my:comment>
+  <my:note>Agent proposal implies a class of resources that are the target of agents.  To accomplish this, I'm binding this to the dc:types class declaration of 'Party' due to clear overlap.</my:note>
+  <rdfs:range rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype#Agent" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "creator">
+  <rdfs:label>Author/Creator</rdfs:label>
+  <rdfs:comment>An entity primarily responsible for making the content of the resource.</rdfs:comment>
+  <my:comment> Examples of a Creator include a person, an organisation, or a service. Typically, the name of a Creator should be used to indicate the entity.</my:comment>
+  <my:note>Defined formal relation between creator and contributor based on agent requirement</my:note>
+  <rdfs:subPropertyOf rdf:resource = "contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "publisher">
+  <rdfs:label>Publisher</rdfs:label>
+  <rdfs:comment>An entity responsible for making the resource available.</rdfs:comment>
+  <my:comment> Examples of a Publisher include a person, an organisation, or a service.  Typically, the name of a Publisher should be used to indicate the entity.</my:comment>
+  <my:note>Defined formal relation between publisher and contributor based on agent requirement</my:note>
+  <rdfs:subPropertyOf rdf:resource = "contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+
+<!-- Class declaration -->
+
+<rdfs:Class rdf:ID = "Person">
+  <rdfs:label>Person</rdfs:label>
+  <rdfs:comment>An individual human.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype#Agent" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Organization">
+  <rdfs:label>Organization</rdfs:label>
+  <rdfs:comment>A group that that acts as an agent. Typical examples of organizations are associations, institutions, business firms, nonprofit enterprises, governments, government agencies, cultural groups, and religious bodies.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype#Agent" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Event">
+  <rdfs:label>Event</rdfs:label>
+  <rdfs:comment>A non-persistent and time-based activity that acts as an agent. Typical examples of events are conferences, conventions, meetings, exhibitions, expositions ,festivals, athletic contests, workshops, and expeditions.</rdfs:comment>
+  <my:note>Name change and relation defined due to overlap with Event declaration from dc:type work... not sure how best to handle this... </my:note>
+  <rdfs:subClassOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype#Agent" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Object">
+  <rdfs:label>Object</rdfs:label>
+  <rdfs:comment>A device that acts as an agent. Typical examples of objects are mechanical instruments, electronic services, non-human entities, and appliances.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype#Agent" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdfs:Class>
+
+<!-- Properties associated with Classes -->
+
+<rdf:Property rdf:ID = "agentName">
+  <rdfs:label>Name</rdfs:label>
+  <rdfs:comment>The formal or common name of the Agent</rdfs:comment>
+  <my:comment>Typically, this would be the name which is used to refer to the Agent. The Family Name First Encoding Value Qualifier may also be used to express the order of the components of the Name.  Vocabularies of Names may also be used as values for this qualifier. </my:comment>
+  <rdfs:domain rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype#Agent" />
+  <rdfs:range rdf:resource = "NameScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "agentAffiliation">
+  <rdfs:label>Affiliation</rdfs:label>
+  <rdfs:comment>The organization with which the named Agent was associated when involved with the resource</rdfs:comment>
+  <rdfs:domain rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype#Agent" /> 
+ <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<!-- I have no idea how to do agentRols as the agent working group has defined these... the way thesre are defined seems counter to how other groups have defined qualifiers that are refinements... agent role seems to be some syntactic mechansims for associaing these refinements??? -->
+
+<rdf:Property rdf:ID = "agentID">
+  <rdfs:label>Identifier</rdfs:label>
+  <rdfs:comment>An unambiguous reference to the named Agent within a given context.</rdfs:comment>
+  <my:comment>Recommended best practice is to identify the named Agent
+by means of a string or number conforming to a formal identification
+system. The recommended Encoding Value Qualifier is the Uniform
+Resource Identifier.  In some cases, the Agent Identifier may provide
+or lead to more information about the named Agent.</my:comment>
+  <my:note>This seems very wrong to me... again this seems like a syntactic mechansim for uniqly identifying some resource... this requirement is neccessary for all resource description and should be common (e.g. RDF)</my:note>
+  <rdfs:domain rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype#Agent" />
+  <rdfs:range rdf:resource = "IdentifierScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<my:DataType rdf:ID = "URI">
+  <rdfs:label>Uniform Resource Identifier</rdfs:label>
+  <rdfs:comment>A URI Uniform Resource Identifier</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "IdentifierScheme" />
+  <rdfs:seeAlso rdf:resource = "http://www.ietf.org/rfc/rfc2396.txt" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv" />
+</my:DataType>
+
+<rdf:Property rdf:ID = "agentRole">
+  <rdfs:label>Role</rdfs:label>
+  <rdfs:comment>Indicates the role played by the given Agent.</rdfs:comment>
+  <my:comment>The values are defined in externally maintained and controlled vocabularies (value qualifiers).  Such lists of terms may be used and should be clearly identified with a unique vocabulary name.  Some vocabularies may contain values which would not make sense when used with one or more of the three agent elements.  It is important that such usage be identified and not recommended.  Values for Agent Roles may alos come from uncontrolled lists of terms.</my:comment>
+  <rdfs:domain rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype#Agent" />
+  <rdfs:range rdf:resource = "RoleScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+
+<!-- Datatype declaration -->
+
+<my:DataType rdf:ID = "FNF">
+  <rdfs:label>DCMI Family Name First</rdfs:label>
+  <rdfs:comment>The DCMI encoding rule in which the family name of the
+Agent appears first, followed by a comma, then all other
+names.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "NameScheme" />
+  <rdfs:seeAlso rdf:resource = "http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "MARCRel">
+  <rdfs:label>MARC Code List for Relators</rdfs:label>
+  <rdfs:comment>The Library of Congress MARC code list for relator terms</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "RoleScheme" />
+  <rdfs:seeAlso rdf:resource = "http://www.loc.gov/marc/relators/re9802r1.html" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "AAT">
+  <rdfs:label>Gettys Art and Architecture Thesaurus</rdfs:label>
+  <rdfs:comment>Gettys Art and Architecture Thesaurus is a vocabulary
+of roles used in the Cultural community</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "RoleScheme" />
+  <rdfs:seeAlso rdf:resource = "http://shiva.pub.getty.edu/aat_browser/titles.html" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+
+<!-- End: Agent Declaration -->
+
+
+<!-- Begin: Subject -->
+
+<rdf:Property rdf:ID = "subject">
+  <rdfs:label>Subject</rdfs:label>
+  <rdfs:comment>The topic of the content of the resource.</rdfs:comment>
+  <my:comment> Typically, a Subject will be expressed as keywords, key
+phrases or classification codes that describe a topic of the resource.
+Recommended best practice is to select a value from a controlled
+vocabulary or formal classification scheme.</my:comment>
+  <rdfs:range rdf:resource = "SubjectScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<!-- subProperty declarations -->
+<!-- note.. should this be a class/data-type? -->
+
+<rdf:Property rdf:ID = "classification">
+  <rdfs:label>Classification</rdfs:label>
+  <rdfs:comment>Subject identified by notation (code) taken from a controlled classification scheme.</rdfs:comment>
+  <my:comment>The name of the controlled classification scheme from
+which the classification is derived should always be identified as a
+value qualifier Existing resource discovery implementations treat
+classification notation (codes) differently to 'words' describing
+subject.  Typically notation is used to create a browsing structure
+whereas words are not, notation is not displayed in retrieved lists
+whereas 'subject words' are displayed. It is important for software to
+precisely recognise notations as different from 'subject
+words'. Looking for numeric strings cannot be relied on as notations
+may be alphanumeric so it is useful to identify them by means of a
+qualifier. It is unrealistic to expect software to identify notations
+as such by means of the value qualifier for subject, as there is a
+potentially huge list of value qualifiers which cover subject
+headings, and thesauri as well as classification
+notations. </my:comment>
+  <my:note>Looks like a data-type to me...</my:note>
+  <rdfs:subPropertyOf rdf:resource = "subject" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<!-- Data Type declarations -->
+
+<my:DataType rdf:ID = "LCSH">
+  <rdfs:label>LCSH</rdfs:label>
+  <rdfs:comment>Library of Congress Subject Headings</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "SubjectScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "DDC">
+  <rdfs:label>DDC</rdfs:label>
+  <rdfs:comment>Dewey Decimal Classification</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "SubjectScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "UDC">
+  <rdfs:label>UDC</rdfs:label>
+  <rdfs:comment>Universal Decimal Classification</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "SubjectScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "MESH">
+  <rdfs:label>MeSH</rdfs:label>
+  <rdfs:comment>Medical Subject Headings</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "SubjectScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<!-- End: Subject -->
+
+
+<!-- Begin: Description -->
+
+<rdf:Property rdf:ID = "description">
+  <rdfs:label>Description</rdfs:label>
+  <rdfs:comment>An account of the content of the resource.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<!-- suProperty declarations -->
+
+<rdf:Property rdf:ID = "abstract">
+  <rdfs:label>Abstract</rdfs:label>
+  <rdfs:comment>A summary of the content of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "description" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "note">
+  <rdfs:label>Note</rdfs:label>
+  <rdfs:comment>Any additional information about the content of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "description" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "tableOfContents">
+  <rdfs:label>Table Of Contents</rdfs:label>
+  <rdfs:comment>A list of subunits of the content of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "description" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "release">
+  <rdfs:label>Release</rdfs:label>
+  <rdfs:comment>An identification of the edition, release or version of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "description" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<!-- End: Description -->
+
+
+<!-- Begin: Date -->
+
+<rdf:Property rdf:ID = "date">
+  <rdfs:label>Date</rdfs:label>
+  <rdfs:comment>A date associated with an event in the life cycle of the resource.</rdfs:comment>
+  <my:comment>Typically, Date will be associated with the creation or
+availability of the resource.  Recommended best practice for encoding
+the date value is defined in a profile of ISO 8601 [W3CDTF] and
+follows the YYYY-MM-DD format.</my:comment>
+  <rdfs:range rdf:resource = "DateScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<!-- Property declaration -->
+
+<rdf:Property rdf:ID = "creationDate">
+  <rdfs:label>Creation Date</rdfs:label>
+  <rdfs:comment>A date of creation associated with the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "date" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "issuedDate">
+  <rdfs:label>Issued Date</rdfs:label>
+  <rdfs:comment>Date of formal issuance (e.g., publication) of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "date" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "modificationDate">
+  <rdfs:label>Modification Date</rdfs:label>
+  <rdfs:comment>Date on which the resource was changed.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "date" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "validDate">
+  <rdfs:label>Valid Date</rdfs:label>
+  <rdfs:comment>Date of validity of a resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "date" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "availiableDate">
+  <rdfs:label>Availiable Date</rdfs:label>
+  <rdfs:comment>Date that the resource will become (or did become) available.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "date" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<!-- Data Types -->
+
+<my:DataType rdf:ID = "W3CDTF">
+  <rdfs:label>W3C-DTF</rdfs:label>
+  <rdfs:comment>W3C Encoding rules for dates and times - a profile based on ISO8601 </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "DateScheme" />
+  <rdfs:seeAlso rdf:resource = "http://www.w3.org/TR/NOTE-datetime" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" /> 
+</my:DataType>
+
+<my:DataType rdf:ID = "DateRange">
+  <rdfs:label>DCMI Date Range</rdfs:label>
+  <rdfs:comment>DCMI Date Encoding rules for date ranges.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "DateScheme" />
+  <rdfs:seeAlso rdf:resource = "http://www.mailbase.ac.uk/lists/dc-usage/files/date-final.html" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" /> 
+</my:DataType>
+
+<!-- End: Date -->
+
+
+<!-- Begin: Type -->
+
+<rdf:Property rdf:ID = "type">
+  <rdfs:label>Type</rdfs:label>
+  <rdfs:comment>The nature or genre of the content of the resource.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+  <rdfs:range rdf:resource = "TypeScheme" />
+</rdf:Property>
+
+<my:DataType rdf:ID = "DCMIType">
+  <rdfs:label>DCMI Types</rdfs:label>
+  <rdfs:comment>A controlled vocabulary indicating the nature or genre of the resource.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+  <rdfs:subClassOf rdf:resource = "TypeScheme" />
+  <rdfs:seeAlso rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</my:DataType>
+
+<!-- End: Type -->
+
+
+<!-- Begin: format -->
+
+<rdf:Property rdf:ID = "format">
+  <rdfs:label>Format</rdfs:label>
+  <rdfs:comment>The physical or digital manifestation of the
+resource.</rdfs:comment>
+  <my:comment> Typically, Format may include the media-type or
+dimensions of the resource. Format may be used to determine the
+software, hardware or other equipment needed to display or operate the
+resource. Examples of dimensions include size and duration.
+Recommended best practice is to select a value from a controlled
+vocabulary (for example, the list of Internet Media Types [MIME]
+defining computer media formats).</my:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "extent">
+  <rdfs:label>Extent</rdfs:label>
+  <rdfs:comment>The size or duration of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "format" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "medium">
+  <rdfs:label>Medium</rdfs:label>
+  <rdfs:comment>The media-type of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "format" />
+  <rdfs:range rdf:resource = "MediumScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+
+<!-- Data types -->
+
+<my:DataType rdf:ID = "IMT">
+  <rdfs:label>IMT</rdfs:label>
+  <rdfs:comment>The Internet MIME Type of the resource.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "MediumScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+  <rdfs:seeAlso rdf:resource = "http://www.isi.edu/in-notes/iana/assignments/media-types/media-types" />
+</my:DataType>
+
+
+<!-- End: format -->
+
+<!-- Begin: identifier -->
+
+<rdf:Property rdf:ID = "identifier">
+  <rdfs:label>Resource Identifier</rdfs:label>
+  <rdfs:comment>An unambiguous reference to the resource within a given context.</rdfs:comment>
+  <my:comment>Recommended best practice is to identify the resource by
+means of a string or number conforming to a formal identification
+system.  Example formal identification systems include the Uniform
+Resource Identifier (URI) (including the Uniform Resource Locator
+(URL)), the Digital Object Identifier (DOI) and the International
+Standard Book Number (ISBN).</my:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<!-- Begin: language -->
+
+<rdf:Property rdf:ID = "language">
+  <rdfs:label>Language</rdfs:label>
+  <rdfs:comment> A language of the intellectual content of the resource.</rdfs:comment>
+  <my:comment> Recommended best practice for the values of the
+Language element is defined by RFC 1766 [RFC1766] which includes a
+two-letter Language Code (taken from the ISO 639 standard [ISO639]),
+followed optionally, by a two-letter Country Code (taken from the ISO
+3166 standard [ISO3166]).  For example, 'en' for English, 'fr' for
+French, or 'en-uk' for English used in the United
+Kingdom.</my:comment>
+  <rdfs:range rdf:resource = "LanguageScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<!-- Data Type declarations -->
+
+<my:DataType rdf:ID = "RFC1766">
+  <rdfs:label>RFC1766</rdfs:label>
+  <rdfs:comment>Internet RFC 1766 'Tags for the identification of Language' specifies a two letter code taken from ISO 639, followed optionally by a two letter country code taken from ISO 3166.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "LanguageScheme" />
+  <rdfs:seeAlso rdf:resource = "http://www.ietf.org/rfc/rfc1766.txt" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "ISO6392">
+  <rdfs:label>ISO639-2</rdfs:label>
+  <rdfs:comment>Technical contents of ISO 639:1988 'Code for the representation of names of languages'.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "LanguageScheme" />
+  <rdfs:seeAlso rdf:resource = "ftp://dkuug.dk/i18n/ISO_639" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<!-- End: language -->
+
+
+<!-- Begin: Relation -->
+
+<rdf:Property rdf:ID = "relation">
+  <rdfs:label>Relation</rdfs:label>
+  <rdfs:comment> A reference to a related resource.</rdfs:comment>
+  <my:comment> Recommended best practice is to reference the resource
+by means of a string or number conforming to a formal identification
+system.</my:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "source">
+  <rdfs:label>Source</rdfs:label>
+  <rdfs:comment>A Reference to a resource from which the present resource is derived.</rdfs:comment>
+  <my:comment> The present resource may be derived from the Source
+resource in whole or in part.  Recommended best practice is to
+reference the resource by means of a string or number conforming to a
+formal identification system.</my:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+
+<!-- Property Declaration -->
+
+<rdf:Property rdf:ID = "isPartOf">
+  <rdfs:label>Is Part Of</rdfs:label>
+  <rdfs:comment>The described resource is a physical or logical part 
+of the referenced resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "hasPart">
+  <rdfs:label>Has Part</rdfs:label>
+  <rdfs:comment>The described resource includes the referenced resource either physically or logically. </rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "isVersionOf">
+  <rdfs:label>Is Version Of</rdfs:label>
+  <rdfs:comment>The described resource is a version, edition, or adaptation
+of the referenced resource. </rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "hasVersion">
+  <rdfs:label>Has Version</rdfs:label>
+  <rdfs:comment>The described resource has a version, edition, or adaptation, namely,
+the referenced resource. </rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "isFormatOf">
+  <rdfs:label>Is Format Of</rdfs:label>
+  <rdfs:comment>The described resource is essentially the same intellectual content of the pre-existing referenced resource and is 
+presented in another format. </rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "hasFormat">
+  <rdfs:label>Has Format</rdfs:label>
+  <rdfs:comment>The described resource pre-existed the referenced resource, which is essentially the same intellectual content presented in another format. </rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "References">
+  <rdfs:label>References</rdfs:label>
+  <rdfs:comment>The described resource references, cites, or otherwise points to the referenced resource.  </rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "isReferencedBy">
+  <rdfs:label>Is Referenced By</rdfs:label>
+  <rdfs:comment>The described resource is referenced, cited, or otherwise pointed to by the referenced resource. </rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "Requires">
+  <rdfs:label>Requires</rdfs:label>
+  <rdfs:comment>A 'Requires' relationship between two resources. The described resource requires the referenced resource, either physically or logically. </rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "isRequiredBy">
+  <rdfs:label>Is Required By</rdfs:label>
+  <rdfs:comment>The described resource is required by the referenced resource, either physically or logically.  </rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "replaces">
+  <rdfs:label>Replaces</rdfs:label>
+  <rdfs:comment>The described resource supplants, displaces, or supersedes the referenced resource. 
+</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "isReplacedBy">
+  <rdfs:label>Is Replaced By</rdfs:label>
+  <rdfs:comment>The described resource is supplanted, displaced, or superceded by the referenced resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+
+<!-- End: Relation -->
+
+
+<!-- Begin: coverage -->
+
+<rdf:Property rdf:ID = "coverage">
+  <rdfs:label>Coverage</rdfs:label>
+  <rdfs:comment> The extent or scope of the content of the resource.</rdfs:comment>
+  <my:comment>Coverage will typically include spatial location (a
+place name or geographic coordinates), temporal period (a period
+label, date, or date range) or jurisdiction (such as a named
+administrative entity).  Recommended best practice is to select a
+value from a controlled vocabulary (for example, the Thesaurus of
+Geographic Names [TGN]) and that, where appropriate, named places or
+time periods be used in preference to numeric identifiers such as sets
+of coordinates or date ranges.</my:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<!-- subProperty declarations -->
+
+<rdf:Property rdf:ID = "place">
+  <rdfs:label>Place</rdfs:label>
+  <rdfs:comment>Spatial characteristics of the intellectual content of the resoure.</rdfs:comment>
+  <rdfs:range rdf:resource = "PlaceScheme" />
+  <rdfs:subPropertyOf rdf:resource = "coverage" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "time">
+  <rdfs:label>Time</rdfs:label>
+  <rdfs:comment>Temporal characteristics of the intellectual content of the resource.</rdfs:comment>
+  <rdfs:range rdf:resource = "DateScheme" />
+  <rdfs:subPropertyOf rdf:resource = "coverage" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+
+<!-- Data Types -->
+
+<my:DataType rdf:ID = "DCMIBOX">
+  <rdfs:label>DCMI Box</rdfs:label>
+  <rdfs:comment>The DCMI Box identifies a region of space using its geographic limits.</rdfs:comment>
+  <my:comment>Note: A DCMI proposed encoding scheme</my:comment>
+  <rdfs:subClassOf rdf:resource = "PlaceScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+  <rdfs:seeAlso rdf:resource = "http://www.agcrc.csiro.au/projects/3018CO/metadata/dcbox/" />
+</my:DataType>
+
+<my:DataType rdf:ID = "DCMIPOINT">
+  <rdfs:label>DCMI Point</rdfs:label>
+  <rdfs:comment>The DCMI Point identifies a point in space using its geographic coordinates.</rdfs:comment>
+  <my:comment>Note: A DCMI proposed encoding scheme</my:comment>
+  <rdfs:subClassOf rdf:resource = "PlaceScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+  <rdfs:seeAlso rdf:resource = "http://www.agcrc.csiro.au/projects/3018CO/metadata/dcpoint/" />
+</my:DataType>
+
+<my:DataType rdf:ID = "TGN">
+  <rdfs:label>TGN</rdfs:label>
+  <rdfs:comment>The Getty Thesaurus of Geographic Names</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "PlaceScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+  <rdfs:seeAlso rdf:resource = "http://www.gii.getty.edu/vocabulary/tgn.html" />
+</my:DataType>
+
+<my:DataType rdf:ID = "DD">
+  <rdfs:label>Decimal Degrees</rdfs:label>
+  <rdfs:comment>A latitude and longitude expressed in decimal degrees</rdfs:comment>
+  <my:comment>Note: A DCMI proposed encoding scheme</my:comment>
+  <rdfs:subClassOf rdf:resource = "PlaceScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "DMS">
+  <rdfs:label>Degrees, minutes, seconds</rdfs:label>
+  <rdfs:comment>A latitude and longitude expressed in degrees, minutes, seconds.</rdfs:comment>
+  <my:comment>Note: A DCMI proposed encoding scheme</my:comment>
+  <rdfs:subClassOf rdf:resource = "PlaceScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "ISO3166">
+  <rdfs:label>ISO3166</rdfs:label>
+  <rdfs:comment>ISO3166 Codes for the representation of names of countries</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "PlaceScheme" />
+  <rdfs:seeAlso rdf:resource = "ftp://dkuug.dk/i18n/ISO_3166" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+
+<!-- End: coverage -->
+
+
+<!-- Begin: rights -->
+
+<rdf:Property rdf:ID = "rights">
+  <rdfs:label>Rights</rdfs:label>
+  <rdfs:comment> Information about rights held in and over the resource.</rdfs:comment>
+  <my:comment> Typically, a Rights element will contain a rights
+management statement for the resource, or reference a service
+providing such information. Rights information often encompasses
+Intellectual Property Rights (IPR), Copyright, and various Property
+Rights.  If the Rights element is absent, no assumptions can be made
+about the status of these and other rights with respect to the
+resource.</my:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<!-- End: rights -->
+
+
+<!-- Supporting semantic declarations for DC element normalization -->
+
+<my:DataType rdf:ID = "DateScheme">
+  <rdfs:label>Date Encoding Schemes</rdfs:label>
+  <rdfs:comment>A set of date encoding schemes and/or formats</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "PlaceScheme">
+  <rdfs:label>Place Encoding Schemes</rdfs:label>
+  <rdfs:comment>A set of geographic place encoding schemes and/or formats</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "SubjectScheme">
+  <rdfs:label>Subject Encoding Schemes</rdfs:label>
+  <rdfs:comment>A set of subject encoding schemes and/or formats</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "MediumScheme">
+  <rdfs:label>Medium Encoding Schemes</rdfs:label>
+  <rdfs:comment>A set of medium encoding schemes and/or formats.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "NameScheme">
+  <rdfs:label>Name Encoding Schemes</rdfs:label>
+  <rdfs:comment>A set of name encoding schemes and/or formats.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "LanguageScheme">
+  <rdfs:label>Language Encoding Schemes</rdfs:label>
+  <rdfs:comment>A set of language encoding schemes and/or formats.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "TypeScheme">
+  <rdfs:label>Type Encoding Schemes</rdfs:label>
+  <rdfs:comment>A set of Type encoding schemes and/or formats.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "RoleScheme">
+  <rdfs:label>Party Role Encoding Schemes</rdfs:label>
+  <rdfs:comment>A set of Party Role encoding schemes and/or formats.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</my:DataType>
+
+<my:DataType rdf:ID = "IdentifierScheme">
+  <rdfs:label>Identifier Encoding Schemes</rdfs:label>
+  <rdfs:comment>A set of Identified encoding schemes and/or formats.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv" />
+</my:DataType>
+
+
+</rdf:RDF>

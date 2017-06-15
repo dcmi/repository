@@ -1,0 +1,73 @@
+<?xml version = "1.0"?>
+
+<!-- 
+  DC Citation Publisher Vocabulary for the Dublin Core Metadat Initiative 
+  2000/03/31
+  comments, etc. to eric miller, emiller@oclc.org 
+-->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      	 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dc="http://rdf.dev.oclc.org/eor/2000/03/13-dces#"
+         xmlns:my="http://rdf.dev.oclc.org/eor/2000/03/13-myrdf#">
+
+<my:Schema rdf:about="http://rdf.dev.oclc.org/eor/2000/03/31-dcpublisher">
+  <!-- dumb down rule... use rdf:value for a simple default name -->	
+  <rdf:value>The Dublin Core Publisher Vocabulary</rdf:value> 
+  <dc:title>The Dublin Core PublisherVocabulary</dc:title>
+  <dc:creator>The Dublin Core Metadata Initiative</dc:creator>
+  <dc:description>The Dublin Core metadata publisher vocabulary is a simple vocabulary
+      intended to facilitate description and citation of published resources. </dc:description>
+  <dc:language>English</dc:language>
+  <dc:date>2000-03-31</dc:date>
+</my:Schema>
+
+
+<!-- Begin Type Declaration -->
+
+<!-- addition DC Vocabulary range declarations -->
+
+<rdf:Description rdf:ID = "http://rdf.dev.oclc.org/eor/2000/03/13-dces#type">
+  <rdfs:range rdf:resource = "Resource" />
+</rdf:Description>
+
+<!-- Class declaration -->
+
+<rdfs:Class rdf:ID = "Article">
+  <rdfs:label>Article</rdfs:label>
+  <rdfs:comment>An article.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "http://rdf.dev.oclc.org/eor/2000/03/31-dctype#Resource" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/03/31-dcpublisher" />
+</rdfs:Class>
+
+<!-- Properties declaration -->
+
+<rdf:Property rdf:ID = "journal">
+  <rdfs:label>Journal</rdfs:label>
+  <rdfs:comment>A journal.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/2000/03/13-dces#date" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/03/31-dcpublisher" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "volume">
+  <rdfs:label>Volume</rdfs:label>
+  <rdfs:comment>A Volume.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/2000/03/13-dces#date" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/03/31-dcpublisher" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "issue">
+  <rdfs:label>Issue</rdfs:label>
+  <rdfs:comment>An issue.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/2000/03/13-dces#date" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/03/31-dcpublisher" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "publicationDate">
+  <rdfs:label>Publication Date</rdfs:label>
+  <rdfs:comment>Date of formal publication of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/2000/03/13-dces#date" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/03/31-dcpublisher" />
+</rdf:Property>
+
+</rdf:RDF>

@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+
+<!-- 
+  RDF Schema declaration for the Dublin Core Element Set 1.1
+  2001/08/14
+  comments, etc. to webteam <http://dublincore.org/feedback/dcmiFeedbackServlet>
+-->
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+         xmlns:eor="&eorns;">
+
+<!-- Description of Schema -->	
+
+<eor:Schema rdf:about="&dcns;">
+  <rdf:value>The Dublin Core Element Set v1.1</rdf:value>
+  <dc:title>The Dublin Core Element Set v1.1</dc:title>
+  <dc:publisher>The Dublin Core Metadata Initiative</dc:publisher>
+  <dc:description>The Dublin Core metadata vocabulary is a simple vocabulary
+      intended to facilitate discovery of resources. </dc:description>
+  <dc:language>English</dc:language>
+  <dc:relation rdf:resource="http://dublincore.org/documents/dces/"/>
+  <dc:date>2000-07-02</dc:date>
+</eor:Schema>
+
+<!-- Begin: Title Declaration -->
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label>&#x6807;&#x9898;</rdfs:label>
+  <rdfs:comment>&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x7684;&#x9898;&#x76ee;&#xff0c;&#x901a;&#x5e38;&#x7531;&#x521b;&#x4f5c;&#x8005;&#x6216;&#x51fa;&#x7248;&#x8005;&#x8d4b;&#x4e88;&#x3002;</rdfs:comment>
+  <eor:comment>Typically, a Title will be a name by which the resource
+  is formally known.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label>&#x534f;&#x4f5c;&#x8005;</rdfs:label>
+  <rdfs:comment>&#x534f;&#x52a9;&#x521b;&#x4f5c;&#x8005;&#x4f7f;&#x5f97;&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x5f97;&#x4ee5;&#x4f53;&#x73b0;&#x7684;&#x4e2a;&#x4eba;&#x6216;&#x56e2;&#x4f53;&#xff0c;&#x4f8b;&#x5982;&#xff1a;&#x7f16;&#x8005;&#x3001;&#x8a8a;&#x5199;&#x8005;&#x3001;&#x63d2;&#x56fe;&#x8005;&#x7b49;&#x7b49;&#x3002;</rdfs:comment>
+  <eor:comment>Examples of a Contributor include a person, an
+  organisation, or a service.  Typically, the name of a Contributor
+  should be used to indicate the entity.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label>&#x521b;&#x4f5c;&#x8005;</rdfs:label>
+  <rdfs:comment>&#x521b;&#x4f5c;&#x8be5;&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x7684;&#x7406;&#x8bba;&#x8981;&#x65e8;&#x7684;&#x4e2a;&#x4eba;&#x6216;&#x56e2;&#x4f53;&#x3002;</rdfs:comment>
+  <eor:comment> Examples of a Creator include a person, an
+  organisation, or a service. Typically, the name of a Creator should
+  be used to indicate the entity.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label>&#x51fa;&#x7248;&#x8005;</rdfs:label>
+  <rdfs:comment>&#x8d1f;&#x8d23;&#x5c06;&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x5236;&#x4f5c;&#x4e3a;&#x5f53;&#x524d;&#x683c;&#x5f0f;&#x7684;&#x5b9e;&#x4f53;&#xff0c;&#x4f8b;&#x5982;&#x51fa;&#x7248;&#x793e;&#x3001;&#x9662;&#x6821;&#x6216;&#x516c;&#x53f8;&#x5b9e;&#x4f53;&#x7b49;&#x3002;</rdfs:comment>
+  <eor:comment> Examples of a Publisher include a person, an
+  organisation, or a service.  Typically, the name of a Publisher
+  should be used to indicate the entity.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label>&#x4e3b;&#x9898;</rdfs:label>
+  <rdfs:comment>&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x6240;&#x63a2;&#x8ba8;&#x7684;&#x4e3b;&#x9898;&#x9886;&#x57df;&#xff0c;&#x5178;&#x578b;&#x7684;&#x7528;&#x6cd5;&#x662f;&#x7528;&#x5173;&#x952e;&#x5b57;&#x6216;&#x77ed;&#x8bed;&#x6765;&#x63cf;&#x8ff0;&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x7684;&#x4e3b;&#x9898;&#x6216;&#x5185;&#x5bb9;&#x4f46;&#x540c;&#x65f6;&#x4e5f;&#x5f88;&#x9f13;&#x52b1;&#x8fd0;&#x7528;&#x63a7;&#x5236;&#x8bcd;&#x6c47;&#x8868;&#x6216;&#x89c4;&#x8303;&#x5206;&#x7c7b;&#x7cfb;&#x7edf;&#x3002;</rdfs:comment>
+  <eor:comment> Typically, a Subject will be expressed as keywords,
+  key phrases or classification codes that describe a topic of the
+  resource.  Recommended best practice is to select a value from a
+  controlled vocabulary or formal classification scheme.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label>&#x63cf;&#x8ff0;</rdfs:label>
+  <rdfs:comment>&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x5185;&#x5bb9;&#x7684;&#x6587;&#x672c;&#x63cf;&#x8ff0;&#xff0c;&#x5305;&#x62ec;&#x5bf9;&#x4e8e;&#x6587;&#x672c;&#x6587;&#x4ef6;&#x7684;&#x6458;&#x8981;&#xff0c;&#x6216;&#x5bf9;&#x4e8e;&#x56fe;&#x50cf;&#x8d44;&#x6e90;&#x7684;&#x5185;&#x5bb9;&#x63cf;&#x8ff0;&#x3002;</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label>&#x65e5;&#x671f;</rdfs:label>
+  <rdfs:comment>&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x521b;&#x5efa;&#x548c;&#x66f4;&#x65b0;&#x7b49;&#x7684;&#x76f8;&#x5173;&#x65e5;&#x671f;&#x3002;</rdfs:comment>
+  <eor:comment>Typically, Date will be associated with the creation or
+  availability of the resource.  Recommended best practice for
+  encoding the date value is defined in a profile of ISO 8601 [W3CDTF]
+  and follows the YYYY-MM-DD format.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label>&#x7c7b;&#x578b;</rdfs:label>
+  <rdfs:comment>&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x7684;&#x5206;&#x7c7b;&#xff0c;&#x4f8b;&#x5982;&#x4e3b;&#x9875;&#x3001;&#x5c0f;&#x8bf4;&#x3001;&#x8bba;&#x6587;&#x3001;&#x6280;&#x672f;&#x62a5;&#x544a;&#x3001;&#x5b57;&#x5178;&#x7b49;&#x7b49;&#x3002;</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label>&#x683c;&#x5f0f;</rdfs:label>
+  <rdfs:comment>&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x7684;&#x6570;&#x636e;&#x683c;&#x5f0f;&#xff0c;&#x7528;&#x4e8e;&#x8bc6;&#x522b;&#x4f55;&#x79cd;&#x76f8;&#x5e94;&#x8f6f;&#x4ef6;&#x6216;&#x786c;&#x4ef6;&#x6765;&#x8fd0;&#x884c;&#x6216;&#x64cd;&#x4f5c;&#x8be5;&#x8d44;&#x6e90;&#x3002;</rdfs:comment>
+  <eor:comment> Typically, Format may include the media-type or
+  dimensions of the resource. Format may be used to determine the
+  software, hardware or other equipment needed to display or operate
+  the resource. Examples of dimensions include size and duration.
+  Recommended best practice is to select a value from a controlled
+  vocabulary (for example, the list of Internet Media Types [MIME]
+  defining computer media formats).</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label>&#x6807;&#x8bc6;&#x7b26;</rdfs:label>
+  <rdfs:comment>&#x7528;&#x4e8e;&#x552f;&#x4e00;&#x786e;&#x5b9a;&#x5730;&#x8bc6;&#x522b;&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x7684;&#x5b57;&#x7b26;&#x6216;&#x6570;&#x5b57;&#x7ec4;&#x6210;&#x7684;&#x5b57;&#x4e32;&#x3002;</rdfs:comment>
+  <eor:comment>Recommended best practice is to identify the resource
+  by means of a string or number conforming to a formal identification
+  system.  Example formal identification systems include the Uniform
+  Resource Identifier (URI) (including the Uniform Resource Locator
+  (URL)), the Digital Object Identifier (DOI) and the International
+  Standard Book Number (ISBN).</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label>&#x8bed;&#x8a00;</rdfs:label>
+  <rdfs:comment>&#x672c;&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x4e3b;&#x8981;&#x5185;&#x5bb9;&#x6240;&#x91c7;&#x7528;&#x4e4b;&#x8bed;&#x8a00;&#x3002;</rdfs:comment>
+  <eor:comment> Recommended best practice for the values of the
+  Language element is defined by RFC 1766 [RFC1766] which includes a
+  two-letter Language Code (taken from the ISO 639 standard [ISO639]),
+  followed optionally, by a two-letter Country Code (taken from the
+  ISO 3166 standard [ISO3166]).  For example, 'en' for English, 'fr'
+  for French, or 'en-uk' for English used in the United
+  Kingdom.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label>&#x5173;&#x7cfb;</rdfs:label>
+  <rdfs:comment>&#x5176;&#x4ed6;&#x76f8;&#x5173;&#x8d44;&#x6e90;&#x7684;&#x6807;&#x8bc6;&#x7b26;&#x53ca;&#x4e0e;&#x672c;&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x4e4b;&#x5173;&#x7cfb;&#x3002;</rdfs:comment>
+  <eor:comment> Recommended best practice is to reference the resource
+  by means of a string or number conforming to a formal identification
+  system.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label>&#x51fa;&#x5904;</rdfs:label>
+  <rdfs:comment>&#x672c;&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x7684;&#x6e90;&#x51fa;&#x5904;&#x8d44;&#x6e90;&#x4fe1;&#x606f;&#x3002;</rdfs:comment>
+  <eor:comment> The present resource may be derived from the Source
+  resource in whole or in part.  Recommended best practice is to
+  reference the resource by means of a string or number conforming to
+  a formal identification system.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label>&#x65f6;&#x7a7a;&#x8303;&#x56f4;</rdfs:label>
+  <rdfs:comment>&#x672c;&#x4fe1;&#x606f;&#x8d44;&#x6e90;&#x7684;&#x65f6;&#x95f4;&#x548c;&#x7a7a;&#x95f4;&#x7279;&#x6027;&#x3002;</rdfs:comment>
+  <eor:comment>Coverage will typically include spatial location (a
+  place name or geographic coordinates), temporal period (a period
+  label, date, or date range) or jurisdiction (such as a named
+  administrative entity).  Recommended best practice is to select a
+  value from a controlled vocabulary (for example, the Thesaurus of
+  Geographic Names [TGN]) and that, where appropriate, named places or
+  time periods be used in preference to numeric identifiers such as
+  sets of coordinates or date ranges.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label>&#x7248;&#x6743;</rdfs:label>
+  <rdfs:comment>&#x7248;&#x6743;&#x58f0;&#x660e;&#x3002;</rdfs:comment>
+  <eor:comment> Typically, a Rights element will contain a rights
+  management statement for the resource, or reference a service
+  providing such information. Rights information often encompasses
+  Intellectual Property Rights (IPR), Copyright, and various Property
+  Rights.  If the Rights element is absent, no assumptions can be made
+  about the status of these and other rights with respect to the
+  resource.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+</rdf:RDF>

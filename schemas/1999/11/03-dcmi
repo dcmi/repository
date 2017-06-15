@@ -1,0 +1,47 @@
+<!-- The Dublin Core Metadata Initiative Organizational Vocabulary -->
+
+<?xml version = "1.0"?>
+
+<rdf:RDF
+  xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs = "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+  xmlns:dc = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#"
+  xmlns:dct = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#">
+
+<dct:Schema rdf:about = "">
+  <dc:title>The Dublin Core Metadata Initiative Organization Vocabulary </dc:title>
+  <dc:creator>The Dublin Core Metadata Initiative</dc:creator>
+  <dc:description>The Dublin Core metadata organization vocabulary is a simple vocabulary
+      intended to manage and describe members of the DCMI community.</dc:description>
+  <dc:date>1999-11-03</dc:date>
+</dct:Schema>
+
+<rdfs:Class rdf:ID = "DCD">
+  <rdfs:label>The Dublin Core Directorate</rdfs:label>
+  <rdfs:comment>The Dublin Core Directorate will, in consultation with
+advisory committees, render judgments as to the character of the
+consensus and the state of the Dublin Core.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Property>
+
+<rdfs:Class rdf:ID = "DCEC">
+  <rdfs:label>The Dublin Core Executive Committee</rdfs:label>
+  <rdfs:comment> The Dublin Core Executive Committee (DC-EC) is
+comprised of the Director and Associate Director of the Dublin Core
+Directorate and three additional members chosen from the DC-Advisory
+Committee based on their demonstrated expertise and institutional
+commitment to the advancement of the Dublin Core Metadata
+Initiative.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Property>
+
+<rdfs:Class rdf:ID = "DCAC">
+  <rdfs:label>The Dublin Core Advisory Committee</rdfs:label>
+  <rdfs:comment>The Dublin Core Advisory Committee (DC-AC) is
+comprised of individuals selected for their technical and policy
+contributions to theadvancement of the Dublin Core Metadata
+Initiative. </rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Property>
+
+</rdf:RDF>

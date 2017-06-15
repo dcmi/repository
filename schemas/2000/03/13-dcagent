@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      	 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dc="http://dublincore.org/2000/03/13-dces#"
+         xmlns:eor="http://dublincore.org/2000/03/13-eor#">
+
+<!-- Description of Schema -->	
+
+<eor:Schema rdf:about="http://dublincore.org/2000/03/13-dcagent">
+  <!-- dumb down rule... use rdf:value for a simple default name -->	
+  <rdf:value>The Dublin Core Agent Core Vocabulary</rdf:value> 
+  <dc:title>The Dublin Core Agent Core Vocabulary</dc:title>
+  <dc:creator>The Dublin Core Metadata Initiative</dc:creator>
+  <dc:description>The Dublin Core metadata vocabulary is a simple vocabulary
+      intended to facilitate the discovery and description of agents.</dc:description>
+  <dc:language>English</dc:language>
+  <dc:date>2000-03-13</dc:date>
+</eor:Schema>
+
+
+<!-- Begin: Agent Declaration -->
+
+<!-- addition DC Vocabulary range declarations -->
+
+<rdf:Description rdf:ID = "http://dublincore.org/2000/03/13-dces#contributor">
+  <rdfs:range rdf:resource = "Agent" />
+</rdf:Description>
+
+<rdf:Description rdf:ID = "http://dublincore.org/2000/03/13-dces#creator">
+  <rdfs:range rdf:resource = "Agent" />
+</rdf:Description>
+
+<rdf:Description rdf:ID = "http://dublincore.org/2000/03/13-dces#publisher">
+  <rdfs:range rdf:resource = "Agent" />
+</rdf:Description>
+
+
+<!-- Class declaration -->
+
+<rdfs:Class rdf:ID = "Agent">
+  <rdfs:label>Agent</rdfs:label>
+  <rdfs:comment>An agent</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "http://dublincore.org/2000/03/13-dctype#Resource" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-dcagent" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Person">
+  <rdfs:label>Person</rdfs:label>
+  <rdfs:comment>An individual human.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Agent" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-dcagent" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Organization">
+  <rdfs:label>Organization</rdfs:label>
+  <rdfs:comment>A group that that acts as an agent. Typical examples of organizations are associations, institutions, business firms, nonprofit enterprises, governments, government agencies, cultural groups, and religious bodies.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Agent" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-dcagent" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Event">
+  <rdfs:label>Event</rdfs:label>
+  <rdfs:comment>A non-persistent and time-based activity that acts as an agent. Typical examples of events are conferences, conventions, meetings, exhibitions, expositions ,festivals, athletic contests, workshops, and expeditions.</rdfs:comment>
+   <eor:note>Name change and relation defined due to overlap with Event declaration from dc:type work... not sure how best to handle this... </eor:note>
+  <rdfs:subClassOf rdf:resource = "Agent" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-dcagent" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Object">
+  <rdfs:label>Object</rdfs:label>
+  <rdfs:comment>A device that acts as an agent. Typical examples of objects are mechanical instruments, electronic services, non-human entities, and appliances.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Agent" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-dcagent" />
+</rdfs:Class>
+
+<!-- Properties associated with Classes -->
+
+<rdf:Property rdf:ID = "agentName">
+  <rdfs:label>Agent Name</rdfs:label>
+  <rdfs:comment>The formal or common name of the Agent</rdfs:comment>
+  <eor:comment>Typically, this would be the name which is used to refer to the Agent. The Family Name First Encoding Value Qualifier may also be used to express the order of the components of the Name.  Vocabularies of Names may also be used as values for this qualifier. </eor:comment>
+  <rdfs:domain rdf:resource = "Agent" />
+  <rdfs:range rdf:resource = "NameScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-dcagent" />
+</rdf:Property>
+
+<!-- Encoding Scheme declarations for Name -->
+
+<rdfs:Class rdf:ID = "NameScheme">
+  <rdfs:label>Name Encoding Schemes</rdfs:label>
+  <rdfs:comment>A set of name encoding schemes and/or formats.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-dcagent" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "FNF">
+  <rdfs:label>DCMI Family Name First</rdfs:label>
+  <rdfs:comment>The DCMI encoding rule in which the family name of the Agent appears first, followed by a comma, then all other names.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "NameScheme" />
+  <rdfs:seeAlso rdf:resource = "http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-dcagent" />
+</rdfs:Class>
+
+
+<!-- Agent Affiliation -->
+
+<rdf:Property rdf:ID = "agentAffiliation">
+  <rdfs:label>Agent Affiliation</rdfs:label>
+  <rdfs:comment>The organization with which the named Agent was associated when involved with the resource</rdfs:comment>
+  <rdfs:domain rdf:resource = "Agent" /> 
+ <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-dcagent" />
+</rdf:Property>
+
+<!-- Agent Indetifier -->
+
+<rdf:Property rdf:ID = "agentID">
+  <rdfs:label>Agent Identifier</rdfs:label>
+  <rdfs:comment>An unambiguous reference to the named Agent within a given context.</rdfs:comment>
+  <eor:comment>Recommended best practice is to identify the named Agent
+by means of a string or number conforming to a formal identification
+system. The recommended Encoding Value Qualifier is the Uniform
+Resource Identifier.  In some cases, the Agent Identifier may provide
+or lead to more information about the named Agent.</eor:comment>
+  <eor:note>This seems very wrong to me... again this seems like a syntactic mechansim for uniqly identifying some resource... this requirement is neccessary for all resource description and should be common (e.g. RDF)</eor:note>
+  <rdfs:domain rdf:resource = "Agent" />
+  <rdfs:range rdf:resource = "http://dublincore.org/2000/03/13-dcq#IdentifierScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-dcagent" />
+</rdf:Property>
+
+<!-- Agent Type -->
+
+<rdf:Property rdf:ID = "agentType">
+  <rdfs:label>Agent Type</rdfs:label>
+  <rdfs:comment>The type of the entity for the named Agent.</rdfs:comment>
+  <eor:comment>The values are defined in the DC Agent Type vocabulary (referred to as DCAT1) which is maintained by the DCMI.  Other terms may be used but are not recommended.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-dcagent" />
+  <rdfs:domain rdf:resource = "Agent" />
+</rdf:Property>
+
+
+<!-- End: Agent Declaration -->
+
+</rdf:RDF>

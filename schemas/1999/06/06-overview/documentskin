@@ -1,0 +1,63 @@
+body { 
+	color: #000; 
+	background: #FFF;
+	margin-left: 2%; 
+	margin-right:2%;
+      	font-family: Tahoma, Arial, Helvetica, sans-serif }
+
+a:link { 
+	color: #33F; 
+	background: #FFF }
+
+a:visited { 
+	color: #72F; 
+	background: #FFF }
+p.navbar { 
+	margin-left: 3%; 
+	margin-right: 3% }
+
+table.navbar td { 
+	margin-left: 20px; 
+	margin-right: 20px 
+      	font-family: Tahoma, Arial, Helvetica, sans-serif }
+
+p.navitem { 
+	font-size: 100%; 
+	margin-top: 0; 
+	margin-bottom: 0 }
+
+span.QuoteAttr { 
+	font-weight: bold }
+
+.shortquote { 
+	font-style: italic }
+
+.filler { 
+	color: yellow; 
+	background: black; 
+	font-weight: bold }
+
+.abstract {  
+	font-style: italic; }
+
+.uri {  
+	font-style: italic; }
+
+.example {
+	background: antiquewhite;
+      	padding: 0.2em 1em 0.2em 1em;
+      	border: none;
+      	whitespace: pre;
+      	font-family: monospace; }
+
+.assertion {
+      	background: lightblue;
+      	padding: 0.2em 1em 0.2em 1em;
+      	border: none;
+      	whitespace: pre;
+      	font-family: monospace; }
+
+.caption {
+      	margin-left: 5%;
+      	font-weight: bold; }
+

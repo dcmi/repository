@@ -1,0 +1,21 @@
+<?xml version = "1.0" ?>
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <!ENTITY rdfsns "http://www.w3.org/2000/01/rdf-schema#">
+        <!ENTITY dcterms "http://purl.org/dc/terms/">
+        <!ENTITY dcu "http://dublincore.org/usage/terms/dcu/">
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dcterms="&dcterms;"
+         xmlns:dcu="&dcu;">
+
+<rdf:Property rdf:about = "&dcu;qualifies">
+  <rdfs:label>qualifies</rdfs:label>
+  <dcterms:issued>2002-02-14</dcterms:issued>
+</rdf:Property>
+
+</rdf:RDF>
+

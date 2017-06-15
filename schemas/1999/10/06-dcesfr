@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+  xmlns:dc="http://rdf.dev.oclc.org/eor/1997/10/02-dces#">
+
+  <rdf:Description about = ""
+     dc:title = "Dublin Core Metadata Initiative Qualifier Vocabulary"
+     dc:contributor = "The Dublin Core Metadata Inititative"
+     dc:description = "The Dublin Core is a simple metadata element
+         set intended to facilitate discovery of electronic
+         resources. (German Version)"
+     dc:date = "1995-03-01"/>
+
+   <rdf:Description rdf:about = "http://rdf.dev.oclc.org/eor/1997/10/02-dces#title"
+     rdfs:label = "Achtung"
+     rdfs:comment = "The german version of title">
+     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+   </rdf:Description>
+
+</rdf:RDF>

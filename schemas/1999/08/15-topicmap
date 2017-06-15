@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/TR/WD-rdf-schema#">
+
+<rdf:Property rdf:ID = "narrow">
+  <rdfs:label>Narrower</rdfs:label>
+  <rdfs:comment>A narrower topic</rdfs:comment>
+</rdf:Property>
+
+<rdf:Property rdf:ID = "broad">
+  <rdfs:label>Broader</rdfs:label>
+  <rdfs:comment>A broader topic</rdfs:comment>
+</rdf:Property>
+
+<rdf:Property rdf:ID = "link">
+  <rdfs:label>Is defined in</rdfs:label>
+  <rdfs:comment>A resource that is discussing a particular topic </rdfs:comment>
+</rdf:Property>
+
+</rdf:RDF>

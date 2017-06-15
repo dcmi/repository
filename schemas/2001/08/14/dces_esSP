@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+
+<!-- 
+  RDF Schema declaration for the Dublin Core Element Set 1.1
+  2001/08/14
+  comments, etc. to webteam <http://dublincore.org/feedback/dcmiFeedbackServlet>
+-->
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+         xmlns:eor="&eorns;">
+
+<!-- Description of Schema -->	
+
+<eor:Schema rdf:about="&dcns;">
+  <rdf:value>The Dublin Core Element Set v1.1</rdf:value>
+  <dc:title>The Dublin Core Element Set v1.1</dc:title>
+  <dc:publisher>The Dublin Core Metadata Initiative</dc:publisher>
+  <dc:description>The Dublin Core metadata vocabulary is a simple vocabulary
+      intended to facilitate discovery of resources. </dc:description>
+  <dc:language>English</dc:language>
+  <dc:relation rdf:resource="http://dublincore.org/documents/dces/"/>
+  <dc:date>2000-07-02</dc:date>
+</eor:Schema>
+
+<!-- Begin: Title Declaration -->
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label>T&#0237;tulo</rdfs:label>
+  <rdfs:comment>El nombre dado a un recurso, usualmente por el autor.</rdfs:comment>
+  <eor:comment>Typically, a Title will be a name by which the resource
+  is formally known.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label>Otros Colaboradores</rdfs:label>
+  <rdfs:comment>Una persona u organizacion que haya tenido una contribuci&#0243;n intelectual 
+  significativa en la creaci&#0243;n del recurso pero cuyas contribuciones son secundarias en 
+  comparaci&#0243;n a las de las personas u organizaciones especificadas en el elementeo Creator 
+  (por ejemplo, editor, ilustrador y traductor).</rdfs:comment>
+  <eor:comment>Examples of a Contributor include a person, an
+  organisation, or a service.  Typically, the name of a Contributor
+  should be used to indicate the entity.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label>Autor o Creador</rdfs:label>
+  <rdfs:comment>La persona u organizaci&#0243;n responsable de la creaci&#0243;n del contenido intelectual 
+  del recurso. Por ejemplo, los autores en el caso de documentos escritos, artistas, fotografos 
+  e ilustradores en el caso de recursos visuales.</rdfs:comment>
+  <eor:comment> Examples of a Creator include a person, an
+  organisation, or a service. Typically, the name of a Creator should
+  be used to indicate the entity.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label>Editor</rdfs:label>
+  <rdfs:comment>La entidad responsable de hacer que el recurso se encuentre disponible en la 
+  red en su formato actual, por ejemplo la empresa editora, un departamento universitario u 
+  otro tipo de organizaci&#0243;n.</rdfs:comment>
+  <eor:comment> Examples of a Publisher include a person, an
+  organisation, or a service.  Typically, the name of a Publisher
+  should be used to indicate the entity.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label>Subject y Claves</rdfs:label>
+  <rdfs:comment>Los t&#0243;picos del recurso. T&#0237;picamente, Subject expresar&#0225; las claves o frases 
+  que describen el t&#0237;tulo o el contenido del recurso. Se fomentar&#0225; el uso de vocabularios 
+  controlados y de sistemas de clasificaci&#0243;n formales.</rdfs:comment>
+  <eor:comment> Typically, a Subject will be expressed as keywords,
+  key phrases or classification codes that describe a topic of the
+  resource.  Recommended best practice is to select a value from a
+  controlled vocabulary or formal classification scheme.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label>Descripci&#0243;n</rdfs:label>
+  <rdfs:comment>Una descripci&#0243;n textual del recurso, tal como un resumen en el caso de un 
+  documento o una descripci&#0243;n del contenido en el caso de un documento visual.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label>Fecha</rdfs:label>
+  <rdfs:comment>Una fecha en la que el recurso se puso a disposici&#0243;n del usuario en su 
+  forma actual. Esta fecha no ha de confundirse con la que pertenece al elemento Coverage, 
+  que ser&#0237;a asociada con el recurso s&#0243;lo en la medida en que el contenido intelectual est&#0225; 
+  de alg&#0250;n modo relacionado con esa fecha. Recomendamos la utiliazaci&#0243;n de uno de los 
+  formatos definidos en el documento &quot;Date and Time Formats&quot;, 
+  http://www.w3.org/TR/NOTE-datetime basado en la norma ISO 8601 que incluye, 
+  entre otras, fechas en el formato AAAA y AAAA-MM-DD. De esta forma la fecha 1994-11-05 
+  corresponder&#0237;a al 5 de Noviembre de 1994.</rdfs:comment>
+  <eor:comment>Typically, Date will be associated with the creation or
+  availability of the resource.  Recommended best practice for
+  encoding the date value is defined in a profile of ISO 8601 [W3CDTF]
+  and follows the YYYY-MM-DD format.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label>Tipo del Recurso</rdfs:label>
+  <rdfs:comment>La categor&#0237;a del recurso, por ejemplo p&#0225;gina personal, romance, poema, 
+  minuta, diccionario. Para  asegurar la interoperabilidad, Type deber&#0237;a ser seleccionado 
+  de entre una lista de valores que actualmente se encuentra bajo desarrollo en un grupo 
+  de trabajo. En http://sunsite.berkeley.edu/Metadata/types.html se puede consultar el 
+  estado actual de la discusi&#0243;n en torno a este tema.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label>Formato</rdfs:label>
+  <rdfs:comment>El formato de datos de un recurso, usado para identificar el software y 
+  posiblemente, el hardware que se necesitar&#0237;a para mostrar el recurso. Para asegurar 
+  la interoperabilidad, los valores de Format deber&#0237;an ser seleccionados de entre una 
+  lista de valores que actualmente se encuentra bajo desarrollo en un grupo de trabajo.
+  </rdfs:comment>
+  <eor:comment> Typically, Format may include the media-type or
+  dimensions of the resource. Format may be used to determine the
+  software, hardware or other equipment needed to display or operate
+  the resource. Examples of dimensions include size and duration.
+  Recommended best practice is to select a value from a controlled
+  vocabulary (for example, the list of Internet Media Types [MIME]
+  defining computer media formats).</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label>Identificador del Recurso</rdfs:label>
+  <rdfs:comment>Secuencia de caracteres usados para identificar un&#0237;vocamente un recurso. 
+  Ejemplos para recursos en l&#0237;nea pueden ser URLs y URNs (cuando est&#0233;n implementados). 
+  Para otros recursos pueden ser usados otros formatos de identificadores, como por 
+  ejemplo ISBN (&quot;International Standard Book Number&quot; - N&#0250;mero Internacional 
+  Normalizado para Libros)</rdfs:comment>
+  <eor:comment>Recommended best practice is to identify the resource
+  by means of a string or number conforming to a formal identification
+  system.  Example formal identification systems include the Uniform
+  Resource Identifier (URI) (including the Uniform Resource Locator
+  (URL)), the Digital Object Identifier (DOI) and the International
+  Standard Book Number (ISBN).</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label>Lengua</rdfs:label>
+  <rdfs:comment>Lengua/s del contenido intelectual del recurso. Practicamente el contenido 
+  de este campo deber&#0237;a coincidir con los de la RFC 1766 (Tags para la identificaci&#0243;n de 
+  lenguas, http://ds.internic.net/rfc/rfc1766.txt ); por ejemplo: en, es, de, fi, ja y zh.
+  </rdfs:comment>
+  <eor:comment> Recommended best practice for the values of the
+  Language element is defined by RFC 1766 [RFC1766] which includes a
+  two-letter Language Code (taken from the ISO 639 standard [ISO639]),
+  followed optionally, by a two-letter Country Code (taken from the
+  ISO 3166 standard [ISO3166]).  For example, 'en' for English, 'fr'
+  for French, or 'en-uk' for English used in the United
+  Kingdom.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label>Relaci&#0243;n</rdfs:label>
+  <rdfs:comment>Un identificador de un segundo recurso y su relaci&#0243;n con el recurso 
+  actual. Este elemento permite enlazar los recursos relacionados y las descripciones 
+  de los recursos. Por ejemplo: IsVersionOf Incluye la edici&#0243;n de un trabajo IsBasedOn 
+  La traducci&#0243;n de un trabajo IsPartOf Un cap&#0237;tulo de un libro IsFormatOf Un mecanismo 
+  de transformaci&#0243;n de un conjunto de datos en una imagen Para asegurar la interoperabilidad, 
+  las relaciones deber&#0237;an ser seleccionadas de una lista de elementos que actualmente se 
+  encuentra bajo desarrollo en un grupo de trabajo.</rdfs:comment>
+  <eor:comment> Recommended best practice is to reference the resource
+  by means of a string or number conforming to a formal identification
+  system.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label>Fuente</rdfs:label>
+  <rdfs:comment>Secuencia de caracteres utilizado para identificar un&#0237;vocamente un trabajo 
+  a partir del cual proviene el recurso actual. Por ejemplo, es posible usar Source con la 
+  fecha de 1603 como descripci&#0243;n de una pel&#0237;cula basada en una obra de Shakespeare, pero es 
+  preferible, en ese caso, usar Relation &quot;IsBasedOn&quot; con una referencia a un recurso 
+  distinto cuya descripci&#0243;n contenga el elemento Date con valor 1603.</rdfs:comment>
+  <eor:comment> The present resource may be derived from the Source
+  resource in whole or in part.  Recommended best practice is to
+  reference the resource by means of a string or number conforming to
+  a formal identification system.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label>Cobertura</rdfs:label>
+  <rdfs:comment>La caracter&#0237;stica de cobertura espacial y/o temporal del contenido intelectual 
+  del recurso. La cobertura espacial se refiere a una regi&#0243;n f&#0237;sica (por ejemplo, sector 
+  celestial); uso de coordenadas (por ejemplo, longitud y latitud) o nombres de lugares 
+  extraidos de una lista controlada. La cobertura temporal se refiere al contenido del 
+  recurso en vez de a cuando fue creado o puesto accesible ya que este &#0250;ltimo pertenece al 
+  elemento Date. Se usa el mismo formato basado en http://www.w3.org/TR/NOTE-datetime.
+  </rdfs:comment>
+  <eor:comment>Coverage will typically include spatial location (a
+  place name or geographic coordinates), temporal period (a period
+  label, date, or date range) or jurisdiction (such as a named
+  administrative entity).  Recommended best practice is to select a
+  value from a controlled vocabulary (for example, the Thesaurus of
+  Geographic Names [TGN]) and that, where appropriate, named places or
+  time periods be used in preference to numeric identifiers such as
+  sets of coordinates or date ranges.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label>Derechos</rdfs:label>
+  <rdfs:comment>Una referencia (URL, por ejemplo) para una nota sobre derechos de autor, 
+  para un servicio de gesti&#0243;n de derechos o para un servicio que dar&#0225; informaci&#0243;n sobre t&#0233;rminos 
+  y condiciones de acceso a un recurso. Una especificaci&#0243;n formal del elemento Rights se encuentra 
+  catualmente en discusi&#0243;n y por lo tanto su uso se considera experimental.</rdfs:comment>
+  <eor:comment> Typically, a Rights element will contain a rights
+  management statement for the resource, or reference a service
+  providing such information. Rights information often encompasses
+  Intellectual Property Rights (IPR), Copyright, and various Property
+  Rights.  If the Rights element is absent, no assumptions can be made
+  about the status of these and other rights with respect to the
+  resource.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+</rdf:RDF>

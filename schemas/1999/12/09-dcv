@@ -1,0 +1,654 @@
+<?xml version = "1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      	 xmlns:rdfs="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+         xmlns:dc="http://krash.dev.oclc.org/eor/1999/12/09-dcv#">
+
+<dc:Schema rdf:about="http://krash.dev.oclc.org/eor/1999/12/09-dcv">
+  <dc:title>The Dublin Core Vocabulary v2.0</dc:title>
+  <dc:creator>The Dublin Core Metadata Initiative</dc:creator>
+  <dc:description>The Dublin Core metadata vocabulary is a simple vocabulary
+      intended to facilitate discovery of resources.</dc:description>
+  <dc:date>1999-12-09</dc:date>
+</dc:Schema>
+
+
+<!-- Begin: Title Declaration -->
+
+<rdf:Property rdf:ID = "title">
+  <rdfs:label>Title</rdfs:label>
+  <rdfs:comment>A name given to the resource.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<!-- Property Declaration -->
+
+<rdf:Property rdf:ID = "alternativeTitle">
+  <rdfs:label>Alternative Title</rdfs:label>
+  <rdfs:comment>The alternative title to which the resource is also known.</rdfs:comment>
+  <ev:comment>This qualifier can include Title abbreviations as well as translations.</ev:comment>
+  <rdfs:subPropertyOf rdf:resource = "title" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "releaseTitle">
+  <rdfs:label>Release Title</rdfs:label>
+  <rdfs:comment>A release title associated with a resource</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "title" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "mainTitle">
+  <rdfs:label>Main Title</rdfs:label>
+  <rdfs:comment>A main title associated with a resource</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "title" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<!-- End: Declaration -->
+
+
+<!-- Being: Agent Declaration -->
+
+<!-- Property declaration -->
+
+<rdf:Property rdf:ID = "contributor">
+  <rdfs:label>Contributor</rdfs:label>
+  <rdfs:comment>An entity responsible for making contributions to the content of the resource.</rdfs:comment>
+  <rdfs:range rdf:resource = "Party" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "creator">
+  <rdfs:label>Author/Creator</rdfs:label>
+  <rdfs:comment>An entity primarily responsible for making the content of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "contributor" />
+  <rdfs:range rdf:resource = "Party" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "publisher">
+  <rdfs:label>Publisher</rdfs:label>
+  <rdfs:comment>An entity responsible for making the resource available.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "contributor" />
+  <rdfs:range rdf:resource = "Party" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+
+<!-- Class declaration -->
+
+<rdfs:Class rdf:ID = "Person">
+  <rdfs:label>Person</rdfs:label>
+  <rdfs:comment>A person</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Party" />	
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Corporate">
+  <rdfs:label>Corporate</rdfs:label>
+  <rdfs:comment>A corporation</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Party" />	
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Conference">
+  <rdfs:label>Conference</rdfs:label>
+  <rdfs:comment>A conference</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Party" />	
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Instrument">
+  <rdfs:label>Instrument</rdfs:label>
+  <rdfs:comment>An instrument</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Party" />	
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<!-- Properties associated with Classes -->
+
+<rdf:Property rdf:ID = "name">
+  <rdfs:label>Name</rdfs:label>
+  <rdfs:comment>The agents name</rdfs:comment>
+  <rdfs:domain rdf:resource = "Party" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "affiliation">
+  <rdfs:label>Affiliation</rdfs:label>
+  <rdfs:comment>The agents affiliation</rdfs:comment>
+  <rdfs:domain rdf:resource = "Party" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "email">
+  <rdfs:label>Email</rdfs:label>
+  <rdfs:comment>The agents email address</rdfs:comment>
+  <rdfs:domain rdf:resource = "Party" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+
+<!-- Datatype declaration -->
+
+<rdfs:Class rdf:ID = "MARCCodes">
+  <rdfs:label>MARC Relator Codes</rdfs:label>
+  <rdfs:comment>MARC Relator Codes</rdfs:comment>
+  <rdfs:seeAlso rdf:resource = "http://www.loc.gov/" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "AATCode">
+  <rdfs:label>AAT Relator Codes</rdfs:label>
+  <rdfs:comment>AAT Relator Codes</rdfs:comment>
+  <rdfs:seeAlso rdf:resource = "http://www.getty.org/" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "LNF">
+  <rdfs:label>Last Name First</rdfs:label>
+  <rdfs:comment>Last Name First</rdfs:comment>
+  <rdfs:seeAlso rdf:resource = "http://purl.org/dc/documents/notes-cox-1999xxxx.html" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<!-- End: Agent Declaration -->
+
+
+<!-- Begin: Subject -->
+
+<rdf:Property rdf:ID = "subject">
+  <rdfs:label>Subject</rdfs:label>
+  <rdfs:comment>The topic of the content of the resource.</rdfs:comment>
+  <rdfs:range rdf:resource = "SubjectScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<!-- subProperty declarations -->
+<!-- note.. should this be a class/data-type? -->
+
+<rdf:Property rdf:ID = "classification">
+  <rdfs:label>Classification</rdfs:label>
+  <rdfs:comment>Subject identified by notation (code) taken from a controlled classification scheme.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "subject" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<!-- Data Type declarations -->
+
+<rdfs:Class rdf:ID = "LCSH">
+  <rdfs:label>LCSH</rdfs:label>
+  <rdfs:comment>Library of Congress Subject Headings</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "SubjectScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "DDC">
+  <rdfs:label>DDC</rdfs:label>
+  <rdfs:comment>Dewey Decimal Classification</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "SubjectScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "UDC">
+  <rdfs:label>UDC</rdfs:label>
+  <rdfs:comment>Universal Decimal Classification</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "SubjectScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "MESH">
+  <rdfs:label>MeSh</rdfs:label>
+  <rdfs:comment>Medical Subject Headings</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "SubjectScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<!-- End: Subject -->
+
+
+<!-- Begin: Description -->
+
+<rdf:Property rdf:ID = "description">
+  <rdfs:label>Description</rdfs:label>
+  <rdfs:comment>An account of the content of the resource.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<!-- suProperty declarations -->
+
+<rdf:Property rdf:ID = "abstract">
+  <rdfs:label>Abstract</rdfs:label>
+  <rdfs:comment>A summary of the content of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "description" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "note">
+  <rdfs:label>Note</rdfs:label>
+  <rdfs:comment>Any additional information about the content of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "description" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "tableOfContents">
+  <rdfs:label>Table Of Contents</rdfs:label>
+  <rdfs:comment>A list of subunits of the content of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "description" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "release">
+  <rdfs:label>Release</rdfs:label>
+  <rdfs:comment>An identification of the edition, release or version of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "description" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+
+
+<!-- End: Description -->
+
+
+<!-- Begin: Date -->
+
+<rdf:Property rdf:ID = "date">
+  <rdfs:label>Date</rdfs:label>
+  <rdfs:comment>A date associated with an event in the life cycle of the resource.</rdfs:comment>
+  <rdfs:range rdf:resource = "DateScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<!-- Property declaration -->
+
+<rdf:Property rdf:ID = "creationDate">
+  <rdfs:label>Creation Date</rdfs:label>
+  <rdfs:comment>A date of creation associated the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "date" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "issuedDate">
+  <rdfs:label>Issued Date</rdfs:label>
+  <rdfs:comment>Date of formal issuance (e.g., publication) of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "date" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "modificationDate">
+  <rdfs:label>Modification Date</rdfs:label>
+  <rdfs:comment>Date on which the resource was changed.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "date" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "validityDate">
+  <rdfs:label>Publication Date</rdfs:label>
+  <rdfs:comment>Date (often a range) of validity of a resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "date" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<!-- Data Types -->
+
+<rdfs:Class rdf:ID = "W3CDTF">
+  <rdfs:label>W3C ISO 8601 Profile</rdfs:label>
+  <rdfs:comment>W3C ISO 8601 Profile</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "dateScheme" />
+  <rdfs:seeAlso rdf:resource = "http://www.w3.org/TR/NOTE-datetime" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" /> 
+</rdfs:Class>
+
+<!-- End: Date -->
+
+
+<!-- Begin: Type -->
+
+<rdf:Property rdf:ID = "type">
+  <rdfs:label>Type</rdfs:label>
+  <rdfs:comment>The nature or genre of the content of the resource.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<!-- Class Declaration -->
+
+<rdfs:Class rdf:ID = "Collection">
+  <rdfs:label>Collection</rdfs:label>
+  <rdfs:comment>A collection is an aggregation of items. The term collection means that the resource is described as a group; its parts may be separately described and navigated.</rdfs:comment>
+<rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Dataset">
+  <rdfs:label>Dataset</rdfs:label>
+  <rdfs:comment>A dataset is a structured information encoded in lists, tables, databases, etc., which will normally be in a format available for direct machine processing. For example - spreadsheets, databases, GIS data, midi data. Note that unstructured numbers and words will normally be considered to be type text.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Event">
+  <rdfs:label>Event</rdfs:label>
+  <rdfs:comment>An event is a non-persistent, time-based occurrence. Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, responsible agents, and links to related events and resources. The resource of type event may not be retrievable if the described instantiation has expired or is yet to occur. Examples - exhibition, web-cast, conference, workshop, open-day, performance, battle, trial, wedding, tea-party, conflagration.  </rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Image">
+  <rdfs:label>Image</rdfs:label>
+  <rdfs:comment>An image is a primarily symbolic visual representation other than text. For example - images and photographs of physical objects, paintings, prints, drawings, other images and graphics, animations and moving pictures, film, diagrams, maps, musical notation. Note that image may include both electronic  and physical representations.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "InteractiveResource">
+  <rdfs:label>Interactive Resource</rdfs:label>
+  <rdfs:comment>An interactive resource is a resource which requires interaction from the user to be understood, executed, or experienced. For example - forms on web pages, applets, multimedia learning objects, chat services, virtual reality. </rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Model">
+  <rdfs:label>Model</rdfs:label>
+  <rdfs:comment>A model is an abstraction of the real thing, i.e. some generalisation and interpretation. Models could be considered a symbolic representation. Examples include  performance models, cost models, mechanical models, etc. </rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Party">
+  <rdfs:label>Party</rdfs:label>
+  <rdfs:comment>A person, organization, cultural group, or institution. </rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Place">
+  <rdfs:label>Place</rdfs:label>
+  <rdfs:comment>A geographic area.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "PhysicalObject">
+  <rdfs:label>Physical Object</rdfs:label>
+  <rdfs:comment>A Physical Object is a non-human object or substance. This category includes objects that do not fit into any of the other categories on this list. In addition these objects must  be approached physically to make use of them. For example - a computer, the great pyramid, a sculpture, wheat. Note that digital representations of, or  surrogates for, these things should use image, text or one of the other types. </rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Service">
+  <rdfs:label>Service</rdfs:label>
+  <rdfs:comment>A service is a system that provides one or more functions of value to the end-user. Examples include: a photocopying service, a banking service, an authentication service, interlibrary loans, a Z39.50 or Web server. </rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Software">
+  <rdfs:label>Software</rdfs:label>
+  <rdfs:comment>a computer program in source or compiled form which may be available for installation non-transiently on another machine. For software which exists only to create an interactive environment, use interactive instead. </rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Sound">
+  <rdfs:label>Sound</rdfs:label>
+  <rdfs:comment>A sound is a resource whose content is primarily audio or intended to be realized in audio. For example - music, speech, recorded sounds. This category includes  musical notation, including score, which is unrealized in sound.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Text">
+  <rdfs:label>Text</rdfs:label>
+  <rdfs:comment>A text is a resource whose content is primarily words for reading. For example - books, letters, dissertations, poems, newspapers, articles, archives of mailing lists.  Note that facsimiles or images of texts are still of the genre text. </rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+
+<!-- annotation: Schema Type declaration to support registry services, emiller@oclc.org -->
+
+<rdfs:Class rdf:ID = "Schema">
+  <rdfs:label>Schema</rdfs:label>
+  <rdfs:comment>An RDF schema</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Text" />	
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<!-- annotation: Article Type declaration to support dc-citation activity, emiller@oclc.org -->
+
+<rdfs:Class rdf:ID = "Article">
+  <rdfs:label>Article</rdfs:label>
+  <rdfs:comment>A Journal Article</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Text" />	
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<!-- annotation: Article Type declaration to support dc-citation activity, emiller@oclc.org -->
+
+<rdfs:Class rdf:ID = "Journal">
+  <rdfs:label>Journal</rdfs:label>
+  <rdfs:comment>A Journal</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Text" />	
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<!-- End: Type -->
+
+
+<!-- Begin: format -->
+
+<rdf:Property rdf:ID = "format">
+  <rdfs:label>Format</rdfs:label>
+  <rdfs:comment>The physical or digital manifestation of the
+resource.</rdfs:comment>
+  <rdfs:range rdf:resource = "FormatScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "extent">
+  <rdfs:label>Extent</rdfs:label>
+  <rdfs:comment>The size or duration of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "format" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "medium">
+  <rdfs:label>Medium</rdfs:label>
+  <rdfs:comment>The media-type of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "format" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+
+
+<!-- Data types -->
+
+<rdfs:Class rdf:ID = "IMT">
+  <rdfs:label>IMT</rdfs:label>
+  <rdfs:comment>The Internet MIME Type of the resource.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "FormatScheme" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+  <rdfs:seeAlso rdf:resource = "http://www.isi.edu/in-notes/iana/assignments/media-types/media-types" />
+</rdfs:Class>
+
+
+<!-- End: format -->
+
+<!-- Begin: identifier -->
+
+<rdf:Property rdf:ID = "identifier">
+  <rdfs:label>Identifier</rdfs:label>
+  <rdfs:comment>An unambiguous reference to the resource within a given context.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<!-- Begin: language -->
+
+<rdf:Property rdf:ID = "language">
+  <rdfs:label>Language</rdfs:label>
+  <rdfs:comment> A language of the intellectual content of the resource.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<!-- Data Type declarations -->
+
+<rdfs:Class rdf:ID = "RFC1766">
+  <rdfs:label>RFC1766</rdfs:label>
+  <rdfs:comment>Internet RDF 1766 'Tags for the identification of Language' specifies a two letter code taken from ISO 639, folled optionally by a two letter country code taken from ISO 3166.</rdfs:comment>
+  <rdfs:domain rdf:resource = "language" />
+  <rdfs:seeAlso rdf:resource = "http://ww.ietf.org/rfc/rfc1766.txt" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<!-- End: language -->
+
+
+<!-- Begin: Relation -->
+
+<rdf:Property rdf:ID = "relation">
+  <rdfs:label>Relation</rdfs:label>
+  <rdfs:comment> A reference to a related resource.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "source">
+  <rdfs:label>Source</rdfs:label>
+  <rdfs:comment>A Reference to a resource from which the present resource is derived.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+
+<!-- Property Declaration -->
+
+<rdf:Property rdf:ID = "isPartOf">
+  <rdfs:label>is part of</rdfs:label>
+  <rdfs:comment>An relationship of type 'isPartOf' between two objects</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "hasPart">
+  <rdfs:label>has part</rdfs:label>
+  <rdfs:comment>An relationship of type 'hasPart' between two objects</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "isVersionOf">
+  <rdfs:label>is version of</rdfs:label>
+  <rdfs:comment>An relationship of type 'isVersionOf' between two objects</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "hasVersion">
+  <rdfs:label>has part</rdfs:label>
+  <rdfs:comment>An relationship of type 'hasVersion' between two objects</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "relation" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<!-- End: Relation -->
+
+
+<!-- Begin: coverage -->
+
+<rdf:Property rdf:ID = "coverage">
+  <rdfs:label>Coverage</rdfs:label>
+  <rdfs:comment> The extent or scope of the content of the resource.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<!-- subProperty declarations -->
+
+<rdf:Property rdf:ID = "place">
+  <rdfs:label>Place</rdfs:label>
+  <rdfs:comment>Place</rdfs:comment>
+  <rdfs:range rdf:resource = "PlaceScheme" />
+  <rdfs:subPropertyOf rdf:resource = "coverage" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "Time">
+  <rdfs:label>Time</rdfs:label>
+  <rdfs:comment>Time</rdfs:comment>
+  <rdfs:range rdf:resource = "DateScheme" />
+  <rdfs:subPropertyOf rdf:resource = "coverage" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+
+<!-- Data Types -->
+
+<rdfs:Class rdf:ID = "BOX">
+  <rdfs:label>Box</rdfs:label>
+  <rdfs:comment>Box</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "PlaceScheme" />
+  <rdfs:seeAlso rdf:resource = "http://purl.org/dc/documents/notes-cox-1999xxxx.html" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "POINT">
+  <rdfs:label>Point</rdfs:label>
+  <rdfs:comment>Point</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "PlaceScheme" />
+  <rdfs:seeAlso rdf:resource = "http://purl.org/dc/documents/notes-cox-1999xxxx.html" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "TGN">
+  <rdfs:label>The Getty Thesaurus of Geographic Names</rdfs:label>
+  <rdfs:comment>The Getty Thesaurus of Geographic Names</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "PlaceScheme" />
+  <rdfs:seeAlso rdf:resource = "http://purl.org/dc/documents/notes-cox-1999xxxx.html" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "DD">
+  <rdfs:label>Decimal Degrees</rdfs:label>
+  <rdfs:comment>A latitude and longitude expressed in decimal degrees</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "PlaceScheme" />
+  <rdfs:seeAlso rdf:resource = "http://purl.org/dc/documents/notes-cox-1999xxxx.html" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "DMS">
+  <rdfs:label>Degrees, minutes, seconds</rdfs:label>
+  <rdfs:comment>A latitude and longitude expressed in degrees, minutes, seconds.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "PlaceScheme" />
+  <rdfs:seeAlso rdf:resource = "http://purl.org/dc/documents/notes-cox-1999xxxx.html" />
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+
+<!-- End: coverage -->
+
+
+<!-- Begin: rights -->
+
+<rdf:Property rdf:ID = "rights">
+  <rdfs:label>Rights</rdfs:label>
+  <rdfs:comment> Information about rights held in and over the resource.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdf:Property>
+
+<!-- End: rights -->
+
+
+<!-- Supporting semantic declarations for DC element normalization -->
+
+<rdfs:Class rdf:ID = "DateScheme">
+  <rdfs:label>Date Encoding Formats</rdfs:label>
+  <rdfs:comment>The set of dc:date encoding formats</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "PlaceScheme">
+  <rdfs:label>Place Encoding Formats</rdfs:label>
+  <rdfs:comment>The set of dc:place encoding formats</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "SubjectScheme">
+  <rdfs:label>Subject Encoding Formats</rdfs:label>
+  <rdfs:comment>The set of dc:subject encoding formats</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "FormatScheme">
+  <rdfs:label>Subject Encoding Formats</rdfs:label>
+  <rdfs:comment>The set of dc:format encoding formats.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/09-dcv" />
+</rdfs:Class>
+
+
+
+</rdf:RDF>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+<!-- 
+  RDF Schema declaration for the LOC Marc Relator Terms for the DCES
+  2000/03/13
+  comments, etc. to eric miller, emiller@oclc.org 
+-->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      	 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dc="http://dublincore.org/2000/03/13-dces#"
+         xmlns:eor="http://dublincore.org/2000/03/13-eor#">
+
+<eor:Schema rdf:about="http://dublincore.org/2000/03/13-marcrel">
+  <!-- dumb down rule... use rdf:value for a simple default name -->	
+  <rdf:value>The Library of Congress MARC Relator Terms for the Dublin Core</rdf:value> 
+  <dc:title>The Library of Congress MARC Relator Terms for the Dublin Core</dc:title>
+  <dc:creator>The Library of Congress</dc:creator>
+  <dc:description>MARC Relator Terms</dc:description>
+  <dc:language>English</dc:language>
+  <dc:date>2000-03-13</dc:date>
+</eor:Schema>
+
+<rdf:Property rdf:ID = "adaptor">
+  <rdfs:label>Adaptor</rdfs:label>
+  <rdfs:comment>An agent who reworks a resource usually for a
+different medium</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://dublincore.org/2000/03/13-dces#creator" />
+  <rdfs:subPropertyOf rdf:resource = "http://dublincore.org/2000/03/13-dces#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-marcrel" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "distributor">
+  <rdfs:label>Distributor</rdfs:label>
+  <rdfs:comment>An agent or agency that has exclusive or shared marketing
+rights for an item.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://dublincore.org/2000/03/13-dces#publisher" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-marcrel" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "editor">
+  <rdfs:label>Editor</rdfs:label>
+  <rdfs:comment>An agent who prepares for publication a work not primarily
+his/her own, such as by elucidating text, adding introductory or
+other critical matter, or technically directing an editorial staff. </rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://dublincore.org/2000/03/13-dces#creator" />
+  <rdfs:subPropertyOf rdf:resource = "http://dublincore.org/2000/03/13-dces#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-marcrel" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "performer">
+  <rdfs:label>Performer</rdfs:label>
+  <rdfs:comment>An agent who exhibits musical or acting skills in a musical
+or dramatic presentation or entertainment.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://dublincore.org/2000/03/13-dces#creator" />
+  <rdfs:subPropertyOf rdf:resource = "http://dublincore.org/2000/03/13-dces#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-marcrel" />
+</rdf:Property>
+  
+<rdf:Property rdf:ID = "sponsor">
+  <rdfs:label>Sponsor</rdfs:label>
+  <rdfs:comment>An agent that issued a contract or under the
+auspices of which a work has been written, printed, published, etc.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://dublincore.org/2000/03/13-dces#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-marcrel" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "translator">
+  <rdfs:label>Translator</rdfs:label>
+  <rdfs:comment>An agent who renders a text from one language into another,
+or from an older form of a language into the modern form.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://dublincore.org/2000/03/13-dces#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/03/13-marcrel" />
+</rdf:Property>
+
+</rdf:RDF>

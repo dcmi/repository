@@ -1,0 +1,42 @@
+<!-- The Dublin Core Qualified Vocabulary for Title -->
+
+<?xml version="1.0"?>
+
+<rdf:RDF
+  xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs = "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+  xmlns:dc = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#"
+  xmlns:dct = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#">
+
+<dct:Schema rdf:about = "">
+  <dc:title>The Dublin Core Qualified Vocabulary for Title</dc:title>
+  <dc:creator>The Dublin Core Metadata Initiative</dc:creator>
+  <dc:description>The Dublin Core metadata vocabulary is a simple vocabulary
+      intended to facilitate discovery of resources.</dc:description>
+  <dc:date>1999-03-27</dc:date>
+</dct:Schema>
+
+<!-- dc:title type declarations -->
+
+<rdf:Property rdf:ID = "abbreviatedTitle">
+  <rdfs:label>Abbreviated Title</rdfs:label>
+  <rdfs:comment>A abbrevated title associated with a resource</rdfs:comment>
+  <rdfs:subPropopertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#title" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "releaseTitle">
+  <rdfs:label>Release Title</rdfs:label>
+  <rdfs:comment>A release title associated with a resource</rdfs:comment>
+  <rdfs:subPropopertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#title" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "mainTitle">
+  <rdfs:label>Main Title</rdfs:label>
+  <rdfs:comment>A main title associated with a resource</rdfs:comment>
+  <rdfs:subPropopertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#title" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+</rdf:RDF>

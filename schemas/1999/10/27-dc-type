@@ -1,0 +1,111 @@
+<!-- The Dublin Core Qualified Vocabulary for Types -->
+
+<?xml version="1.0"?>
+
+<rdf:RDF
+  xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs = "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+  xmlns:dc = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#"
+  xmlns:dct = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#">
+
+<dct:Schema rdf:about = "">
+  <dc:title>The Dublin Core Qualified Vocabulary for Types</dc:title>
+  <dc:creator>The Dublin Core Metadata Initiative</dc:creator>
+  <dc:description>The Dublin Core metadata vocabulary is a simple vocabulary
+      intended to facilitate discovery of resources.</dc:description>
+  <dc:date>1999-03-27</dc:date>
+</dct:Schema>
+
+<rdfs:Class rdf:ID = "Entity">
+  <rdfs:label>Entity</rdfs:label>
+  <rdfs:comment>An entity</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Person">
+  <rdfs:label>Person</rdfs:label>
+  <rdfs:comment>A person</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "#Entity" />	
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Corporate">
+  <rdfs:label>Corporate</rdfs:label>
+  <rdfs:comment>A corporation</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "#Entity" />	
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Conference">
+  <rdfs:label>Conference</rdfs:label>
+  <rdfs:comment>A conference</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "#Entity" />	
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Instrument">
+  <rdfs:label>Instrument</rdfs:label>
+  <rdfs:comment>An instrument</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "#Entity" />	
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Book">
+  <rdfs:label>Book</rdfs:label>
+  <rdfs:comment>A book</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Sound">
+  <rdfs:label>Sound</rdfs:label>
+  <rdfs:comment>A sound</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Movie">
+  <rdfs:label>Movie</rdfs:label>
+  <rdfs:comment>A </rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Image">
+  <rdfs:label>Image</rdfs:label>
+  <rdfs:comment>An images</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Document">
+  <rdfs:label>Document</rdfs:label>
+  <rdfs:comment>A document</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Schema">
+  <rdfs:label>Schema</rdfs:label>
+  <rdfs:comment>An RDF schema</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "#Document" />	
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Article">
+  <rdfs:label>Article</rdfs:label>
+  <rdfs:comment>A Journal Article</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "#Document" />	
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Journal">
+  <rdfs:label>Journal</rdfs:label>
+  <rdfs:comment>A Journal</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "#Document" />	
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "WebPage">
+  <rdfs:label>WebPage</rdfs:label>
+  <rdfs:comment>A web page</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "#Document" />	
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+</rdf:RDF>

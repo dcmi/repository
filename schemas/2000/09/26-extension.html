@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>Guidelines for Formally Extending Dublin Core
+    Vocabularies</title>
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+  </head>
+
+  <body bgcolor="#FFFFFF" text="#000000" leftmargin="30"
+  topmargin="20" marginwidth="30" marginheight="20">
+    <h1>Guidelines for Formally Extending Dublin Core
+    Vocabularies</h1>
+
+    <h2>Adding Additional Semantics</h2>
+
+    <p>The Dublin Core Metadata Initiative recognized early on that
+    various communities may choose to utilize additional semantic
+    definitions that those provided by vocabularies defined by the
+    DCMI (e.g. the Dublin Core Element Set) in their
+    descriptions.</p>
+<pre>
+&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:dc = "http://dublincore.org/2000/03/13-dces#"
+      xmlns:dced = "http://dublincore.org/2000/08/22-dced#"&gt;
+
+&lt;rdf:Description rdf:about="http://dublincore.org/x/2000/09/26-overview.ppt"&gt;
+  &lt;dc:title&gt;An Overview of the DCMI&lt;/dc:title&gt;
+  &lt;dced:audience&gt;This resource is intended for everyone.&lt;/dced:audience&gt;
+&lt;/rdf:Description&gt;
+</pre>
+
+    <p>It is suggested (but not required) that any addition
+    semantics used in the description (in this case
+    'http://dublincore.org/2000/08/22-dced#audience') additionally
+    be declared based on the conventions defined by the <a
+    href="http://www.w3.org/TR/2000/CR-rdf-schema-20000327/">W3C
+    RDF Schema Specification</a>. For example:</p>
+<pre>
+&lt;rdf:Property rdf:ID = "http://dublincore.org/2000/08/22-dced#audience"&gt;
+  &lt;rdfs:label&gt;Audience&lt;/rdfs:label&gt;
+  &lt;rdfs:comment&gt;A category of user for whom the resource is intended.
+Comment: Frequently, creators and publishers of resources in education
+and training explicitly state the category of user for whom the
+resource is intended. In like fashion, end-users in the
+education/training domain frequently search using audience
+characteristics as search terms.&lt;/rdfs:comment&gt;
+  &lt;rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/08/22-dced" /&gt;
+&lt;/rdf:Property&gt;
+</pre>
+
+    <h2>Extending the Semantics of Dublin Core Concepts</h2>
+
+    <p>The Dublin Core Metadata Initiative additional recognized
+    early on that various communities may choose to utilize richer
+    semantic definitions that those provided by the Dublin Core
+    Element Set in their descriptions. A requirement that evolved
+    form this recognition was the need for associating relations
+    between these richer semantics and those of the Dublin Core
+    Element Set.</p>
+
+    <h3>Refining Properties</h3>
+
+    <p>The statement that "Michaelangelo" is the "cimi:painter"
+    (and as such the "dc:contributor") of the "Sistine Chapel" is
+    such an example. This type of "semantic refinement" as defined
+    by Dublin Core was additionally conveyed to the RDF Schema
+    working group. Recognizing this was a common problem amoung
+    many applications, this RDF Schema group introduced a mechanism
+    to support such a relationship of "semantic refinement".</p>
+
+    <div style="margin-left: 2em">
+<pre>
+&lt;rdfs:Property rdf:ID = "painter"&gt;
+  &lt;rdfs:label&gt; Painter &lt;/rdfs:label&gt;
+  &lt;rdfs:subPropertyOf rdf:resource = "http://dublincore.org/2000/03/13-dces#contributor" /&gt;
+&lt;/rdfs:Property&gt;
+</pre>
+    </div>
+
+    <p>The RDF mechanism "rdfs:subPropertyOf" provides a powerful
+    means of declaring relations amoung different vocabularies.
+    Thus when an RDF processor interprets the following metadata
+    instance data:</p>
+
+    <div style="margin-left: 2em">
+<pre>
+   &lt;rdf:Description rdf:about = "URI:MID:MEDICI/vatican/sistine_chapel"&gt;
+     &lt;cimi:painter&gt; Michalangelo &lt;/cimi:painter&gt;
+   &lt;/rdf:Description&gt;
+   
+</pre>
+    </div>
+
+    <p>An RDF processor would recognize the relationship that
+    exists between these two semantic declarations. This
+    recognition, in essence, allows for an RDF application to infer
+    that "Michaelangelo" is both the "cimi:painter" and the
+    "dc:contributor" of the "Sistine Chapel". Utilizing this RDF
+    Schema mechanism is a powerful way of representing the Dublin
+    Core's notion of "semantic refinement" and as such satisfies
+    this requirement.</p>
+
+    <h3>Refining Classes</h3>
+
+    <p>Classes are refined in a similar way:</p>
+
+
+
+
+
+
+    <h3>Adding Data Types</h3>
+
+<P>Adding additional encoding schemes is identical to refining classes as encoding schemes defined by the DCMI are simply classes.</P>
+
+
+
+    <h2>Incorporating Structured Values</h2>
+<pre>
+&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc = "http://dublincore.org/2000/03/13-dces#"&gt;
+            xmlns:xx = "http://xx.description.org/vocab#"&gt;
+
+&lt;rdf:Description rdf:about="http://dublincore.org/x/2000/09/26-overview.ppt"&gt;
+  &lt;dc:creator&gt;
+    &lt;xx:Person&gt;
+      &lt;xx:personalMailbox&gt;mailto:danbri@w3.org&lt;xx:personalMailbox&gt;
+      &lt;xx:givenName&gt;Eric&lt;/xx:givenName&gt;
+      &lt;xx:familyName&gt;Miller&lt;xx:familyName&gt;
+      &lt;xx:workPhone&gt;phone:614.764.6109&lt;xx:workPhone&gt;
+      &lt;rdf:value&gt;Eric Miller&lt;/rdf:value&gt;
+      &lt;rdfs:seeAlso rdf:resource="http://purl.org/net/eric/webwho.xrdf" /&gt;
+    &lt;/xx:Person&gt;
+  &lt;/dc:creator&gt;
+&lt;/rdf:Description&gt;
+</pre>
+
+    <h3>Linking to Authority Records</h3>
+<pre>
+&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF  xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:dc = "http://dublincore.org/2000/03/13-dces#"&gt;
+
+&lt;rdf:Description rdf:about="http://dublincore.org/x/2000/09/26-overview.ppt"&gt;
+  &lt;dc:creator rdf:resource="http://laf.oclc.org/342352346" /&gt;
+&lt;/rdf:Description&gt;
+</pre>
+    <hr />
+    $Id: 26-extension.html,v 1.1.1.1 2003/10/23 17:44:30 wagnerh Exp $
+  </body>
+</html>
+

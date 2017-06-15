@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+
+<!-- Eric's modified version of Andy's RSLP XML/RDF Example extracted
+from http://www.dlib.org/dlib/september00/powell/09powell.html -->
+
+ <rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcq="http://dublincore.org/2000/03/13/dcq#"
+   xmlns:vcard="http://www.imc.org/vcard/3.0/"
+   xmlns:cld="http://www.ukoln.ac.uk/metadata/rslp/1.0/">
+
+   <rdf:Description about="urn:x-rslpcd:967715792-47835">
+     <!-- Collection -->
+     <dc:title>
+       Morrison Collection of Chinese Books
+     </dc:title>
+     <dc:description>
+       This collection comprises the Chinese books accumulated by Dr.
+       Robert Morrison (1782 - 1834), the first Protestant missionary to
+       China, during his sixteen years residence in Guangzhou and Macao
+       between 1807 and 1823. Ten thousand Chinese-style thread-bound
+       volumes cover a broad spectrum of subjects from early and mid-Qing
+       China.
+     </dc:description>
+     <dc:subject>
+       <dcq:LCSH>
+         <rdf:value>
+           Missionaries -- China
+         </rdf:value>
+       </dcq:LCSH>
+     </dc:subject>
+     <dc:subject>
+       <dcq:LCSH>
+         <rdf:value>
+           Rare books -- China -- Bibliography -- Catalogs.
+         </rdf:value>
+       </dcq:LCSH>
+     </dc:subject>
+     <dc:subject>
+       <dcq:LCSH>
+         <rdf:value>
+           Chinese Imprints -- Catalogs
+         </rdf:value>
+       </dcq:LCSH>
+     </dc:subject>
+     <cld:agentName>
+       Morrison, Robert, 1782-1834.
+     </cld:agentName>
+     <cld:agentName>
+       School of Oriental and African Studies
+     </cld:agentName>
+     <dcq:place>
+       South China
+     </dcq:place>
+     <dcq:place>
+       Macao
+     </dcq:place>
+     <dcq:time>
+       Early to mid Qing
+     </dcq:time>
+     <cld:strength>
+       classics, history, philosophy, literature
+     </cld:strength>
+     <dc:language>
+       chi
+     </dc:language>
+     <dc:format>
+       10,000 thread-bound volumes - manuscripts and folios
+     </dc:format>
+     <dc:type>
+       Collection.Library.Special
+     </dc:type>
+     <cld:accumulationDateRange>
+       1807-1823
+     </cld:accumulationDateRange>
+     <cld:contentsDateRange>
+       1650-1825
+     </cld:contentsDateRange>
+     <dcq:hasPart>
+       Literature collection within Morrison Collection of Chinese Books
+     </dcq:hasPart>
+     <dcq:hasPart>
+       Classics collection within Morrison Collection of Chinese Books
+     </dcq:hasPart>
+     <dcq:hasPart>
+       History collection within Morrison Collection of Chinese Books
+     </dcq:hasPart>
+     <dcq:hasPart>
+       Philosophy collection within Morrison Collection of Chinese Books
+     </dcq:hasPart>
+     <dcq:isPartOf>
+       SOAS Library
+     </dcq:isPartOf>
+     <cld:hasDescription>
+       Catalogue of the Morrison Collection of Chinese Books (monograph)
+     </cld:hasDescription>
+     <cld:hasDescription>
+       Items recorded in SOAS Library OPAC http://195.195.181.2/
+     </cld:hasDescription>
+     <cld:accrualStatus>
+       deposit, closed
+     </cld:accrualStatus>
+     <cld:accessControl>
+       A Library Guide to Membership is found at:
+       http://www.soas.ac.uk/Library/Guides/membership.html
+     </cld:accessControl>
+     <cld:note>
+       London Missionary Society held collection from 1825-1834, then UCL
+       until 1922. Six "missing" books held at Bodleian library
+     </cld:note>
+     <dc:creator rdf:resource="urn:x-rslpcd:967715792-32366"/>
+     <cld:owner rdf:resource="urn:x-rslpcd:967715792-62789"/>
+     <cld:hasLocation rdf:resource="urn:x-rslpcd:967715792-16277"/>
+   </rdf:Description>
+
+   <rdf:Description about="urn:x-rslpcd:967715792-32366">
+     <!-- Collector -->
+     <vcard:fn>
+       Morrison, Robert, 1782-1834.
+     </vcard:fn>
+   </rdf:Description>
+
+   <rdf:Description about="urn:x-rslpcd:967715792-62789">
+     <!-- Owner -->
+     <vcard:org>
+       School of Oriental and African Studies Library
+     </vcard:org>
+     <vcard:voice>
+       +44 207 898 4163
+     </vcard:voice>
+     <vcard:fax>
+       +44 207 898 4159
+     </vcard:fax>
+     <vcard:email>
+       libenquiry@soas.ac.uk
+     </vcard:email>
+   </rdf:Description>
+
+   <rdf:Description about="urn:x-rslpcd:967715792-16277">
+     <!-- Location -->
+     <dc:title>
+       School of Oriental and African Studies Library
+     </dc:title>
+     <cld:address>
+       Thornhaugh Street, Russell Square, LONDON WC1H 0XG.
+     </cld:address>
+     <cld:postcode>
+       WC1H 0XG
+     </cld:postcode>
+     <cld:country>
+       uk
+     </cld:country>
+     <cld:accessConditions>
+       See opening hours for SOAS at:
+       http://www.soas.ac.uk/Library/open.html. Reference only in the
+       library.
+     </cld:accessConditions>
+     <cld:seeAlso rdf:resource = "http://www.soas.ac.uk/Library/home.html" />
+     <cld:isLocationOf rdf:resource="urn:x-rslpcd:967715792-47835"/>
+   </rdf:Description>
+
+ </rdf:RDF>

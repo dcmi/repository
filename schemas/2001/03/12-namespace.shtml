@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>Format Element Working Draft</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+    <link rel="meta" href="index.shtml.rdf" />
+  </head>
+
+  <body>
+    <!--#include virtual="/ssi/header.shtml"-->
+<table width="100%" border="0"
+    summary="A layout table with descriptive information about this document.">
+  <tr> 
+    <td width="24%" valign="top"> 
+      <div align="left"> <strong>Title:</strong> </div>
+    </td>
+    <td width="76%"> 
+      <div align="left"> 
+        <h2>Namespace Policy for the Dublin Core Metadata Initiative (DCMI)</h2>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="24%" valign="top"> 
+      <div align="left"> <strong>Editor:</strong> </div>
+    </td>
+    <td width="76%"> 
+      <div align="left"> <a href="mailto:weibel@oclc.org">Stuart Weibel</a> </div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="24%" valign="top"> 
+      <div align="left"> <strong>Contributor:</strong> </div>
+    </td>
+    <td width="76%"> 
+      <div align="left"> <a href="mailto:Thomas.Baker@gmd.de">Tom Baker</a> </div>
+    </td>
+  </tr>
+  <tr> 
+    <td height="22" width="24%" valign="top"> 
+      <div align="left"> <strong>Contributor:</strong> </div>
+    </td>
+    <td height="22" width="76%"> 
+      <div align="left"> <a href="mailto:tod_matola@oclc.org">Tod Matola</a> </div>
+    </td>
+  </tr>
+  <tr> 
+    <td height="22" width="24%" valign="top"> 
+      <div align="left"> <strong>Contributor:</strong> </div>
+    </td>
+    <td height="22" width="76%"> 
+      <div align="left"> <a href="mailto:em@w3.org">Eric Miller</a> </div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="24%" valign="top"> 
+      <div align="left"> <strong>Date Issued:</strong> </div>
+    </td>
+    <td width="76%"> 
+      <div align="left"> 2001-03-09</div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="2"> 
+      <hr />
+    </td>
+  </tr>
+</table>
+
+    
+<p><b>Glossary: </b></p>
+<p>The following are defined terms in this document:</p>
+<p><b>DCMI recommendations<br />
+  </b>A <i>DCMI recommendation</i> is a document written for human reading that 
+  is the final result of the approval process for <i>DCMI terms</i>.</p>
+<p><b>DCMI terms<br />
+  </b>The phrase<i> DCMI terms </i>is used to denote names of elements or qualifiers 
+  identified in <i>DCMI recommendations</i> and systems.  Each <i>DCMI term</i> 
+  is identified by a Uniform Resource Identifier within the DCMI namespace.</p>
+<p><b>DCMI term declarations<br />
+  </b>A <i>DCMI term declaration </i>is the machine-processable representation 
+  of a <i>DCMI term</i>, expressed in a schema language and maintained in the 
+  <i>DCMI registry.</i></p>
+<p><b>DCMI registry<br />
+  </b>The <i>DCMI registry </i>is the software repository of <i>DCMI term declarations</i> 
+  for all <i>DCMI terms.</i></p>
+<p><b>DCMI metadata packages<br />
+  </b>A <i>DCMI metadata package </i>is a discrete collection of <i>DCMI terms</i> 
+  identified as a group for management purposes.  Each <i>DCMI package </i>has 
+  its own sub-namespace within the DCMI registry namespace.</p>
+<h3>I. Introduction</h3>
+<p>The use of URI-based namespaces for formal, machine-processable declarations 
+  of metadata entities is a convention intended to support web-addressable concepts 
+  that can be shared across applications, and hence promote the possibility of 
+  shared semantics.  DCMI adopts this convention for the identification of all 
+  DCMI terms.  This document identifies the policies and procedures associated 
+  with the naming of existing DCMI terms and those that will be defined in the 
+  future.</p>
+<h3>II. Relation of DCMI term declarations to DCMI recommendations</h3>
+<p>DCMI Recommendations are human-readable documents that describe the end products 
+  of the process of proposing, discussing, revising, and approving DCMI terms.  
+  These documents constitute the primary deliverables of the initiative and can 
+  be used to communicate the definitions of DCMI terms and related architectural 
+  issues to interested readers.  The consensus-driven agreements articulated in 
+  these documents are encoded in a schema language in order to support machine-processable 
+  declarations that can be useful to software applications.  The DCMI registry 
+  is the authoritative repository of all such declarations for terms managed by 
+  the initiative.</p>
+<h3>III. Namespace declarations used by DCMI for DCMI registry declarations</h3>
+<p>The namespace of the Dublin Core metadata element set (version 1.1) is:</p>
+<blockquote>
+  <p><code>http://purl.org/dc/elements/1.1/</code></p>
+</blockquote>
+<p>Declarations for individual elements are constructed by adding #<i>entity_name</i>, 
+  for example:</p>
+<blockquote>
+  <p><code>http://purl.org/dc/elements/1.1/#title</code></p>
+</blockquote>
+<p>is the web-addressable identifier for one of the 15 elements of the Dublin 
+  Core metadata element set.  Each of the 15 elements can be so identified.  Stability 
+  of namespace identifiers for metadata terms is critical to interoperability 
+  over time. Thus, the wide promulgation of this set of identifiers dictates that 
+  they be maintained to support legacy applications that have adopted them.</p>
+<p>As DCMI registry infrastructure evolves, it will become the repository of the 
+  canonical definitions of all DCMI terms (in the form of schema declarations 
+  that are machine-processable, but also can provide human-readable definitions).  
+  Thus, three currently approved DCMI metadata packages have the following namespaces:</p>
+<blockquote> 
+  <p><code>http://dublincore.org/2000/03/13-dces<br />
+    </code><code>http://dublincore.org/2000/03/13-dcq<br />
+    </code><code>http://dublincore.org/2000/03/13-dctype</code></p>
+  </blockquote>
+<p>Official declarations for all additional metadata packages approved by DCMI, 
+  including additional elements, qualifiers and domain specific metadata packages, 
+  are specified as</p>
+<p>http://dublincore.org/<i>YYYY/MM/DD</i>-<i>package_identifier</i>/[<i>#term_name</i>]</p>
+<p>Thus, subcomponents of DCMI namespace Identifiers include the following components:</p>
+<table width="100%" border="1" cellspacing="0" cellpadding="10">
+  <tr>
+    <td>protocol identifier</td>
+    <td>http://</td>
+  </tr>
+  <tr>
+    <td>DCMI Domain</td>
+    <td>dublincore.org/</td>
+  </tr>
+  <tr>
+    <td>YYYY/MM/DD</td>
+    <td>a date-stamp identifying the date of instantiation of the package in the 
+      registry software</td>
+  </tr>
+  <tr>
+    <td>package_identifier string</td>
+    <td>a dash-delimited string identifying the DCMI metadata package in which 
+      a given set of DCMI terms are aggregated</td>
+  </tr>
+  <tr>
+    <td>term_name string </td>
+    <td>a hash-delimited string identifying the name of the DCMI term</td>
+  </tr>
+</table>
+<p>It is important to recognize that the date-stamp component should not be construed 
+  as a version identifier or even as a date-stamp identifying the inclusion of 
+  a given term in a given DCMI metadata package, but rather as an administrative 
+  device signaling the instantiation of a given package.</p>
+<h3>IV. DCMI metadata declarations in multiple languages</h3>
+<p>DCMI terms must have a single URI within the DCMI registry to assure unambiguous 
+  identity, however DCMI terms are rendered in many different languages and character 
+  sets.  It is a functional requirement of a multi-lingual metadata registry such 
+  as the DCMI registry that an application be able to issue a service request 
+  to the registry to return the attributes of a given term in any of the languages 
+  and character sets in which it has been encoded.</p>
+<h3>V. Policy concerning classes of changes to DCMI terms</h3>
+<p>Changes to DCMI terms or term declarations will occur from time to time for 
+  a variety of reasons. Such changes have varying implications for namespace declarations.  
+  The following classes of changes are identified along with examples and associated 
+  implications for namespaces.</p>
+<h4>A. Minor editorial errata</h4>
+<p>Errors of spelling, punctuation, or other clerical mistakes discovered in the 
+  DCMI registry will be corrected without public notification or comment period, 
+  as long as, in the judgment of the DCMI directorate, there are no implications 
+  for negative impact on users or applications that rely on DCMI term declarations.</p>
+<p>Correction of minor editorial errata will result in no changes in namespaces 
+  within the DCMI registry.</p>
+<h4>B. Substantive editorial errata</h4>
+<p>Errors of substance discovered in the DCMI registry will trigger public notification 
+  of the correction to the general information email server (DC-General).   Errors 
+  that, in the judgment of the DCMI Directorate, compromise the immediate usefulness 
+  or accuracy of DCMI metadata systems will be corrected immediately (for example, 
+  an incorrect URL to a resource external to DCMI).  Others will be corrected 
+  following a 14-day public comment period to assure that changes do not adversely 
+  effect systems or applications which rely on the DCMI namespace infrastructure.</p>
+<p>Correction of substantive editorial errata will result in no changes in namespaces 
+  within the DCMI registry.</p>
+<h4>C. Semantic changes in DCMI terms</h4>
+<p>Changes of definitions of DCMI terms will be reflected in metadata registry 
+  declarations as a result of a formal approval process within DCMI. If, in the 
+  judgment of the DCMI Directorate, such changes of meaning are likely to have 
+  substantial impact on either machine processing of DCMI terms or the functional 
+  semantics of the terms, then these changes will be reflected in a change of 
+  namespace identifier for the DCMI term or terms in question.</p>
+<h4>D. Changes in approval status</h4>
+<p>A DCMI term can have one of several approval statuses as defined by the DCMI 
+  Usage Board. (<i>proposed, conforming, recommended, obsolete</i> are currently 
+  under discussion).  Changes in approval status represent annotation on the DCMI 
+  term declarations.  It is a functional requirement of the DCMI registry to respond 
+  to a service request querying the approval status of a DCMI term for any date 
+  within the operational interval of the registry.</p>
+<p>Changes in approval status have no impact on namespace identifiers for DCMI 
+  terms</p>
+<h4>E. Addition of DCMI term declarations to existing DCMI metadata packages</h4>
+<p>New elements or qualifiers will from time to time be added to existing DCMI 
+  metadata packages.  Such additions will be uncommon for, for example, the Dublin 
+  Core element set, and somewhat more frequent for packages that are lists of 
+  controlled terms such as the DC Type list.</p>
+<p>Addition of DCMI terms to existing packages will not trigger changes in namespace 
+  identifiers.</p>
+<h4>F. Addition of new packages to the DCMI metadata registry</h4>
+<p>DCMI terms are packaged in collections of terms that have DCMI metadata package 
+  identifiers as part of their namespace identifiers.  New packages will be added 
+  to the DCMI registry as the result of approval of additional collections of 
+  DCMI terms.</p>
+<h4>VI. Archival time series of registry status</h4>
+<p>It is a functional requirement of the DCMI registry that a service request 
+  to the registry with a parameter of any date within the interval of operation 
+  of the registry shall return the state of the registry and all DCMI terms on 
+  that date.</p>
+    <!--#include virtual="/ssi/footer.shtml"-->
+</body>
+</html>

@@ -1,0 +1,4 @@
+<Person about = "http://rdf.dev.oclc.org/laf/sugimoto">
+  <firstName>Shigeo</firstName>
+  <lastName>Sugimoto</lastName>
+</Person>

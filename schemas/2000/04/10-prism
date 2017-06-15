@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:dc="http://rdf.dev.oclc.org/eor/2000/03/13-dces#"
+         xmlns:my="http://rdf.dev.oclc.org/eor/2000/03/13-myrdf#">
+
+<!-- Preliminary XML schema for Events based on Payette UML model. -->
+
+<my:Schema rdf:about="http://rdf.dev.oclc.org/eor/2000/03/13-dcq">
+  <!-- dumb down rule... use rdf:value for a simple default name -->	
+  <rdf:value>Preliminary XML schema for Events based on Payette UML model.</rdf:value>
+  <dc:title>Preliminary XML schema for Events based on Payette UML model.</dc:title>
+  <dc:creator>Sandy Payette</dc:creator>
+  <dc:description>Preliminary XML schema for Events based on Payette UML model.</dc:description>
+  <dc:language>English</dc:language>
+  <dc:date>2000-04-10</dc:date>
+</my:Schema>
+
+
+
+<rdfs:Property rdf:ID = "eventName">
+  <rdfs:label>Event Name</rdfs:label>
+  <rdfs:domain rdf:resource = "Event">
+</rdfs:Property>
+
+<rdfs:Property rdf:ID = "occurrenceState">
+  <rdfs:label>occurrenceState</rdfs:label>
+  <rdfs:domain rdf:resource = "Event" />
+</rdfs:Property>
+
+<rdfs:Property rdf:ID = "startDateTime">
+  <rdfs:label>startDateTime</rdfs:label>
+  <rdfs:domain rdf:resource = "Event" />
+</rdfs:Property>
+
+<rdfs:Property rdf:ID = "endDateTime">
+  <rdfs:label>endDateTime</rdfs:label>
+  <rdfs:domain rdf:resource = "Event" />
+</rdfs:Property>
+
+<rdfs:Property rdf:ID = "subEvent">
+  <rdfs:label>subEvent</rdfs:label>
+  <rdfs:domain rdf:resource = "Event" />
+</rdfs:Property>
+
+<rdfs:Property rdf:ID = "relatedEvent">
+  <rdfs:label>relatedEvent</rdfs:label>
+  <rdfs:domain rdf:resource = "Event" />
+</rdfs:Property>
+
+<rdfs:Property rdf:ID = "message">
+  <rdfs:label>message</rdfs:label>
+  <rdfs:domain rdf:resource = "Event" />
+</rdfs:Property>
+
+
+
+
+<rdfs:Class rdf:ID = "Event">
+  <rdfs:label>Event</rdfs:label>
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Agent">
+  <rdfs:label>Agent</rdfs:label>
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Object">
+  <rdfs:label>Object</rdfs:label>
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Mechanism">
+  <rdfs:label>Mechanism</rdfs:label>
+  <rdfs:domain rdf:resource = "TransformationEvent" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "ActionEvent">
+  <rdfs:label>Action</rdfs:label>
+  <rdf:subClassOf rdf:resource = "Event">
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "DeclarativeEvent">
+  <rdfs:label>Declarative Event</rdfs:label>
+  <rdf:subClassOf rdf:resource = "ActionEvent">
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "TransformationEvent">
+  <rdfs:label>Transformation Event</rdfs:label>
+  <rdf:subClassOf rdf:resource = "ActionEvent">
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "RelatedEvent">
+  <rdfs:label>Related Event</rdfs:label>
+  <rdf:subClassOf rdf:resource = "Event">
+</rdfs:Class>
+
+	
+<!-- Trigger Event Declaration -->
+
+<rdfs:Class rdf:ID = "TriggerEvent">
+  <rdfs:label>Trigger Event</rdfs:label>
+  <rdf:subClassOf rdf:resource = "Event">
+</rdfs:Class>
+
+<rdfs:Property rdf:ID = "condition">
+  <rdfs:label>Condition</rdfs:label>
+  <rdfs:range rdf:resource = "TriggerEvent" />
+</rdfs:Property>
+
+
+<!-- Agent declaration -->
+
+<rdfs:Class rdf:ID = "Agent">
+  <rdfs:label>Agent</rdfs:label>
+</rdfs:Class>
+
+<rdf:Property rdf:ID = "role">
+  <rdfs:label>Role</rdfs:label>
+  <rdfs:domain rdf:resource = "Roles" />
+</rdf:Property>
+
+<!-- Agent Role Types --?
+
+<rdfs:Class rdf:ID = "Roles">
+  <rdfs:label>Agent Roles</rdfs:label>
+  <rdfs:comment>Superclass of Agent Roles</rdfs:comment>
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "
+
+
+
+
+<complexType name="ActionEvent" base="Event" derivedBy="extension">
+                   <xs:attribute name="actionVerb" type="xs:string" />
+    <xs:element ref="agent" minOccurs="0" maxOccurs="*"/>
+    <xs:element ref="object" minOccurs="0" maxOccurs="*"/>
+    <xs:element name="rule" type="Rule" minOccurs="0" maxOccurs="*"/>
+               </complexType> 
+
+<complexType name="DeclarativeEvent" base="ActionEvent"
+derivedBy="extension">
+    <xs:attribute name="message" type="xs:string"/>
+               </complexType>
+
+<complexType name="TransformativeEvent" base="ActionEvent"
+derivedBy="extension">
+                   <xs:attribute name="input" type="xs:string" />
+    <xs:attribute name="output" type="xs:string" />
+    <xs:element ref="mechanism" minOccurs="1" maxOccurs="1"/>
+               </complexType>
+
+<complexType name="RelatedEvent" base="Event" derivedBy="extension"> 
+     <xs:element name="relationType" type="EventRelationType"/>
+</xs:complexType>
+
+<complexType name="TriggerEvent" base="Event" derivedBy="extension"> 
+     <xs:element name="condition" type="Condition"/>
+</xs:complexType>
+
+
+<!-- Definition of other types for this schema model  -->
+<xs:complexType name="Agent">
+                    <xs:attribute name="agentID" type="xs:string"
+minOccurs="1" maxOccurs="1"/>
+                    <xs:attribute name="agentName" type="xs:string"
+minOccurs="1" />
+     <xs:element name="agentRole" type="Role" minOccurs="1"
+maxOccurs="*"/>
+</xs:complexType>
+
+<xs:complexType name="Role">
+                    <xs:attribute name="roleID" type="xs:string"
+minOccurs="1" maxOccurs="1"/>
+                    <xs:attribute name="roleDescriptor" type="xs:string"
+/>
+</xs:complexType>
+
+<xs:complexType name="Object">
+                    <xs:attribute name="objectID" type="xs:string"
+minOccurs="1" maxOccurs="1"/>
+                    <xs:attribute name="objectDescription"
+type="xs:string" />
+</xs:complexType>
+
+<complexType name="Resource" base="Object" derivedBy="extension">
+    <xs:element ref="URI" minOccurs="1" maxOccurs="1"/>
+                  <xs:attribute name="title" type="xs:string"
+minOccurs="0" maxOccurs="*"/> />
+    <xs:attribute name="subject" type="xs:string" minOccurs="0"
+maxOccurs="*"/>
+    <xs:attribute name="language" type="xs:string" minOccurs="0"
+maxOccurs="*"/> />
+    <xs:attribute name="version" type="xs:string" minOccurs="0"
+maxOccurs="*"/> />
+    <xs:attribute name="resourceType" type="xs:string" minOccurs="0"
+maxOccurs="*"/>/>
+    <xs:attributet name="format" type="xs:string" minOccurs="0"
+maxOccurs="*"/> />
+</xs:complexType>
+
+<xs:simpleType name="OccurrenceState" base="xs:string">
+                  <xs:enumeration value="BEING"/>
+                  <xs:enumeration value="DOING"/>
+                  <xs:enumeration value="DECLARING"/>
+   <xs:enumeration value="TRANSFORMING"/>
+</xs:simpleType>
+
+<xs:complexType name="EventRelationType">
+                  <xs:attribute name="relationID" type="xs:string/>
+                  <xs:attribute name="relationDescriptor"
+type="xs:string" /> 
+ </xs:complexType>
+
+<!-- think about design of conditionalExpression and ruleExpression
+beyond just string -->
+
+<xs:complexType name="Condition">
+                  <xs:attribute name="conditionID" type="xs:string" />
+                  <xs:attribute name="conditionalExpression"
+type="xs:string" /> 
+               </xs:complexType>
+
+<xs:complexType name="Rule">
+                  <xs:attribute name="ruleID" type="xs:string" />
+                  <xs:attribute name="ruleExpression" type="xs:string"
+/> 
+               </xs:complexType>
+
+<xs:complexType name="Mechanism">
+                  <xs:attribute name="mechanismName" type="xs:string" />
+                  <xs:attribute name="mechanismDescription"
+type="xs:string" minOccurs="0" /> 
+               </xs:complexType>
+
+<xs:complexType name="ExecutableMechanism" base="Mechanism"
+derivedBy="extension">>
+                  <xs:element ref="URI" minOccurs="1" maxOccurs="1"/>
+               </xs:complexType>
+
+              </xs:schema>

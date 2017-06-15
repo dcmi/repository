@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+
+    <title>Building Blocks for the Semantic Web</title>
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+  </head>
+
+  <body>
+    <h1>Building Blocks for the Semantic Web</h1>
+
+    <p>Stuart Weibel and Eric Miller <a
+    href="http://purl.org/dc/">The Dublin Core Metadata
+    Initiative</a></p>
+
+    <h2>Simplicity and Utility are Keys to the Future of the
+    Web</h2>
+
+    <p>The Web is an important universal information tool,
+    embracing vast stores of information with many purposes ,
+    multiple disparate sources, , and quite a few unpredictable
+    users. There is a clear need to improve access to this polyglot
+    of information and for the development of better search,
+    retrieval and organizational tools.</p>
+
+    <p>Metadata (or data about data), is a fundamental part of the
+    solution to this challenge. Effective use of metadata requires
+    three things: A set of commonly-understood terms to describe
+    the content of information resources (semantics), a standard
+    grammar for connecting those terms in meaningful metadata
+    sentences and a framework that allows us to exchange and
+    recombine those metadata sentences across different
+    applications and subject. These three elements &ndash;
+    standardized semantics, a definitive syntax, and a framework
+    for exchange &ndash; provide an architecture for resource
+    description that can work across all subject areas within the
+    Web sphere.</p>
+
+    <p>Developing a single andcomplete vocabulary for resource
+    description is a difficult problem. Tackling this effort in a
+    flexible fashion, however, allows for a step-by-step solution
+    with manageable sub-parts. Lego, the familiar building blocks
+    of childhood, is the perfect metaphor for describing how
+    metadata can be incorporated into the Web to support the
+    management of information. Lego blocks come in themes,
+    consisting of simple colored bricks created with consistent,
+    engineered dimensions that allow them to snap together with a
+    satisfying <i>click</i>.</p>
+
+    <p>The <a
+    href="http://purl.org/dc/documents/rec-dces-19990702.htm">Dublin
+    Core Metadata Element Set (DCMES)</a> can be viewed as the
+    common semantic building block of Web metadata. Its 15 broad
+    categories (elements) are useful for creating simple,
+    easy-to-understand descriptions for most information resources.
+    Most communities need additional semantics to fully describe
+    their resources, however. So, just as simple Lego blocks can be
+    combined to form complex structures, various modules of
+    metadata can be combined to form more complex descriptions. The
+    DCMES is the basic block, but other chunks of metadata can be
+    combined with it to form richer descriptions.</p>
+
+    <p>The basic element set is intended to capture most of the
+    basic descriptive categories necessary to promote effective
+    search and retrieval. Additional building blocks can be created
+    to provide modular chunks of metadata that can be built into
+    richer descriptions for information resources. So, just as Lego
+    blocks of various shapes can be snapped together to form
+    undersea exploration themes or recombined to create spaceships
+    or medieval castles, chunks of metadata can be combined and
+    recombined to meet the functional requirements of different
+    applications .</p>
+
+    <h2>Metadata Modularity on the Web</h2>
+
+    <p>The Dublin Core Metadata Initiative provides a forum for the
+    definition of semantics, both for a general description core
+    and for subject-specific extensions. How can these vocabularies
+    be integrated into a functional architecture? Dublin Core
+    metadata can be carried in <a
+    href="http://www.w3.org/MarkUp">HTML</a>, <a
+    href="http://www.w3.org/XML">XML</a>, and <a
+    href="http://www.w3.org/RDF">RDF</a>. The latter, the Resource
+    Description Framework, builds on the <a
+    href="http://www.w3.org/">World Wide Web Consortium's (W3C)</a>
+    effort to design an architecture for metadata on the Web. RDF
+    supports many different metadata needs of vendors and
+    information providers. If Dublin Core Metadata Element Set can
+    be thought of as a Lego that is common to many sets, RDF is the
+    engineering standard that enables that satisfying <i>click</i>
+    when the blocks are snapped together.</p>
+
+    <p>RDF helps create an infrastructure that will support the
+    combination of Dublin Core modules into larger, more expressive
+    metadata structures that will work interoperably with one
+    another. Further, applications should be able to mix metadata
+    from other semantic standards expressed in RDF as well. Just as
+    different Lego sets express undersea, outerspace or medieval
+    castle themes, RDF can help make it possible to snap together
+    modules that support metadata themes for education, government
+    or commercial purposes, all working together in the same
+    architecture For example, the members of the <a
+    href="http://www.egroups.com/group/rss-dev">RSS community</a>
+    have recently been advocating RDF as a powerful modular means
+    of combining semantics defined by Dublin Core with additional
+    vocabularies (syndication, aggregation, threading) to produce a
+    simple means for effectively providing site summaries and
+    syndication services. An example of how this might be used as a
+    modular means for combining semantics follows:</p>
+<pre>
+&lt;?xml version="1.0"?&gt;
+&lt;rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rss="http://purl.org/rss/1.0/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+  &lt;rss:channel rdf:about="http://www.xml.com/xml/news.rss"&gt;
+    &lt;rss:title&gt;XML.com&lt;/rss:title&gt;
+    &lt;rss:link&gt;http://xml.com/pub&lt;/rss:link&gt;
+    &lt;dc:description&gt;XML.com features a rich mix of information and
+services for the XML community.  &lt;/dc:description&gt;
+    &lt;dc:subject&gt;XML, RDF, metadata, information syndication services&lt;/dc:subject&gt;
+     &lt;dc:identifier&gt;http://www.xml.com&lt;/dc:identifier&gt;
+    &lt;dc:publisher&gt;O'Reilly &amp; Associates, Inc.&lt;/dc:publisher&gt;
+    &lt;dc:rights&gt;Copyright 2000, O'Reilly &amp; Associates, Inc.&lt;/dc:rights&gt;
+  &lt;/rss:channel&gt;
+&lt;/rdf:RDF&gt;
+</pre>
+
+    <h2>The Dublin Core Metadata Initiative -- creating the
+    semantic building blocks of the Web</h2>
+
+    <p>The mission of the Dublin Core Metadata Initiative (DCMI) is
+    to make it easier to find resources using the Internet through
+    the following activities:</p>
+
+    <p>Developing metadata standards for resource search and
+    retrieval across different subject areas</p>
+
+    <p>Defining frameworks for the interoperability of metadata
+    sets</p>
+
+    <p>Facilitating the development of community- or
+    subject-specific metadata sets that work within these
+    frameworks</p>
+
+    <p>The Dublin Core metadata element set, (or the basic Lego
+    brick), is intended to support cross-subject search and
+    retrieval. It can be thought of as a simplistic or pidgin
+    metadata language that helps the user navigate through
+    disparate subjects, languages, and cultures. Adoption of the
+    Dublin Core by governments, libraries, museums, archives,
+    publishers, environmental science repositories, print and
+    e-print archives, to name a few, testifies to its success in
+    this role. There are emerging applications in the commercial
+    sector, as well, with health care organizations and financial
+    industries using the Dublin Core as the basis for organizing
+    and exchanging information.</p>
+
+    <p>Part of the mission of DCMI is to provide a vendor-neutral
+    forum for the development of additional vocabularies that are
+    interoperable within the broader architecture of the Dublin
+    Core and other Web metadata schemas in general. At the recent
+    8<sup>th</sup> Dublin Core metadata workshop in Ottawa, Canada,
+    a special interest group formed around the exploration of
+    metadata issues that are of particular interest to the <a
+    href="http://purl.org/dc/groups/biz.htm">business
+    community</a>. The provisional charter for this group is as
+    follows:</p>
+
+    <p>To provide a forum:</p>
+
+    <ol>
+      <li>To investigate metadata schemas used in commercial
+      business models</li>
+
+      <li>(Business-to-Business, Business-to-Consumer);</li>
+
+      <li>2) To promote the use of Dublin Core in internal and
+      cross company business environments;</li>
+
+      <li>3) To identify business sectors and commercial resources
+      (e.g. information, services, catalogs, products) that could
+      benefit from the use of the DC standard;</li>
+
+      <li>4) To highlight within the DC Community the commercial
+      ramifications of DC developments ;</li>
+
+      <li>5) To discuss the possible expansion of Dublin Core to
+      accommodate information vital to commercial requirements and
+      uses.</li>
+    </ol>
+
+    <p>Interested parties may subscribe to this discussion list at:
+    <a
+    href="http://www.mailbase.ac.uk/lists/dc-biz/">http://www.mailbase.ac.uk/lists/dc-biz/</a></p>
+
+    <h2>Other activities of the Initiative</h2>
+
+    <p>In addition to providing international forums for the
+    development of vendor-neutral vocabularies, the DCMI is
+    promoting the development of tools and infrastructure to
+    support high quality metadata applications on the Net,
+    including:</p>
+
+    <p>a semantic registry to store and search declared meanings
+    and their relationships to other meanings; and</p>
+
+    <p>an open source software repository to provide the tools for
+    creating, editing, managing and navigating metadata.</p>
+
+    <p>The registry activity is a fundamental part of both the
+    management and use of metadata, allowing, in the short term,
+    the registration and public disclosure of metadata schemas at a
+    granularity that allows management and discovery of descriptors
+    at the element level. Metadata schema developers will use the
+    registry to discover what other applications have adopted. User
+    will be able to identify the precise definitions of elements,
+    and applications will be able to resolve machine-processable
+    mappings among different schemas, further enhancing the
+    prospects for Web-wide metadata interoperability.</p>
+
+    <p>By supporting the development of such tools in an open
+    source environment, the DCMI hopes to promote broad
+    contribution of value by the community at large.</p>
+
+    <p>While the Dublin Core began with the goal of developing a
+    simple, interoperable, extensible, consensus-built metadata
+    standard, it has evolved beyond a basic element set to embrace
+    new communities and subject areas. The Dublin Core Metadata
+    Initiative has become a home for a broad spectrum of subject
+    experts and metadata practitioners, built on community trust
+    and open consensus building, and motivated by a desire to build
+    a Web of greater coherence.</p>
+
+    <hr />
+    $Id: 28-xmlcomarticle.html,v 1.1 2000/09/28 13:03:04 emiller
+    Exp $
+  </body>
+</html>
+

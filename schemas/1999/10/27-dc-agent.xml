@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+
+<!-- The Dublin Core Qualified Vocabulary for Agent -->
+
+<rdf:RDF
+  xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs = "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+  xmlns:dc = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#"
+  xmlns:dct = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#">
+
+<dct:Schema rdf:about = "">
+  <dc:title>The Dublin Core Qualified Vocabulary for Agent</dc:title>
+  <dc:creator>The Dublin Core Metadata Initiative</dc:creator>
+  <dc:description>The Dublin Core metadata vocabulary is a simple vocabulary
+      intended to facilitate discovery of resources.</dc:description>
+  <dc:date>1999-03-27</dc:date>
+</dct:Schema>
+
+
+<!-- classes of datatypes to support the parsing rules associated with
+agents -->
+
+<rdfs:Class rdf:ID = "Person">
+  <rdfs:label>Person</rdfs:label>
+  <rdfs:comment> A human </rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Organization">
+  <rdfs:label>Organization</rdfs:label>
+  <rdfs:comment> An organization </rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Conference">
+  <rdfs:label>Conference</rdfs:label>
+  <rdfs:comment> An event or meeting  </rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+
+<rdfs:Class rdf:ID = "NAF">
+  <rdfs:label>NAF</rdfs:label>
+  <rdfs:comment>An NAF entry</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<!-- MARC relator terms go here -->
+
+<rdf:Property rdf:ID = "illustrator">
+  <rdfs:label>Illustrator</rdfs:label>
+  <rdfs:comment>A contributor associated with the illustration of the resource</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+<!-- look into authorities working group -->
+<!-- information for describing entities -->
+
+<rdf:Property rdf:ID = "name">
+  <rdfs:label>Name</rdfs:label>
+  <rdfs:comment>A name associated with an entity</rdfs:comment>
+  <rdfs:Domain rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#Entity" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "affiliation">
+  <rdfs:label>Affiliation</rdfs:label>
+  <rdfs:comment>An affiliation associated with an entity</rdfs:comment>
+  <rdfs:Domain rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#Entity" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "email">
+  <rdfs:label>Email</rdfs:label>
+  <rdfs:comment>An email associated with an entity</rdfs:comment>
+  <rdfs:Domain rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#Entity" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+</rdf:RDF>
+
+

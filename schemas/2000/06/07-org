@@ -1,0 +1,62 @@
+<?xml version = "1.0"?>
+
+<!-- Vocabulary for supporting the internal management of busineses or
+organizations: 2000/06/07 comments, etc. to eric miller,
+emiller@oclc.org -->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      	 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dc="http://rdf.dev.oclc.org/eor/2000/03/13-dces#"
+         xmlns:my="http://rdf.dev.oclc.org/eor/2000/03/13-myrdf#">
+
+<my:Schema rdf:about="http://rdf.dev.oclc.org/eor/2000/06/07-org">
+  <rdf:value>The HR vocabulary</rdf:value> 
+  <dc:title>Eric's HR Vocabulary</dc:title>
+  <dc:creator>Eric Miller, emiller@oclc.org</dc:creator>
+  <dc:description>A simple vocabulary for supporting the management of
+people, departments, projects, etc. that occur in day-to-day
+opperations of an organization.</dc:description>
+  <dc:language>English</dc:language>
+  <dc:date>2000-06-07</dc:date>
+</my:Schema>
+
+<!-- Class declaration -->
+
+<rdfs:Class rdf:ID = "Person">
+  <rdfs:label>Person</rdfs:label>
+  <rdfs:comment>A Person.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Resource" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/06/07-org" />
+</rdfs:Class>
+
+<!-- Properties declaration specific to Person Class -->
+
+<rdf:Property rdf:ID = "name">
+  <rdfs:label>Name</rdfs:label>
+  <rdfs:comment>The Person's name</rdfs:comment>
+  <rdfs:domain rdf:resource = "Person" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/06/07-org" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "affurl">
+  <rdfs:label>URL of Affiliation</rdfs:label>
+  <rdfs:comment>The URL of the person's affiliation.</rdfs:comment>
+  <rdfs:domain rdf:resource = "Person" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/06/07-org" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "affname">
+  <rdfs:label>Name of Affiliation</rdfs:label>
+  <rdfs:comment>The name of the person's affiliation.</rdfs:comment>
+  <rdfs:domain rdf:resource = "Person" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/06/07-org" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "email">
+  <rdfs:label>email</rdfs:label>
+  <rdfs:comment>The email address of the person.</rdfs:comment>
+  <rdfs:domain rdf:resource = "Person" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/06/07-org" />
+</rdf:Property>
+
+</rdf:RDF>

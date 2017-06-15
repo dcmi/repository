@@ -1,0 +1,148 @@
+<?xml version = "1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      	 xmlns:rdfs="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+         xmlns:dc="http://rdf.dev.oclc.org/eor/1999/12/23-dcv#"
+         xmlns:dct="http://rdf.dev.oclc.org/eor/1999/12/24-dctype#">
+
+<dct:Schema rdf:about="http://rdf.dev.oclc.org/eor/1999/12/24-dctype">
+  <dc:title>The Dublin Core Types v1.0</dc:title>
+  <dc:creator>The Dublin Core Metadata Initiative</dc:creator>
+  <dc:description>The Dublin Core type vocabulary is a simple set of class type declarations 
+      intended to facilitate the description and discovery of resources.</dc:description>
+  <dc:date>1999-12-24</dc:date>
+</dct:Schema>
+
+
+<!-- Begin: Type -->
+
+<rdfs:Class rdf:ID = "Type">
+  <rdfs:label>Type</rdfs:label>
+  <rdfs:comment>A general class of DCMI resource type declarations.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<!-- Class Declaration -->
+
+<rdfs:Class rdf:ID = "Collection">
+  <rdfs:label>Collection</rdfs:label>
+  <rdfs:comment>A collection is an aggregation of items. The term collection means that the resource is described as a group; its parts may be separately described and navigated.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Type" />
+<rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Dataset">
+  <rdfs:label>Dataset</rdfs:label>
+  <rdfs:comment>A dataset is a structured information encoded in lists, tables, databases, etc., which will normally be in a format available for direct machine processing. For example - spreadsheets, databases, GIS data, midi data. Note that unstructured numbers and words will normally be considered to be type text.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Type" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Event">
+  <rdfs:label>Event</rdfs:label>
+  <rdfs:comment>An event is a non-persistent, time-based occurrence. Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, responsible agents, and links to related events and resources. The resource of type event may not be retrievable if the described instantiation has expired or is yet to occur. Examples - exhibition, web-cast, conference, workshop, open-day, performance, battle, trial, wedding, tea-party, conflagration.  </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Type" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Image">
+  <rdfs:label>Image</rdfs:label>
+  <rdfs:comment>An image is a primarily symbolic visual representation other than text. For example - images and photographs of physical objects, paintings, prints, drawings, other images and graphics, animations and moving pictures, film, diagrams, maps, musical notation. Note that image may include both electronic  and physical representations.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Type" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "InteractiveResource">
+  <rdfs:label>Interactive Resource</rdfs:label>
+  <rdfs:comment>An interactive resource is a resource which requires interaction from the user to be understood, executed, or experienced. For example - forms on web pages, applets, multimedia learning objects, chat services, virtual reality. </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Type" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Model">
+  <rdfs:label>Model</rdfs:label>
+  <rdfs:comment>A model is an abstraction of the real thing, i.e. some generalisation and interpretation. Models could be considered a symbolic representation. Examples include  performance models, cost models, mechanical models, etc. </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Type" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Agent">
+  <rdfs:label>Contributor, Creator, Publisher</rdfs:label>
+  <rdfs:comment>A person, organization, cultural group, or institution. </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Type" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Place">
+  <rdfs:label>Place</rdfs:label>
+  <rdfs:comment>A geographic area.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Type" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "PhysicalObject">
+  <rdfs:label>Physical Object</rdfs:label>
+  <rdfs:comment>A Physical Object is a non-human object or substance. This category includes objects that do not fit into any of the other categories on this list. In addition these objects must  be approached physically to make use of them. For example - a computer, the great pyramid, a sculpture, wheat. Note that digital representations of, or  surrogates for, these things should use image, text or one of the other types. </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Type" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Service">
+  <rdfs:label>Service</rdfs:label>
+  <rdfs:comment>A service is a system that provides one or more functions of value to the end-user. Examples include: a photocopying service, a banking service, an authentication service, interlibrary loans, a Z39.50 or Web server. </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Type" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Software">
+  <rdfs:label>Software</rdfs:label>
+  <rdfs:comment>a computer program in source or compiled form which may be available for installation non-transiently on another machine. For software which exists only to create an interactive environment, use interactive instead. </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Type" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Sound">
+  <rdfs:label>Sound</rdfs:label>
+  <rdfs:comment>A sound is a resource whose content is primarily audio or intended to be realized in audio. For example - music, speech, recorded sounds. This category includes  musical notation, including score, which is unrealized in sound.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Type" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Text">
+  <rdfs:label>Text</rdfs:label>
+  <rdfs:comment>A text is a resource whose content is primarily words for reading. For example - books, letters, dissertations, poems, newspapers, articles, archives of mailing lists.  Note that facsimiles or images of texts are still of the genre text. </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Type" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+
+<!-- annotation: Schema Type declaration to support registry services, emiller@oclc.org -->
+
+<rdfs:Class rdf:ID = "Schema">
+  <rdfs:label>Schema</rdfs:label>
+  <rdfs:comment>An RDF schema</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Text" />	
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<!-- annotation: Article Type declaration to support dc-citation activity, emiller@oclc.org -->
+
+<rdfs:Class rdf:ID = "Article">
+  <rdfs:label>Article</rdfs:label>
+  <rdfs:comment>A Journal Article</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Text" />	
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<!-- annotation: Article Type declaration to support dc-citation activity, emiller@oclc.org -->
+
+<rdfs:Class rdf:ID = "Journal">
+  <rdfs:label>Journal</rdfs:label>
+  <rdfs:comment>A Journal</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "Text" />	
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/24-dctype" />
+</rdfs:Class>
+
+<!-- End: Type -->
+
+</rdf:RDF>

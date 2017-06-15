@@ -1,0 +1,50 @@
+<?xml version = "1.0"?>
+
+<rdf:RDF xml:lang="de"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      	 xmlns:rdfs="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+         xmlns:dc="http://rdf.dev.oclc.org/eor/1999/12/22-dcv#">
+
+<dc:Schema rdf:about="http://rdf.dev.oclc.org/eor/2000/02/21-dcv.de">
+  <rdf:value>Metadata-Elemente des Dublin Core</rdf:value> 
+  <dc:title>Metadata-Elemente des Dublin Core</dc:title>
+  <dc:creator>Diann Rusch-Feja, ruschfeja@mpib-berlin.mpg.de</dc:creator>
+  <dc:description>Die folgenden Elemente, Definitionen und Beschreibungen entsprechen dem Stand der Dublin-Core Metadata-Diskussionen.</dc:description>
+  <dc:language>german</dc:language>
+  <dc:date>2000-02-21</dc:date>
+</dc:Schema>
+
+<!-- Begin: Title Declaration -->
+
+<rdf:Description rdf:about = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#title">
+  <rdfs:label>Titel</rdfs:label>
+  <rdfs:comment>Titel der Quelle; der vom Verfasser, Urheber oder Verleger vergebene Namen der Ressource.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#creator">
+  <rdfs:label>Verfasser oder Urheber</rdfs:label>
+  <rdfs:comment>Die Person(en) oder Organisation(en), die den intellektuellen Inhalt verantworten. Z.B. Autoren bei Textdokumenten; Künstler, Photographen bzw. auch andere Bezeichnungen wie Komponist und Maler bei graphischen Dokumenten.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#subject">
+  <rdfs:label>Thema und Stichwörter</rdfs:label>
+  <rdfs:comment>Thema, Schlagwort, Stichwort. Das Thema der Ressource bzw. Stichwörter oder Phrasen, die das Thema oder den Inhalt  beschreiben. </rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#description">
+  <rdfs:label>Inhaltliche Beschreibung</rdfs:label>
+  <rdfs:comment>Eine textliche Beschreibung des Ressourceninhalts inklusive eines Referats (Abstract) bei dokumentähnlichen Ressourcen oder Inhaltsbeschreibungen bei graphischen Ressourcen. Künftige Metadata-Sammlungen können auch numerische Inhaltsbeschreibungen (z.B. Spektralanalyse einer graphischen Ressource) enthalten, die eventuell noch nicht in bestehende Netzsysteme eingebettet werden können. In solchen Fällen, kann dieses Feld einen Link zu einer solchen Beschreibung enthalten statt der Beschreibung selbst.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#contributor">
+  <rdfs:label>Weitere beteiligten Personen und Körperschaften</rdfs:label>
+  <rdfs:comment>Zusätzliche Person(en) und Organisation(en)  zu jenen, die im Verfasser oder Urheber genannt wurden, die einen bedeutsamen intellektuellen Beitrag zur Ressource geleistet haben, deren Beitrag aber sekundär im Verhältnis zu denen im Verfasser oder Urheber zu betrachten ist (z.B. Herausgeber, Übersetzer, Illustratoren, auch Konferenzleiter, Moderatoren).
+</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#publisher">
+  <rdfs:label>Verleger bzw. Herausgeber</rdfs:label>
+  <rdfs:comment>Die Einrichtung, die verantwortet, daß diese Ressource in dieser Form zur Verfügung steht, wie z.B. ein Verleger, ein Herausgeber, eine Universität oder eine korporatives Unternehmen. Der Zweck bei der Benutzung dieses Felds ist  es, die Einrichtung oder Einheit zu identifizieren, die den Zugang zur Ressource  gewährt.</rdfs:comment>
+</rdf:Description>
+
+</rdf:RDF>

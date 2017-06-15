@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<!-- The Dublin Core Qualified Vocabulary for Relation -->
+
+<rdf:RDF
+  xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs = "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+  xmlns:dc = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#"
+  xmlns:dct = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#">
+
+<dct:Schema rdf:about = "">
+  <dc:title>The Dublin Core Qualified Vocabulary for Relation</dc:title>
+  <dc:creator>The Dublin Core Metadata Initiative</dc:creator>
+  <dc:description>The Dublin Core metadata vocabulary is a simple vocabulary
+      intended to facilitate discovery of resources.</dc:description>
+  <dc:date>1999-03-27</dc:date>
+</dct:Schema>
+
+<rdf:Property rdf:ID = "isPartOf">
+  <rdfs:label>is part of</rdfs:label>
+  <rdfs:comment>An relationship of type 'isPartOf' between two objects</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#relation" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "hasPart">
+  <rdfs:label>has part</rdfs:label>
+  <rdfs:comment>An relationship of type 'hasPart' between two objects</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#relation" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "isVersionOf">
+  <rdfs:label>is version of</rdfs:label>
+  <rdfs:comment>An relationship of type 'isVersionOf' between two objects</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#relation" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "hasVersion">
+  <rdfs:label>has part</rdfs:label>
+  <rdfs:comment>An relationship of type 'hasVersion' between two objects</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#relation" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+</rdf:RDF>

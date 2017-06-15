@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+
+<!-- The Dublin Core Qualified Vocabulary for Agent -->
+
+<rdf:RDF
+  xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs = "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+  xmlns:dc = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#"
+  xmlns:dct = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#">
+
+<dct:Schema rdf:about = "">
+  <dc:title>The Dublin Core Qualified Vocabulary for Agent</dc:title>
+  <dc:creator>The Dublin Core Metadata Initiative</dc:creator>
+  <dc:description>The Dublin Core metadata vocabulary is a simple
+vocabulary intended to facilitate discovery of resources. The
+Qualified Vocabulary for Agents is designed to support the description
+of entities associated with a resource. </dc:description>
+  <dc:date>1999-03-27</dc:date>
+</dct:Schema>
+
+
+<!-- Begin: Class Declarations (e.g. "Value Types") -->
+
+<!-- Note: classes of datatypes to support the declarations of agents -->
+
+<rdfs:Class rdf:ID = "Person">
+  <rdfs:label>Person</rdfs:label>
+  <rdfs:comment> A human </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#Entity" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Organization">
+  <rdfs:label>Organization</rdfs:label>
+  <rdfs:comment> An organization </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#Entity" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Conference">
+  <rdfs:label>Conference</rdfs:label>
+  <rdfs:comment> An event or meeting  </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#Entity" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<rdfs:Class rdf:ID = "Instrament">
+  <rdfs:label>Instrament</rdfs:label>
+  <rdfs:comment> Any device, object, or service </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#Entity" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<!-- End: Class Declarations (e.g. "Value Types")-->
+
+
+<!-- Begin: Property declarations for defined Classes (e.g. "Value Components") -->
+
+<!-- Note: These are the properties associated with the classes of
+objects that may be "Agents" -->
+
+<rdf:Property rdf:ID = "name">
+  <rdfs:label>Name</rdfs:label>
+  <rdfs:comment>A name associated with an entity</rdfs:comment>
+  <rdfs:Domain rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#Entity" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "affiliation">
+  <rdfs:label>Affiliation</rdfs:label>
+  <rdfs:comment>An affiliation associated with an entity</rdfs:comment>
+  <rdfs:Domain rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#Entity" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "email">
+  <rdfs:label>Email</rdfs:label>
+  <rdfs:comment>An email associated with an entity</rdfs:comment>
+  <rdfs:Domain rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#Entity" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "jurisdiction">
+  <rdfs:label>Jurisdiction</rdfs:label>
+  <rdfs:comment>An jurisdiction associated with an entity (note: this
+makes no sense to me as a cross-domain property of entities)</rdfs:comment>
+  <rdfs:Domain rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#Entity" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "duration">
+  <rdfs:label>Duration</rdfs:label>
+  <rdfs:comment>The dates of existance (life-span) for the named Agent
+(note: name change from 'date-range' to 'duration'... included
+'date-range' as a data-type) (note: this makes no sense to me as a
+cross-domain property of entities)</rdfs:comment>
+  <rdfs:Domain rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dc-type#Entity" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+<!-- End: Property declarations for defined Classes (e.g. "Value Components") -->
+
+
+<!-- Begin: Data Type Declarations (e.g. "Schemes") -->
+
+<!-- Date-Range -->
+<!-- Note: Agent group defines 'daterange' as an element... i think this is a data-type -->
+
+<rdfs:Class rdf:ID = "DateRange">
+  <rdfs:label>DateRange</rdfs:label>
+  <rdfs:comment>A date-range</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdfs:Class>
+
+<!-- MARC relator terms go here -->
+
+<rdf:Class rdf:ID = "MarcRelator">
+  <rdfs:label>MARC Relation Terms</rdfs:label>
+  <rdfs:comment>The purpose of this list of relator terms and
+associated codes is to allow the relationship between a name and a
+work to be designated by codes in the MARC record.</rdfs:comment>
+  <rdfs:seeAlso rdf:resource = "http://www.loc.gov/marc/relators/re9802r1.html" />
+</rdf:Class>
+
+<!-- End: Data Type Declarations -->
+
+
+<!-- Begin: Element Qualifiers -->
+
+<!-- Note: There are no suggested element qualifiers for
+Agents... this seems wrong to me. 
+
+e.g.
+
+<rdf:Property rdf:ID = "illustrator">
+  <rdfs:label>Illustrator</rdfs:label>
+  <rdfs:comment>A contributor associated with the illustration of the resource</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/10/27-dces#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "" />
+</rdf:Property>
+
+-->
+
+<!-- End Element Qualifiers -->
+
+</rdf:RDF>
+
+

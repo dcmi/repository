@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<rdf:RDF 
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:s="http://www.w3.org/TR/WD-rdf-schema#">
+
+<!-- Community Annotation Application Vocabulary -->
+
+<s:Class rdf:ID="GetString">
+	<s:subClassOf rdf:resource="http://www-diglib.stanford.edu/diglib/ginf/1999/05/26-core-comm#Request"/>
+	<s:comment>This is a request for a string</s:comment>
+</s:Class>
+
+<s:Class rdf:ID="StringToPrint">
+	<s:subClassOf rdf:resource="http://www-diglib.stanford.edu/diglib/ginf/1999/05/26-core-comm#Reply"/>
+	<s:comment>This is a reply containing the string</s:comment>
+</s:Class>
+
+<rdf:Property rdf:ID="string">
+	<s:domain rdf:resource="#StringToPrint"/>
+	<s:range rdf:resource="http://www.w3.org/TR/WD-rdf-schema#Literal"/>
+</rdf:Property>
+
+</rdf:RDF>

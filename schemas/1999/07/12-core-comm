@@ -1,0 +1,85 @@
+<?xml version = '1.0'?>
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/TR/WD-rdf-schema#">
+
+<!-- CORE COMMUNICATION
+
+See human readable description at:
+http://www-diglib.stanford.edu/diglib/ginf/1999/05/26-core-comm.html
+
+-->
+
+<rdfs:Class rdf:ID="Message">
+	<rdfs:comment>The most general message</rdfs:comment>
+</rdfs:Class>
+
+<rdf:Property rdf:ID="deliveryInfo">
+	<rdfs:comment>An abstract property attached to a message.
+		Extend it to provide your own delivery information.</rdfs:comment>
+	<rdfs:domain rdf:resource="#Message"/>
+</rdf:Property>
+
+<rdfs:Class rdf:ID="ProcessingEntity">
+	<rdfs:comment>This resource represents a service, a client etc.,
+		in general, some entity able to process communication messages.</rdfs:comment>
+</rdfs:Class>
+
+<rdfs:Class rdf:ID="Request">
+	<rdfs:subClassOf rdf:resource="#Message"/>
+	<rdfs:comment>A request for information</rdfs:comment>
+</rdfs:Class>
+
+<rdf:Property rdf:ID="to">
+	<rdfs:comment>Identifies the recipient of the message</rdfs:comment>
+	<rdfs:subPropertyOf rdf:resource="#deliveryInfo"/>
+	<rdfs:domain rdf:resource="#Message"/>
+	<rdfs:range rdf:resource="#ProcessingEntity"/>
+</rdf:Property>
+
+<rdf:Property rdf:ID="from">
+	<rdfs:comment>Identifies the sender of the message</rdfs:comment>
+	<rdfs:subPropertyOf rdf:resource="#deliveryInfo"/>
+	<rdfs:domain rdf:resource="#Message"/>
+	<rdfs:range rdf:resource="#ProcessingEntity"/>
+</rdf:Property>
+
+<rdf:Property rdf:ID="inReplyTo">
+	<rdfs:comment>Identifies the original request</rdfs:comment>
+	<rdfs:subPropertyOf rdf:resource="#deliveryInfo"/>
+	<rdfs:domain rdf:resource="#Reply"/>
+	<rdfs:range rdf:resource="#Request"/>
+</rdf:Property>
+
+<rdfs:Class rdf:ID="Reply">
+	<rdfs:subClassOf rdf:resource="#Message"/>
+	<rdfs:comment>A reply to an information request</rdfs:comment>
+</rdfs:Class>
+
+<rdfs:Class rdf:ID="SuccessfulReply">
+	<rdfs:subClassOf rdf:resource="#Reply"/>
+	<rdfs:comment>A successful reply to an information request</rdfs:comment>
+</rdfs:Class>
+
+<!--rdfs:Class rdf:ID="Warning">
+	<rdfs:subClassOf rdf:resource="#Reply"/>
+	<rdfs:comment>A warning. A SuccessfulReply may at the same time be an instance of Warning, too</rdfs:comment>
+</rdfs:Class-->
+
+<rdfs:Class rdf:ID="Error">
+	<rdfs:subClassOf rdf:resource="#Reply"/>
+	<rdfs:comment>An error delivered to an information request</rdfs:comment>
+</rdfs:Class>
+
+<rdf:Property rdf:ID="errorMessage">
+	<rdfs:comment>A human readable error description</rdfs:comment>
+	<rdfs:domain rdf:resource="#Error"/>
+	<rdfs:range rdf:resource="http://www.w3.org/TR/WD-rdf-schema#Literal"/>
+</rdf:Property>
+
+<rdf:Property rdf:ID="warning">
+	<rdfs:comment>A warning can be attached to any Message</rdfs:comment>
+	<rdfs:domain rdf:resource="#Message"/>
+</rdf:Property>
+
+</rdf:RDF>

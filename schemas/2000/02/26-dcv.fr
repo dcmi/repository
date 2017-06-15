@@ -1,0 +1,49 @@
+<?xml version = "1.0"?>
+
+<rdf:RDF xml:lang="fr"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      	 xmlns:rdfs="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+         xmlns:dc="http://rdf.dev.oclc.org/eor/2000/02/26-dcv#"
+         xmlns:my="http://rdf.dev.oclc.org/eor/2000/02/26-myrdf#">
+
+<my:Schema rdf:about="http://rdf.dev.oclc.org/eor/2000/02/26-dcv.fr">
+  <rdf:value>Elements de méta données du Dublin Core: description de référence</rdf:value> 
+  <dc:title>Elements de méta données du Dublin Core: description de référence</dc:title>
+  <dc:creator>Anne-Marie Vercoustre, anne-marie.vercoustre@inria.fr</dc:creator>
+  <dc:description>Ce document est la description de référence des éléments de métadonnées du 'Dublin Core' en français.</dc:description>
+  <dc:language>french</dc:language>
+  <dc:date>2000-02-26</dc:date>
+</my:Schema>
+
+<rdf:Description rdf:about = "http://rdf.dev.oclc.org/eor/2000/02/26-dcv#title">
+  <rdfs:label>title</rdfs:label>
+  <rdfs:comment>Le nom donné à la ressource par le créateur ou l'auteur.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about = "http://rdf.dev.oclc.org/eor/2000/02/26-dcv#creator">
+  <rdfs:label>Créateur</rdfs:label>
+  <rdfs:comment>La personne ou l'organisation principalement responsable de la création du contenu intellectuel de la ressource. Par exemple les auteurs d'un document, ou les artistes, photographes, illustrateurs dans le cas de ressources visuelles. </rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about = "http://rdf.dev.oclc.org/eor/2000/02/26-dcv#subject">
+  <rdfs:label>Sujet et mots-clef</rdfs:label>
+  <rdfs:comment>Le sujet de la ressource. Typiquement, le sujet sera décrit par un ensemble de mots-clefs ou de phrases qui précisent le sujet ou le contenu de la ressource. L'utilisation de vocabulaires contrôlés et de schémas de classification formels est encouragée.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about = "http://rdf.dev.oclc.org/eor/2000/02/26-dcv#description">
+  <rdfs:label>Description</rdfs:label>
+  <rdfs:comment>Une description textuelle du contenu de la ressource, y compris un résumé, dans le cas d'objets tels que des documents, ou une description du contenu dans le cas de ressources visuelles.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about = "http://rdf.dev.oclc.org/eor/2000/02/26-dcv#publisher">
+  <rdfs:label>Editeur</rdfs:label>
+  <rdfs:comment>L'entité responsable de la diffusion de la ressource dans sa forme actuelle, telle qu'une maison d'édition, un département universitaire, une entreprise.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about = "http://rdf.dev.oclc.org/eor/2000/02/26-dcv#contributor">
+  <rdfs:label>Autre contributeur</rdfs:label>
+  <rdfs:comment>Une personne ou une organisation, non mentionnée dans un élément créateur, qui a fait une contribution intellectuelle significative à la ressource mais dont la contribution est secondaire comparée à celle de toute personne ou organisation spécifiée dans un élément créateur (par exemple un rédacteur, un traducteur, un illustrateur).</rdfs:comment>
+</rdf:Description>
+
+</rdf:RDF>
+

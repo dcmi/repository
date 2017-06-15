@@ -1,0 +1,151 @@
+<?xml version = "1.0"?>
+
+<!-- 
+  RDF Schema declaration for the Dublin Core Resource Type Vocabulary
+ 2001/03/08
+  comments, etc. to webteam <http://dublincore.org/feedback/dcmiFeedbackServlet>
+ $Id: dctype,v 1.1.1.1 2003/10/23 17:44:34 wagnerh Exp $
+-->
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY dctypens 'http://dublincore.org/2000/07/11/dctype#'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+      	 xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+         xmlns:eor="&eorns;">
+
+<!-- Description of Schema -->	
+
+<eor:Schema rdf:about="&dctypens;">
+  <!-- dumb down rule... use rdf:value for a simple default name -->	
+  <rdf:value>The Dublin Core Type Vocabulary</rdf:value> 
+  <dc:title>The Dublin Core Type Vocabulary</dc:title>
+  <dc:creator>The Dublin Core Metadata Initiative</dc:creator>
+  <dc:description>The Dublin Core metadata vocabulary is a simple set 
+      of resource types intended to facilitate discovery of 
+      resources. </dc:description>
+  <dc:language>English</dc:language>
+  <dc:relation rdf:resource="http://dublincore.org/documents/dcmi-type-vocabulary/"/>
+  <dc:date>2000-07-11</dc:date>
+</eor:Schema>
+
+
+<!-- Begin Type Declaration -->
+
+<!-- addition DC Vocabulary range declarations -->
+
+<rdf:Description rdf:about = "&dctypens;type">
+  <rdfs:range rdf:resource = "Resource" />
+</rdf:Description>
+
+<!-- Class declaration -->
+
+<rdfs:Class rdf:about = "&dctypens;Resource">
+  <rdfs:label>Resource</rdfs:label>
+  <rdfs:comment>A general class of describable resources.</rdfs:comment>
+  <rdfs:seeAlso rdf:resource = "http://www.loc.gov/marc/dc/typequalif-19991210.html" />
+  <rdfs:subClassOf rdf:resource = "&rdfsns;Resource" />
+  <rdfs:isDefinedBy rdf:resource = "&dctypens;" />
+</rdfs:Class>
+
+<rdfs:Class rdf:about = "&dctypens;Collection">
+  <rdfs:label>Collection</rdfs:label>
+  <rdfs:comment>A collection is an aggregation of items. The term collection
+    means that the resource is described as a group; its parts may be 
+    separately described and navigated.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "&dctypens;Resource" />
+<rdfs:isDefinedBy rdf:resource = "&dctypens;" />
+</rdfs:Class>
+
+<rdfs:Class rdf:about = "&dctypens;Dataset">
+  <rdfs:label>Dataset</rdfs:label>
+  <rdfs:comment>A dataset is information encoded in a defined structure (for 
+example, lists, tables, and databases), intended to be useful for direct 
+machine processing. </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "&dctypens;Resource" />
+  <rdfs:isDefinedBy rdf:resource = "&dctypens;" />
+</rdfs:Class>
+
+<rdfs:Class rdf:about = "&dctypens;Event">
+  <rdfs:label>Event</rdfs:label>
+  <rdfs:comment>An event is a non-persistent, time-based
+occurrence. Metadata for an event provides descriptive information
+that is the basis for discovery of the purpose, location, duration,
+responsible agents, and links to related events and resources. The
+resource of type event may not be retrievable if the described
+instantiation has expired or is yet to occur.  Examples - exhibition,
+web-cast, conference, workshop, open-day, performance, battle, trial,
+wedding, tea-party, conflagration.  </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "&dctypens;Resource" />
+  <rdfs:isDefinedBy rdf:resource = "&dctypens;" />
+</rdfs:Class>
+
+<rdfs:Class rdf:about = "&dctypens;Image">
+  <rdfs:label>Image</rdfs:label>
+  <rdfs:comment>An image is a primarily symbolic visual representation
+other than text. For example - images and photographs of physical
+objects, paintings, prints, drawings, other images and graphics,
+animations and moving pictures, film, diagrams, maps, musical
+notation. Note that image may include both electronic and physical
+representations.</rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "&dctypens;Resource" />
+  <rdfs:isDefinedBy rdf:resource = "&dctypens;" />
+</rdfs:Class>
+
+<rdfs:Class rdf:about = "&dctypens;InteractiveResource">
+  <rdfs:label>Interactive Resource</rdfs:label>
+  <rdfs:comment>An interactive resource is a resource which requires
+interaction from the user to be understood, executed, or
+experienced. For example - forms on web pages, applets, multimedia
+learning objects, chat services, virtual reality. </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "&dctypens;Resource" />
+  <rdfs:isDefinedBy rdf:resource = "&dctypens;" />
+</rdfs:Class>
+
+<rdfs:Class rdf:about = "&dctypens;Service">
+  <rdfs:label>Service</rdfs:label>
+  <rdfs:comment>A service is a system that provides one or more
+functions of value to the end-user. Examples include: a photocopying
+service, a banking service, an authentication service, interlibrary
+loans, a Z39.50 or Web server. </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "&dctypens;Resource" />
+  <rdfs:isDefinedBy rdf:resource = "&dctypens;" />
+</rdfs:Class>
+
+<rdfs:Class rdf:about = "&dctypens;Software">
+  <rdfs:label>Software</rdfs:label>
+  <rdfs:comment>a computer program in source or compiled form which
+may be available for installation non-transiently on another
+machine. For software which exists only to create an interactive
+environment, use interactive instead. </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "&dctypens;Resource" />
+  <rdfs:isDefinedBy rdf:resource = "&dctypens;" />
+</rdfs:Class>
+
+<rdfs:Class rdf:about = "&dctypens;Sound">
+  <rdfs:label>Sound</rdfs:label>
+  <rdfs:comment>A sound is a resource whose content is primarily intended to be 
+rendered as audio. For example - a music playback file format, an audio 
+compact disc, and recorded speech or sounds. </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "&dctypens;Resource" />
+  <rdfs:isDefinedBy rdf:resource = "&dctypens;" />
+</rdfs:Class>
+
+<rdfs:Class rdf:about = "&dctypens;Text">
+  <rdfs:label>Text</rdfs:label>
+  <rdfs:comment>A text is a resource whose content is primarily words
+for reading. For example - books, letters, dissertations, poems,
+newspapers, articles, archives of mailing lists.  Note that facsimiles
+or images of texts are still of the genre text. </rdfs:comment>
+  <rdfs:subClassOf rdf:resource = "&dctypens;Resource" />
+  <rdfs:isDefinedBy rdf:resource = "&dctypens;" />
+</rdfs:Class>
+
+<!-- End: Type -->
+
+</rdf:RDF>

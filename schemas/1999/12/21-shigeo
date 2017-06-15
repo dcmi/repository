@@ -1,0 +1,30 @@
+<?xml version = "1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      	 xmlns:rdfs="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+         xmlns:dc="http://krash.dev.oclc.org/eor/1999/12/09-dcv#">
+         xmlns:sv="http://krash.dev.oclc.org/eor/1999/12/21-shigeo#">
+
+<dc:Schema rdf:about="http://krash.dev.oclc.org/eor/1999/12/21-shigeo">
+  <dc:title>Shigeo's Vocabulary v2.0</dc:title>
+  <dc:creator>Shigeo Sugimoto</dc:creator>
+  <dc:description>Shigeo's vocabulary is a simple vocabulary
+      intended to facilitate discovery of resources.</dc:description>
+  <dc:date>1999-12-21</dc:date>
+</dc:Schema>
+
+<rdf:Property rdf:ID = "stitle">
+  <rdfs:label>sTitle</rdfs:label>
+  <rdfs:comment>Shigeo's title for a  resource.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/21-shigeo" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "sauthor">
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/21-shigeo" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "ssubject">
+  <rdfs:isDefinedBy rdf:resource = "http://krash.dev.oclc.org/eor/1999/12/21-shigeo" />
+</rdf:Property>
+
+</rdf:RDF>

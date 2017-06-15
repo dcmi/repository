@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org">
+    <title>RDF - ISO/XML Topicmap Agenda</title>
+    <link rel="stylesheet" href="/css/default.css" type="text/css">
+o  </head>
+
+  <body>
+
+    <h1>RDF - ISO/XML Topicmap Agenda - 20000918</h1>
+    <b>Participants</b> 
+
+    <ul>
+      <li>Eric Freese</li>
+
+      <li>Steven R. Newcomb</li>
+
+      <li>Michel Biezunski</li>
+
+      <li>Ralph Swick</li>
+
+      <li>Dan Brickley (unable to attend)</li>
+
+      <li>Dan Connolly</li>
+
+      <li>Eric Miller</li>
+    </ul>
+
+
+    <h3>Overview</h3>
+    
+    <P>A continuation of the conversations that started in Montreal at
+    the Extreme Markup Languages Conference to increase knowledge and
+    understanding about the relationships between the W3C RDF and
+    ISO/XML Topicmap activities.</P>
+
+    <h3>XML Topicmap Meeting - Update</h3>
+<pre>
+[[[
+Relationship of XTM and RDF
+
+The actual and potential relationship of XTM and RDF was discussed,
+since there had been public comment about this issue during the
+Extreme Markup Languages Conference immediately preceding the XTM
+meeting in the same hotel. Specifically, conference co-chair Michael
+Sperberg-McQueen had suggested in his closing keynote that the RDF
+people and the Topic Maps people should be locked in a room together
+until they have harmonized the two standards. A "summit" meeting on
+this issue has been proposed by Eric Miller, who would host such a
+meeting at OCLC.
+
+The AG, with the help of its three Subgroups, needs to: 
+
+ - Understand the relationship, if any, between the XTM conceptual
+ model and RDF conceptual model,
+
+ - Understand what realistic opportunities exist for establishing one
+ or more syntaxes that will be common to both Topic Maps and RDF, if
+ any, and
+
+- Understand the Use Cases, if any, that compel harmonization or
+unification of Topic Maps and RDF around either their conceptual
+models or their syntactic models, or both.  
+
+]]]
+
+--
+XTM Agenda
+<a href = "http://www.egroups.com/files/xtm-wg/Meeting+Agendas+%26+Summaries/minutes0823.htm">http://www.egroups.com/files/xtm-wg/Meeting+Agendas+%26+Summaries/minutes0823.htm</a>
+Thu, 01 Jan 1970 00:00:00 GMT
+</pre>
+    <br>
+    <br>
+     
+
+    <h3>Clarification regarding Topicmaps</h3>
+
+    <p>Steve, Michel, could you reiterate again the differences
+    between ISO Topicmaps and the XML Topicmap activities.</p>
+
+    <h3>Recognized RDF Topicmap Relations</h3>
+<pre>
+[[[
+
+ Facing the conflict between Topic Maps and RDF head-on, the
+ conference staged a debate between Eric "RDF" Miller of OCLC and Eric
+ "Topic Maps" Freese of ISOGEN[10]. Freese and Miller provided this
+ comparison between the two specs:
+
+ Similarities between RDF and Topic Maps
+
+ Both specifications
+
+      are hard to read 
+      share a goal: to tie semantics to document structures 
+      provide a systematic way to declare a vocabulary and basic
+      integrity constraints 
+      provide a typing system 
+      provide entity relationships 
+      both work well with established ontologies
+
+ The correspondences between the specs look something like this:
+
+  RDF                     Topic Maps
+
+  Resource                Topics
+  RDF schema              TM templates (proposed)
+  Properties              Facets and association roles
+  URIs                    Topic identity, scope
+  Reification             Association IDs
+
+
+ Differences between the two specifications
+
+      Topic Maps are not XML-specific and have so far been
+      standardized for SGML only. The XML Topic Map activity under the
+      GCA's IDEAlliance is drafting a proposal for such an
+      implementation.  RDF is also not XML-specific, but to date has
+      been implemented only in XML RDF now has which provides a
+      standard way to express and link an ontology; such a schema is
+      proposed for Topic Maps RDF uses XML linking, Topic Maps use
+      HyTime linking Topic Maps have explicit scoping Topic Maps start
+      with the abstract layer and (optionally) link to resources; RDF
+      starts at the resource layer and (optionally) creates an
+      abstract layer
+
+ Modeling Topic Maps with RDF "loses the distinction between topics
+ and resources," according to Freese. 
+
+ In preparation for Montreal, he put out a call for suggestions on
+ how to combine the two to end up with the best that each has to
+ offer. Here are some of the suggestions:
+
+      consider topics as collections of resources (anchors) or links
+      such that one object can be a link by a link interpreter and a
+      topic by a Topic Map interpreter 
+      add RDF's frame-based notation to Topic Maps to attach
+      properties to resources 
+      model RDF as a Topic Map application, gaining the scoping,
+      merging, and inheritance mechanisms
+
+ David Dodds provided one view of an RDF/Topic Map alliance in his
+ paper, "Simultaneous Topic Maps and RDF Metadata Structures in SVG."
+ [11] In this application, he embedded Topic Map constructs in RDF
+ metadata within SVG resources. With this notation, a graphics
+ application would then know that a bar chart is a bar chart, and that
+ each bar represents a certain scale and quantity. Since the RDF is
+ embedded in a map, an external Topic Map processor can also
+ manipulate the image.
+
+ Freese's example of the best of both worlds would look like this:
+
+   &lt;topic xlink:type="extended"...etc...&gt;
+    &lt;resource xlink:type="locator" xlink:href="...etc..."
+       rdf:type="dublinCore"&gt;
+         &lt;dc:author&gt;Dr Livingstone&lt;/author&gt;
+         &lt;dc:language&gt;english&lt;/language&gt;
+         ...etc...
+    &lt;/resource&gt;
+  &lt;/topic&gt;
+
+ This example attaches a set of properties to a locator, which is a
+ link. The topic could also be an RDF frame and, therefore, could
+ contain any kind of property.
+
+ The reaction of the user community in Montreal was strong and
+ unequivocal: merge the two or at least make them compatible.
+ Among the desirable outcomes that were mentioned was a new
+ syntax for RDF that would retain the graph notation but be less
+ difficult to use.
+
+]]]
+
+--
+XML.com - Part 2 - Going to Extremes
+<a href = "http://www.xml.com/pub/2000/09/13/extremes2.html">http://www.xml.com/pub/2000/09/13/extremes2.html</a>
+Thu, 01 Jan 1970 00:00:00 GMT
+</pre>
+
+
+    <h3>Case Studies - RDF</h3>
+
+    <p>Useful simply to start listing examples:</p>
+    <UL>
+      <LI>ISO Topicmaps:</LI>
+      <LI>XML Topicmaps:</LI>
+      <LI>RDF</LI>
+    </UL>
+    
+
+    <h3>Future Participation</h3>
+
+    <p>Should we consider establishing a public archived mailing
+    list for RDF &lt;-&gt; TopicMap discussions, or are we all
+    happier working in private cc:'s initially? If public, whats
+    the name, where?</p>
+
+    <h3>Future Plans/Meetings</h3>
+
+    <p>Where, when, does this forum (teleconference &amp;&amp; IRC)
+    work?</p>
+    <hr>
+    $Id: 18-rdftmagenda.html,v 1.1.1.1 2003/10/23 17:44:30 wagnerh Exp $
+  </body>
+</html>

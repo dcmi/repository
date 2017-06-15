@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+
+<!-- 
+  RDF Schema declaration for the DCMI Education semantics
+  2000/08/22
+  comments, etc. to eric miller, emiller@oclc.org 
+-->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      	 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcq="http://dublincore.org/2000/03/13/dcq#"
+         xmlns:eor="http://dublincore.org/2000/03/13/eor#">
+
+<!-- Description of Schema -->	
+
+<eor:Schema rdf:about="http://dublincore.org/2000/08/22-dced">
+  <!-- dumb down rule... use rdf:value for a simple default name -->	
+  <rdf:value>The Dublin Core Education Vocabulary</rdf:value> 
+  <dc:title>The Dublin Core Education Vocabulary</dc:title>
+  <dc:publisher>The Dublin Core Metadata Initiative</dc:publisher>
+  <dc:description>The Dublin Core Education metadata vocabulary is a simple vocabulary
+      intended to facilitate discovery and management of educational resources. </dc:description>
+  <dc:language>English</dc:language>
+  <dc:date>2000-08-22</dc:date>
+  <dcq:isBasedOn rdf:resource = "http://purl.org/dc/documents/education-wd" />
+</eor:Schema>
+
+
+<rdf:Property rdf:ID = "http://dublincore.org/2000/08/22-dced#audience">
+  <rdfs:label>Audience</rdfs:label>
+  <rdfs:comment>A category of user for whom the resource is intended.
+Comment: Frequently, creators and publishers of resources in education
+and training explicitly state the category of user for whom the
+resource is intended. In like fashion, end-users in the
+education/training domain frequently search using audience
+characteristics as search terms.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/08/22-dced" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "http://dublincore.org/2000/08/22-dced#mediator">
+  <rdfs:label>Mediator</rdfs:label>
+  <rdfs:comment>An entity that mediates access to the resource.
+Comment: The audience for a resource in the education/training domain
+are of two basic classes: (1) an utimate beneficiary of the resource
+(usually a student or trainee), and (2) frequently, an entity that
+mediates access to the resource (usually a teacher or trainor). The
+Mediator element refinement represents the second of these two
+classes.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://dublincore.org/2000/08/22-dced#audience" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "http://dublincore.org/2000/08/22-dced#standards">
+  <rdfs:label>Standards</rdfs:label>
+  <rdfs:comment>A reference to an established education or training
+standard to which the resource is associated.</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/08/22-dced" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "http://dublincore.org/2000/08/22-dces#identifier">
+  <rdfs:label>Identifier</rdfs:label>
+  <rdfs:comment>Where available, an identifier that serves to uniquely identify the standard being associated.A reference to an established education or training.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://dublincore.org/2000/03/13-dces#identifier" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/08/22-dced" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "http://dublincore.org/2000/08/22-dces#version">
+  <rdfs:label>Version</rdfs:label>
+  <rdfs:comment>Information identifying the version of the standard
+being referenced (e.g., a year of publication, a version number,
+etc.).</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://dublincore.org/2000/03/13-dcq#isVersionOf" />
+  <rdfs:isDefinedBy rdf:resource = "http://dublincore.org/2000/08/22-dced" />
+</rdf:Property>
+
+<!-- note: it is not clear at this time how to address the issue of
+incorporating additional vocabularies (such as IEEE, etc.) that have
+*not* been officially declared in RDF by the respective standards
+organizations. I think perhaps, we will have to additionally declare
+these vocabularies and simply assert in human-readable prose their
+relationships. -->
+
+</rdf:RDF>

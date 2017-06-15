@@ -1,0 +1,30 @@
+<?xml version = "1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      	 xmlns:rdfs="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+         xmlns:dc="http://rdf.dev.oclc.org/eor/1999/12/23-dcv#"
+    	 xmlns:sv="http://rdf.dev.oclc.org/eor/1999/12/12-sv#">
+
+<dc:Schema rdf:about="http://rdf.dev.oclc.org/eor/1999/12/30-corc">
+  <dc:title>The Corc Vocabulary v1.0</dc:title>
+  <dc:creator>Corc</dc:creator>
+  <dc:description>The Corc vocabulary is a simple vocabulary
+      intended to facilitate discovery of resources.</dc:description>
+  <dc:date>1999-12-30</dc:date>
+</dc:Schema>
+
+<rdf:Property rdf:ID = "primary">
+  <rdfs:label>Primary</rdfs:label>
+  <rdfs:comment>An entity primarily responsible for making the content of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "secondary">
+  <rdfs:label>Secondary</rdfs:label>
+  <rdfs:comment>An entity (not primary) responsible for making the content of the resource.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/23-dcv" />
+</rdf:Property>
+
+</rdf:RDF>

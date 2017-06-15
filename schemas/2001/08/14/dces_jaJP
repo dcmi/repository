@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+
+<!-- 
+  RDF Schema declaration for the Dublin Core Element Set 1.1
+  2001/08/14
+  comments, etc. to webteam <http://dublincore.org/feedback/dcmiFeedbackServlet>
+-->
+
+<!DOCTYPE rdf:RDF [
+        <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+        <!ENTITY eorns 'http://dublincore.org/2000/03/13/eor#'>
+   ]>
+
+<rdf:RDF xmlns:rdf="&rdfns;"
+         xmlns:rdfs="&rdfsns;"
+         xmlns:dc="&dcns;"
+         xmlns:eor="&eorns;">
+
+<!-- Description of Schema -->	
+
+<eor:Schema rdf:about="&dcns;">
+  <rdf:value>The Dublin Core Element Set v1.1</rdf:value>
+  <dc:title>The Dublin Core Element Set v1.1</dc:title>
+  <dc:publisher>The Dublin Core Metadata Initiative</dc:publisher>
+  <dc:description>The Dublin Core metadata vocabulary is a simple vocabulary
+      intended to facilitate discovery of resources. </dc:description>
+  <dc:language>English</dc:language>
+  <dc:relation rdf:resource="http://dublincore.org/documents/dces/"/>
+  <dc:date>2000-07-02</dc:date>
+</eor:Schema>
+
+<!-- Begin: Title Declaration -->
+
+<rdf:Property rdf:about = "&dcns;title">
+  <rdfs:label>&#x30bf;&#x30a4;&#x30c8;&#x30eb;</rdfs:label>
+  <rdfs:comment>&#x5f53;&#x8a72;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306b;&#x4e0e;&#x3048;&#x3089;&#x308c;&#x305f;&#x540d;&#x524d;&#x3002;&#x4e00;&#x822c;&#x306b;&#x306f;&#x4f5c;&#x8005;&#x3082;&#x3057;&#x304f;&#x306f;&#x516c;&#x958b;&#x8005;&#x306b;&#x3088;&#x3063;&#x3066;&#x4e0e;&#x3048;&#x3089;&#x308c;&#x308b;&#x3002;</rdfs:comment>
+  <eor:comment>Typically, a Title will be a name by which the resource
+  is formally known.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;contributor">
+  <rdfs:label>&#x5bc4;&#x4e0e;&#x8005;</rdfs:label>
+  <rdfs:comment>&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x306b;&#x306f;&#x793a;&#x3055;&#x308c;&#x305f;&#x3082;&#x306e;&#x3067;&#x306f;&#x306a;&#x3044;&#x4eba;&#x3042;&#x308b;&#x3044;&#x306f;&#x7d44;&#x7e54;&#x3067;&#xff0c;&#x5f53;&#x8a72;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x3092;&#x4f5c;&#x308a;&#x51fa;&#x3059;&#x306b;&#x5f53;&#x305f;&#x3063;&#x3066;&#x77e5;&#x7684;&#x306b;&#x91cd;&#x8981;&#x306a;&#x5bc4;&#x4e0e;&#x3092;&#x3057;&#x305f;&#x3082;&#x306e;&#x3002;Creator&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x306b;&#x793a;&#x3055;&#x308c;&#x305f;&#x4eba;&#x3042;&#x308b;&#x3044;&#x306f;&#x7d44;&#x7e54;&#x306b;&#x6b21;&#x3044;&#x3067;&#x5927;&#x304d;&#x306a;&#x5bc4;&#x4e0e;&#x3092;&#x3057;&#x305f;&#x3082;&#x306e;&#x3002;&#xff08;&#x305f;&#x3068;&#x3048;&#x3070;&#xff0c;&#x7de8;&#x96c6;&#x8005;&#xff0c;&#x7ffb;&#x8a33;&#x8005;&#xff0c;&#x30a4;&#x30e9;&#x30b9;&#x30c8;&#x30ec;&#x30fc;&#x30bf;&#xff09;</rdfs:comment>
+  <eor:comment>Examples of a Contributor include a person, an
+  organisation, or a service.  Typically, the name of a Contributor
+  should be used to indicate the entity.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+ 
+<rdf:Property rdf:about = "&dcns;creator">
+  <rdfs:label>&#x8457;&#x8005;&#xff08;&#x3042;&#x308b;&#x3044;&#x306f;&#x4f5c;&#x8005;&#xff09;</rdfs:label>
+  <rdfs:comment>&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306e;&#x77e5;&#x7684;&#x5185;&#x5bb9;&#x306e;&#x5275;&#x9020;&#x306b;&#x4e3b;&#x305f;&#x308b;&#x8cac;&#x4efb;&#x3092;&#x6301;&#x3064;&#x4eba;&#x3042;&#x308b;&#x3044;&#x306f;&#x7d44;&#x7e54;&#x3002;&#x305f;&#x3068;&#x3048;&#x3070;&#xff0c;&#x8457;&#x8ff0;&#x3055;&#x308c;&#x305f;&#x6587;&#x66f8;&#x306e;         &#x5834;&#x5408;&#x306e;&#x8457;&#x8005;&#xff0c;&#x8996;&#x899a;&#x7684;&#x8cc7;&#x6599;&#x306e;&#x5834;&#x5408;&#x306e;&#x753b;&#x5bb6;&#x3084;&#x5199;&#x771f;&#x5bb6;&#xff0c;&#x30a4;&#x30e9;&#x30b9;&#x30c8;&#x30ec;&#x30fc;&#x30bf;&#x3002;</rdfs:comment>
+  <eor:comment> Examples of a Creator include a person, an
+  organisation, or a service. Typically, the name of a Creator should
+  be used to indicate the entity.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;publisher">
+  <rdfs:label>&#x516c;&#x958b;&#x8005;&#xff08;&#x51fa;&#x7248;&#x793e;&#xff09;</rdfs:label>
+  <rdfs:comment>&#x305f;&#x3068;&#x3048;&#x3070;&#xff0c;&#x51fa;&#x7248;&#x793e;&#xff0c;&#x5927;&#x5b66;&#x306e;&#x5b66;&#x79d1;&#xff0c;&#x4f01;&#x696d;&#x4f53;&#x306a;&#x3069;&#xff0c;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x3092;&#x73fe;&#x5728;&#x306e;&#x5f62;&#x614b;&#x3067;&#x5229;&#x7528;&#x53ef;&#x80fd;&#x306b;&#x3057;&#x305f;&#x3053;&#x3068;&#x306b;         &#x8cac;&#x4efb;&#x3092;&#x6301;&#x3064;&#x5b9f;&#x4f53;&#x3002;
+</rdfs:comment>
+  <eor:comment> Examples of a Publisher include a person, an
+  organisation, or a service.  Typically, the name of a Publisher
+  should be used to indicate the entity.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;subject">
+  <rdfs:label>&#x4e3b;&#x984c;&#xff08;&#x304a;&#x3088;&#x3073;&#x30ad;&#x30fc;&#x30ef;&#x30fc;&#x30c9;&#xff09;</rdfs:label>
+  <rdfs:comment>&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306e;&#x30c8;&#x30d4;&#x30c3;&#x30af;&#x3002;&#x5178;&#x578b;&#x7684;&#x306b;&#x306f;&#xff0c;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306e;&#x4e3b;&#x984c;&#x3042;&#x308b;&#x3044;&#x306f;&#x5185;&#x5bb9;&#x3092;&#x8aac;&#x660e;&#x3059;&#x308b;&#x30ad;&#x30fc;&#x30ef;&#x30fc;&#x30c9;&#x3084;&#x53e5;&#x3002;         &#x7d71;&#x5236;&#x8a9e;&#x5f59;&#x3084;&#x6b63;&#x5f0f;&#x306a;&#x5206;&#x985e;&#x4f53;&#x7cfb;&#x306b;&#x57fa;&#x3065;&#x3044;&#x3066;&#x8a18;&#x8ff0;&#x3059;&#x308b;&#x3053;&#x3068;&#x304c;&#x63a8;&#x5968;&#x3055;&#x308c;&#x308b;&#x3002;</rdfs:comment>
+  <eor:comment> Typically, a Subject will be expressed as keywords,
+  key phrases or classification codes that describe a topic of the
+  resource.  Recommended best practice is to select a value from a
+  controlled vocabulary or formal classification scheme.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;description">
+  <rdfs:label>&#x5185;&#x5bb9;&#x8a18;&#x8ff0;</rdfs:label>
+  <rdfs:comment>&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306e;&#x5185;&#x5bb9;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8aac;&#x660e;&#x8a18;&#x8ff0;&#x3002;&#x6587;&#x66f8;&#x306e;&#x5834;&#x5408;&#x306e;&#x6284;&#x9332;&#xff0c;&#x8996;&#x899a;&#x7684;&#x8cc7;&#x6599;&#x306e;&#x5834;&#x5408;&#x306e;&#x5185;&#x5bb9;&#x8a18;&#x8ff0;&#x306a;&#x3069;&#x3002;</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;date">
+  <rdfs:label>&#x65e5;&#x4ed8;</rdfs:label>
+  <rdfs:comment>&#x5f53;&#x8a72;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x304c;&#x4f5c;&#x6210;&#x3055;&#x308c;&#x305f;&#xff0c;&#x3042;&#x308b;&#x3044;&#x306f;&#x6709;&#x52b9;&#x306b;&#x306a;&#x3063;&#x305f;&#x65e5;&#x4ed8;&#x3002;&#x3053;&#x306e;&#x65e5;&#x4ed8;&#x306f;Coverage&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x306b;&#x66f8;&#x304b;&#x308c;&#x308b;&#x65e5;&#x4ed8;&#x3068;&#x6df7;&#x540c;&#x3057;&#x3066;&#x306f;&#x306a;&#x3089;&#x306a;&#x3044;&#x3002;Coverage&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x306b;&#x66f8;&#x304b;&#x308c;&#x308b;&#x3082;&#x306e;&#x306f;&#x5f53;&#x8a72;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306e;&#x77e5;&#x7684;&#x5185;&#x5bb9;&#x306b;&#x4f55;&#x3089;&#x304b;&#x306e;&#x95a2;&#x4fc2;&#x3092;&#x6301;&#x3064;&#x65e5;&#x4ed8;&#x3067;&#x3042;&#x308b;&#x3002;YYYY&#x304a;&#x3088;&#x3073;YYYY-MM-DD&#x306e;&#x5f62;&#x5f0f;&#x3067;&#x66f8;&#x304f;ISO
+8601[W3C&#x30c6;&#x30af;&#x30cb;&#x30ab;&#x30eb;&#x30ce;&#x30fc;&#x30c8;http://www.w3.org/TR/Note-datetime&#x306e;&#xff08;ISO8601&#x306b;&#x57fa;&#x3065;&#x304f;&#xff09;
+&#x65e5;&#x4ed8;&#x3068;&#x6642;&#x523b;]&#x304c;&#x5b9a;&#x7fa9;&#x3059;&#x308b;&#x5f62;&#x5f0f;&#x306b;&#x57fa;&#x3065;&#x3044;&#x3066;&#x8a18;&#x8ff0;&#x3059;&#x308b;&#x3053;&#x3068;&#x304c;&#x5f37;&#x304f;&#x63a8;&#x5968;&#x3055;&#x308c;&#x308b;&#x3002;&#x305f;&#x3068;&#x3048;&#x3070;&#xff0c;&#x3053;&#x306e;&#x5f62;&#x5f0f;&#x3067;         &#x306f;1994&#x5e74;11&#x6708;5&#x65e5;&#x306f;1994-11-05&#x3068;&#x8868;&#x3055;&#x308c;&#x308b;&#x3002;
+</rdfs:comment>
+  <eor:comment>Typically, Date will be associated with the creation or
+  availability of the resource.  Recommended best practice for
+  encoding the date value is defined in a profile of ISO 8601 [W3CDTF]
+  and follows the YYYY-MM-DD format.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;type">
+  <rdfs:label>&#x8cc7;&#x6e90;&#x30bf;&#x30a4;&#x30d7;</rdfs:label>
+  <rdfs:comment>&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306e;&#x7a2e;&#x985e;&#x3002;&#x305f;&#x3068;&#x3048;&#x3070;&#xff0c;&#x30db;&#x30fc;&#x30e0;&#x30da;&#x30fc;&#x30b8;&#xff0c;&#x5c0f;&#x8aac;&#xff0c;&#x8a69;&#xff0c;&#x30ef;&#x30fc;&#x30ad;&#x30f3;&#x30b0;&#x30da;&#x30fc;&#x30d1;&#x30fc;&#xff0c;&#x30c6;&#x30af;&#x30cb;&#x30ab;&#x30eb;&#x30ec;&#x30dd;
+&#x30fc;&#x30c8;&#xff0c;&#x30a8;&#x30c3;&#x30bb;&#x30fc;&#xff0c;&#x8f9e;&#x66f8;&#x30fb;&#x4e8b;&#x5178;&#x306a;&#x3069;&#x3002;&#x76f8;&#x4e92;&#x5229;&#x7528;&#x6027;&#x3092;&#x4fdd;&#x3064;&#x305f;&#x3081;&#x306b;&#xff0c;&#x4e00;&#x9023;&#x306e;&#x30ef;&#x30fc;&#x30af;&#x30b7;&#x30e7;&#x30c3;&#x30d7;&#x3067;&#x73fe;&#x5728;&#x4f5c;         &#x6210;&#x3092;&#x9032;&#x3081;&#x3066;&#x3044;&#x308b;&#x7528;&#x8a9e;&#x306e;&#x30ea;&#x30b9;&#x30c8;&#x306e;&#x4e2d;&#x304b;&#x3089;&#x9078;&#x3076;&#x3088;&#x3046;&#x306b;&#x3057;&#x306a;&#x3051;&#x308c;&#x3070;&#x306a;&#x3089;&#x306a;&#x3044;&#x3002;
+</rdfs:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;format">
+  <rdfs:label>&#x5f62;&#x5f0f;</rdfs:label>
+  <rdfs:comment>&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306e;&#x30c7;&#x30fc;&#x30bf;&#x30d5;&#x30a9;&#x30fc;&#x30de;&#x30c3;&#x30c8;&#x3002;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x3092;&#x8868;&#x793a;&#x3057;&#x305f;&#x308a;&#x52d5;&#x4f5c;&#x3055;&#x305b;&#x305f;&#x308a;&#x3059;&#x308b;&#x306e;&#x306b;&#x5fc5;&#x8981;&#x306a;&#x30bd;&#x30d5;&#x30c8;&#x30a6;
+&#x30a7;&#x30a2;&#x3084;&#x5834;&#x5408;&#x306b;&#x3088;&#x3063;&#x3066;&#x306f;&#x30cf;&#x30fc;&#x30c9;&#x30a6;&#x30a7;&#x30a2;&#x3092;&#x8b58;&#x5225;&#x3059;&#x308b;&#x305f;&#x3081;&#x306b;&#x5229;&#x7528;&#x3067;&#x304d;&#x308b;&#x60c5;&#x5831;&#x3092;&#x8a18;&#x8ff0;&#x3059;&#x308b;&#x3002;&#x76f8;&#x4e92;&#x5229;&#x7528;&#x6027;
+&#x3092;&#x4fdd;&#x3064;&#x305f;&#x3081;&#x306b;&#xff0c;&#x4e00;&#x9023;&#x306e;&#x30ef;&#x30fc;&#x30af;&#x30b7;&#x30e7;&#x30c3;&#x30d7;&#x3067;&#x73fe;&#x5728;&#x4f5c;&#x6210;&#x3092;&#x9032;&#x3081;&#x3066;&#x3044;&#x308b;&#x7528;&#x8a9e;&#x306e;&#x30ea;&#x30b9;&#x30c8;&#x306e;&#x4e2d;&#x304b;&#x3089;&#x9078;&#x3076;&#x3053;&#x3068;         &#x304c;&#x5f37;&#x304f;&#x63a8;&#x5968;&#x3055;&#x308c;&#x308b;&#x3002;
+</rdfs:comment>
+  <eor:comment> Typically, Format may include the media-type or
+  dimensions of the resource. Format may be used to determine the
+  software, hardware or other equipment needed to display or operate
+  the resource. Examples of dimensions include size and duration.
+  Recommended best practice is to select a value from a controlled
+  vocabulary (for example, the list of Internet Media Types [MIME]
+  defining computer media formats).</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;identifier">
+  <rdfs:label>&#x8cc7;&#x6e90;&#x8b58;&#x5225;&#x5b50;</rdfs:label>
+  <rdfs:comment>&#x5f53;&#x8a72;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x3092;&#x4e00;&#x610f;&#x306b;&#x8b58;&#x5225;&#x3059;&#x308b;&#x305f;&#x3081;&#x306e;&#x6587;&#x5b57;&#x5217;&#x3082;&#x3057;&#x304f;&#x306f;&#x756a;&#x53f7;&#x3002;URL&#x3084;(&#x5b9f;&#x73fe;&#x3055;&#x308c;&#x305f;&#x969b;&#x306b;&#x306f;)URN&#x306f;&#x30cd;&#x30c3;&#x30c8;&#x30ef;&#x30fc;&#x30af;&#x4e0a;&#x306e;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8b58;&#x5225;&#x5b50;&#x306e;&#x4f8b;&#x3067;&#x3042;&#x308b;&#x3002;&#x56fd;&#x969b;&#x6a19;&#x6e96;&#x56f3;&#x66f8;&#x756a;&#x53f7;(ISBN)&#x3084;&#x4ed6;&#x306e;&#x6a19;&#x6e96;&#x5316;&#x3055;&#x308c;&#x305f;&#x540d;&#x524d;&#x306e;&#x3088;&#x3046;&#x306b;&#x5168;&#x4e16;&#x754c;&#x7684;&#x306b;&#x4e00;&#x610f;&#x306b;&#x5b9a;&#x307e;&#x308b;&#x8b58;&#x5225;&#x5b50;&#x3082;&#x3053;&#x306e;&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x306e;&#x5024;&#x3068;&#x3057;&#x3066;&#x9069;&#x5207;&#x306a;&#x3082;&#x306e;&#x3067;&#x3042;&#x308b;&#x3002;
+</rdfs:comment>
+  <eor:comment>Recommended best practice is to identify the resource
+  by means of a string or number conforming to a formal identification
+  system.  Example formal identification systems include the Uniform
+  Resource Identifier (URI) (including the Uniform Resource Locator
+  (URL)), the Digital Object Identifier (DOI) and the International
+  Standard Book Number (ISBN).</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;language">
+  <rdfs:label>&#x8a00;&#x8a9e;</rdfs:label>
+  <rdfs:comment>&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306e;&#x77e5;&#x7684;&#x5185;&#x5bb9;&#x3092;&#x8a18;&#x8ff0;&#x3059;&#x308b;&#x305f;&#x3081;&#x306b;&#x7528;&#x3044;&#x3089;&#x308c;&#x3066;&#x3044;&#x308b;&#x8a00;&#x8a9e;&#x3002;&#x5b9f;&#x969b;&#x7684;&#x306b;&#x5229;&#x7528;&#x3059;&#x308b;&#x306b;&#x306f;&#xff0c;&#x3053;&#x306e;&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x306e;&#x8a18;&#x8ff0;&#x306f;&#xff0c;&#x305f;&#x3068;&#x3048;&#x3070;en&#xff0c;de&#xff0c;es&#xff0c;ja&#xff0c;th&#x3084;zh&#x3068;&#x3044;&#x3063;&#x305f;RFC1766&#xff3b;&#x8a00;&#x8a9e;&#x8b58;&#x5225;&#x306e;&#x305f;&#x3081;&#x306e;&#x30bf;&#x30b0;&#xff0c;http://ds.internic.net/rfc/rfc1766.txt&#xff3d;&#x306b;&#x9069;&#x5408;&#x3057;&#x3066;&#x3044;&#x308b;&#x8981;&#x6c42;&#x3055;&#x308c;&#x308b;&#x3002;
+</rdfs:comment>
+  <eor:comment> Recommended best practice for the values of the
+  Language element is defined by RFC 1766 [RFC1766] which includes a
+  two-letter Language Code (taken from the ISO 639 standard [ISO639]),
+  followed optionally, by a two-letter Country Code (taken from the
+  ISO 3166 standard [ISO3166]).  For example, 'en' for English, 'fr'
+  for French, or 'en-uk' for English used in the United
+  Kingdom.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;relation">
+  <rdfs:label>&#x95a2;&#x4fc2;</rdfs:label>
+  <rdfs:comment>&#x5225;&#x306e;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306e;&#x8b58;&#x5225;&#x5b50;&#x304a;&#x3088;&#x3073;&#x5f53;&#x8a72;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x3068;&#x305d;&#x306e;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x3068;&#x306e;&#x9593;&#x306e;&#x95a2;&#x4fc2;&#x3002;&#x3053;&#x306e;&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x306b;&#x306f;&#x95a2;&#x9023;&#x3059;&#x308b;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x9593;&#x306e;&#x30ea;&#x30f3;&#x30af;&#x3084;&#x6307;&#x793a;&#x3059;&#x3079;&#x304d;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x8a18;&#x8ff0;&#x3092;&#x66f8;&#x304f;&#x3053;&#x3068;&#x304c;&#x3067;&#x304d;&#x308b;&#x3002;&#x305f;&#x3068;&#x3048;&#x3070;&#xff0c;&#x4f5c;&#x54c1;&#x306e;&#x7248;(IsVersionOf)&#xff0c;&#x4f5c;&#x54c1;&#x306e;&#x7ffb;&#x8a33;(IsBasedOn)&#xff0c;&#x672c;&#x306e;&#x7ae0;(IsPartOf)&#xff0c;&#x30c7;&#x30fc;&#x30bf;&#x30bb;&#x30c3;&#x30c8;&#x304b;&#x3089;&#x30a4;&#x30e1;&#x30fc;&#x30b8;&#x3078;&#x306e;&#x6a5f;&#x68b0;&#x7684;&#x5909;&#x63db;(IsFormatOf)&#x304c;&#x3042;&#x308b;&#x3002;&#x76f8;&#x4e92;&#x5229;&#x7528;&#x6027;&#x3092;&#x5f97;&#x308b;&#x305f;&#x3081;&#x306b;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x9593;&#x306e;&#x95a2;&#x4fc2;&#x3092;&#x8868;&#x3059;&#x5024;&#x306b;&#x3064;&#x3044;&#x3066;&#x306f;&#xff0c;&#x4e00;&#x9023;&#x306e;&#x30ef;&#x30fc;&#x30af;&#x30b7;&#x30e7;&#x30c3;&#x30d7;&#x306b;&#x304a;&#x3044;&#x3066;&#x73fe;&#x5728;&#x5b9a;&#x7fa9;&#x304c;&#x9032;&#x3081;&#x3089;&#x308c;&#x3066;&#x3044;&#x308b;&#x5024;&#x306e;&#x30ea;&#x30b9;&#x30c8;&#x304b;&#x3089;&#x9078;&#x629e;&#x3057;&#x3066;&#x4e0e;&#x3048;&#x308b;&#x3053;&#x3068;&#x304c;&#x63a8;&#x5968;&#x3055;&#x308c;&#x308b;&#x3002;
+</rdfs:comment>
+  <eor:comment> Recommended best practice is to reference the resource
+  by means of a string or number conforming to a formal identification
+  system.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;source">
+  <rdfs:label>&#x60c5;&#x5831;&#x6e90;&#xff08;&#x51fa;&#x51e6;&#xff09;</rdfs:label>
+  <rdfs:comment>&#x5f53;&#x8a72;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x3092;&#x4f5c;&#x308a;&#x51fa;&#x3059;&#x5143;&#x306b;&#x306a;&#x3063;&#x305f;&#x5225;&#x306e;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306b;&#x95a2;&#x3059;&#x308b;&#x60c5;&#x5831;&#x3002;&#x4e00;&#x822c;&#x306b;&#xff0c;&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x306b;&#x306f;&#x5f53;&#x8a72;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306b;&#x95a2;&#x3059;&#x308b;&#x60c5;&#x5831;&#x306e;&#x307f;&#x3092;&#x8a18;&#x8ff0;&#x3059;&#x308b;&#x3053;&#x3068;&#x304c;&#x63a8;&#x5968;&#x3055;&#x308c;&#x3066;&#x3044;&#x308b;&#x304c;&#xff0c;&#x672c;&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x306b;&#x306f;&#x5f53;&#x8a72;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x3092;&#x898b;&#x3064;&#x3051;&#x51fa;&#x3059;&#x305f;&#x3081;&#x306b;&#x6709;&#x7528;&#x3067;&#x3042;&#x308b;&#x5225;&#x306e;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306b;&#x95a2;&#x3059;&#x308b;&#x65e5;&#x4ed8;&#xff0c;&#x4f5c;&#x8005;&#xff0c;&#x5f62;&#x5f0f;&#xff0c;&#x8b58;&#x5225;&#x5b50;&#x3042;&#x308b;&#x3044;&#x306f;&#x4ed6;&#x306e;&#x30e1;&#x30bf;&#x30c7;&#x30fc;&#x30bf;&#x3092;&#x66f8;&#x304f;&#x3053;&#x3068;&#x304c;&#x3067;&#x304d;&#x308b;&#x3002;&#x5b9f;&#x969b;&#x306e;&#x7d4c;&#x9a13;&#x304b;&#x3089;&#x306f;&#x672c;&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x306e;&#x4ee3;&#x308f;&#x308a;&#x306b;&#x5225;&#x306e;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x3068;&#x306e;&#x95a2;&#x4fc2;&#x3092;Relation&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x3092;&#x7528;&#x3044;&#x3066;&#x8868;&#x3059;&#x3053;&#x3068;&#x304c;&#x63a8;&#x5968;&#x3055;&#x308c;&#x308b;&#x3002;&#x305f;&#x3068;&#x3048;&#x3070;&#xff0c;1996&#x5e74;&#x306b;&#x6620;&#x753b;&#x5316;&#x3055;&#x308c;&#x305f;&#x30b7;&#x30a7;&#x30fc;&#x30af;&#x30b9;&#x30d4;&#x30a2;&#x5287;&#x306b;&#x95a2;&#x3059;&#x308b;&#x8a18;&#x8ff0;&#x306e;&#x4e2d;&#x3067;1603&#x5e74;&#x3068;&#x3044;&#x3046;&#x5024;&#x3092;Source
+&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x306b;&#x66f8;&#x304f;&#x3053;&#x3068;&#x304c;&#x3067;&#x304d;&#x308b;&#x304c;&#xff0c;&#x3053;&#x306e;&#x5834;&#x5408;&#x5f53;&#x8a72;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306e;Relation&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x306e;&#x4e2d;&#x3067;&#x306f;&#x201c;IsBasedOn&#x201d;&#x95a2;&#x4fc2;&#x3092;&#x7528;&#x3044;
+&#x3066;1603&#x5e74;&#x3068;&#x3044;&#x3046;&#x8a18;&#x8ff0;&#x3092;&#x542b;&#x3080;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x3092;&#x53c2;&#x7167;&#x3059;&#x308b;&#x65b9;&#x304c;&#x671b;&#x307e;&#x3057;&#x3044;&#x3002;&#x5f53;&#x8a72;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x304c;&#x5143;&#x306e;&#x5f62;&#x5f0f;&#x3067;&#x3042;         &#x308b;&#x5834;&#x5408;&#x306b;&#x306f;&#x60c5;&#x5831;&#x6e90;&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x306f;&#x9069;&#x7528;&#x3067;&#x304d;&#x306a;&#x3044;&#x3002;
+</rdfs:comment>
+  <eor:comment> The present resource may be derived from the Source
+  resource in whole or in part.  Recommended best practice is to
+  reference the resource by means of a string or number conforming to
+  a formal identification system.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;coverage">
+  <rdfs:label>&#x5bfe;&#x8c61;&#x7bc4;&#x56f2;&#xff08;&#x7a7a;&#x9593;&#x7684;&#x30fb;&#x6642;&#x9593;&#x7684;&#xff09;</rdfs:label>
+  <rdfs:comment>&#x5f53;&#x8a72;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306e;&#x77e5;&#x7684;&#x5185;&#x5bb9;&#x306b;&#x95a2;&#x3059;&#x308b;&#x7a7a;&#x9593;&#x7684;(&#x5730;&#x7406;&#x7684;)&#x3042;&#x308b;&#x3044;&#x306f;&#x6642;&#x9593;&#x7684;&#x7279;&#x6027;&#x3002;&#x7a7a;&#x9593;&#x7684;&#x7bc4;&#x56f2;&#x306f;&#x7269;&#x7406;&#x7684;&#x306a;&#x7bc4;&#x56f2;(&#x305f;&#x3068;&#x3048;&#x3070;&#x5929;&#x7403;&#x306e;&#x4e00;&#x90e8;)&#x3092;&#x8868;&#x3059;&#x3002;&#x3053;&#x306e;&#x5834;&#x5408;&#xff0c;&#x5ea7;&#x6a19;(&#x305f;&#x3068;&#x3048;&#x3070;,&#x7d4c;&#x5ea6;&#x3068;&#x7def;&#x5ea6;)&#xff0c;&#x7d71;&#x5236;&#x8a9e;&#x30ea;&#x30b9;&#x30c8;&#x306e;&#x4e2d;&#x304b;&#x3089;&#x9078;&#x3070;&#x308c;&#x305f;&#x3042;&#x308b;&#x3044;&#x306f;&#x5b8c;&#x5168;&#x306a;&#x540d;&#x524d;&#x3067;&#x8868;&#x3055;&#x308c;&#x305f;&#x5730;&#x540d;&#x3092;&#x7528;&#x3044;&#x308b;&#x3002;&#x6642;&#x9593;&#x7684;&#x7bc4;&#x56f2;&#x306f;&#x5f53;&#x8a72;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x304c;&#x8868;&#x3057;&#x3066;&#x3044;&#x308b;&#x5185;&#x5bb9;&#x306b;&#x95a2;&#x3059;&#x308b;&#x6642;&#x9593;&#x7684;&#x60c5;&#x5831;&#x3092;&#x8868;&#x3059;&#x3082;&#x306e;&#x3067;&#x3042;&#x308a;&#xff0c;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306e;&#x4f5c;&#x6210;&#x3084;&#x516c;&#x958b;&#x306b;&#x95a2;&#x3059;&#x308b;&#x65e5;&#x4ed8;&#x3067;&#x306f;&#x306a;&#x3044;&#x3002;(&#x5f8c;&#x8005;&#x306f;Date&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x3067;&#x8a18;&#x8ff0;&#x3059;&#x3079;&#x304d;&#x3082;&#x306e;&#x3067;&#x3042;&#x308b;&#x3002;)&#x3053;&#x306e;&#x5834;&#x5408;&#xff0c;&#x6b21;&#x306e;&#x5f62;&#x5f0f;&#x3067;&#x8868;&#x3059;&#x3053;&#x3068;&#x3002;Date
+&#x30a8;&#x30ec;&#x30e1;&#x30f3;&#x30c8;&#x3068;&#x540c;&#x3058;&#x65e5;&#x4ed8;&#x3068;&#x6642;&#x9593;(&#x671f;&#x9593;&#x3067;&#x3042;&#x308b;&#x5834;&#x5408;&#x304c;&#x591a;&#x3044;)&#x306b;&#x95a2;&#x3059;&#x308b;&#x5f62;&#x5f0f;&#xff3b;(ISO8601&#x306b;&#x57fa;&#x3065;&#x304f;)&#x65e5;&#x4ed8;         &#x3068;&#x6642;&#x9593;&#x306e;&#x5f62;&#x5f0f;&#xff0c;W3C&#x30c6;&#x30af;&#x30cb;&#x30ab;&#x30eb;&#x30ce;&#x30fc;&#x30c8;&#xff0c;http://www.w3.org/TR/NOTE-datetime&#xff3d;&#xff0c;&#x7d71;&#x5236;&#x8a9e;&#x30ea;&#x30b9;&#x30c8;&#x304b;&#x3089;&#x9078;&#x3093;&#x3060;&#x6642;&#x9593;&#x533a;&#x9593;&#x8a18;&#x8ff0;&#xff0c;&#x3042;&#x308b;&#x3044;&#x306f;&#x6642;&#x9593;&#x533a;&#x9593;&#x306e;&#x5b8c;&#x5168;&#x306a;&#x8a18;&#x8ff0;&#x3002;
+</rdfs:comment>
+  <eor:comment>Coverage will typically include spatial location (a
+  place name or geographic coordinates), temporal period (a period
+  label, date, or date range) or jurisdiction (such as a named
+  administrative entity).  Recommended best practice is to select a
+  value from a controlled vocabulary (for example, the Thesaurus of
+  Geographic Names [TGN]) and that, where appropriate, named places or
+  time periods be used in preference to numeric identifiers such as
+  sets of coordinates or date ranges.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+<rdf:Property rdf:about = "&dcns;rights">
+  <rdfs:label>&#x6a29;&#x5229;&#x7ba1;&#x7406;</rdfs:label>
+  <rdfs:comment>&#x6a29;&#x5229;&#x7ba1;&#x7406;&#x306b;&#x95a2;&#x3059;&#x308b;&#x58f0;&#x660e;&#x6587;&#xff0c;&#x6a29;&#x5229;&#x7ba1;&#x7406;&#x306b;&#x95a2;&#x3059;&#x308b;&#x58f0;&#x660e;&#x6587;&#x3078;&#x306e;&#x30ea;&#x30f3;&#x30af;&#x3092;&#x8868;&#x3059;&#x8b58;&#x5225;&#x5b50;&#xff0c;&#x3042;&#x308b;&#x3044;&#x306f;&#x5f53;&#x8a72;&#x60c5;&#x5831;&#x8cc7;&#x6e90;&#x306e;&#x6a29;&#x5229;&#x7ba1;&#x7406;&#x306b;&#x95a2;&#x3059;&#x308b;&#x60c5;&#x5831;&#x3092;&#x63d0;&#x4f9b;&#x3059;&#x308b;&#x30b5;&#x30fc;&#x30d3;&#x30b9;&#x3078;&#x306e;&#x30ea;&#x30f3;&#x30af;&#x3092;&#x8868;&#x3059;&#x8b58;&#x5225;&#x5b50;&#x3002;
+</rdfs:comment>
+  <eor:comment> Typically, a Rights element will contain a rights
+  management statement for the resource, or reference a service
+  providing such information. Rights information often encompasses
+  Intellectual Property Rights (IPR), Copyright, and various Property
+  Rights.  If the Rights element is absent, no assumptions can be made
+  about the status of these and other rights with respect to the
+  resource.</eor:comment>
+  <rdfs:isDefinedBy rdf:resource = "&dcns;" />
+</rdf:Property>
+
+</rdf:RDF>

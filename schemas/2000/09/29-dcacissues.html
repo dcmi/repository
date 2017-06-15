@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="generator" content="HTML Tidy, see www.w3.org" />
+    <title>Eric's informal list of DC-AC issues</title>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+    <link rel="contents" href="/sitemap/index.shtml" />
+    <link rel="stylesheet" href="/css/default.css"
+    type="text/css" />
+<script src="/js/default.js" type="text/javascript">
+</script>
+  </head>
+
+  <body bgcolor="#FFFFFF" text="#000000">
+
+<hr />
+    <h1>Eric's informal list of DC-AC issues</h1>
+<hr />
+
+
+    <h3>Normalizing DCMI vocabulary documents</h3>
+<pre>
+[[[
+As we could have guessed, the case issue (capital verse lower case) of the 
+semantics defined by the DCMI as well as the difference in declarative 
+terminology across documents is causing significant confusion to developers. 
+As such, my suggestion is to re-format the semantic declarations in the 
+Element Set document [3] to reflect the declarative conventions defined by 
+the dc-usage committee which are reflected in the Qualifiers recommendation 
+[4] and the DC Education proposal [5]. 
+]]]
+
+--
+dc-ac archives - August 2000: Normalizing DCMI vocabulary documents
+<a href = "http://www.mailbase.ac.uk/lists/dc-ac/2000-08/0040.html">http://www.mailbase.ac.uk/lists/dc-ac/2000-08/0040.html</a>
+</pre>
+
+    <h3>Naming policy for DCMI namespaces</h3>
+<pre>
+[[[
+Namespaces are required for identifying schemas required for various XML 
+and/or RDF applications. Independent of the domain name discussion (e.g. 
+whether to use http://purl.org/dc/ or http://www.dublincore.org)/), a common 
+policy for naming namespaces defined by the DCMI is useful. 
+]]]
+
+--
+dc-ac archives - August 2000: Naming policy for DCMI namespaces
+<a href = "http://www.mailbase.ac.uk/lists/dc-ac/2000-08/0029.html">http://www.mailbase.ac.uk/lists/dc-ac/2000-08/0029.html</a>
+</pre>
+
+    <h3>DC URIs</h3>
+<pre>
+[[[
+Can someone clarify which one is preferred and can we try and stick to it 
+in all places. I note that www.dublincore.org redirects to purl.org/DC, 
+though the purl.org/dc form used in current namespace URIs. 
+
+What is the current thinking on more public use of www.dublincore.org? 
+]]]
+
+--
+dc-ac archives - August 2000: DC URIs
+<a href = "http://www.mailbase.ac.uk/lists/dc-ac/2000-08/0000.html">http://www.mailbase.ac.uk/lists/dc-ac/2000-08/0000.html</a>
+</pre>
+
+    <h3>DCMI Encoding Schemes</h3>
+<pre>
+[[[
+"NOTICE TO IMPLEMENTORS: 
+The syntax examples included in this document are provisional, and are currently 
+under review as part of the DCMI work on recommending coordinated syntax 
+recommendations for HTML, XML, and RDF. These recommendations and 
+minor editorial changes in this document can be expected to take place in the near 
+future." 
+
+so I'm wondering if we should go right ahead and make this change NOW before 
+there are too many more implementations relying on the older ":" delimited notation? 
+I could very quickly update the Rec's to this effect if the AC agreed that the obvious 
+merits of this outweighed the risks. 
+]]]
+
+--
+dc-ac archives - July 2000: DCMI encoding schemes
+<a href = "http://www.mailbase.ac.uk/lists/dc-ac/2000-07/0044.html">http://www.mailbase.ac.uk/lists/dc-ac/2000-07/0044.html</a>
+</pre>
+
+    <h3>DC-8: DCAC Meeting Item</h3>
+<pre>
+[[[
+Q: How to deal with, from a standpoint of DCMI process, documents that are 
+dependant on each other but have different levels of document status. The 
+specific example that was identified was the relationship (and endorsement) 
+of DCMI Box, Point and Period with DCMI DCSV. 
+]]]
+
+--
+dc-ac archives - August 2000: DC-8: DCAC Meeting Item
+<a href = "http://www.mailbase.ac.uk/lists/dc-ac/2000-08/0013.html">http://www.mailbase.ac.uk/lists/dc-ac/2000-08/0013.html</a>
+</pre>
+
+    <h3>Formulating Working Group Process</h3>
+<pre>
+[[[ 
+DC-EC, Please read this very carefully.... Rael's work on a procedure
+for supporting the RSS activity I believe is directly applicable to
+DCMI as a whole. I would very much like to consider the dc-ec drafting
+a similar (if not identical) model and submitting it to the dc-ac and
+dc progress groups for consideration and ratification. --eric
+
+
+-----Original Message--
+
+-- 
+From: Rael Dornfest [mailto:rael@oreilly.com] 
+Sent: Thursday, September 14, 2000 1:04 PM 
+To: rss-dev@egroups.com 
+Subject: [RSS-DEV] Procedures 
+
+Howdy, 
+
+In response to some of the calls on RSS-DEV for some procedures, I've 
+drafted the following proposal. 
+
+I look forward to discussing this together, figuring out what needs 
+tweaking, and coming up with a system that balances open involvement and the 
+ability to get things done. 
+
+As I've mentioned at the end of the proposal, the adoption of a process will 
+necessarily require a little bootstrapping -- a nice test of the process 
+itself. 
+
+Rael 
+
+##### 
+
+RSS-DEV Procedures Proposal 
+=========================== 
+
+Motion 
+------ 
+
+This is a motion for policy and procedures to be adopted by the RSS-DEV 
+mailing list, rss-dev@egroups.com[1]. 
+
+The proposal draws from various sources, including the Apache Software 
+Foundation (ASF)[2], Robert's Rules of Order[3], and informal observation of 
+similar endeavours. 
+
+Assumptions 
+----------- 
+
+1. This process should be open. 
+
+2. This process should allow for both on- and off-topic discussion by group 
+   members, regardless of their level of expertise. 
+
+3. This process should allow contribution by any group member, regardless of 
+   their level of expertise. 
+
+4. This process should recognise differing levels of commitment and 
+   involvement by group members. 
+
+5. There should be a clear process in place for moving from proposal and 
+   discussion of modifications to their adoption and incorporation. 
+
+Charter 
+------- 
+
+The RSS-DEV Mailing List ("RSS-DEV") is for the discussion and further 
+development of the proposed RSS 1.0 specification[4]. 
+
+RSS-DEV is: 
+
+* Open - anyone can join without need of approval 
+
+* Unmoderated -- any member may post without need of post approval 
+
+* Public -- the message archives, documents, links, and other associated 
+  facilities are publicly viewable. 
+
+Organisation 
+------------ 
+
+RSS-DEV is structured as follows: 
+
+* Interest Group ("IG") -- all mailing list members 
+
+  o may join and leave at will 
+
+  o may discuss any matter within the limits of the RSS-DEV charter 
+
+  o may propose changes to the RSS-DEV charter, "working code" RSS 1.0 
+    specification, and modules (including adoption of a module as a 
+    "Standard Module) 
+
+  o may second proposals 
+
+  o may call for a poll 
+
+  o may second a call for a poll 
+
+* Working Group ("WG") 
+
+  o are IG members, with consummate rights and privileges 
+
+  o are nominated and voted in by the current WG 
+
+  o may leave at will 
+
+  o may establish a poll 
+
+  o may call for a vote 
+
+  o may second a call for a vote 
+
+  o may establish a vote 
+
+  o may vote 
+
+Procedures for Motions 
+---------------------- 
+
+The procedure for a motion is as follows: 
+
+1. A member proposes a motion. 
+
+2. The motion must be seconded ("I second the motion put forth in {URL}"). 
+   Failure of a second results in the motion being dropped. 
+
+3. The motion is registered by a WG member as a link to the motion message 
+   under http://www.egroups.com/links/rss-dev/Motions/. 
+
+4. Discussion takes place. 
+
+5. A poll may be taken at any point to determine rough consensus. 
+
+   5.1. A member may call for a poll; members are asked to allow 
+        (subjectively) for the conversation to die down before calling for a 
+        poll to give discussion a chance. 
+
+   5.2. A member seconds the call for a poll a minimum of 1 business day 
+        following the poll call to allow for discussion of poll wording. 
+        Failure of a second within 5 business days results in the poll call 
+        being dropped. 
+
+   5.3. A poll is established by a WG member and left open for 2 business 
+        days, during which time all members may participate. 
+
+        Note: A poll must always include an "I Abstain" option. 
+
+   5.4. The poll is concluded by a WG member and results emailed to all 
+         members. 
+
+6. A vote may be called at any point to ratify or reject the proposal. 
+
+   6.1. A WG member may call for a vote at any time; as with polls, Working 
+        Group members are asked to allow (subjectively) for the conversation 
+        to die down before calling for a vote to give discussion a chance. 
+
+   6.2. A WG member seconds a call for a vote. Failure of a second by a WG 
+        member results in the vote call being dropped. 
+
+   6.3. A vote is established by a WG member and left open for a minimum of 
+        2 business days, after-which it may be concluded at the discretion 
+        of the WG chair. 
+
+        Note: A vote must always include an "I Abstain" option. 
+   
+   6.4. The vote is concluded by the WG chair and results emailed to all 
+        members. 
+
+   6.5. Motions must be passed by a 2/3 majority of voters. 
+
+        If passed, the changes are made to the charter, specification, 
+        module (including adoption of a module as a "Standard Module"), or 
+        WG roster. 
+
+        If not passed, the motion is dropped. Dropped motions may be 
+        re-proposed at any time by any member; members are asked to modify 
+        the motion as appropriate before re-proposing. 
+
+Initial Working Group ("WG") Members 
+------------------------------------ 
+
+The initial Working Group members shall consist of the original RSS 1.0 
+Specification proposal[4] authors, namely: 
+
+* Gabe Beged-Dov 
+* Dan Brickley 
+* Rael Dornfest 
+* Ian Davis 
+* Leigh Dodds 
+* Jonathan Eisenzopf 
+* David Galbraith 
+* R.V. Guha 
+* Eric Miller 
+* Eric van der Vlist 
+
+The Working Group chair shall elected by the Working Group members upon the 
+adoption of this process. 
+
+Off-Topic / Out-of-Band Discussions 
+----------------------------------- 
+
+Off-topic or out of band discussions should adopt the convention of 
+prefixing the email subject with [OT]. This allows for free and open 
+discussion while affording uninterested members to filter out said threads. 
+
+Process Adoption 
+---------------- 
+
+Adoption of this proposal for RSS-DEV policy and procedures will rely upon a 
+level of bootstrapping, using the process itself to put it into place. 
+
+[1] http://www.egroups.com/group/rss-dev/ 
+[2] http://www.apache.org/ 
+[3] http://cyberbuzz.gatech.edu/apo/robert.html 
+[4] http://purl.org/rss/1.0/ 
+
+##### 
+
+------------------------------------------------------------------ 
+   Rael Dornfest rael@oreilly.com 
+   Maven http://www.oreillynet.com/~rael 
+   The O'Reilly Network http://meerkat.oreillynet.com 
+------------------------------------------------------------------ 
+]]]
+
+--
+dc-ec archives - September 2000: FW: [RSS-DEV] Procedures
+<a href = "http://www.mailbase.ac.uk/lists/dc-ec/2000-09/0008.html">http://www.mailbase.ac.uk/lists/dc-ec/2000-09/0008.html</a>
+</pre>
+    <hr />
+    $Id: 29-dcacissues.html,v 1.1.1.1 2003/10/23 17:44:30 wagnerh Exp $
+  </body>
+</html>
+

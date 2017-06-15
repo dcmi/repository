@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+  xmlns:edc="http://rdf.dev.oclc.org/eor/1999/03/13-edc#">
+
+<edc:Schema rdf:about = "">
+  <edc:title>Dublin Core Metadata Initiative Qualifier Vocabulary</edc:title>
+  <edc:contributor>The Dublin Core Metadata Inititative</edc:contributor>
+  <edc:description>The Dublin Core Metadata Inititative Qualifier vocabulary is 
+        intended to facilitate the endorsment of qualifiers for supporting the Dublin Core Element Set.</edc:description>
+  <edc:date>1999-10-06</edc:date>
+</edc:Schema>
+
+ <rdf:Property ID="piq"
+   rdfs:label = "Proposed Interoperable Qualifier"
+   rdfs:comment = "The Dublin Core Metadata Inititative defines this as a proposed interoperable qualifier">
+  <rdfs:isDefinedBy rdf:resource = "" />
+ </rdf:Property>
+
+ <rdf:Property ID="riq"
+   rdfs:label = "Recommended Interoperable Qualifier"
+   rdfs:comment = "The Dublin Core Metadata Inititative defines this as a recommended interoperable qualifier">
+  <rdfs:isDefinedBy rdf:resource = "" />
+ </rdf:Property>
+
+</rdf:RDF>

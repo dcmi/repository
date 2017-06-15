@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<?xml:stylesheet href="/style/myrdfs.xsl" type="text/xsl"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      	 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcqb="http://rdf.dev.oclc.org/eor/2000/03/13-dcqballot#">
+
+<!-- dcqballot addition annotation information -->
+
+<rdf:Property rdf:ID = "subPropertyOfLabel" />
+<rdf:Property rdf:ID = "subClassOfLabel" />
+<rdf:Property rdf:ID = "domainLabel" />
+<rdf:Property rdf:ID = "rangeLabel" />
+<rdf:Property rdf:ID = "dataTypeLabel" />
+
+<rdf:Property rdf:ID = "overrideDisplay" />
+
+<rdf:Description rdf:ID = "http://rdf.dev.oclc.org/eor/2000/03/13-myrdf#Schema">
+  <dcqb:overrideDisplay>true</dcqb:overrideDisplay>
+</rdf:Description>
+
+<rdf:Description rdf:ID = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Resource">
+  <dcqb:label>The DCT1 Type Vocabulary</dcqb:label>
+  <dcqb:subClassOfLabel>Values in the DCT1 Vocabulary</dcqb:subClassOfLabel>  
+</rdf:Description>
+
+<!-- 
+
+<rdf:Description rdf:ID = "http://rdf.dev.oclc.org/eor/2000/03/13-dcagent#Agent">
+  <dcqb:label>The DCAT1 Agent Vocabulary</dcqb:label>
+  <dcqb:subClassOfLabel>Values in the DCAT1 Type Vocabulary</dcqb:subClassOfLabel>
+  <dcqb:domainLabel>Elements specific to Agents</dcqb:domainLabel>
+</rdf:Description>
+
+<rdf:Description rdf:ID = "http://rdf.dev.oclc.org/eor/2000/03/06-dcagent#Agent">
+  <dcqb:domainLabel>Qualifiers that refine the Contributor, Creator, Publisher elements</dcqb:domainLabel>
+</rdf:Description>
+
+-->
+
+
+</rdf:RDF>
+

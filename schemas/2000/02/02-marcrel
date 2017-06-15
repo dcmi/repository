@@ -1,0 +1,106 @@
+<?xml version = "1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      	 xmlns:rdfs="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+         xmlns:dc="http://rdf.dev.oclc.org/eor/1999/12/22-dcv#">
+
+<dc:Schema rdf:about="http://rdf.dev.oclc.org/eor/2000/02/02-marcrel">
+  <!-- dumb down rule... use rdf:value for a simple default name -->	
+  <rdf:value>The Library of Congress MARC Relator Terms for the Dublin Core</rdf:value> 
+
+  <dc:title>MARC Relator Terms</dc:title>
+  <dc:creator>The Library of Congress</dc:creator>
+  <dc:description>MARC Relator Terms</dc:description>
+  <dc:language>English</dc:language>
+  <dc:date>2000-02-02</dc:date>
+</dc:Schema>
+
+<!-- subProperties of dc:contributor -->
+
+<rdf:Property rdf:ID = "adp">
+  <rdfs:label>Adaptor</rdfs:label>
+  <rdfs:comment>A party who reworks a resource usually for a
+different medium</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/02/02-marcrel" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "clb">
+  <rdfs:label>Collaborator</rdfs:label>
+  <rdfs:comment>A party that takes a limited part in the
+elaboration of a work of another author or that brings complements
+(e.g., appendices, notes) to the work of another author.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/02/02-marcrel" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "edt">
+  <rdfs:label>Editor</rdfs:label>
+  <rdfs:comment>A party who prepares for publication a work not primarily
+his/her own, such as by elucidating text, adding introductory or
+other critical matter, or technically directing an editorial staff. </rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/02/02-marcrel" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "prf">
+  <rdfs:label>Performer</rdfs:label>
+  <rdfs:comment>A party who exhibits musical or acting skills in a musical
+or dramatic presentation or entertainment.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/02/02-marcrel" />
+</rdf:Property>
+  
+<rdf:Property rdf:ID = "trl">
+  <rdfs:label>Translator</rdfs:label>
+  <rdfs:comment>A party who renders a text from one language into another,
+or from an older form of a language into the modern form.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/02/02-marcrel" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "ill">
+  <rdfs:label>Illustrator</rdfs:label>
+  <rdfs:comment>A party who conceives, and perhaps also implements, a design or illustration</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/02/02-marcrel" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "cmm">
+  <rdfs:label>Commentator</rdfs:label>
+  <rdfs:comment>A party who provides interpretation, analysis, or a discussion 
+     of the subject matter on a recording, motion picture, or other
+     audiovisual medium.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/02/02-marcrel" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "com">
+  <rdfs:label>Compiler</rdfs:label>
+  <rdfs:comment>A party who produces a work by selecting 
+     and putting together material from the works of various persons
+     or bodies. </rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/02/02-marcrel" />
+</rdf:Property>
+
+
+<!-- subProperties of dc:publisher -->
+
+<rdf:Property rdf:ID = "spn">
+  <rdfs:label>Sponsor</rdfs:label>
+  <rdfs:comment>A party that issued a contract or under the
+auspices of which a work has been written, printed, published, etc.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#contributor" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/02/02-marcrel" />
+</rdf:Property>
+
+<rdf:Property rdf:ID = "dst">
+  <rdfs:label>Distributor</rdfs:label>
+  <rdfs:comment>An agent or agency that has exclusive or shared marketing
+rights for an item.</rdfs:comment>
+  <rdfs:subPropertyOf rdf:resource = "http://rdf.dev.oclc.org/eor/1999/12/22-dcv#publisher" />
+  <rdfs:isDefinedBy rdf:resource = "http://rdf.dev.oclc.org/eor/2000/02/02-marcrel" />
+</rdf:Property>
+
+</rdf:RDF>
