@@ -1,0 +1,13 @@
+sed 's=http://dublincore.org:8080/=http://dublincore.org/=g' ./.index.html | sed 's="http://dublincore.org/="/=' >./index.html
+sed 's=http://dublincore.org:8080/=http://dublincore.org/=g' ./accessibilitywiki/.index.html | sed 's="http://dublincore.org/="/=' >./accessibilitywiki/index.html
+sed 's=http://dublincore.org:8080/=http://dublincore.org/=g' ./architecturewiki/.index.html | sed 's="http://dublincore.org/="/=' >./architecturewiki/index.html
+sed 's=http://dublincore.org:8080/=http://dublincore.org/=g' ./collectionwiki/.index.html | sed 's="http://dublincore.org/="/=' >./collectionwiki/index.html
+sed 's=http://dublincore.org:8080/=http://dublincore.org/=g' ./datewiki/.index.html | sed 's="http://dublincore.org/="/=' >./datewiki/index.html
+sed 's=http://dublincore.org:8080/=http://dublincore.org/=g' ./dcgapwiki/.index.html | sed 's="http://dublincore.org/="/=' >./dcgapwiki/index.html
+sed 's=http://dublincore.org:8080/=http://dublincore.org/=g' ./dcmirdataskgroup/.index.html | sed 's="http://dublincore.org/="/=' >./dcmirdataskgroup/index.html
+sed 's=http://dublincore.org:8080/=http://dublincore.org/=g' ./educationwiki/.index.html | sed 's="http://dublincore.org/="/=' >./educationwiki/index.html
+sed 's=http://dublincore.org:8080/=http://dublincore.org/=g' ./identifierswiki/.index.html | sed 's="http://dublincore.org/="/=' >./identifierswiki/index.html
+sed 's=http://dublincore.org:8080/=http://dublincore.org/=g' ./kernelwiki/.index.html | sed 's="http://dublincore.org/="/=' >./kernelwiki/index.html
+sed 's=http://dublincore.org:8080/=http://dublincore.org/=g' ./librarieswiki/.index.html | sed 's="http://dublincore.org/="/=' >./librarieswiki/index.html
+sed 's=http://dublincore.org:8080/=http://dublincore.org/=g' ./taggingwiki/.index.html | sed 's="http://dublincore.org/="/=' >./taggingwiki/index.html
+sed 's=http://dublincore.org:8080/=http://dublincore.org/=g' ./usageboardwiki/.index.html | sed 's="http://dublincore.org/="/=' >./usageboardwiki/index.html

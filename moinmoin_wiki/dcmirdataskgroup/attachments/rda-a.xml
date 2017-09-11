@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Karen Coyle (private) -->
+<DescriptionSetTemplate xmlns="http://dublincore.org/xml/dc-dsp/2008/01/14" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dublincore.org/xml/dc-dsp/2008/01/14 C:\daisy\Business\dcmi\dcmi-dsp.xsd">
+	<DescriptionTemplate ID="resource" maxOccurs="1" minOccurs="1">
+		<StatementTemplate ID="title" minOccurs="0">
+			<Property>http://RDVocab.info/Elements/title</Property>
+		</StatementTemplate>
+		<StatementTemplate ID="creator" minOccurs="0">
+			<Property>http://ifla/namespaces/frbr/Entities/1005</Property>
+		</StatementTemplate>
+		<StatementTemplate ID="publisher" minOccurs="0">
+			<Property>http://RDVocab.info/Elements/Publisher</Property>
+		</StatementTemplate>
+		<StatementTemplate ID="placeOfPublication" minOccurs="0">
+			<Property>http://RDVocab.info/Elements/placeOfPublication</Property>
+		</StatementTemplate>
+		<StatementTemplate ID="dateOfPublication" minOccurs="0">
+			<Property>http://RDVocab.info/Elements/dateOfPublication</Property>
+		</StatementTemplate>
+		<StatementTemplate ID="extent" minOccurs="0">
+			<Property>http://RDVocab.info/Elements/extent</Property>
+		</StatementTemplate>
+		<StatementTemplate ID="mediaType" minOccurs="0">
+			<Property>http://RDVocab.info/Elements/mediaType</Property>
+		</StatementTemplate>
+		<StatementTemplate ID="note" minOccurs="0">
+			<Property>http://RDVocab.info/Elements/note</Property>
+		</StatementTemplate>
+		<StatementTemplate ID="languageOfExpression" minOccurs="0">
+			<Property>http://RDVocab.info/Elements/languageOfExpression</Property>
+		</StatementTemplate>
+		<StatementTemplate ID="identifierForTheManifestation" minOccurs="0">
+			<Property>http://RDVocab.info/Elements/identifierForTheManifestation</Property>
+		</StatementTemplate>
+	</DescriptionTemplate>
+</DescriptionSetTemplate>

@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:dctype="http://purl.org/dc/dcmitype/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:schema="http://schema.org/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <owl:Ontology rdf:about="http://dublincore.org/mappings/schema.org/"/>
+    
+    <!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// Classes
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+    <rdf:Description rdf:about="schema:Organization">
+        <rdfs:subClassOf rdf:resource="dct:Agent"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="schema:Person">
+        <rdfs:subClassOf rdf:resource="dct:Agent"/>
+    <!--schema: also fictional person, which is not covered by DC-definition; mapping possible?-->
+    </rdf:Description>
+    <rdf:Description rdf:about="schema:Place">
+        <owl:equivalentClass rdf:resource="dct:Location"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="schema:Event">
+        <owl:equivalentClass rdf:resource="dctype:Event"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="schema:Language">
+        <rdfs:subClassOf rdf:resource="dct:LinguisticSystem"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="dct:BibliographicResource">
+        <rdfs:subClassOf rdf:resource="schema:CreativeWork"/>
+    </rdf:Description>
+    <!--creative works always have the potential to become a"documentary resource"(DC); maybe owl:equivalentClass?-->
+    <!--added by kj
+    <rdf:Description rdf:about="dct:PeriodOfTime">
+        <owl:equivalentClass rdf:resource="schema:Duration"/>
+    </rdf:Description>
+    -->
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// Properties sort by id (no duplicates)
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+
+<rdf:Description rdf:about="schema:about">
+<owl:equivalentProperty rdf:resource="dct:subject"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Thing-->
+
+<rdf:Description rdf:about="schema:actors">
+    <rdfs:subPropertyOf rdf:resource="dct:contributor"/>
+</rdf:Description>
+<!--DOMAIN: "Movie TVEpisode TVSeries" | RANGE: Person-->
+
+<rdf:Description rdf:about="schema:additionalName">
+    <rdfs:subPropertyOf rdf:resource="dct:alternative"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:affiliation">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Organization-->
+
+<rdf:Description rdf:about="schema:alternativeHeadline">
+    <rdfs:subPropertyOf rdf:resource="dct:alternative"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:alumni">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: EducationalOrganization | RANGE: Person-->
+
+<rdf:Description rdf:about="schema:alumniOf">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: EducationalOrganization-->
+
+<rdf:Description rdf:about="schema:articleSection">
+    <rdfs:subPropertyOf rdf:resource="dct:subject"/>
+</rdf:Description>
+<!--DOMAIN: Article | RANGE: Text
+
+kj:"section" is like a classification-->
+
+<rdf:Description rdf:about="schema:associatedArticle">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: MediaObject | RANGE: NewsArticle-->
+
+<rdf:Description rdf:about="schema:associatedMedia">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: MediaObject
+
+synonym for "encodings"-->
+
+<rdf:Description rdf:about="schema:attendees">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: Event | RANGE: Person Organization-->
+
+<rdf:Description rdf:about="schema:audio">
+    <rdfs:subPropertyOf rdf:resource="dct:hasPart"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: AudioObject-->
+
+<rdf:Description rdf:about="schema:author">
+    <rdfs:subPropertyOf rdf:resource="dct:creator"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Person Organization
+
+kj:"limitation to "CreativeWork"; for creator of UserComment see "creator"
+for the same domain "CreativeWork", there is also the property "creator"."-->
+
+<rdf:Description rdf:about="schema:birthDate">
+    <rdfs:subPropertyOf rdf:resource="dct:date"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Date
+
+<rdf:Description rdf:about="foaf:birthday">
+    <rdfs:subPropertyOf rdf:resource="schema:birthDate"/>
+</rdf:Description>-->
+
+<rdf:Description rdf:about="schema:blogPosts">
+    <rdfs:subPropertyOf rdf:resource="dct:hasPart"/>
+</rdf:Description>
+<!--DOMAIN: Blog | RANGE: BlogPosting-->
+
+<rdf:Description rdf:about="schema:branchOf">
+    <rdfs:subPropertyOf rdf:resource="dct:isPartOf"/>
+</rdf:Description>
+<!--DOMAIN: LocalBusiness | RANGE: Organization-->
+
+<rdf:Description rdf:about="schema:byArtist">
+    <rdfs:subPropertyOf rdf:resource="dct:creator"/>
+</rdf:Description>
+<!--DOMAIN: "MusicAlbum MusicRecording" | RANGE: MusicGroup
+
+kj:to discuss, if an artist is an "contributor" or the "creator" of an MusicAlbum/MusicRecording. 
+There are many people with different roles involved making a MusicAlbum/MusicRecording. -->
+
+<rdf:Description rdf:about="schema:caption">
+    <rdfs:subPropertyOf rdf:resource="dct:description"/>
+</rdf:Description>
+<!--DOMAIN: "ImageObject VideoObject" | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:children">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Person-->
+
+<rdf:Description rdf:about="schema:colleagues">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Person-->
+
+<rdf:Description rdf:about="schema:comment">
+    <rdfs:subPropertyOf rdf:resource="dct:isReferencedBy"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: UserComments-->
+
+<rdf:Description rdf:about="schema:commentTime">
+    <rdfs:subPropertyOf rdf:resource="dct:date"/>
+</rdf:Description>
+<!--DOMAIN: UserComments | RANGE: Date-->
+
+<rdf:Description rdf:about="schema:contactType">
+    <rdfs:subPropertyOf rdf:resource="dct:type"/>
+</rdf:Description>
+<!--DOMAIN: ContactPoint | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:containedIn">
+    <rdfs:subPropertyOf rdf:resource="dct:isPartOf"/>
+</rdf:Description>
+<!--DOMAIN: Place | RANGE: Place-->
+
+<rdf:Description rdf:about="schema:contentLocation">
+    <rdfs:subPropertyOf rdf:resource="dct:spatial"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Place
+
+kj:"isn´t coverage more a subject information? If it is suitable for formal information, 
+why not dct:spatial? But I don´t think coverage or refinement is appropriate here.
+DC-Lib-AP-Def.: "The value of this element may also be included in Subject if desired". 
+So I think, It should be used interchangeable with "subject" and not for a formal information"-->
+
+<rdf:Description rdf:about="schema:contentSize">
+    <rdfs:subPropertyOf rdf:resource="dct:extent"/>
+</rdf:Description>
+<!--DOMAIN: MediaObject | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:contributor">
+<owl:equivalentProperty rdf:resource="dct:contributor"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Person Organization
+
+kj:"was: subPropertyOf
+What is difference between schema:contributor and dct:contributor? is it not equivalent? 
+Because of the limitation to "the CreativeWork" (schema.org)?"-->
+
+<rdf:Description rdf:about="schema:cookTime">
+    <rdfs:subPropertyOf rdf:resource="dct:extent"/>
+</rdf:Description>
+<!--DOMAIN: Recipe | RANGE: Duration-->
+
+<rdf:Description rdf:about="schema:copyrightHolder">
+<owl:equivalentProperty rdf:resource="dc:rightsHolder"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Person Organization-->
+
+<rdf:Description rdf:about="schema:copyrightYear">
+    <rdfs:subPropertyOf rdf:resource="dct:dateCopyrighted"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Number
+
+kj:it is subPropertyOf, because for schema only "year", DC no limitation to year-->
+
+<rdf:Description rdf:about="schema:creator">
+    <rdfs:subPropertyOf rdf:resource="dct:creator"/>
+</rdf:Description>
+<!--DOMAIN: "CreativeWork UserComments" | RANGE: Person Organization
+
+kj:subPropertyOf, because schema Range = Person, Organization; DC Range = Person, Organization, Service-->
+
+<rdf:Description rdf:about="schema:dateCreated">
+<owl:equivalentProperty rdf:resource="dct:created"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Date-->
+
+<rdf:Description rdf:about="schema:dateModified">
+<owl:equivalentProperty rdf:resource="dct:modified"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Date
+
+kj:"was: subPropertyOf
+think it is owl:equivalentProperty; I do not see the difference in definitions"-->
+
+<rdf:Description rdf:about="schema:datePosted">
+    <rdfs:subPropertyOf rdf:resource="dct:issued"/>
+</rdf:Description>
+<!--DOMAIN: JobPosting | RANGE: Date-->
+
+<rdf:Description rdf:about="schema:datePublished">
+<owl:equivalentProperty rdf:resource="dct:issued"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Date-->
+
+<rdf:Description rdf:about="dct:title">
+    <rdfs:subPropertyOf rdf:resource="schema:name"/>
+</rdf:Description>
+<!--DOMAIN: Thing | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:deathDate">
+    <rdfs:subPropertyOf rdf:resource="dct:date"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Date-->
+
+<rdf:Description rdf:about="schema:description">
+<owl:equivalentProperty rdf:resource="dct:description"/>
+</rdf:Description>
+<!--DOMAIN: Thing | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:director">
+    <rdfs:subPropertyOf rdf:resource="dct:contributor"/>
+</rdf:Description>
+<!--DOMAIN: "Movie TVEpisode TVSeries" | RANGE: Person
+
+kj:"Not sure if the role of a producer of a TVEpisode or Movie is "creator", maybe "contributor"; 
+producer is responsible for     economic success, the director is responsible for artistic success; 
+therefor director and producer either both "creator" or both"     contributor". Find examples"-->
+
+<rdf:Description rdf:about="schema:discusses">
+    <rdfs:subPropertyOf rdf:resource="dct:references"/>
+</rdf:Description>
+<!--DOMAIN: UserComments | RANGE: CreativeWork-->
+
+<rdf:Description rdf:about="schema:discussionUrl">
+    <rdfs:subPropertyOf rdf:resource="dct:isReferencedBy"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: URL-->
+
+<rdf:Description rdf:about="schema:duration">
+    <rdfs:subPropertyOf rdf:resource="dct:extent"/>
+</rdf:Description>
+<!--DOMAIN: "Event MediaObject Movie MusicRecording" | RANGE: Duration-->
+
+<rdf:Description rdf:about="schema:editor">
+    <rdfs:subPropertyOf rdf:resource="dct:contributor"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Person-->
+
+<rdf:Description rdf:about="schema:employees">
+    <rdfs:subPropertyOf rdf:resource="dct:hasPart"/>
+</rdf:Description>
+<!--DOMAIN: Organization | RANGE: Person-->
+
+<rdf:Description rdf:about="schema:encodesCreativeWork">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: MediaObject | RANGE: Creative Work
+
+I don´t understand the definition and the relation between the Creative Work and MediaObject, 
+see also "encodings" and associated Media"-->
+
+<rdf:Description rdf:about="schema:encodingFormat">
+    <rdfs:subPropertyOf rdf:resource="dct:format"/>
+</rdf:Description>
+<!--DOMAIN: MediaObject | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:encodings">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: MediaObject
+
+synonym for "associatedMedia"; I don´t understand the definition of "encodings" 
+and the relation bewtween The CreativeWork and the MediaObject-->
+
+<rdf:Description rdf:about="schema:endDate">
+    <rdfs:subPropertyOf rdf:resource="dct:date"/>
+</rdf:Description>
+<!--DOMAIN: "Event TVSeason TVSeries" | RANGE: Date-->
+
+<rdf:Description rdf:about="schema:episodes">
+    <rdfs:subPropertyOf rdf:resource="dct:hasPart"/>
+</rdf:Description>
+<!--DOMAIN: "TVSeason TVSeries" | RANGE: TVEpisode-->
+
+<rdf:Description rdf:about="schema:events">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: Organization | RANGE: Event-->
+
+<rdf:Description rdf:about="schema:exifData">
+    <rdfs:subPropertyOf rdf:resource="dct:description"/>
+</rdf:Description>
+<!--DOMAIN: ImageObject | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:expires">
+    <rdfs:subPropertyOf rdf:resource="dct:date"/>
+</rdf:Description>
+<!--DOMAIN: MediaObject | RANGE: Date-->
+
+<rdf:Description rdf:about="schema:familyName">
+    <rdfs:subPropertyOf rdf:resource="dct:title"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Text
+
+<rdf:Description rdf:about="schema:familyName">
+    <owl:equivalentProperty rdf:resource="foaf:familyName"/>
+</rdf:Description>
+-->
+
+<rdf:Description rdf:about="schema:follows">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Person-->
+
+<rdf:Description rdf:about="schema:foundingDate">
+    <rdfs:subPropertyOf rdf:resource="dct:date"/>
+</rdf:Description>
+<!--DOMAIN: Organization | RANGE: Date-->
+
+<!--
+<rdf:Description rdf:about="schema:gender">
+    <owl:equivalentProperty rdf:resource="foaf:gender"/>
+</rdf:Description>
+-->
+
+<rdf:Description rdf:about="schema:genre">
+    <rdfs:subPropertyOf rdf:resource="dct:subject"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:givenName">
+    <rdfs:subPropertyOf rdf:resource="dct:title"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Text
+
+kj:only in addition to familyName
+
+<rdf:Description rdf:about="schema:givenName">
+    <owl:equivalentProperty rdf:resource="foaf:givenName"/>
+</rdf:Description>
+
+foaf:honorificPrefix was foaf:title
+-->
+
+<rdf:Description rdf:about="schema:headline">
+    <rdfs:subPropertyOf rdf:resource="dct:title"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:height">
+    <rdfs:subPropertyOf rdf:resource="dct:extent"/>
+</rdf:Description>
+<!--DOMAIN: MediaObject | RANGE: Distance-->
+
+<rdf:Description rdf:about="schema:homeLocation">
+    <rdfs:subPropertyOf rdf:resource="dct:spatial"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Place ContactPoint
+
+kj:"Not sure, if coverage / spatial should only be used for subject information, 
+not for formal information: DC-Lib-AP-Def.: "The value of this element may also be 
+included in Subject if desired". So I think, It should be used interchangeable with 
+"subject" and not for a formal information"-->
+
+<!--
+<rdf:Description rdf:about="schema:honorificPrefix">
+    <owl:equivalentProperty rdf:resource="foaf:honorificPrefix"/>
+</rdf:Description>
+
+foaf:honorificPrefix was foaf:title
+-->
+
+
+<rdf:Description rdf:about="schema:illustrator">
+    <rdfs:subPropertyOf rdf:resource="dct:contributor"/>
+</rdf:Description>
+<!--DOMAIN: Book | RANGE: Person
+
+kj:Depends on how much illustrations make of the book (f.e. Comic = illustrator = creator; 
+Text with some Illustrations = illustrator = contributor)-->
+
+<rdf:Description rdf:about="schema:inAlbum">
+    <rdfs:subPropertyOf rdf:resource="dct:isPartOf"/>
+</rdf:Description>
+<!--DOMAIN: MusicRecording | RANGE: MusicAlbum-->
+
+<rdf:Description rdf:about="schema:inLanguage">
+<owl:equivalentProperty rdf:resource="dct:language"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:inPlaylist">
+    <rdfs:subPropertyOf rdf:resource="dct:isPartOf"/>
+</rdf:Description>
+<!--DOMAIN: MusicRecording | RANGE: MusicPlaylist-->
+
+<rdf:Description rdf:about="schema:isbn">
+    <rdfs:subPropertyOf rdf:resource="dct:identifier"/>
+</rdf:Description>
+<!--DOMAIN: Book | RANGE: Text
+
+kj:without Refinement: rdfs:subPropertyOf; with Encoding Scheme "isbn": owl:equivalentProperty-->
+
+<rdf:Description rdf:about="schema:isPartOf">
+    <rdfs:subPropertyOf rdf:resource="dct:IsPartOf"/>
+</rdf:Description>
+<!--DOMAIN: WebPage | RANGE: CollectionPage
+
+kj:subPropertyOf: limitation to "collection or gallery" of WebPage. -->
+
+<rdf:Description rdf:about="schema:itemListElement">
+    <rdfs:subPropertyOf rdf:resource="dct:hasPart"/>
+</rdf:Description>
+<!--DOMAIN: ItemList | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:itemOffered">
+    <rdfs:subPropertyOf rdf:resource="dct:title"/>
+</rdf:Description>
+<!--DOMAIN: Offer | RANGE: Product
+
+kj:more specific than name-->
+
+<rdf:Description rdf:about="schema:itemReviewed">
+    <rdfs:subPropertyOf rdf:resource="dct:references"/>
+</rdf:Description>
+<!--DOMAIN: "AggregateRating
+Review" | RANGE: Thing-->
+
+<rdf:Description rdf:about="schema:jobLocation">
+    <rdfs:subPropertyOf rdf:resource="dct:spatial"/>
+</rdf:Description>
+<!--DOMAIN: JobPosting | RANGE: Place
+
+kj:"Not sure, if coverage / spatial should only be used for subject information, 
+not for formal information: DC-Lib-AP-Def.: "The value of this element may also be 
+included in Subject if desired". So I think, It should be used interchangeable with 
+"subject" and not for a formal information"-->
+
+<rdf:Description rdf:about="schema:keywords">
+    <rdfs:subPropertyOf rdf:resource="dct:subject"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:knows">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Person
+
+<rdf:Description rdf:about="schema:knows">
+    <owl:equivalentProperty rdf:resource="foaf:knows"/>
+</rdf:Description>
+-->
+
+<rdf:Description rdf:about="schema:location">
+    <rdfs:subPropertyOf rdf:resource="dct:spatial"/>
+</rdf:Description>
+<!--DOMAIN: "Event
+Organization" | RANGE: PostalAddress Place
+
+kj:"Not sure, if coverage / spatial should only be used for subject information, 
+not for formal information: DC-Lib-AP-Def.: "The value of this element may also be 
+included in Subject if desired". So I think, It should be used interchangeable with 
+"subject" and not for a formal information"-->
+
+<rdf:Description rdf:about="schema:manufacturer">
+    <rdfs:subPropertyOf rdf:resource="dct:creator"/>
+</rdf:Description>
+<!--DOMAIN: Product | RANGE: Organization-->
+
+<rdf:Description rdf:about="schema:maps">
+< rdf:resource="/>
+</rdf:Description>
+<!--DOMAIN: Place | RANGE: URL-->
+
+<rdf:Description rdf:about="schema:memberOf">
+    <rdfs:subPropertyOf rdf:resource="dct:isPartOf"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Organization-->
+
+<rdf:Description rdf:about="schema:members">
+    <rdfs:subPropertyOf rdf:resource="dct:hasPart"/>
+</rdf:Description>
+<!--DOMAIN: Organization | RANGE: "Person Organization"-->
+
+<rdf:Description rdf:about="schema:mentions">
+    <rdfs:subPropertyOf rdf:resource="dct:references"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Thing
+
+kj:"was: dct:relation
+more dct:references; dct:references="references, cites, otherwise points…"; schema:mentions="contains a reference""-->
+
+<rdf:Description rdf:about="schema:musicBy">
+    <rdfs:subPropertyOf rdf:resource="dct:contributor"/>
+</rdf:Description>
+<!--DOMAIN: "Movie TVEpisode TVSeries" | RANGE: Person MusicGroup-->
+
+<rdf:Description rdf:about="schema:musicGroupMember">
+    <rdfs:subPropertyOf rdf:resource="dct:hasPart"/>
+</rdf:Description>
+<!--DOMAIN: MusicGroup | RANGE: Person-->
+
+<rdf:Description rdf:about="schema:numberOfEpisodes">
+    <rdfs:subPropertyOf rdf:resource="dct:extent"/>
+</rdf:Description>
+<!--DOMAIN: "TVSeason TVSeries" | RANGE: Number-->
+
+<rdf:Description rdf:about="schema:numberOfPages">
+    <rdfs:subPropertyOf rdf:resource="dct:extent"/>
+</rdf:Description>
+<!--DOMAIN: Book | RANGE: Integer-->
+
+<rdf:Description rdf:about="schema:numTracks">
+    <rdfs:subPropertyOfdct:extent"/>
+</rdf:Description>
+<!--DOMAIN: MusicPlaylist | RANGE: Integer-->
+
+<rdf:Description rdf:about="schema:occupationalCategory">
+    <rdfs:subPropertyOf rdf:resource="dct:subject"/>
+</rdf:Description>
+<!--DOMAIN: JobPosting | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:openingHours">
+    <rdfs:subPropertyOf rdf:resource="dct:extent"/>
+</rdf:Description>
+<!--DOMAIN: "CivicStructure LocalBusiness" | RANGE: Duration-->
+
+<rdf:Description rdf:about="schema:partOfSeason">
+    <rdfs:subPropertyOf rdf:resource="dct:isPartOf"/>
+</rdf:Description>
+<!--DOMAIN: TVEpisode | RANGE: TVSeason-->
+
+<rdf:Description rdf:about="schema:partOfTVSeries">
+    <rdfs:subPropertyOf rdf:resource="dct:isPartOf"/>
+</rdf:Description>
+<!--DOMAIN: "TVEpisode TVSeason" | RANGE: TVSeries-->
+
+<rdf:Description rdf:about="schema:performerIn">
+    <rdfs:subPropertyOf rdf:resource="dct:isPartOf"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Event-->
+
+<rdf:Description rdf:about="schema:performers">
+    <rdfs:subPropertyOf rdf:resource="dct:contributor"/>
+</rdf:Description>
+<!--DOMAIN: Event | RANGE: Person Organization-->
+
+<rdf:Description rdf:about="schema:prepTime">
+    <rdfs:subPropertyOf rdf:resource="dct:extent"/>
+</rdf:Description>
+<!--DOMAIN: Recipe | RANGE: Duration-->
+
+<rdf:Description rdf:about="schema:producer">
+    <rdfs:subPropertyOf rdf:resource="dct:contributor"/>
+</rdf:Description>
+<!--DOMAIN: "Movie TVEpisode TVSeries" | RANGE: Person
+
+kj:"Not sure if the role of a producer of a TVEpisode or Movie is "creator", maybe "contributor"; 
+producer is responsible for economic success, the director is responsible for artistic success; 
+therefor director and producer either both "creator" or both" contributor". Find examples"-->
+
+<rdf:Description rdf:about="schema:productID">
+    <rdfs:subPropertyOf rdf:resource="dct:identifier"/>
+</rdf:Description>
+<!--DOMAIN: Product | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:productionCompany">
+    <rdfs:subPropertyOf rdf:resource="dct:contributor"/>
+</rdf:Description>
+<!--DOMAIN: "Movie TVEpisode TVSeries VideoObject" | RANGE: Organization
+
+kj:see comment on schema:producer-->
+
+<rdf:Description rdf:about="schema:provider">
+    <rdfs:subPropertyOf rdf:resource="dct:publisher"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Person Organization
+
+kj:dct:publisher: "An entity responsible for making the resource available". I think distribution belongs to "make available"-->
+
+<rdf:Description rdf:about="schema:publisher">
+    <rdfs:subPropertyOf rdf:resource="dct:publisher"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Organization
+
+kj:think it is subProperty, because schema.org = only Organization expected; DC = Organization and Person-->
+
+<rdf:Description rdf:about="schema:recipeCategory">
+    <rdfs:subPropertyOf rdf:resource="dct:subject"/>
+</rdf:Description>
+<!--DOMAIN: Recipe | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:recipeInstructions">
+    <rdfs:subPropertyOf rdf:resource="dct:description"/>
+</rdf:Description>
+<!--DOMAIN: Recipe | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:regionsAllowed">
+    <rdfs:subPropertyOf rdf:resource="dct:spatial"/>
+</rdf:Description>
+<!--DOMAIN: MediaObject | RANGE: Place-->
+
+<rdf:Description rdf:about="schema:relatedTo">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Person-->
+
+<rdf:Description rdf:about="schema:reviews">
+    <rdfs:subPropertyOf rdf:resource="dct:isReferencedBy"/>
+</rdf:Description>
+<!--DOMAIN: "CreativeWork Offer Organization Place Product" | RANGE: Review-->
+
+<rdf:Description rdf:about="schema:seasons">
+    <rdfs:subPropertyOf rdf:resource="dct:hasPart"/>
+</rdf:Description>
+<!--DOMAIN: TVSeries | RANGE: TVSeason-->
+
+<rdf:Description rdf:about="schema:siblings">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Person-->
+
+<rdf:Description rdf:about="schema:sourceOrganization">
+    <rdfs:subPropertyOf rdf:resource="dct:contributor"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: Organization-->
+
+<rdf:Description rdf:about="schema:spouse">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Person-->
+
+<rdf:Description rdf:about="schema:startDate">
+    <rdfs:subPropertyOf rdf:resource="dct:date"/>
+</rdf:Description>
+<!--DOMAIN: "Event TVSeason TVSeries" | RANGE: Date-->
+
+<rdf:Description rdf:about="schema:subEvents">
+    <rdfs:subPropertyOf rdf:resource="dct:hasPart"/>
+</rdf:Description>
+<!--DOMAIN: Event | RANGE: Event-->
+
+<rdf:Description rdf:about="schema:superEvent">
+    <rdfs:subPropertyOf rdf:resource="dct:isPartOf"/>
+</rdf:Description>
+<!--DOMAIN: Event | RANGE: Event-->
+
+<rdf:Description rdf:about="schema:title">
+    <rdfs:subPropertyOf rdf:resource="dct:title"/>
+</rdf:Description>
+<!--DOMAIN: JobPosting | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:totalTime">
+    <rdfs:subPropertyOf rdf:resource="dct:extent"/>
+</rdf:Description>
+<!--DOMAIN: Recipe | RANGE: Duration-->
+
+<rdf:Description rdf:about="schema:tracks">
+    <rdfs:subPropertyOf rdf:resource="dct:hasPart"/>
+</rdf:Description>
+<!--DOMAIN: MusicPlaylist | RANGE: MusicRecording
+
+kj:fits for domain Music Playlist but not for domain MusicGroup-->
+
+<rdf:Description rdf:about="schema:transcript">
+    <rdfs:subPropertyOf rdf:resource="dct:hasFormat"/>
+</rdf:Description>
+<!--DOMAIN: "AudioObject VideoObject" | RANGE: Text
+
+kj:to discuss: transcript of a VideoObject or AudioObject is more an description of the Object 
+(dct:description) or is it more another format of the Object (dct:hasFormat)-->
+
+<rdf:Description rdf:about="schema:uploadDate">
+    <rdfs:subPropertyOf rdf:resource="dct:available"/>
+</rdf:Description>
+<!--DOMAIN: MediaObject | RANGE: Date-->
+
+<rdf:Description rdf:about="schema:url">
+    <rdfs:subPropertyOf rdf:resource="dct:identifier"/>
+</rdf:Description>
+<!--DOMAIN: Thing | RANGE: URL-->
+
+<rdf:Description rdf:about="schema:video">
+    <rdfs:subPropertyOf rdf:resource="dct:hasPart"/>
+</rdf:Description>
+<!--DOMAIN: CreativeWork | RANGE: VideoObject-->
+
+<rdf:Description rdf:about="schema:videoFrameSize">
+    <rdfs:subPropertyOf rdf:resource="dct:extent"/>
+</rdf:Description>
+<!--DOMAIN: VideoObject | RANGE: Text-->
+
+<rdf:Description rdf:about="schema:width">
+    <rdfs:subPropertyOf rdf:resource="dct:extent"/>
+</rdf:Description>
+<!--DOMAIN: MediaObject | RANGE: Distance-->
+
+<rdf:Description rdf:about="schema:workLocation">
+    <rdfs:subPropertyOf rdf:resource="dct:spatial"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Place ContactPoint
+
+kj:"Not sure, if coverage / spatial should only be used for subject information, 
+not for formal information: DC-Lib-AP-Def.: "The value of this element may also be 
+included in Subject if desired". So I think, It should be used interchangeable with 
+"subject" and not for a formal information"-->
+
+<rdf:Description rdf:about="schema:worksFor">
+    <rdfs:subPropertyOf rdf:resource="dct:relation"/>
+</rdf:Description>
+<!--DOMAIN: Person | RANGE: Organization-->
+
+</rdf>

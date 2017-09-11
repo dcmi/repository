@@ -1,0 +1,432 @@
+======================================================================
+FrontPage
+
+--  WAS: http://dublincore.org/architecturewiki/AMChanges
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/AMChanges.html
+
+--  WAS: http://dublincore.org/architecturewiki/AMCommentSummary
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/AMCommentSummary.html
+
+--  WAS: http://dublincore.org/architecturewiki/AMDraftUpdate
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/AMDraftUpdate.html
+
+--  WAS: http://dublincore.org/architecturewiki/AMDraftUpdateTom
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/AMDraftUpdateTom.html
+
+--  WAS: http://dublincore.org/architecturewiki/AMIssues
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/AMIssues.html
+
+--  WAS: http://dublincore.org/architecturewiki/AMPublicComment
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/AMPublicComment.html
+
+--  WAS: http://dublincore.org/architecturewiki/AMPublicCommentApril2007
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/AMPublicCommentApril2007.html
+
+--  WAS: http://dublincore.org/architecturewiki/AMPublicCommentMarch2007
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/AMPublicCommentMarch2007.html
+
+--  WAS: http://dublincore.org/architecturewiki/AbstractModelChanges
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/AbstractModelChanges.html
+
+--  WAS: http://dublincore.org/architecturewiki/AdaptabilityApplicationProfile
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/AdaptabilityApplicationProfile.html
+
+--  WAS: http://dublincore.org/architecturewiki/AndyPowell
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/AndyPowell.html
+
+--  WAS: http://dublincore.org/architecturewiki/ArchitectureHistory
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/ArchitectureHistory.html
+
+--  WAS: http://dublincore.org/architecturewiki/ArchitectureIssues
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/ArchitectureIssues.html
+
+--  WAS: http://dublincore.org/architecturewiki/ArchitectureLinks
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/ArchitectureLinks.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCAMDCHTML
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCAMDCHTML.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCAM_2d2_2e0
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCAM_2d2_2e0.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCPropertyDomainsRanges
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCPropertyDomainsRanges.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCRDFApril2007Changes
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCRDFApril2007Changes.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCRDFApril2007Comments
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCRDFApril2007Comments.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCRDFGuidelines
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCRDFGuidelines.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCRDFTaskforce
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCRDFTaskforce.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCRDFTaskforce_2fDCRDFExecutiveSummary
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCRDFTaskforce_2fDCRDFExecutiveSummary.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCRDFTaskforce_2fDCRDFExecutiveSummary2
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCRDFTaskforce_2fDCRDFExecutiveSummary2.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCRDFTaskforce_2fDCRDFExecutiveSummary3
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCRDFTaskforce_2fDCRDFExecutiveSummary3.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCRDFTaskforce_2fDCRDFIssues
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCRDFTaskforce_2fDCRDFIssues.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCRDFTaskforce_2fDCRDFReleasenotes
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCRDFTaskforce_2fDCRDFReleasenotes.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCRDFTaskforce_2fDCRDFRoadmap
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCRDFTaskforce_2fDCRDFRoadmap.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCRDFTaskforce_2fMinutes20060310
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCRDFTaskforce_2fMinutes20060310.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCRDFTaskforce_2fPublicCommentJune2006
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCRDFTaskforce_2fPublicCommentJune2006.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCText
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCText.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCText_2f2006_2d05_2d21
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCText_2f2006_2d05_2d21.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCText_2f2006_2d05_2d24
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCText_2f2006_2d05_2d24.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCText_2f2007_2d04_2d02
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCText_2f2007_2d04_2d02.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXHTMLGuidelines_2f2007_2d07_2d27
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXHTMLGuidelines_2f2007_2d07_2d27.html
+
+--  WAS: http://dublincore.org/architecturewiki/DSPDCDSXMLSchematron
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DSPDCDSXMLSchematron.html
+
+--  WAS: http://dublincore.org/architecturewiki/DSPUsageExample
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DSPUsageExample.html
+
+--  WAS: http://dublincore.org/architecturewiki/DSPWikiSyntax
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DSPWikiSyntax.html
+
+--  WAS: http://dublincore.org/architecturewiki/DcamInContext
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DcamInContextIssues.html
+
+--  WAS: http://dublincore.org/architecturewiki/DcamInContextIssues
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DcarchTelecons.html
+
+--  WAS: http://dublincore.org/architecturewiki/DcarchTelecons
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DcarchTelecons_2fMeetingNotes20071026.html
+
+--  WAS: http://dublincore.org/architecturewiki/DcarchTelecons_2fMeetingNotes20071026
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DcarchTelecons_2fMeetingNotes20071114.html
+
+--  WAS: http://dublincore.org/architecturewiki/DcarchTelecons_2fMeetingNotes20071114
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DcarchTelecons_2fMeetingNotes20071205.html
+
+--  WAS: http://dublincore.org/architecturewiki/DcarchTelecons_2fMeetingNotes20071205
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DcarchTelecons_2fMeetingNotes_2d20071026.html
+
+--  WAS: http://dublincore.org/architecturewiki/DcarchTelecons_2fMeetingNotes_2d20071026
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DescriptionSetProfile.html
+
+--  WAS: http://dublincore.org/architecturewiki/DescriptionSetProfile
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DescriptionSetProfileBackground.html
+
+--  WAS: http://dublincore.org/architecturewiki/DescriptionSetProfileBackground
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DumbDownNotes.html
+
+--  WAS: http://dublincore.org/architecturewiki/DumbDownNotes
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/EprintsApplicationProfile.html
+
+--  WAS: http://dublincore.org/architecturewiki/EprintsApplicationProfile
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/FrontPage.html
+
+--  WAS: http://dublincore.org/architecturewiki/FrontPage
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/GraphMetadata.html
+
+--  WAS: http://dublincore.org/architecturewiki/GraphMetadata
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/InteroperabilityLevels.html
+
+--  WAS: http://dublincore.org/architecturewiki/InteroperabilityFramework
+
+--  WAS: http://dublincore.org/architecturewiki/InteroperabilityLevels
+
+--  WAS: http://dublincore.org/architecturewiki/LiddyNevileResponses
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/LiddyNevileResponses.html
+
+--  WAS: http://dublincore.org/architecturewiki/LinkingDCDescriptionsToODRLExpressions
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/LinkingDCDescriptionsToODRLExpressions.html
+
+--  WAS: http://dublincore.org/architecturewiki/ManzanilloFramework
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/ManzanilloFramework.html
+
+--  WAS: http://dublincore.org/architecturewiki/MeetingPresentations
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/MeetingPresentations.html
+
+--  WAS: http://dublincore.org/architecturewiki/Minutes20050822
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/Minutes20050822.html
+
+--  WAS: http://dublincore.org/architecturewiki/MoreCarefullyThought
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/MoreCarefullyThought.html
+
+--  WAS: http://dublincore.org/architecturewiki/NamespacePolicy
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/NamespacePolicy.html
+
+--  WAS: http://dublincore.org/architecturewiki/PeteJTest
+
+--  WAS: http://dublincore.org/architecturewiki/PeteJohnston
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/PeteJohnston.html
+
+--  WAS: http://dublincore.org/architecturewiki/ProfileDiscussionSeattle
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/ProfileDiscussionSeattle.html
+
+--  WAS: http://dublincore.org/architecturewiki/ProfileModel
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/ProfileModel.html
+
+--  WAS: http://dublincore.org/architecturewiki/ProfileModelArchitecture
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/ProfileModelArchitecture.html
+
+--  WAS: http://dublincore.org/architecturewiki/ProfileModelNotes
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/ProfileModelNotes.html
+
+--  WAS: http://dublincore.org/architecturewiki/ProposedPropertyDefinitions
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/ProposedPropertyDefinitions.html
+
+--  WAS: http://dublincore.org/architecturewiki/RDFValueStringsClarification
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/RDFValueStringsClarification.html
+
+--  WAS: http://dublincore.org/architecturewiki/RealProblem
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/RealProblem.html
+
+--  WAS: http://dublincore.org/architecturewiki/RecentChanges
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/RecentChanges.html
+
+--  WAS: http://dublincore.org/architecturewiki/ResourceIdentifierGuidelines
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/ResourceIdentifierGuidelines.html
+
+--  WAS: http://dublincore.org/architecturewiki/ResourceModel
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/ResourceModel.html
+
+--  WAS: http://dublincore.org/architecturewiki/SingaporeFramework
+
+--  WAS: http://dublincore.org/architecturewiki/SingaporeFrameworkDraft
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/SingaporeFrameworkDraft.html
+
+--  WAS: http://dublincore.org/architecturewiki/TermDecisionTree
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/TermDecisionTree.html
+
+--  WAS: http://dublincore.org/architecturewiki/TitleIndex
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/TitleIndex.html
+
+--  WAS: http://dublincore.org/architecturewiki/TomSuggestions
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/TomSuggestions.html
+
+======================================================================
+Attachments
+
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/2006-10-03-Manzanillo-Towards-a-Framework.pdf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/2007-08-28-dsp-eprint.pdf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/cen-cwa15248.pdf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/dc-arch-meeting.ppt
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/dc-rdf-diagrams.ppt
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/dc-term-decision-tree.gif
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/dc-term-decision-tree.ppt
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/DC_ARCH-DC2007.pdf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/dcam-description-model-tb.uxf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/dcam-description-model.uxf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/dcam-resource-model.uxf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/dcam-vocabulary-model.uxf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/dcap-model.jpg
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/dcap-model.ppt
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/dcap-model_printout.pdf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/dcmi-dsp.xsd
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/dcPropertiesRanges.xls.htm
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/DCRDFExecutiveSummary3
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/description-model.jpg
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/dsp-uml.png
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/DSP-wikisyntax-DC2007-1.ppt
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/DSP-wikisyntax-DC2007.pdf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/DSP-wikisyntax-DC2007.ppt
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/figure1.gif
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/figure2.gif
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/figure2b.gif
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/index.txt
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/InteroperabilityLevelsDiagram.jpg
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/metadata-framework-dc.png
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/ProfileModelCWA.jpg
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/ProfileModelCWA.uxf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/ProfileModelCWA1.jpg
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/ProfileModelCWA1.uxf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/ProfileModelCWA2.jpg
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/ProfileModelCWA2.uxf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/resource-model-tb.jpg
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/resource-model-tb.uxf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/resource-model.jpg
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/resource-model.uxf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/vocabulary-model-tb.jpg
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/vocabulary-model-tb.uxf
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/attachments/vocabulary-model.jpg
+
+======================================================================
+DC-XML revision (not all versions archived)
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fComments
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fComments.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fComments_2f2006_2d06_2d30
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fComments_2f2006_2d06_2d30.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLBaseSchemas
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLBaseSchemas.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLBaseSchemas_2f2006_2d05_2d29
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLBaseSchemas_2f2006_2d05_2d29.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLBaseSchemas_2f2006_2d07_2d04
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLBaseSchemas_2f2006_2d07_2d04.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLDCAPSchemas
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLDCAPSchemas.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLDCAPSchemas_2f2006_2d05_2d29
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLDCAPSchemas_2f2006_2d05_2d29.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFBaseSchemas_2f2006_2d09_2d18
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFBaseSchemas_2f2006_2d09_2d18.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFBaseSchemas_2f2007_2d06_2d19
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFBaseSchemas_2f2007_2d06_2d19.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFBaseSchemas_2f2008_2d07_2d23
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFBaseSchemas_2f2008_2d07_2d23.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFGuidelines
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFGuidelines.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFGuidelines_2f2006_2d09_2d18
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFGuidelines_2f2006_2d09_2d18.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFGuidelines_2f2007_2d06_2d19
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFGuidelines_2f2007_2d06_2d19.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFGuidelines_2f2007_2d12_2d17
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFGuidelines_2f2007_2d12_2d17.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFGuidelines_2f2008_2d07_2d23
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFGuidelines_2f2008_2d07_2d23.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFInstances_2f2006_2d09_2d18
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFInstances_2f2006_2d09_2d18.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFInstances_2f2007_2d06_2d19
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFInstances_2f2007_2d06_2d19.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFInstances_2f2008_2d07_2d23
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFInstances_2f2008_2d07_2d23.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFNotes_2f2008_2d07_2d23
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFNotes_2f2008_2d07_2d23.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFXSLT_2f2006_2d09_2d18
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFXSLT_2f2006_2d09_2d18.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFXSLT_2f2007_2d06_2d19
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFXSLT_2f2007_2d06_2d19.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLFXSLT_2f2008_2d07_2d23
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLFXSLT_2f2008_2d07_2d23.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLGuidelines
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLGuidelines.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLGuidelines_2f2006_2d05_2d16
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLGuidelines_2f2006_2d05_2d16.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLGuidelines_2f2006_2d05_2d29
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLGuidelines_2f2006_2d05_2d29.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLGuidelines_2f2006_2d07_2d04
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLGuidelines_2f2006_2d07_2d04.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLInstances
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLInstances.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLInstances_2f2006_2d05_2d29
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLInstances_2f2006_2d05_2d29.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLInstances_2f2006_2d06_2d01
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLInstances_2f2006_2d06_2d01.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLInstances_2f2006_2d07_2d04
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLInstances_2f2006_2d07_2d04.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLIssues
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLIssues.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLMBaseSchemas_2f2006_2d09_2d18
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLMBaseSchemas_2f2006_2d09_2d18.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLMBaseSchemas_2f2007_2d06_2d19
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLMBaseSchemas_2f2007_2d06_2d19.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLMConstraintSchemas_2f2007_2d06_2d19
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLMConstraintSchemas_2f2007_2d06_2d19.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLMDCAPSchemas_2f2006_2d09_2d18
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLMDCAPSchemas_2f2006_2d09_2d18.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLMGuidelines_2f2006_2d09_2d18
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLMGuidelines_2f2006_2d09_2d18.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLMGuidelines_2f2007_2d05_2d01
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLMGuidelines_2f2007_2d05_2d01.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLMGuidelines_2f2007_2d06_2d19
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLMGuidelines_2f2007_2d06_2d19.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLMInstances_2f2006_2d09_2d18
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLMInstances_2f2006_2d09_2d18.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLMInstances_2f2007_2d06_2d19
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLMInstances_2f2007_2d06_2d19.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLMXSLT_2f2006_2d09_2d18
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLMXSLT_2f2006_2d09_2d18.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLMXSLT_2f2007_2d06_2d19
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLMXSLT_2f2007_2d06_2d19.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLReleasenotes
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLReleasenotes.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLReleasenotes_2f2006_2d05_2d29
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLReleasenotes_2f2006_2d05_2d29.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLSchema
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLSchema.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLSchema_2f2006_2d05_2d16
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLSchema_2f2006_2d05_2d16.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLSchema_2f2006_2d05_2d29
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLSchema_2f2006_2d05_2d29.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLXSLT
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLXSLT.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLXSLT_2f2006_2d05_2d29
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLXSLT_2f2006_2d05_2d29.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLXSLT_2f2006_2d06_2d01
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLXSLT_2f2006_2d06_2d01.html
+
+--  WAS: http://dublincore.org/architecturewiki/DCXMLRevision_2fDCXMLXSLT_2f2006_2d07_2d04
+    http://dublincore.org:8080/moinmoin-wiki-archive/architecturewiki/pages/DCXMLRevision_2fDCXMLXSLT_2f2006_2d07_2d04.html
+

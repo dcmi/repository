@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF
+    xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:reg="http://metadataregistry.org/uri/schema/registry/">
+
+<!-- Scheme: dc-afa -->
+    <skos:ConceptScheme rdf:about="http://sandbox.metadataregistry.org/uri/afa">
+        <dc:title>dc-afa</dc:title>
+    </skos:ConceptScheme>
+
+<!-- Concept: allTextual  -->
+    <skos:Concept rdf:about="http://sandbox.metadataregistry.org/uri/afa/1004" xml:lang="en">
+        <skos:inScheme rdf:resource="http://sandbox.metadataregistry.org/uri/afa"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">allTextual</skos:prefLabel>
+        <skos:definition xml:lang="en">Resource contains all significant content as transformable text.</skos:definition>
+        <skos:example xml:lang="en">although there is visual content, it is also available as transformable text.</skos:example>
+    </skos:Concept>
+<!-- Concept: auditoryOnly  -->
+    <skos:Concept rdf:about="http://sandbox.metadataregistry.org/uri/afa/1003" xml:lang="en">
+        <skos:inScheme rdf:resource="http://sandbox.metadataregistry.org/uri/afa"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">auditoryOnly</skos:prefLabel>
+        <skos:definition xml:lang="en">Resource contains some significant content available as sounds only.</skos:definition>
+        <skos:example xml:lang="en">there is a significant content component with recorded speech with no alternative format. </skos:example>
+    </skos:Concept>
+<!-- Concept: brailleOnly  -->
+    <skos:Concept rdf:about="http://sandbox.metadataregistry.org/uri/afa/1006" xml:lang="en">
+        <skos:inScheme rdf:resource="http://sandbox.metadataregistry.org/uri/afa"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">brailleOnly</skos:prefLabel>
+        <skos:definition xml:lang="en">Resource provides all significant content in Braille.</skos:definition>
+        <skos:altLabel xml:lang="en">all the significant content of the resource, in whatever format, is also available as Braille or transformable text.</skos:altLabel>
+    </skos:Concept>
+<!-- Concept: hapticOnly  -->
+    <skos:Concept rdf:about="http://sandbox.metadataregistry.org/uri/afa/1009" xml:lang="en">
+        <skos:inScheme rdf:resource="http://sandbox.metadataregistry.org/uri/afa"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">hapticOnly</skos:prefLabel>
+        <skos:definition xml:lang="en">Resource contains some significant content as kinesthetic components only</skos:definition>
+        <skos:example xml:lang="en">there is a component of significant content that requires kinesthetic interaction with no alternative format</skos:example>
+    </skos:Concept>
+<!-- Concept: hazard  -->
+    <skos:Concept rdf:about="http://sandbox.metadataregistry.org/uri/afa/1011" xml:lang="en">
+        <skos:inScheme rdf:resource="http://sandbox.metadataregistry.org/uri/afa"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">hazard</skos:prefLabel>
+        <skos:definition xml:lang="en">Resource contains potentially harmful content. </skos:definition>
+        <skos:example xml:lang="en">there is brief repetitive light or sound, or an odour, or motion simulation, that may be harmful to some people</skos:example>
+    </skos:Concept>
+<!-- Concept: olfactoryOnly  -->
+    <skos:Concept rdf:about="http://sandbox.metadataregistry.org/uri/afa/1010" xml:lang="en">
+        <skos:inScheme rdf:resource="http://sandbox.metadataregistry.org/uri/afa"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">olfactoryOnly</skos:prefLabel>
+        <skos:definition xml:lang="en">Resource contains some significant content as smells only</skos:definition>
+        <skos:example xml:lang="en">there is a component of significant content that offers odours that are not available in any alternative format.</skos:example>
+    </skos:Concept>
+<!-- Concept: tactileOnly  -->
+    <skos:Concept rdf:about="http://sandbox.metadataregistry.org/uri/afa/1008" xml:lang="en">
+        <skos:inScheme rdf:resource="http://sandbox.metadataregistry.org/uri/afa"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">tactileOnly</skos:prefLabel>
+        <skos:definition xml:lang="en">Resource contains some significant content as touchable components only.</skos:definition>
+        <skos:example xml:lang="en">there is a component of significant content that needs to be touched and has no alternative format.</skos:example>
+    </skos:Concept>
+<!-- Concept: visualOnly  -->
+    <skos:Concept rdf:about="http://sandbox.metadataregistry.org/uri/afa/1005" xml:lang="en">
+        <skos:inScheme rdf:resource="http://sandbox.metadataregistry.org/uri/afa"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">visualOnly</skos:prefLabel>
+        <skos:definition xml:lang="en">Resource contains some significant content available as images only</skos:definition>
+        <skos:example xml:lang="en">there is some significant content that is available as an image with no alternative format.</skos:example>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

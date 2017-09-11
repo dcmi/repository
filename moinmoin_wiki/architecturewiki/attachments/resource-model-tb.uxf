@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><umlet_diagram><element><type>com.umlet.element.base.Class</type><coordinates><x>470</x><y>360</y><w>90</w><h>40</h></coordinates><panel_attributes>value
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><type>com.umlet.element.base.Class</type><coordinates><x>470</x><y>280</y><w>90</w><h>40</h></coordinates><panel_attributes>property
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>344</x><y>200</y><w>146</w><h>130</h></coordinates><panel_attributes>lt=&lt;-
+r1=described using</panel_attributes><additional_attributes>36;110;126;20</additional_attributes></element><element><type>com.umlet.element.base.Class</type><coordinates><x>470</x><y>190</y><w>90</w><h>50</h></coordinates><panel_attributes>described
+resource
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>380</x><y>320</y><w>110</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>20;20;90;50</additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>380</x><y>290</y><w>110</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>20;40;90;20</additional_attributes></element><element><type>com.umlet.element.base.Class</type><coordinates><x>300</x><y>310</y><w>100</w><h>50</h></coordinates><panel_attributes>property-value
+pair
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element></umlet_diagram>

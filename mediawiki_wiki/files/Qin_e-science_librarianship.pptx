@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" dir="ltr">
+<head>
+<title>Main Page - DCMI_MediaWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.0" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="DCMI_MediaWiki (en)" />
+<link rel="alternate" type="application/atom+xml" title="DCMI_MediaWiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/index.php/$1",
+wgScriptPath="",
+wgScriptExtension=".php",
+wgScript="/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.dublincore.org",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="Main_Page",
+wgTitle="Main Page",
+wgAction="view",
+wgArticleId=1,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="en",
+wgContentLanguage="en",
+wgBreakFrames=false,
+wgCurRevisionId=8099,
+wgVersion="1.16.0",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="Main Page",
+wgFormattedNamespaces={"-2": "Media", "-1": "Special", "0": "", "1": "Talk", "2": "User", "3": "User talk", "4": "DCMI MediaWiki", "5": "DCMI MediaWiki talk", "6": "File", "7": "File talk", "8": "MediaWiki", "9": "MediaWiki talk", "10": "Template", "11": "Template talk", "12": "Help", "13": "Help talk", "14": "Category", "15": "Category talk"},
+wgNamespaceIds={"media": -2, "special": -1, "": 0, "talk": 1, "user": 2, "user_talk": 3, "dcmi_mediawiki": 4, "dcmi_mediawiki_talk": 5, "file": 6, "file_talk": 7, "mediawiki": 8, "mediawiki_talk": 9, "template": 10, "template_talk": 11, "help": 12, "help_talk": 13, "category": 14, "category_talk": 15, "image": 6, "image_talk": 7},
+wgSiteName="DCMI_MediaWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/skins/common/wikibits.js?270"></script>
+<script src="/skins/common/ajax.js?270"></script>
+<script src="/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-Main_Page skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">Main Page</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">From DCMI_MediaWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Dublin_Core_Metadata_Initiative_Wiki"><span class="tocnumber">1</span> <span class="toctext">Dublin Core Metadata Initiative Wiki</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Purculating_activities"><span class="tocnumber">1.1</span> <span class="toctext">Purculating activities</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#About_DCMI_.28and_this_wiki.29"><span class="tocnumber">1.2</span> <span class="toctext">About DCMI (and this wiki)</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#DCMI_governance"><span class="tocnumber">1.3</span> <span class="toctext">DCMI governance</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Other_links"><span class="tocnumber">1.4</span> <span class="toctext">Other links</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="Dublin_Core_Metadata_Initiative_Wiki"> Dublin Core Metadata Initiative Wiki </span></h2>
+<h3> <span class="mw-headline" id="Purculating_activities"> <a href="http://www.urbandictionary.com/define.php?term=purculating" class="external text" rel="nofollow">Purculating</a> activities </span></h3>
+<p>2014-06-20. <a href="/index.php/RDF_Application_Profiles" title="RDF Application Profiles">RDF_Application_Profiles</a> are the focus of a new DCMI Task Group ("RDF-AP") co-chaired by Antoine Isaac and Karen Coyle. Since March, the topic has been discussed on the <a href="http://www.jiscmail.ac.uk/lists/dc-architecture.html" class="external text" rel="nofollow">DC-Architecture mailing list</a>, on this wiki, and in a series of teleconferences.  The DCMI draft <a href="http://dublincore.org/documents/dc-dsp" class="external text" rel="nofollow">Description Profile Constraint Language</a> is being compared with a W3C draft, <a href="http://www.w3.org/2013/ShEx/Primer" class="external text" rel="nofollow">Shape Expressions</a>, and we are looking at software tools such as <a href="https://bitbucket.org/metasolutions/rdforms" class="external text" rel="nofollow">RDForms from MetaSolutions</a>.  The questions are: How can validatable constraints be defined for RDF data, and what kinds of tools and processes can this support?
+</p>
+<h3> <span class="mw-headline" id="About_DCMI_.28and_this_wiki.29"> About DCMI (and this wiki) </span></h3>
+<p>The <a href="http://dublincore.org" class="external text" rel="nofollow">Dublin Core Metadata Initiative</a> ("DCMI") is an open organization engaged in the development of interoperable metadata standards that support a broad range of purposes and business models. DCMI's activities include work on architecture and modeling, discussions and collaborative work in DCMI Communities and DCMI Task Groups, annual conferences and workshops, standards liaison, and educational efforts to promote widespread acceptance of metadata standards and practices.
+</p><p>This is the MediaWiki for DCMI. Wiki users can check whether they have a Username by consulting <a href="/index.php/Special:ListUsers" title="Special:ListUsers">Special:ListUsers</a>; if you have a Username but have forgotten your password, you can ask for a new password to be sent by email.  Please contact <a href="/index.php/User:WikiSysop" title="User:WikiSysop">User:WikiSysop</a> for more information or to request a Username.
+</p>
+<h3> <span class="mw-headline" id="DCMI_governance"> DCMI governance </span></h3>
+<ul><li> <a href="/index.php/DCMI_Handbook" title="DCMI Handbook">DCMI Handbook</a>
+</li><li> <a href="/index.php/DCMI_Governing_Board" title="DCMI Governing Board">Governing Board wiki</a>
+</li><li> <a href="/index.php/DCMI_Technical_Board" title="DCMI Technical Board">Technical Board wiki</a>
+</li><li> <a href="/index.php/DCMI_Advisory_Board" title="DCMI Advisory Board">Advisory Board wiki</a>
+</li><li> <a href="/index.php/Exec_Committee" title="Exec Committee">Executive Committee wiki</a>
+</li></ul>
+<h3> <span class="mw-headline" id="Other_links"> Other links </span></h3>
+<ul><li> <a href="/index.php/LibrariesWiki" title="LibrariesWiki">DCMI Libraries Wiki</a>
+</li><li> <a href="http://wiki.dublincore.org/index.php/Bibliographic_Metadata_Task_Group#" class="external text" rel="nofollow">Bibliographic Metadata Task Group</a>
+</li><li> <a href="/index.php/DCMI_Science_And_Metadata" title="DCMI Science And Metadata">DCMI Science and Metadata Wiki</a>
+</li><li> <a href="http://wiki.dublincore.org/index.php/DCMI_Vocabulary_Management_Community" class="external text" rel="nofollow">DCMI Vocabulary Management Community</a>
+</li><li> <a href="/index.php/User_Guide" title="User Guide">User Guide</a>
+</li><li> <a href="/index.php/DCMI_Localization_and_Internationalization_Wiki" title="DCMI Localization and Internationalization Wiki">DCMI Localization and Internationalization Wiki</a>
+</li><li> <a href="/index.php/Conference_Guidelines" title="Conference Guidelines" class="mw-redirect"> Conference and Meeting Guidelines</a>
+</li><li> <a href="/index.php/Cultural_Heritage_Metadata_Task_Group" title="Cultural Heritage Metadata Task Group"> Cultural Heritage Metadata Task Group Wiki</a>
+</li><li> <a href="/index.php/AB-Comm/ed/LRMI/TG" title="AB-Comm/ed/LRMI/TG"> LRMI Task Group</a>
+</li></ul>
+<hr />
+<p><a href="/index.php/File:Join_us-150.png" class="image" title="DCMI Handbook"><img alt="DCMI Handbook" src="/images/c/c5/Join_us-150.png" width="150" height="43" /></a>
+</p><p><a href="http://dublincore.org/support/#individualMember" class="external text" rel="nofollow">Click and become a DCMI member...</a>
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 21/1000000
+Post-expand include size: 130/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+<div class="printfooter">
+Retrieved from "<a href="http://wiki.dublincore.org/index.php/Main_Page">http://wiki.dublincore.org/index.php/Main_Page</a>"</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/index.php/Main_Page" title="View the content page [c]" accesskey="c">Page</a></li>
+				 <li id="ca-talk" class="new"><a href="/index.php?title=Talk:Main_Page&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-viewsource"><a href="/index.php?title=Main_Page&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+				 <li id="ca-history"><a href="/index.php?title=Main_Page&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Main_Page" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://wiki.dublincore.org/images/logo.jpg);" href="/index.php/Main_Page" title="Visit the main page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/index.php/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+				<li id="n-portal"><a href="/index.php/DCMI_MediaWiki:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+				<li id="n-currentevents"><a href="/index.php/DCMI_MediaWiki:Current_events" title="Find background information on current events">Current events</a></li>
+				<li id="n-recentchanges"><a href="/index.php/Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+				<li id="n-randompage"><a href="/index.php/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+				<li id="n-help"><a href="/index.php/Help:Contents" title="The place to find out">Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php" id="searchform">
+				<input type='hidden' name="title" value="Special:Search"/>
+				<input id="searchInput" title="Search DCMI_MediaWiki" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" title="Go to a page with this exact name if exists" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/index.php/Special:WhatLinksHere/Main_Page" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/index.php/Special:RecentChangesLinked/Main_Page" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/index.php/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="/index.php?title=Main_Page&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="/index.php?title=Main_Page&amp;oldid=8099" title="Permanent link to this revision of the page">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> This page was last modified on 14 August 2014, at 21:14.</li>
+		<li id="viewcount">This page has been accessed 439,388 times.</li>
+		<li id="privacy"><a href="/index.php/DCMI_MediaWiki:Privacy_policy" title="DCMI MediaWiki:Privacy policy">Privacy policy</a></li>
+		<li id="about"><a href="/index.php/DCMI_MediaWiki:About" title="DCMI MediaWiki:About">About DCMI_MediaWiki</a></li>
+		<li id="disclaimer"><a href="/index.php/DCMI_MediaWiki:General_disclaimer" title="DCMI MediaWiki:General disclaimer">Disclaimers</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.478 secs. --></body></html>

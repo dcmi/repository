@@ -1,0 +1,803 @@
+---
+title: "- DCText"
+date: '2017-09-01T16:21:09+01:00'
+description: 
+draft: false
+creators: []
+contributors: []
+publisher: 
+tags: []
+aliases:
+- "/archive/moinmoin_wiki/architecturewiki/pages/DCText.html"
+---
+
+**2012-01-05. Frozen archive - links may not resolve - see directory of files at [MoinMoin wiki archive](/moinmoin-wiki-archive/)**
+
+# > [DCText](http://dublincore.org/architecturewiki/DCText?action=fullsearch&value=DCText&literal=1&case=1&context=40 "Click here to do a full-text search for this title")
+
+User
+
+ [UserPreferences](http://dublincore.org/architecturewiki/UserPreferences)
+  
+
+Site
+
+- [FrontPage](http://dublincore.org/architecturewiki/FrontPage)
+- [RecentChanges](http://dublincore.org/architecturewiki/RecentChanges)
+- [FindPage](http://dublincore.org/architecturewiki/FindPage)
+- [HelpContents](http://dublincore.org/architecturewiki/HelpContents)
+
+Page
+
+- [Edit](http://dublincore.org/architecturewiki/DCText?action=edit "Edit")
+- [View](http://dublincore.org/architecturewiki/DCText "View")
+- [Diffs](http://dublincore.org/architecturewiki/DCText?action=diff "Diffs")
+- [Info](http://dublincore.org/architecturewiki/DCText?action=info "Info")
+- [Subscribe](http://dublincore.org/architecturewiki/DCText?action=subscribe "Subscribe")
+- [Raw](http://dublincore.org/architecturewiki/DCText?action=raw "Raw")
+- [Print](http://dublincore.org/architecturewiki/DCText?action=print "Print")
+
+Actions
+
+- [AttachFile](http://dublincore.org/architecturewiki/DCText?action=AttachFile)
+- [DSP2XML](http://dublincore.org/architecturewiki/DCText?action=DSP2XML)
+- [DeletePage](http://dublincore.org/architecturewiki/DCText?action=DeletePage)
+- [LikePages](http://dublincore.org/architecturewiki/DCText?action=LikePages)
+- [LocalSiteMap](http://dublincore.org/architecturewiki/DCText?action=LocalSiteMap)
+- [SpellCheck](http://dublincore.org/architecturewiki/DCText?action=SpellCheck)
+
+Search
+
+<form method="POST" action="/architecturewiki/DCText">
+<p>
+<input name="action" value="inlinesearch" type="hidden">
+<input name="context" value="40" type="hidden">
+Title: <input name="text_title" size="15" maxlength="50" type="text"><input src="DCText_files/moin-search.png" name="button_title" alt="[?]" type="image"><br>Text: <input name="text_full" size="15" maxlength="50" type="text"><input src="DCText_files/moin-search.png" name="button_full" alt="[?]" type="image">
+</p>
+</form>
+
+## DC-Text: A Text Syntax for Dublin Core Metadata
+
+This document is part of the [<img src="DCText_files/moin-inter.png" alt="[Self]" height="16" width="16">DC Architecture Wiki](http://dublincore.org/architecturewiki/ "Self").
+
+**IMPORTANT:** Do **not** cite materials in this Wiki other than for the purposes of collaborating on document creation. This Wiki is intended to be used to work on draft copies of documents. Finished documents will be published, in a persistent and citable form, on the dublincore.org Web site (or elsewhere in some cases).
+
+This is a draft document, currently being worked on by the [<img src="DCText_files/moin-www.png" alt="[WWW]" height="11" width="11">DC Architecture Working Group](http://dublincore.org/architecturewiki/). Comments should be sent to the [DC-ARCHITECTURE@jiscmail.ac.uk](mailto:DC-ARCHITECTURE@jiscmail.ac.uk) mailing list or direct to the authors.
+
+<table bgcolor="#ffffcc" width="100%">
+  <tbody>
+    <tr>
+      <td>
+        <strong>Title:</strong> </td>
+      <td>
+        <strong>DC-Text: A Text Syntax for Dublin Core Metadata</strong> </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Creator:</strong> </td>
+      <td>
+        Pete Johnston, Eduserv Foundation &lt;<a href="mailto:pete.johnston@eduserv.org.uk">pete.johnston@eduserv.org.uk</a>&gt; </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Date Issued:</strong> </td>
+      <td>
+        2007-04-02 </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Identifier:</strong> </td>
+      <td>
+        <a href="http://dublincore.org/architecturewiki/DCText/2007-04-02">http://dublincore.org/architecturewiki/DCText/2007-04-02</a> </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Replaces:</strong> </td>
+      <td>
+        <a href="http://dublincore.org/architecturewiki/DCText/2006-05-24">http://dublincore.org/architecturewiki/DCText/2006-05-24</a> </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Is Replaced By:</strong> </td>
+      <td>
+        Not applicable </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Latest Version:</strong> </td>
+      <td>
+        <a href="http://dublincore.org/architecturewiki/DCText">http://dublincore.org/architecturewiki/DCText</a> </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Description of Document:</strong> </td>
+      <td>
+        This document specifies a simple text format for representing a Dublin 
+        Core metadata description set. The format is known as "DC-Text".</td>
+    </tr>
+  </tbody>
+</table>
+
+
+## Contents
+
+1. 
+
+Introduction
+
+2. 
+
+The DCMI Abstract Model (Summary)
+
+3. 
+
+Some Features of the DC-Text Syntax
+
+4. 
+
+The DC-Text Syntax
+
+5. 
+
+Examples
+
+6. 
+
+Appendix A: DC-Text in BNF
+
+7. 
+
+Notes
+
+8. 
+
+References
+
+### 1. Introduction
+
+The DCMI Abstract Model [DCAM] describes the constructs which make up DC metadata description sets. This document specifies a syntax for serialising, or representing, a DC metadata _description set_ in plain text. The format is referred to as "DC-Text". A plain text format for serialisation of such _description sets_ is useful as a means of presenting examples in a way which highlights the constructs of the DCMI Abstract Model, and also as a means of comparing the information represented in other formats such as DC-XML, RDF/XML and XHTML/HTML.
+
+### 2. The DCMI Abstract Model (Summary)
+
+According to the DCMI Abstract Model [DCAM], a DC _description set_ has the following structure:
+
+- a _description set_ is made up of one or more _descriptions_
+
+- a _description_ is made up of
+
+  - zero or one _resource URI_ and
+
+  - one or more _statements_
+
+- a _statement_ is made up of
+
+  - exactly one _property URI_ and
+
+  - exactly one _value surrogate_
+
+- a _value surrogate_ is either a _literal value surrogate_ or a _non-literal value surrogate_
+
+  - a _literal value surrogate_ is made up of exactly one _value string_
+
+  - a _non-literal value surrogate_ is made up of
+
+    - zero or one _value URIs_
+
+    - zero or one _vocabulary encoding scheme URIs_
+
+    - zero or more _value strings_
+
+- a _value string_ is either a _plain value string_ or a _typed value string_
+
+  - a _plain value string_ may be associated with a _value string language_
+
+  - a _typed value string_ is associated with a _syntax encoding scheme URI_
+
+- a _non-literal value_ may be described by another _description_
+
+### 3. Some Features of the DC-Text Syntax
+
+A formal description of the DC-Text syntax is presented in Appendix A.
+
+This section presents an overview of some features of the the syntax.
+
+#### 3.1 The Structure of a DC-Text Document
+
+The general structure of a DC-Text document is as follows:
+
+<pre>namespace declaration
+label (
+  label ( content )
+  label (
+    label ( [...] )
+    [...]
+  )
+)
+</pre>
+
+Each of the primary components of a DC metadata description set defined by the DCMI Abstract Model is represented in DC-Text by a syntactic structure of the form:
+
+<pre>label ( content )
+</pre>
+
+where <tt>label</tt> is replaced by one of the following strings:
+
+<pre>DescriptionSet, Description, ResourceURI, ResourceId, Statement, 
+PropertyURI, VocabularyEncodingSchemeURI, ValueURI, ValueId, 
+ValueString, Language, SyntaxEncodingSchemeURI, LiteralValueString
+</pre>
+
+and <tt>content</tt> is either:
+
+- a sequence of one or more syntactic structures of the form <tt>label ( content )</tt> (i.e. these structures are "nested"); or
+
+- a string of the form <tt>"literal"</tt>, which represents that Unicode literal; or
+
+- a string of the form <tt>&lt;uri&gt;</tt>, which represents a URI; or
+
+- a string of the form <tt>prefix:name</tt>, which represents a "qualified name" used as an abbreviation for a URI
+
+- a string which represents a language tag
+
+- a string which is a locally-scoped identifier used to establish relationships between values and their descriptions
+
+For each <tt>label</tt> value in the list above, the permitted form of <tt>content</tt> is determined by the syntax rules specified in Appendix A. These are explained through examples below.
+
+The DC-Text syntax supports the representation of a single DC _description set_, so a DC-Text document consists of zero or more <tt>namespace declarations</tt> followed by a single <tt>label ( content )</tt> syntactic structure with a <tt>label</tt> of <tt>DescriptionSet</tt>, and as <tt>content</tt>, one or more nested <tt>label ( content )</tt> structured with a <tt>label</tt> of <tt>Description</tt>. i.e. a DC-Text document has the following outline form:
+
+<pre>@prefix prefix: &lt;uri&gt; .
+
+DescriptionSet (
+  Description (
+    Statement ( ... )
+    Statement ( ... )
+  )
+  Description (
+    Statement ( ... )
+    Statement ( ... )
+  )
+)
+</pre>
+
+#### 3.2 URIs, Qualified Names, and Namespace Declarations
+
+The DCMI Abstract Model uses URIs to refer to _resources_ and to metadata terms (_properties_, _vocabulary encoding schemes_ and _syntax encoding schemes_). In the DC-Text syntax, URIs may be written in full or may be represented as "qualified names". A qualified name is made up of two parts, a <tt>prefix</tt> and a <tt>name</tt>, separated by a colon (<tt>:</tt>). In DC-Text, wherever a qualified name is used, it is used to represent a URI. The URI represented by the qualified name is determined by appending the name part of the qualified name to the URI with which the prefix is associated in a <tt>namespace declaration</tt> (sometimes called the namespace URI).
+
+Namespace declarations occur at the start of a DC-Text document, and have the following form:
+
+<pre>@prefix prefix: &lt;uri&gt;
+</pre>
+
+For example, the following declarations associates the prefix <tt>dc</tt> with the URI <tt>http://purl.org/dc/terms/</tt> and the prefix <tt>ex</tt> with the URI <tt>http://example.org/resources/</tt>
+
+<pre>@prefix dcterms: &lt;http://purl.org/dc/terms/&gt;
+@prefix ex: &lt;http://example.org/resources/&gt;
+</pre>
+
+Note that the limitations on the characters which can occur in the <tt>name</tt> part of a qualified name mean that there are URIs that can not be expressed as qualified names. For example the URIs <tt>http://example.org/resources/12345</tt> and <tt>http://example.org/resources#12345</tt> can not be represented as qualified names, because the <tt>name</tt> part can not include the "/" or "#" characters, and can not begin with a numeric character.
+
+#### 3.3 Comments
+
+Comments can be inserted anywhere in a DC-Text document. A comment starts with a <tt>#</tt> and ends with a newline.
+
+<pre># A comment at the start of the document
+@prefix prefix: &lt;uri&gt; .
+DescriptionSet (
+  Description (
+    # A comment at the start of a description
+    Statement ( ... )
+    # A comment following a statement
+    Statement ( ... )
+  )
+  Description (
+    Statement ( ... )
+    Statement ( ... )
+  )
+)
+</pre>
+
+#### 3.4 String Escapes
+
+_To be provided._
+
+### 4. The DC-Text Syntax
+
+This section describes how each of the constructs of the DCMI Abstract Model i srepresented using the DC-Text syntax.
+
+#### 4.1 Description Sets
+
+A DC-Text document supports the representation of a single DC _description set_. A _description set_ is represented using a <tt>DescriptionSet ( )</tt> syntactic structure.
+
+<pre>DescriptionSet (
+  Description (
+    Statement (
+      PropertyURI ( &lt;http://purl.org/dc/terms/subject&gt; )
+      ValueString ( "Metadata" )
+    )
+  )
+)
+</pre>
+
+**Example 1: Description Sets**
+
+#### 4.2 Descriptions
+
+A _description set_ is made up of one or more _descriptions_.
+
+A _description_ is represented using a <tt>Description ( )</tt> syntactic structure.
+
+The following example represents a _description set_ consisting of a single _description_.
+
+<pre>DescriptionSet (
+  Description (
+    Statement (
+      PropertyURI ( &lt;http://purl.org/dc/terms/subject&gt; )
+      ValueString ( "Metadata" )
+    )
+  )
+)
+</pre>
+
+**Example 2: Descriptions**
+
+A _description set_ may contain multiple _descriptions_.
+
+Each _description_ is represented using a separate <tt>Description ( )</tt> syntactic structure.
+
+The following example represents a _description set_ consisting of two _descriptions_.
+
+<pre>DescriptionSet (
+  Description (
+    Statement (
+      PropertyURI ( &lt;http://purl.org/dc/terms/subject&gt; )
+      ValueString ( "Metadata" )
+    )
+  )
+  Description (
+    Statement (
+      PropertyURI ( &lt;http://xmlns.com/foaf/0.1/name&gt; )
+      LiteralValueString ( "Dublin Core Metadata Initiative" )
+    )
+  )
+)
+</pre>
+
+**Example 3: Multiple Descriptions**
+
+The order of _descriptions_ within a _description set_ is not significant.
+
+##### 4.2.1 Described Resource URI
+
+A _description_ may have an associated _described resource URI_.
+
+A _described resource URI_ is represented using a <tt>ResourceURI ( &lt;uri&gt; )</tt> syntactic structure:
+
+<pre>DescriptionSet (
+  Description(
+    ResourceURI( &lt;http://dublincore.org/pages/home&gt; )
+    Statement (
+      PropertyURI ( &lt;http://purl.org/dc/terms/subject&gt; )
+      ValueString ( "Metadata" )
+    )
+  )
+)
+</pre>
+
+**Example 4: Described Resource URI**
+
+By introducing namespace declarations, the qualified name mechanism can be used to abbreviate the _described resource URI_. The same _description set_ as in the previous example might be encoded as follows.
+
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( &lt;http://purl.org/dc/terms/subject&gt; )
+      ValueString ( "Metadata" )
+    )
+  )
+)
+</pre>
+
+**Example 5: Described Resource URI abbreviated using Qualified Name**
+
+Note: from this point in this document, all the examples will show URIs abbreviated as Qualified Names, but in each case they could be represented as URIs in full.
+
+#### 4.3 Statements
+
+A _description_ is made up of one or more _statements_.
+
+A _statement_ is represented using a <tt>Statement ( )</tt> syntactic structure.
+
+The following example represents a _description_ consisting of a single _statement_.
+
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dcterms:subject )
+      ValueString ( "Metadata" )
+    )
+  )
+)
+</pre>
+
+**Example 6: Statements**
+
+A _description_ may contain multiple _statements_.
+
+Each _statement_ is represented using a separate <tt>Statement ( )</tt> syntactic structure.
+
+The following example represents a _description_ consisting of two _statements_.
+
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dcterms:subject )
+      ValueString ( "Metadata" )
+    )
+    Statement (
+      PropertyURI ( dcterms:title )
+      LiteralValueString ( "DCMI Home Page" )
+    )
+  )
+)
+</pre>
+
+**Example 7: Multiple Statements**
+
+The order of _statements_ within a _description_ is not significant.
+
+##### 4.3.1 Property URI
+
+A _statement_ must contain exactly one _property URI_.
+
+A _property URI_ is represented using a <tt>PropertyURI ( &lt;uri&gt; )</tt> syntactic structure:
+
+The following example represents a _description_ consisting of a single _statement_ where the _property URI_ is [http://purl.org/dc/terms/subject](http://purl.org/dc/terms/subject) .
+
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dcterms:subject )
+      ValueString ( "Metadata" )
+    )
+  )
+)
+</pre>
+
+**Example 8: Property URI**
+
+#### 4.4 Value Surrogates
+
+A _statement_ must contain exactly one _value surrogate_. A _value surrogate_ is either a _literal value surrogate_ or a _non-literal value surrogate_.
+
+##### 4.4.1 Literal Value Surrogates
+
+A _literal value surrogate_ is made up of exactly one _value string_.
+
+###### 4.4.1.1 Value Strings
+
+A _value string_ within a _literal value surrogate_ is represented using a <tt>LiteralValueString ( )</tt> syntactic structure.
+
+The following example represents a _description_ consisting of a single _statement_ with a _literal value surrogate_ containing a _value string_.
+
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dcterms:title )
+      LiteralValueString ( "DCMI Home Page" )
+    )
+  )
+)
+</pre>
+
+**Example 9: Literal Value Surrogate: Value String**
+
+##### 4.4.2 Non-Literal Value Surrogates
+
+A _non-literal value surrogate_ is made up of:
+
+- zero or one _value URIs_
+
+- zero or one _vocabulary encoding scheme URIs_
+
+- zero or more _value strings_
+
+###### 4.4.2.1 Value URI
+
+A _value URI_ is represented using a <tt>ValueURI ( &lt;uri&gt; )</tt> syntactic structure:
+
+The following example represents a _description_ consisting of a single _statement_ with a _non-literal value surrogate_ containing a _value URI_.
+
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix agent: &lt;http://example.org/agents/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement(
+      PropertyURI ( dcterms:creator )
+      ValueURI ( agent:DCMI )
+    )
+  )
+)
+</pre>
+
+**Example 10: Value URIs**
+
+###### 4.4.2.2 Vocabulary Encoding Scheme URI
+
+A _vocabulary encoding scheme URI_ is represented using a <tt>VocabularyEncodingSchemeURI ( &lt;uri&gt; )</tt> syntactic structure:
+
+The following example represents a _description_ consisting of a single _statement_ with a _non-literal value surrogate_ containing a _value URI_ and a _vocabulary encoding scheme URI_.
+
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+@prefix exterms: &lt;http://example.org/terms/&gt; .
+@prefix exsh: &lt;http://example.org/sh/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dcterms:subject )
+      ValueURI ( exsh:metadata )
+      VocabularyEncodingSchemeURI ( myterms:EXSH )
+    )
+  )
+)
+</pre>
+
+**Example 11: Vocabulary Encoding Scheme URI**
+
+###### 4.4.2.3 Value Strings
+
+A _value string_ within a _non-literal value surrogate_ is represented using a <tt>ValueString ( )</tt> syntactic structure.
+
+The following example represents a _description_ consisting of a single _statement_ with a _non-literal value surrogate_ containing a _value URI_, a _vocabulary encoding scheme URI_ and a _value string_.
+
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+@prefix exterms: &lt;http://example.org/terms/&gt; .
+@prefix exsh: &lt;http://example.org/sh/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dcterms:subject )
+      ValueURI ( exsh:metadata )
+      VocabularyEncodingSchemeURI ( exterms:EXSH )
+      ValueString ( "Metadata" )
+    )
+  )
+)
+</pre>
+
+**Example 12: Non-Literal Value Surrogate: Value String**
+
+A _non-literal value surrogate_ may contain multiple _value strings_.
+
+The following example represents a _description_ consisting of a single _statement_ with a _non-literal value surrogate_ containing a _value URI_, a _vocabulary encoding scheme URI_ and two _value strings_.
+
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+@prefix exterms: &lt;http://example.org/terms/&gt; .
+@prefix exsh: &lt;http://example.org/sh/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dcterms:subject )
+      ValueURI ( exsh:metadata )
+      VocabularyEncodingSchemeURI ( exterms:EXSH )
+      ValueString ( "Metadata" )
+      ValueString ( "Métadonnées" )
+    )
+  )
+)
+</pre>
+
+**Example 13: Non-Literal Value Surrogate: Multiple Value Strings**
+
+#### 4.5 Value Strings
+
+A _value string_ is either a _plain value string_ or a _typed value string_.
+
+##### 4.5.1 Plain Value Strings
+
+A _plain value string_ may be associated with a _value string language_
+
+A _value string language_ is represented using a <tt>Language ( tag )</tt> syntactic structure.
+
+The following example represents a _description_ consisting of a single _statement_ with a _non-literal value surrogate_ containing a _value URI_, a _vocabulary encoding scheme URI_ and two _plain value strings_, each associated with a _value string language_.
+
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+@prefix exterms: &lt;http://example.org/terms/&gt; .
+@prefix exsh: &lt;http://example.org/sh/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dcterms:subject )
+      ValueURI ( exsh:metadata )
+      VocabularyEncodingSchemeURI ( exterms:EXSH )
+      ValueString ( "Metadata" 
+        Language ( en ) 
+      )
+      ValueString ( "Métadonnées" 
+        Language ( fr ) 
+      )
+    )
+  )
+)
+</pre>
+
+**Example 14: Value String Languages**
+
+##### 4.5.2 Typed Value Strings
+
+A _typed value string_ must be associated with a _syntax encoding scheme URI_.
+
+A _syntax encoding scheme URI_ is represented using the <tt>SyntaxEncodingSchemeURI ( &lt;uri&gt; )</tt> syntactic structure.
+
+The following example represents a _description_ consisting of a single _statement_ with a _non-literal value surrogate_ containing a _value URI_ and a _vocabulary encoding scheme URI_.
+
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+@prefix xs: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dcterms:modified )
+      ValueString ( "2006-02-14"
+        SyntaxEncodingSchemeURI ( xs:date )
+      )
+    )
+  )
+)
+</pre>
+
+**Example 15: Syntax Encoding Scheme URI**
+
+#### 4.6 Descriptions of Non-Literal Values
+
+A _description set_ may contain multiple _descriptions_, each represented by a <tt>Description ( content )</tt> syntactic structure. The order of the structures has no significance.
+
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dcterms:subject )
+      ValueString ( "Metadata" )
+    )
+  )
+  Description (
+    Statement (
+      PropertyURI ( foaf:name )
+      LiteralValueString ( "Dublin Core Metadata Initiative" )
+    )
+  )
+)
+</pre>
+
+**Example 16: Multiple Descriptions**
+
+A _resource which is referred to as a_ non-literal value _in a_ statement _in one_ description _may be the_ described resource _of another_ description _within the_ description set_. If that_ resource _has been assigned a URI, then that URI appears as the_ value URI _in the_ statement _where the_ resource _is referred to as the_ non-literal value and as a _described resource URI_ in the _description_ of that _resource_, as shown below:
+
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix agent: &lt;http://example.org/agents/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dcterms:creator )
+      ValueURI ( agent:DCMI )
+    )
+  )
+  Description (
+    ResourceURI ( agent:DCMI )
+    Statement (
+      PropertyURI ( foaf:name )
+      LiteralValueString ( "Dublin Core Metadata Initiative" )
+    )
+  )
+)
+</pre>
+
+**Example 17: Value as Described Resource**
+
+In some cases a _resource_ will not have a URI assigned, or the URI will not be known. Such a _resource_ may still be a referred to as a _non-literal value_ in a _statement_ in one _description_ and the _described resource_ of another _description_ in the same _description set_.
+
+In DC-Text, the association between the _statement_ in the first _description_ and the second _description_ is made by using an identifier for the _resource_ which is local to a DC-Text instance. This local identifier is used in a <tt>ValueId ( id )</tt> syntactic construct within one or more <tt>Statement ( )</tt> constructs where the _resource_ is referred to as a _non-literal value_, and in a <tt>ResourceId ( id )</tt> construct within a 'Description ( )<tt> construct for which the ''resource'' is the ''described resource''. The content of a </tt> [ValueId](http://dublincore.org/architecturewiki/ValueId) ( id )<tt> construct must match the content of a </tt> [ResourceId](http://dublincore.org/architecturewiki/ResourceId) ( id )` construct in the same DC-Text instance.
+
+Note that this is a syntactic mechanism for linking references to _values_ in _statements_ to _descriptions_ of those _values_: the local identifier itself does not appear in the _description set_.
+
+<pre>@prefix page: &lt;http://dublincore.org/pages/&gt; .
+@prefix agent: &lt;http://example.org/agents/&gt; .
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+DescriptionSet (
+  Description (
+    ResourceURI ( page:home )
+    Statement (
+      PropertyURI ( dcterms:creator )
+      ValueId ( agentDCMI )
+    )
+  )
+  Description (
+    ResourceId ( agentDCMI )
+    Statement (
+      PropertyURI ( foaf:name )
+      LiteralValueString ( "Dublin Core Metadata Initiative" )
+    )
+  )
+)
+</pre>
+
+**Example 11: Multiple Related Descriptions**
+
+<a id="appA"></a>
+
+### Appendix A. Grammar
+
+A DC-Text document is a sequence of Unicode characters encoded in UTF-8 defined by the grammar below. It is specified by means of the version of Extended BNF used in XML 1.0 (Third Edition) [XML]
+
+**DC-Text - EBNF**
+
+### Notes
+
+### References
+
+<a id="DCAM"></a>**[DCAM]**  
+DCMI Abstract Model Proposed DCMI Recommendation, 2007-04-02  
+ [http://dublincore.org/documents/2007/04/02/abstract-model/](http://dublincore.org/documents/2007/04/02/abstract-model/)
+
+<a id="XML"></a>**[XML]**  
+_Extensible Markup Language (XML) 1.0 (Third Edition)_. W3C Recommendation 04 February 2004.  
+ [http://www.w3.org/TR/REC-xml](http://www.w3.org/TR/REC-xml)
+
+<a id="XMLS"></a>**[XMLS]**  
+_XML Schema Part 0: Primer Second Edition_. W3C Recommendation 28 October 2004.  
+ [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)
+
+<a id="TURTLE"></a>**[TURTLE]**  
+Turtle - Terse RDF Triple Language  
+ [http://www.dajobe.org/2004/01/turtle/](http://www.dajobe.org/2004/01/turtle/)
+
+### Changes in this version
+
+- Revise for DCAM 2007-04-02: remove rich representations, introduce literal value surrogates, no-literal value surrogates
+
+ [RefreshCache](http://dublincore.org/architecturewiki/DCText?action=refresh&arena=Page.py&key=DCText.text_html) for this page (cached 2012-12-30 14:11:24)  
+
+Immutable page (last edited 2007-04-13 12:26:21 by [PeteJohnston](http://dublincore.org/architecturewiki/PeteJohnston))
+

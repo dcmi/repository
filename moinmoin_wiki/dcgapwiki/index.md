@@ -1,0 +1,262 @@
+---
+title: 
+date: '2017-09-01T16:21:09+01:00'
+description: 
+draft: false
+creators: []
+contributors: []
+publisher: 
+tags: []
+---
+
+<pre>
+======================================================================
+FrontPage
+
+-- WAS: <a href="/dcgapwiki/FrontPage">http://dublincore.org/dcgapwiki/FrontPage</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/FrontPage.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/FrontPage.html</a>
+
+-- WAS: <a href="/dcgapwiki/TitleIndex">http://dublincore.org/dcgapwiki/TitleIndex</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/TitleIndex.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/TitleIndex.html</a>
+
+-- WAS: <a href="/dcgapwiki/abstract">http://dublincore.org/dcgapwiki/abstract</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/abstract.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/abstract.html</a>
+
+-- WAS: <a href="/dcgapwiki/addressee">http://dublincore.org/dcgapwiki/addressee</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/addressee.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/addressee.html</a>
+
+-- WAS: <a href="/dcgapwiki/administrativeBody">http://dublincore.org/dcgapwiki/administrativeBody</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/administrativeBody.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/administrativeBody.html</a>
+
+-- WAS: <a href="/dcgapwiki/alternative">http://dublincore.org/dcgapwiki/alternative</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/alternative.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/alternative.html</a>
+
+-- WAS: <a href="/dcgapwiki/audience">http://dublincore.org/dcgapwiki/audience</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/audience.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/audience.html</a>
+
+-- WAS: <a href="/dcgapwiki/available">http://dublincore.org/dcgapwiki/available</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/available.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/available.html</a>
+
+-- WAS: <a href="/dcgapwiki/bibliographicCitation">http://dublincore.org/dcgapwiki/bibliographicCitation</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/bibliographicCitation.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/bibliographicCitation.html</a>
+
+-- WAS: <a href="/dcgapwiki/Box">http://dublincore.org/dcgapwiki/Box</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/Box.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/Box.html</a>
+
+-- WAS: <a href="/dcgapwiki/contact">http://dublincore.org/dcgapwiki/contact</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/contact.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/contact.html</a>
+
+-- WAS: <a href="/dcgapwiki/contributor">http://dublincore.org/dcgapwiki/contributor</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/contributor.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/contributor.html</a>
+
+-- WAS: <a href="/dcgapwiki/coverage">http://dublincore.org/dcgapwiki/coverage</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/coverage.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/coverage.html</a>
+
+-- WAS: <a href="/dcgapwiki/created">http://dublincore.org/dcgapwiki/created</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/created.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/created.html</a>
+
+-- WAS: <a href="/dcgapwiki/creator">http://dublincore.org/dcgapwiki/creator</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/creator.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/creator.html</a>
+
+-- WAS: <a href="/dcgapwiki/date">http://dublincore.org/dcgapwiki/date</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/date.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/date.html</a>
+
+-- WAS: <a href="/dcgapwiki/dateCaptured">http://dublincore.org/dcgapwiki/dateCaptured</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/dateCaptured.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/dateCaptured.html</a>
+
+-- WAS: <a href="/dcgapwiki/dateCopyrighted">http://dublincore.org/dcgapwiki/dateCopyrighted</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/dateCopyrighted.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/dateCopyrighted.html</a>
+
+-- WAS: <a href="/dcgapwiki/DCGAPPosition">http://dublincore.org/dcgapwiki/DCGAPPosition</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/DCGAPPosition.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/DCGAPPosition.html</a>
+
+-- WAS: <a href="/dcgapwiki/DCGAPScope">http://dublincore.org/dcgapwiki/DCGAPScope</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/DCGAPScope.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/DCGAPScope.html</a>
+
+-- WAS: <a href="/dcgapwiki/DCMIType">http://dublincore.org/dcgapwiki/DCMIType</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/DCMIType.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/DCMIType.html</a>
+
+-- WAS: <a href="/dcgapwiki/description">http://dublincore.org/dcgapwiki/description</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/description.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/description.html</a>
+
+-- WAS: <a href="/dcgapwiki/DOI">http://dublincore.org/dcgapwiki/DOI</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/DOI.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/DOI.html</a>
+
+-- WAS: <a href="/dcgapwiki/EditorialBoard">http://dublincore.org/dcgapwiki/EditorialBoard</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/EditorialBoard.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/EditorialBoard.html</a>
+
+-- WAS: <a href="/dcgapwiki/educationLevel">http://dublincore.org/dcgapwiki/educationLevel</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/educationLevel.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/educationLevel.html</a>
+
+-- WAS: <a href="/dcgapwiki/Elements">http://dublincore.org/dcgapwiki/Elements</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/Elements.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/Elements.html</a>
+
+-- WAS: <a href="/dcgapwiki/extent">http://dublincore.org/dcgapwiki/extent</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/extent.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/extent.html</a>
+
+-- WAS: <a href="/dcgapwiki/format">http://dublincore.org/dcgapwiki/format</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/format.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/format.html</a>
+
+-- WAS: <a href="/dcgapwiki/function">http://dublincore.org/dcgapwiki/function</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/function.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/function.html</a>
+
+-- WAS: <a href="/dcgapwiki/hasFormat">http://dublincore.org/dcgapwiki/hasFormat</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/hasFormat.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/hasFormat.html</a>
+
+-- WAS: <a href="/dcgapwiki/hasPart">http://dublincore.org/dcgapwiki/hasPart</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/hasPart.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/hasPart.html</a>
+
+-- WAS: <a href="/dcgapwiki/identifier">http://dublincore.org/dcgapwiki/identifier</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/identifier.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/identifier.html</a>
+
+-- WAS: <a href="/dcgapwiki/IMT">http://dublincore.org/dcgapwiki/IMT</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/IMT.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/IMT.html</a>
+
+-- WAS: <a href="/dcgapwiki/ISBN">http://dublincore.org/dcgapwiki/ISBN</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/ISBN.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/ISBN.html</a>
+
+-- WAS: <a href="/dcgapwiki/isFormatOf">http://dublincore.org/dcgapwiki/isFormatOf</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/isFormatOf.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/isFormatOf.html</a>
+
+-- WAS: <a href="/dcgapwiki/ISO3166">http://dublincore.org/dcgapwiki/ISO3166</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/ISO3166.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/ISO3166.html</a>
+
+-- WAS: <a href="/dcgapwiki/ISO639_2d2">http://dublincore.org/dcgapwiki/ISO639_2d2</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/ISO639_2d2.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/ISO639_2d2.html</a>
+
+-- WAS: <a href="/dcgapwiki/ISO8601">http://dublincore.org/dcgapwiki/ISO8601</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/ISO8601.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/ISO8601.html</a>
+
+-- WAS: <a href="/dcgapwiki/isPartOf">http://dublincore.org/dcgapwiki/isPartOf</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/isPartOf.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/isPartOf.html</a>
+
+-- WAS: <a href="/dcgapwiki/isReferencedBy">http://dublincore.org/dcgapwiki/isReferencedBy</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/isReferencedBy.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/isReferencedBy.html</a>
+
+-- WAS: <a href="/dcgapwiki/isReplacedBy">http://dublincore.org/dcgapwiki/isReplacedBy</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/isReplacedBy.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/isReplacedBy.html</a>
+
+-- WAS: <a href="/dcgapwiki/ISSN">http://dublincore.org/dcgapwiki/ISSN</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/ISSN.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/ISSN.html</a>
+
+-- WAS: <a href="/dcgapwiki/issued">http://dublincore.org/dcgapwiki/issued</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/issued.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/issued.html</a>
+
+-- WAS: <a href="/dcgapwiki/issue_20_2d_20Contact">http://dublincore.org/dcgapwiki/issue_20_2d_20Contact</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/issue_20_2d_20Contact.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/issue_20_2d_20Contact.html</a>
+
+-- WAS: <a href="/dcgapwiki/issue_20_2d_20creator">http://dublincore.org/dcgapwiki/issue_20_2d_20creator</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/issue_20_2d_20creator.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/issue_20_2d_20creator.html</a>
+
+-- WAS: <a href="/dcgapwiki/issue_20_2d_20date">http://dublincore.org/dcgapwiki/issue_20_2d_20date</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/issue_20_2d_20date.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/issue_20_2d_20date.html</a>
+
+-- WAS: <a href="/dcgapwiki/issue_20_2d_20relation">http://dublincore.org/dcgapwiki/issue_20_2d_20relation</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/issue_20_2d_20relation.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/issue_20_2d_20relation.html</a>
+
+-- WAS: <a href="/dcgapwiki/issue_20_2d_20Status">http://dublincore.org/dcgapwiki/issue_20_2d_20Status</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/issue_20_2d_20Status.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/issue_20_2d_20Status.html</a>
+
+-- WAS: <a href="/dcgapwiki/issue_20_2d_20subject">http://dublincore.org/dcgapwiki/issue_20_2d_20subject</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/issue_20_2d_20subject.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/issue_20_2d_20subject.html</a>
+
+-- WAS: <a href="/dcgapwiki/issue_20_2d_20Version">http://dublincore.org/dcgapwiki/issue_20_2d_20Version</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/issue_20_2d_20Version.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/issue_20_2d_20Version.html</a>
+
+-- WAS: <a href="/dcgapwiki/isVersionOf">http://dublincore.org/dcgapwiki/isVersionOf</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/isVersionOf.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/isVersionOf.html</a>
+
+-- WAS: <a href="/dcgapwiki/jurisdiction">http://dublincore.org/dcgapwiki/jurisdiction</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/jurisdiction.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/jurisdiction.html</a>
+
+-- WAS: <a href="/dcgapwiki/language">http://dublincore.org/dcgapwiki/language</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/language.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/language.html</a>
+
+-- WAS: <a href="/dcgapwiki/LindaHumphries">http://dublincore.org/dcgapwiki/LindaHumphries</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/LindaHumphries.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/LindaHumphries.html</a>
+
+-- WAS: <a href="/dcgapwiki/location">http://dublincore.org/dcgapwiki/location</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/location.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/location.html</a>
+
+-- WAS: <a href="/dcgapwiki/mandate">http://dublincore.org/dcgapwiki/mandate</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/mandate.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/mandate.html</a>
+
+-- WAS: <a href="/dcgapwiki/medium">http://dublincore.org/dcgapwiki/medium</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/medium.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/medium.html</a>
+
+-- WAS: <a href="/dcgapwiki/modified">http://dublincore.org/dcgapwiki/modified</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/modified.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/modified.html</a>
+
+-- WAS: <a href="/dcgapwiki/organisation">http://dublincore.org/dcgapwiki/organisation</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/organisation.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/organisation.html</a>
+
+-- WAS: <a href="/dcgapwiki/OWMS">http://dublincore.org/dcgapwiki/OWMS</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/OWMS.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/OWMS.html</a>
+
+-- WAS: <a href="/dcgapwiki/Period">http://dublincore.org/dcgapwiki/Period</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/Period.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/Period.html</a>
+
+-- WAS: <a href="/dcgapwiki/Point">http://dublincore.org/dcgapwiki/Point</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/Point.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/Point.html</a>
+
+-- WAS: <a href="/dcgapwiki/publisher">http://dublincore.org/dcgapwiki/publisher</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/publisher.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/publisher.html</a>
+
+-- WAS: <a href="/dcgapwiki/RecentChanges">http://dublincore.org/dcgapwiki/RecentChanges</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/RecentChanges.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/RecentChanges.html</a>
+
+-- WAS: <a href="/dcgapwiki/references">http://dublincore.org/dcgapwiki/references</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/references.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/references.html</a>
+
+-- WAS: <a href="/dcgapwiki/relation">http://dublincore.org/dcgapwiki/relation</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/relation.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/relation.html</a>
+
+-- WAS: <a href="/dcgapwiki/replaces">http://dublincore.org/dcgapwiki/replaces</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/replaces.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/replaces.html</a>
+
+-- WAS: <a href="/dcgapwiki/requires">http://dublincore.org/dcgapwiki/requires</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/requires.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/requires.html</a>
+
+-- WAS: <a href="/dcgapwiki/RFC3066">http://dublincore.org/dcgapwiki/RFC3066</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/RFC3066.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/RFC3066.html</a>
+
+-- WAS: <a href="/dcgapwiki/rights">http://dublincore.org/dcgapwiki/rights</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/rights.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/rights.html</a>
+
+-- WAS: <a href="/dcgapwiki/source">http://dublincore.org/dcgapwiki/source</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/source.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/source.html</a>
+
+-- WAS: <a href="/dcgapwiki/spatial">http://dublincore.org/dcgapwiki/spatial</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/spatial.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/spatial.html</a>
+
+-- WAS: <a href="/dcgapwiki/status">http://dublincore.org/dcgapwiki/status</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/status.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/status.html</a>
+
+-- WAS: <a href="/dcgapwiki/subject">http://dublincore.org/dcgapwiki/subject</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/subject.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/subject.html</a>
+
+-- WAS: <a href="/dcgapwiki/tableOfContents">http://dublincore.org/dcgapwiki/tableOfContents</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/tableOfContents.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/tableOfContents.html</a>
+
+-- WAS: <a href="/dcgapwiki/temporal">http://dublincore.org/dcgapwiki/temporal</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/temporal.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/temporal.html</a>
+
+-- WAS: <a href="/dcgapwiki/title">http://dublincore.org/dcgapwiki/title</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/title.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/title.html</a>
+
+-- WAS: <a href="/dcgapwiki/type">http://dublincore.org/dcgapwiki/type</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/type.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/type.html</a>
+
+-- WAS: <a href="/dcgapwiki/URI">http://dublincore.org/dcgapwiki/URI</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/URI.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/URI.html</a>
+
+-- WAS: <a href="/dcgapwiki/valid">http://dublincore.org/dcgapwiki/valid</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/valid.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/valid.html</a>
+
+-- WAS: <a href="/dcgapwiki/version">http://dublincore.org/dcgapwiki/version</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/version.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/version.html</a>
+
+-- WAS: <a href="/dcgapwiki/W3CDTF">http://dublincore.org/dcgapwiki/W3CDTF</a>
+    <a href="/moinmoin-wiki-archive/pages/dcgapwiki/W3CDTF.html">http://dublincore.org/moinmoin-wiki-archive/pages/dcgapwiki/W3CDTF.html</a>
+
+</pre>

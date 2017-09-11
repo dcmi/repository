@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><umlet_diagram><element><type>com.umlet.element.base.Class</type><coordinates><x>510</x><y>120</y><w>110</w><h>70</h></coordinates><panel_attributes>syntax
+encoding
+scheme
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><type>com.umlet.element.base.Class</type><coordinates><x>380</x><y>120</y><w>110</w><h>70</h></coordinates><panel_attributes>vocabulary
+encoding
+scheme
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>405</x><y>170</y><w>70</w><h>100</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n
+r2=member of</panel_attributes><additional_attributes>35;20;35;80</additional_attributes></element><element><type>com.umlet.element.base.Class</type><coordinates><x>380</x><y>250</y><w>110</w><h>30</h></coordinates><panel_attributes>resource
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>440</x><y>360</y><w>120</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>100;20;100;90;20;90</additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>560</x><y>310</y><w>119</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n
+r1=sub-class of</panel_attributes><additional_attributes>20;70;20;90;60;90;60;20;20;20;20;40</additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>405</x><y>260</y><w>145</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n
+r2=instance of</panel_attributes><additional_attributes>125;90;125;50;35;50;35;20</additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>540</x><y>170</y><w>40</w><h>200</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>20;180;20;20</additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>290</x><y>360</y><w>230</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n
+r1=has range</panel_attributes><additional_attributes>210;20;210;40;20;40;20;20</additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>290</x><y>310</y><w>230</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n
+r1=has domain</panel_attributes><additional_attributes>210;40;210;20;20;20;20;40</additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>140</x><y>310</y><w>140</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n
+r1=sub-property of</panel_attributes><additional_attributes>120;70;120;90;50;90;50;20;120;20;120;40</additional_attributes></element><element><type>com.umlet.element.base.Class</type><coordinates><x>480</x><y>350</y><w>110</w><h>30</h></coordinates><panel_attributes>class
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><type>com.umlet.element.base.Relation</type><coordinates><x>270</x><y>360</y><w>110</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>20;20;20;90;90;90</additional_attributes></element><element><type>com.umlet.element.base.Class</type><coordinates><x>360</x><y>440</y><w>100</w><h>30</h></coordinates><panel_attributes>semantics
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><type>com.umlet.element.base.Class</type><coordinates><x>230</x><y>350</y><w>100</w><h>30</h></coordinates><panel_attributes>property
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element></umlet_diagram>

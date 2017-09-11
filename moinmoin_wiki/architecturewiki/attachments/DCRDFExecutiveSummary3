@@ -1,0 +1,130 @@
+= Dublin Core metadata in RDF: implications of new guidelines for
+legacy implementations =
+
+Since 1997, the "Dublin Core data model" has evolved in a
+process of mutual influence with W3C's Resource Description
+Framework (RDF). This process has resulted in the DCMI Abstract
+Model, which was published in 2005 as a DCMI Recommendation
+([http://dublincore.org/documents/abstract-model/
+(1)].  The DCMI Abstract Model now provides a reference
+model against which particular DC encoding guidelines
+([http://dublincore.org/resources/expressions/ (2)]) can
+be compared.
+
+DCMI currently has two specifications for expressing
+Dublin Core metadata in RDF.  The first, "Expressing Simple
+Dublin Core in RDF/XML", or "DC-Simple-in-RDF" for short
+([http://dublincore.org/documents/dcmes-xml/ (3)]) became
+a DCMI Recommendation in 2002.  The second, "Expressing
+Qualified Dublin Core in RDF/XML", or "DC-Qualified-in-RDF"
+([http://dublincore.org/documents/dcq-rdf-xml/ (4)]), has been
+a DCMI Proposed Recommendation since 2002.
+
+Under the editorship of Mikael Nilsson, the RDF Task Force
+of the DCMI Architecture Working Group is currently drafting
+a document which is intended to replace these two legacy
+specifications with a single consolidated and updated
+DCMI Recommendation for expressing Dublin Core in RDF
+([http://dublincore.org/architecturewiki/DCRDFGuidelines
+(5)]).  
+
+This process has important implications for how
+DCMI "defines" its metadata terms.  DCMI metadata
+terms have hitherto been defined entirely in natural
+language; the RDF expression of the DCMI term set (e.g.,
+[http://dublincore.org/2003/03/24/dces#title (6)]) served
+essentially to convey these English-language definitions in a
+form ingestable by RDF applications.  As part of the process
+of clarifying the RDF expression for Dublin Core metadata,
+the RDF Task Force has recommended that DCMI supplement these
+English-language definitions with machine-understandable
+definitions of the "domain" and "range" of DCMI metadata terms
+([http://dublincore.org/architecturewiki/DCPropertyDomainsRanges
+(5)]).  Such additional, machine-understandable precision
+is necessary as Dublin Core is deployed in the context of
+inference engines and ontology-based solutions.
+
+For most DCMI metadata terms, the process of clarifying
+domains and ranges machine-understandably is straightforward
+and unambiguous.  However, one problem with regard to legacy
+metadata usage is serious enough to bear closer consideration.
+In the early years, the Dublin Core community distinguished
+between Simple and Qualified Dublin Core -- a distinction which
+was reflected in the difference between the specifications
+"DC-Simple-in-RDF" and the "DC-Qualified-in-RDF".  
+
+The two legacy specifications differ with regard to whether a
+dc:creator or dc:contributor is a person (i.e., an entity), or
+a name (i.e., a string).  In "DC-Simple-in-RDF", a dc:creator
+is a name:
+
+{{{
+<http://www.example.com>   dc:creator  "John Smith".
+}}}
+
+In "DC-Qualified-in-RDF", in contrast, a dc:creator is
+an entity, as in:
+
+{{{
+<http://www.example.com>   dc:creator  <http://www.example.org/person32>
+}}}
+
+or
+{{{ 
+<http://www.example.com>   dc:creator         _:xxx.
+_:xxx                      rdf:type           foaf:Person
+_:xxx                      dcrdf:valueString  "John Smith"
+}}}
+
+These two contrasting approaches may be pictured as follows:
+
+||<:> attachment:figure1.gif ||<:> attachment:figure2.gif ||
+||<:> Figure 1 ||<:> Figure 2 ||
+
+The current draft DC-in-RDF specification under development
+follows the latter approach -- dc:creator refers to an entity
+which can be identified (e.g., in an authority file) and
+described in its own right (e.g., with a name, an affiliation,
+and a birth date).  The English-language definitions of
+these terms bear out this interpretation; dc:creator is
+"an entity primarily responsible for making the content of
+the resource", examples being "a person, an organization,
+or a service".  However, the usage comments associated with
+these definitions also reflect the ambiguity: "Typically,
+the name of a Creator should be used to indicate the entity".
+
+In accordance with the current approach, the DCMI Usage
+Board would assign a range of "Agent" to dc:creator and
+dc:contributor, where "Agent" would be defined as "the class
+of all things that are a Person, Organization, or Service".
+The range "Literal" would be reserved for metadata terms which
+are typically associated with value strings, such as dc:title.
+In most cases, the ranges to be defined are reasonably obvious
+given usage patterns in practice.
+
+Due to the ambiguous usage of dc:creator and dc:contributor
+over the years, however, the assignment of any range is
+bound to make one or another part of the legacy metadata
+appear invalid in the context of machine processing.
+Declaring "Agent" as the range of dc:creator will mean that
+inferencing applications will expect to treat dc:creator as
+an entity.  Where metadata represents names as literal values
+for dc:creator, applications will need to treat these as
+"special cases" in order to merge them with metadata which
+associate those names with the expected entity constructs.
+
+The existing specifications from the DCMI have not taken these
+applications into account, which has resulted in an unknown
+amount of Dublin Core-based RDF data that is inconsistent
+with the definitions of the Dublin Core properties. The DC-RDF
+taskforce has judged that the mentioned changes are necessary,
+albeit painful, to ensure the long-term viability of Dublin
+Core in RDF.
+
+== References ==
+
+ 1.   [http://dublincore.org/documents/dcmes-xml/ Expressing Simple Dublin Core in RDF/XML], DCMI Recommendation, 2002-07-31
+ 1.   [http://dublincore.org/documents/dcq-rdf-xml/ Expressing Qualified Dublin Core in RDF / XML], DCMI Proposed Recommandation, 2002-05-15
+ 1.   [http://dublincore.org/architecturewiki/DCRDFGuidelines Expressing Dublin Core Metadata in RDF], Working Draft
+ 1.   [http://dublincore.org/architecturewiki/DCRDFTaskforce/DCRDFReleasenotes Release Notes] for above draft.
+

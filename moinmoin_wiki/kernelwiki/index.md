@@ -1,0 +1,97 @@
+---
+title: 
+date: '2017-09-01T16:21:09+01:00'
+description: 
+draft: false
+creators: []
+contributors: []
+publisher: 
+tags: []
+---
+
+<pre>
+======================================================================
+FrontPage
+
+-- WAS: <a href="/kernelwiki/FrontPage">http://dublincore.org/kernelwiki/FrontPage</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/FrontPage.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/FrontPage.html</a>
+
+-- WAS: <a href="/kernelwiki/KernelApplicationProfileDraft">http://dublincore.org/kernelwiki/KernelApplicationProfileDraft</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/KernelApplicationProfileDraft.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/KernelApplicationProfileDraft.html</a>
+
+-- WAS: <a href="/kernelwiki/KernelApplicationProfileDraft01">http://dublincore.org/kernelwiki/KernelApplicationProfileDraft01</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/KernelApplicationProfileDraft01.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/KernelApplicationProfileDraft01.html</a>
+
+-- WAS: <a href="/kernelwiki/MeetingAgendaAndNotes">http://dublincore.org/kernelwiki/MeetingAgendaAndNotes</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotes.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotes.html</a>
+
+-- WAS: <a href="/kernelwiki/MeetingAgendaAndNotesApr08">http://dublincore.org/kernelwiki/MeetingAgendaAndNotesApr08</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesApr08.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesApr08.html</a>
+
+-- WAS: <a href="/kernelwiki/MeetingAgendaAndNotesApr30">http://dublincore.org/kernelwiki/MeetingAgendaAndNotesApr30</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesApr30.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesApr30.html</a>
+
+-- WAS: <a href="/kernelwiki/MeetingAgendaAndNotesAug06">http://dublincore.org/kernelwiki/MeetingAgendaAndNotesAug06</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesAug06.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesAug06.html</a>
+
+-- WAS: <a href="/kernelwiki/MeetingAgendaAndNotesDec12">http://dublincore.org/kernelwiki/MeetingAgendaAndNotesDec12</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesDec12.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesDec12.html</a>
+
+-- WAS: <a href="/kernelwiki/MeetingAgendaAndNotesJan28">http://dublincore.org/kernelwiki/MeetingAgendaAndNotesJan28</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesJan28.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesJan28.html</a>
+
+-- WAS: <a href="/kernelwiki/MeetingAgendaAndNotesJul09">http://dublincore.org/kernelwiki/MeetingAgendaAndNotesJul09</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesJul09.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesJul09.html</a>
+
+-- WAS: <a href="/kernelwiki/MeetingAgendaAndNotesMar26">http://dublincore.org/kernelwiki/MeetingAgendaAndNotesMar26</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesMar26.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesMar26.html</a>
+
+-- WAS: <a href="/kernelwiki/MeetingAgendaAndNotesMay13">http://dublincore.org/kernelwiki/MeetingAgendaAndNotesMay13</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesMay13.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesMay13.html</a>
+
+-- WAS: <a href="/kernelwiki/MeetingAgendaAndNotesNov29">http://dublincore.org/kernelwiki/MeetingAgendaAndNotesNov29</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesNov29.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesNov29.html</a>
+
+-- WAS: <a href="/kernelwiki/MeetingAgendaAndNotesOct25">http://dublincore.org/kernelwiki/MeetingAgendaAndNotesOct25</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesOct25.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesOct25.html</a>
+
+-- WAS: <a href="/kernelwiki/MeetingAgendaAndNotesSep03">http://dublincore.org/kernelwiki/MeetingAgendaAndNotesSep03</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesSep03.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesSep03.html</a>
+
+-- WAS: <a href="/kernelwiki/MeetingAgendaAndNotesSep20">http://dublincore.org/kernelwiki/MeetingAgendaAndNotesSep20</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesSep20.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesSep20.html</a>
+
+-- WAS: <a href="/kernelwiki/MeetingAgendaAndNotesSep24">http://dublincore.org/kernelwiki/MeetingAgendaAndNotesSep24</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesSep24.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/MeetingAgendaAndNotesSep24.html</a>
+
+-- WAS: <a href="/kernelwiki/TitleIndex">http://dublincore.org/kernelwiki/TitleIndex</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/TitleIndex.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/TitleIndex.html</a>
+
+-- WAS: <a href="/kernelwiki/WorkPlan">http://dublincore.org/kernelwiki/WorkPlan</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/pages/WorkPlan.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/pages/WorkPlan.html</a>
+
+======================================================================
+Attachments
+
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/erc-1_2-1_3-diffs.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/erc-1_2-1_3-diffs.html</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/ercspec.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/ercspec.html</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/ercspec1_3.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/ercspec1_3.html</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/JMason-circle.pdf">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/JMason-circle.pdf</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/KapDraft001.ksh">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/KapDraft001.ksh</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/Kernel1_1.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/Kernel1_1.html</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/KernelMapXwalk-2.htm">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/KernelMapXwalk-2.htm</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/KernelMapXwalk.htm">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/KernelMapXwalk.htm</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCApplicationProfile1-1.htm">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCApplicationProfile1-1.htm</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCApplicationProfile1.htm">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCApplicationProfile1.htm</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCApplicationProfile1_1.htm">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCApplicationProfile1_1.htm</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCApplicationProfiles1_1.htm">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCApplicationProfiles1_1.htm</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCApplicationProfiles1_3.htm">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCApplicationProfiles1_3.htm</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCApplicationProfiles1_4a.htm">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCApplicationProfiles1_4a.htm</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCAppProfile.htm">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCAppProfile.htm</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCAppProfile1.htm">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCAppProfile1.htm</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCAppProfile_v1.htm">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/KernelMetadataERCAppProfile_v1.htm</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/KernelSpec00.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/KernelSpec00.html</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/KernelSpecDraft2.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/KernelSpecDraft2.html</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/kernelTurtle.html">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/kernelTurtle.html</a>
+    <a href="/moinmoin-wiki-archive/kernelwiki/attachments/kernelWG-2007.ppt.pdf">http://dublincore.org/moinmoin-wiki-archive/kernelwiki/attachments/kernelWG-2007.ppt.pdf</a>
+</pre>

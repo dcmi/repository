@@ -1,0 +1,13 @@
+svn add ./index.html
+svn add ./accessibilitywiki/index.html
+svn add ./architecturewiki/index.html
+svn add ./collectionwiki/index.html
+svn add ./datewiki/index.html
+svn add ./dcgapwiki/index.html
+svn add ./dcmirdataskgroup/index.html
+svn add ./educationwiki/index.html
+svn add ./identifierswiki/index.html
+svn add ./kernelwiki/index.html
+svn add ./librarieswiki/index.html
+svn add ./taggingwiki/index.html
+svn add ./usageboardwiki/index.html

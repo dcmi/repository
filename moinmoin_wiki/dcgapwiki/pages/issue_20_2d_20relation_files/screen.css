@@ -1,0 +1,325 @@
+/*  screen.css - MoinMoin Default Styles
+
+    Copyright (c) 2001, 2002, 2003 by Jürgen Hermann
+*/
+
+/* content styles */
+
+body {
+	margin:0;
+	padding:0;
+    font: 11px "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+    background: White;
+    color: Black;
+}
+
+h2, h3, h4, h5, h6 {
+	background-color: #DDDDDD;
+	color: black;
+	padding-left: 5px;
+	border-left: 2px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+}	
+
+h1 a{
+text-decoration: none;
+}
+
+a:link {
+	background-color: inherit;
+	color: maroon;
+}
+
+a:visited {
+	background-color: inherit;
+	color: maroon;
+}
+
+a:hover {
+	background-color: inherit;
+	color: red;
+}
+
+a.nonexistent, a.badinterwiki {
+	background-color: inherit;
+	color: #404040;
+}
+
+pre {
+	border: 1px solid #CBCBCB;
+	background-color: #FFF8ED;
+	color: black;
+}
+
+hr {
+	clear: both;
+	border-style: none;
+	background-color: #CBCBCB;
+	color: #CBCBCB;
+}
+
+td {
+	border: 1px solid #EEEEEE;
+}
+
+.footnotes div {
+	width: 5em;
+	border-top: 1px solid #CBCBCB;
+}
+
+/* user interface styles */
+
+#logo {
+	float: left;
+	margin: 0 .5em;
+}
+
+#content {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 225px;
+	margin-bottom: 20px;
+}
+
+#title {
+	background: #EEEEEE;
+	border-bottom: 1px solid #AAAAAA;
+        padding-top:10px;
+        padding-bottom:10px;
+}
+
+#title h1 {
+	margin: 0;
+	margin-left: 10px;
+	font-size: 160%;
+}
+
+#banner {
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background: #000000;
+}
+
+#search {
+	text-align: center;
+}
+
+#bannertext {
+	margin: 0;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+	letter-spacing: 3px;
+        text-align: left;
+        font-size: 16px;
+        font-family: Verdana;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#desctext {
+	margin: 0;
+	margin-left: 12px;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	text-align: left;
+	font-size: 12px;
+	font-family: Verdana;
+	font-style: italic;
+}
+
+*[dir="rtl"] #logo {
+	float: right;
+}
+
+#sidebar {
+	display: block;
+    background-color: tan;
+    border-left: 1px dotted #000000;
+	border-bottom: 1px dotted #000000;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 210px;	
+	font-size: x-small;
+}
+
+.sidetitle {
+    background-color: #fff;
+    border: 1px dotted #9c9;
+    color: #242C23;
+    font-size: x-small;
+    font-weight: bold;
+    padding: 2px;
+    margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+    letter-spacing: .3em;
+    text-align:center;		  					
+	font-family: Verdana;
+}		
+
+.user {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#username {
+	text-align: right;
+}
+
+*[dir="rtl"] #username {
+	float: left;
+}
+
+*[dir="rtl"] #navibar {
+	clear: right;
+}
+
+*[dir="rtl"] #pagetrail {
+	clear: right;
+}
+
+ul {
+    line-height: 1.5em;
+    list-style-type: square;
+    margin: 0.5em 0em 1.5em 4em;
+    padding:0;
+}
+
+li {
+margin-bottom: 0.25em;
+}
+
+*[dir="rtl"] #pagetrail li:before {
+	content: " «";
+}
+
+*[dir="rtl"] #iconbar {
+	float: left;
+	text-align: left;
+}
+
+#message, #footer {
+	clear: both;
+	background-color: #E5E5E5;
+	margin-left: 10px;
+	margin-right: 225px;
+	color: black;
+}
+
+#footer p {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px; 
+}
+
+#footer {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: 1px dotted #000000;
+}
+
+#credits {
+	float: right;
+	text-align: right;
+	max-width: 30%;
+}
+
+*[dir="rtl"] #credits {
+	float: left;
+	text-align: left;
+}
+
+#timings {
+	padding: 0;
+	font-size: 0.8em;
+}
+
+#timings li {
+	display: inline;
+	background-color: #E5E5E5;
+	color: black;
+}
+
+#preview {
+	border: 2px solid #CBCBCB;
+	padding: .5em;
+	background: url(../img/draft.png);
+}
+
+.recentchanges table {
+	width: 100%;
+}
+
+#pageinfo td, .recentchanges td {
+	padding: 0 .3em;
+}
+
+.rcdaybreak td {
+	background-color: #CCCCFF;
+	padding: .2em;
+}
+
+.rcicon1, .rcicon2 {
+	text-align: center;
+}
+
+.rcpagelink {
+	width: 33%;
+}
+
+.rctime {
+	font-size: .9em;
+	color: #4D4D4D;
+}
+
+.rceditor {
+	color: green;
+}
+
+.rccomment {
+	color: red;
+	width: 66%;
+}
+
+.rcrss {
+	float: right;
+}
+
+.recentchanges[dir="rtl"] .rcrss {
+	float: left;
+}
+
+.diff {
+        width:99%;
+}
+    
+.diff-title {
+	background-color: #C0C0C0;
+}
+
+.diff-added {
+	background-color: #E0FFE0;
+	vertical-align: sub;
+}
+
+.diff-removed {
+	background-color: #FFFFE0;
+	vertical-align: sub;
+}
+
+.diff-added span {
+	background-color: #80FF80;
+}
+
+.diff-removed span {
+	background-color: #FFFF80;
+}
+
+.searchresult dd span {
+	font-weight: bold;
+}

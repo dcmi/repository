@@ -1,0 +1,65 @@
+= DCMI Architecture Forum - past work (reverse-chronological) =
+
+=== 2007 April: revision of DCMI Abstract Model ===
+
+ * Public Comment April 2007
+   * [wiki:Self:DCRDFApril2007Changes Changes in the April 2007 version]
+   * [wiki:Self:AMIssues Issues with (and suggested changes to) the 2005 version of the DCMI Abstract Model].
+   * [wiki:Self:AMDraftUpdate DRAFT UPDATE to the 2005 version of the DCMI Abstract Model].
+   * [wiki:Self:DumbDownNotes A note about dumb-down].
+ * Background material
+   * [attachment:DCRDFTaskforce/dcPropertiesRanges.xls.htm Swoogle stats]
+
+=== 2007 March: DC-RDF Task Force closed (opened November 2005) ===
+
+ * [wiki:Self:DCRDFTaskforce DC-RDF Taskforce]
+
+=== 2006 October: DC Architecture session presentations ===
+
+ * Andy Powell - Introduction, review of progress (DC-XML, DC-RDF, DCAM), relationship to Usage Board work, roadmap for future activity [http://dc2006.ucol.mx/papers/16.00/dc-arch-meeting.ppt Powerpoint]
+ * Pete Johnston - DCMI Abstract Model issues, proposed changes [http://dc2006.ucol.mx/papers/16.00/dc-arch-meeting.ppt Powerpoint]
+
+=== 2006 June: DC-RDF Public Comment ===
+ 
+ * Public Comment June 2006
+   * [http://dublincore.org/documents/2006/05/29/dc-rdf/ Expressing Dublin Core metadata using the Resource Description Framework (RDF)] - DC-RDF 2006-05-29: the version that went out for public comment.
+   * Some Notes on DCMI specifications for Dublin Core metadata in RDF, http://dublincore.org/documents/2006/05/29/dc-rdf-notes/
+   * [wiki:Self:DCRDFTaskforce/PublicCommentJune2006 Report from public comment period on Dublin Core RDF expression].
+ * Background material for June 2006 version
+   * [wiki:Self:RDFValueStringsClarification Clarification of the recommendations for encoding 'value strings' in DC RDF/XML]
+   * [wiki:Self:DCRDFGuidelines Guidelines for encoding DC metadata using the RDF Model] -- first draft of new DC-RDF
+   * [wiki:Self:DCRDFTaskforce/DCRDFRoadmap Roadmap] for the updates to the set of DCMI documents affected
+   * [wiki:Self:DCRDFTaskforce/DCRDFReleasenotes Release notes] to go with the DC RDF Encoding public comments release
+   * [wiki:Self:DCRDFTaskforce/DCRDFExecutiveSummary Executive Summary], [wiki:Self:DCRDFTaskforce/DCRDFExecutiveSummary2 2], [wiki:Self:DCRDFTaskforce/DCRDFExecutiveSummary3 3] of the most important changes.
+   * [wiki:Self:DCRDFTaskforce/DCRDFIssues Issues] in the June 2006 draft
+ * Other links
+   * [http://www.ukoln.ac.uk/metadata/dcmi/rdf-values/ Modelling DC values as resources in RDF - a discussion paper]
+
+=== 2006 April: Note based on a proposed Adaptability profile ===
+
+    * [wiki:Self:AdaptabilityApplicationProfile Example description based on the proposed Adaptability Application Profile]
+
+=== 2006 March: Telecons and meetings ===
+
+   * Friday, 10 March 2006 (video conf) [wiki:Self:DCRDFTaskforce/Minutes20060310 Minutes]
+   * Monday, 22 Aug 2005 (conference call) [wiki:Self:DCRDFTaskforce/Minutes20050822 Minutes]
+   * Monday, 5 Sept 2005 (conference call)
+   * Monday, 12 Sept 2005 (face to face) 17.30 - 19.00, Seminar Room 4.1.E01, Madrid (DCMI Conference) [attachment:DCRDFTaskforce/dc-arch-meeting.ppt Slides for the DC Architecture meeting]
+
+=== 2006 February: Links DC descriptions to ODRL expressions ===
+
+ * [wiki:Self:LinkingDCDescriptionsToODRLExpressions Embedding licence URIs in Dublin Core descriptions]
+
+=== 2005 October: DC Architecture session presentations, DC-2005, Madrid ===
+
+ * Andy Powell - Introduction, namespace policy, XML guidelines, workplan for next year: [http://dublincore.org/architecturewiki/DCRDFTaskforce?action=AttachFile&do=get&target=dc-arch-meeting.ppt Powerpoint]
+ * Pete Johnston - XML and the DCMI Abstract Model: [http://www.ukoln.ac.uk/metadata/dcmi/dc-xml-issues/ Paper (HTML)] [http://www.ukoln.ac.uk/metadata/dcmi/dc2005/dc-xml/dc-xml.ppt Presentation (Powerpoint)] [http://www.ukoln.ac.uk/metadata/dcmi/dc2005/dc-xml/ Presentation (HTML)]
+
+=== 2004 October: DC Architecture session presentations, DC-2004, Shanghai ===
+
+    * Andy Powell - Introduction, Abstract Model, RDF Issues, report: [http://www.ukoln.ac.uk/metadata/dcmi/dc2004/archwg/archwg.ppt Powerpoint] [http://www.ukoln.ac.uk/metadata/dcmi/dc2004/archwg/archwg.htm HTML]
+    * Pete Johnston - XML Schema: [http://www.ukoln.ac.uk/metadata/dcmi/dc2004/xmlschema/xmlschema.ppt Powerpoint] [http://www.ukoln.ac.uk/metadata/dcmi/dc2004/xmlschema/ HTML]
+    * Tom Baker - Identifiers for Historical Versions of Metadata Terms: [http://www.bi.fhg.de/People/Thomas.Baker/Architecture.ppt Powerpoint]
+
+[http://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind0410&L=dc-architecture&T=0&F=&S=&P=4565 Meeting report].
+
