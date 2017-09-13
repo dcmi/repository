@@ -33,9 +33,9 @@ This page has been accessed 37,423 times.
 
 * * *
 <dl>
-<dd> ► <i>Boards &amp; Executive:</i> <a href="/archive/mediawiki_wiki/DCMI_Governing_Board" title="DCMI Governing Board">Governing Board</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Usage_Board" title="DCMI Usage Board" class="mw-redirect">Usage Board</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board" title="DCMI Advisory Board">Advisory Board</a> ◘ <a href="/archive/mediawiki_wiki/Exec_Committee" title="Exec Committee">Executive Committee</a>
+<dd> ► <i>Boards &amp; Executive:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> ◘ <a href="/mediawiki_wiki/DCMI_Usage_Board.md" title="DCMI Usage Board" class="mw-redirect">Usage Board</a> ◘ <a href="/mediawiki_wiki/DCMI_Advisory_Board.md" title="DCMI Advisory Board">Advisory Board</a> ◘ <a href="/mediawiki_wiki/Exec_Committee.md" title="Exec Committee">Executive Committee</a>
 </dd>
-<dd> ► <i>DCMI Handbook:</i> <a href="/archive/mediawiki_wiki/DCMI_Handbook" title="DCMI Handbook">Processes &amp; Procedures</a>
+<dd> ► <i>DCMI Handbook:</i> <a href="/mediawiki_wiki/DCMI_Handbook.md" title="DCMI Handbook">Processes &amp; Procedures</a>
 </dd>
 </dl>
 

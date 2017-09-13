@@ -21,10 +21,10 @@ Date: 2012-01-04 Wednesday, 0900 EST
 Expected: Tom Baker (chair), Richard Urban, Jane Greenberg, Kai Eckert, Michael Panzer
 Dial-in: +1-218-936-4141, access code 334034
 IRC: <a href="irc://irc.freenode.net/#dcmi" class="external free" rel="nofollow">irc://irc.freenode.net/#dcmi</a>.
-Wiki: <a href="/archive/mediawiki_wiki/DCAM_Revision" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
+Wiki: <a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
 Mail: <a href="http://www.jiscmail.ac.uk/lists/dc-architecture.html" class="external free" rel="nofollow">http://www.jiscmail.ac.uk/lists/dc-architecture.html</a>
-This call: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120104" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120104</a>
-           <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104</a> [*]
+This call: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120104.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120104</a>
+           <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104</a> [*]
 
 Note: This is intended as a small call among editors of the revised DCAM to
 discuss how to divide up the work. Others interested in taking on _editorial_
@@ -60,7 +60,7 @@ Sources
 Process
 
 -- Starting point 
-   <a href="/archive/mediawiki_wiki/DCAM_Revision_Draft" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Draft</a>
+   <a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Draft</a>
 
    1. Structure of document
       User-oriented section versus technical section

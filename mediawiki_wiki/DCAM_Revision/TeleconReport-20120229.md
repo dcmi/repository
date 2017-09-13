@@ -18,9 +18,9 @@ This page has been accessed 126,980 times.
 <pre>2012-02-29 DCAM call - 11:00 EST - report
 
 Present: TomB, JonP, StuartS, DianeH, RichardU, Michaelp, GordonD, DanielL (IRC), CoreyH
-This report: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120229" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120229</a>
-Agenda: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120229" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120229</a>
-Previous: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120115" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120115</a>
+This report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120229.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120229</a>
+Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120229.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120229</a>
+Previous: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120115.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120115</a>
  
 Richard: Each of the encoding technologies we may want to use have different
     abilities. Some things are easier, some are harder, to express. Defining
@@ -192,15 +192,15 @@ Jon: Once we start sharing metadata, then both of us need to be able to apply
 Tom: Carrying forward the ACTION from Kai, who could not be here today:
 
         ACTION: Kai and Tom to work on technical part in wiki, e.g.:
-            <a href="/archive/mediawiki_wiki/DCAM_Revision_Tech" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Tech</a>
-            <a href="/archive/mediawiki_wiki/DCAM_Revision" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
-            <a href="/archive/mediawiki_wiki/DCAM_Revision_Scratchpad" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
-            <a href="/archive/mediawiki_wiki/DCAM_Revision_Graphics" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Graphics</a>
+            <a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Tech</a>
+            <a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
+            <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
+            <a href="/mediawiki_wiki/DCAM_Revision_Graphics.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Graphics</a>
 
     What about the ongoing action on Richard?
         
         ACTION: Tom and Richard to put placeholder for introductory text into wiki document
-            at <a href="/archive/mediawiki_wiki/DCAM_Revision_Draft" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Draft</a>.
+            at <a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Draft</a>.
 
 Richard: In order to write an introduction, we need a bit more consensus. We
 need a better tie-in with Interoperability Levels.

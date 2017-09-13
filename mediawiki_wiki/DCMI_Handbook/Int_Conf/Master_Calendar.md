@@ -50,7 +50,7 @@ Return to [International Conference](/archive/mediawiki_wiki/DCMI_Handbook/Int_C
       Meeting</td>
     <td>
       <ul>
-        <li>EXPLORATORY TEAM appointed by <a href="/archive/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Steering_Committee" title="DCMI Handbook/Conference Guidelines/Steering Committee">STEERING COMMITTEE</a>.</li>
+        <li>EXPLORATORY TEAM appointed by <a href="/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Steering_Committee.md" title="DCMI Handbook/Conference Guidelines/Steering Committee">STEERING COMMITTEE</a>.</li>
       </ul>
     </td>
   </tr>

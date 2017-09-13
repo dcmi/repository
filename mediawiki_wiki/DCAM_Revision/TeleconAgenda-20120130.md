@@ -23,29 +23,29 @@ Expected: Tom Baker (chair), Mark Matienzo, Corey Harper, Jane Greenberg,
 Doodle poll <a href="http://www.doodle.com/ztvxspfpqrei6faa" class="external free" rel="nofollow">http://www.doodle.com/ztvxspfpqrei6faa</a>
 Dial-in: +1-218-936-4141, access code 334034
 IRC: <a href="irc://irc.freenode.net/#dcmi" class="external free" rel="nofollow">irc://irc.freenode.net/#dcmi</a>.
-Wiki: <a href="/archive/mediawiki_wiki/DCAM_Revision" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
-            <a href="/archive/mediawiki_wiki/DCAM_Revision_Draft" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Draft</a> - placeholder for draft
-            <a href="/archive/mediawiki_wiki/DCAM_Revision_Graphics" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Graphics</a>
-            <a href="/archive/mediawiki_wiki/DCAM_Revision_Scratchpad" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
-            <a href="/archive/mediawiki_wiki/DCAM_Revision_Tech" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Tech</a>
+Wiki: <a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
+            <a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Draft</a> - placeholder for draft
+            <a href="/mediawiki_wiki/DCAM_Revision_Graphics.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Graphics</a>
+            <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
+            <a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Tech</a>
 Mail: <a href="http://www.jiscmail.ac.uk/lists/dc-architecture.html" class="external free" rel="nofollow">http://www.jiscmail.ac.uk/lists/dc-architecture.html</a>
-This call: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120130" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120130</a>
-            <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130</a> [*]
+This call: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120130.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120130</a>
+            <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130</a> [*]
 
 ----------------------------------------------------------------------
 Previous calls
 
-2012-01-04 <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104</a>
-2011-12-21 <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221</a>
+2012-01-04 <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104</a>
+2011-12-21 <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221</a>
 
 ACTION: Tom and Richard to put placeholder for introductory text into wiki document
-at <a href="/archive/mediawiki_wiki/DCAM_Revision_Draft" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Draft</a>.
+at <a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Draft</a>.
 
 ACTION: Kai and Tom to work on technical part in wiki, e.g.:
-    <a href="/archive/mediawiki_wiki/DCAM_Revision_Tech" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Tech</a>
-    <a href="/archive/mediawiki_wiki/DCAM_Revision" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
-    <a href="/archive/mediawiki_wiki/DCAM_Revision_Scratchpad" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
-    <a href="/archive/mediawiki_wiki/DCAM_Revision_Graphics" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Graphics</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Tech</a>
+    <a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Graphics.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Graphics</a>
 
 ======================================================================
 Links

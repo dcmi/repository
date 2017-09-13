@@ -74,32 +74,32 @@ Return to [Learning Linked Data Main Page](/archive/mediawiki_wiki/Learning_Link
 <dd>Let's all review what we actually proposed to do in the grant (and in this key workshop).
 </dd>
 <dt>
-<a href="/archive/mediawiki_wiki/Learning_Linked_Data_Inventory" title="Learning Linked Data Inventory">"Inventory of Learning Objectives"</a>
+<a href="/mediawiki_wiki/Learning_Linked_Data_Inventory.md" title="Learning Linked Data Inventory">"Inventory of Learning Objectives"</a>
 </dt>
 <dd>Topics and skills related to Linked Data, the learning of which would be supported by the tool platform proposed in a deliverable of the Learning Linked Data Project (topics such as "vocabulary", "application design", and "visualization"). This document will be the focus of our discussion.
 </dd>
 <dt>
-<a href="/archive/mediawiki_wiki/Learning_Linked_Data_Prerequisites" title="Learning Linked Data Prerequisites">"Prerequisites for learning Linked Data"</a>
+<a href="/mediawiki_wiki/Learning_Linked_Data_Prerequisites.md" title="Learning Linked Data Prerequisites">"Prerequisites for learning Linked Data"</a>
 </dt>
 <dd>Prerequisites for the study of the topics and skills listed in the Inventory of Learning Objectives -- things outside the scope of learning Linked Data per se, but required before undertaking its study.
 </dd>
 <dt>
-<a href="/archive/mediawiki_wiki/Learning_Linked_Data_Tasks" title="Learning Linked Data Tasks">"Task Objectives for Linked Data learners"</a>
+<a href="/mediawiki_wiki/Learning_Linked_Data_Tasks.md" title="Learning Linked Data Tasks">"Task Objectives for Linked Data learners"</a>
 </dt>
 <dd>Practical tasks enabled by learning things listed in the Inventory of Learning Objectives (tasks such as "designing a metadata project", "defining vocabularies", and "creating databases".
 </dd>
 <dt>
-<a href="/archive/mediawiki_wiki/Learning_Linked_Data_Personas" title="Learning Linked Data Personas">"Personas: Types of LD Learning Platform users"</a>
+<a href="/mediawiki_wiki/Learning_Linked_Data_Personas.md" title="Learning Linked Data Personas">"Personas: Types of LD Learning Platform users"</a>
 </dt>
 <dd>Types of audience to whom different learning objectives may be relevant: "librarians", "faculty members", "students of knowledge organization", "students of programming"...
 </dd>
 <dt>
-<a href="/archive/mediawiki_wiki/Learning_Linked_Data_Tools" title="Learning Linked Data Tools">"Tools potentially usable in the LD Learning Platform"</a>
+<a href="/mediawiki_wiki/Learning_Linked_Data_Tools.md" title="Learning Linked Data Tools">"Tools potentially usable in the LD Learning Platform"</a>
 </dt>
 <dd>Existing tools usable in support of learning objectives. 
 </dd>
 <dt>
-<a href="/archive/mediawiki_wiki/Learning_Linked_Data/Brainstorming" title="Learning Linked Data/Brainstorming">"Brainstorming page"</a>
+<a href="/mediawiki_wiki/Learning_Linked_Data/Brainstorming.md" title="Learning Linked Data/Brainstorming">"Brainstorming page"</a>
 </dt>
 <dd>A place to capture ideas that do not (yet) fit into any of the pages above.
 </dd>

@@ -19,13 +19,13 @@ aliases:
 
 * * *
 <dl>
-<dd> ► <i>DCMI Boards:</i> <a href="/archive/mediawiki_wiki/DCMI_Governing_Board" title="DCMI Governing Board">Governing Board</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Usage_Board" title="DCMI Usage Board" class="mw-redirect">Usage Board</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board" title="DCMI Advisory Board">Advisory Board</a> ► <i>DCMI Management:</i> <a href="/archive/mediawiki_wiki/Exec_Committee" title="Exec Committee">Executive Committee</a> ◘ <a href="/archive/mediawiki_wiki/Exec_Committee/directorate" title="Exec Committee/directorate">Directorate</a>
+<dd> ► <i>DCMI Boards:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> ◘ <a href="/mediawiki_wiki/DCMI_Usage_Board.md" title="DCMI Usage Board" class="mw-redirect">Usage Board</a> ◘ <a href="/mediawiki_wiki/DCMI_Advisory_Board.md" title="DCMI Advisory Board">Advisory Board</a> ► <i>DCMI Management:</i> <a href="/mediawiki_wiki/Exec_Committee.md" title="Exec Committee">Executive Committee</a> ◘ <a href="/mediawiki_wiki/Exec_Committee/directorate.md" title="Exec Committee/directorate">Directorate</a>
 </dd>
-<dd> ► <i>Advisory Board Committees:</i> <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board/planning" title="DCMI Advisory Board/planning">Planning</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board/specifications" title="DCMI Advisory Board/specifications" class="mw-redirect">Community Specifications</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board/meetings" title="DCMI Advisory Board/meetings">Conferences &amp; Meetings</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board/documentation" title="DCMI Advisory Board/documentation">Education &amp; User Documentation</a>
+<dd> ► <i>Advisory Board Committees:</i> <a href="/mediawiki_wiki/DCMI_Advisory_Board/planning.md" title="DCMI Advisory Board/planning">Planning</a> ◘ <a href="/mediawiki_wiki/DCMI_Advisory_Board/specifications.md" title="DCMI Advisory Board/specifications" class="mw-redirect">Community Specifications</a> ◘ <a href="/mediawiki_wiki/DCMI_Advisory_Board/meetings.md" title="DCMI Advisory Board/meetings">Conferences &amp; Meetings</a> ◘ <a href="/mediawiki_wiki/DCMI_Advisory_Board/documentation.md" title="DCMI Advisory Board/documentation">Education &amp; User Documentation</a>
 </dd>
-<dd> ► <i>Governing Board Committees:</i> <a href="/archive/mediawiki_wiki/DCMI_Governing_Board/finance" title="DCMI Governing Board/finance">Finance &amp; Bylaws</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Governing_Board/nominations" title="DCMI Governing Board/nominations">Nominations &amp; Elections</a>  
+<dd> ► <i>Governing Board Committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Finance &amp; Bylaws</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Elections</a>  
 </dd>
-<dd> ► <i>DCMI Handbook:</i> <a href="/archive/mediawiki_wiki/DCMI_Handbook" title="DCMI Handbook">Processes &amp; Procedures</a>
+<dd> ► <i>DCMI Handbook:</i> <a href="/mediawiki_wiki/DCMI_Handbook.md" title="DCMI Handbook">Processes &amp; Procedures</a>
 </dd>
 </dl>
 

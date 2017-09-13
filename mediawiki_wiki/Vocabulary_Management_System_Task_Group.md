@@ -53,7 +53,7 @@ This page has been accessed 157,992 times.
 <dl>
 <dd> Cross-posted to DC-Architecture, DC-Registry and DC-Vocabularies on 2013-02-xx:<br>
 </dd>
-<dd> <a href="/archive/mediawiki_wiki/Draft_Vocabulary_Management_System_Task_Group_Report" title="Draft Vocabulary Management System Task Group Report">Draft Vocabulary Management System Task Group Report</a>
+<dd> <a href="/mediawiki_wiki/Draft_Vocabulary_Management_System_Task_Group_Report.md" title="Draft Vocabulary Management System Task Group Report">Draft Vocabulary Management System Task Group Report</a>
 </dd>
 </dl>
 

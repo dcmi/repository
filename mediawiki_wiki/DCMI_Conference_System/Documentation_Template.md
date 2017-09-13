@@ -32,7 +32,7 @@ _Brief text summary of procedure scope & objectives_ [<2>](/archive/mediawiki_wi
 2. List includes 3-7 steps (5 +/- 2) [<6>](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
 3. Short, declarative statements of 1-2 actions per step [<7>](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
 <pre>Warning! Notes interspersed in steps and called out with special formatting 
-highlight warnings of probable errors and/or guide user in recovering from probable errors <a href="/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes" class="external text" rel="nofollow">&lt;8&gt;</a>
+highlight warnings of probable errors and/or guide user in recovering from probable errors <a href="/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes.md" class="external text" rel="nofollow">&lt;8&gt;</a>
 </pre>
 1. For users who need explanation about a step provide More detail . . . [<9>](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
 2. But AVOID Mr. Clipit-style intrusiveness – keep layered detail under user control!! [<10>](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)

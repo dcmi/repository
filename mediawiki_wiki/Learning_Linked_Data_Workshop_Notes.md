@@ -78,16 +78,16 @@ This page has been accessed 2,020 times.
 
 #### This document in context (March 2012) 
 <dl>
-<dt><a href="/archive/mediawiki_wiki/Learning_Linked_Data_Topics" class="external text" rel="nofollow">Inventory of Learning Topics</a></dt>
+<dt><a href="/mediawiki_wiki/Learning_Linked_Data_Topics.md" class="external text" rel="nofollow">Inventory of Learning Topics</a></dt>
 <dd> For internal review 13 March through 2 April, after which the text will be posted for wider review on a UW blog.
 </dd>
-<dt><a href="/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes" class="external text" rel="nofollow">Seattle Workshop Minutes</a></dt>
+<dt><a href="/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes.md" class="external text" rel="nofollow">Seattle Workshop Minutes</a></dt>
 <dd> Three-page summary of key discussion points and actions.
 </dd>
-<dt><a href="/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes" class="external text" rel="nofollow">Seattle Workshop Notes</a></dt>
+<dt><a href="/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes.md" class="external text" rel="nofollow">Seattle Workshop Notes</a></dt>
 <dd> <i><b>THIS DOCUMENT -- forty-page edited transcript of workshop discussion as a reference on points of detail.</b></i>
 </dd>
-<dt><a href="/archive/mediawiki_wiki/Learning_Linked_Data_Workshop" class="external text" rel="nofollow">Learning Linked Data Project</a></dt>
+<dt><a href="/mediawiki_wiki/Learning_Linked_Data_Workshop.md" class="external text" rel="nofollow">Learning Linked Data Project</a></dt>
 <dd> Main wiki page for the project, with links to the project proposal, timeline, list of participants, mailing-list archive, and all wiki drafts produced to date.
 </dd>
 </dl>
@@ -95,7 +95,7 @@ This page has been accessed 2,020 times.
 # **Learning Linked Data Project Workshop, 2-3 February 2012 -- Meeting Notes** 
 <dl>
 <dt>Agenda</dt>
-<dd> <a href="/archive/mediawiki_wiki/Learning_Linked_Data/Agenda" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data/Agenda</a>
+<dd> <a href="/mediawiki_wiki/Learning_Linked_Data/Agenda.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data/Agenda</a>
 </dd>
 <dt>Attendees</dt>
 <dd> Tom Baker, Joseph Tennis, Marjorie Hlava, Riley Stormer, Marcia Zeng, David Talley, Joseph Busch, Karen Wickett, Corey Harper, Ed Summers, Craig Willis, Diane Hillmann, Karen Coyle, Randy Orwin, Stuart Sutton, Mike Crandall
@@ -110,7 +110,7 @@ This page has been accessed 2,020 times.
 <dd>What we proposed to do in the grant (and in this key workshop).
 </dd>
 <dt>
-<a href="/archive/mediawiki_wiki/Learning_Linked_Data_Inventory" title="Learning Linked Data Inventory">Inventory of Learning Topics</a>
+<a href="/mediawiki_wiki/Learning_Linked_Data_Inventory.md" title="Learning Linked Data Inventory">Inventory of Learning Topics</a>
 </dt>
 <dd>Topics and skills related to Linked Data, the learning of which would be supported by the tool platform proposed in a deliverable of the Learning Linked Data Project (topics such as "vocabulary", "application design", and "visualization"). This document will be the focus of our discussion.
 </dd>
@@ -143,7 +143,7 @@ Attendees introduce themselves. Backgrounds include academia, IT development and
 
 </dd>
 </dl>
-<dl><dd>Let's begin with a walk-through of the <a href="/archive/mediawiki_wiki/Learning_Linked_Data_Inventory" title="Learning Linked Data Inventory">Inventory of Learning Topics</a>. (Tom distributes Post-Its and asks participants to write down the inventory items - skills and learning topics such as "graphs", "merging triples", "Open World Assumption" - for later clustering on the wall.)
+<dl><dd>Let's begin with a walk-through of the <a href="/mediawiki_wiki/Learning_Linked_Data_Inventory.md" title="Learning Linked Data Inventory">Inventory of Learning Topics</a>. (Tom distributes Post-Its and asks participants to write down the inventory items - skills and learning topics such as "graphs", "merging triples", "Open World Assumption" - for later clustering on the wall.)
 </dd></dl>
 <dl>
 <dt>Corey</dt>
@@ -156,7 +156,7 @@ Attendees introduce themselves. Backgrounds include academia, IT development and
 <dd> I suggest we group the audience by learning environment rather than field. We want to create a teaching platform that will accommodate multiple audiences and learning styles.
 </dd>
 <dd>
-<b><a href="/archive/mediawiki_wiki/Learning_Linked_Data_Inventory" title="Learning Linked Data Inventory">Learning Topics</a></b>: <i><b>Intended or desired learning outcome resulting from use of the outlined platform, i.e., being able to analyze, synthesize, apply the knowledge gained.</b></i> The Inventory list consists of skills required and methods to teach them.
+<b><a href="/mediawiki_wiki/Learning_Linked_Data_Inventory.md" title="Learning Linked Data Inventory">Learning Topics</a></b>: <i><b>Intended or desired learning outcome resulting from use of the outlined platform, i.e., being able to analyze, synthesize, apply the knowledge gained.</b></i> The Inventory list consists of skills required and methods to teach them.
 </dd>
 <dt>Diane</dt>
 <dd> Assigning difficulty levels or expected personas won't apply across the diverse spectrum of users' backgrounds. For example, some may lack basics in Knowledge Organization; others Information Technology. We need to know the user in order to know where to begin.

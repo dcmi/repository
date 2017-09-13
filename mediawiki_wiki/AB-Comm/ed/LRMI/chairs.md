@@ -17,13 +17,13 @@ aliases:
 
 ##### [[edit](http://wiki.dublincore.org/index.php?title=Template:LrmiTG&action=edit&section=T-1 "Template:LrmiTG")] [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook") 
 <dl>
-<dd> ► <i><a href="/archive/mediawiki_wiki/DCMI_Governing_Board" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/archive/mediawiki_wiki/DCMI_Governing_Board/finance" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Governing_Board/nominations" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
+<dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
-<dd> ► <i><a href="/archive/mediawiki_wiki/DCMI_Technical_Board" title="DCMI Technical Board">Technical Board</a> committees:</i> <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/usage" title="DCMI Technical Board/usage">Usage</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/standards" title="DCMI Technical Board/standards">Standards &amp; Liaisons</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/specifications" title="DCMI Technical Board/specifications">Community Specifications</a>
+<dd> ► <i><a href="/mediawiki_wiki/DCMI_Technical_Board.md" title="DCMI Technical Board">Technical Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Technical_Board/usage.md" title="DCMI Technical Board/usage">Usage</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/standards.md" title="DCMI Technical Board/standards">Standards &amp; Liaisons</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/specifications.md" title="DCMI Technical Board/specifications">Community Specifications</a>
 </dd>
-<dd> ► <i><a href="/archive/mediawiki_wiki/DCMI_Advisory_Board" title="DCMI Advisory Board">Advisory Board</a> committees:</i> <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board/meetings" title="DCMI Advisory Board/meetings">Conferences &amp; Meetings</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board/documentation" title="DCMI Advisory Board/documentation">Education &amp; Outreach</a>
+<dd> ► <i><a href="/mediawiki_wiki/DCMI_Advisory_Board.md" title="DCMI Advisory Board">Advisory Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Advisory_Board/meetings.md" title="DCMI Advisory Board/meetings">Conferences &amp; Meetings</a> ◘ <a href="/mediawiki_wiki/DCMI_Advisory_Board/documentation.md" title="DCMI Advisory Board/documentation">Education &amp; Outreach</a>
 </dd>
-<dd> ► <i>Management:</i> <a href="/archive/mediawiki_wiki/Exec_Committee" title="Exec Committee">Executive</a> ◘ <a href="/archive/mediawiki_wiki/Exec_Committee/directorate" title="Exec Committee/directorate">Directorate</a>
+<dd> ► <i>Management:</i> <a href="/mediawiki_wiki/Exec_Committee.md" title="Exec Committee">Executive</a> ◘ <a href="/mediawiki_wiki/Exec_Committee/directorate.md" title="Exec Committee/directorate">Directorate</a>
 </dd>
 </dl>
 
@@ -39,12 +39,12 @@ aliases:
           <h2>Contents</h2>
         </div>
         <ul>
-          <li class="toclevel-1"><a href="/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#Handbook:_Table_of_Contents"><span class="tocnumber">1</span> <span class="toctext">Handbook: Table of Contents</span></a></li>
+          <li class="toclevel-1"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#Handbook:_Table_of_Contents.md"><span class="tocnumber">1</span> <span class="toctext">Handbook: Table of Contents</span></a></li>
           <li class="toclevel-1 tocsection-1">
             <a href="/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#DCMI.2FLRMI_Chair.27s_Work_Pages"><span class="tocnumber">2</span> <span class="toctext">DCMI/LRMI Chair's Work Pages</span></a>
             <ul>
-              <li class="toclevel-2 tocsection-2"><a href="/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#Notes"><span class="tocnumber">2.1</span> <span class="toctext">Notes</span></a></li>
-              <li class="toclevel-2 tocsection-3"><a href="/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#References"><span class="tocnumber">2.2</span> <span class="toctext">References</span></a></li>
+              <li class="toclevel-2 tocsection-2"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#Notes.md"><span class="tocnumber">2.1</span> <span class="toctext">Notes</span></a></li>
+              <li class="toclevel-2 tocsection-3"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#References.md"><span class="tocnumber">2.2</span> <span class="toctext">References</span></a></li>
             </ul>
           </li>
         </ul>
@@ -62,17 +62,17 @@ aliases:
 
 -  
 
-DCMI's policies protecting the integrity of DCMI vocabulary schemas and schemes (e.g., dcterms<sup id="cite_ref-0" class="reference"><a href="/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-0">[1]</a></sup> & dc<sup id="cite_ref-1" class="reference"><a href="/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-1">[2]</a></sup>) are framed in the DCMI namespace policy<sup id="cite_ref-2" class="reference"><a href="/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-2">[3]</a></sup> - <sup id="cite_ref-3" class="reference"><a href="/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-3">[4]</a></sup> where properties and classes are named by URI and where versioning occurs at the property/class level and not the schema level. Currently, the only formal namespace for the LRMI properties and classes where they are "named" by URI is [http://schema.org/](http://schema.org/) —which embodies almost all properties and classes informally defined in narrative tables at [http://lrmi.net/the-specification](http://lrmi.net/the-specification). Schema.org is the sole steward of the schema.org namespace.
+DCMI's policies protecting the integrity of DCMI vocabulary schemas and schemes (e.g., dcterms<sup id="cite_ref-0" class="reference"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-0.md">[1]</a></sup> & dc<sup id="cite_ref-1" class="reference"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-1.md">[2]</a></sup>) are framed in the DCMI namespace policy<sup id="cite_ref-2" class="reference"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-2.md">[3]</a></sup> - <sup id="cite_ref-3" class="reference"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-3.md">[4]</a></sup> where properties and classes are named by URI and where versioning occurs at the property/class level and not the schema level. Currently, the only formal namespace for the LRMI properties and classes where they are "named" by URI is [http://schema.org/](http://schema.org/) —which embodies almost all properties and classes informally defined in narrative tables at [http://lrmi.net/the-specification](http://lrmi.net/the-specification). Schema.org is the sole steward of the schema.org namespace.
 
  
 
-To provide long-term stewardship of LRMI's informal definitions, a formal namespace will have to be declared over which DCMI exercises technical control. In the schema.org context, this is absolutely not an unusual circumstance. For example, formal specification of the the Good Relations e-commerce vocabulary exists<sup id="cite_ref-4" class="reference"><a href="/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-4">[5]</a></sup> with schema.org replication. Martin Hepp explains these circumstances on the GoodRelations wiki<sup id="cite_ref-5" class="reference"><a href="/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-5">[6]</a></sup>.
+To provide long-term stewardship of LRMI's informal definitions, a formal namespace will have to be declared over which DCMI exercises technical control. In the schema.org context, this is absolutely not an unusual circumstance. For example, formal specification of the the Good Relations e-commerce vocabulary exists<sup id="cite_ref-4" class="reference"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-4.md">[5]</a></sup> with schema.org replication. Martin Hepp explains these circumstances on the GoodRelations wiki<sup id="cite_ref-5" class="reference"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-5.md">[6]</a></sup>.
 
 In addition, should a community decision ever be taken to further develop the vocabulary with additional properties/classes, the formal LRMI namespace would become even more critical since there are no guarantees that any richer description for educational resources would be adopted by schema.org (evidence the lrmi:useRightsUrl).
 
 -  
 
-Property/class relationships between the the LRMI terms in an RDF schema and the schema.org schema can be declared as can relevant relationships to properties/classes in the dcterms namespace<sup id="cite_ref-6" class="reference"><a href="/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-6">[7]</a></sup> & dc<sup id="cite_ref-7" class="reference"><a href="/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-7">[8]</a></sup> and (informally) to IEEE LOM which (unfortunately) lacks canonical term URI. Such 'referencing' is common, good practice with semantic metadata -- see, for example the DCMI declaration of dcterms:creator in the RDF schema as being "equivalent" to the foaf:maker property:
+Property/class relationships between the the LRMI terms in an RDF schema and the schema.org schema can be declared as can relevant relationships to properties/classes in the dcterms namespace<sup id="cite_ref-6" class="reference"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-6.md">[7]</a></sup> & dc<sup id="cite_ref-7" class="reference"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-7.md">[8]</a></sup> and (informally) to IEEE LOM which (unfortunately) lacks canonical term URI. Such 'referencing' is common, good practice with semantic metadata -- see, for example the DCMI declaration of dcterms:creator in the RDF schema as being "equivalent" to the foaf:maker property:
 
 <pre>@prefix rdf: &lt;<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#" class="external free" rel="nofollow">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a>&gt; .
 @prefix rdfs: &lt;<a href="http://www.w3.org/2000/01/rdf-schema#" class="external free" rel="nofollow">http://www.w3.org/2000/01/rdf-schema#</a>&gt; .
@@ -80,7 +80,7 @@ Property/class relationships between the the LRMI terms in an RDF schema and the
 dcterms:creator a rdf:Property ;
     owl:equivalentProperty &lt;<a href="http://xmlns.com/foaf/0.1/maker" class="external free" rel="nofollow">http://xmlns.com/foaf/0.1/maker</a>&gt; .
 </pre><dl><dd>
-<ul><li> See documentation of proposal before the Technical Board on a community namespace policy at <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/community_namespaces" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/community_namespaces</a> <sup id="cite_ref-8" class="reference"><a href="/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-8">[9]</a></sup>
+<ul><li> See documentation of proposal before the Technical Board on a community namespace policy at <a href="/mediawiki_wiki/DCMI_Technical_Board/specifications/community_namespaces.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/community_namespaces</a> <sup id="cite_ref-8" class="reference"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-8.md">[9]</a></sup>
 </li></ul>
 </dd></dl>
 

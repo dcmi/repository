@@ -22,13 +22,13 @@ This page has been accessed 42,279 times.
 
 ##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](DCMI_Handbook "DCMI Handbook") 
 <dl>
-<dd> ► <i><a href="/archive/mediawiki_wiki/DCMI_Governing_Board" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/archive/mediawiki_wiki/DCMI_Governing_Board/finance" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Governing_Board/nominations" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
+<dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
-<dd> ► <i><a href="/archive/mediawiki_wiki/DCMI_Technical_Board" title="DCMI Technical Board">Technical Board</a> committees:</i> <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/usage" title="DCMI Technical Board/usage">Usage</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/standards" title="DCMI Technical Board/standards">Standards &amp; Liaisons</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/specifications" title="DCMI Technical Board/specifications">Community Specifications</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/infrastructure" title="DCMI Technical Board/infrastructure">Infrastructure Advisory Committee (IAC)</a>
+<dd> ► <i><a href="/mediawiki_wiki/DCMI_Technical_Board.md" title="DCMI Technical Board">Technical Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Technical_Board/usage.md" title="DCMI Technical Board/usage">Usage</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/standards.md" title="DCMI Technical Board/standards">Standards &amp; Liaisons</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/specifications.md" title="DCMI Technical Board/specifications">Community Specifications</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/infrastructure.md" title="DCMI Technical Board/infrastructure">Infrastructure Advisory Committee (IAC)</a>
 </dd>
-<dd> ► <i><a href="/archive/mediawiki_wiki/DCMI_Advisory_Board" title="DCMI Advisory Board">Advisory Board</a> committees:</i> <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board/meetings" title="DCMI Advisory Board/meetings">Conferences &amp; Meetings</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board/documentation" title="DCMI Advisory Board/documentation">Education &amp; Outreach</a>
+<dd> ► <i><a href="/mediawiki_wiki/DCMI_Advisory_Board.md" title="DCMI Advisory Board">Advisory Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Advisory_Board/meetings.md" title="DCMI Advisory Board/meetings">Conferences &amp; Meetings</a> ◘ <a href="/mediawiki_wiki/DCMI_Advisory_Board/documentation.md" title="DCMI Advisory Board/documentation">Education &amp; Outreach</a>
 </dd>
-<dd> ► <i>Management:</i> <a href="/archive/mediawiki_wiki/Exec_Committee" title="Exec Committee">Executive</a> ◘ <a href="/archive/mediawiki_wiki/Exec_Committee/directorate" title="Exec Committee/directorate">Directorate</a>
+<dd> ► <i>Management:</i> <a href="/mediawiki_wiki/Exec_Committee.md" title="Exec Committee">Executive</a> ◘ <a href="/mediawiki_wiki/Exec_Committee/directorate.md" title="Exec Committee/directorate">Directorate</a>
 </dd>
 </dl>
 
@@ -63,13 +63,13 @@ This page has been accessed 42,279 times.
 * * *
 
 #### Sponsor 
-<dl><dd> <a href="/archive/mediawiki_wiki/DCMI_Governing_Board/finance" title="DCMI Governing Board/finance"> Membership &amp; Finance Committee</a>
+<dl><dd> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance"> Membership &amp; Finance Committee</a>
 </dd></dl>
 
 - Task Force created by electronic vote of the Committee on 11 July 2014.
 
 #### Committee Charge 
-<dl><dd> A task force shall be constituted to review, consider, and recommend financial arrangements -- going forward -- of the International Conference on Dublin Core and Metadata Applications (a.k.a. as the Dublin Core Annual Conference) and accompanying DCMI business meetings normally held in conjunction with the Conference (a.k.a. DCMI Annual Meeting). The Task Force shall review the history of prior arrangements, consider the <a href="/archive/mediawiki_wiki/DCMI_Handbook/Int_Conf/Host_Guidelines" class="external text" rel="nofollow">International Conference Host Guidelines</a>, consider DCMI's interests (potentially including competing objectives), and develop recommendations for a preferred financial structure. The Task Force will prepare and issue a report summarizing its findings and recommendations.
+<dl><dd> A task force shall be constituted to review, consider, and recommend financial arrangements -- going forward -- of the International Conference on Dublin Core and Metadata Applications (a.k.a. as the Dublin Core Annual Conference) and accompanying DCMI business meetings normally held in conjunction with the Conference (a.k.a. DCMI Annual Meeting). The Task Force shall review the history of prior arrangements, consider the <a href="/mediawiki_wiki/DCMI_Handbook/Int_Conf/Host_Guidelines.md" class="external text" rel="nofollow">International Conference Host Guidelines</a>, consider DCMI's interests (potentially including competing objectives), and develop recommendations for a preferred financial structure. The Task Force will prepare and issue a report summarizing its findings and recommendations.
 </dd></dl>
 
 

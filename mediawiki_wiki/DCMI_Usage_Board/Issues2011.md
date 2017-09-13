@@ -25,7 +25,7 @@ DCMI says the range of the dcterms:language property is the class dcterms:Lingui
 
 In the examples at
 
-<a href="/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#dcterms:language" class="external free" rel="nofollow">/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#dcterms:language</a>
+<a href="/mediawiki_wiki/User_Guide/Publishing_Metadata#dcterms:language.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#dcterms:language</a>
 
 we have examples of lexvo.org URIs like
 

@@ -17,8 +17,8 @@ This page has been accessed 103,978 times.
 
 <pre>DCAM telecon - Report - 2012-07-16
 
-This report: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120716" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120716</a>
-Agenda: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120716" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120716</a>
+This report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120716.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120716</a>
+Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120716.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120716</a>
 Attended: Richard, Corey, Antoine, Karen, Mark, Jon, Aaron, Gordon
 
 ---------------------------------------------------------------------- 
@@ -29,11 +29,11 @@ Summary of actions taken
 ---------------------------------------------------------------------- 
 Accepted minutes of previous call 
 
-     2012-06-08: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-201206xx" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-201206xx</a>
+     2012-06-08: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-201206xx.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-201206xx</a>
 
 ---------------------------------------------------------------------- 
 Design patterns 
-   <a href="/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns</a>
+   <a href="/mediawiki_wiki/DCAM_Revision_Design_Patterns.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns</a>
    - SES &amp; "Strings" versus "things"
    - SES vs. rdfs:Datatype
 
@@ -342,7 +342,7 @@ structured data (or even XHMTML markup) as valid in object position.
 that is different from datatypes
 
 (12:13:55 PM) karencoyle: @jon see:
-<a href="/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns</a>
+<a href="/mediawiki_wiki/DCAM_Revision_Design_Patterns.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns</a>
 
 (12:13:57 PM) chrpr: @karencoyle: either retained the order *or* created URIs
 (or even blanknodes) for entities that cary that order...

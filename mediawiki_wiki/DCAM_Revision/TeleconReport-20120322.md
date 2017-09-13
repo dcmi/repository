@@ -18,9 +18,9 @@ This page has been accessed 133,520 times.
 <pre>2012-03-22 DCAM call - 11:00 EST - report
 
 Present: TomB, MarkM, RichardU, AntoineI, GordonD, AaronR, KaiE, CoreyH
-This report: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120322" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120322</a>
-Agenda: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120322" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120322</a>
-Previous: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120229" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120229</a>
+This report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120322.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120322</a>
+Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120322.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120322</a>
+Previous: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120229.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120229</a>
 
 Tom: We have had great discussions on telecons and the mailing list, but it is unclear
     where this is heading in terms of output. Richard, your ACTION?
@@ -47,7 +47,7 @@ Tom: We want something that is very rich with patterns and best practice example
     we can meet somewhere in the middle. I have put some design patterns into the wiki [1].
     Also some simple patterns w.r.t. VESes.
 
-    [1] <a href="/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns</a>
+    [1] <a href="/mediawiki_wiki/DCAM_Revision_Design_Patterns.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns</a>
 
 Gordon: In a vague way, we can FRBRize: DCAM is a Work (abstraction); RDF is
     an Expression of the Work; and a Turtle or RDF/XML representation is a
@@ -66,7 +66,7 @@ Gordon: I've posted a higher-level "situation" that occurs in my work [2] -- hig
     constraints. Provide examples how these can be built up into higher-level granulity 
     patterns.
 
-    [2] <a href="/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns#Examples_from_Gordon" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns#Examples_from_Gordon</a>
+    [2] <a href="/mediawiki_wiki/DCAM_Revision_Design_Patterns#Examples_from_Gordon.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns#Examples_from_Gordon</a>
 
 Gordon: Most obvious is the aggregated statement, which can be seen as a graph. It can be 
     seen as a whole but is composed of smaller elements. The classic example is a publication
@@ -162,7 +162,7 @@ Tom: For the next call, I propose that we aim at getting just five examples
     Mark: +1 for using Turtle as a starting point
 
 Antoine: Are we looking for anything much different from 
-    <a href="/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns</a> (from the 
+    <a href="/mediawiki_wiki/DCAM_Revision_Design_Patterns.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns</a> (from the 
     DC-RDF specification)?
 
     Aaron: @aisaac, I think Tom's suggesting a more structured/formal environment for examples.

@@ -42,16 +42,16 @@ This page has been accessed 731 times.
 
 #### This document in context (March 2012) 
 <dl>
-<dt><a href="/archive/mediawiki_wiki/Learning_Linked_Data_Topics" class="external text" rel="nofollow">Inventory of Learning Topics</a></dt>
+<dt><a href="/mediawiki_wiki/Learning_Linked_Data_Topics.md" class="external text" rel="nofollow">Inventory of Learning Topics</a></dt>
 <dd> For internal review 13 March through 2 April, after which the text will be posted for wider review on a UW blog.
 </dd>
-<dt><a href="/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes" class="external text" rel="nofollow">Seattle Workshop Minutes</a></dt>
+<dt><a href="/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes.md" class="external text" rel="nofollow">Seattle Workshop Minutes</a></dt>
 <dd> <i><b>THIS DOCUMENT -- three-page summary of key discussion points and actions.</b></i>
 </dd>
-<dt><a href="/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes" class="external text" rel="nofollow">Seattle Workshop Notes</a></dt>
+<dt><a href="/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes.md" class="external text" rel="nofollow">Seattle Workshop Notes</a></dt>
 <dd> Forty-page edited transcript of workshop discussion as a reference on points of detail.
 </dd>
-<dt><a href="/archive/mediawiki_wiki/Learning_Linked_Data_Workshop" class="external text" rel="nofollow">Learning Linked Data Project</a></dt>
+<dt><a href="/mediawiki_wiki/Learning_Linked_Data_Workshop.md" class="external text" rel="nofollow">Learning Linked Data Project</a></dt>
 <dd> Main wiki page for the project, with links to the project proposal, timeline, list of participants, mailing-list archive, and all wiki drafts produced to date.
 </dd>
 </dl>
@@ -59,13 +59,13 @@ This page has been accessed 731 times.
 # **Learning Linked Data Project Workshop, 2-3 February 2012 -- Minutes** 
 <dl>
 <dt>These minutes</dt>
-<dd> <a href="/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes</a>
+<dd> <a href="/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes</a>
 </dd>
 <dt>Meeting agenda</dt>
-<dd> <a href="/archive/mediawiki_wiki/Learning_Linked_Data/Agenda" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data/Agenda</a>
+<dd> <a href="/mediawiki_wiki/Learning_Linked_Data/Agenda.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data/Agenda</a>
 </dd>
 <dt>Full meeting notes</dt>
-<dd> <a href="/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes</a>
+<dd> <a href="/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes</a>
 </dd>
 <dt>Attendees</dt>
 <dd> Tom Baker, Joseph Tennis, Marjorie Hlava, Riley Stormer, Marcia Zeng, David Talley, Joseph Busch, Karen Wickett, Corey Harper, Ed Summers, Craig Willis, Diane Hillmann, Karen Coyle, Randy Orwin, Stuart Sutton, Mike Crandall
@@ -76,11 +76,11 @@ This page has been accessed 731 times.
 <dd>What we proposed to do in the grant (and in this key workshop).
 </dd>
 <dt>
-<a href="/archive/mediawiki_wiki/Learning_Linked_Data_Inventory" title="Learning Linked Data Inventory">Inventory of Learning Topics (first draft)</a>
+<a href="/mediawiki_wiki/Learning_Linked_Data_Inventory.md" title="Learning Linked Data Inventory">Inventory of Learning Topics (first draft)</a>
 </dt>
 <dd>Topics and skills related to Linked Data, the learning of which would be supported by the tool platform proposed in a deliverable of the Learning Linked Data Project (topics such as "vocabulary", "application design", and "visualization"). This document was the focus of our discussion.
 </dd>
-<dt><a href="/archive/mediawiki_wiki/Learning_Linked_Data_Topics" title="Learning Linked Data Topics">Inventory of Learning Topics (second draft)</a></dt>
+<dt><a href="/mediawiki_wiki/Learning_Linked_Data_Topics.md" title="Learning Linked Data Topics">Inventory of Learning Topics (second draft)</a></dt>
 <dd> The result of this workshop.
 </dd>
 </dl>

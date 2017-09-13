@@ -17,28 +17,28 @@ This page has been accessed 337,572 times.
 
 ##### **Handbook** : **Table of Contents** 
 
-* <a href="/archive/mediawiki_wiki/DCMI_Governing_Board" title="DCMI Governing Board">Governing Board</a>
-    * <a href="/archive/mediawiki_wiki/DCMI_Governing_Board/finance" title="DCMI Governing Board/finance">Membership &amp; Finance Committee</a>
-    * <a href="/archive/mediawiki_wiki/DCMI_Governing_Board/nominations" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws Committee</a>
-* <a href="/archive/mediawiki_wiki/DCMI_Technical_Board" title="DCMI Technical Board">Technical Board</a>
-    * <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/usage" title="DCMI Technical Board/usage">Usage Committee</a>
-    * <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/standards" title="DCMI Technical Board/standards">Standards &amp; Liaisons Committee</a>
-    * <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/specifications" title="DCMI Technical Board/specifications">Community Specifications Committee</a>
-    * <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/infrastructure" title="DCMI Technical Board/infrastructure">Infrastructure Advisory Committee (IAC)</a>
-* <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board" title="DCMI Advisory Board">Advisory Board</a>
-    * <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board/meetings" title="DCMI Advisory Board/meetings">Conferences &amp; Meetings Committee</a>
-    * <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board/documentation" title="DCMI Advisory Board/documentation">Education &amp; Outreach Committee</a>
+* <a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a>
+    * <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance Committee</a>
+    * <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws Committee</a>
+* <a href="/mediawiki_wiki/DCMI_Technical_Board.md" title="DCMI Technical Board">Technical Board</a>
+    * <a href="/mediawiki_wiki/DCMI_Technical_Board/usage.md" title="DCMI Technical Board/usage">Usage Committee</a>
+    * <a href="/mediawiki_wiki/DCMI_Technical_Board/standards.md" title="DCMI Technical Board/standards">Standards &amp; Liaisons Committee</a>
+    * <a href="/mediawiki_wiki/DCMI_Technical_Board/specifications.md" title="DCMI Technical Board/specifications">Community Specifications Committee</a>
+    * <a href="/mediawiki_wiki/DCMI_Technical_Board/infrastructure.md" title="DCMI Technical Board/infrastructure">Infrastructure Advisory Committee (IAC)</a>
+* <a href="/mediawiki_wiki/DCMI_Advisory_Board.md" title="DCMI Advisory Board">Advisory Board</a>
+    * <a href="/mediawiki_wiki/DCMI_Advisory_Board/meetings.md" title="DCMI Advisory Board/meetings">Conferences &amp; Meetings Committee</a>
+    * <a href="/mediawiki_wiki/DCMI_Advisory_Board/documentation.md" title="DCMI Advisory Board/documentation">Education &amp; Outreach Committee</a>
 * Management
-    * <a href="/archive/mediawiki_wiki/Exec_Committee" title="Exec Committee">Executive Committee</a>
-    * <a href="/archive/mediawiki_wiki/Exec_Committee/directorate" title="Exec Committee/directorate">Directorate</a>
+    * <a href="/mediawiki_wiki/Exec_Committee.md" title="Exec Committee">Executive Committee</a>
+    * <a href="/mediawiki_wiki/Exec_Committee/directorate.md" title="Exec Committee/directorate">Directorate</a>
 
-<a href="/archive/mediawiki_wiki/DCMI_Handbook/webinars" title="DCMI Handbook/webinars">DCMI/ASIS&amp;T Webinars</a>
+<a href="/mediawiki_wiki/DCMI_Handbook/webinars.md" title="DCMI Handbook/webinars">DCMI/ASIS&amp;T Webinars</a>
 
 Want to present a webinar? <a href="http://ow.ly/BsBdS" class="external text" rel="nofollow">Webinar Proposal Form</a>
 
 Want to propose a webinar topic? <a href="http://ow.ly/BsANk" class="external text" rel="nofollow">Webinar Topic Proposal Form</a>
 
-How does DCMI do webinars? <a href="/archive/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars" class="external text" rel="nofollow">Presenter Guidelines</a>
+How does DCMI do webinars? <a href="/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars.md" class="external text" rel="nofollow">Presenter Guidelines</a>
 
 
 *  DCMI Governance, Administration & Advisory Bodies 

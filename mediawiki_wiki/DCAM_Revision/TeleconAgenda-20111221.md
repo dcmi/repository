@@ -35,12 +35,12 @@ Background reading
 -- Minutes of the 22 October 2010 Joint meeting with Library Linked Data Incubator Group
     <a href="http://www.w3.org/2005/Incubator/lld/minutes/2010/10/22-lld-minutes.html" class="external free" rel="nofollow">http://www.w3.org/2005/Incubator/lld/minutes/2010/10/22-lld-minutes.html</a>
 -- 2010 review of DCAM by Pete and Tom
-    <a href="/archive/mediawiki_wiki/Review_of_DCMI_Abstract_Model" class="external free" rel="nofollow">/archive/mediawiki_wiki/Review_of_DCMI_Abstract_Model</a>
+    <a href="/mediawiki_wiki/Review_of_DCMI_Abstract_Model.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Review_of_DCMI_Abstract_Model</a>
 -- Recent blog posting by Ian Davis
     <a href="http://blog.iandavis.com/2011/11/26/sketch-of-a-reformulation-of-rdf/" class="external free" rel="nofollow">http://blog.iandavis.com/2011/11/26/sketch-of-a-reformulation-of-rdf/</a>
 
 ----------------------------------------------------------------------
-Questions for discussion - see <a href="/archive/mediawiki_wiki/DCAM_Revision" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
+Questions for discussion - see <a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
 
 -- What requirement(s) does DCAM address? What is its purpose and audience?
    Can we formulate the purpose in a short statement?

@@ -96,7 +96,7 @@ The Advisory Board has no formal voting procedures and operates on a principle o
     </td>
     <td width="45%">
       <a href="/archive/mediawiki_wiki/images/DCMIstructure.png" class="image"><img alt="DCMIstructure.png" src="/archive/mediawiki_wiki/images/DCMIstructure.png" width="520" height="390"></a>
-      <p>Note: this chart is replaced by the one at: <a href="/archive/mediawiki_wiki/Exec_Committee#Advisory_Board" title="Exec Committee">Exec_Committee#Advisory_Board</a>.
+      <p>Note: this chart is replaced by the one at: <a href="/mediawiki_wiki/Exec_Committee#Advisory_Board.md" title="Exec Committee">Exec_Committee#Advisory_Board</a>.
       </p>
     </td>
   </tr>

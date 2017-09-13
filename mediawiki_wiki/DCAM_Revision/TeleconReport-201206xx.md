@@ -17,8 +17,8 @@ This page has been accessed 126,080 times.
 
 <pre>DCAM telecon - Report - 2012-06-08
 
-This report: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-201206xx" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-201206xx</a>
-Agenda: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-201206xx" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-201206xx</a>
+This report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-201206xx.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-201206xx</a>
+Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-201206xx.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-201206xx</a>
 Attended: Tom, Karen, Antoine, Aaron, Richard, Jon, Gordon, Mark, Corey
 
 ----------------------------------------------------------------------
@@ -34,11 +34,11 @@ Summary of actions taken
 ----------------------------------------------------------------------
 Accepted minutes of previous call 
 
-     2012-05-15 <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515</a>
+     2012-05-15 <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515</a>
 
 ----------------------------------------------------------------------
 Design patterns
-    <a href="/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns</a>    
+    <a href="/mediawiki_wiki/DCAM_Revision_Design_Patterns.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns</a>    
 
 Gordon: Clarification on minutes: "ACTION: Gordon to put reference on wiki."
 probably refers to ISBD. This is done.
@@ -99,7 +99,7 @@ similar and still representative of a syntax encoding scheme. It's a definition
 for encoding a string.
 
 Aaron: Name heading example? I mean this:
-<a href="/archive/mediawiki_wiki/DCAM_Revision_Example_Name_Heading" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Example_Name_Heading</a>
+<a href="/mediawiki_wiki/DCAM_Revision_Example_Name_Heading.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Example_Name_Heading</a>
 
 Karen: I proposed a pagination example, but nobody responded so I didn't write
 up. Name has display issues but no algorithmically derived order.

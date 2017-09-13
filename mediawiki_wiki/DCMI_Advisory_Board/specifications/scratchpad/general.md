@@ -21,7 +21,7 @@ This page has been accessed 120,477 times.
 
 ##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
-<dd> ► <i><strong class="selflink">Technical Board</strong> Committees:</i> <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/usage" title="DCMI Technical Board/usage">Usage</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/standards" title="DCMI Technical Board/standards">Standards &amp; Liaisons</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/specifications" title="DCMI Technical Board/specifications">Community Specifications</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_FOAF_Cooperation" title="DCMI FOAF Cooperation">DCMI FOAF Cooperation</a>
+<dd> ► <i><strong class="selflink">Technical Board</strong> Committees:</i> <a href="/mediawiki_wiki/DCMI_Technical_Board/usage.md" title="DCMI Technical Board/usage">Usage</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/standards.md" title="DCMI Technical Board/standards">Standards &amp; Liaisons</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/specifications.md" title="DCMI Technical Board/specifications">Community Specifications</a> ◘ <a href="/mediawiki_wiki/DCMI_FOAF_Cooperation.md" title="DCMI FOAF Cooperation">DCMI FOAF Cooperation</a>
 </dd>
 <dd> ► <i>Communications:</i> <a href="mailto:dc-tb@jiscmail.ac.uk" class="external text" rel="nofollow">Board Forum</a> | <a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-tb&amp;A=1" class="external text" rel="nofollow">Archive</a>
 </dd>

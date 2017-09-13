@@ -38,16 +38,16 @@ Mailing list archive: [http://dublincore.org/pipermail/learninglinkeddata/](http
 
 ### Workshop Followup: preparation for public comment (March 2012) 
 <dl>
-<dt><a href="/archive/mediawiki_wiki/Learning_Linked_Data_Topics" class="external text" rel="nofollow">Inventory Inventory of Learning Topics</a></dt>
+<dt><a href="/mediawiki_wiki/Learning_Linked_Data_Topics.md" class="external text" rel="nofollow">Inventory Inventory of Learning Topics</a></dt>
 <dd> For internal review 13 March through 2 April, after which the text will be posted for wider review on a UW blog.
 </dd>
-<dt><a href="/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes" class="external text" rel="nofollow">Seattle Workshop Minutes</a></dt>
+<dt><a href="/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes.md" class="external text" rel="nofollow">Seattle Workshop Minutes</a></dt>
 <dd> Three-page summary of key discussion points and actions.
 </dd>
-<dt><a href="/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes" class="external text" rel="nofollow">Seattle Workshop Notes</a></dt>
+<dt><a href="/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes.md" class="external text" rel="nofollow">Seattle Workshop Notes</a></dt>
 <dd> Forty-page edited transcript of workshop discussion as a reference on points of detail.
 </dd>
-<dt><a href="/archive/mediawiki_wiki/Learning_Linked_Data" class="external text" rel="nofollow">Learning Linked Data Project</a></dt>
+<dt><a href="/mediawiki_wiki/Learning_Linked_Data.md" class="external text" rel="nofollow">Learning Linked Data Project</a></dt>
 <dd> Main wiki page for the project, with links to the project proposal, timeline, list of participants, mailing-list archive, and all wiki drafts produced to date.
 </dd>
 </dl>

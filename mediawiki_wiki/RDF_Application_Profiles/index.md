@@ -19,13 +19,13 @@ This page has been accessed 404,316 times.
 
 ##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
-<dd> ► <i><a href="/archive/mediawiki_wiki/DCMI_Governing_Board" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/archive/mediawiki_wiki/DCMI_Governing_Board/finance" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Governing_Board/nominations" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
+<dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
-<dd> ► <i><a href="/archive/mediawiki_wiki/DCMI_Technical_Board" title="DCMI Technical Board">Technical Board</a> committees:</i> <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/usage" title="DCMI Technical Board/usage">Usage</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/standards" title="DCMI Technical Board/standards">Standards &amp; Liaisons</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Technical_Board/specifications" title="DCMI Technical Board/specifications">Community Specifications</a>
+<dd> ► <i><a href="/mediawiki_wiki/DCMI_Technical_Board.md" title="DCMI Technical Board">Technical Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Technical_Board/usage.md" title="DCMI Technical Board/usage">Usage</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/standards.md" title="DCMI Technical Board/standards">Standards &amp; Liaisons</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/specifications.md" title="DCMI Technical Board/specifications">Community Specifications</a>
 </dd>
-<dd> ► <i><a href="/archive/mediawiki_wiki/DCMI_Advisory_Board" title="DCMI Advisory Board">Advisory Board</a> committees:</i> <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board/meetings" title="DCMI Advisory Board/meetings">Conferences &amp; Meetings</a> ◘ <a href="/archive/mediawiki_wiki/DCMI_Advisory_Board/documentation" title="DCMI Advisory Board/documentation">Education &amp; Outreach</a>
+<dd> ► <i><a href="/mediawiki_wiki/DCMI_Advisory_Board.md" title="DCMI Advisory Board">Advisory Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Advisory_Board/meetings.md" title="DCMI Advisory Board/meetings">Conferences &amp; Meetings</a> ◘ <a href="/mediawiki_wiki/DCMI_Advisory_Board/documentation.md" title="DCMI Advisory Board/documentation">Education &amp; Outreach</a>
 </dd>
-<dd> ► <i>Management:</i> <a href="/archive/mediawiki_wiki/Exec_Committee" title="Exec Committee">Executive</a> ◘ <a href="/archive/mediawiki_wiki/Exec_Committee/directorate" title="Exec Committee/directorate">Directorate</a>
+<dd> ► <i>Management:</i> <a href="/mediawiki_wiki/Exec_Committee.md" title="Exec Committee">Executive</a> ◘ <a href="/mediawiki_wiki/Exec_Committee/directorate.md" title="Exec Committee/directorate">Directorate</a>
 </dd>
 </dl>
 
@@ -177,7 +177,7 @@ Pre-Task Group calls, within the [Architecture Forum](http://dublincore.org/grou
     <td>CS-1
     </td>
     <td>
-      <a href="/archive/mediawiki_wiki/DPLA_RDF_application_profile_use_cases" title="DPLA RDF application profile use cases">DPLA RDF application profile use cases</a>
+      <a href="/mediawiki_wiki/DPLA_RDF_application_profile_use_cases.md" title="DPLA RDF application profile use cases">DPLA RDF application profile use cases</a>
     </td>
     <td>done?
     </td>
@@ -186,7 +186,7 @@ Pre-Task Group calls, within the [Architecture Forum](http://dublincore.org/grou
     <td>CS-3
     </td>
     <td>
-      <a href="/archive/mediawiki_wiki/DM2E" title="DM2E">Digitised Manuscripts to Europeana (DM2E)</a>
+      <a href="/mediawiki_wiki/DM2E.md" title="DM2E">Digitised Manuscripts to Europeana (DM2E)</a>
     </td>
     <td>done
     </td>
@@ -195,7 +195,7 @@ Pre-Task Group calls, within the [Architecture Forum](http://dublincore.org/grou
     <td>CS-4
     </td>
     <td>
-      <a href="/archive/mediawiki_wiki/EDM" title="EDM">Europeana Data Model</a>
+      <a href="/mediawiki_wiki/EDM.md" title="EDM">Europeana Data Model</a>
     </td>
     <td>done
     </td>
@@ -204,7 +204,7 @@ Pre-Task Group calls, within the [Architecture Forum](http://dublincore.org/grou
     <td>
     </td>
     <td>
-      <a href="/archive/mediawiki_wiki/KIM-recommendations" title="KIM-recommendations">DINI AG KIM - RDF-Representation of Bibliographic Data</a>
+      <a href="/mediawiki_wiki/KIM-recommendations.md" title="KIM-recommendations">DINI AG KIM - RDF-Representation of Bibliographic Data</a>
     </td>
     <td>
     </td>
@@ -213,7 +213,7 @@ Pre-Task Group calls, within the [Architecture Forum](http://dublincore.org/grou
     <td>CS-6
     </td>
     <td>
-      <a href="/archive/mediawiki_wiki/DDB-EDM" title="DDB-EDM">Use of EDM in the Deutsche Digitale Bibliothek</a>
+      <a href="/mediawiki_wiki/DDB-EDM.md" title="DDB-EDM">Use of EDM in the Deutsche Digitale Bibliothek</a>
     </td>
     <td>done
     </td>
@@ -222,7 +222,7 @@ Pre-Task Group calls, within the [Architecture Forum](http://dublincore.org/grou
     <td>CS-18
     </td>
     <td>
-      <a href="/archive/mediawiki_wiki/OER-world-map" title="OER-world-map">OER World Map prototype</a>
+      <a href="/mediawiki_wiki/OER-world-map.md" title="OER-world-map">OER World Map prototype</a>
     </td>
     <td>done
     </td>
@@ -231,7 +231,7 @@ Pre-Task Group calls, within the [Architecture Forum](http://dublincore.org/grou
     <td>CS-8
     </td>
     <td>
-      <a href="/archive/mediawiki_wiki/CSC" title="CSC">Reusing CEN EuroLMAI, DC etc. in academia</a>
+      <a href="/mediawiki_wiki/CSC.md" title="CSC">Reusing CEN EuroLMAI, DC etc. in academia</a>
     </td>
     <td>
     </td>
@@ -240,7 +240,7 @@ Pre-Task Group calls, within the [Architecture Forum](http://dublincore.org/grou
     <td>
     </td>
     <td>
-      <a href="/archive/mediawiki_wiki/RFC-6906-Profiles" title="RFC-6906-Profiles">Using RFC 6906 Profiles to specify a profile independently of the media type</a>
+      <a href="/mediawiki_wiki/RFC-6906-Profiles.md" title="RFC-6906-Profiles">Using RFC 6906 Profiles to specify a profile independently of the media type</a>
     </td>
     <td>
     </td>
@@ -249,7 +249,7 @@ Pre-Task Group calls, within the [Architecture Forum](http://dublincore.org/grou
     <td>CS-17
     </td>
     <td>
-      <a href="/archive/mediawiki_wiki/TinyArchive" title="TinyArchive">Tiny Archive</a>
+      <a href="/mediawiki_wiki/TinyArchive.md" title="TinyArchive">Tiny Archive</a>
     </td>
     <td>done
     </td>

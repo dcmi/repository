@@ -17,7 +17,7 @@ This page has been accessed 98,626 times.
 
 <pre>DCAM 2012-08-14 telecon - report
 
-Identifier: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120814" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120814</a>
+Identifier: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120814.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120814</a>
 
 Present: Tom, AaronR, MichaelP, MarkM, Antoine.
 

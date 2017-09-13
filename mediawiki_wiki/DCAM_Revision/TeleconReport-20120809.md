@@ -17,7 +17,7 @@ This page has been accessed 91,765 times.
 
 <pre>DCAM 2012-08-09 telecon - report
 
-Identifier: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120809" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120809</a>
+Identifier: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120809.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120809</a>
 See also follow-up posting by Tom at <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=dc-architecture;e0aaaea8.1208" class="external free" rel="nofollow">https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=dc-architecture;e0aaaea8.1208</a>
 
 Present: Tom, Karen, Richard, Jon (IRC)

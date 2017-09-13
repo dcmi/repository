@@ -16,7 +16,7 @@ This page was last modified on 21 December 2011, at 17:09.
 This page has been accessed 128,771 times.
 
 <pre>--&gt;| sebheath (~sfsh@pool-108-21-118-217.nycmny.east.verizon.net) has joined #dcmi
-       tbaker Agenda: <a href="/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20111221" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20111221</a>
+       tbaker Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20111221.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20111221</a>
 tbaker Dial-in: +1-218-936-4141, Participant Access Code 334034,
 sebheath tbaker: i'm somewhat lurking. i'm particularly interested in the schema.org/dcmi conversation and corey harper suggested i visit here.
 sebheath edsu: hi. this is the sebastian heath from nyu. linked ancient world data...
@@ -40,14 +40,14 @@ tbaker Scribes: Corey and Tom
 chrpr1 tbaker: 2 main questions:
 chrpr1 * What requirements does dcam address / who's it's audience?
 chrpr1 * Should it be based explicitly on RDF or formulated as more abstract?
-chrpr1 Agenda, w/ links to the discussion points posted on list recently: <a href="/archive/mediawiki_wiki/DCAM_Revision" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
+chrpr1 Agenda, w/ links to the discussion points posted on list recently: <a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
 jonphip__ DCAM provides a realistic bridge between the RDF and XML models and I'd like to see that retained
 kcoylenet are there validation requirements?
 chrpr1 Antoine's message describes DCAM as presenting SemWeb compatible data-modeling at a more accessible level than RDF itself.
 chrpr1 Ties into Jane's point about supporting semweb education in LIS context.
 --&gt;| Gordon_ (~Gordon@host-2-99-9-241.as13285.net) has joined #dcmi
 tbaker Stuart: framing it as "here's the way out of the wilderness" is misplaced.
-chrpr1 Some of the history Stuart's describing were written up last year here: <a href="/archive/mediawiki_wiki/Review_of_DCMI_Abstract_Model" class="external free" rel="nofollow">/archive/mediawiki_wiki/Review_of_DCMI_Abstract_Model</a>
+chrpr1 Some of the history Stuart's describing were written up last year here: <a href="/mediawiki_wiki/Review_of_DCMI_Abstract_Model.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Review_of_DCMI_Abstract_Model</a>
 tbaker ...DCAM reflects evolution that began before RDF - basic grammatical principles were originally not RDF. That hasn't gone away.
 tbaker ...Many people could benefit from DCAM who do not (at least currently) intend to move to "promised land" of RDF.
 tbaker ...Should not be apologetic about concepts such as one-to-one.
