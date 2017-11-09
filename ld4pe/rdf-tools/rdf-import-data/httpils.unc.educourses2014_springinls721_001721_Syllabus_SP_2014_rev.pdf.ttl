@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://ils.unc.edu/courses/2014_spring/inls721_001/721_Syllabus_SP_2014_rev.pdf>
+  a schema:CreativeWork ;
+  schema:name "INLS721: Cataloging Theory and Practice"@en-US ;
+  schema:author "Gunther, Wanda | Keizer, Caroline"@en-US ;
+  schema:description "This course is about how to create bibliographic records for library materials. It is also about how to manage all those bibliographic records created. These skills are of little use without an understanding of why we create catalogs, how the pieces of a catalog fit together, and the place of the catalog within the library. Knowing how a library catalog is constructed and how it works will serve you well in your future as a librarian, even if you never intend to become a cataloger. The aim of the course is to bring all students to a useful understanding of cataloging. Because of the detail-oriented nature of cataloging and the overwhelming number of instructions and other documentation involved, many people come to this class with a dread or fear of the topic. Do not despair. The important thing to keep in mind is that you are NOT expected to memorize all of the specific detailed instructionsor which punctuation mark to use in every situation. It is more important that you learn: ? How to find the appropriate instructions/documentation for the situation at hand, and ? How to interpret what you find. Not everyone has the interests and traits that lead some of us to enjoy cataloging. However, we hope you all leave this class knowing why cataloging is important and that you are able to see why cataloging is fascinating to some people?to see some of the challenging practical and intellectual puzzles that are involved. (And hopefully even a bit of the fun of cataloging. Yes, fun!)"@en-US ;
+  schema:about "Cataloging"@en-US, "MARC formats"@en-US ;
+  schema:publisher "School of Information and Library Science, University of North Carolina- Chapel Hill"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

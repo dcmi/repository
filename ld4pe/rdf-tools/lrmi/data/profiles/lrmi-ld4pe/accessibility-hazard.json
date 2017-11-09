@@ -1,0 +1,32 @@
+[
+    {
+        "label": "Flashing",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/flashing",
+        "type" : "uri"
+    },
+    {
+        "label": "No Flashing Hazard",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noFlashingHazard",
+        "type" : "uri"
+    },
+    {
+        "label": "Motion Simulation",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/motionSimulation",
+        "type" : "uri"
+    },
+    {
+        "label": "No Motion Simulation Hazard",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noMotionSimulationHazard",
+        "type" : "uri"
+    },
+    {
+        "label": "Sound",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/sound",
+        "type" : "uri"
+    },
+    {
+        "label": "No Sound Hazard",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noSoundHazard",
+        "type" : "uri"
+    }
+]

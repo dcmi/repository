@@ -1,0 +1,32 @@
+[
+    {
+        "label": "Control del Teclado Completo",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullKeyboardControl",
+        "type" : "uri"
+    },
+    {
+        "label": "Control Total del Ratón",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullMouseControl",
+        "type" : "uri"
+    },
+    {
+        "label": "Interruptor de Control Completo",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullSwitchControl",
+        "type" : "uri"
+    },
+    {
+        "label": "Touch Control Completo",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullTouchControl",
+        "type" : "uri"
+    },
+    {
+        "label": "Vídeo Control Total",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullVideoControl",
+        "type" : "uri"
+    },
+    {
+        "label": "Control de voz Completa",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullVoiceControl",
+        "type" : "uri"
+    }
+]

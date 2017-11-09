@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.linkeddatatools.com/introducing-rdfs-owl>
+  a schema:CreativeWork ;
+  schema:name "Tutorial 4: Introducing RDFS & OWL"@en-US ;
+  schema:author "LinkedDataTools.com"@en-US ;
+  schema:description "After this tutorial, you should be able to: Understand how RDF data models are semantically encoded using RDFS and OWL. Understand that OWL ontologies are RDF documents. Understand OWL classes, subclasses and individuals. Understand OWL properties. Build your own basic ontology, step by step."@en-US ;
+  schema:dateCreated "2009-01-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "RDF"@en-US, "RDF Schema"@en-US, "Web Ontology Language (OWL)"@en-US, "Ontology"@en-US, "Taxonomy"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

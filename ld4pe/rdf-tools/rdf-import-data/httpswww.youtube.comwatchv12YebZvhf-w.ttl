@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=12YebZvhf-w>
+  a schema:CreativeWork ;
+  schema:name "Simple SPARQL Tutorial 26/29: Querying a SPARQL Service"@en-US ;
+  schema:author "Sadawi, Noureddin"@en-US ;
+  schema:description "Building on the previous tutorial, which showed how to query a remote dataset using the FROM keyword, this tutorial shows how to query a SPARQL endpoint using the SERVICE keyword. The instructor runs into a few obstacles, but pushes through them."@en-US ;
+  schema:dateCreated "2014-03-03T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "SPARQL"@en-US, "Query"@en-US, "SPARQL endpoint"@en-US, "Dataset, RDF"@en-US, "Triple"@en-US, "Graph"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

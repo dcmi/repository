@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.linkeddatatools.com/querying-semantic-data>
+  a schema:CreativeWork ;
+  schema:name "Tutorial 5: Querying Semantic Data"@en-US ;
+  schema:author "LinkedDataTools.com"@en-US ;
+  schema:description "After this tutorial, you should be able to: Build your own basic SPARQL queries, step-by-step. Understand that SPARQL is not just a query language, it is also a protocol. Understand the XML format in which SPARQL protocol returns the results of queries. Try executing some SPARQL queries yourself on some UK government RDF data. Look ahead to SPARQL+ which has add, modify and delete capabilities."@en-US ;
+  schema:dateCreated "2009-01-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "RDF"@en-US, "XML"@en-US, "Query"@en-US, "SPARQL"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://conferences.infotoday.com/documents/210/1400_Aasman.pdf>
+  a schema:CreativeWork ;
+  schema:name "Using Taxonomies with a Semantic Graph Database"@en-US ;
+  schema:author "Aasman, Jan"@en-US ;
+  schema:description "This is a PPT version of a presentation originally given at Taxonomy Boot Camp 2014. It contains a practical example of how to use taxonomies to index and classify medical risks and then model them in AllegroGraph. It then goes further to show how to make this model even better by using Linked Open Data to connect to other datasets, such as SNOMED and MESH."@en-US ;
+  schema:dateCreated "2014-11-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Open Data"@en-US, "Dataset, RDF"@en-US, "RDF"@en-US, "Graph"@en-US, "Simple Knowledge Organization System (SKOS)"@en-US, "Web Ontology Language (OWL)"@en-US, "Taxonomy"@en-US, "Ontology"@en-US, "AllegroGraph"@en-US, "Gruff"@en-US, "Prolog"@en-US ;
+  schema:publisher "Franz Inc."@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

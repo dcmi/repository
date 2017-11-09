@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=MbauHV2-XYw>
+  a schema:CreativeWork ;
+  schema:name "Protege: How To Create Classes And Properties"@en-US ;
+  schema:author "Bikakis, Antonis"@en-US ;
+  schema:description "This video is about defining classes, properties, class hierarchies and property hierarchies in Protege 4."@en-US ;
+  schema:dateCreated "2013-02-18T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Ontology"@en-US, "OWL"@en-US, "Triple"@en-US, "Protege"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

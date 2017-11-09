@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://jena.apache.org/tutorials/sparql_union.html>
+  a schema:CreativeWork ;
+  schema:name "SPARQL Tutorial: Alternatives in a Pattern"@en-US ;
+  schema:description "This brief, text-based tutorial shows that another way of dealing with the semi-structured nature of RDF data is to query for one of a number of possibilities. This section covers UNION patterns, where one of a number of possibilities is tried. The example uses a case where a an RDF graph contains name information using both the vCard and FOAF vocabularies."@en-US ;
+  schema:about "RDF"@en-US, "Graph"@en-US, "Triple"@en-US, "VCard"@en-US, "FOAF"@en-US, "SPARQL"@en-US, "Query"@en-US, "Apache Jena"@en-US, "ARQ"@en-US ;
+  schema:publisher "The Apache Software Foundation"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

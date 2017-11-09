@@ -1,0 +1,102 @@
+[
+    {
+        "label": "Alternate Assessment",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/alternateAssessment",
+        "type": "uri"
+    },
+    {
+        "label": "Assessment Item",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/assessmentItem",
+        "type": "uri"
+    },
+    {
+        "label": "Course",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/course",
+        "type": "uri"
+    },
+    {
+        "label": "Dataset",
+        "value": "http://purl.org/dcx/pet/learningResourceType/dataset",
+        "type": "uri"
+    },
+    {
+        "label": "Demonstration/Simulation",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/demonstration-simulation",
+        "type": "uri"
+    },
+    {
+        "label": "Educator Curriculum Guide",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/educatorCurriculumGuide",
+        "type": "uri"
+    },
+    {
+        "label": "Formative Assessment",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/formativeAssessment",
+        "type": "uri"
+    },
+    {
+        "label": "Images/Visuals",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/images-visuals",
+        "type": "uri"
+    },
+    {
+        "label": "Interim/Summative Assessment",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/interim-summativeAssessment",
+        "type": "uri"
+    },
+    {
+        "label": "Learning Activity",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity",
+        "type": "uri"
+    },
+    {
+        "label": "Lesson",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/lesson",
+        "type": "uri"
+    },
+    {
+        "label": "Lesson Plan",
+        "value": "http://purl.org/dcx/pet/learningResourceType/lessonPlan",
+        "type": "uri"
+    },
+    {
+        "label": "Primary Source",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/primarySource",
+        "type": "uri"
+    },
+    {
+        "label": "Rubric Scoring Guide",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/rubricScoringGuide",
+        "type": "uri"
+    },
+    {
+        "label": "Self Assessment",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/selfAssessment",
+        "type": "uri"
+    },
+    {
+        "label": "Syllabus",
+        "value": "http://purl.org/dcx/pet/learningResourceType/syllabus",
+        "type": "uri"
+    },
+    {
+        "label": "Technical Specification",
+        "value": "http://purl.org/dcx/pet/learningResourceType/technicalSpecification",
+        "type": "uri"
+    },
+    {
+        "label": "Text",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/text",
+        "type": "uri"
+    },
+    {
+        "label": "Textbook",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/textbook",
+        "type": "uri"
+    },
+    {
+        "label": "Unit",
+        "value": "http://purl.org/dcx/lrmi-vocabs/learningResourceType/unit",
+        "type": "uri"
+    }
+]

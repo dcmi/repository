@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=N_GpbwMHeMQ>
+  a schema:CreativeWork ;
+  schema:name "Apache Jena Tutorial: Create RDF file using FOAF ontology"@en-US ;
+  schema:description "This tutorial (the second in a series of four), shows how create an RDF file using the FOAF ontology and FOAF-a-matic service, we will add this file into our project folder in Eclipse so we can use Jena to manipulate this data semantically. Very briefly discusses DBpedia at the end."@en-US ;
+  schema:dateCreated "2013-06-04T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Semantic Web"@en-US, "Apache Jena"@en-US, "API"@en-US, "Eclipse"@en-US, "FOAF"@en-US, "DBpedia"@en-US ;
+  schema:publisher "Betacoding"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

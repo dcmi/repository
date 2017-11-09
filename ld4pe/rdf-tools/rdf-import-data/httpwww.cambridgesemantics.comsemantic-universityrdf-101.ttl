@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.cambridgesemantics.com/semantic-university/rdf-101>
+  a schema:CreativeWork ;
+  schema:name "RDF-101"@en-US ;
+  schema:description "Topic: RDF data model; Competency: Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models In this lesson you will learn: 1) What RDF is and how it fundamentally differs from XML and relational databases; 2) What is meant by a \"graph data model\"; 3) How RDF is typically represented visually; 4) The importance of the URI, and the significance (or lack thereof) of identity \"universality\"."@en-US ;
+  schema:about "RDF"@en-US, "RDF Schema"@en-US, "HTTP URIs"@en-US, "Graph"@en-US, "Triple"@en-US, "Named Graph"@en-US, "Tuple"@en-US, "Relational Model"@en-US, "XML"@en-US ;
+  schema:publisher "Cambridge Semantics"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

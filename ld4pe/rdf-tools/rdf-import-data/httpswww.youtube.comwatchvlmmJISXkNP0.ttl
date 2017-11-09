@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=lmmJISXkNP0>
+  a schema:CreativeWork ;
+  schema:name "DBpedia semantic search with Explore & Query by Vinge Free"@en-US ;
+  schema:author "Kerstna, Jurgen"@en-US ;
+  schema:description "Demonstration of Explore & Query, a new visual search method for the Semantic Web. The presenter builds an advanced SPARQL query- without writing any code- that uses DBpedia data to answer a complex question about professional soccer goalkeepers."@en-US ;
+  schema:dateCreated "2013-08-22T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "SPARQL"@en-US, "Query"@en-US, "DBpedia"@en-US, "Visual Search Method"@en-US ;
+  schema:publisher "Vinge Free"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

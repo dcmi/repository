@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=CHAPMjbK_QU>
+  a schema:CreativeWork ;
+  schema:name "Mining Linked Data"@en-US ;
+  schema:author "Valtchev, Petko"@en-US ;
+  schema:description "The technology underlying the WoD, called Linked Data (LD) allows for the construction of a global data graph in which data items are vertices related by edges of different nature. Entities, aka resources, as well as their links, aka properties, are globally identified through URLs. Beside this inherent graph structure, parts of the WoD can behave as a traditional, i.e., relational, database. After substantial efforts on the standards for publishing and querying of LD on the Web, and lately the interlinking and cleansing of sets of LD, the next big issue is properly extracting new knowledge from the WoD. The Data Mining (DM) discipline is about finding chunks of useful knowledge hidden in the data. DM methods are roughly divided into predictive ones, where past experience is analyzed in order to guess what the outcome of an unfolding situation, and descriptive ones whose aim is to provide insights into the regularities in the data without a specific goal. Mining LD is both useful and challenging for many reasons, not the least among them being the rich and complex graph structure induced by a large variety of link types, the availability of domain knowledge expressed as schemas, and even fully-blown ontologies, the heterogeneity in the modelling goals behind individual datasets, etc. In this talk we discuss the implications of LD for a specific branch of descriptive DM, called pattern mining. We present two different mining methods for that are complementary in many respects. The first one targets usage regularities: It analyses the consumption of resources from the WoD by the users of a specific semantic application and summarizes it as behavioral patterns. The second one mines purely descriptive patterns from a dataset of multiple resource types, which are expressed in a WoD-compliant language and therefore supports ontology design."@en-US ;
+  schema:dateCreated "2014-07-16T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Web of Data"@en-US, "Dataset, RDF"@en-US, "Graph"@en-US, "Ontology"@en-US, "Entity"@en-US, "Data Mining"@en-US ;
+  schema:publisher "Institut des sciences cognitives, UQAM, Montreal, Canada"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

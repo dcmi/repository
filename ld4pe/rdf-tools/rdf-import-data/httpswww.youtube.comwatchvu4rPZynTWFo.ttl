@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=u4rPZynTWFo>
+  a schema:CreativeWork ;
+  schema:name "Apache Jena Tutoria: Download and Setup Jena in Eclipse (Semantic Web Applications)"@en-US ;
+  schema:description "This tutorial (the first in a series of four), shows how to download and setup the Apache Jena API with Eclipse, so that the user can start developing Semantic Web applications using Jena and Eclipse."@en-US ;
+  schema:dateCreated "2013-06-04T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Semantic Web"@en-US, "Apache Jena"@en-US, "API"@en-US, "Eclipse"@en-US ;
+  schema:publisher "Betacoding"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

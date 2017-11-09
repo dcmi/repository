@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=3L1G5kh5jYg>
+  a schema:CreativeWork ;
+  schema:name "Karma Demonstration: Integrating Web APIs into the Linked Data Cloud"@en-US ;
+  schema:author "Taheriyan, Mohsen"@en-US ;
+  schema:description "The amount of data available in the Linked Data Cloud continues to grow. Yet, few services consume and produce Linked Data. There is recent work that allows a user to define a linked service from an online service, which includes the specifications for consuming and producing Linked Data, but building such models is time consuming and requires specialized knowledge of RDF and SPARQL. This video demonstrates the Karma data integration tool, a new approach that allows domain experts to rapidly create semantic models of services by demonstration in an interactive web-based interface. First, the user provides examples of the service request URLs. Then, the system automatically proposes a service model the user can refine interactively. Finally, the system saves a service specification using a new expressive vocabulary that includes lowering and lifting rules. This approach empowers end users to rapidly model existing services and immediately use them to consume and produce Linked Data."@en-US ;
+  schema:dateCreated "2012-11-11T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Open Data"@en-US, "Linked Open Data Cloud"@en-US, "API"@en-US, "Karma"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

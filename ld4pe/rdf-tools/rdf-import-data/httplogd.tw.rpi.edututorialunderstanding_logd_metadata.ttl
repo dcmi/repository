@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://logd.tw.rpi.edu/tutorial/understanding_logd_metadata>
+  a schema:CreativeWork ;
+  schema:name "Understanding Linked Open Government Data Metadata"@en-US ;
+  schema:author "Ding, Li | Lebo, Tim"@en-US ;
+  schema:description "By the end of this tutorial you should be able to understand the structure of LOGD data, from which source the dataset was obtained, from which OGD dataset the RDF-based LOGD dataset was converted, the human contribute registry metadata for LOGD datasets, and etc. This tutorial complements the tutorial Understanding LOGD Data. This tutorial assumes you are familiar with concepts found in the following resources: Resource Description Framework (RDF) is a standard model for data interchange on the Web. Terse RDF Triple Language (Turtle) is a syntax language for serializing RDF. We use it throughout our tutorials to encode RDF data."@en-US ;
+  schema:dateCreated "2010-10-12T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Open Data"@en-US, "Government Open Data"@en-US, "Metadata"@en-US, "RDF"@en-US, "Dataset, RDF"@en-US, "RDF/XML"@en-US, "Turtle"@en-US ;
+  schema:publisher "TWC LOGD"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

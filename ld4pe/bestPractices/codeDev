@@ -1,0 +1,33 @@
+(1) Have a master version of project code inside version control (Github).
+
+(2) Have specific tasks on a roadmap that are divided up against the
+dev. team.**
+
+(3) A dev. works on their local environment which is simply a clone from
+the master in Github.
+
+(4) When a dev. is ready to share code (i.e. they've tested it and are
+ready) they issue a pull request against the master version in Github.
+The pull request should have details about what was done.
+
+(5) Maintainers of the master version can review the pull request.
+Does the code look good?  Anything missing?  Talk it out with the dev.
+
+(6) Maintainer can approve the pull request and the code gets committed
+into the master.
+
+(7) Depending on the pull request, can the maintainer simply update
+the code on the live site?  Are there any specific steps that need
+to occur i.e. new menus or workflows added that this code introduces?
+All of this kind of information should be provided by the dev.
+
+(8)Maintainer might need to do some light testing to make sure things
+are OK after the new update.
+
+(9)Code is now live, everyone is happy.
+
+** How detailed here, really depends on well we can plan. Ideally,
+the dev's would say, it will take us "X" number of weeks (hours?) to
+do this task.  Then as weekly stand-up reports come in, we talk and the
+roadmap gets revised as necessary.  If we consistently need to revise the
+roadmap and projected timelines, we need to get better at forecasting :-)

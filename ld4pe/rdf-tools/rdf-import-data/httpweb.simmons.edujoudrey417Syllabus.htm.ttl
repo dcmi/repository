@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://web.simmons.edu/~joudrey/417/Syllabus.htm>
+  a schema:CreativeWork ;
+  schema:name "LIS 417: Subject Cataloging and Classification"@en-US ;
+  schema:author "Joudrey, Daniel N."@en-US ;
+  schema:description "This course addresses the theories, principles, and practices of subject cataloging and classification. It covers the application of national standards to the creation of bibliographic records and to the construction of catalogs in libraries and other information environments. It teaches the concepts of subject cataloging including: understanding the various approaches to and pitfalls in determining aboutness; the theoretical foundations, structure, and the application of Libray of Congress Subject Headings (LCSH) in subject cataloging; the application of the policies in the LC Subject Headings Manual; and complex number building in Dewey Decimal Classification (DDC) and Library of Congress Classification (LCC). The course also includes examinations of the history and theoretical foundations of subject cataloging and classification and explores other subject access systems from around the world. May include readings, discussions, presentations, exams, and written exercises."@en-US ;
+  schema:about "Classification"@en-US, "Cataloging"@en-US ;
+  schema:publisher "GSLIS, Simmons College"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

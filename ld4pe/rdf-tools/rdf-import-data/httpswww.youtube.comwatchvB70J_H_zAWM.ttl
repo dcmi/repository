@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=B70J_H_zAWM>
+  a schema:CreativeWork ;
+  schema:name "Google Refine 2.0 - Introduction (1 of 3) (video version 2)"@en-US ;
+  schema:description "This introduction shows how Google Refine (now known as Open Refine) is a useful desktop application for looking at raw data (especially large datasets) and exploring it to get an idea, or big picture, of what it contains. It is also a useful tool for discovering inconsistencies and fixing them."@en-US ;
+  schema:dateCreated "2011-07-19T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Google Refine"@en-US, "Open Refine"@en-US, "Raw Data"@en-US, "Data Transformation"@en-US ;
+  schema:publisher "Google Refine"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

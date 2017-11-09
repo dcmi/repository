@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=r7N7s1yejFQ>
+  a schema:CreativeWork ;
+  schema:name "Simple SPARQL Tutorial 1/29: Overview"@en-US ;
+  schema:author "Sadawi, Noureddin"@en-US ;
+  schema:description "In this video (number 1 of 29 total) the presenter explains how he intends to use the textbook Learning SPARQL, by Bob DuCharme (OReilly, 2011) to teach the viewer SPARQL query language."@en-US ;
+  schema:dateCreated "2014-03-03T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "SPARQL"@en-US, "Query"@en-US, "RDF"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

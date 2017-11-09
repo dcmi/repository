@@ -1,0 +1,143 @@
+<div class="row">
+  <alert ng-repeat="alert in alerts" type="alert.type" close="alert.close()">{{ alert.msg || 'load.static.FATAL_ERROR' | translate}}</alert>
+</div>
+<p class="lead" translate>
+  load.static.RESOURCE_WELCOME
+</p>
+<div class="row">
+  <div class="col-md-9">
+    <!-- DIV...not a form...because of x-editable -->
+    <div class="form-horizontal" role="form" name="myform" ng-cloak>
+      <!-- Required Fields - Many partials as we test and add fields.  Reduce when ready -->
+      <fieldset>
+        <legend class="form-identifier" translate></legend>
+        <!-- <div class="form-group" ng-include="'partials/forms/lrmi/fields/field-url.html'"></div> -->
+        <div class="form-group">
+          <label class="col-xs-3 col-md-2 control-label"><span translate>load.static.FIELD_LABEL_URL</span>:</label>
+          <div class="col-xs-7 col-md-9">
+            <div class="input-group">
+              <input class="form-control" ng-model="form.url">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button" ng-click="fetchRecord()"><i class="fa fa-search"></i> <span translate>load.static.FIELD_BUTTON_URL</span></button>
+              </span>
+            </div>
+            <span ng-show="definitions" class="help-block" translate>load.static.FIELD_HELP_URL</span>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset ng-disabled="hideForm">
+        <legend><em translate>load.static.LEGEND_GENERAL</em></legend>
+        <div ng-repeat="name in form.names">
+          <div rdf-literal-text-field item="name" collection="form.names" languages="wslang" index="{{$index}}" data-default-language="{{defaultLanguage}}" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_NAME" data-help="load.static.FIELD_HELP_NAME"></div>
+        </div>
+        <div ng-repeat="description in form.descriptions">
+          <div rdf-literal-text-area languages="wslang" item="description" collection="form.descriptions" index="{{$index}}" data-default-language="{{defaultLanguage}}" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_DESCRIPTION" data-help="load.static.FIELD_HELP_DESCRIPTION"></div>
+        </div>
+        <div rdf-non-literal-multi-select-grouped options="wscompetencyindex" collection="form.competencyindexes" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_COMPETENCY_INDEX" data-help="load.static.FIELD_HELP_COMPETENCY_INDEX"></div>
+        <div ng-repeat="topic in form.abouts">
+          <div rdf-literal-text-field item="topic" collection="form.abouts" languages="wslang" index="{{$index}}" data-default-language="{{defaultLanguage}}" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_ABOUT" data-help="load.static.FIELD_HELP_ABOUT"></div>
+        </div>
+        <div class="form-group">
+          <label class="col-xs-3 col-md-2 control-label">
+            <span translate>load.static.FIELD_LABEL_IN_LANGUAGE</span>:
+          </label>
+          <div class="col-md-9 col-xs-9">
+            <a href="#" editable-select="form.inlanguages" e-multiple e-ng-options="s as s.label for s in wslanguages track by s.value">
+              {{ showLanguages() || 'load.static.NOTSET' | translate}}
+            </a>
+            <span ng-show="definitions" class="help-block" translate>load.static.FIELD_HELP_IN_LANGUAGE</span>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset ng-disabled="hideForm">
+        <legend><em translate>load.static.LEGEND_COMPETENCIES</em></legend>
+        <!-- <div class="form-group" ng-include="'partials/forms/lrmi/fields/field-educational-alignment.html'"></div> -->
+        <div ng-repeat="alignment in form.educationalalignments">
+          <div class="form-group">
+            <label class="col-xs-3 col-md-2 control-label">
+              <span translate>load.static.FIELD_LABEL_EDUCATIONAL_ALIGNMENT</span><br/>
+              <a href="#" editable-select="alignment.alignmentType" e-ng-options="l.value as l.value for l in wsalignmenttype" buttons="no">
+                {{ alignment.alignmentType || 'load.static.NOTSET' | translate}}:
+              </a>
+            </label>
+            <div class="col-xs-7 col-md-9">
+              <div angucomplete-alt id="ext_{{$index}}" input-class="auto-complete form-control" placeholder="{{ 'load.static.SEARCH_COMPETENCIES' || 'load.static.NOTSET' | translate}}" pause="500" selected-object="alignment['alo']" remote-url="{{sparqlEndpoint}}" remote-url-request-formatter="remoteUrlRequestFn" remote-url-response-formatter="remoteUrlResponseFn" title-field="targetDescription" description-field="targetUrl" minlength="2" match-class="highlight" initial-value="{{alignment['alo']['originalObject'].targetDescription}}"></div>
+              <span ng-show="$index == 0 && definitions" class="help-block" translate>
+                load.static.FIELD_HELP_EDUCATIONAL_ALIGNMENT
+              </span>
+            </div>
+            <div class="col-xs-2 col-md-1">
+              <button ng-show="$index == 0" type="button" class="btn btn-link btn-xs" ng-click="addTypedLiteral('educationalalignments')">
+                <i class="fa fa-plus fa-lg green"></i>
+              </button>
+              <button ng-show="$index != 0" type="button" class="btn btn-link btn-xs" ng-click="removeLiteral('educationalalignments', $index)">
+                <i class="fa fa-times fa-lg red"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset ng-disabled="hideForm">
+        <legend><em translate>load.static.LEGEND_RIGHTS</em></legend>
+        <div ng-repeat="author in form.authors">
+          <div rdf-literal-text-field item="author" collection="form.authors" languages="wslang" index="{{$index}}" data-default-language="{{defaultLanguage}}" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_AUTHOR" data-help="load.static.FIELD_HELP_AUTHOR"></div>
+        </div>
+        <div ng-repeat="publisher in form.publishers">
+          <div rdf-literal-text-field item="publisher" collection="form.publishers" languages="wslang" index="{{$index}}" data-default-language="{{defaultLanguage}}" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_PUBLISHER" data-help="load.static.FIELD_HELP_PUBLISHER"></div>
+        </div>
+        <div ng-repeat="license in form.licenses">
+          <div rdf-literal-uri-text-field item="license" collection="form.licenses" index="{{$index}}" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_LICENSE" data-help="load.static.FIELD_HELP_LICENSE"></div>
+        </div>
+        <div class="form-group">
+          <label class="col-lg-2 col-md-2 col-xs-3 control-label"><span translate>load.static.FIELD_LABEL_CREATED</span>:</label>
+          <div class="col-lg-9 col-md-9 col-xs-9">
+            <a href="#" editable-bsdate="form.created[0].value" e-datepicker-popup="yyyy-MM-dd" e-show-weeks="false" buttons="yes">
+            {{ (form.created[0].value | date:"yyyy-MM-dd") || 'load.static.NOTSET' | translate }}
+            </a>
+            <span ng-show="definitions" class="help-block" translate>load.static.FIELD_HELP_CREATED</span>
+          </div>
+        </div>
+        <div ng-repeat="url in form.isbasedonurls">
+          <div rdf-literal-uri-text-field item="url" collection="form.isbasedonurls" index="{{$index}}" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_IS_BASED_ON_URL" data-help="load.static.FIELD_HELP_IS_BASED_ON_URL"></div>
+        </div>
+      </fieldset>
+      <fieldset ng-disabled="hideForm">
+        <legend><em translate>load.static.LEGEND_PEDAGOGY</em></legend>
+        <div rdf-non-literal-checkbox options="wseducationaluse" collection="form.educationaluses" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_EDUCATIONAL_USE" data-help="load.static.FIELD_HELP_EDUCATIONAL_USE"></div>
+        <div rdf-non-literal-checkbox options="wslearningresourcetype" collection="form.learningresourcetypes" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_LEARNING_RESOURCE_TYPE" data-help="load.static.FIELD_HELP_LEARNING_RESOURCE_TYPE"></div>
+        <div rdf-non-literal-checkbox options="wseducationalaudience" collection="form.educationalaudiences" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_EDUCATIONAL_AUDIENCE" data-help="load.static.FIELD_HELP_EDUCATIONAL_AUDIENCE"></div>
+        <div rdf-non-literal-checkbox options="wsproficiencylevel" collection="form.proficiencylevels" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_PROFICIENCY_LEVEL" data-help="load.static.FIELD_HELP_PROFICIENCY_LEVEL"></div>
+        <!-- <div class="form-group" ng-include="'partials/forms/lrmi/fields/field-typical-age-range.html'"></div> -->
+        <div class="form-group">
+          <label class="col-xs-3 col-md-2 control-label"><span translate>load.static.FIELD_LABEL_TYPICAL_AGE_RANGE</span>:</label>
+          <div class="col-xs-7 col-md-9">
+              <input class="form-control" ng-model="form.typicalagerange[0].value" />
+              <span ng-show="definitions" class="help-block" translate>load.static.FIELD_HELP_TYPICAL_AGE_RANGE</span>
+          </div>
+        </div>
+        <!-- <div class="form-group" ng-include="'partials/forms/lrmi/fields/field-time-required.html'"></div> -->
+        <div class="form-group">
+          <label class="col-xs-3 col-md-2 control-label"><span translate>load.static.FIELD_LABEL_TIME_REQUIRED</span>:</label>
+          <div class="col-xs-7 col-md-9">
+              <input class="form-control" ng-model="form.timerequired[0].value" />
+              <span ng-show="definitions" class="help-block" translate>load.static.FIELD_HELP_TIME_REQUIRED</span>
+          </div>
+        </div>
+        <div rdf-non-literal-checkbox options="wsinteractivitytype" collection="form.interactivitytypes" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_INTERACTIVITY_TYPE" data-help="load.static.FIELD_HELP_INTERACTIVITY_TYPE"></div>
+      </fieldset>
+      <fieldset ng-disabled="hideForm">
+        <legend><em translate>load.static.LEGEND_ACCESSIBILITY</em></legend>
+        <div rdf-non-literal-checkbox options="wsaccessibilityapi" collection="form.accessibilityapis" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_ACCESSIBILITY_API" data-help="load.static.FIELD_HELP_ACCESSIBILITY_API"></div>
+        <div rdf-non-literal-checkbox options="wsaccessibilitycontrol" collection="form.accessibilitycontrols" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_ACCESSIBILITY_CONTROL" data-help="load.static.FIELD_HELP_ACCESSIBILITY_CONTROL"></div>
+        <div rdf-non-literal-checkbox options="wsaccessibilityfeature" collection="form.accessibilityfeatures" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_ACCESSIBILITY_FEATURE" data-help="load.static.FIELD_HELP_ACCESSIBILITY_FEATURE"></div>
+        <div rdf-non-literal-checkbox options="wsaccessibilityhazard" collection="form.accessibilityhazards" data-definition="{{definitions}}" data-label="load.static.FIELD_LABEL_ACCESSIBILITY_HAZARD" data-help="load.static.FIELD_HELP_ACCESSIBILITY_HAZARD"></div>
+      </fieldset>
+      <div class="form-group pull-right">
+        <button ng-disabled="hideForm" class="btn btn-danger" ng-click="delete()"><i class="fa fa-times"></i> <span translate>load.static.BUTTON_DELETE_RDF</span></button>
+        <a ng-disabled="hideForm" href="#/home" class="btn btn-warning"><i class="fa fa-minus-circle"></i> <span translate>load.static.BUTTON_CANCEL</span></a>
+        <!-- <button ng-disabled="hideForm" class="btn btn-info" ng-click="preview()"><i class="fa fa-cog"></i> <span translate>load.static.BUTTON_PREVIEW_RDF</span></button> -->
+        <button ng-disabled="hideForm" class="btn btn-success" ng-click="update()"><i class="fa fa-save"></i> <span translate>load.static.BUTTON_SUBMIT_RDF</span></button>
+      </div>
+    </div>
+  </div>
+</div>

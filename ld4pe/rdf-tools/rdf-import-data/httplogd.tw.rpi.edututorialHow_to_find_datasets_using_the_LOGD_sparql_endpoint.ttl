@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://logd.tw.rpi.edu/tutorial/How_to_find_datasets_using_the_LOGD_sparql_endpoint>
+  a schema:CreativeWork ;
+  schema:name "How to find datasets using the LOGD sparql endpoint"@en-US ;
+  schema:author "Lebo, Tim | Ding, Li"@en-US ;
+  schema:description "SPARQL queries to describe datasets in the LOGD triple store. After checking out the live LOGD Data Description and Statistics (http://logd.tw.rpi.edu/twc-logd), we encourage you to start exploring TWCs Linking Open Government Data (http://logd.tw.rpi.edu/) using the LOGD SPARQL endpoint (http://logd.tw.rpi.edu/sparql). For more specific types of queries, see the tutorial:Exploring LOGD Metadata with SPARQL Queries ."@en-US ;
+  schema:dateCreated "2011-07-09T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Open Data"@en-US, "Linked Open Data Cloud"@en-US, "Government Open Data"@en-US, "Dataset, RDF"@en-US, "SPARQL"@en-US, "SPARQL endpoint"@en-US ;
+  schema:publisher "TWC LOGD"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

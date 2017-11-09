@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://wiz.skku.edu/wiz/user/ischool/uploadfiles/Designing_Semantic_Web_Systems_Oh.pdf>
+  a schema:CreativeWork ;
+  schema:name "Designing Semantic Web Systems"@en-US ;
+  schema:author "Oh, Sam"@en-US ;
+  schema:description "The field of ontology design is a rapidly growing area in the modern information world. This course provides an in-depth study of the current and historical theory and practice surrounding the design, application and practice of ontologies. Particular attention is paid to emerging standards and practices in the semantic web and other modern information services, including new languages and services being developed to express these ontologies such as RDF, OWL, and Topic Maps. The study of ontologies is an underpinning of modern information management. This course will investigate semantic interoperability among different ontologies and elaborate on concepts and technology related to Topic Maps, RDF Schema, and Web Ontology Language (OWL) to achieve semantic data modeling of complex data that exist in the real world."@en-US ;
+  schema:about "XML"@en-US, "Semantic Web"@en-US ;
+  schema:publisher "Sungkyunkwan University"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

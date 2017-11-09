@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=0oOwrBEeQss>
+  a schema:CreativeWork ;
+  schema:name "Build a Small Knowledge Graph Part 2 of 3: Managing Graph Data With Cayley"@en-US ;
+  schema:author "Michener, Barak"@en-US ;
+  schema:description "This is the second video in a 3-part series. It introduces the userto graph processing using Cayley, an open source graph database written in Go. Cayley is fast, free, and easy to get started with. Clone it from this repository: https://github.com/google/cayley or try the demo dataset in a live instance running on Google App Engine: http://cayley-graph.appspot.com/."@en-US ;
+  schema:dateCreated "2014-06-25T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Knowledge Graph"@en-US, "Triple"@en-US, "Schema.org"@en-US, "Freebase"@en-US, "Cayley"@en-US, "Go"@en-US ;
+  schema:publisher "Google Developers"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

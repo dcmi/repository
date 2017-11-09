@@ -1,0 +1,17 @@
+[
+    {
+        "label": "Active",
+        "value": "http://purl.org/dcx/lrmi-vocabs/InteractivityType/active",
+        "type" : "uri"
+    },
+    {
+        "label": "Expositive",
+        "value": "http://purl.org/dcx/lrmi-vocabs/interactivityType/expositive",
+        "type" : "uri"
+    },
+    {
+        "label": "Mixed",
+        "value": "http://purl.org/dcx/lrmi-vocabs/interactivityType/mixed",
+        "type" : "uri"
+    }
+]

@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=y2jbA2pQL44>
+  a schema:CreativeWork ;
+  schema:name "Simple SPARQL Tutorial 24/29: Searching with Blank Nodes"@en-US ;
+  schema:author "Sadawi, Noureddin"@en-US ;
+  schema:description "Building on the previous tutorial of the series, this tutorial shows how to construct and run SELECT queries when a dataset has blank nodes."@en-US ;
+  schema:dateCreated "2014-03-03T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "SPARQL"@en-US, "Query"@en-US, "Dataset, RDF"@en-US, "Triple"@en-US, "Graph"@en-US, "Skolemization"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

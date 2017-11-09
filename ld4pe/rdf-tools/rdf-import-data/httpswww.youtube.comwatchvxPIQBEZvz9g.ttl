@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=xPIQBEZvz9g>
+  a schema:CreativeWork ;
+  schema:name "Practical Work in Linked Data using Digital Collections: Unleashing the Expressivity of Data"@en-US ;
+  schema:author "Southwick, Silvis | Lampert, Cory"@en-US ;
+  schema:description "The University of Nevada, Las Vegas (UNLV) Linked Data Project provides a case study of the complex topic of linked open data, from emerging concept in librarianship to practical outcome. The project began with a small academic library study group created in April 2012 and was comprised of professionals from various functional areas. The initial goal was to better understand linked data concepts and potential benefits to the Libraries. In October 2012 after reviewing literature, attending presentations, and discussing concepts, UNLV Digital Collections designed an exploratory project. Because there was very little in the literature about how to practically implement linked data in digital collections, the team decided to focus on the transformation of typical digital collections metadata. The project made significant progress outlining technologies, tools, and models that can be implemented by librarians. This presentation covers basic concepts of linked data, the rationale for libraries to start preparing for adopting linked data, followed by a demonstration of visualization tools operating on the linked data generated from UNLVs digital collections."@en-US ;
+  schema:dateCreated "2014-06-18T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Metadata"@en-US, "Data Visualization"@en-US ;
+  schema:publisher "Coalition for Networked Information (CNI)"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

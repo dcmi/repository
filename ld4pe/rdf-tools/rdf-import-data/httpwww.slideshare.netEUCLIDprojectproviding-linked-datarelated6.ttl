@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/EUCLIDproject/providing-linked-data?related=6>
+  a schema:CreativeWork ;
+  schema:name "Providing Linked Data"@en-US ;
+  schema:author "Norton, Barry"@en-US ;
+  schema:description "This presentation covers the whole spectrum of Linked Data production and exposure. After a grounding in the Linked Data principles and best practices, with special emphasis on the VoID vocabulary, we cover R2RML, operating on relational databases, Open Refine, operating on spreadsheets, and GATECloud, operating on natural language. Finally we describe the means to increase interlinkage between datasets, especially the use of tools like Silk."@en-US ;
+  schema:dateCreated "2013-04-27T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "VoID"@en-US, "DBpedia"@en-US, "Open Refine"@en-US, "Silk"@en-US ;
+  schema:publisher "EUCLID Project"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

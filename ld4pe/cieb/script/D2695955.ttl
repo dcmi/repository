@@ -1,0 +1,2584 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix asn: <http://asn.desire2learn.com/resources/> .
+@prefix asncore: <http://purl.org/ASN/schema/core/> .
+@prefix authstatus: <http://purl.org/ASN/scheme/ASNAuthorityStatus/> .
+@prefix ndxstatus: <http://purl.org/ASN/scheme/ASNIndexingStatus/> .
+@prefix iso639-2: <http://id.loc.gov/vocabulary/iso639-2/> .
+@prefix gemq: <http://purl.org/gem/qualifiers/> .
+@prefix edlevel: <http://purl.org/ASN/scheme/ASNEducationLevel/> .
+@prefix topic: <http://purl.org/ASN/scheme/ASNTopic/> .
+@prefix juris: <http://purl.org/ASN/scheme/ASNJurisdiction/> .
+@prefix pubstatus: <http://purl.org/ASN/scheme/ASNPublicationStatus/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dce: <http://purl.org/dc/elements/1.1/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+asn:D2695955
+    asncore:conceptKeyword "Linked Data"@en-US, "Professional Education & Training"@en-US, "Resource Description Framework (RDF)"@en-US ;
+    asncore:jurisdiction juris:DCMI ;
+    asncore:publicationStatus pubstatus:Published ;
+    asncore:repositoryDate "2016-11-17"^^dct:W3CDTF ;
+    dce:publisher "Dublin Core Metadata Initiative (DCMI)"@en-US ;
+    dce:title "Competency Index for Linked Data"@en-US ;
+    dct:dateCopyright "2016"^^dct:W3CDTF ;
+    dct:description "The DCMI Competency Index for Linked Data (CILD) provides a set of topically cluster competency and benchmark assertions for knowledge, skills, and abilities for both those working with, and learning about, Linked Data design and application. Designed using RDF, the CILD represents each assertion of knowledge, skill, and ability as a resource identified by URI and, therefore, useful as Linked Data. The CILD was developed through funding by the U.S. Institute for Museum and Library Services (IMLS) -- https://www.imls.gov/."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:language iso639-2:eng ;
+    dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dct:rightsHolder "Dublin Core Metadata Initiative (DCMI)"@en-US ;
+    dct:source asn:D2695955 ;
+    dct:subject topic:careerEducation, topic:technology ;
+    dct:tableOfContents <http://asn.desire2learn.com/resources/D2695955_manifest.json> ;
+    dct:valid "2016"^^dct:W3CDTF ;
+    gemq:hasChild asn:S2695991, asn:S2695997, asn:S2696018, asn:S2696022, asn:S2696023, asn:S2696024 ;
+    <http://www.loc.gov/loc.terms/relators/aut> "Linked Data for Professional Education (LD4PE) Editorial Board"@en-US ;
+    a asncore:StandardDocument .
+
+<http://asn.desire2learn.com/resources/D2695955.xml>
+    cc:attributionName "D2L Corporation"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    cc:attributionURL asn:D2695955 ;
+    cc:license <http://creativecommons.org/licenses/by/3.0/us/> ;
+    asncore:exportVersion <http://purl.org/ASN/scheme/ASNExport/3.1.0> ;
+    dct:created "2015-10-30T19:49:04-04:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dct:modified "2015-10-30T19:49:04-04:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dct:rights <http://achievementstandards.org/legal/terms> ;
+    dct:rightsHolder "D2L Corporation"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    foaf:primaryTopic asn:D2695955 .
+
+asn:S2695991
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic Cluster"@en-US ;
+    dct:description "Fundamentals of Resource Description Framework"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2696001, asn:S2696007, asn:S2696012, asn:S2696017 ;
+    gemq:isChildOf asn:D2695955 ;
+    a asncore:Statement .
+
+asn:S2695997
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic Cluster"@en-US ;
+    dct:description "Fundamentals of Linked Data"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2696025, asn:S2696027, asn:S2696036, asn:S2696039 ;
+    gemq:isChildOf asn:D2695955 ;
+    a asncore:Statement .
+
+asn:S2696001
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Identity in RDF"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2709286, asn:S2731548, asn:S2742438, asn:S2742439 ;
+    gemq:isChildOf asn:S2695991 ;
+    a asncore:Statement .
+
+asn:S2696007
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "RDF data model"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2709295, asn:S2709296, asn:S2709297, asn:S2709298, asn:S2709299, asn:S2709875, asn:S2709997, asn:S2710003, asn:S2731549, asn:S2731551, asn:S2731552, asn:S2731590 ;
+    gemq:isChildOf asn:S2695991 ;
+    a asncore:Statement .
+
+asn:S2696012
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Related data models"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731554, asn:S2731555, asn:S2742440 ;
+    gemq:isChildOf asn:S2695991 ;
+    a asncore:Statement .
+
+asn:S2696017
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "RDF serialization"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2709805, asn:S2731556 ;
+    gemq:isChildOf asn:S2695991 ;
+    a asncore:Statement .
+
+asn:S2696018
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic Cluster"@en-US ;
+    dct:description "RDF vocabularies and application profiles"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2696044, asn:S2696051, asn:S2696058, asn:S2696061, asn:S2696065, asn:S2696069, asn:S2731561 ;
+    gemq:isChildOf asn:D2695955 ;
+    a asncore:Statement .
+
+asn:S2696022
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic Cluster"@en-US ;
+    dct:description "Creating and transforming Linked Data"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2696076, asn:S2696080, asn:S2696082, asn:S2696083, asn:S2696084, asn:S2696085 ;
+    gemq:isChildOf asn:D2695955 ;
+    a asncore:Statement .
+
+asn:S2696023
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic Cluster"@en-US ;
+    dct:description "Interacting with RDF data"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2696086, asn:S2696087, asn:S2696088, asn:S2696089, asn:S2696090, asn:S2696091, asn:S2709893, asn:S2709897 ;
+    gemq:isChildOf asn:D2695955 ;
+    a asncore:Statement .
+
+asn:S2696024
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic Cluster"@en-US ;
+    dct:description "Creating Linked Data applications"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2696092 ;
+    gemq:isChildOf asn:D2695955 ;
+    a asncore:Statement .
+
+asn:S2696025
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Web technology"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2742442, asn:S2742443, asn:S2742444, asn:S2742445, asn:S2742446, asn:S2742447 ;
+    gemq:isChildOf asn:S2695997 ;
+    a asncore:Statement .
+
+asn:S2696027
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Linked Data principles"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2696031, asn:S2742441 ;
+    gemq:isChildOf asn:S2695997 ;
+    a asncore:Statement .
+
+asn:S2696031
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows Tim Berners-Lee's principles of Linked Data: use URIs to name things, use HTTP URIs that can be resolved to useful information, and create links to URIs of other things."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696027 ;
+    a asncore:Statement .
+
+asn:S2696036
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Linked Data policies and best practices"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731559 ;
+    gemq:isChildOf asn:S2695997 ;
+    a asncore:Statement .
+
+asn:S2696039
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Non-RDF linked data"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2695997 ;
+    a asncore:Statement .
+
+asn:S2696044
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Finding RDF-based vocabularies"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731567 ;
+    gemq:isChildOf asn:S2696018 ;
+    a asncore:Statement .
+
+asn:S2696051
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Maintaining RDF vocabularies"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731571 ;
+    gemq:isChildOf asn:S2696018 ;
+    a asncore:Statement .
+
+asn:S2696058
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Versioning RDF vocabularies"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731573, asn:S2742456 ;
+    gemq:isChildOf asn:S2696018 ;
+    a asncore:Statement .
+
+asn:S2696061
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Publishing RDF vocabularies"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731575, asn:S2731576, asn:S2742457 ;
+    gemq:isChildOf asn:S2696018 ;
+    a asncore:Statement .
+
+asn:S2696065
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Mapping RDF vocabularies"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2742448, asn:S2742460, asn:S2742461 ;
+    gemq:isChildOf asn:S2696018 ;
+    a asncore:Statement .
+
+asn:S2696069
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "RDF application profiles"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731577, asn:S2731578, asn:S2731579 ;
+    gemq:isChildOf asn:S2696018 ;
+    a asncore:Statement .
+
+asn:S2696076
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Managing identifiers (URI)"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2742462, asn:S2742463, asn:S2742464 ;
+    gemq:isChildOf asn:S2696022 ;
+    a asncore:Statement .
+
+asn:S2696080
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Creating RDF data"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731582, asn:S2742465, asn:S2742466 ;
+    gemq:isChildOf asn:S2696022 ;
+    a asncore:Statement .
+
+asn:S2696082
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Versioning RDF data"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696022 ;
+    a asncore:Statement .
+
+asn:S2696083
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "RDF data provenance"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696022 ;
+    a asncore:Statement .
+
+asn:S2696084
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Cleaning and reconciling RDF data"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731583 ;
+    gemq:isChildOf asn:S2696022 ;
+    a asncore:Statement .
+
+asn:S2696085
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Mapping and enriching RDF data"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731584 ;
+    gemq:isChildOf asn:S2696022 ;
+    a asncore:Statement .
+
+asn:S2696086
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Processing RDF data using programming languages."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2742467, asn:S2742475 ;
+    gemq:isChildOf asn:S2696023 ;
+    a asncore:Statement .
+
+asn:S2696087
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Querying RDF data"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2708688, asn:S2708689, asn:S2708695, asn:S2708702, asn:S2708709, asn:S2709147, asn:S2709246, asn:S2709266, asn:S2709267, asn:S2709268, asn:S2709272, asn:S2709274, asn:S2709275 ;
+    gemq:isChildOf asn:S2696023 ;
+    a asncore:Statement .
+
+asn:S2696088
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Visualizing RDF data"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2709282, asn:S2709284, asn:S2742490 ;
+    gemq:isChildOf asn:S2696023 ;
+    a asncore:Statement .
+
+asn:S2696089
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Reasoning over RDF data"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2708690, asn:S2731586, asn:S2731587, asn:S2742479, asn:S2742480 ;
+    gemq:isChildOf asn:S2696023 ;
+    a asncore:Statement .
+
+asn:S2696090
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Assessing RDF data quality"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696023 ;
+    a asncore:Statement .
+
+asn:S2696091
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "RDF data analytics"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2709287 ;
+    gemq:isChildOf asn:S2696023 ;
+    a asncore:Statement .
+
+asn:S2696092
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Storing RDF data"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696024 ;
+    a asncore:Statement .
+
+asn:S2696094
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Finds properties and classes in the Linked Open Vocabularies (LOV) observatory and explores their versions and dependencies."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731567 ;
+    a asncore:Statement .
+
+asn:S2708688
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands the basic syntax of a SPARQL query."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2708691, asn:S2708692, asn:S2708694 ;
+    gemq:isChildOf asn:S2696087 ;
+    a asncore:Statement .
+
+asn:S2708689
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands that a SPARQL query matches an RDF graph against a pattern of triples with fixed and variable values."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696087 ;
+    a asncore:Statement .
+
+asn:S2708690
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands the principles and practice of inferencing."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2709285 ;
+    gemq:isChildOf asn:S2696089 ;
+    a asncore:Statement .
+
+asn:S2708691
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses angle brackets for delimiting URIs."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708688 ;
+    a asncore:Statement .
+
+asn:S2708692
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses question marks for indicating variables."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708688 ;
+    a asncore:Statement .
+
+asn:S2708693
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Formulates advanced queries on data containing blank nodes."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709246 ;
+    a asncore:Statement .
+
+asn:S2708694
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses PREFIX for base URIs."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708688 ;
+    a asncore:Statement .
+
+asn:S2708695
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Demonstrates a working knowledge of the forms and uses of SPARQL result sets (SELECT, CONSTRUCT, DESCRIBE, and ASK)."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2708696, asn:S2708697, asn:S2708698, asn:S2708699, asn:S2708700, asn:S2708701, asn:S2709273 ;
+    gemq:isChildOf asn:S2696087 ;
+    a asncore:Statement .
+
+asn:S2708696
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses the SELECT clause to identify the variables to appear in a table of query results."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708695 ;
+    a asncore:Statement .
+
+asn:S2708697
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses the WHERE clause to provide the graph pattern to match against the graph data."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708695 ;
+    a asncore:Statement .
+
+asn:S2708698
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses variables in SELECT and WHERE clauses to yield a table of results."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708695 ;
+    a asncore:Statement .
+
+asn:S2708699
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses ASK for a True/False result test for a match to a query pattern."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708695 ;
+    a asncore:Statement .
+
+asn:S2708700
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses DESCRIBE to extract a single graph containing RDF data about resources."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708695 ;
+    a asncore:Statement .
+
+asn:S2708701
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses CONSTRUCT to extract and transform results into a single RDF graph specified by a graph template."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708695 ;
+    a asncore:Statement .
+
+asn:S2708702
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands how to combine and filter graph patterns using operators such as UNION, OPTIONAL, FILTER, and MINUS."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2708703, asn:S2708704, asn:S2708705, asn:S2708706, asn:S2708707, asn:S2708708 ;
+    gemq:isChildOf asn:S2696087 ;
+    a asncore:Statement .
+
+asn:S2708703
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses UNION to formulate queries with multiple possible graph patterns."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708702 ;
+    a asncore:Statement .
+
+asn:S2708704
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses OPTIONAL to formulate queries to return the values of optional variables when available."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708702 ;
+    a asncore:Statement .
+
+asn:S2708705
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses FILTER to formulates queries that eliminate solutions from a result set."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708702 ;
+    a asncore:Statement .
+
+asn:S2708706
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses NOT EXISTS to limit whether a given graph pattern exists in the data."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708702 ;
+    a asncore:Statement .
+
+asn:S2708707
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses MINUS to remove matches from a result based on the evaluation of two patterns."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708702 ;
+    a asncore:Statement .
+
+asn:S2708708
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses NOT IN to restrict a variable to not being in a given set of values."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708702 ;
+    a asncore:Statement .
+
+asn:S2708709
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands the major SPARQL result set modifiers, e.g., to limit or sort results, or to return distinct results only once."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2708711, asn:S2708712, asn:S2708713, asn:S2708716, asn:S2708717 ;
+    gemq:isChildOf asn:S2696087 ;
+    a asncore:Statement .
+
+asn:S2708711
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses ORDER BY to define ordering conditions by variable, function call, or expression."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708709 ;
+    a asncore:Statement .
+
+asn:S2708712
+    asncore:authorityStatus authstatus:Original ;
+    asncore:comment "I.e., to eliminates redundant output (items) from the result set."@en-US ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses DISTINCT to ensure solutions in the sequence are unique."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708709 ;
+    a asncore:Statement .
+
+asn:S2708713
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses OFFSET to control where the solutions processed start in the overall sequence of solutions."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708709 ;
+    a asncore:Statement .
+
+asn:S2708716
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses LIMIT to restrict the number of solutions processed for query results."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708709 ;
+    a asncore:Statement .
+
+asn:S2708717
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses projection to transform a solution sequence into one involving only a subset of the variables."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708709 ;
+    a asncore:Statement .
+
+asn:S2709147
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands the use of SPARQL functions and operators."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2709148, asn:S2709157, asn:S2709160, asn:S2709164, asn:S2709168, asn:S2709174, asn:S2709181 ;
+    gemq:isChildOf asn:S2696087 ;
+    a asncore:Statement .
+
+asn:S2709148
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses the regular expression (regex()) function for string matching."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709147 ;
+    a asncore:Statement .
+
+asn:S2709157
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses aggregates to apply expressions over groups of solutions (GROUP BY, COUNT, SUM, AVG, MIN) for partitioning results, evaluating projections, and filtering."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709147 ;
+    a asncore:Statement .
+
+asn:S2709160
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses the lang() function to return the language tag of an RDF literal."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709147 ;
+    a asncore:Statement .
+
+asn:S2709164
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses the langMatches() function to match a language tag against a language range."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709147 ;
+    a asncore:Statement .
+
+asn:S2709168
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses the xsd:decimal(expn) function to convert an expression to an integer."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709147 ;
+    a asncore:Statement .
+
+asn:S2709174
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses the GROUP BY clause to transforms a result set so that only one row will appear for each unique set of grouping variables."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709147 ;
+    a asncore:Statement .
+
+asn:S2709181
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses the HAVING clause to apply a filter to the result set after grouping."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709147 ;
+    a asncore:Statement .
+
+asn:S2709246
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Differentiates between a Default Graph and a Named Graph, and formulates queries using the GRAPH clause."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2708693, asn:S2709260, asn:S2709264, asn:S2709265 ;
+    gemq:isChildOf asn:S2696087 ;
+    a asncore:Statement .
+
+asn:S2709260
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Formulates advanced queries using FROM NAMED and GRAPH on local data."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709246 ;
+    a asncore:Statement .
+
+asn:S2709264
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Formulates advanced queries using FROM NAMED on remote data."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709246 ;
+    a asncore:Statement .
+
+asn:S2709265
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Formulates advanced queries using subqueries."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709246 ;
+    a asncore:Statement .
+
+asn:S2709266
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Uses a temporary variable to extend a query."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696087 ;
+    a asncore:Statement .
+
+asn:S2709267
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands the role of Property Paths and how they are formed by combining predicates with regular expression-like operators."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696087 ;
+    a asncore:Statement .
+
+asn:S2709268
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands the concept of Federated Searches."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2709269, asn:S2709270, asn:S2709271 ;
+    gemq:isChildOf asn:S2696087 ;
+    a asncore:Statement .
+
+asn:S2709269
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Formulates advanced queries on a remote SPARQL endpoint using the SERVICE directive."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709268 ;
+    a asncore:Statement .
+
+asn:S2709270
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses federated query to query over a local graph store and one or more other SPARQL endpoints."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709268 ;
+    a asncore:Statement .
+
+asn:S2709271
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Pulls data from a different SPARQL endpoints in one single query using the SERVICE directive."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709268 ;
+    a asncore:Statement .
+
+asn:S2709272
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the exact format required by a third party tools and APIs."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696087 ;
+    a asncore:Statement .
+
+asn:S2709273
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses FROM to formulate queries with URLs and local files."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708695 ;
+    a asncore:Statement .
+
+asn:S2709274
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Reads and understands high-level descriptions of the classes and properties of a dataset in order to write queries."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696087 ;
+    a asncore:Statement .
+
+asn:S2709275
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Uses available tools, servers, and endpoints to issue queries against a dataset."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2709276, asn:S2709277, asn:S2709278, asn:S2709279, asn:S2709280, asn:S2709281 ;
+    gemq:isChildOf asn:S2696087 ;
+    a asncore:Statement .
+
+asn:S2709276
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Execute SPARQL queries using the Jena ARQ command-line utility."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709275 ;
+    a asncore:Statement .
+
+asn:S2709277
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Queries multiple local data files using ARQ."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709275 ;
+    a asncore:Statement .
+
+asn:S2709278
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses ARQ to evaluate queries on local data."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709275 ;
+    a asncore:Statement .
+
+asn:S2709279
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses Fuseki server to evaluate queries on a dataset."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709275 ;
+    a asncore:Statement .
+
+asn:S2709280
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Queries multiple data files using Fuseki."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709275 ;
+    a asncore:Statement .
+
+asn:S2709281
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Accesses DBPedia's SNORQL/SPARQL endpoint and issues simple queries."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709275 ;
+    a asncore:Statement .
+
+asn:S2709282
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Uses publicly available tools to visualize data."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2709283 ;
+    gemq:isChildOf asn:S2696088 ;
+    a asncore:Statement .
+
+asn:S2709283
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses Google FusionTables to create maps and charts."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709282 ;
+    a asncore:Statement .
+
+asn:S2709284
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Distills results taken from large datasets so that visualizations are human-friendly."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696088 ;
+    a asncore:Statement .
+
+asn:S2709285
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Uses common entailment regimes and understands their uses."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2708690 ;
+    a asncore:Statement .
+
+asn:S2709286
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows that Uniform Resource Identifiers, or URIs (1994), include Uniform Resource Locators (URLs, which locate web pages) as well as location-independent identifiers for physical, conceptual, or web resources."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696001 ;
+    a asncore:Statement .
+
+asn:S2709287
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Uses available ontology browsing tools to explore the ontologies used in a particular dataset."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696091 ;
+    a asncore:Statement .
+
+asn:S2709288
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows the SPARQL 1.1 Update language for updating, creating, and removing RDF graphs in a Graph Store"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2709290, asn:S2731588 ;
+    gemq:isChildOf asn:S2709897 ;
+    a asncore:Statement .
+
+asn:S2709289
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows the SPARQL 1.1 Graph Store HTTP protocol for updating graphs on a web server (in \"restful\" style)."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2709291, asn:S2709292, asn:S2709293, asn:S2709294, asn:S2731589 ;
+    gemq:isChildOf asn:S2709897 ;
+    a asncore:Statement .
+
+asn:S2709290
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses INSERT/DELETE to update triples."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709288 ;
+    a asncore:Statement .
+
+asn:S2709291
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses GET to retrieve triples from a default graph or a named graph."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709289 ;
+    a asncore:Statement .
+
+asn:S2709292
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses PUT to insert set of triples into a new graph (or replace an existing graph)."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709289 ;
+    a asncore:Statement .
+
+asn:S2709293
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses DELETE to remove a graph."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709289 ;
+    a asncore:Statement .
+
+asn:S2709294
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses proper syntax to request specific media types, such as Turtle."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709289 ;
+    a asncore:Statement .
+
+asn:S2709295
+    asncore:authorityStatus authstatus:Original ;
+    asncore:comment "I.e., understands the difference between strings and things."@en-US ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands the difference between literals and non-literal resources."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696007 ;
+    a asncore:Statement .
+
+asn:S2709296
+    asncore:authorityStatus authstatus:Original ;
+    asncore:comment "I.e., understands: (1) that the core structure of the RDF abstract syntax is a set of triples, each consisting of a subject, a predicate and an object; and, (2) that the triple is the simplest form of RDF graph and can be visualized as a node and directed-arc diagram. http://www.w3.org/TR/rdf11-concepts/#data-model"@en-US ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows the subject-predicate-object component structure of a triple."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696007 ;
+    a asncore:Statement .
+
+asn:S2709297
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands that URIs and literals denote things in the world (\"resources\") real, imagined, or conceptual."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696007 ;
+    a asncore:Statement .
+
+asn:S2709298
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands that resources are declared to be members (instances) of classes using the property rdf:type."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696007 ;
+    a asncore:Statement .
+
+asn:S2709299
+    asncore:authorityStatus authstatus:Original ;
+    asncore:comment "Datatypes define the range of possible values of a literal (e.g., dates) and language tags denote the natural language of plain-text strings."@en-US ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands the use of datatypes and language tags with literals."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696007 ;
+    a asncore:Statement .
+
+asn:S2709805
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands RDF serializations as interchangeable encodings of a given set of triples (RDF graph)."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731558 ;
+    gemq:isChildOf asn:S2696017 ;
+    a asncore:Statement .
+
+asn:S2709875
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    asncore:statementNotation "Competency" ;
+    dct:description "Understands a named graph as one of the collection of graphs comprising an RDF dataset, with a graph name unique in the context of that dataset."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696007 ;
+    a asncore:Statement .
+
+asn:S2709893
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Finding RDF data"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2710042, asn:S2710046, asn:S2710054, asn:S2710057 ;
+    gemq:isChildOf asn:S2696023 ;
+    a asncore:Statement .
+
+asn:S2709897
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Manipulating RDF data"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2709288, asn:S2709289, asn:S2709930 ;
+    gemq:isChildOf asn:S2696023 ;
+    a asncore:Statement .
+
+asn:S2709930
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands the difference between SQL query language (which operates on database tables) and SPARQL (which operates on RDF graphs)."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709897 ;
+    a asncore:Statement .
+
+asn:S2709997
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands blank nodes and their uses."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696007 ;
+    a asncore:Statement .
+
+asn:S2710003
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands that QNames define shorthand prefixes for long URIs."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2710007 ;
+    gemq:isChildOf asn:S2696007 ;
+    a asncore:Statement .
+
+asn:S2710007
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses prefixes for URIs in RDF specifications and data."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2710003 ;
+    a asncore:Statement .
+
+asn:S2710039
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Retrieves and accesses RDF data from the \"open Web\"."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2710042 ;
+    a asncore:Statement .
+
+asn:S2710042
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows relevant resources for discovering existing Linked Data datasets."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2710039 ;
+    gemq:isChildOf asn:S2709893 ;
+    a asncore:Statement .
+
+asn:S2710046
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Monitors and updates lists which report the status of SPARQL endpoints."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709893 ;
+    a asncore:Statement .
+
+asn:S2710054
+    asncore:authorityStatus authstatus:Original ;
+    asncore:comment "E.g., VoID (http://www.w3.org/TR/void/)"@en-US ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Uses available vocabularies for dataset description to support their discovery."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709893 ;
+    a asncore:Statement .
+
+asn:S2710057
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Registers datasets with relevant services for discovery."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709893 ;
+    a asncore:Statement .
+
+asn:S2731548
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows that anything can be named with Uniform Resource Identifiers (URIs), such as agents, places, events, artifacts, and concepts."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696001 ;
+    a asncore:Statement .
+
+asn:S2731549
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Articulates differences between the RDF abstract data model and the XML and relational models."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696007 ;
+    a asncore:Statement .
+
+asn:S2731551
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands the RDF abstract data model as a directed labeled graph."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696007 ;
+    a asncore:Statement .
+
+asn:S2731552
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows graphic conventions for depicting RDF-based models."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731553 ;
+    gemq:isChildOf asn:S2696007 ;
+    a asncore:Statement .
+
+asn:S2731553
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Can use graphing or modeling software to share those models with others."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731552 ;
+    a asncore:Statement .
+
+asn:S2731554
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Grasps essential differences between schemas for syntactic validation (e.g., XML) and for inferencing (RDF Schema)."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696012 ;
+    a asncore:Statement .
+
+asn:S2731555
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Differentiates hierarchical document models (eg, XML) and graph models (RDF)."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696012 ;
+    a asncore:Statement .
+
+asn:S2731556
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Distinguishes the RDF abstract data model and concrete serializations of RDF data."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731557 ;
+    gemq:isChildOf asn:S2696017 ;
+    a asncore:Statement .
+
+asn:S2731557
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Expresses data in serializations such as RDF/XML, N-Triples, Turtle, N3, Trig, JSON-LD, and RDFa."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731556 ;
+    a asncore:Statement .
+
+asn:S2731558
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses tools to convert RDF data between different serializations."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709805 ;
+    a asncore:Statement .
+
+asn:S2731559
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows the primary organizations related to Linked Data standardization."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731560 ;
+    gemq:isChildOf asn:S2696036 ;
+    a asncore:Statement .
+
+asn:S2731560
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Participates in developing standards and best practice with relevant organizations such as W3C."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731559 ;
+    a asncore:Statement .
+
+asn:S2731561
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:No ;
+    asncore:statementLabel "Topic"@en-US ;
+    dct:description "Designing RDF-based vocabularies"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731562, asn:S2731565, asn:S2731566, asn:S2731568, asn:S2742449, asn:S2742450, asn:S2742451, asn:S2742452, asn:S2742453, asn:S2742454, asn:S2742455 ;
+    gemq:isChildOf asn:S2696018 ;
+    a asncore:Statement .
+
+asn:S2731562
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Uses RDF Schema to express semantic relationships within a vocabulary."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731563, asn:S2731564 ;
+    gemq:isChildOf asn:S2731561 ;
+    a asncore:Statement .
+
+asn:S2731563
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Correctly uses sub-class relationships in support of inference."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731562 ;
+    a asncore:Statement .
+
+asn:S2731564
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Correctly uses sub-property relationships in support of inference."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731562 ;
+    a asncore:Statement .
+
+asn:S2731565
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows the naming conventions for RDF properties and classes."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731561 ;
+    a asncore:Statement .
+
+asn:S2731566
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Reuses published properties and classes where available."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731561 ;
+    a asncore:Statement .
+
+asn:S2731567
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "[MOVE] Knows portals and registries for finding RDF-based vocabularies."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2696094 ;
+    gemq:isChildOf asn:S2696044 ;
+    a asncore:Statement .
+
+asn:S2731568
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Coins namespace URIs, as needed, for any new properties and classes required."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731569, asn:S2731570 ;
+    gemq:isChildOf asn:S2731561 ;
+    a asncore:Statement .
+
+asn:S2731569
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Drafts a policy for coining URIs for properties and classes."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731568 ;
+    a asncore:Statement .
+
+asn:S2731570
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Chooses \"hash\"- or \"slash\"-based URI patterns based on requirements."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731568 ;
+    a asncore:Statement .
+
+asn:S2731571
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands policy options for persistence guarantees."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731572 ;
+    gemq:isChildOf asn:S2696051 ;
+    a asncore:Statement .
+
+asn:S2731572
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Can draft a persistence policy."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731571 ;
+    a asncore:Statement .
+
+asn:S2731573
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows technical options for the form, content, and granularity of versions."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696058 ;
+    a asncore:Statement .
+
+asn:S2731574
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Can express and justify a versioning policy."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2742456 ;
+    a asncore:Statement .
+
+asn:S2731575
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands the typical publication formats for RDF vocabularies and their relative advantages"@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696061 ;
+    a asncore:Statement .
+
+asn:S2731576
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands the purpose of publishing RDF vocabularies in multiple formats using content negotiation."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696061 ;
+    a asncore:Statement .
+
+asn:S2731577
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Identifies real-world entities in an application domain as candidates for RDF classes."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696069 ;
+    a asncore:Statement .
+
+asn:S2731578
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Identifies resource attributes and relationships between domain entities as candidates for RDF properties."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696069 ;
+    a asncore:Statement .
+
+asn:S2731579
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Investigates how others have modeled the same or similar application domains."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731580, asn:S2731581 ;
+    gemq:isChildOf asn:S2696069 ;
+    a asncore:Statement .
+
+asn:S2731580
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Communicates a domain model with words and diagrams."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731579 ;
+    a asncore:Statement .
+
+asn:S2731581
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Participates in the social process of developing application profiles."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731579 ;
+    a asncore:Statement .
+
+asn:S2731582
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Generates RDF data from non-RDF sources."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696080 ;
+    a asncore:Statement .
+
+asn:S2731583
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Cleans a dataset by finding and correcting errors, removing duplicates and unwanted data."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696084 ;
+    a asncore:Statement .
+
+asn:S2731584
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Uses available resources for named entity recognition, extraction, and reconciliation."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696085 ;
+    a asncore:Statement .
+
+asn:S2731586
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands the role of formally declared domains and ranges for inferencing."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696089 ;
+    a asncore:Statement .
+
+asn:S2731587
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands how reasoning can be used for integrating diverse datasets."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696089 ;
+    a asncore:Statement .
+
+asn:S2731588
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses a CONSTRUCT query to preview changes before executing an INSERT/DELETE operation."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709288 ;
+    a asncore:Statement .
+
+asn:S2731589
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses POST to add triples to an existing graph."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2709289 ;
+    a asncore:Statement .
+
+asn:S2731590
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands how a namespace, informally used in the RDF context for a namespace URI or RDF vocabulary, fundamentally differs from the namespace of data attributes and functions (methods) defined for an object-oriented class."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696007 ;
+    a asncore:Statement .
+
+asn:S2742438
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands that a \"real-world\" thing may need to be named with a URI distinct from the URI for information about that thing."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696001 ;
+    a asncore:Statement .
+
+asn:S2742439
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Recognizes that URIs are \"owned\" by the owners of their respective Internet domains."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696001 ;
+    a asncore:Statement .
+
+asn:S2742440
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands how an RDF class (named set of things) fundamentally differs from an object-oriented programming class, which defines a type of object bundling \"state\" (attributes with data values) and \"behavior\" (functions that operate on state)."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696012 ;
+    a asncore:Statement .
+
+asn:S2742441
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows the \"five stars\" of Open Data: put data on the Web, preferably in a structured and preferably non-proprietary format, using URIs to name things, and link to other data."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696027 ;
+    a asncore:Statement .
+
+asn:S2742442
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows the origins of the World Wide Web (1989) as a non-linear interactive system, or hypermedia, built on the Internet."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696025 ;
+    a asncore:Statement .
+
+asn:S2742443
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands that Linked Data (2006) extended the notion of a web of documents (the Web) to a notion of a web of finer-grained data (the Linked Data cloud)."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696025 ;
+    a asncore:Statement .
+
+asn:S2742444
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows HyperText Markup Language, or HTML (1991+), as a language for \"marking up\" the content and multimedia components of Web pages."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696025 ;
+    a asncore:Statement .
+
+asn:S2742445
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows HTML5 (2014) as a version of HTML extended with support for complex web and mobile applications."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696025 ;
+    a asncore:Statement .
+
+asn:S2742446
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows Hypertext Transfer Protocol, or HTTP (1991+), as the basic technology for resolving hyperlinks and transferring data on the World Wide Web."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696025 ;
+    a asncore:Statement .
+
+asn:S2742447
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows Representational State Transfer, or REST (2000) as a software architectural style whereby browsers can exchange data with web servers, typically on the basis of well-known HTTP actions."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696025 ;
+    a asncore:Statement .
+
+asn:S2742448
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Recognizes that owl:sameAs, while popular as a mapping property, has strong formal semantics that can entail unintended inferences."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696065 ;
+    a asncore:Statement .
+
+asn:S2742449
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows Web Ontology Language, or OWL (2004), as a RDF vocabulary of properties and classes that extend support for expressive data modeling and automated inferencing (reasoning)."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731561 ;
+    a asncore:Statement .
+
+asn:S2742450
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows that the word \"ontology\" is ambiguous, referring to any RDF vocabulary, but more typically a set of OWL classes and properties designed to support inferencing in a specific domain."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731561 ;
+    a asncore:Statement .
+
+asn:S2742451
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows Simple Knowledge Organization System, or SKOS (2009), an RDF vocabulary for expressing concepts that are labeled in natural languages, organized into informal hierarchies, and aggregated into concept schemes."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731561 ;
+    a asncore:Statement .
+
+asn:S2742452
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows SKOS eXtension for Labels, or SKOS-XL (2009), a small set of additional properties for describing and linking lexical labels as instances of the class Label."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731561 ;
+    a asncore:Statement .
+
+asn:S2742453
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands that in a formal sense, a SKOS concept is not an RDF class but an instance and, as such, is not formally associated with a set of instances (\"class extension\")."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731561 ;
+    a asncore:Statement .
+
+asn:S2742454
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands that SKOS can express a flexibly associative structure of concepts without enabling the more rigid and automatic inferences typically specified in a class-based OWL ontology."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731561 ;
+    a asncore:Statement .
+
+asn:S2742455
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands that in contrast to OWL sub-class chains, hierarchies of SKOS concepts are designed not to form transitive chains automatically because this is not how humans think or organize information."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2731561 ;
+    a asncore:Statement .
+
+asn:S2742456
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands the trade-offs between publishing RDF vocabularies in periodic, numbered releases versus more continual or incremental approaches."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2731574 ;
+    gemq:isChildOf asn:S2696058 ;
+    a asncore:Statement .
+
+asn:S2742457
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands that to be \"dereferencable\", a URI should be usable to retrieve a representation of the resource it identifies."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2742458, asn:S2742459 ;
+    gemq:isChildOf asn:S2696061 ;
+    a asncore:Statement .
+
+asn:S2742458
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Ensures that when dereferenced by a Web browser, a URI returns a representation of the resource in human-readable HTML."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2742457 ;
+    a asncore:Statement .
+
+asn:S2742459
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Ensures that when dereferenced by an RDF application, a URI returns representation of the resource in the requested RDF serialization syntax."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2742457 ;
+    a asncore:Statement .
+
+asn:S2742460
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands that the properties of hierarchical subsumption within an RDF vocabulary -- rdfs:subPropertyOf and rdfs:subClassOf -- can also be used to express mappings between vocabularies."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696065 ;
+    a asncore:Statement .
+
+asn:S2742461
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands that owl:equivalentProperty and owl:equivalentClass may be used when equivalencies between properties or between classes are exact."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696065 ;
+    a asncore:Statement .
+
+asn:S2742462
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands that to be \"persistent\", a URI must have a stable, well-documented meaning and be plausibly intended to identify a given resource in perpetuity."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696076 ;
+    a asncore:Statement .
+
+asn:S2742463
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands trade-offs between \"opaque\" URIs and URIs using version numbers, server names, dates, application-specific file extensions, query strings or other obsoletable context."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696076 ;
+    a asncore:Statement .
+
+asn:S2742464
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Recognizes the desirability of a published namespace policy describing an institution's commitment to the persistence and semantic stability of important URIs."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696076 ;
+    a asncore:Statement .
+
+asn:S2742465
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows methods for generating RDF data from tabular data in formats such as Comma-Separated Values (CSV)."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696080 ;
+    a asncore:Statement .
+
+asn:S2742466
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows methods such as Direct Mapping of Relational Data to RDF (2012) for transforming data from the relational model (keys, values, rows, columns, tables) into RDF graphs."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696080 ;
+    a asncore:Statement .
+
+asn:S2742467
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands how components of the RDF data model (datasets, graphs, statements, and various types of node) are expressed in the RDF library of a given programming language by constructs such as object-oriented classes."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2742468, asn:S2742469, asn:S2742470, asn:S2742471, asn:S2742472, asn:S2742473, asn:S2742474 ;
+    gemq:isChildOf asn:S2696086 ;
+    a asncore:Statement .
+
+asn:S2742468
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses an RDF programming library to serialize RDF data in available syntaxes."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2742467 ;
+    a asncore:Statement .
+
+asn:S2742469
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses RDF-specific programming methods to iterate over components of RDF data."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2742467 ;
+    a asncore:Statement .
+
+asn:S2742470
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses RDF-library-specific convenience representations for common RDF vocabularies such as RDF, Dublin Core, and SKOS."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2742467 ;
+    a asncore:Statement .
+
+asn:S2742471
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Programatically associates namespaces to prefixes for use in serializing RDF or when parsing SPARQL queries."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2742467 ;
+    a asncore:Statement .
+
+asn:S2742472
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses RDF programming libraries to extract RDF data from CSV files, databases, or web pages."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2742467 ;
+    a asncore:Statement .
+
+asn:S2742473
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses RDF programming libraries to persistently stores triples in memory, on disk, or to interact with triple stores."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2742467 ;
+    a asncore:Statement .
+
+asn:S2742474
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Programatically infers triples using custom functions or methods."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2742467 ;
+    a asncore:Statement .
+
+asn:S2742475
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands how the pattern matching of SPARQL queries can be expressed using functionally equivalent constructs in RDF programming libraries."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:hasChild asn:S2742476, asn:S2742477, asn:S2742478 ;
+    gemq:isChildOf asn:S2696086 ;
+    a asncore:Statement .
+
+asn:S2742476
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses RDF-specific programming methods to query RDF data and save the results for further processing."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2742475 ;
+    a asncore:Statement .
+
+asn:S2742477
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses utilities and convenience functions the provide shortcuts for frequently used patterns, such as matching the multiple label properties used in real data."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2742475 ;
+    a asncore:Statement .
+
+asn:S2742478
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Benchmark"@en-US ;
+    dct:description "Uses RDF libraries to process various types of SPARQL query result."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2742475 ;
+    a asncore:Statement .
+
+asn:S2742479
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Knows that Web Ontology Language (OWL) is available in multiple \"flavors\" that are variously optimized for expressivity, performant reasoning, or for applications involving databases or business rules."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696089 ;
+    a asncore:Statement .
+
+asn:S2742480
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Understands that OWL Full supports all available constructs and is most appropriately used when reasoning performance is not a concern."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696089 ;
+    a asncore:Statement .
+
+asn:S2742490
+    asncore:authorityStatus authstatus:Original ;
+    asncore:indexingStatus ndxstatus:Yes ;
+    asncore:statementLabel "Competency"@en-US ;
+    dct:description "Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the exact format required by third party tools and APIs."@en-US ;
+    dct:educationLevel edlevel:AdultEducation, edlevel:ProfessionalEducation-Development, edlevel:VocationalTraining ;
+    dct:isPartOf asn:D2695955 ;
+    dct:language iso639-2:eng ;
+    dct:subject topic:careerEducation, topic:technology ;
+    gemq:isChildOf asn:S2696088 ;
+    a asncore:Statement .
+

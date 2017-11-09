@@ -1,0 +1,13 @@
+2015-10-23 Stuart Sutton        d5d3e3e Merge pull request #3 from stuartasutton/master
+2015-10-23 stuartasutton        0e6b52f Refinement of the new dcpet learning resource type vocab
+2015-10-15 Stuart Sutton        ec2d58d Merge pull request #1 from ld4pe/master
+2015-10-08 Stuart Sutton        a6eca13 Merge pull request #2 from stuartasutton/master
+2015-10-08 stuartasutton        6e5978c Draft extensions to LRMI Learning Resource Type vocab
+2015-06-16 Tom Baker            b70f8fd convert subject into Turtle en route to becoming canonical representation
+2015-05-17 Stuart Sutton        06b7769 Update subject
+2015-05-17 Stuart Sutton        a06a531 Rename subjects to subject
+2015-05-17 Stuart Sutton        426a673 Rename exploreSubjects to subjects
+2015-05-17 Stuart Sutton        3e90abb Update exploreSubjects
+2015-05-17 Stuart Sutton        89143db Create exploreSubjects
+2015-05-17 Stuart Sutton        280eb61 Update README.md
+2015-05-17 Stuart Sutton        e90743c Initial commit

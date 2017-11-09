@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=uR_7UkHs0zA>
+  a schema:CreativeWork ;
+  schema:name "Using SPARQL to visualize linked data"@en-US ;
+  schema:author "Dodds, Leigh"@en-US ;
+  schema:description "This demonstration shows how SPARQL can drive visualizations using Linked Data, using the case of BBC programs data currently loaded in the Talis Patform. More information about the Talis Platform can be found at http://www.talis.com/platform."@en-US ;
+  schema:dateCreated "2009-07-21T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "SPARQL"@en-US, "Query"@en-US ;
+  schema:publisher "Talis"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=eWqRB-_HFxI>
+  a schema:CreativeWork ;
+  schema:name "Linked Open Data- What Is It?"@en-US ;
+  schema:author "Kadaster, Het"@en-US ;
+  schema:description "Deze film is gemaakt door het Kadaster in het kader van de pilot \"Linked Open Data\". De pilot Linked Open data is een initiatief van: Forum Standaardisatie, gemeente Amersfoort, gemeente Nijmegen, Hack de Overheid, Kadaster, Kwaliteitsinstituut Nederlandse Gemeenten, Ministerie van Infrastructuur en Milieu, Programma stelsel van basisregistraties, Interprovinciaal overleg, Geobusiness Nederland en Geonovum."@en-US ;
+  schema:dateCreated "2013-04-25T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Open Data"@en-US, "Web 3.0"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

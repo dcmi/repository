@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://logd.tw.rpi.edu/tutorial/consuming_logd_data_using_jquery>
+  a schema:CreativeWork ;
+  schema:name "Consuming LOGD data using jQuery"@en-US ;
+  schema:author "Graves, Alvaro"@en-US ;
+  schema:description "A brief introduction to jQuery and how to use it with Linked Open Government Data (LOGD). jQuery is a Javascript library aimed to make things easy when it comes to writing JavaScript."@en-US ;
+  schema:dateCreated "2011-03-03T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Open Data"@en-US, "Government Open Data"@en-US, "JQuery"@en-US, "Javascript"@en-US, "AJAX"@en-US ;
+  schema:publisher "TWC LOGD"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

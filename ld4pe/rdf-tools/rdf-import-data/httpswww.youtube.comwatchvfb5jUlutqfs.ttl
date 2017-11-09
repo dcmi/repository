@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=fb5jUlutqfs>
+  a schema:CreativeWork ;
+  schema:name "Simple SPARQL Tutorial 11/29: Querying Multiple Datasets (with ARQ Query Engine)"@en-US ;
+  schema:author "Sadawi, Noureddin"@en-US ;
+  schema:description "Tutorial showing how to query multiple datasets (collections of Triples). This example uses locally stored data and uses the Apache Jena tool ARQ."@en-US ;
+  schema:dateCreated "2014-03-03T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "SPARQL"@en-US, "Query"@en-US, "Triple"@en-US, "Graph"@en-US, "Apache Jena"@en-US, "ARQ"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

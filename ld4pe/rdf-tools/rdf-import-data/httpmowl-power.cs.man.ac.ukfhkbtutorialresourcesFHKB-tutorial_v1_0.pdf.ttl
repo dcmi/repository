@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://mowl-power.cs.man.ac.uk/fhkbtutorial/resources/FHKB-tutorial_v1_0.pdf>
+  a schema:CreativeWork ;
+  schema:name "Manchester Family History Advanced OWL Tutorial Edition 1.0"@en-US ;
+  schema:author "Stevens, Robert | Stevens, Margaret | Matentzoglu, Nicolas | Jupp, Simon"@en-US ;
+  schema:description "Topic: RDF Data Model; Competency: Understands the uses and roles of domain and ranges; Competency: Understands inferencing and the means by which it is achieved; Competency: Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each; Topic: Reasoning over RDF; Competency: Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL. This tutorial introduces one to many of the more advanced features of the Web Ontology Language (OWL). The topic of family history is used to take the user through various modelling issues and, in doing so, using many features of OWL 2 to build a Family History Knowledge Base (FHKB). The exercises involving the FHKB are designed to maximize inference about family history through use of an automated reasoner on an OWL knowledge base (KB) containing many members of the Stevens family. The aim, therefore, is to enable people to learn advanced features of OWL 2 in a setting that involves both classes and individuals, while attempting to maximize the use of inference within the FHKB: 1. Know about the separation of entities into TBox and ABox; 2. Use classes and individuals in modelling; 3. Write fancy class expressions; 4. Assert facts about individuals; 5. Use the effects of property hierarchies, property characteristics, domain/range constraints to drive inference; 6. Use constraints and role chains on inferences about individuals;7. Understand and manage the consequences of the open world assumption in the TBox and ABox; 8. Use nominals in class expressions; 9. Appreciate some limits of OWL 2."@en-US ;
+  schema:dateCreated "2013-03-07T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Web Ontology Language (OWL)"@en-US, "Ontology"@en-US, "Schema"@en-US, "Vocabulary"@en-US, "Classes"@en-US, "Properties"@en-US, "Instances"@en-US, "Data Modeling"@en-US, "TBox"@en-US, "ABox"@en-US ;
+  schema:publisher "University of Manchester"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

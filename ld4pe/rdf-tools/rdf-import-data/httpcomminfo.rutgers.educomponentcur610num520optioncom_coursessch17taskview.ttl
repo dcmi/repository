@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://comminfo.rutgers.edu/component/cur,610/num,520/option,com_courses/sch,17/task,view/>
+  a schema:CreativeWork ;
+  schema:name "Organizing Information"@en-US ;
+  schema:description "Introduction to the options and methods for creating indexes that provide access to the content of a collection of documents, whether print or electronic, linguistic, audio, visual or graphical. Comparison of different kinds of indexes, including traditional and emerging approaches, with respect to characteristics such as classification, methods for identifying index terms, techniques for vocabulary control and search interface. Rationale for evaluation of organizational schemas in context. Students apply theory by designing an index for a collection of their choice."@en-US ;
+  schema:about "Information organization"@en-US ;
+  schema:publisher "School of Communication and Information, Rutgers University"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

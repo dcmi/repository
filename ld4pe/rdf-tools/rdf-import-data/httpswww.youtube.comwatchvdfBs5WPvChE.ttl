@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=dfBs5WPvChE>
+  a schema:CreativeWork ;
+  schema:name "LOD2 Webinar Series - DBpedia Spotlight"@en-US ;
+  schema:author "LOD2"@en-US ;
+  schema:description "DBpedia Spotlight is a tool for automatically annotating mentions of DBpedia resources in text, providing a solution for linking unstructured information sources to the Linked Open Data Cloud through DBpedia. DBpedia Spotlight recognizes that names of concepts or entities have been mentioned and subsequently matches these names to unique identifiers. Besides common entity classes such as People, Locations and Organizations, DBpedia Spotlight also spots concepts from any of the 320 classes in the DBpedia Ontology. The tool can be used to enable faceted browsing, semantic search, among other applications. In this webinar we will describe what is DBpedia Spotlight, how it works and how can you benefit from it in your application."@en-US ;
+  schema:dateCreated "2013-02-27T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Linked Open Data"@en-US, "Linked Open Data Cloud"@en-US, "DBpedia"@en-US, "Ontology"@en-US, "Entity"@en-US ;
+  schema:publisher "Semantic Web Company"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,42 @@
+[
+    {
+        "label": "Administrator",
+        "value": "http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/administrator",
+        "type": "uri"
+    },
+    {
+        "label": "General Public",
+        "value": "http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/generalPublic",
+        "type": "uri"
+    },
+    {
+        "label": "Mentor",
+        "value": "http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/mentor",
+        "type": "uri"
+    },
+    {
+        "label": "Parent",
+        "value": "http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/parent",
+        "type": "uri"
+    },
+    {
+        "label": "Peer/Tutor",
+        "value": "http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/peer-tutor",
+        "type": "uri"
+    },
+    {
+        "label": "Professional",
+        "value": "http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/professional",
+        "type": "uri"
+    },
+    {
+        "label": "Student",
+        "value": "http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/student",
+        "type": "uri"
+    },
+    {
+        "label": "Teacher/Education Specialist",
+        "value": "http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/teacher-educationSpecialist",
+        "type": "uri"
+    }
+]

@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.academia.edu/8014017/0_to_60_on_SPARQL_queries_in_50_minutes>
+  a schema:CreativeWork ;
+  schema:name "0 to 60 on SPARQL queries in 50 minutes"@en-US ;
+  schema:author "Gruber, Ethan"@en-US ;
+  schema:dateCreated "2014-08-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "SPARQL queries"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

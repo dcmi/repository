@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.schematron.com/index.html>
+  a schema:CreativeWork ;
+  schema:name "Schematron: A Language for making assertions about patterns found in XML documents"@en-US ;
+  schema:description "The Schematron differs in basic concept from other schema languages in that it not based on grammars but on finding tree patterns in the parsed document. This approach allows many kinds of structures to be represented which are inconvenient and difficult in grammar-based schema languages. If you know XPath or the XSLT expression language, you can start to use The Schematron immediately. It has free and open source implementations available. The Schematron is trivially simple to implement on top of XSLT and to customize. (There are also implementations in Python and Perl)"@en-US ;
+  schema:dateCreated "2009-03-18T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "EXtensible Markup Language (XML)"@en-US, "XML Schema"@en-US, "XSD"@en-US, "EXtensible Stylesheet Language Transformations (XSLT)"@en-US, "Document Type Definition (DTD)"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/text> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

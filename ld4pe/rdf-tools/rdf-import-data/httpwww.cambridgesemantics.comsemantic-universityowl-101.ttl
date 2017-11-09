@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.cambridgesemantics.com/semantic-university/owl-101>
+  a schema:CreativeWork ;
+  schema:name "OWL 101"@en-US ;
+  schema:description "Competency: Understands OWL properties, property axioms, axioms and class constructions in reasoning; Competency: Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL; Competency: Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models; Competency: Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each. OWL (or Web Ontology Language) is the ontology (think \"schema\") language of the Semantic Web. It is one of the core Semantic Web standards you must be familiar with, along with RDF and SPARQL. Its two primary uses are:1) Fast and flexible data modeling; 2) Efficient automated reasoning. This lesson gives a high level introduction to OWL and is suitable for beginners. A more detailed nuts & bolts lesson on creating your first ontology will come next. After completing this lesson, you will know: 1) The four main kinds of modern computing languages, and which kind OWL is; 2) Three advantages of OWL over other languages of its kind; 3)A few of the tools available for creating ontologies using OWL."@en-US ;
+  schema:about "Web Ontology Language (OWL)"@en-US, "Ontology"@en-US, "Schema"@en-US, "Protege"@en-US, "Relational Model"@en-US, "SQL"@en-US, "Anzo Express"@en-US ;
+  schema:publisher "Cambridge Semantics"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

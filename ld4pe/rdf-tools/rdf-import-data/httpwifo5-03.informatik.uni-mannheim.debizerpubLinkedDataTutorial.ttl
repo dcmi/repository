@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://wifo5-03.informatik.uni-mannheim.de/bizer/pub/LinkedDataTutorial/>
+  a schema:CreativeWork ;
+  schema:name "How to Publish Linked Data on the Web"@en-US ;
+  schema:author "Bizer, Chris | Cyganiak, Richard | Heath, Tom"@en-US ;
+  schema:description "This document provides a tutorial on how to publish Linked Data on the Web. After a general overview of the concept of Linked Data, we describe several practical recipes for publishing information as Linked Data on the Web. Note: This tutorial has been superseded by the book Linked Data: Evolving the Web into a Global Data Space written by Tom Heath and Christian Bizer. This tutorial was published in 2007 and is still online for historical reasons. The Linked Data book was published in 2011 and provides a more detailed and up-to-date introduction into Linked Data."@en-US ;
+  schema:dateCreated "2007-07-27T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Web of Data"@en-US, "RDF"@en-US, "HTTP URIs"@en-US, "Triple"@en-US, "Graph"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

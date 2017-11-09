@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://infomotions.com/sandbox/liam/tmp/guidebook.pdf>
+  a schema:CreativeWork ;
+  schema:name "Linked Archival Metadata: A Guidebook (Version 0.99)"@en-US ;
+  schema:author "Morgan, Eric Lease"@en-US ;
+  schema:description "Linked Archival Metadata: A Guidebook provides archivists with an overview of the current Linked Data landscape, define basic concepts, identify practical strategies for adoption, and emphasize the tangible payoffs for archives implementing linked data. It will focus on clarifying why archives and archival users can benefit from linked data and will identify a graduated approach to applying linked data methods to archival description."@en-US ;
+  schema:dateCreated "2014-04-23T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Semantic Web"@en-US, "Ontology"@en-US, "Vocabulary"@en-US, "Dataset, RDF"@en-US, "RDF"@en-US, "XML"@en-US, "URI"@en-US, "REST"@en-US, "SPARQL"@en-US ;
+  schema:publisher "Linked Archival Metadata (LiAM) Project"@en-US, "Tufts University"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/OpenDataSupport/introduction-to-linked-data-23402165?related=1>
+  a schema:CreativeWork ;
+  schema:name "Introduction to linked data"@en-US ;
+  schema:author "De Keyzer, Michiel | Loutas, Nikolaos | Colas, Christophe | Goedertier, Stijn"@en-US ;
+  schema:description "Learning objectives: By the end of this training module you should have an understanding of: What is linked data; What is open data; What is the difference between linked and open data; How to publish linked data (5-star schema); The economic and social aspects of linked data."@en-US ;
+  schema:dateCreated "2013-06-24T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Linked Open Data"@en-US, "5 Star Linked Open Data"@en-US, "Web of Data"@en-US, "RDF"@en-US, "Open Refine"@en-US ;
+  schema:publisher "Open Data Support"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

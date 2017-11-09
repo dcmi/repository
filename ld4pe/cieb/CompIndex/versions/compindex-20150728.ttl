@@ -1,0 +1,1453 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix asn: <http://purl.org/ASN/schema/core/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix loc: <http://www.loc.gov/loc.terms/relators/> .
+@prefix gemq: <http://purl.org/gem/qualifiers/> .
+
+<http://asn.jesandco.org/resources/D2529179.xml> foaf:primaryTopic <http://asn.jesandco.org/resources/D2529179> ;
+                                                 dcterms:rightsHolder "Desire2Learn Incorporated"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                                                 dcterms:modified "2015-02-04T07:38:20-05:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                                                 dcterms:created "2013-12-26T06:14:01-05:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                                                 cc:license <http://creativecommons.org/licenses/by/3.0/us/> ;
+                                                 cc:attributionURL <http://asn.jesandco.org/resources/D2529179> ;
+                                                 cc:attributionName "Desire2Learn Incorporated"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                                                 asn:exportVersion <http://purl.org/ASN/scheme/ASNExport/3.1.0> .
+
+<http://asn.jesandco.org/resources/D2529179> rdf:type asn:StandardDocument ;
+                                             asn:jurisdiction <http://purl.org/ASN/scheme/ASNJurisdiction/DCMI> ;
+                                             dc:title "Competency Index for RDF & Linked Data"@en-US ;
+                                             dcterms:description 'The "Competency Index for RDF Linked Data" is a competency framework comprised of competencies and knowledge, skills and habits of mind needed for creation and management of Linked Data for metadata practitioners, developers and students.'@en-US ;
+                                             dcterms:source <http://dublincore.org> ;
+                                             asn:publicationStatus <http://purl.org/ASN/scheme/ASNPublicationStatus/Draft> ;
+                                             asn:repositoryDate "2013-12-22"^^<http://purl.org/dc/terms/W3CDTF> ;
+                                             dcterms:dateCopyright "2014"^^<http://purl.org/dc/terms/W3CDTF> ;
+                                             dcterms:license <http://creativecommons.org/licenses/by/3.0/us> ;
+                                             dcterms:valid "2014"^^<http://purl.org/dc/terms/W3CDTF> ;
+                                             dcterms:tableOfContents <http://asn.jesandco.org/resources/D2529179_manifest.json> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             loc:aut "Dublin Core Metadata Initiative (DCMI)"@en-US ;
+                                             dc:publisher "Dublin Core Metadata Initiative (DCMI)"@en-US ;
+                                             asn:conceptKeyword "Linked Data"@en-US ,
+                                                                "metadata education and training"@en-US ,
+                                                                "Resource Description Framework (RDF)"@en-US ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529180> ,
+                                                           <http://asn.jesandco.org/resources/S2529181> ,
+                                                           <http://asn.jesandco.org/resources/S2529182> ,
+                                                           <http://asn.jesandco.org/resources/S2529183> ,
+                                                           <http://asn.jesandco.org/resources/S2529184> .
+
+<http://asn.jesandco.org/resources/S2529180> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic Cluster"@en-US ;
+                                             dcterms:description "RDF and Linked Data fundamentals"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529218> ,
+                                                           <http://asn.jesandco.org/resources/S2529185> ,
+                                                           <http://asn.jesandco.org/resources/S2529222> ,
+                                                           <http://asn.jesandco.org/resources/S2529255> ,
+                                                           <http://asn.jesandco.org/resources/S2529217> ,
+                                                           <http://asn.jesandco.org/resources/S2529203> ,
+                                                           <http://asn.jesandco.org/resources/S2529198> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/D2529179> .
+
+<http://asn.jesandco.org/resources/S2529218> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Lifecycle of Linked Data"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529221> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529180> .
+
+<http://asn.jesandco.org/resources/S2529221> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "@@@"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529218> .
+
+<http://asn.jesandco.org/resources/S2529185> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Background technologies"@en-US ;
+                                             asn:comment "Such as Internet, hypertext, WWW, Web 1.0 (static), Web 2.0 (dynamic), social web, Web 3.0 (semantic), ontologies (Source: Euclid)"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529211> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529180> .
+
+<http://asn.jesandco.org/resources/S2529211> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "@@@"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529185> .
+
+<http://asn.jesandco.org/resources/S2529222> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Background standards"@en-US ;
+                                             asn:comment "Such as HTTP, URI, IRI, XML, RDF, RDFS, OWL (OWL 2 full, DL, EL, QL, RL), SPARQL (Source: Euclid)"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529223> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529180> .
+
+<http://asn.jesandco.org/resources/S2529223> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "@@@"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529222> .
+
+<http://asn.jesandco.org/resources/S2529255> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Existing key vocabularies and their namespaces"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529199> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529180> .
+
+<http://asn.jesandco.org/resources/S2529199> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Investigates, evaluates and keeps abreast of significant developments in RDF vocabularies"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529200> ,
+                                                           <http://asn.jesandco.org/resources/S2529202> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529255> .
+
+<http://asn.jesandco.org/resources/S2529200> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Searches to discover new and useful RDF vocabularies and application profiles"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529199> .
+
+<http://asn.jesandco.org/resources/S2529202> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Monitors changes to existing RDF vocabularies and application profiles"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529199> .
+
+<http://asn.jesandco.org/resources/S2529217> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "RDF data model"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529219> ,
+                                                           <http://asn.jesandco.org/resources/S2529259> ,
+                                                           <http://asn.jesandco.org/resources/S2529258> ,
+                                                           <http://asn.jesandco.org/resources/S2529224> ,
+                                                           <http://asn.jesandco.org/resources/S2529251> ,
+                                                           <http://asn.jesandco.org/resources/S2529233> ,
+                                                           <http://asn.jesandco.org/resources/S2529220> ,
+                                                           <http://asn.jesandco.org/resources/S2529254> ,
+                                                           <http://asn.jesandco.org/resources/S2529270> ,
+                                                           <http://asn.jesandco.org/resources/S2529273> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529180> .
+
+<http://asn.jesandco.org/resources/S2529219> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Demonstrates understanding of the abstract data model of RDF as a directed labeled graph"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529217> .
+
+<http://asn.jesandco.org/resources/S2529259> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Understands the distinction between the RDF data model and the it's various serializations"@en-US ;
+                                             asn:comment "Including, RDF/XML,Turtle, n-triples, JSON etc."@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529217> .
+
+<http://asn.jesandco.org/resources/S2529258> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Demonstrates an understanding of the naming of anything that can be identified with URI including agents, places, events, artifacts and concepts"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529217> .
+
+<http://asn.jesandco.org/resources/S2529224> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Understands the grammatical components of the RDF triple - SUBJECT, PREDICATE, OBJECT"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529217> .
+
+<http://asn.jesandco.org/resources/S2529251> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Distinguishes between data type properties and object properties"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529217> .
+
+<http://asn.jesandco.org/resources/S2529233> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Understand and use RDFS in defining and interpreting RDF vocabularies"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529217> .
+
+<http://asn.jesandco.org/resources/S2529220> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529217> .
+
+<http://asn.jesandco.org/resources/S2529254> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Understands the uses and roles of domain and ranges"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529217> .
+
+<http://asn.jesandco.org/resources/S2529270> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Understands inferencing and the means by which it is achieved"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529217> .
+
+<http://asn.jesandco.org/resources/S2529273> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529217> .
+
+<http://asn.jesandco.org/resources/S2529203> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Policy & best practice development"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529204> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529180> .
+
+<http://asn.jesandco.org/resources/S2529204> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Develops policies for creation and management of RDF vocabularies"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529206> ,
+                                                           <http://asn.jesandco.org/resources/S2529207> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529203> .
+
+<http://asn.jesandco.org/resources/S2529206> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Develops and documents namespace policies for managing ongoing development of RDF vocabularies"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529204> .
+
+<http://asn.jesandco.org/resources/S2529207> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Adheres to namespace policies in managing RDF vocabularies"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529204> .
+
+<http://asn.jesandco.org/resources/S2529198> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Perspectives, dispositions and habits of mind"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529201> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529180> .
+
+<http://asn.jesandco.org/resources/S2529201> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Participates in development and maintenance activities of RDF vocabularies and application profiles"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529208> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529198> .
+
+<http://asn.jesandco.org/resources/S2529208> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Actively participates in development of specifications and standards for best practice with relevant organizations such as W3C"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529201> .
+
+<http://asn.jesandco.org/resources/S2529181> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic Cluster"@en-US ;
+                                             dcterms:description "Searching and querying"@en-US ;
+                                             asn:comment "Learners of Linked Data must learn how to query datasets, explore their characteristics, assess their validity, and explore their underlying vocabularies."@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529187> ,
+                                                           <http://asn.jesandco.org/resources/S2529188> ,
+                                                           <http://asn.jesandco.org/resources/S2529228> ,
+                                                           <http://asn.jesandco.org/resources/S2529186> ,
+                                                           <http://asn.jesandco.org/resources/S2529191> ,
+                                                           <http://asn.jesandco.org/resources/S2529192> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/D2529179> .
+
+<http://asn.jesandco.org/resources/S2529187> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Discovery of RDF vocabularies and data sets"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529210> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529181> .
+
+<http://asn.jesandco.org/resources/S2529210> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Monitors registries and referatories of RDF vocabularies, OWL ontologies and RDF data stores"@en-US ;
+                                             asn:comment "Such as: (LOV) Linked Open Vocabularies (http://lov.okfn.org/‎), joinup (https://joinup.ec.europa.eu/)"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529187> .
+
+<http://asn.jesandco.org/resources/S2529188> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Assessment of RDF vocabularies and data sets"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529214> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529181> .
+
+<http://asn.jesandco.org/resources/S2529214> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "@@@"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529188> .
+
+<http://asn.jesandco.org/resources/S2529228> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Anatomy of a simple SPARQL query"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529229> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529181> .
+
+<http://asn.jesandco.org/resources/S2529229> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "@@@"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529228> .
+
+<http://asn.jesandco.org/resources/S2529186> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/No> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Querying RDF data using SPARQL"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529227> ,
+                                                           <http://asn.jesandco.org/resources/S2529189> ,
+                                                           <http://asn.jesandco.org/resources/S2529196> ,
+                                                           <http://asn.jesandco.org/resources/S2529205> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529181> .
+
+<http://asn.jesandco.org/resources/S2529227> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Understands the SPARQL 1.1 query language, protocol, functions and operators"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529186> .
+
+<http://asn.jesandco.org/resources/S2529189> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Uses query forms including ASK, SELECT, DESCRIBE, CONSTRUCT"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529186> .
+
+<http://asn.jesandco.org/resources/S2529196> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Uses query patterns including BGP, UNION, OPTIONAL, FILTER"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529186> .
+
+<http://asn.jesandco.org/resources/S2529205> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Uses sequence modifiers including DISTINCT, REDUCED, ORDER BY, LIMIT, OFFSET"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529186> .
+
+<http://asn.jesandco.org/resources/S2529191> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Updating RDF with SPARQL 1.1"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529194> ,
+                                                           <http://asn.jesandco.org/resources/S2529195> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529181> .
+
+<http://asn.jesandco.org/resources/S2529194> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Performs data management using INSERT, DELETE, DELETE/INSERT"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529191> .
+
+<http://asn.jesandco.org/resources/S2529195> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Performs graph management using LOAD, CLEAR, CREATE, DROP, COPY/MOVE/ADD"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529191> .
+
+<http://asn.jesandco.org/resources/S2529192> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Reasoning over RDF"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529212> ,
+                                                           <http://asn.jesandco.org/resources/S2529193> ,
+                                                           <http://asn.jesandco.org/resources/S2529197> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529181> .
+
+<http://asn.jesandco.org/resources/S2529212> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529192> .
+
+<http://asn.jesandco.org/resources/S2529193> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529192> .
+
+<http://asn.jesandco.org/resources/S2529197> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Understands OWL properties, property axioms, axioms and class constructions in reasoning"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529192> .
+
+<http://asn.jesandco.org/resources/S2529182> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic Cluster"@en-US ;
+                                             dcterms:description "Creating, publishing and manipulating RDF"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529237> ,
+                                                           <http://asn.jesandco.org/resources/S2529215> ,
+                                                           <http://asn.jesandco.org/resources/S2529190> ,
+                                                           <http://asn.jesandco.org/resources/S2529235> ,
+                                                           <http://asn.jesandco.org/resources/S2529216> ,
+                                                           <http://asn.jesandco.org/resources/S2529266> ,
+                                                           <http://asn.jesandco.org/resources/S2529350> ,
+                                                           <http://asn.jesandco.org/resources/S2529462> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/D2529179> .
+
+<http://asn.jesandco.org/resources/S2529237> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Creating a domain model"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529268> ,
+                                                           <http://asn.jesandco.org/resources/S2529269> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529182> .
+
+<http://asn.jesandco.org/resources/S2529268> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Understands the domain being modeled"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529260> ,
+                                                           <http://asn.jesandco.org/resources/S2529262> ,
+                                                           <http://asn.jesandco.org/resources/S2529263> ,
+                                                           <http://asn.jesandco.org/resources/S2529261> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529237> .
+
+<http://asn.jesandco.org/resources/S2529260> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Models domain without application context--i.e., without having in mind a particular Web application or service"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529268> .
+
+<http://asn.jesandco.org/resources/S2529262> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Obtains a copy of the logical and physical model when creating the model from an existing database"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529268> .
+
+<http://asn.jesandco.org/resources/S2529263> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Investigates how others are already describing the domain, or a similar domain or related data"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529268> .
+
+<http://asn.jesandco.org/resources/S2529261> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Identifies classes of real world entities (things) of interest to the domain being modeled such as people, organizations, places, products or other artifacts or naturally occurring things, events and concepts"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529268> .
+
+<http://asn.jesandco.org/resources/S2529269> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Creates a graphical representation of the domain entities and the relationships among them"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529264> ,
+                                                           <http://asn.jesandco.org/resources/S2529231> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529237> .
+
+<http://asn.jesandco.org/resources/S2529264> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Creates and iterates through versions of an emergent entity-relationship model for the domain (e.g., on paper or a whiteboard)"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529269> .
+
+<http://asn.jesandco.org/resources/S2529231> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Uses a graphing or modeling tool to organize the objects and labeled relationship for sharing and review by others"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529269> .
+
+<http://asn.jesandco.org/resources/S2529215> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Creating a new RDF vocabularies"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529271> ,
+                                                           <http://asn.jesandco.org/resources/S2529247> ,
+                                                           <http://asn.jesandco.org/resources/S2529239> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529182> .
+
+<http://asn.jesandco.org/resources/S2529271> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Understands the role of RDFS and uses it in defining new RDF vocabularies"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529272> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529215> .
+
+<http://asn.jesandco.org/resources/S2529272> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "@@@"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529271> .
+
+<http://asn.jesandco.org/resources/S2529247> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Follows naming conventions in coining new terms (properties & classes)"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529248> ,
+                                                           <http://asn.jesandco.org/resources/S2529249> ,
+                                                           <http://asn.jesandco.org/resources/S2529250> ,
+                                                           <http://asn.jesandco.org/resources/S2529252> ,
+                                                           <http://asn.jesandco.org/resources/S2529253> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529215> .
+
+<http://asn.jesandco.org/resources/S2529248> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Names properties beginning with a lower case letter"@en-US ;
+                                             asn:comment "E.g., rdfs:label, dcterms:title"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529247> .
+
+<http://asn.jesandco.org/resources/S2529249> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Uses camel case if a term is created by concatenating more than one word"@en-US ;
+                                             asn:comment "E.g., foaf:isPrimaryTopicOf"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529247> .
+
+<http://asn.jesandco.org/resources/S2529250> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Begins class names with an uppercase (capital) letter and in singular form"@en-US ;
+                                             asn:comment "E.g., skos:Concept, dcterms:Agent"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529247> .
+
+<http://asn.jesandco.org/resources/S2529252> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Defines data type properties as nouns"@en-US ;
+                                             asn:comment "E.g., dcterms:description"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529247> .
+
+<http://asn.jesandco.org/resources/S2529253> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Defines object properties as verbs"@en-US ;
+                                             asn:comment "E.g. dcterms:hasPart"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529247> .
+
+<http://asn.jesandco.org/resources/S2529239> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Creates new terms (properties & classes) following commonly agreed upon conventions and best practices"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529246> ,
+                                                           <http://asn.jesandco.org/resources/S2529238> ,
+                                                           <http://asn.jesandco.org/resources/S2529245> ,
+                                                           <http://asn.jesandco.org/resources/S2529240> ,
+                                                           <http://asn.jesandco.org/resources/S2529241> ,
+                                                           <http://asn.jesandco.org/resources/S2529243> ,
+                                                           <http://asn.jesandco.org/resources/S2529265> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529215> .
+
+<http://asn.jesandco.org/resources/S2529246> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Researches existing terms and their usage to avoid unnecessary creation of new terms and to maximizes re-use of existing terms"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529239> .
+
+<http://asn.jesandco.org/resources/S2529238> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Creates sub-classes, sub-properties and super-classes when new terms can be seen as specializations of existing terms in order to support interoperability and inferencing"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529239> .
+
+<http://asn.jesandco.org/resources/S2529245> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Avoids adding new semantics to existing terms"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529239> .
+
+<http://asn.jesandco.org/resources/S2529240> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Creates well defined terms (properties & classes) with well designed persistent URIs"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529239> .
+
+<http://asn.jesandco.org/resources/S2529241> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Ensures that the RDF schemas developed remain stable for a long, indefinite time"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529239> .
+
+<http://asn.jesandco.org/resources/S2529243> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Skills and Knowledge"@en-US ;
+                                             dcterms:description "Publishes RDF schemas in multiple formats for consumption by humans and machines"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529239> .
+
+<http://asn.jesandco.org/resources/S2529265> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Determines the namespace (or namespaces) in which any new classes and properties to be created from the domain model will be defined"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529239> .
+
+<http://asn.jesandco.org/resources/S2529190> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Generating RDF data from non-RDF sources"@en-US ;
+                                             asn:comment "Frequently RDF vocabularies and instance data is created through data transformation from other data formats including TSV, CSV, *SV, Excel (.xls and .xlsx), JSON, XML and RDBMS"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529230> ,
+                                                           <http://asn.jesandco.org/resources/S2529256> ,
+                                                           <http://asn.jesandco.org/resources/S2529257> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529182> .
+
+<http://asn.jesandco.org/resources/S2529230> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Uses available tools to cleanse a dataset by finding and correcting errors, removing duplicates and unwanted data"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529190> .
+
+<http://asn.jesandco.org/resources/S2529256> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Reconciles data to link to external resources"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529190> .
+
+<http://asn.jesandco.org/resources/S2529257> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Uses available applications for named entity recognition, extraction and reconciliation"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529190> .
+
+<http://asn.jesandco.org/resources/S2529235> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Describing RDF resources for discovery"@en-US ;
+                                             asn:comment "Such as DCAT (http://www.w3.org/TR/vocab-dcat/), VoID (http://www.w3.org/TR/void/), ADMS (https://joinup.ec.europa.eu/asset/adms/home)"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529242> ,
+                                                           <http://asn.jesandco.org/resources/S2529244> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529182> .
+
+<http://asn.jesandco.org/resources/S2529242> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Creates metadata describing the RDF schema to make it discoverable"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529235> .
+
+<http://asn.jesandco.org/resources/S2529244> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Publicizes the RDF schema by registering it with relevant services"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529235> .
+
+<http://asn.jesandco.org/resources/S2529216> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Generating RDF instance data"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529232> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529182> .
+
+<http://asn.jesandco.org/resources/S2529232> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Creates RDFa markup for HTML pages using an RDF schema"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529216> .
+
+<http://asn.jesandco.org/resources/S2529266> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Creating an application profile"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529267> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529182> .
+
+<http://asn.jesandco.org/resources/S2529267> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "@@@"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529266> .
+
+<http://asn.jesandco.org/resources/S2529350> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Creating and using SPARQL endpoints"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529351> ,
+                                                           <http://asn.jesandco.org/resources/S2529352> ,
+                                                           <http://asn.jesandco.org/resources/S2529353> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529182> .
+
+<http://asn.jesandco.org/resources/S2529351> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Creates SPARQL endpoints for RDBMS"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529350> .
+
+<http://asn.jesandco.org/resources/S2529352> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Uses SPARQL endpoints for RDBMS"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529350> .
+
+<http://asn.jesandco.org/resources/S2529353> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description "Demonstrates knowledge of factors influencing whether to publish RDF or provide a SPARQL endpoint"@en-US ;
+                                             asn:comment "See http://answers.semanticweb.com/questions/285/publish-rdf-or-provide-a-sparql-endpoint"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529350> .
+
+<http://asn.jesandco.org/resources/S2529462> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "Publishing RDF"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529463> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529182> .
+
+<http://asn.jesandco.org/resources/S2529463> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Competency"@en-US ;
+                                             dcterms:description 'Determines whether to use hash ("#") or slash ("/")'@en-US ;
+                                             asn:comment "Best Practice Recipes for Publishing RDF Vocabularies, D. Berrueta, J. Phipps, W3C Note 2008. http://www.w3.org/TR/swbp-vocab-pub/"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529462> .
+
+<http://asn.jesandco.org/resources/S2529183> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic Cluster"@en-US ;
+                                             dcterms:description "Visualizing graphs"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529209> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/D2529179> .
+
+<http://asn.jesandco.org/resources/S2529209> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "@@@"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529183> .
+
+<http://asn.jesandco.org/resources/S2529184> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic Cluster"@en-US ;
+                                             dcterms:description "Implementing applications"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:hasChild <http://asn.jesandco.org/resources/S2529213> ,
+                                                           <http://asn.jesandco.org/resources/S2529226> ,
+                                                           <http://asn.jesandco.org/resources/S2529225> ,
+                                                           <http://asn.jesandco.org/resources/S2529234> ,
+                                                           <http://asn.jesandco.org/resources/S2529236> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/D2529179> .
+
+<http://asn.jesandco.org/resources/S2529213> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "@@@"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529184> .
+
+<http://asn.jesandco.org/resources/S2529226> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "@@@"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529184> .
+
+<http://asn.jesandco.org/resources/S2529225> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "[DEMO NODE MOVE]"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529184> .
+
+<http://asn.jesandco.org/resources/S2529234> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "@@@"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529184> .
+
+<http://asn.jesandco.org/resources/S2529236> rdf:type asn:Statement ;
+                                             dcterms:isPartOf <http://asn.jesandco.org/resources/D2529179> ;
+                                             asn:authorityStatus <http://purl.org/ASN/scheme/ASNAuthorityStatus/Original> ;
+                                             asn:indexingStatus <http://purl.org/ASN/scheme/ASNIndexingStatus/Yes> ;
+                                             dcterms:educationLevel <http://purl.org/ASN/scheme/ASNEducationLevel/VocationalTraining> ,
+                                                                    <http://purl.org/ASN/scheme/ASNEducationLevel/ProfessionalEducation-Development> ;
+                                             dcterms:subject <http://purl.org/ASN/scheme/ASNTopic/careerEducation> ,
+                                                             <http://purl.org/ASN/scheme/ASNTopic/technology> ;
+                                             asn:statementLabel "Topic"@en-US ;
+                                             dcterms:description "@@@"@en-US ;
+                                             dcterms:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+                                             gemq:isChildOf <http://asn.jesandco.org/resources/S2529184> .

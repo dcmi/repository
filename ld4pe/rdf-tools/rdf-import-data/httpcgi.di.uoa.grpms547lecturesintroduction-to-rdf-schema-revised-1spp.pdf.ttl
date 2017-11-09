@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://cgi.di.uoa.gr/~pms547/lectures/introduction-to-rdf-schema-revised-1spp.pdf>
+  a schema:CreativeWork ;
+  schema:name "An Introduction to RDF Schema"@en-US ;
+  schema:author "Koubarakis, Manolis"@en-US ;
+  schema:description "Slides discuss RDF Schema, including Classes, Sub-classes, and Instances. Concepts such as Domain and Range, Datatypes and Literals, Labels and Comments are also covered. Comparison of RDF Schema to Types in OO (object-oriented) programming languages. Ends with a discussion of \"Richer Schema languages\", such as OWL."@en-US ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Semantic Web"@en-US, "RDF Schema"@en-US, "Graph"@en-US, "Triple"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

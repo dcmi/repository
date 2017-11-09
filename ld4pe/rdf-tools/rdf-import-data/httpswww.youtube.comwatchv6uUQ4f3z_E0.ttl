@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=6uUQ4f3z_E0>
+  a schema:CreativeWork ;
+  schema:name "The Linked Data early days: how is it possible to learn what we dont know"@en-US ;
+  schema:description "Pundit enables users to create semantically structured data annotating the web. These annotations are organised in notebooks which can be shared with others to create collaborative structured knowledge. They can be simple comments, semantic links to the Web of Data or fine granular cross-references and citations done between entire pages, paragraphs or any other user-defined granularity, including custom drawn shapes over images. The created data can be exploited to build custom rich visualizations, by querying the servers open API."@en-US ;
+  schema:dateCreated "2013-04-03T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Semantic Web"@en-US, "Semantic annotation"@en-US, "Pundit"@en-US ;
+  schema:publisher "Net 7"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

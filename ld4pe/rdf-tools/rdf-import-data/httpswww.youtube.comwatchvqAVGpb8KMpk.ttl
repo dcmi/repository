@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=qAVGpb8KMpk>
+  a schema:CreativeWork ;
+  schema:name "DBpedia: Visualising Linked Data- Graph of Members of Punk Rock Bands"@en-US ;
+  schema:author "Sherlock, David"@en-US ;
+  schema:description "Using DBpedia, Google Refine, R, and Gephi to play with Linked Data."@en-US ;
+  schema:dateCreated "2013-05-31T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "DBpedia"@en-US, "SPARQL"@en-US, "Query"@en-US, "Data Visualization"@en-US, "Google Refine"@en-US, "R (programming language)."@en-US ;
+  schema:publisher "Fluid Operations"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

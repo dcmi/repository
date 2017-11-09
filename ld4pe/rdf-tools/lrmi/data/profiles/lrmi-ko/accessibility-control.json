@@ -1,0 +1,32 @@
+[
+    {
+        "label": "전체 키보드 제어",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullKeyboardControl",
+        "type" : "uri"
+    },
+    {
+        "label": "전체 마우스 컨트롤",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullMouseControl",
+        "type" : "uri"
+    },
+    {
+        "label": "전체 스위치 제어",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullSwitchControl",
+        "type" : "uri"
+    },
+    {
+        "label": "풀 터치 제어",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullTouchControl",
+        "type" : "uri"
+    },
+    {
+        "label": "전체 비디오 컨트롤",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullVideoControl",
+        "type" : "uri"
+    },
+    {
+        "label": "전체 음성 제어",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullVoiceControl",
+        "type" : "uri"
+    }
+]

@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=r3KPu0fwDGA>
+  a schema:CreativeWork ;
+  schema:name "Discoverability of SPARQL Endpoints for Linked Open Data"@en-US ;
+  schema:author "Paulheim, Heiko | Hertling, Sven"@en-US ;
+  schema:description "In his 2005 design document, Tim Berners-Lee stated that \"to make the data be effectively linked, someone who only has the URI of something must be able to find their way to the SPARQL endpoint.\" Today, this is still not possible in a canonical way. We have examined different strategies of discovering SPARQL endpoints for a given URI, as well as implemented a web service using those strategies to provide automatic resolution of URIs to SPARQL Endpoints."@en-US ;
+  schema:dateCreated "2013-09-30T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Open Data"@en-US, "SPARQL"@en-US, "SPARQL endpoint"@en-US, "VoID"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

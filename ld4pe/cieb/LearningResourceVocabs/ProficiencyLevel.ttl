@@ -1,0 +1,95 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix profLevel: <http://purl.org/dcx/ld4pe-vocabs/proficiencyLevel/>.
+
+profLevel: a skos:ConceptScheme ;
+    dc:title "Educational Audience Proficiant Levels"@en-us ;
+    dc:description """This vocabulary defines the proficiency level or levels of the 
+        intended learners for whom a learning resource is intended or useful."""@en-us ;    
+    dc:creator "DCMI/LD4PE Task Group"@en-us ;
+    dcterms:created "2015-09-22"^^dcterms:W3CDTF ;
+    dcterms:source """Based on the Office of Human Resources, U.S. National Institutes of Health
+        proficiency scale levels for competencies: 
+        https://hr.od.nih.gov/workingatnih/competencies/proficiencyscale.htm"""@en-us .
+
+profLevel:fundamentalAwareness a skos:Concept ;
+    skos:prefLabel "fundamental awareness"@en-us ;
+    skosxl:preflabel profLevel:label-fundamentalAwareness ;
+    skos:definition """Basic level: Persons in this class are beginning development of a 
+        knowledge and understanding of the common, basic techniques, and concepts. Focus 
+        is on learning."""@en-us ;
+    skos:inScheme profLevel: .
+    
+profLevel:novice a skos:Concept ;
+    skos:prefLabel "novice"@en-us ;
+    skosxl:preflabel profLevel:label-novice ;    
+    skos:definition """Limited experience: Persons in this class have the proficiency 
+        gained in a classroom and/or experimental scenarios or as a trainee 
+        on-the-job. Focus is on developing through experiment in application."""@en-us ;
+    skos:scopeNote """Persons at this level of proficiency are expected to need help when 
+        performing the competency or set of competencies. Persons at this level are capable 
+        of understanding and can discuss terminology, concepts, principles, and issues related 
+        to this competency or set of competencies."""@en-us ;
+    skos:inScheme profLevel: .  
+
+profLevel:intermediate a skos:Concept ;
+    skos:prefLabel "intermediate"@en-us ;
+    skosxl:preflabel profLevel:label-intermediate ;    
+    skos:definition """Semi-independent practical application: Proficient persons in this class 
+        are able to successfully complete the tasks required by the competency or set of 
+        competencies."""@en-us ;
+    skos:scopeNote """Help from an expert may be required from time to time, but the person can 
+        usually perform the skill(s) independently. Focus is on applying and enhancing knowledge 
+        or skill.  Person may have applied this competency to situations occasionally while 
+        needing minimal guidance to perform successfully."""@en-us ;
+    skos:inScheme profLevel: .  
+    
+profLevel:advanced a skos:Concept ;
+    skos:prefLabel "advanced"@en-us ;
+    skosxl:preflabel profLevel:label-advanced ;    
+    skos:definition """Applied theory: Persons in this class can perform the actions associated 
+        with this skill or skill set without assistance. Focus is on broad organizational/professional 
+        issues."""@en-us ;
+    skos:scopeNote """Person is recognized within his or her immediate organization as \"a person to 
+        ask\" when difficult questions arise regarding the skill or skills embodied. Person is capable 
+        of coaching others in the application of this competency by translating complex nuances 
+        relating to this competency into easy to understand terms."""@us-en;
+    skos:inScheme profLevel: .
+    
+profLevel:expert a skos:Concept ;
+    skos:prefLabel "expert"@en-us ;
+    skosxl:preflabel profLevel:label-expert ;    
+    skos:definition """Recognized Authority: Persons can provide guidance, troubleshoot and answer 
+        questions related to this area of expertise and the field where the skill or skill set is 
+        used. Focus is strategic."""@us-en ;
+    skos:scopeNote """Persons have created new applications for and/or lead the development of 
+        reference and resource materials for this competency. Persons are able to diagram or 
+        explain the relevant process elements and issues in relation to organizational trends 
+        in sufficient detail during discussions and presentations, to foster a greater understanding 
+        among internal and external colleagues and constituents."""@en-us ;
+    skos:inScheme profLevel: .
+    
+#============================= 
+# EXTENDED LABELS
+#=============================     
+    
+profLevel:label-fundamentalAwareness a skosxl:label ;
+    skosxl:literalForm "fundamental awareness"@en-US . 
+    
+profLevel:label-novice a skosxl:label ;
+    skosxl:literalForm "novice"@en-US .
+    
+profLevel:label-intermediate a skosxl:label ;
+    skosxl:literalForm "intermediate"@en-US . 
+    
+profLevel:label-advanced a skosxl:label ;
+    skosxl:literalForm "advanced"@en-US .
+    
+profLevel:label-expert a skosxl:label ;
+    skosxl:literalForm "expert"@en-US .                  

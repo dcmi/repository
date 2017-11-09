@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=YXjYPz6SHjA>
+  a schema:CreativeWork ;
+  schema:name "Apache Jena Eclipse Configuration Tutorial"@en-US ;
+  schema:author "Zaki, Ryan"@en-US ;
+  schema:description "A tutorial showing how to download and configure Apache Jena using Eclipse."@en-US ;
+  schema:dateCreated "2014-03-28T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Apache Jena"@en-US, "API"@en-US, "Eclipse"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

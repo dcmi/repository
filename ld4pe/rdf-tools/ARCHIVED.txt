@@ -1,0 +1,27 @@
+2016-09-16 Joseph Chapman       2e07231 update competency index
+2016-03-17 Joseph Chapman       b348d9b topical index update
+2016-01-12 Joseph Chapman       f048320 Move competencies section higher on the page
+2015-12-06 Joseph Chapman       e6a7050 CI Support and other enhancements
+2015-10-25 Joseph Chapman       37558cb add new learning resource types. this closes #7
+2015-10-25 Joseph Chapman       10293c9 remove example text. this closes #10
+2015-09-23 Joseph Chapman       2606b14 add proficiency level
+2015-09-10 Joseph Chapman       ffc7dd5 New directives and View all records table
+2015-06-24 Joseph Chapman       4fba35e add hard line break
+2015-06-24 Joseph Chapman       b65666f add json and html views
+2015-06-22 Joseph Chapman       7b1ecd5 update SPARQL text
+2015-06-22 Joseph Chapman       065db6a SPARQL Query File
+2015-06-19 Joseph Chapman       4874d64 Length of description fields for possible pruning
+2015-06-17 Joseph Chapman       741cbc5 Updated LRMI identifiers.  This closes #4
+2015-06-17 Joseph Chapman       2f1f088 empty abouts slipping by
+2015-06-17 Joseph Chapman       4b35141 learningResourceType as literal
+2015-06-17 Joseph Chapman       c890b0a Quick fix - empty abouts
+2015-06-17 Joseph Chapman       d07208a Updated learningResourceType identifiers
+2015-06-16 Joseph Chapman       bccf2c0 Use non-literals for LRMI - Interactivity Type. This closes #3
+2015-06-16 Joseph Chapman       87a8051 Use non-literals for LRMI - Accessibility.  This closes #1
+2015-06-15 Joseph Chapman       f02cb75 Maintenance on records
+2015-06-12 Joseph Chapman       29bf39e Add support for educational audience.  This closes #2
+2015-06-09 Joseph Chapman       97b7686 Change the field, "educational use" from literal to a non-literal
+2015-06-07 Joseph Chapman       10e0f9f updated readme
+2015-06-07 Joseph Chapman       9ec60ca RDF conversion - DC to LRMI
+2015-06-07 Joseph Chapman       108ed5f maintenance fixes
+2015-06-02 Joseph Chapman       0059b52 init

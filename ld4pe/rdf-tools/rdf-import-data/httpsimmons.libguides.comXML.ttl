@@ -1,0 +1,11 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://simmons.libguides.com/XML>
+  a schema:CreativeWork ;
+  schema:name "LIS 469: XML (eXtensible Markup Language)"@en-US ;
+  schema:description "A libGuide with material regarding learning XML."@en-US ;
+  schema:about "XML"@en-US ;
+  schema:publisher "GSLIS, Simmons College"@en-US ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

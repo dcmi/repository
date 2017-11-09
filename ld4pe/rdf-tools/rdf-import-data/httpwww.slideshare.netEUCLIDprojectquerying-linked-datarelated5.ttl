@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/EUCLIDproject/querying-linked-data?related=5>
+  a schema:CreativeWork ;
+  schema:name "Querying Linked Data"@en-US ;
+  schema:author "Norton, Barry"@en-US ;
+  schema:description "This presentation looks in detail at SPARQL (SPARQL Protocol and RDF Query Language) and introduces approaches for querying and updating semantic data. It covers the SPARQL algebra, the SPARQL protocol, and provides examples for reasoning over Linked Data. We use examples from the music domain, which can be directly tried out and ran over the MusicBrainz dataset. This includes gaining some familiarity with the RDFS and OWL languages, which allow developers to formulate generic and conceptual knowledge that can be exploited by automatic reasoning services in order to enhance the power of querying."@en-US ;
+  schema:dateCreated "2013-02-28T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "SPARQL"@en-US, "SPARQL endpoint"@en-US, "Query"@en-US, "RDF Schema"@en-US, "Web Ontology Language (OWL)"@en-US ;
+  schema:publisher "EUCLID Project"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

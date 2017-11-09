@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.si.umich.edu/programs/class/fall-2014/semantics-based-knowledge-descriptions-and-organization>
+  a schema:CreativeWork ;
+  schema:name "SI570: Semantics-Based Knowledge Descriptions and Organization"@en-US ;
+  schema:author "Lagoze, Carl"@en-US ;
+  schema:description "Semantics-Based Knowledge Descriptions and Organization --- The course will cover the theoretical, technical, and practical foundations of using semantics as a framework for organizing, describing, providing access to, and managing (over the long term) information resources. The course content is intentionally positioned between a LIS- oriented metadata course and technically-focused semantic or web science course."@en-US ;
+  schema:dateCreated "2014-12-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Metadata"@en-US, "Semantic web"@en-US ;
+  schema:publisher "School of Information, University of Michigan"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=5DCS9LE-8rE>
+  a schema:CreativeWork ;
+  schema:name "Valerio Maggio - Semantic Python: Mastering Linked Data with Python"@en-US ;
+  schema:author "Maggio, Valerio"@en-US ;
+  schema:description "Two typical examples of large Linked Dataset are FreeBase, and DBPedia, both of which use the RDF format. Python offers a very powerful and easy to use library to work with Linked Data: rdflib. RDFLib is a lightweight and functionally complete RDF library, allowing applications to access, create and manage RDF graphs in a very Pythonic fashion. In this talk, a general overview of the main features provided by the rdflib package is presented. Several code examples are discussed, along with a case study concerning the analysis of a (semantic) social graph. This case study is focused on the integration between the networkx module and the rdflib library in order to crawl, access (via SPARQL), and analyze a Social Linked Data Graph represented using the FOAF (Friend of a Friend) schema. This talk is intended for an Novice level audience, assuming a good knowledge of the Python language."@en-US ;
+  schema:dateCreated "2014-07-26T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Semantic Web"@en-US, "Web of Data"@en-US, "Linked Data"@en-US, "Linked data Principles"@en-US, "OWL"@en-US, "Dataset, RDF"@en-US, "RDFLib"@en-US, "Python"@en-US, "Networkx module"@en-US, "FOAF"@en-US, "SPARQL"@en-US, "Graph"@en-US, "FreeBase"@en-US, "DBPedia"@en-US ;
+  schema:publisher "PyData"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

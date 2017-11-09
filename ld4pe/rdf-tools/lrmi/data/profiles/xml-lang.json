@@ -1,0 +1,482 @@
+[
+  {
+    "label": "af",
+    "value": "af"
+  },
+  {
+    "label": "ar-AE",
+    "value": "ar-AE"
+  },
+  {
+    "label": "ar-BH",
+    "value": "ar-BH"
+  },
+  {
+    "label": "ar-DZ",
+    "value": "ar-DZ"
+  },
+  {
+    "label": "ar-EG",
+    "value": "ar-EG"
+  },
+  {
+    "label": "ar-IQ",
+    "value": "ar-IQ"
+  },
+  {
+    "label": "ar-JO",
+    "value": "ar-JO"
+  },
+  {
+    "label": "ar-KW",
+    "value": "ar-KW"
+  },
+  {
+    "label": "ar-LB",
+    "value": "ar-LB"
+  },
+  {
+    "label": "ar-LY",
+    "value": "ar-LY"
+  },
+  {
+    "label": "ar-MA",
+    "value": "ar-MA"
+  },
+  {
+    "label": "ar-OM",
+    "value": "ar-OM"
+  },
+  {
+    "label": "ar-QA",
+    "value": "ar-QA"
+  },
+  {
+    "label": "ar-SA",
+    "value": "ar-SA"
+  },
+  {
+    "label": "ar-SY",
+    "value": "ar-SY"
+  },
+  {
+    "label": "ar-TN",
+    "value": "ar-TN"
+  },
+  {
+    "label": "ar-YE",
+    "value": "ar-YE"
+  },
+  {
+    "label": "be",
+    "value": "be"
+  },
+  {
+    "label": "bg",
+    "value": "bg"
+  },
+  {
+    "label": "ca",
+    "value": "ca"
+  },
+  {
+    "label": "cs",
+    "value": "cs"
+  },
+  {
+    "label": "da",
+    "value": "da"
+  },
+  {
+    "label": "de",
+    "value": "de"
+  },
+  {
+    "label": "de-AT",
+    "value": "de-AT"
+  },
+  {
+    "label": "de-CH",
+    "value": "de-CH"
+  },
+  {
+    "label": "de-LI",
+    "value": "de-LI"
+  },
+  {
+    "label": "de-LU",
+    "value": "de-LU"
+  },
+  {
+    "label": "el",
+    "value": "el"
+  },
+  {
+    "label": "en",
+    "value": "en"
+  },
+  {
+    "label": "en-AU",
+    "value": "en-AU"
+  },
+  {
+    "label": "en-BZ",
+    "value": "en-BZ"
+  },
+  {
+    "label": "en-CA",
+    "value": "en-CA"
+  },
+  {
+    "label": "en-GB",
+    "value": "en-GB"
+  },
+  {
+    "label": "en-IE",
+    "value": "en-IE"
+  },
+  {
+    "label": "en-JM",
+    "value": "en-JM"
+  },
+  {
+    "label": "en-NZ",
+    "value": "en-NZ"
+  },
+  {
+    "label": "en-TT",
+    "value": "en-TT"
+  },
+  {
+    "label": "en-US",
+    "value": "en-US"
+  },
+  {
+    "label": "en-ZA",
+    "value": "en-ZA"
+  },
+  {
+    "label": "es",
+    "value": "es"
+  },
+  {
+    "label": "es-AR",
+    "value": "es-AR"
+  },
+  {
+    "label": "es-BO",
+    "value": "es-BO"
+  },
+  {
+    "label": "es-CL",
+    "value": "es-CL"
+  },
+  {
+    "label": "es-CO",
+    "value": "es-CO"
+  },
+  {
+    "label": "es-CR",
+    "value": "es-CR"
+  },
+  {
+    "label": "es-DO",
+    "value": "es-DO"
+  },
+  {
+    "label": "es-EC",
+    "value": "es-EC"
+  },
+  {
+    "label": "es-GT",
+    "value": "es-GT"
+  },
+  {
+    "label": "es-HN",
+    "value": "es-HN"
+  },
+  {
+    "label": "es-MX",
+    "value": "es-MX"
+  },
+  {
+    "label": "es-NI",
+    "value": "es-NI"
+  },
+  {
+    "label": "es-PA",
+    "value": "es-PA"
+  },
+  {
+    "label": "es-PE",
+    "value": "es-PE"
+  },
+  {
+    "label": "es-PR",
+    "value": "es-PR"
+  },
+  {
+    "label": "es-PY",
+    "value": "es-PY"
+  },
+  {
+    "label": "es-SY",
+    "value": "es-SY"
+  },
+  {
+    "label": "es-UY",
+    "value": "es-UY"
+  },
+  {
+    "label": "es-VE",
+    "value": "es-VE"
+  },
+  {
+    "label": "et",
+    "value": "et"
+  },
+  {
+    "label": "eu",
+    "value": "eu"
+  },
+  {
+    "label": "fa",
+    "value": "fa"
+  },
+  {
+    "label": "fi",
+    "value": "fi"
+  },
+  {
+    "label": "fo",
+    "value": "fo"
+  },
+  {
+    "label": "fr",
+    "value": "fr"
+  },
+  {
+    "label": "fr-BE",
+    "value": "fr-BE"
+  },
+  {
+    "label": "fr-CA",
+    "value": "fr-CA"
+  },
+  {
+    "label": "fr-CH",
+    "value": "fr-CH"
+  },
+  {
+    "label": "fr-LU",
+    "value": "fr-LU"
+  },
+  {
+    "label": "ga",
+    "value": "ga"
+  },
+  {
+    "label": "gd",
+    "value": "gd"
+  },
+  {
+    "label": "he",
+    "value": "he"
+  },
+  {
+    "label": "hi",
+    "value": "hi"
+  },
+  {
+    "label": "hr",
+    "value": "hr"
+  },
+  {
+    "label": "hu",
+    "value": "hu"
+  },
+  {
+    "label": "id",
+    "value": "id"
+  },
+  {
+    "label": "is",
+    "value": "is"
+  },
+  {
+    "label": "it",
+    "value": "it"
+  },
+  {
+    "label": "it-CH",
+    "value": "it-CH"
+  },
+  {
+    "label": "ja",
+    "value": "ja"
+  },
+  {
+    "label": "ji",
+    "value": "ji"
+  },
+  {
+    "label": "ko",
+    "value": "ko"
+  },
+  {
+    "label": "lt",
+    "value": "lt"
+  },
+  {
+    "label": "lv",
+    "value": "lv"
+  },
+  {
+    "label": "mk",
+    "value": "mk"
+  },
+  {
+    "label": "ms",
+    "value": "ms"
+  },
+  {
+    "label": "mt",
+    "value": "mt"
+  },
+  {
+    "label": "nl",
+    "value": "nl"
+  },
+  {
+    "label": "nl-BE",
+    "value": "nl-BE"
+  },
+  {
+    "label": "no",
+    "value": "no"
+  },
+  {
+    "label": "pl",
+    "value": "pl"
+  },
+  {
+    "label": "pt",
+    "value": "pt"
+  },
+  {
+    "label": "pt-BR",
+    "value": "pt-BR"
+  },
+  {
+    "label": "rm",
+    "value": "rm"
+  },
+  {
+    "label": "ro",
+    "value": "ro"
+  },
+  {
+    "label": "ro-MO",
+    "value": "ro-MO"
+  },
+  {
+    "label": "ru",
+    "value": "ru"
+  },
+  {
+    "label": "ru-MO",
+    "value": "ru-MO"
+  },
+  {
+    "label": "sb",
+    "value": "sb"
+  },
+  {
+    "label": "sk",
+    "value": "sk"
+  },
+  {
+    "label": "sl",
+    "value": "sl"
+  },
+  {
+    "label": "sq",
+    "value": "sq"
+  },
+  {
+    "label": "sr",
+    "value": "sr"
+  },
+  {
+    "label": "sv",
+    "value": "sv"
+  },
+  {
+    "label": "sv-FI",
+    "value": "sv-FI"
+  },
+  {
+    "label": "sx",
+    "value": "sx"
+  },
+  {
+    "label": "sz",
+    "value": "sz"
+  },
+  {
+    "label": "th",
+    "value": "th"
+  },
+  {
+    "label": "tn",
+    "value": "tn"
+  },
+  {
+    "label": "tr",
+    "value": "tr"
+  },
+  {
+    "label": "ts",
+    "value": "ts"
+  },
+  {
+    "label": "uk",
+    "value": "uk"
+  },
+  {
+    "label": "ur",
+    "value": "ur"
+  },
+  {
+    "label": "ve",
+    "value": "ve"
+  },
+  {
+    "label": "vi",
+    "value": "vi"
+  },
+  {
+    "label": "xh",
+    "value": "xh"
+  },
+  {
+    "label": "zh-CN",
+    "value": "zh-CN"
+  },
+  {
+    "label": "zh-HK",
+    "value": "zh-HK"
+  },
+  {
+    "label": "zh-SG",
+    "value": "zh-SG"
+  },
+  {
+    "label": "zh-TW",
+    "value": "zh-TW"
+  },
+  {
+    "label": "zu",
+    "value": "zu"
+  }
+]

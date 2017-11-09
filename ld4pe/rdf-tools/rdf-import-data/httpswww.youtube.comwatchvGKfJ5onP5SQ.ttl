@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=GKfJ5onP5SQ>
+  a schema:CreativeWork ;
+  schema:name "Linked Data (and the Web of Data)"@en-US ;
+  schema:author "DERI"@en-US ;
+  schema:description "DERI and the Linked Data Research Center (LiDRC) present a video on Linked data. The LiDRC uses technologies from research being carried out at DERI."@en-US ;
+  schema:dateCreated "2010-10-28T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Web of Data"@en-US, "Semantic Web"@en-US, "HTTP URIs"@en-US ;
+  schema:publisher "DERIGalway"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

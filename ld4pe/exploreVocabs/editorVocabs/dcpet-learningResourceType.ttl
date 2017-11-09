@@ -1,0 +1,136 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix lrmi: <http://purl.org/dcx/lrmi-vocabs/learningResourceType/> .
+@prefix dcpet: <http://purl.org/dcx/pet/learningResourceType/> .
+@prefix bibo: <http://purl.org/ontology/bibo/status/> .
+
+#=============================
+# DCPET "LEARNING RESOURCE TYPE" CONCEPT SCHEME DESCRIPTION
+#=============================
+
+dcpet: a skos:ConceptScheme ;
+    dc:title "DC-PET Learning Resource Type Vocabulary"@en-US ;
+    dc:creator "LD4PE Task Group (DCMI)"@en-US ;
+    dcterms:dateSubmitted "2015-10-08"^^xsd:date ; 
+    dc:description "A concept scheme defining the predominant genre, type or kind characterizing a learning resource"@en-US ;
+    dc:source "EXTENSION of the LRMI Learning Resource Type Vocabulary at http://purl.org/dcx/lrmi-vocabs/learningResourceType/"@en-US ;
+    adms:status bibo:draft .
+    
+#=============================
+# DCPET CONCEPTS
+#=============================
+    
+dcpet:dataset a skos:Concept ;
+    skos:prefLabel "dataset"@en-US ;
+    skosxl:prefLabel dcpet:label-dataset ; 
+    skos:definition "Visual, factual, or numerical information used in instruction that comes from a sensing device, whether instrument-measured or human-observed; describes both unprocessed, \"raw\" information as well as information already organized into lists, tables, or databases."@en-US ;
+    skos:inScheme dcpet: ;
+    dcterms:source "Definition partially based on NSDL (https://wiki.ucar.edu/display/nsdldocs/Type)."@en-US ;
+    vs:term_status "unstable" . 
+    
+dcpet:lessonPlan a skos:Concept ;
+    skos:prefLabel "lesson plan"@en-US ;
+    skosxl:prefLabel dcpet:label-lessonPlan ; 
+    skos:definition "Resource to support students' learning of specific concepts, skills, or content; often includes teaching instructions, educational goals, learning objectives, and procedures"@en-US ;
+    skos:broader lrmi:lesson ;
+    skos:inScheme dcpet: ;
+    dcterms:source "Definition based on NSDL (https://wiki.ucar.edu/display/nsdldocs/Type)."@en-US ;
+    vs:term_status "unstable" .        
+    
+dcpet:syllabus a skos:Concept ;
+    skos:prefLabel "syllabus"@en-US ;
+    skosxl:prefLabel dcpet:label-syllabus ; 
+    skos:definition "Plan showing the structure of a particular course, including course description and objectives, grading policy, materials, assignments, lesson sequence, and course calendar."@en-US ;
+    skos:inScheme dcpet: ;
+    skos:broader lrmi:educatorCurriculumGuide ;
+    dcterms:source "Definition based on NSDL (https://wiki.ucar.edu/display/nsdldocs/Type)."@en-US ;
+    vs:term_status "unstable" .
+    
+dcpet:technicalSpecification a skos:Concept ;
+    skos:prefLabel "technicalSpecification"@en-US ;
+    skosxl:prefLabel dcpet:label-technical-specification ; 
+    skos:definition "A technical specification describes the details of either all or specific parts of a schema, scheme, or other forms of metadata description language."@en-US ;
+    skos:scopeNote "Technical specifications include, but are not limited to the technical descriptions of metadata schemes, schema, ontologies, application profiles, and other documentation of description languages."@en-US ; 
+    skos:inScheme dcpet: ;
+    skos:broader lrmi:educatorCurriculumGuide ;
+    vs:term_status "unstable" .                         
+    
+#=============================
+# CONTEPTS INCLUDED FROM LRMI CONCEPT SCHEME FOR LEARNING RESOURCE TYPE
+# @ <http://purl.org/dcx/pet/learningResourceType/>
+#=============================
+
+lrmi:alternateAssessment skos:inScheme dcpet: ;
+    skos:prefLabel "alternative assessment"@en-US .
+
+lrmi:assessmentItem skos:inScheme dcpet: ;
+    skos:prefLabel "assessment item"@en-US .
+       
+lrmi:course skos:inScheme dcpet: ;
+    skos:prefLabel "course"@en-US .
+
+lrmi:demonstration-simulation skos:inScheme dcpet: ;
+    skos:prefLabel "demonstration/simulation"@en-US .
+    
+lrmi:educatorCurriculumGuide skos:inScheme dcpet: ;
+    skos:prefLabel "educator curriculum guide"@en-US .
+    
+lrmi:formativeAssessment skos:inScheme dcpet: ;
+    skos:prefLabel "formative assessment"@en-US .
+
+lrmi:images-visuals skos:inScheme dcpet: ;
+    skos:prefLabel "images/visuals"@en-US .
+    
+lrmi:interim-summativeAssessment skos:inScheme dcpet: ;
+    skos:prefLabel "interim/summative assessment"@en-US .   
+
+lrmi:learningActivity skos:inScheme dcpet: ;
+    skos:prefLabel "learning activity"@en-US .    
+
+lrmi:lesson skos:inScheme dcpet: ;
+    skos:prefLabel "lesson"@en-US .    
+
+lrmi:primarySource skos:inScheme dcpet: ;
+    skos:prefLabel "primary source"@en-US .         
+
+lrmi:rubricScoringGuide skos:inScheme dcpet: ;
+    skos:prefLabel "rubric scoring guide"@en-US . 
+
+lrmi:selfAssessment skos:inScheme dcpet: ;
+    skos:prefLabel "self assessment"@en-US .
+    
+lrmi:text skos:inScheme dcpet: ;
+    skos:prefLabel "text"@en-US .
+
+lrmi:textbook skos:inScheme dcpet: ;
+    skos:prefLabel "text"@en-US .     
+ 
+lrmi:unit skos:inScheme dcpet: ;
+    skos:prefLabel "unit"@en-US .
+    
+#============================= 
+# EXTENDED LABELS
+#=============================    
+    
+dcpet:label-dataset a skosxl:label ;
+    skosxl:literalForm "dataset"@en-US .
+    
+dcpet:label-lessonPlan a skosxl:label ;
+    skosxl:literalForm "lesson plan"@en-US .    
+    
+dcpet:label-syllabus a skosxl:label ;
+    skosxl:literalForm "syllabus"@en-US . 
+    
+dcpet:label-technical-specification a skosxl:label ;
+    skosxl:literalForm "technical specification"@en-US .                     
+        
+ 

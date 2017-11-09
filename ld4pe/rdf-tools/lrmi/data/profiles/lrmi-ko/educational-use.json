@@ -1,0 +1,17 @@
+[
+    {
+        "label": "Assessment",
+        "value": "http://purl.org/dcx/lrmi-vocabs/edUse/assessment",
+        "type": "uri"
+    },
+    {
+        "label": "Instruction",
+        "value": "http://purl.org/dcx/lrmi-vocabs/edUse/instruction",
+        "type": "uri"
+    },
+    {
+        "label": "Professional Development",
+        "value": "http://purl.org/dcx/lrmi-vocabs/edUse/professionalDevelopment",
+        "type": "uri"
+    }
+]

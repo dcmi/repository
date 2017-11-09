@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://d2rq.org/>
+  a schema:CreativeWork ;
+  schema:name "D2RQ: Accessing Relational Databases as Virtual RDF Graphs"@en-US ;
+  schema:author "Cyganiak, Richard | Bizer, Chris"@en-US ;
+  schema:description "The D2RQ Platform is a system for accessing relational databases as virtual, read-only RDF graphs. It offers RDF-based access to the content of relational databases without having to replicate it into an RDF store. Using D2RQ you can: Query a non-RDF database using SPARQL; Access the content of the database as Linked Data over the Web; Create custom dumps of the database in RDF formats for loading into an RDF store; Access information in a non-RDF database using the Apache Jena API. D2RQ is Open Source software and published under the Apache license. The source code is available on GitHub."@en-US ;
+  schema:about "Linked Data"@en-US, "Relational Model"@en-US, "R2RML"@en-US, "Dataset, RDF"@en-US, "Graph"@en-US, "SPARQL query"@en-US, "Apache License"@en-US, "Apache Jena"@en-US ;
+  schema:publisher "Freie Universitat Berlin"@en-US, "DERI"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/text> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

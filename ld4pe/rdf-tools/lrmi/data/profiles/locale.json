@@ -1,0 +1,982 @@
+[
+  {
+    "label": "af",
+    "value": "af"
+  },
+  {
+    "label": "af-na",
+    "value": "af-na"
+  },
+  {
+    "label": "af-za",
+    "value": "af-za"
+  },
+  {
+    "label": "am",
+    "value": "am"
+  },
+  {
+    "label": "am-et",
+    "value": "am-et"
+  },
+  {
+    "label": "ar",
+    "value": "ar"
+  },
+  {
+    "label": "ar-001",
+    "value": "ar-001"
+  },
+  {
+    "label": "ar-ae",
+    "value": "ar-ae"
+  },
+  {
+    "label": "ar-bh",
+    "value": "ar-bh"
+  },
+  {
+    "label": "ar-dz",
+    "value": "ar-dz"
+  },
+  {
+    "label": "ar-eg",
+    "value": "ar-eg"
+  },
+  {
+    "label": "ar-iq",
+    "value": "ar-iq"
+  },
+  {
+    "label": "ar-jo",
+    "value": "ar-jo"
+  },
+  {
+    "label": "ar-kw",
+    "value": "ar-kw"
+  },
+  {
+    "label": "ar-lb",
+    "value": "ar-lb"
+  },
+  {
+    "label": "ar-ly",
+    "value": "ar-ly"
+  },
+  {
+    "label": "ar-ma",
+    "value": "ar-ma"
+  },
+  {
+    "label": "ar-om",
+    "value": "ar-om"
+  },
+  {
+    "label": "ar-qa",
+    "value": "ar-qa"
+  },
+  {
+    "label": "ar-sa",
+    "value": "ar-sa"
+  },
+  {
+    "label": "ar-sd",
+    "value": "ar-sd"
+  },
+  {
+    "label": "ar-sy",
+    "value": "ar-sy"
+  },
+  {
+    "label": "ar-tn",
+    "value": "ar-tn"
+  },
+  {
+    "label": "ar-ye",
+    "value": "ar-ye"
+  },
+  {
+    "label": "bg",
+    "value": "bg"
+  },
+  {
+    "label": "bg-bg",
+    "value": "bg-bg"
+  },
+  {
+    "label": "bn",
+    "value": "bn"
+  },
+  {
+    "label": "bn-bd",
+    "value": "bn-bd"
+  },
+  {
+    "label": "bn-in",
+    "value": "bn-in"
+  },
+  {
+    "label": "ca",
+    "value": "ca"
+  },
+  {
+    "label": "ca-ad",
+    "value": "ca-ad"
+  },
+  {
+    "label": "ca-es",
+    "value": "ca-es"
+  },
+  {
+    "label": "cs",
+    "value": "cs"
+  },
+  {
+    "label": "cs-cz",
+    "value": "cs-cz"
+  },
+  {
+    "label": "da",
+    "value": "da"
+  },
+  {
+    "label": "da-dk",
+    "value": "da-dk"
+  },
+  {
+    "label": "de",
+    "value": "de"
+  },
+  {
+    "label": "de-at",
+    "value": "de-at"
+  },
+  {
+    "label": "de-be",
+    "value": "de-be"
+  },
+  {
+    "label": "de-ch",
+    "value": "de-ch"
+  },
+  {
+    "label": "de-de",
+    "value": "de-de"
+  },
+  {
+    "label": "de-li",
+    "value": "de-li"
+  },
+  {
+    "label": "de-lu",
+    "value": "de-lu"
+  },
+  {
+    "label": "el",
+    "value": "el"
+  },
+  {
+    "label": "el-cy",
+    "value": "el-cy"
+  },
+  {
+    "label": "el-gr",
+    "value": "el-gr"
+  },
+  {
+    "label": "en",
+    "value": "en"
+  },
+  {
+    "label": "en-as",
+    "value": "en-as"
+  },
+  {
+    "label": "en-au",
+    "value": "en-au"
+  },
+  {
+    "label": "en-bb",
+    "value": "en-bb"
+  },
+  {
+    "label": "en-be",
+    "value": "en-be"
+  },
+  {
+    "label": "en-bm",
+    "value": "en-bm"
+  },
+  {
+    "label": "en-bw",
+    "value": "en-bw"
+  },
+  {
+    "label": "en-bz",
+    "value": "en-bz"
+  },
+  {
+    "label": "en-ca",
+    "value": "en-ca"
+  },
+  {
+    "label": "en-dsrt",
+    "value": "en-dsrt"
+  },
+  {
+    "label": "en-dsrt-us",
+    "value": "en-dsrt-us"
+  },
+  {
+    "label": "en-fm",
+    "value": "en-fm"
+  },
+  {
+    "label": "en-gb",
+    "value": "en-gb"
+  },
+  {
+    "label": "en-gu",
+    "value": "en-gu"
+  },
+  {
+    "label": "en-gy",
+    "value": "en-gy"
+  },
+  {
+    "label": "en-hk",
+    "value": "en-hk"
+  },
+  {
+    "label": "en-ie",
+    "value": "en-ie"
+  },
+  {
+    "label": "en-in",
+    "value": "en-in"
+  },
+  {
+    "label": "en-iso",
+    "value": "en-iso"
+  },
+  {
+    "label": "en-jm",
+    "value": "en-jm"
+  },
+  {
+    "label": "en-mh",
+    "value": "en-mh"
+  },
+  {
+    "label": "en-mp",
+    "value": "en-mp"
+  },
+  {
+    "label": "en-mt",
+    "value": "en-mt"
+  },
+  {
+    "label": "en-mu",
+    "value": "en-mu"
+  },
+  {
+    "label": "en-na",
+    "value": "en-na"
+  },
+  {
+    "label": "en-nz",
+    "value": "en-nz"
+  },
+  {
+    "label": "en-ph",
+    "value": "en-ph"
+  },
+  {
+    "label": "en-pk",
+    "value": "en-pk"
+  },
+  {
+    "label": "en-pr",
+    "value": "en-pr"
+  },
+  {
+    "label": "en-pw",
+    "value": "en-pw"
+  },
+  {
+    "label": "en-sg",
+    "value": "en-sg"
+  },
+  {
+    "label": "en-tc",
+    "value": "en-tc"
+  },
+  {
+    "label": "en-tt",
+    "value": "en-tt"
+  },
+  {
+    "label": "en-um",
+    "value": "en-um"
+  },
+  {
+    "label": "en-us",
+    "value": "en-us"
+  },
+  {
+    "label": "en-vg",
+    "value": "en-vg"
+  },
+  {
+    "label": "en-vi",
+    "value": "en-vi"
+  },
+  {
+    "label": "en-za",
+    "value": "en-za"
+  },
+  {
+    "label": "en-zw",
+    "value": "en-zw"
+  },
+  {
+    "label": "es",
+    "value": "es"
+  },
+  {
+    "label": "es-419",
+    "value": "es-419"
+  },
+  {
+    "label": "es-ar",
+    "value": "es-ar"
+  },
+  {
+    "label": "es-bo",
+    "value": "es-bo"
+  },
+  {
+    "label": "es-cl",
+    "value": "es-cl"
+  },
+  {
+    "label": "es-co",
+    "value": "es-co"
+  },
+  {
+    "label": "es-cr",
+    "value": "es-cr"
+  },
+  {
+    "label": "es-do",
+    "value": "es-do"
+  },
+  {
+    "label": "es-ea",
+    "value": "es-ea"
+  },
+  {
+    "label": "es-ec",
+    "value": "es-ec"
+  },
+  {
+    "label": "es-es",
+    "value": "es-es"
+  },
+  {
+    "label": "es-gq",
+    "value": "es-gq"
+  },
+  {
+    "label": "es-gt",
+    "value": "es-gt"
+  },
+  {
+    "label": "es-hn",
+    "value": "es-hn"
+  },
+  {
+    "label": "es-ic",
+    "value": "es-ic"
+  },
+  {
+    "label": "es-mx",
+    "value": "es-mx"
+  },
+  {
+    "label": "es-ni",
+    "value": "es-ni"
+  },
+  {
+    "label": "es-pa",
+    "value": "es-pa"
+  },
+  {
+    "label": "es-pe",
+    "value": "es-pe"
+  },
+  {
+    "label": "es-pr",
+    "value": "es-pr"
+  },
+  {
+    "label": "es-py",
+    "value": "es-py"
+  },
+  {
+    "label": "es-sv",
+    "value": "es-sv"
+  },
+  {
+    "label": "es-us",
+    "value": "es-us"
+  },
+  {
+    "label": "es-uy",
+    "value": "es-uy"
+  },
+  {
+    "label": "es-ve",
+    "value": "es-ve"
+  },
+  {
+    "label": "et",
+    "value": "et"
+  },
+  {
+    "label": "et-ee",
+    "value": "et-ee"
+  },
+  {
+    "label": "eu",
+    "value": "eu"
+  },
+  {
+    "label": "eu-es",
+    "value": "eu-es"
+  },
+  {
+    "label": "fa",
+    "value": "fa"
+  },
+  {
+    "label": "fa-af",
+    "value": "fa-af"
+  },
+  {
+    "label": "fa-ir",
+    "value": "fa-ir"
+  },
+  {
+    "label": "fi",
+    "value": "fi"
+  },
+  {
+    "label": "fi-fi",
+    "value": "fi-fi"
+  },
+  {
+    "label": "fil",
+    "value": "fil"
+  },
+  {
+    "label": "fil-ph",
+    "value": "fil-ph"
+  },
+  {
+    "label": "fr",
+    "value": "fr"
+  },
+  {
+    "label": "fr-be",
+    "value": "fr-be"
+  },
+  {
+    "label": "fr-bf",
+    "value": "fr-bf"
+  },
+  {
+    "label": "fr-bi",
+    "value": "fr-bi"
+  },
+  {
+    "label": "fr-bj",
+    "value": "fr-bj"
+  },
+  {
+    "label": "fr-bl",
+    "value": "fr-bl"
+  },
+  {
+    "label": "fr-ca",
+    "value": "fr-ca"
+  },
+  {
+    "label": "fr-cd",
+    "value": "fr-cd"
+  },
+  {
+    "label": "fr-cf",
+    "value": "fr-cf"
+  },
+  {
+    "label": "fr-cg",
+    "value": "fr-cg"
+  },
+  {
+    "label": "fr-ch",
+    "value": "fr-ch"
+  },
+  {
+    "label": "fr-ci",
+    "value": "fr-ci"
+  },
+  {
+    "label": "fr-cm",
+    "value": "fr-cm"
+  },
+  {
+    "label": "fr-dj",
+    "value": "fr-dj"
+  },
+  {
+    "label": "fr-fr",
+    "value": "fr-fr"
+  },
+  {
+    "label": "fr-ga",
+    "value": "fr-ga"
+  },
+  {
+    "label": "fr-gf",
+    "value": "fr-gf"
+  },
+  {
+    "label": "fr-gn",
+    "value": "fr-gn"
+  },
+  {
+    "label": "fr-gp",
+    "value": "fr-gp"
+  },
+  {
+    "label": "fr-gq",
+    "value": "fr-gq"
+  },
+  {
+    "label": "fr-km",
+    "value": "fr-km"
+  },
+  {
+    "label": "fr-lu",
+    "value": "fr-lu"
+  },
+  {
+    "label": "fr-mc",
+    "value": "fr-mc"
+  },
+  {
+    "label": "fr-mf",
+    "value": "fr-mf"
+  },
+  {
+    "label": "fr-mg",
+    "value": "fr-mg"
+  },
+  {
+    "label": "fr-ml",
+    "value": "fr-ml"
+  },
+  {
+    "label": "fr-mq",
+    "value": "fr-mq"
+  },
+  {
+    "label": "fr-ne",
+    "value": "fr-ne"
+  },
+  {
+    "label": "fr-re",
+    "value": "fr-re"
+  },
+  {
+    "label": "fr-yt",
+    "value": "fr-yt"
+  },
+  {
+    "label": "gl",
+    "value": "gl"
+  },
+  {
+    "label": "gl-es",
+    "value": "gl-es"
+  },
+  {
+    "label": "gsw",
+    "value": "gsw"
+  },
+  {
+    "label": "gsw-ch",
+    "value": "gsw-ch"
+  },
+  {
+    "label": "gu",
+    "value": "gu"
+  },
+  {
+    "label": "gu-in",
+    "value": "gu-in"
+  },
+  {
+    "label": "he",
+    "value": "he"
+  },
+  {
+    "label": "he-il",
+    "value": "he-il"
+  },
+  {
+    "label": "hi",
+    "value": "hi"
+  },
+  {
+    "label": "hi-in",
+    "value": "hi-in"
+  },
+  {
+    "label": "hr",
+    "value": "hr"
+  },
+  {
+    "label": "hr-hr",
+    "value": "hr-hr"
+  },
+  {
+    "label": "hu",
+    "value": "hu"
+  },
+  {
+    "label": "hu-hu",
+    "value": "hu-hu"
+  },
+  {
+    "label": "id",
+    "value": "id"
+  },
+  {
+    "label": "id-id",
+    "value": "id-id"
+  },
+  {
+    "label": "in",
+    "value": "in"
+  },
+  {
+    "label": "is",
+    "value": "is"
+  },
+  {
+    "label": "is-is",
+    "value": "is-is"
+  },
+  {
+    "label": "it",
+    "value": "it"
+  },
+  {
+    "label": "it-it",
+    "value": "it-it"
+  },
+  {
+    "label": "it-sm",
+    "value": "it-sm"
+  },
+  {
+    "label": "iw",
+    "value": "iw"
+  },
+  {
+    "label": "ja",
+    "value": "ja"
+  },
+  {
+    "label": "ja-jp",
+    "value": "ja-jp"
+  },
+  {
+    "label": "kn",
+    "value": "kn"
+  },
+  {
+    "label": "kn-in",
+    "value": "kn-in"
+  },
+  {
+    "label": "ko",
+    "value": "ko"
+  },
+  {
+    "label": "ko-kr",
+    "value": "ko-kr"
+  },
+  {
+    "label": "ln",
+    "value": "ln"
+  },
+  {
+    "label": "ln-cd",
+    "value": "ln-cd"
+  },
+  {
+    "label": "lt",
+    "value": "lt"
+  },
+  {
+    "label": "lt-lt",
+    "value": "lt-lt"
+  },
+  {
+    "label": "lv",
+    "value": "lv"
+  },
+  {
+    "label": "lv-lv",
+    "value": "lv-lv"
+  },
+  {
+    "label": "ml",
+    "value": "ml"
+  },
+  {
+    "label": "ml-in",
+    "value": "ml-in"
+  },
+  {
+    "label": "mr",
+    "value": "mr"
+  },
+  {
+    "label": "mr-in",
+    "value": "mr-in"
+  },
+  {
+    "label": "ms",
+    "value": "ms"
+  },
+  {
+    "label": "ms-my",
+    "value": "ms-my"
+  },
+  {
+    "label": "mt",
+    "value": "mt"
+  },
+  {
+    "label": "mt-mt",
+    "value": "mt-mt"
+  },
+  {
+    "label": "nl",
+    "value": "nl"
+  },
+  {
+    "label": "nl-cw",
+    "value": "nl-cw"
+  },
+  {
+    "label": "nl-nl",
+    "value": "nl-nl"
+  },
+  {
+    "label": "nl-sx",
+    "value": "nl-sx"
+  },
+  {
+    "label": "no",
+    "value": "no"
+  },
+  {
+    "label": "or",
+    "value": "or"
+  },
+  {
+    "label": "or-in",
+    "value": "or-in"
+  },
+  {
+    "label": "pl",
+    "value": "pl"
+  },
+  {
+    "label": "pl-pl",
+    "value": "pl-pl"
+  },
+  {
+    "label": "pt",
+    "value": "pt"
+  },
+  {
+    "label": "pt-br",
+    "value": "pt-br"
+  },
+  {
+    "label": "pt-pt",
+    "value": "pt-pt"
+  },
+  {
+    "label": "ro",
+    "value": "ro"
+  },
+  {
+    "label": "ro-ro",
+    "value": "ro-ro"
+  },
+  {
+    "label": "ru",
+    "value": "ru"
+  },
+  {
+    "label": "ru-ru",
+    "value": "ru-ru"
+  },
+  {
+    "label": "sk",
+    "value": "sk"
+  },
+  {
+    "label": "sk-sk",
+    "value": "sk-sk"
+  },
+  {
+    "label": "sl",
+    "value": "sl"
+  },
+  {
+    "label": "sl-si",
+    "value": "sl-si"
+  },
+  {
+    "label": "sq",
+    "value": "sq"
+  },
+  {
+    "label": "sq-al",
+    "value": "sq-al"
+  },
+  {
+    "label": "sr",
+    "value": "sr"
+  },
+  {
+    "label": "sr-cyrl-rs",
+    "value": "sr-cyrl-rs"
+  },
+  {
+    "label": "sr-latn-rs",
+    "value": "sr-latn-rs"
+  },
+  {
+    "label": "sv",
+    "value": "sv"
+  },
+  {
+    "label": "sv-se",
+    "value": "sv-se"
+  },
+  {
+    "label": "sw",
+    "value": "sw"
+  },
+  {
+    "label": "sw-tz",
+    "value": "sw-tz"
+  },
+  {
+    "label": "ta",
+    "value": "ta"
+  },
+  {
+    "label": "ta-in",
+    "value": "ta-in"
+  },
+  {
+    "label": "te",
+    "value": "te"
+  },
+  {
+    "label": "te-in",
+    "value": "te-in"
+  },
+  {
+    "label": "th",
+    "value": "th"
+  },
+  {
+    "label": "th-th",
+    "value": "th-th"
+  },
+  {
+    "label": "tl",
+    "value": "tl"
+  },
+  {
+    "label": "tr",
+    "value": "tr"
+  },
+  {
+    "label": "tr-tr",
+    "value": "tr-tr"
+  },
+  {
+    "label": "uk",
+    "value": "uk"
+  },
+  {
+    "label": "uk-ua",
+    "value": "uk-ua"
+  },
+  {
+    "label": "ur",
+    "value": "ur"
+  },
+  {
+    "label": "ur-pk",
+    "value": "ur-pk"
+  },
+  {
+    "label": "vi",
+    "value": "vi"
+  },
+  {
+    "label": "vi-vn",
+    "value": "vi-vn"
+  },
+  {
+    "label": "zh",
+    "value": "zh"
+  },
+  {
+    "label": "zh-cn",
+    "value": "zh-cn"
+  },
+  {
+    "label": "zh-hans-cn",
+    "value": "zh-hans-cn"
+  },
+  {
+    "label": "zh-hk",
+    "value": "zh-hk"
+  },
+  {
+    "label": "zh-tw",
+    "value": "zh-tw"
+  },
+  {
+    "label": "zu",
+    "value": "zu"
+  },
+  {
+    "label": "zu-za",
+    "value": "zu-za"
+  }
+]

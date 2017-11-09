@@ -1,0 +1,174 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://explore.dublincore.net/vocabs/subject/>
+    dc:creator "DCMI/LD4PE Task Group"@en-us ;
+    dc:description "This vocabulary is used for the topical indexing of the competencies in the DCMI Exploratorium"@en-us ;
+    dc:title "LD4PE Subject Vocabulary"@en-us ;
+    dcterms:created "2015-05-17"^^dcterms:W3CDTF ;
+    a skos:ConceptScheme ;
+    skos:hasTopConcept <http://explore.dublincore.net/vocabs/subject/0001>, <http://explore.dublincore.net/vocabs/subject/0010>, <http://explore.dublincore.net/vocabs/subject/0018>, <http://explore.dublincore.net/vocabs/subject/0026>, <http://explore.dublincore.net/vocabs/subject/0027> .
+
+<http://explore.dublincore.net/vocabs/subject/0001>
+    a skos:Concept ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:narrower <http://explore.dublincore.net/vocabs/subject/0002>, <http://explore.dublincore.net/vocabs/subject/0003>, <http://explore.dublincore.net/vocabs/subject/0004>, <http://explore.dublincore.net/vocabs/subject/0005>, <http://explore.dublincore.net/vocabs/subject/0006>, <http://explore.dublincore.net/vocabs/subject/0007>, <http://explore.dublincore.net/vocabs/subject/0008>, <http://explore.dublincore.net/vocabs/subject/0009> ;
+    skos:prefLabel "RDF and Linked Data fundamentals"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0002>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0001> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Lifecycle of Linked Data"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0003>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0001> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Background technologies"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0004>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0001> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Background standards"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0005>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0001> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Existing key vocabularies and their namespaces"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0006>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0001> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Existing key vocabularies and their namespaces"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0007>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0001> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "RDF data model"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0008>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0001> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Policy and best practice development"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0009>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0001> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Perspectives, dispositions and habits of mind"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0010>
+    a skos:Concept ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:narrower <http://explore.dublincore.net/vocabs/subject/0011>, <http://explore.dublincore.net/vocabs/subject/0012>, <http://explore.dublincore.net/vocabs/subject/0013>, <http://explore.dublincore.net/vocabs/subject/0014>, <http://explore.dublincore.net/vocabs/subject/0015>, <http://explore.dublincore.net/vocabs/subject/0016>, <http://explore.dublincore.net/vocabs/subject/0017> ;
+    skos:prefLabel "Searching and Querying"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0011>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0010> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Discovery of RDF vocabularies and data sets"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0012>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0010> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Assessment of RDF vocabularies and data sets"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0013>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0010> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Anatomy of a simple query"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0014>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0010> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Querying RDF data using SPARQL"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0015>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0010> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Updating RDF with SPARQL 1.1"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0016>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0010> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Reasoning over RDF"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0017>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0010> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Creating SPARQL endpoints"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0018>
+    a skos:Concept ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:narrower <http://explore.dublincore.net/vocabs/subject/0019>, <http://explore.dublincore.net/vocabs/subject/0020>, <http://explore.dublincore.net/vocabs/subject/0021>, <http://explore.dublincore.net/vocabs/subject/0022>, <http://explore.dublincore.net/vocabs/subject/0023>, <http://explore.dublincore.net/vocabs/subject/0024>, <http://explore.dublincore.net/vocabs/subject/0025> ;
+    skos:prefLabel "Creating, publishing and manipulating RDF"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0019>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0018> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Creating a domain model"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0020>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0018> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Creating a new RDF vocabulary schema (classes and properties)"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0021>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0018> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Describing RDF resources for discovery"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0022>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0018> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Generating different serializations of RDF data"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0023>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0018> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Creating a (community/application) profile"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0024>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0018> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Creating a new RDF vocabulary scheme (value vocabulary)"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0025>
+    a skos:Concept ;
+    skos:broader <http://explore.dublincore.net/vocabs/subject/0018> ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Publishing RDF"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0026>
+    a skos:Concept ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Visualizing graphs"@en-us .
+
+<http://explore.dublincore.net/vocabs/subject/0027>
+    a skos:Concept ;
+    skos:inScheme <http://explore.dublincore.net/vocabs/subject/> ;
+    skos:prefLabel "Implementing applications"@en-us .

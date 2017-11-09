@@ -1,0 +1,17 @@
+[
+    {
+        "label": "활동적인",
+        "value": "http://purl.org/dcx/lrmi-vocabs/InteractivityType/active",
+        "type" : "uri"
+    },
+    {
+        "label": "설명적인",
+        "value": "http://purl.org/dcx/lrmi-vocabs/interactivityType/expositive",
+        "type" : "uri"
+    },
+    {
+        "label": "혼합 된",
+        "value": "http://purl.org/dcx/lrmi-vocabs/interactivityType/mixed",
+        "type" : "uri"
+    }
+]

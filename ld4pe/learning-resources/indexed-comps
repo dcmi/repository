@@ -1,0 +1,722 @@
+#LIST OF RESOURCES WHICH HAVE BEEN INDEXED TO COMPETENCIES
+#MASTER UPDATE: 2015-11-17
+
+##INDEXED JUNE 23RD, 2015
+
+1.	http://www.linkeddatatools.com/introducing-rdfs-owl
+--Understands OWL properties, property axioms, axioms and class constructions in reasoning
+--Understands OWL properties, property axioms, axioms and class constructions in reasoning
+--Monitors registries and referatories of RDF vocabularies, OWL ontologies and RDF data stores
+--Understands the role of RDFS and uses it in defining new RDF vocabularies
+
+2.	http://protege.stanford.edu/publications/ontology_development/ontology101-noy-mcguinness.html
+--Understands the role of RDFS and uses it in defining new RDF vocabularies
+--Follows naming conventions in coining new terms (properties & classes)
+--Creates new terms (properties & classes) following commonly agreed upon conventions and best practices
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands inferencing and the means by which it is achieved
+--Understands the uses and roles of domain and ranges
+--Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each
+
+3.	http://www.w3.org/TR/xhtml-rdfa-primer/#bib-rdfa-core
+--Creates RDFa markup for HTML pages using an RDF schema
+
+4.	http://jena.apache.org/tutorials/sparql_query1.html
+ONLY TOPICS ASSIGNED - DELETED
+
+5.	http://code.google.com/p/tdwg-rdf/wiki/Beginners
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands OWL properties, property axioms, axioms and class constructions in reasoning
+--Understand and use RDFS in defining and interpreting RDF vocabularies
+
+6.	https://www.youtube.com/watch?v=uR_7UkHs0zA
+ONLY TOPICS ASSIGNED - DELETED
+
+##INDEXED AUGUST 20TH, 2015
+
+7.	https://www.youtube.com/watch?v=g38AsuWbPFo
+ONLY TOPICS ASSIGNED - DELETED
+
+8.	http://explore.dublincore.net/rdf/lrmi/#/resource
+NOT FOUND (Explore URL)
+
+9.	https://www.youtube.com/watch?v=Vhove08tML4
+ONLY TOPICS ASSIGNED - DELETED
+
+10.	https://www.youtube.com/watch?v=r3KPu0fwDGA
+--Demonstrates knowledge of factors influencing whether to publish RDF or provide a SPARQL endpoint
+
+11.	http://www.slideshare.net/LeeFeigenbaum/sparql-cheat-sheet?next_slideshow=1
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+
+12.	http://www.slideshare.net/szeke/introduction-to-sparql?next_slideshow=2
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+
+13.	http://www.slideshare.net/olafhartig/querying-linked-data-with-sparql?related=2
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+
+14.	http://www.slideshare.net/andyseaborne/sparql-11-update?next_slideshow=1
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+
+15.	http://www.slideshare.net/grecognos/from-sql-to-sparql
+NOT FOUND
+
+16.	http://www.slideshare.net/olafhartig/an-introduction-to-sparql?related=2
+--Uses query patterns including BGP, UNION, OPTIONAL, FILTER
+--Uses sequence modifiers including DISTINCT, REDUCED, ORDER BY, LIMIT, OFFSET
+--Uses query forms including ASK, SELECT, DESCRIBE, CONSTRUCT
+
+17.	http://www.slideshare.net/fabien_gandon/sparql-in-a-nutshell?related=4
+ONLY TOPICS ASSIGNED - DELETED
+
+18.	http://www.vivoweb.org/files/presentations/12ws7/Tutorial_Section_1.pdf
+--Monitors registries and referatories of RDF vocabularies, OWL ontologies and RDF data stores
+
+##NEW RESOURCES ADDED AND INDEXED AUGUST 20TH- AUGUST 21ST, 2015
+
+19. http://topquadrantblog.blogspot.com/2012/07/who-needs-skos-xl-maybe-no-one.html
+--Creates metadata describing the RDF schema to make it discoverable
+
+20. http://topquadrantblog.blogspot.com/search/label/RDF
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+21. http://www.obitko.com/tutorials/ontologies-semantic-web/introduction.html
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each
+
+22. http://www.ldodds.com/foaf/foaf-a-matic.html
+--Understands the distinction between the RDF data model and the it's various serializations
+
+23. https://www.dajobe.org/talks/201105-sparql-11/
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+
+24. https://msdn.microsoft.com/en-us/library/aa303446.aspx
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+--Understands the grammatical components of the RDF triple - SUBJECT, PREDICATE, OBJECT
+
+##NEW RESOURCES ADDED AND INDEXED AUGUST 26, 2015
+
+25. http://ec.europa.eu/isa/documents/cookbook-for-rdf-schemas-v2.pdf
+--Understand and use RDFS in defining and interpreting RDF vocabularies
+--Develops and documents namespace policies for managing ongoing development of RDF vocabularies
+--Researches existing terms and their usage to avoid unnecessary creation of new terms and to maximizes re-use of existing terms
+
+26. http://www.w3.org/2011/gld/wiki/Linked_Data_Cookbook
+--Actively participates in development of specifications and standards for best practice with relevant organizations such as W3C
+
+27. http://www.nongnu.org/samizdat/papers/rel-rdf.pdf
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+28. http://homepages.inf.ed.ac.uk/kbyrne3/docs/rdb2rdfForCH.pdf
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+--Uses SPARQL endpoints for RDBMS
+--Creates SPARQL endpoints for RDBMS
+
+29. http://arxiv.org/ftp/arxiv/papers/1205/1205.5922.pdf
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+30. http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/viewFile/8487/8531
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+## NEW RESOURCES ADDED AND INDEXED SEPT. 5-7, 2015
+
+31. http://data.linkededucation.org/linkedup/catalog/
+ONLY TOPICS ASSIGNED - DELETED
+
+32. http://www.l3s.de/~fetahu/iswc_demo/categories/
+ONLY TOPICS ASSIGNED - DELETED
+
+33. http://data.linkededucation.org/
+ONLY TOPICS ASSIGNED - DELETED
+
+34. http://videolectures.net/eswc2013_simperl_ontologies/
+--Monitors registries and referatories of RDF vocabularies, OWL ontologies and RDF data stores
+
+35. http://videolectures.net/sssc2011_norton_rdf/
+--Creates sub-classes, sub-properties and super-classes when new terms can be seen as specializations of existing terms in order to support interoperability and inferencing
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands inferencing and the means by which it is achieved
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understand and use RDFS in defining and interpreting RDF vocabularies
+
+36. http://videolectures.net/iswc07_bechhofer_iowl/
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each
+--Understands OWL properties, property axioms, axioms and class constructions in reasoning
+
+37. http://videolectures.net/iswc06_parsia_uofw/
+--Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each
+--Understands inferencing and the means by which it is achieved
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands OWL properties, property axioms, axioms and class constructions in reasoning
+
+38. http://videolectures.net/iswc06_grau_uofwi/
+--Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands inferencing and the means by which it is achieved
+--Understands OWL properties, property axioms, axioms and class constructions in reasoning
+
+39. http://videolectures.net/eswc2013_decker_networked_knowledge/
+ONLY TOPICS ASSIGNED - DELETED
+
+40. http://videolectures.net/estc2010_wurzer_dbvled/
+ONLY TOPICS ASSIGNED - DELETED
+
+41. http://videolectures.net/estc2010_djalil_mezaour_ldbs/
+ONLY TOPICS ASSIGNED - DELETED
+
+42. http://videolectures.net/eswc2013_hogan_mcginnis_linked_data/
+--Demonstrates understanding of the abstract data model of RDF as a directed labeled graph
+--Understands the distinction between the RDF data model and the it's various serializations
+--Demonstrates an understanding of the naming of anything that can be identified with URI including agents, places, events, artifacts and concepts
+
+43. http://videolectures.net/eswc2013_christophides_linked_data/
+ONLY TOPICS ASSIGNED - DELETED
+
+44. http://videolectures.net/eswc2013_hogan_linked_data/
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+
+45. http://videolectures.net/eswc2013_norton_acosta_linked_data/
+ONLY TOPICS ASSIGNED - DELETED
+
+46. http://videolectures.net/eswc2013_blair_sparql/
+ONLY TOPICS ASSIGNED - DELETED
+
+47. http://videolectures.net/eswc2013_harkous_databases/
+--Investigates how others are already describing the domain, or a similar domain or related data
+--Obtains a copy of the logical and physical model when creating the model from an existing database
+--Creates a graphical representation of the domain entities and the relationships among them
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+## NEW RESOURCES ADDED AND INDEXED SEPT. 7, 2015
+
+48. http://videolectures.net/eswc2013_collina_linked_data/
+ONLY TOPICS ASSIGNED - DELETED
+
+49. http://videolectures.net/iswc2013_wang_semantic_relations/
+--Creates a graphical representation of the domain entities and the relationships among them
+--Creates and iterates through versions of an emergent entity-relationship model for the domain (e.g., on paper or a whiteboard)
+ 
+## NEW RESOURCES ADDED AND INDEXED SEPT. 9, 2015
+
+50. http://videolectures.net/iswc2013_ngonga_ngomo_data_streams/
+--Uses available applications for named entity recognition, extraction and reconciliation
+
+51. http://videolectures.net/iswc2013_pujara_graph_identification/
+--Uses a graphing or modeling tool to organize the objects and labeled relationship for sharing and review by others
+--Uses available applications for named entity recognition, extraction and reconciliation
+--Demonstrates understanding of the abstract data model of RDF as a directed labeled graph
+--Creates a graphical representation of the domain entities and the relationships among them
+
+52. http://videolectures.net/iswc2013_hellmann_linked_data/
+--Creates well defined terms (properties & classes) with well designed persistent URIs
+
+53. http://videolectures.net/iswc2013_acosta_quality_assessment/
+--Develops policies for creation and management of RDF vocabularies
+--Uses available tools to cleanse a dataset by finding and correcting errors, removing duplicates and unwanted data
+
+54. http://ciws.cl/media/pdf/pods14.pdf
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands OWL properties, property axioms, axioms and class constructions in reasoning
+
+55. http://stijnheymans.net/pubs/webs2007.pdf
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+--Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+
+56. http://www.iris-reasoner.org/rdfsreasoner
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+
+57. http://store.elsevier.com/product.jsp?isbn=9780127999579&pagename=search
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+
+58. http://wam.inrialpes.fr/publications/2012/ijcar12.pdf
+--Creates and iterates through versions of an emergent entity-relationship model for the domain (e.g., on paper or a whiteboard)
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+--Creates a graphical representation of the domain entities and the relationships among them
+
+59. http://webont.org/owled/2011/presentations/4Kollia.pdf
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands OWL properties, property axioms, axioms and class constructions in reasoning
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+
+60. http://arxiv.org/ftp/arxiv/papers/1403/1403.7248.pdf
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+
+61. http://www.semanco-project.eu/index_htm_files/ELITE.pdf
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+
+62. http://www.simkus.info/wp-content/uploads/2014/10/sparql-certain.pdf
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+
+63. http://web.ing.puc.cl/~marenas/talks/BNCOD13.pdf
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+
+64. http://www.ghxiao.org/publications/2014-iswc-sparql-ql-full.pdf
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+
+65. http://www.w3.org/TR/2012/CR-sparql11-entailment-20121108/
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+
+## NEW RESOURCES ADDED AND INDEXED SEPT. 11, 2015
+
+66. http://www.inf.tu-dresden.de/content/institutes/ki/cl/study/summer14/fswt/slides/FSWT2014-L17-SPARQL-Entailment.pdf
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+
+67. http://aran.library.nuigalway.ie/xmlui/handle/10379/456
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+--Understands inferencing and the means by which it is achieved
+
+68. http://www.cs.ox.ac.uk/files/6665/SPARQL-ISWC.pdf
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+
+69. http://korrekt.org/papers/Bischof-Kroetzsch-Polleres-Rudolph_Schema-Agnostic-Query-Rewriting_ISWC-2014-TR.pdf
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+--Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each
+--Models domain without application context--i.e., without having in mind a particular Web application or service
+
+70. http://ceur-ws.org/Vol-1350/paper-12.pdf
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+--Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each
+
+71. https://www.cs.ox.ac.uk/files/3130/paper.pdf
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+
+72. http://www.uni-ulm.de/fileadmin/website_uni_ulm/iui.inst.090/Publikationen/2011/Glim11a.pdf
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+
+## NEW RESOURCES ADDED AND INDEXED SEPT. 28, 2015
+
+73. http://www.obitko.com/tutorials/ontologies-semantic-web/rdf-schema-rdfs.html
+--Understand and use RDFS in defining and interpreting RDF vocabularies
+--Understands the role of RDFS and uses it in defining new RDF vocabularies
+--Creates new terms (properties & classes) following commonly agreed upon conventions and best practices
+--Understands the uses and roles of domain and ranges
+
+74. https://www.youtube.com/watch?v=R3k36WFqhKw
+--Creates new terms (properties & classes) following commonly agreed upon conventions and best practices
+--Understands the role of RDFS and uses it in defining new RDF vocabularies
+--Understand and use RDFS in defining and interpreting RDF vocabularies
+
+75. https://www.youtube.com/watch?v=VRXhAUY2vIA
+--Understand and use RDFS in defining and interpreting RDF vocabularies
+--Creates sub-classes, sub-properties and super-classes when new terms can be seen as specializations of existing terms in order to support interoperability and inferencing
+--Understands the role of RDFS and uses it in defining new RDF vocabularies
+--Creates new terms (properties & classes) following commonly agreed upon conventions and best practices
+
+76. https://www.youtube.com/watch?v=WztnSLdbAf4
+--Understands the role of RDFS and uses it in defining new RDF vocabularies
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands the role of RDFS and uses it in defining new RDF vocabularies
+
+77. https://www.youtube.com/watch?v=6g7XbGvH7Lc
+--Understand and use RDFS in defining and interpreting RDF vocabularies
+--Understands the role of RDFS and uses it in defining new RDF vocabularies
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Creates sub-classes, sub-properties and super-classes when new terms can be seen as specializations of existing terms in order to support interoperability and inferencing
+
+78. https://www.youtube.com/watch?v=hcahQfN5u9Y
+--Publishes RDF schemas in multiple formats for consumption by humans and machines
+
+79. http://videolectures.net/sssc2011_norton_rdf/?q=RDF%20Schema
+NO RECORD FOUND
+
+80. http://videolectures.net/iswc2011_ferreira_practical/
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+81. http://videolectures.net/iswc2014_patel_schneider_analyzing_schema/?q=RDF%20Schema
+NO RECORD FOUND
+
+82. http://videolectures.net/ocwc2014_barker_schema/?q=%22schema.org%22
+NO RECORD FOUND
+
+83. http://videolectures.net/eswc2015_paulheim_schema_org/?q=%22schema.org%22
+NO RECORD FOUND
+
+84. http://videolectures.net/iswc2013_guha_tunnel/?q=%22schema.org%22
+NO RECORD FOUND
+
+85. http://videolectures.net/iswc2011_panel/?q=%22schema.org%22
+NO RECORD FOUND
+
+86. http://videolectures.net/iswc2014_bizer_topical_domains/?q=%22schema.org%22
+NO RECORD FOUND
+
+87. http://www.isi.edu/expect/web/semanticweb/comparison.html
+--Determines the namespace (or namespaces) in which any new classes and properties to be created from the domain model will be defined
+--Creates new terms (properties & classes) following commonly agreed upon conventions and best practices
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+## NEW RESOURCES ADDED AND INDEXED SEPT. 30, 2015
+
+88. https://www.youtube.com/watch?v=_-6mhdjE1XE
+--Creates RDFa markup for HTML pages using an RDF schema
+--Creates new terms (properties & classes) following commonly agreed upon conventions and best practices
+
+89. https://www.youtube.com/watch?v=qTafYjhQLPU
+--Creates new terms (properties & classes) following commonly agreed upon conventions and best practices
+--Creates RDFa markup for HTML pages using an RDF schema
+
+90. http://videolectures.net/eswc2015_mendel_gleason_linked_data/?q=RDF%20Schema
+NO RECORD FOUND
+
+91. http://videolectures.net/eswc2012_norton_semantic_data/?q=RDF%20Schema
+NO RECORD FOUND
+
+92. http://videolectures.net/eswc2014_schreiber_knowledge_engineering/?q=RDF%20Schema
+NO RECORD FOUND
+
+93. https://www.youtube.com/watch?v=oY0NJgDMtC0
+--Creates sub-classes, sub-properties and super-classes when new terms can be seen as specializations of existing terms in order to support interoperability and inferencing
+--Creates RDFa markup for HTML pages using an RDF schema
+--Creates new terms (properties & classes) following commonly agreed upon conventions and best practices
+
+94. https://www.youtube.com/watch?v=YXpzHJl0iiA
+--Creates RDFa markup for HTML pages using an RDF schema
+--Creates new terms (properties & classes) following commonly agreed upon conventions and best practices
+
+95. http://videolectures.net/eswc2010_bechhofer_sppf/
+--Creates new terms (properties & classes) following commonly agreed upon conventions and best practices
+
+## NEW RESOURCES ADDED AND INDEXED OCT. 1, 2015
+
+96. http://www.gordondunsire.com/pubs/docs/FromContentStandard2RDF.pdf
+--Participates in development and maintenance activities of RDF vocabularies and application profiles
+--Monitors changes to existing RDF vocabularies and application profiles
+
+97. http://kennison.name/files/zopestore/uploads/metadata/DC-Profile.pdf
+--Participates in development and maintenance activities of RDF vocabularies and application profiles
+--Monitors changes to existing RDF vocabularies and application profiles
+
+98. https://wiki1.hbz-nrw.de/display/SEM/2013/08/01/Sharing+context+-+publishing+application+profiles+with+JSON-LD
+--Searches to discover new and useful RDF vocabularies and application profiles
+--Participates in development and maintenance activities of RDF vocabularies and application profiles
+--Researches existing terms and their usage to avoid unnecessary creation of new terms and to maximizes re-use of existing terms
+
+99. https://wiki1.hbz-nrw.de/display/SEM/2013/11/13/Providing+machine-readable+application+profiles+with+OAI-ORE
+--Searches to discover new and useful RDF vocabularies and application profiles
+--Participates in development and maintenance activities of RDF vocabularies and application profiles
+--Researches existing terms and their usage to avoid unnecessary creation of new terms and to maximizes re-use of existing terms
+
+100. http://www.diva-portal.org/smash/get/diva2:369527/FULLTEXT02.pdf
+--Monitors changes to existing RDF vocabularies and application profiles
+--Participates in development and maintenance activities of RDF vocabularies and application profiles
+
+## NEW RESOURCES ADDED AND INDEXED OCT. 3, 2015
+
+101. http://videolectures.net/estc2010_blumauer_drswd/
+--Creates metadata describing the RDF schema to make it discoverable
+
+102. https://journals.tdl.org/jodi/index.php/jodi/article/viewFile/40/43
+--Monitors changes to existing RDF vocabularies and application profiles
+--Participates in development and maintenance activities of RDF vocabularies and application profiles
+--Monitors changes to existing RDF vocabularies and application profiles
+
+103. https://courses.washington.edu/is530/win08/lecture%20notes/7.5%20Namespaces%20and%20Application%20Profiles.pdf
+--Adheres to namespace policies in managing RDF vocabularies
+--Determines the namespace (or namespaces) in which any new classes and properties to be created from the domain model will be defined
+
+104. https://ecommons.cornell.edu/bitstream/handle/1813/9371/AP_paper_final.pdf?sequence=1&isAllowed=y
+--Monitors changes to existing RDF vocabularies and application profiles
+--Participates in development and maintenance activities of RDF vocabularies and application profiles
+
+105. http://www10.org/cdrom/papers/572/
+--Creates metadata describing the RDF schema to make it discoverable
+--Participates in development and maintenance activities of RDF vocabularies and application profiles
+--Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+## NEW RESOURCES ADDED AND INDEXED OCT. 8, 2015
+
+106. http://www.dataversity.net/introduction-to-triplestores/
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+107. http://ceur-ws.org/Vol-1015/paper_16.pdf
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+108. http://www.slideshare.net/marin_dimitrov/rdf-sparql-and-semantic-repositories
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands OWL properties, property axioms, axioms and class constructions in reasoning
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+--Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+--Demonstrates understanding of the abstract data model of RDF as a directed labeled graph
+--Understands the distinction between the RDF data model and the it's various serializations
+
+109. http://wifo5-03.informatik.uni-mannheim.de/bizer/pub/Bizer-Schultz-Berlin-SPARQL-Benchmark-IJSWIS.pdf
+--Creates SPARQL endpoints for RDBMS
+--Uses SPARQL endpoints for RDBMS
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+--Demonstrates knowledge of factors influencing whether to publish RDF or provide a SPARQL endpoint
+
+110. http://www.researchgate.net/publication/220854085_Integrating_Open_Sources_and_Relational_Data_with_SPARQL
+--Creates SPARQL endpoints for RDBMS
+--Uses SPARQL endpoints for RDBMS
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+111. http://www.activeraul.org/index.html
+ONLY TOPICS ASSIGNED - DELETED
+
+112. http://www.gdmc.nl/publications/2014/Linking_spatial_data.pdf
+--Creates well defined terms (properties & classes) with well designed persistent URIs
+--Creating, publishing and manipulating RDF
+
+113. http://asio.bbn.com/terracognita2008/presentations/OrdnanceSurvey.pdf
+--Creates new terms (properties & classes) following commonly agreed upon conventions and best practices
+
+114. http://homepages.cwi.nl/~boncz/msc/2014-Passing.pdf
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+115. http://ceur-ws.org/Vol-395/paper03.pdf
+--Creates a graphical representation of the domain entities and the relationships among them
+--Investigates how others are already describing the domain, or a similar domain or related data
+--Identifies classes of real world entities (things) of interest to the domain being modeled such as people, organizations, places, products or other artifacts or naturally occurring things, events and concepts
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+## NEW RESOURCES ADDED AND INDEXED OCT. 9, 2015
+
+116. https://jazz.net/wiki/bin/view/LinkedData/PublishingRdfVocabularies
+--Creates new terms (properties & classes) following commonly agreed upon conventions and best practices
+--Develops policies for creation and management of RDF vocabularies
+
+117. http://ceur-ws.org/Vol-401/iswc2008pd_submission_30.pdf
+--Creates well defined terms (properties & classes) with well designed persistent URIs
+--Demonstrates an understanding of the naming of anything that can be identified with URI including agents, places, events, artifacts and concepts
+
+118. http://www.doi.org/VMF/
+--Searches to discover new and useful RDF vocabularies and application profiles
+--Researches existing terms and their usage to avoid unnecessary creation of new terms and to maximizes re-use of existing terms
+
+119. http://www.doi.org/VMF/documents/VocabularyMappingFrameworkIntroductionV1.0(091212).pdf
+--Searches to discover new and useful RDF vocabularies and application profiles
+--Researches existing terms and their usage to avoid unnecessary creation of new terms and to maximizes re-use of existing terms
+
+120. http://www.dlib.org/dlib/may98/miller/05miller.html
+ONLY TOPICS ASSIGNED - DELETED
+
+## NEW RESOURCES ADDED (BUT NOT INDEXED) OCT. 19, 2015
+
+121. http://explore.dublincore.net/rdf/lrmi/#/resource
+NO RECORD FOUND
+
+122. http://dx.doi.org/10.1109/MIC.2011.141
+NO MAPPINGS
+
+123. http://linkeddatafragments.org/publications/ldow2014.pdf
+NO MAPPINGS
+
+124. https://cs.uwaterloo.ca/~ohartig/files/Hartig_SIGMOD2013Demo_Preprint.pdf
+NO MAPPINGS
+
+125. https://cs.uwaterloo.ca/~ohartig/files/HartigOzsu_WWW2014_Preprint.pdf
+NO MAPPINGS
+
+126. http://dsg.uwaterloo.ca/LDQTut2013/LDQTut2013_1.pdf
+NO MAPPINGS
+
+127. http://dsg.uwaterloo.ca/LDQTut2013/LDQTut2013_2.pdf
+NO MAPPINGS
+
+128. http://dsg.uwaterloo.ca/LDQTut2013/LDQTut2013_3.pdf
+NO MAPPINGS
+
+129. http://dsg.uwaterloo.ca/LDQTut2013/LDQTut2013_4.pdf
+NO MAPPINGS
+
+130. http://dsg.uwaterloo.ca/LDQTut2013/LDQTut2013_5.pdf
+NO MAPPINGS
+
+131. http://km.aifb.kit.edu/ws/sumpre2015/QueryVOWL_HSWI.pdf
+NO MAPPINGS
+
+132. http://ceur-ws.org/Vol-992/paper3.pdf
+NO MAPPINGS
+
+133. http://www.semantic-web-journal.net/system/files/swj1096.pdf
+NO MAPPINGS
+
+134. https://www.lri.fr/~hamdi/datalift/tuto_inspire_2012/Suggestedreadings/egovld.pdf
+NO MAPPINGS
+
+135. http://www.cs.toronto.edu/~oktie/slides/publishing-relational-databases-as-linked-data.pdf
+NO MAPPINGS
+
+136. http://www.cs.toronto.edu/~oktie/slides/web-of-data-intro.pdf
+NO MAPPINGS
+
+137. http://wifo5-03.informatik.uni-mannheim.de/bizer/pub/Schultz-et-al-LDIF-WWW2012-DevTrack.pdf
+NO MAPPINGS
+
+##NEW RESOURCES ADDED AND INDEXED NOVEMBER 5, 2015
+
+138. http://callimachusproject.org/docs/1.1/articles/crud-operations-on-rdf-content.docbook?view
+ONLY TOPICS ASSIGNED - DELETED
+
+139. https://anandavala.wordpress.com/2013/06/02/sparql-update-example-code-for-create-insert-delete-edit/
+ONLY TOPICS ASSIGNED - DELETED
+
+140. http://www.databaseskill.com/2506239/
+--Uses SPARQL endpoints for RDBMS
+
+141. http://www.openvest.com/trac/wiki/RDFAlchemy
+ONLY TOPICS ASSIGNED - DELETED
+
+142. https://www.cs.mcgill.ca/files/techReports/SPARQL_2012.pdf
+--Performs graph management using LOAD, CLEAR, CREATE, DROP, COPY/MOVE/ADD
+
+##NEW RESOURCES ADDED AND INDEXED NOVEMBER 6, 2015
+
+143. http://www.euclid-project.eu/content/chapter-1-quiz
+--Demonstrates understanding of the abstract data model of RDF as a directed labeled graph
+--Demonstrates an understanding of the naming of anything that can be identified with URI including agents, places, events, artifacts and concepts
+
+144. http://www.euclid-project.eu/modules/course2
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+
+145. http://www.euclid-project.eu/content/chapter-2-quiz
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+
+146. http://www.euclid-project.eu/modules/course3
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+--Publishes RDF schemas in multiple formats for consumption by humans and machines
+
+147. http://www.euclid-project.eu/content/chapter-3-quiz
+--Publishes RDF schemas in multiple formats for consumption by humans and machines
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+148. http://www.euclid-project.eu/modules/course4
+NO MAPPINGS
+
+149. http://www.euclid-project.eu/modules/course5
+NO MAPPINGS
+
+150. http://www.euclid-project.eu/modules/course6
+NO MAPPINGS
+
+151. http://www.euclid-project.eu/content/chapter-4-quiz
+NO MAPPINGS
+
+152. http://www.euclid-project.eu/content/chapter-5-quiz
+NO MAPPINGS
+
+153. http://www.euclid-project.eu/content/chapter-6-quiz
+NO MAPPINGS
+
+NEW RESOURCES ADDED AND INDEXED NOVEMBER 7, 2015
+
+154. http://eswc-conferences.org/sites/default/files/papers2013/costabello.pdf
+--Performs data management using INSERT, DELETE, DELETE/INSERT
+--Demonstrates knowledge of factors influencing whether to publish RDF or provide a SPARQL endpoint
+ 
+155. http://dhirajpatra.blogspot.com/2011/05/building-semantic-web-crud-operations.html
+--Performs data management using INSERT, DELETE, DELETE/INSERT
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+
+156. http://www.marklogic.com/resources/marklogic-semantics-hood/resource_download/presentations/
+--Performs data management using INSERT, DELETE, DELETE/INSERT
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+
+157. http://tutorial-academy.com/apache-jena-tdb-crud-operations/
+--Performs data management using INSERT, DELETE, DELETE/INSERT
+
+158. http://www.w3.org/TR/sparql11-http-rdf-update/
+--Performs data management using INSERT, DELETE, DELETE/INSERT
+
+NEW RESOURCES ADDED AND INDEXED NOVEMBER 9, 2015
+
+159. http://www.academictutorials.com/quiz.asp?id=33
+--Understands the distinction between the RDF data model and the it's various serializations
+--Demonstrates understanding of the abstract data model of RDF as a directed labeled graph
+
+160. http://www.academictutorials.com/rdf/rdf-concepts.asp
+--Demonstrates an understanding of the naming of anything that can be identified with URI including agents, places, events, artifacts and concepts
+--Understand and use RDFS in defining and interpreting RDF vocabularies
+--Creates sub-classes, sub-properties and super-classes when new terms can be seen as specializations of existing terms in order to support interoperability and inferencing
+
+161. http://www.academictutorials.com/rdf/rdf-xml-syntax.asp
+--Demonstrates an understanding of the naming of anything that can be identified with URI including agents, places, events, artifacts and concepts
+--Understands the distinction between the RDF data model and the it's various serializations
+--Determines the namespace (or namespaces) in which any new classes and properties to be created from the domain model will be defined
+
+162. http://www.academictutorials.com/schema/schema-why.asp
+--Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+--Understands the distinction between the RDF data model and the it's various serializations
+
+163. https://web.fe.up.pt/~jlopes/doku.php/teach/lapd/lectures/09
+--Understands the distinction between the RDF data model and the it's various serializations
+--Demonstrates understanding of the abstract data model of RDF as a directed labeled graph
+
+164. https://web.fe.up.pt/~jlopes/doku.php/teach/lapd/lectures/10
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+--Understand and use RDFS in defining and interpreting RDF vocabularies
+--Participates in development and maintenance activities of RDF vocabularies and application profiles
+
+165. https://web.fe.up.pt/~jlopes/doku.php/teach/lapd/lectures/11
+NO MAPPINGS
+
+166. https://web.fe.up.pt/~jlopes/doku.php/teach/lapd/q4-en
+NO MAPPINGS
+
+NEW RESOURCES ADDED AND INDEXED NOVEMBER 12, 2015
+
+167. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/1-full.pdf
+NO MAPPINGS
+
+168. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/2-full.pdf
+--Identifies classes of real world entities (things) of interest to the domain being modeled such as people, organizations, places, products or other artifacts or naturally occurring things, events and concepts
+
+169. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/3-full.pdf
+--Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+
+170. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/4-full.pdf
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+--Demonstrates an understanding of the naming of anything that can be identified with URI including agents, places, events, artifacts and concepts
+
+171. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/5-full.pdf
+--Demonstrates an understanding of the naming of anything that can be identified with URI including agents, places, events, artifacts and concepts
+--Understands the distinction between the RDF data model and the it's various serializations
+
+172. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/6-full.pdf
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+--Demonstrates an understanding of the naming of anything that can be identified with URI including agents, places, events, artifacts and concepts
+
+173. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/7-full.pdf
+--Understands the role of RDFS and uses it in defining new RDF vocabularies
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each
+
+174. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/8-full.pdf
+--Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+--Uses query forms including ASK, SELECT, DESCRIBE, CONSTRUCT
+--Demonstrates understanding of the abstract data model of RDF as a directed labeled graph
+
+175. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/9-full.pdf
+--Demonstrates understanding of the abstract data model of RDF as a directed labeled graph
+--Understands the SPARQL 1.1 query language, protocol, functions and operators
+--Determines whether to use hash ("#") or slash ("/")
+--Uses query patterns including BGP, UNION, OPTIONAL, FILTER
+
+176. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/10-full.pdf
+--Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+--Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each
+--Understands OWL properties, property axioms, axioms and class constructions in reasoning
+--Understands the uses and roles of domain and ranges  
+

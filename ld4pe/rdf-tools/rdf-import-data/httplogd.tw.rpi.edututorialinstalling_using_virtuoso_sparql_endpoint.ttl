@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://logd.tw.rpi.edu/tutorial/installing_using_virtuoso_sparql_endpoint>
+  a schema:CreativeWork ;
+  schema:name "Installing and Managing Virtuoso SPARQL Endpoint"@en-US ;
+  schema:author "Shangguan, Zhenning"@en-US ;
+  schema:description "Instructions for installing, configuring, and managing Virtuoso SPARQL endpoints (community edition). This tutorial documents instructions for installing, configuring and managing Virtuoso Open Source Edition (VOSE) on 64-bit Linux servers. Some contents of this tutorial are from the VOSE documentation - TODO add link, but tailored specifically to the machine setup of TWC@RPI. It also introduces shell scripts to fulfill common administrative tasks (e.g., probing status of an VOSE SPARQL endpoint, starting/stopping/restarting an VOSE endpoint), which are developed by the LOGD team at RPI."@en-US ;
+  schema:dateCreated "2011-07-18T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "SPARQL"@en-US, "SPARQL endpoint"@en-US, "Virtuoso"@en-US ;
+  schema:publisher "TWC LOGD"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

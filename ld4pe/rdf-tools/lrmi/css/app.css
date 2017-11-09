@@ -1,0 +1,44 @@
+body{padding-top:45px;font-family: verdana, sans-serif, Arial;font-size:14px; background-color:#FAFAFA; color: #353535;}
+a{color:#2a6496;}
+.starter-template{padding:25px 0;}
+.footer{color:#C7C7C7;}
+button.closer{background:none repeat scroll 0 0 rgba(0,0,0,0);border:0 none;cursor:pointer;padding:0;}
+.closer{color:#A94442;font-size:31px;font-weight:700;line-height:1;text-shadow:0 1px 0 #FFF;}
+.help-block{font-size:12px;font-style:italic;}
+.navbar-overwrite{background-color:#E7E7E7;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {font-weight:bold;}
+.field-sep{border-top:1px dotted #CCCCCC;}
+*{box-sizing:border-box;}
+.live input,.shadow input{border:1px solid #ddd;font:inherit;font-weight:700;height:2em;margin:0;padding:1px;}
+.shadow{opacity:0.7;}
+.debug{clear:both;}
+.debug textarea{width:100%;height:40em;font:10px/13px monospace;}
+.pregnant{border:1px solid #ddd;}
+.toggle{border:0 none transparent;background:transparent;color:#333;font-size:20px;}
+.container{padding-left:7px;padding-right:7px;}
+input{padding-bottom:5px;}
+.progress{margin-bottom:1px;}
+.form-horizontal .form-group{margin-left:0;margin-right:0;word-wrap:break-word;}
+.form-horizontal .control-label{font-size:13px;padding:0;}
+.editable-buttons{display:block;padding-top:10px;}
+.editable-input.editable-has-buttons{width:100%;}
+.editable-click,a.editable-click{border-bottom:none;color:#333;}
+.editable-click:hover,a.editable-click:hover{border-bottom:1px dotted #2a6496; color: #2a6496;}
+.editable-empty,.editable-empty:hover,.editable-empty:focus,a.editable-empty,a.editable-empty:hover,a.editable-empty:focus{font-style:normal; color:#2a6496;}
+.upper-padding{padding-top:20px;}
+.lower-padding{padding-bottom:25px;}
+[ng\:cloak],[ng-cloak],.ng-cloak,[ng-cloak]{display:none;}
+.nav,.pagination,.carousel a,button{cursor:pointer;}
+.edit-document{font-size:14px;}
+.editable-wrap {white-space:normal;}
+.red{color:#bd362f;}
+.green{color:#5bb75b;}
+.margin-bottom{margin-bottom:20px;}
+.full-width{width:100%;}
+.radio-inline.no-pad-top{padding-top:0px;}
+.checkbox-inline.no-pad-top{padding-top:0px; margin-left:7px;}
+.angucomplete-dropdown {overflow-y: auto; max-height: 200px; width: 100%;}
+.auto-complete{width:100%;}
+.black{color:000;}
+.form-identifier{border: none;}
+.translate-cloak {opacity:0;}

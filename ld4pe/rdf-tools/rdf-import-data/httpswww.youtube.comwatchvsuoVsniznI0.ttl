@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=suoVsniznI0>
+  a schema:CreativeWork ;
+  schema:name "What is Linked Data"@en-US ;
+  schema:author "Stratton, Mike"@en-US ;
+  schema:description "A non-technical explanation of Linked Data principles geared towards novices. Note: Is this the same presentation as the Manu Sporny entry? If so, who is the actual creator?"@en-US ;
+  schema:dateCreated "2012-12-18T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Triple"@en-US, "URL"@en-US, "Graph"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

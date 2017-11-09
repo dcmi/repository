@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://jena.apache.org/tutorials/rdf_api.html>
+  a schema:CreativeWork ;
+  schema:name "An Introduction to RDF and the Jena RDF API"@en-US ;
+  schema:description "This is a tutorial introduction to both W3Cs Resource Description Framework (RDF) and Jena, a Java API for RDF. It is written for the programmer who is unfamiliar with RDF and who learns best by prototyping, or, for other reasons, wishes to move quickly to implementation. Some familiarity with both XML and Java is assumed. Implementing too quickly, without first understanding the RDF data model, leads to frustration and disappointment. Yet studying the data model alone is dry stuff and often leads to tortuous metaphysical conundrums. It is better to approach understanding both the data model and how to use it in parallel. Learn a bit of the data model and try it out. Then learn a bit more and try that out. Then the theory informs the practice and the practice the theory. The data model is quite simple, so this approach does not take long. RDF has an XML syntax and many who are familiar with XML will think of RDF in terms of that syntax. This is mistake. RDF should be understood in terms of its data model. RDF data can be represented in XML, but understanding the syntax is secondary to understanding the data model."@en-US ;
+  schema:dateCreated "2014-01-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Semantic Web"@en-US, "RDF"@en-US, "Triple"@en-US, "XML"@en-US, "Java"@en-US, "Apache Jena"@en-US, "API"@en-US ;
+  schema:publisher "The Apache Software Foundation"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

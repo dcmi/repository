@@ -1,0 +1,32 @@
+[
+    {
+        "label": "Full Keyboard Control",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullKeyboardControl",
+        "type" : "uri"
+    },
+    {
+        "label": "Full Mouse Control",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullMouseControl",
+        "type" : "uri"
+    },
+    {
+        "label": "Full Switch Control",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullSwitchControl",
+        "type" : "uri"
+    },
+    {
+        "label": "Full Touch Control",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullTouchControl",
+        "type" : "uri"
+    },
+    {
+        "label": "Full Video Control",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullVideoControl",
+        "type" : "uri"
+    },
+    {
+        "label": "Full Voice Control",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityControl/fullVoiceControl",
+        "type" : "uri"
+    }
+]

@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=UqwGSo82cwU>
+  a schema:CreativeWork ;
+  schema:name "XML Tutorial"@en-US ;
+  schema:author "Lassoff, Mark"@en-US ;
+  schema:description "The XML Language (eXtensible Markup Language) has become more important in recent years as it has developed in to a primary tool for programmers to exchange data. Often when systems do not speak the same language they can still exchange data using XML. XML is used with Javascript, Java, Android, and just about every other important programming language."@en-US ;
+  schema:dateCreated "2011-10-03T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "XML"@en-US ;
+  schema:publisher "LearnToProgram.tv"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

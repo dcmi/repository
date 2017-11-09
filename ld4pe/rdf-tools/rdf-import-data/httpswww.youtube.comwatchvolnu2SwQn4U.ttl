@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=olnu2SwQn4U>
+  a schema:CreativeWork ;
+  schema:name "Simple SPARQL Tutorial 21/29: Subqueries (Queries inside Queries)"@en-US ;
+  schema:author "Sadawi, Noureddin"@en-US ;
+  schema:description "Tutorial explaining how the it is possible to nest one query within another query in order to avoid the queries running independently (and thus returning multiple results of the same triples). Shows both the proper syntax for subqueiries and explains the rationale."@en-US ;
+  schema:dateCreated "2014-03-03T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "SPARQL"@en-US, "Query"@en-US, "Triple"@en-US, "Graph"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,60 @@
+Scope notes in the display for subject browsing?
+
+     Fundamentals of Resource Description Framework
+         Identity in RDF
+         RDF data model
+         Related data models
+         RDF serialization
+
+     Fundamentals of Linked Data
+         Web technology
+         -- Q: Is this a catch all for "Semantic Web"?
+         Linked Data principles
+         Linked Data architectures and services
+         -- Q: Using LD, but not RDF?
+         Linked data policies and best practices
+         Non-RDF Linked Data
+         -- Q: Schema.org, Microdata, Rich Snippets?
+
+     RDF vocabularies and application profiles
+         Finding RDF-based vocabularies
+         Maintaining RDF vocabularies
+         Versioning RDF vocabularies
+         Publishing RDF vocabularies
+         Mapping RDF vocabularies
+         RDF application profiles
+
+     Creating and Transforming Linked Data
+         Managing identifiers (URI)
+         Creating RDF data
+         Versioning RDF data
+         RDF data provenance
+         Cleaning and reconciling RDF data
+         Mapping and enriching RDF data
+
+     Interacting with Linked Data
+         Programming RDF data
+         -- Q: What does this mean?  Any use of RDF which involves Python, Ruby, etc?
+         Querying RDF data
+         Visualizing RDF data
+         Reasoning over RDF
+         -- Q: Inferencing: leveraging both OWL and RDF Schema?
+            But, how to distinguish this from crossing over into the "Designing
+            RDF Vocabularies" and/or "Querying RDF Vocabularies".  Should catalogers be
+            instructed to err on the side of filing resources under all three?
+         Assessing RDF data quality
+         -- Q: Using analytics to evaluate RDF Data?
+         RDF data analytics
+         -- Q: Using RDF data for analytics (Data Science)?
+
+     Creating Linked Data applications
+         Storing RDF data
+         Linked Data application architecture
+         -- Q: Applications developed for widespread and long-term use.  
+            Need to make difference between this and "Linked Data 
+            architectures and services" clear - scale?
+         Linked Data mashups
+         -- Q: Created for one time or limited use (e.g., an interactive map or graph).
+         Finding RDF data
+         Manipulating RDF data
+         Designing RDF-based vocabularies

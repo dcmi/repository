@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://info.slis.indiana.edu/~dingying/Z636Fall2014.html>
+  a schema:CreativeWork ;
+  schema:name "Z636 - Semantic Web/Data Semantics"@en-US ;
+  schema:author "Ding, Ying"@en-US ;
+  schema:description "The current Web has experienced tremendous changes to connect data, people and knowledge. There are a couple of exciting efforts trying to bring the Web to its full potential. The Semantic Web is one of them which is heavily embedded in the Artificial Intelligence area with the long-term goal to enhance the human and machine interaction by representing data semantics, integrating data silos, and enabling intelligent search and discovery. This course aims to provide the basic overview of the Semantic Web in particular, and data semantics in general, and how they can be applied to enhance data integration and knowledge inference. Ontology is the backbone of the Semantic Web. It models the semantics of data and represents them in markup languages proposed by the World Wide Web Consortium (W3C). W3C plays a significant role in directing major efforts at specifying, developing, and deploying standards for sharing information. Semantically enriched data pave the crucial way to facilitate the Web functionality and interoperability. This course aims to provide the basic overview of what the Semantic Web is and how it can be applied. It mainly contains three parts: Semantic Web language, RDF graph database (i.e., RDF triple store), and its applications. The fundamental part of the course is the Semantic Web languages. It starts from XML and goes further to RDF and OWL. The RDF graph database part introduces different APIs of Jena and its reasoners. The application part showcases current trends on semantic applications."@en-US ;
+  schema:dateCreated "2014-01-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "RDF (mark up language)"@en-US, "Artificial Intelligence"@en-US, "Semantic Web"@en-US, "Ontologies (Information retrieval)"@en-US ;
+  schema:publisher "SOiC, Indiana University"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

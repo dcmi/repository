@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.ischool.utexas.edu/~i343cfm/website_04fall/>
+  a schema:CreativeWork ;
+  schema:name "INF 343C - Information Organization and Access"@en-US ;
+  schema:author "Miksa, Francis"@en-US ;
+  schema:description "Basic aspects of representing and organizing information resources in digital information settings. Introduces the fundamentals of identifying informational objects, including description, content indication, and metadata."@en-US ;
+  schema:about "Information organization"@en-US, "Metadata"@en-US ;
+  schema:publisher "School of Information, University of Texas at Austin"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

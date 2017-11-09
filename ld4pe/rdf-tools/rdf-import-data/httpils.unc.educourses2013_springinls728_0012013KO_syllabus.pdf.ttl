@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://ils.unc.edu/courses/2013_spring/inls728_001/2013KO_syllabus.pdf>
+  a schema:CreativeWork ;
+  schema:name "INLS 728 Seminar in Knowledge Organization"@en-US ;
+  schema:author "Greenberg, Jane"@en-US ;
+  schema:description "Fundamental questions for knowledge organization include the following: What is knowledge? Why and how do we develop knowledge organization systems? What are the implications of knowledge organization systems and approaches? This class explores theoretical foundations, historical approaches, and current practices for organizing knowledge. The class will encompass a wide-range knowledge organization systems, from general terminological and classificatory schemes to domain specific semantic systems, including thesauri, taxonomies, and ontologies. An emphasis will be on research advancing our philosophical understanding of knowledge organization and theoretical and practical implications for this topic in the digital world. Several selected topics covered include Aristotle--reality and knowledge; Baconian classification; Linnaean taxonomy; Dewey--whole world approach for KO; Ranganathan--analytico-synthetic classification and facet analysis; the Semantic Web; and metadata."@en-US ;
+  schema:dateCreated "2013-01-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Knowledge representation (Information theory)"@en-US, "Metadata"@en-US, "Semantic Web"@en-US ;
+  schema:publisher "School of Information and Library Science, University of North Carolina- Chapel Hill"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

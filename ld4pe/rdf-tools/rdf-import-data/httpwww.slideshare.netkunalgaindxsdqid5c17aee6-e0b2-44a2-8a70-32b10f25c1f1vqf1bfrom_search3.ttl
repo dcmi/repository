@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/kunalgaind/xsd?qid=5c17aee6-e0b2-44a2-8a70-32b10f25c1f1&v=qf1&b=&from_search=3>
+  a schema:CreativeWork ;
+  schema:name "XSD (XML Schema Definition)"@en-US ;
+  schema:author "Gaind, Kunal"@en-US ;
+  schema:description "Defines the purpose of an XML Schema as defining the legal building blocks of an XML document. An XML Schema: Defines elements that can appear in a document; Defines attributes that can appear in a document; Defines which elements are child elements; Defines the order of child elements; Defines the number of child elements; Defines whether an element is empty or can include text; Defines data types for elements and attributes; Defines default and fixed values for elements and attributes; is extensible to future additions; is written in XML; supports data types. XML Schemas support namespaces"@en-US ;
+  schema:dateCreated "2009-05-16T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "XML Schema"@en-US, "XML"@en-US, "XSD"@en-US ;
+  schema:publisher "Oracle"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

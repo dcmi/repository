@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.cambridgesemantics.com/semantic-university/sparql-vs-sql-intro>
+  a schema:CreativeWork ;
+  schema:name "SPARQL vs. SQL - Intro"@en-US ;
+  schema:author "Feigenbaum, Lee | Prudhommeaux, Eric"@en-US ;
+  schema:description "Note: There currently exists no Topic Cluster or Competency to which we can tie this resource. This lesson compares the SPARQL and SQL query languages, which are designed to query RDF and relational data, respectively. You may be reading this lesson because you know one and want to learn the other or because you need to make some decisions about which to use for some purpose. First, we will look at their data models; that is, the way we consider their data to be structured. In keeping with the culture of re-use and integration that pervades the Semantic Web, SPARQL can be used to access relational data as well as RDF. Two recent specifications, A Direct Mapping of Relational Data to RDF and R2RML: RDB to RDF Mapping Language, define this process. The next lesson will contrast SPARQL and SQL queries over two databases containing exactly the same information."@en-US ;
+  schema:about "SPARQL"@en-US, "Query"@en-US, "Dataset, RDF"@en-US, "RDF"@en-US, "Relational Model"@en-US, "SQL"@en-US, "R2RML"@en-US ;
+  schema:publisher "Cambridge Semantics"@en-US, "W3C SPARQL Working Group"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

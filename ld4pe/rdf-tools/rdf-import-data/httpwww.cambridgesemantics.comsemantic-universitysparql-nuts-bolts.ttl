@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.cambridgesemantics.com/semantic-university/sparql-nuts-bolts>
+  a schema:CreativeWork ;
+  schema:name "SPARQL Nuts & Bolts"@en-US ;
+  schema:description "Topic Cluster: Searching and querying; Topic: Anatomy of a simple SPARQL query; Topic: Querying RDF data using SPARQL; Competency: Understands the SPARQL 1.1 query language, protocol, functions and operators. Competency: Uses query forms including ASK, SELECT, DESCRIBE, CONSTRUCT; Competency: Uses query patterns including BGP, UNION, OPTIONAL, FILTER; Competency: Uses sequence modifiers including DISTINCT, REDUCED, ORDER BY, LIMIT, OFFSET. The SPARQL 101 module introduced what SPARQL is, how it relates to other query languages, and went through basic SPARQL syntax. This lesson builds on that foundation, primarily by example. We use many real-world SPARQL queries to illustrate the features of the query language as the quickest way to making you productive. This is a technical lesson by nature."@en-US ;
+  schema:about "SPARQL"@en-US, "Query"@en-US, "Dataset, RDF"@en-US, "RDF"@en-US, "Graph"@en-US, "SPARQL endpoint"@en-US, "DBpedia"@en-US ;
+  schema:publisher "Cambridge Semantics"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

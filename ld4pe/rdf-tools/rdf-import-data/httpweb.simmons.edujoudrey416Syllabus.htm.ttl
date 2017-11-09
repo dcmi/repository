@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://web.simmons.edu/~joudrey/416/Syllabus.htm>
+  a schema:CreativeWork ;
+  schema:name "LIS 416: Introduction to Cataloging and Classification"@en-US ;
+  schema:author "Joudrey, Daniel N."@en-US ;
+  schema:description "This course covers the principles and practices of bibliographic description, subject cataloging, and classification. It covers basic descriptive cataloging, including: the elements of bibliographic description; the choice of descriptive detail; authority control; the choice of access points; and the application of MARC21. It covers basic subject cataloging and classification processes, including the application of subject headings to information resources and the creation of call numbers in Dewey Decimal and Library of Congress classifications. May include readings, discussions, presentations, exams, exercises, and individual or group projects. Prerequisites: LIS 415: Information Organization Audience (level, environment/setting): Introductory; all kinds of libraries; those interested in technology, reference, collection development, cataloging, metadata, library automation, and other library specializations. Some content also applicable to archives and museums."@en-US ;
+  schema:about "Classification"@en-US, "Cataloging"@en-US ;
+  schema:publisher "GSLIS, Simmons College"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

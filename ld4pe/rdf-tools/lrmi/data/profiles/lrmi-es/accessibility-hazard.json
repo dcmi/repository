@@ -1,0 +1,32 @@
+[
+    {
+        "label": "Intermitente",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/flashing",
+        "type" : "uri"
+    },
+    {
+        "label": "No Peligro Intermitente",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noFlashingHazard",
+        "type" : "uri"
+    },
+    {
+        "label": "Simulación de Movimiento",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/motionSimulation",
+        "type" : "uri"
+    },
+    {
+        "label": "Sin Simulación de Movimiento Peligro",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noMotionSimulationHazard",
+        "type" : "uri"
+    },
+    {
+        "label": "Sonar",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/sound",
+        "type" : "uri"
+    },
+    {
+        "label": "No Peligro de Sonido",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noSoundHazard",
+        "type" : "uri"
+    }
+]

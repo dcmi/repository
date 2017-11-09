@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.cambridgesemantics.com/semantic-university/learn-rdf>
+  a schema:CreativeWork ;
+  schema:name "Learn RDF"@en-US ;
+  schema:description "This set of lessons is an introduction to RDF, the core data model of the Semantic Web and the foundation of all other Semantic Web technologies. The lessons introduce RDF, present additional details, and then place RDF in the context of other technologies such as XML and JSON. Coverage is meant for beginners new to RDF, but a technical background will very much help you follow the material."@en-US ;
+  schema:about "Linked Data"@en-US, "Semantic Web"@en-US, "RDF"@en-US, "EXtensible Markup Language (XML)"@en-US, "JSON"@en-US ;
+  schema:publisher "Cambridge Semantics"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/unit>, <http://purl.org/dcx/lrmi-vocabs/learningResourceType/lesson> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

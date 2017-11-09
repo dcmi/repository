@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.si.umich.edu/programs/class/winter-2015/managing-organizational-information-assets>
+  a schema:CreativeWork ;
+  schema:name "SI528: Managing Organizational Information Assets"@en-US ;
+  schema:author "Wallace, David"@en-US ;
+  schema:description "Managing Organizational Information Assets --- This course provides an intensive overview for managing information as a critical organizational asset. Special emphasis is placed on understanding the range of organizational contexts within which records and recordkeeping systems are created and utilized. It is especially mindful of the considerable risks organization?s subject themselves to through poor information management. This course will enable students to understand and deploy key program functions and processes, apply insights from organizational theory and culture, and develop skills in researching and implementing: recordkeeping requirements, software tools, thesauri and taxonomies, retention and scheduling, risk management, and preservation. Students will also understand how to overcome the challenges of building and sustaining successful records management programs."@en-US ;
+  schema:dateCreated "2015-12-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Metadata"@en-US, "Thesauri"@en-US ;
+  schema:publisher "School of Information, University of Michigan"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

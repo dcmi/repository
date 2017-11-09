@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=ZfWOS0mI4eM>
+  a schema:CreativeWork ;
+  schema:name "Simple SPARQL Tutorial 2/29: RDF Model - Turtle Format ... the data to query"@en-US ;
+  schema:author "Sadawi, Noureddin"@en-US ;
+  schema:description "In this video (number 2 of 29 total), the presenter discusses the purpose of RDF triples and introduces the viewer to the Turtle format and the use of prefixes to identify subjects and predicates."@en-US ;
+  schema:dateCreated "2014-03-03T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "SPARQL"@en-US, "Query"@en-US, "RDF"@en-US, "Triple"@en-US, "Turtle"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

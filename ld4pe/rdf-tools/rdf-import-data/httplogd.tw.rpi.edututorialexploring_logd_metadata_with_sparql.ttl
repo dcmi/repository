@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://logd.tw.rpi.edu/tutorial/exploring_logd_metadata_with_sparql>
+  a schema:CreativeWork ;
+  schema:name "Exploring LOGD Metadata with SPARQL Queries"@en-US ;
+  schema:author "Lebo, Tim"@en-US ;
+  schema:description "This tutorial shows how to use SPARQL queries to explore LOGD metadata to answer questions on the TWC LOGD Portal The following queries can be used at http://logd.tw.rpi.edu/sparql to find and describe datasets. How up to date are the dataset descriptions?"@en-US ;
+  schema:dateCreated "2011-03-16T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Open Data"@en-US, "Linked Open Data Cloud"@en-US, "Government Open Data"@en-US, "Dataset, RDF"@en-US, "SPARQL"@en-US ;
+  schema:publisher "TWC LOGD"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

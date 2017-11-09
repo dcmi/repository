@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/>
+  a schema:CreativeWork ;
+  schema:name "RDF 1.1 Primer"@en-US ;
+  schema:author "Schreiber, Guus | Raimond, Yves"@en-US ;
+  schema:description "This primer is designed to provide the reader with the basic knowledge required to effectively use RDF. It introduces the basic concepts of RDF and shows concrete examples of the use of RDF. Secs. 3-5 can be used as a minimalist introduction into the key elements of RDF."@en-US ;
+  schema:dateCreated "2014-02-25T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "RDF"@en-US, "Triple"@en-US, "Graph"@en-US, "Dataset, RDF"@en-US, "Internationalized Resource Identifier (IRI)"@en-US, "Vocabulary"@en-US, "JSON"@en-US, "RDF/XML"@en-US, "RDFa"@en-US, "Turtle"@en-US ;
+  schema:publisher "W3C"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

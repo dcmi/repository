@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://homes.soic.indiana.edu/classes/fall2013/ils/z503-garave/advertisement.pdf>
+  a schema:CreativeWork ;
+  schema:name "Z503 : Representation and Organization"@en-US ;
+  schema:author "Arave, Gary"@en-US ;
+  schema:description "The representation and organization of information resources is a primary focus of the information profession. Organizational and representational structures such as classification schemes, indexes, and catalogs have been devised to provide access to information. The recent explosive growth in both the number and variety of information resources underscores the continuing need for application of effective methods of representation and organization. Practical and effective information systems depend upon a comprehensive understanding not only of formal systems of organization and representation but also of human cognition itself. Accordingly, this course will investigate the basic principles and theoretical foundations of traditional representational and organizational schemes and review research in information science, cognitive science, semiotics, and computer science -- research that has contributed to an understanding of how people obtain, store, retrieve and use information. It will examine how this research can inform current practices of representation and organization in the design of more effective and more efficient information retrieval systems."@en-US ;
+  schema:about "Ontologies (Information retrieval)"@en-US, "Information retrieval"@en-US ;
+  schema:publisher "SOiC, Indiana University"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,8 @@
+<div class="form-group">
+  <label class="col-sm-3 control-label"><span translate>load.static.CONFIGURE_LABEL_IN_LANGUAGE</span>:</label>
+  <div class="col-sm-5">
+    <select multiple="multiple" ng-change="updateLanguages()" ng-model="form.configlanguages" class="form-control" ng-options="lang as lang.label for lang in wslanguages track by lang.value">
+    </select>
+    <span class="help-block" translate>load.static.CONFIGURE_HELP_IN_LANGUAGE</span>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=v53OAhDBuvk>
+  a schema:CreativeWork ;
+  schema:name "Linked Open Data"@en-US ;
+  schema:author "Pattuelli, Christina"@en-US ;
+  schema:description "The potential of applying LOD technology to cultural data and its practical uses for integrating, sharing, and reusing heterogeneous data from multiple sources are not yet fully explored. This talk provides an overview of principles and methods of LOD and will discuss advantages as well as challenges of adopting a linked data approach to cultural data. The development of Linked Jazz, a LOD project centered on jazz history digital archives, will provide the real-world scenario to ground the discussion."@en-US ;
+  schema:dateCreated "2013-04-25T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Linked Open Data"@en-US, "Cultural heritage"@en-US, "Linked Jazz project"@en-US ;
+  schema:publisher "Columbia University"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

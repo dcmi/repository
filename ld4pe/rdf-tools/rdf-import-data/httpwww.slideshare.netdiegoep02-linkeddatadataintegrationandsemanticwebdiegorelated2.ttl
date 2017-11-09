@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/diegoep/02-linkeddatadataintegrationandsemanticwebdiego?related=2>
+  a schema:CreativeWork ;
+  schema:name "Linked Data Integration and the Semantic Web"@en-US ;
+  schema:author "Pessoa, Diego"@en-US ;
+  schema:description "A simple, broad overview of Linked Data and the Semantic Web, including models for publishing Linked Data and ways to consume it. Falls under Topic Cluster: RDF & Linked Data fundamentals."@en-US ;
+  schema:dateCreated "2014-07-04T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "5 Star Linked Open Data"@en-US, "Linked Open Data Cloud"@en-US, "Semantic Web"@en-US, "RDF"@en-US, "Triple"@en-US, "Graph"@en-US, "URIs"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

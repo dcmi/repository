@@ -1,0 +1,99 @@
+----------------------------------------------------------------------
+Overview of the process
+
+The process requires
+
+1. A "source editor" (currently Tom), who
+   -- understands how the process works,
+   -- can edit the source files
+   -- can run `make`, which runs the Ruby script, which requires:
+      * prior installation of `ruby`
+      * prior installation of `pandoc`
+   -- can commit files to https://github.com/ld4pe/cieb
+   -- can communicate the URL to...
+
+2. A "production editor" (currently Stuart), who
+   -- can use ASN to manually update the competency index in the ASN editor
+   -- can communicate to...
+
+3. A "webmaster" (currently David or Abi), who 
+   -- can update the Competency Index on the Web from the ASN editor
+
+----------------------------------------------------------------------
+How the "diff" is prepared (for use in manually updating CI in ASN editor)
+
+  1. Edit CompIndex-stage.txt over a period of hours, days, or weeks.  
+
+     Note: The rationale for editing CompIndex-stage.txt (and not CompIndex.txt) 
+     is to make it easy for the editor to keep track of how much the "stage" 
+     version is diverging from the last "published" version by using common tools
+     such as `vimdiff` and `diff` on the two files within the local copy of the 
+     repository.
+
+  2. When CompIndex-stage.txt is ready to be published, copy over CompIndex.txt
+     then commit with Github:
+
+    $ cp -vi CompIndex-stage.txt CompIndex.txt
+    $ git add CompIndex.txt
+    $ git commit -m 'CompIndex.txt - new version for publication'
+    $ git push
+
+    Note: By using a committed and pushed version of CompIndex.txt, one can 
+    get a "diff" of changes that has its own URL and is formatted nicely, 
+    as described in the following steps...
+
+  3. Go to commits page on the Web: https://github.com/ld4pe/cieb/commits/master
+
+  4. Find latest commit (e.g., 'CompIndex.txt - new version...' as above).
+
+  5. Click on its SHA - e.g., 0b03ad0
+
+  6. Copy URL displayed in browser, e.g., 
+     https://github.com/ld4pe/cieb/commit/0b03ad068aaf472de22bc763c9706f1600bf4f1d
+     and send to Stuart (or whomever is using ASN to update the competency index)
+
+----------------------------------------------------------------------
+How to generate a new version CompIndex-generated.docx (which is used to create a Google doc)
+
+  1. In your local copy of the 'cieb' repository, go to the directory 
+     https://github.com/ld4pe/cieb/tree/master/CompIndex
+
+  2. Check that the file CompIndex.txt is more recent than the file 
+     CompIndex-generated.docx.  For example:
+
+     - 2016-05-12  12:10      17008  CompIndex-generated.docx        
+     - 2016-05-14  08:28      17833  CompIndex.txt   
+
+  3. Run the command `make`.  This command detects that CompIndex.txt is more 
+     recent than CompIndex-generated.docx and runs the following commands:
+
+     1    ruby mkcompindex.rb --source 'CompIndex.txt' --target 'CompIndex-generated.md'
+     2    pandoc CompIndex-generated.md -o CompIndex-generated.docx
+     3    git add CompIndex-generated.md
+     4    git add CompIndex-generated.docx
+     5    git commit -m 'generated CompIndex-generated.md and CompIndex-generated.docx'
+     
+     Explanation:
+
+     1. Runs the Ruby script `mkcompindex.rb`, which takes CompIndex.txt as an input 
+        and creates a Markdown file.
+     2. Runs `pandoc` to read the Markdown file as output and create a DOCX file (MSWord).
+     3. Adds the Markdown file to Git.
+     4. Adds the DOCX file to Git.
+     5. Commits both files in your _local_ Git repository.
+
+  4. Inspect the results and repeat as necessary.  When the results are satisfactory, 
+     commit them to Github with the local command `push`.
+
+----------------------------------------------------------------------
+How to convert CompIndex-generated.docx into a Google Doc 
+  
+  http://drive.google.com/drive/my-drive > New > FileUpload > [Click on file] - it uploads
+    > Click on filename ["uploaded"] > Click on OpenWith > GoogleDocs
+
+  Then share the file with others in "comment-only" mode
+    Share > GetShareableLink > Anyone with the link "can comment"
+
+  Optional: go to http://tinyurl.com, create URL, give name such as 
+    http://tinyurl.com/ld4pe-competencies-may13
+

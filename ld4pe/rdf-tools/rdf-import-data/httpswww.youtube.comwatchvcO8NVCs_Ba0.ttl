@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=cO8NVCs_Ba0>
+  a schema:CreativeWork ;
+  schema:name "Google Refine 2.0 - Data Transformation (2 of 3) (video version 2)"@en-US ;
+  schema:description "This tutorial shows how Google refine can be used to transform a dataset from one format to another. It also demonstrates how to use facets and filters to isolate subsets of the data and act upon them to clean up the data. Provides a thorough (but fast) rundown of the transform command (which uses GERL expression language to edit whole columns). Shows how to use the templating exporter to convert the data for reuse, as well as how to copy and paste a history of JSON operations from one dataset to reuse them on a similar dataset."@en-US ;
+  schema:dateCreated "2011-07-19T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Google Refine"@en-US, "Open Refine"@en-US, "Raw Data"@en-US, "Data Transformation"@en-US ;
+  schema:publisher "Google Refine"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

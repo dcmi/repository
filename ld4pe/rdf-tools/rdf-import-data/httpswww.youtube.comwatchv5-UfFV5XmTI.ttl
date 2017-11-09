@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=5-UfFV5XmTI>
+  a schema:CreativeWork ;
+  schema:name "Simple SPARQL Tutorial 4/29: Apache Jena Fuseki Server (for Storing/Querying RDF data)"@en-US ;
+  schema:author "Sadawi, Noureddin"@en-US ;
+  schema:description "A tutorial showing how to download and use Fuseki, A SPARQL processor for Apache Jena. Brief and to the point- similar topics continued on next video of series."@en-US ;
+  schema:dateCreated "2014-03-03T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "SPARQL"@en-US, "Query"@en-US, "Fuseki"@en-US, "Apache Jena"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

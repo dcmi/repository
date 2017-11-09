@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.w3.org/TR/xhtml-rdfa-primer/#bib-rdfa-core>
+  a schema:CreativeWork ;
+  schema:name "RDFa 1.1 Primer - Third Edition"@en-US ;
+  schema:author "Herman, Ivan | Adida, Ben | Sporny, Manu | Birbeck, Mark"@en-US ;
+  schema:description "Topic: Generating RDF instance data; Competency: Creates RDFa markup for HTML pages using an RDF schema. The last couple of years have witnessed a fascinating evolution: while the Web was initially built predominantly for human consumption, web content is increasingly consumed by machines which expect some amount of structured data. Sites have started to identify a pages title, content type, and preview image to provide appropriate information in a users newsfeed when she clicks the Like button. Search engines have started to provide richer search results by extracting fine-grained structured details from the Web pages they crawl. In turn, web publishers are producing increasing amounts of structured data within their Web content to improve their standing with search engines. A key enabling technology behind these developments is the ability to add structured data to HTML pages directly. RDFa (Resource Description Framework in Attributes) is a technique that allows just that: it provides a set of markup attributes to augment the visual information on the Web with machine-readable hints. In this Primer, we show how to express data using RDFa in HTML, and in particular how to mark up existing human-readable Web page content to express machine-readable data."@en-US ;
+  schema:dateCreated "2015-03-17T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Schema.org"@en-US, "RDFa"@en-US, "Hypertext Markup Language (HTML)"@en-US, "Validation Service"@en-US, "Controlled Vocabulary"@en-US, "Ontology"@en-US ;
+  schema:publisher "W3C"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

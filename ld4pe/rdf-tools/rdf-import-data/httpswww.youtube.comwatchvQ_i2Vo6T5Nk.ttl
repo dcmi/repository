@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=Q_i2Vo6T5Nk>
+  a schema:CreativeWork ;
+  schema:name "The Rise of Graph Databases/Dataspaces and Their Relations with Linked Data and Ontologies"@en-US ;
+  schema:author "Santanche, Andre"@en-US ;
+  schema:description "Talk presented at Paris LIP6 summarizing some topics of interest in research concerning Graph Databases, Dataspaces, Linked Data and Ontologies."@en-US ;
+  schema:dateCreated "2014-03-26T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Web of Data"@en-US, "Dataset, RDF"@en-US, "Graph"@en-US, "Ontology"@en-US ;
+  schema:publisher "Laboratory of Information Systems- Institute of Computing- UNICAMP"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

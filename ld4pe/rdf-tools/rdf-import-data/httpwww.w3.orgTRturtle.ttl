@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.w3.org/TR/turtle/>
+  a schema:CreativeWork ;
+  schema:name "RDF 1.1 Turtle"@en-US ;
+  schema:author "Beckett, David | Berners-Lee, Tim | Prudhommeaux, Eric | Carothers, Gavin"@en-US ;
+  schema:description "This document defines a textual syntax for RDF called Turtle that allows an RDF graph to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes. Turtle provides levels of compatibility with the N-Triples [N-TRIPLES] format as well as the triple pattern syntax of the SPARQL W3C Recommendation."@en-US ;
+  schema:dateCreated "2014-02-25T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "RDF"@en-US, "Triple"@en-US, "Graph"@en-US, "Dataset, RDF"@en-US, "Internationalized Resource Identifier (IRI)"@en-US, "Vocabulary"@en-US, "Turtle"@en-US, "N-Triples"@en-US, "SPARQL"@en-US, "EXtensible Hypertext Markup Language (XHTML)"@en-US ;
+  schema:publisher "W3C"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

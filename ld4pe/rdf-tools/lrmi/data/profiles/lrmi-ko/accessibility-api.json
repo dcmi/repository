@@ -1,0 +1,57 @@
+[
+    {
+        "label": "안드로이드 접근성",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/AndroidAccessibility",
+        "type" : "uri"
+    },
+    {
+        "label": "ARIA",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/ARIA",
+        "type" : "uri"
+    },
+    {
+        "label": "공격력",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/ATK",
+        "type" : "uri"
+    },
+    {
+        "label": "AT-SPI",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/AT-SPI",
+        "type" : "uri"
+    },
+    {
+        "label": "블랙 베리 접근성",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/BlackberryAccessibility",
+        "type" : "uri"
+    },
+    {
+        "label": "iAccessible2",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/iAccessible2",
+        "type" : "uri"
+    },
+    {
+        "label": "아이폰 OS 접근성",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/iOSAccessibility",
+        "type" : "uri"
+    },
+    {
+        "label": "자바 접근성",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/JavaAccessibility",
+        "type" : "uri"
+    },
+    {
+        "label": "Mac OS X의 접근성",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/MacOSXAccessibility",
+        "type" : "uri"
+    },
+    {
+        "label": "MSAA",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/MSAA",
+        "type" : "uri"
+    },
+    {
+        "label": "UI 자동화",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/UIAutomation",
+        "type" : "uri"
+    }
+]

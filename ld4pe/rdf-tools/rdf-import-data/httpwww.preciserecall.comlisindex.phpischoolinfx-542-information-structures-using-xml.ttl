@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.preciserecall.com/lis/index.php/ischool/infx-542-information-structures-using-xml>
+  a schema:CreativeWork ;
+  schema:name "INFX 542 Information Structures Using XML"@en-US ;
+  schema:description "Course Description: Introduces the concepts and methods used to analyze, store, manage, and present information and navigation. Equal weight given to understanding structures and implementing them. Topics include information analysis and organizational methods as well as XML and metadata concepts and application."@en-US ;
+  schema:about "Metadata"@en-US, "XML (Document markup language)"@en-US ;
+  schema:publisher "Information School, University of Washington"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

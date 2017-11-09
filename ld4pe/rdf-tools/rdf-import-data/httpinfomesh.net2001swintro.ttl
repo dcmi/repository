@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://infomesh.net/2001/swintro/>
+  a schema:CreativeWork ;
+  schema:name "The Semantic Web: An Introduction"@en-US ;
+  schema:author "Palmer, Sean"@en-US ;
+  schema:description "This document is designed as being a simple but comprehensive introductory publication for anybody trying to get into the Semantic Web: from beginners through to long time hackers. Recommended pre-reading: the Semantic Web in Breadth."@en-US ;
+  schema:dateCreated "2001-09-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Semantic Web"@en-US, "RDF"@en-US, "URI"@en-US, "RDF/XML"@en-US, "RDF Schema"@en-US, "Ontology"@en-US, "DAML"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/primarySource> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

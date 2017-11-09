@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/andyseaborne/sparql-11-update?next_slideshow=1>
+  a schema:CreativeWork ;
+  schema:name "SPARQL 1.1"@en-US ;
+  schema:author "Seaborne, Andy"@en-US ;
+  schema:description "An overview of SPARQL including its history, and examples of queries with operators. Also includes brief discussion of Apache Jena (Java Franework for Linked Data applications) and the Fuseki SPARQL server."@en-US ;
+  schema:dateCreated "2013-03-06T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "RDF"@en-US, "Graph"@en-US, "Triple Store"@en-US, "SPARQL"@en-US, "REST"@en-US, "Apache Jena"@en-US, "Fuseki"@en-US ;
+  schema:publisher "Epimorphics LTD"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

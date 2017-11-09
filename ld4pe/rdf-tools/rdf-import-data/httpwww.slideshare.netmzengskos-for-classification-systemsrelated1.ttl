@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/mzeng/skos-for-classification-systems?related=1>
+  a schema:CreativeWork ;
+  schema:name "SKOS for Classification Systems"@en-US ;
+  schema:author "Zeng, Marcia"@en-US ;
+  schema:description "Some challenges and best-practice recommendations for expressing classification systems using SKOS. Topics discussed include nesting, index terms, and class-topic relationships."@en-US ;
+  schema:dateCreated "2010-06-23T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Simple Knowledge Organisation System"@en-US, "Vocabulary"@en-US, "Nested Structure"@en-US, "Index Terms"@en-US, "Class-Topic Relationships"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=yUw-aTOwAw8>
+  a schema:CreativeWork ;
+  schema:name "XML Tutorial for beginners video"@en-US ;
+  schema:author "Portnov Computer School"@en-US ;
+  schema:description "Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The design goals of XML emphasize simplicity, generality, and usability over the Internet. It is a textual data format with strong support via Unicode for the languages of the world. Although the design of XML focuses on documents, it is widely used for the representation of arbitrary data structures, for example in web services."@en-US ;
+  schema:dateCreated "2012-10-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "EXtensible Markup Language (XML)"@en-US, "Tags"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

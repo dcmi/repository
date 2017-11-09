@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=UCCRGepxJ0Y>
+  a schema:CreativeWork ;
+  schema:name "Linked Data, Life Sciences, and RDF Stores - Exploration and Demonstration"@en-US ;
+  schema:author "Aasman, Jan"@en-US ;
+  schema:description "There is an explosion of linked RDF datasets in the life sciences domain. A typical RDF dataset published on the web is about one particular domain and contains an ontology of the data it contains, a set of instances, and possibly some explicit owl:sameas relations to other instances in other datasets. In practice, the exploration of these data sources is far from trivial. The domain expert has to study each dataset to discover what classes, including properties of each class, it contains. Unfortunately not all datasets come with full ontologies that make this easy. Most interesting problems require one to combine a large number of these datasets and then create queries and analysis programs that touch multiple sources. This seminar discusses techniques for exploring linked datasets that lack even simple class descriptions, datasets that do contain at least rdf:types, then how to use existing ontologies and the output from these techniques to create an enriched schema space for data mining. We graphically visualize the results of SPARQL queries on this dataset that are currently impossible with regular search engines and do some interesting discovery in ways that are currently impossible without Semantic Technology."@en-US ;
+  schema:dateCreated "2013-01-24T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Dataset, RDF"@en-US, "RDF"@en-US, "Ontology"@en-US, "SPARQL"@en-US, "Query"@en-US, "Data Visualization"@en-US ;
+  schema:publisher "AllegroGraph"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

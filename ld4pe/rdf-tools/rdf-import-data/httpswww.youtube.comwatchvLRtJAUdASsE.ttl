@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=LRtJAUdASsE>
+  a schema:CreativeWork ;
+  schema:name "Introducing Turtled"@en-US ;
+  schema:author "Hausenblas, Michael"@en-US ;
+  schema:description "A brief screencast about Turtled, a simple online RDF Turtle editor that allows you to render an RDF graph visually, restrict to sub-graphs via SPARQL and to export the visualisation as SVG. Note: Speaker is a little difficult to understand."@en-US ;
+  schema:dateCreated "2012-07-30T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Turtle"@en-US, "RDF"@en-US, "Triple"@en-US, "Graph"@en-US, "SPARQL"@en-US, "Query"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

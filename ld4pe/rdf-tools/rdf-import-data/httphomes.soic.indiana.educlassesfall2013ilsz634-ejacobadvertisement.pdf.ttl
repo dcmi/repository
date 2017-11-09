@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://homes.soic.indiana.edu/classes/fall2013/ils/z634-ejacob/advertisement.pdf>
+  a schema:CreativeWork ;
+  schema:name "Z634 : Metadata"@en-US ;
+  schema:author "Jacob, Elin"@en-US ;
+  schema:description "Metadata can be used to facilitate resource discovery, to document the contents of databases, and to track the resources in a collection. Given the increasing number of schemes available for representing resources, effective development and application of metadata requires familiarity with the fundamental principles and structural models of metadata as well as particular schemes developed both for specific communities of resource users and for specific collections of resources. It is important for information professionals to appreciate the role of metadata in the administration of digital resources, in the provision of security, in the process of data mining, and in e-commerce. This course is intended to introduce students to principles underlying the development and implementation of metadata schemes; to issues of interoperability, standardization, and the evaluation of metadata schemes; and to the role of metadata registries and crosswalks. The class is designed to provide extensive opportunities for hands-on application of metadata principles and practices in the development, implementation and evaluation of metadata records."@en-US ;
+  schema:about "Metadata"@en-US, "XML (Document markup language)"@en-US, "RDF (Document markup language)"@en-US ;
+  schema:publisher "SOiC, Indiana University"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T22:06:11+02:00"^^dcterms:W3CDTF .
+

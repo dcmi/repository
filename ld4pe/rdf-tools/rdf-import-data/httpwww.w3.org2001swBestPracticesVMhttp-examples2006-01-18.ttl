@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.w3.org/2001/sw/BestPractices/VM/http-examples/2006-01-18/>
+  a schema:CreativeWork ;
+  schema:name "Best Practice Recipes for Publishing RDF Vocabularies"@en-US ;
+  schema:author "Miles, Alistair | Baker, Thomas | Swick, Ralph"@en-US ;
+  schema:description "Topic Publishing RDF: Competency: Determines whether to use hash (#) or slash (/). This document describes best practice recipes for publishing an RDFS or OWL vocabulary or ontology on the Web. The features of each recipe are clearly described, so that vocabulary or ontology creators may choose the recipe best suited to the needs of their particular situations. Each recipe contains an example configuration for use with an Apache HTTP server, although the principles involved may be adapted to other environments. The recipes are all designed to be consistent with the architecture of the Web as currently specified."@en-US ;
+  schema:dateCreated "2006-12-18T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "RDF"@en-US, "RDF/XML"@en-US, "Web Ontology Language (OWL)"@en-US, "HTTP URIs"@en-US, "PURL"@en-US, "Apache License"@en-US ;
+  schema:publisher "W3C"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

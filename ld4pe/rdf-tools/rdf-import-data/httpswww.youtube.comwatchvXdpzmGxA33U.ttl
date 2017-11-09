@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=XdpzmGxA33U>
+  a schema:CreativeWork ;
+  schema:name "From Excel file to RDF with links to DBpedia and Europeana"@en-US ;
+  schema:author "Dabrowska, Anna"@en-US ;
+  schema:description "A step-by-step walk-through showing how to transform Excel tables to RDF data and then link it to external data sources. Google Refine is used for the transformation process. The aim is to show how to build a basic RDF structure, link particular tables and explain the reconciliation process. The data is linked to DBpedia and Europeana SPARQL endpoints. Note: Not for Linked Data novices; presenter moves VERY fast."@en-US ;
+  schema:dateCreated "2012-10-23T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "RDF"@en-US, "Triple"@en-US, "Google Refine"@en-US ;
+  schema:publisher "Digital Enterprise Research Institute (DERI)"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/EUCLIDproject/interaction-with-linked-data?related=2>
+  a schema:CreativeWork ;
+  schema:name "Interaction with Linked Data"@en-US ;
+  schema:author "Norton, Barry | Meier, Michael"@en-US ;
+  schema:description "This presentation focuses on providing means for exploring Linked Data. In particular, it gives an overview of current visualization tools and techniques, looking at semantic browsers and applications for presenting the data to the end used. We also describe existing search options, including faceted search, concept-based search and hybrid search, based on a mix of using semantic information and text processing. Finally, we conclude with approaches for Linked Data analysis, describing how available data can be synthesized and processed in order to draw conclusions."@en-US ;
+  schema:dateCreated "2013-06-16T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Linked Open Data"@en-US, "Linked Open Data Cloud"@en-US, "Data visualization"@en-US, "SPARQL"@en-US, "Semantic Search"@en-US ;
+  schema:publisher "EUCLID Project"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

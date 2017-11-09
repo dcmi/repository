@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.cambridgesemantics.com/semantic-university/rdf-nuts-bolts>
+  a schema:CreativeWork ;
+  schema:name "RDF Nuts & Bolts"@en-US ;
+  schema:description "Topic: RDF data model; Competency: Understands the distinction between the RDF data model and its various serializations; Competency: Understand and use RDFS in defining and interpreting RDF vocabularies; Topic: Creating a new RDF vocabularies; Competency: Understands the role of RDFS and uses it in defining new RDF vocabularies; Competency: Follows naming conventions in coining new terms (properties & classes). In this lesson you will learn: 1) The different RDF serializations; 2) How to read and write real RDF; 3) Some common RDF vocabularies to use when getting started; 4) What to look for in a triple store."@en-US ;
+  schema:about "RDF"@en-US, "RDF/XML"@en-US, "RDFa"@en-US, "Turtle"@en-US, "N-Triples"@en-US, "N3"@en-US, "TriG"@en-US, "Triple Store"@en-US, "Named Graphs"@en-US, "RDF Schema"@en-US, "Vocabulary"@en-US, "Namespace"@en-US, "Predicate"@en-US ;
+  schema:publisher "Cambridge Semantics"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

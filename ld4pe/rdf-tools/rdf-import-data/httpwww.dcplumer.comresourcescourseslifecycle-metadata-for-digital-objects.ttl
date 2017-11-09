@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.dcplumer.com/resources/courses/lifecycle-metadata-for-digital-objects/>
+  a schema:CreativeWork ;
+  schema:name "Lifecycle Metadata for Digital Objects"@en-US ;
+  schema:author "Plumer, Danielle"@en-US ;
+  schema:description "This course will focus upon using metadata in a digital archives environment. ?Using? includes not only creating descriptive metadata about digital objects and collections but also identifying, extracting, authenticating, normalizing, and preserving metadata included in or associated with the digital object in order to construct the ?metadata continuum??all elements of metadata collected about a digital object or generated as part of it during its lifetime?in order to understand how metadata may function as an authenticating wrapper for digital objects (including electronic records, digital artworks, digitized images, etc.). To this end we will review concepts including authenticity and provenance as an introduction to working through the full range of metadata that a digital object might have when managed in various environments and for various purposes. Elements of the continuum that will be taken up and analyzed include records surveys and inventories, creation metadata, active management metadata, records schedules, accession metadata, cataloging and description metadata, maintenance and preservation metadata, digital rights management metadata, and usage metadata. Students will be exposed to major metadata initiatives, both within and without the library/archives/museum fields, and will be invited to speculate about the future of metadata in archival and other environments."@en-US ;
+  schema:dateCreated "2014-01-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Metadata"@en-US, "Digital preservation"@en-US, "Semantic web"@en-US ;
+  schema:publisher "School of Information, University of Texas at Austin"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

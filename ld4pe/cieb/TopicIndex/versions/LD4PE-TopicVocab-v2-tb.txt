@@ -1,0 +1,46 @@
+Proposal for a revised Vocabulary (Tom Baker)
+
+Fundamentals of Resource Description Framework
+    Identity in RDF
+    RDF data model
+    Related data models
+    RDF mindset
+    RDF serialization
+
+Fundamentals of Linked Data
+    Web technology
+    Linked data principles
+    Linked Data policies and best practices
+
+RDF vocabularies - new
+    Finding RDF vocabularies
+    Maintaining RDF vocabularies
+    Versioning RDF vocabularies
+    Publishing RDF vocabularies
+    Mapping RDF vocabularies
+
+Creating and transforming Linked Data
+    Creating RDF data
+    Versioning RDF data
+    Models for data provenance
+    Cleaning, reconciling, and enriching data
+    Mapping RDF data
+    Application profiles
+    RDF data shapes
+
+Interacting with Linked Data
+    Programming languages for Linked Data
+    Managing Linked Data
+    Managing Identifiers (URIs)
+    Querying Linked Data
+    Visualizing Linked Data
+    Reasoning over RDF
+    Assessing data quality
+    Linked Data analytics
+
+Creating Linked Data applications
+    Storing RDF data
+    Linked Data application architecture
+    Linked Data mashups
+    Web APIs for Linked Data
+    RESTful architectures and services

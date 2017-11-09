@@ -1,0 +1,27 @@
+[
+    {
+        "label": "Fundamental Awareness",
+        "value": "http://purl.org/dcx/ld4pe-vocabs/proficiencyLevel/fundamentalAwareness",
+        "type": "uri"
+    },
+    {
+        "label": "Novice",
+        "value": "http://purl.org/dcx/ld4pe-vocabs/proficiencyLevel/novice",
+        "type": "uri"
+    },
+    {
+        "label": "Intermediate",
+        "value": "http://purl.org/dcx/ld4pe-vocabs/proficiencyLevel/intermediate",
+        "type": "uri"
+    },
+    {
+        "label": "Advanced",
+        "value": "http://purl.org/dcx/ld4pe-vocabs/proficiencyLevel/advanced",
+        "type": "uri"
+    },
+    {
+        "label": "Expert",
+        "value": "http://purl.org/dcx/ld4pe-vocabs/proficiencyLevel/expert",
+        "type": "uri"
+    }
+]

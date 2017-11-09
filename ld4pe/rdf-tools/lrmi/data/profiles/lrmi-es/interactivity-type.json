@@ -1,0 +1,17 @@
+[
+    {
+        "label": "Activo",
+        "value": "http://purl.org/dcx/lrmi-vocabs/InteractivityType/active",
+        "type" : "uri"
+    },
+    {
+        "label": "Expositivo",
+        "value": "http://purl.org/dcx/lrmi-vocabs/interactivityType/expositive",
+        "type" : "uri"
+    },
+    {
+        "label": "Mixto",
+        "value": "http://purl.org/dcx/lrmi-vocabs/interactivityType/mixed",
+        "type" : "uri"
+    }
+]

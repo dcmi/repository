@@ -1,0 +1,20 @@
+<div class="form-group">
+  <label class="col-xs-3 col-md-2 control-label">
+    <span translate>{{label}}</span><br/>
+    <a href="#" editable-select="item.lang" e-ng-options="l.value as l.value for l in languages" buttons="no">
+      {{ item.lang || 'load.static.NOTSET' | translate}}:
+    </a>
+  </label>
+  <div class="col-xs-7 col-md-9">
+    <input class="form-control" ng-model="item.value" />
+    <span ng-show="index == 0 && definition == 'true'" class="help-block" translate>{{helpText}}</span>
+  </div>
+  <div class="col-xs-2 col-md-1">
+    <button ng-show="index == 0" type="button" class="btn btn-link btn-xs" ng-click="addLiteral()">
+      <i class="fa fa-plus fa-lg green"></i>
+    </button>
+    <button ng-show="index != 0" type="button" class="btn btn-link btn-xs" ng-click="removeLiteral(index)">
+      <i class="fa fa-times fa-lg red"></i>
+    </button>
+  </div>
+</div>

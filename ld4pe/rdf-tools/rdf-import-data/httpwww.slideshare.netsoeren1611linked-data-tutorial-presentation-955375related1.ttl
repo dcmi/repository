@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/soeren1611/linked-data-tutorial-presentation-955375?related=1>
+  a schema:CreativeWork ;
+  schema:name "Linked Data Tutorial"@en-US ;
+  schema:author "Auer, Soren"@en-US ;
+  schema:description "This tutorial explains the Data Web vision, some preliminary standards and technologies as well as some tools and technological building blocks developed by AKSW research group from Universitat Leipzig. Note: This is a very comprehensive overview."@en-US ;
+  schema:dateCreated "2009-01-26T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Web of Data"@en-US, "RDF"@en-US, "Ontology"@en-US, "RDF Schema"@en-US, "Query"@en-US, "SPARQL"@en-US, "SPARQL Endpoint"@en-US, "DBpedia"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

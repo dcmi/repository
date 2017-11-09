@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://chrismaloney.org/notes_s/JHU,%20Summer%202013%20-%20Semantic%20Web_/NCBIRDFURIStandards.pdf>
+  a schema:CreativeWork ;
+  schema:name "NCBI RDF URI Standards"@en-US ;
+  schema:author "Maloney, Chris"@en-US ;
+  schema:description "Topic: Publishing RDF; Competency: Determines whether to use hash (#) or slash (/). This document describes standards for NCBI-minted persistent URIs that identify RDF resources. The goals of this document include: Provide guidance to help projects get started publishing data on the Semantic Web; Provide standards and recommendations for the forms that the published RDF URIs should take; Provide distributed authority and control, that allows for groups/projects to mint their own identifiers, by providing namespaces; Specify a centralized system for handling HTTP requests to RDF URIs, in accordance with current best practices (e.g. HTTP 303 redirects)"@en-US ;
+  schema:about "RDF"@en-US, "HTTP URIs"@en-US ;
+  schema:publisher "National Center for Biotechnology Information"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

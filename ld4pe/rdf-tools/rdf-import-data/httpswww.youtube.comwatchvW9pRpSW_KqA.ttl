@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=W9pRpSW_KqA>
+  a schema:CreativeWork ;
+  schema:name "Build a Small Knowledge Graph Part 1 of 3: Creating and Processing Linked Data"@en-US ;
+  schema:author "Wilkiewicz, Jarek | Simister, Shawn"@en-US ;
+  schema:description "This is the first video in a 3-part series. This video introduces the user to the reference architecture for support of Schema.org Actions in the context of a specific use case (a music store). The video then then focuses on exposing entities using Schema.org markup with JSON-LD."@en-US ;
+  schema:dateCreated "2014-06-25T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Knowledge Graph"@en-US, "Schema.org"@en-US, "JSON-LD"@en-US ;
+  schema:publisher "Google Developers"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

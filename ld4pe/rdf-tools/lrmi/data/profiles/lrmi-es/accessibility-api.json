@@ -1,0 +1,57 @@
+[
+    {
+        "label": "Android Accessibility",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/AndroidAccessibility",
+        "type" : "uri"
+    },
+    {
+        "label": "ARIA",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/ARIA",
+        "type" : "uri"
+    },
+    {
+        "label": "ATK",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/ATK",
+        "type" : "uri"
+    },
+    {
+        "label": "AT-SPI",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/AT-SPI",
+        "type" : "uri"
+    },
+    {
+        "label": "Blackberry Accessibility",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/BlackberryAccessibility",
+        "type" : "uri"
+    },
+    {
+        "label": "iAccessible2",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/iAccessible2",
+        "type" : "uri"
+    },
+    {
+        "label": "iOS Accessibility",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/iOSAccessibility",
+        "type" : "uri"
+    },
+    {
+        "label": "Java Accessibility",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/JavaAccessibility",
+        "type" : "uri"
+    },
+    {
+        "label": "Mac OSX Accessibility",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/MacOSXAccessibility",
+        "type" : "uri"
+    },
+    {
+        "label": "MSAA",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/MSAA",
+        "type" : "uri"
+    },
+    {
+        "label": "UI Automation",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/UIAutomation",
+        "type" : "uri"
+    }
+]

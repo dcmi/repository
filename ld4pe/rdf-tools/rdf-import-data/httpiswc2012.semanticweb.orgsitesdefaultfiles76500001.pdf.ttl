@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://iswc2012.semanticweb.org/sites/default/files/76500001.pdf>
+  a schema:CreativeWork ;
+  schema:name "Managing the Life-Cycle of Linked Data with the LOD2 Stack"@en-US ;
+  schema:author "Auer, Soren | Buhmann, Lorenz | Dirschl, Christian | Erling, Orri"@en-US ;
+  schema:description "Topic Cluster: RDF & Linked Data fundamentals; Topic: Lifecycle of Linked Data. The LOD2 Stack is an integrated distribution of aligned tools which support the whole life cycle of Linked Data from extraction, authoring/creation via enrichment, interlinking, fusing to maintenance. The LOD2 Stack comprises new and substantially extended existing tools from the LOD2 project partners and third parties. The stack is designed to be versatile; for all functionality we define clear interfaces, which enable the plugging in of alternative third-party implementations. The architecture of the LOD2 Stack is based on three pillars: (1) Software integration and deployment using the Debian packaging system. (2) Use of a central SPARQL endpoint and standardized vocabularies for knowledge base access and integration between the different tools of the LOD2 Stack. (3) Integration of the LOD2 Stack user interfaces based on REST enabled Web Applications. These three pillars comprise the methodological and technological framework for integrating the very heterogeneous LOD2 Stack components into a consistent framework. In this article we describe these pillars in more detail and give an overview of the individual LOD2 Stack components. The article also includes a description of a real-world usage scenario in the publishing domain."@en-US ;
+  schema:about "Linked Data"@en-US, "Linked Open Data"@en-US, "RDF"@en-US, "SPARQL"@en-US, "REST"@en-US ;
+  schema:publisher "LOD2 Project"@en-US, "Universitat Leipzig"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

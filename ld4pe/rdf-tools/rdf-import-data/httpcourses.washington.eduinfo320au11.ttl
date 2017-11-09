@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://courses.washington.edu/info320/au11/>
+  a schema:CreativeWork ;
+  schema:name "INFO320 Information Needs, Searching, and Presentation"@en-US ;
+  schema:author "Jones, William"@en-US ;
+  schema:description "We already all know something about Search. After the course, you should know more. Specifically you should know more about: Search in all its many variations ? in and outside the search \"box\". The different search strategies and techniques. Choosing the right sources to search. Perspectives on search including those of the end user, search service providers, content providers and IT implementers of search. How search works. How is an index built? How are queries processed? Needs assessment and search evaluation. Note: Search is a very large area. From necessity, INFO 320 favors breadth over depth. You will have the opportunity to delve more deeply into sub-areas of search that interest you through your team project, your individual presentation and your weekly readings and discussion."@en-US ;
+  schema:about "Indexing"@en-US, "Searching behavior"@en-US ;
+  schema:publisher "Information School, University of Washington"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

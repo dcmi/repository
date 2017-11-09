@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=gbZOluoM0Vo>
+  a schema:CreativeWork ;
+  schema:name "Challenges with Linked Data in Libraries"@en-US ;
+  schema:author "Moulaison, Heather"@en-US ;
+  schema:description "The benefits that linked data represents are incontestable: making relationships in metadata explicit, using web--friendly markup, and liberating libraries from their current data silos are all part of the appeal. Integrating library data onto the semantic web is imminent, but what are some of the obstacles that libraries will have to overcome? Linked data standards, multiple URIs, sophisticated query language issues, and the challenge of navigating a different set of data silos all will require libraries to re-think their approach as we move toward linked data."@en-US ;
+  schema:dateCreated "2013-12-20T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "HTTP URIs"@en-US, "SPARQL"@en-US, "Query"@en-US ;
+  schema:publisher "ALCTS"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

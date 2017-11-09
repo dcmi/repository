@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=s-ZOlY8-3qA>
+  a schema:CreativeWork ;
+  schema:name "Linked Data: El protocolo para implementar la Web Semantica"@en-US ;
+  schema:author "INVDESCiencia"@en-US ;
+  schema:description "La web 3.0 conocida tambien como web semantica, permite que los ordenadores extraigan el significado y contexto de cada fotografia, texto, audio, video, archivo o conjunto de datos existentes en la red."@en-US ;
+  schema:dateCreated "2012-12-20T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Semantic Web"@en-US, "Web 3.0"@en-US, "Linked Data"@en-US, "Linked Data Principles"@en-US, "RDF"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,53 @@
+Fundamentals of Linked Data
+    Background technologies
+    Comparative data models
+    Linked data principles
+    Background standards
+    Chosing vocabularies to describe data
+    Perspectives and habits of mind
+    Policies and best practices
+    Existing public vocabularies
+    RDF data model
+
+Providing Linked Data
+    Cleaning, reconciling, and enriching data
+    Creating RDF data
+    Linked Data lifecycle
+    Creating an RDF vocabulary
+    Recipes for publishing
+    Tools for creating RDF data
+    Interlinking RDF data
+    Tools for creating RDF vocabularies
+
+Consuming Linked Data
+    Linked Data mashup development
+    Vocabulary mapping
+    Accessing the Web of data
+    Identity resolution
+    Data quality assessment
+    Provenance tracking
+
+Interacting with Linked Data
+    Searching for vocabularies
+    Searching RDF datastores with SPARQL
+    Visualization tools and techniques
+    Searching for RDF documents
+    NoSQL solutions for RDF data
+    Reasoning over RDF
+    Creating and managing RDF data with SPARQL
+    Methods for Linked Data analysis
+
+Creating Linked Data applications
+    Client-server architecture
+    Web API technology
+    Linked Data application architecture
+    RESTful architectures and services
+    Well-known Web APIs
+    Creating the user interface
+    Constructing a mashup
+
+Scaling-up RDF and Linked Data
+    Scaling storage for Linked Data
+    Big Linked Data
+    RDF stream processing
+    Scaling reasoning for Linked Data

@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=vUBTd8WZZ5A>
+  a schema:CreativeWork ;
+  schema:name "An Introduction to Linked Open Data in Libraries, Archives & Museums"@en-US ;
+  schema:author "Voss, Jon"@en-US ;
+  schema:description "This lecture explores the enormous implications of Linked Data for discoverability and interoperability for libraries, archives, and museums, not to mention a dramatic shift in the World Wide Web as we know it. Jon Voss explains the fundamental elements of Linked Open Data and the role LAMs (and their vast store of metadata) can play in opening exciting new possibilities for understanding our past, and may help in predicting our future."@en-US ;
+  schema:dateCreated "2011-09-16T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Metadata"@en-US, "LAMs"@en-US, "Cultural heritage"@en-US, "Digital humanities"@en-US ;
+  schema:publisher "Smithsonian"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=OagzNpDEPJg>
+  a schema:CreativeWork ;
+  schema:name "Linked Data life cycles - Part 3"@en-US ;
+  schema:author "Hausenblas, Michael"@en-US ;
+  schema:description "Part 3 of 3. Existing data management approaches assume control over schema, data and data generation, which is not the case in open, decentralized environments such as the Web. The lack of control means that there are social processes necessary to generate order out of chaos, and hence a new life cycle model is necessary. Based on our experience in Linked Data publishing and consumption over the past years, we have identify involved parties and fundamental phases, which provide for a multitude of so called Linked Data life cycles."@en-US ;
+  schema:dateCreated "2011-07-27T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "5 Star Linked Open Data"@en-US, "VoID"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

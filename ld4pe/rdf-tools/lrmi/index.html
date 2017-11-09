@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" ng-app="resourceApp" ng-strict-di>
+  <head>
+    <title ng-bind="'LRMI Editor #' + $state.current.name"></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap-3.3.2.min.css">
+    <!-- angularjs in the header -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css">
+    <!-- xeditable -->
+    <link rel="stylesheet" href="bower_components/angular-xeditable/dist/css/xeditable.css">
+    <!-- loading-bar -->
+    <link rel="stylesheet" href="bower_components/angular-loading-bar/build/loading-bar.min.css">
+    <!-- angu-complete -->
+    <link rel="stylesheet" href="bower_components/angucomplete-alt/angucomplete-alt.css">
+    <!-- app -->
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body ng-cloak translate-cloak>
+    <header class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-3" ng-click="isCollapsed = !isCollapsed">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand visible=xs" ui-sref="home"><span app-project></span></a>
+          </div>
+          <nav class="hidden-xs">
+            <ul class="nav navbar-nav">
+              <li ng-class="{ active: $state.includes('getting-started') }"><a ui-sref="getting-started"><span translate>load.static.NAV_CONFIGURE</span></a></li>
+              <li ng-class="{ active: $state.includes('resource') }"><a ui-sref="resource"><span translate>load.static.NAV_RESOURCE</span></a></li>
+              <li ng-class="{ active: $state.includes('view-records') }"><a ui-sref="view-records"><span translate>load.static.NAV_VIEWRECORDS</span></a></li>
+            </ul>
+          </nav>
+          <nav class="visible-xs" collapse="!isCollapsed">
+            <ul class="nav navbar-nav">
+              <li><a ng-click="isCollapsed = !isCollapsed" ui-sref="getting-started"><span translate>load.static.NAV_CONFIGURE</span></a></li>
+              <li><a ng-click="isCollapsed = !isCollapsed" ui-sref="resource"><span translate>load.static.NAV_RESOURCE</span></a></li>
+              <li><a ng-click="isCollapsed = !isCollapsed" ui-sref="view-records"><span translate>load.static.NAV_VIEWRECORDS</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="starter-template">
+        <div ui-view></div>
+      </div>
+      <hr/>
+      <div class="pull-right footer">
+        v<span app-version></span>
+      </div>
+    </div>
+    <!-- dependencies -->
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="bower_components/angular-translate/angular-translate.min.js"></script>
+    <script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+    <script src="bower_components/angular-dynamic-locale/tmhDynamicLocale.min.js"></script>
+    <script src="bower_components/file-saver/FileSaver.min.js"></script>
+    <script src="bower_components/angular-xeditable/dist/js/xeditable.min.js"></script>
+    <script src="bower_components/angular-checklist-model/checklist-model.js"></script>
+    <script src="bower_components/angular-loading-bar/build/loading-bar.min.js"></script>
+    <script src="bower_components/angucomplete-alt/dist/angucomplete-alt.min.js"></script>
+    <!-- app -->
+    <script src="js/app.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/factories.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/directives.js"></script>
+    <script src="js/ui-bootstrap-tpls-0.9.0.min.js"></script>
+  </body>
+</html>

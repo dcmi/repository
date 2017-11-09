@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://jena.apache.org/tutorials/sparql_filters.html>
+  a schema:CreativeWork ;
+  schema:name "SPARQL Tutorial: Filters"@en-US ;
+  schema:description "This brief, text-based tutorial discusses how Graph matching allows patterns in a graph to be found. This section describes how the values in a solution can be restricted, and covers two such cases (String Matching and Testing Values). String Matching: SPARQL provides an operation to test strings, based on regular expressions and using XQuery language. Testing Values: There are times when the application wants to filter on the value of a variable, using parenthetical arithmetic expressions."@en-US ;
+  schema:about "RDF"@en-US, "Graph"@en-US, "Triple"@en-US, "VCard"@en-US, "SPARQL"@en-US, "Query"@en-US, "Apache Jena"@en-US, "ARQ"@en-US, "XQuery"@en-US ;
+  schema:publisher "The Apache Software Foundation"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

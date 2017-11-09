@@ -1,0 +1,147 @@
+[
+    {
+        "label": "Alternative Text",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/alternativeText",
+        "type" : "uri"
+    },
+    {
+        "label": "Annotations",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/annotations",
+        "type" : "uri"
+    },
+    {
+        "label": "Audio Description",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/audioDescription",
+        "type" : "uri"
+    },
+    {
+        "label": "Book Marks",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/bookMarks",
+        "type" : "uri"
+    },
+    {
+        "label": "Braille",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/braille",
+        "type" : "uri"
+    },
+    {
+        "label": "Captions",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/captions",
+        "type" : "uri"
+    },
+    {
+        "label": "Chemical Markup Language",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/ChemML",
+        "type" : "uri"
+    },
+    {
+        "label": "Described Math",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/describedMath",
+        "type" : "uri"
+    },
+    {
+        "label": "Display Transformability",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/displayTransformability",
+        "type" : "uri"
+    },
+    {
+        "label": "High Contrast Audio",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/highContrastAudio",
+        "type" : "uri"
+    },
+    {
+        "label": "High Contract Display",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/highContrastDisplay",
+        "type" : "uri"
+    },
+    {
+        "label": "Index",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/index",
+        "type" : "uri"
+    },
+    {
+        "label": "Large Print",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/largePrint",
+        "type" : "uri"
+    },
+    {
+        "label": "Latex",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/latex",
+        "type" : "uri"
+    },
+    {
+        "label": "Long Description",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/longDescription",
+        "type" : "uri"
+    },
+    {
+        "label": "Math ML",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/MathML",
+        "type" : "uri"
+    },
+    {
+        "label": "None",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/none",
+        "type" : "uri"
+    },
+    {
+        "label": "Print Page Number",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/printPageNumbers",
+        "type" : "uri"
+    },
+    {
+        "label": "Reading Order",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/readingOrder",
+        "type" : "uri"
+    },
+    {
+        "label": "Sign Language",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/signLanguage",
+        "type" : "uri"
+    },
+    {
+        "label": "Structural Navigation",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/structuralNavigation",
+        "type" : "uri"
+    },
+    {
+        "label": "Table of Contents",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/tableOfContents",
+        "type" : "uri"
+    },
+    {
+        "label": "Tactile Graphic",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/tactileGraphic",
+        "type" : "uri"
+    },
+    {
+        "label": "Tactile Object",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/tactileObject",
+        "type" : "uri"
+    },
+    {
+        "label": "Tagged PDF",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/taggedPDF",
+        "type" : "uri"
+    },
+    {
+        "label": "Timing Control",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/timingControl",
+        "type" : "uri"
+    },
+    {
+        "label": "Transcript",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/transcript",
+        "type" : "uri"
+    },
+    {
+        "label": "TTS Markup",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/ttsMarkup",
+        "type" : "uri"
+    },
+    {
+        "label": "Unlocked",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/unlocked",
+        "type" : "uri"
+    }
+]

@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=MODcGNe2MFo>
+  a schema:CreativeWork ;
+  schema:name "Linked Data at The New York Times: The First 161 Years"@en-US ;
+  schema:author "Sandhaus, Evan"@en-US ;
+  schema:description "The New York Times committment to Linked Data began over 160 years ago. Starting in 1851, The New York Times has always catalogued its archival articles using a controlled vocabulary of people, places, organizations and descriptors. In 2009 The New York Times started publishing this vocabulary as linked data using semantic web standards. In 2011 The Times announced the launch of several RESTful Semantic APIs. And in late 2012 and early 2013, The Times will migrate its entire process for vocabulary management to a system designed around the principles of Linked Data. In my remarks, I will survey the history of Semantic publishing at The New York Times, outline our semantic strategy, detail the business-case for linked data at The Times and provide an in-depth explanation of our new vocabulary management system."@en-US ;
+  schema:dateCreated "2012-12-11T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Semantic Web"@en-US, "Controlled Vocabulary"@en-US, "REST API"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

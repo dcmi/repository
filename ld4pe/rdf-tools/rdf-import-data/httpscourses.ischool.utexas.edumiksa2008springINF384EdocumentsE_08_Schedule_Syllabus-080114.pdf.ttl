@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://courses.ischool.utexas.edu/miksa/2008/spring/INF384E/documents/E_08_Schedule_Syllabus-080114.pdf>
+  a schema:CreativeWork ;
+  schema:name "INF 384E - Descriptive Cataloging and Metadata"@en-US ;
+  schema:author "Miksa, Francis"@en-US ;
+  schema:dateCreated "2008-01-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Cataloging"@en-US, "Metadata"@en-US ;
+  schema:publisher "School of Information, University of Texas at Austin"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

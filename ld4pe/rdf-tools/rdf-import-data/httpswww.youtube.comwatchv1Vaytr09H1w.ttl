@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=1Vaytr09H1w>
+  a schema:CreativeWork ;
+  schema:name "Publishing Data from the Smithsonian American Art Museum as Linked Open Data"@en-US ;
+  schema:author "Szekely, Pedro"@en-US ;
+  schema:description "Museums around the world have built databases with meta-data about millions of objects, their history, the people who created them, and the entities they represent. This data is stored in proprietary databases and is not readily available for use. Recently, museums embraced the Semantic Web as a means to make this data available to the world, but the experience so far shows that publishing museum data to the linked data cloud is difficult: the databases are large and complex, the information is richly structured and varies from museum to museum, and it is difficult to link the data to other datasets. We have been collaborating with the Smithsonian American Art Museum to create a set of tools that allow museums and other cultural heritage institutions to publish their data as Linked Open Data. In this demonstration a speaker from the University of Southern California Information Institute and Department of Computer Science will show the end-to-end process of starting with the original source data, modeling the data with respect to an ontology of cultural heritage data, linking the data to DBpedia, and then publishing the information as Linked Open Data."@en-US ;
+  schema:dateCreated "2013-07-24T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Semantic Web"@en-US, "Linked Open Data"@en-US, "Linked Open Data Cloud"@en-US, "DBpedia"@en-US, "Ontology"@en-US, "Dataset, RDF"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/OpenDataSupport/model-your-data-metadata>
+  a schema:CreativeWork ;
+  schema:name "Designing and Developing Vocabularies in RDF"@en-US ;
+  schema:author "De Keyzer, Michiel | Loutas, Nikolaos | Colas, Christophe | Goedertier, Stijn"@en-US ;
+  schema:description "Topic Cluster: Creating, publishing and manipulating RDF; Topic: Creating a new RDF vocabularies; Competency: Understands the role of RDFS and uses it in defining new RDF vocabularies; Competency: Follows naming conventions in coining new terms (properties & classes); Competency: Creates new terms (properties & classes) following commonly agreed upon conventions and best practices. By the end of this training module you should have an understanding of: What the best practices are for creating an RDF vocabulary for modelling your data; Where to find RDF vocabularies for reuse; How you can create your own RDF vocabulary; How to create new classes and properties in RDF; How to publish your RDF vocabulary; The process and methodology for developing semantic agreements developed by the ISA Programme of the European Commission."@en-US ;
+  schema:dateCreated "2013-06-06T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "RDF"@en-US, "RDF Schema"@en-US, "Controlled Vocabulary"@en-US, "Ontology"@en-US, "Classes"@en-US, "Properties"@en-US ;
+  schema:publisher "Open Data Support"@en-US, "PwC"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,147 @@
+[
+    {
+        "label": "대체 텍스트",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/alternativeText",
+        "type" : "uri"
+    },
+    {
+        "label": "주석",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/annotations",
+        "type" : "uri"
+    },
+    {
+        "label": "오디오 설명",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/audioDescription",
+        "type" : "uri"
+    },
+    {
+        "label": "즐겨 찾기",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/bookMarks",
+        "type" : "uri"
+    },
+    {
+        "label": "점자",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/braille",
+        "type" : "uri"
+    },
+    {
+        "label": "캡션",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/captions",
+        "type" : "uri"
+    },
+    {
+        "label": "화학 마크 업 언어",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/ChemML",
+        "type" : "uri"
+    },
+    {
+        "label": "설명 된 수학",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/describedMath",
+        "type" : "uri"
+    },
+    {
+        "label": "디스플레이 Transformability",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/displayTransformability",
+        "type" : "uri"
+    },
+    {
+        "label": "고 대비 오디오",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/highContrastAudio",
+        "type" : "uri"
+    },
+    {
+        "label": "높은 계약 디스플레이",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/highContrastDisplay",
+        "type" : "uri"
+    },
+    {
+        "label": "색인",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/index",
+        "type" : "uri"
+    },
+    {
+        "label": "대형 인쇄",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/largePrint",
+        "type" : "uri"
+    },
+    {
+        "label": "유액",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/latex",
+        "type" : "uri"
+    },
+    {
+        "label": "긴 설명",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/longDescription",
+        "type" : "uri"
+    },
+    {
+        "label": "수학 ML",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/MathML",
+        "type" : "uri"
+    },
+    {
+        "label": "없음",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/none",
+        "type" : "uri"
+    },
+    {
+        "label": "인쇄 페이지 번호",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/printPageNumbers",
+        "type" : "uri"
+    },
+    {
+        "label": "읽기 순서",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/readingOrder",
+        "type" : "uri"
+    },
+    {
+        "label": "수화",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/signLanguage",
+        "type" : "uri"
+    },
+    {
+        "label": "구조 탐색",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/structuralNavigation",
+        "type" : "uri"
+    },
+    {
+        "label": "차례",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/tableOfContents",
+        "type" : "uri"
+    },
+    {
+        "label": "촉각 그래픽",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/tactileGraphic",
+        "type" : "uri"
+    },
+    {
+        "label": "촉각 개체",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/tactileObject",
+        "type" : "uri"
+    },
+    {
+        "label": "태그 PDF",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/taggedPDF",
+        "type" : "uri"
+    },
+    {
+        "label": "타이밍 제어",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/timingControl",
+        "type" : "uri"
+    },
+    {
+        "label": "성적 증명서",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/transcript",
+        "type" : "uri"
+    },
+    {
+        "label": "TTS 마크 업",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/ttsMarkup",
+        "type" : "uri"
+    },
+    {
+        "label": "잠금 해제",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/unlocked",
+        "type" : "uri"
+    }
+]

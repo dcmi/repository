@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/olafhartig/an-introduction-to-sparql?related=2>
+  a schema:CreativeWork ;
+  schema:name "SPARQL: Querying the Web of Data"@en-US ;
+  schema:author "Hartig, Olaf"@en-US ;
+  schema:description "This slideset introduces the RDF query language SPARQL from a users perspective. Falls under Topic: Querying RDF data using SPARQL; Competency: Understands the SPARQL 1.1 query language, protocol, functions and operators; Competency: Uses query forms including ASK, SELECT, DESCRIBE, CONSTRUCT; Competency: Uses query patterns including BGP, UNION, OPTIONAL, FILTER; and Competency: Uses sequence modifiers including DISTINCT, REDUCED, ORDER BY, LIMIT, OFFSET."@en-US ;
+  schema:dateCreated "2009-04-07T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "SPARQL"@en-US, "SPARQL endpoint"@en-US, "Query"@en-US, "Dataset, RDF"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,376 @@
+2017-07-17 Tom Baker            9ed23bc 2017-07-19.cieb-agenda.md
+2017-07-17 tombaker             446fefd Added <br>s
+2017-07-17 Tom Baker            c7401f4 2017-07-19.cieb-agenda.md
+2017-07-15 Tom Baker            051682d start to draft 2017-07-19.cieb-agenda.md
+2017-07-14 Tom Baker            ae825c8 Merge branch 'pyscript' of https://github.com/ld4pe/cieb into pyscript
+2017-07-14 Tom Baker            cb22e39 2017-07-19.cieb-agenda.md
+2017-06-29 Tom Baker            50dfb7a 2017-05-16.cieb-notes.md
+2017-06-24 Tom Baker            2d7acaa Merge branch 'pyscript' of https://github.com/ld4pe/cieb into pyscript
+2017-06-24 Tom Baker            a360673 2017-02-10.cieb-notes.md
+2017-06-22 Tom Baker            a835cd1 mkci.py generates pretty good MD document now
+2017-06-22 Tom Baker            eac4782 D2695955.md
+2017-06-22 Tom Baker            1b4dd5a D2695955.md
+2017-06-22 Tom Baker            81005a1 mkci.py - add square brackets
+2017-06-22 Tom Baker            77ba930 D2695955.md
+2017-06-22 Tom Baker            4e1c3db D2695955.md
+2017-06-22 Tom Baker            b92e9da mkci.py works well, tho printing out "Topic", etc is too verbose
+2017-06-22 Tom Baker            4022efd D2695955.md
+2017-06-22 Tom Baker            e7ba980 Merge branch 'pyscript' of https://github.com/ld4pe/cieb into pyscript
+2017-06-22 Tom Baker            edfe904 2017-06-19.followup_to_call_with_joseph.md
+2017-06-22 Tom Baker            0ad4bf1 two vers: 1) from repo cieb-rdf, 2) http://w3.amazonaws.com/asnstaticd21/data/rdf/D2695955.json
+2017-06-22 Tom Baker            241a882 D2695955.ttl - generated from D2695955.json with rapper 2.0.14
+2017-06-22 Tom Baker            fab2b8b mkci.py - parses JSON file and saves to rough MD format
+2017-06-21 Tom Baker            67bc56a D2695955.md
+2017-06-21 Tom Baker            0343bbb D2695955.md
+2017-06-21 Tom Baker            d33588a D2695955.md
+2017-06-20 Tom Baker            dc30052 create test data with short sequence of cluster, topic, competencies, benchmarks
+2017-06-20 Tom Baker            548b78c ../calls/2017-06-19.followup_to_call_with_joseph.md
+2017-06-19 Tom Baker            91812ae write note to CIEB
+2017-06-19 Tom Baker            401de17 script for pruning TTL
+2017-06-19 Tom Baker            26885ce Merge branch 'master' of https://github.com/ld4pe/cieb
+2017-06-19 Tom Baker            db0eeb9 README.md
+2017-06-19 Tom Baker            74b2bb3 generate turtle
+2017-06-19 Tom Baker            58044e5 json2ttl.sh - add more namespaces
+2017-06-19 Tom Baker            ccb998d json2ttl.sh
+2017-06-19 Tom Baker            5aae1c9 json2ttl.sh
+2017-06-19 Tom Baker            3d43f66 2017-05-16.cieb-notes.md
+2017-06-19 Tom Baker            122b846 downloaded http://s3.amazonaws.com/asnstaticd2l/data/rdf/D2695955.json
+2017-06-19 Tom Baker            c62115f 2017-05-16.cieb-notes.md
+2017-05-16 Tom Baker            1299834 2017-05-16.cieb-notes.md
+2017-05-15 Tom Baker            d311d65 2017-05-16.cieb-agenda.md
+2017-02-08 Tom Baker            9132837 2017-02-10.cieb-agenda.md
+2017-02-08 Tom Baker            99f26d4 2017-02-10.cieb-agenda.md
+2017-02-08 Stuart Sutton        dc84dc0 Update 2017-02-10.cieb-agenda.md
+2017-02-08 tombaker             3422d5e Merge pull request #32 from kaiec/kaiec-patch-1
+2017-02-08 Tom Baker            5027c20 Merge branch 'master' of https://github.com/ld4pe/cieb
+2017-02-08 Tom Baker            246aba3 2017-02-10.cieb-agenda.md
+2017-02-08 Tom Baker            c52ca5c generated D2695955.ttl from RDF/XML
+2017-02-08 Tom Baker            16752d6 README.md
+2017-02-08 Tom Baker            6ae2ff9 D2695955.xml
+2017-02-08 Tom Baker            a027b97 2017-02-10.cieb-agenda.md
+2017-02-08 Tom Baker            6169155 ld4pe-competencies-baker.pdf
+2016-12-24 Tom Baker            90794e4 README.md
+2016-12-01 Tom Baker            9736059 README.md
+2016-11-21 Tom Baker            b271d62 CompIndex-stage-huh.txt - what was this? Out of date.
+2016-11-17 Tom Baker            504f2ac versions/2016-10-12.topics.txt
+2016-11-17 Tom Baker            122f3b1 double-check that CompIndex-stage.txt is in sync with CompIndex.txt
+2016-11-17 Tom Baker            4180816 CompIndex.txt - correct (mostly) punctuation to sync entirely with newly published ASN version
+2016-11-11 Tom Baker            610a65d README.md
+2016-11-11 Tom Baker            5c954e3 README.md
+2016-07-23 Tom Baker            f2550e8 rename CompIndex-stage2.txt CompIndex-stage-huh.txt - where did this file come from??
+2016-07-23 Tom Baker            c37659b CompIndex-stage.txt - May 14 version restored
+2016-07-23 Tom Baker            a976916 Moved CompIndex-stage.txt to CompIndex-stage2.txt and restored CompIndex-stage.txt from Time Machine
+2016-07-23 Tom Baker            8b8f279 CompIndex-stage.txt
+2016-07-23 Tom Baker            b639a2a CompIndex-stage.txt - add space to line questioned by Melanie Wacker
+2016-07-22 Kai Eckert           47d8807 Answering Toms comments.
+2016-07-22 Tom Baker            e24f94e 2016-07-22.cieb-agenda.md
+2016-07-21 Kai Eckert           b71217e Added to provenance and versioning
+2016-06-23 Tom Baker            8531854 Merge branch 'master' of https://github.com/ld4pe/cieb
+2016-06-23 Tom Baker            37c2650 2016-06-03.cieb-agenda.md
+2016-06-03 Stuart Sutton        9399fa0 Merge pull request #31 from stuartasutton/master
+2016-06-03 Stuart Sutton        28c2a8f Updated date modified to today's date
+2016-06-03 Stuart Sutton        b707ac3 Merge pull request #30 from stuartasutton/master
+2016-06-03 Stuart Sutton        5aee237 Corrected narrower for "Creating Linked Data applications"
+2016-06-03 Tom Baker            4d84961 2016-06-03.cieb-notes.md
+2016-05-22 Stuart Sutton        88886a3 Merge pull request #29 from stuartasutton/master
+2016-05-22 Stuart Sutton        ee9ac2d Update of CI vocab
+2016-05-22 Stuart Sutton        9705b9c Merge pull request #28 from stuartasutton/master
+2016-05-22 Stuart Sutton        3f7bc91 Merge pull request #16 from ld4pe/master
+2016-05-22 Stuart Sutton        15a1b7f Merge pull request #27 from stuartasutton/master
+2016-05-22 Stuart Sutton        10314b9 Merge remote-tracking branch 'origin/master'
+2016-05-22 Stuart Sutton        bb95794 Merge pull request #15 from ld4pe/master
+2016-05-22 Stuart Sutton        41c8db3 Merge pull request #26 from stuartasutton/master
+2016-05-22 Stuart Sutton        3a15a8c Correcting URL errors
+2016-05-22 Stuart Sutton        b4a5716 Merge pull request #14 from ld4pe/master
+2016-05-22 Stuart Sutton        d18a2a0 Merge pull request #25 from stuartasutton/master
+2016-05-15 Tom Baker            d5d4095 README
+2016-05-15 Tom Baker            d7441bc README
+2016-05-15 Tom Baker            e281fdb README
+2016-05-15 Stuart Sutton        dfda432 Merge pull request #13 from ld4pe/master
+2016-05-15 Stuart Sutton        4bfdbba Merge remote-tracking branch 'ld4pe/master'
+2016-05-14 Tom Baker            1746769 2016-06-03.cieb-agenda.md
+2016-05-14 Tom Baker            d221c5a CompIndex.txt
+2016-05-14 Tom Baker            18e41ad 2016-06-03.cieb-agenda.md
+2016-05-14 Tom Baker            2a26cd3 2016-05-13.cieb-notes.md
+2016-05-14 Tom Baker            097ef17 generated CompIndex-generated.md and CompIndex-generated.docx
+2016-05-13 Tom Baker            7021601 2016-05-13.cieb-notes.md
+2016-05-13 Tom Baker            da14c4f Makefile
+2016-05-13 Tom Baker            efa1bd1 .gitignore
+2016-05-13 Tom Baker            4bad054 2016-04-22.cieb-notes.md
+2016-05-13 Tom Baker            f1180f5 2016-05-13.cieb-agenda.md
+2016-05-13 Tom Baker            b18f72a README
+2016-05-12 Tom Baker            9cd6a4a generated CompIndex-generated.md and CompIndex-generated.docx
+2016-05-12 Tom Baker            0b03ad0 CompIndex.txt - bringing into line with CompIndex-stage.txt
+2016-05-12 Tom Baker            0b966ab CompIndex-stage.txt - with 2016-04-22 changes added
+2016-05-12 Tom Baker            461dd30 CompIndex.txt - with full stops added
+2016-05-12 Tom Baker            eafca79 CompIndex-stage.txt - adding full stop at the end of each competency
+2016-05-12 Tom Baker            c68de02 CompIndex.txt - reflects changes as of mid-April - probably already entered by Stuart
+2016-05-12 Tom Baker            ad2917e 2016-04-22.approved-competencies.txt
+2016-04-22 Tom Baker            1495a2f 2016-04-22.cieb-agenda.md
+2016-04-20 Tom Baker            4198cd9 2016-04-22.cieb-agenda.md
+2016-04-20 Tom Baker            fab6c38 2016-04-22.cieb-agenda.md
+2016-04-19 Tom Baker            d585408 CompIndex-stage.txt - principles of Linked Data and "five stars" of Open Data
+2016-04-19 Tom Baker            0c86bb7 CompIndex-stage.txt - add competency comparing RDF classes to OOP
+2016-04-19 Tom Baker            effc6f7 CompIndex-stage.txt
+2016-04-11 Tom Baker            17cdb74 Add several approved competencies after 2016-04-08 call
+2016-04-11 Tom Baker            20e4d41 2016-04-08.cieb-notes.md
+2016-04-08 Tom Baker            6255597 2016-04-08.cieb-notes.md
+2016-04-08 Tom Baker            0d72d31 2016-04-08.cieb-notes.md
+2016-04-08 Tom Baker            233b624 2016-04-08.cieb-agenda.md
+2016-04-08 Tom Baker            8c8e77f 2016-04-08.cieb-agenda.md
+2016-04-08 Tom Baker            f9654e4 2016-04-08.cieb-agenda.md
+2016-04-08 Tom Baker            4d81d52 2016-04-08.cieb-agenda.md
+2016-04-08 Tom Baker            11fc560 2016-04-08.cieb-agenda.md
+2016-04-08 Tom Baker            591328a 2016-04-08.cieb-agenda.md
+2016-04-08 Tom Baker            ad23a7d 2016-04-08.cieb-agenda.md
+2016-04-08 Tom Baker            c724248 2016-04-08.cieb-agenda.md
+2016-04-07 Tom Baker            22df40d 2016-04-08.cieb-agenda.md
+2016-03-13 Tom Baker            5a1353a 2016-03-11.cieb-notes.md
+2016-03-11 Tom Baker            1124ce2 2016-03-11.cieb-notes.md
+2016-03-11 Tom Baker            df4bb0b 2016-03-11.cieb-notes.md
+2016-03-09 Stuart Sutton        5b69a13 Merge pull request #24 from stuartasutton/master
+2016-03-09 Stuart Sutton        3c8603b Corrected misspelling
+2016-03-09 Stuart Sutton        2f10ac6 Merge pull request #23 from stuartasutton/master
+2016-03-09 Stuart Sutton        154eadb Merge pull request #12 from ld4pe/master
+2016-03-09 Tom Baker            732b3c5 2016-03-11.cieb-agenda.md
+2016-03-09 Tom Baker            57db5d8 Sean lists of notable authors
+2016-03-09 Tom Baker            83368d4 editing 2016-03-11.cieb-agenda.md
+2016-03-09 Tom Baker            1641fc8 move ScratchPad.md from CompIndex to calls directory
+2016-03-09 Tom Baker            765a743 materials for Fri March 11 telecon
+2016-03-09 Tom Baker            b2e1e1f moving Definitions stuff to cieb/calls
+2016-03-09 Tom Baker            2929af3 typo in LD4PE-TopicVocab.ttl
+2016-03-09 Tom Baker            f517fe9 2016-03-11.cataloging_tool_instructions.docx
+2016-03-09 Tom Baker            f07c2fd Definitions-draft.txt
+2016-03-09 Tom Baker            2a49b7d fix typo in LD4PE-TopicVocab.ttl
+2016-03-07 Tom Baker            6cf3975 README for CompIndex
+2016-03-07 Tom Baker            904fcfc mv CompIndex-staged.txt CompIndex-stage.txt
+2016-03-07 Tom Baker            65a64a6 create CompIndex-staged.txt
+2016-03-07 Tom Baker            2e8947b move Stuart comparison to version/
+2016-03-07 Tom Baker            4407323 LD4PE-TopicVocab.ttl is the latest, canonical version now
+2016-03-07 Tom Baker            af3d63e move old versions into ./versions/
+2016-03-07 Tom Baker            20cf8db renaming LD4PE-TopicVocab => v1
+2016-03-06 Stuart Sutton        36ee7a8 Merge pull request #22 from stuartasutton/master
+2016-03-06 Stuart Sutton        a6888a1 Changed case of letter
+2016-03-06 Stuart Sutton        b3ae90d 2 Concept revision; 1 concept added
+2016-03-06 Stuart Sutton        2aef07c Merge pull request #11 from ld4pe/master
+2016-03-06 Stuart Sutton        4d4d64c Merge pull request #21 from stuartasutton/master
+2016-02-26 Tom Baker            e43518d delete temporary file CompIndex-test.txt
+2016-02-26 Tom Baker            d7aa870 CompIndex-stuartcompare.txt - after changes
+2016-02-26 Tom Baker            42e9b0f CompIndex-stuartcompare.txt
+2016-02-22 Tom Baker            14851a7 2016-02-19.cieb-notes.md
+2016-02-22 Tom Baker            3bba7fa Merge branch 'master' of https://github.com/ld4pe/cieb
+2016-02-22 Tom Baker            4b08d06 CIEB call 2016-02-19 minutes
+2016-02-19 Stuart Sutton        975f92d Merge pull request #10 from ld4pe/master
+2016-02-19 Stuart Sutton        56d4fc4 Merge pull request #20 from stuartasutton/master
+2016-02-19 Tom Baker            b1ad250 ../.gitignore
+2016-02-19 Tom Baker            aa4c1b5 2016-02-19.cieb-agenda.md
+2016-02-19 Tom Baker            c378e36 2016-02-19.cieb-agenda.md
+2016-02-19 Tom Baker            5df198d CompIndex-test.txt
+2016-02-19 Tom Baker            2225176 removing redundant changes.txt
+2016-02-18 Tom Baker            5392bd2 ScratchPad.md
+2016-02-17 Tom Baker            4ceb7af ScratchPad.md
+2016-02-17 Tom Baker            af833ed 2016-02-19.cieb-agenda.md
+2016-02-17 Tom Baker            5919a9a ScratchPad.md
+2016-01-31 Tom Baker            0a765ee 2016-01-29 notes, clean up CompIndex directory, add ScratchPad.md
+2016-01-28 Tom Baker            b1b136f 2016-01-29.cieb-agenda.md
+2016-01-22 Tom Baker            599bcf5 changes.txt - after
+2016-01-22 Tom Baker            031aecc changes.txt
+2016-01-20 Tom Baker            b94a8d3 generated CompIndex-generated.md
+2016-01-20 Tom Baker            cd12fec Merge branch 'master' of https://github.com/ld4pe/cieb
+2016-01-20 Tom Baker            7b1a507 wordsmith CompIndex.txt, add omissions previously missed, exclude CompIndex-stuart.md
+2016-01-20 Tom Baker            570f438 wordsmithing CompIndex.txt, also add omissions previously missed
+2016-01-20 Tom Baker            4c8e97d Move compindex* to directory versions
+2016-01-19 Tom Baker            9548042 bring definitions of Competency and Benchmark in mkcompindex.rb closer to those on website
+2016-01-18 Tom Baker            b4546c1 2016-01-15.cieb-notes.md
+2016-01-18 Tom Baker            d30822a mkcompindex.rb
+2016-01-18 Tom Baker            37ea8a9 generated CompIndex-generated.md
+2016-01-18 Tom Baker            e1e3ae4 Makefile
+2016-01-18 Tom Baker            c6692bc generated CompIndex-generated.md
+2016-01-18 Tom Baker            514b4d6 Makefile
+2016-01-18 Tom Baker            a7961bf generated CompIndex-generated.md
+2016-01-18 Tom Baker            f8f34a9 ../.mailmap
+2016-01-18 Tom Baker            513a15a mkcompindex.rb - this works!
+2016-01-18 Tom Baker            2df5070 mkcompindex.rb - untested
+2016-01-18 Tom Baker            2710c14 CompIndex.txt - formatting one-per-line
+2016-01-18 Tom Baker            210b2df CompIndex.txt
+2016-01-18 Tom Baker            1140c0c compindex-20160118-draft.md
+2016-01-18 Tom Baker            cfc9613 mkcompindex.rb
+2016-01-18 Tom Baker            1bbf21d CompIndex-test2.md
+2016-01-18 Tom Baker            95b64c5 CompIndex-draft.md
+2016-01-18 Tom Baker            9aa134f 2016-01-15.cieb-notes.md
+2016-01-18 Tom Baker            0c312d1 rm CRUD.txt
+2016-01-18 Tom Baker            f05d53d synthesizing CRUD competencies in CRUD.txt
+2016-01-18 Tom Baker            7915789 2016-01-15.cieb-notes.md
+2016-01-17 Tom Baker            b9e4fe6 Merge branch 'master' of https://github.com/ld4pe/cieb
+2016-01-17 Tom Baker            00eeebc merge - after resolving problem with calls/2016-01-15.cieb-agenda.md
+2016-01-17 Tom Baker            f44ccac 2016-01-15.cieb-notes.md
+2016-01-17 Tom Baker            46fbfd8 2016-01-15.cieb-agenda.md
+2016-01-17 Tom Baker            db956c2 rename CompIndex/compindex-20150728.ttl
+2016-01-16 Tom Baker            402adcf CompIndex-draft.md incorporated Stuart basic RDF competencies
+2016-01-16 Tom Baker            5f2e82b Rename CompIndex.ttl CompIndex-20150728.ttl
+2016-01-16 Tom Baker            42d9798 CompIndex-stuart.md - delete
+2016-01-16 Tom Baker            43ccaa0 CompIndex-stuart.md - some modifications before deleting...
+2016-01-16 Tom Baker            22b203a CompIndex-draft.md - reviewed differences to CompIndex-published.md
+2016-01-16 Tom Baker            87e0e32 This works
+2016-01-16 Tom Baker            05bc1cf CompIndex-test2.md
+2016-01-16 Tom Baker            34fba86 mkcompindex.rb  - almost there but for \n in Legend
+2016-01-16 Tom Baker            8fdf4ce mkcompindex.rb editing...
+2016-01-16 Tom Baker            96a950b Nice results
+2016-01-16 Tom Baker            4ff01bb mkcompindex.rb
+2016-01-16 Tom Baker            b9340eb mkcompindex.rb
+2016-01-16 Tom Baker            fa18687 mkcompindex.rb
+2016-01-16 Tom Baker            c13afa2 Makefile
+2016-01-16 Tom Baker            410c929 CompIndex-test.md
+2016-01-16 Tom Baker            5978b6d CompIndex-test.md
+2016-01-15 Magnus Pfeffer       bfcb8c2 Update 2015-11-20.SPARQL_CRUD_assignments.md
+2016-01-15 Tom Baker            38298a4 2016-01-15.cieb-agenda.md
+2016-01-15 Tom Baker            52080c3 Merge branch 'master' of https://github.com/ld4pe/cieb
+2016-01-15 Tom Baker            e6e7940 2016-01-15.cieb-agenda.md
+2016-01-15 Tom Baker            5daa472 2016-01-15.cieb-agenda.md
+2016-01-15 Kai Eckert           c979c85 no further comment...
+2016-01-15 Kai Eckert           a6a2785 MD really is picky about indentation...
+2016-01-15 Kai Eckert           0b03c9b Now it gets better, subheadlines for better structure
+2016-01-15 Kai Eckert           06075d0 Still doesn't like me...
+2016-01-15 Kai Eckert           c33eeb7 Markdown doesn't like me...
+2016-01-15 Kai Eckert           30d7519 Merge branch 'master' of github.com:ld4pe/cieb
+2016-01-15 Kai Eckert           5d3c04d Kais assignments
+2016-01-15 Magnus Pfeffer       2a9acf5 Update 2015-11-20.SPARQL_CRUD_assignments.md
+2016-01-15 Magnus Pfeffer       5895d04 Update 2015-11-20.SPARQL_CRUD_assignments.md
+2016-01-15 Tom Baker            1adb367 CompIndex-draft.md
+2016-01-14 Stuart Sutton        e34cedb Merge pull request #9 from ld4pe/master
+2016-01-14 Stuart Sutton        67f13be Merge pull request #19 from stuartasutton/master
+2016-01-14 Stuart Sutton        baff3b3 Merge pull request #8 from ld4pe/master
+2016-01-13 Tom Baker            30d4c37 Reintroducing edits to CompIndex-stuart.md
+2016-01-13 Tom Baker            fefb390 Reverting to unedited CompIndex-stuart.md
+2016-01-13 Tom Baker            5589f90 Tom adds CompIndex-stuart.md
+2016-01-13 Tom Baker            a1d85fa Add 2016-01-15.ld4pe-transition_ci_updates.xlsx
+2016-01-11 Tom Baker            aaf8179 Tom edits 2015-11-20.SPARQL_CRUD_assignments.md
+2016-01-08 debbiem              56d1eb8 Update 2015-11-20.SPARQL_CRUD_assignments.md
+2015-12-17 Tom Baker            4c33311 2015-12-17.ld4pe-cover-letter.md
+2015-12-17 Tom Baker            283f476 2015-12-17.ld4pe-cover-letter.md
+2015-12-17 Tom Baker            cf7499b 2015-11-22.competencies.md
+2015-12-16 Tom Baker            3e449fd CompIndex-published.md
+2015-12-11 Stuart Sutton        48a0611 Merge pull request #18 from stuartasutton/master
+2015-12-03 debbiem              d8c2bd9 Update 2015-11-20.SPARQL_CRUD_assignments.md
+2015-12-03 debbiem              e8b2fb7 Update 2015-11-20.SPARQL_CRUD_assignments.md
+2015-12-03 debbiem              5c6c940 Update 2015-11-20.SPARQL_CRUD_assignments.md
+2015-11-26 Tom Baker            7fe8632 2015-11-26.RDF_Fundamentals_competencies_for_discussion.md
+2015-11-26 Sean Dolan           aa0e28f Rename RDF_Fundamentals_competencies_for_discussion.md to 2015-11-26.RDF_Fundamentals_competencies_for_discussion.md
+2015-11-26 Sean Dolan           4d66ef8 Create RDF_Fundamentals_competencies_for_discussion.md
+2015-11-22 Tom Baker            757eb55 2015-11-27.cieb-agenda.md
+2015-11-22 Tom Baker            abed4fc 2015-11-22.cieb-cover-letter.md
+2015-11-22 Tom Baker            84d6817 2015-11-20.review_list_RDF_fundamentals.md
+2015-11-22 Tom Baker            25d4e16 2015-11-20.SPARQL_CRUD_assignments.md
+2015-11-22 Tom Baker            bd1573a Merge branch 'master' of https://github.com/ld4pe/cieb
+2015-11-22 Tom Baker            fc25506 Competencies.md
+2015-11-21 Sean Dolan           8b1014c Update 2015-11-20.SPARQL_CRUD_assignments.md
+2015-11-20 Sean Dolan           a839798 Create 2015-11-20.SPARQL_CRUD_assignments.md
+2015-11-20 Sean Dolan           a4892a5 Create 2015-11-20.review_list_RDF_fundamentals.md
+2015-11-16 Stuart Sutton        7ec0590 Merge pull request #7 from ld4pe/master
+2015-11-16 Stuart Sutton        ee0fc81 Merge pull request #17 from stuartasutton/master
+2015-11-16 Tom Baker            73c078a CompIndex-draft.md
+2015-11-16 Tom Baker            7e479e5 CompIndex-draft.md
+2015-11-16 Tom Baker            eef7563 CompIndex-draft.md
+2015-11-16 Tom Baker            d776370 CompIndex-draft.md
+2015-11-15 stuartasutton        d2ef37c Updating with addition of 2 concepts
+2015-11-13 Stuart Sutton        1d482ac Merge pull request #16 from stuartasutton/master
+2015-11-13 stuartasutton        afe4b94 Updating CI to integrate topics/comps
+2015-11-13 Stuart Sutton        80f7f66 Merge pull request #6 from ld4pe/master
+2015-11-13 Tom Baker            c15dc13 git mv CompIndex-draft.txt CompIndex-draft.md
+2015-11-13 Tom Baker            d1fa8dc LD4PE-TopicVocab-v3.txt
+2015-11-13 Tom Baker            1d21305 CompIndex-draft.txt
+2015-11-13 Tom Baker            2167a51 LD4PE-TopicVocab-v3.txt
+2015-11-13 Tom Baker            6c72906 LD4PE-TopicVocab-v3.txt
+2015-11-12 Stuart Sutton        c20f92b Merge pull request #15 from stuartasutton/master
+2015-11-12 Stuart Sutton        174835a Merge pull request #5 from ld4pe/master
+2015-11-12 Stuart Sutton        0086e0b Merge pull request #14 from stuartasutton/master
+2015-10-30 Stuart Sutton        3dcc58d Merge pull request #4 from ld4pe/master
+2015-10-25 Sean Dolan           74f1083 Rename 2015-10-25.SPARQL_CRUD to 2015-10-25.SPARQL_CRUD.md
+2015-10-25 Sean Dolan           be4ac2d Create SPARQL CRUD
+2015-10-21 Stuart Sutton        73451d7 Merge pull request #13 from stuartasutton/master
+2015-10-21 stuartasutton        e2f757e Cleaned up a formatting issue
+2015-10-21 Stuart Sutton        2eda8bb Merge pull request #12 from stuartasutton/master
+2015-10-21 stuartasutton        4c8acd0 New version 3 of the LD4PE topic vocab
+2015-10-21 Stuart Sutton        bb8f68a Merge pull request #3 from ld4pe/master
+2015-10-16 Tom Baker            25ef66a 2015-10-16.notes.md
+2015-10-16 Tom Baker            60c20a6 2015-10-16.notes.md
+2015-10-16 Tom Baker            461addb CompIndex-draft.txt
+2015-10-16 Tom Baker            f29a96c 2015-10-16.agenda.md
+2015-10-16 Tom Baker            e9f1e45 LD4PE-TopicVocab-v2-tb.txt
+2015-10-16 Tom Baker            6bdc9f4 LD4PE-TopicVocab-v3.txt
+2015-10-16 Tom Baker            55eaaa7 LD4PE-TopicVocab-v3.txt
+2015-10-15 Stuart Sutton        464903a Merge pull request #11 from stuartasutton/master
+2015-10-14 Tom Baker            2547734 As per Sean suggestion, syntax => serialization
+2015-10-09 Tom Baker            37fac39 LD4PE-TopicVocab-v2-tb.txt - Tom Baker proposed revision
+2015-10-06 Stuart Sutton        de3d659 Merge pull request #2 from ld4pe/master
+2015-10-05 Tom Baker            7aac4ab fix LD4PE-TopicVocab-v2.ttl typos
+2015-10-05 Tom Baker            5f0c865 add LD4PE-TopicVocab-v2.txt as pure text representation
+2015-09-26 Tom Baker            2e0b7aa 2015-10-16.agenda.md
+2015-09-25 Tom Baker            31fef42 Competencies.md - minor edits
+2015-09-25 Tom Baker            7ecbae4 Competencies.md - minor edits
+2015-09-25 Tom Baker            957b50c minor edits to 2015-09-25.notes.md
+2015-09-25 Tom Baker            fd69ca3 format and edit 2015-09-25.notes.md
+2015-09-25 Tom Baker            7555738 format 2015-09-25.notes.md
+2015-09-25 Tom Baker            942b4d6 2015-09-25.competencies_for_discussion2.md  as edited during the call
+2015-09-25 Tom Baker            2ab28bd 2015-09-25.notes.md
+2015-09-25 Tom Baker            12c97a9 Create Competencies.md on basis of 2015-09-25.competencies_for_discussion2.md
+2015-09-25 Tom Baker            0f437f2 2015-09-25.agenda.md - add reference to condensed version
+2015-09-25 Tom Baker            c67c44f 2015-09-25.competencies_for_discussion2.md - condensed version
+2015-09-24 Stuart Sutton        ba842b5 Merge pull request #10 from stuartasutton/master
+2015-09-24 stuartasutton        ac71f1a Corrected formatting
+2015-09-24 Stuart Sutton        51f4a59 Merge pull request #9 from stuartasutton/master
+2015-09-24 stuartasutton        10fc6dd Listing of the my edits/synthesis
+2015-09-24 stuartasutton        34374a4 Merge remote-tracking branch 'origin/master'
+2015-09-24 stuartasutton        e0f7543 Further synthesis of competencies/benchmarks
+2015-09-24 Tom Baker            b122c25 calls/2015-07-30.review_list_SPARQL.md
+2015-09-23 Sean Dolan           ceb1be0 Update 2015-09-25.competencies_for_discussion.md
+2015-09-23 Stuart Sutton        f979fa1 Merge pull request #1 from ld4pe/master
+2015-09-23 stuartasutton        e312539 Merge remote-tracking branch 'ld4pe/master'
+2015-09-23 Stuart Sutton        e93a48b Merge pull request #8 from stuartasutton/master
+2015-09-23 stuartasutton        fa4e893 Added SKOS-XL @prefix and extended labels
+2015-09-22 Sean Dolan           10c4de0 Update 2015-09-25.competencies_for_discussion.md
+2015-09-22 Stuart Sutton        6e1d11f Merge pull request #7 from stuartasutton/master
+2015-09-22 stuartasutton        d741079 proficiency level vocabulary
+2015-09-20 stuartasutton        8bd3483 Merge remote-tracking branch 'ld4pe/master'
+2015-09-18 Tom Baker            7133eaa 2015-09-18.notes.md
+2015-09-18 Tom Baker            5284e33 2015-09-25.agenda.md
+2015-09-18 Tom Baker            72f60b6 2015-09-25.competencies_for_discussion.md
+2015-09-18 Tom Baker            412876e Merge branch 'master' of https://github.com/ld4pe/cieb
+2015-09-18 Tom Baker            200844c Create 2015-09-25.competencies_for_discussion.md for further editing for Sep 25 call
+2015-09-18 Kai Eckert           4dc9323 Overall assessment
+2015-09-18 Tom Baker            881288f 2015-09-18.notes.md
+2015-09-18 Tom Baker            c6591b3 Merge branch 'master' of https://github.com/ld4pe/cieb
+2015-09-18 Tom Baker            ddf23f3 2015-09-18.telecon2_assignments_edited.md
+2015-09-18 Tom Baker            f7dd036 2015-07-31.telecon2_assignments.md formatting
+2015-09-18 Kai Eckert           91fffe6 Reformatting
+2015-09-18 Tom Baker            0d0a3ae 2015-07-31.telecon2_assignments.md
+2015-09-18 Magnus Pfeffer       a1367a3 Update 2015-07-31.telecon2_assignments.md
+2015-09-17 Tom Baker            f8ce452 Merge branch 'master' of https://github.com/ld4pe/cieb
+2015-09-17 Tom Baker            7387c7a 2015-09-18.agenda.md
+2015-09-17 Stuart Sutton        841e98b Merge pull request #6 from stuartasutton/master
+2015-09-17 stuartasutton        b9c6a73 Removed duplicate word.
+2015-09-17 Tom Baker            6287f66 2015-09-18.agenda.md
+2015-09-17 Sean Dolan           f1f26c0 Merge pull request #5 from ld4pe/sdolan5-patch-1
+2015-09-16 Sean Dolan           1b22d43 Update 2015-07-31.telecon2_assignments.md
+2015-09-16 Stuart Sutton        e296686 Merge pull request #4 from stuartasutton/master
+2015-09-16 stuartasutton        62f7c58 Added my competencies for "0 to 60 on SPARQL queries in 50 minutes"
+2015-09-14 Stuart Sutton        2356f67 Merge pull request #3 from stuartasutton/master
+2015-09-13 stuartasutton        ea484f3 Version 2 of the topics vocabulary
+2015-09-11 Stuart Sutton        b3237b4 Merge pull request #1 from stuartasutton/master
+2015-09-11 stuartasutton        5d329ca Addition of SKOS topical index
+2015-08-01 Tom Baker            15705a9 2015-07-31.telecon2_assignments.md
+2015-08-01 Tom Baker            0c8e06b Telecon 1 notes
+2015-07-31 Tom Baker            3f7b4c3 fix missing parenthesis in agenda
+2015-07-31 Tom Baker            d05f651 Add definitions
+2015-07-30 Tom Baker            7b5d2f6 Debbie SkypeID
+2015-07-30 Tom Baker            08c9f6f updated 2015-07-31.agenda.md
+2015-07-30 Tom Baker            bd151cf Rename 2015-07-30.agenda.md 2015-07-31.agenda.md
+2015-07-30 Tom Baker            557fb4b Update Telecon 1 agenda
+2015-07-30 Tom Baker            4b85d89 Add Sean suggestion re: simple SPARQL queries
+2015-07-28 Tom Baker            be420ef agenda.md
+2015-07-28 Tom Baker            72cc2b9 agenda.md
+2015-07-28 Tom Baker            93a28bb editing agenda for Telecon 1
+2015-07-28 Tom Baker            56e5503 update agenda
+2015-07-28 Tom Baker            fdbc10a directory "calls" for telecon agendas and notes
+2015-07-28 Tom Baker            a966572 Add starting-point Competency Index (in Turtle)
+2015-07-28 tombaker             fe6ae66 Initial commit

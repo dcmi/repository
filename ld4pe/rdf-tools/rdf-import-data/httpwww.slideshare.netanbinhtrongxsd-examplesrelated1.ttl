@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/anbinhtrong/xsd-examples?related=1>
+  a schema:CreativeWork ;
+  schema:name "XSD Examples"@en-US ;
+  schema:author "Nguyen, Minh Dao"@en-US ;
+  schema:description "In this tutorial you will learn how to create XML Schemas, why XML Schemas are more powerful than DTDs, and how to use XML Schema in your application."@en-US ;
+  schema:dateCreated "2010-11-11T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "XML Schema"@en-US, "XML"@en-US, "XSD"@en-US, "Document Type Definition (DTD)"@en-US, "Elements/Attributes"@en-US ;
+  schema:publisher "An, Binh Trong"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

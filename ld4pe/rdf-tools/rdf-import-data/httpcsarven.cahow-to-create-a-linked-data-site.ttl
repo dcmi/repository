@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://csarven.ca/how-to-create-a-linked-data-site>
+  a schema:CreativeWork ;
+  schema:name "How-to guide for creating a Linked Data site"@en-US ;
+  schema:author "Capadisli, Sarven"@en-US ;
+  schema:description "The author attempts to walk the reader through the process of creating what he considers to be a Linked Data site. He assumes that the reader a basic understanding of the RDF data model, have seen a few triple statements in one of the serializations, know what SPARQL is for, can read some PHP and HTML code, not too shy in the Linux (Ubuntu/Debian as far as these examples go) command line, and have Apache and PHP ready to go in your environment."@en-US ;
+  schema:dateCreated "2011-02-03T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "RDF"@en-US, "SPARQL"@en-US, "PHP"@en-US, "Hypertext Markup Language (HTML)"@en-US, "Apache Jena"@en-US, "Fuseki"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

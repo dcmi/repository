@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.uniroma2.it/didattica/SBC03-04/deposito/Prot-Lecture.ppt>
+  a schema:CreativeWork ;
+  schema:name "Tutorial on Ontology Management"@en-US ;
+  schema:author "Vindigni, Michele"@en-US ;
+  schema:description "Topic: RDF Data Model; Competency: Understands the uses and roles of domain and ranges; Competency: Understands inferencing and the means by which it is achieved; Competency: Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each; Topic: Reasoning over RDF; Competency: Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL. Topic: Creating a new RDF vocabularies; Competency: Understands the role of RDFS and uses it in defining new RDF vocabularies; Competency: Follows naming conventions in coining new terms (properties & classes); Competency: Creates new terms (properties & classes) following commonly agreed upon conventions and best practices. This PPT presentation uses the famous Wine Ontology example to cover ontology development basics, such as: 1) What is an ontology and why do we need one?; 2) A step-by-step guide to ontology development; and 3) Advanced issues in knowledge modeling. It also includes an overview of Protege, with several Protege plugins and applications."@en-US ;
+  schema:about "Web Ontology Language (OWL)"@en-US, "Ontology"@en-US, "Schema"@en-US, "Vocabulary"@en-US, "Classes"@en-US, "Properties"@en-US, "Instances"@en-US, "Protege"@en-US ;
+  schema:publisher "University of Rome Tor Vergata"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

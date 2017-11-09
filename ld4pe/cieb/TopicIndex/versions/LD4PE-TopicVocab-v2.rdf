@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+    <skos:ConceptScheme rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/">
+        <dc:title xml:lang="en-us">Linked Data Subject Vocabulary</dc:title>
+        <dc:creator xml:lang="en-us">DCMI/LD4PE Task Group</dc:creator>
+        <dc:description xml:lang="en-us">This vocabulary is used for the topical indexing of
+            learning resources in the DCMI Exploratorium</dc:description>
+        <dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2015-09-12</dcterms:created>
+        <skos:hasTopConcept rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0001"/>
+        <skos:hasTopConcept rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0002"/>
+        <skos:hasTopConcept rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0003"/>
+        <skos:hasTopConcept rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0004"/>
+        <skos:hasTopConcept rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0005"/>
+        <skos:hasTopConcept rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0006"/>
+    </skos:ConceptScheme>
+
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0001">
+        <skos:prefLabel xml:lang="en-us">Fundamentals of Linked Data</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0007" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0008" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0009" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0010" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0011" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0012" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0013" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0014" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0015" />
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0002">
+        <skos:prefLabel xml:lang="en-us">Interacting with Linked Data</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0016" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0017" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0018" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0019" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0020" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0021" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0022" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0023" />
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0003">
+        <skos:prefLabel xml:lang="en-us">Providing Linked Data</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0024" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0025" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0026" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0027" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0028" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0029" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0030" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0031" />
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0004">
+        <skos:prefLabel xml:lang="en-us">Consuming Linked Data</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0032" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0033" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0034" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0035" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0036" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0037" />
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0005">
+        <skos:prefLabel xml:lang="en-us">Creating Linked Data applications</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0038" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0039" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0040" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0041" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0042" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0043" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0044" />
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0006">
+        <skos:prefLabel xml:lang="en-us">Scaling-up RDF and Linked Data</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0045" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0046" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0047" />
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0048" />
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0007">
+        <skos:prefLabel xml:lang="en-us">Linked data principles</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0001" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0008">
+        <skos:prefLabel xml:lang="en-us">Background technologies</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0001" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0009">
+        <skos:prefLabel xml:lang="en-us">Background standards</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0001" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0010">
+        <skos:prefLabel xml:lang="en-us">Comparative data models</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0001" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0011">
+        <skos:prefLabel xml:lang="en-us">RDF data model</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0001" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0012">
+        <skos:prefLabel xml:lang="en-us">Existing public vocabularies</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0001" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0013">
+        <skos:prefLabel xml:lang="en-us">Choosing vocabularies to describe data</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0001" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0014">
+        <skos:prefLabel xml:lang="en-us">Policies and best practices</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0001" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0015">
+        <skos:prefLabel xml:lang="en-us">Perspectives and habits of mind</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0001" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0016">
+        <skos:prefLabel xml:lang="en-us">Visualization tools and techniques</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0002" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0017">
+        <skos:prefLabel xml:lang="en-us">Searching for vocabularies</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0002" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0018">
+        <skos:prefLabel xml:lang="en-us">Searching for RDF documents</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0002" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0019">
+        <skos:prefLabel xml:lang="en-us">Searching RDF datastores with SPARQL</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0002" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0020">
+        <skos:prefLabel xml:lang="en-us">Creating and manage RDF data with SPARQL</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0002" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0021">
+        <skos:prefLabel xml:lang="en-us">NoSQL solutions for RDF data</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0002" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0022">
+        <skos:prefLabel xml:lang="en-us">Methods for Linked Data analysis</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0002" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0023">
+        <skos:prefLabel xml:lang="en-us">Reasoning over RDF</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0002" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0024">
+        <skos:prefLabel xml:lang="en-us">Linked Data lifecycle</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0003" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0025">
+        <skos:prefLabel xml:lang="en-us">Cleaning, reconciling, and enriching data</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0003" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0026">
+        <skos:prefLabel xml:lang="en-us">Creating an RDF vocabulary</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0003" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0027">
+        <skos:prefLabel xml:lang="en-us">Creating RDF data</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0003" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+ 
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0028">
+        <skos:prefLabel xml:lang="en-us">Interlinking RDF data</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0003" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0029">
+        <skos:prefLabel xml:lang="en-us">Recipes for publishing</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0003" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0030">
+        <skos:prefLabel xml:lang="en-us">Tools for creating RDF vocabularies</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0003" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0031">
+        <skos:prefLabel xml:lang="en-us">Tools for creating RDF data</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0003" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+   
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0032">
+        <skos:prefLabel xml:lang="en-us">Accessing the Web of data</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0004" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0033">
+        <skos:prefLabel xml:lang="en-us">Linked Data mashup development</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0004" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0034">
+        <skos:prefLabel xml:lang="en-us">Vocabulary mapping</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0004" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0035">
+        <skos:prefLabel xml:lang="en-us">Identity resolution</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0004" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0036">
+        <skos:prefLabel xml:lang="en-us">Provenance tracking</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0004" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0037">
+        <skos:prefLabel xml:lang="en-us">Data quality assessment</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0004" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0038">
+        <skos:prefLabel xml:lang="en-us">Linked Data application architecture</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0005" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0039">
+        <skos:prefLabel xml:lang="en-us">Client-server architecture</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0005" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0040">
+        <skos:prefLabel xml:lang="en-us">RESTful architectures and services</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0005" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0041">
+        <skos:prefLabel xml:lang="en-us">Web API technology</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0005" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0042">
+        <skos:prefLabel xml:lang="en-us">Well-known Web APIs</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0005" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0043">
+        <skos:prefLabel xml:lang="en-us">Creating the user interface</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0005" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0044">
+        <skos:prefLabel xml:lang="en-us">Constructing a mashup</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0005" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0045">
+        <skos:prefLabel xml:lang="en-us">Big Linked Data</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0006" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0046">
+        <skos:prefLabel xml:lang="en-us">Scaling storage for Linked Data</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0006" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0047">
+        <skos:prefLabel xml:lang="en-us">Scaling reasoning for Linked Data</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0006" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept>
+    
+    <skos:Concept rdf:about="http://explore.dublincore.net/vocabs/LDsubjects/0048">
+        <skos:prefLabel xml:lang="en-us">RDF stream processing</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/0006" />
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/LDsubjects/"/>
+    </skos:Concept> 
+  
+</rdf:RDF>

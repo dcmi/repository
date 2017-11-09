@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.si.umich.edu/programs/class/2010/organization-information-resources>
+  a schema:CreativeWork ;
+  schema:name "SI666: Organization of Information Resources"@en-US ;
+  schema:author "Markey, Karen"@en-US ;
+  schema:description "Organization of Information Resources --- Provides conceptual understanding and skills in the organization, access, and representation of information in a variety of formats. Students learn basic concepts and principles of cataloging and metadata, organization and classification, and standards that have been developed for the ways in which information is organized and described."@en-US ;
+  schema:dateCreated "2014-12-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Information organization"@en-US ;
+  schema:publisher "School of Information, University of Michigan"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

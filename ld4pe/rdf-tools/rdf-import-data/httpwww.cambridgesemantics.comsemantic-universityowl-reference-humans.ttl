@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.cambridgesemantics.com/semantic-university/owl-reference-humans>
+  a schema:CreativeWork ;
+  schema:name "OWL Reference for Humans"@en-US ;
+  schema:description "Topic: RDF Data Model; Competency: Understands the uses and roles of domain and ranges; Competency: Understands inferencing and the means by which it is achieved; Competency: Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each; Topic: Reasoning over RDF; Competency: Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL. This lesson provides an introduction to the most useful stuff in OWL. It is not intended to be comprehensive, but it does contain quite a few of the constructs that you are likely run into. One area in which OWL goes significantly beyond RDFS is that it allows you to construct some fairly complex, but useful, relationships among classes. Some of the most common building blocks for doing so are presented in this module."@en-US ;
+  schema:about "Web Ontology Language (OWL)"@en-US, "Ontology"@en-US, "Schema"@en-US, "Vocabulary"@en-US, "Classes"@en-US, "Properties"@en-US ;
+  schema:publisher "Cambridge Semantics"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

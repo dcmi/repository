@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/grecognos/from-sql-to-sparql?related=1>
+  a schema:CreativeWork ;
+  schema:name "From SQL to SPARQL"@en-US ;
+  schema:author "Miron, Dia"@en-US ;
+  schema:description "This presentation was given at the Cluj Semantic Meetup on May 17, 2011. The presenter was Dia Miron, Semantic WEB Researcher at Recognos Romania. Mentions several software tools for SPARQL support: Apache Jena; Redland; Twinkle. Falls under Topic: Querying RDF data using SPARQL and Competency: Understands the SPARQL 1.1 query language, protocol, functions and operators."@en-US ;
+  schema:dateCreated "2011-04-17T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "SPARQL"@en-US, "SPARQL endpoint"@en-US, "Query"@en-US, "Dataset, RDF"@en-US, "Graph"@en-US, "Apache Jena"@en-US, "Redland"@en-US, "Twinkle"@en-US ;
+  schema:publisher "Roth, George"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

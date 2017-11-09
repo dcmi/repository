@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.mkbergman.com/wp-content/themes/ai3v2/files/2009Posts/Advantages_Myths_RDF_090422.pdf>
+  a schema:CreativeWork ;
+  schema:name "Advantages and Myths of RDF"@en-US ;
+  schema:author "Bergman, M.K."@en-US ;
+  schema:description "This paper addresses the question, Is RDF a Framework, Data Model or Vocabulary? The RDF data model provides an abstract, conceptual framework for defining and using metadata and metadata vocabularies. RDF is simultaneously a framework, data model and basis for building more complex vocabularies, it is both simple and complex at the same time."@en-US ;
+  schema:dateCreated "2009-04-22T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Semantic Web"@en-US, "RDF"@en-US, "Triple"@en-US, "RDF Schema"@en-US, "Ontology"@en-US, "Vocabulary"@en-US ;
+  schema:publisher "Structured Dynamics LLC"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/primarySource> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

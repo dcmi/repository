@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=2dZQ2BWnGDc>
+  a schema:CreativeWork ;
+  schema:name "Using oXygen to enrich (X)HTML or ePub via linked data sources"@en-US ;
+  schema:description "This video describes use of the oXygen XML editor to enrich (X)HTML or ePub via Linked Data sources."@en-US ;
+  schema:dateCreated "2014-12-17T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "OXygen"@en-US, "International Tag Set (IST) 2.0"@en-US, "Schema.org"@en-US, "Metadata"@en-US, "EXtensible Stylesheet Language Transformations (XSLT)"@en-US ;
+  schema:publisher "Internationalization Tag Set 2.0"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

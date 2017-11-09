@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/narnirajesh/intro-to-owl-ontology?related=2>
+  a schema:CreativeWork ;
+  schema:name "Intro to OWL & Ontology"@en-US ;
+  schema:author "Narni, Rajesh"@en-US ;
+  schema:description "A very complete overview of OWL, its properties, and how it can be used to link data and enable the Semantic Web. Also includes some discussion of RDF Schema and SPARQL."@en-US ;
+  schema:dateCreated "2010-08-04T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Semantic Web"@en-US, "Web Ontology Language (OWL)"@en-US, "Ontology"@en-US, "RDF Schema"@en-US, "SPARQL"@en-US, "Query"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

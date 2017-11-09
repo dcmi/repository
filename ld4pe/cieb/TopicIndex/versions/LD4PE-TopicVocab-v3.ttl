@@ -1,0 +1,241 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pet: <http://purl.org/dcx/pet/vocabs/LDtopics/> .
+
+pet: a skos:ConceptScheme ;
+    dc:creator "DCMI/LD4PE Task Group"@en-us ;
+    dc:description "This vocabulary is used for the topical indexing of learning resources in the DCMI Exploratorium"@en-us ;
+    dc:title "Linked Data Subject Vocabulary"@en-us ;
+    dcterms:created "2015-09-12"^^xsd:date ;
+    dcterms:modified "2016-03-06"^^xsd:date ;
+    skos:hasTopConcept pet:ld01,
+        pet:ld02,
+        pet:ld03,
+        pet:ld04,
+        pet:ld05,
+        pet:ld06 .
+
+pet:ld01 a skos:Concept ;
+    skos:prefLabel "Fundamentals of Resource Description Framework"@en-us ;
+    skos:inScheme pet: ;
+    skos:topConceptOf pet: ;   
+    skos:narrower pet:ld07,
+        pet:ld08,
+        pet:ld09,
+        pet:ld10 .
+    
+pet:ld02 a skos:Concept ;
+    skos:prefLabel "Fundamentals of Linked Data"@en-us ;
+    skos:inScheme pet: ;
+    skos:topConceptOf pet: ;    
+    skos:narrower pet:ld11,
+        pet:ld12,
+        pet:ld14,
+        pet:ld15 .
+
+pet:ld03 a skos:Concept ;
+    skos:prefLabel "RDF vocabularies and application profiles"@en-us ;
+    skos:inScheme pet: ;
+    skos:topConceptOf pet: ;    
+    skos:narrower pet:ld16,
+        pet:ld17,
+        pet:ld18,
+        pet:ld19,
+        pet:ld20,
+        pet:ld21,
+        pet:ld39 .   
+
+pet:ld04 a skos:Concept ;
+    skos:prefLabel "Creating and Transforming Linked Data"@en-us ;
+    skos:inScheme pet: ;
+    skos:topConceptOf pet: ;    
+    skos:narrower pet:ld22,
+        pet:ld23,
+        pet:ld24,
+        pet:ld25,
+        pet:ld26,
+        pet:ld27 .
+
+pet:ld05 a skos:Concept ;
+    skos:prefLabel "Interacting with RDF data"@en-us ;
+    skos:inScheme pet: ;
+    skos:topConceptOf pet: ;    
+    skos:narrower pet:ld28,
+        pet:ld29,
+        pet:ld30,
+        pet:ld31,
+        pet:ld32,
+        pet:ld33,
+        pet:ld37,
+        pet:ld38.
+    
+pet:ld06 a skos:Concept ;
+    skos:prefLabel "Creating Linked Data applications"@en-us ;
+    skos:inScheme pet: ;
+    skos:topConceptOf pet: ;
+    skos:narrower pet:ld35 .     
+
+pet:ld07 a skos:Concept ;
+    skos:prefLabel "Identity in RDF"@en-us ;
+    skos:broader pet:ld01 ;
+    skos:inScheme pet: .
+
+pet:ld08 a skos:Concept ;
+    skos:prefLabel "RDF data model"@en-us ;
+    skos:broader pet:ld01 ;
+    skos:inScheme pet: .
+
+pet:ld09 a skos:Concept ;
+    skos:prefLabel "Related data models"@en-us ;
+    skos:broader pet:ld01 ;
+    skos:inScheme pet: .
+
+pet:ld10 a skos:Concept ;
+    skos:prefLabel "RDF serialization"@en-us ;
+    skos:broader pet:ld01 ;
+    skos:inScheme pet: .
+
+pet:ld11 a skos:Concept ;
+    skos:prefLabel "Web technology"@en-us ;
+    skos:broader pet:ld02 ;
+    skos:inScheme pet: .
+
+pet:ld12 a skos:Concept ;
+    skos:prefLabel "Linked data principles"@en-us ;
+    skos:broader pet:ld02 ;
+    skos:inScheme pet: .
+
+pet:ld14 a skos:Concept ;
+    skos:prefLabel "Linked data policies and best practices"@en-us ;
+    skos:broader pet:ld02 ;
+    skos:inScheme pet: .
+
+pet:ld15 a skos:Concept ;
+    skos:prefLabel "Non-RDF Linked Data"@en-us ;
+    skos:broader pet:ld02 ;
+    skos:inScheme pet: .
+
+pet:ld16 a skos:Concept ;
+    skos:prefLabel "Finding RDF-based vocabularies"@en-us ;
+    skos:broader pet:ld03 ;
+    skos:inScheme pet: .
+
+pet:ld17 a skos:Concept ;
+    skos:prefLabel "Maintaining RDF vocabularies"@en-us ;
+    skos:broader pet:ld03 ;
+    skos:inScheme pet: .
+
+pet:ld18 a skos:Concept ;
+    skos:prefLabel "Versioning RDF vocabularies"@en-us ;
+    skos:broader pet:ld03 ;
+    skos:inScheme pet: .
+
+pet:ld19 a skos:Concept ;
+    skos:prefLabel "Publishing RDF vocabularies"@en-us ;
+    skos:broader pet:ld03 ;
+    skos:inScheme pet: .
+
+pet:ld20 a skos:Concept ;
+    skos:prefLabel "Mapping RDF vocabularies"@en-us ;
+    skos:broader pet:ld03 ;
+    skos:inScheme pet: .
+
+pet:ld21 a skos:Concept ;
+    skos:prefLabel "RDF application profiles"@en-us ;
+    skos:broader pet:ld03 ;
+    skos:inScheme pet: .
+
+pet:ld22 a skos:Concept ;
+    skos:prefLabel "Managing identifiers (URI)"@en-us ;
+    skos:broader pet:ld04 ;
+    skos:inScheme pet: .
+
+pet:ld23 a skos:Concept ;
+    skos:prefLabel "Creating RDF data"@en-us ;
+    skos:broader pet:ld04 ;
+    skos:inScheme pet: .
+
+pet:ld24 a skos:Concept ;
+    skos:prefLabel "Versioning RDF data"@en-us ;
+    skos:broader pet:ld04 ;
+    skos:inScheme pet: .
+
+pet:ld25 a skos:Concept ;
+    skos:prefLabel "RDF data provenance"@en-us ;
+    skos:broader pet:ld04 ;
+    skos:inScheme pet: .
+
+pet:ld26 a skos:Concept ;
+    skos:prefLabel "Cleaning and reconciling RDF data"@en-us ;
+    skos:broader pet:ld04 ;
+    skos:inScheme pet: .
+
+pet:ld27 a skos:Concept ;
+    skos:prefLabel "Mapping and enriching RDF data"@en-us ;
+    skos:broader pet:ld04 ;
+    skos:inScheme pet: .   
+
+pet:ld28 a skos:Concept ;
+    skos:prefLabel "Processing RDF data using programming languages"@en-us ;
+    skos:broader pet:ld05 ;
+    skos:inScheme pet: .
+
+pet:ld29 a skos:Concept ;
+    skos:prefLabel "Querying RDF data"@en-us ;
+    skos:broader pet:ld05 ;
+    skos:inScheme pet: .
+
+pet:ld30 a skos:Concept ;
+    skos:prefLabel "Visualizing RDF data"@en-us ;
+    skos:broader pet:ld05 ;
+    skos:inScheme pet: .
+
+pet:ld31 a skos:Concept ;
+    skos:broader pet:ld05 ;
+    skos:prefLabel "Reasoning over RDF"@en-us ;
+    skos:inScheme pet: .
+
+pet:ld32 a skos:Concept ;
+    skos:prefLabel "Assessing RDF data quality"@en-us ;
+    skos:broader pet:ld05 ;
+    skos:inScheme pet: .
+
+pet:ld33 a skos:Concept ;
+    skos:prefLabel "RDF data analytics"@en-us ;
+    skos:broader pet:ld05 ;
+    skos:inScheme pet: .  
+
+# pet:ld34 a skos:Concept ;
+#    skos:prefLabel "Storing RDF data"@en-us ;
+#    skos:broader pet:ld06 ;
+#    skos:inScheme pet: .
+
+pet:ld35 a skos:Concept ;
+    skos:prefLabel "Linked Data application architecture"@en-us ;
+    skos:broader pet:ld06 ;
+    skos:inScheme pet: .
+
+# pet:ld36 a skos:Concept ;
+#    skos:prefLabel "Linked Data mashups"@en-us ;
+#    skos:broader pet:ld06 ;
+#    skos:inScheme pet: .
+    
+pet:ld37 a skos:Concept ;
+    skos:prefLabel "Finding RDF data"@en-us ;
+    skos:broader pet:ld05 ;
+    skos:inScheme pet: .
+    
+pet:ld38 a skos:Concept ;
+    skos:prefLabel "Manipulating RDF data"@en-us ;
+    skos:broader pet:ld05 ;
+    skos:inScheme pet: . 
+    
+pet:ld39 a skos:Concept ;
+    skos:prefLabel "Designing RDF-based vocabularies"@en-us ;
+    skos:broader pet:ld03 ;
+    skos:inScheme pet: .       

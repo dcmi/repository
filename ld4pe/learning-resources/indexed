@@ -1,0 +1,220 @@
+#LIST OF RESOURCES WHICH HAVE BEEN INDEXED TO COMPETENCIES
+##INDEXED JUNE 23RD, 2015
+1.	http://www.linkeddatatools.com/introducing-rdfs-owl
+2.	http://protege.stanford.edu/publications/ontology_development/ontology101-noy-mcguinness.html
+3.	http://www.w3.org/TR/xhtml-rdfa-primer/#bib-rdfa-core
+4.	http://jena.apache.org/tutorials/sparql_query1.html
+5.	http://code.google.com/p/tdwg-rdf/wiki/Beginners
+6.	https://www.youtube.com/watch?v=uR_7UkHs0zA
+
+##INDEXED AUGUST 20TH, 2015
+7.	https://www.youtube.com/watch?v=g38AsuWbPFo
+8.	http://explore.dublincore.net/rdf/lrmi/#/resource
+9.	https://www.youtube.com/watch?v=Vhove08tML4
+10.	https://www.youtube.com/watch?v=r3KPu0fwDGA
+11.	http://www.slideshare.net/LeeFeigenbaum/sparql-cheat-sheet?next_slideshow=1
+12.	http://www.slideshare.net/szeke/introduction-to-sparql?next_slideshow=2
+13.	http://www.slideshare.net/olafhartig/querying-linked-data-with-sparql?related=2
+14.	http://www.slideshare.net/andyseaborne/sparql-11-update?next_slideshow=1
+15.	http://www.slideshare.net/grecognos/from-sql-to-sparql
+16.	http://www.slideshare.net/olafhartig/an-introduction-to-sparql?related=2
+17.	http://www.slideshare.net/fabien_gandon/sparql-in-a-nutshell?related=4
+18.	http://www.vivoweb.org/files/presentations/12ws7/Tutorial_Section_1.pdf
+
+##NEW RESOURCES ADDED AND INDEXED AUGUST 20TH- AUGUST 21ST, 2015
+19. http://topquadrantblog.blogspot.com/2012/07/who-needs-skos-xl-maybe-no-one.html
+20. http://topquadrantblog.blogspot.com/search/label/RDF
+21. http://www.obitko.com/tutorials/ontologies-semantic-web/introduction.html
+22. http://www.ldodds.com/foaf/foaf-a-matic.html
+23. https://www.dajobe.org/talks/201105-sparql-11/
+24. https://msdn.microsoft.com/en-us/library/aa303446.aspx
+
+##NEW RESOURCES ADDED AND INDEXED AUGUST 26, 2015
+25. http://ec.europa.eu/isa/documents/cookbook-for-rdf-schemas-v2.pdf
+26. http://www.w3.org/2011/gld/wiki/Linked_Data_Cookbook
+27. http://www.nongnu.org/samizdat/papers/rel-rdf.pdf
+28. http://homepages.inf.ed.ac.uk/kbyrne3/docs/rdb2rdfForCH.pdf
+29. http://arxiv.org/ftp/arxiv/papers/1205/1205.5922.pdf
+30. http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/viewFile/8487/8531
+
+## NEW RESOURCES ADDED AND INDEXED SEPT. 5-7, 2015
+31. http://data.linkededucation.org/linkedup/catalog/
+32. http://www.l3s.de/~fetahu/iswc_demo/categories/
+33. http://data.linkededucation.org/
+34. http://videolectures.net/eswc2013_simperl_ontologies/
+35. http://videolectures.net/sssc2011_norton_rdf/
+36. http://videolectures.net/iswc07_bechhofer_iowl/
+37. http://videolectures.net/iswc06_parsia_uofw/
+38. http://videolectures.net/iswc06_grau_uofwi/
+39. http://videolectures.net/eswc2013_decker_networked_knowledge/
+40. http://videolectures.net/estc2010_wurzer_dbvled/
+41. http://videolectures.net/estc2010_djalil_mezaour_ldbs/
+42. http://videolectures.net/eswc2013_hogan_mcginnis_linked_data/
+43. http://videolectures.net/eswc2013_christophides_linked_data/
+44. http://videolectures.net/eswc2013_hogan_linked_data/
+45. http://videolectures.net/eswc2013_norton_acosta_linked_data/
+46. http://videolectures.net/eswc2013_blair_sparql/
+47. http://videolectures.net/eswc2013_harkous_databases/
+
+## NEW RESOURCES ADDED AND INDEXED SEPT. 7, 2015
+48. http://videolectures.net/eswc2013_collina_linked_data/
+49. http://videolectures.net/iswc2013_wang_semantic_relations/
+ 
+## NEW RESOURCES ADDED AND INDEXED SEPT. 9, 2015
+50. http://videolectures.net/iswc2013_ngonga_ngomo_data_streams/
+51. http://videolectures.net/iswc2013_pujara_graph_identification/
+52. http://videolectures.net/iswc2013_hellmann_linked_data/
+53. http://videolectures.net/iswc2013_acosta_quality_assessment/
+54. http://ciws.cl/media/pdf/pods14.pdf
+55. http://stijnheymans.net/pubs/webs2007.pdf
+56. http://www.iris-reasoner.org/rdfsreasoner
+57. http://store.elsevier.com/product.jsp?isbn=9780127999579&pagename=search
+58. http://wam.inrialpes.fr/publications/2012/ijcar12.pdf
+59. http://webont.org/owled/2011/presentations/4Kollia.pdf
+60. http://arxiv.org/ftp/arxiv/papers/1403/1403.7248.pdf
+61. http://www.semanco-project.eu/index_htm_files/ELITE.pdf
+62. http://www.simkus.info/wp-content/uploads/2014/10/sparql-certain.pdf
+63. http://web.ing.puc.cl/~marenas/talks/BNCOD13.pdf
+64. http://www.ghxiao.org/publications/2014-iswc-sparql-ql-full.pdf
+65. http://www.w3.org/TR/2012/CR-sparql11-entailment-20121108/
+
+## NEW RESOURCES ADDED AND INDEXED SEPT. 11, 2015
+66. http://www.inf.tu-dresden.de/content/institutes/ki/cl/study/summer14/fswt/slides/FSWT2014-L17-SPARQL-Entailment.pdf
+67. http://aran.library.nuigalway.ie/xmlui/handle/10379/456
+68. http://www.cs.ox.ac.uk/files/6665/SPARQL-ISWC.pdf
+69. http://korrekt.org/papers/Bischof-Kroetzsch-Polleres-Rudolph_Schema-Agnostic-Query-Rewriting_ISWC-2014-TR.pdf
+70. http://ceur-ws.org/Vol-1350/paper-12.pdf
+71. https://www.cs.ox.ac.uk/files/3130/paper.pdf
+72. http://www.uni-ulm.de/fileadmin/website_uni_ulm/iui.inst.090/Publikationen/2011/Glim11a.pdf
+
+## NEW RESOURCES ADDED AND INDEXED SEPT. 28, 2015
+73. http://www.obitko.com/tutorials/ontologies-semantic-web/rdf-schema-rdfs.html
+74. https://www.youtube.com/watch?v=R3k36WFqhKw
+75. https://www.youtube.com/watch?v=VRXhAUY2vIA
+76. https://www.youtube.com/watch?v=WztnSLdbAf4
+77. https://www.youtube.com/watch?v=6g7XbGvH7Lc
+78. https://www.youtube.com/watch?v=hcahQfN5u9Y
+79. http://videolectures.net/sssc2011_norton_rdf/?q=RDF%20Schema
+80. http://videolectures.net/iswc2011_ferreira_practical/
+81. http://videolectures.net/iswc2014_patel_schneider_analyzing_schema/?q=RDF%20Schema
+82. http://videolectures.net/ocwc2014_barker_schema/?q=%22schema.org%22
+83. http://videolectures.net/eswc2015_paulheim_schema_org/?q=%22schema.org%22
+84. http://videolectures.net/iswc2013_guha_tunnel/?q=%22schema.org%22
+85. http://videolectures.net/iswc2011_panel/?q=%22schema.org%22
+86. http://videolectures.net/iswc2014_bizer_topical_domains/?q=%22schema.org%22
+87. http://www.isi.edu/expect/web/semanticweb/comparison.html
+
+## NEW RESOURCES ADDED AND INDEXED SEPT. 30, 2015
+88. https://www.youtube.com/watch?v=_-6mhdjE1XE
+89. https://www.youtube.com/watch?v=qTafYjhQLPU
+90. http://videolectures.net/eswc2015_mendel_gleason_linked_data/?q=RDF%20Schema
+91. http://videolectures.net/eswc2012_norton_semantic_data/?q=RDF%20Schema
+92. http://videolectures.net/eswc2014_schreiber_knowledge_engineering/?q=RDF%20Schema
+93. https://www.youtube.com/watch?v=oY0NJgDMtC0
+94. https://www.youtube.com/watch?v=YXpzHJl0iiA
+95. http://videolectures.net/eswc2010_bechhofer_sppf/
+
+## NEW RESOURCES ADDED AND INDEXED OCT. 1, 2015
+96. http://www.gordondunsire.com/pubs/docs/FromContentStandard2RDF.pdf
+97. http://kennison.name/files/zopestore/uploads/metadata/DC-Profile.pdf
+98. https://wiki1.hbz-nrw.de/display/SEM/2013/08/01/Sharing+context+-+publishing+application+profiles+with+JSON-LD
+99. https://wiki1.hbz-nrw.de/display/SEM/2013/11/13/Providing+machine-readable+application+profiles+with+OAI-ORE
+100. http://www.diva-portal.org/smash/get/diva2:369527/FULLTEXT02.pdf
+
+## NEW RESOURCES ADDED AND INDEXED OCT. 3, 2015
+101. http://videolectures.net/estc2010_blumauer_drswd/
+102. https://journals.tdl.org/jodi/index.php/jodi/article/viewFile/40/43
+103. https://courses.washington.edu/is530/win08/lecture%20notes/7.5%20Namespaces%20and%20Application%20Profiles.pdf
+104. https://ecommons.cornell.edu/bitstream/handle/1813/9371/AP_paper_final.pdf?sequence=1&isAllowed=y
+105. http://www10.org/cdrom/papers/572/
+
+## NEW RESOURCES ADDED AND INDEXED OCT. 8, 2015
+106. http://www.dataversity.net/introduction-to-triplestores/
+107. http://ceur-ws.org/Vol-1015/paper_16.pdf
+108. http://www.slideshare.net/marin_dimitrov/rdf-sparql-and-semantic-repositories
+109. http://wifo5-03.informatik.uni-mannheim.de/bizer/pub/Bizer-Schultz-Berlin-SPARQL-Benchmark-IJSWIS.pdf
+110. http://www.researchgate.net/publication/220854085_Integrating_Open_Sources_and_Relational_Data_with_SPARQL
+111. http://www.activeraul.org/index.html
+112. http://www.gdmc.nl/publications/2014/Linking_spatial_data.pdf
+113. http://asio.bbn.com/terracognita2008/presentations/OrdnanceSurvey.pdf
+114. http://homepages.cwi.nl/~boncz/msc/2014-Passing.pdf
+115. http://ceur-ws.org/Vol-395/paper03.pdf
+
+## NEW RESOURCES ADDED AND INDEXED OCT. 9, 2015
+116. https://jazz.net/wiki/bin/view/LinkedData/PublishingRdfVocabularies
+117. http://ceur-ws.org/Vol-401/iswc2008pd_submission_30.pdf
+118. http://www.doi.org/VMF/
+119. http://www.doi.org/VMF/documents/VocabularyMappingFrameworkIntroductionV1.0(091212).pdf
+120. http://www.dlib.org/dlib/may98/miller/05miller.html
+
+## NEW RESOURCES ADDED (BUT NOT INDEXED) OCT. 19, 2015
+121. http://explore.dublincore.net/rdf/lrmi/#/resource
+122. http://dx.doi.org/10.1109/MIC.2011.141
+123. http://linkeddatafragments.org/publications/ldow2014.pdf
+124. https://cs.uwaterloo.ca/~ohartig/files/Hartig_SIGMOD2013Demo_Preprint.pdf
+125. https://cs.uwaterloo.ca/~ohartig/files/HartigOzsu_WWW2014_Preprint.pdf
+126. http://dsg.uwaterloo.ca/LDQTut2013/LDQTut2013_1.pdf
+127. http://dsg.uwaterloo.ca/LDQTut2013/LDQTut2013_2.pdf
+128. http://dsg.uwaterloo.ca/LDQTut2013/LDQTut2013_3.pdf
+129. http://dsg.uwaterloo.ca/LDQTut2013/LDQTut2013_4.pdf
+130. http://dsg.uwaterloo.ca/LDQTut2013/LDQTut2013_5.pdf
+131. http://km.aifb.kit.edu/ws/sumpre2015/QueryVOWL_HSWI.pdf
+132. http://ceur-ws.org/Vol-992/paper3.pdf
+133. http://www.semantic-web-journal.net/system/files/swj1096.pdf
+134. https://www.lri.fr/~hamdi/datalift/tuto_inspire_2012/Suggestedreadings/egovld.pdf
+135. http://www.cs.toronto.edu/~oktie/slides/publishing-relational-databases-as-linked-data.pdf
+136. http://www.cs.toronto.edu/~oktie/slides/web-of-data-intro.pdf
+137. http://wifo5-03.informatik.uni-mannheim.de/bizer/pub/Schultz-et-al-LDIF-WWW2012-DevTrack.pdf
+
+##NEW RESOURCES ADDED AND INDEXED NOVEMBER 5, 2015
+138. http://callimachusproject.org/docs/1.1/articles/crud-operations-on-rdf-content.docbook?view
+139. https://anandavala.wordpress.com/2013/06/02/sparql-update-example-code-for-create-insert-delete-edit/
+140. http://www.databaseskill.com/2506239/
+141. http://www.openvest.com/trac/wiki/RDFAlchemy
+142. https://www.cs.mcgill.ca/files/techReports/SPARQL_2012.pdf
+
+##NEW RESOURCES ADDED AND INDEXED NOVEMBER 6, 2015
+143. http://www.euclid-project.eu/content/chapter-1-quiz
+144. http://www.euclid-project.eu/modules/course2
+145. http://www.euclid-project.eu/content/chapter-2-quiz
+146. http://www.euclid-project.eu/modules/course3
+147. http://www.euclid-project.eu/content/chapter-3-quiz
+148. http://www.euclid-project.eu/modules/course4*
+149. http://www.euclid-project.eu/modules/course5*
+150. http://www.euclid-project.eu/modules/course6*
+151. http://www.euclid-project.eu/content/chapter-4-quiz*
+152. http://www.euclid-project.eu/content/chapter-5-quiz*
+153. http://www.euclid-project.eu/content/chapter-6-quiz*
+
+NEW RESOURCES ADDED AND INDEXED NOVEMBER 7, 2015
+154. http://eswc-conferences.org/sites/default/files/papers2013/costabello.pdf 
+155. http://dhirajpatra.blogspot.com/2011/05/building-semantic-web-crud-operations.html
+156. http://www.marklogic.com/resources/marklogic-semantics-hood/resource_download/presentations/
+157. http://tutorial-academy.com/apache-jena-tdb-crud-operations/
+158. http://www.w3.org/TR/sparql11-http-rdf-update/
+
+NEW RESOURCES ADDED AND INDEXED NOVEMBER 9, 2015
+159. http://www.academictutorials.com/quiz.asp?id=33
+160. http://www.academictutorials.com/rdf/rdf-concepts.asp
+161. http://www.academictutorials.com/rdf/rdf-xml-syntax.asp
+162. http://www.academictutorials.com/schema/schema-why.asp
+163. https://web.fe.up.pt/~jlopes/doku.php/teach/lapd/lectures/09
+164. https://web.fe.up.pt/~jlopes/doku.php/teach/lapd/lectures/10
+165. https://web.fe.up.pt/~jlopes/doku.php/teach/lapd/lectures/11*
+166. https://web.fe.up.pt/~jlopes/doku.php/teach/lapd/q4-en*
+
+NEW RESOURCES ADDED AND INDEXED NOVEMBER 12, 2015
+167. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/1-full.pdf *
+168. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/2-full.pdf
+169. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/3-full.pdf
+170. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/4-full.pdf
+171. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/5-full.pdf
+172. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/6-full.pdf
+173. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/7-full.pdf
+174. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/8-full.pdf
+175. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/9-full.pdf
+176. http://www.inf.ed.ac.uk/teaching/courses/masws/lectures-14/10-full.pdf
+
+*These were not indexed to any competencies because the Competency Index does not currently have any that 
+fit the topics these resources cover.  
+

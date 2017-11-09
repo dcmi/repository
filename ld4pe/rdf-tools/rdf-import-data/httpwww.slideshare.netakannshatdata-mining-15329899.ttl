@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/akannshat/data-mining-15329899>
+  a schema:CreativeWork ;
+  schema:name "Data Mining: Concepts and techniques"@en-US ;
+  schema:author "Totewar, Akannsha"@en-US ;
+  schema:description "This presentation defines and explains the need for/benefits of data mining. It describes the KDD process for data cleaning, data integration, data selection, transformation, data mining, pattern evaluation, and knowledge presentation. It also discusses data mining functionalities: characterization, discrimination, association, classification, clustering, outliers and trend analysis."@en-US ;
+  schema:dateCreated "2012-11-24T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Data Warehouse"@en-US, "Data Mining"@en-US, "Data Visualization"@en-US, "KDD"@en-US, "OLAM"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,41 @@
+Fundamentals of Resource Description Framework 
+    Identity in RDF 
+    RDF data model 
+    Related data models
+    RDF serialization
+
+Fundamentals of Linked Data
+    Web technology
+    Linked data principles
+    Linked Data policies and best practices
+    Non-RDF Linked Data
+
+RDF vocabularies and application profiles
+    Finding RDF-based vocabularies
+    Designing RDF-based vocabularies
+    Maintaining RDF vocabularies
+    Versioning RDF vocabularies
+    Publishing RDF vocabularies
+    Mapping RDF vocabularies
+    RDF application profiles
+
+Creating and transforming RDF Data
+    Managing identifiers (URIs)
+    Creating RDF data
+    Versioning RDF data
+    RDF data provenance
+    Cleaning and reconciling RDF data
+    Mapping and enriching RDF data
+
+Interacting with RDF Data
+    Finding RDF Data
+    Processing RDF data using programming languages
+    Querying RDF Data
+    Visualizing RDF Data
+    Reasoning over RDF data
+    Assessing RDF data quality
+    RDF Data analytics
+    Manipulating RDF Data
+
+Creating Linked Data applications
+    Storing RDF data

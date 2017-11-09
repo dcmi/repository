@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=5tsyz3ibYzk>
+  a schema:CreativeWork ;
+  schema:name "Google Refine 2.0 - Data Augmentation (3 of 3) (video version 2)"@en-US ;
+  schema:description "This tutorial shows how to use Google Refine (now Open Refine) to add value to your dataset (and/or disambiguate entries) by accessing other datasets. One example uses Open Street Map to add longitude and latitude coordinates to a list containing street addresses. Another example uses Googles language detection service to separate entries by language. A third example shows how to reconcile movie titles with the IDs used by Freebase, allowing you to link all of the Freebase data about those movies with your titles. NOTE: Knowledge of GREL (Google Regular Expression Language) is necessary."@en-US ;
+  schema:dateCreated "2011-07-19T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Google Refine"@en-US, "Open Refine"@en-US, "Raw Data"@en-US, "Data Enrichment"@en-US ;
+  schema:publisher "Google Refine"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

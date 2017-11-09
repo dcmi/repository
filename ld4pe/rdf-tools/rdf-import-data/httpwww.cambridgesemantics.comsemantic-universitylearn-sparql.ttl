@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.cambridgesemantics.com/semantic-university/learn-sparql>
+  a schema:CreativeWork ;
+  schema:name "Learn SPARQL"@en-US ;
+  schema:description "Topic Cluster: Searching and querying; Topic: Anatomy of a simple SPARQL query; Topic: Querying RDF data using SPARQL. This set of lessons is an introduction to SPARQL, the Semantic Web query language. The lessons begin with a basic SPARQL tutorial for beginners and also include detailed coverage of SPARQL 1.1 query features and a comparison of SPARQL and SQL. The Lessons: SPARQL 101 - SPARQL is the query language of the Semantic Web; SPARQL Nuts & Bolts - builds on SPARQL 101 with an introduction to syntax and query examples; SPARQL by Example - an example- driven, in-depth introduction to the SPARQL query language; SPARQL vs. SQL -an in-depth look into how the two major query languages, SPARQL and SQL, compare."@en-US ;
+  schema:about "SPARQL"@en-US, "Query"@en-US, "Dataset, RDF"@en-US, "RDF"@en-US, "Graph"@en-US, "SPARQL endpoint"@en-US, "SQL"@en-US ;
+  schema:publisher "Cambridge Semantics"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/unit>, <http://purl.org/dcx/lrmi-vocabs/learningResourceType/lesson> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

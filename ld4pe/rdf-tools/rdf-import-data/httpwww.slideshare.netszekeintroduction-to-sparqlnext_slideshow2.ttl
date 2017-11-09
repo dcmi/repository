@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/szeke/introduction-to-sparql?next_slideshow=2>
+  a schema:CreativeWork ;
+  schema:name "Introduction to SPARQL"@en-US ;
+  schema:author "Szekely, Pedro"@en-US ;
+  schema:description "A simple introduction to SPARQL based on the W3C documentation. Falls under the Competency: Understands the SPARQL 1.1 query language, protocol, functions and operators."@en-US ;
+  schema:dateCreated "2013-05-21T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "SPARQL"@en-US, "SPARQL endpoint"@en-US, "Query"@en-US, "Dataset, RDF"@en-US, "Graph"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

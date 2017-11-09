@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.linkeddatatools.com/introducing-rdf-part-2>
+  a schema:CreativeWork ;
+  schema:name "Tutorial 2: Introducing RDF/XML"@en-US ;
+  schema:author "LinkedDataTools.com"@en-US ;
+  schema:description "After this tutorial, you should be able to: Formally understand RDF statements, including objects as resources and literals. Write basic RDF documents in RDF/XML. Understand how RDF identifies resources using URIs (Universal Resource Identifiers). Understand why RDF is ideal for what it is built for: exchanging information, globally."@en-US ;
+  schema:dateCreated "2009-01-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "RDF"@en-US, "RDF/XML"@en-US, "URIs"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

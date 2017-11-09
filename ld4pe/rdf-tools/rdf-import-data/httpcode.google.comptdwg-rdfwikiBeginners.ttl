@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://code.google.com/p/tdwg-rdf/wiki/Beginners>
+  a schema:CreativeWork ;
+  schema:name "Beginners Guide to RDF"@en-US ;
+  schema:author "TDWG RDF/OWL Task Group"@en-US ;
+  schema:description "This document provides concise information about topics related to RDF and OWL in the context of the biodiversity informatics community. It is intended as an introduction for persons who are not already familiar with RDF and OWL and as a reference for persons who are familiar but would like organized access to additional reference material."@en-US ;
+  schema:dateCreated "2012-02-17T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "RDF"@en-US, "OWL"@en-US, "Ontology"@en-US, "Vocabulary"@en-US, "SPARQL"@en-US, "Query"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity>, <http://purl.org/dcx/lrmi-vocabs/learningResourceType/text> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,1490 @@
+{
+  "http://purl.org/dcx/pet/vocabs/LDtopics/": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+        "type": "uri"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "value": "Linked Data Subject Vocabulary",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/description": [
+      {
+        "value": "This vocabulary is used for the topical indexing of learning resources in the DCMI Exploratorium.",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/creator": [
+      {
+        "value": "DCMI/LD4PE Task Group",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "value": "2015-09-12",
+        "type": "literal",
+        "datatype": "http://purl.org/dc/terms/W3CDTF"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "value": "2016-11-02",
+        "type": "literal",
+        "datatype": "http://purl.org/dc/terms/W3CDTF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld01",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld02",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld03",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld04",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld05",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld06",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld01": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Fundamentals of Resource Description Framework",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "value": "2016-09-26",
+        "type": "literal",
+        "datatype": "http://purl.org/dc/terms/W3CDTF"
+      }
+    ],
+    "http://dbpedia.org/ontology/thumbnail": [
+      {
+        "value": "http://www.fadyart.com/en/images/stories/rdf.png",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld07",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld08",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld09",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld10",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld07": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Identity in RDF",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld01",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld08": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "RDF data model",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "value": "2016-09-26",
+        "type": "literal",
+        "datatype": "http://purl.org/dc/terms/W3CDTF"
+      }
+    ],
+    "http://dbpedia.org/ontology/thumbnail": [
+      {
+        "value": "http://image.slidesharecdn.com/lodfundamentals-121022003614-phpapp02/95/linked-open-data-fundamentals-for-libraries-archives-and-museums-17-638.jpg?cb=1350902670",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld01",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld09": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Related data models",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld01",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld10": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "RDF serialization",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld01",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld02": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Fundamentals of Linked Data",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1005",
+        "type": "uri"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "value": "2016-09-26",
+        "type": "literal",
+        "datatype": "http://purl.org/dc/terms/W3CDTF"
+      }
+    ],
+    "http://dbpedia.org/ontology/thumbnail": [
+      {
+        "value": "https://www.w3.org/2010/10/five-star/linked_data",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld11",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld12",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld14",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld15",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld11": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Web technology",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1005",
+        "type": "uri"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "value": "2016-09-26",
+        "type": "literal",
+        "datatype": "http://purl.org/dc/terms/W3CDTF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld02",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld12": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Linked Data principles",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1005",
+        "type": "uri"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "value": "2016-09-26",
+        "type": "literal",
+        "datatype": "http://purl.org/dc/terms/W3CDTF"
+      }
+    ],
+    "http://dbpedia.org/ontology/thumbnail": [
+      {
+        "value": "https://www.w3.org/2010/10/five-star/linked_data",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld02",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld14": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Linked Data policies and best practices",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1005",
+        "type": "uri"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "value": "2016-09-26",
+        "type": "literal",
+        "datatype": "http://purl.org/dc/terms/W3CDTF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld02",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld15": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Non-RDF linked data",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1005",
+        "type": "uri"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "value": "2016-09-26",
+        "type": "literal",
+        "datatype": "http://purl.org/dc/terms/W3CDTF"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld02",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld03": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "RDF vocabularies and application profiles",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld16",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld17",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld18",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld19",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld20",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld21",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld39",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld16": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Finding RDF-based vocabularies",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld03",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld17": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Maintaining RDF vocabularies",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld03",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld18": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Versioning RDF vocabularies",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld03",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld19": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Publishing RDF vocabularies",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld03",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld20": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Mapping RDF vocabularies",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld03",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld21": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "RDF application profiles",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld03",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld39": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Designing RDF-based vocabularies",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld03",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld04": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Creating and Transforming Linked Data",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld22",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld23",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld24",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld25",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld26",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld27",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld22": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Managing identifiers (URI)",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld04",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld23": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Creating RDF data",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld04",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld24": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Versioning RDF data",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld04",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld25": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "RDF data provenance",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld04",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld26": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Cleaning and reconciling RDF data",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld04",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld27": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Mapping and enriching RDF data",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld04",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld05": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Interacting with Linked Data",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "value": "2016-09-26",
+        "type": "literal",
+        "datatype": "http://purl.org/dc/terms/W3CDTF"
+      }
+    ],
+    "http://dbpedia.org/ontology/thumbnail": [
+      {
+        "value": "http://lod-cloud.net/versions/2010-09-22/lod-cloud_colored.png",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld28",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld29",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld30",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld31",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld32",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld33",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld37",
+        "type": "uri"
+      },
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld38",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld28": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Processing RDF data using programming languages",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld05",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld29": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Querying RDF data",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld05",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld30": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Visualizing RDF data",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld05",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld31": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Reasoning over RDF data",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld05",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld32": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Assessing RDF data quality",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld05",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld33": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "RDF data analytics",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld05",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld37": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Finding RDF data",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld05",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld38": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Manipulating RDF data",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1001",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld05",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld06": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Creating Linked Data applications",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1002",
+        "type": "uri"
+      }
+    ],
+    "http://purl.org/dc/terms/modified": [
+      {
+        "value": "2016-09-26",
+        "type": "literal",
+        "datatype": "http://purl.org/dc/terms/W3CDTF"
+      }
+    ],
+    "http://dbpedia.org/ontology/thumbnail": [
+      {
+        "value": "https://www.w3.org/Icons/SW/sw-horz-w3c",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld34",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ]
+  },
+  "http://purl.org/dcx/pet/vocabs/LDtopics/ld34": {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "value": "http://www.w3.org/2004/02/skos/core#Concept",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "value": "Storing RDF data",
+        "type": "literal",
+        "lang": "en-US"
+      }
+    ],
+    "http://metadataregistry.org/uri/RegStatus": [
+      {
+        "value": "http://metadataregistry.org/uri/RegStatus/1002",
+        "type": "uri"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld06",
+        "type": "uri"
+      }
+    ]
+  }
+}

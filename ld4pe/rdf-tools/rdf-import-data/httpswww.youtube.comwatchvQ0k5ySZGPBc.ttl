@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=Q0k5ySZGPBc>
+  a schema:CreativeWork ;
+  schema:name "An Introduction to XML: The Basics Part 1"@en-US ;
+  schema:author "IBM developerWorks"@en-US ;
+  schema:description "An Introduction to XML provides students and entry-level professionals with demonstrations of the basics of learning XML, covering topics such as Web 2.0, AJAX, RSS, Web Services and managing XML data."@en-US ;
+  schema:dateCreated "2010-01-25T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "XML"@en-US ;
+  schema:publisher "TheOnDemandDemoGuy"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

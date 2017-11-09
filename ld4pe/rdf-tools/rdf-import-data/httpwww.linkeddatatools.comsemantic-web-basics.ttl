@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.linkeddatatools.com/semantic-web-basics>
+  a schema:CreativeWork ;
+  schema:name "Introducing Linked Data And The Semantic Web"@en-US ;
+  schema:author "LinkedDataTools.com"@en-US ;
+  schema:description "An overview of what Linked Data is and why it is useful- in essence, taking all the information published in HTML documents in different places, and allowing the description of models of data that allow it all to be treated - and researched - as if it were one database. The benefits to the automated research of all the data humanity has to offer on the internet in comparison to todays tools and software are tremendous."@en-US ;
+  schema:dateCreated "2009-01-01T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Semantic Web"@en-US, "Web 3.0"@en-US, "Web of Data"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=nUdHneViLp4>
+  a schema:CreativeWork ;
+  schema:name "Apache Jena Tutorial: Using SPARQL with Jena to Query RDF Document"@en-US ;
+  schema:description "This tutorial (the fourth in a series of four), shows how to use integrated Apache Jena objects to query a RDF document using SPARQL. Shows how to use several SPARQL keywords. Also briefly reviews the FOAF vocabulary."@en-US ;
+  schema:dateCreated "2013-06-04T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "SPARQL"@en-US, "Query"@en-US, "Apache Jena"@en-US, "FOAF"@en-US ;
+  schema:publisher "Betacoding"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

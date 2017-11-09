@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://www.youtube.com/watch?v=Tm3fD89dqRE>
+  a schema:CreativeWork ;
+  schema:name "JSON-LD: Compaction and Expansion"@en-US ;
+  schema:author "Sporny, Manu"@en-US ;
+  schema:description "Info about specific RDF serializations (JSON-LD, Turtle); Competency: Understands the distinction between the RDF data model and its various serializations. An overview of JSON-LDs compaction and expansion features and how you can use them to merge data from multiple sources."@en-US ;
+  schema:dateCreated "2015-02-17T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "JSON-LD"@en-US, "URL"@en-US ;
+  schema:publisher "ETS"@en-US, "Accreditrust"@en-US, "Digital Bazaar"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://coffeecode.net/rdfa/codelab/>
+  a schema:CreativeWork ;
+  schema:name "Structured Data with Schema.org Codelab"@en-US ;
+  schema:author "Scott, Dan"@en-US ;
+  schema:description "Topic: Generating RDF instance data; Competency: Creates RDFa markup for HTML pages using an RDF schema. In this Codelab, we to take a simple web page that contains a Codelab and enhance it so that it contains structured data. You will use the schema.org vocabulary and express it via RDFa attributes."@en-US ;
+  schema:dateCreated "2014-01-29T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Schema.org"@en-US, "RDFa"@en-US, "Hypertext Markup Language (HTML)"@en-US, "Controlled Vocabulary"@en-US, "Ontology"@en-US, "Properties"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

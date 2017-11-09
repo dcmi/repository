@@ -1,0 +1,194 @@
+[
+    {
+        "label": "Identity in RDF",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld07",
+        "type": "uri",
+        "group": "Fundamentals of Resource Description Framework"
+    },
+    {
+        "label": "RDF data model",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld08",
+        "type": "uri",
+        "group": "Fundamentals of Resource Description Framework"
+    },
+    {
+        "label": "Related data models",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld09",
+        "type": "uri",
+        "group": "Fundamentals of Resource Description Framework"
+    },
+    {
+        "label": "RDF serialization",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld10",
+        "type": "uri",
+        "group": "Fundamentals of Resource Description Framework"
+    },
+    {
+        "label": "Web technology",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld11",
+        "type": "uri",
+        "group": "Fundamentals of Linked Data"
+    },
+    {
+        "label": "Linked Data principles",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld12",
+        "type": "uri",
+        "group": "Fundamentals of Linked Data"
+    },
+    {
+        "label": "Linked Data architectures and services",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld13",
+        "type": "uri",
+        "group": "Fundamentals of Linked Data"
+    },
+    {
+        "label": "Linked Data policies and best practices",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld14",
+        "type": "uri",
+        "group": "Fundamentals of Linked Data"
+    },
+    {
+        "label": "Non-RDF Linked Data",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld15",
+        "type": "uri",
+        "group": "Fundamentals of Linked Data"
+    },
+    {
+        "label": "Finding RDF vocabularies",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld16",
+        "type": "uri",
+        "group": "RDF vocabularies"
+    },
+    {
+        "label": "Maintaining RDF vocabularies",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld17",
+        "type": "uri",
+        "group": "RDF vocabularies"
+    },
+    {
+        "label": "Versioning RDF vocabularies",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld18",
+        "type": "uri",
+        "group": "RDF vocabularies"
+    },
+    {
+        "label": "Publishing RDF vocabularies",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld19",
+        "type": "uri",
+        "group": "RDF vocabularies"
+    },
+    {
+        "label": "Mapping RDF vocabularies",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld20",
+        "type": "uri",
+        "group": "RDF vocabularies"
+    },
+    {
+        "label": "RDF application profiles",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld21",
+        "type": "uri",
+        "group": "RDF vocabularies"
+    },
+    {
+        "label": "Managing identifiers (URI)",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld22",
+        "type": "uri",
+        "group": "Creating and transforming Linked Data"
+    },
+    {
+        "label": "Creating RDF data",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld23",
+        "type": "uri",
+        "group": "Creating and transforming Linked Data"
+    },
+    {
+        "label": "Versioning RDF data",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld24",
+        "type": "uri",
+        "group": "Creating and transforming Linked Data"
+    },
+    {
+        "label": "RDF data provenance",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld25",
+        "type": "uri",
+        "group": "Creating and transforming Linked Data"
+    },
+    {
+        "label": "Cleaning and reconciling RDF data",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld26",
+        "type": "uri",
+        "group": "Creating and transforming Linked Data"
+    },
+    {
+        "label": "Mapping and enriching RDF data",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld27",
+        "type": "uri",
+        "group": "Creating and transforming Linked Data"
+    },
+    {
+        "label": "Finding RDF data",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld37",
+        "type": "uri",
+        "group": "Interacting with RDF data"
+    },
+    {
+        "label": "Programming RDF data",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld28",
+        "type": "uri",
+        "group": "Interacting with RDF data"
+    },
+    {
+        "label": "Querying RDF data",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld29",
+        "type": "uri",
+        "group": "Interacting with RDF data"
+    },
+    {
+        "label": "Visualizing RDF data",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld30",
+        "type": "uri",
+        "group": "Interacting with RDF data"
+    },
+    {
+        "label": "Reasoning over RDF",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld31",
+        "type": "uri",
+        "group": "Interacting with RDF data"
+    },
+    {
+        "label": "Assessing RDF data quality",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld32",
+        "type": "uri",
+        "group": "Interacting with RDF data"
+    },
+    {
+        "label": "RDF data analytics",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld33",
+        "type": "uri",
+        "group": "Interacting with RDF data"
+    },
+    {
+        "label": "Manipulating RDF data",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld38",
+        "type": "uri",
+        "group": "Interacting with RDF data"
+    },
+    {
+        "label": "Storing RDF data",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld34",
+        "type": "uri",
+        "group": "Creating Linked Data applications"
+    },
+    {
+        "label": "Linked Data application architecture",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld35",
+        "type": "uri",
+        "group": "Creating Linked Data applications"
+    },
+    {
+        "label": "Linked Data mashups",
+        "value": "http://purl.org/dcx/pet/vocabs/LDtopics/ld36",
+        "type": "uri",
+        "group": "Creating Linked Data applications"
+    }
+]

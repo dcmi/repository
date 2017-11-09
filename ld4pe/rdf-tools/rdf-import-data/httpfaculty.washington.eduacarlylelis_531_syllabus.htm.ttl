@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://faculty.washington.edu/acarlyle/lis_531_syllabus.htm>
+  a schema:CreativeWork ;
+  schema:name "LIS 531 Catalogs, Cataloging, and Classification"@en-US ;
+  schema:author "Carlyle, Allyson"@en-US ;
+  schema:description "Course purpose: To increase your understanding, building on what you have learned in LIS 530, of the following: the use and users of bibliographic information the nature of bibliographic information the tools and practices of standard library cataloging the ways in which bibliographic information may be organized in online catalogs how library systems, including rules and catalogs, may be evaluated theory and issues related to library cataloging. To enable you to do basic cataloging and classification of library materials. To enhance your ability to use and evaluate library catalogs."@en-US ;
+  schema:about "Cataloging"@en-US, "MARC formats"@en-US ;
+  schema:publisher "Information School, University of Washington"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

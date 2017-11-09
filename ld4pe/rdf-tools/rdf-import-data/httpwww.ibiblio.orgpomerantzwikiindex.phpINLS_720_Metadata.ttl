@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.ibiblio.org/pomerantz/wiki/index.php/INLS_720:_Metadata>
+  a schema:CreativeWork ;
+  schema:name "INLS720: Metadata Architectures and Applications"@en-US ;
+  schema:author "Pomerantz, Jeffrey"@en-US ;
+  schema:description "INLS 720, Metadata Architectures and Applications, explores the role of metadata in our evolving information ecosystem(s); an emphasis is placed on metadata the digital environment. The course examines the development and use of metadata schemas in distinct information communities (e.g., digital libraries, museums, and archives; scientific data centers; governmental organizations; educational and learning environments; commerce enterprises; and personal information systems -- to name only a few). Among selected topics covered are interoperability, metadata models, ontologies, metadata for the semantic web, metadata generation, metadata and search engines, metadata quality, and the evaluation of metadata schemas and tools. The course introduces enabling technologies used to create machine-understandable metadata (e.g., XML and RDF). In class exercises and assignments provide practical experience."@en-US ;
+  schema:about "Metadata"@en-US, "Information Organization"@en-US, "Semantic Web"@en-US ;
+  schema:publisher "School of Information and Library Science, University of North Carolina- Chapel Hill"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/course> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

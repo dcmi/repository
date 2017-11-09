@@ -1,0 +1,12 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.cambridgesemantics.com/semantic-university/introduction-semantic-web-0>
+  a schema:CreativeWork ;
+  schema:name "Introduction to the Semantic Web"@en-US ;
+  schema:description "Topic Cluster: RDF & Linked Data fundamentals; Topic: Lifecycle of Linked Data; Topic: Background technologies. After completing this lesson, you will know: 1) How Semantic Web technology fits in to the past, present, and future evolution of the Internet. 2) How Semantic Web technology differs from existing data-sharing technologies, such as relational databases and the current state of the World Wide Web. 3) The three primary international standards that help define the Semantic Web."@en-US ;
+  schema:about "Linked Data"@en-US, "Semantic Web"@en-US, "Web 3.0"@en-US, "Web of Data"@en-US, "RDF"@en-US, "SPARQL"@en-US, "Web Ontology Language (OWL)"@en-US ;
+  schema:publisher "Cambridge Semantics"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+

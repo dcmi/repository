@@ -1,0 +1,14 @@
+[
+    {
+        "label": "LRMI (LD4PE)",
+        "path": "lrmi-ld4pe"
+    },
+    {
+        "label": "LRMI (ES)",
+        "path": "lrmi-es"
+    },
+    {
+        "label": "LRMI (KO)",
+        "path": "lrmi-ko"
+    }
+]

@@ -1,0 +1,107 @@
+|Competency Index for RDF & Linked Data
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|-- Topic Cluster: RDF & Linked Data fundamentals
+|---- Topic: Lifecycle of Linked Data
+|------ Competency: @@@
+|---- Topic: Background technologies
+|------ Subtopic: @@@
+|---- Topic: Background standards
+|------ Competency: @@@
+|---- Topic: Existing key vocabularies and their namespaces
+|------ Competency: Investigates, evaluates and keeps abreast of significant developments in RDF vocabularies
+|-------- Skills and Knowledge: Searches to discover new and useful RDF vocabularies and application profiles
+|-------- Skills and Knowledge: Monitors changes to existing RDF vocabularies and application profiles
+|---- Topic: RDF data model
+|------ Competency: Demonstrates understanding of the abstract data model of RDF as a directed labeled graph
+|------ Competency: Understands the distinction between the RDF data model and the it's various serializations
+|------ Competency: Demonstrates an understanding of the naming of anything that can be identified with URI including agents, places, events, artifacts and concepts
+|------ Competency: Understands the grammatical components of the RDF triple - SUBJECT, PREDICATE, OBJECT
+|------ Competency: Distinguishes between data type properties and object properties
+|------ Competency: Understand and use RDFS in defining and interpreting RDF vocabularies
+|------ Competency: Understands and explains the differences and similarities between the RDF abstract data model and the XML and relational (Codd) abstract data models
+|------ Competency: Understands the uses and roles of domain and ranges
+|------ Competency: Understands inferencing and the means by which it is achieved
+|------ Competency: Understands the distinction between a validating schema (e.g., .xsd) and an inferencing schema (e.g., .rdf, .owl) as well as the benefits and limitations of each
+|---- Topic: Policy & best practice development
+|------ Competency: Develops policies for creation and management of RDF vocabularies
+|-------- Skills and Knowledge: Develops and documents namespace policies for managing ongoing development of RDF vocabularies
+|-------- Skills and Knowledge: Adheres to namespace policies in managing RDF vocabularies
+|---- Topic: Perspectives, dispositions and habits of mind
+|------ Competency: Participates in development and maintenance activities of RDF vocabularies and application profiles
+|-------- Skills and Knowledge: Actively participates in development of specifications and standards for best practice with relevant organizations such as W3C
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|-- Topic Cluster: Searching and querying
+|---- Topic: Discovery of RDF vocabularies and data sets
+|------ Competency: Monitors registries and referatories of RDF vocabularies, OWL ontologies and RDF data stores
+|---- Topic: Assessment of RDF vocabularies and data sets
+|------ Competency: @@@
+|---- Topic: Anatomy of a simple SPARQL query
+|------ Competency: @@@
+|---- Topic: Querying RDF data using SPARQL
+|------ Competency: Understands the SPARQL 1.1 query language, protocol, functions and operators
+|------ Competency: Uses query forms including ASK, SELECT, DESCRIBE, CONSTRUCT
+|------ Competency: Uses query patterns including BGP, UNION, OPTIONAL, FILTER
+|------ Competency: Uses sequence modifiers including DISTINCT, REDUCED, ORDER BY, LIMIT, OFFSET
+|---- Topic: Updating RDF with SPARQL 1.1
+|------ Competency: Performs data management using INSERT, DELETE, DELETE/INSERT
+|------ Competency: Performs graph management using LOAD, CLEAR, CREATE, DROP, COPY/MOVE/ADD
+|---- Topic: Reasoning over RDF
+|------ Competency: Understands how reasoning and data integration can be achieved by utilizing domain knowledge embodied in RDFS and OWL
+|------ Competency: Utilizes the entailment regimes of RDFS and SPARQL 1.1 and understands their limitations
+|------ Competency: Understands OWL properties, property axioms, axioms and class constructions in reasoning
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|-- Topic Cluster: Creating, publishing and manipulating RDF
+|---- Topic: Creating a domain model
+|------ Competency: Understands the domain being modeled
+|-------- Skills and Knowledge: Models domain without application context--i.e., without having in mind a particular Web application or service
+|-------- Skills and Knowledge: Obtains a copy of the logical and physical model when creating the model from an existing database
+|-------- Skills and Knowledge: Investigates how others are already describing the domain, or a similar domain or related data
+|-------- Skills and Knowledge: Identifies classes of real world entities (things) of interest to the domain being modeled such as people, organizations, places, products or other artifacts or naturally occurring things, events and concepts
+|------ Competency: Creates a graphical representation of the domain entities and the relationships among them
+|-------- Skills and Knowledge: Creates and iterates through versions of an emergent entity-relationship model for the domain (e.g., on paper or a whiteboard)
+|-------- Skills and Knowledge: Uses a graphing or modeling tool to organize the objects and labeled relationship for sharing and review by others
+|---- Topic: Creating a new RDF vocabularies
+|------ Competency: Understands the role of RDFS and uses it in defining new RDF vocabularies
+|-------- Skills and Knowledge: @@@
+|------ Competency: Follows naming conventions in coining new terms (properties & classes)
+|-------- Skills and Knowledge: Names properties beginning with a lower case letter
+|-------- Skills and Knowledge: Uses camel case if a term is created by concatenating more than one word
+|-------- Skills and Knowledge: Begins class names with an uppercase (capital) letter and in singular form
+|-------- Skills and Knowledge: Defines data type properties as nouns
+|-------- Skills and Knowledge: Defines object properties as verbs
+|------ Competency: Creates new terms (properties & classes) following commonly agreed upon conventions and best practices
+|-------- Skills and Knowledge: Researches existing terms and their usage to avoid unnecessary creation of new terms and to maximizes re-use of existing terms
+|-------- Skills and Knowledge: Creates sub-classes, sub-properties and super-classes when new terms can be seen as specializations of existing terms in order to support interoperability and inferencing
+|-------- Skills and Knowledge: Avoids adding new semantics to existing terms
+|-------- Skills and Knowledge: Creates well defined terms (properties & classes) with well designed persistent URIs
+|-------- Skills and Knowledge: Ensures that the RDF schemas developed remain stable for a long, indefinite time
+|-------- Skills and Knowledge: Publishes RDF schemas in multiple formats for consumption by humans and machines
+|------ Competency: Determines the namespace (or namespaces) in which any new classes and properties to be created from the domain model will be defined
+|---- Topic: Generating RDF data from non-RDF sources
+|------ Competency: Uses available tools to cleanse a dataset by finding and correcting errors, removing duplicates and unwanted data
+|------ Competency: Reconciles data to link to external resources
+|------ Competency: Uses available applications for named entity recognition, extraction and reconciliation
+|---- Topic: Describing RDF resources for discovery
+|------ Competency: Creates metadata describing the RDF schema to make it discoverable
+|------ Competency: Publicizes the RDF schema by registering it with relevant services
+|---- Topic: Generating RDF instance data
+|------ Competency: Creates RDFa markup for HTML pages using an RDF schema
+|---- Topic: Creating an application profile
+|------ Competency: @@@
+|---- Topic: Creating and using SPARQL endpoints
+|------ Competency: Creates SPARQL endpoints for RDBMS
+|------ Competency: Uses SPARQL endpoints for RDBMS
+|------ Competency: Demonstrates knowledge of factors influencing whether to publish RDF or provide a SPARQL endpoint
+|---- Topic: Publishing RDF
+|------ Competency: Determines whether to use hash ("#") or slash ("/")
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|-- Topic Cluster: Visualizing graphs
+|---- Topic: @@@
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|-- Topic Cluster: Implementing applications
+|---- Topic: @@@
+|---- Topic: @@@
+|---- Topic: @@@
+|---- Topic: @@@
+|---- Topic: @@@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------

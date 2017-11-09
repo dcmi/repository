@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www.slideshare.net/EUCLIDproject/scaling-up-linked-data?related=1>
+  a schema:CreativeWork ;
+  schema:name "Scaling Up Linked Data"@en-US ;
+  schema:author "Dimitrov, Marin"@en-US ;
+  schema:description "This presentation addresses the main issues of Linked Data and scalability. In particular, it provides gives details on approaches and technologies for clustering, distributing, sharing, and caching data. Furthermore, it addresses the means for publishing data trough could deployment and the relationship between Big Data and Linked Data, exploring how some of the solutions can be transferred in the context of Linked Data."@en-US ;
+  schema:dateCreated "2014-01-10T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Linked Data Principles"@en-US, "Big Data"@en-US, "Scalability"@en-US, "RDF"@en-US, "Graph"@en-US, "SPARQL"@en-US ;
+  schema:publisher "EUCLID Project"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity> ;
+  dcterms:created "2015-06-17T20:06:11+00:00"^^dcterms:W3CDTF .
+

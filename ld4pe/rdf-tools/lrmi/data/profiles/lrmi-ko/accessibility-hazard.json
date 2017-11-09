@@ -1,0 +1,32 @@
+[
+    {
+        "label": "깜박임",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/flashing",
+        "type" : "uri"
+    },
+    {
+        "label": "아니 깜박임 위험 없음",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noFlashingHazard",
+        "type" : "uri"
+    },
+    {
+        "label": "모션 시뮬레이션",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/motionSimulation",
+        "type" : "uri"
+    },
+    {
+        "label": "어떤 모션 시뮬레이션 위험하지",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noMotionSimulationHazard",
+        "type" : "uri"
+    },
+    {
+        "label": "소리",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/sound",
+        "type" : "uri"
+    },
+    {
+        "label": "소리가 나지 위험하지",
+        "value": "http://purl.org/dcx/lrmi-vocabs/accessibilityHazard/noSoundHazard",
+        "type" : "uri"
+    }
+]

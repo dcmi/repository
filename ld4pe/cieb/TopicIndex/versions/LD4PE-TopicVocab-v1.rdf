@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    >
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0014">
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0010"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en-us">Querying RDF data using SPARQL</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0005">
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:prefLabel xml:lang="en-us">Existing key vocabularies and their namespaces</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0001"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0003">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0001"/>
+        <skos:prefLabel xml:lang="en-us">Background technologies</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0015">
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0010"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:prefLabel xml:lang="en-us">Updating RDF with SPARQL 1.1</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0010">
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0013"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:prefLabel xml:lang="en-us">Searching and Querying</skos:prefLabel>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0015"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0016"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0012"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0011"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0014"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0017"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0016">
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0010"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:prefLabel xml:lang="en-us">Reasoning over RDF</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0025">
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en-us">Publishing RDF</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0018"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0019">
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0018"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en-us">Creating a domain model</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0022">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:prefLabel xml:lang="en-us">Generating different serializations of RDF data</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0018"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0002">
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0001"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:prefLabel xml:lang="en-us">Lifecycle of Linked Data</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0026">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:prefLabel xml:lang="en-us">Visualizing graphs</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0008">
+        <skos:prefLabel xml:lang="en-us">Policy and best practice development</skos:prefLabel>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0001"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0024">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0018"/>
+        <skos:prefLabel xml:lang="en-us">Creating a new RDF vocabulary scheme (value vocabulary)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0009">
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0001"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:prefLabel xml:lang="en-us">Perspectives, dispositions and habits of mind</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0012">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0010"/>
+        <skos:prefLabel xml:lang="en-us">Assessment of RDF vocabularies and data sets</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0004">
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0001"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en-us">Background standards</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/">
+        <skos:hasTopConcept rdf:resource="http://explore.dublincore.net/vocabs/subject/0001"/>
+        <dc:title xml:lang="en-us">LD4PE Subject Vocabulary</dc:title>
+        <dc:creator xml:lang="en-us">DCMI/LD4PE Task Group</dc:creator>
+        <skos:hasTopConcept rdf:resource="http://explore.dublincore.net/vocabs/subject/0026"/>
+        <skos:hasTopConcept rdf:resource="http://explore.dublincore.net/vocabs/subject/0027"/>
+        <skos:hasTopConcept rdf:resource="http://explore.dublincore.net/vocabs/subject/0018"/>
+        <skos:hasTopConcept rdf:resource="http://explore.dublincore.net/vocabs/subject/0010"/>
+        <dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">2015-05-17</dcterms:created>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dc:description xml:lang="en-us">This vocabulary is used for the topical indexing of the competencies in the DCMI Exploratorium</dc:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0023">
+        <skos:prefLabel xml:lang="en-us">Creating a (community/application) profile</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0018"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0021">
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0018"/>
+        <skos:prefLabel xml:lang="en-us">Describing RDF resources for discovery</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0011">
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0010"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:prefLabel xml:lang="en-us">Discovery of RDF vocabularies and data sets</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0018">
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0020"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0021"/>
+        <skos:prefLabel xml:lang="en-us">Creating, publishing and manipulating RDF</skos:prefLabel>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0023"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0022"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0025"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0024"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0019"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0006">
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0001"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:prefLabel xml:lang="en-us">Existing key vocabularies and their namespaces</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0001">
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0003"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0004"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0006"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0007"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0002"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0005"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0008"/>
+        <skos:narrower rdf:resource="http://explore.dublincore.net/vocabs/subject/0009"/>
+        <skos:prefLabel xml:lang="en-us">RDF and Linked Data fundamentals</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0013">
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0010"/>
+        <skos:prefLabel xml:lang="en-us">Anatomy of a simple query</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0017">
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0010"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:prefLabel xml:lang="en-us">Creating SPARQL endpoints</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0020">
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0018"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en-us">Creating a new RDF vocabulary schema (classes and properties)</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0007">
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://explore.dublincore.net/vocabs/subject/0001"/>
+        <skos:prefLabel xml:lang="en-us">RDF data model</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://explore.dublincore.net/vocabs/subject/0027">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://explore.dublincore.net/vocabs/subject/"/>
+        <skos:prefLabel xml:lang="en-us">Implementing applications</skos:prefLabel>
+    </rdf:Description>
+</rdf:RDF>

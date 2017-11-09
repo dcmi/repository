@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://structureddynamics.com/linked_data.html>
+  a schema:CreativeWork ;
+  schema:name "Linked Data FAQ"@en-US ;
+  schema:author "Bergman, M.K."@en-US ;
+  schema:description "A brief overview of Linked Data and the Semantic Web. Contains FAQs and links to other sites, including papers by Tim Berners-Lee and others."@en-US ;
+  schema:dateCreated "2014-09-07T07:00:00.000Z"^^dcterms:W3CDTF ;
+  schema:about "Linked Data"@en-US, "Semantic Web"@en-US, "Linked Data Principles"@en-US, "Linked Open Data Cloud"@en-US, "Dataset, RDF"@en-US, "RDF"@en-US, "URIs"@en-US, "SPARQL"@en-US, "Virtuoso"@en-US ;
+  schema:publisher "Structured Dynamics LLC"@en-US ;
+  schema:learningResourceType <http://purl.org/dcx/lrmi-vocabs/learningResourceType/learningActivity>, <http://purl.org/dcx/lrmi-vocabs/learningResourceType/text> ;
+  dcterms:created "2015-06-17T20:06:12+00:00"^^dcterms:W3CDTF .
+
