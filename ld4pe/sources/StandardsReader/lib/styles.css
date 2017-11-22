@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+.srOpen a, .srClose a, .srNull a { display:inline !important;}
+.srOpen { list-style:none;}
+.srOpen:before {
+	/*list-style-image: url(../images/bullet-open.png);*/
+	content: "+ ";
+	color:#990000;
+	font-size:1.5em;
+}
+
+.srClose { list-style:none; }
+.srClose:before {
+	/*list-style-image: url(../images/bullet-close.png);*/
+	content: "- ";
+	color:#990000;
+	font-size:1.5em;
+}
+
+.srNull {
+	/*list-style-image: url(../images/bullet-null.png);*/
+	list-style:disc;
+	color:#ccc;
+}
+.srNull:before {
+	/*list-style-image: url(../images/bullet-close.png);*/
+	content: "";
+	color:#ccc;
+}
+
+/** up/down arrow buttons **/
+.arrow {width:0; height:0;cursor:pointer;border-left: 10px solid transparent !important; border-right: 10px solid transparent !important;}
+.arrow-up {
+border-bottom: 10px solid #990000 !important;
+margin-bottom:6px;
+}
+.arrow-up-inactive {border-bottom:10px solid #ccc !important; margin-bottom:6px;}
+.arrow-down {
+  border-top: 10px solid #990000 !important;
+}
+.arrow-down-inactive {border-top:10px solid #ccc !important;}
+.term-order-controls {float:right;}
+a.inactive:link { color:#ccc; text-decoration:none; }
+a.inactive:visited { color:#ccc; text-decoration:none; }
+a.inactive:hover { color:#ccc; text-decoration:none; }
+a.inactive:active { color:#ccc; text-decoration:none; }
+
+#map-sequence { clear:both; }
+
+/* Tooltip container */
+.cat-item {
+	position: relative;
+	display: inline-block;
+	margin-bottom:12px;
+}
+
+/* Tooltip text */
+ .tooltiptext {
+	visibility: hidden;
+	width: 120%;
+	background-color: #eee;
+	color: #000;
+	padding: 5px 0;
+	border-radius: 6px;
+
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 0%;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.cat-item:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
