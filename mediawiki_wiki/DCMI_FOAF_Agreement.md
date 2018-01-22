@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_FOAF_Agreement.html"
+- "/mediawiki_wiki/DCMI_FOAF_Agreement.html"
 ---
 
 <table id="toc" class="toc">

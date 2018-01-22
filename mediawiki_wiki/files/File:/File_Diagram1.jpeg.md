@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Diagram1.jpeg.html"
+- "/mediawiki_wiki/files/File:/File_Diagram1.jpeg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Diagram1.jpeg" src="/images/0/06/Diagram1.jpeg" width="237" height="119">](/archive/mediawiki_wiki/files/Diagram1.jpeg)  
+ [<img alt="File:Diagram1.jpeg" src="/images/0/06/Diagram1.jpeg" width="237" height="119">](/mediawiki_wiki/files/Diagram1.jpeg)  
 <small>No higher resolution available.</small>  
  [Diagram1.jpeg](/images/0/06/Diagram1.jpeg)‎ (237 × 119 pixels, file size: 4 KB, MIME type: image/jpeg)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Diagram1.jpeg">15:56, 1 May 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Diagram1.jpeg">15:56, 1 May 2011</a></td>
     <td><a href="/images/0/06/Diagram1.jpeg"><img alt="Thumbnail for version as of 15:56, 1 May 2011" src="/images/0/06/Diagram1.jpeg" width="120" height="60"></a></td>
     <td>237×119 <span style="white-space: nowrap;">(4 KB)</span>
     </td>
@@ -68,13 +68,13 @@ The following page links to this file:
 
 - [User Guide](/index.php/User_Guide "User Guide")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Diagram1.jpeg](/archive/mediawiki_wiki/files/File:/File:Diagram1.jpeg.html)"
+Retrieved from " [/mediawiki_wiki/File:Diagram1.jpeg](/mediawiki_wiki/files/File:/File:Diagram1.jpeg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Diagram1.jpeg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Diagram1.jpeg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Diagram1.jpeg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Diagram1.jpeg&action=edit "This page is protected.
 You can view its source [e]")

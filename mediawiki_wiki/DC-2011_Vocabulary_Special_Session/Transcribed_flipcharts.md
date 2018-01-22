@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/Transcribed_flipcharts.html"
+- "/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/Transcribed_flipcharts.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -19,7 +19,7 @@ This page has been accessed 28,117 times.
 
 Transcribed Flipchart sheets from DC-2011 Vocabulary Management pre-conf.
 
-[<img alt="IMG 0460.jpg" src="/archive/mediawiki_wiki/images/IMG_0460.jpg" width="700" height="937">](/archive/mediawiki_wiki/images/IMG_0460.jpg) (whose handwriting?) (which session?)
+[<img alt="IMG 0460.jpg" src="/mediawiki_wiki/images/IMG_0460.jpg" width="700" height="937">](/mediawiki_wiki/images/IMG_0460.jpg) (whose handwriting?) (which session?)
 
 1. Principles of acceptable use
 
@@ -38,7 +38,7 @@ Transcribed Flipchart sheets from DC-2011 Vocabulary Management pre-conf.
 
 2. Are there best practices for maintenance roles?
 
-[<img alt="IMG 0459.jpg" src="/archive/mediawiki_wiki/images/IMG_0459.jpg" width="700" height="937">](/archive/mediawiki_wiki/images/IMG_0459.jpg)[whose handwriting?] [which session?]
+[<img alt="IMG 0459.jpg" src="/mediawiki_wiki/images/IMG_0459.jpg" width="700" height="937">](/mediawiki_wiki/images/IMG_0459.jpg)[whose handwriting?] [which session?]
 
 Community impact/control editorial, IP control
 
@@ -64,7 +64,7 @@ Manage process for additions/change
         --AGROVOC: --&gt;Community--&gt;Roles
 </pre>
 
-[<img alt="IMG 0458.jpg" src="/archive/mediawiki_wiki/images/IMG_0458.jpg" width="700" height="937">](/archive/mediawiki_wiki/images/IMG_0458.jpg)[Diane’s handwriting?] [Discovery, Selection & Quality Control]
+[<img alt="IMG 0458.jpg" src="/mediawiki_wiki/images/IMG_0458.jpg" width="700" height="937">](/mediawiki_wiki/images/IMG_0458.jpg)[Diane’s handwriting?] [Discovery, Selection & Quality Control]
 
 <pre>Selection- in LD context, finding right properties for dataset
     --Issue: knowing what’s available (Swoogle not working)
@@ -81,7 +81,7 @@ Discovery of properties different from discover of vocabs--search for props a me
 In LOD world can we be less conservative about choice
 </pre>
 
-[<img alt="IMG 0457.jpg" src="/archive/mediawiki_wiki/images/IMG_0457.jpg" width="700" height="937">](/archive/mediawiki_wiki/images/IMG_0457.jpg)[Diane’s handwriting] [Discovery, selection & quality control]
+[<img alt="IMG 0457.jpg" src="/mediawiki_wiki/images/IMG_0457.jpg" width="700" height="937">](/mediawiki_wiki/images/IMG_0457.jpg)[Diane’s handwriting] [Discovery, selection & quality control]
 
 <pre>Quality Control--how much?
     -- conflicting statements? What to do?
@@ -97,7 +97,7 @@ What is a vocabulary? remains a question
     -- we may chose sources that are imperfect
 </pre>
 
-[<img alt="IMG 0456.jpg" src="/archive/mediawiki_wiki/images/IMG_0456.jpg" width="700" height="937">](/archive/mediawiki_wiki/images/IMG_0456.jpg)[Diane’s handwriting] [Discovery, selection & quality control]
+[<img alt="IMG 0456.jpg" src="/mediawiki_wiki/images/IMG_0456.jpg" width="700" height="937">](/mediawiki_wiki/images/IMG_0456.jpg)[Diane’s handwriting] [Discovery, selection & quality control]
 
 <pre>Linked data--requires? assumes?
     -- distribution
@@ -106,7 +106,7 @@ What is a vocabulary? remains a question
         -- vocabs are similar, require time and curation where top down and bottom up meet
 </pre>
 
-[<img alt="IMG 0455.jpg" src="/archive/mediawiki_wiki/images/IMG_0455.jpg" width="700" height="937">](/archive/mediawiki_wiki/images/IMG_0455.jpg)[Diane’s handwriting] [Discovery, selection & quality control]
+[<img alt="IMG 0455.jpg" src="/mediawiki_wiki/images/IMG_0455.jpg" width="700" height="937">](/mediawiki_wiki/images/IMG_0455.jpg)[Diane’s handwriting] [Discovery, selection & quality control]
 
 <pre>Documentation
     -- structural &amp; description of vocabulary itself (editorial, scope, extension policies)
@@ -122,7 +122,7 @@ What is a vocabulary? remains a question
 
 USE CASES NEEDED
 
-[<img alt="IMG 0454.jpg" src="/archive/mediawiki_wiki/images/IMG_0454.jpg" width="700" height="937">](/archive/mediawiki_wiki/images/IMG_0454.jpg)[whose handwriting?] [which session?]
+[<img alt="IMG 0454.jpg" src="/mediawiki_wiki/images/IMG_0454.jpg" width="700" height="937">](/mediawiki_wiki/images/IMG_0454.jpg)[whose handwriting?] [which session?]
 
 <pre>Rights of stakeholders
     -- governance charter [for AGROVOC]
@@ -145,7 +145,7 @@ Involving experts in building
     -- involvement
 </pre>
 
-[<img alt="IMG 0453.jpg" src="/archive/mediawiki_wiki/images/IMG_0453.jpg" width="700" height="937">](/archive/mediawiki_wiki/images/IMG_0453.jpg)[Diane’s handwriting] [Mapping/alignment pt.2]
+[<img alt="IMG 0453.jpg" src="/mediawiki_wiki/images/IMG_0453.jpg" width="700" height="937">](/mediawiki_wiki/images/IMG_0453.jpg)[Diane’s handwriting] [Mapping/alignment pt.2]
 
 <pre>Constraints
     -- Must pay attention to semantics

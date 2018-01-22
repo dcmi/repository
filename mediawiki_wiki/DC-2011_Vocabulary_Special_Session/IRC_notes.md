@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/IRC_notes.html"
+- "/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/IRC_notes.html"
 ---
 
  **This is an archived MediaWiki page.**  

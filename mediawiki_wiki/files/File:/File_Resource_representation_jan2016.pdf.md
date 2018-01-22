@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Resource_representation_jan2016.pdf.html"
+- "/mediawiki_wiki/files/File:/File_Resource_representation_jan2016.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/Resource_representation_jan2016.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Resource_representation_jan2016.pdf)
 
-[Resource\_representation\_jan2016.pdf](/archive/mediawiki_wiki/files/Resource_representation_jan2016.pdf "Resource representation jan2016.pdf")‎(file size: 195 KB, MIME type: application/pdf)
+[Resource\_representation\_jan2016.pdf](/mediawiki_wiki/files/Resource_representation_jan2016.pdf "Resource representation jan2016.pdf")‎(file size: 195 KB, MIME type: application/pdf)
 
 gap analysis by resource topic
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Resource_representation_jan2016.pdf">19:35, 20 January 2016</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Resource_representation_jan2016.pdf">19:35, 20 January 2016</a></td>
     <td> <span style="white-space: nowrap;">(195 KB)</span>
     </td>
     <td>
@@ -70,13 +70,13 @@ The following page links to this file:
 
 - [LD4PE Meeting Minutes/2016-01-19](/index.php/LD4PE_Meeting_Minutes/2016-01-19 "LD4PE Meeting Minutes/2016-01-19")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Resource\_representation\_jan2016.pdf](/archive/mediawiki_wiki/files/File:/File:Resource_representation_jan2016.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:Resource\_representation\_jan2016.pdf](/mediawiki_wiki/files/File:/File:Resource_representation_jan2016.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Resource_representation_jan2016.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Resource_representation_jan2016.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Resource_representation_jan2016.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Resource_representation_jan2016.pdf&action=edit "This page is protected.
 You can view its source [e]")

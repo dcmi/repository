@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_200px-SAMLogo2.png.html"
+- "/mediawiki_wiki/files/File:/File_200px-SAMLogo2.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:200px-SAMLogo2.png" src="/images/9/9c/200px-SAMLogo2.png" width="200" height="204">](/archive/mediawiki_wiki/files/200px-SAMLogo2.png)  
+ [<img alt="File:200px-SAMLogo2.png" src="/images/9/9c/200px-SAMLogo2.png" width="200" height="204">](/mediawiki_wiki/files/200px-SAMLogo2.png)  
 <small>No higher resolution available.</small>  
  [200px-SAMLogo2.png](/images/9/9c/200px-SAMLogo2.png)‎ (200 × 204 pixels, file size: 30 KB, MIME type: image/png)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/200px-SAMLogo2.png">02:28, 18 September 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/200px-SAMLogo2.png">02:28, 18 September 2011</a></td>
     <td><a href="/images/9/9c/200px-SAMLogo2.png"><img alt="Thumbnail for version as of 02:28, 18 September 2011" src="/images/9/9c/200px-SAMLogo2.png" width="118" height="120"></a></td>
     <td>200×204 <span style="white-space: nowrap;">(30 KB)</span>
     </td>
@@ -69,13 +69,13 @@ The following 2 pages link to this file:
 - [DCMI Science And Metadata](/index.php/DCMI_Science_And_Metadata "DCMI Science And Metadata")
 - [DC 2013 SAM Science and Metadata CAMP 4 DATA AGENDA](/index.php/DC_2013_SAM_Science_and_Metadata_CAMP_4_DATA_AGENDA "DC 2013 SAM Science and Metadata CAMP 4 DATA AGENDA")
 
-Retrieved from " [/archive/mediawiki_wiki/File:200px-SAMLogo2.png](/archive/mediawiki_wiki/files/File:/File:200px-SAMLogo2.png.html)"
+Retrieved from " [/mediawiki_wiki/File:200px-SAMLogo2.png](/mediawiki_wiki/files/File:/File:200px-SAMLogo2.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:200px-SAMLogo2.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:200px-SAMLogo2.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:200px-SAMLogo2.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:200px-SAMLogo2.png&action=edit "This page is protected.
 You can view its source [e]")

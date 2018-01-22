@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120109_Agenda.html"
+- "/mediawiki_wiki/Schema.org_Alignment/Telecon_20120109_Agenda.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,7 +17,7 @@ This page has been accessed 28,620 times.
 
 <pre>Schema.org Alignment Task Group *informal* telecon
 
-This agenda: <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120109_Agenda" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120109_Agenda</a>
+This agenda: <a href="/mediawiki_wiki/Schema.org_Alignment/Telecon_20120109_Agenda" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Telecon_20120109_Agenda</a>
 Chair: Tom
 Date: Monday, 2012-01-09
 Tom: 11:00 AM Eastern Std Time
@@ -33,8 +33,8 @@ and practice.
 1. Publication of mappings
 
     Problem: we need a better set-up for collecting comments than wiki pages:
-       <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Mappings" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Mappings</a>
-       <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
+       <a href="/mediawiki_wiki/Schema.org_Alignment/Mappings" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Mappings</a>
+       <a href="/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
     
     Note:
     -- Posting comments on specifics to dc-architecture will not scale
@@ -58,7 +58,7 @@ and practice.
     -- Basis for decision must be published with:
        Proposed alignment statements.
        Details of semantics of the properties and classes being aligned, as in:
-       <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
+       <a href="/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
 
     -- A structured way to collect feedback and comments on mappings has been put 
        into place -- not not only in order to prepare the "vote" but also as a way 
@@ -105,17 +105,17 @@ and practice.
 &gt; Antoine Isaac, Kirsten Jeude, Corey Harper, Jane Greenberg, John Kunze, Ed Summers, 
 &gt; Diane Hillmann
 &gt; Date: 2011-12-12, Monday
-&gt; Agenda: <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212</a>
+&gt; Agenda: <a href="/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212</a>
 &gt; Note: This report integrates some follow-up discussion after the meeting.
 &gt; 
 &gt; ----------------------------------------------------------------------
 &gt; Links
 &gt; -- Wiki page for this Task Group
-&gt; <a href="/archive/mediawiki_wiki/Schema.org_Alignment" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment</a>
+&gt; <a href="/mediawiki_wiki/Schema.org_Alignment" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment</a>
 &gt; -- Bernard Vatant's proposal
-&gt; <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Mappings" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Mappings</a>
+&gt; <a href="/mediawiki_wiki/Schema.org_Alignment/Mappings" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Mappings</a>
 &gt; - Bernard's proposal with details added
-&gt; <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
+&gt; <a href="/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
 &gt; -- DC-ARCHITECTURE mailing list
 &gt; <a href="http://www.jiscmail.ac.uk/lists/dc-architecture.html" class="external free" rel="nofollow">http://www.jiscmail.ac.uk/lists/dc-architecture.html</a>
 &gt; 
@@ -280,7 +280,7 @@ and practice.
 &gt; We should not be too fussy about agreement.
 &gt; 
 &gt; ======================================================================
-&gt; Mapping detals - <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
+&gt; Mapping detals - <a href="/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
 &gt; 
 &gt; Tom: Wanted to see the two side-by-side. Wanted to see classes, sub-classes,
 &gt; properties. Asking why the two are being maintained separately.

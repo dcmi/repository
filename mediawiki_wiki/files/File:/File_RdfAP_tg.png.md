@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_RdfAP_tg.png.html"
+- "/mediawiki_wiki/files/File:/File_RdfAP_tg.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:RdfAP tg.png" src="/images/e/e6/RdfAP_tg.png" width="587" height="413">](/archive/mediawiki_wiki/files/RdfAP_tg.png)  
+ [<img alt="File:RdfAP tg.png" src="/images/e/e6/RdfAP_tg.png" width="587" height="413">](/mediawiki_wiki/files/RdfAP_tg.png)  
 <small>No higher resolution available.</small>  
  [RdfAP\_tg.png](/images/e/e6/RdfAP_tg.png)‎ (587 × 413 pixels, file size: 79 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/RdfAP_tg.png">20:06, 16 May 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/RdfAP_tg.png">20:06, 16 May 2014</a></td>
     <td><a href="/images/e/e6/RdfAP_tg.png"><img alt="Thumbnail for version as of 20:06, 16 May 2014" src="/images/e/e6/RdfAP_tg.png" width="120" height="84"></a></td>
     <td>587×413 <span style="white-space: nowrap;">(79 KB)</span>
     </td>
@@ -81,13 +81,13 @@ The following 10 pages link to this file:
 - [RDF Application Profiles/UCR Deliverable](/index.php/RDF_Application_Profiles/UCR_Deliverable "RDF Application Profiles/UCR Deliverable")
 - [RDF Application Profiles/Requirements](/index.php/RDF_Application_Profiles/Requirements "RDF Application Profiles/Requirements")
 
-Retrieved from " [/archive/mediawiki_wiki/File:RdfAP\_tg.png](/archive/mediawiki_wiki/files/File:/File:RdfAP_tg.png.html)"
+Retrieved from " [/mediawiki_wiki/File:RdfAP\_tg.png](/mediawiki_wiki/files/File:/File:RdfAP_tg.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:RdfAP_tg.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:RdfAP_tg.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:RdfAP_tg.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:RdfAP_tg.png&action=edit "This page is protected.
 You can view its source [e]")

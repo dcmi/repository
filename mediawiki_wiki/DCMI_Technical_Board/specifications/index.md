@@ -13,11 +13,11 @@ tags: []
 This page was last modified on 21 February 2015, at 11:39.  
 This page has been accessed 131,020 times.
 
-[<img alt="Community Specifications Committee logo" src="/archive/mediawiki_wiki/images/Specifications_logo.png" width="500" height="70">](/archive/mediawiki_wiki/images/Specifications_logo.png "Community Specifications Committee logo")
+[<img alt="Community Specifications Committee logo" src="/mediawiki_wiki/images/Specifications_logo.png" width="500" height="70">](/mediawiki_wiki/images/Specifications_logo.png "Community Specifications Committee logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -88,18 +88,18 @@ This page has been accessed 131,020 times.
 - _Scope:_ Community-developed specifications, vocabularies, and best practices guidelines in support of resource description. Task Groups of the Committee may publish a _DCMI Community Specification_ (application profile, RDF vocabulary, or metadata usage guidelines) in accordance with the following criteria that: (open for discussion as of February 2014) 
   - membership in the group be open to interested members of the public;
   - the _Community Specification_ be vetted and approved in open discussion using a JISCMAIL list and wiki.dublincore.org or dublincore.org (see, for example, the [DCMI Collection Description Community](http://dublincore.org/groups/collections/)<sup id="cite_ref-0" class="reference"><a href="#cite_note-0">[1]</a></sup>);
-  - principles and processes for development and work product be published as [_Development Guidelines for DCMI Community Resources_](/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/dcr_guidelines "DCMI Technical Board/specifications/dcr guidelines"); and
+  - principles and processes for development and work product be published as [_Development Guidelines for DCMI Community Resources_](/mediawiki_wiki/DCMI_Technical_Board/specifications/dcr_guidelines "DCMI Technical Board/specifications/dcr guidelines"); and
   - resources published outside of Technical Board processes may be designated as _DCMI Community Resources_ at the discretion of the DCMI Community Specification Committee and in accordance with published criteria (to be determined).
 
-- _Reporting:_ The Community Specification Committee Chairs report to the Technical Board Chairs in a manner set out in the [Board Policies & Procedures](/archive/mediawiki_wiki/DCMI_Technical_Board/procedures "DCMI Technical Board/procedures").
+- _Reporting:_ The Community Specification Committee Chairs report to the Technical Board Chairs in a manner set out in the [Board Policies & Procedures](/mediawiki_wiki/DCMI_Technical_Board/procedures "DCMI Technical Board/procedures").
 
 * * *
 
 #### Current Activities 
 
-- [Learning Resource Metadata Initiative (LRMI)](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG") (Task Group)
-- [RDF Application Profiles](/archive/mediawiki_wiki/RDF_Application_Profiles "RDF Application Profiles") (Task Group)
-- [DCMI/NKOS Application Profile](/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/nkos "DCMI Technical Board/specifications/nkos") (Task Group)
+- [Learning Resource Metadata Initiative (LRMI)](/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG") (Task Group)
+- [RDF Application Profiles](/mediawiki_wiki/RDF_Application_Profiles "RDF Application Profiles") (Task Group)
+- [DCMI/NKOS Application Profile](/mediawiki_wiki/DCMI_Technical_Board/specifications/nkos "DCMI Technical Board/specifications/nkos") (Task Group)
 - [Kernel specification](http://dot.ucop.edu/specs/ercspec.html), [landing page](http://dot.ucop.edu/specs/erc_dcrec.shtml) ( [diffs](http://dot.ucop.edu/specs/erc-old-03-diffs.html)), plus an XML schema.
 
 * * *
@@ -107,14 +107,14 @@ This page has been accessed 131,020 times.
 #### Communications 
 
 - JiscMail Committee Forum (Moderated list; Join by Chair): [dc-csc@jiscmail.ac.uk](mailto:dc-csc@jiscmail.ac.uk) | [Join/Leave](http://www.jiscmail.ac.uk/lists/dc-csc.html) [Archive](http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-csc&A=1)
-- [<img alt="+ symbol" src="/archive/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/archive/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
+- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
 
 * * *
 
 #### Key DCMI Handbook Pages 
 
-- [Current Task Group Chairs](/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/TGchairs "DCMI Technical Board/specifications/TGchairs")
-- [Development Guidelines for _DCMI Community Resources_](/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/dcr_guidelines "DCMI Technical Board/specifications/dcr guidelines")
+- [Current Task Group Chairs](/mediawiki_wiki/DCMI_Technical_Board/specifications/TGchairs "DCMI Technical Board/specifications/TGchairs")
+- [Development Guidelines for _DCMI Community Resources_](/mediawiki_wiki/DCMI_Technical_Board/specifications/dcr_guidelines "DCMI Technical Board/specifications/dcr guidelines")
 - [Committee Policies & Procedures](/index.php?title=DCMI_Technical_Board/procedures/specifications&action=edit&redlink=1 "DCMI Technical Board/procedures/specifications (page does not exist)")
 
 * * *
@@ -142,7 +142,7 @@ This page has been accessed 131,020 times.
 
 * * *
 
-[<img alt="DCMI Handbook" src="/archive/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/archive/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
 
 [Click and become a DCMI member...](http://dublincore.org/support/#individualMember)
 

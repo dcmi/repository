@@ -9,7 +9,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Localization_and_Internationalization_2009-10-13_NLK.html"
+- "/mediawiki_wiki/DCMI_Localization_and_Internationalization_2009-10-13_NLK.html"
 ---
 
  **This is an archived MediaWiki page.**  

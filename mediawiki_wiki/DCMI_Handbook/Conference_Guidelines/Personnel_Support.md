@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Personnel_Support.html"
+- "/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Personnel_Support.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 6 October 2013, at 18:47.  
 This page has been accessed 80,590 times.
 
-Return to [DCMI Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook")
+Return to [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook")
 
 <table id="toc" class="toc">
   <tr>

@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Marketing_and_Community_Building.html"
+- "/mediawiki_wiki/Marketing_and_Community_Building.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 18 August 2015, at 15:07.  
 This page has been accessed 64,739 times.
 
-[<img alt="LD4PE logo" src="/archive/mediawiki_wiki/images/Ld4pe.png" width="100" height="99">](/archive/mediawiki_wiki/images/Ld4pe.png "LD4PE logo") [LD4PE Task Group Homepage](/archive/mediawiki_wiki/Pet/ld4pe)
+[<img alt="LD4PE logo" src="/mediawiki_wiki/images/Ld4pe.png" width="100" height="99">](/mediawiki_wiki/images/Ld4pe.png "LD4PE logo") [LD4PE Task Group Homepage](/mediawiki_wiki/Pet/ld4pe)
 
 # Marketing and Community Building 
 <table id="toc" class="toc">
@@ -367,10 +367,10 @@ LODLAM
 - **Access Innovations**
   - Description: Access Innovations offers an extensive line of information management and database construction products and services for academic institutions, government agencies, professional associations, and industry. We provide knowledge organization solutions, from workflow design to full implementation of ontologies and linked data. Our Data Harmony® software enables users to build and maintain all types of controlled vocabularies, create and capture metadata, insert open linked data and manage rule-based automated indexing.
   - [URL](http://www.accessinn.com/)
-  - [Logo](/archive/mediawiki_wiki/files/AccessLogoHorizontalCreatorDH-100Quality_%282%29.jpg "AccessLogoHorizontalCreatorDH-100Quality (2).jpg")
+  - [Logo](/mediawiki_wiki/files/AccessLogoHorizontalCreatorDH-100Quality_%282%29.jpg "AccessLogoHorizontalCreatorDH-100Quality (2).jpg")
     - **Data Harmony**
       - [URL](http://www.dataharmony.com)
-      - [Logo](/archive/mediawiki_wiki/files/DataH_Logo_Horizontal_%283%29.jpg "DataH Logo Horizontal (3).jpg")
+      - [Logo](/mediawiki_wiki/files/DataH_Logo_Horizontal_%283%29.jpg "DataH Logo Horizontal (3).jpg")
 - **Dublin Core Metadata Initiative**
   - Description:
   - [URL](http://www.dublincore.org)
@@ -378,14 +378,14 @@ LODLAM
 - **Elsevier Labs**
   - Description: Elsevier Labs is an advanced technology group within Elsevier - a world leading provider of information solutions. Our aim is create new technologies and practices that will measurably improve how knowledge work is performed, communicated, and understood
   - [URL](http://labs.elsevier.com)
-  - [Logo](/archive/mediawiki_wiki/files/ELS_NS_Logo_1C_Black_RGB.jpg "ELS NS Logo 1C Black RGB.jpg") (black)
-  - [Logo](/archive/mediawiki_wiki/files/Elsevier_ORlogo.png "Elsevier ORlogo.png") (orange)
-  - [Logo](/archive/mediawiki_wiki/files/ELS_NS_Logo_2C_RGB.jpg "ELS NS Logo 2C RGB.jpg") (mixed)
+  - [Logo](/mediawiki_wiki/files/ELS_NS_Logo_1C_Black_RGB.jpg "ELS NS Logo 1C Black RGB.jpg") (black)
+  - [Logo](/mediawiki_wiki/files/Elsevier_ORlogo.png "Elsevier ORlogo.png") (orange)
+  - [Logo](/mediawiki_wiki/files/ELS_NS_Logo_2C_RGB.jpg "ELS NS Logo 2C RGB.jpg") (mixed)
 - **Kent State University School of Library & Information Science**
   - Description: The School of Library and Information Science at Kent State University offers a Master of Library and Information Science (M.L.I.S.) and Master of Science in Information Architecture and Knowledge Management (IAKM). In addition, the school participates in an interdisciplinary Ph.D. in the College of Communication and Information. At SLIS we are transforming the global information environment collaboratively through dynamic learning, innovative research, and interdisciplinary synergy.
   - Description: 
   - [URL](http://www.kent.edu/slis)
-  - [Logo](/archive/mediawiki_wiki/files/KENT_SLIS_Logo.jpeg "KENT SLIS Logo.jpeg")
+  - [Logo](/mediawiki_wiki/files/KENT_SLIS_Logo.jpeg "KENT SLIS Logo.jpeg")
 - **OCLC**
   - Description:
   - [URL](http://www.oclc.org/)
@@ -393,11 +393,11 @@ LODLAM
 - **Sungkyunkwan University**
   - Description: Over six hundred years of history and tradition is a powerful legacy that evermore distinguishes us. And now SKKU is embarking on a new challenge towards the summit by jointly sharing with everyone here in our university, the new value of the old. SKKU is on its way to becoming a leading university by creating a global standard in education through establishing a Smart Innovative Education Ecosystem, as well as confirming itself as a hub for convergence research and education. SKKU desires to raise the bar in education and research through actively participating in global affairs and cooperating with the world's most prestigious universities. 
   - [URL](http://www.skku.edu/eng_home/edu/hu_science/humanities_library_01.jsp)
-  - [Logo](/archive/mediawiki_wiki/files/SKKU-Logo.jpg "SKKU-Logo.jpg")
+  - [Logo](/mediawiki_wiki/files/SKKU-Logo.jpg "SKKU-Logo.jpg")
 - **Synaptica**
   - Description: Synaptica produces enterprise software solutions for: taxonomy and ontology management; semantic indexing and content annotation; knowledge discovery; and Linked Data publishing. Synaptica supports numerous library and information science schools around the world with complimentary software systems. Our ‘Open Data Incentive’ provides discounted rates for any organization who shares knowledge by publishing Linked Open Data. Synaptica is committed to supporting the Linked Data movement, and delighted to be a contributor to the DCMI initiative Linked Data for Professional Education (LD4PE).
   - [URL](http://www.synaptica.com/)
-  - [Logo](/archive/mediawiki_wiki/files/Synaptica.jpg "Synaptica.jpg")
+  - [Logo](/mediawiki_wiki/files/Synaptica.jpg "Synaptica.jpg")
 - **University of Washington Information School**
   - Description: As a leading member of the iSchool movement, the UW is a model for other information schools around the globe. The UW iSchool's approach to information instruction and scholarship builds on the traditional roles filled by information professionals and infuses this with a strong emphasis on the technologies through which information is increasingly delivered. By tackling key social and technical problems in the information field, the iSchool has become an important link between users of information and designers of information systems, connecting society with the information it needs. 
   - [URL](http://www.ischool.edu)

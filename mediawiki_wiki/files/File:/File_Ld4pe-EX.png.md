@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Ld4pe-EX.png.html"
+- "/mediawiki_wiki/files/File:/File_Ld4pe-EX.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Ld4pe-EX.png" src="/images/3/30/Ld4pe-EX.png" width="640" height="257">](/archive/mediawiki_wiki/files/Ld4pe-EX.png)  
+ [<img alt="File:Ld4pe-EX.png" src="/images/3/30/Ld4pe-EX.png" width="640" height="257">](/mediawiki_wiki/files/Ld4pe-EX.png)  
 <small>No higher resolution available.</small>  
  [Ld4pe-EX.png](/images/3/30/Ld4pe-EX.png)‎ (640 × 257 pixels, file size: 77 KB, MIME type: image/png)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Ld4pe-EX.png">12:08, 13 December 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Ld4pe-EX.png">12:08, 13 December 2014</a></td>
     <td><a href="/images/3/30/Ld4pe-EX.png"><img alt="Thumbnail for version as of 12:08, 13 December 2014" src="/images/3/30/Ld4pe-EX.png" width="120" height="48"></a></td>
     <td>640×257 <span style="white-space: nowrap;">(77 KB)</span>
     </td>
@@ -81,13 +81,13 @@ The following 3 pages link to this file:
 - [PetLRdata](/index.php/PetLRdata "PetLRdata")
 - [Pet/ld4pe/license](/index.php/Pet/ld4pe/license "Pet/ld4pe/license")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Ld4pe-EX.png](/archive/mediawiki_wiki/files/File:/File:Ld4pe-EX.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Ld4pe-EX.png](/mediawiki_wiki/files/File:/File:Ld4pe-EX.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Ld4pe-EX.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Ld4pe-EX.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Ld4pe-EX.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Ld4pe-EX.png&action=edit "This page is protected.
 You can view its source [e]")

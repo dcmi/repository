@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/BMTG_meeting_26_Apr_2012.html"
+- "/mediawiki_wiki/BMTG_meeting_26_Apr_2012.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 8 May 2012, at 15:20.  
 This page has been accessed 138,589 times.
 
-[Bibliographic Metadata Task Group](/archive/mediawiki_wiki/Bibliographic_Metadata_Task_Group "Bibliographic Metadata Task Group") meeting, 26 April 2012
+[Bibliographic Metadata Task Group](/mediawiki_wiki/Bibliographic_Metadata_Task_Group "Bibliographic Metadata Task Group") meeting, 26 April 2012
 
 <table id="toc" class="toc">
   <tr>
@@ -41,7 +41,7 @@ This page has been accessed 138,589 times.
 
 The DCMI Bibliographic Metadata Task Group will be holding its inaugural Meeting in London on **April 26, 2012** , in conjunction with the [DCMI Vocabulary Management Community](http://dublincore.org/groups/vocabulary-management/). The meetings will be followed on April 27 by a seminar examining the impact of the London Meeting of 2007, which brought DCMI and the Joint Steering Committee for Development of RDA (JSC) together to build the RDA Vocabularies. The DCMI meetings will be free and open to all.
 
-The [full announcement](/archive/mediawiki_wiki/Full_announcement#Announcement_of_a_major_conference_on_libraries_and_the_Semantic_Web.2C_26-27_2012) of the meetings is available and the agenda for the meeting of this community will be developed on the wiki and the Task Group discussion list over the coming months.
+The [full announcement](/mediawiki_wiki/Full_announcement#Announcement_of_a_major_conference_on_libraries_and_the_Semantic_Web.2C_26-27_2012) of the meetings is available and the agenda for the meeting of this community will be developed on the wiki and the Task Group discussion list over the coming months.
 
 Update (10 April 2012): The meeting of the Task Group on 26 April 2012 is now fully subscribed. Some places for the seminar Five years on are still available. For further information about the meeting and seminar, and online seminar registration, see [Seminar: Five years on](http://dcevents.dublincore.org/index.php/BibData/fyo)
 

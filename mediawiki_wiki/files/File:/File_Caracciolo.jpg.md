@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Caracciolo.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Caracciolo.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Caracciolo.jpg" src="/images/d/d4/Caracciolo.jpg" width="200" height="200">](/archive/mediawiki_wiki/files/Caracciolo.jpg)  
+ [<img alt="File:Caracciolo.jpg" src="/images/d/d4/Caracciolo.jpg" width="200" height="200">](/mediawiki_wiki/files/Caracciolo.jpg)  
 <small>No higher resolution available.</small>  
  [Caracciolo.jpg](/images/d/d4/Caracciolo.jpg)‎ (200 × 200 pixels, file size: 45 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Caracciolo.jpg">20:21, 14 February 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Caracciolo.jpg">20:21, 14 February 2015</a></td>
     <td><a href="/images/d/d4/Caracciolo.jpg"><img alt="Thumbnail for version as of 20:21, 14 February 2015" src="/images/d/d4/Caracciolo.jpg" width="120" height="120"></a></td>
     <td>200×200 <span style="white-space: nowrap;">(45 KB)</span>
     </td>
@@ -75,13 +75,13 @@ The following 4 pages link to this file:
 - [Template:Webinar20150304](/index.php/Template:Webinar20150304 "Template:Webinar20150304")
 - [Template:Webinar20150617](/index.php/Template:Webinar20150617 "Template:Webinar20150617")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Caracciolo.jpg](/archive/mediawiki_wiki/files/File:/File:Caracciolo.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Caracciolo.jpg](/mediawiki_wiki/files/File:/File:Caracciolo.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Caracciolo.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Caracciolo.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Caracciolo.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Caracciolo.jpg&action=edit "This page is protected.
 You can view its source [e]")

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/FAQ/Application_Profile.html"
+- "/mediawiki_wiki/FAQ/Application_Profile.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -86,8 +86,8 @@ With the growing momentum of Linked Data, legacy record formats are being adapte
 
 1. ↑ [http://www.ariadne.ac.uk/issue25/app-profiles/](http://www.ariadne.ac.uk/issue25/app-profiles/)
 2. ↑ [http://dublincore.org/usage/documents/profiles/](http://dublincore.org/usage/documents/profiles/)
-3. ↑ [/archive/mediawiki_wiki/Glossary/DCMI\_Abstract\_Model](/archive/mediawiki_wiki/Glossary/DCMI_Abstract_Model)
-4. ↑ [/archive/mediawiki_wiki/Glossary/Description\_Set\_Profile](/archive/mediawiki_wiki/Glossary/Description_Set_Profile)
+3. ↑ [/mediawiki_wiki/Glossary/DCMI\_Abstract\_Model](/mediawiki_wiki/Glossary/DCMI_Abstract_Model)
+4. ↑ [/mediawiki_wiki/Glossary/Description\_Set\_Profile](/mediawiki_wiki/Glossary/Description_Set_Profile)
 5. ↑ [http://dublincore.org/documents/dc-dsp/](http://dublincore.org/documents/dc-dsp/)
 6. ↑ [http://dublincore.org/documents/singapore-framework/](http://dublincore.org/documents/singapore-framework/)
 7. ↑ [http://dublincore.org/documents/profile-guidelines/](http://dublincore.org/documents/profile-guidelines/)

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_P3056uncons.png.html"
+- "/mediawiki_wiki/files/File:/File_P3056uncons.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:P3056uncons.png" src="/images/e/e7/P3056uncons.png" width="713" height="171">](/archive/mediawiki_wiki/files/P3056uncons.png)  
+ [<img alt="File:P3056uncons.png" src="/images/e/e7/P3056uncons.png" width="713" height="171">](/mediawiki_wiki/files/P3056uncons.png)  
 <small>No higher resolution available.</small>  
  [P3056uncons.png](/images/e/e7/P3056uncons.png)‎ (713 × 171 pixels, file size: 24 KB, MIME type: image/png)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/P3056uncons.png">17:44, 14 April 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/P3056uncons.png">17:44, 14 April 2013</a></td>
     <td><a href="/images/e/e7/P3056uncons.png"><img alt="Thumbnail for version as of 17:44, 14 April 2013" src="/images/e/e7/P3056uncons.png" width="120" height="29"></a></td>
     <td>713×171 <span style="white-space: nowrap;">(24 KB)</span>
     </td>
@@ -68,13 +68,13 @@ The following page links to this file:
 
 - [Profiles Lisbon](/index.php/Profiles_Lisbon "Profiles Lisbon")
 
-Retrieved from " [/archive/mediawiki_wiki/File:P3056uncons.png](/archive/mediawiki_wiki/files/File:/File:P3056uncons.png.html)"
+Retrieved from " [/mediawiki_wiki/File:P3056uncons.png](/mediawiki_wiki/files/File:/File:P3056uncons.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:P3056uncons.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:P3056uncons.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:P3056uncons.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:P3056uncons.png&action=edit "This page is protected.
 You can view its source [e]")

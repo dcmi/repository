@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Draft_Charter.pdf.html"
+- "/mediawiki_wiki/files/File:/File_Draft_Charter.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/Draft_Charter.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Draft_Charter.pdf)
 
-[Draft\_Charter.pdf](/archive/mediawiki_wiki/files/Draft_Charter.pdf "Draft Charter.pdf")‎(file size: 280 KB, MIME type: application/pdf)
+[Draft\_Charter.pdf](/mediawiki_wiki/files/Draft_Charter.pdf "Draft Charter.pdf")‎(file size: 280 KB, MIME type: application/pdf)
 
 Mike Crandall's draft charter for the TG
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Draft_Charter.pdf">12:44, 16 October 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Draft_Charter.pdf">12:44, 16 October 2011</a></td>
     <td> <span style="white-space: nowrap;">(280 KB)</span>
     </td>
     <td>
@@ -70,13 +70,13 @@ The following page links to this file:
 
 - [DCMI Membership](/index.php/DCMI_Membership "DCMI Membership")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Draft\_Charter.pdf](/archive/mediawiki_wiki/files/File:/File:Draft_Charter.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:Draft\_Charter.pdf](/mediawiki_wiki/files/File:/File:Draft_Charter.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Draft_Charter.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Draft_Charter.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Draft_Charter.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Draft_Charter.pdf&action=edit "This page is protected.
 You can view its source [e]")

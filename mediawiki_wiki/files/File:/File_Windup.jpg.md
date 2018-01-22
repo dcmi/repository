@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Windup.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Windup.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Windup.jpg" src="/images/8/86/Windup.jpg" width="468" height="562">](/archive/mediawiki_wiki/files/Windup.jpg)  
+ [<img alt="File:Windup.jpg" src="/images/8/86/Windup.jpg" width="468" height="562">](/mediawiki_wiki/files/Windup.jpg)  
 <small>No higher resolution available.</small>  
  [Windup.jpg](/images/8/86/Windup.jpg)‎ (468 × 562 pixels, file size: 147 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Windup.jpg">13:18, 21 January 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Windup.jpg">13:18, 21 January 2013</a></td>
     <td><a href="/images/8/86/Windup.jpg"><img alt="Thumbnail for version as of 13:18, 21 January 2013" src="/images/8/86/Windup.jpg" width="100" height="120"></a></td>
     <td>468×562 <span style="white-space: nowrap;">(147 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [Exec Scratchpad/WindingUp](/index.php/Exec_Scratchpad/WindingUp "Exec Scratchpad/WindingUp")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Windup.jpg](/archive/mediawiki_wiki/files/File:/File:Windup.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Windup.jpg](/mediawiki_wiki/files/File:/File:Windup.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Windup.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Windup.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Windup.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Windup.jpg&action=edit "This page is protected.
 You can view its source [e]")

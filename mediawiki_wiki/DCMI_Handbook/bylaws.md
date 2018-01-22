@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Handbook/bylaws.html"
+- "/mediawiki_wiki/DCMI_Handbook/bylaws.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 24 May 2014, at 23:08.  
 This page has been accessed 28,344 times.
 
-[<img alt="DCMI Handbook" src="/archive/mediawiki_wiki/images/Handbook.png" width="300" height="86">](/archive/mediawiki_wiki/images/Handbook.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Handbook.png" width="300" height="86">](/mediawiki_wiki/images/Handbook.png "DCMI Handbook")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>

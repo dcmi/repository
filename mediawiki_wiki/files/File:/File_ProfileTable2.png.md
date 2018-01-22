@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_ProfileTable2.png.html"
+- "/mediawiki_wiki/files/File:/File_ProfileTable2.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:ProfileTable2.png" src="/images/c/cb/ProfileTable2.png" width="800" height="600">](/archive/mediawiki_wiki/files/ProfileTable2.png)  
+ [<img alt="File:ProfileTable2.png" src="/images/c/cb/ProfileTable2.png" width="800" height="600">](/mediawiki_wiki/files/ProfileTable2.png)  
 <small>Size of this preview: 800 × 600 pixels</small>  
  [Full resolution](/images/c/cb/ProfileTable2.png)‎ (1,024 × 768 pixels, file size: 171 KB, MIME type: image/png)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/ProfileTable2.png">18:12, 14 April 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/ProfileTable2.png">18:12, 14 April 2013</a></td>
     <td><a href="/images/c/cb/ProfileTable2.png"><img alt="Thumbnail for version as of 18:12, 14 April 2013" src="/images/c/cb/ProfileTable2.png" width="120" height="90"></a></td>
     <td>1,024×768 <span style="white-space: nowrap;">(171 KB)</span>
     </td>
@@ -68,13 +68,13 @@ The following page links to this file:
 
 - [Profiles Lisbon](/index.php/Profiles_Lisbon "Profiles Lisbon")
 
-Retrieved from " [/archive/mediawiki_wiki/File:ProfileTable2.png](/archive/mediawiki_wiki/files/File:/File:ProfileTable2.png.html)"
+Retrieved from " [/mediawiki_wiki/File:ProfileTable2.png](/mediawiki_wiki/files/File:/File:ProfileTable2.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:ProfileTable2.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:ProfileTable2.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:ProfileTable2.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:ProfileTable2.png&action=edit "This page is protected.
 You can view its source [e]")

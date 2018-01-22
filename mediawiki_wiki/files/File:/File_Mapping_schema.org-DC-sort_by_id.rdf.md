@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Mapping_schema.org-DC-sort_by_id.rdf.html"
+- "/mediawiki_wiki/files/File:/File_Mapping_schema.org-DC-sort_by_id.rdf.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
-[Mapping\_schema.org-DC-sort\_by\_id.rdf](/archive/mediawiki_wiki/files/Mapping_schema.org-DC-sort_by_id.rdf "Mapping schema.org-DC-sort by id.rdf")‎(file size: 27 KB, MIME type: application/rdf+xml)
+[Mapping\_schema.org-DC-sort\_by\_id.rdf](/mediawiki_wiki/files/Mapping_schema.org-DC-sort_by_id.rdf "Mapping schema.org-DC-sort by id.rdf")‎(file size: 27 KB, MIME type: application/rdf+xml)
 
 **Warning** : This file type may contain malicious code. By executing it, your system may be compromised.
 <!-- 
@@ -46,7 +46,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Mapping_schema.org-DC-sort_by_id.rdf">00:35, 10 April 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Mapping_schema.org-DC-sort_by_id.rdf">00:35, 10 April 2012</a></td>
     <td> <span style="white-space: nowrap;">(27 KB)</span>
     </td>
     <td>
@@ -66,13 +66,13 @@ The following page links to this file:
 
 - [Schema.org Alignment/MappingIssues](/index.php/Schema.org_Alignment/MappingIssues "Schema.org Alignment/MappingIssues")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Mapping\_schema.org-DC-sort\_by\_id.rdf](/archive/mediawiki_wiki/files/File:/File:Mapping_schema.org-DC-sort_by_id.rdf.html)"
+Retrieved from " [/mediawiki_wiki/File:Mapping\_schema.org-DC-sort\_by\_id.rdf](/mediawiki_wiki/files/File:/File:Mapping_schema.org-DC-sort_by_id.rdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Mapping_schema.org-DC-sort_by_id.rdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Mapping_schema.org-DC-sort_by_id.rdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Mapping_schema.org-DC-sort_by_id.rdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Mapping_schema.org-DC-sort_by_id.rdf&action=edit "This page is protected.
 You can view its source [e]")

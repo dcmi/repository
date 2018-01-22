@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DublinToDrupal_Project/Pages_to_Migrate.html"
+- "/mediawiki_wiki/DublinToDrupal_Project/Pages_to_Migrate.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 7 Mar 2012, at 12:28.  
 This page has been accessed 1,243 times.
 
-Return to [Dublin to Drupal Top](/archive/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
+Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
 
 <table id="toc" class="toc">
   <tr>
@@ -57,9 +57,9 @@ Return to [Dublin to Drupal Top](/archive/mediawiki_wiki/DublinToDrupal_Project 
   </tr>
 </table>
 
-## [Content Types](/archive/mediawiki_wiki/ContentTypes "ContentTypes") 
+## [Content Types](/mediawiki_wiki/ContentTypes "ContentTypes") 
 
-### [Content Type](/archive/mediawiki_wiki/ContentTypes "ContentTypes"): [Calendar\_Event](/archive/mediawiki_wiki/Calendar_Event "Calendar Event") 
+### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Calendar\_Event](/mediawiki_wiki/Calendar_Event "Calendar Event") 
 
 - Would this category include our own major events?
 <dl>
@@ -71,7 +71,7 @@ Return to [Dublin to Drupal Top](/archive/mediawiki_wiki/DublinToDrupal_Project 
 </dd>
 </dl>
 
-### [Content Type](/archive/mediawiki_wiki/ContentTypes "ContentTypes"): [Recommendation](/archive/mediawiki_wiki/Recommendation "Recommendation") 
+### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Recommendation](/mediawiki_wiki/Recommendation "Recommendation") 
 
 - [List of Semantic and "Other" (full) Recommendations](http://dublincore.org/documents/#recommendations)
 - [List of Proposed Recommendations](http://dublincore.org/documents/#proposedrecommendations)
@@ -95,13 +95,13 @@ Return to [Dublin to Drupal Top](/archive/mediawiki_wiki/DublinToDrupal_Project 
 </dd>
 </dl>
 
-### [Content Type](/archive/mediawiki_wiki/ContentTypes "ContentTypes"): [Recommended\_Resource](/index.php?title=Recommended_Resource&action=edit&redlink=1 "Recommended Resource (page does not exist)") 
+### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Recommended\_Resource](/index.php?title=Recommended_Resource&action=edit&redlink=1 "Recommended Resource (page does not exist)") 
 
 See full list of Recommended Resources:
 
 - [Recommended Resources](http://dublincore.org/documents/#recommendedresources)
 
-### [Content Type](/archive/mediawiki_wiki/ContentTypes "ContentTypes"): [Best\_Practice](/archive/mediawiki_wiki/DublinToDrupal_Project/Best_Practice "DublinToDrupal Project/Best Practice") 
+### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Best\_Practice](/mediawiki_wiki/DublinToDrupal_Project/Best_Practice "DublinToDrupal Project/Best Practice") 
 
 This would be a new category? How would it differ from a FAQ or Glossary entry -- which, like a "best practice" as I see it, provide a short description of something? Would this category include things like links to presentations? Or short descriptions of tools? Or the User Guide?
 
@@ -113,52 +113,52 @@ This would be a new category? How would it differ from a FAQ or Glossary entry -
 <a href="http://dublincore.org/tools/" class="external free" rel="nofollow">http://dublincore.org/tools/</a>, <a href="http://dublincore.org/tools/list.html" class="external free" rel="nofollow">http://dublincore.org/tools/list.html</a>, <a href="http://dublincore.org/tools/menu.html" class="external free" rel="nofollow">http://dublincore.org/tools/menu.html</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/User_Guide.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/User_Guide</a>
+<a href="/mediawiki_wiki/User_Guide.md" class="external free" rel="nofollow">/mediawiki_wiki/User_Guide</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/User_Guide/Creating_Metadata.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/User_Guide/Creating_Metadata</a>
+<a href="/mediawiki_wiki/User_Guide/Creating_Metadata.md" class="external free" rel="nofollow">/mediawiki_wiki/User_Guide/Creating_Metadata</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/User_Guide/Publishing_Metadata.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/User_Guide/Publishing_Metadata</a>
+<a href="/mediawiki_wiki/User_Guide/Publishing_Metadata.md" class="external free" rel="nofollow">/mediawiki_wiki/User_Guide/Publishing_Metadata</a>
 </dd>
 </dl>
 
-### [Content Type](/archive/mediawiki_wiki/ContentTypes "ContentTypes"): [FAQ\_Entry](/archive/mediawiki_wiki/FAQ_Entry "FAQ Entry") 
+### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [FAQ\_Entry](/mediawiki_wiki/FAQ_Entry "FAQ Entry") 
 <dl>
 <dt>Frequently Asked Questions
 </dt>
 <dd>
-<a href="/mediawiki_wiki/FAQ.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/FAQ</a>
+<a href="/mediawiki_wiki/FAQ.md" class="external free" rel="nofollow">/mediawiki_wiki/FAQ</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/FAQ/Application_Profile.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/FAQ/Application_Profile</a>
+<a href="/mediawiki_wiki/FAQ/Application_Profile.md" class="external free" rel="nofollow">/mediawiki_wiki/FAQ/Application_Profile</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/FAQ/Beyond_library_catalogs.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/FAQ/Beyond_library_catalogs</a>
+<a href="/mediawiki_wiki/FAQ/Beyond_library_catalogs.md" class="external free" rel="nofollow">/mediawiki_wiki/FAQ/Beyond_library_catalogs</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/FAQ/DCMI_Abstract_Model.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/FAQ/DCMI_Abstract_Model</a>
+<a href="/mediawiki_wiki/FAQ/DCMI_Abstract_Model.md" class="external free" rel="nofollow">/mediawiki_wiki/FAQ/DCMI_Abstract_Model</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces</a>
+<a href="/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.md" class="external free" rel="nofollow">/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/FAQ/Dubious_triples.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/FAQ/Dubious_triples</a>
+<a href="/mediawiki_wiki/FAQ/Dubious_triples.md" class="external free" rel="nofollow">/mediawiki_wiki/FAQ/Dubious_triples</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/FAQ/HTML5_Scheme.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/FAQ/HTML5_Scheme</a>
+<a href="/mediawiki_wiki/FAQ/HTML5_Scheme.md" class="external free" rel="nofollow">/mediawiki_wiki/FAQ/HTML5_Scheme</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/FAQ/Linked_Data_ROI_for_catalogers.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/FAQ/Linked_Data_ROI_for_catalogers</a>
+<a href="/mediawiki_wiki/FAQ/Linked_Data_ROI_for_catalogers.md" class="external free" rel="nofollow">/mediawiki_wiki/FAQ/Linked_Data_ROI_for_catalogers</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/FAQ/Linking_data_on_dates.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/FAQ/Linking_data_on_dates</a>
+<a href="/mediawiki_wiki/FAQ/Linking_data_on_dates.md" class="external free" rel="nofollow">/mediawiki_wiki/FAQ/Linking_data_on_dates</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/FAQ/Metadata_persistence_and_reliability.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/FAQ/Metadata_persistence_and_reliability</a>
+<a href="/mediawiki_wiki/FAQ/Metadata_persistence_and_reliability.md" class="external free" rel="nofollow">/mediawiki_wiki/FAQ/Metadata_persistence_and_reliability</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/FAQ/XML_Elements_and_RDF_Elements.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/FAQ/XML_Elements_and_RDF_Elements</a>
+<a href="/mediawiki_wiki/FAQ/XML_Elements_and_RDF_Elements.md" class="external free" rel="nofollow">/mediawiki_wiki/FAQ/XML_Elements_and_RDF_Elements</a>
 </dd>
 </dl>
 
@@ -168,56 +168,56 @@ This would be a new category? How would it differ from a FAQ or Glossary entry -
 
 * * *
 
-### [Content Type](/archive/mediawiki_wiki/ContentTypes "ContentTypes"): [Glossary\_entry](/index.php?title=Glossary_entry&action=edit&redlink=1 "Glossary entry (page does not exist)") 
+### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Glossary\_entry](/index.php?title=Glossary_entry&action=edit&redlink=1 "Glossary entry (page does not exist)") 
 <dl>
 <dt>Current Glossary (i.e., a list of Glossary entries showing "short" definitions)
 </dt>
 <dd>
-<a href="/mediawiki_wiki/Glossary.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary</a>
+<a href="/mediawiki_wiki/Glossary.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary</a>
 </dd>
 <dt>Glossary entries ("long" definitions)
 </dt>
 <dd>
-<a href="/mediawiki_wiki/Glossary/Application_Profile.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary/Application_Profile</a>
+<a href="/mediawiki_wiki/Glossary/Application_Profile.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary/Application_Profile</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/Glossary/DCAM_Family_of_Specifications.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary/DCAM_Family_of_Specifications</a>
+<a href="/mediawiki_wiki/Glossary/DCAM_Family_of_Specifications.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary/DCAM_Family_of_Specifications</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/Glossary/DCMI_Abstract_Model.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary/DCMI_Abstract_Model</a>
+<a href="/mediawiki_wiki/Glossary/DCMI_Abstract_Model.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary/DCMI_Abstract_Model</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/Glossary/DCMI_Ltd.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary/DCMI_Ltd</a>
+<a href="/mediawiki_wiki/Glossary/DCMI_Ltd.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary/DCMI_Ltd</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/Glossary/DCMI_Metadata_Terms.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary/DCMI_Metadata_Terms</a>
+<a href="/mediawiki_wiki/Glossary/DCMI_Metadata_Terms.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary/DCMI_Metadata_Terms</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/Glossary/Description_Set_Profile.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary/Description_Set_Profile</a>
+<a href="/mediawiki_wiki/Glossary/Description_Set_Profile.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary/Description_Set_Profile</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/Glossary/Dublin_Core.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary/Dublin_Core</a>
+<a href="/mediawiki_wiki/Glossary/Dublin_Core.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary/Dublin_Core</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/Glossary/Dublin_Core_Grammatical_Principles.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary/Dublin_Core_Grammatical_Principles</a>
+<a href="/mediawiki_wiki/Glossary/Dublin_Core_Grammatical_Principles.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary/Dublin_Core_Grammatical_Principles</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/Glossary/Encoding_Scheme.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary/Encoding_Scheme</a>
+<a href="/mediawiki_wiki/Glossary/Encoding_Scheme.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary/Encoding_Scheme</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/Glossary/Metadata_Harmonization.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary/Metadata_Harmonization</a>
+<a href="/mediawiki_wiki/Glossary/Metadata_Harmonization.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary/Metadata_Harmonization</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/Glossary/Metadata_Registry.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary/Metadata_Registry</a>
+<a href="/mediawiki_wiki/Glossary/Metadata_Registry.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary/Metadata_Registry</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/Glossary/Namespace_Policy.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary/Namespace_Policy</a>
+<a href="/mediawiki_wiki/Glossary/Namespace_Policy.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary/Namespace_Policy</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/Glossary/Open-World_Design.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary/Open-World_Design</a>
+<a href="/mediawiki_wiki/Glossary/Open-World_Design.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary/Open-World_Design</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/Glossary/Simple_Dublin_Core.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Glossary/Simple_Dublin_Core</a>
+<a href="/mediawiki_wiki/Glossary/Simple_Dublin_Core.md" class="external free" rel="nofollow">/mediawiki_wiki/Glossary/Simple_Dublin_Core</a>
 </dd>
 </dl>
 
@@ -225,7 +225,7 @@ This would be a new category? How would it differ from a FAQ or Glossary entry -
 
 * * *
 
-### [Content Type](/archive/mediawiki_wiki/ContentTypes "ContentTypes"): Process document 
+### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): Process document 
 
 - Would this category include the namespace policy? Copyright? Software licenses? Is it about "process" or "policies"?
 <dl>
@@ -239,13 +239,13 @@ This would be a new category? How would it differ from a FAQ or Glossary entry -
 <a href="http://dublincore.org/about/software/" class="external free" rel="nofollow">http://dublincore.org/about/software/</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCMI_Handbook.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCMI_Handbook</a> - the draft handbook?
+<a href="/mediawiki_wiki/DCMI_Handbook.md" class="external free" rel="nofollow">/mediawiki_wiki/DCMI_Handbook</a> - the draft handbook?
 </dd>
 </dl>
 
 * * *
 
-### [Content Type](/archive/mediawiki_wiki/ContentTypes "ContentTypes"): Bylaw 
+### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): Bylaw 
 
 A separate type for By-Laws?
 
@@ -291,7 +291,7 @@ Is an Executive Update a news item?
 <a href="http://dublincore.org/groups/access/" class="external free" rel="nofollow">http://dublincore.org/groups/access/</a> - circa 50 like this, but only port the active ones
 </dd>
 <dd>
-<a href="/mediawiki_wiki/Bibliographic_Metadata_Task_Group.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Bibliographic_Metadata_Task_Group</a> - some of the groups have wiki pages
+<a href="/mediawiki_wiki/Bibliographic_Metadata_Task_Group.md" class="external free" rel="nofollow">/mediawiki_wiki/Bibliographic_Metadata_Task_Group</a> - some of the groups have wiki pages
 </dd>
 </dl>
 
@@ -379,37 +379,37 @@ Is an Executive Update a news item?
 ### Special case: DCMI Architecture Forum 
 <dl>
 <dd>
-<a href="/mediawiki_wiki/Review_of_DCMI_Abstract_Model.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Review_of_DCMI_Abstract_Model</a>
+<a href="/mediawiki_wiki/Review_of_DCMI_Abstract_Model.md" class="external free" rel="nofollow">/mediawiki_wiki/Review_of_DCMI_Abstract_Model</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
+<a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20111221.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20111221</a>
+<a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20111221.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20111221</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120104.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120104</a>
+<a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120104.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120104</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221</a>
+<a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104</a>
+<a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130</a>
+<a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Draft</a>
+<a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Draft</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCAM_Revision_Graphics.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Graphics</a>
+<a href="/mediawiki_wiki/DCAM_Revision_Graphics.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Graphics</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
+<a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Tech</a>
+<a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Tech</a>
 </dd>
 </dl>
 
@@ -421,25 +421,25 @@ Is an Executive Update a news item?
 <dd>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCMI_Conference_System.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCMI_Conference_System</a>
+<a href="/mediawiki_wiki/DCMI_Conference_System.md" class="external free" rel="nofollow">/mediawiki_wiki/DCMI_Conference_System</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCMI_Conference_System/OCS_Documentation.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCMI_Conference_System/OCS_Documentation</a>
+<a href="/mediawiki_wiki/DCMI_Conference_System/OCS_Documentation.md" class="external free" rel="nofollow">/mediawiki_wiki/DCMI_Conference_System/OCS_Documentation</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCMI_Conferences.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCMI_Conferences</a>
+<a href="/mediawiki_wiki/DCMI_Conferences.md" class="external free" rel="nofollow">/mediawiki_wiki/DCMI_Conferences</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCMI_Conferences/Amplified_Conference.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCMI_Conferences/Amplified_Conference</a>
+<a href="/mediawiki_wiki/DCMI_Conferences/Amplified_Conference.md" class="external free" rel="nofollow">/mediawiki_wiki/DCMI_Conferences/Amplified_Conference</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCMI_Conferences/DC-2012_Planning.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCMI_Conferences/DC-2012_Planning</a>
+<a href="/mediawiki_wiki/DCMI_Conferences/DC-2012_Planning.md" class="external free" rel="nofollow">/mediawiki_wiki/DCMI_Conferences/DC-2012_Planning</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCMI_Conferences/Mailing_lists.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCMI_Conferences/Mailing_lists</a>
+<a href="/mediawiki_wiki/DCMI_Conferences/Mailing_lists.md" class="external free" rel="nofollow">/mediawiki_wiki/DCMI_Conferences/Mailing_lists</a>
 </dd>
 <dd>
-<a href="/mediawiki_wiki/DCMI_Conferences/OCS_Howto.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCMI_Conferences/OCS_Howto</a>
+<a href="/mediawiki_wiki/DCMI_Conferences/OCS_Howto.md" class="external free" rel="nofollow">/mediawiki_wiki/DCMI_Conferences/OCS_Howto</a>
 </dd>
 </dl>
 

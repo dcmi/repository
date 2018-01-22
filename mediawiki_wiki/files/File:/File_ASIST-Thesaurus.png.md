@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_ASIST-Thesaurus.png.html"
+- "/mediawiki_wiki/files/File:/File_ASIST-Thesaurus.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:ASIST-Thesaurus.png" src="/images/d/d6/ASIST-Thesaurus.png" width="777" height="600">](/archive/mediawiki_wiki/files/ASIST-Thesaurus.png)  
+ [<img alt="File:ASIST-Thesaurus.png" src="/images/d/d6/ASIST-Thesaurus.png" width="777" height="600">](/mediawiki_wiki/files/ASIST-Thesaurus.png)  
 <small>Size of this preview: 777 × 600 pixels</small>  
  [Full resolution](/images/d/d6/ASIST-Thesaurus.png)‎ (930 × 718 pixels, file size: 352 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/ASIST-Thesaurus.png">13:42, 11 June 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/ASIST-Thesaurus.png">13:42, 11 June 2012</a></td>
     <td><a href="/images/d/d6/ASIST-Thesaurus.png"><img alt="Thumbnail for version as of 13:42, 11 June 2012" src="/images/d/d6/ASIST-Thesaurus.png" width="120" height="93"></a></td>
     <td>930×718 <span style="white-space: nowrap;">(352 KB)</span>
     </td>
@@ -93,13 +93,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:ASIST-Thesaurus.png](/archive/mediawiki_wiki/files/File:/File:ASIST-Thesaurus.png.html)"
+Retrieved from " [/mediawiki_wiki/File:ASIST-Thesaurus.png](/mediawiki_wiki/files/File:/File:ASIST-Thesaurus.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:ASIST-Thesaurus.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:ASIST-Thesaurus.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:ASIST-Thesaurus.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:ASIST-Thesaurus.png&action=edit "This page is protected.
 You can view its source [e]")

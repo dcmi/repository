@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Webinar-DCMI-3-4-2015-COMBINED.pdf.html"
+- "/mediawiki_wiki/files/File:/File_Webinar-DCMI-3-4-2015-COMBINED.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/Webinar-DCMI-3-4-2015-COMBINED.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Webinar-DCMI-3-4-2015-COMBINED.pdf)
 
-[Webinar-DCMI-3-4-2015-COMBINED.pdf](/archive/mediawiki_wiki/files/Webinar-DCMI-3-4-2015-COMBINED.pdf "Webinar-DCMI-3-4-2015-COMBINED.pdf")‎(file size: 3.14 MB, MIME type: application/pdf)
+[Webinar-DCMI-3-4-2015-COMBINED.pdf](/mediawiki_wiki/files/Webinar-DCMI-3-4-2015-COMBINED.pdf "Webinar-DCMI-3-4-2015-COMBINED.pdf")‎(file size: 3.14 MB, MIME type: application/pdf)
 
 Stellato & Carracciolo presentation
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Webinar-DCMI-3-4-2015-COMBINED.pdf">18:34, 13 March 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Webinar-DCMI-3-4-2015-COMBINED.pdf">18:34, 13 March 2015</a></td>
     <td> <span style="white-space: nowrap;">(3.14 MB)</span>
     </td>
     <td>
@@ -71,13 +71,13 @@ The following 2 pages link to this file:
 - [DCMI Handbook/webinars](/index.php/DCMI_Handbook/webinars "DCMI Handbook/webinars")
 - [Template:Webinar20150304](/index.php/Template:Webinar20150304 "Template:Webinar20150304")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Webinar-DCMI-3-4-2015-COMBINED.pdf](/archive/mediawiki_wiki/files/File:/File:Webinar-DCMI-3-4-2015-COMBINED.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:Webinar-DCMI-3-4-2015-COMBINED.pdf](/mediawiki_wiki/files/File:/File:Webinar-DCMI-3-4-2015-COMBINED.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Webinar-DCMI-3-4-2015-COMBINED.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Webinar-DCMI-3-4-2015-COMBINED.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Webinar-DCMI-3-4-2015-COMBINED.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Webinar-DCMI-3-4-2015-COMBINED.pdf&action=edit "This page is protected.
 You can view its source [e]")

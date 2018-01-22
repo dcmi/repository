@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_2014-2015Calendar.jpg.html"
+- "/mediawiki_wiki/files/File:/File_2014-2015Calendar.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:2014-2015Calendar.jpg" src="/images/3/32/2014-2015Calendar.jpg" width="800" height="339">](/archive/mediawiki_wiki/files/2014-2015Calendar.jpg)  
+ [<img alt="File:2014-2015Calendar.jpg" src="/images/3/32/2014-2015Calendar.jpg" width="800" height="339">](/mediawiki_wiki/files/2014-2015Calendar.jpg)  
 <small>Size of this preview: 800 × 339 pixels</small>  
  [Full resolution](/images/3/32/2014-2015Calendar.jpg)‎ (969 × 411 pixels, file size: 137 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/2014-2015Calendar.jpg">18:26, 16 December 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/2014-2015Calendar.jpg">18:26, 16 December 2014</a></td>
     <td><a href="/images/3/32/2014-2015Calendar.jpg"><img alt="Thumbnail for version as of 18:26, 16 December 2014" src="/images/3/32/2014-2015Calendar.jpg" width="120" height="51"></a></td>
     <td>969×411 <span style="white-space: nowrap;">(137 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [DCMI Advisory Board/education/calendar](/index.php/DCMI_Advisory_Board/education/calendar "DCMI Advisory Board/education/calendar")
 
-Retrieved from " [/archive/mediawiki_wiki/File:2014-2015Calendar.jpg](/archive/mediawiki_wiki/files/File:/File:2014-2015Calendar.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:2014-2015Calendar.jpg](/mediawiki_wiki/files/File:/File:2014-2015Calendar.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:2014-2015Calendar.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:2014-2015Calendar.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:2014-2015Calendar.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:2014-2015Calendar.jpg&action=edit "This page is protected.
 You can view its source [e]")

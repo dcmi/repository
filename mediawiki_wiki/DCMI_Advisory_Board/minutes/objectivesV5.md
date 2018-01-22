@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Advisory_Board/minutes/objectivesV5.html"
+- "/mediawiki_wiki/DCMI_Advisory_Board/minutes/objectivesV5.html"
 ---
 
  **This is an archived MediaWiki page.**  

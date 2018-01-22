@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Membership/Value_Proposition.html"
+- "/mediawiki_wiki/DCMI_Membership/Value_Proposition.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 28 May 2017, at 11:47.  
 This page has been accessed 1,405 times.
 
-Return to [DCMI Membership](/archive/mediawiki_wiki/DCMI_Membership "DCMI Membership")
+Return to [DCMI Membership](/mediawiki_wiki/DCMI_Membership "DCMI Membership")
 
 <table id="toc" class="toc">
   <tr>

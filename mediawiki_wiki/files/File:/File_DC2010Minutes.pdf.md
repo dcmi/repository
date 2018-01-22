@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DC2010Minutes.pdf.html"
+- "/mediawiki_wiki/files/File:/File_DC2010Minutes.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/DC2010Minutes.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/DC2010Minutes.pdf)
 
-[DC2010Minutes.pdf](/archive/mediawiki_wiki/files/DC2010Minutes.pdf "DC2010Minutes.pdf")‎(file size: 72 KB, MIME type: application/pdf)
+[DC2010Minutes.pdf](/mediawiki_wiki/files/DC2010Minutes.pdf "DC2010Minutes.pdf")‎(file size: 72 KB, MIME type: application/pdf)
 
 DCMI NKOS AP group meeting at 2010 DC Conference, Pittsburgh.
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DC2010Minutes.pdf">03:22, 14 February 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DC2010Minutes.pdf">03:22, 14 February 2012</a></td>
     <td> <span style="white-space: nowrap;">(72 KB)</span>
     </td>
     <td>
@@ -70,13 +70,13 @@ The following page links to this file:
 
 - [DC2011 NKOS Workshop](/index.php/DC2011_NKOS_Workshop "DC2011 NKOS Workshop")
 
-Retrieved from " [/archive/mediawiki_wiki/File:DC2010Minutes.pdf](/archive/mediawiki_wiki/files/File:/File:DC2010Minutes.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:DC2010Minutes.pdf](/mediawiki_wiki/files/File:/File:DC2010Minutes.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DC2010Minutes.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DC2010Minutes.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DC2010Minutes.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DC2010Minutes.pdf&action=edit "This page is protected.
 You can view its source [e]")

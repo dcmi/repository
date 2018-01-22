@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Advisory_Board/education/documents.html"
+- "/mediawiki_wiki/DCMI_Advisory_Board/education/documents.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,6 +17,6 @@ This page has been accessed 29,895 times.
 
 **Drafts**
 
-- [Objectives](/archive/mediawiki_wiki/Objectives "Objectives")
+- [Objectives](/mediawiki_wiki/Objectives "Objectives")
 - [Activities](/index.php?title=Activities&action=edit&redlink=1 "Activities (page does not exist)")
 

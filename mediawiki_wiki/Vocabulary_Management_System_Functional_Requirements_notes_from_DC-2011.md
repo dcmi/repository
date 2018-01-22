@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements_notes_from_DC-2011.html"
+- "/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements_notes_from_DC-2011.html"
 ---
 
  **This is an archived MediaWiki page.**  

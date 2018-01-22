@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Angela_Dappert.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Angela_Dappert.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Angela Dappert.jpg" src="/images/0/07/Angela_Dappert.jpg" width="200" height="200">](/archive/mediawiki_wiki/files/Angela_Dappert.jpg)  
+ [<img alt="File:Angela Dappert.jpg" src="/images/0/07/Angela_Dappert.jpg" width="200" height="200">](/mediawiki_wiki/files/Angela_Dappert.jpg)  
 <small>No higher resolution available.</small>  
  [Angela\_Dappert.jpg](/images/0/07/Angela_Dappert.jpg)‎ (200 × 200 pixels, file size: 10 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Angela_Dappert.jpg">19:36, 26 April 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Angela_Dappert.jpg">19:36, 26 April 2015</a></td>
     <td><a href="/images/0/07/Angela_Dappert.jpg"><img alt="Thumbnail for version as of 19:36, 26 April 2015" src="/images/0/07/Angela_Dappert.jpg" width="120" height="120"></a></td>
     <td>200×200 <span style="white-space: nowrap;">(10 KB)</span>
     </td>
@@ -73,13 +73,13 @@ The following 2 pages link to this file:
 - [DCMI Handbook/webinars](/index.php/DCMI_Handbook/webinars "DCMI Handbook/webinars")
 - [Template:Webinar20150527](/index.php/Template:Webinar20150527 "Template:Webinar20150527")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Angela\_Dappert.jpg](/archive/mediawiki_wiki/files/File:/File:Angela_Dappert.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Angela\_Dappert.jpg](/mediawiki_wiki/files/File:/File:Angela_Dappert.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Angela_Dappert.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Angela_Dappert.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Angela_Dappert.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Angela_Dappert.jpg&action=edit "This page is protected.
 You can view its source [e]")

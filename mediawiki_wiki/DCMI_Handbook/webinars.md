@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Handbook/webinars.html"
+- "/mediawiki_wiki/DCMI_Handbook/webinars.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 16 June 2015, at 17:20.  
 This page has been accessed 96,513 times.
 
-[<img alt="DCMI Webinar Series logo" src="/archive/mediawiki_wiki/images/DCMI_Webinars.png" width="450" height="127">](/archive/mediawiki_wiki/images/DCMI_Webinars.png "DCMI Webinar Series logo")
+[<img alt="DCMI Webinar Series logo" src="/mediawiki_wiki/images/DCMI_Webinars.png" width="450" height="127">](/mediawiki_wiki/images/DCMI_Webinars.png "DCMI Webinar Series logo")
 
 <table id="toc" class="toc">
   <tr>
@@ -78,7 +78,7 @@ This page has been accessed 96,513 times.
 </table>
 
 
-[<img alt="Upcoming webinars" src="/archive/mediawiki_wiki/images/Upcoming.png" width="497" height="50">](/archive/mediawiki_wiki/images/Upcoming.png "Upcoming webinars")
+[<img alt="Upcoming webinars" src="/mediawiki_wiki/images/Upcoming.png" width="497" height="50">](/mediawiki_wiki/images/Upcoming.png "Upcoming webinars")
 
 ##   
 July 1, 2015
@@ -98,7 +98,7 @@ The principle of these guidelines is to improve interoperability of bibliographi
 <table>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/Pedroprincipe.png" class="image" title="Portrait: Pedro Príncipe"><img alt="Portrait: Pedro Príncipe" src="/archive/mediawiki_wiki/images/Pedroprincipe.png" width="125" height="125"></a>
+      <a href="/mediawiki_wiki/images/Pedroprincipe.png" class="image" title="Portrait: Pedro Príncipe"><img alt="Portrait: Pedro Príncipe" src="/mediawiki_wiki/images/Pedroprincipe.png" width="125" height="125"></a>
     </td>
     <td>
     </td>
@@ -111,7 +111,7 @@ The principle of these guidelines is to improve interoperability of bibliographi
 <table>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/Jschirrwagen.png" class="image" title="Portrait: Jochen Schirrwagen image"><img alt="Portrait: Jochen Schirrwagen image" src="/archive/mediawiki_wiki/images/Jschirrwagen.png" width="125" height="125"></a>
+      <a href="/mediawiki_wiki/images/Jschirrwagen.png" class="image" title="Portrait: Jochen Schirrwagen image"><img alt="Portrait: Jochen Schirrwagen image" src="/mediawiki_wiki/images/Jschirrwagen.png" width="125" height="125"></a>
     </td>
     <td>
     </td>
@@ -154,7 +154,7 @@ Redux: An update of a webinar first presented in 2013.
 <table>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/Keizer.jpg" class="image" title="Portrait: Johannes Keizer image"><img alt="Portrait: Johannes Keizer image" src="/archive/mediawiki_wiki/images/Keizer.jpg" width="125" height="169"></a>
+      <a href="/mediawiki_wiki/images/Keizer.jpg" class="image" title="Portrait: Johannes Keizer image"><img alt="Portrait: Johannes Keizer image" src="/mediawiki_wiki/images/Keizer.jpg" width="125" height="169"></a>
     </td>
     <td>
     </td>
@@ -167,7 +167,7 @@ Redux: An update of a webinar first presented in 2013.
 <table>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/Caracciolo.jpg" class="image" title="Portrait: Caterina Caracciolo image"><img alt="Portrait: Caterina Caracciolo image" src="/archive/mediawiki_wiki/images/Caracciolo.jpg" width="125" height="125"></a>
+      <a href="/mediawiki_wiki/images/Caracciolo.jpg" class="image" title="Portrait: Caterina Caracciolo image"><img alt="Portrait: Caterina Caracciolo image" src="/mediawiki_wiki/images/Caracciolo.jpg" width="125" height="125"></a>
     </td>
     <td>
     </td>
@@ -192,7 +192,7 @@ Redux: An update of a webinar first presented in 2013.
 > 
 > [View Webinar System Requirements](http://support.citrixonline.com/webinar/all_files/G2W010003)
 
-[<img alt="Past webinars" src="/archive/mediawiki_wiki/images/Past.png" width="345" height="50">](/archive/mediawiki_wiki/images/Past.png "Past webinars")
+[<img alt="Past webinars" src="/mediawiki_wiki/images/Past.png" width="345" height="50">](/mediawiki_wiki/images/Past.png "Past webinars")
 
 * * *
 
@@ -214,7 +214,7 @@ The PREMIS Data Dictionary is currently in version 2.2. A new major release 3.0 
 <table>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/Angela_Dappert.jpg" class="image" title="Portrait: Angela Dappert image"><img alt="Portrait: Angela Dappert image" src="/archive/mediawiki_wiki/images/Angela_Dappert.jpg" width="125" height="125"></a>
+      <a href="/mediawiki_wiki/images/Angela_Dappert.jpg" class="image" title="Portrait: Angela Dappert image"><img alt="Portrait: Angela Dappert image" src="/mediawiki_wiki/images/Angela_Dappert.jpg" width="125" height="125"></a>
     </td>
     <td>
     </td>
@@ -249,7 +249,7 @@ This webinar was first presented as a training session in the LODLAM Training Da
 <table>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/Ethan_Gruber.png" class="image" title="Portrait: Ethan Gruber image"><img alt="Portrait: Ethan Gruber image" src="/archive/mediawiki_wiki/images/Ethan_Gruber.png" width="125" height="125"></a>
+      <a href="/mediawiki_wiki/images/Ethan_Gruber.png" class="image" title="Portrait: Ethan Gruber image"><img alt="Portrait: Ethan Gruber image" src="/mediawiki_wiki/images/Ethan_Gruber.png" width="125" height="125"></a>
     </td>
     <td>
     </td>
@@ -282,7 +282,7 @@ In this webinar we will review the challenges identified above and discuss solut
 <table>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/Rauber.jpg" class="image" title="Portrait: Andreas Rauber image"><img alt="Portrait: Andreas Rauber image" src="/archive/mediawiki_wiki/images/Rauber.jpg" width="125" height="188"></a>
+      <a href="/mediawiki_wiki/images/Rauber.jpg" class="image" title="Portrait: Andreas Rauber image"><img alt="Portrait: Andreas Rauber image" src="/mediawiki_wiki/images/Rauber.jpg" width="125" height="188"></a>
     </td>
     <td>
     </td>
@@ -314,7 +314,7 @@ _VocBench 2.0: A Web Application for Collaborative Development of Multilingual T
 <table>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/Caracciolo.jpg" class="image" title="Portrait: Caterina Caracciolo"><img alt="Portrait: Caterina Caracciolo" src="/archive/mediawiki_wiki/images/Caracciolo.jpg" width="125" height="125"></a>
+      <a href="/mediawiki_wiki/images/Caracciolo.jpg" class="image" title="Portrait: Caterina Caracciolo"><img alt="Portrait: Caterina Caracciolo" src="/mediawiki_wiki/images/Caracciolo.jpg" width="125" height="125"></a>
     </td>
     <td>
     </td>
@@ -335,7 +335,7 @@ _VocBench 2.0: A Web Application for Collaborative Development of Multilingual T
   </tr>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/StellatoPicture.JPG" class="image" title="Portrait: Armando Stellato"><img alt="Portrait: Armando Stellato" src="/archive/mediawiki_wiki/images/StellatoPicture.JPG" width="125" height="142"></a>
+      <a href="/mediawiki_wiki/images/StellatoPicture.JPG" class="image" title="Portrait: Armando Stellato"><img alt="Portrait: Armando Stellato" src="/mediawiki_wiki/images/StellatoPicture.JPG" width="125" height="142"></a>
     </td>
     <td>
     </td>
@@ -348,7 +348,7 @@ _VocBench 2.0: A Web Application for Collaborative Development of Multilingual T
 </table>
 
 
-***Presentation slides:*** [PDF](/archive/mediawiki_wiki/files/Webinar-DCMI-3-4-2015-COMBINED.pdf "Webinar-DCMI-3-4-2015-COMBINED.pdf")
+***Presentation slides:*** [PDF](/mediawiki_wiki/files/Webinar-DCMI-3-4-2015-COMBINED.pdf "Webinar-DCMI-3-4-2015-COMBINED.pdf")
 
 ## November 19, 2014 - Phil Barker & Lorna Campbell 
 
@@ -364,7 +364,7 @@ _The Learning Resource Metadata Initiative, describing learning resources with s
 <table>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/Lorna_Campbell.gif" class="image" title="Portrait: Lorna Campbell"><img alt="Portrait: Lorna Campbell" src="/archive/mediawiki_wiki/images/Lorna_Campbell.gif" width="125" height="149"></a>
+      <a href="/mediawiki_wiki/images/Lorna_Campbell.gif" class="image" title="Portrait: Lorna Campbell"><img alt="Portrait: Lorna Campbell" src="/mediawiki_wiki/images/Lorna_Campbell.gif" width="125" height="149"></a>
     </td>
     <td>
     </td>
@@ -385,7 +385,7 @@ _The Learning Resource Metadata Initiative, describing learning resources with s
   </tr>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/Phil_Barker.jpg" class="image" title="Portrait: Phil Barker image"><img alt="Portrait: Phil Barker image" src="/archive/mediawiki_wiki/images/Phil_Barker.jpg" width="125" height="188"></a>
+      <a href="/mediawiki_wiki/images/Phil_Barker.jpg" class="image" title="Portrait: Phil Barker image"><img alt="Portrait: Phil Barker image" src="/mediawiki_wiki/images/Phil_Barker.jpg" width="125" height="188"></a>
     </td>
     <td>
     </td>
@@ -398,7 +398,7 @@ _The Learning Resource Metadata Initiative, describing learning resources with s
 </table>
 
 
-***Presentation slides:*** [PDF](/archive/mediawiki_wiki/files/BarkerCampbell.pdf "BarkerCampbell.pdf")
+***Presentation slides:*** [PDF](/mediawiki_wiki/files/BarkerCampbell.pdf "BarkerCampbell.pdf")
 
 * * *
 
@@ -422,7 +422,7 @@ _How to pick the low hanging fruits of Linked Data_
 <table>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/VanHooland.jpg" class="image" title="Portrait: Seth van Hooland"><img alt="Portrait: Seth van Hooland" src="/archive/mediawiki_wiki/images/VanHooland.jpg" width="125" height="125"></a>
+      <a href="/mediawiki_wiki/images/VanHooland.jpg" class="image" title="Portrait: Seth van Hooland"><img alt="Portrait: Seth van Hooland" src="/mediawiki_wiki/images/VanHooland.jpg" width="125" height="125"></a>
     </td>
     <td>
     </td>
@@ -443,7 +443,7 @@ _How to pick the low hanging fruits of Linked Data_
   </tr>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/Ruben.Verborgh.jpg" class="image" title="Portrait: Ruben Verborgh image"><img alt="Portrait: Ruben Verborgh image" src="/archive/mediawiki_wiki/images/Ruben.Verborgh.jpg" width="125" height="140"></a>
+      <a href="/mediawiki_wiki/images/Ruben.Verborgh.jpg" class="image" title="Portrait: Ruben Verborgh image"><img alt="Portrait: Ruben Verborgh image" src="/mediawiki_wiki/images/Ruben.Verborgh.jpg" width="125" height="140"></a>
     </td>
     <td>
     </td>
@@ -456,7 +456,7 @@ _How to pick the low hanging fruits of Linked Data_
 </table>
 
 
-***Handout for the webinar:*** [PDF](http://freeyourmetadata.org/handouts/dcmi.pdf)***Presentation slides:*** [PDF](/archive/mediawiki_wiki/files/VanHoolandVerborgh.pdf "VanHoolandVerborgh.pdf")
+***Handout for the webinar:*** [PDF](http://freeyourmetadata.org/handouts/dcmi.pdf)***Presentation slides:*** [PDF](/mediawiki_wiki/files/VanHoolandVerborgh.pdf "VanHoolandVerborgh.pdf")
 
 <pre> <strong>Categories:</strong> Metadata Modeling | Transactions on Metadata | Resource Description Framework (RDF)
 </pre>

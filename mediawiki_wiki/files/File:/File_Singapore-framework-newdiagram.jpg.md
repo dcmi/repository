@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Singapore-framework-newdiagram.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Singapore-framework-newdiagram.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Singapore-framework-newdiagram.jpg" src="/images/d/df/Singapore-framework-newdiagram.jpg" width="800" height="479">](/archive/mediawiki_wiki/files/Singapore-framework-newdiagram.jpg)  
+ [<img alt="File:Singapore-framework-newdiagram.jpg" src="/images/d/df/Singapore-framework-newdiagram.jpg" width="800" height="479">](/mediawiki_wiki/files/Singapore-framework-newdiagram.jpg)  
 <small>Size of this preview: 800 × 479 pixels</small>  
  [Full resolution](/images/d/df/Singapore-framework-newdiagram.jpg)‎ (924 × 553 pixels, file size: 57 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Singapore-framework-newdiagram.jpg">19:08, 3 March 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Singapore-framework-newdiagram.jpg">19:08, 3 March 2012</a></td>
     <td><a href="/images/d/df/Singapore-framework-newdiagram.jpg"><img alt="Thumbnail for version as of 19:08, 3 March 2012" src="/images/d/df/Singapore-framework-newdiagram.jpg" width="120" height="72"></a></td>
     <td>924×553 <span style="white-space: nowrap;">(57 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [Learning Linked Data Workshop Notes](/index.php/Learning_Linked_Data_Workshop_Notes "Learning Linked Data Workshop Notes")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Singapore-framework-newdiagram.jpg](/archive/mediawiki_wiki/files/File:/File:Singapore-framework-newdiagram.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Singapore-framework-newdiagram.jpg](/mediawiki_wiki/files/File:/File:Singapore-framework-newdiagram.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Singapore-framework-newdiagram.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Singapore-framework-newdiagram.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Singapore-framework-newdiagram.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Singapore-framework-newdiagram.jpg&action=edit "This page is protected.
 You can view its source [e]")

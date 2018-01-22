@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DC2011_NKOS_Workshop.html"
+- "/mediawiki_wiki/DC2011_NKOS_Workshop.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,7 +17,7 @@ This page has been accessed 120,105 times.
 
 - For the DC 2010 conference, we are planning a half-day Task Group meeting NKOS Workshop. It will be an open meeting to be scheduled on Thursday or Friday. Please edit and add your ideas and your role as the leader. 
 
-Group Meeting Minutes [File:DC2010Minutes.pdf](/archive/mediawiki_wiki/files/DC2010Minutes.pdf "File:DC2010Minutes.pdf") (Thanks to Margie for capturing everything in the length minutes!)
+Group Meeting Minutes [File:DC2010Minutes.pdf](/mediawiki_wiki/files/DC2010Minutes.pdf "File:DC2010Minutes.pdf") (Thanks to Margie for capturing everything in the length minutes!)
 
 <table id="toc" class="toc">
   <tr>
@@ -47,11 +47,11 @@ Discussions of what the DCMI-NKOS Task Group has done (by then) and start thinki
 ### 1. Reports of the first three components required by the Guidelines for Dublin Core Application Profiles [note 1]&nbsp;: 
 
 - Functional Requirements -- \*\*Leader: Margie Hlava\*\* and \*\*Ahsan Morshed\*\*
-- Notes on [user needs](/archive/mediawiki_wiki/User_needs "User needs")
-- Margie Hlava's [straw man](/archive/mediawiki_wiki/Straw_man "Straw man") draft (five groups) and full ppt
+- Notes on [user needs](/mediawiki_wiki/User_needs "User needs")
+- Margie Hlava's [straw man](/mediawiki_wiki/Straw_man "Straw man") draft (five groups) and full ppt
 
 - Domain Model -- \*\*Leader: Maja Zumer\*\*
-- Domain Model [File:Zumernkos.pdf](/archive/mediawiki_wiki/files/Zumernkos.pdf "File:Zumernkos.pdf") Power Point slides, including a graph of FRBR-based AP model
+- Domain Model [File:Zumernkos.pdf](/mediawiki_wiki/files/Zumernkos.pdf "File:Zumernkos.pdf") Power Point slides, including a graph of FRBR-based AP model
 
 - Description Set Profile and Usage Guidelines
 - a) Metadata terms (elements) -- \*\*Leader: Gail Hodge\*\*, \*\*Doug Tudhope\*\*, and \*\*Diane Vizine-Goetz\*\* (combination of [[what is on the NKOS site](http://nkos.slis.kent.edu/registry3.htm)] and the [JISC Core](/index.php?title=JISC_Core&action=edit&redlink=1 "JISC Core (page does not exist)"))

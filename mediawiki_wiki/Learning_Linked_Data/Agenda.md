@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Learning_Linked_Data/Agenda.html"
+- "/mediawiki_wiki/Learning_Linked_Data/Agenda.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 1 February 2012, at 20:57.  
 This page has been accessed 40,742 times.
 
-Return to [Learning Linked Data Main Page](/archive/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
+Return to [Learning Linked Data Main Page](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
 
 <table id="toc" class="toc">
   <tr>
@@ -47,7 +47,7 @@ Return to [Learning Linked Data Main Page](/archive/mediawiki_wiki/Learning_Link
 
 - Venue: [Mary Gates Hall](http://www.washington.edu/uaa/leading/mgh.php) Room 420 (4th floor, NW corner)
 - Reimbursement: see email from Mike about [travel](http://dublincore.org/pipermail/learninglinkeddata/2011-November/000007.html) and [hotel](http://dublincore.org/pipermail/learninglinkeddata/2011-November/000009.html)
-- Expected [participants](/archive/mediawiki_wiki/Learning_Linked_Data/Participants "Learning Linked Data/Participants"): Tom Baker, Mike Crandall, Joe Tennis, Corey Harper, Craig Willis, David Talley, Diane Hillmann, Ed Summers, Joseph Busch, Karen Coyle, Karen Wickett, Marcia Zeng, Marjorie Hlava, Randy Orwin, Riley Stoermer, Stuart Sutton
+- Expected [participants](/mediawiki_wiki/Learning_Linked_Data/Participants "Learning Linked Data/Participants"): Tom Baker, Mike Crandall, Joe Tennis, Corey Harper, Craig Willis, David Talley, Diane Hillmann, Ed Summers, Joseph Busch, Karen Coyle, Karen Wickett, Marcia Zeng, Marjorie Hlava, Randy Orwin, Riley Stoermer, Stuart Sutton
 - Regrets: Jane Greenberg
 - Local transportation logistics
   - Thursday
@@ -69,7 +69,7 @@ Return to [Learning Linked Data Main Page](/archive/mediawiki_wiki/Learning_Link
 #### Required reading 
 <dl>
 <dt>
-<a href="/archive/mediawiki_wiki/files/IMLSPlanningGrantNarrative.pdf" class="external text" rel="nofollow">IMLS Grant Narrative</a>
+<a href="/mediawiki_wiki/files/IMLSPlanningGrantNarrative.pdf" class="external text" rel="nofollow">IMLS Grant Narrative</a>
 </dt>
 <dd>Let's all review what we actually proposed to do in the grant (and in this key workshop).
 </dd>
@@ -119,8 +119,8 @@ Return to [Learning Linked Data Main Page](/archive/mediawiki_wiki/Learning_Link
 ### Agenda 
 
 1. Logistics (MikeC) and Introductions
-2. Walk-through to load the Inventory of **[Learning Objectives](/archive/mediawiki_wiki/Learning_Linked_Data_Inventory "Learning Linked Data Inventory")** into working memory.
-3. Brainstorming (drawing on [Personas](/archive/mediawiki_wiki/Learning_Linked_Data_Personas "Learning Linked Data Personas")) no more than six **Audiences** for the to-be-proposed **Tool Platform**.
+2. Walk-through to load the Inventory of **[Learning Objectives](/mediawiki_wiki/Learning_Linked_Data_Inventory "Learning Linked Data Inventory")** into working memory.
+3. Brainstorming (drawing on [Personas](/mediawiki_wiki/Learning_Linked_Data_Personas "Learning Linked Data Personas")) no more than six **Audiences** for the to-be-proposed **Tool Platform**.
   1. Link **Personas** to one of the six **Audiences**.
   2. Associate **Task Objectives** with **Learning Objectives**.
   3. Formulate **Prerequisites** for **Learning Objectives**.

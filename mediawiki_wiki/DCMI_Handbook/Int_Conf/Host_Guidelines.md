@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Handbook/Int_Conf/Host_Guidelines.html"
+- "/mediawiki_wiki/DCMI_Handbook/Int_Conf/Host_Guidelines.html"
 ---
 
  **This is an archived MediaWiki page.**

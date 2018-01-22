@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Ed_Comm.png.html"
+- "/mediawiki_wiki/files/File:/File_Ed_Comm.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Ed Comm.png" src="/images/4/41/Ed_Comm.png" width="406" height="109">](/archive/mediawiki_wiki/files/Ed_Comm.png)  
+ [<img alt="File:Ed Comm.png" src="/images/4/41/Ed_Comm.png" width="406" height="109">](/mediawiki_wiki/files/Ed_Comm.png)  
 <small>No higher resolution available.</small>  
  [Ed\_Comm.png](/images/4/41/Ed_Comm.png)‎ (406 × 109 pixels, file size: 21 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Ed_Comm.png">01:18, 13 February 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Ed_Comm.png">01:18, 13 February 2014</a></td>
     <td><a href="/images/4/41/Ed_Comm.png"><img alt="Thumbnail for version as of 01:18, 13 February 2014" src="/images/4/41/Ed_Comm.png" width="120" height="32"></a></td>
     <td>406×109 <span style="white-space: nowrap;">(21 KB)</span>
     </td>
@@ -70,7 +70,7 @@ Click on a date/time to view the file as it appeared at that time.
 
 The following file is a duplicate of this file ( [more details](/index.php/Special:FileDuplicateSearch/Ed_Comm.png "Special:FileDuplicateSearch/Ed Comm.png")):
 
-- [File:Education Logo.png](/archive/mediawiki_wiki/files/File:/File:Education_Logo.png.html "File:Education Logo.png") 
+- [File:Education Logo.png](/mediawiki_wiki/files/File:/File:Education_Logo.png.html "File:Education Logo.png") 
 
 The following 4 pages link to this file:
 
@@ -79,13 +79,13 @@ The following 4 pages link to this file:
 - [DCMI Advisory Board/education/minutes/20140409](/index.php/DCMI_Advisory_Board/education/minutes/20140409 "DCMI Advisory Board/education/minutes/20140409")
 - [DCMI Advisory Board/scratchpad/education](/index.php/DCMI_Advisory_Board/scratchpad/education "DCMI Advisory Board/scratchpad/education")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Ed\_Comm.png](/archive/mediawiki_wiki/files/File:/File:Ed_Comm.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Ed\_Comm.png](/mediawiki_wiki/files/File:/File:Ed_Comm.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Ed_Comm.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Ed_Comm.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Ed_Comm.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Ed_Comm.png&action=edit "This page is protected.
 You can view its source [e]")

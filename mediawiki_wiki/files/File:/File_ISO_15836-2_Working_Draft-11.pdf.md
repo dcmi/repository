@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_ISO_15836-2_Working_Draft-11.pdf.html"
+- "/mediawiki_wiki/files/File:/File_ISO_15836-2_Working_Draft-11.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/ISO_15836-2_Working_Draft-11.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/ISO_15836-2_Working_Draft-11.pdf)
 
-[ISO\_15836-2\_Working\_Draft-11.pdf](/archive/mediawiki_wiki/files/ISO_15836-2_Working_Draft-11.pdf "ISO 15836-2 Working Draft-11.pdf")‎(file size: 339 KB, MIME type: application/pdf)
+[ISO\_15836-2\_Working\_Draft-11.pdf](/mediawiki_wiki/files/ISO_15836-2_Working_Draft-11.pdf "ISO 15836-2 Working Draft-11.pdf")‎(file size: 339 KB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/ISO_15836-2_Working_Draft-11.pdf">07:12, 14 May 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/ISO_15836-2_Working_Draft-11.pdf">07:12, 14 May 2015</a></td>
     <td> <span style="white-space: nowrap;">(339 KB)</span>
     </td>
     <td>
@@ -65,13 +65,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:ISO\_15836-2\_Working\_Draft-11.pdf](/archive/mediawiki_wiki/files/File:/File:ISO_15836-2_Working_Draft-11.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:ISO\_15836-2\_Working\_Draft-11.pdf](/mediawiki_wiki/files/File:/File:ISO_15836-2_Working_Draft-11.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:ISO_15836-2_Working_Draft-11.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:ISO_15836-2_Working_Draft-11.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:ISO_15836-2_Working_Draft-11.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:ISO_15836-2_Working_Draft-11.pdf&action=edit "This page is protected.
 You can view its source [e]")

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/RFC-6906-Profiles.html"
+- "/mediawiki_wiki/RFC-6906-Profiles.html"
 ---
 
  **This is an archived MediaWiki page.**  

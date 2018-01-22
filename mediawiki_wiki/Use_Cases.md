@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Use_Cases.html"
+- "/mediawiki_wiki/Use_Cases.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 6 January 2012, at 16:03.  
 This page has been accessed 111,336 times.
 
-[Back to TG Historical Archives page](/archive/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives)
+[Back to TG Historical Archives page](/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives)
 
 <table id="toc" class="toc">
   <tr>
@@ -102,5 +102,5 @@ SWAP would potentially benefit from the application of the RDA entity and value 
 
 _Contributed by Gordon Dunsire_
 
-[Back to TG Historical Archives page](/archive/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives)
+[Back to TG Historical Archives page](/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives)
 

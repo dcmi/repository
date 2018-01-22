@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Exec_Committee/directorate/MDDuties.html"
+- "/mediawiki_wiki/Exec_Committee/directorate/MDDuties.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 8 December 2016, at 22:47.  
 This page has been accessed 42,965 times.
 
-[<img alt="Directorate logo" src="/archive/mediawiki_wiki/images/Directorate_Logo.png" width="300" height="58">](/archive/mediawiki_wiki/images/Directorate_Logo.png "Directorate logo")
+[<img alt="Directorate logo" src="/mediawiki_wiki/images/Directorate_Logo.png" width="300" height="58">](/mediawiki_wiki/images/Directorate_Logo.png "Directorate logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>

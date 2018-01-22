@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_MediaWiki-Bold.jpg.html"
+- "/mediawiki_wiki/files/File:/File_MediaWiki-Bold.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:MediaWiki-Bold.jpg" src="/images/c/cd/MediaWiki-Bold.jpg" width="337" height="36">](/archive/mediawiki_wiki/files/MediaWiki-Bold.jpg)  
+ [<img alt="File:MediaWiki-Bold.jpg" src="/images/c/cd/MediaWiki-Bold.jpg" width="337" height="36">](/mediawiki_wiki/files/MediaWiki-Bold.jpg)  
 <small>No higher resolution available.</small>  
  [MediaWiki-Bold.jpg](/images/c/cd/MediaWiki-Bold.jpg)‎ (337 × 36 pixels, file size: 31 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/MediaWiki-Bold.jpg">23:56, 8 January 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/MediaWiki-Bold.jpg">23:56, 8 January 2012</a></td>
     <td><a href="/images/c/cd/MediaWiki-Bold.jpg"><img alt="Thumbnail for version as of 23:56, 8 January 2012" src="/images/c/cd/MediaWiki-Bold.jpg" width="120" height="13"></a></td>
     <td>337×36 <span style="white-space: nowrap;">(31 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [DCMI Handbook/MediaWiki Simple Help](/index.php/DCMI_Handbook/MediaWiki_Simple_Help "DCMI Handbook/MediaWiki Simple Help")
 
-Retrieved from " [/archive/mediawiki_wiki/File:MediaWiki-Bold.jpg](/archive/mediawiki_wiki/files/File:/File:MediaWiki-Bold.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:MediaWiki-Bold.jpg](/mediawiki_wiki/files/File:/File:MediaWiki-Bold.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:MediaWiki-Bold.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:MediaWiki-Bold.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:MediaWiki-Bold.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:MediaWiki-Bold.jpg&action=edit "This page is protected.
 You can view its source [e]")

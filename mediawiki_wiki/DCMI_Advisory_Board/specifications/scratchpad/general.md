@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Advisory_Board/specifications/scratchpad/general.html"
+- "/mediawiki_wiki/DCMI_Advisory_Board/specifications/scratchpad/general.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 2 August 2015, at 22:22.  
 This page has been accessed 120,477 times.
 
-[<img alt="Technical Board logo" src="/archive/mediawiki_wiki/images/Technical_Board.png" width="200" height="63">](/archive/mediawiki_wiki/images/Technical_Board.png "Technical Board logo")
+[<img alt="Technical Board logo" src="/mediawiki_wiki/images/Technical_Board.png" width="200" height="63">](/mediawiki_wiki/images/Technical_Board.png "Technical Board logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><strong class="selflink">Technical Board</strong> Committees:</i> <a href="/mediawiki_wiki/DCMI_Technical_Board/usage.md" title="DCMI Technical Board/usage">Usage</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/standards.md" title="DCMI Technical Board/standards">Standards &amp; Liaisons</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/specifications.md" title="DCMI Technical Board/specifications">Community Specifications</a> ◘ <a href="/mediawiki_wiki/DCMI_FOAF_Cooperation.md" title="DCMI FOAF Cooperation">DCMI FOAF Cooperation</a>
 </dd>
@@ -69,11 +69,11 @@ This page has been accessed 120,477 times.
 
 The Technical Board encompasses the work of three committees:
 
-- [Usage Committee](/archive/mediawiki_wiki/DCMI_Technical_Board/usage "DCMI Technical Board/usage"). The Usage Committee takes technical decisions regarding all semantic specifications to which DCMI, as an organization, has made a long-term commitment (primarily [DCMI Metadata Terms](http://dublincore.org/documents/dcmi-terms/)).
-- [Standards Committee](/archive/mediawiki_wiki/DCMI_Technical_Board/standards "DCMI Technical Board/standards"). The Standards Committee manages the processes by which adaptations of DCMI specifications are recognized and published by formal standards organizations (primarily ISO 15836), as well as liaison relationships between DCMI and other such organizations.
-- [Community Specifications Committee](/archive/mediawiki_wiki/DCMI_Technical_Board/specifications "DCMI Technical Board/specifications"). The Community Specifications Committee manages the work of DCMI Communities and Task Groups and the publication of their work results as DCMI Community Specifications in accordance with DCMI policy.
-- [Techncial Infrastructure Committee](/archive/mediawiki_wiki/DCMI_Technical_Board/infrastructure "DCMI Technical Board/infrastructure"). The Technical Infrastructure Committee (TIC) ensures the ongoing development, imlementation, sustainable operations and oversight of DCMI's Technical Infrastructure as well a any guiding policies to achieve identified goals.
-- [DCMI FOAF Cooperation Task Group](/archive/mediawiki_wiki/DCMI_FOAF_Cooperation "DCMI FOAF Cooperation"). The DCMI/FOAF Task Group monitors implementation of the [DCMI-FOAF Agreement](http://dublincore.org/documents/dcmi-foaf/)).
+- [Usage Committee](/mediawiki_wiki/DCMI_Technical_Board/usage "DCMI Technical Board/usage"). The Usage Committee takes technical decisions regarding all semantic specifications to which DCMI, as an organization, has made a long-term commitment (primarily [DCMI Metadata Terms](http://dublincore.org/documents/dcmi-terms/)).
+- [Standards Committee](/mediawiki_wiki/DCMI_Technical_Board/standards "DCMI Technical Board/standards"). The Standards Committee manages the processes by which adaptations of DCMI specifications are recognized and published by formal standards organizations (primarily ISO 15836), as well as liaison relationships between DCMI and other such organizations.
+- [Community Specifications Committee](/mediawiki_wiki/DCMI_Technical_Board/specifications "DCMI Technical Board/specifications"). The Community Specifications Committee manages the work of DCMI Communities and Task Groups and the publication of their work results as DCMI Community Specifications in accordance with DCMI policy.
+- [Techncial Infrastructure Committee](/mediawiki_wiki/DCMI_Technical_Board/infrastructure "DCMI Technical Board/infrastructure"). The Technical Infrastructure Committee (TIC) ensures the ongoing development, imlementation, sustainable operations and oversight of DCMI's Technical Infrastructure as well a any guiding policies to achieve identified goals.
+- [DCMI FOAF Cooperation Task Group](/mediawiki_wiki/DCMI_FOAF_Cooperation "DCMI FOAF Cooperation"). The DCMI/FOAF Task Group monitors implementation of the [DCMI-FOAF Agreement](http://dublincore.org/documents/dcmi-foaf/)).
 
 * * *
 
@@ -114,38 +114,38 @@ The Technical Board encompasses the work of three committees:
   - Standards Committee (Closed Membership) [dc-slc@jiscmail.ac.uk](mailto:dc-slc@jiscmail.ac.uk) | [Archive](http://www.jiscmail.ac.uk/lists/dc-slc.html) | (Public) [dc-standards@jiscmail.ac.uk](mailto:dc-standards@jiscmail.ac.uk) | [Archive](http://www.jiscmail.ac.uk/lists/dc-standards.html)
   - Community Specifications Committee (Closed Membership) [dc-csc@jiscmail.ac.uk](mailto:dc-csc@jiscmail.ac.uk) | [Archive](http://www.jiscmail.ac.uk/lists/dc-csc.html)) 
   - DCMI FOAF Task Group (Public) [dc-foaf@jiscmail.ac.uk](mailto:dc-foaf@jiscmail.ac.uk) | [Archive](http://www.jiscmail.ac.uk/lists/dc-foaf.html)) 
-- [<img alt="+ symbol" src="/archive/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/archive/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
+- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
 
 * * *
 
 #### Reporting 
 
-The Technical Board reports to the Executive Committee in a manner set out in the [Board Policies & Procedures](/archive/mediawiki_wiki/DCMI_Technical_Board/procedures "DCMI Technical Board/procedures").
+The Technical Board reports to the Executive Committee in a manner set out in the [Board Policies & Procedures](/mediawiki_wiki/DCMI_Technical_Board/procedures "DCMI Technical Board/procedures").
 
 * * *
 
 #### Purculating Activities <sup id="cite_ref-0" class="reference"><a href="#cite_note-0">[1]</a></sup> 
 
-- [RDF Application Profiles](/index.php?title=RDF_Application_Profiles&action=edit&redlink=1 "RDF\_Application\_Profiles (page does not exist)") (Task Group formed; Assigned: [Community Specifications Committee](/archive/mediawiki_wiki/DCMI_Technical_Board/specifications "DCMI Technical Board/specifications"))
+- [RDF Application Profiles](/index.php?title=RDF_Application_Profiles&action=edit&redlink=1 "RDF\_Application\_Profiles (page does not exist)") (Task Group formed; Assigned: [Community Specifications Committee](/mediawiki_wiki/DCMI_Technical_Board/specifications "DCMI Technical Board/specifications"))
 
 * * *
 
 #### Key DCMI Handbook Pages 
 
-- [Board Policies & Procedures](/archive/mediawiki_wiki/DCMI_Technical_Board/procedures "DCMI Technical Board/procedures")
-- [DCMI Master Administrative Calendar](/archive/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar "DCMI Handbook/Administrative Calendar")
+- [Board Policies & Procedures](/mediawiki_wiki/DCMI_Technical_Board/procedures "DCMI Technical Board/procedures")
+- [DCMI Master Administrative Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar "DCMI Handbook/Administrative Calendar")
 
 * * *
 
 #### Board Resources 
 
-- Minutes face to face meeting, DCMI 2014, Austin [TB\_minutes-102014](/archive/mediawiki_wiki/TB_minutes-102014 "TB minutes-102014")
+- Minutes face to face meeting, DCMI 2014, Austin [TB\_minutes-102014](/mediawiki_wiki/TB_minutes-102014 "TB minutes-102014")
 
 * * *
 
 #### Scratchpad (Board Chairs only) 
 
-- [General on Restructuring](/archive/mediawiki_wiki/Exec_Committee/UB_Restructure "Exec Committee/UB Restructure")
+- [General on Restructuring](/mediawiki_wiki/Exec_Committee/UB_Restructure "Exec Committee/UB Restructure")
 - [DCMI Technical Board issues](/index.php?title=DCMI_Technical_Board/issues&action=edit&redlink=1 "DCMI Technical Board/issues (page does not exist)")
 
 #### References 
@@ -154,7 +154,7 @@ The Technical Board reports to the Executive Committee in a manner set out in th
 
 * * *
 
-[<img alt="DCMI Handbook" src="/archive/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/archive/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
 
 [Click and become a DCMI member...](http://dublincore.org/support/#individualMember)
 

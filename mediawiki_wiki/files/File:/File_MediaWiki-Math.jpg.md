@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_MediaWiki-Math.jpg.html"
+- "/mediawiki_wiki/files/File:/File_MediaWiki-Math.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:MediaWiki-Math.jpg" src="/images/d/d9/MediaWiki-Math.jpg" width="335" height="35">](/archive/mediawiki_wiki/files/MediaWiki-Math.jpg)  
+ [<img alt="File:MediaWiki-Math.jpg" src="/images/d/d9/MediaWiki-Math.jpg" width="335" height="35">](/mediawiki_wiki/files/MediaWiki-Math.jpg)  
 <small>No higher resolution available.</small>  
  [MediaWiki-Math.jpg](/images/d/d9/MediaWiki-Math.jpg)‎ (335 × 35 pixels, file size: 30 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/MediaWiki-Math.jpg">00:05, 9 January 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/MediaWiki-Math.jpg">00:05, 9 January 2012</a></td>
     <td><a href="/images/d/d9/MediaWiki-Math.jpg"><img alt="Thumbnail for version as of 00:05, 9 January 2012" src="/images/d/d9/MediaWiki-Math.jpg" width="120" height="13"></a></td>
     <td>335×35 <span style="white-space: nowrap;">(30 KB)</span>
     </td>
@@ -70,13 +70,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:MediaWiki-Math.jpg](/archive/mediawiki_wiki/files/File:/File:MediaWiki-Math.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:MediaWiki-Math.jpg](/mediawiki_wiki/files/File:/File:MediaWiki-Math.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:MediaWiki-Math.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:MediaWiki-Math.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:MediaWiki-Math.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:MediaWiki-Math.jpg&action=edit "This page is protected.
 You can view its source [e]")

@@ -13,7 +13,7 @@ tags: []
 This page was last modified on 19 February 2014, at 17:30.  
 This page has been accessed 78,132 times.
 
-[Return to Executive Committee](/archive/mediawiki_wiki/Exec_Committee "Exec Committee")
+[Return to Executive Committee](/mediawiki_wiki/Exec_Committee "Exec Committee")
 
 <table id="toc" class="toc">
   <tr>
@@ -92,19 +92,19 @@ The Advisory Board has no formal voting procedures and operates on a principle o
 <table border="1" width="90%">
   <tr>
     <td width="40%">
-      <a href="/archive/mediawiki_wiki/images/Steering_Committees-wiki.png" class="image" title="Standing Committees of the Board"><img alt="Standing Committees of the Board" src="/archive/mediawiki_wiki/images/Steering_Committees-wiki.png" width="350" height="426"></a>
+      <a href="/mediawiki_wiki/images/Steering_Committees-wiki.png" class="image" title="Standing Committees of the Board"><img alt="Standing Committees of the Board" src="/mediawiki_wiki/images/Steering_Committees-wiki.png" width="350" height="426"></a>
     </td>
     <td width="45%">
-      <a href="/archive/mediawiki_wiki/images/DCMIstructure.png" class="image"><img alt="DCMIstructure.png" src="/archive/mediawiki_wiki/images/DCMIstructure.png" width="520" height="390"></a>
+      <a href="/mediawiki_wiki/images/DCMIstructure.png" class="image"><img alt="DCMIstructure.png" src="/mediawiki_wiki/images/DCMIstructure.png" width="520" height="390"></a>
       <p>Note: this chart is replaced by the one at: <a href="/mediawiki_wiki/Exec_Committee#Advisory_Board.md" title="Exec Committee">Exec_Committee#Advisory_Board</a>.
       </p>
     </td>
   </tr>
 </table>
 
-### [Planning](/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Planning "Exec Committee/AB Comm-TG/Planning")
+### [Planning](/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Planning "Exec Committee/AB Comm-TG/Planning")
 
-### [Specifications/Documentation](/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Standards "Exec Committee/AB Comm-TG/Standards") 
+### [Specifications/Documentation](/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Standards "Exec Committee/AB Comm-TG/Standards") 
 
 - _**[jb]:** If same as Usage Board, then this Committee is redundant._
 - _**[ss]:** This isn't known at this time whether the UB is the encompassing specifications committee or a kind of sub-committee of a yet unchartered committee._
@@ -112,15 +112,15 @@ The Advisory Board has no formal voting procedures and operates on a principle o
 
 - _**[mz]:** Based on the discussions of the EC on Dec. 12, we renamed the "Standards" committee to "Specifications/Documentation" to reflect the activities surrounding application profiles and other activities outside the scope of the Usage Board (which would focus on formal standards maintenance and architectural direction)._
 
-### [Conferences & Meetings](/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Conferences "Exec Committee/AB Comm-TG/Conferences")
+### [Conferences & Meetings](/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Conferences "Exec Committee/AB Comm-TG/Conferences")
 
-### [Education](/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Education "Exec Committee/AB Comm-TG/Education") & Outreach 
+### [Education](/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Education "Exec Committee/AB Comm-TG/Education") & Outreach 
 
-### [Nominations](/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Nominations "Exec Committee/AB Comm-TG/Nominations")
+### [Nominations](/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Nominations "Exec Committee/AB Comm-TG/Nominations")
 
 * * *
 
-# [Knowledge Audit](/archive/mediawiki_wiki/Knowledge_Audit "Knowledge Audit")
+# [Knowledge Audit](/mediawiki_wiki/Knowledge_Audit "Knowledge Audit")
 
 Community and Task Group's products as of Dec.2013. Suggested actions by AB and EC.
 

@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp1.html"
+- "/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp1.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 7 April 2015, at 12:37.  
 This page has been accessed 23,141 times.
 
-[<img alt="DCMI/LRMI Tas Group" src="/archive/mediawiki_wiki/images/DC-LRMI_TG.png" width="200" height="121">](/archive/mediawiki_wiki/images/DC-LRMI_TG.png "DCMI/LRMI Tas Group")
+[<img alt="DCMI/LRMI Tas Group" src="/mediawiki_wiki/images/DC-LRMI_TG.png" width="200" height="121">](/mediawiki_wiki/images/DC-LRMI_TG.png "DCMI/LRMI Tas Group")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -33,7 +33,7 @@ This page has been accessed 23,141 times.
 
 * * *
 
-[Return to TG homepage](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG")
+[Return to TG homepage](/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG")
 
 <table id="toc" class="toc">
   <tr>
@@ -61,7 +61,7 @@ This page has been accessed 23,141 times.
 </table>
 
 
-**[Return to Task Group Homepage](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG")**
+**[Return to Task Group Homepage](/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG")**
 
 # Work Package #1 [Completed] 
 
@@ -101,7 +101,7 @@ This page has been accessed 23,141 times.
   - [http://dublincore.org/dcx/lrmi-terms/2014-10-24/index.shtml](http://dublincore.org/dcx/lrmi-terms/2014-10-24/index.shtml) (human-readable)
   - [http://dublincore.org/dcx/lrmi-terms/2014-10-24/lrmiterms.ttl](http://dublincore.org/dcx/lrmi-terms/2014-10-24/lrmiterms.ttl)
   - This could follow the pattern of DCTERMS and be published through the specification webpage using RDFa markup, content negotiation etc..
-8. (_Transferred to [Work Package #2](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp2 "AB-Comm/ed/LRMI/TG/wp2")_) Develop a short-term plan for coordinating communications between the new DC-Education Jiscmail list/forum list and the LRMI open Google Group.
+8. (_Transferred to [Work Package #2](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp2 "AB-Comm/ed/LRMI/TG/wp2")_) Develop a short-term plan for coordinating communications between the new DC-Education Jiscmail list/forum list and the LRMI open Google Group.
 
 * * *
 
@@ -125,5 +125,5 @@ None
 
 1. ↑ [http://dublincore.org/documents/dcmi-namespace/](http://dublincore.org/documents/dcmi-namespace/)
 2. ↑ [http://dublincore.org/usage/documents/publications/#persistence](http://dublincore.org/usage/documents/publications/#persistence)
-3. ↑ [/archive/mediawiki_wiki/DCMI\_Technical\_Board/specifications/community\_namespaces](/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/community_namespaces)
+3. ↑ [/mediawiki_wiki/DCMI\_Technical\_Board/specifications/community\_namespaces](/mediawiki_wiki/DCMI_Technical_Board/specifications/community_namespaces)
 

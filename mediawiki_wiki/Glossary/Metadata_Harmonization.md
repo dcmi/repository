@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Glossary/Metadata_Harmonization.html"
+- "/mediawiki_wiki/Glossary/Metadata_Harmonization.html"
 ---
 
  **This is an archived MediaWiki page.**  

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221.html"
+- "/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,9 +17,9 @@ This page has been accessed 121,211 times.
 
 <pre>Telecon on Future Directions for DCAM - 2011-12-21 Wed - Report
 
-Report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221</a>
-Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20111221.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20111221</a>
-IRC log: <a href="/mediawiki_wiki/DCAM_Revision/TeleconIRC-20111221.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconIRC-20111221</a>
+Report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221</a>
+Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20111221.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20111221</a>
+IRC log: <a href="/mediawiki_wiki/DCAM_Revision/TeleconIRC-20111221.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconIRC-20111221</a>
 Chair: Tom Baker
 On call: Tom Baker, Stuart Sutton, Kai Eckert, Karen Coyle, Jon Phipps, Gordon Dunsire, 
               Corey Harper, Mark Matienzo (anarchivist), Michael Panzer, Jane Greenberg, 
@@ -52,7 +52,7 @@ land" of RDF. Should not be apologetic about concepts such as one-to-one.
 DCAM has applications beyond just in Linked Data.
 
 Corey: Some of the history Stuart's describing was written up last year here:
-<a href="/mediawiki_wiki/Review_of_DCMI_Abstract_Model.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Review_of_DCMI_Abstract_Model</a>
+<a href="/mediawiki_wiki/Review_of_DCMI_Abstract_Model.md" class="external free" rel="nofollow">/mediawiki_wiki/Review_of_DCMI_Abstract_Model</a>
 
 Sebastian: Perhaps we can rephrase as "one goal of DCAM is to provide the
 underpinning of the mapping of DC to RDF". I do not think DCAM should be

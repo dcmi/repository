@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Reviewer-invitation_to_review.txt.html"
+- "/mediawiki_wiki/files/File:/File_Reviewer-invitation_to_review.txt.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
-[Reviewer-invitation\_to\_review.txt](/archive/mediawiki_wiki/files/Reviewer-invitation_to_review.txt "Reviewer-invitation to review.txt")‎(file size: 1 KB, MIME type: text/plain)
+[Reviewer-invitation\_to\_review.txt](/mediawiki_wiki/files/Reviewer-invitation_to_review.txt "Reviewer-invitation to review.txt")‎(file size: 1 KB, MIME type: text/plain)
 
 **Warning** : This file type may contain malicious code. By executing it, your system may be compromised.
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Reviewer-invitation_to_review.txt">17:19, 21 October 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Reviewer-invitation_to_review.txt">17:19, 21 October 2013</a></td>
     <td> <span style="white-space: nowrap;">(1 KB)</span>
     </td>
     <td>
@@ -70,13 +70,13 @@ The following page links to this file:
 
 - [DCMI Handbook/Int Conf/Annual Meeting](/index.php/DCMI_Handbook/Int_Conf/Annual_Meeting "DCMI Handbook/Int Conf/Annual Meeting")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Reviewer-invitation\_to\_review.txt](/archive/mediawiki_wiki/files/File:/File:Reviewer-invitation_to_review.txt.html)"
+Retrieved from " [/mediawiki_wiki/File:Reviewer-invitation\_to\_review.txt](/mediawiki_wiki/files/File:/File:Reviewer-invitation_to_review.txt.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Reviewer-invitation_to_review.txt.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Reviewer-invitation_to_review.txt.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Reviewer-invitation_to_review.txt&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Reviewer-invitation_to_review.txt&action=edit "This page is protected.
 You can view its source [e]")

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Dc2011_TTG_Agenda.ppt.html"
+- "/mediawiki_wiki/files/File:/File_Dc2011_TTG_Agenda.ppt.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
-[Dc2011\_TTG\_Agenda.ppt](/archive/mediawiki_wiki/files/Dc2011_TTG_Agenda.ppt "Dc2011 TTG Agenda.ppt")‎(file size: 489 KB, MIME type: application/vnd.ms-powerpoint)
+[Dc2011\_TTG\_Agenda.ppt](/mediawiki_wiki/files/Dc2011_TTG_Agenda.ppt "Dc2011 TTG Agenda.ppt")‎(file size: 489 KB, MIME type: application/vnd.ms-powerpoint)
 
 **Warning** : This file type may contain malicious code. By executing it, your system may be compromised.
 <!-- 
@@ -46,7 +46,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Dc2011_TTG_Agenda.ppt">04:02, 4 November 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Dc2011_TTG_Agenda.ppt">04:02, 4 November 2011</a></td>
     <td> <span style="white-space: nowrap;">(489 KB)</span>
     </td>
     <td>
@@ -64,13 +64,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:Dc2011\_TTG\_Agenda.ppt](/archive/mediawiki_wiki/files/File:/File:Dc2011_TTG_Agenda.ppt.html)"
+Retrieved from " [/mediawiki_wiki/File:Dc2011\_TTG\_Agenda.ppt](/mediawiki_wiki/files/File:/File:Dc2011_TTG_Agenda.ppt.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Dc2011_TTG_Agenda.ppt.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Dc2011_TTG_Agenda.ppt.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Dc2011_TTG_Agenda.ppt&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Dc2011_TTG_Agenda.ppt&action=edit "This page is protected.
 You can view its source [e]")

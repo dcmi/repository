@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Science_And_Metadata.html"
+- "/mediawiki_wiki/DCMI_Science_And_Metadata.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -20,7 +20,7 @@ This page has been accessed 339,449 times.
     <td valign="top" width="45%">
       <h2> <span class="mw-headline" id="Charter"> Charter </span>
       </h2>
-      <div class="floatright"><a href="/archive/mediawiki_wiki/images/200px-SAMLogo2.png" class="image"><img alt="200px-SAMLogo2.png" src="/archive/mediawiki_wiki/images/200px-SAMLogo2.png" width="150" height="153"></a></div>
+      <div class="floatright"><a href="/mediawiki_wiki/images/200px-SAMLogo2.png" class="image"><img alt="200px-SAMLogo2.png" src="/mediawiki_wiki/images/200px-SAMLogo2.png" width="150" height="153"></a></div>
       <p>The DCMI Science and Metadata (DC-SAM) Community is a forum for individuals and organizations to exchange information and knowledge about metadata describing scientific data (data methodologically collected for research, analysis, tracking, forecasting, and other uses). The Community focuses on metadata challenges specific to scientific data curation, and solutions that will benefit from the architecture and global reach of the Dublin Core Metadata Initiative.
       </p>
       <p>The central challenges include:

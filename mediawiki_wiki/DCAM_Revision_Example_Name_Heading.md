@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCAM_Revision_Example_Name_Heading.html"
+- "/mediawiki_wiki/DCAM_Revision_Example_Name_Heading.html"
 ---
 
  **This is an archived MediaWiki page.**  

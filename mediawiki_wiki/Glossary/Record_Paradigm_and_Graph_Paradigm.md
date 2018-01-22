@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Glossary/Record_Paradigm_and_Graph_Paradigm.html"
+- "/mediawiki_wiki/Glossary/Record_Paradigm_and_Graph_Paradigm.html"
 ---
 
  **This is an archived MediaWiki page.**  

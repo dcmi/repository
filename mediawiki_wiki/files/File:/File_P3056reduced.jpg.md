@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_P3056reduced.jpg.html"
+- "/mediawiki_wiki/files/File:/File_P3056reduced.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:P3056reduced.jpg" src="/images/1/13/P3056reduced.jpg" width="673" height="357">](/archive/mediawiki_wiki/files/P3056reduced.jpg)  
+ [<img alt="File:P3056reduced.jpg" src="/images/1/13/P3056reduced.jpg" width="673" height="357">](/mediawiki_wiki/files/P3056reduced.jpg)  
 <small>No higher resolution available.</small>  
  [P3056reduced.jpg](/images/1/13/P3056reduced.jpg)‎ (673 × 357 pixels, file size: 67 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/P3056reduced.jpg">15:32, 7 August 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/P3056reduced.jpg">15:32, 7 August 2013</a></td>
     <td><a href="/images/1/13/P3056reduced.jpg"><img alt="Thumbnail for version as of 15:32, 7 August 2013" src="/images/1/13/P3056reduced.jpg" width="120" height="64"></a></td>
     <td>673×357 <span style="white-space: nowrap;">(67 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [APvOWL Lisbon](/index.php/APvOWL_Lisbon "APvOWL Lisbon")
 
-Retrieved from " [/archive/mediawiki_wiki/File:P3056reduced.jpg](/archive/mediawiki_wiki/files/File:/File:P3056reduced.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:P3056reduced.jpg](/mediawiki_wiki/files/File:/File:P3056reduced.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:P3056reduced.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:P3056reduced.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:P3056reduced.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:P3056reduced.jpg&action=edit "This page is protected.
 You can view its source [e]")

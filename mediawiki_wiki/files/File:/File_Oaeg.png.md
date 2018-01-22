@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Oaeg.png.html"
+- "/mediawiki_wiki/files/File:/File_Oaeg.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Oaeg.png" src="/images/f/f4/Oaeg.png" width="735" height="385">](/archive/mediawiki_wiki/files/Oaeg.png)  
+ [<img alt="File:Oaeg.png" src="/images/f/f4/Oaeg.png" width="735" height="385">](/mediawiki_wiki/files/Oaeg.png)  
 <small>No higher resolution available.</small>  
  [Oaeg.png](/images/f/f4/Oaeg.png)‎ (735 × 385 pixels, file size: 68 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Oaeg.png">15:16, 4 August 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Oaeg.png">15:16, 4 August 2013</a></td>
     <td><a href="/images/f/f4/Oaeg.png"><img alt="Thumbnail for version as of 15:16, 4 August 2013" src="/images/f/f4/Oaeg.png" width="120" height="63"></a></td>
     <td>735×385 <span style="white-space: nowrap;">(68 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [APvOWL Lisbon](/index.php/APvOWL_Lisbon "APvOWL Lisbon")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Oaeg.png](/archive/mediawiki_wiki/files/File:/File:Oaeg.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Oaeg.png](/mediawiki_wiki/files/File:/File:Oaeg.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Oaeg.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Oaeg.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Oaeg.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Oaeg.png&action=edit "This page is protected.
 You can view its source [e]")

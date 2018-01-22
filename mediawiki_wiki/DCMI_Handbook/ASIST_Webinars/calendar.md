@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars/calendar.html"
+- "/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars/calendar.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 8 April 2016, at 11:08.  
 This page has been accessed 86,874 times.
 
-[<img alt="DCMI Webinar Series logo" src="/archive/mediawiki_wiki/images/DCMI_Webinars.png" width="643" height="182">](/archive/mediawiki_wiki/images/DCMI_Webinars.png "DCMI Webinar Series logo")
+[<img alt="DCMI Webinar Series logo" src="/mediawiki_wiki/images/DCMI_Webinars.png" width="643" height="182">](/mediawiki_wiki/images/DCMI_Webinars.png "DCMI Webinar Series logo")
 
 <table id="toc" class="toc">
   <tr>
@@ -68,7 +68,7 @@ Redux: An update of a webinar first presented in 2013.
 <table>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/Keizer.jpg" class="image" title="Portrait: Johannes Keizer image"><img alt="Portrait: Johannes Keizer image" src="/archive/mediawiki_wiki/images/Keizer.jpg" width="125" height="169"></a>
+      <a href="/mediawiki_wiki/images/Keizer.jpg" class="image" title="Portrait: Johannes Keizer image"><img alt="Portrait: Johannes Keizer image" src="/mediawiki_wiki/images/Keizer.jpg" width="125" height="169"></a>
     </td>
     <td>
     </td>
@@ -81,7 +81,7 @@ Redux: An update of a webinar first presented in 2013.
 <table>
   <tr style="vertical-align:top;">
     <td>
-      <a href="/archive/mediawiki_wiki/images/Caracciolo.jpg" class="image" title="Portrait: Caterina Caracciolo image"><img alt="Portrait: Caterina Caracciolo image" src="/archive/mediawiki_wiki/images/Caracciolo.jpg" width="125" height="125"></a>
+      <a href="/mediawiki_wiki/images/Caracciolo.jpg" class="image" title="Portrait: Caterina Caracciolo image"><img alt="Portrait: Caterina Caracciolo image" src="/mediawiki_wiki/images/Caracciolo.jpg" width="125" height="125"></a>
     </td>
     <td>
     </td>

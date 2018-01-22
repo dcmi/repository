@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Drupal_Linked_Data.html"
+- "/mediawiki_wiki/Drupal_Linked_Data.html"
 ---
 
  **This is an archived MediaWiki page.**  

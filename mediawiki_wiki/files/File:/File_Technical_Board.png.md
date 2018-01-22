@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Technical_Board.png.html"
+- "/mediawiki_wiki/files/File:/File_Technical_Board.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Technical Board.png" src="/images/3/32/Technical_Board.png" width="348" height="110">](/archive/mediawiki_wiki/files/Technical_Board.png)  
+ [<img alt="File:Technical Board.png" src="/images/3/32/Technical_Board.png" width="348" height="110">](/mediawiki_wiki/files/Technical_Board.png)  
 <small>No higher resolution available.</small>  
  [Technical\_Board.png](/images/3/32/Technical_Board.png)‎ (348 × 110 pixels, file size: 17 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Technical_Board.png">18:54, 9 February 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Technical_Board.png">18:54, 9 February 2014</a></td>
     <td><a href="/images/3/32/Technical_Board.png"><img alt="Thumbnail for version as of 18:54, 9 February 2014" src="/images/3/32/Technical_Board.png" width="120" height="38"></a></td>
     <td>348×110 <span style="white-space: nowrap;">(17 KB)</span>
     </td>
@@ -76,13 +76,13 @@ The following 5 pages link to this file:
 - [Template:TBnav](/index.php/Template:TBnav "Template:TBnav")
 - [DCMI Technical Board/procedures](/index.php/DCMI_Technical_Board/procedures "DCMI Technical Board/procedures")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Technical\_Board.png](/archive/mediawiki_wiki/files/File:/File:Technical_Board.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Technical\_Board.png](/mediawiki_wiki/files/File:/File:Technical_Board.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Technical_Board.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Technical_Board.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Technical_Board.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Technical_Board.png&action=edit "This page is protected.
 You can view its source [e]")

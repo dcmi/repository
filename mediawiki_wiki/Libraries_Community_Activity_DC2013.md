@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Libraries_Community_Activity_DC2013.html"
+- "/mediawiki_wiki/Libraries_Community_Activity_DC2013.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -54,9 +54,9 @@ In this session PubMan ( [http://pubman.mpdl.mpg.de/pubman/faces/HomePage.jsp](h
 Agenda:
 
 - Welcome and Introduction
-- [Using Dublin Core for Repository Software PubMan](/archive/mediawiki_wiki/files/ESciDoc_Application_Profiles.pdf) (Andrea Wuchner, MPDL)
-- [RDF-representation of bibliographic data – a best practice guide of the KIM AG Titeldaten](/archive/mediawiki_wiki/files/DINIKIMAGTiteldaten.pdf) (Stefanie Rühle)
-- [Constantly Under Construction. STW Thesaurus for Economics Linked Data Maintenance](/archive/mediawiki_wiki/files/Stw_under_construction_dc2013.pdf) (Joachim Neubert, ZBW)
+- [Using Dublin Core for Repository Software PubMan](/mediawiki_wiki/files/ESciDoc_Application_Profiles.pdf) (Andrea Wuchner, MPDL)
+- [RDF-representation of bibliographic data – a best practice guide of the KIM AG Titeldaten](/mediawiki_wiki/files/DINIKIMAGTiteldaten.pdf) (Stefanie Rühle)
+- [Constantly Under Construction. STW Thesaurus for Economics Linked Data Maintenance](/mediawiki_wiki/files/Stw_under_construction_dc2013.pdf) (Joachim Neubert, ZBW)
 - Discussion
 - Closing
 

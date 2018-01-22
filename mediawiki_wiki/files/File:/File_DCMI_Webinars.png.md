@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DCMI_Webinars.png.html"
+- "/mediawiki_wiki/files/File:/File_DCMI_Webinars.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:DCMI Webinars.png" src="/images/2/22/DCMI_Webinars.png" width="643" height="182">](/archive/mediawiki_wiki/files/DCMI_Webinars.png)  
+ [<img alt="File:DCMI Webinars.png" src="/images/2/22/DCMI_Webinars.png" width="643" height="182">](/mediawiki_wiki/files/DCMI_Webinars.png)  
 <small>No higher resolution available.</small>  
  [DCMI\_Webinars.png](/images/2/22/DCMI_Webinars.png)‎ (643 × 182 pixels, file size: 39 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DCMI_Webinars.png">01:01, 22 April 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DCMI_Webinars.png">01:01, 22 April 2014</a></td>
     <td><a href="/images/2/22/DCMI_Webinars.png"><img alt="Thumbnail for version as of 01:01, 22 April 2014" src="/images/2/22/DCMI_Webinars.png" width="120" height="34"></a></td>
     <td>643×182 <span style="white-space: nowrap;">(39 KB)</span>
     </td>
@@ -73,13 +73,13 @@ The following 2 pages link to this file:
 - [DCMI Handbook/webinars](/index.php/DCMI_Handbook/webinars "DCMI Handbook/webinars")
 - [DCMI Handbook/ASIST Webinars/calendar](/index.php/DCMI_Handbook/ASIST_Webinars/calendar "DCMI Handbook/ASIST Webinars/calendar")
 
-Retrieved from " [/archive/mediawiki_wiki/File:DCMI\_Webinars.png](/archive/mediawiki_wiki/files/File:/File:DCMI_Webinars.png.html)"
+Retrieved from " [/mediawiki_wiki/File:DCMI\_Webinars.png](/mediawiki_wiki/files/File:/File:DCMI_Webinars.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DCMI_Webinars.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DCMI_Webinars.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DCMI_Webinars.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DCMI_Webinars.png&action=edit "This page is protected.
 You can view its source [e]")

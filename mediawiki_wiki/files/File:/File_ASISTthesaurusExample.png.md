@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_ASISTthesaurusExample.png.html"
+- "/mediawiki_wiki/files/File:/File_ASISTthesaurusExample.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:ASISTthesaurusExample.png" src="/images/c/c0/ASISTthesaurusExample.png" width="614" height="600">](/archive/mediawiki_wiki/files/ASISTthesaurusExample.png)  
+ [<img alt="File:ASISTthesaurusExample.png" src="/images/c/c0/ASISTthesaurusExample.png" width="614" height="600">](/mediawiki_wiki/files/ASISTthesaurusExample.png)  
 <small>Size of this preview: 614 × 600 pixels</small>  
  [Full resolution](/images/c/c0/ASISTthesaurusExample.png)‎ (720 × 703 pixels, file size: 241 KB, MIME type: image/png)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/ASISTthesaurusExample.png">19:15, 3 July 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/ASISTthesaurusExample.png">19:15, 3 July 2012</a></td>
     <td><a href="/images/c/c0/ASISTthesaurusExample.png"><img alt="Thumbnail for version as of 19:15, 3 July 2012" src="/images/c/c0/ASISTthesaurusExample.png" width="120" height="117"></a></td>
     <td>720×703 <span style="white-space: nowrap;">(241 KB)</span>
     </td>
@@ -113,13 +113,13 @@ The following page links to this file:
 
 - [KOS example](/index.php/KOS_example "KOS example")
 
-Retrieved from " [/archive/mediawiki_wiki/File:ASISTthesaurusExample.png](/archive/mediawiki_wiki/files/File:/File:ASISTthesaurusExample.png.html)"
+Retrieved from " [/mediawiki_wiki/File:ASISTthesaurusExample.png](/mediawiki_wiki/files/File:/File:ASISTthesaurusExample.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:ASISTthesaurusExample.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:ASISTthesaurusExample.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:ASISTthesaurusExample.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:ASISTthesaurusExample.png&action=edit "This page is protected.
 You can view its source [e]")

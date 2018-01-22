@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DCMI_logo_cropped.jpg.html"
+- "/mediawiki_wiki/files/File:/File_DCMI_logo_cropped.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:DCMI logo cropped.jpg" src="/images/7/76/DCMI_logo_cropped.jpg" width="606" height="599">](/archive/mediawiki_wiki/files/DCMI_logo_cropped.jpg)  
+ [<img alt="File:DCMI logo cropped.jpg" src="/images/7/76/DCMI_logo_cropped.jpg" width="606" height="599">](/mediawiki_wiki/files/DCMI_logo_cropped.jpg)  
 <small>Size of this preview: 606 × 599 pixels</small>  
  [Full resolution](/images/7/76/DCMI_logo_cropped.jpg)‎ (715 × 707 pixels, file size: 50 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DCMI_logo_cropped.jpg">15:37, 9 October 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DCMI_logo_cropped.jpg">15:37, 9 October 2012</a></td>
     <td><a href="/images/7/76/DCMI_logo_cropped.jpg"><img alt="Thumbnail for version as of 15:37, 9 October 2012" src="/images/7/76/DCMI_logo_cropped.jpg" width="120" height="119"></a></td>
     <td>715×707 <span style="white-space: nowrap;">(50 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [DublinToDrupal Project](/index.php/DublinToDrupal_Project "DublinToDrupal Project")
 
-Retrieved from " [/archive/mediawiki_wiki/File:DCMI\_logo\_cropped.jpg](/archive/mediawiki_wiki/files/File:/File:DCMI_logo_cropped.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:DCMI\_logo\_cropped.jpg](/mediawiki_wiki/files/File:/File:DCMI_logo_cropped.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DCMI_logo_cropped.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DCMI_logo_cropped.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DCMI_logo_cropped.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DCMI_logo_cropped.jpg&action=edit "This page is protected.
 You can view its source [e]")

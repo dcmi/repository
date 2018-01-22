@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Pet/license.html"
+- "/mediawiki_wiki/Pet/license.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 20 May 2017, at 05:46.  
 This page has been accessed 3,841 times.
 
-[<img alt="LD4PE Exploratorium logo" src="/archive/mediawiki_wiki/images/Ld4pe-EX.png" width="250" height="100">](/archive/mediawiki_wiki/images/Ld4pe-EX.png "LD4PE Exploratorium logo")
+[<img alt="LD4PE Exploratorium logo" src="/mediawiki_wiki/images/Ld4pe-EX.png" width="250" height="100">](/mediawiki_wiki/images/Ld4pe-EX.png "LD4PE Exploratorium logo")
 
 <table id="toc" class="toc">
   <tr>
@@ -39,7 +39,7 @@ This page has been accessed 3,841 times.
   </tr>
 </table>
 
-#### [Task Group Home Page](/archive/mediawiki_wiki/Pet/ld4pe "Pet/ld4pe") 
+#### [Task Group Home Page](/mediawiki_wiki/Pet/ld4pe "Pet/ld4pe") 
 
 # Namespace Prefixes Used (properties & licenses) 
 <pre>@prefix dc: <a href="http://purl.org/dc/elements/1.1/" class="external free" rel="nofollow">http://purl.org/dc/elements/1.1/</a>.

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_2010_DCLibAPsummary.pdf.html"
+- "/mediawiki_wiki/files/File:/File_2010_DCLibAPsummary.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/2010_DCLibAPsummary.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/2010_DCLibAPsummary.pdf)
 
-[2010\_DCLibAPsummary.pdf](/archive/mediawiki_wiki/files/2010_DCLibAPsummary.pdf "2010 DCLibAPsummary.pdf")‎(file size: 75 KB, MIME type: application/pdf)
+[2010\_DCLibAPsummary.pdf](/mediawiki_wiki/files/2010_DCLibAPsummary.pdf "2010 DCLibAPsummary.pdf")‎(file size: 75 KB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/2010_DCLibAPsummary.pdf">17:52, 2 May 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/2010_DCLibAPsummary.pdf">17:52, 2 May 2011</a></td>
     <td> <span style="white-space: nowrap;">(75 KB)</span>
     </td>
     <td>
@@ -65,13 +65,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:2010\_DCLibAPsummary.pdf](/archive/mediawiki_wiki/files/File:/File:2010_DCLibAPsummary.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:2010\_DCLibAPsummary.pdf](/mediawiki_wiki/files/File:/File:2010_DCLibAPsummary.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:2010_DCLibAPsummary.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:2010_DCLibAPsummary.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:2010_DCLibAPsummary.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:2010_DCLibAPsummary.pdf&action=edit "This page is protected.
 You can view its source [e]")

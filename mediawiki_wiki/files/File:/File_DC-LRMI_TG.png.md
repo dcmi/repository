@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DC-LRMI_TG.png.html"
+- "/mediawiki_wiki/files/File:/File_DC-LRMI_TG.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:DC-LRMI TG.png" src="/images/c/c8/DC-LRMI_TG.png" width="350" height="212">](/archive/mediawiki_wiki/files/DC-LRMI_TG.png)  
+ [<img alt="File:DC-LRMI TG.png" src="/images/c/c8/DC-LRMI_TG.png" width="350" height="212">](/mediawiki_wiki/files/DC-LRMI_TG.png)  
 <small>No higher resolution available.</small>  
  [DC-LRMI\_TG.png](/images/c/c8/DC-LRMI_TG.png)‎ (350 × 212 pixels, file size: 16 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DC-LRMI_TG.png">21:20, 14 August 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DC-LRMI_TG.png">21:20, 14 August 2014</a></td>
     <td><a href="/images/c/c8/DC-LRMI_TG.png"><img alt="Thumbnail for version as of 21:20, 14 August 2014" src="/images/c/c8/DC-LRMI_TG.png" width="120" height="73"></a></td>
     <td>350×212 <span style="white-space: nowrap;">(16 KB)</span>
     </td>
@@ -86,13 +86,13 @@ The following 15 pages link to this file:
 - [AB-Comm/ed/LRMI/TG/wp9](/index.php/AB-Comm/ed/LRMI/TG/wp9 "AB-Comm/ed/LRMI/TG/wp9")
 - [Survey-20150701](/index.php/Survey-20150701 "Survey-20150701")
 
-Retrieved from " [/archive/mediawiki_wiki/File:DC-LRMI\_TG.png](/archive/mediawiki_wiki/files/File:/File:DC-LRMI_TG.png.html)"
+Retrieved from " [/mediawiki_wiki/File:DC-LRMI\_TG.png](/mediawiki_wiki/files/File:/File:DC-LRMI_TG.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DC-LRMI_TG.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DC-LRMI_TG.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DC-LRMI_TG.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DC-LRMI_TG.png&action=edit "This page is protected.
 You can view its source [e]")

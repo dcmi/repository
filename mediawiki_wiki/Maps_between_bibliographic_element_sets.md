@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Maps_between_bibliographic_element_sets.html"
+- "/mediawiki_wiki/Maps_between_bibliographic_element_sets.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -19,10 +19,10 @@ This page links to maps, or sets of mappings, between two or more element sets u
 
 ## Maps 
 
-- [Map of properties for intended audience of a resource](/archive/mediawiki_wiki/Map_of_properties_for_intended_audience_of_a_resource "Map of properties for intended audience of a resource")
-- [Map of properties for frequency of a resource](/archive/mediawiki_wiki/Map_of_properties_for_frequency_of_a_resource "Map of properties for frequency of a resource")
+- [Map of properties for intended audience of a resource](/mediawiki_wiki/Map_of_properties_for_intended_audience_of_a_resource "Map of properties for intended audience of a resource")
+- [Map of properties for frequency of a resource](/mediawiki_wiki/Map_of_properties_for_frequency_of_a_resource "Map of properties for frequency of a resource")
 
 ## Further information 
 
-[Maps between bibliographic vocabularies](/archive/mediawiki_wiki/Maps_between_bibliographic_vocabularies "Maps between bibliographic vocabularies")
+[Maps between bibliographic vocabularies](/mediawiki_wiki/Maps_between_bibliographic_vocabularies "Maps between bibliographic vocabularies")
 

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Full_announcement.html"
+- "/mediawiki_wiki/Full_announcement.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -23,7 +23,7 @@ A **one-day seminar on Friday 27 April 2012** will mark the anniversary of the "
 
 Speakers will include participants at the 2007 meeting and other significant players in library data and the Semantic Web. Papers from the seminar will be published by DCMI and available freely online.
 
-The seminar will be preceded by inaugural meetings of the new [DCMI Vocabulary Management Community](/archive/mediawiki_wiki/DCMI_Vocabulary_Management_Community) and [DCMI Bibliographic Metadata Task Group](/archive/mediawiki_wiki/Bibliographic_Metadata_Task_Group) on **Thursday 26 April 2012** which will be open free but with limited room capacity (36 people).
+The seminar will be preceded by inaugural meetings of the new [DCMI Vocabulary Management Community](/mediawiki_wiki/DCMI_Vocabulary_Management_Community) and [DCMI Bibliographic Metadata Task Group](/mediawiki_wiki/Bibliographic_Metadata_Task_Group) on **Thursday 26 April 2012** which will be open free but with limited room capacity (36 people).
 
 The venue for both days is the British Library, St Pancras, London.
 
@@ -37,7 +37,7 @@ Gordon Dunsire (Co-Chair, DCMI Bibliographic Metadata Task Group)
 
 * * *
 
-[Back to the Vocab Community front page](/archive/mediawiki_wiki/DCMI_Vocabulary_Management_Community)
+[Back to the Vocab Community front page](/mediawiki_wiki/DCMI_Vocabulary_Management_Community)
 
-[Back to the Bib Metadata TG front page](/archive/mediawiki_wiki/Bibliographic_Metadata_Task_Group)
+[Back to the Bib Metadata TG front page](/mediawiki_wiki/Bibliographic_Metadata_Task_Group)
 

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Eric_Miller.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Eric_Miller.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Eric Miller.jpg" src="/images/2/2b/Eric_Miller.jpg" width="200" height="209">](/archive/mediawiki_wiki/files/Eric_Miller.jpg)  
+ [<img alt="File:Eric Miller.jpg" src="/images/2/2b/Eric_Miller.jpg" width="200" height="209">](/mediawiki_wiki/files/Eric_Miller.jpg)  
 <small>No higher resolution available.</small>  
  [Eric\_Miller.jpg](/images/2/2b/Eric_Miller.jpg)‎ (200 × 209 pixels, file size: 66 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Eric_Miller.jpg">21:06, 4 December 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Eric_Miller.jpg">21:06, 4 December 2014</a></td>
     <td><a href="/images/2/2b/Eric_Miller.jpg"><img alt="Thumbnail for version as of 21:06, 4 December 2014" src="/images/2/2b/Eric_Miller.jpg" width="115" height="120"></a></td>
     <td>200×209 <span style="white-space: nowrap;">(66 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [Template:Webinar20150107](/index.php/Template:Webinar20150107 "Template:Webinar20150107")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Eric\_Miller.jpg](/archive/mediawiki_wiki/files/File:/File:Eric_Miller.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Eric\_Miller.jpg](/mediawiki_wiki/files/File:/File:Eric_Miller.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Eric_Miller.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Eric_Miller.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Eric_Miller.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Eric_Miller.jpg&action=edit "This page is protected.
 You can view its source [e]")

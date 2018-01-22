@@ -8,11 +8,11 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Glossary_Entry.html"
+- "/mediawiki_wiki/Glossary_Entry.html"
 ---
 
-- Return to [Dublin to Drupal Top](/archive/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
-- Return to [Dublin to Drupal Content Types Index](/archive/mediawiki_wiki/DublinToDrupal_Project#Content_Types "DublinToDrupal Project")
+- Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
+- Return to [Dublin to Drupal Content Types Index](/mediawiki_wiki/DublinToDrupal_Project#Content_Types "DublinToDrupal Project")
 
 <table id="toc" class="toc">
   <tr>
@@ -31,15 +31,15 @@ aliases:
 
 ## Glossary Entry (Content Type) 
 
-DCMI maintains a glossary (under editorial control by one or more glossary contributors and editors). Work is currently underway to consolidate [new](/archive/mediawiki_wiki/Glossary) and [old](http://dublincore.org/documents/usageguide/glossary.shtml) versions of the existing glossary.
+DCMI maintains a glossary (under editorial control by one or more glossary contributors and editors). Work is currently underway to consolidate [new](/mediawiki_wiki/Glossary) and [old](http://dublincore.org/documents/usageguide/glossary.shtml) versions of the existing glossary.
 
-We would like to publish glossary terms as Drupal nodes that can be commented on by the DCMI community members as well as simple like/dislike [<img alt="Thumbs up-down image" src="/archive/mediawiki_wiki/images/ThumbsupThumbsdown.jpg" width="50" height="39">](/archive/mediawiki_wiki/File:ThumbsupThumbsdown.jpg "Thumbs up-down image")
+We would like to publish glossary terms as Drupal nodes that can be commented on by the DCMI community members as well as simple like/dislike [<img alt="Thumbs up-down image" src="/mediawiki_wiki/images/ThumbsupThumbsdown.jpg" width="50" height="39">](/mediawiki_wiki/File:ThumbsupThumbsdown.jpg "Thumbs up-down image")
 
 ## Fields 
 
 1. Term (required)
-2. Definition (required) (see definition of [Application Profile](/archive/mediawiki_wiki/Glossary))
-3. Discussion (optional) (see discussion of [Application Profile](/archive/mediawiki_wiki/Glossary/Application_Profile))
+2. Definition (required) (see definition of [Application Profile](/mediawiki_wiki/Glossary))
+3. Discussion (optional) (see discussion of [Application Profile](/mediawiki_wiki/Glossary/Application_Profile))
 4. See Also: (required where an expanded/contracted phrasing of the same term exists in the glossary)
 5. References (optional)
 <!-- 

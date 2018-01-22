@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Phil_Barker.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Phil_Barker.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Phil Barker.jpg" src="/images/8/8b/Phil_Barker.jpg" width="128" height="193">](/archive/mediawiki_wiki/files/Phil_Barker.jpg)  
+ [<img alt="File:Phil Barker.jpg" src="/images/8/8b/Phil_Barker.jpg" width="128" height="193">](/mediawiki_wiki/files/Phil_Barker.jpg)  
 <small>No higher resolution available.</small>  
  [Phil\_Barker.jpg](/images/8/8b/Phil_Barker.jpg)‎ (128 × 193 pixels, file size: 4 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Phil_Barker.jpg">11:54, 30 October 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Phil_Barker.jpg">11:54, 30 October 2014</a></td>
     <td><a href="/images/8/8b/Phil_Barker.jpg"><img alt="Thumbnail for version as of 11:54, 30 October 2014" src="/images/8/8b/Phil_Barker.jpg" width="79" height="119"></a></td>
     <td>128×193 <span style="white-space: nowrap;">(4 KB)</span>
     </td>
@@ -73,13 +73,13 @@ The following 2 pages link to this file:
 - [DCMI Handbook/webinars](/index.php/DCMI_Handbook/webinars "DCMI Handbook/webinars")
 - [Template:Webinar20141119](/index.php/Template:Webinar20141119 "Template:Webinar20141119")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Phil\_Barker.jpg](/archive/mediawiki_wiki/files/File:/File:Phil_Barker.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Phil\_Barker.jpg](/mediawiki_wiki/files/File:/File:Phil_Barker.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Phil_Barker.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Phil_Barker.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Phil_Barker.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Phil_Barker.jpg&action=edit "This page is protected.
 You can view its source [e]")

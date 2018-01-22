@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Grammar2000.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Grammar2000.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Grammar2000.jpg" src="/images/8/8b/Grammar2000.jpg" width="547" height="358">](/archive/mediawiki_wiki/files/Grammar2000.jpg)  
+ [<img alt="File:Grammar2000.jpg" src="/images/8/8b/Grammar2000.jpg" width="547" height="358">](/mediawiki_wiki/files/Grammar2000.jpg)  
 <small>No higher resolution available.</small>  
  [Grammar2000.jpg](/images/8/8b/Grammar2000.jpg)‎ (547 × 358 pixels, file size: 23 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Grammar2000.jpg">12:44, 15 April 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Grammar2000.jpg">12:44, 15 April 2011</a></td>
     <td><a href="/images/8/8b/Grammar2000.jpg"><img alt="Thumbnail for version as of 12:44, 15 April 2011" src="/images/8/8b/Grammar2000.jpg" width="120" height="79"></a></td>
     <td>547×358 <span style="white-space: nowrap;">(23 KB)</span>
     </td>
@@ -73,13 +73,13 @@ The following 2 pages link to this file:
 - [Review of DCMI Abstract Model](/index.php/Review_of_DCMI_Abstract_Model "Review of DCMI Abstract Model")
 - [Glossary/Dublin Core Grammatical Principles](/index.php/Glossary/Dublin_Core_Grammatical_Principles "Glossary/Dublin Core Grammatical Principles")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Grammar2000.jpg](/archive/mediawiki_wiki/files/File:/File:Grammar2000.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Grammar2000.jpg](/mediawiki_wiki/files/File:/File:Grammar2000.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Grammar2000.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Grammar2000.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Grammar2000.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Grammar2000.jpg&action=edit "This page is protected.
 You can view its source [e]")

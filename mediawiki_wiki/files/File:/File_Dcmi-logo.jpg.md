@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Dcmi-logo.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Dcmi-logo.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Dcmi-logo.jpg" src="/images/5/5a/Dcmi-logo.jpg" width="100" height="100">](/archive/mediawiki_wiki/files/Dcmi-logo.jpg)  
+ [<img alt="File:Dcmi-logo.jpg" src="/images/5/5a/Dcmi-logo.jpg" width="100" height="100">](/mediawiki_wiki/files/Dcmi-logo.jpg)  
 <small>No higher resolution available.</small>  
  [Dcmi-logo.jpg](/images/5/5a/Dcmi-logo.jpg)‎ (100 × 100 pixels, file size: 18 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Dcmi-logo.jpg">15:06, 11 April 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Dcmi-logo.jpg">15:06, 11 April 2013</a></td>
     <td><a href="/images/5/5a/Dcmi-logo.jpg"><img alt="Thumbnail for version as of 15:06, 11 April 2013" src="/images/5/5a/Dcmi-logo.jpg" width="120" height="120"></a></td>
     <td>100×100 <span style="white-space: nowrap;">(18 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [DublinToDrupal Project](/index.php/DublinToDrupal_Project "DublinToDrupal Project")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Dcmi-logo.jpg](/archive/mediawiki_wiki/files/File:/File:Dcmi-logo.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Dcmi-logo.jpg](/mediawiki_wiki/files/File:/File:Dcmi-logo.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Dcmi-logo.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Dcmi-logo.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Dcmi-logo.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Dcmi-logo.jpg&action=edit "This page is protected.
 You can view its source [e]")

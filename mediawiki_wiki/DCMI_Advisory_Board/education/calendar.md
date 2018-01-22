@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Advisory_Board/education/calendar.html"
+- "/mediawiki_wiki/DCMI_Advisory_Board/education/calendar.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 16 December 2014, at 18:37.  
 This page has been accessed 21,742 times.
 
-[<img alt="2014-2015Calendar.jpg" src="/archive/mediawiki_wiki/images/2014-2015Calendar.jpg" width="969" height="411">](/archive/mediawiki_wiki/images/2014-2015Calendar.jpg)
+[<img alt="2014-2015Calendar.jpg" src="/mediawiki_wiki/images/2014-2015Calendar.jpg" width="969" height="411">](/mediawiki_wiki/images/2014-2015Calendar.jpg)
 
 **Status on the 16th Dec 2014:**
 

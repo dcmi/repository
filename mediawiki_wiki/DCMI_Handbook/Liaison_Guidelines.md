@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Handbook/Liaison_Guidelines.html"
+- "/mediawiki_wiki/DCMI_Handbook/Liaison_Guidelines.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 7 August 2015, at 13:49.  
 This page has been accessed 12,581 times.
 
-Return to [DCMI Handbook index](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook")
+Return to [DCMI Handbook index](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook")
 
 <table id="toc" class="toc">
   <tr>

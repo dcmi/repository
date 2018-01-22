@@ -8,10 +8,10 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Pet/ld4pe/confidential.html"
+- "/mediawiki_wiki/Pet/ld4pe/confidential.html"
 ---
 
-[<img alt="LD4PE Exploratorium logo" src="/archive/mediawiki_wiki/images/Ld4pe-EX.png" width="250" height="100">](/archive/mediawiki_wiki/File:Ld4pe-EX.png "LD4PE Exploratorium logo")
+[<img alt="LD4PE Exploratorium logo" src="/mediawiki_wiki/images/Ld4pe-EX.png" width="250" height="100">](/mediawiki_wiki/File:Ld4pe-EX.png "LD4PE Exploratorium logo")
 
 <table id="toc" class="toc">
   <tr>
@@ -65,11 +65,11 @@ aliases:
   </tr>
 </table>
 <script>if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
-#### [Task Group Home Page](/archive/mediawiki_wiki/Pet/ld4pe "Pet/ld4pe") 
+#### [Task Group Home Page](/mediawiki_wiki/Pet/ld4pe "Pet/ld4pe") 
 
 # Schemes & Schemas 
 
-- [Schema.org/LRMI Schema](/archive/mediawiki_wiki/Lrmi-schema "Lrmi-schema")
+- [Schema.org/LRMI Schema](/mediawiki_wiki/Lrmi-schema "Lrmi-schema")
 
 # Competency Index Development 
 
@@ -87,7 +87,7 @@ A draft schematic of the system architecture are available here for review and c
 ## [Wordpress](http://wiki.dublincore.org/index.php?title=PetWordpress&action=edit&redlink=1 "PetWordpress (page does not exist)") 
 
 - [Themes](http://wiki.dublincore.org/index.php?title=PetWordpressThemes&action=edit&redlink=1 "PetWordpressThemes (page does not exist)")
-- [Media publishing](/archive/mediawiki_wiki/PetWordpressMedia "PetWordpressMedia")
+- [Media publishing](/mediawiki_wiki/PetWordpressMedia "PetWordpressMedia")
 
 ## [Triplestore/Data Operations](http://wiki.dublincore.org/index.php?title=PetBackend&action=edit&redlink=1 "PetBackend (page does not exist)") 
 
@@ -112,10 +112,10 @@ A draft schematic of the system architecture are available here for review and c
 
 ### Editors & Wordpress (Interface) 
 
-# [Learning Resource (LR) Discovery & Description](/archive/mediawiki_wiki/PetLRdata "PetLRdata") 
+# [Learning Resource (LR) Discovery & Description](/mediawiki_wiki/PetLRdata "PetLRdata") 
 
 - Environmental scan for LR test inventory
-  - [Preliminary description & editor access](/archive/mediawiki_wiki/PetLRdata "PetLRdata")
+  - [Preliminary description & editor access](/mediawiki_wiki/PetLRdata "PetLRdata")
 - Core description of LR Inventory (1st round)
 - Mapping LR descriptions to CompIndex
   - LR-informed CompIndex gap analysis
@@ -124,7 +124,7 @@ A draft schematic of the system architecture are available here for review and c
 # Grant-funded Learning Resource Creation 
 
 - Creator-hosted & Exploratorium-hosted LR
-- [Licensing (Learning Resources & Data)](/archive/mediawiki_wiki/Pet/ld4pe/license "Pet/ld4pe/license")
+- [Licensing (Learning Resources & Data)](/mediawiki_wiki/Pet/ld4pe/license "Pet/ld4pe/license")
 
 # Best Practice (BP) Documentation (<u>All Aspects</u>) 
 

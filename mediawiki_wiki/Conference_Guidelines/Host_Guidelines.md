@@ -8,10 +8,10 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Conference_Guidelines/Host_Guidelines.html"
+- "/mediawiki_wiki/Conference_Guidelines/Host_Guidelines.html"
 ---
 
-Return to [Conference\_Guidelines](/archive/mediawiki_wiki/Conference_Guidelines "Conference Guidelines")
+Return to [Conference\_Guidelines](/mediawiki_wiki/Conference_Guidelines "Conference Guidelines")
 
 ***The DCMI International Conference Series: Outline of Responsibilities and Guidelines***
 

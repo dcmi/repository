@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/ALISE_Panel_Proposal.html"
+- "/mediawiki_wiki/ALISE_Panel_Proposal.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -36,7 +36,7 @@ This page has been accessed 421 times.
 
 ### Project Links 
 
-- [Learning Linked Data project home](/archive/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
+- [Learning Linked Data project home](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
 
 ### ALISE Panel Proposal 
 

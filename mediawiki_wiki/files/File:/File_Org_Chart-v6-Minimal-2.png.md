@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Org_Chart-v6-Minimal-2.png.html"
+- "/mediawiki_wiki/files/File:/File_Org_Chart-v6-Minimal-2.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Org Chart-v6-Minimal-2.png" src="/images/8/8e/Org_Chart-v6-Minimal-2.png" width="800" height="534">](/archive/mediawiki_wiki/files/Org_Chart-v6-Minimal-2.png)  
+ [<img alt="File:Org Chart-v6-Minimal-2.png" src="/images/8/8e/Org_Chart-v6-Minimal-2.png" width="800" height="534">](/mediawiki_wiki/files/Org_Chart-v6-Minimal-2.png)  
 <small>Size of this preview: 800 × 534 pixels</small>  
  [Full resolution](/images/8/8e/Org_Chart-v6-Minimal-2.png)‎ (1,000 × 668 pixels, file size: 109 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Org_Chart-v6-Minimal-2.png">14:14, 6 February 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Org_Chart-v6-Minimal-2.png">14:14, 6 February 2014</a></td>
     <td><a href="/images/8/8e/Org_Chart-v6-Minimal-2.png"><img alt="Thumbnail for version as of 14:14, 6 February 2014" src="/images/8/8e/Org_Chart-v6-Minimal-2.png" width="120" height="80"></a></td>
     <td>1,000×668 <span style="white-space: nowrap;">(109 KB)</span>
     </td>
@@ -94,13 +94,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:Org\_Chart-v6-Minimal-2.png](/archive/mediawiki_wiki/files/File:/File:Org_Chart-v6-Minimal-2.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Org\_Chart-v6-Minimal-2.png](/mediawiki_wiki/files/File:/File:Org_Chart-v6-Minimal-2.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Org_Chart-v6-Minimal-2.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Org_Chart-v6-Minimal-2.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Org_Chart-v6-Minimal-2.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Org_Chart-v6-Minimal-2.png&action=edit "This page is protected.
 You can view its source [e]")

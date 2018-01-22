@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Dc2011presentation.pdf.html"
+- "/mediawiki_wiki/files/File:/File_Dc2011presentation.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/Dc2011presentation.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Dc2011presentation.pdf)
 
-[Dc2011presentation.pdf](/archive/mediawiki_wiki/files/Dc2011presentation.pdf "Dc2011presentation.pdf")‎(file size: 306 KB, MIME type: application/pdf)
+[Dc2011presentation.pdf](/mediawiki_wiki/files/Dc2011presentation.pdf "Dc2011presentation.pdf")‎(file size: 306 KB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Dc2011presentation.pdf">03:16, 8 November 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Dc2011presentation.pdf">03:16, 8 November 2011</a></td>
     <td> <span style="white-space: nowrap;">(306 KB)</span>
     </td>
     <td>
@@ -75,13 +75,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:Dc2011presentation.pdf](/archive/mediawiki_wiki/files/File:/File:Dc2011presentation.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:Dc2011presentation.pdf](/mediawiki_wiki/files/File:/File:Dc2011presentation.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Dc2011presentation.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Dc2011presentation.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Dc2011presentation.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Dc2011presentation.pdf&action=edit "This page is protected.
 You can view its source [e]")

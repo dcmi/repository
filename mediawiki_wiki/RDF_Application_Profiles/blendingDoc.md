@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/RDF_Application_Profiles/blendingDoc.html"
+- "/mediawiki_wiki/RDF_Application_Profiles/blendingDoc.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -44,7 +44,7 @@ Much of the the ongoing gathering of DCMI RDF AP requirements[7] has been relate
 
 ## References
 
-1 [/archive/mediawiki_wiki/RDF‐Application‐Profiles](/archive/mediawiki_wiki/RDF%E2%80%90Application%E2%80%90Profiles)
+1 [/mediawiki_wiki/RDF‐Application‐Profiles](/mediawiki_wiki/RDF%E2%80%90Application%E2%80%90Profiles)
 
 2 [https://www.w3.org/2014/data-shapes/wiki/Main\_Page](https://www.w3.org/2014/data-shapes/wiki/Main_Page)
 
@@ -54,7 +54,7 @@ Much of the the ongoing gathering of DCMI RDF AP requirements[7] has been relate
 
 5 [http://dublincore.org/documents/abstract‐model/](http://dublincore.org/documents/abstract%E2%80%90model/)
 
-6 [/archive/mediawiki_wiki/Review\_of\_DCMI\_Abstract\_Model](/archive/mediawiki_wiki/Review_of_DCMI_Abstract_Model)
+6 [/mediawiki_wiki/Review\_of\_DCMI\_Abstract\_Model](/mediawiki_wiki/Review_of_DCMI_Abstract_Model)
 
 7 [http://lelystad.informatik.uni‐mannheim.de/rdf‐validation/?q=requirements/dc‐requirements](http://lelystad.informatik.uni%E2%80%90mannheim.de/rdf%E2%80%90validation/?q=requirements/dc%E2%80%90requirements)
 

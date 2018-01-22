@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_GrammarAndRDF.jpg.html"
+- "/mediawiki_wiki/files/File:/File_GrammarAndRDF.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:GrammarAndRDF.jpg" src="/images/8/8a/GrammarAndRDF.jpg" width="568" height="358">](/archive/mediawiki_wiki/files/GrammarAndRDF.jpg)  
+ [<img alt="File:GrammarAndRDF.jpg" src="/images/8/8a/GrammarAndRDF.jpg" width="568" height="358">](/mediawiki_wiki/files/GrammarAndRDF.jpg)  
 <small>No higher resolution available.</small>  
  [GrammarAndRDF.jpg](/images/8/8a/GrammarAndRDF.jpg)‎ (568 × 358 pixels, file size: 18 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/GrammarAndRDF.jpg">12:45, 15 April 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/GrammarAndRDF.jpg">12:45, 15 April 2011</a></td>
     <td><a href="/images/8/8a/GrammarAndRDF.jpg"><img alt="Thumbnail for version as of 12:45, 15 April 2011" src="/images/8/8a/GrammarAndRDF.jpg" width="120" height="76"></a></td>
     <td>568×358 <span style="white-space: nowrap;">(18 KB)</span>
     </td>
@@ -73,13 +73,13 @@ The following 2 pages link to this file:
 - [Review of DCMI Abstract Model](/index.php/Review_of_DCMI_Abstract_Model "Review of DCMI Abstract Model")
 - [Glossary/Dublin Core Grammatical Principles](/index.php/Glossary/Dublin_Core_Grammatical_Principles "Glossary/Dublin Core Grammatical Principles")
 
-Retrieved from " [/archive/mediawiki_wiki/File:GrammarAndRDF.jpg](/archive/mediawiki_wiki/files/File:/File:GrammarAndRDF.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:GrammarAndRDF.jpg](/mediawiki_wiki/files/File:/File:GrammarAndRDF.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:GrammarAndRDF.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:GrammarAndRDF.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:GrammarAndRDF.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:GrammarAndRDF.jpg&action=edit "This page is protected.
 You can view its source [e]")

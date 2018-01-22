@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Architecture_Forum_Issue_Tracker.html"
+- "/mediawiki_wiki/Architecture_Forum_Issue_Tracker.html"
 ---
 
  **This is an archived MediaWiki page.**  

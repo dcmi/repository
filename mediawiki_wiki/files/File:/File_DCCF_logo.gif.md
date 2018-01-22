@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DCCF_logo.gif.html"
+- "/mediawiki_wiki/files/File:/File_DCCF_logo.gif.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:DCCF logo.gif" src="/images/b/b3/DCCF_logo.gif" width="605" height="67">](/archive/mediawiki_wiki/files/DCCF_logo.gif)  
+ [<img alt="File:DCCF logo.gif" src="/images/b/b3/DCCF_logo.gif" width="605" height="67">](/mediawiki_wiki/files/DCCF_logo.gif)  
 <small>No higher resolution available.</small>  
  [DCCF\_logo.gif](/images/b/b3/DCCF_logo.gif)‎ (image/gif, 10 KB)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DCCF_logo.gif">14:26, 17 December 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DCCF_logo.gif">14:26, 17 December 2012</a></td>
     <td><a href="/images/b/b3/DCCF_logo.gif"><img alt="Thumbnail for version as of 14:26, 17 December 2012" src="/images/b/b3/DCCF_logo.gif" width="120" height="13"></a></td>
     <td>605×67 <span style="white-space: nowrap;">(10 KB)</span>
     </td>
@@ -84,13 +84,13 @@ The following page links to this file:
 
 - [DublinToDrupal Project](/index.php/DublinToDrupal_Project "DublinToDrupal Project")
 
-Retrieved from " [/archive/mediawiki_wiki/File:DCCF\_logo.gif](/archive/mediawiki_wiki/files/File:/File:DCCF_logo.gif.html)"
+Retrieved from " [/mediawiki_wiki/File:DCCF\_logo.gif](/mediawiki_wiki/files/File:/File:DCCF_logo.gif.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DCCF_logo.gif.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DCCF_logo.gif.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DCCF_logo.gif&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DCCF_logo.gif&action=edit "This page is protected.
 You can view its source [e]")

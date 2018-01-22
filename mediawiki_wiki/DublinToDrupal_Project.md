@@ -65,15 +65,15 @@ This page has been accessed 4,860 times.
 
 * * *
 
-[<img alt="DCMI Community Forum logo" src="/archive/mediawiki_wiki/images/DCCF_logo.gif" width="605" height="67">](/archive/mediawiki_wiki/images/DCCF_logo.gif "DCMI Community Forum logo")
+[<img alt="DCMI Community Forum logo" src="/mediawiki_wiki/images/DCCF_logo.gif" width="605" height="67">](/mediawiki_wiki/images/DCCF_logo.gif "DCMI Community Forum logo")
 
 * * *
 
-[<img alt="DCMI Community Forum logo (right square)" src="/archive/mediawiki_wiki/images/DCCF_logo-right.gif" width="622" height="66">](/archive/mediawiki_wiki/images/DCCF_logo-right.gif "DCMI Community Forum logo (right square)")
+[<img alt="DCMI Community Forum logo (right square)" src="/mediawiki_wiki/images/DCCF_logo-right.gif" width="622" height="66">](/mediawiki_wiki/images/DCCF_logo-right.gif "DCMI Community Forum logo (right square)")
 
 * * *
 
-[<img alt="DCMI logo - no text" src="/archive/mediawiki_wiki/images/Dcmi-logo.jpg" width="50" height="50">](/archive/mediawiki_wiki/images/Dcmi-logo.jpg "DCMI logo - no text")
+[<img alt="DCMI logo - no text" src="/mediawiki_wiki/images/Dcmi-logo.jpg" width="50" height="50">](/mediawiki_wiki/images/Dcmi-logo.jpg "DCMI logo - no text")
 
 * * *
 
@@ -100,13 +100,13 @@ The goal of the new ***Community Forum*** website is to support DCMI as a <u>con
 
 The group activities to be supported in the community forum are illustrated in the following diagram:
 
-[<img alt="DCMI Entity-Activity Diagram" src="/archive/mediawiki_wiki/images/Entity_Structure.jpg" width="500" height="323">](/archive/mediawiki_wiki/images/Entity_Structure.jpg "DCMI Entity-Activity Diagram")
+[<img alt="DCMI Entity-Activity Diagram" src="/mediawiki_wiki/images/Entity_Structure.jpg" width="500" height="323">](/mediawiki_wiki/images/Entity_Structure.jpg "DCMI Entity-Activity Diagram")
 
 Some DCMI groups are of long, active duration (e.g., communities). Others groups have well-defined life spans (e.g., task groups) and ceased being active (but do not vanish) when particular articulated tasks are complete.
 
 The only direct relationship between DCMI's current static document repository website and the activity of groups to be enabled in the new Drupal site is that the current repository's documents were authored by various groups. This relationship between generated assets (e.g., documents etc.) and the DCMI groups that generate those assets <u>is not apparent</u> on the current website.
 
-The goal of the new community forum is <u>not</u> to blindly migrate [all of the content](/archive/mediawiki_wiki/DublinToDrupal_Project/Pages_to_Migrate "DublinToDrupal Project/Pages to Migrate") from the current document repository. Instead, we will be selectively moving key content to the community forum by tying that content to the authoring groups based on importance and need. It is likely that archival documents <u>may</u> remain on the document repository site and be referenced from the community forum. Decisions on which resources get moved from the document repository to the community forum will likely be an evolving proposition over the next 18 months to 2 year. New assets (documents etc.) going forward will be generated through the new community forum website using well-defined content types (see the Work Activity functionality in the image above and described below).
+The goal of the new community forum is <u>not</u> to blindly migrate [all of the content](/mediawiki_wiki/DublinToDrupal_Project/Pages_to_Migrate "DublinToDrupal Project/Pages to Migrate") from the current document repository. Instead, we will be selectively moving key content to the community forum by tying that content to the authoring groups based on importance and need. It is likely that archival documents <u>may</u> remain on the document repository site and be referenced from the community forum. Decisions on which resources get moved from the document repository to the community forum will likely be an evolving proposition over the next 18 months to 2 year. New assets (documents etc.) going forward will be generated through the new community forum website using well-defined content types (see the Work Activity functionality in the image above and described below).
 
 ## Categories of Group Activity ('A', 'B', & 'C') 
 
@@ -118,7 +118,7 @@ Traditionally, the groups within DCMI have had listservs as their primary (only)
 2. Forums
 3. Open commenting
 
-[<img alt="Community Activity Illustration" src="/archive/mediawiki_wiki/images/Communicate_Activity.jpg" width="500" height="357">](/archive/mediawiki_wiki/images/Communicate_Activity.jpg "Community Activity Illustration")
+[<img alt="Community Activity Illustration" src="/mediawiki_wiki/images/Communicate_Activity.jpg" width="500" height="357">](/mediawiki_wiki/images/Communicate_Activity.jpg "Community Activity Illustration")
 
 ### B. Domain Ecology Watch 
 
@@ -133,7 +133,7 @@ Groups vary considerably in their levels of activity. While activity of some is 
   - Glossary term submissions (community response & comment);
   - New initiatives happening around the world.
 
-[<img alt="Watch Activity Illustration" src="/archive/mediawiki_wiki/images/Watch_Activity.jpg" width="500" height="357">](/archive/mediawiki_wiki/images/Watch_Activity.jpg "Watch Activity Illustration")
+[<img alt="Watch Activity Illustration" src="/mediawiki_wiki/images/Watch_Activity.jpg" width="500" height="357">](/mediawiki_wiki/images/Watch_Activity.jpg "Watch Activity Illustration")
 
 ### C. Committed Work 
 
@@ -145,7 +145,7 @@ In DCMI, committed work (i.e., work with an explicit agenda and more-or-less est
   - Documentation
   - Learning resources
 
-[<img alt="Work Activity Illustration" src="/archive/mediawiki_wiki/images/Work_Activity.jpg" width="500" height="342">](/archive/mediawiki_wiki/images/Work_Activity.jpg "Work Activity Illustration")
+[<img alt="Work Activity Illustration" src="/mediawiki_wiki/images/Work_Activity.jpg" width="500" height="342">](/mediawiki_wiki/images/Work_Activity.jpg "Work Activity Illustration")
 
 ## Kinds of DCMI Groups 
 
@@ -157,7 +157,7 @@ Groups are perhaps the most complex resources in DCMI and at the same time the l
 
 Frequently, groups are recursive in nature in that they can contain subgroups (e.g., "communities" that have "task groups") that need their own suite of all, or some subset, of the same functions as their parent). Since groups as a class can have sub-groups, the result can be a kind of Russian doll structure (of limited depth):
 
-[<img alt="Russian Dolls image" src="/archive/mediawiki_wiki/images/Russian_Dolls.jpg" width="250" height="161">](/archive/mediawiki_wiki/images/Russian_Dolls.jpg "Russian Dolls image")
+[<img alt="Russian Dolls image" src="/mediawiki_wiki/images/Russian_Dolls.jpg" width="250" height="161">](/mediawiki_wiki/images/Russian_Dolls.jpg "Russian Dolls image")
 
 You'll see the term "bubble-up" here on the wiki. It means that the content "bubbles up" to parent levels. For example, a calendared event in a task group might bubble up to the calendar of its parent group; and, a community (group) announcement might bubble up to announcements at the top-level of DCMI.
 
@@ -194,11 +194,11 @@ The major objective of the community forum website is to support both: (1) the D
 
 Absolutely nothing regarding look and feel should be taken from the current document repository website except (perhaps) the square sunburst logo:
 
-[<img alt="DCMI square logo" src="/archive/mediawiki_wiki/images/DCMI_logo_cropped.jpg" width="75" height="74">](/archive/mediawiki_wiki/images/DCMI_logo_cropped.jpg "DCMI square logo")
+[<img alt="DCMI square logo" src="/mediawiki_wiki/images/DCMI_logo_cropped.jpg" width="75" height="74">](/mediawiki_wiki/images/DCMI_logo_cropped.jpg "DCMI square logo")
 
 Note that the shift from the DCMI website as document repository to community forum suggests:
 
-[<img alt="DCMI Community Forum logo" src="/archive/mediawiki_wiki/images/DCCF_logo.gif" width="605" height="67">](/archive/mediawiki_wiki/images/DCCF_logo.gif "DCMI Community Forum logo")
+[<img alt="DCMI Community Forum logo" src="/mediawiki_wiki/images/DCCF_logo.gif" width="605" height="67">](/mediawiki_wiki/images/DCCF_logo.gif "DCMI Community Forum logo")
 
 Suggestive terms:
 
@@ -218,12 +218,12 @@ Suggestive terms:
 
 ## Content Types 
 
-- [Formatted Specification](/archive/mediawiki_wiki/Recommendation "Recommendation")
-- [Best Practice](/archive/mediawiki_wiki/DublinToDrupal_Project/Best_Practice "DublinToDrupal Project/Best Practice")
-- [Glossary entry](/archive/mediawiki_wiki/Glossary_Entry "Glossary Entry")
-- [FAQ entry](/archive/mediawiki_wiki/FAQ_Entry "FAQ Entry")
+- [Formatted Specification](/mediawiki_wiki/Recommendation "Recommendation")
+- [Best Practice](/mediawiki_wiki/DublinToDrupal_Project/Best_Practice "DublinToDrupal Project/Best Practice")
+- [Glossary entry](/mediawiki_wiki/Glossary_Entry "Glossary Entry")
+- [FAQ entry](/mediawiki_wiki/FAQ_Entry "FAQ Entry")
 - Watch Activities Content Types
-  - [Calendar Event](/archive/mediawiki_wiki/Calendar_Event "Calendar Event")
+  - [Calendar Event](/mediawiki_wiki/Calendar_Event "Calendar Event")
   - [Tool](/index.php?title=DublinToDrupal_Project/Tool&action=edit&redlink=1 "DublinToDrupal Project/Tool (page does not exist)")
   - [Data Repository](/index.php?title=DublinToDrupal_Project/DataStores&action=edit&redlink=1 "DublinToDrupal Project/DataStores (page does not exist)")
   - [Project](/index.php?title=DublinToDrupal_Project/Projects&action=edit&redlink=1 "DublinToDrupal Project/Projects (page does not exist)")
@@ -233,11 +233,11 @@ Suggestive terms:
 - [Groups](/index.php?title=EntityTypes&action=edit&redlink=1 "EntityTypes (page does not exist)")
 - [Group Status](/index.php?title=EntityStatus&action=edit&redlink=1 "EntityStatus (page does not exist)")
 - ['Formatted' Specification Document Types](/index.php?title=ResourceType&action=edit&redlink=1 "ResourceType (page does not exist)")
-- [Document Status](/archive/mediawiki_wiki/ResourceStatus "ResourceStatus")
+- [Document Status](/mediawiki_wiki/ResourceStatus "ResourceStatus")
 
 - [Memberships](/index.php?title=Memberships&action=edit&redlink=1 "Memberships (page does not exist)")
-- [Domains](/archive/mediawiki_wiki/Domains "Domains")
-- [Domain Concepts](/archive/mediawiki_wiki/DomainConcepts "DomainConcepts")
+- [Domains](/mediawiki_wiki/Domains "Domains")
+- [Domain Concepts](/mediawiki_wiki/DomainConcepts "DomainConcepts")
 
 ## Drupal Commerce / Recurly 
 
@@ -263,10 +263,10 @@ The only Drupal module we have seen that is tailored to these requirements is [M
 
 # Original Capstone Project Documents 
 
-1. [Project Description](/archive/mediawiki_wiki/files/ProjectDescription.pdf "ProjectDescription.pdf")
-2. [Work Breakdown Structure](/archive/mediawiki_wiki/files/Drupal_WBS.pdf "Drupal WBS.pdf")
-3. [Charter](/archive/mediawiki_wiki/files/Dublin-to-Drupal-Project-Charter-jtt-2.pdf "Dublin-to-Drupal-Project-Charter-jtt-2.pdf")
-4. [Scope Statement](/archive/mediawiki_wiki/files/3.5_Project-Scope-Statement-1.pdf "3.5 Project-Scope-Statement-1.pdf")
+1. [Project Description](/mediawiki_wiki/files/ProjectDescription.pdf "ProjectDescription.pdf")
+2. [Work Breakdown Structure](/mediawiki_wiki/files/Drupal_WBS.pdf "Drupal WBS.pdf")
+3. [Charter](/mediawiki_wiki/files/Dublin-to-Drupal-Project-Charter-jtt-2.pdf "Dublin-to-Drupal-Project-Charter-jtt-2.pdf")
+4. [Scope Statement](/mediawiki_wiki/files/3.5_Project-Scope-Statement-1.pdf "3.5 Project-Scope-Statement-1.pdf")
 
 # References 
 

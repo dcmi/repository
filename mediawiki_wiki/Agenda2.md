@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Agenda2.html"
+- "/mediawiki_wiki/Agenda2.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -59,5 +59,5 @@ This page has been accessed 78,204 times.
 
 - [5] [W3C Best Practices for Multilingual Linked Open Data Community Group](http://www.w3.org/community/bpmlod/):, [http://www.w3.org/community/bpmlod/wiki/Main\_Page](http://www.w3.org/community/bpmlod/wiki/Main_Page)
 
-Back to [VocDay workshop in Lisbon](/archive/mediawiki_wiki/VocDay_workshop_in_Lisbon "VocDay workshop in Lisbon")
+Back to [VocDay workshop in Lisbon](/mediawiki_wiki/VocDay_workshop_in_Lisbon "VocDay workshop in Lisbon")
 

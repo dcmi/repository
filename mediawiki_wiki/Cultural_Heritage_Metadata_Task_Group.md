@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Cultural_Heritage_Metadata_Task_Group.html"
+- "/mediawiki_wiki/Cultural_Heritage_Metadata_Task_Group.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -75,5 +75,5 @@ The Task Group will:
 
 ## Meetings 
 
-[TaskGroup\_Meeting\_DC2013](/archive/mediawiki_wiki/TaskGroup_Meeting_DC2013 "TaskGroup Meeting DC2013")
+[TaskGroup\_Meeting\_DC2013](/mediawiki_wiki/TaskGroup_Meeting_DC2013 "TaskGroup Meeting DC2013")
 

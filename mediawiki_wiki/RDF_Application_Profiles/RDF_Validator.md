@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/RDF_Application_Profiles/RDF_Validator.html"
+- "/mediawiki_wiki/RDF_Application_Profiles/RDF_Validator.html"
 ---
 
  **This is an archived MediaWiki page.**  

@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/KOS_example.html"
+- "/mediawiki_wiki/KOS_example.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 3 July 2012, at 19:20.  
 This page has been accessed 129,575 times.
 
-Go back to DCMI\_NKOS\_Task\_Group [[1]](/archive/mediawiki_wiki/DCMI_NKOS_Task_Group) Main Page
+Go back to DCMI\_NKOS\_Task\_Group [[1]](/mediawiki_wiki/DCMI_NKOS_Task_Group) Main Page
 
 # KOS as intellectual products -- How can they be modelled 
 
@@ -35,5 +35,5 @@ A subset of _expressions_ and _manifestations_ of this work is illustrated below
 
 Table. A subset of entities for the ASIST Thesaurus
 
-[<img alt="ASISTthesaurusExample.png" src="/archive/mediawiki_wiki/images/ASISTthesaurusExample.png" width="720" height="703">](/archive/mediawiki_wiki/images/ASISTthesaurusExample.png)
+[<img alt="ASISTthesaurusExample.png" src="/mediawiki_wiki/images/ASISTthesaurusExample.png" width="720" height="703">](/mediawiki_wiki/images/ASISTthesaurusExample.png)
 

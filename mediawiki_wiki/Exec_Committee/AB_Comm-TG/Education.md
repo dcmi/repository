@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Education.html"
+- "/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Education.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 19 February 2014, at 17:23.  
 This page has been accessed 44,515 times.
 
-[Return to Advisory Board](/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG "Exec Committee/AB Comm-TG")
+[Return to Advisory Board](/mediawiki_wiki/Exec_Committee/AB_Comm-TG "Exec Committee/AB Comm-TG")
 
 <table id="toc" class="toc">
   <tr>

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Keizer.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Keizer.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Keizer.jpg" src="/images/d/d3/Keizer.jpg" width="100" height="135">](/archive/mediawiki_wiki/files/Keizer.jpg)  
+ [<img alt="File:Keizer.jpg" src="/images/d/d3/Keizer.jpg" width="100" height="135">](/mediawiki_wiki/files/Keizer.jpg)  
 <small>No higher resolution available.</small>  
  [Keizer.jpg](/images/d/d3/Keizer.jpg)‎ (100 × 135 pixels, file size: 27 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Keizer.jpg">10:36, 27 May 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Keizer.jpg">10:36, 27 May 2015</a></td>
     <td><a href="/images/d/d3/Keizer.jpg"><img alt="Thumbnail for version as of 10:36, 27 May 2015" src="/images/d/d3/Keizer.jpg" width="89" height="120"></a></td>
     <td>100×135 <span style="white-space: nowrap;">(27 KB)</span>
     </td>
@@ -74,13 +74,13 @@ The following 3 pages link to this file:
 - [DCMI Handbook/ASIST Webinars/calendar](/index.php/DCMI_Handbook/ASIST_Webinars/calendar "DCMI Handbook/ASIST Webinars/calendar")
 - [Template:Webinar20150617](/index.php/Template:Webinar20150617 "Template:Webinar20150617")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Keizer.jpg](/archive/mediawiki_wiki/files/File:/File:Keizer.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Keizer.jpg](/mediawiki_wiki/files/File:/File:Keizer.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Keizer.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Keizer.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Keizer.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Keizer.jpg&action=edit "This page is protected.
 You can view its source [e]")

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Education_Logo.png.html"
+- "/mediawiki_wiki/files/File:/File_Education_Logo.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Education Logo.png" src="/images/d/dd/Education_Logo.png" width="406" height="109">](/archive/mediawiki_wiki/files/Education_Logo.png)  
+ [<img alt="File:Education Logo.png" src="/images/d/dd/Education_Logo.png" width="406" height="109">](/mediawiki_wiki/files/Education_Logo.png)  
 <small>No higher resolution available.</small>  
  [Education\_Logo.png](/images/d/dd/Education_Logo.png)‎ (406 × 109 pixels, file size: 21 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Education_Logo.png">01:16, 13 February 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Education_Logo.png">01:16, 13 February 2014</a></td>
     <td><a href="/images/d/dd/Education_Logo.png"><img alt="Thumbnail for version as of 01:16, 13 February 2014" src="/images/d/dd/Education_Logo.png" width="120" height="32"></a></td>
     <td>406×109 <span style="white-space: nowrap;">(21 KB)</span>
     </td>
@@ -142,17 +142,17 @@ Click on a date/time to view the file as it appeared at that time.
 
 The following file is a duplicate of this file ( [more details](/index.php/Special:FileDuplicateSearch/Education_Logo.png "Special:FileDuplicateSearch/Education Logo.png")):
 
-- [File:Ed Comm.png](/archive/mediawiki_wiki/files/File:/File:Ed_Comm.png.html "File:Ed Comm.png") 
+- [File:Ed Comm.png](/mediawiki_wiki/files/File:/File:Ed_Comm.png.html "File:Ed Comm.png") 
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:Education\_Logo.png](/archive/mediawiki_wiki/files/File:/File:Education_Logo.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Education\_Logo.png](/mediawiki_wiki/files/File:/File:Education_Logo.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Education_Logo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Education_Logo.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Education_Logo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Education_Logo.png&action=edit "This page is protected.
 You can view its source [e]")

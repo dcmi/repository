@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Org_Chart-v3b.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Org_Chart-v3b.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Org Chart-v3b.jpg" src="/images/9/98/Org_Chart-v3b.jpg" width="800" height="483">](/archive/mediawiki_wiki/files/Org_Chart-v3b.jpg)  
+ [<img alt="File:Org Chart-v3b.jpg" src="/images/9/98/Org_Chart-v3b.jpg" width="800" height="483">](/mediawiki_wiki/files/Org_Chart-v3b.jpg)  
 <small>Size of this preview: 800 × 483 pixels</small>  
  [Full resolution](/images/9/98/Org_Chart-v3b.jpg)‎ (894 × 540 pixels, file size: 166 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Org_Chart-v3b.jpg">15:21, 20 December 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Org_Chart-v3b.jpg">15:21, 20 December 2013</a></td>
     <td><a href="/images/9/98/Org_Chart-v3b.jpg"><img alt="Thumbnail for version as of 15:21, 20 December 2013" src="/images/9/98/Org_Chart-v3b.jpg" width="120" height="72"></a></td>
     <td>894×540 <span style="white-space: nowrap;">(166 KB)</span>
     </td>
@@ -70,13 +70,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:Org\_Chart-v3b.jpg](/archive/mediawiki_wiki/files/File:/File:Org_Chart-v3b.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Org\_Chart-v3b.jpg](/mediawiki_wiki/files/File:/File:Org_Chart-v3b.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Org_Chart-v3b.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Org_Chart-v3b.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Org_Chart-v3b.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Org_Chart-v3b.jpg&action=edit "This page is protected.
 You can view its source [e]")

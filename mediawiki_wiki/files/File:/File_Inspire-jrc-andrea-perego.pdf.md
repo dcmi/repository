@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Inspire-jrc-andrea-perego.pdf.html"
+- "/mediawiki_wiki/files/File:/File_Inspire-jrc-andrea-perego.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/Inspire-jrc-andrea-perego.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Inspire-jrc-andrea-perego.pdf)
 
-[Inspire-jrc-andrea-perego.pdf](/archive/mediawiki_wiki/files/Inspire-jrc-andrea-perego.pdf "Inspire-jrc-andrea-perego.pdf")‎(file size: 6.31 MB, MIME type: application/pdf)
+[Inspire-jrc-andrea-perego.pdf](/mediawiki_wiki/files/Inspire-jrc-andrea-perego.pdf "Inspire-jrc-andrea-perego.pdf")‎(file size: 6.31 MB, MIME type: application/pdf)
 
 Slides for the presentation 'Cross-Domain Metadata Interoperability: Lessons Learnt in INSPIRE' by Andrea Perego, Michael Lutz, Max Craglia and Silvia Dalla Costa
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Inspire-jrc-andrea-perego.pdf">15:52, 6 September 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Inspire-jrc-andrea-perego.pdf">15:52, 6 September 2013</a></td>
     <td> <span style="white-space: nowrap;">(6.31 MB)</span>
     </td>
     <td>
@@ -70,13 +70,13 @@ The following page links to this file:
 
 - [DC 2013 SAM Science and Metadata CAMP 4 DATA AGENDA](/index.php/DC_2013_SAM_Science_and_Metadata_CAMP_4_DATA_AGENDA "DC 2013 SAM Science and Metadata CAMP 4 DATA AGENDA")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Inspire-jrc-andrea-perego.pdf](/archive/mediawiki_wiki/files/File:/File:Inspire-jrc-andrea-perego.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:Inspire-jrc-andrea-perego.pdf](/mediawiki_wiki/files/File:/File:Inspire-jrc-andrea-perego.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Inspire-jrc-andrea-perego.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Inspire-jrc-andrea-perego.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Inspire-jrc-andrea-perego.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Inspire-jrc-andrea-perego.pdf&action=edit "This page is protected.
 You can view its source [e]")

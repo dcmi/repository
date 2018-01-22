@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Glossary/DCAM_Family_of_Specifications.html"
+- "/mediawiki_wiki/Glossary/DCAM_Family_of_Specifications.html"
 ---
 
  **This is an archived MediaWiki page.**  

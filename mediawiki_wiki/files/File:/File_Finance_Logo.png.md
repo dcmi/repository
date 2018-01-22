@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Finance_Logo.png.html"
+- "/mediawiki_wiki/files/File:/File_Finance_Logo.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Finance Logo.png" src="/images/3/30/Finance_Logo.png" width="556" height="108">](/archive/mediawiki_wiki/files/Finance_Logo.png)  
+ [<img alt="File:Finance Logo.png" src="/images/3/30/Finance_Logo.png" width="556" height="108">](/mediawiki_wiki/files/Finance_Logo.png)  
 <small>No higher resolution available.</small>  
  [Finance\_Logo.png](/images/3/30/Finance_Logo.png)‎ (556 × 108 pixels, file size: 12 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Finance_Logo.png">21:05, 7 February 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Finance_Logo.png">21:05, 7 February 2014</a></td>
     <td><a href="/images/3/30/Finance_Logo.png"><img alt="Thumbnail for version as of 21:05, 7 February 2014" src="/images/3/30/Finance_Logo.png" width="120" height="23"></a></td>
     <td>556×108 <span style="white-space: nowrap;">(12 KB)</span>
     </td>
@@ -156,13 +156,13 @@ The following 2 pages link to this file:
 - [DCMI Governing Board/finance](/index.php/DCMI_Governing_Board/finance "DCMI Governing Board/finance")
 - [DCMI Governing Board/finance/TF/Conference Financial Structure](/index.php/DCMI_Governing_Board/finance/TF/Conference_Financial_Structure "DCMI Governing Board/finance/TF/Conference Financial Structure")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Finance\_Logo.png](/archive/mediawiki_wiki/files/File:/File:Finance_Logo.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Finance\_Logo.png](/mediawiki_wiki/files/File:/File:Finance_Logo.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Finance_Logo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Finance_Logo.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Finance_Logo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Finance_Logo.png&action=edit "This page is protected.
 You can view its source [e]")

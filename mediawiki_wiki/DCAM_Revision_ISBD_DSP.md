@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCAM_Revision_ISBD_DSP.html"
+- "/mediawiki_wiki/DCAM_Revision_ISBD_DSP.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -742,5 +742,5 @@ All comments and queries about this draft description set profile for the Intern
 &lt;/DescriptionSetTemplate&gt;
 </pre>
 
-[Back to DCAM Revision Design Patterns](/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns "DCAM Revision Design Patterns")
+[Back to DCAM Revision Design Patterns](/mediawiki_wiki/DCAM_Revision_Design_Patterns "DCAM Revision Design Patterns")
 

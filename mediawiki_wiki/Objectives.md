@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Objectives.html"
+- "/mediawiki_wiki/Objectives.html"
 ---
 
  **This is an archived MediaWiki page.**  

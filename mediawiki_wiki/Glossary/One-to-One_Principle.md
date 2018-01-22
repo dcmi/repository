@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Glossary/One-to-One_Principle.html"
+- "/mediawiki_wiki/Glossary/One-to-One_Principle.html"
 ---
 
  **This is an archived MediaWiki page.**  

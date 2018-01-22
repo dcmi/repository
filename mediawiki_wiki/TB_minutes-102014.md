@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/TB_minutes-102014.html"
+- "/mediawiki_wiki/TB_minutes-102014.html"
 ---
 
  **This is an archived MediaWiki page.**  

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/OER-world-map.html"
+- "/mediawiki_wiki/OER-world-map.html"
 ---
 
  **This is an archived MediaWiki page.**  

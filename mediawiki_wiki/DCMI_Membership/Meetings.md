@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Membership/Meetings.html"
+- "/mediawiki_wiki/DCMI_Membership/Meetings.html"
 ---
 
  **This is an archived MediaWiki page.**  

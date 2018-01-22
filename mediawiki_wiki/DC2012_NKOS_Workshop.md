@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DC2012_NKOS_Workshop.html"
+- "/mediawiki_wiki/DC2012_NKOS_Workshop.html"
 ---
 
  **This is an archived MediaWiki page.**  

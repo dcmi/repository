@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Review_of_DCMI_Abstract_Model.html"
+- "/mediawiki_wiki/Review_of_DCMI_Abstract_Model.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -69,7 +69,7 @@ This page has been accessed 167,918 times.
 
 Creator &nbsp;: Tom Baker  
 Creator &nbsp;: Pete Johnston  
-Identifier: [/archive/mediawiki_wiki/Review\_of\_DCMI\_Abstract\_Model](/archive/mediawiki_wiki/Review_of_DCMI_Abstract_Model)  
+Identifier: [/mediawiki_wiki/Review\_of\_DCMI\_Abstract\_Model](/mediawiki_wiki/Review_of_DCMI_Abstract_Model)  
 Originally written: 2010-10-15  
 Revised: 2011-05-12
 
@@ -148,19 +148,19 @@ While the 2009 draft "RDF-based" revision of the DCMI Abstract Model was never d
 
 The Description Set Model specifies both a set of syntactic elements (things found in data) and a set of referents in the real world (things to which the syntactic elements may be interpreted to refer). If the DCMI Abstract Model is to be based on the RDF abstract syntax, we can limit our analysis here to the syntactic elements. These include grouping constructs (Description Set, Description, Statement, Non-Literal Value Surrogate, and Literal Value Surrogate) and slots for URIs and character strings (Described Resource URI, Property URI, Value URI, Vocabulary Encoding Scheme URI, Syntax Encoding Scheme URI, Value String Language, Plain Value String, and Typed Value String). One might think of these slots as components of the DCAM abstract syntax that can be tested or validated. In the DCMI Abstract Model, these syntactic elements are described using UML, but they are more popularly depicted in the form of a nested metadata template, as in Figure 1 below.
 
- [<img alt="Figure 1: Description Set Model (part of DCMI Abstract Model)" src="/archive/mediawiki_wiki/images/DescriptionSetModel75.jpg" width="494" height="389">](/archive/mediawiki_wiki/images/DescriptionSetModel75.jpg "Figure 1: Description Set Model (part of DCMI Abstract Model)")
+ [<img alt="Figure 1: Description Set Model (part of DCMI Abstract Model)" src="/mediawiki_wiki/images/DescriptionSetModel75.jpg" width="494" height="389">](/mediawiki_wiki/images/DescriptionSetModel75.jpg "Figure 1: Description Set Model (part of DCMI Abstract Model)")
 
 **Figure 1: Description Set Model (part of DCMI Abstract Model)**
 
 As an illustration of how the syntactic elements of the Description Set Model are used, Figure 2 shows a set of example information values in the placeholders corresponding to those shown in Figure 1.
 
- [<img alt="Figure 2: Description Set Model slots with example URIs and character strings" src="/archive/mediawiki_wiki/images/DescriptionSetModelValues75.jpg" width="530" height="370">](/archive/mediawiki_wiki/images/DescriptionSetModelValues75.jpg "Figure 2: Description Set Model slots with example URIs and character strings")
+ [<img alt="Figure 2: Description Set Model slots with example URIs and character strings" src="/mediawiki_wiki/images/DescriptionSetModelValues75.jpg" width="530" height="370">](/mediawiki_wiki/images/DescriptionSetModelValues75.jpg "Figure 2: Description Set Model slots with example URIs and character strings")
 
 **Figure 2: Description Set Model slots with example URIs and character strings**
 
 How the elements of the Description Set Model relate to RDF is depicted in Figure 3 and described in more detail in Appendix B below.
 
- [<img alt="Figure 3: Relationship of Description Set Profile components to RDF graphs" src="/archive/mediawiki_wiki/images/DcamAndRdfGraph.jpg" width="579" height="437">](/archive/mediawiki_wiki/images/DcamAndRdfGraph.jpg "Figure 3: Relationship of Description Set Profile components to RDF graphs")
+ [<img alt="Figure 3: Relationship of Description Set Profile components to RDF graphs" src="/mediawiki_wiki/images/DcamAndRdfGraph.jpg" width="579" height="437">](/mediawiki_wiki/images/DcamAndRdfGraph.jpg "Figure 3: Relationship of Description Set Profile components to RDF graphs")
 
 **Figure 3: Relationship of Description Set Profile components to RDF graphs**
 
@@ -283,13 +283,13 @@ The question does not affect just the Abstract Model, but the suite of related s
 
 It is worth noting that the Dublin Core "grammar" for "statements" of circa 2000, pictured in Figure 4, was in part an early attempt to popularize the notion of metadata as being based on meaningful "statements" by way of analogy to commonly understood notions of natural-language grammar.
 
- [<img alt='Figure 4: Early "grammar" of Dublin Core "statements" (circa 2000)' src="/archive/mediawiki_wiki/images/Grammar2000.jpg" width="547" height="358">](/archive/mediawiki_wiki/images/Grammar2000.jpg "Figure 4: Early "grammar" of Dublin Core "statements" (circa 2000)")
+ [<img alt='Figure 4: Early "grammar" of Dublin Core "statements" (circa 2000)' src="/mediawiki_wiki/images/Grammar2000.jpg" width="547" height="358">](/mediawiki_wiki/images/Grammar2000.jpg "Figure 4: Early "grammar" of Dublin Core "statements" (circa 2000)")
 
 **Figure 4: Early "grammar" of Dublin Core "statements" (circa 2000)**
 
 As part of the model, a rough mapping of the Dublin Core "grammar" to RDF "statements" was provided, as pictured in Figure 5.
 
- [<img alt='Figure 5: Mapping of early Dublin Core "grammar" to RDF statements (circa 2000)' src="/archive/mediawiki_wiki/images/GrammarAndRDF.jpg" width="568" height="358">](/archive/mediawiki_wiki/images/GrammarAndRDF.jpg "Figure 5: Mapping of early Dublin Core "grammar" to RDF statements (circa 2000)")
+ [<img alt='Figure 5: Mapping of early Dublin Core "grammar" to RDF statements (circa 2000)' src="/mediawiki_wiki/images/GrammarAndRDF.jpg" width="568" height="358">](/mediawiki_wiki/images/GrammarAndRDF.jpg "Figure 5: Mapping of early Dublin Core "grammar" to RDF statements (circa 2000)")
 
 **Figure 5: Mapping of early Dublin Core "grammar" to RDF statements (circa 2000)**
 

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_MRC_logo_2011.png.html"
+- "/mediawiki_wiki/files/File:/File_MRC_logo_2011.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:MRC logo 2011.png" src="/images/4/4e/MRC_logo_2011.png" width="304" height="94">](/archive/mediawiki_wiki/files/MRC_logo_2011.png)  
+ [<img alt="File:MRC logo 2011.png" src="/images/4/4e/MRC_logo_2011.png" width="304" height="94">](/mediawiki_wiki/files/MRC_logo_2011.png)  
 <small>No higher resolution available.</small>  
  [MRC\_logo\_2011.png](/images/4/4e/MRC_logo_2011.png)‎ (304 × 94 pixels, file size: 11 KB, MIME type: image/png)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/MRC_logo_2011.png">22:18, 5 September 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/MRC_logo_2011.png">22:18, 5 September 2013</a></td>
     <td><a href="/images/4/4e/MRC_logo_2011.png"><img alt="Thumbnail for version as of 22:18, 5 September 2013" src="/images/4/4e/MRC_logo_2011.png" width="120" height="37"></a></td>
     <td>304×94 <span style="white-space: nowrap;">(11 KB)</span>
     </td>
@@ -68,13 +68,13 @@ The following page links to this file:
 
 - [DC 2013 SAM Science and Metadata CAMP 4 DATA AGENDA](/index.php/DC_2013_SAM_Science_and_Metadata_CAMP_4_DATA_AGENDA "DC 2013 SAM Science and Metadata CAMP 4 DATA AGENDA")
 
-Retrieved from " [/archive/mediawiki_wiki/File:MRC\_logo\_2011.png](/archive/mediawiki_wiki/files/File:/File:MRC_logo_2011.png.html)"
+Retrieved from " [/mediawiki_wiki/File:MRC\_logo\_2011.png](/mediawiki_wiki/files/File:/File:MRC_logo_2011.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:MRC_logo_2011.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:MRC_logo_2011.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:MRC_logo_2011.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:MRC_logo_2011.png&action=edit "This page is protected.
 You can view its source [e]")

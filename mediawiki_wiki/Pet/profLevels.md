@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Pet/profLevels.html"
+- "/mediawiki_wiki/Pet/profLevels.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 20 Sep 2015, at 05:46.  
 This page has been accessed 2,618 times.
 
-[<img alt="Comptency Index Editorial Board logo" src="/archive/mediawiki_wiki/images/CompIndexEB.png" width="300" height="229">](/archive/mediawiki_wiki/images/CompIndexEB.png "Comptency Index Editorial Board logo")
+[<img alt="Comptency Index Editorial Board logo" src="/mediawiki_wiki/images/CompIndexEB.png" width="300" height="229">](/mediawiki_wiki/images/CompIndexEB.png "Comptency Index Editorial Board logo")
 
 <table id="toc" class="toc">
   <tr>
@@ -42,7 +42,7 @@ This page has been accessed 2,618 times.
 </table>
 
 
-[Task Group Home Page](/archive/mediawiki_wiki/Pet/ld4pe "Pet/ld4pe")
+[Task Group Home Page](/mediawiki_wiki/Pet/ld4pe "Pet/ld4pe")
 
 # **{ DRAFT }** Proficiency Levels Introduction 
 

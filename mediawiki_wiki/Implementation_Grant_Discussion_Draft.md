@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Implementation_Grant_Discussion_Draft.html"
+- "/mediawiki_wiki/Implementation_Grant_Discussion_Draft.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,8 +17,8 @@ This page has been accessed 25,033 times.
 
 **Project Links**
 
-- [Project home](/archive/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
-- [IMLS proposal draft](/archive/mediawiki_wiki/Implementation_Grant_Proposal "Implementation Grant Proposal")
+- [Project home](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
+- [IMLS proposal draft](/mediawiki_wiki/Implementation_Grant_Proposal "Implementation Grant Proposal")
 <table id="toc" class="toc">
   <tr>
     <td>
@@ -87,7 +87,7 @@ Learning outcomes must be stated at the right level of detail: overly broad and 
 
 Under a model like ASN's, developed under funding by NSF [cite needed], the LLD implementation could consider elaborating topics from the inventory in the form of learning outcomes, with links to microtutorials promoting their achievement. Instructors could then combine and sequence outcomes to build ”learning trajectories" in Dutch terminology, called "strands" in the U.S., that fulfill instructional goals for their courses. [NSDL Science Literacy Maps](http://strandmaps.nsdl.org/tutorials/InfoBubble/) provide a very basic example using AAAS Benchmarks for Science Literacy. LLD could facilitate different instructors combining some different sets of learning outcomes to define their own trajectories and related tools or resources, as illustrated in Figure 1, to create curricula with relevance ranging from general to topic-related to personally tailored. Machine readable/addressable learning outcomes function as the glue joining discrete instructional resources to larger pedagogical packages. The LLD community of practitioners could contribute learning trajectories, possibly in the context of existing and new use cases, but at the risk of reversing the decision to avoid articulating pedagogy.
 
-[<img alt="Figure 1: Learning components, outcomes, and trajectories" src="/archive/mediawiki_wiki/images/Outcomes_Trajectories.jpg" width="720" height="540">](/archive/mediawiki_wiki/images/Outcomes_Trajectories.jpg "Figure 1: Learning components, outcomes, and trajectories")  
+[<img alt="Figure 1: Learning components, outcomes, and trajectories" src="/mediawiki_wiki/images/Outcomes_Trajectories.jpg" width="720" height="540">](/mediawiki_wiki/images/Outcomes_Trajectories.jpg "Figure 1: Learning components, outcomes, and trajectories")  
 **Figure 1: Learning components, outcomes, and trajectories**
 
 ### Questions & Answers 

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_ConfComm_logo.png.html"
+- "/mediawiki_wiki/files/File:/File_ConfComm_logo.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:ConfComm logo.png" src="/images/e/ed/ConfComm_logo.png" width="800" height="600">](/archive/mediawiki_wiki/files/ConfComm_logo.png)  
+ [<img alt="File:ConfComm logo.png" src="/images/e/ed/ConfComm_logo.png" width="800" height="600">](/mediawiki_wiki/files/ConfComm_logo.png)  
 <small>Size of this preview: 800 × 600 pixels</small>  
  [Full resolution](/images/e/ed/ConfComm_logo.png)‎ (1,000 × 750 pixels, file size: 78 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/ConfComm_logo.png">14:02, 24 November 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/ConfComm_logo.png">14:02, 24 November 2014</a></td>
     <td><a href="/images/e/ed/ConfComm_logo.png"><img alt="Thumbnail for version as of 14:02, 24 November 2014" src="/images/e/ed/ConfComm_logo.png" width="120" height="90"></a></td>
     <td>1,000×750 <span style="white-space: nowrap;">(78 KB)</span>
     </td>
@@ -70,13 +70,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:ConfComm\_logo.png](/archive/mediawiki_wiki/files/File:/File:ConfComm_logo.png.html)"
+Retrieved from " [/mediawiki_wiki/File:ConfComm\_logo.png](/mediawiki_wiki/files/File:/File:ConfComm_logo.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:ConfComm_logo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:ConfComm_logo.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:ConfComm_logo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:ConfComm_logo.png&action=edit "This page is protected.
 You can view its source [e]")

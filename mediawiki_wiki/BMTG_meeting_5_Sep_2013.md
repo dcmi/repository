@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/BMTG_meeting_5_Sep_2013.html"
+- "/mediawiki_wiki/BMTG_meeting_5_Sep_2013.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 5 September 2013, at 16:08.  
 This page has been accessed 64,344 times.
 
-[Bibliographic Metadata Task Group](/archive/mediawiki_wiki/Bibliographic_Metadata_Task_Group "Bibliographic Metadata Task Group") meeting, 5 September 2013
+[Bibliographic Metadata Task Group](/mediawiki_wiki/Bibliographic_Metadata_Task_Group "Bibliographic Metadata Task Group") meeting, 5 September 2013
 
 ## Announcement 
 

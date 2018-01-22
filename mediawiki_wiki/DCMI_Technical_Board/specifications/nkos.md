@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/nkos.html"
+- "/mediawiki_wiki/DCMI_Technical_Board/specifications/nkos.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 25 November 2014, at 14:22.  
 This page has been accessed 37,067 times.
 
-[<img alt="Community Specifications Committee logo" src="/archive/mediawiki_wiki/images/Specifications_logo.png" width="500" height="70">](/archive/mediawiki_wiki/images/Specifications_logo.png "Community Specifications Committee logo")
+[<img alt="Community Specifications Committee logo" src="/mediawiki_wiki/images/Specifications_logo.png" width="500" height="70">](/mediawiki_wiki/images/Specifications_logo.png "Community Specifications Committee logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -64,7 +64,7 @@ This page has been accessed 37,067 times.
 
 - Application Profile Documentation
   - [DCMI webpage](http://dublincore.org/groups/nkos/)
-  - [Wiki](/archive/mediawiki_wiki/DCMI_NKOS_Task_Group "DCMI NKOS Task Group")
+  - [Wiki](/mediawiki_wiki/DCMI_NKOS_Task_Group "DCMI NKOS Task Group")
 
 * * *
 
@@ -76,13 +76,13 @@ This page has been accessed 37,067 times.
 
 ### Open Matters, Questions, & Issues 
 
-- [NKOS Namespace](/archive/mediawiki_wiki/Nkos/apNameSpace "Nkos/apNameSpace")
-- [Domain Model](/archive/mediawiki_wiki/Nkos/apDomainModel "Nkos/apDomainModel")
-- [Narrative description of the profile](/archive/mediawiki_wiki/Nkos/apNarrative "Nkos/apNarrative")
+- [NKOS Namespace](/mediawiki_wiki/Nkos/apNameSpace "Nkos/apNameSpace")
+- [Domain Model](/mediawiki_wiki/Nkos/apDomainModel "Nkos/apDomainModel")
+- [Narrative description of the profile](/mediawiki_wiki/Nkos/apNarrative "Nkos/apNarrative")
 - RDF
-  - [Property/Class tables](/archive/mediawiki_wiki/Nkos/apTermTables "Nkos/apTermTables")
-  - [Schema](/archive/mediawiki_wiki/Nkos/apSchema "Nkos/apSchema") (RDF schema for new NKOS terms)
-  - [Scheme](/archive/mediawiki_wiki/Nkos/apSKOS "Nkos/apSKOS") (SKOS concept scheme(s))
+  - [Property/Class tables](/mediawiki_wiki/Nkos/apTermTables "Nkos/apTermTables")
+  - [Schema](/mediawiki_wiki/Nkos/apSchema "Nkos/apSchema") (RDF schema for new NKOS terms)
+  - [Scheme](/mediawiki_wiki/Nkos/apSKOS "Nkos/apSKOS") (SKOS concept scheme(s))
 
 ### Scratchpad (Committee Chairs only) 
 

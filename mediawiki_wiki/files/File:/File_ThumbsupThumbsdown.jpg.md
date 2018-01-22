@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_ThumbsupThumbsdown.jpg.html"
+- "/mediawiki_wiki/files/File:/File_ThumbsupThumbsdown.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:ThumbsupThumbsdown.jpg" src="/images/e/e8/ThumbsupThumbsdown.jpg" width="232" height="182">](/archive/mediawiki_wiki/files/ThumbsupThumbsdown.jpg)  
+ [<img alt="File:ThumbsupThumbsdown.jpg" src="/images/e/e8/ThumbsupThumbsdown.jpg" width="232" height="182">](/mediawiki_wiki/files/ThumbsupThumbsdown.jpg)  
 <small>No higher resolution available.</small>  
  [ThumbsupThumbsdown.jpg](/images/e/e8/ThumbsupThumbsdown.jpg)‎ (232 × 182 pixels, file size: 31 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/ThumbsupThumbsdown.jpg">12:27, 21 October 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/ThumbsupThumbsdown.jpg">12:27, 21 October 2012</a></td>
     <td><a href="/images/e/e8/ThumbsupThumbsdown.jpg"><img alt="Thumbnail for version as of 12:27, 21 October 2012" src="/images/e/e8/ThumbsupThumbsdown.jpg" width="120" height="94"></a></td>
     <td>232×182 <span style="white-space: nowrap;">(31 KB)</span>
     </td>
@@ -73,13 +73,13 @@ The following 2 pages link to this file:
 - [Glossary Entry](/index.php/Glossary_Entry "Glossary Entry")
 - [FAQ Entry](/index.php/FAQ_Entry "FAQ Entry")
 
-Retrieved from " [/archive/mediawiki_wiki/File:ThumbsupThumbsdown.jpg](/archive/mediawiki_wiki/files/File:/File:ThumbsupThumbsdown.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:ThumbsupThumbsdown.jpg](/mediawiki_wiki/files/File:/File:ThumbsupThumbsdown.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:ThumbsupThumbsdown.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:ThumbsupThumbsdown.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:ThumbsupThumbsdown.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:ThumbsupThumbsdown.jpg&action=edit "This page is protected.
 You can view its source [e]")

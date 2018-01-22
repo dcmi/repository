@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/User_Scenarios.html"
+- "/mediawiki_wiki/User_Scenarios.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -49,7 +49,7 @@ This page has been accessed 116,543 times.
 
 # User Scenarios 
 
-[Back to TG Historical Archives page](/archive/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives)
+[Back to TG Historical Archives page](/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives)
 
 ## Links to Cataloguer Scenarios 
 
@@ -159,5 +159,5 @@ I won't waste a trip to the library.
 
 **As an** No hablo ingles. **I want** Quiero libros en español. **so that** puedo leer.
 
-[Back to TG Historical Archives page](/archive/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives)
+[Back to TG Historical Archives page](/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives)
 

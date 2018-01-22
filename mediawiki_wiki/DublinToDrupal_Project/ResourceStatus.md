@@ -8,15 +8,15 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DublinToDrupal_Project/ResourceStatus.html"
+- "/mediawiki_wiki/DublinToDrupal_Project/ResourceStatus.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 27 May 2017, at 12:29.  
 This page has been accessed 1,175 times.
 
-- Return to [Dublin to Drupal Top](/archive/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
-- Return to [Dublin to Drupal Taxonomies Index](/archive/mediawiki_wiki/DublinToDrupal_Project#Taxonomies "DublinToDrupal Project")
+- Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
+- Return to [Dublin to Drupal Taxonomies Index](/mediawiki_wiki/DublinToDrupal_Project#Taxonomies "DublinToDrupal Project")
 
 <table id="toc" class="toc">
   <tr>

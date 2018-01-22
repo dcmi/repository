@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Learning_Linked_Data_Topics_with_comments.html"
+- "/mediawiki_wiki/Learning_Linked_Data_Topics_with_comments.html"
 ---
 
  **This is an archived MediaWiki page.**  

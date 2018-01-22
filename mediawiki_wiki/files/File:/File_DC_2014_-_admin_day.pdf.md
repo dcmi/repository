@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DC_2014_-_admin_day.pdf.html"
+- "/mediawiki_wiki/files/File:/File_DC_2014_-_admin_day.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/DC_2014_-_admin_day.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/DC_2014_-_admin_day.pdf)
 
-[DC\_2014\_-\_admin\_day.pdf](/archive/mediawiki_wiki/files/DC_2014_-_admin_day.pdf "DC 2014 - admin day.pdf")‎(file size: 82 KB, MIME type: application/pdf)
+[DC\_2014\_-\_admin\_day.pdf](/mediawiki_wiki/files/DC_2014_-_admin_day.pdf "DC 2014 - admin day.pdf")‎(file size: 82 KB, MIME type: application/pdf)
 
 Options for DCMI Admin Meetings at annual meeting
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DC_2014_-_admin_day.pdf">15:10, 12 April 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DC_2014_-_admin_day.pdf">15:10, 12 April 2014</a></td>
     <td> <span style="white-space: nowrap;">(82 KB)</span>
     </td>
     <td>
@@ -70,13 +70,13 @@ The following page links to this file:
 
 - [Exec Committee/2014-04-09](/index.php/Exec_Committee/2014-04-09 "Exec Committee/2014-04-09")
 
-Retrieved from " [/archive/mediawiki_wiki/File:DC\_2014\_-\_admin\_day.pdf](/archive/mediawiki_wiki/files/File:/File:DC_2014_-_admin_day.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:DC\_2014\_-\_admin\_day.pdf](/mediawiki_wiki/files/File:/File:DC_2014_-_admin_day.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DC_2014_-_admin_day.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DC_2014_-_admin_day.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DC_2014_-_admin_day.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DC_2014_-_admin_day.pdf&action=edit "This page is protected.
 You can view its source [e]")

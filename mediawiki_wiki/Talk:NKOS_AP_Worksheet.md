@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Talk:NKOS_AP_Worksheet.html"
+- "/mediawiki_wiki/Talk:NKOS_AP_Worksheet.html"
 ---
 
 ### The NKOS DCMI Functional requirements for the Application Profile Draft 

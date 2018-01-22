@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Technical_Board/infrastructure.html"
+- "/mediawiki_wiki/DCMI_Technical_Board/infrastructure.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 24 January 2017, at 22:04.  
 This page has been accessed 19,739 times.
 
-[<img alt="Technical Infrastructure Committee logo" src="/archive/mediawiki_wiki/images/Tech_infrastructure.png" width="516" height="57">](/archive/mediawiki_wiki/images/Tech_infrastructure.png "Technical Infrastructure Committee logo")
+[<img alt="Technical Infrastructure Committee logo" src="/mediawiki_wiki/images/Tech_infrastructure.png" width="516" height="57">](/mediawiki_wiki/images/Tech_infrastructure.png "Technical Infrastructure Committee logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>

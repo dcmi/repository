@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_LD4PEinterimreport.pdf.html"
+- "/mediawiki_wiki/files/File:/File_LD4PEinterimreport.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/LD4PEinterimreport.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/LD4PEinterimreport.pdf)
 
-[LD4PEinterimreport.pdf](/archive/mediawiki_wiki/files/LD4PEinterimreport.pdf "LD4PEinterimreport.pdf")‎(file size: 1.33 MB, MIME type: application/pdf)
+[LD4PEinterimreport.pdf](/mediawiki_wiki/files/LD4PEinterimreport.pdf "LD4PEinterimreport.pdf")‎(file size: 1.33 MB, MIME type: application/pdf)
 
 IMLS interim project report December 2015
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/LD4PEinterimreport.pdf">18:32, 15 December 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/LD4PEinterimreport.pdf">18:32, 15 December 2015</a></td>
     <td> <span style="white-space: nowrap;">(1.33 MB)</span>
     </td>
     <td>
@@ -70,13 +70,13 @@ The following page links to this file:
 
 - [LD4PE Meeting Minutes/2015-12-15](/index.php/LD4PE_Meeting_Minutes/2015-12-15 "LD4PE Meeting Minutes/2015-12-15")
 
-Retrieved from " [/archive/mediawiki_wiki/File:LD4PEinterimreport.pdf](/archive/mediawiki_wiki/files/File:/File:LD4PEinterimreport.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:LD4PEinterimreport.pdf](/mediawiki_wiki/files/File:/File:LD4PEinterimreport.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:LD4PEinterimreport.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:LD4PEinterimreport.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:LD4PEinterimreport.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:LD4PEinterimreport.pdf&action=edit "This page is protected.
 You can view its source [e]")

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_EC_logo.png.html"
+- "/mediawiki_wiki/files/File:/File_EC_logo.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:EC logo.png" src="/images/a/a2/EC_logo.png" width="393" height="108">](/archive/mediawiki_wiki/files/EC_logo.png)  
+ [<img alt="File:EC logo.png" src="/images/a/a2/EC_logo.png" width="393" height="108">](/mediawiki_wiki/files/EC_logo.png)  
 <small>No higher resolution available.</small>  
  [EC\_logo.png](/images/a/a2/EC_logo.png)‎ (393 × 108 pixels, file size: 18 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/EC_logo.png">14:10, 19 January 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/EC_logo.png">14:10, 19 January 2014</a></td>
     <td><a href="/images/a/a2/EC_logo.png"><img alt="Thumbnail for version as of 14:10, 19 January 2014" src="/images/a/a2/EC_logo.png" width="120" height="33"></a></td>
     <td>393×108 <span style="white-space: nowrap;">(18 KB)</span>
     </td>
@@ -74,13 +74,13 @@ The following 3 pages link to this file:
 - [Exec Committee/scratchpad/general](/index.php/Exec_Committee/scratchpad/general "Exec Committee/scratchpad/general")
 - [Exec Committee/scratchpad/general/restructuring](/index.php/Exec_Committee/scratchpad/general/restructuring "Exec Committee/scratchpad/general/restructuring")
 
-Retrieved from " [/archive/mediawiki_wiki/File:EC\_logo.png](/archive/mediawiki_wiki/files/File:/File:EC_logo.png.html)"
+Retrieved from " [/mediawiki_wiki/File:EC\_logo.png](/mediawiki_wiki/files/File:/File:EC_logo.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:EC_logo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:EC_logo.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:EC_logo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:EC_logo.png&action=edit "This page is protected.
 You can view its source [e]")

@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Exec_Committee/restructureProcess.html"
+- "/mediawiki_wiki/Exec_Committee/restructureProcess.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 17 January 2014, at 23:51.  
 This page has been accessed 42,225 times.
 
-[Return to Executive Committee](/archive/mediawiki_wiki/Exec_Committee "Exec Committee")
+[Return to Executive Committee](/mediawiki_wiki/Exec_Committee "Exec Committee")
 
 <table id="toc" class="toc">
   <tr>
@@ -44,7 +44,7 @@ This page has been accessed 42,225 times.
 </table>
 
 
-# [The Big Picture of Change](/archive/mediawiki_wiki/Exec_Committee/public/ "Exec Committee/public/") 
+# [The Big Picture of Change](/mediawiki_wiki/Exec_Committee/public/ "Exec Committee/public/") 
 
 # General Procedure 
 
@@ -72,7 +72,7 @@ The Oversight Committee has unanimously approved the draft revision of the DCMI 
 ## Article II: Governance 
 
 - **Governing Board** 
-- **[Usage Board](/archive/mediawiki_wiki/Exec_Committee/UB "Exec Committee/UB")** 
+- **[Usage Board](/mediawiki_wiki/Exec_Committee/UB "Exec Committee/UB")** 
 - **Advisory Board** 
 
 ## Article III: Committees 

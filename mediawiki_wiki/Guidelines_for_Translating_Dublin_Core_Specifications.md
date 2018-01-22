@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Guidelines_for_Translating_Dublin_Core_Specifications.html"
+- "/mediawiki_wiki/Guidelines_for_Translating_Dublin_Core_Specifications.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -109,7 +109,7 @@ The three key user-oriented documents of interest to the potential translator ar
 
 - Singapore Framework for Dublin Core Application Profiles [[12]](http://dublincore.org/documents/singapore-framework/). The document describes a framework for designing metadata applications for maximum interoperability and for documenting such applications for maximum reusability. The framework defines a set of descriptive components that are necessary or useful for documenting an Application Profile and describes how these documentary standards relate to standard domain models and Semantic Web foundation standards. It is relatively short and moderately easy to translate.
 
-- Note: The popular guidelines Using Dublin Core [[13]](http://dublincore.org/documents/usageguide/) was last revised in 2005 and is in some respects out of date, so it is not recommended that this document be translated now. Instead the draft of a new User Guide is available at [/archive/mediawiki_wiki/User\_Guide](/archive/mediawiki_wiki/User_Guide). We recommend the translation of this Guide, especially the "Creating Metadata" section ( [/archive/mediawiki_wiki/User\_Guide/Creating\_Metadata](/archive/mediawiki_wiki/User_Guide/Creating_Metadata)).
+- Note: The popular guidelines Using Dublin Core [[13]](http://dublincore.org/documents/usageguide/) was last revised in 2005 and is in some respects out of date, so it is not recommended that this document be translated now. Instead the draft of a new User Guide is available at [/mediawiki_wiki/User\_Guide](/mediawiki_wiki/User_Guide). We recommend the translation of this Guide, especially the "Creating Metadata" section ( [/mediawiki_wiki/User\_Guide/Creating\_Metadata](/mediawiki_wiki/User_Guide/Creating_Metadata)).
 
 ### Model-related specifications and syntax guidelines 
 
@@ -148,7 +148,7 @@ Depending on local requirements the following DCMI documents and web pages may a
 <pre>&lt;Add table&gt;
 </pre>
 
-[Media:Prioritised\_list\_of\_DCMI\_Specs.pdf‎](/archive/mediawiki_wiki/files/Prioritised_list_of_DCMI_Specs.pdf "Prioritised list of DCMI Specs.pdf")
+[Media:Prioritised\_list\_of\_DCMI\_Specs.pdf‎](/mediawiki_wiki/files/Prioritised_list_of_DCMI_Specs.pdf "Prioritised list of DCMI Specs.pdf")
 
 ## Publishing translations of DCMI specifications 
 

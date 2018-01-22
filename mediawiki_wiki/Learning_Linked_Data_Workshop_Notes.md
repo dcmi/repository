@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes.html"
+- "/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -95,7 +95,7 @@ This page has been accessed 2,020 times.
 # **Learning Linked Data Project Workshop, 2-3 February 2012 -- Meeting Notes** 
 <dl>
 <dt>Agenda</dt>
-<dd> <a href="/mediawiki_wiki/Learning_Linked_Data/Agenda.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data/Agenda</a>
+<dd> <a href="/mediawiki_wiki/Learning_Linked_Data/Agenda.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data/Agenda</a>
 </dd>
 <dt>Attendees</dt>
 <dd> Tom Baker, Joseph Tennis, Marjorie Hlava, Riley Stormer, Marcia Zeng, David Talley, Joseph Busch, Karen Wickett, Corey Harper, Ed Summers, Craig Willis, Diane Hillmann, Karen Coyle, Randy Orwin, Stuart Sutton, Mike Crandall
@@ -105,7 +105,7 @@ This page has been accessed 2,020 times.
 ##### Key points of reference 
 <dl>
 <dt>
-<a href="/archive/mediawiki_wiki/files/IMLSPlanningGrantNarrative.pdf" class="external text" rel="nofollow">IMLS Grant Narrative</a>
+<a href="/mediawiki_wiki/files/IMLSPlanningGrantNarrative.pdf" class="external text" rel="nofollow">IMLS Grant Narrative</a>
 </dt>
 <dd>What we proposed to do in the grant (and in this key workshop).
 </dd>
@@ -120,7 +120,7 @@ This page has been accessed 2,020 times.
 
 Attendees introduce themselves. Backgrounds include academia, IT development and deployment, software, LIS, metadata design and application.
 
-### Initial walk-through of [Inventory of Learning Topics](/archive/mediawiki_wiki/Learning_Linked_Data_Inventory "Learning Linked Data Inventory") 
+### Initial walk-through of [Inventory of Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Inventory "Learning Linked Data Inventory") 
 <dl>
 <dt>Tom</dt>
 <dd> Intended Results from today and tomorrow:
@@ -181,7 +181,7 @@ Attendees introduce themselves. Backgrounds include academia, IT development and
 </dd>
 </dl>
 
-### Start focusing on top-level [Learning Topics](/archive/mediawiki_wiki/Learning_Linked_Data_Inventory "Learning Linked Data Inventory") 
+### Start focusing on top-level [Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Inventory "Learning Linked Data Inventory") 
 <dl>
 <dt>Tom</dt>
 <dd> Let's stop looking at the details at focus on the top-level headings: "Reading linked data", in turn divided into "grammar", "vocabulary", and "syntax (abstract and concrete)". To what extent is this about understanding the concepts underlying Linked Data as opposed to actually creating Linked Data applications? Do we assume we are aiming at giving the intended audience a high-level understanding of RDF?
@@ -926,7 +926,7 @@ Is anyone suggesting this not be a separate category?
 </dl>
 
 
-[<img alt="Singapore Framework" src="/archive/mediawiki_wiki/images/Singapore-framework-newdiagram.jpg" width="924" height="553">](/archive/mediawiki_wiki/images/Singapore-framework-newdiagram.jpg "Singapore Framework")
+[<img alt="Singapore Framework" src="/mediawiki_wiki/images/Singapore-framework-newdiagram.jpg" width="924" height="553">](/mediawiki_wiki/images/Singapore-framework-newdiagram.jpg "Singapore Framework")
 
 <dl>
 <dt>Tom</dt>

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Exec_Committee/public.html"
+- "/mediawiki_wiki/Exec_Committee/public.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -39,5 +39,5 @@ Close liaison between the Usage Board and the Specifications/Documentation commi
 
 * * *
 
-[<img alt="Combined Org Chart-v3.jpg" src="/archive/mediawiki_wiki/images/Combined_Org_Chart-v3.jpg" width="700" height="1861">](/archive/mediawiki_wiki/images/Combined_Org_Chart-v3.jpg)
+[<img alt="Combined Org Chart-v3.jpg" src="/mediawiki_wiki/images/Combined_Org_Chart-v3.jpg" width="700" height="1861">](/mediawiki_wiki/images/Combined_Org_Chart-v3.jpg)
 

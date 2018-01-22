@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Developer_Scenarios.html"
+- "/mediawiki_wiki/Developer_Scenarios.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -40,7 +40,7 @@ This page has been accessed 115,978 times.
 
 # Developer Scenarios 
 
-[Back to TG Historical Archives page](/archive/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives)
+[Back to TG Historical Archives page](/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives)
 
 ## Scenario: Linking to Authority Files 
 
@@ -66,5 +66,5 @@ Simply discover Sources (databases, content services, OPACS, etc.) which have in
 
 I need to link bibliographic records to the publisher information that is in the acquisitions system. This will interact with purchasing and supplies for the acquisition of new copies. _Karen Coyle_
 
-[Back to TG Historical Archives page](/archive/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives)
+[Back to TG Historical Archives page](/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives)
 

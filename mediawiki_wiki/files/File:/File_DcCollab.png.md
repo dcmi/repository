@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DcCollab.png.html"
+- "/mediawiki_wiki/files/File:/File_DcCollab.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:DcCollab.png" src="/images/0/0b/DcCollab.png" width="578" height="122">](/archive/mediawiki_wiki/files/DcCollab.png)  
+ [<img alt="File:DcCollab.png" src="/images/0/0b/DcCollab.png" width="578" height="122">](/mediawiki_wiki/files/DcCollab.png)  
 <small>No higher resolution available.</small>  
  [DcCollab.png](/images/0/0b/DcCollab.png)‎ (578 × 122 pixels, file size: 26 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DcCollab.png">14:29, 5 December 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DcCollab.png">14:29, 5 December 2014</a></td>
     <td><a href="/images/0/0b/DcCollab.png"><img alt="Thumbnail for version as of 14:29, 5 December 2014" src="/images/0/0b/DcCollab.png" width="120" height="25"></a></td>
     <td>578×122 <span style="white-space: nowrap;">(26 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [PetWordpressMedia](/index.php/PetWordpressMedia "PetWordpressMedia")
 
-Retrieved from " [/archive/mediawiki_wiki/File:DcCollab.png](/archive/mediawiki_wiki/files/File:/File:DcCollab.png.html)"
+Retrieved from " [/mediawiki_wiki/File:DcCollab.png](/mediawiki_wiki/files/File:/File:DcCollab.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DcCollab.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DcCollab.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DcCollab.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DcCollab.png&action=edit "This page is protected.
 You can view its source [e]")

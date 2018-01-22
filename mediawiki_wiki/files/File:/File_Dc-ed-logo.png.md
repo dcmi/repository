@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Dc-ed-logo.png.html"
+- "/mediawiki_wiki/files/File:/File_Dc-ed-logo.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Dc-ed-logo.png" src="/images/4/40/Dc-ed-logo.png" width="350" height="122">](/archive/mediawiki_wiki/files/Dc-ed-logo.png)  
+ [<img alt="File:Dc-ed-logo.png" src="/images/4/40/Dc-ed-logo.png" width="350" height="122">](/mediawiki_wiki/files/Dc-ed-logo.png)  
 <small>No higher resolution available.</small>  
  [Dc-ed-logo.png](/images/4/40/Dc-ed-logo.png)‎ (350 × 122 pixels, file size: 9 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Dc-ed-logo.png">11:35, 19 September 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Dc-ed-logo.png">11:35, 19 September 2014</a></td>
     <td><a href="/images/4/40/Dc-ed-logo.png"><img alt="Thumbnail for version as of 11:35, 19 September 2014" src="/images/4/40/Dc-ed-logo.png" width="120" height="42"></a></td>
     <td>350×122 <span style="white-space: nowrap;">(9 KB)</span>
     </td>
@@ -70,13 +70,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:Dc-ed-logo.png](/archive/mediawiki_wiki/files/File:/File:Dc-ed-logo.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Dc-ed-logo.png](/mediawiki_wiki/files/File:/File:Dc-ed-logo.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Dc-ed-logo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Dc-ed-logo.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Dc-ed-logo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Dc-ed-logo.png&action=edit "This page is protected.
 You can view its source [e]")

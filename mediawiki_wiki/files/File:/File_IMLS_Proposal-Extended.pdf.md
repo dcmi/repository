@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_IMLS_Proposal-Extended.pdf.html"
+- "/mediawiki_wiki/files/File:/File_IMLS_Proposal-Extended.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/IMLS_Proposal-Extended.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/IMLS_Proposal-Extended.pdf)
 
-[IMLS\_Proposal-Extended.pdf](/archive/mediawiki_wiki/files/IMLS_Proposal-Extended.pdf "IMLS Proposal-Extended.pdf")‎(file size: 2.22 MB, MIME type: application/pdf)
+[IMLS\_Proposal-Extended.pdf](/mediawiki_wiki/files/IMLS_Proposal-Extended.pdf "IMLS Proposal-Extended.pdf")‎(file size: 2.22 MB, MIME type: application/pdf)
 
 Extended IMLS Grant narrative
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/IMLS_Proposal-Extended.pdf">10:32, 12 December 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/IMLS_Proposal-Extended.pdf">10:32, 12 December 2014</a></td>
     <td> <span style="white-space: nowrap;">(2.22 MB)</span>
     </td>
     <td>
@@ -68,13 +68,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:IMLS\_Proposal-Extended.pdf](/archive/mediawiki_wiki/files/File:/File:IMLS_Proposal-Extended.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:IMLS\_Proposal-Extended.pdf](/mediawiki_wiki/files/File:/File:IMLS_Proposal-Extended.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:IMLS_Proposal-Extended.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:IMLS_Proposal-Extended.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:IMLS_Proposal-Extended.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:IMLS_Proposal-Extended.pdf&action=edit "This page is protected.
 You can view its source [e]")

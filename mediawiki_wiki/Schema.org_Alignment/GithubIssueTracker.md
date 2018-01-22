@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Schema.org_Alignment/GithubIssueTracker.html"
+- "/mediawiki_wiki/Schema.org_Alignment/GithubIssueTracker.html"
 ---
 
  **This is an archived MediaWiki page.**  

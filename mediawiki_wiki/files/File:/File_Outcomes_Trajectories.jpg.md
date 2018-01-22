@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Outcomes_Trajectories.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Outcomes_Trajectories.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Outcomes Trajectories.jpg" src="/images/a/a1/Outcomes_Trajectories.jpg" width="720" height="540">](/archive/mediawiki_wiki/files/Outcomes_Trajectories.jpg)  
+ [<img alt="File:Outcomes Trajectories.jpg" src="/images/a/a1/Outcomes_Trajectories.jpg" width="720" height="540">](/mediawiki_wiki/files/Outcomes_Trajectories.jpg)  
 <small>No higher resolution available.</small>  
  [Outcomes\_Trajectories.jpg](/images/a/a1/Outcomes_Trajectories.jpg)‎ (720 × 540 pixels, file size: 113 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Outcomes_Trajectories.jpg">15:40, 29 August 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Outcomes_Trajectories.jpg">15:40, 29 August 2012</a></td>
     <td><a href="/images/a/a1/Outcomes_Trajectories.jpg"><img alt="Thumbnail for version as of 15:40, 29 August 2012" src="/images/a/a1/Outcomes_Trajectories.jpg" width="120" height="90"></a></td>
     <td>720×540 <span style="white-space: nowrap;">(113 KB)</span>
     </td>
@@ -73,13 +73,13 @@ The following 2 pages link to this file:
 - [Implementation Grant Proposal Notes](/index.php/Implementation_Grant_Proposal_Notes "Implementation Grant Proposal Notes")
 - [Implementation Grant Discussion Draft](/index.php/Implementation_Grant_Discussion_Draft "Implementation Grant Discussion Draft")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Outcomes\_Trajectories.jpg](/archive/mediawiki_wiki/files/File:/File:Outcomes_Trajectories.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Outcomes\_Trajectories.jpg](/mediawiki_wiki/files/File:/File:Outcomes_Trajectories.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Outcomes_Trajectories.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Outcomes_Trajectories.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Outcomes_Trajectories.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Outcomes_Trajectories.jpg&action=edit "This page is protected.
 You can view its source [e]")

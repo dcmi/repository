@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_P3056a.png.html"
+- "/mediawiki_wiki/files/File:/File_P3056a.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:P3056a.png" src="/images/b/b6/P3056a.png" width="704" height="164">](/archive/mediawiki_wiki/files/P3056a.png)  
+ [<img alt="File:P3056a.png" src="/images/b/b6/P3056a.png" width="704" height="164">](/mediawiki_wiki/files/P3056a.png)  
 <small>No higher resolution available.</small>  
  [P3056a.png](/images/b/b6/P3056a.png)‎ (704 × 164 pixels, file size: 23 KB, MIME type: image/png)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/P3056a.png">17:26, 14 April 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/P3056a.png">17:26, 14 April 2013</a></td>
     <td><a href="/images/b/b6/P3056a.png"><img alt="Thumbnail for version as of 17:26, 14 April 2013" src="/images/b/b6/P3056a.png" width="120" height="28"></a></td>
     <td>704×164 <span style="white-space: nowrap;">(23 KB)</span>
     </td>
@@ -125,17 +125,17 @@ Click on a date/time to view the file as it appeared at that time.
 
 The following file is a duplicate of this file ( [more details](/index.php/Special:FileDuplicateSearch/P3056a.png "Special:FileDuplicateSearch/P3056a.png")):
 
-- [File:P3056a2.png](/archive/mediawiki_wiki/files/File:/File:P3056a2.png.html "File:P3056a2.png") 
+- [File:P3056a2.png](/mediawiki_wiki/files/File:/File:P3056a2.png.html "File:P3056a2.png") 
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:P3056a.png](/archive/mediawiki_wiki/files/File:/File:P3056a.png.html)"
+Retrieved from " [/mediawiki_wiki/File:P3056a.png](/mediawiki_wiki/files/File:/File:P3056a.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:P3056a.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:P3056a.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:P3056a.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:P3056a.png&action=edit "This page is protected.
 You can view its source [e]")

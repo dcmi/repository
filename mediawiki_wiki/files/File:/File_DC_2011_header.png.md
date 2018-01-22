@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DC_2011_header.png.html"
+- "/mediawiki_wiki/files/File:/File_DC_2011_header.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:DC 2011 header.png" src="/images/9/9f/DC_2011_header.png" width="627" height="134">](/archive/mediawiki_wiki/files/DC_2011_header.png)  
+ [<img alt="File:DC 2011 header.png" src="/images/9/9f/DC_2011_header.png" width="627" height="134">](/mediawiki_wiki/files/DC_2011_header.png)  
 <small>No higher resolution available.</small>  
  [DC\_2011\_header.png](/images/9/9f/DC_2011_header.png)‎ (627 × 134 pixels, file size: 126 KB, MIME type: image/png)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DC_2011_header.png">12:52, 21 March 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DC_2011_header.png">12:52, 21 March 2011</a></td>
     <td><a href="/images/9/9f/DC_2011_header.png"><img alt="Thumbnail for version as of 12:52, 21 March 2011" src="/images/9/9f/DC_2011_header.png" width="120" height="26"></a></td>
     <td>627×134 <span style="white-space: nowrap;">(126 KB)</span>
     </td>
@@ -70,13 +70,13 @@ The following 3 pages link to this file:
 - [User:Thierry Daunois/test 1](/index.php/User:Thierry_Daunois/test_1 "User:Thierry Daunois/test 1")
 - [Template:DCMI header](/index.php/Template:DCMI_header "Template:DCMI header")
 
-Retrieved from " [/archive/mediawiki_wiki/File:DC\_2011\_header.png](/archive/mediawiki_wiki/files/File:/File:DC_2011_header.png.html)"
+Retrieved from " [/mediawiki_wiki/File:DC\_2011\_header.png](/mediawiki_wiki/files/File:/File:DC_2011_header.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DC_2011_header.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DC_2011_header.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DC_2011_header.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DC_2011_header.png&action=edit "This page is protected.
 You can view its source [e]")

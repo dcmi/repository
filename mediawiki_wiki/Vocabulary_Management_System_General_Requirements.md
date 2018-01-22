@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Vocabulary_Management_System_General_Requirements.html"
+- "/mediawiki_wiki/Vocabulary_Management_System_General_Requirements.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,7 +17,7 @@ This page has been accessed 140,372 times.
 
 ## Introduction 
 
-The following suggested core requirements were used as the basis of discussion on [Vocabulary Management System Functional Requirements](/archive/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements "Vocabulary Management System Functional Requirements") during the [DCMI Registry Community](http://www.dublincore.org/groups/registry/) session at DC-2011.
+The following suggested core requirements were used as the basis of discussion on [Vocabulary Management System Functional Requirements](/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements "Vocabulary Management System Functional Requirements") during the [DCMI Registry Community](http://www.dublincore.org/groups/registry/) session at DC-2011.
 
 ## Core Requirements for a DCMI Vocabulary Management System 
 

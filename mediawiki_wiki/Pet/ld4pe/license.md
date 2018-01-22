@@ -8,10 +8,10 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Pet/ld4pe/license.html"
+- "/mediawiki_wiki/Pet/ld4pe/license.html"
 ---
 
-[<img alt="LD4PE Exploratorium logo" src="/archive/mediawiki_wiki/images/Ld4pe-EX.png" width="250" height="100">](/archive/mediawiki_wiki/File:Ld4pe-EX.png "LD4PE Exploratorium logo")
+[<img alt="LD4PE Exploratorium logo" src="/mediawiki_wiki/images/Ld4pe-EX.png" width="250" height="100">](/mediawiki_wiki/File:Ld4pe-EX.png "LD4PE Exploratorium logo")
 
 <table id="toc" class="toc">
   <tr>
@@ -35,7 +35,7 @@ aliases:
   </tr>
 </table>
 <script>if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
-#### [Task Group Home Page](/archive/mediawiki_wiki/Pet/ld4pe "Pet/ld4pe") 
+#### [Task Group Home Page](/mediawiki_wiki/Pet/ld4pe "Pet/ld4pe") 
 
 # Namespace Prefixes Used (properties & licenses) 
 <pre>@prefix dc: <a href="http://purl.org/dc/elements/1.1/" class="external free" rel="nofollow">http://purl.org/dc/elements/1.1/</a>.

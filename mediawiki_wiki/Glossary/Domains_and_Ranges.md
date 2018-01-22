@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Glossary/Domains_and_Ranges.html"
+- "/mediawiki_wiki/Glossary/Domains_and_Ranges.html"
 ---
 
  **This is an archived MediaWiki page.**  

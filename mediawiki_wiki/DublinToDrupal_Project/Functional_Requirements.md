@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DublinToDrupal_Project/Functional_Requirements.html"
+- "/mediawiki_wiki/DublinToDrupal_Project/Functional_Requirements.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 7 Oct 2012, at 12:27.  
 This page has been accessed 1,284 times.
 
-Return to [Dublin to Drupal Top](/archive/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
+Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
 
 <table id="toc" class="toc">
   <tr>

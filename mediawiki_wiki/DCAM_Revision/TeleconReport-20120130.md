@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130.html"
+- "/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -19,14 +19,14 @@ This page has been accessed 127,320 times.
 
 Attended: TomB (chair), DianeH, StuartS, AaronR, MichaelP, RichardU, CoreyH, GordonD,
              KaiE, JonP, AntoineI, MarkM
-This report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130</a>
+This report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130</a>
 
 ----------------------------------------------------------------------
 Picking up on dc-architecture discussion
 
 Tom: Two visions of DCAM on table. Are they compatible?
 -- Kai: DCAM as SKOS-like thing for metadata - see
-   <a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Tech</a>
+   <a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Tech</a>
 -- Jon: DCAM as more tightly coupled to application and Description Set Profiles.
    Expressing constraints.
 Over to Kai...
@@ -140,7 +140,7 @@ Michael: Looking at RDF as very basic metadata model (which it is, in a way)
 
      Aaron: +1 to Michael re: using RDFS/OWL as QA model
 
-Antoine (irc): @michaelp: Isn't <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Scratchpad</a> 
+Antoine (irc): @michaelp: Isn't <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Scratchpad</a> 
      a good start for what you suggest? E.g., highlights some of the specifics of Vocabulary 
      Encoding Scheme. Description Set is not exressible directly.
 
@@ -160,7 +160,7 @@ Antoine: I think we started that discussion on gap analysis already, with my try
     Corey, Diane: +1 for gap analysis
 
 Corey: I'd like to point out that some of what Tom is talking about sits right between Jon's and 
-     Kai's proposals. See <a href="/mediawiki_wiki/DCAM_Revision/TeleconIRC-20111221.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconIRC-20111221</a>.
+     Kai's proposals. See <a href="/mediawiki_wiki/DCAM_Revision/TeleconIRC-20111221.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconIRC-20111221</a>.
      It maps to our discussion on the December call about two documents: the Technical (hard mapping 
      to XML and DC-TEXT) and the Layman's document (Karen and, I think, Kai). What a Description 
      Set is, how it relates to RDF, etc.
@@ -278,11 +278,11 @@ Tom: Propose that we have telecons weekly for awhile. Hard to sort out
 Outstanding actions
 
 ACTION (2012-01-04): Tom and Richard to put placeholder for introductory text into wiki document
-at <a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Draft</a>.
+at <a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Draft</a>.
 
 ACTION (2012-01-04): Kai and Tom to work on technical part in wiki, e.g.:
-    <a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Tech</a>
-    <a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
-    <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
-    <a href="/mediawiki_wiki/DCAM_Revision_Graphics.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Graphics</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Tech</a>
+    <a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Graphics.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Graphics</a>
 </pre>

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Dsp-uml.png.html"
+- "/mediawiki_wiki/files/File:/File_Dsp-uml.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Dsp-uml.png" src="/images/e/ec/Dsp-uml.png" width="551" height="470">](/archive/mediawiki_wiki/files/Dsp-uml.png)  
+ [<img alt="File:Dsp-uml.png" src="/images/e/ec/Dsp-uml.png" width="551" height="470">](/mediawiki_wiki/files/Dsp-uml.png)  
 <small>No higher resolution available.</small>  
  [Dsp-uml.png](/images/e/ec/Dsp-uml.png)‎ (551 × 470 pixels, file size: 38 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Dsp-uml.png">23:05, 22 August 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Dsp-uml.png">23:05, 22 August 2014</a></td>
     <td><a href="/images/e/ec/Dsp-uml.png"><img alt="Thumbnail for version as of 23:05, 22 August 2014" src="/images/e/ec/Dsp-uml.png" width="120" height="102"></a></td>
     <td>551×470 <span style="white-space: nowrap;">(38 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [RDF Application Profiles/DSPanalysis](/index.php/RDF_Application_Profiles/DSPanalysis "RDF Application Profiles/DSPanalysis")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Dsp-uml.png](/archive/mediawiki_wiki/files/File:/File:Dsp-uml.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Dsp-uml.png](/mediawiki_wiki/files/File:/File:Dsp-uml.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Dsp-uml.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Dsp-uml.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Dsp-uml.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Dsp-uml.png&action=edit "This page is protected.
 You can view its source [e]")

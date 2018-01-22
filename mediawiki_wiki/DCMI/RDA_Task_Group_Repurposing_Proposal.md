@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI/RDA_Task_Group_Repurposing_Proposal.html"
+- "/mediawiki_wiki/DCMI/RDA_Task_Group_Repurposing_Proposal.html"
 ---
 
  **This is an archived MediaWiki page.**  

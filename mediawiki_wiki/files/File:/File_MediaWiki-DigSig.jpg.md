@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_MediaWiki-DigSig.jpg.html"
+- "/mediawiki_wiki/files/File:/File_MediaWiki-DigSig.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:MediaWiki-DigSig.jpg" src="/images/c/c7/MediaWiki-DigSig.jpg" width="335" height="35">](/archive/mediawiki_wiki/files/MediaWiki-DigSig.jpg)  
+ [<img alt="File:MediaWiki-DigSig.jpg" src="/images/c/c7/MediaWiki-DigSig.jpg" width="335" height="35">](/mediawiki_wiki/files/MediaWiki-DigSig.jpg)  
 <small>No higher resolution available.</small>  
  [MediaWiki-DigSig.jpg](/images/c/c7/MediaWiki-DigSig.jpg)‎ (335 × 35 pixels, file size: 30 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/MediaWiki-DigSig.jpg">23:59, 8 January 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/MediaWiki-DigSig.jpg">23:59, 8 January 2012</a></td>
     <td><a href="/images/c/c7/MediaWiki-DigSig.jpg"><img alt="Thumbnail for version as of 23:59, 8 January 2012" src="/images/c/c7/MediaWiki-DigSig.jpg" width="120" height="13"></a></td>
     <td>335×35 <span style="white-space: nowrap;">(30 KB)</span>
     </td>
@@ -70,13 +70,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:MediaWiki-DigSig.jpg](/archive/mediawiki_wiki/files/File:/File:MediaWiki-DigSig.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:MediaWiki-DigSig.jpg](/mediawiki_wiki/files/File:/File:MediaWiki-DigSig.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:MediaWiki-DigSig.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:MediaWiki-DigSig.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:MediaWiki-DigSig.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:MediaWiki-DigSig.jpg&action=edit "This page is protected.
 You can view its source [e]")

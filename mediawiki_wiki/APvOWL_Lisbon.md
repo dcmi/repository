@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/APvOWL_Lisbon.html"
+- "/mediawiki_wiki/APvOWL_Lisbon.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -63,13 +63,13 @@ We intend to stimulate discussion of by presenting real-life examples.
 
 Gordon Dunsire will present a short discussion of issues around the ontological expression of FRBR<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[6]</a></sup> and RDA<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[7]</a></sup>, the thinking behind the proposal for generalized properties (with an update on its status), and the role of application profiles for RDA (one of the 2007 "London Meeting" resolutions). To contain what could be a lengthy discussion, we propose to focus on properties such as the following:
 
-[<img alt="P3056reduced.jpg" src="/archive/mediawiki_wiki/images/P3056reduced.jpg" width="500" height="265">](/archive/mediawiki_wiki/images/P3056reduced.jpg)
+[<img alt="P3056reduced.jpg" src="/mediawiki_wiki/images/P3056reduced.jpg" width="500" height="265">](/mediawiki_wiki/images/P3056reduced.jpg)
 
 ### Open Annotation Data Model as an Application Profile
 
 We will examine a W3C Community draft, Open Annotation Data Model (OA). Two specifications -- the Open Annotation Ontology<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[8]</a></sup> and the Open Annotation Data Model <sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[9]</a></sup> -- demonstrate a separation between an open ontology and constraints on instance data. The OA Ontology contains few constraints, creating a flexible base for the constraints in the specification.
 
-[<img alt="Oaeg.png" src="/archive/mediawiki_wiki/images/Oaeg.png" width="500" height="262">](/archive/mediawiki_wiki/images/Oaeg.png)
+[<img alt="Oaeg.png" src="/mediawiki_wiki/images/Oaeg.png" width="500" height="262">](/mediawiki_wiki/images/Oaeg.png)
 
 The OA specification, which we interpret to be an Application Profile, then describes the usage of the ontology, with constraints and preferred practices, as in the following example from Section 2.2:
 

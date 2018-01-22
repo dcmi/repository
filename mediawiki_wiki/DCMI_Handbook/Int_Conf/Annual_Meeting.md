@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Handbook/Int_Conf/Annual_Meeting.html"
+- "/mediawiki_wiki/DCMI_Handbook/Int_Conf/Annual_Meeting.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 15 January 2017, at 00:03.  
 This page has been accessed 194,564 times.
 
-Return to [International Conference](/archive/mediawiki_wiki/DCMI_Handbook/Int_Conf "DCMI Handbook/Int Conf")
+Return to [International Conference](/mediawiki_wiki/DCMI_Handbook/Int_Conf "DCMI Handbook/Int Conf")
 
 <table id="toc" class="toc">
   <tr>
@@ -36,7 +36,7 @@ Return to [International Conference](/archive/mediawiki_wiki/DCMI_Handbook/Int_C
 </table>
 
 
-For the Annual Meeting and Conference Steering Committee calendar, see [Master Calendar](/archive/mediawiki_wiki/DCMI_Handbook/Int_Conf/Master_Calendar "DCMI Handbook/Int Conf/Master Calendar")
+For the Annual Meeting and Conference Steering Committee calendar, see [Master Calendar](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Master_Calendar "DCMI Handbook/Int Conf/Master Calendar")
 
 ## Annual Meeting & Conference Committee Planning Calendar 
 
@@ -87,7 +87,7 @@ For the Annual Meeting and Conference Steering Committee calendar, see [Master C
     <ul>
       <li>Prepare spreadsheet of previous year's peer reviewers and email header file of email addresses {<u>Conference Committee Chair</u>}</li>
       <li>Start inquiry with PC chair(s) regarding additional peer reviewers (add to spreadsheet) {<u>Conference Committee Chair</u>}</li>
-      <li>Prepare and review invitation to review email to candidate reviewers. BOILERPLATE FILE: (a) <a href="/archive/mediawiki_wiki/files/Reviewer-invitation_to_review.txt" class="internal" title="Reviewer-invitation to review.txt">Media:Reviewer-invitation_to_review.txt</a> (b) <a href="/archive/mediawiki_wiki/files/Reviewer-invitation_to_review.txt" title="File:Reviewer-invitation to review.txt">File:Reviewer-invitation to review.txt</a> {<u>Conference Committee Chair</u>}</li>
+      <li>Prepare and review invitation to review email to candidate reviewers. BOILERPLATE FILE: (a) <a href="/mediawiki_wiki/files/Reviewer-invitation_to_review.txt" class="internal" title="Reviewer-invitation to review.txt">Media:Reviewer-invitation_to_review.txt</a> (b) <a href="/mediawiki_wiki/files/Reviewer-invitation_to_review.txt" title="File:Reviewer-invitation to review.txt">File:Reviewer-invitation to review.txt</a> {<u>Conference Committee Chair</u>}</li>
     </ul>
   </td>
   <tr>
@@ -239,7 +239,7 @@ For the Annual Meeting and Conference Steering Committee calendar, see [Master C
     <td align="center">- 21</td>
     <td>
       <ul>
-        <li>Send email to peer reviewers that assignment are coming and with link to reviewer instructions. BOILERPLATE FILE: (a) <a href="/archive/mediawiki_wiki/files/Reviewer-Upcoming_assignments_alert.txt" class="internal" title="Reviewer-Upcoming assignments alert.txt">Media:Reviewer-Upcoming_assignments_alert.txt</a> (b) <a href="/archive/mediawiki_wiki/files/Reviewer-Upcoming_assignments_alert.txt" title="File:Reviewer-Upcoming assignments alert.txt">File:Reviewer-Upcoming assignments alert.txt</a> {<u>Conference Committee Chair</u>}</li>
+        <li>Send email to peer reviewers that assignment are coming and with link to reviewer instructions. BOILERPLATE FILE: (a) <a href="/mediawiki_wiki/files/Reviewer-Upcoming_assignments_alert.txt" class="internal" title="Reviewer-Upcoming assignments alert.txt">Media:Reviewer-Upcoming_assignments_alert.txt</a> (b) <a href="/mediawiki_wiki/files/Reviewer-Upcoming_assignments_alert.txt" title="File:Reviewer-Upcoming assignments alert.txt">File:Reviewer-Upcoming assignments alert.txt</a> {<u>Conference Committee Chair</u>}</li>
       </ul>
     </td>
   </tr>

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCAM_Revision_Gap_Analysis.html"
+- "/mediawiki_wiki/DCAM_Revision_Gap_Analysis.html"
 ---
 
  **This is an archived MediaWiki page.**  

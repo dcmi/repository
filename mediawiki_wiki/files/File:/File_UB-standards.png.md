@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_UB-standards.png.html"
+- "/mediawiki_wiki/files/File:/File_UB-standards.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:UB-standards.png" src="/images/f/ff/UB-standards.png" width="800" height="549">](/archive/mediawiki_wiki/files/UB-standards.png)  
+ [<img alt="File:UB-standards.png" src="/images/f/ff/UB-standards.png" width="800" height="549">](/mediawiki_wiki/files/UB-standards.png)  
 <small>Size of this preview: 800 × 549 pixels</small>  
  [Full resolution](/images/f/ff/UB-standards.png)‎ (806 × 553 pixels, file size: 91 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/UB-standards.png">16:39, 20 December 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/UB-standards.png">16:39, 20 December 2013</a></td>
     <td><a href="/images/f/ff/UB-standards.png"><img alt="Thumbnail for version as of 16:39, 20 December 2013" src="/images/f/ff/UB-standards.png" width="120" height="82"></a></td>
     <td>806×553 <span style="white-space: nowrap;">(91 KB)</span>
     </td>
@@ -107,13 +107,13 @@ The following page links to this file:
 
 - [Exec Committee/AB Comm-TG/Standards](/index.php/Exec_Committee/AB_Comm-TG/Standards "Exec Committee/AB Comm-TG/Standards")
 
-Retrieved from " [/archive/mediawiki_wiki/File:UB-standards.png](/archive/mediawiki_wiki/files/File:/File:UB-standards.png.html)"
+Retrieved from " [/mediawiki_wiki/File:UB-standards.png](/mediawiki_wiki/files/File:/File:UB-standards.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:UB-standards.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:UB-standards.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:UB-standards.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:UB-standards.png&action=edit "This page is protected.
 You can view its source [e]")

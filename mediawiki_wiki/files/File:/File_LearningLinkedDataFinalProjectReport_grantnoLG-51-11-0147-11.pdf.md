@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf.html"
+- "/mediawiki_wiki/files/File:/File_LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf)
 
-[LearningLinkedDataFinalProjectReport\_grantnoLG-51-11-0147-11.pdf](/archive/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf "LearningLinkedDataFinalProjectReport grantnoLG-51-11-0147-11.pdf")‎(file size: 399 KB, MIME type: application/pdf)
+[LearningLinkedDataFinalProjectReport\_grantnoLG-51-11-0147-11.pdf](/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf "LearningLinkedDataFinalProjectReport grantnoLG-51-11-0147-11.pdf")‎(file size: 399 KB, MIME type: application/pdf)
 
 Learning Linked Data project planning grant, Final Project Report
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf">19:00, 14 September 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf">19:00, 14 September 2012</a></td>
     <td> <span style="white-space: nowrap;">(399 KB)</span>
     </td>
     <td>
@@ -68,13 +68,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:LearningLinkedDataFinalProjectReport\_grantnoLG-51-11-0147-11.pdf](/archive/mediawiki_wiki/files/File:/File:LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:LearningLinkedDataFinalProjectReport\_grantnoLG-51-11-0147-11.pdf](/mediawiki_wiki/files/File:/File:LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf&action=edit "This page is protected.
 You can view its source [e]")

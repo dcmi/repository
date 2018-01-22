@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Draft_Vocabulary_Management_System_Task_Group_Report.html"
+- "/mediawiki_wiki/Draft_Vocabulary_Management_System_Task_Group_Report.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -70,8 +70,8 @@ DCMI’s Vocabulary Maintenance Officer and the Chief Information Officer, and o
 
 #### Resources 
 
-1. ↑ [Vocabulary Management System Task Group](/archive/mediawiki_wiki/Vocabulary_Management_System_Task_Group "Vocabulary Management System Task Group")
-2. ↑ [Vocabulary Management System Functional Requirements](/archive/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements "Vocabulary Management System Functional Requirements")
-3. ↑ [Vocabulary Management System General Requirements](/archive/mediawiki_wiki/Vocabulary_Management_System_General_Requirements "Vocabulary Management System General Requirements")
-4. ↑ [Schema.org Alignment](/archive/mediawiki_wiki/Schema.org_Alignment "Schema.org Alignment")
+1. ↑ [Vocabulary Management System Task Group](/mediawiki_wiki/Vocabulary_Management_System_Task_Group "Vocabulary Management System Task Group")
+2. ↑ [Vocabulary Management System Functional Requirements](/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements "Vocabulary Management System Functional Requirements")
+3. ↑ [Vocabulary Management System General Requirements](/mediawiki_wiki/Vocabulary_Management_System_General_Requirements "Vocabulary Management System General Requirements")
+4. ↑ [Schema.org Alignment](/mediawiki_wiki/Schema.org_Alignment "Schema.org Alignment")
 

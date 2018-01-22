@@ -8,19 +8,19 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Governing_Board/finance/TF/Conference_Financial_Structure.html"
+- "/mediawiki_wiki/DCMI_Governing_Board/finance/TF/Conference_Financial_Structure.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 21 October 2014, at 19:35.  
 This page has been accessed 42,279 times.
 
-[<img alt="Finance &amp; Bylaws Committee logo" src="/archive/mediawiki_wiki/images/Finance_Logo.png" width="300" height="58">](/archive/mediawiki_wiki/images/Finance_Logo.png "Finance & Bylaws Committee logo")  
+[<img alt="Finance &amp; Bylaws Committee logo" src="/mediawiki_wiki/images/Finance_Logo.png" width="300" height="58">](/mediawiki_wiki/images/Finance_Logo.png "Finance & Bylaws Committee logo")  
 **DCMI Task Force on the Financial Structure of the Dublin Core Annual Conference & DCMI Annual Meeting**
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](DCMI_Handbook "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](DCMI_Handbook "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -89,9 +89,9 @@ This page has been accessed 42,279 times.
 
 Representation from
 
-- [Membership & Finance Committee](/archive/mediawiki_wiki/DCMI_Governing_Board/finance "DCMI Governing Board/finance")
-- [Conferences & Meetings Committee](/archive/mediawiki_wiki/DCMI_Advisory_Board/meetings "DCMI Advisory Board/meetings")
-- [Directorate](/archive/mediawiki_wiki/Exec_Committee/directorate "Exec Committee/directorate")
+- [Membership & Finance Committee](/mediawiki_wiki/DCMI_Governing_Board/finance "DCMI Governing Board/finance")
+- [Conferences & Meetings Committee](/mediawiki_wiki/DCMI_Advisory_Board/meetings "DCMI Advisory Board/meetings")
+- [Directorate](/mediawiki_wiki/Exec_Committee/directorate "Exec Committee/directorate")
 
 * * *
 
@@ -117,7 +117,7 @@ Representation from
 
 - **Decision-making:** The TF shall employ consensus and compromise as its preferred form of decision-making. If matters cannot be resolved in this manner satisfactorily, decisions may be made by voting, majority (3 or more votes) rules. 
 
-- **Ancillary Actions:** It is anticipated that the AB Conferences & Meetings Committee shall be asked to revise the [International Conference Host Guidelines](/archive/mediawiki_wiki/DCMI_Handbook/Int_Conf/Host_Guidelines) to reflect the financial structure approved by the Governing Board.
+- **Ancillary Actions:** It is anticipated that the AB Conferences & Meetings Committee shall be asked to revise the [International Conference Host Guidelines](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Host_Guidelines) to reflect the financial structure approved by the Governing Board.
 
 * * *
 
@@ -131,13 +131,13 @@ Representation from
 
 TBD
 
-- [<img alt="+ symbol" src="/archive/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/archive/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
+- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
 
 * * *
 
 #### Key DCMI Handbook Pages 
 
-- [International Conference Host Guidelines](/archive/mediawiki_wiki/DCMI_Handbook/Int_Conf/Host_Guidelines)
+- [International Conference Host Guidelines](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Host_Guidelines)
 
 * * *
 
@@ -153,7 +153,7 @@ TBD
 
 * * *
 
-[<img alt="DCMI Handbook" src="/archive/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/archive/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
 
 [Click and become a DCMI member...](http://dublincore.org/support/#individualMember)
 

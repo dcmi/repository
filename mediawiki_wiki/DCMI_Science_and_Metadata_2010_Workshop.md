@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Science_and_Metadata_2010_Workshop.html"
+- "/mediawiki_wiki/DCMI_Science_and_Metadata_2010_Workshop.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -101,7 +101,7 @@ The DC-SAM community met at the [DC2010](http://www.asis.org/Conferences/DC2010/
   </tr>
   <tr>
     <td width="100" valign="top"><b>Brief abstract:</b></td>
-    <td>This presentation reported a linked data research project. The presentation also reported results from a recent scientific data literacy project and implications relating to science metadata research and teaching. [<a href="/archive/mediawiki_wiki/files/http://ils.unc.edu/spaces/samQin_e-science_librarianship.pptx" class="external text" rel="nofollow">Presentation</a>]
+    <td>This presentation reported a linked data research project. The presentation also reported results from a recent scientific data literacy project and implications relating to science metadata research and teaching. [<a href="/mediawiki_wiki/files/http://ils.unc.edu/spaces/samQin_e-science_librarianship.pptx" class="external text" rel="nofollow">Presentation</a>]
     </td>
   </tr>
 </table>
@@ -119,7 +119,7 @@ The DC-SAM community met at the [DC2010](http://www.asis.org/Conferences/DC2010/
   </tr>
   <tr>
     <td width="100" valign="top"><b>Brief abstract:</b></td>
-    <td>CISTI is Canada's National Science Library. The importance of data quality and metadata are long-standing priorities for CISTI. CISTI’s participation in various DataCite working groups and development of its Metadata Kernel is an extension of our commitment to the effective use of existing standards and to collaborate with other organizations working toward similar goals. This presentation provided an overview of several metadata-related challenges, solutions, and lessons learned with our work activities. [<a href="/archive/mediawiki_wiki/files/McAvoy_CISTI.ppt" class="external text" rel="nofollow">Presentation</a>]
+    <td>CISTI is Canada's National Science Library. The importance of data quality and metadata are long-standing priorities for CISTI. CISTI’s participation in various DataCite working groups and development of its Metadata Kernel is an extension of our commitment to the effective use of existing standards and to collaborate with other organizations working toward similar goals. This presentation provided an overview of several metadata-related challenges, solutions, and lessons learned with our work activities. [<a href="/mediawiki_wiki/files/McAvoy_CISTI.ppt" class="external text" rel="nofollow">Presentation</a>]
     </td>
   </tr>
 </table>

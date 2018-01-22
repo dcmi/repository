@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Technical_Board/DCMI_Infrastructure_Inventory.html"
+- "/mediawiki_wiki/DCMI_Technical_Board/DCMI_Infrastructure_Inventory.html"
 ---
 
  **This is an archived MediaWiki page.**  

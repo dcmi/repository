@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Usage_Board/Issues2011.html"
+- "/mediawiki_wiki/DCMI_Usage_Board/Issues2011.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -25,7 +25,7 @@ DCMI says the range of the dcterms:language property is the class dcterms:Lingui
 
 In the examples at
 
-<a href="/mediawiki_wiki/User_Guide/Publishing_Metadata#dcterms:language.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#dcterms:language</a>
+<a href="/mediawiki_wiki/User_Guide/Publishing_Metadata#dcterms:language.md" class="external free" rel="nofollow">/mediawiki_wiki/User_Guide/Publishing_Metadata#dcterms:language</a>
 
 we have examples of lexvo.org URIs like
 

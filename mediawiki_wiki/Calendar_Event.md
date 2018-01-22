@@ -8,15 +8,15 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Calendar_Event.html"
+- "/mediawiki_wiki/Calendar_Event.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 21 Oct 2012, at 10:51.  
 This page has been accessed 683 times.
 
-- Return to [Dublin to Drupal Top](/archive/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
-- Return to [Dublin to Drupal Content Types Index](/archive/mediawiki_wiki/DublinToDrupal_Project#Content_Types "DublinToDrupal Project")
+- Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
+- Return to [Dublin to Drupal Content Types Index](/mediawiki_wiki/DublinToDrupal_Project#Content_Types "DublinToDrupal Project")
 
 <table id="toc" class="toc">
   <tr>

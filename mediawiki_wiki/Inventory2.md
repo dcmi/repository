@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Inventory2.html"
+- "/mediawiki_wiki/Inventory2.html"
 ---
 
  **This is an archived MediaWiki page.**  

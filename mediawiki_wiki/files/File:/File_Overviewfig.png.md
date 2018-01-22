@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Overviewfig.png.html"
+- "/mediawiki_wiki/files/File:/File_Overviewfig.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Overviewfig.png" src="/images/9/90/Overviewfig.png" width="800" height="446">](/archive/mediawiki_wiki/files/Overviewfig.png)  
+ [<img alt="File:Overviewfig.png" src="/images/9/90/Overviewfig.png" width="800" height="446">](/mediawiki_wiki/files/Overviewfig.png)  
 <small>Size of this preview: 800 × 446 pixels</small>  
  [Full resolution](/images/9/90/Overviewfig.png)‎ (810 × 452 pixels, file size: 35 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Overviewfig.png">06:15, 3 January 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Overviewfig.png">06:15, 3 January 2012</a></td>
     <td><a href="/images/9/90/Overviewfig.png"><img alt="Thumbnail for version as of 06:15, 3 January 2012" src="/images/9/90/Overviewfig.png" width="120" height="67"></a></td>
     <td>810×452 <span style="white-space: nowrap;">(35 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [DCAM Revision Graphics](/index.php/DCAM_Revision_Graphics "DCAM Revision Graphics")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Overviewfig.png](/archive/mediawiki_wiki/files/File:/File:Overviewfig.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Overviewfig.png](/mediawiki_wiki/files/File:/File:Overviewfig.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Overviewfig.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Overviewfig.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Overviewfig.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Overviewfig.png&action=edit "This page is protected.
 You can view its source [e]")

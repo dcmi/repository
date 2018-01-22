@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Scientific-metadata-ajb.pdf.html"
+- "/mediawiki_wiki/files/File:/File_Scientific-metadata-ajb.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/Scientific-metadata-ajb.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Scientific-metadata-ajb.pdf)
 
-[Scientific-metadata-ajb.pdf](/archive/mediawiki_wiki/files/Scientific-metadata-ajb.pdf "Scientific-metadata-ajb.pdf")‎(file size: 640 KB, MIME type: application/pdf)
+[Scientific-metadata-ajb.pdf](/mediawiki_wiki/files/Scientific-metadata-ajb.pdf "Scientific-metadata-ajb.pdf")‎(file size: 640 KB, MIME type: application/pdf)
 
 Scientific data as a resource type is very hard to characterize, not least because of the sheer variety of requirements placed on it by different areas of research. It is no surprise, then, that scientific metadata has traditionally been very discipline- and application-specific. With the rise of interdisciplinary research and data sharing, though, there is increasing pressure for common standards in areas such as data discovery and curation. Mr. Ball will report on his research assessing the feasibility of a common metadata profile for scientific data discovery and ask, "Is it worth a try?"
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Scientific-metadata-ajb.pdf">13:50, 23 April 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Scientific-metadata-ajb.pdf">13:50, 23 April 2012</a></td>
     <td> <span style="white-space: nowrap;">(640 KB)</span>
     </td>
     <td>
@@ -70,13 +70,13 @@ The following page links to this file:
 
 - [DC2011 SAM Science and Metadata Agenda and Meeting Summary](/index.php/DC2011_SAM_Science_and_Metadata_Agenda_and_Meeting_Summary "DC2011 SAM Science and Metadata Agenda and Meeting Summary")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Scientific-metadata-ajb.pdf](/archive/mediawiki_wiki/files/File:/File:Scientific-metadata-ajb.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:Scientific-metadata-ajb.pdf](/mediawiki_wiki/files/File:/File:Scientific-metadata-ajb.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Scientific-metadata-ajb.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Scientific-metadata-ajb.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Scientific-metadata-ajb.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Scientific-metadata-ajb.pdf&action=edit "This page is protected.
 You can view its source [e]")

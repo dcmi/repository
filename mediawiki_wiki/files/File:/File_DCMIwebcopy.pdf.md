@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DCMIwebcopy.pdf.html"
+- "/mediawiki_wiki/files/File:/File_DCMIwebcopy.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/DCMIwebcopy.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/DCMIwebcopy.pdf)
 
-[DCMIwebcopy.pdf](/archive/mediawiki_wiki/files/DCMIwebcopy.pdf "DCMIwebcopy.pdf")‎(file size: 50 KB, MIME type: application/pdf)
+[DCMIwebcopy.pdf](/mediawiki_wiki/files/DCMIwebcopy.pdf "DCMIwebcopy.pdf")‎(file size: 50 KB, MIME type: application/pdf)
 
 message from the chair for March web build
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DCMIwebcopy.pdf">17:27, 8 March 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DCMIwebcopy.pdf">17:27, 8 March 2014</a></td>
     <td> <span style="white-space: nowrap;">(50 KB)</span>
     </td>
     <td>
@@ -68,13 +68,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:DCMIwebcopy.pdf](/archive/mediawiki_wiki/files/File:/File:DCMIwebcopy.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:DCMIwebcopy.pdf](/mediawiki_wiki/files/File:/File:DCMIwebcopy.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DCMIwebcopy.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DCMIwebcopy.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DCMIwebcopy.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DCMIwebcopy.pdf&action=edit "This page is protected.
 You can view its source [e]")

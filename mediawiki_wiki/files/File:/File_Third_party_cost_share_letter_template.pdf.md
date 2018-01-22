@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Third_party_cost_share_letter_template.pdf.html"
+- "/mediawiki_wiki/files/File:/File_Third_party_cost_share_letter_template.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/Third_party_cost_share_letter_template.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Third_party_cost_share_letter_template.pdf)
 
-[Third\_party\_cost\_share\_letter\_template.pdf](/archive/mediawiki_wiki/files/Third_party_cost_share_letter_template.pdf "Third party cost share letter template.pdf")‎(file size: 44 KB, MIME type: application/pdf)
+[Third\_party\_cost\_share\_letter\_template.pdf](/mediawiki_wiki/files/Third_party_cost_share_letter_template.pdf "Third party cost share letter template.pdf")‎(file size: 44 KB, MIME type: application/pdf)
 
 third party cost share reporting template for LD4PE project
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Third_party_cost_share_letter_template.pdf">18:10, 11 November 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Third_party_cost_share_letter_template.pdf">18:10, 11 November 2014</a></td>
     <td> <span style="white-space: nowrap;">(44 KB)</span>
     </td>
     <td>
@@ -68,13 +68,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:Third\_party\_cost\_share\_letter\_template.pdf](/archive/mediawiki_wiki/files/File:/File:Third_party_cost_share_letter_template.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:Third\_party\_cost\_share\_letter\_template.pdf](/mediawiki_wiki/files/File:/File:Third_party_cost_share_letter_template.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Third_party_cost_share_letter_template.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Third_party_cost_share_letter_template.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Third_party_cost_share_letter_template.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Third_party_cost_share_letter_template.pdf&action=edit "This page is protected.
 You can view its source [e]")

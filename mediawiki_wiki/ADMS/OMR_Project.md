@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/ADMS/OMR_Project.html"
+- "/mediawiki_wiki/ADMS/OMR_Project.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -86,5 +86,5 @@ We have also made substantial progress on initial mapping work for those vocabul
 - [Joinup Semantic Assets](http://joinup.ec.europa.eu/asset/all)
 - [OMR homepage](http://metadataregistry.org)
 
-Back to [DCMI Vocabulary Management Community main page](/archive/mediawiki_wiki/DCMI_Vocabulary_Management_Community)
+Back to [DCMI Vocabulary Management Community main page](/mediawiki_wiki/DCMI_Vocabulary_Management_Community)
 

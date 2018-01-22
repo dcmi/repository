@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DescriptionSetModel75.jpg.html"
+- "/mediawiki_wiki/files/File:/File_DescriptionSetModel75.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:DescriptionSetModel75.jpg" src="/images/d/d3/DescriptionSetModel75.jpg" width="494" height="389">](/archive/mediawiki_wiki/files/DescriptionSetModel75.jpg)  
+ [<img alt="File:DescriptionSetModel75.jpg" src="/images/d/d3/DescriptionSetModel75.jpg" width="494" height="389">](/mediawiki_wiki/files/DescriptionSetModel75.jpg)  
 <small>No higher resolution available.</small>  
  [DescriptionSetModel75.jpg](/images/d/d3/DescriptionSetModel75.jpg)‎ (494 × 389 pixels, file size: 33 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DescriptionSetModel75.jpg">12:43, 15 April 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DescriptionSetModel75.jpg">12:43, 15 April 2011</a></td>
     <td><a href="/images/d/d3/DescriptionSetModel75.jpg"><img alt="Thumbnail for version as of 12:43, 15 April 2011" src="/images/d/d3/DescriptionSetModel75.jpg" width="120" height="94"></a></td>
     <td>494×389 <span style="white-space: nowrap;">(33 KB)</span>
     </td>
@@ -74,13 +74,13 @@ The following 3 pages link to this file:
 - [Glossary/DCMI Abstract Model](/index.php/Glossary/DCMI_Abstract_Model "Glossary/DCMI Abstract Model")
 - [DCAM Revision Graphics](/index.php/DCAM_Revision_Graphics "DCAM Revision Graphics")
 
-Retrieved from " [/archive/mediawiki_wiki/File:DescriptionSetModel75.jpg](/archive/mediawiki_wiki/files/File:/File:DescriptionSetModel75.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:DescriptionSetModel75.jpg](/mediawiki_wiki/files/File:/File:DescriptionSetModel75.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DescriptionSetModel75.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DescriptionSetModel75.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DescriptionSetModel75.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DescriptionSetModel75.jpg&action=edit "This page is protected.
 You can view its source [e]")

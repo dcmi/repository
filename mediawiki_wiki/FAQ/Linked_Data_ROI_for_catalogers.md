@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/FAQ/Linked_Data_ROI_for_catalogers.html"
+- "/mediawiki_wiki/FAQ/Linked_Data_ROI_for_catalogers.html"
 ---
 
  **This is an archived MediaWiki page.**  

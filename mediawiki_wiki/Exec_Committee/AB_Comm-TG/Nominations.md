@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Nominations.html"
+- "/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Nominations.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 12 December 2013, at 21:49.  
 This page has been accessed 42,579 times.
 
-[Return to Advisory Board](/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG "Exec Committee/AB Comm-TG")
+[Return to Advisory Board](/mediawiki_wiki/Exec_Committee/AB_Comm-TG "Exec Committee/AB Comm-TG")
 
 <table id="toc" class="toc">
   <tr>

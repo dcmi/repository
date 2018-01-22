@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120409.html"
+- "/mediawiki_wiki/DCAM_Revision/TeleconReport-20120409.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,22 +17,22 @@ This page has been accessed 132,591 times.
 
 <pre>DCAM 2012-04-09 telecon - Report
 
-This report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120409.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120409</a>
-Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120409.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120409</a>
+This report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120409.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconReport-20120409</a>
+Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120409.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120409</a>
 
 Present: Tom (chair), Aaron, Stuart, Gordon, Diane, Michael, Corey, Karen
 
 ----------------------------------------------------------------------
 Minutes of previous call on 22 March
 
-ACCEPTED <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120322.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120322</a>
+ACCEPTED <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120322.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconReport-20120322</a>
 
 ----------------------------------------------------------------------
 DCAM Issue tracking
     
 Tom: Premature to use GitHub for DCAM issues, but we have started to use it for 
     the Schema.org Alignment TG - see
-    <a href="/mediawiki_wiki/Architecture_Forum_Issue_Tracker.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Architecture_Forum_Issue_Tracker</a>
+    <a href="/mediawiki_wiki/Architecture_Forum_Issue_Tracker.md" class="external free" rel="nofollow">/mediawiki_wiki/Architecture_Forum_Issue_Tracker</a>
 
 ----------------------------------------------------------------------
 Gordon's examples
@@ -42,9 +42,9 @@ Action was:
 
 Links:
     <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind1203&amp;L=dc-architecture&amp;F=&amp;S=&amp;P=55080" class="external free" rel="nofollow">https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind1203&amp;L=dc-architecture&amp;F=&amp;S=&amp;P=55080</a>
-    <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement</a>
-    <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements</a>
-    <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions</a>
     
 Gordon: The three examples posted are compilations of things I had mailed to
 list earlier. First, Publication Statement. Example of something quite

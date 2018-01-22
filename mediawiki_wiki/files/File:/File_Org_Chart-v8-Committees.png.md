@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Org_Chart-v8-Committees.png.html"
+- "/mediawiki_wiki/files/File:/File_Org_Chart-v8-Committees.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Org Chart-v8-Committees.png" src="/images/c/c5/Org_Chart-v8-Committees.png" width="754" height="412">](/archive/mediawiki_wiki/files/Org_Chart-v8-Committees.png)  
+ [<img alt="File:Org Chart-v8-Committees.png" src="/images/c/c5/Org_Chart-v8-Committees.png" width="754" height="412">](/mediawiki_wiki/files/Org_Chart-v8-Committees.png)  
 <small>No higher resolution available.</small>  
  [Org\_Chart-v8-Committees.png](/images/c/c5/Org_Chart-v8-Committees.png)‎ (754 × 412 pixels, file size: 59 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Org_Chart-v8-Committees.png">21:15, 4 September 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Org_Chart-v8-Committees.png">21:15, 4 September 2014</a></td>
     <td><a href="/images/c/c5/Org_Chart-v8-Committees.png"><img alt="Thumbnail for version as of 21:15, 4 September 2014" src="/images/c/c5/Org_Chart-v8-Committees.png" width="120" height="66"></a></td>
     <td>754×412 <span style="white-space: nowrap;">(59 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [DCMI Handbook/orgStructure](/index.php/DCMI_Handbook/orgStructure "DCMI Handbook/orgStructure")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Org\_Chart-v8-Committees.png](/archive/mediawiki_wiki/files/File:/File:Org_Chart-v8-Committees.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Org\_Chart-v8-Committees.png](/mediawiki_wiki/files/File:/File:Org_Chart-v8-Committees.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Org_Chart-v8-Committees.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Org_Chart-v8-Committees.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Org_Chart-v8-Committees.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Org_Chart-v8-Committees.png&action=edit "This page is protected.
 You can view its source [e]")

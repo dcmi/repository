@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable.html"
+- "/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 27 August 2015, at 14:37.  
 This page has been accessed 94,679 times.
 
-[<img alt="RDF AP TG logo" src="/archive/mediawiki_wiki/images/RdfAP_tg.png" width="200" height="141">](/archive/mediawiki_wiki/images/RdfAP_tg.png "RDF AP TG logo")
+[<img alt="RDF AP TG logo" src="/mediawiki_wiki/images/RdfAP_tg.png" width="200" height="141">](/mediawiki_wiki/images/RdfAP_tg.png "RDF AP TG logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -104,25 +104,25 @@ This page has been accessed 94,679 times.
 
 **Date Issued:** 2015-07-27
 
-**Identifier:** [/archive/mediawiki_wiki/RDF\_Application\_Profiles/UCR\_Deliverable](/archive/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable)
+**Identifier:** [/mediawiki_wiki/RDF\_Application\_Profiles/UCR\_Deliverable](/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable)
 
 **Replaces:** [http://wiki.dublincore.org/index.php?title=RDF\_Application\_Profiles/UCR\_Deliverable&oldid=9743](http://wiki.dublincore.org/index.php?title=RDF_Application_Profiles/UCR_Deliverable&oldid=9743)
 
 **Is Replaced By:** Not applicable
 
-**Latest Version:** [/archive/mediawiki_wiki/RDF\_Application\_Profiles/UCR\_Deliverable](/archive/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable)
+**Latest Version:** [/mediawiki_wiki/RDF\_Application\_Profiles/UCR\_Deliverable](/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable)
 
 **Status of Document:** Draft
 
 **Description of Document:** This document is the first deliverable of the "DCMI RDF Application Profiles Task Force" (DCMI RDF-AP). It reports on the current state of case stduies, use cases and validation requirements in July 2015 and replaces the first version of the document from October 2014.
 
-**Note:** Validation requirements are described in the [Report on validation requirements](/archive/mediawiki_wiki/RDF_Application_Profiles/Requirements).
+**Note:** Validation requirements are described in the [Report on validation requirements](/mediawiki_wiki/RDF_Application_Profiles/Requirements).
 
 ## Introduction 
 
-This document describes the RDF Application Profile case studies of the "DCMI RDF Application Profiles Task Force" (DCMI RDF-AP) in July 2015. It replaces the use case document from October 2014. The DCMI RDF-AP aims at defining best practices for documenting application profiles, requests for handling RDF application profiles and for RDF constraints specification and validation. This deliverable focuses on reporting on the case studies collected in the task force, their use cases and their validation requirements (see [Case Studies and Use Cases](/archive/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable#Case_studies_and_use_cases)). The case studies of the task force are about the following models or representations (in alphabetical order): CEN EuroLMAI and DC reuse in academia, DINI AG KIM - RDF-Representation of Bibliographic Data, DM2E model, DPLA Metadata Application Profile version 3 (MAPv3), Europeana Data Model (EDM), EDM specialisation in the Deutsche Digitale Bibliothek (DDB), OER World Map prototype, [RFC 6906](http://tools.ietf.org/html/rfc6906) Profiles and Tiny Archive.
+This document describes the RDF Application Profile case studies of the "DCMI RDF Application Profiles Task Force" (DCMI RDF-AP) in July 2015. It replaces the use case document from October 2014. The DCMI RDF-AP aims at defining best practices for documenting application profiles, requests for handling RDF application profiles and for RDF constraints specification and validation. This deliverable focuses on reporting on the case studies collected in the task force, their use cases and their validation requirements (see [Case Studies and Use Cases](/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable#Case_studies_and_use_cases)). The case studies of the task force are about the following models or representations (in alphabetical order): CEN EuroLMAI and DC reuse in academia, DINI AG KIM - RDF-Representation of Bibliographic Data, DM2E model, DPLA Metadata Application Profile version 3 (MAPv3), Europeana Data Model (EDM), EDM specialisation in the Deutsche Digitale Bibliothek (DDB), OER World Map prototype, [RFC 6906](http://tools.ietf.org/html/rfc6906) Profiles and Tiny Archive.
 
-The full descriptions of case studies and use cases can be found in the [task force wiki](/archive/mediawiki_wiki/RDF_Application_Profiles). Validation requirements and the corresponding use cases are collected in the [DCMI RDF-AP database](http://purl.org/net/rdf-application-profiles) (see [DCMI RDF Application Profiles database on case studies, use cases, requirements, and solutions](/archive/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable#DCMI_RDF_Application_Profiles_database_on_case_studies,_use_cases,_requirements,_and_solutions)). Validation requirements are described in [Deliverable 4](/archive/mediawiki_wiki/RDF_Application_Profiles/Requirements).
+The full descriptions of case studies and use cases can be found in the [task force wiki](/mediawiki_wiki/RDF_Application_Profiles). Validation requirements and the corresponding use cases are collected in the [DCMI RDF-AP database](http://purl.org/net/rdf-application-profiles) (see [DCMI RDF Application Profiles database on case studies, use cases, requirements, and solutions](/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable#DCMI_RDF_Application_Profiles_database_on_case_studies,_use_cases,_requirements,_and_solutions)). Validation requirements are described in [Deliverable 4](/mediawiki_wiki/RDF_Application_Profiles/Requirements).
 
 ## Case studies and use cases
 
@@ -144,7 +144,7 @@ A case study in the RDF-AP group refers to one model, application profile or any
 
 [Europeana](http://europeana.eu/) , the European digital library, provides access to more than 30 million library, archive, museum and audio-visual objects from 36 countries. The Europeana Data Model (EDM) was designed in order to insert diverse metadata about Cultural Heritage Objects (CHOs) into Europeana.
 
-Full case study: [Wiki](/archive/mediawiki_wiki/EDM) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=CS-4-EUROPEANA-DATA-MODEL-EDM)
+Full case study: [Wiki](/mediawiki_wiki/EDM) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=CS-4-EUROPEANA-DATA-MODEL-EDM)
 
 Similar case studies: DPLA, DDB, DM2E
 
@@ -333,7 +333,7 @@ Similar case studies: DPLA, DDB, DM2E
 
 The [Digital Public Library of America (DPLA)](http://dp.la/) provides access to digitized cultural heritage objects held by libraries, archives, museums, and historical societies throughout the United States. The DPLA Metadata Application Profile version 3 (MAPv3) builds on the Europeana Data Model.
 
-Full case study: [Wiki](/archive/mediawiki_wiki/DPLA_RDF_application_profile_use_cases) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=CS-1-DPLA-RDF-APPLICATION-PROFILE).
+Full case study: [Wiki](/mediawiki_wiki/DPLA_RDF_application_profile_use_cases) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=CS-1-DPLA-RDF-APPLICATION-PROFILE).
 
 Similar case studies: EDM, DDB, DM2E
 
@@ -380,7 +380,7 @@ Similar case studies: EDM, DDB, DM2E
 
 The [German Digital Library](https://www.deutsche-digitale-bibliothek.de/content/about/) is a portal providing access to digital cultural and scientific objects from Germany. It is also a national contributor for Europeana. Therefore the DDB uses EDM as the model for the interlinking of objects in the DDB and the contribution of metadata to Europeana. But the use of EDM in the DDB requires an extension of properties used in EDM. Therefore - like DM2E - the DDB developed a specialization of EDM for the DDB domain.
 
-Full case study: [Wiki](/archive/mediawiki_wiki/DDB-EDM) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=CS-6-USE-OF-EDM-IN-THE-DEUTSCHE-DIGITALE-BIBLIOTHEK-DDB).
+Full case study: [Wiki](/mediawiki_wiki/DDB-EDM) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=CS-6-USE-OF-EDM-IN-THE-DEUTSCHE-DIGITALE-BIBLIOTHEK-DDB).
 
 Similar case studies: EDM, DM2E, DPLA
 
@@ -497,7 +497,7 @@ Similar case studies: EDM, DM2E, DPLA
 
 The DM2E model is a specialisation of the EDM for manuscripts. It has been used for mappings to Europeana and for publishing delivered metadata as LOD via the DM2E LOD API in the scope of the _Digitised manuscripts to Europeana_ (DM2E) project.
 
-Full case study: [Wiki](/archive/mediawiki_wiki/DM2E) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=CS-3-DIGITISED-MANSCRIPTS-TO-EUROPEANA-DM2E).
+Full case study: [Wiki](/mediawiki_wiki/DM2E) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=CS-3-DIGITISED-MANSCRIPTS-TO-EUROPEANA-DM2E).
 
 Similar case studies: EDM, DDB, DPLA
 
@@ -651,7 +651,7 @@ The [hbz](http://www.hbz-nrw.de/) has built a [prototype for an Open Educational
 
 For the OER world map a read/write API was developed as well as an application (Drupal) for viewing, adding, deleting and editing the data (see the [image of the architecture](http://wiki1.hbz-nrw.de/download/attachments/10455419/OER-worldmap-arch4.png)). Both, API and application, need some specifications which should be expressed in an RDF application profile. While the API mainly needs information for validating incoming data, the application also needs information about presenting the data (result lists, single results, forms for editing the different resources).
 
-Full case study: [Wiki](/archive/mediawiki_wiki/OER-world-map) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=node/416).
+Full case study: [Wiki](/mediawiki_wiki/OER-world-map) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=node/416).
 
 <table class="wikitable">
   <caption>Table 5: OER World Map prototype use case.
@@ -689,7 +689,7 @@ Full case study: [Wiki](/archive/mediawiki_wiki/OER-world-map) and [database](ht
 
 The case study is not about _representing_ profiles, but rather about _using_ them. Precisely, this case study does not depend on the representation of the profile, but on the profile having a URI for identification. In order to keep up with best practices, that URI SHOULD dereference to a representation, possibly using content negotiation to deliver human- and machine-readable interpretations.
 
-Full case study: [Wiki](/archive/mediawiki_wiki/RFC-6906-Profiles) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=CS-9-USING-RFC-6906-PROFILES-TO-SPECIFY-A-PROFILE-INDEPENDENTLY-OF-THE-MEDIA-TYPE).
+Full case study: [Wiki](/mediawiki_wiki/RFC-6906-Profiles) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=CS-9-USING-RFC-6906-PROFILES-TO-SPECIFY-A-PROFILE-INDEPENDENTLY-OF-THE-MEDIA-TYPE).
 
 <table class="wikitable">
   <caption>Table 6: <a href="http://tools.ietf.org/html/rfc6906" class="external mw-magiclink-rfc">RFC 6906</a> Profiles use case.
@@ -719,7 +719,7 @@ If somebody wants to publish his data in compliance with the recommendation of t
 - For the technical mapping he could use a "template" describing what is needed in a machine-readable way. 
 - During the mapping process he wants to automatically check the output for its compliance with the recommended properties, classes and constraints and needs a "schema" to do so.
 
-Full case study: [Wiki](/archive/mediawiki_wiki/KIM-recommendations) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=CS-5-DINI-AG-KIM-RDF-REPRESENTATION-OF-BIBLIOGRAPHIC-DATA).
+Full case study: [Wiki](/mediawiki_wiki/KIM-recommendations) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=CS-5-DINI-AG-KIM-RDF-REPRESENTATION-OF-BIBLIOGRAPHIC-DATA).
 
 <table class="wikitable">
   <caption>Table 7: DINI AG KIM use case.
@@ -748,7 +748,7 @@ CSC is developing and maintaining national data model for the academia in the fi
 3. Provide provenance information about lifecycle of the development process
 4. Validate the instances against the developed application profile (Validation of Data)
 
-Full case study: [Wiki](/archive/mediawiki_wiki/CSC) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=CS-8-REUSING-CEN-EUROLMAI-DC-IN-ACADEMIA).
+Full case study: [Wiki](/mediawiki_wiki/CSC) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=CS-8-REUSING-CEN-EUROLMAI-DC-IN-ACADEMIA).
 
 <table class="wikitable">
   <caption>Table 8: CSC use cases.
@@ -835,7 +835,7 @@ Full case study: [Wiki](/archive/mediawiki_wiki/CSC) and [database](http://lelys
 
 Tiny archive has less than 10,000 total items. About 2/3 of these have been described in a spreadsheet, and each item is represented on the web as a web page. The descriptions contain commentary about their items in different languages. The archive wants to begin linking to other archives in its topic area, as well as to a database of terms that is now available in RDF.
 
-Full case study: [Wiki](/archive/mediawiki_wiki/TinyArchive) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=node/413).
+Full case study: [Wiki](/mediawiki_wiki/TinyArchive) and [database](http://lelystad.informatik.uni-mannheim.de/rdf-validation/?q=node/413).
 
 <table class="wikitable">
   <caption>Table 9: Tiny archive use case.
@@ -919,5 +919,5 @@ The actual database dumps are also stored and can be made available publicly. It
 
 The deliverable gave insight into case studies regarding RDF constraint formulation, RDF data validation, and the formulation of RDF AP, associated use cases, as well as the DCMI RDF-AP database of the DCMI RDF-AP Task Group as of today (July 2015). The database, which is publicly and online available at [http://purl.org/net/rdf-application-profiles](http://purl.org/net/rdf-application-profiles), is open for further contributions and connects requirements to use cases, case studies, and solutions.
 
-Different case studies have been collected by various stakeholders for data applications, whose use cases are connected to requirements from the DCMI RDF-AP database. It could be seen that especially case studies which build on the same data model (e.g., EDM) have some use cases and requirements in common. Still, every case study provides some unique use cases. All requirements that occur in the task group's case studies (DC requirements) are collected in the [Requirements Deliverable](/archive/mediawiki_wiki/RDF_Application_Profiles/Requirements).
+Different case studies have been collected by various stakeholders for data applications, whose use cases are connected to requirements from the DCMI RDF-AP database. It could be seen that especially case studies which build on the same data model (e.g., EDM) have some use cases and requirements in common. Still, every case study provides some unique use cases. All requirements that occur in the task group's case studies (DC requirements) are collected in the [Requirements Deliverable](/mediawiki_wiki/RDF_Application_Profiles/Requirements).
 

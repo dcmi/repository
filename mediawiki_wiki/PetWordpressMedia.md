@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/PetWordpressMedia.html"
+- "/mediawiki_wiki/PetWordpressMedia.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 5 Dec 2014, at 05:47.  
 This page has been accessed 418 times.
 
-[<img alt="LD4PE logo" src="/archive/mediawiki_wiki/images/DcCollab.png" width="500" height="106">](/archive/mediawiki_wiki/images/DcCollab.png "LD4PE logo")
+[<img alt="LD4PE logo" src="/mediawiki_wiki/images/DcCollab.png" width="500" height="106">](/mediawiki_wiki/images/DcCollab.png "LD4PE logo")
 
 <table id="toc" class="toc">
   <tr>
@@ -45,7 +45,7 @@ This page has been accessed 418 times.
 </table>
 
 
-[Task Group Home Page](/archive/mediawiki_wiki/Pet/ld4pe "Pet/ld4pe")
+[Task Group Home Page](/mediawiki_wiki/Pet/ld4pe "Pet/ld4pe")
 
 # Background (Media Resource Sharing) 
 

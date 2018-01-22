@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-201206xx.html"
+- "/mediawiki_wiki/DCAM_Revision/TeleconAgenda-201206xx.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,8 +17,8 @@ This page has been accessed 122,963 times.
 
 <pre>DCAM telecon - Agenda - 2012-06-08
 
-Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-201206xx.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-201206xx</a>
-See also: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-201206xx.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-201206xx</a> [after call]
+Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-201206xx.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconAgenda-201206xx</a>
+See also: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-201206xx.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconReport-201206xx</a> [after call]
  
 Date: 2012-06-08 Friday 1100 EST
 Dial-in: +1-218-936-4141, access code 334034
@@ -28,19 +28,19 @@ Doodle: <a href="http://www.doodle.com/zdgrissswwihbaqf" class="external free" r
 Expected: Tom, Karen, Richard, Gordon, Corey, Stuart, Antoine, Aaron
 
 ----------------------------------------------------------------------
-Previous call (links to previous calls at <a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>)
+Previous call (links to previous calls at <a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision</a>)
  
-     2012-05-15 <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515</a>
+     2012-05-15 <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515</a>
 
 ----------------------------------------------------------------------
 Design patterns
-    <a href="/mediawiki_wiki/DCAM_Revision_Design_Patterns.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns</a>    
+    <a href="/mediawiki_wiki/DCAM_Revision_Design_Patterns.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Design_Patterns</a>    
     -- this page now transcludes all examples
-       <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement</a> (ISBD, Gordon)
-       <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions</a> (ISBD, Gordon)
-       <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements</a> (ISBD, Gordon)
-       <a href="/mediawiki_wiki/DCAM_Revision_ISBD_DSP.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_ISBD_DSP</a> (ISBD Description Set Profile, Gordon)
-       <a href="/mediawiki_wiki/DCAM_Revision_Example_Name_Heading.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Example_Name_Heading</a> (Name Heading, Karen)
+       <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement</a> (ISBD, Gordon)
+       <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions</a> (ISBD, Gordon)
+       <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements</a> (ISBD, Gordon)
+       <a href="/mediawiki_wiki/DCAM_Revision_ISBD_DSP.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_ISBD_DSP</a> (ISBD Description Set Profile, Gordon)
+       <a href="/mediawiki_wiki/DCAM_Revision_Example_Name_Heading.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Example_Name_Heading</a> (Name Heading, Karen)
 
 Background on ISBD
     <a href="http://en.wikipedia.org/wiki/International_Standard_Bibliographic_Description" class="external free" rel="nofollow">http://en.wikipedia.org/wiki/International_Standard_Bibliographic_Description</a>

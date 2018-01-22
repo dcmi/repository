@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DCMI_Governance122013.jpg.html"
+- "/mediawiki_wiki/files/File:/File_DCMI_Governance122013.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:DCMI Governance122013.jpg" src="/images/1/13/DCMI_Governance122013.jpg" width="800" height="600">](/archive/mediawiki_wiki/files/DCMI_Governance122013.jpg)  
+ [<img alt="File:DCMI Governance122013.jpg" src="/images/1/13/DCMI_Governance122013.jpg" width="800" height="600">](/mediawiki_wiki/files/DCMI_Governance122013.jpg)  
 <small>Size of this preview: 800 × 600 pixels</small>  
  [Full resolution](/images/1/13/DCMI_Governance122013.jpg)‎ (960 × 720 pixels, file size: 89 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DCMI_Governance122013.jpg">16:37, 20 December 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DCMI_Governance122013.jpg">16:37, 20 December 2013</a></td>
     <td><a href="/images/1/13/DCMI_Governance122013.jpg"><img alt="Thumbnail for version as of 16:37, 20 December 2013" src="/images/1/13/DCMI_Governance122013.jpg" width="120" height="90"></a></td>
     <td>960×720 <span style="white-space: nowrap;">(89 KB)</span>
     </td>
@@ -70,13 +70,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:DCMI\_Governance122013.jpg](/archive/mediawiki_wiki/files/File:/File:DCMI_Governance122013.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:DCMI\_Governance122013.jpg](/mediawiki_wiki/files/File:/File:DCMI_Governance122013.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DCMI_Governance122013.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DCMI_Governance122013.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DCMI_Governance122013.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DCMI_Governance122013.jpg&action=edit "This page is protected.
 You can view its source [e]")

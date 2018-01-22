@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/NKOS_AP_Worksheet.html"
+- "/mediawiki_wiki/NKOS_AP_Worksheet.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 10 December 2013, at 07:17.  
 This page has been accessed 177,496 times.
 
-Go back to DCMI\_NKOS\_Task\_Group [[1]](/archive/mediawiki_wiki/DCMI_NKOS_Task_Group) Main Page || Link to [Core Elements](/archive/mediawiki_wiki/Core_Elements "Core Elements") (Go to another page)
+Go back to DCMI\_NKOS\_Task\_Group [[1]](/mediawiki_wiki/DCMI_NKOS_Task_Group) Main Page || Link to [Core Elements](/mediawiki_wiki/Core_Elements "Core Elements") (Go to another page)
 
 <table id="toc" class="toc">
   <tr>

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Pittsburgh_Workshop.html"
+- "/mediawiki_wiki/Pittsburgh_Workshop.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -23,7 +23,7 @@ Workshop of DCMI Libraries Task Group to discuss the current draft of the DCMI L
 - **Time:** 9:00 am - 5:00 pm
 - **Location:** [Grand Pittsburgh Downtown](http://www.asis.org/Conferences/DC2010/venue.html)
 
-- **[Report of the meeting](/archive/mediawiki_wiki/files/2010_DCLibAPsummary.pdf)**
+- **[Report of the meeting](/mediawiki_wiki/files/2010_DCLibAPsummary.pdf)**
 
 ## Agenda: 
 

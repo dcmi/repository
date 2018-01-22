@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Agenda.html"
+- "/mediawiki_wiki/Agenda.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -53,7 +53,7 @@ Presentation of the problem, based on real examples encountered in LOV project (
 
 #### RESOURCES
 
-- Previous Vocabulary Preservation session and [discussion paper](/archive/mediawiki_wiki/Vocabulary_Preservation_discussion_paper)
+- Previous Vocabulary Preservation session and [discussion paper](/mediawiki_wiki/Vocabulary_Preservation_discussion_paper)
 
 - Description of the [Linked Open Vocabularies service](http://lov.okfn.org/dataset/lov/about/)
 
@@ -66,5 +66,5 @@ Presentation of the problem, based on real examples encountered in LOV project (
 
 - [Agreement between DCMI and the FOAF Project](http://dublincore.org/documents/2011/05/02/dcmi-foaf/)
 
-Back to [VocDay workshop in Lisbon](/archive/mediawiki_wiki/VocDay_workshop_in_Lisbon "VocDay workshop in Lisbon")
+Back to [VocDay workshop in Lisbon](/mediawiki_wiki/VocDay_workshop_in_Lisbon "VocDay workshop in Lisbon")
 

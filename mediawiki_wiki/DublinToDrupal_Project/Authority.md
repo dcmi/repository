@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DublinToDrupal_Project/Authority.html"
+- "/mediawiki_wiki/DublinToDrupal_Project/Authority.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 8 Oct 2012, at 12:24.  
 This page has been accessed 515 times.
 
-Return to [Dublin to Drupal Top](/archive/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
+Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
 
 <table id="toc" class="toc">
   <tr>

@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DublinToDrupal_Project/Best_Practice.html"
+- "/mediawiki_wiki/DublinToDrupal_Project/Best_Practice.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 24 May 2012, at 12:25.  
 This page has been accessed 572 times.
 
-Return to [Dublin to Drupal Top](/archive/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
+Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
 
 Return to [Content Types Index](/index.php?title=DublinToDrupal_Project/ContentTypes&action=edit&redlink=1 "DublinToDrupal Project/ContentTypes (page does not exist)")
 

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120215.html"
+- "/mediawiki_wiki/DCAM_Revision/TeleconReport-20120215.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -18,21 +18,21 @@ This page has been accessed 129,053 times.
 <pre>2012-02-15 DCAM call - 11:00 EST - report
 
 Attended: TomB (chair), Kai, Jane, Gordon, MichaelP, Aaron, Diane, Mark (IRC), Jon, Antoine
-This report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120215.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120215</a>
-Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120215.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120215</a>
-Previous: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130</a>
+This report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120215.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconReport-20120215</a>
+Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120215.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120215</a>
+Previous: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130</a>
 
 ----------------------------------------------------------------------
 ACTIONs carried forward
 
 ACTION: Tom and Richard to put placeholder for introductory text into wiki document
-at <a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Draft</a>.
+at <a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Draft</a>.
 
 ACTION: Kai and Tom to work on technical part in wiki, e.g.:
-    <a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Tech</a>
-    <a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
-    <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
-    <a href="/mediawiki_wiki/DCAM_Revision_Graphics.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Graphics</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Tech</a>
+    <a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Graphics.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Graphics</a>
 
 ----------------------------------------------------------------------
 Discussion of Tom's proposed "general message"

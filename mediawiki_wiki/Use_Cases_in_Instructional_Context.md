@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Use_Cases_in_Instructional_Context.html"
+- "/mediawiki_wiki/Use_Cases_in_Instructional_Context.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -37,7 +37,7 @@ This page has been accessed 369 times.
 
 ### Project Links 
 
-- [Project home](/archive/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
+- [Project home](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
 
 This page represents one possible way of presenting use cases for Linked Data instruction highlighting instructional priorities of each.
 

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Glossary/Resource_Discovery.html"
+- "/mediawiki_wiki/Glossary/Resource_Discovery.html"
 ---
 
  **This is an archived MediaWiki page.**  

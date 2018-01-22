@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Proposal_DCAPs_DanBri.html"
+- "/mediawiki_wiki/Proposal_DCAPs_DanBri.html"
 ---
 
  **This is an archived MediaWiki page.**  

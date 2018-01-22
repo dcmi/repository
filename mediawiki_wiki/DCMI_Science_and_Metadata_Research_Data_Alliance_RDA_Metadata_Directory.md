@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Science_and_Metadata_Research_Data_Alliance_RDA_Metadata_Directory.html"
+- "/mediawiki_wiki/DCMI_Science_and_Metadata_Research_Data_Alliance_RDA_Metadata_Directory.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -159,9 +159,9 @@ This wiki page presents early prototype work for a directory listing metadata sc
 
 ## Information about the Directory
 
-[DCMI Science and Metadata ~ Definitions and requirements of the headings](/archive/mediawiki_wiki/DCMI_Science_and_Metadata_%7E_Definitions_and_requirements_of_the_headings "DCMI Science and Metadata ~ Definitions and requirements of the headings")
+[DCMI Science and Metadata ~ Definitions and requirements of the headings](/mediawiki_wiki/DCMI_Science_and_Metadata_%7E_Definitions_and_requirements_of_the_headings "DCMI Science and Metadata ~ Definitions and requirements of the headings")
 
-[DCMI Science and Metadata ~ Policy for maintaining the directory](/archive/mediawiki_wiki/DCMI_Science_and_Metadata_%7E_Policy_for_maintaining_the_directory "DCMI Science and Metadata ~ Policy for maintaining the directory")
+[DCMI Science and Metadata ~ Policy for maintaining the directory](/mediawiki_wiki/DCMI_Science_and_Metadata_%7E_Policy_for_maintaining_the_directory "DCMI Science and Metadata ~ Policy for maintaining the directory")
 
 ## About this Project
 
@@ -196,5 +196,5 @@ The RDA prototype directory is being developed as part of the Research Data Alli
 
 If you know some metadata schemes that are in scope but not in this directory, please contact the Metadata Research Center at: mrc (at) ils (dot) unc (dot) edu. A discussion board is under construction.
 
-(back to [DC-SAM main](/archive/mediawiki_wiki/DCMI_Science_And_Metadata))
+(back to [DC-SAM main](/mediawiki_wiki/DCMI_Science_And_Metadata))
 

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_20142015Calendar.tiff.html"
+- "/mediawiki_wiki/files/File:/File_20142015Calendar.tiff.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon.png" width="120" height="120">](/archive/mediawiki_wiki/files/20142015Calendar.tiff)
+ [<img alt="" src="/skins/common/images/icons/fileicon.png" width="120" height="120">](/mediawiki_wiki/files/20142015Calendar.tiff)
 
-[20142015Calendar.tiff](/archive/mediawiki_wiki/files/20142015Calendar.tiff "20142015Calendar.tiff")‎(969 × 411 pixels, file size: 119 KB, MIME type: image/tiff)
+[20142015Calendar.tiff](/mediawiki_wiki/files/20142015Calendar.tiff "20142015Calendar.tiff")‎(969 × 411 pixels, file size: 119 KB, MIME type: image/tiff)
 
 DC-EOC calendar for 2014/2015.
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/20142015Calendar.tiff">18:10, 16 December 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/20142015Calendar.tiff">18:10, 16 December 2014</a></td>
     <td>969×411 <span style="white-space: nowrap;">(119 KB)</span>
     </td>
     <td>
@@ -68,13 +68,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:20142015Calendar.tiff](/archive/mediawiki_wiki/files/File:/File:20142015Calendar.tiff.html)"
+Retrieved from " [/mediawiki_wiki/File:20142015Calendar.tiff](/mediawiki_wiki/files/File:/File:20142015Calendar.tiff.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:20142015Calendar.tiff.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:20142015Calendar.tiff.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:20142015Calendar.tiff&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:20142015Calendar.tiff&action=edit "This page is protected.
 You can view its source [e]")

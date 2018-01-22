@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Conference_Guidelines/Master_Calendar.html"
+- "/mediawiki_wiki/Conference_Guidelines/Master_Calendar.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 18 November 2013, at 14:34.  
 This page has been accessed 171,129 times.
 
-Return to [International Conference](/archive/mediawiki_wiki/DCMI_Handbook/Int_Conf "DCMI Handbook/Int Conf")
+Return to [International Conference](/mediawiki_wiki/DCMI_Handbook/Int_Conf "DCMI Handbook/Int Conf")
 
 <table id="toc" class="toc">
   <tr>

@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Nkos/apNarrative.html"
+- "/mediawiki_wiki/Nkos/apNarrative.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 13 November 2014, at 19:12.  
 This page has been accessed 25,131 times.
 
-[<img alt="Community Specifications Committee logo" src="/archive/mediawiki_wiki/images/Specifications_logo.png" width="500" height="70">](/archive/mediawiki_wiki/images/Specifications_logo.png "Community Specifications Committee logo")
+[<img alt="Community Specifications Committee logo" src="/mediawiki_wiki/images/Specifications_logo.png" width="500" height="70">](/mediawiki_wiki/images/Specifications_logo.png "Community Specifications Committee logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -50,12 +50,12 @@ This page has been accessed 25,131 times.
 
 * * *
 
-[NKOS AP Homepage](/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/nkos "DCMI Technical Board/specifications/nkos")
+[NKOS AP Homepage](/mediawiki_wiki/DCMI_Technical_Board/specifications/nkos "DCMI Technical Board/specifications/nkos")
 
 # NKOS AP Narrative Description 
 
 1. Basis:
-  1. Wiki homepage: [/archive/mediawiki_wiki/DCMI\_NKOS\_Task\_Group](/archive/mediawiki_wiki/DCMI_NKOS_Task_Group)
+  1. Wiki homepage: [/mediawiki_wiki/DCMI\_NKOS\_Task\_Group](/mediawiki_wiki/DCMI_NKOS_Task_Group)
   2. DCMI website: [http://dublincore.org/groups/nkos/](http://dublincore.org/groups/nkos/)
 2. Notes:
   - @@@

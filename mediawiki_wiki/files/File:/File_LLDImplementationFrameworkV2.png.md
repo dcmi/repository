@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_LLDImplementationFrameworkV2.png.html"
+- "/mediawiki_wiki/files/File:/File_LLDImplementationFrameworkV2.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:LLDImplementationFrameworkV2.png" src="/images/9/98/LLDImplementationFrameworkV2.png" width="600" height="555">](/archive/mediawiki_wiki/files/LLDImplementationFrameworkV2.png)  
+ [<img alt="File:LLDImplementationFrameworkV2.png" src="/images/9/98/LLDImplementationFrameworkV2.png" width="600" height="555">](/mediawiki_wiki/files/LLDImplementationFrameworkV2.png)  
 <small>No higher resolution available.</small>  
  [LLDImplementationFrameworkV2.png](/images/9/98/LLDImplementationFrameworkV2.png)‎ (600 × 555 pixels, file size: 176 KB, MIME type: image/png)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/LLDImplementationFrameworkV2.png">17:50, 25 September 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/LLDImplementationFrameworkV2.png">17:50, 25 September 2012</a></td>
     <td><a href="/images/9/98/LLDImplementationFrameworkV2.png"><img alt="Thumbnail for version as of 17:50, 25 September 2012" src="/images/9/98/LLDImplementationFrameworkV2.png" width="120" height="111"></a></td>
     <td>600×555 <span style="white-space: nowrap;">(176 KB)</span>
     </td>
@@ -102,13 +102,13 @@ The following 2 pages link to this file:
 - [Implementation Grant Proposal](/index.php/Implementation_Grant_Proposal "Implementation Grant Proposal")
 - [Planning Grant Report IMLS](/index.php/Planning_Grant_Report_IMLS "Planning Grant Report IMLS")
 
-Retrieved from " [/archive/mediawiki_wiki/File:LLDImplementationFrameworkV2.png](/archive/mediawiki_wiki/files/File:/File:LLDImplementationFrameworkV2.png.html)"
+Retrieved from " [/mediawiki_wiki/File:LLDImplementationFrameworkV2.png](/mediawiki_wiki/files/File:/File:LLDImplementationFrameworkV2.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:LLDImplementationFrameworkV2.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:LLDImplementationFrameworkV2.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:LLDImplementationFrameworkV2.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:LLDImplementationFrameworkV2.png&action=edit "This page is protected.
 You can view its source [e]")

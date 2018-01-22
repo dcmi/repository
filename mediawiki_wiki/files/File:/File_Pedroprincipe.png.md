@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Pedroprincipe.png.html"
+- "/mediawiki_wiki/files/File:/File_Pedroprincipe.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Pedroprincipe.png" src="/images/8/8e/Pedroprincipe.png" width="300" height="300">](/archive/mediawiki_wiki/files/Pedroprincipe.png)  
+ [<img alt="File:Pedroprincipe.png" src="/images/8/8e/Pedroprincipe.png" width="300" height="300">](/mediawiki_wiki/files/Pedroprincipe.png)  
 <small>No higher resolution available.</small>  
  [Pedroprincipe.png](/images/8/8e/Pedroprincipe.png)‎ (300 × 300 pixels, file size: 93 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Pedroprincipe.png">18:24, 16 June 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Pedroprincipe.png">18:24, 16 June 2015</a></td>
     <td><a href="/images/8/8e/Pedroprincipe.png"><img alt="Thumbnail for version as of 18:24, 16 June 2015" src="/images/8/8e/Pedroprincipe.png" width="120" height="120"></a></td>
     <td>300×300 <span style="white-space: nowrap;">(93 KB)</span>
     </td>
@@ -73,13 +73,13 @@ The following 2 pages link to this file:
 - [DCMI Handbook/webinars](/index.php/DCMI_Handbook/webinars "DCMI Handbook/webinars")
 - [Template:Webinar20150701](/index.php/Template:Webinar20150701 "Template:Webinar20150701")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Pedroprincipe.png](/archive/mediawiki_wiki/files/File:/File:Pedroprincipe.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Pedroprincipe.png](/mediawiki_wiki/files/File:/File:Pedroprincipe.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Pedroprincipe.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Pedroprincipe.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Pedroprincipe.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Pedroprincipe.png&action=edit "This page is protected.
 You can view its source [e]")

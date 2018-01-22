@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_AB_logo.png.html"
+- "/mediawiki_wiki/files/File:/File_AB_logo.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:AB logo.png" src="/images/9/93/AB_logo.png" width="334" height="107">](/archive/mediawiki_wiki/files/AB_logo.png)  
+ [<img alt="File:AB logo.png" src="/images/9/93/AB_logo.png" width="334" height="107">](/mediawiki_wiki/files/AB_logo.png)  
 <small>No higher resolution available.</small>  
  [AB\_logo.png](/images/9/93/AB_logo.png)‎ (334 × 107 pixels, file size: 18 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/AB_logo.png">13:53, 19 January 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/AB_logo.png">13:53, 19 January 2014</a></td>
     <td><a href="/images/9/93/AB_logo.png"><img alt="Thumbnail for version as of 13:53, 19 January 2014" src="/images/9/93/AB_logo.png" width="120" height="38"></a></td>
     <td>334×107 <span style="white-space: nowrap;">(18 KB)</span>
     </td>
@@ -79,13 +79,13 @@ The following 8 pages link to this file:
 - [DCMI Advisory Board/20140710](/index.php/DCMI_Advisory_Board/20140710 "DCMI Advisory Board/20140710")
 - [AB-AM-Minutes](/index.php/AB-AM-Minutes "AB-AM-Minutes")
 
-Retrieved from " [/archive/mediawiki_wiki/File:AB\_logo.png](/archive/mediawiki_wiki/files/File:/File:AB_logo.png.html)"
+Retrieved from " [/mediawiki_wiki/File:AB\_logo.png](/mediawiki_wiki/files/File:/File:AB_logo.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:AB_logo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:AB_logo.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:AB_logo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:AB_logo.png&action=edit "This page is protected.
 You can view its source [e]")

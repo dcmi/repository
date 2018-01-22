@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/RDF_Application_Profiles/DSPanalysis.html"
+- "/mediawiki_wiki/RDF_Application_Profiles/DSPanalysis.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -65,7 +65,7 @@ Note that the DSP attempts to fulfill a number of different requirements:
 
 ## DSP Primary Structure
 
-The original DSP has components that are based on the DCAM. [<img alt="Dsp-uml.png" src="/archive/mediawiki_wiki/images/Dsp-uml.png" width="250" height="213">](/archive/mediawiki_wiki/images/Dsp-uml.png)
+The original DSP has components that are based on the DCAM. [<img alt="Dsp-uml.png" src="/mediawiki_wiki/images/Dsp-uml.png" width="250" height="213">](/mediawiki_wiki/images/Dsp-uml.png)
 
 The main levels of the DSP are:
 
@@ -122,7 +122,7 @@ Thus, a "literal statement template" corresponds to owl:dataProperty, and "non-l
 
 My attempt to diagram this is:
 
-[<img alt="DSP.jpg" src="/archive/mediawiki_wiki/images/DSP.jpg" width="405" height="524">](/archive/mediawiki_wiki/images/DSP.jpg)
+[<img alt="DSP.jpg" src="/mediawiki_wiki/images/DSP.jpg" width="405" height="524">](/mediawiki_wiki/images/DSP.jpg)
 
 ### Terminology Comparison
 

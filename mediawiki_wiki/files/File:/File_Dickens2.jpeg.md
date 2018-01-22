@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Dickens2.jpeg.html"
+- "/mediawiki_wiki/files/File:/File_Dickens2.jpeg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Dickens2.jpeg" src="/images/e/ed/Dickens2.jpeg" width="554" height="195">](/archive/mediawiki_wiki/files/Dickens2.jpeg)  
+ [<img alt="File:Dickens2.jpeg" src="/images/e/ed/Dickens2.jpeg" width="554" height="195">](/mediawiki_wiki/files/Dickens2.jpeg)  
 <small>No higher resolution available.</small>  
  [Dickens2.jpeg](/images/e/ed/Dickens2.jpeg)‎ (554 × 195 pixels, file size: 19 KB, MIME type: image/jpeg)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Dickens2.jpeg">15:57, 1 May 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Dickens2.jpeg">15:57, 1 May 2011</a></td>
     <td><a href="/images/e/ed/Dickens2.jpeg"><img alt="Thumbnail for version as of 15:57, 1 May 2011" src="/images/e/ed/Dickens2.jpeg" width="120" height="42"></a></td>
     <td>554×195 <span style="white-space: nowrap;">(19 KB)</span>
     </td>
@@ -68,13 +68,13 @@ The following page links to this file:
 
 - [User Guide](/index.php/User_Guide "User Guide")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Dickens2.jpeg](/archive/mediawiki_wiki/files/File:/File:Dickens2.jpeg.html)"
+Retrieved from " [/mediawiki_wiki/File:Dickens2.jpeg](/mediawiki_wiki/files/File:/File:Dickens2.jpeg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Dickens2.jpeg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Dickens2.jpeg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Dickens2.jpeg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Dickens2.jpeg&action=edit "This page is protected.
 You can view its source [e]")

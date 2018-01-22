@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs.html"
+- "/mediawiki_wiki/AB-Comm/ed/LRMI/chairs.html"
 ---
 
-[<img alt="DCMI/LRMI Tas Group" src="/images/DC-LRMI_TG.png" width="200" height="121">](/archive/mediawiki_wiki/File:DC-LRMI_TG.png "DCMI/LRMI Tas Group")
+[<img alt="DCMI/LRMI Tas Group" src="/images/DC-LRMI_TG.png" width="200" height="121">](/mediawiki_wiki/File:DC-LRMI_TG.png "DCMI/LRMI Tas Group")
 
 * * *
 
-##### [[edit](http://wiki.dublincore.org/index.php?title=Template:LrmiTG&action=edit&section=T-1 "Template:LrmiTG")] [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook") 
+##### [[edit](http://wiki.dublincore.org/index.php?title=Template:LrmiTG&action=edit&section=T-1 "Template:LrmiTG")] [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -29,7 +29,7 @@ aliases:
 
 * * *
 
-[Return to TG homepage](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG")
+[Return to TG homepage](/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG")
 
 <table id="toc" class="toc">
   <tbody>
@@ -41,7 +41,7 @@ aliases:
         <ul>
           <li class="toclevel-1"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#Handbook:_Table_of_Contents.md"><span class="tocnumber">1</span> <span class="toctext">Handbook: Table of Contents</span></a></li>
           <li class="toclevel-1 tocsection-1">
-            <a href="/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#DCMI.2FLRMI_Chair.27s_Work_Pages"><span class="tocnumber">2</span> <span class="toctext">DCMI/LRMI Chair's Work Pages</span></a>
+            <a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#DCMI.2FLRMI_Chair.27s_Work_Pages"><span class="tocnumber">2</span> <span class="toctext">DCMI/LRMI Chair's Work Pages</span></a>
             <ul>
               <li class="toclevel-2 tocsection-2"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#Notes.md"><span class="tocnumber">2.1</span> <span class="toctext">Notes</span></a></li>
               <li class="toclevel-2 tocsection-3"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#References.md"><span class="tocnumber">2.2</span> <span class="toctext">References</span></a></li>
@@ -54,7 +54,7 @@ aliases:
 </table>
 <script>if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
 
-[Task Group Homepage](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG")
+[Task Group Homepage](/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG")
 
 # [[edit](http://wiki.dublincore.org/index.php?title=AB-Comm/ed/LRMI/chairs&action=edit&section=1 "Edit section: DCMI/LRMI Chair's Work Pages")] DCMI/LRMI Chair's Work Pages 
 
@@ -80,7 +80,7 @@ Property/class relationships between the the LRMI terms in an RDF schema and the
 dcterms:creator a rdf:Property ;
     owl:equivalentProperty &lt;<a href="http://xmlns.com/foaf/0.1/maker" class="external free" rel="nofollow">http://xmlns.com/foaf/0.1/maker</a>&gt; .
 </pre><dl><dd>
-<ul><li> See documentation of proposal before the Technical Board on a community namespace policy at <a href="/mediawiki_wiki/DCMI_Technical_Board/specifications/community_namespaces.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/community_namespaces</a> <sup id="cite_ref-8" class="reference"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-8.md">[9]</a></sup>
+<ul><li> See documentation of proposal before the Technical Board on a community namespace policy at <a href="/mediawiki_wiki/DCMI_Technical_Board/specifications/community_namespaces.md" class="external free" rel="nofollow">/mediawiki_wiki/DCMI_Technical_Board/specifications/community_namespaces</a> <sup id="cite_ref-8" class="reference"><a href="/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_note-8.md">[9]</a></sup>
 </li></ul>
 </dd></dl>
 
@@ -102,15 +102,15 @@ CC BY 4.0 license:
 
 ## [[edit](http://wiki.dublincore.org/index.php?title=AB-Comm/ed/LRMI/chairs&action=edit&section=3 "Edit section: References")] References 
 
-1. [↑](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-0) [http://dublincore.org/documents/dcmi-terms/](http://dublincore.org/documents/dcmi-terms/)
-2. [↑](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-1) [http://dublincore.org/documents/dces/](http://dublincore.org/documents/dces/)
-3. [↑](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-2) [http://dublincore.org/documents/dcmi-namespace/](http://dublincore.org/documents/dcmi-namespace/)
-4. [↑](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-3) [http://dublincore.org/documents/dcmi-namespace-generic/](http://dublincore.org/documents/dcmi-namespace-generic/)
-5. [↑](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-4) [http://www.heppnetz.de/ontologies/goodrelations/v1.html](http://www.heppnetz.de/ontologies/goodrelations/v1.html)
-6. [↑](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-5) [http://wiki.goodrelations-vocabulary.org/GoodRelations\_and\_schema.org](http://wiki.goodrelations-vocabulary.org/GoodRelations_and_schema.org)
-7. [↑](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-6) [http://dublincore.org/documents/dcmi-terms/](http://dublincore.org/documents/dcmi-terms/)
-8. [↑](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-7) [http://dublincore.org/documents/dces/](http://dublincore.org/documents/dces/)
-9. [↑](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-8) [/archive/mediawiki_wiki/DCMI\_Technical\_Board/specifications/community\_namespaces](/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/community_namespaces)
+1. [↑](/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-0) [http://dublincore.org/documents/dcmi-terms/](http://dublincore.org/documents/dcmi-terms/)
+2. [↑](/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-1) [http://dublincore.org/documents/dces/](http://dublincore.org/documents/dces/)
+3. [↑](/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-2) [http://dublincore.org/documents/dcmi-namespace/](http://dublincore.org/documents/dcmi-namespace/)
+4. [↑](/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-3) [http://dublincore.org/documents/dcmi-namespace-generic/](http://dublincore.org/documents/dcmi-namespace-generic/)
+5. [↑](/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-4) [http://www.heppnetz.de/ontologies/goodrelations/v1.html](http://www.heppnetz.de/ontologies/goodrelations/v1.html)
+6. [↑](/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-5) [http://wiki.goodrelations-vocabulary.org/GoodRelations\_and\_schema.org](http://wiki.goodrelations-vocabulary.org/GoodRelations_and_schema.org)
+7. [↑](/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-6) [http://dublincore.org/documents/dcmi-terms/](http://dublincore.org/documents/dcmi-terms/)
+8. [↑](/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-7) [http://dublincore.org/documents/dces/](http://dublincore.org/documents/dces/)
+9. [↑](/mediawiki_wiki/AB-Comm/ed/LRMI/chairs?action=render#cite_ref-8) [/mediawiki_wiki/DCMI\_Technical\_Board/specifications/community\_namespaces](/mediawiki_wiki/DCMI_Technical_Board/specifications/community_namespaces)
 <!-- 
 NewPP limit report
 Preprocessor node count: 192/1000000

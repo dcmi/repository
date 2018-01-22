@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/AB-EOC-Minutes.html"
+- "/mediawiki_wiki/AB-EOC-Minutes.html"
 ---
 
  **This is an archived MediaWiki page.**  

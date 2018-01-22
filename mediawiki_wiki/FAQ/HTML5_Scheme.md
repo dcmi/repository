@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/FAQ/HTML5_Scheme.html"
+- "/mediawiki_wiki/FAQ/HTML5_Scheme.html"
 ---
 
  **This is an archived MediaWiki page.**  

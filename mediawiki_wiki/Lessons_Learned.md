@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Lessons_Learned.html"
+- "/mediawiki_wiki/Lessons_Learned.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 28 May 2017, at 11:43.  
 This page has been accessed 254 times.
 
-Return to [DCMI Membership](/archive/mediawiki_wiki/DCMI_Membership "DCMI Membership")
+Return to [DCMI Membership](/mediawiki_wiki/DCMI_Membership "DCMI Membership")
 
 Leads: Paul, Stuart
 

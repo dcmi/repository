@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_MediaWiki-FileLink.jpg.html"
+- "/mediawiki_wiki/files/File:/File_MediaWiki-FileLink.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:MediaWiki-FileLink.jpg" src="/images/8/8d/MediaWiki-FileLink.jpg" width="335" height="36">](/archive/mediawiki_wiki/files/MediaWiki-FileLink.jpg)  
+ [<img alt="File:MediaWiki-FileLink.jpg" src="/images/8/8d/MediaWiki-FileLink.jpg" width="335" height="36">](/mediawiki_wiki/files/MediaWiki-FileLink.jpg)  
 <small>No higher resolution available.</small>  
  [MediaWiki-FileLink.jpg](/images/8/8d/MediaWiki-FileLink.jpg)‎ (335 × 36 pixels, file size: 30 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/MediaWiki-FileLink.jpg">00:01, 9 January 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/MediaWiki-FileLink.jpg">00:01, 9 January 2012</a></td>
     <td><a href="/images/8/8d/MediaWiki-FileLink.jpg"><img alt="Thumbnail for version as of 00:01, 9 January 2012" src="/images/8/8d/MediaWiki-FileLink.jpg" width="120" height="13"></a></td>
     <td>335×36 <span style="white-space: nowrap;">(30 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [DCMI Handbook/MediaWiki Simple Help](/index.php/DCMI_Handbook/MediaWiki_Simple_Help "DCMI Handbook/MediaWiki Simple Help")
 
-Retrieved from " [/archive/mediawiki_wiki/File:MediaWiki-FileLink.jpg](/archive/mediawiki_wiki/files/File:/File:MediaWiki-FileLink.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:MediaWiki-FileLink.jpg](/mediawiki_wiki/files/File:/File:MediaWiki-FileLink.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:MediaWiki-FileLink.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:MediaWiki-FileLink.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:MediaWiki-FileLink.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:MediaWiki-FileLink.jpg&action=edit "This page is protected.
 You can view its source [e]")

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120405_Report.html"
+- "/mediawiki_wiki/Schema.org_Alignment/Telecon_20120405_Report.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,8 +17,8 @@ This page has been accessed 28,166 times.
 
 <pre>Schema.org Alignment Task Group - 2012-04-05 telecon - report
 
-Agenda: <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120405" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120405</a>
-This report: <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120405_Report" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120405_Report</a>
+Agenda: <a href="/mediawiki_wiki/Schema.org_Alignment/Telecon_20120405" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Telecon_20120405</a>
+This report: <a href="/mediawiki_wiki/Schema.org_Alignment/Telecon_20120405_Report" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Telecon_20120405_Report</a>
 
 Present: Tom (chair), Karen, Gordon, Antoine, Bernard, Kai (IRC)
 
@@ -48,7 +48,7 @@ Tom: We have:
 
     Antoine, you suggested we might move the mappings from RDF/XML into RDFa [2]?
 
-    [1] <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
+    [1] <a href="/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
     [2] <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind1204&amp;L=dc-architecture&amp;F=&amp;S=&amp;P=2541" class="external free" rel="nofollow">https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind1204&amp;L=dc-architecture&amp;F=&amp;S=&amp;P=2541</a>
 
 Antoine: we could put these mappings into RDFa and point off to the discussion threads.
@@ -56,7 +56,7 @@ Antoine: we could put these mappings into RDFa and point off to the discussion t
     issue tracker and mailing list. We could add RDFa markup into the head of that section.
 	We could use the HTML of the wiki page as a starting point.
 
-    [3] <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details#schema:Organization_rdfs:subClassOf_dct:Agent" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details#schema:Organization_rdfs:subClassOf_dct:Agent</a>
+    [3] <a href="/mediawiki_wiki/Schema.org_Alignment/Mappings_Details#schema:Organization_rdfs:subClassOf_dct:Agent" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Mappings_Details#schema:Organization_rdfs:subClassOf_dct:Agent</a>
 
 ACTION: Antoine and Tom to put wiki document Mappings_Details into RDFa.
 
@@ -123,7 +123,7 @@ Bernard: Antoine, this relates to HTTP Range-14. If the owner of the URI at
 Tom: If we were to decide otherwise, we would have to change the contents of [4], 
     which uses the formal definitions at rdfs.org.
 
-    [4] <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
+    [4] <a href="/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
 
 RESOLVED Use rdfs.org as basis of the mapping.
 

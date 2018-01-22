@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Blog_Post.html"
+- "/mediawiki_wiki/Blog_Post.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,7 +17,7 @@ This page has been accessed 869 times.
 
 ### Project Links 
 
-- [Learning Linked Data project home](/archive/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
+- [Learning Linked Data project home](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
 - [IMLS blog contributor guidelines](http://www.imls.gov/assets/1/AssetManager/Blog_Contributor.pdf) and author release form
 - [IMLS commenting and posting policy](http://www.imls.gov/news/imls_commenting_policy.aspx)
 

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Pet/webinars.html"
+- "/mediawiki_wiki/Pet/webinars.html"
 ---
 
  **This is an archived MediaWiki page.**  

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCLib_AP/Encoding_Schemes.html"
+- "/mediawiki_wiki/DCLib_AP/Encoding_Schemes.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -364,5 +364,5 @@ The DC-Lib AP recommends the usage of the following Encoding Schemes:
 
 * * *
 
-Go back to [AP for Bibliographic Text Resources](/archive/mediawiki_wiki/DCLib_AP#Description_Set_Profile_of_the_DC-Lib_AP_for_Bibliographic_Text_Resources "DCLib AP")
+Go back to [AP for Bibliographic Text Resources](/mediawiki_wiki/DCLib_AP#Description_Set_Profile_of_the_DC-Lib_AP_for_Bibliographic_Text_Resources "DCLib AP")
 

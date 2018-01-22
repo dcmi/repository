@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Handbook/NISO_Webinars.html"
+- "/mediawiki_wiki/DCMI_Handbook/NISO_Webinars.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 10 May 2013, at 17:34.  
 This page has been accessed 111,703 times.
 
-Return to [DCMI Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook")
+Return to [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook")
 
 <table id="toc" class="toc">
   <tr>

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Past.png.html"
+- "/mediawiki_wiki/files/File:/File_Past.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Past.png" src="/images/8/80/Past.png" width="345" height="50">](/archive/mediawiki_wiki/files/Past.png)  
+ [<img alt="File:Past.png" src="/images/8/80/Past.png" width="345" height="50">](/mediawiki_wiki/files/Past.png)  
 <small>No higher resolution available.</small>  
  [Past.png](/images/8/80/Past.png)‎ (345 × 50 pixels, file size: 14 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Past.png">13:21, 30 October 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Past.png">13:21, 30 October 2014</a></td>
     <td><a href="/images/8/80/Past.png"><img alt="Thumbnail for version as of 13:21, 30 October 2014" src="/images/8/80/Past.png" width="120" height="17"></a></td>
     <td>345×50 <span style="white-space: nowrap;">(14 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [DCMI Handbook/webinars](/index.php/DCMI_Handbook/webinars "DCMI Handbook/webinars")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Past.png](/archive/mediawiki_wiki/files/File:/File:Past.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Past.png](/mediawiki_wiki/files/File:/File:Past.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Past.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Past.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Past.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Past.png&action=edit "This page is protected.
 You can view its source [e]")

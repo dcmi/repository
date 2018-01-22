@@ -8,16 +8,16 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Schema.org_Alignment/Mappings.html"
+- "/mediawiki_wiki/Schema.org_Alignment/Mappings.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 12 January 2012, at 05:11.  
 This page has been accessed 140,431 times.
 
-Raw mapping draft from DC2011 "unconference". -- [BernardVatant](/archive/mediawiki_wiki/User:BernardVatant "User:BernardVatant") 16:40, 7 October 2011 (KST)
+Raw mapping draft from DC2011 "unconference". -- [BernardVatant](/mediawiki_wiki/User:BernardVatant "User:BernardVatant") 16:40, 7 October 2011 (KST)
 
-This mapping draft has now been superseded by a [draft in Github](https://github.com/dcmi/schema.org/blob/master/mappings_schema.org.xml). -- [TomBaker](/archive/mediawiki_wiki/User:TomBaker "User:TomBaker"), 12 January 2012
+This mapping draft has now been superseded by a [draft in Github](https://github.com/dcmi/schema.org/blob/master/mappings_schema.org.xml). -- [TomBaker](/mediawiki_wiki/User:TomBaker "User:TomBaker"), 12 January 2012
 
 ## Used Prefixes
 

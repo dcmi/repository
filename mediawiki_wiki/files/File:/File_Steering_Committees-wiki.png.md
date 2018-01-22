@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Steering_Committees-wiki.png.html"
+- "/mediawiki_wiki/files/File:/File_Steering_Committees-wiki.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Steering Committees-wiki.png" src="/images/a/a7/Steering_Committees-wiki.png" width="350" height="426">](/archive/mediawiki_wiki/files/Steering_Committees-wiki.png)  
+ [<img alt="File:Steering Committees-wiki.png" src="/images/a/a7/Steering_Committees-wiki.png" width="350" height="426">](/mediawiki_wiki/files/Steering_Committees-wiki.png)  
 <small>No higher resolution available.</small>  
  [Steering\_Committees-wiki.png](/images/a/a7/Steering_Committees-wiki.png)‎ (350 × 426 pixels, file size: 72 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Steering_Committees-wiki.png">23:50, 26 November 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Steering_Committees-wiki.png">23:50, 26 November 2013</a></td>
     <td><a href="/images/a/a7/Steering_Committees-wiki.png"><img alt="Thumbnail for version as of 23:50, 26 November 2013" src="/images/a/a7/Steering_Committees-wiki.png" width="99" height="120"></a></td>
     <td>350×426 <span style="white-space: nowrap;">(72 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [Exec Committee/AB Comm-TG](/index.php/Exec_Committee/AB_Comm-TG "Exec Committee/AB Comm-TG")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Steering\_Committees-wiki.png](/archive/mediawiki_wiki/files/File:/File:Steering_Committees-wiki.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Steering\_Committees-wiki.png](/mediawiki_wiki/files/File:/File:Steering_Committees-wiki.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Steering_Committees-wiki.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Steering_Committees-wiki.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Steering_Committees-wiki.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Steering_Committees-wiki.png&action=edit "This page is protected.
 You can view its source [e]")

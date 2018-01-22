@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Tech_infrastructure.png.html"
+- "/mediawiki_wiki/files/File:/File_Tech_infrastructure.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Tech infrastructure.png" src="/images/5/5b/Tech_infrastructure.png" width="516" height="57">](/archive/mediawiki_wiki/files/Tech_infrastructure.png)  
+ [<img alt="File:Tech infrastructure.png" src="/images/5/5b/Tech_infrastructure.png" width="516" height="57">](/mediawiki_wiki/files/Tech_infrastructure.png)  
 <small>No higher resolution available.</small>  
  [Tech\_infrastructure.png](/images/5/5b/Tech_infrastructure.png)‎ (516 × 57 pixels, file size: 15 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Tech_infrastructure.png">22:08, 2 August 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Tech_infrastructure.png">22:08, 2 August 2015</a></td>
     <td><a href="/images/5/5b/Tech_infrastructure.png"><img alt="Thumbnail for version as of 22:08, 2 August 2015" src="/images/5/5b/Tech_infrastructure.png" width="120" height="13"></a></td>
     <td>516×57 <span style="white-space: nowrap;">(15 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [DCMI Technical Board/infrastructure](/index.php/DCMI_Technical_Board/infrastructure "DCMI Technical Board/infrastructure")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Tech\_infrastructure.png](/archive/mediawiki_wiki/files/File:/File:Tech_infrastructure.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Tech\_infrastructure.png](/mediawiki_wiki/files/File:/File:Tech_infrastructure.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Tech_infrastructure.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Tech_infrastructure.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Tech_infrastructure.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Tech_infrastructure.png&action=edit "This page is protected.
 You can view its source [e]")

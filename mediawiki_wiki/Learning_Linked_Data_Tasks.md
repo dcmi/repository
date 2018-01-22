@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Learning_Linked_Data_Tasks.html"
+- "/mediawiki_wiki/Learning_Linked_Data_Tasks.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 28 Jan 2012, at 05:42.  
 This page has been accessed 8,038 times.
 
-Return to [Learning Linked Data Main Page](/archive/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
+Return to [Learning Linked Data Main Page](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
 
 <table id="toc" class="toc">
   <tr>
@@ -53,7 +53,7 @@ Some learners are best motivated, and best learn, when working towards practical
 
 At least the last two categories meet highly task-focused needs of learners with specific scopes of activity in mind.[1] Learners very frequently engage with documentation in a nonlinear fashion,[2] browsing for answers to specific functional questions that restore their ability to act.[3]
 
-[KarenC proposes](http://dublincore.org/pipermail/learninglinkeddata/2012-January/000045.html) that we ensure that everything in the [Inventory of Learning Objectives](/archive/mediawiki_wiki/Learning_Linked_Data_Inventory "Learning Linked Data Inventory") is needed for a task, and that everything in the tasks is covered by the inventory. Karen notes that in continuing education in the library field, learners need to be able to go back to their library and do something with what they have learned -- and do something before they've forgotten what they learned, and that classes get slammed if they don't provide a good, practical outcome for the learners. This differs from classroom learning because students in classrooms expect a delay between learning and practice.
+[KarenC proposes](http://dublincore.org/pipermail/learninglinkeddata/2012-January/000045.html) that we ensure that everything in the [Inventory of Learning Objectives](/mediawiki_wiki/Learning_Linked_Data_Inventory "Learning Linked Data Inventory") is needed for a task, and that everything in the tasks is covered by the inventory. Karen notes that in continuing education in the library field, learners need to be able to go back to their library and do something with what they have learned -- and do something before they've forgotten what they learned, and that classes get slammed if they don't provide a good, practical outcome for the learners. This differs from classroom learning because students in classrooms expect a delay between learning and practice.
 
 ## Defining a Metadata Project 
 
@@ -65,7 +65,7 @@ At least the last two categories meet highly task-focused needs of learners with
     - identifiers (URIs)
 - Exercise: create a data model (giving a few options, like for a warehouse, for a car dealership)
 - Stuart: A full-blown "language [of description design] lab" would have _accessible_ (intellectually and otherwise) learning resources to support all the necessary knowledge and skills to function in the context of RDF as set out in DCMI Singapore Framework (i.e., using it as an instructional framework/process model)
-<dl><dd> <a href="/archive/mediawiki_wiki/images/Singapore-framework.jpg" class="image" title="DCMI SIngapore Framework Image"><img alt="DCMI SIngapore Framework Image" src="/archive/mediawiki_wiki/images/Singapore-framework.jpg" width="350" height="243"></a>
+<dl><dd> <a href="/mediawiki_wiki/images/Singapore-framework.jpg" class="image" title="DCMI SIngapore Framework Image"><img alt="DCMI SIngapore Framework Image" src="/mediawiki_wiki/images/Singapore-framework.jpg" width="350" height="243"></a>
 </dd></dl>
 
 ## Defining your metadata as classes and properties 

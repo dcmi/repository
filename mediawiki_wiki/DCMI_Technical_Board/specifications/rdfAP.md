@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/rdfAP.html"
+- "/mediawiki_wiki/DCMI_Technical_Board/specifications/rdfAP.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 7 June 2014, at 22:27.  
 This page has been accessed 22,728 times.
 
-[<img alt="Community Specifications Committee logo" src="/archive/mediawiki_wiki/images/Specifications_logo.png" width="500" height="70">](/archive/mediawiki_wiki/images/Specifications_logo.png "Community Specifications Committee logo")
+[<img alt="Community Specifications Committee logo" src="/mediawiki_wiki/images/Specifications_logo.png" width="500" height="70">](/mediawiki_wiki/images/Specifications_logo.png "Community Specifications Committee logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>

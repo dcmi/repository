@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_IMLS.png.html"
+- "/mediawiki_wiki/files/File:/File_IMLS.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:IMLS.png" src="/images/4/4e/IMLS.png" width="211" height="86">](/archive/mediawiki_wiki/files/IMLS.png)  
+ [<img alt="File:IMLS.png" src="/images/4/4e/IMLS.png" width="211" height="86">](/mediawiki_wiki/files/IMLS.png)  
 <small>No higher resolution available.</small>  
  [IMLS.png](/images/4/4e/IMLS.png)‎ (211 × 86 pixels, file size: 6 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/IMLS.png">19:20, 19 April 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/IMLS.png">19:20, 19 April 2015</a></td>
     <td><a href="/images/4/4e/IMLS.png"><img alt="Thumbnail for version as of 19:20, 19 April 2015" src="/images/4/4e/IMLS.png" width="120" height="49"></a></td>
     <td>211×86 <span style="white-space: nowrap;">(6 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [Pet/ld4pe](/index.php/Pet/ld4pe "Pet/ld4pe")
 
-Retrieved from " [/archive/mediawiki_wiki/File:IMLS.png](/archive/mediawiki_wiki/files/File:/File:IMLS.png.html)"
+Retrieved from " [/mediawiki_wiki/File:IMLS.png](/mediawiki_wiki/files/File:/File:IMLS.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:IMLS.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:IMLS.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:IMLS.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:IMLS.png&action=edit "This page is protected.
 You can view its source [e]")

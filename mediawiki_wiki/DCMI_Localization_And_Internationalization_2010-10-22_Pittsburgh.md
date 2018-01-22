@@ -9,7 +9,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Localization_And_Internationalization_2010-10-22_Pittsburgh.html"
+- "/mediawiki_wiki/DCMI_Localization_And_Internationalization_2010-10-22_Pittsburgh.html"
 ---
 
  **This is an archived MediaWiki page.**  

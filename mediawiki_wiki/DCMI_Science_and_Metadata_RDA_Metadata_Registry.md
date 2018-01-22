@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Science_and_Metadata_RDA_Metadata_Registry.html"
+- "/mediawiki_wiki/DCMI_Science_and_Metadata_RDA_Metadata_Registry.html"
 ---
 
  **This is an archived MediaWiki page.**  

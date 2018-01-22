@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Agenda_for_the_Community_meeting_in_Lisbon.html"
+- "/mediawiki_wiki/Agenda_for_the_Community_meeting_in_Lisbon.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -23,9 +23,9 @@ Thursday, September 5, 2013, 14:30-16:00
 
 - 1. Brief review of the current work of the Community [Diane]
 
-Including brief review of the report from The Hague, highlighting issues that arose [[1]](/archive/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/Meeting_Report)
+Including brief review of the report from The Hague, highlighting issues that arose [[1]](/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/Meeting_Report)
 
-- 2. Review and Discussion of the Vocabulary Management System Task Group Report and its recommendations and discussion of possible next steps.( [/archive/mediawiki_wiki/Draft\_Vocabulary\_Management\_System\_Task\_Group\_Report](/archive/mediawiki_wiki/Draft_Vocabulary_Management_System_Task_Group_Report)) [Gordon Dunsire, TG co-chair]
+- 2. Review and Discussion of the Vocabulary Management System Task Group Report and its recommendations and discussion of possible next steps.( [/mediawiki_wiki/Draft\_Vocabulary\_Management\_System\_Task\_Group\_Report](/mediawiki_wiki/Draft_Vocabulary_Management_System_Task_Group_Report)) [Gordon Dunsire, TG co-chair]
 
 - 3. Briefing on available commercial and open source vocabulary tools. Joseph Busch, of Taxonomy Strategies (and a long-time DC Community member).
 

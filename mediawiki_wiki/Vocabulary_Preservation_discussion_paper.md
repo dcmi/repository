@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Vocabulary_Preservation_discussion_paper.html"
+- "/mediawiki_wiki/Vocabulary_Preservation_discussion_paper.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,7 +17,7 @@ This page has been accessed 102,453 times.
 
 ### Sustainable governance for long-term preservation of RDF Vocabularies 
 
-Discussion paper for a [session on Vocabulary Preservation](/archive/mediawiki_wiki/Vocabulary_Preservation_session "Vocabulary Preservation session") at the DC-2013 conference in Lisbon<sup id="cite_ref-0" class="reference"><a href="#cite_note-0">[1]</a></sup>
+Discussion paper for a [session on Vocabulary Preservation](/mediawiki_wiki/Vocabulary_Preservation_session "Vocabulary Preservation session") at the DC-2013 conference in Lisbon<sup id="cite_ref-0" class="reference"><a href="#cite_note-0">[1]</a></sup>
 
 Authors: Tom Baker, Bernard Vatant, Pierre-Yves Vandenbussche
 

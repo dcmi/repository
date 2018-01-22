@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/FAQ/DCMI_Abstract_Model.html"
+- "/mediawiki_wiki/FAQ/DCMI_Abstract_Model.html"
 ---
 
 <table id="toc" class="toc">
@@ -77,18 +77,18 @@ In the absence of a strong set of reference implementations, the DCAM should be 
 
 1. ↑ [http://dublincore.org/documents/abstract-model](http://dublincore.org/documents/abstract-model)
 2. ↑ [http://dublincore.org/documents/dc-rdf/](http://dublincore.org/documents/dc-rdf/)
-3. ↑ [/archive/mediawiki_wiki/Glossary/Description\_Set\_Profile](/archive/mediawiki_wiki/Glossary/Description_Set_Profile)
-4. ↑ [/archive/mediawiki_wiki/Glossary/Application\_Profile](/archive/mediawiki_wiki/Glossary/Application_Profile)
+3. ↑ [/mediawiki_wiki/Glossary/Description\_Set\_Profile](/mediawiki_wiki/Glossary/Description_Set_Profile)
+4. ↑ [/mediawiki_wiki/Glossary/Application\_Profile](/mediawiki_wiki/Glossary/Application_Profile)
 5. ↑ [http://dublincore.org/documents/dc-html/](http://dublincore.org/documents/dc-html/)
 6. ↑ [http://dublincore.org/documents/dc-ds-xml/](http://dublincore.org/documents/dc-ds-xml/)
 7. ↑ [http://dublincore.org/documents/dc-rdf/](http://dublincore.org/documents/dc-rdf/)
-8. ↑ [/archive/mediawiki_wiki/Glossary/DCAM\_Family\_of\_Specifications](/archive/mediawiki_wiki/Glossary/DCAM_Family_of_Specifications)
-9. ↑ [/archive/mediawiki_wiki/Glossary/Dublin\_Core\_Grammatical\_Principles](/archive/mediawiki_wiki/Glossary/Dublin_Core_Grammatical_Principles)
+8. ↑ [/mediawiki_wiki/Glossary/DCAM\_Family\_of\_Specifications](/mediawiki_wiki/Glossary/DCAM_Family_of_Specifications)
+9. ↑ [/mediawiki_wiki/Glossary/Dublin\_Core\_Grammatical\_Principles](/mediawiki_wiki/Glossary/Dublin_Core_Grammatical_Principles)
 10. ↑ [http://www.w3.org/TR/skos-reference/](http://www.w3.org/TR/skos-reference/)
 11. ↑ [http://w3.org/2011/rdf-wg/](http://w3.org/2011/rdf-wg/)
 12. ↑ [http://www.w3.org/TR/rdfa-syntax/](http://www.w3.org/TR/rdfa-syntax/)
 13. ↑ [http://dublincore.org/documents/dc-html/](http://dublincore.org/documents/dc-html/)
-14. ↑ [/archive/mediawiki_wiki/Review\_of\_DCMI\_Abstract\_Model](/archive/mediawiki_wiki/Review_of_DCMI_Abstract_Model)
+14. ↑ [/mediawiki_wiki/Review\_of\_DCMI\_Abstract\_Model](/mediawiki_wiki/Review_of_DCMI_Abstract_Model)
 15. ↑ [http://www.w3.org/2005/Incubator/lld/wiki/F2F\_Pittsburgh](http://www.w3.org/2005/Incubator/lld/wiki/F2F_Pittsburgh)
 16. ↑ [http://lists.w3.org/Archives/Public/public-lld/2010Oct/0098.html](http://lists.w3.org/Archives/Public/public-lld/2010Oct/0098.html)
 <!-- 

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Ischool-primary-purple.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Ischool-primary-purple.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Ischool-primary-purple.jpg" src="/images/e/ed/Ischool-primary-purple.jpg" width="789" height="135">](/archive/mediawiki_wiki/files/Ischool-primary-purple.jpg)  
+ [<img alt="File:Ischool-primary-purple.jpg" src="/images/e/ed/Ischool-primary-purple.jpg" width="789" height="135">](/mediawiki_wiki/files/Ischool-primary-purple.jpg)  
 <small>No higher resolution available.</small>  
  [Ischool-primary-purple.jpg](/images/e/ed/Ischool-primary-purple.jpg)‎ (789 × 135 pixels, file size: 128 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Ischool-primary-purple.jpg">17:45, 7 April 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Ischool-primary-purple.jpg">17:45, 7 April 2015</a></td>
     <td><a href="/images/e/ed/Ischool-primary-purple.jpg"><img alt="Thumbnail for version as of 17:45, 7 April 2015" src="/images/e/ed/Ischool-primary-purple.jpg" width="120" height="21"></a></td>
     <td>789×135 <span style="white-space: nowrap;">(128 KB)</span>
     </td>
@@ -70,13 +70,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:Ischool-primary-purple.jpg](/archive/mediawiki_wiki/files/File:/File:Ischool-primary-purple.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Ischool-primary-purple.jpg](/mediawiki_wiki/files/File:/File:Ischool-primary-purple.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Ischool-primary-purple.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Ischool-primary-purple.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Ischool-primary-purple.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Ischool-primary-purple.jpg&action=edit "This page is protected.
 You can view its source [e]")

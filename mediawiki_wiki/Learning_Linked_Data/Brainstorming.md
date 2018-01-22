@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Learning_Linked_Data/Brainstorming.html"
+- "/mediawiki_wiki/Learning_Linked_Data/Brainstorming.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 31 Jan 2012, at 05:39.  
 This page has been accessed 9,163 times.
 
-Return to [Learning Linked Data](/archive/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data") Homepage
+Return to [Learning Linked Data](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data") Homepage
 
 <table id="toc" class="toc">
   <tr>
@@ -54,7 +54,7 @@ Return to [Learning Linked Data](/archive/mediawiki_wiki/Learning_Linked_Data "L
 ### What Needs to be Learned? 
 
 - Stuart: A full-blown "language [of description design] lab" would have _accessible_ (intellectually and otherwise) learning resources to support all the necessary knowledge and skills to function in the context of RDF as set out in DCMI Singapore Framework (i.e., using it as an instructional framework/process model)
-<dl><dd> <a href="/archive/mediawiki_wiki/images/Singapore-framework.jpg" class="image" title="DCMI SIngapore Framework Image"><img alt="DCMI SIngapore Framework Image" src="/archive/mediawiki_wiki/images/Singapore-framework.jpg" width="350" height="243"></a>
+<dl><dd> <a href="/mediawiki_wiki/images/Singapore-framework.jpg" class="image" title="DCMI SIngapore Framework Image"><img alt="DCMI SIngapore Framework Image" src="/mediawiki_wiki/images/Singapore-framework.jpg" width="350" height="243"></a>
 </dd></dl>
 
 - Craig: If we enable the learner to start where they are, should we provide grounding in foundational concepts and technologies? For example
@@ -92,5 +92,5 @@ NSDL Science Literacy Maps are a tool for teachers and students to find resource
 
 ### Who Are the Learners 
 
-See also [Learning\_Linked\_Data\_Personas](/archive/mediawiki_wiki/Learning_Linked_Data_Personas "Learning Linked Data Personas")
+See also [Learning\_Linked\_Data\_Personas](/mediawiki_wiki/Learning_Linked_Data_Personas "Learning Linked Data Personas")
 

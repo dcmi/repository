@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Plus.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Plus.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Plus.jpg" src="/images/e/ec/Plus.jpg" width="139" height="83">](/archive/mediawiki_wiki/files/Plus.jpg)  
+ [<img alt="File:Plus.jpg" src="/images/e/ec/Plus.jpg" width="139" height="83">](/mediawiki_wiki/files/Plus.jpg)  
 <small>No higher resolution available.</small>  
  [Plus.jpg](/images/e/ec/Plus.jpg)‎ (139 × 83 pixels, file size: 17 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Plus.jpg">13:31, 24 April 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Plus.jpg">13:31, 24 April 2014</a></td>
     <td><a href="/images/e/ec/Plus.jpg"><img alt="Thumbnail for version as of 13:31, 24 April 2014" src="/images/e/ec/Plus.jpg" width="120" height="72"></a></td>
     <td>139×83 <span style="white-space: nowrap;">(17 KB)</span>
     </td>
@@ -86,13 +86,13 @@ The following 15 pages link to this file:
 - [Template:Webex](/index.php/Template:Webex "Template:Webex")
 - [DCMI Governing Board/finance/TF/Conference Financial Structure](/index.php/DCMI_Governing_Board/finance/TF/Conference_Financial_Structure "DCMI Governing Board/finance/TF/Conference Financial Structure")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Plus.jpg](/archive/mediawiki_wiki/files/File:/File:Plus.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Plus.jpg](/mediawiki_wiki/files/File:/File:Plus.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Plus.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Plus.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Plus.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Plus.jpg&action=edit "This page is protected.
 You can view its source [e]")

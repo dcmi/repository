@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Resource_Collection.html"
+- "/mediawiki_wiki/Resource_Collection.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 12 May 2015, at 15:35.  
 This page has been accessed 22,016 times.
 
-[<img alt="LD4PE logo" src="/archive/mediawiki_wiki/images/Ld4pe.png" width="100" height="99">](/archive/mediawiki_wiki/images/Ld4pe.png "LD4PE logo") [LD4PE Task Group Homepage](/archive/mediawiki_wiki/Pet/ld4pe)
+[<img alt="LD4PE logo" src="/mediawiki_wiki/images/Ld4pe.png" width="100" height="99">](/mediawiki_wiki/images/Ld4pe.png "LD4PE logo") [LD4PE Task Group Homepage](/mediawiki_wiki/Pet/ld4pe)
 
 # Resource Collection 
 <table id="toc" class="toc">
@@ -59,7 +59,7 @@ A database has been set up to collect resources and start to organize them so th
 
 As we discussed in our meeting last week (02/18/2015), I have been looking through those learning objects already cataloged and comparing them to the Competency Index (under development) to get a better sense of what we have so far and identify gaps (as well as possible additions). I was going to post the resulting outline and notes I created right here, but quickly discovered it would be quite difficult to preserve the format using the wiki editor, so I am posting a link instead:
 
-[Media:LD4PE\_Annotated\_Competency\_Index.pdf](/archive/mediawiki_wiki/files/LD4PE_Annotated_Competency_Index.pdf "LD4PE Annotated Competency Index.pdf")
+[Media:LD4PE\_Annotated\_Competency\_Index.pdf](/mediawiki_wiki/files/LD4PE_Annotated_Competency_Index.pdf "LD4PE Annotated Competency Index.pdf")
 
 ## Summaries of Conversations with Project Members 
 

@@ -13,9 +13,9 @@ tags: []
 This page was last modified on 21 October 2013, at 15:09.  
 This page has been accessed 124,372 times.
 
-Return to [DCMI Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook")
+Return to [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook")
 
 - [Conference Host Guidelines](/index.php?title=DCMI_Handbook/Int_Conf/Host_Guidelines&action=edit&redlink=1 "DCMI Handbook/Int Conf/Host Guidelines (page does not exist)")
-- [Master 3-Year Planning Calendar](/archive/mediawiki_wiki/DCMI_Handbook/Int_Conf/Master_Calendar "DCMI Handbook/Int Conf/Master Calendar")
-- [Conference Committee Planning Calendar](/archive/mediawiki_wiki/DCMI_Handbook/Int_Conf/Annual_Meeting "DCMI Handbook/Int Conf/Annual Meeting")
+- [Master 3-Year Planning Calendar](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Master_Calendar "DCMI Handbook/Int Conf/Master Calendar")
+- [Conference Committee Planning Calendar](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Annual_Meeting "DCMI Handbook/Int Conf/Annual Meeting")
 

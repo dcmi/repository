@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Issues2010.html"
+- "/mediawiki_wiki/Issues2010.html"
 ---
 
  **This is an archived MediaWiki page.**  

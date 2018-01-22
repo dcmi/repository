@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DC_2013_SAM_Science_and_Metadata_CAMP_4_DATA_AGENDA.html"
+- "/mediawiki_wiki/DC_2013_SAM_Science_and_Metadata_CAMP_4_DATA_AGENDA.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -21,11 +21,11 @@ This page has been accessed 358,248 times.
 - _SPONSORS/SUPPORT:_ Dublin Core-Science and Metadata (DC-SAM) Community; the Research Data Alliance (RDA); Data Observation Network for Earth (DataONE); and the SILS-Metadata Research Center. 
 - AGENDA/ABSTRACTS/SLIDES/BIOGRAPHICAL NOTES.
 
- [<img alt="200px-SAMLogo2.png" src="/archive/mediawiki_wiki/images/200px-SAMLogo2.png" width="150" height="153">](/archive/mediawiki_wiki/images/200px-SAMLogo2.png)
+ [<img alt="200px-SAMLogo2.png" src="/mediawiki_wiki/images/200px-SAMLogo2.png" width="150" height="153">](/mediawiki_wiki/images/200px-SAMLogo2.png)
 
- [<img alt="DataONE LOGO.png" src="/archive/mediawiki_wiki/images/DataONE_LOGO.png" width="150" height="36">](/archive/mediawiki_wiki/images/DataONE_LOGO.png)
+ [<img alt="DataONE LOGO.png" src="/mediawiki_wiki/images/DataONE_LOGO.png" width="150" height="36">](/mediawiki_wiki/images/DataONE_LOGO.png)
 
- [<img alt="MRC logo 2011.png" src="/archive/mediawiki_wiki/images/MRC_logo_2011.png" width="265" height="82">](/archive/mediawiki_wiki/images/MRC_logo_2011.png)
+ [<img alt="MRC logo 2011.png" src="/mediawiki_wiki/images/MRC_logo_2011.png" width="265" height="82">](/mediawiki_wiki/images/MRC_logo_2011.png)
 <table id="toc" class="toc">
   <tr>
     <td>
@@ -55,15 +55,15 @@ This page has been accessed 358,248 times.
 
 ## INTRODUCTION
 
-- 9:00-9:30 - Welcome, workshop goals, logistics; participant introductions/Jane Greenberg/all ( [slides](/archive/mediawiki_wiki/files/CAMP-4-DATA-Intro.pdf "CAMP-4-DATA-Intro.pdf"))  
-- 9:30-9:45 - The Metadata Zoo/Rebecca Koskela ( [Slides](/archive/mediawiki_wiki/files/MetadataZoo.pdf "MetadataZoo.pdf"))
-- 9:45-10:00 - DCC Scheme Directory/Alex Ball&nbsp;( [slides](/archive/mediawiki_wiki/files/Ball-DCC-Metadata-Catalogue.pdf "Ball-DCC-Metadata-Catalogue.pdf"))
+- 9:00-9:30 - Welcome, workshop goals, logistics; participant introductions/Jane Greenberg/all ( [slides](/mediawiki_wiki/files/CAMP-4-DATA-Intro.pdf "CAMP-4-DATA-Intro.pdf"))  
+- 9:30-9:45 - The Metadata Zoo/Rebecca Koskela ( [Slides](/mediawiki_wiki/files/MetadataZoo.pdf "MetadataZoo.pdf"))
+- 9:45-10:00 - DCC Scheme Directory/Alex Ball&nbsp;( [slides](/mediawiki_wiki/files/Ball-DCC-Metadata-Catalogue.pdf "Ball-DCC-Metadata-Catalogue.pdf"))
 
 ## INFRASTRUCTURE MODELS AND FRAMEWORKS
 
-- 10:00-10:15 - A 3-Layer Model for Metadata/Keith Jeffery,&nbsp;Anne Asserson,&nbsp;Nikos Houssos&nbsp;and Brigitte Joerg ( [Slides](/archive/mediawiki_wiki/files/Keith-Jeffery-A-3-layerModel-for-Metadata.pdf "Keith-Jeffery-A-3-layerModel-for-Metadata.pdf"))
+- 10:00-10:15 - A 3-Layer Model for Metadata/Keith Jeffery,&nbsp;Anne Asserson,&nbsp;Nikos Houssos&nbsp;and Brigitte Joerg ( [Slides](/mediawiki_wiki/files/Keith-Jeffery-A-3-layerModel-for-Metadata.pdf "Keith-Jeffery-A-3-layerModel-for-Metadata.pdf"))
 > _Abstract_: We present a 3-layer model for metadata of which the key component is CERIF in the middle, contextual, layer. CERIF forms the lowest, most detailed level of metadata information that is common across research objects such as datasets. Its richness of representation makes it a superset over many other metadata formats allowing their congruent generation from CERIF. CERIF is used in42 countries and is an EU Recommendation to member States.
-- 10:15-10:30 - Cross-Domain Metadata Interoperability: Lessons Learnt in INSPIRE / Andrea Perego,&nbsp;Michael Lutz,&nbsp;Max Craglia&nbsp;and&nbsp;Silvia Dalla Costa ( [slides](/archive/mediawiki_wiki/files/Inspire-jrc-andrea-perego.pdf "Inspire-jrc-andrea-perego.pdf"))
+- 10:15-10:30 - Cross-Domain Metadata Interoperability: Lessons Learnt in INSPIRE / Andrea Perego,&nbsp;Michael Lutz,&nbsp;Max Craglia&nbsp;and&nbsp;Silvia Dalla Costa ( [slides](/mediawiki_wiki/files/Inspire-jrc-andrea-perego.pdf "Inspire-jrc-andrea-perego.pdf"))
 > _Abstract_: Since 2007, EU Member States have been involved in creating an infrastructure for spatial information in Europe (INSPIRE), based on a legal and technical interoperability framework. This paper presents some of the lessons learnt during the implementation of this infrastructure (which started in 2009) and during work on data and service interoperability coordinated with European and international initiatives. We describe a number of critical interoperability issues affecting both scientific and government data and metadata, and propose how these problems could be effectively addressed by a closer collaboration of the government and scientific communities, by taking advantage of their complementary competencies, and by influencing the development and adoption of standards.
 ## USAGE AND TRACKING
 
@@ -75,15 +75,15 @@ This page has been accessed 358,248 times.
 
 ## PID (PERSISTENT IDENTIFIERS)
 
-- 11:30-11:45 - Persistent Identifiers for Terms in a Crowd-Sourced Vocabulary/John Kunze, Greg Janee, Christopher Patton ( [Slides](/archive/mediawiki_wiki/files/Jak_pids4terms_d1mwg.pptx.pdf "Jak pids4terms d1mwg.pptx.pdf"))
+- 11:30-11:45 - Persistent Identifiers for Terms in a Crowd-Sourced Vocabulary/John Kunze, Greg Janee, Christopher Patton ( [Slides](/mediawiki_wiki/files/Jak_pids4terms_d1mwg.pptx.pdf "Jak pids4terms d1mwg.pptx.pdf"))
 > _Abstract:_ Unique, persistent identifiers for vocabulary term concepts are critical for metadata (DC1, SKOS2, etc). This comes as no surprise to followers of Linked Data3, for whom this first principle of the semantic web is a sine qua non for automatic reasoning with web content. It is even more important to metadata users who need a precise way to reference a particular concept when the term may have more than one definition. Such is the case for the SeaIce Metadictionary4, a crowd-sourced online dictionary of metadata terms in which multiple competing definitions are expected to be common and to co-exist indefinitely. Anyone can register and login in order to create new terms, edit their own terms, and comment and vote on others’ terms. Typical use will be that someone, without logging in, searches for and inserts terms they find into metadata that they’re creating to describe their own research. If unsatisfied with the terms that they found – or didn’t find – they can login and take action, which means anything from up- and down-voting terms, commenting on others’ terms, or adding and editing their own terms. Typical users will be research scientists trying to describe their datasets.
-- 11:45-12:00 - Separation of Concerns: PID Information Types and Domain Metadata/Tobias Weigel&nbsp;and Timothy Dilauro ( [slides](/archive/mediawiki_wiki/files/Camp4data_Weigel.pdf "Camp4data Weigel.pdf"))
+- 11:45-12:00 - Separation of Concerns: PID Information Types and Domain Metadata/Tobias Weigel&nbsp;and Timothy Dilauro ( [slides](/mediawiki_wiki/files/Camp4data_Weigel.pdf "Camp4data Weigel.pdf"))
 > _Abstract_: We must define a pragmatic separation of concerns between metadata activities and the typed information associated with Persistent Identifiers. This distinction is important for ongoing debates within respective communities as well as in the RDA working groups. From a data archive’s viewpoint, a useful metaphor is that of the “black box” or “envelope”: Data management is increasingly done by machinery rather than human users. So the machinery must know what to do with the boxes that come in through various channels, but it cannot open them for various reasons. We propose that metadata is a concern that is – from this particular view of automated data management – located inside the black box. A metadata description may actually be a black box object that must be managed just like all the others. Still, some information must be written on the outside of the box to be interpreted by the machinery. This information may be a subset of metadata, but it may also contain additional information not interesting as domain metadata.
 ## APPLICATIONS
 
-- 12:00-12:15 - Ontology-Enabled Metadata Schema Generator: The Design Approach/Jian Qin, Xiaozhong Liu and Miao Chen ( [slides](/archive/mediawiki_wiki/files/Qin-Liu-Chen-camp4data.pdf "Qin-Liu-Chen-camp4data.pdf"))
+- 12:00-12:15 - Ontology-Enabled Metadata Schema Generator: The Design Approach/Jian Qin, Xiaozhong Liu and Miao Chen ( [slides](/mediawiki_wiki/files/Qin-Liu-Chen-camp4data.pdf "Qin-Liu-Chen-camp4data.pdf"))
 > _Abstract_: Metadata standards are important for normalizing descriptions of publications and research data and for information discovery and use. Large, complex metadata standards, however, can complicate the creation, sharing, and maintenance of metadata and incur high costs for metadata operations, especially in the domain of scientific data. One strategy to solve the problems of large, complex metadata standards is to break them into independent modules to allow for reuse of elements and maximal possibility of automation. To implement this strategy, we need a metadata infrastructure that contains elements, vocabularies, and other metadata artifacts and that is easy to use. This short paper describes the design approach to an ontology-enabled metadata schema generator as part of the metadata infrastructure.
-- 12:15-12:30 - Metadictionary: Advocating for a Community-driven Metadata Vocabulary Application/ Jane Greenberg, Angela Murillo, John Kunze, Sarah Callahan, Robert Guralnick, Greg Janee, Nassib Nassar, Christopher Patton, and Karthik Ram ( [slides](/archive/mediawiki_wiki/files/Greenberg-CAMP-SeaIce.pdf "Greenberg-CAMP-SeaIce.pdf"))
+- 12:15-12:30 - Metadictionary: Advocating for a Community-driven Metadata Vocabulary Application/ Jane Greenberg, Angela Murillo, John Kunze, Sarah Callahan, Robert Guralnick, Greg Janee, Nassib Nassar, Christopher Patton, and Karthik Ram ( [slides](/mediawiki_wiki/files/Greenberg-CAMP-SeaIce.pdf "Greenberg-CAMP-SeaIce.pdf"))
 > _Abstract_: Metadata disorder and unnecessary costs are increasing due to the expanding population of scientific data schemes and standards. Metadata challenges are reviewed; and SeaIce, a community driven metadata vocabulary application, is introduced as a potential solution. SeaIce functions and development challenges are presented. CAMP-4-DATA participants are called upon to experiment with the SeaIce application and actively participate in a discussion targeting noted metadata challenges.
 - 12:30-12:40 - CLEPSYDRA Data Aggregation and Enrichment Framework/Cezary Mazurek, Marcin Mielnicki, Aleksandra Nowak, Krzysztof Sielski, Maciej&nbsp;Stroinski, Marcin Werla and Jan Wglarz 
 - 12:40-12:50 - RUresearch - Open Source Metadata Application Profile and Research Object Handling for Research Data/Grace Agnew and Mary Beth Weber
@@ -94,7 +94,7 @@ This page has been accessed 358,248 times.
 
 ## BREAKOUT GROUPS
 
-- 14:30-14:40 - Overview of discussion topics ( [DRAFT slides](/archive/mediawiki_wiki/files/Questions-for-discussion.pdf "Questions-for-discussion.pdf"))
+- 14:30-14:40 - Overview of discussion topics ( [DRAFT slides](/mediawiki_wiki/files/Questions-for-discussion.pdf "Questions-for-discussion.pdf"))
 - 14:40-15:10 - Breakout groups, Session 1: Infrastructure and design, policy, human and social aspects.
 - 15:10-15:40 - Breakout groups, Session 2 (topic rotation from session 1).
 - 15:40-16:00 - Report back from breakout groups.
@@ -142,5 +142,5 @@ This page has been accessed 358,248 times.
 
 **Mary Beth Weber** is Head of Central Technical Services at Rutgers University Libraries. She is the author of the book Describing Electronic, Digital, and Other Media Using AACR2 and RDA, and the editor of Library Resources and Technical Services, the official journal of the Association for Library Collections and Technical Services (ALCTS), a division of the American Library Association. She is a co-developer of the MODS metadata implementation for RUcore, Rutgers University's institutional repository, and leads the team tasked with further developing and maintaining RUcore metadata. Tobias Weigel has been working at the German Climate Computing Center (DKRZ) since 2010 as a software engineer and architect for various e-science infrastructure and project activities, including IS-ENES and EUDAT, with emphasis on lightweight web services and re-usable components. Current activities concern usage scenarios and tool support for PIDs across these areas, which also relates to the work done in RDA, where he is co-leading the PID Information Types Working Group. He is also a PhD student at the University of Hamburg, working on a PID-centric topic with particular focus on massive PID usage at data centers and infrastructures.
 
-(Back to DC-SAM page: [/archive/mediawiki_wiki/DCMI\_Science\_And\_Metadata](/archive/mediawiki_wiki/DCMI_Science_And_Metadata))
+(Back to DC-SAM page: [/mediawiki_wiki/DCMI\_Science\_And\_Metadata](/mediawiki_wiki/DCMI_Science_And_Metadata))
 

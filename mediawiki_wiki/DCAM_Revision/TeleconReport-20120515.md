@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515.html"
+- "/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,8 +17,8 @@ This page has been accessed 124,840 times.
 
 <pre>DCAM 2012-05-15 telecon - Report
 
-This report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515</a>
-Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120515.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120515</a>
+This report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515</a>
+Agenda: <a href="/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120515.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120515</a>
 
 Present: Tom (chair), Jon, Karen, Richard, Corey, Antoine, Dan, Gordon, Kai
 Regrets: Mark, Aaron
@@ -26,7 +26,7 @@ Regrets: Mark, Aaron
 ----------------------------------------------------------------------
 Minutes of previous call on 9 April
     
-    ACCEPTED <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120409.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120409</a>
+    ACCEPTED <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120409.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconReport-20120409</a>
     
 ----------------------------------------------------------------------
 Report from London
@@ -73,9 +73,9 @@ complex way. If DCAM requires the simplest form of graph - basic reification
 ----------------------------------------------------------------------
 Examples
     <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind1203&amp;L=dc-architecture&amp;F=&amp;S=&amp;P=55080" class="external free" rel="nofollow">https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind1203&amp;L=dc-architecture&amp;F=&amp;S=&amp;P=55080</a>
-    <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement</a>
-    <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements</a>
-    <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions</a>
 
 Richard: Still feel we need some space for "dark patterns" - what do we see in
 examples that are things that we wish to steer people away from.

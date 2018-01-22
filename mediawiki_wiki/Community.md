@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Community.html"
+- "/mediawiki_wiki/Community.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -48,13 +48,13 @@ Groups are perhaps the most complex entities in DCMI and at the same time the le
 
 Frequently, groups are recursive in nature in that they can contain subgroups (e.g., "task groups") that need their own suite of all, or some subset, of the same functions as their parent). Since groups as a class can have sub-groups, the result can be a kind of Russian doll structure:
 
-[<img alt="Russian Dolls image" src="/archive/mediawiki_wiki/images/Russian_Dolls.jpg" width="250" height="161">](/archive/mediawiki_wiki/images/Russian_Dolls.jpg "Russian Dolls image")
+[<img alt="Russian Dolls image" src="/mediawiki_wiki/images/Russian_Dolls.jpg" width="250" height="161">](/mediawiki_wiki/images/Russian_Dolls.jpg "Russian Dolls image")
 
 You'll see the term "bubble-up" used below. It means that the content "bubbles up" to parent levels. For example, a calendared event in a task group might bubble up to the calendar of its parent group; and, a community (group) announcement might bubble up to announcements at the top-level of DCMI.
 
 ## Categories of Group Activity 
 
-[<img alt="DCMI Entity-Activity Diagram" src="/archive/mediawiki_wiki/images/Entity_Structure.jpg" width="720" height="465">](/archive/mediawiki_wiki/images/Entity_Structure.jpg "DCMI Entity-Activity Diagram")
+[<img alt="DCMI Entity-Activity Diagram" src="/mediawiki_wiki/images/Entity_Structure.jpg" width="720" height="465">](/mediawiki_wiki/images/Entity_Structure.jpg "DCMI Entity-Activity Diagram")
 
 ### _A. Communications and Social Networking_ 
 
@@ -64,7 +64,7 @@ Traditionally, the groups within DCMI have had listservs as their primary (only)
 2. Forums
 3. Open commenting
 
-[<img alt="Community Activity Illustration" src="/archive/mediawiki_wiki/images/Communicate_Activity.jpg" width="720" height="514">](/archive/mediawiki_wiki/images/Communicate_Activity.jpg "Community Activity Illustration")
+[<img alt="Community Activity Illustration" src="/mediawiki_wiki/images/Communicate_Activity.jpg" width="720" height="514">](/mediawiki_wiki/images/Communicate_Activity.jpg "Community Activity Illustration")
 
 ### _B. Domain Ecology Watch_ 
 
@@ -79,7 +79,7 @@ Groups vary considerably in their levels of activity. While activity of some is 
   - Glossary term submissions (community response & comment);
   - New initiatives happening around the world.
 
-[<img alt="Watch Activity Illustration" src="/archive/mediawiki_wiki/images/Watch_Activity.jpg" width="720" height="514">](/archive/mediawiki_wiki/images/Watch_Activity.jpg "Watch Activity Illustration")
+[<img alt="Watch Activity Illustration" src="/mediawiki_wiki/images/Watch_Activity.jpg" width="720" height="514">](/mediawiki_wiki/images/Watch_Activity.jpg "Watch Activity Illustration")
 
 ### _C. Committed Work_ 
 
@@ -91,7 +91,7 @@ In DCMI, committed work (i.e., work with an explicit agenda and more-or-less est
   - Documentation
   - Learning resources
 
-[<img alt="Work Activity Illustration" src="/archive/mediawiki_wiki/images/Work_Activity.jpg" width="720" height="493">](/archive/mediawiki_wiki/images/Work_Activity.jpg "Work Activity Illustration")
+[<img alt="Work Activity Illustration" src="/mediawiki_wiki/images/Work_Activity.jpg" width="720" height="493">](/mediawiki_wiki/images/Work_Activity.jpg "Work Activity Illustration")
 
 ## Community Chinese Menu 
 

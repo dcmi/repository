@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Vocabulary_evaluation_selection_and_re-use.html"
+- "/mediawiki_wiki/Vocabulary_evaluation_selection_and_re-use.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 19 June 2012, at 19:20.  
 This page has been accessed 122,586 times.
 
-Back to the [Vocabulary Management Main Page](/archive/mediawiki_wiki/DCMI_Vocabulary_Management_Community)
+Back to the [Vocabulary Management Main Page](/mediawiki_wiki/DCMI_Vocabulary_Management_Community)
 
 * * *
 <table id="toc" class="toc">
@@ -46,7 +46,7 @@ Back to the [Vocabulary Management Main Page](/archive/mediawiki_wiki/DCMI_Vocab
 
 ### Introduction to the Outline
 
-The draft outline show below is based on the issues and questions developed during the [DC-2011 Vocabulary Management and Alignment Special Session](/archive/mediawiki_wiki/Where_We_Started). The [report of that session](/archive/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/Meeting_Report) provided a wealth of issues on the minds of the best thinkers about vocabulary management that could be gathered in one place. Asking the questions of each other and pointing out the plethora of possible answers is central to the task of gathering what extant guidance we can find, evaluating that, ordering the issues in a useful way, and as a Community, filling in what we can offer about available options.
+The draft outline show below is based on the issues and questions developed during the [DC-2011 Vocabulary Management and Alignment Special Session](/mediawiki_wiki/Where_We_Started). The [report of that session](/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/Meeting_Report) provided a wealth of issues on the minds of the best thinkers about vocabulary management that could be gathered in one place. Asking the questions of each other and pointing out the plethora of possible answers is central to the task of gathering what extant guidance we can find, evaluating that, ordering the issues in a useful way, and as a Community, filling in what we can offer about available options.
 
 This wiki is open to volunteers who'd like to get involved in building this resource. Please contact [Diane Hillmann](mailto:metadata.maven@gmail.com) to be provided with an account [Note: if you already have an account for another DCMI wiki, try that first].
 
@@ -120,5 +120,5 @@ This wiki is open to volunteers who'd like to get involved in building this reso
 
 * * *
 
-Back to the [Vocabulary Management Main Page](/archive/mediawiki_wiki/DCMI_Vocabulary_Management_Community)
+Back to the [Vocabulary Management Main Page](/mediawiki_wiki/DCMI_Vocabulary_Management_Community)
 

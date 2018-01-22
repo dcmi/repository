@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212_Report.html"
+- "/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212_Report.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -22,17 +22,17 @@ Attended: Tom Baker, Dan Brickley, Stuart Sutton, Bernard Vatant, Ahsan Morshed,
           Antoine Isaac, Kirsten Jeude, Corey Harper, Jane Greenberg, John Kunze, Ed Summers, 
           Diane Hillmann
 Date: 2011-12-12, Monday
-Agenda: <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212</a>
+Agenda: <a href="/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212</a>
 Note: This report integrates some follow-up discussion after the meeting.
 
 ----------------------------------------------------------------------
 Links
 -- Wiki page for this Task Group
-    <a href="/archive/mediawiki_wiki/Schema.org_Alignment" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment</a>
+    <a href="/mediawiki_wiki/Schema.org_Alignment" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment</a>
 -- Bernard Vatant's proposal
-    <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Mappings" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Mappings</a>
+    <a href="/mediawiki_wiki/Schema.org_Alignment/Mappings" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Mappings</a>
 - Bernard's proposal with details added
-    <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
+    <a href="/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
 -- DC-ARCHITECTURE mailing list
     <a href="http://www.jiscmail.ac.uk/lists/dc-architecture.html" class="external free" rel="nofollow">http://www.jiscmail.ac.uk/lists/dc-architecture.html</a>
 
@@ -197,7 +197,7 @@ We can surface the versioning so folks can find previous version of mapping.
 We should not be too fussy about agreement.
 
 ======================================================================
-Mapping detals - <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
+Mapping detals - <a href="/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
 
 Tom: Wanted to see the two side-by-side. Wanted to see classes, sub-classes,
 properties. Asking why the two are being maintained separately.

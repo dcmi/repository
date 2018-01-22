@@ -8,16 +8,16 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Implementation_Grant_Proposal_Notes.html"
+- "/mediawiki_wiki/Implementation_Grant_Proposal_Notes.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 8 Sep 2012, at 05:37.  
 This page has been accessed 1,638 times.
 
-- [Draft grant proposal](/archive/mediawiki_wiki/Implementation_Grant_Proposal "Implementation Grant Proposal")
+- [Draft grant proposal](/mediawiki_wiki/Implementation_Grant_Proposal "Implementation Grant Proposal")
 
-[<img alt="Figure 1: Components, outcomes, and trajectories" src="/archive/mediawiki_wiki/images/Outcomes_Trajectories.jpg" width="720" height="540">](/archive/mediawiki_wiki/images/Outcomes_Trajectories.jpg "Figure 1: Components, outcomes, and trajectories")
+[<img alt="Figure 1: Components, outcomes, and trajectories" src="/mediawiki_wiki/images/Outcomes_Trajectories.jpg" width="720" height="540">](/mediawiki_wiki/images/Outcomes_Trajectories.jpg "Figure 1: Components, outcomes, and trajectories")
 
 <table id="toc" class="toc">
   <tr>

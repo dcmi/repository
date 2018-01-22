@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Exec_Committee/QA_struct.html"
+- "/mediawiki_wiki/Exec_Committee/QA_struct.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 15 February 2014, at 22:25.  
 This page has been accessed 96,277 times.
 
-[Return to Executive Committee](/archive/mediawiki_wiki/Exec_Committee "Exec Committee")
+[Return to Executive Committee](/mediawiki_wiki/Exec_Committee "Exec Committee")
 
 <table id="toc" class="toc">
   <tr>
@@ -39,7 +39,7 @@ This page has been accessed 96,277 times.
 
 # FAQ on the 2014 DCMI Organizational Structure 
 
-[<img alt="Organizational Chart" src="/archive/mediawiki_wiki/images/Org_Chart-v7-Committees.png" width="600" height="336">](/archive/mediawiki_wiki/images/Org_Chart-v7-Committees.png "Organizational Chart")
+[<img alt="Organizational Chart" src="/mediawiki_wiki/images/Org_Chart-v7-Committees.png" width="600" height="336">](/mediawiki_wiki/images/Org_Chart-v7-Committees.png "Organizational Chart")
 
 ##   
 _Questions:_

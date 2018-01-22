@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Technical_Board/standards/ISO_Part2/schedule.html"
+- "/mediawiki_wiki/DCMI_Technical_Board/standards/ISO_Part2/schedule.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 12 March 2014, at 12:59.  
 This page has been accessed 24,674 times.
 
-[<img alt="Standards Committee logo" src="/archive/mediawiki_wiki/images/Standards_logo.png" width="300" height="50">](/archive/mediawiki_wiki/images/Standards_logo.png "Standards Committee logo")
+[<img alt="Standards Committee logo" src="/mediawiki_wiki/images/Standards_logo.png" width="300" height="50">](/mediawiki_wiki/images/Standards_logo.png "Standards Committee logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>

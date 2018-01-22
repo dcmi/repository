@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Core_Elements.html"
+- "/mediawiki_wiki/Core_Elements.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 11 December 2014, at 22:12.  
 This page has been accessed 228,931 times.
 
-Back to DCMI/NKOS home [[[1]](/archive/mediawiki_wiki/DCMI_NKOS_Task_Group)]
+Back to DCMI/NKOS home [[[1]](/mediawiki_wiki/DCMI_NKOS_Task_Group)]
 
 <table id="toc" class="toc">
   <tr>
@@ -41,15 +41,15 @@ Back to DCMI/NKOS home [[[1]](/archive/mediawiki_wiki/DCMI_NKOS_Task_Group)]
 
 ## NKOS AP Domain Model 
 
-This is a domain model that help the group to sort out the entities and attributes. It is not the final model. [<img alt="NkosAPDomainModel.png" src="/archive/mediawiki_wiki/images/NkosAPDomainModel.png" width="811" height="828">](/archive/mediawiki_wiki/images/NkosAPDomainModel.png)
+This is a domain model that help the group to sort out the entities and attributes. It is not the final model. [<img alt="NkosAPDomainModel.png" src="/mediawiki_wiki/images/NkosAPDomainModel.png" width="811" height="828">](/mediawiki_wiki/images/NkosAPDomainModel.png)
 
 ## NKOS AP Entity Relationships 
 
 Updated 2013-05-12
 
-Refer to KOS Relation-Type Vocabulary at [NKOS\_Vocabularies](/archive/mediawiki_wiki/NKOS_Vocabularies "NKOS Vocabularies") page
+Refer to KOS Relation-Type Vocabulary at [NKOS\_Vocabularies](/mediawiki_wiki/NKOS_Vocabularies "NKOS Vocabularies") page
 
-Note: These are identified relationships between Work, Expression, and Manifestation entities. For an example of a thesaurus, see: [KOS\_example](/archive/mediawiki_wiki/KOS_example "KOS example")
+Note: These are identified relationships between Work, Expression, and Manifestation entities. For an example of a thesaurus, see: [KOS\_example](/mediawiki_wiki/KOS_example "KOS example")
 
 <table border="1" cellpadding="0" cellspacing="0" width="324" style="border-collapse: collapse;table-layout:fixed;width:324pt">
   <tr style="height:16.0pt">
@@ -143,7 +143,7 @@ Note: These are identified relationships between Work, Expression, and Manifesta
 
 ## NKOS Attributes and Metadata Elements Overview 
 
-(The core elements were identified based on the previous studies of over 10 KOS registries and a survey of related researchers and implementors) Updated 2013-09-09: changed "size" to "sizeNote"; added "usedBy" to work level; added "#" to "audience"._See also_ [NKOS AP Elements](/archive/mediawiki_wiki/NKOS_AP_Elements "NKOS AP Elements") Defined
+(The core elements were identified based on the previous studies of over 10 KOS registries and a survey of related researchers and implementors) Updated 2013-09-09: changed "size" to "sizeNote"; added "usedBy" to work level; added "#" to "audience"._See also_ [NKOS AP Elements](/mediawiki_wiki/NKOS_AP_Elements "NKOS AP Elements") Defined
 
 Symbols used in the following tables:
 

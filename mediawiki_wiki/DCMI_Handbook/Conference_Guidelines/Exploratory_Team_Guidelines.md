@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Exploratory_Team_Guidelines.html"
+- "/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Exploratory_Team_Guidelines.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 24 July 2012, at 15:49.  
 This page has been accessed 184,200 times.
 
-Return to [DCMI Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook")
+Return to [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook")
 
 <table id="toc" class="toc">
   <tr>

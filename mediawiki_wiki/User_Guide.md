@@ -58,9 +58,9 @@ These guidelines provide an entry point for users of Dublin Core -- i.e., for us
 
 - **User Guide** : a short introduction about Dublin Core and Dublin Core Terms
 
-- **[Creating Metadata](/archive/mediawiki_wiki/User_Guide/Creating_Metadata "User Guide/Creating Metadata")**: a description how to create content for DCMI Metadata illustrated by examples
+- **[Creating Metadata](/mediawiki_wiki/User_Guide/Creating_Metadata "User Guide/Creating Metadata")**: a description how to create content for DCMI Metadata illustrated by examples
 
-- **[Publishing Metadata](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata "User Guide/Publishing Metadata")**: a description how to use Dublin Core Metadata as linked data illustrated by examples
+- **[Publishing Metadata](/mediawiki_wiki/User_Guide/Publishing_Metadata "User Guide/Publishing Metadata")**: a description how to use Dublin Core Metadata as linked data illustrated by examples
 
 # What is Metadata?
 
@@ -105,9 +105,9 @@ This User Guide describes the usage of Dublin Core Properties and their relation
 
 and illustrate their usage by examples. Examples are offered for two points of view: for the "cataloger" creating metadata descriptions, typically with help from a software interface, and for the "technician" responsible for publishing the data created as linked data.
 
-- [Creating Metadata](/archive/mediawiki_wiki/User_Guide/Creating_Metadata "User Guide/Creating Metadata"): describes how to create content for DCMI Metadata listing each property by name, abbreviated URI, and definition, and groups together related properties -- i.e. properties that can be described with similar usage guidelines and illustrated with similar examples.
+- [Creating Metadata](/mediawiki_wiki/User_Guide/Creating_Metadata "User Guide/Creating Metadata"): describes how to create content for DCMI Metadata listing each property by name, abbreviated URI, and definition, and groups together related properties -- i.e. properties that can be described with similar usage guidelines and illustrated with similar examples.
 
-- [Publishing Metadata](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata "User Guide/Publishing Metadata"): describes how to use DCMI Metadata as linked data listing the properties by namespaces.
+- [Publishing Metadata](/mediawiki_wiki/User_Guide/Publishing_Metadata "User Guide/Publishing Metadata"): describes how to use DCMI Metadata as linked data listing the properties by namespaces.
   - The terms namespace
     - used with literal values
     - used with non-literal values

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Implementation_Grant_Proposal.html"
+- "/mediawiki_wiki/Implementation_Grant_Proposal.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,9 +17,9 @@ This page has been accessed 12,871 times.
 
 **Project Links**
 
-- [Project home](/archive/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
-- [Original Notes on Implementation Grant Proposal](/archive/mediawiki_wiki/Implementation_Grant_Proposal_Notes "Implementation Grant Proposal Notes")
-- [Discussion draft edited during meetings 17-18 Sept.](/archive/mediawiki_wiki/Implementation_Grant_Discussion_Draft "Implementation Grant Discussion Draft")
+- [Project home](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
+- [Original Notes on Implementation Grant Proposal](/mediawiki_wiki/Implementation_Grant_Proposal_Notes "Implementation Grant Proposal Notes")
+- [Discussion draft edited during meetings 17-18 Sept.](/mediawiki_wiki/Implementation_Grant_Discussion_Draft "Implementation Grant Discussion Draft")
 - IMLS National Leadership Grant guidelines, 10 pp. overall:
   - [General guidelines](http://www.imls.gov/applicants/national_leadership_grant_guidelines.aspx#toc4)
   - [Narrative guidelines](http://www.imls.gov/applicants/national_leadership_grant_guidelines.aspx#narrative)
@@ -150,7 +150,7 @@ Commenters during the planning phase also improved prospects for the project's i
 
 # Project Design
 
- [<img alt="LLDImplementationFrameworkV2.png" src="/archive/mediawiki_wiki/images/LLDImplementationFrameworkV2.png" width="600" height="555">](/archive/mediawiki_wiki/images/LLDImplementationFrameworkV2.png)
+ [<img alt="LLDImplementationFrameworkV2.png" src="/mediawiki_wiki/images/LLDImplementationFrameworkV2.png" width="600" height="555">](/mediawiki_wiki/images/LLDImplementationFrameworkV2.png)
 
 The planning project initially envisioned the "language lab" for learning Linked data as a software platform -- a set of analytical and data-processing tools, with documentation on how to use those tools for teaching, possibly packaged for download, and ideally integrated with an "orchestrator" interface. The participants concluded, however, that a project heavy on software development would be risky to undertake, subject to continual obsolescence, and thus unsustainably expensive to maintain.
 
@@ -185,7 +185,7 @@ Rather, the project converged on the concept of a learning environment comprisin
 
 # Project Resources: Personnel, time, budget
 
- [<img alt="LLDImplementationTimeline2year.png" src="/archive/mediawiki_wiki/images/LLDImplementationTimeline2year.png" width="850" height="483">](/archive/mediawiki_wiki/images/LLDImplementationTimeline2year.png)
+ [<img alt="LLDImplementationTimeline2year.png" src="/mediawiki_wiki/images/LLDImplementationTimeline2year.png" width="850" height="483">](/mediawiki_wiki/images/LLDImplementationTimeline2year.png)
 
 Learning Linked Data anticipates a 2-year implementation timeline, as indicated in the chart above. Columns for the 1-year period of the planning grant, now concluded, indicate accomplishments so far. A process for developing learning topics has resulted in a completed Inventory and led to articulation of a design framework for the solution to be implemented. A community of stakeholders has begun to emerge through the process of commenting on drafts of the Inventory, and they have started identifying learning objectives to be achieved in broad terms along with learning resources that may support progress toward achieving those objectives. This input provides a rich basis of user input to support functional need analysis and development for formal functional requirements early in the first year of the implementation cycle. It also highlights candidates for positions on the team of evaluators who will collaborate with project staff to articulate assessment criteria and evaluate design and development work through an iterative process of feedback-driven development, culminating in final validation of the Learning Lab implementation.
 

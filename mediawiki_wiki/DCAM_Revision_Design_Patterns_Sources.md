@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns_Sources.html"
+- "/mediawiki_wiki/DCAM_Revision_Design_Patterns_Sources.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -358,9 +358,9 @@ The following DSP allows for two kinds of resources: a single "document", and mu
 </pre>
 ## Higher level examples from library and archive communities 
 
-- Example: [Publication statement](/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement "DCAM Revision High Level Example Publication Statement")
-- Example: [Name heading](/archive/mediawiki_wiki/DCAM_Revision_Example_Name_Heading "DCAM Revision Example Name Heading")
-- Example: [Core elements](/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements "DCAM Revision High Level Example Core Elements")
-- Example: [Resource descriptions](/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions "DCAM Revision High Level Example Resource Descriptions")
-- [ISBD description set profile](/archive/mediawiki_wiki/DCAM_Revision_ISBD_DSP "DCAM Revision ISBD DSP")
+- Example: [Publication statement](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement "DCAM Revision High Level Example Publication Statement")
+- Example: [Name heading](/mediawiki_wiki/DCAM_Revision_Example_Name_Heading "DCAM Revision Example Name Heading")
+- Example: [Core elements](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements "DCAM Revision High Level Example Core Elements")
+- Example: [Resource descriptions](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions "DCAM Revision High Level Example Resource Descriptions")
+- [ISBD description set profile](/mediawiki_wiki/DCAM_Revision_ISBD_DSP "DCAM Revision ISBD DSP")
 

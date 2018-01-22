@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template.html"
+- "/mediawiki_wiki/DCMI_Conference_System/Documentation_Template.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -18,26 +18,26 @@ This page has been accessed 48,092 times.
 ## Documentation Template 
 
 - [See also formatted version](http://www.preciserecall.com/lis/files/ocs/)
-- [Documentation notes](/archive/mediawiki_wiki/DCMI_Conference_System/OCS_Documentation)
+- [Documentation notes](/mediawiki_wiki/DCMI_Conference_System/OCS_Documentation)
 
-**1.1 Procedure Title** [<1>](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
+**1.1 Procedure Title** [<1>](/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
 
-_Brief text summary of procedure scope & objectives_ [<2>](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
+_Brief text summary of procedure scope & objectives_ [<2>](/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
 
-**Responsible:** Conf. Information Manager [<3>](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
+**Responsible:** Conf. Information Manager [<3>](/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
 
-**Required:** State any prerequisites to completing the procedure, including data and/or files to be collected for uploading, images, approvals, etc. Anything the user must have before proceeding to complete the steps. [<4>](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
+**Required:** State any prerequisites to completing the procedure, including data and/or files to be collected for uploading, images, approvals, etc. Anything the user must have before proceeding to complete the steps. [<4>](/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
 
-1. Process steps numbered, starting with definition of required preconditions – system states, prior procedures completed, user skills, user knowledge [<5>](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
-2. List includes 3-7 steps (5 +/- 2) [<6>](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
-3. Short, declarative statements of 1-2 actions per step [<7>](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
+1. Process steps numbered, starting with definition of required preconditions – system states, prior procedures completed, user skills, user knowledge [<5>](/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
+2. List includes 3-7 steps (5 +/- 2) [<6>](/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
+3. Short, declarative statements of 1-2 actions per step [<7>](/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
 <pre>Warning! Notes interspersed in steps and called out with special formatting 
 highlight warnings of probable errors and/or guide user in recovering from probable errors <a href="/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes.md" class="external text" rel="nofollow">&lt;8&gt;</a>
 </pre>
-1. For users who need explanation about a step provide More detail . . . [<9>](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
-2. But AVOID Mr. Clipit-style intrusiveness – keep layered detail under user control!! [<10>](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
+1. For users who need explanation about a step provide More detail . . . [<9>](/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
+2. But AVOID Mr. Clipit-style intrusiveness – keep layered detail under user control!! [<10>](/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
 
-**Next Procedure:** 1.2 Next Procedure Title [<11>](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
+**Next Procedure:** 1.2 Next Procedure Title [<11>](/mediawiki_wiki/DCMI_Conference_System/Documentation_Template#Notes)
 
 * * *
 

@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Comments.html"
+- "/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Comments.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 1 January 2014, at 13:24.  
 This page has been accessed 14,946 times.
 
-[Return to Executive Committee](/archive/mediawiki_wiki/Exec_Committee "Exec Committee")
+[Return to Executive Committee](/mediawiki_wiki/Exec_Committee "Exec Committee")
 
 <table id="toc" class="toc">
   <tr>

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/FAQ/XML_Elements_and_RDF_Elements.html"
+- "/mediawiki_wiki/FAQ/XML_Elements_and_RDF_Elements.html"
 ---
 
  **This is an archived MediaWiki page.**  

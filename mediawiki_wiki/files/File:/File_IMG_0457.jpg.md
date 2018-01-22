@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_IMG_0457.jpg.html"
+- "/mediawiki_wiki/files/File:/File_IMG_0457.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:IMG 0457.jpg" src="/images/a/a6/IMG_0457.jpg" width="448" height="600">](/archive/mediawiki_wiki/files/IMG_0457.jpg)  
+ [<img alt="File:IMG 0457.jpg" src="/images/a/a6/IMG_0457.jpg" width="448" height="600">](/mediawiki_wiki/files/IMG_0457.jpg)  
 <small>Size of this preview: 448 × 600 pixels</small>  
  [Full resolution](/images/a/a6/IMG_0457.jpg)‎ (1,936 × 2,592 pixels, file size: 1.43 MB, MIME type: image/jpeg)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/IMG_0457.jpg">16:49, 13 October 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/IMG_0457.jpg">16:49, 13 October 2011</a></td>
     <td><a href="/images/a/a6/IMG_0457.jpg"><img alt="Thumbnail for version as of 16:49, 13 October 2011" src="/images/a/a6/IMG_0457.jpg" width="90" height="120"></a></td>
     <td>1,936×2,592 <span style="white-space: nowrap;">(1.43 MB)</span>
     </td>
@@ -68,13 +68,13 @@ The following page links to this file:
 
 - [DC-2011 Vocabulary Special Session/Transcribed flipcharts](/index.php/DC-2011_Vocabulary_Special_Session/Transcribed_flipcharts "DC-2011 Vocabulary Special Session/Transcribed flipcharts")
 
-Retrieved from " [/archive/mediawiki_wiki/File:IMG\_0457.jpg](/archive/mediawiki_wiki/files/File:/File:IMG_0457.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:IMG\_0457.jpg](/mediawiki_wiki/files/File:/File:IMG_0457.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:IMG_0457.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:IMG_0457.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:IMG_0457.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:IMG_0457.jpg&action=edit "This page is protected.
 You can view its source [e]")

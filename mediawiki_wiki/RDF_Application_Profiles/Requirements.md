@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/RDF_Application_Profiles/Requirements.html"
+- "/mediawiki_wiki/RDF_Application_Profiles/Requirements.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 27 August 2015, at 15:36.  
 This page has been accessed 84,376 times.
 
-[<img alt="RDF AP TG logo" src="/archive/mediawiki_wiki/images/RdfAP_tg.png" width="200" height="141">](/archive/mediawiki_wiki/images/RdfAP_tg.png "RDF AP TG logo")
+[<img alt="RDF AP TG logo" src="/mediawiki_wiki/images/RdfAP_tg.png" width="200" height="141">](/mediawiki_wiki/images/RdfAP_tg.png "RDF AP TG logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -121,11 +121,11 @@ This page has been accessed 84,376 times.
 
 **Identifier:** [http://wiki.dublincore.org/index.php?title=RDF\_Application\_Profiles/Requirements](http://wiki.dublincore.org/index.php?title=RDF_Application_Profiles/Requirements)
 
-**Replaces:** [/archive/mediawiki_wiki/Deliverable\_1](/archive/mediawiki_wiki/Deliverable_1)
+**Replaces:** [/mediawiki_wiki/Deliverable\_1](/mediawiki_wiki/Deliverable_1)
 
 **Is Replaced By:** Not applicable
 
-**Latest Version:** [/archive/mediawiki_wiki/RDF\_Application\_Profiles/Requirements](/archive/mediawiki_wiki/RDF_Application_Profiles/Requirements)
+**Latest Version:** [/mediawiki_wiki/RDF\_Application\_Profiles/Requirements](/mediawiki_wiki/RDF_Application_Profiles/Requirements)
 
 **Status of Document:** Draft
 
@@ -133,13 +133,13 @@ This page has been accessed 84,376 times.
 
 **Note:** Items with titles in bold are considered by the group to be **core** validation requirements.
 
-**Note:** These are requirements based on [these Use Cases](/archive/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable)
+**Note:** These are requirements based on [these Use Cases](/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable)
 
 ## Introduction
 
-This report supplements the Report on Use Cases [these Use Cases](/archive/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable). Requirements are derived from the use cases and specific case studies. See that report for the list of projects that submitted data for this study.
+This report supplements the Report on Use Cases [these Use Cases](/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable). Requirements are derived from the use cases and specific case studies. See that report for the list of projects that submitted data for this study.
 
-The full descriptions of case studies and use cases can be found in the [task force wiki](/archive/mediawiki_wiki/RDF_Application_Profiles). Case studies and the corresponding use cases are collected in the [DCMI RDF-AP database](http://purl.org/net/rdf-application-profiles) (see [DCMI RDF Application Profiles database on case studies, use cases, requirements, and solutions](/archive/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable#DCMI_RDF_Application_Profiles_database_on_case_studies,_use_cases,_requirements,_and_solutions)).
+The full descriptions of case studies and use cases can be found in the [task force wiki](/mediawiki_wiki/RDF_Application_Profiles). Case studies and the corresponding use cases are collected in the [DCMI RDF-AP database](http://purl.org/net/rdf-application-profiles) (see [DCMI RDF Application Profiles database on case studies, use cases, requirements, and solutions](/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable#DCMI_RDF_Application_Profiles_database_on_case_studies,_use_cases,_requirements,_and_solutions)).
 
 # Meta-Requirements
 

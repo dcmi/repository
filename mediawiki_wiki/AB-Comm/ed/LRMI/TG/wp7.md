@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp7.html"
+- "/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp7.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 4 March 2016, at 11:24.  
 This page has been accessed 24,089 times.
 
-[<img alt="DCMI/LRMI Tas Group" src="/archive/mediawiki_wiki/images/DC-LRMI_TG.png" width="200" height="121">](/archive/mediawiki_wiki/images/DC-LRMI_TG.png "DCMI/LRMI Tas Group")
+[<img alt="DCMI/LRMI Tas Group" src="/mediawiki_wiki/images/DC-LRMI_TG.png" width="200" height="121">](/mediawiki_wiki/images/DC-LRMI_TG.png "DCMI/LRMI Tas Group")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -33,7 +33,7 @@ This page has been accessed 24,089 times.
 
 * * *
 
-[Return to TG homepage](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG")
+[Return to TG homepage](/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG")
 
 <table id="toc" class="toc">
   <tr>
@@ -58,7 +58,7 @@ This page has been accessed 24,089 times.
 
 # Work Package #7: Course Extension to schema.org 
 
-As indicated by [purcolating notes on course](/archive/mediawiki_wiki/AB-Comm/ed/LRMI/TG/courses "AB-Comm/ed/LRMI/TG/courses"), there has been discussion over a long period indicating the desirability of terms in schema.org to address educational courses. This work packages aims to address that issue.
+As indicated by [purcolating notes on course](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/courses "AB-Comm/ed/LRMI/TG/courses"), there has been discussion over a long period indicating the desirability of terms in schema.org to address educational courses. This work packages aims to address that issue.
 
 See [schema.org github issue on courses](https://github.com/schemaorg/schemaorg/issues/195) for a the current discusion thread, and see also [the initial proposal, with subsequent comments & edits](https://docs.google.com/document/d/12YWjLzZC8FiTiOwSAETRIEozeqZdn6O8a4fgqK4t5Ss/edit#heading=h.rfn4nr6j1toq) (Google doc).
 

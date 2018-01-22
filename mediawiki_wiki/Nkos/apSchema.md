@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Nkos/apSchema.html"
+- "/mediawiki_wiki/Nkos/apSchema.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 14 November 2014, at 14:15.  
 This page has been accessed 26,811 times.
 
-[<img alt="Community Specifications Committee logo" src="/archive/mediawiki_wiki/images/Specifications_logo.png" width="500" height="70">](/archive/mediawiki_wiki/images/Specifications_logo.png "Community Specifications Committee logo")
+[<img alt="Community Specifications Committee logo" src="/mediawiki_wiki/images/Specifications_logo.png" width="500" height="70">](/mediawiki_wiki/images/Specifications_logo.png "Community Specifications Committee logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -55,7 +55,7 @@ This page has been accessed 26,811 times.
 
 * * *
 
-[NKOS AP Homepage](/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/nkos "DCMI Technical Board/specifications/nkos")
+[NKOS AP Homepage](/mediawiki_wiki/DCMI_Technical_Board/specifications/nkos "DCMI Technical Board/specifications/nkos")
 
 # NKOS AP RDF Schema (RDFa) -- NKOS New Terms 
 
@@ -64,5 +64,5 @@ This page has been accessed 26,811 times.
 
 ## References 
 
-1. ↑ [/archive/mediawiki_wiki/Nkos/apTermTables](/archive/mediawiki_wiki/Nkos/apTermTables)
+1. ↑ [/mediawiki_wiki/Nkos/apTermTables](/mediawiki_wiki/Nkos/apTermTables)
 

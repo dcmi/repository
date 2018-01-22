@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCLib_AP/DCLib_Classes.html"
+- "/mediawiki_wiki/DCLib_AP/DCLib_Classes.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -47,5 +47,5 @@ Classes of the DC-Lib AP for Bibliographic Text Resources
 
 * * *
 
-Go back to [AP for Bibliographic Text Resources](/archive/mediawiki_wiki/DCLib_AP#Description_Set_Profile_of_the_DC-Lib_AP_for_Bibliographic_Text_Resources "DCLib AP")
+Go back to [AP for Bibliographic Text Resources](/mediawiki_wiki/DCLib_AP#Description_Set_Profile_of_the_DC-Lib_AP_for_Bibliographic_Text_Resources "DCLib AP")
 

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_ELS_NS_Logo_2C_RGB.jpg.html"
+- "/mediawiki_wiki/files/File:/File_ELS_NS_Logo_2C_RGB.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:ELS NS Logo 2C RGB.jpg" src="/images/a/aa/ELS_NS_Logo_2C_RGB.jpg" width="543" height="600">](/archive/mediawiki_wiki/files/ELS_NS_Logo_2C_RGB.jpg)  
+ [<img alt="File:ELS NS Logo 2C RGB.jpg" src="/images/a/aa/ELS_NS_Logo_2C_RGB.jpg" width="543" height="600">](/mediawiki_wiki/files/ELS_NS_Logo_2C_RGB.jpg)  
 <small>No higher resolution available.</small>  
  [ELS\_NS\_Logo\_2C\_RGB.jpg](/images/a/aa/ELS_NS_Logo_2C_RGB.jpg)‎ (543 × 600 pixels, file size: 91 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/ELS_NS_Logo_2C_RGB.jpg">19:37, 16 April 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/ELS_NS_Logo_2C_RGB.jpg">19:37, 16 April 2015</a></td>
     <td><a href="/images/a/aa/ELS_NS_Logo_2C_RGB.jpg"><img alt="Thumbnail for version as of 19:37, 16 April 2015" src="/images/a/aa/ELS_NS_Logo_2C_RGB.jpg" width="109" height="120"></a></td>
     <td>543×600 <span style="white-space: nowrap;">(91 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [Marketing and Community Building](/index.php/Marketing_and_Community_Building "Marketing and Community Building")
 
-Retrieved from " [/archive/mediawiki_wiki/File:ELS\_NS\_Logo\_2C\_RGB.jpg](/archive/mediawiki_wiki/files/File:/File:ELS_NS_Logo_2C_RGB.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:ELS\_NS\_Logo\_2C\_RGB.jpg](/mediawiki_wiki/files/File:/File:ELS_NS_Logo_2C_RGB.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:ELS_NS_Logo_2C_RGB.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:ELS_NS_Logo_2C_RGB.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:ELS_NS_Logo_2C_RGB.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:ELS_NS_Logo_2C_RGB.jpg&action=edit "This page is protected.
 You can view its source [e]")

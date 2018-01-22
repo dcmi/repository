@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DspNew.jpg.html"
+- "/mediawiki_wiki/files/File:/File_DspNew.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:DspNew.jpg" src="/images/a/ae/DspNew.jpg" width="666" height="599">](/archive/mediawiki_wiki/files/DspNew.jpg)  
+ [<img alt="File:DspNew.jpg" src="/images/a/ae/DspNew.jpg" width="666" height="599">](/mediawiki_wiki/files/DspNew.jpg)  
 <small>Size of this preview: 666 × 599 pixels</small>  
  [Full resolution](/images/a/ae/DspNew.jpg)‎ (700 × 630 pixels, file size: 43 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DspNew.jpg">22:36, 22 August 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DspNew.jpg">22:36, 22 August 2014</a></td>
     <td><a href="/images/a/ae/DspNew.jpg"><img alt="Thumbnail for version as of 22:36, 22 August 2014" src="/images/a/ae/DspNew.jpg" width="120" height="108"></a></td>
     <td>700×630 <span style="white-space: nowrap;">(43 KB)</span>
     </td>
@@ -70,13 +70,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:DspNew.jpg](/archive/mediawiki_wiki/files/File:/File:DspNew.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:DspNew.jpg](/mediawiki_wiki/files/File:/File:DspNew.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DspNew.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DspNew.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DspNew.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DspNew.jpg&action=edit "This page is protected.
 You can view its source [e]")

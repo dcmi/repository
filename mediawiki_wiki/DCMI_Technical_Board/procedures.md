@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Technical_Board/procedures.html"
+- "/mediawiki_wiki/DCMI_Technical_Board/procedures.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 2 August 2015, at 21:32.  
 This page has been accessed 14,474 times.
 
-[<img alt="Technical Board logo" src="/archive/mediawiki_wiki/images/Technical_Board.png" width="200" height="63">](/archive/mediawiki_wiki/images/Technical_Board.png "Technical Board logo")
+[<img alt="Technical Board logo" src="/mediawiki_wiki/images/Technical_Board.png" width="200" height="63">](/mediawiki_wiki/images/Technical_Board.png "Technical Board logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Technical_Board.md" title="DCMI Technical Board">Technical Board</a> Committees:</i> <a href="/mediawiki_wiki/DCMI_Technical_Board/usage.md" title="DCMI Technical Board/usage">Usage</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/standards.md" title="DCMI Technical Board/standards">Standards &amp; Liaisons</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/specifications.md" title="DCMI Technical Board/specifications">Community Specifications</a> ◘ <a href="/mediawiki_wiki/DCMI_FOAF_Cooperation.md" title="DCMI FOAF Cooperation">DCMI FOAF Cooperation</a>
 </dd>

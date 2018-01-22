@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives.html"
+- "/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -65,13 +65,13 @@ The planning for the London meeting was originally located on the [DC-Libraries 
 
 ## Wiki Pages 
 
-[Use Cases](/archive/mediawiki_wiki/Use_Cases "Use Cases")
+[Use Cases](/mediawiki_wiki/Use_Cases "Use Cases")
 
-[Cataloger Scenarios](/archive/mediawiki_wiki/Cataloger_Scenarios "Cataloger Scenarios")
+[Cataloger Scenarios](/mediawiki_wiki/Cataloger_Scenarios "Cataloger Scenarios")
 
-[User Scenarios](/archive/mediawiki_wiki/User_Scenarios "User Scenarios")
+[User Scenarios](/mediawiki_wiki/User_Scenarios "User Scenarios")
 
-[Developer Scenarios](/archive/mediawiki_wiki/Developer_Scenarios "Developer Scenarios")
+[Developer Scenarios](/mediawiki_wiki/Developer_Scenarios "Developer Scenarios")
 
 ### Task Analyses
 

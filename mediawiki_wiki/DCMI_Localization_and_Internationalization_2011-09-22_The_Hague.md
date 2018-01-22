@@ -9,7 +9,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Localization_and_Internationalization_2011-09-22_The_Hague.html"
+- "/mediawiki_wiki/DCMI_Localization_and_Internationalization_2011-09-22_The_Hague.html"
 ---
 
  **This is an archived MediaWiki page.**  

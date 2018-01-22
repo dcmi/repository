@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Handbook/MediaWiki_Simple_Help.html"
+- "/mediawiki_wiki/DCMI_Handbook/MediaWiki_Simple_Help.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -38,35 +38,35 @@ This page has been accessed 106,916 times.
 
 ## Bolding Text 
 
-[<img alt="Bolding text" src="/archive/mediawiki_wiki/images/MediaWiki-Bold.jpg" width="337" height="36">](/archive/mediawiki_wiki/images/MediaWiki-Bold.jpg "Bolding text")
+[<img alt="Bolding text" src="/mediawiki_wiki/images/MediaWiki-Bold.jpg" width="337" height="36">](/mediawiki_wiki/images/MediaWiki-Bold.jpg "Bolding text")
 
 ## Italicizing Text 
 
-[<img alt="Italizing text" src="/archive/mediawiki_wiki/images/MediaWiki-Italics.jpg" width="335" height="35">](/archive/mediawiki_wiki/images/MediaWiki-Italics.jpg "Italizing text")
+[<img alt="Italizing text" src="/mediawiki_wiki/images/MediaWiki-Italics.jpg" width="335" height="35">](/mediawiki_wiki/images/MediaWiki-Italics.jpg "Italizing text")
 
 ## Creating New Page / Linking to Existing Page 
 
-[<img alt="Creating new page or link to existing page" src="/archive/mediawiki_wiki/images/MediaWiki-InternalLink.jpg" width="336" height="36">](/archive/mediawiki_wiki/images/MediaWiki-InternalLink.jpg "Creating new page or link to existing page")
+[<img alt="Creating new page or link to existing page" src="/mediawiki_wiki/images/MediaWiki-InternalLink.jpg" width="336" height="36">](/mediawiki_wiki/images/MediaWiki-InternalLink.jpg "Creating new page or link to existing page")
 
 ## Link to External Resource 
 
-[<img alt="External link" src="/archive/mediawiki_wiki/images/MediaWiki-ExternalLink.jpg" width="334" height="36">](/archive/mediawiki_wiki/images/MediaWiki-ExternalLink.jpg "External link")
+[<img alt="External link" src="/mediawiki_wiki/images/MediaWiki-ExternalLink.jpg" width="334" height="36">](/mediawiki_wiki/images/MediaWiki-ExternalLink.jpg "External link")
 
 ## Turn Text into 2nd-Level Heading 
 
-[<img alt="Turn text into 2nd-level heading" src="/archive/mediawiki_wiki/images/MediaWiki-Level2Head.jpg" width="336" height="35">](/archive/mediawiki_wiki/images/MediaWiki-Level2Head.jpg "Turn text into 2nd-level heading")
+[<img alt="Turn text into 2nd-level heading" src="/mediawiki_wiki/images/MediaWiki-Level2Head.jpg" width="336" height="35">](/mediawiki_wiki/images/MediaWiki-Level2Head.jpg "Turn text into 2nd-level heading")
 
 ## Embed(show) a File on a Page 
 
-[<img alt="Embed (show) a file on a page; e.g., an image" src="/archive/mediawiki_wiki/images/MediaWiki-EmbedFile.jpg" width="334" height="36">](/archive/mediawiki_wiki/images/MediaWiki-EmbedFile.jpg "Embed (show) a file on a page; e.g., an image")
+[<img alt="Embed (show) a file on a page; e.g., an image" src="/mediawiki_wiki/images/MediaWiki-EmbedFile.jpg" width="334" height="36">](/mediawiki_wiki/images/MediaWiki-EmbedFile.jpg "Embed (show) a file on a page; e.g., an image")
 
 ## Link to an Uploaded File 
 
-[<img alt="Link to a file" src="/archive/mediawiki_wiki/images/MediaWiki-FileLink.jpg" width="335" height="36">](/archive/mediawiki_wiki/images/MediaWiki-FileLink.jpg "Link to a file")
+[<img alt="Link to a file" src="/mediawiki_wiki/images/MediaWiki-FileLink.jpg" width="335" height="36">](/mediawiki_wiki/images/MediaWiki-FileLink.jpg "Link to a file")
 
 ## Insert Horizontal Divider Line 
 
-[<img alt="Horizontal line" src="/archive/mediawiki_wiki/images/MediaWiki-HLine.jpg" width="336" height="37">](/archive/mediawiki_wiki/images/MediaWiki-HLine.jpg "Horizontal line")
+[<img alt="Horizontal line" src="/mediawiki_wiki/images/MediaWiki-HLine.jpg" width="336" height="37">](/mediawiki_wiki/images/MediaWiki-HLine.jpg "Horizontal line")
 
 ## Upload a File 
 

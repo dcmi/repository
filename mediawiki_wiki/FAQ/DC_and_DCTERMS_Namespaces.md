@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.html"
+- "/mediawiki_wiki/FAQ/DC_and_DCTERMS_Namespaces.html"
 ---
 
  **This is an archived MediaWiki page.**  

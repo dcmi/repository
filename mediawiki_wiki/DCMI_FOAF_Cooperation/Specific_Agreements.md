@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_FOAF_Cooperation/Specific_Agreements.html"
+- "/mediawiki_wiki/DCMI_FOAF_Cooperation/Specific_Agreements.html"
 ---
 
  **This is an archived MediaWiki page.**  

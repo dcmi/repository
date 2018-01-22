@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Technical_Board/specifications/community_namespaces.html"
+- "/mediawiki_wiki/DCMI_Technical_Board/specifications/community_namespaces.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -93,6 +93,6 @@ This proposal could perhaps provide the first draft of a DCMI namespace policy f
 
 [1] [http://dublincore.org/documents/dcmi-namespace/](http://dublincore.org/documents/dcmi-namespace/)   
 [2] [http://github.com/dublincore/website](http://github.com/dublincore/website)   
-[3] [/archive/mediawiki_wiki/DCMI\_Technical\_Board/specifications](/archive/mediawiki_wiki/DCMI_Technical_Board/specifications)   
+[3] [/mediawiki_wiki/DCMI\_Technical\_Board/specifications](/mediawiki_wiki/DCMI_Technical_Board/specifications)   
 [4] [http://dublincore.org/groups/collections/collection-application-profile/](http://dublincore.org/groups/collections/collection-application-profile/)
 

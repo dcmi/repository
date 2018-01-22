@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/CSC.html"
+- "/mediawiki_wiki/CSC.html"
 ---
 
  **This is an archived MediaWiki page.**  

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/User_Guide/Creating_Metadata.html"
+- "/mediawiki_wiki/User_Guide/Creating_Metadata.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -19,7 +19,7 @@ This page has been accessed 221,673 times.
 - Contributer: Tom Baker 
 - Contributor: Pete Johnston
 
-Go to [User Guide](/archive/mediawiki_wiki/User_Guide "User Guide") | [Publishing Metadata](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata "User Guide/Publishing Metadata")
+Go to [User Guide](/mediawiki_wiki/User_Guide "User Guide") | [Publishing Metadata](/mediawiki_wiki/User_Guide/Publishing_Metadata "User Guide/Publishing Metadata")
 
 <table id="toc" class="toc">
   <tr>
@@ -224,7 +224,7 @@ For the title use the name given to the resource.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exTit3 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exTit3 "User Guide/Publishing Metadata")
 
 In most databases title is one of the main criteria to identify search results. So **if there is no formal title resp. name** you should formulate an adequate one by yourself.
 
@@ -238,7 +238,7 @@ In most databases title is one of the main criteria to identify search results. 
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exTit6 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exTit6 "User Guide/Publishing Metadata")
 
 If there is **more than one title resp. name** you should repeat the title property
 
@@ -258,7 +258,7 @@ If there is **more than one title resp. name** you should repeat the title prope
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exTit4 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exTit4 "User Guide/Publishing Metadata")
 
 or use the alternative property.
 
@@ -280,7 +280,7 @@ Typically alternative is used for **secondary titles** ,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exAlt1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exAlt1 "User Guide/Publishing Metadata")
 
 or for **abbreviations**.
 
@@ -300,7 +300,7 @@ or for **abbreviations**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exAlt2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exAlt2 "User Guide/Publishing Metadata")
 
 If the title resp. name is expressed in **different languages** you should use language tags.
 
@@ -332,7 +332,7 @@ If the title resp. name is expressed in **different languages** you should use l
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exTit5 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exTit5 "User Guide/Publishing Metadata")
 
 the same is true for alternative
 
@@ -364,7 +364,7 @@ the same is true for alternative
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exAlt3 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exAlt3 "User Guide/Publishing Metadata")
 
 It is recommended to describe titles with plain text (as done in the examples above). But sometimes it is necessary to **create a relationship between the described resource and a more detailed title description**.
 
@@ -398,7 +398,7 @@ This should be used to refer to **a title with different transliterations** ,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exTit1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exTit1 "User Guide/Publishing Metadata")
 
 or to refer to a **title authority**.
 
@@ -474,7 +474,7 @@ or to refer to a **title authority**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exTit2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exTit2 "User Guide/Publishing Metadata")
 
 # Relationships between Resource and Agents 
 
@@ -535,7 +535,7 @@ Example with an **organization** :
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exrih1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exrih1 "User Guide/Publishing Metadata")
 
 Example with a **person** :
 
@@ -575,7 +575,7 @@ Example with a **person** :
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exCon1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exCon1 "User Guide/Publishing Metadata")
 
 Regardless of the existence of a URI **personal names** should be grouped in family name resp. surname as one part of the name and forename resp. given name as the other part .
 
@@ -609,7 +609,7 @@ You should handle the person name like **another resource** ,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exCre1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exCre1 "User Guide/Publishing Metadata")
 
 or you could devide these names **by comma**.
 
@@ -623,7 +623,7 @@ or you could devide these names **by comma**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exCre2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exCre2 "User Guide/Publishing Metadata")
 
 When you **in doubt about family name and given name** give the name as it appears.
 
@@ -637,7 +637,7 @@ When you **in doubt about family name and given name** give the name as it appea
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exCon2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exCon2 "User Guide/Publishing Metadata")
 
 If there is **more than one contributor/creator/publisher/rightsHolder** , each should be listed separately,
 
@@ -687,7 +687,7 @@ like another resource,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exPub1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exPub1 "User Guide/Publishing Metadata")
 
 or with plain text.
 
@@ -713,7 +713,7 @@ or with plain text.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exPub2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exPub2 "User Guide/Publishing Metadata")
 
 # [Type](http://dublincore.org/documents/dcmi-terms/#terms-type) 
 
@@ -743,7 +743,7 @@ We recommend to **select a value from a controlled vocabulary** (e. g. [DCMI Typ
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exTyp1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exTyp1 "User Guide/Publishing Metadata")
 
 But you may also use **plain text**.
 
@@ -757,7 +757,7 @@ But you may also use **plain text**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exTyp4 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exTyp4 "User Guide/Publishing Metadata")
 
 If **no formal controlled vocabulary** exists, you could create a domain specific one.
 
@@ -807,7 +807,7 @@ If **no formal controlled vocabulary** exists, you could create a domain specifi
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exTyp5 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exTyp5 "User Guide/Publishing Metadata")
 
 Is the resource composed of **multiple components of different types** the property should be repeated.
 
@@ -847,7 +847,7 @@ Is the resource composed of **multiple components of different types** the prope
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exTyp2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exTyp2 "User Guide/Publishing Metadata")
 
 Different communities use a variety of type vocabularies. To ensure interoperability you can use terms from different vocabularies side by side - e.g. a type of the DCMI Type vocabulary in addition to **a non-controlled or domain specific type term**.
 
@@ -887,7 +887,7 @@ Different communities use a variety of type vocabularies. To ensure interoperabi
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exTyp3 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exTyp3 "User Guide/Publishing Metadata")
 
 # [Format](http://dublincore.org/documents/dcmi-terms/#terms-format) 
 
@@ -909,7 +909,7 @@ For the description of the **file format** we recommend to use a controlled voca
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exFor1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exFor1 "User Guide/Publishing Metadata")
 
 You should repeat the properties when **more than one type of value exists**.
 
@@ -933,7 +933,7 @@ You should repeat the properties when **more than one type of value exists**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exFor2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exFor2 "User Guide/Publishing Metadata")
 
 # [Extent](http://dublincore.org/documents/dcmi-terms/#terms-extent) 
 
@@ -959,7 +959,7 @@ Typically the value used for the description of the extent consists of a **numer
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exExt1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exExt1 "User Guide/Publishing Metadata")
 
 or use controlled values for the caption.
 
@@ -983,7 +983,7 @@ or use controlled values for the caption.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exExt2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exExt2 "User Guide/Publishing Metadata")
 
 # [Medium](http://dublincore.org/documents/dcmi-terms/#terms-medium) 
 
@@ -1023,7 +1023,7 @@ We recommend to **use a controlled vocabulary**. If no formal controlled vocabul
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exMed1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exMed1 "User Guide/Publishing Metadata")
 
 # [Language](http://dublincore.org/documents/dcmi-terms/#terms-language) 
 
@@ -1053,7 +1053,7 @@ For the identification of languages please follow [RFC 4646](http://www.ietf.org
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exLan7 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exLan7 "User Guide/Publishing Metadata")
 
 or
 
@@ -1085,7 +1085,7 @@ or
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exLan1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exLan1 "User Guide/Publishing Metadata")
 
 If the content is in **more than one language** , the property should be repeated.
 
@@ -1125,7 +1125,7 @@ If the content is in **more than one language** , the property should be repeate
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exLan2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exLan2 "User Guide/Publishing Metadata")
 
 But if **every language version has it's own identifier** , they have to be treated like single resources.
 
@@ -1213,7 +1213,7 @@ Video2
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exLan3 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exLan3 "User Guide/Publishing Metadata")
 
 You could also use plain text
 
@@ -1233,7 +1233,7 @@ You could also use plain text
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exLan5 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exLan5 "User Guide/Publishing Metadata")
 
 or create your own language vocabulary.
 
@@ -1281,7 +1281,7 @@ or create your own language vocabulary.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exLan4 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exLan4 "User Guide/Publishing Metadata")
 
 # Identifiers 
 
@@ -1319,7 +1319,7 @@ Best practice is to **declare the identification system** from which an identifi
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exIde1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exIde1 "User Guide/Publishing Metadata")
 
 Identifiers should be selected from formal identification systems as above but can also be **local identifiers** as long as there is a proper declaration of these.
 
@@ -1343,7 +1343,7 @@ Identifiers should be selected from formal identification systems as above but c
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exIde2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exIde2 "User Guide/Publishing Metadata")
 
 Note that the identifier of the description of a resource (e. g. of the metadata record) is not the same as the identifier of the resource itself.
 
@@ -1407,7 +1407,7 @@ Note that the identifier of the description of a resource (e. g. of the metadata
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exIde3 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exIde3 "User Guide/Publishing Metadata")
 
 If no identifier from a formal identification system exist, the identifier can be generated by a **bibliographic citation**. The bibliographic citation can be created as **text citation** ,
 
@@ -1427,7 +1427,7 @@ If no identifier from a formal identification system exist, the identifier can b
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exBib1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exBib1 "User Guide/Publishing Metadata")
 
 or as **machine readable citations**.
 
@@ -1447,7 +1447,7 @@ or as **machine readable citations**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exBib2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exBib2 "User Guide/Publishing Metadata")
 
 You can also **structure the bibliographic information**.
 
@@ -1511,7 +1511,7 @@ You can also **structure the bibliographic information**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exIde4 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exIde4 "User Guide/Publishing Metadata")
 
 For additional information on bibliographicCitation see ["Guidelines for Encoding Bibliographic Citation Information in Dublin Core Metadata"](http://dublincore.org/documents/dc-citation-guidelines/index.shtml).
 
@@ -1549,7 +1549,7 @@ A description may be **a free text account** ,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exDes2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exDes2 "User Guide/Publishing Metadata")
 
 an **abstract** ,
 
@@ -1569,7 +1569,7 @@ an **abstract** ,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exAbs1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exAbs1 "User Guide/Publishing Metadata")
 
 a **table of contents** ,
 
@@ -1589,7 +1589,7 @@ a **table of contents** ,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exToc1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exToc1 "User Guide/Publishing Metadata")
 
 or a **reference to a description**.
 
@@ -1609,7 +1609,7 @@ or a **reference to a description**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exDes1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exDes1 "User Guide/Publishing Metadata")
 
 You can give some **information about the description you refer to**.
 
@@ -1649,7 +1649,7 @@ You can give some **information about the description you refer to**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exDes3 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exDes3 "User Guide/Publishing Metadata")
 
 If **descriptions in different languages** exist, the property should be repeated with language tags.
 
@@ -1681,7 +1681,7 @@ If **descriptions in different languages** exist, the property should be repeate
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exAbs2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exAbs2 "User Guide/Publishing Metadata")
 
 # [Subject](http://dublincore.org/documents/dcmi-terms/#terms-subject) 
 
@@ -1719,7 +1719,7 @@ To express the topic of a resource we recommend to **use a URI representing anot
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exSub1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exSub1 "User Guide/Publishing Metadata")
 
 or a URI representing the value of a controlled vocabulary,
 
@@ -1752,7 +1752,7 @@ or a URI representing the value of a controlled vocabulary,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exSub2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exSub2 "User Guide/Publishing Metadata")
 
 - like **entries from classification systems** ((e.g. the [Dewey Decimal Classification](http://www.oclc.org/dewey/), or Linnaean taxonomy, etc.).
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse;">
@@ -1845,7 +1845,7 @@ or a URI representing the value of a controlled vocabulary,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exSub3 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exSub3 "User Guide/Publishing Metadata")
 
 You may also use plain text. But if you need **more than one entry to describe the content** you should repeat the property.
 
@@ -1871,7 +1871,7 @@ You may also use plain text. But if you need **more than one entry to describe t
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exSub6 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exSub6 "User Guide/Publishing Metadata")
 
 If you want to use a keyword or keyphrase in **different languages** , you should use language tags.
 
@@ -1911,7 +1911,7 @@ If you want to use a keyword or keyphrase in **different languages** , you shoul
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exSub4 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exSub4 "User Guide/Publishing Metadata")
 
 If the **subject is a person or organization** you should use names from formal name authorities (e.g. from the Library of Congress Name Authority Headings [[1]](http://id.loc.gov/authorities), or from the Virtuell International Authority File [[2]](http://www.viaf.org/)).
 
@@ -1967,7 +1967,7 @@ If the **subject is a person or organization** you should use names from formal 
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exSub5 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exSub5 "User Guide/Publishing Metadata")
 
 # Coverage 
 
@@ -2005,7 +2005,7 @@ you may use plain text,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exCov5 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exCov5 "User Guide/Publishing Metadata")
 
 or **structure your entry** using dates,
 
@@ -2053,7 +2053,7 @@ or **structure your entry** using dates,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exCov3 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exCov3 "User Guide/Publishing Metadata")
 
 or **period labels**.
 
@@ -2101,7 +2101,7 @@ or **period labels**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exCov4 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exCov4 "User Guide/Publishing Metadata")
 
 Further information on encoding temporal characteristics you will find in the [DCMI Period Encoding Scheme](http://dublincore.org/documents/dcmi-period/).
 
@@ -2123,7 +2123,7 @@ To describe the **spatial** character of a resource, you could use plain text,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exCov6 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exCov6 "User Guide/Publishing Metadata")
 
 or express it by **georeferencing** ,
 
@@ -2171,7 +2171,7 @@ or express it by **georeferencing** ,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exCov1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exCov1 "User Guide/Publishing Metadata")
 
 or **reference to a formal encoding**.
 
@@ -2235,7 +2235,7 @@ or **reference to a formal encoding**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exCov2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exCov2 "User Guide/Publishing Metadata")
 
 Further information on encoding spatial characteristics you will find in the [DCMI Box Encoding Scheme](http://dublincore.org/documents/dcmi-box/) and the [DCMI Point Encoding Scheme](http://dublincore.org/documents/dcmi-point/).
 
@@ -2295,7 +2295,7 @@ You should use this encoding for **a point in time**
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat2 "User Guide/Publishing Metadata")
 
 but must not use it with **a range** ,
 
@@ -2309,7 +2309,7 @@ but must not use it with **a range** ,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat9 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat9 "User Guide/Publishing Metadata")
 
 or when the date is located **before the common area**.
 
@@ -2325,7 +2325,7 @@ or when the date is located **before the common area**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat3 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat3 "User Guide/Publishing Metadata")
 
 If you need to **structure range data** , make a distinction of start and end date.
 
@@ -2363,7 +2363,7 @@ If you need to **structure range data** , make a distinction of start and end da
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat10 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat10 "User Guide/Publishing Metadata")
 
 If the **complete date is unknown** you should use
 
@@ -2381,7 +2381,7 @@ month and year
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat1 "User Guide/Publishing Metadata")
 
 or only the year
 
@@ -2397,7 +2397,7 @@ or only the year
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat7 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat7 "User Guide/Publishing Metadata")
 
 If **more than one date of the same type** (e.g. modified) is recorded, the property must be repeated.
 
@@ -2429,7 +2429,7 @@ If **more than one date of the same type** (e.g. modified) is recorded, the prop
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat8 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat8 "User Guide/Publishing Metadata")
 
 Since a resource has only one date of creation, issuance, availability and/or copyright you may repeat the properties created, issued, available and dateCopyrighted only if you want to **provide the same date in another structure**.
 
@@ -2453,7 +2453,7 @@ Since a resource has only one date of creation, issuance, availability and/or co
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat4 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat4 "User Guide/Publishing Metadata")
 
 If the described date is **only approximately known** , you may use plain text,
 
@@ -2467,7 +2467,7 @@ If the described date is **only approximately known** , you may use plain text,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat5 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat5 "User Guide/Publishing Metadata")
 
 or describe it.
 
@@ -2507,7 +2507,7 @@ or describe it.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat11 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat11 "User Guide/Publishing Metadata")
 
 **Another date of creation, issuance, availability and/or copyright** however belongs to another resource that has to be described on its own. The relation of both resources may be described by one of the relation properties or by source.
 
@@ -2565,7 +2565,7 @@ or describe it.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat6 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exDat6 "User Guide/Publishing Metadata")
 
 # Source and Relations 
 
@@ -2661,7 +2661,7 @@ You may refer to the related resource by plain text or by a URI representing the
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exRel1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exRel1 "User Guide/Publishing Metadata")
 
 However recommended best practice is to **use an identifier instead of text** ,
 
@@ -2677,7 +2677,7 @@ However recommended best practice is to **use an identifier instead of text** ,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exRel2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exRel2 "User Guide/Publishing Metadata")
 
 or to **describe the related resources like another resource**.
 
@@ -2729,7 +2729,7 @@ or to **describe the related resources like another resource**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exRel3 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exRel3 "User Guide/Publishing Metadata")
 
 If there is **more than one relation of the same sort** you have to repeat the property:
 
@@ -2755,7 +2755,7 @@ If there is **more than one relation of the same sort** you have to repeat the p
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exRel4 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exRel4 "User Guide/Publishing Metadata")
 
 If **both resources of a relationship are described** the relation could be expressed reciprocally whereupon reciprocality could be generated automatically
 
@@ -2803,7 +2803,7 @@ If **both resources of a relationship are described** the relation could be expr
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exRel5 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exRel5 "User Guide/Publishing Metadata")
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse;">
   <tr style="background-color:#FFFF66;">
@@ -2857,7 +2857,7 @@ If **both resources of a relationship are described** the relation could be expr
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exRel6 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exRel6 "User Guide/Publishing Metadata")
 
 # Rights 
 
@@ -2899,7 +2899,7 @@ A rights statement may be **a text** ,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exRig1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exRig1 "User Guide/Publishing Metadata")
 
 or **a URI** referencing to formal rights information,
 
@@ -2919,7 +2919,7 @@ or **a URI** referencing to formal rights information,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exRig3 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exRig3 "User Guide/Publishing Metadata")
 
 or a **combination of both**.
 
@@ -2945,7 +2945,7 @@ or a **combination of both**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exRig2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exRig2 "User Guide/Publishing Metadata")
 
 If there are no formal rights statements to use you may also **create your own rights statement**.
 
@@ -2987,7 +2987,7 @@ If there are no formal rights statements to use you may also **create your own r
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exRig4 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exRig4 "User Guide/Publishing Metadata")
 
 # Special properties for the description of education material 
 
@@ -3033,7 +3033,7 @@ You should use formal or informal **controlled vocabularies**. Though none are r
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exEdu1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exEdu1 "User Guide/Publishing Metadata")
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse;">
   <tr style="background-color:#FFFF66;">
@@ -3051,7 +3051,7 @@ You should use formal or informal **controlled vocabularies**. Though none are r
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exEdu4 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exEdu4 "User Guide/Publishing Metadata")
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse;">
   <tr style="background-color:#FFFF66;">
@@ -3069,7 +3069,7 @@ You should use formal or informal **controlled vocabularies**. Though none are r
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exEdu2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exEdu2 "User Guide/Publishing Metadata")
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse;">
   <tr style="background-color:#FFFF66;">
@@ -3087,7 +3087,7 @@ You should use formal or informal **controlled vocabularies**. Though none are r
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exEdu3 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exEdu3 "User Guide/Publishing Metadata")
 
 # Special properties for the description of collections 
 
@@ -3129,7 +3129,7 @@ Resources described by these properties **have to be collections**. We recommend
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exCol1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exCol1 "User Guide/Publishing Metadata")
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse;">
   <tr style="background-color:#FFFF66;">
@@ -3147,7 +3147,7 @@ Resources described by these properties **have to be collections**. We recommend
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exCol2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exCol2 "User Guide/Publishing Metadata")
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse;">
   <tr style="background-color:#FFFF66;">
@@ -3165,7 +3165,7 @@ Resources described by these properties **have to be collections**. We recommend
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exCol3 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exCol3 "User Guide/Publishing Metadata")
 
 # [Provenance](http://dublincore.org/documents/dcmi-terms/#terms-provenance) 
 
@@ -3199,7 +3199,7 @@ The provenance can be **described by text** ,
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exPro1 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exPro1 "User Guide/Publishing Metadata")
 
 or **desribed like another resource**.
 
@@ -3247,5 +3247,5 @@ or **desribed like another resource**.
 </table>
 
 
-[as linked data](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata#exPro2 "User Guide/Publishing Metadata")
+[as linked data](/mediawiki_wiki/User_Guide/Publishing_Metadata#exPro2 "User Guide/Publishing Metadata")
 

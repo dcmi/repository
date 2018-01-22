@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Conference_System/OCS_Documentation.html"
+- "/mediawiki_wiki/DCMI_Conference_System/OCS_Documentation.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 24 Mar 2012, at 10:58.  
 This page has been accessed 2,055 times.
 
-See also [OCS Howto](/archive/mediawiki_wiki/DCMI_Conferences/OCS_Howto "DCMI Conferences/OCS Howto")
+See also [OCS Howto](/mediawiki_wiki/DCMI_Conferences/OCS_Howto "DCMI Conferences/OCS Howto")
 
 <table id="toc" class="toc">
   <tr>
@@ -232,7 +232,7 @@ Documentation should follow the sequence of tasks needed over the life cycle of 
 
 - To be executed as a properly formatted, interactive, annotated html page; this is brainstorming, not final output!
 - Working draft of the html template [is here for convenience of updating](http://www.preciserecall.com/lis/files/ocs/). That page links to two exemplars of procedures developed using the template. All can move to an appropriate location for reviewer access when ready.
-- Version of the page linked above, but in [this mediawiki](/archive/mediawiki_wiki/DCMI_Conference_System/Documentation_Template).
+- Version of the page linked above, but in [this mediawiki](/mediawiki_wiki/DCMI_Conference_System/Documentation_Template).
 
 [at the top: timeline or flowchart lists process milestone nodes – hover state for each node displays linked task list relevant there, color/icon-coded for participant role – some link returns linked list of all tasks by role – each task list link returns a 1-page procedure, as below; Farkas 1999, Barber 2003, Steehouder 2004; to support mental modeling of the overall task sequence – Manning 1998, Karreman & Steehouder 2004]
 

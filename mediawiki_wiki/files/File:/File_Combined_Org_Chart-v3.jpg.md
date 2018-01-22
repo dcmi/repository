@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Combined_Org_Chart-v3.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Combined_Org_Chart-v3.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Combined Org Chart-v3.jpg" src="/images/9/9b/Combined_Org_Chart-v3.jpg" width="225" height="598">](/archive/mediawiki_wiki/files/Combined_Org_Chart-v3.jpg)  
+ [<img alt="File:Combined Org Chart-v3.jpg" src="/images/9/9b/Combined_Org_Chart-v3.jpg" width="225" height="598">](/mediawiki_wiki/files/Combined_Org_Chart-v3.jpg)  
 <small>Size of this preview: 225 × 598 pixels</small>  
  [Full resolution](/images/9/9b/Combined_Org_Chart-v3.jpg)‎ (960 × 2,552 pixels, file size: 360 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Combined_Org_Chart-v3.jpg">20:59, 20 December 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Combined_Org_Chart-v3.jpg">20:59, 20 December 2013</a></td>
     <td><a href="/images/9/9b/Combined_Org_Chart-v3.jpg"><img alt="Thumbnail for version as of 20:59, 20 December 2013" src="/images/9/9b/Combined_Org_Chart-v3.jpg" width="45" height="120"></a></td>
     <td>960×2,552 <span style="white-space: nowrap;">(360 KB)</span>
     </td>
@@ -95,13 +95,13 @@ The following 2 pages link to this file:
 - [Exec Committee/public/](/index.php/Exec_Committee/public/ "Exec Committee/public/")
 - [Exec Committee/scratchpad/general/restructuring](/index.php/Exec_Committee/scratchpad/general/restructuring "Exec Committee/scratchpad/general/restructuring")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Combined\_Org\_Chart-v3.jpg](/archive/mediawiki_wiki/files/File:/File:Combined_Org_Chart-v3.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Combined\_Org\_Chart-v3.jpg](/mediawiki_wiki/files/File:/File:Combined_Org_Chart-v3.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Combined_Org_Chart-v3.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Combined_Org_Chart-v3.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Combined_Org_Chart-v3.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Combined_Org_Chart-v3.jpg&action=edit "This page is protected.
 You can view its source [e]")

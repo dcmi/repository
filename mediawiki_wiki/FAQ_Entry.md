@@ -8,11 +8,11 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/FAQ_Entry.html"
+- "/mediawiki_wiki/FAQ_Entry.html"
 ---
 
-- Return to [Dublin to Drupal Top](/archive/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
-- Return to [Dublin to Drupal Content Types Index](/archive/mediawiki_wiki/DublinToDrupal_Project#Content_Types "DublinToDrupal Project")
+- Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
+- Return to [Dublin to Drupal Content Types Index](/mediawiki_wiki/DublinToDrupal_Project#Content_Types "DublinToDrupal Project")
 
 <table id="toc" class="toc">
   <tr>
@@ -31,9 +31,9 @@ aliases:
 
 ## FAQ Entry (Content Type) 
 
-DCMI maintains frequently asked questions (FAQ) (under editorial control by one or more FAQ contributors and editors). Work is currently underway to consolidate [new](/archive/mediawiki_wiki/FAQ) and [old](http://dublincore.org/resources/faq/) versions of the existing FAQ.
+DCMI maintains frequently asked questions (FAQ) (under editorial control by one or more FAQ contributors and editors). Work is currently underway to consolidate [new](/mediawiki_wiki/FAQ) and [old](http://dublincore.org/resources/faq/) versions of the existing FAQ.
 
-We would like to publish FAQ as Drupal nodes that can be commented on by the DCMI community members as well as simple like/dislike [<img alt="Thumbs up-down image" src="/archive/mediawiki_wiki/images/ThumbsupThumbsdown.jpg" width="50" height="39">](/archive/mediawiki_wiki/File:ThumbsupThumbsdown.jpg "Thumbs up-down image")
+We would like to publish FAQ as Drupal nodes that can be commented on by the DCMI community members as well as simple like/dislike [<img alt="Thumbs up-down image" src="/mediawiki_wiki/images/ThumbsupThumbsdown.jpg" width="50" height="39">](/mediawiki_wiki/File:ThumbsupThumbsdown.jpg "Thumbs up-down image")
 
 ## Fields 
 

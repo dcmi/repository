@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Glossary/Namespace_Policy.html"
+- "/mediawiki_wiki/Glossary/Namespace_Policy.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -42,5 +42,5 @@ In one of the historically earliest illustrations of Linked Data principles, DCM
 - [1] [http://dublincore.org/documents/dcmi-namespace/](http://dublincore.org/documents/dcmi-namespace/)
 - [2] [http://www.w3.org/TR/xml-names/](http://www.w3.org/TR/xml-names/)
 
-[DCMI Generic Namespace Policy](/archive/mediawiki_wiki/Generic_Namespace_Policy "Generic Namespace Policy") agreed with the FOAF project.
+[DCMI Generic Namespace Policy](/mediawiki_wiki/Generic_Namespace_Policy "Generic Namespace Policy") agreed with the FOAF project.
 

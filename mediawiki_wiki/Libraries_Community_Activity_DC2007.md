@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Libraries_Community_Activity_DC2007.html"
+- "/mediawiki_wiki/Libraries_Community_Activity_DC2007.html"
 ---
 
  **This is an archived MediaWiki page.**  

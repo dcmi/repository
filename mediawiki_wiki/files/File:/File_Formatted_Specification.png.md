@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Formatted_Specification.png.html"
+- "/mediawiki_wiki/files/File:/File_Formatted_Specification.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Formatted Specification.png" src="/images/f/f6/Formatted_Specification.png" width="800" height="363">](/archive/mediawiki_wiki/files/Formatted_Specification.png)  
+ [<img alt="File:Formatted Specification.png" src="/images/f/f6/Formatted_Specification.png" width="800" height="363">](/mediawiki_wiki/files/Formatted_Specification.png)  
 <small>Size of this preview: 800 × 363 pixels</small>  
  [Full resolution](/images/f/f6/Formatted_Specification.png)‎ (994 × 451 pixels, file size: 117 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Formatted_Specification.png">15:17, 8 October 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Formatted_Specification.png">15:17, 8 October 2012</a></td>
     <td><a href="/images/f/f6/Formatted_Specification.png"><img alt="Thumbnail for version as of 15:17, 8 October 2012" src="/images/f/f6/Formatted_Specification.png" width="120" height="54"></a></td>
     <td>994×451 <span style="white-space: nowrap;">(117 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [DublinToDrupal Project/Recommendation](/index.php/DublinToDrupal_Project/Recommendation "DublinToDrupal Project/Recommendation")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Formatted\_Specification.png](/archive/mediawiki_wiki/files/File:/File:Formatted_Specification.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Formatted\_Specification.png](/mediawiki_wiki/files/File:/File:Formatted_Specification.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Formatted_Specification.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Formatted_Specification.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Formatted_Specification.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Formatted_Specification.png&action=edit "This page is protected.
 You can view its source [e]")

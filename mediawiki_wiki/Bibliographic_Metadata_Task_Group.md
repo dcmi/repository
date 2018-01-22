@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Bibliographic_Metadata_Task_Group.html"
+- "/mediawiki_wiki/Bibliographic_Metadata_Task_Group.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -53,13 +53,13 @@ To define components of current and emerging library, publishing, and related bi
 
 ### Ongoing 
 
-Tasks identified at the [26 April 2012 meeting](/archive/mediawiki_wiki/BMTG_meeting_26_Apr_2012 "BMTG meeting 26 Apr 2012"):
+Tasks identified at the [26 April 2012 meeting](/mediawiki_wiki/BMTG_meeting_26_Apr_2012 "BMTG meeting 26 Apr 2012"):
 
 - Task: Explore "obvious" mappings between known element sets and between value vocabularies, and identify issues, solutions, etc.
   - Action: Volunteers to contribute information about existing and developing alignments and mappings (what, who, when, etc.) to the Task Group wiki.
-  - Outcome: [Maps between bibliographic vocabularies](/archive/mediawiki_wiki/Maps_between_bibliographic_vocabularies "Maps between bibliographic vocabularies")
+  - Outcome: [Maps between bibliographic vocabularies](/mediawiki_wiki/Maps_between_bibliographic_vocabularies "Maps between bibliographic vocabularies")
 
-Tasks identified at the [5 September 2013 meeting](/archive/mediawiki_wiki/BMTG_meeting_5_Sep_2013 "BMTG meeting 5 Sep 2013"):
+Tasks identified at the [5 September 2013 meeting](/mediawiki_wiki/BMTG_meeting_5_Sep_2013 "BMTG meeting 5 Sep 2013"):
 
 - Task: Monitor developments in open tools for managing extensions and refinements to bibliographic vocabularies.
   - Action: Members to inform the Group of relevant discussions and initiatives.
@@ -81,10 +81,10 @@ Tasks identified at the [5 September 2013 meeting](/archive/mediawiki_wiki/BMTG_
 
 ## Announcements 
 
-- The DCMI Bibliographic Metadata Task Group will [meet at DC-2013](/archive/mediawiki_wiki/BMTG_meeting_5_Sep_2013 "BMTG meeting 5 Sep 2013") on **Thursday September 5 2013 in Lisbon, Portugal, 16.30-18.00**.
+- The DCMI Bibliographic Metadata Task Group will [meet at DC-2013](/mediawiki_wiki/BMTG_meeting_5_Sep_2013 "BMTG meeting 5 Sep 2013") on **Thursday September 5 2013 in Lisbon, Portugal, 16.30-18.00**.
 - [VocDay 2013: Managing Vocabularies](http://dcevents.dublincore.org/IntConf/index/pages/view/vocDay), the full-day session at DC-2013, will take place on **Friday September 6 2013 in Lisbon, Portugal**. 
-- In preparation for [DC-2013](http://dcevents.dublincore.org/index.php/IntConf/dc-2013) in **Lisbon, Portugal** , the Task Group has become involved in a proposal for a [full-day session](/archive/mediawiki_wiki/Proposal_for_a_full-day_session_in_Lisbon "Proposal for a full-day session in Lisbon"). Task Group members and others interested in participating in the session are urged to look over the proposal and make comments or suggestions on the Task Group discussion list. 
-- The DCMI Bibliographic Metadata Task Group held its inaugural [meeting on April 26, 2012](/archive/mediawiki_wiki/BMTG_meeting_26_Apr_2012 "BMTG meeting 26 Apr 2012") in **London**. The meeting identified a number of tasks for the Group for the remainder of 2012.
+- In preparation for [DC-2013](http://dcevents.dublincore.org/index.php/IntConf/dc-2013) in **Lisbon, Portugal** , the Task Group has become involved in a proposal for a [full-day session](/mediawiki_wiki/Proposal_for_a_full-day_session_in_Lisbon "Proposal for a full-day session in Lisbon"). Task Group members and others interested in participating in the session are urged to look over the proposal and make comments or suggestions on the Task Group discussion list. 
+- The DCMI Bibliographic Metadata Task Group held its inaugural [meeting on April 26, 2012](/mediawiki_wiki/BMTG_meeting_26_Apr_2012 "BMTG meeting 26 Apr 2012") in **London**. The meeting identified a number of tasks for the Group for the remainder of 2012.
 
 ## Discussion List 
 
@@ -94,9 +94,9 @@ The group will continue to use the [DC-RDA mailing list](http://www.jiscmail.ac.
 
 Prior to the DC-2011 conference, the co-Chairs of the DCMI/RDA Task Group (Gordon Dunsire and Diane Hillmann) reviewed its goals and activities in the light of the changing information environment of bibliographic metadata standards, linked data, and the Semantic Web. A proposal to expand and repurpose the Group was subsequently submitted to, and accepted by, the Dublin Core Advisory Board:
 
-- [DCMI/RDA Task Group Repurposing Proposal](/archive/mediawiki_wiki/DCMI/RDA_Task_Group_Repurposing_Proposal "DCMI/RDA Task Group Repurposing Proposal")
+- [DCMI/RDA Task Group Repurposing Proposal](/mediawiki_wiki/DCMI/RDA_Task_Group_Repurposing_Proposal "DCMI/RDA Task Group Repurposing Proposal")
 
 The DCMI/RDA Task Group Historical Archives are still available (moved from the old DCMI wiki):
 
-- [DCMI/RDA Task Group Historical Archives](/archive/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives "DCMI/RDA Task Group Historical Archives")
+- [DCMI/RDA Task Group Historical Archives](/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives "DCMI/RDA Task Group Historical Archives")
 

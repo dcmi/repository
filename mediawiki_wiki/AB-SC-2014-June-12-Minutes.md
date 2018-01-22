@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/AB-SC-2014-June-12-Minutes.html"
+- "/mediawiki_wiki/AB-SC-2014-June-12-Minutes.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -65,7 +65,7 @@ Participation: Ana Alice Baptista, Joseph Busch, Keven Liu, Stuart Sutton, Emma 
 2. Education and Outreach Committee (Ana reported):
   - Handed the draft with the objective to Marcia and Joseph;
   - Updated the document following some Marcia and Joseph feedback;
-  - Created one wiki page for the objectives; [/archive/mediawiki_wiki/Objectives](/archive/mediawiki_wiki/Objectives)
+  - Created one wiki page for the objectives; [/mediawiki_wiki/Objectives](/mediawiki_wiki/Objectives)
   - Created a Trello board. [https://trello.com/b/A5TlYOf4/dc-eoc](https://trello.com/b/A5TlYOf4/dc-eoc)
   - To do till the end of June: to define main tasks; and to invite people to the base-team.
 3. Conferences and Meetings Committee Updates (Emma)
@@ -104,7 +104,7 @@ Working out process is something that I have to leave to the EOC but will obviou
 
 Stuart
 
-[1] [/archive/mediawiki_wiki/DCMI\_Handbook](/archive/mediawiki_wiki/DCMI_Handbook)
+[1] [/mediawiki_wiki/DCMI\_Handbook](/mediawiki_wiki/DCMI_Handbook)
 
 - From: keven lw <kevenlw@gmail.com>
 - Reply-To: DCMI Advisory Board Steering Committee <DC-AB-SC@JISCMAIL.AC.UK>

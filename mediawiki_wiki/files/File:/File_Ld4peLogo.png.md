@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Ld4peLogo.png.html"
+- "/mediawiki_wiki/files/File:/File_Ld4peLogo.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Ld4peLogo.png" src="/images/9/94/Ld4peLogo.png" width="290" height="59">](/archive/mediawiki_wiki/files/Ld4peLogo.png)  
+ [<img alt="File:Ld4peLogo.png" src="/images/9/94/Ld4peLogo.png" width="290" height="59">](/mediawiki_wiki/files/Ld4peLogo.png)  
 <small>No higher resolution available.</small>  
  [Ld4peLogo.png](/images/9/94/Ld4peLogo.png)‎ (290 × 59 pixels, file size: 18 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Ld4peLogo.png">03:16, 27 July 2016</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Ld4peLogo.png">03:16, 27 July 2016</a></td>
     <td><a href="/images/9/94/Ld4peLogo.png"><img alt="Thumbnail for version as of 03:16, 27 July 2016" src="/images/9/94/Ld4peLogo.png" width="120" height="24"></a></td>
     <td>290×59 <span style="white-space: nowrap;">(18 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [Pet/ld4pe](/index.php/Pet/ld4pe "Pet/ld4pe")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Ld4peLogo.png](/archive/mediawiki_wiki/files/File:/File:Ld4peLogo.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Ld4peLogo.png](/mediawiki_wiki/files/File:/File:Ld4peLogo.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Ld4peLogo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Ld4peLogo.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Ld4peLogo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Ld4peLogo.png&action=edit "This page is protected.
 You can view its source [e]")

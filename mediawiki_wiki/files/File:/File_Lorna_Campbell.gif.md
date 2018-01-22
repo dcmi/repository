@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Lorna_Campbell.gif.html"
+- "/mediawiki_wiki/files/File:/File_Lorna_Campbell.gif.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Lorna Campbell.gif" src="/images/a/a6/Lorna_Campbell.gif" width="183" height="218">](/archive/mediawiki_wiki/files/Lorna_Campbell.gif)  
+ [<img alt="File:Lorna Campbell.gif" src="/images/a/a6/Lorna_Campbell.gif" width="183" height="218">](/mediawiki_wiki/files/Lorna_Campbell.gif)  
 <small>No higher resolution available.</small>  
  [Lorna\_Campbell.gif](/images/a/a6/Lorna_Campbell.gif)‎ (image/gif, 29 KB)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Lorna_Campbell.gif">11:55, 30 October 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Lorna_Campbell.gif">11:55, 30 October 2014</a></td>
     <td><a href="/images/a/a6/Lorna_Campbell.gif"><img alt="Thumbnail for version as of 11:55, 30 October 2014" src="/images/a/a6/Lorna_Campbell.gif" width="101" height="120"></a></td>
     <td>183×218 <span style="white-space: nowrap;">(29 KB)</span>
     </td>
@@ -73,13 +73,13 @@ The following 2 pages link to this file:
 - [DCMI Handbook/webinars](/index.php/DCMI_Handbook/webinars "DCMI Handbook/webinars")
 - [Template:Webinar20141119](/index.php/Template:Webinar20141119 "Template:Webinar20141119")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Lorna\_Campbell.gif](/archive/mediawiki_wiki/files/File:/File:Lorna_Campbell.gif.html)"
+Retrieved from " [/mediawiki_wiki/File:Lorna\_Campbell.gif](/mediawiki_wiki/files/File:/File:Lorna_Campbell.gif.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Lorna_Campbell.gif.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Lorna_Campbell.gif.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Lorna_Campbell.gif&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Lorna_Campbell.gif&action=edit "This page is protected.
 You can view its source [e]")

@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Learning_Linked_Data_Prerequisites.html"
+- "/mediawiki_wiki/Learning_Linked_Data_Prerequisites.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 2 Feb 2012, at 05:42.  
 This page has been accessed 9,193 times.
 
-Return to [Learning Linked Data Main Page](/archive/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
+Return to [Learning Linked Data Main Page](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
 
 <table id="toc" class="toc">
   <tr>

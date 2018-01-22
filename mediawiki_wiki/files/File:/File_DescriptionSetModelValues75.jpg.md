@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DescriptionSetModelValues75.jpg.html"
+- "/mediawiki_wiki/files/File:/File_DescriptionSetModelValues75.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:DescriptionSetModelValues75.jpg" src="/images/5/5f/DescriptionSetModelValues75.jpg" width="530" height="370">](/archive/mediawiki_wiki/files/DescriptionSetModelValues75.jpg)  
+ [<img alt="File:DescriptionSetModelValues75.jpg" src="/images/5/5f/DescriptionSetModelValues75.jpg" width="530" height="370">](/mediawiki_wiki/files/DescriptionSetModelValues75.jpg)  
 <small>No higher resolution available.</small>  
  [DescriptionSetModelValues75.jpg](/images/5/5f/DescriptionSetModelValues75.jpg)‎ (530 × 370 pixels, file size: 42 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DescriptionSetModelValues75.jpg">12:43, 15 April 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DescriptionSetModelValues75.jpg">12:43, 15 April 2011</a></td>
     <td><a href="/images/5/5f/DescriptionSetModelValues75.jpg"><img alt="Thumbnail for version as of 12:43, 15 April 2011" src="/images/5/5f/DescriptionSetModelValues75.jpg" width="120" height="84"></a></td>
     <td>530×370 <span style="white-space: nowrap;">(42 KB)</span>
     </td>
@@ -74,13 +74,13 @@ The following 3 pages link to this file:
 - [Glossary/DCMI Abstract Model](/index.php/Glossary/DCMI_Abstract_Model "Glossary/DCMI Abstract Model")
 - [DCAM Revision Graphics](/index.php/DCAM_Revision_Graphics "DCAM Revision Graphics")
 
-Retrieved from " [/archive/mediawiki_wiki/File:DescriptionSetModelValues75.jpg](/archive/mediawiki_wiki/files/File:/File:DescriptionSetModelValues75.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:DescriptionSetModelValues75.jpg](/mediawiki_wiki/files/File:/File:DescriptionSetModelValues75.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DescriptionSetModelValues75.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DescriptionSetModelValues75.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DescriptionSetModelValues75.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DescriptionSetModelValues75.jpg&action=edit "This page is protected.
 You can view its source [e]")

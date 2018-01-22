@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Membership/Meeting_Agenda_and_Minutes-_3_January_2012.html"
+- "/mediawiki_wiki/DCMI_Membership/Meeting_Agenda_and_Minutes-_3_January_2012.html"
 ---
 
  **This is an archived MediaWiki page.**  

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DSP.jpg.html"
+- "/mediawiki_wiki/files/File:/File_DSP.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:DSP.jpg" src="/images/4/47/DSP.jpg" width="405" height="524">](/archive/mediawiki_wiki/files/DSP.jpg)  
+ [<img alt="File:DSP.jpg" src="/images/4/47/DSP.jpg" width="405" height="524">](/mediawiki_wiki/files/DSP.jpg)  
 <small>No higher resolution available.</small>  
  [DSP.jpg](/images/4/47/DSP.jpg)‎ (405 × 524 pixels, file size: 18 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DSP.jpg">19:36, 30 August 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DSP.jpg">19:36, 30 August 2014</a></td>
     <td><a href="/images/4/47/DSP.jpg"><img alt="Thumbnail for version as of 19:36, 30 August 2014" src="/images/4/47/DSP.jpg" width="93" height="120"></a></td>
     <td>405×524 <span style="white-space: nowrap;">(18 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [RDF Application Profiles/DSPanalysis](/index.php/RDF_Application_Profiles/DSPanalysis "RDF Application Profiles/DSPanalysis")
 
-Retrieved from " [/archive/mediawiki_wiki/File:DSP.jpg](/archive/mediawiki_wiki/files/File:/File:DSP.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:DSP.jpg](/mediawiki_wiki/files/File:/File:DSP.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DSP.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DSP.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DSP.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DSP.jpg&action=edit "This page is protected.
 You can view its source [e]")

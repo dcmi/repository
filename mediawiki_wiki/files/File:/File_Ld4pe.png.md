@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Ld4pe.png.html"
+- "/mediawiki_wiki/files/File:/File_Ld4pe.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Ld4pe.png" src="/images/9/99/Ld4pe.png" width="478" height="471">](/archive/mediawiki_wiki/files/Ld4pe.png)  
+ [<img alt="File:Ld4pe.png" src="/images/9/99/Ld4pe.png" width="478" height="471">](/mediawiki_wiki/files/Ld4pe.png)  
 <small>No higher resolution available.</small>  
  [Ld4pe.png](/images/9/99/Ld4pe.png)‎ (478 × 471 pixels, file size: 74 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Ld4pe.png">11:15, 11 November 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Ld4pe.png">11:15, 11 November 2014</a></td>
     <td><a href="/images/9/99/Ld4pe.png"><img alt="Thumbnail for version as of 11:15, 11 November 2014" src="/images/9/99/Ld4pe.png" width="120" height="118"></a></td>
     <td>478×471 <span style="white-space: nowrap;">(74 KB)</span>
     </td>
@@ -96,13 +96,13 @@ The following 25 pages link to this file:
 - [LD4PE Meeting Minutes/2016-05-17](/index.php/LD4PE_Meeting_Minutes/2016-05-17 "LD4PE Meeting Minutes/2016-05-17")
 - [LD4PE Meeting Minutes/2016-06-21](/index.php/LD4PE_Meeting_Minutes/2016-06-21 "LD4PE Meeting Minutes/2016-06-21")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Ld4pe.png](/archive/mediawiki_wiki/files/File:/File:Ld4pe.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Ld4pe.png](/mediawiki_wiki/files/File:/File:Ld4pe.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Ld4pe.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Ld4pe.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Ld4pe.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Ld4pe.png&action=edit "This page is protected.
 You can view its source [e]")

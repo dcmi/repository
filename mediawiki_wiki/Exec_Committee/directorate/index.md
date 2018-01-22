@@ -13,11 +13,11 @@ tags: []
 This page was last modified on 13 July 2014, at 13:34.  
 This page has been accessed 82,780 times.
 
-[<img alt="Directorate logo" src="/archive/mediawiki_wiki/images/Directorate_Logo.png" width="300" height="58">](/archive/mediawiki_wiki/images/Directorate_Logo.png "Directorate logo")
+[<img alt="Directorate logo" src="/mediawiki_wiki/images/Directorate_Logo.png" width="300" height="58">](/mediawiki_wiki/images/Directorate_Logo.png "Directorate logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -68,8 +68,8 @@ This page has been accessed 82,780 times.
 
 #### Current Directorate Duties 
 
-- [Managing Director Duties](/archive/mediawiki_wiki/Exec_Committee/directorate/MDDuties "Exec Committee/directorate/MDDuties")
-- [Chief Communications Officer Duties](/archive/mediawiki_wiki/Exec_Committee/directorate/CEODuties "Exec Committee/directorate/CEODuties")
+- [Managing Director Duties](/mediawiki_wiki/Exec_Committee/directorate/MDDuties "Exec Committee/directorate/MDDuties")
+- [Chief Communications Officer Duties](/mediawiki_wiki/Exec_Committee/directorate/CEODuties "Exec Committee/directorate/CEODuties")
 
 * * *
 
@@ -88,21 +88,21 @@ This page has been accessed 82,780 times.
 #### Scope, Work & Reporting 
 
 - (TBD) _Extended description of the jurisdiction, key activities and responsibilities of the Directorate_
-- _Reporting:_ The Directorate reports to the Executive Committee Chair in a manner set out in the [Board Policies & Procedures](/archive/mediawiki_wiki/DCMI_Governing_Board/procedures "DCMI Governing Board/procedures")
+- _Reporting:_ The Directorate reports to the Executive Committee Chair in a manner set out in the [Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures "DCMI Governing Board/procedures")
 
 * * *
 
 #### Communications 
 
 - Email Contact: dcmi-feedback (at) dublincore (dot) net
-- [<img alt="+ symbol" src="/archive/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/archive/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
+- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
 
 * * *
 
 #### Key DCMI Handbook Pages 
 
-- [Governing Board Policies & Procedures](/archive/mediawiki_wiki/DCMI_Governing_Board/procedures "DCMI Governing Board/procedures")
-- [DCMI Master Administrative Calendar](/archive/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar "DCMI Handbook/Administrative Calendar")
+- [Governing Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures "DCMI Governing Board/procedures")
+- [DCMI Master Administrative Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar "DCMI Handbook/Administrative Calendar")
 - [Executive Policies & Procedures](/index.php?title=Exec_Committee/directorate/procedures&action=edit&redlink=1 "Exec Committee/directorate/procedures (page does not exist)")
 - [Directorate Policies & Procedures](/index.php?title=Executive_Committee/procedures/Directorate&action=edit&redlink=1 "Executive Committee/procedures/Directorate (page does not exist)")
 
@@ -120,7 +120,7 @@ This page has been accessed 82,780 times.
 
 * * *
 
-[<img alt="DCMI Handbook" src="/archive/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/archive/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
 
 [Click and become a DCMI member...](http://dublincore.org/support/#individualMember)
 

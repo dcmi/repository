@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/AB-Knowledge-Audit.html"
+- "/mediawiki_wiki/AB-Knowledge-Audit.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 12 November 2014, at 20:37.  
 This page has been accessed 31,187 times.
 
-[Return to Advisory Board](/archive/mediawiki_wiki/DCMI_Advisory_Board "DCMI Advisory Board")
+[Return to Advisory Board](/mediawiki_wiki/DCMI_Advisory_Board "DCMI Advisory Board")
 
 **DCMI Communities (com), Task Groups (TG) and Products (Actions needed)**
 

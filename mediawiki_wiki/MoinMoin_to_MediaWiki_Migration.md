@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/MoinMoin_to_MediaWiki_Migration.html"
+- "/mediawiki_wiki/MoinMoin_to_MediaWiki_Migration.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -68,7 +68,7 @@ W3C migrated its MoinMoin into MediaWiki about two or three years ago, and the b
 #### References 
 
 1. ↑ [http://dublincore.org/architecturewiki/DcamInContext](http://dublincore.org/architecturewiki/DcamInContext)
-2. ↑ [/archive/mediawiki_wiki/Review\_of\_DCMI\_Abstract\_Model](/archive/mediawiki_wiki/Review_of_DCMI_Abstract_Model)
+2. ↑ [/mediawiki_wiki/Review\_of\_DCMI\_Abstract\_Model](/mediawiki_wiki/Review_of_DCMI_Abstract_Model)
 3. ↑ [http://dublincore.org/educationwiki/DCMIIEEELTSCTaskforce\_2fLomDCAMAnalysis](http://dublincore.org/educationwiki/DCMIIEEELTSCTaskforce_2fLomDCAMAnalysis)
 4. ↑ [http://dublincore.org/educationwiki/](http://dublincore.org/educationwiki/)
 5. ↑ [http://dev.w3.org/2008/moinmoin2mediawiki/](http://dev.w3.org/2008/moinmoin2mediawiki/)

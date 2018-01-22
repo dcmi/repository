@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Agenda4.html"
+- "/mediawiki_wiki/Agenda4.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -51,5 +51,5 @@ This page has been accessed 67,894 times.
 
 #### Resources
 
-Back to [VocDay workshop in Lisbon](/archive/mediawiki_wiki/VocDay_workshop_in_Lisbon "VocDay workshop in Lisbon")
+Back to [VocDay workshop in Lisbon](/mediawiki_wiki/VocDay_workshop_in_Lisbon "VocDay workshop in Lisbon")
 

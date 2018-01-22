@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Dublin_Core_Prefixes.html"
+- "/mediawiki_wiki/Dublin_Core_Prefixes.html"
 ---
 
  **This is an archived MediaWiki page.**  

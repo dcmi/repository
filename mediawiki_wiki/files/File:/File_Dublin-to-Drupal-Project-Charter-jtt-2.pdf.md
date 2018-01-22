@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Dublin-to-Drupal-Project-Charter-jtt-2.pdf.html"
+- "/mediawiki_wiki/files/File:/File_Dublin-to-Drupal-Project-Charter-jtt-2.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/Dublin-to-Drupal-Project-Charter-jtt-2.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Dublin-to-Drupal-Project-Charter-jtt-2.pdf)
 
-[Dublin-to-Drupal-Project-Charter-jtt-2.pdf](/archive/mediawiki_wiki/files/Dublin-to-Drupal-Project-Charter-jtt-2.pdf "Dublin-to-Drupal-Project-Charter-jtt-2.pdf")‎(file size: 288 KB, MIME type: application/pdf)
+[Dublin-to-Drupal-Project-Charter-jtt-2.pdf](/mediawiki_wiki/files/Dublin-to-Drupal-Project-Charter-jtt-2.pdf "Dublin-to-Drupal-Project-Charter-jtt-2.pdf")‎(file size: 288 KB, MIME type: application/pdf)
 
 Project charter
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Dublin-to-Drupal-Project-Charter-jtt-2.pdf">14:59, 28 February 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Dublin-to-Drupal-Project-Charter-jtt-2.pdf">14:59, 28 February 2012</a></td>
     <td> <span style="white-space: nowrap;">(288 KB)</span>
     </td>
     <td>
@@ -70,13 +70,13 @@ The following page links to this file:
 
 - [DublinToDrupal Project](/index.php/DublinToDrupal_Project "DublinToDrupal Project")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Dublin-to-Drupal-Project-Charter-jtt-2.pdf](/archive/mediawiki_wiki/files/File:/File:Dublin-to-Drupal-Project-Charter-jtt-2.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:Dublin-to-Drupal-Project-Charter-jtt-2.pdf](/mediawiki_wiki/files/File:/File:Dublin-to-Drupal-Project-Charter-jtt-2.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Dublin-to-Drupal-Project-Charter-jtt-2.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Dublin-to-Drupal-Project-Charter-jtt-2.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Dublin-to-Drupal-Project-Charter-jtt-2.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Dublin-to-Drupal-Project-Charter-jtt-2.pdf&action=edit "This page is protected.
 You can view its source [e]")

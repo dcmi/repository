@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars/CallForWebinars.html"
+- "/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars/CallForWebinars.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -29,7 +29,7 @@ Please complete the [online form](http://goo.gl/forms/YLnHLNDoxx) if you would l
 
 Deadline: June 13, 2016.
 
-For more information, please visit the [DCMI Handbook/ASIST Webinars](/archive/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars).
+For more information, please visit the [DCMI Handbook/ASIST Webinars](/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars).
 
 The Dublin Core Education & Outreach Committee
 

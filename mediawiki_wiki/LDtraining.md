@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/LDtraining.html"
+- "/mediawiki_wiki/LDtraining.html"
 ---
 
  **This is an archived MediaWiki page.**  

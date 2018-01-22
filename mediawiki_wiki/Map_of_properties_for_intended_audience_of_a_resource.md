@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Map_of_properties_for_intended_audience_of_a_resource.html"
+- "/mediawiki_wiki/Map_of_properties_for_intended_audience_of_a_resource.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -136,5 +136,5 @@ uncrda:intendedAudience rdfs:subPropertyOf uncisbd:P1091 .
 
 </pre>
 
-[Maps between bibliographic element sets](/archive/mediawiki_wiki/Maps_between_bibliographic_element_sets "Maps between bibliographic element sets")
+[Maps between bibliographic element sets](/mediawiki_wiki/Maps_between_bibliographic_element_sets "Maps between bibliographic element sets")
 

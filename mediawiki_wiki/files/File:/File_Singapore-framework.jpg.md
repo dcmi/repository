@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Singapore-framework.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Singapore-framework.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Singapore-framework.jpg" src="/images/2/2c/Singapore-framework.jpg" width="507" height="352">](/archive/mediawiki_wiki/files/Singapore-framework.jpg)  
+ [<img alt="File:Singapore-framework.jpg" src="/images/2/2c/Singapore-framework.jpg" width="507" height="352">](/mediawiki_wiki/files/Singapore-framework.jpg)  
 <small>No higher resolution available.</small>  
  [Singapore-framework.jpg](/images/2/2c/Singapore-framework.jpg)‎ (507 × 352 pixels, file size: 35 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Singapore-framework.jpg">13:15, 1 November 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Singapore-framework.jpg">13:15, 1 November 2011</a></td>
     <td><a href="/images/2/2c/Singapore-framework.jpg"><img alt="Thumbnail for version as of 13:15, 1 November 2011" src="/images/2/2c/Singapore-framework.jpg" width="120" height="83"></a></td>
     <td>507×352 <span style="white-space: nowrap;">(35 KB)</span>
     </td>
@@ -73,13 +73,13 @@ The following 2 pages link to this file:
 - [Learning Linked Data/Brainstorming](/index.php/Learning_Linked_Data/Brainstorming "Learning Linked Data/Brainstorming")
 - [Learning Linked Data Tasks](/index.php/Learning_Linked_Data_Tasks "Learning Linked Data Tasks")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Singapore-framework.jpg](/archive/mediawiki_wiki/files/File:/File:Singapore-framework.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Singapore-framework.jpg](/mediawiki_wiki/files/File:/File:Singapore-framework.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Singapore-framework.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Singapore-framework.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Singapore-framework.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Singapore-framework.jpg&action=edit "This page is protected.
 You can view its source [e]")

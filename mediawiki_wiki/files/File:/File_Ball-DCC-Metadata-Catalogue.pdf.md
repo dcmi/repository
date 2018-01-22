@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Ball-DCC-Metadata-Catalogue.pdf.html"
+- "/mediawiki_wiki/files/File:/File_Ball-DCC-Metadata-Catalogue.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/Ball-DCC-Metadata-Catalogue.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Ball-DCC-Metadata-Catalogue.pdf)
 
-[Ball-DCC-Metadata-Catalogue.pdf](/archive/mediawiki_wiki/files/Ball-DCC-Metadata-Catalogue.pdf "Ball-DCC-Metadata-Catalogue.pdf")‎(file size: 509 KB, MIME type: application/pdf)
+[Ball-DCC-Metadata-Catalogue.pdf](/mediawiki_wiki/files/Ball-DCC-Metadata-Catalogue.pdf "Ball-DCC-Metadata-Catalogue.pdf")‎(file size: 509 KB, MIME type: application/pdf)
 
 Slides describing the Digital Curation Centre Disciplinary Metadata Catalogue.
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Ball-DCC-Metadata-Catalogue.pdf">15:23, 6 September 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Ball-DCC-Metadata-Catalogue.pdf">15:23, 6 September 2013</a></td>
     <td> <span style="white-space: nowrap;">(509 KB)</span>
     </td>
     <td>
@@ -70,13 +70,13 @@ The following page links to this file:
 
 - [DC 2013 SAM Science and Metadata CAMP 4 DATA AGENDA](/index.php/DC_2013_SAM_Science_and_Metadata_CAMP_4_DATA_AGENDA "DC 2013 SAM Science and Metadata CAMP 4 DATA AGENDA")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Ball-DCC-Metadata-Catalogue.pdf](/archive/mediawiki_wiki/files/File:/File:Ball-DCC-Metadata-Catalogue.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:Ball-DCC-Metadata-Catalogue.pdf](/mediawiki_wiki/files/File:/File:Ball-DCC-Metadata-Catalogue.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Ball-DCC-Metadata-Catalogue.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Ball-DCC-Metadata-Catalogue.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Ball-DCC-Metadata-Catalogue.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Ball-DCC-Metadata-Catalogue.pdf&action=edit "This page is protected.
 You can view its source [e]")

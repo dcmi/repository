@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Steering_Committee.html"
+- "/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Steering_Committee.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 8 March 2014, at 19:54.  
 This page has been accessed 193,319 times.
 
-[<img alt="DCMI Handbook" src="/archive/mediawiki_wiki/images/Handbook.png" width="300" height="86">](/archive/mediawiki_wiki/images/Handbook.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Handbook.png" width="300" height="86">](/mediawiki_wiki/images/Handbook.png "DCMI Handbook")
 
 * * *
 <table id="toc" class="toc">
@@ -42,7 +42,7 @@ This page has been accessed 193,319 times.
   </tr>
 </table>
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>

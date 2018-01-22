@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_BarkerCampbell.pdf.html"
+- "/mediawiki_wiki/files/File:/File_BarkerCampbell.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/BarkerCampbell.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/BarkerCampbell.pdf)
 
-[BarkerCampbell.pdf](/archive/mediawiki_wiki/files/BarkerCampbell.pdf "BarkerCampbell.pdf")‎(file size: 5.7 MB, MIME type: application/pdf)
+[BarkerCampbell.pdf](/mediawiki_wiki/files/BarkerCampbell.pdf "BarkerCampbell.pdf")‎(file size: 5.7 MB, MIME type: application/pdf)
 
 Phil Barker & Lorna Campbell DCMI/ASIS&T webinar
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/BarkerCampbell.pdf">22:29, 19 November 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/BarkerCampbell.pdf">22:29, 19 November 2014</a></td>
     <td> <span style="white-space: nowrap;">(5.7 MB)</span>
     </td>
     <td>
@@ -71,13 +71,13 @@ The following 2 pages link to this file:
 - [DCMI Handbook/webinars](/index.php/DCMI_Handbook/webinars "DCMI Handbook/webinars")
 - [Template:Webinar20141119](/index.php/Template:Webinar20141119 "Template:Webinar20141119")
 
-Retrieved from " [/archive/mediawiki_wiki/File:BarkerCampbell.pdf](/archive/mediawiki_wiki/files/File:/File:BarkerCampbell.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:BarkerCampbell.pdf](/mediawiki_wiki/files/File:/File:BarkerCampbell.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:BarkerCampbell.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:BarkerCampbell.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:BarkerCampbell.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:BarkerCampbell.pdf&action=edit "This page is protected.
 You can view its source [e]")

@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Advisory_Board/planning.html"
+- "/mediawiki_wiki/DCMI_Advisory_Board/planning.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 28 February 2014, at 16:09.  
 This page has been accessed 62,963 times.
 
-[<img alt="Planning Committee logo" src="/archive/mediawiki_wiki/images/Planning_Logo.png" width="300" height="84">](/archive/mediawiki_wiki/images/Planning_Logo.png "Planning Committee logo")
+[<img alt="Planning Committee logo" src="/mediawiki_wiki/images/Planning_Logo.png" width="300" height="84">](/mediawiki_wiki/images/Planning_Logo.png "Planning Committee logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>

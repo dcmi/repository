@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Usage_Board/manual.html"
+- "/mediawiki_wiki/DCMI_Usage_Board/manual.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 27 February 2014, at 23:07.  
 This page has been accessed 37,423 times.
 
-[<img alt="Usage Committee logo" src="/archive/mediawiki_wiki/images/Usage_logo.png" width="300" height="82">](/archive/mediawiki_wiki/images/Usage_logo.png "Usage Committee logo")
+[<img alt="Usage Committee logo" src="/mediawiki_wiki/images/Usage_logo.png" width="300" height="82">](/mediawiki_wiki/images/Usage_logo.png "Usage Committee logo")
 
 <table id="toc" class="toc">
   <tr>

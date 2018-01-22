@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Straw_man.html"
+- "/mediawiki_wiki/Straw_man.html"
 ---
 
  **This is an archived MediaWiki page.**  

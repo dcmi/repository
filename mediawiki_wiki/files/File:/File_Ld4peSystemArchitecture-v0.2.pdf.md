@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Ld4peSystemArchitecture-v0.2.pdf.html"
+- "/mediawiki_wiki/files/File:/File_Ld4peSystemArchitecture-v0.2.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/Ld4peSystemArchitecture-v0.2.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Ld4peSystemArchitecture-v0.2.pdf)
 
-[Ld4peSystemArchitecture-v0.2.pdf](/archive/mediawiki_wiki/files/Ld4peSystemArchitecture-v0.2.pdf "Ld4peSystemArchitecture-v0.2.pdf")‎(file size: 229 KB, MIME type: application/pdf)
+[Ld4peSystemArchitecture-v0.2.pdf](/mediawiki_wiki/files/Ld4peSystemArchitecture-v0.2.pdf "Ld4peSystemArchitecture-v0.2.pdf")‎(file size: 229 KB, MIME type: application/pdf)
 
 draft version of LD4PE system architecture
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Ld4peSystemArchitecture-v0.2.pdf">20:00, 16 January 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Ld4peSystemArchitecture-v0.2.pdf">20:00, 16 January 2015</a></td>
     <td> <span style="white-space: nowrap;">(229 KB)</span>
     </td>
     <td>
@@ -70,13 +70,13 @@ The following page links to this file:
 
 - [Pet/ld4pe/confidential](/index.php/Pet/ld4pe/confidential "Pet/ld4pe/confidential")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Ld4peSystemArchitecture-v0.2.pdf](/archive/mediawiki_wiki/files/File:/File:Ld4peSystemArchitecture-v0.2.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:Ld4peSystemArchitecture-v0.2.pdf](/mediawiki_wiki/files/File:/File:Ld4peSystemArchitecture-v0.2.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Ld4peSystemArchitecture-v0.2.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Ld4peSystemArchitecture-v0.2.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Ld4peSystemArchitecture-v0.2.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Ld4peSystemArchitecture-v0.2.pdf&action=edit "This page is protected.
 You can view its source [e]")

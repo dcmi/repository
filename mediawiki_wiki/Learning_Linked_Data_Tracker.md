@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Learning_Linked_Data_Tracker.html"
+- "/mediawiki_wiki/Learning_Linked_Data_Tracker.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,7 +17,7 @@ This page has been accessed 10,882 times.
 
 Learning Linked Data - running agenda for Tom and David
 
-<pre>Identifier: <a href="/mediawiki_wiki/Learning_Linked_Data_Tracker.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Tracker</a>
+<pre>Identifier: <a href="/mediawiki_wiki/Learning_Linked_Data_Tracker.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Tracker</a>
 
 ----------------------------------------------------------------------
 Finished deliverables
@@ -30,7 +30,7 @@ Finished deliverables
    <a href="http://lld.ischool.uw.edu/glossary/" class="external free" rel="nofollow">http://lld.ischool.uw.edu/glossary/</a>
    <a href="http://lld.ischool.uw.edu/glossary/pdf/" class="external free" rel="nofollow">http://lld.ischool.uw.edu/glossary/pdf/</a>
 -- Workshop report (to include as an addendum to the LLD I Project report)
-   <a href="/archive/mediawiki_wiki/Media:LearningLinkedDataWorkshopMinutes_grantnoLG-51-11-0147-11.pdf" class="external free" rel="nofollow">/archive/mediawiki_wiki/Media:LearningLinkedDataWorkshopMinutes_grantnoLG-51-11-0147-11.pdf</a>
+   <a href="/mediawiki_wiki/Media:LearningLinkedDataWorkshopMinutes_grantnoLG-51-11-0147-11.pdf" class="external free" rel="nofollow">/mediawiki_wiki/Media:LearningLinkedDataWorkshopMinutes_grantnoLG-51-11-0147-11.pdf</a>
 -- Planning Grant Final Report
    <a href="http://lld.ischool.uw.edu/wp/report/" class="external free" rel="nofollow">http://lld.ischool.uw.edu/wp/report/</a>
    <a href="http://lld.ischool.uw.edu/wp/report/pdf/" class="external free" rel="nofollow">http://lld.ischool.uw.edu/wp/report/pdf/</a>
@@ -39,10 +39,10 @@ Finished deliverables
 
 ----------------------------------------------------------------------
 1) LLD I Proposal Report
-   <a href="/mediawiki_wiki/Planning_Grant_Report_IMLS.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Planning_Grant_Report_IMLS</a>
-   <a href="/archive/mediawiki_wiki/files/LLDImplementationFrameworkV2.png" class="external free" rel="nofollow">/archive/mediawiki_wiki/File:LLDImplementationFrameworkV2.png</a>
-   <a href="/archive/mediawiki_wiki/files/LLDImplementationTimeline.png" class="external free" rel="nofollow">/archive/mediawiki_wiki/File:LLDImplementationTimeline.png</a>
-   <a href="/archive/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf" class="external free" rel="nofollow">/archive/mediawiki_wiki/File:LearningLinkedDataFinalProjectReport.pdf</a>
+   <a href="/mediawiki_wiki/Planning_Grant_Report_IMLS.md" class="external free" rel="nofollow">/mediawiki_wiki/Planning_Grant_Report_IMLS</a>
+   <a href="/mediawiki_wiki/files/LLDImplementationFrameworkV2.png" class="external free" rel="nofollow">/mediawiki_wiki/File:LLDImplementationFrameworkV2.png</a>
+   <a href="/mediawiki_wiki/files/LLDImplementationTimeline.png" class="external free" rel="nofollow">/mediawiki_wiki/File:LLDImplementationTimeline.png</a>
+   <a href="/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf" class="external free" rel="nofollow">/mediawiki_wiki/File:LearningLinkedDataFinalProjectReport.pdf</a>
    <a href="http://lld.ischool.uw.edu/wp/wp-content/uploads/2012/09/LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.docx" class="external free" rel="nofollow">http://lld.ischool.uw.edu/wp/wp-content/uploads/2012/09/LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.docx</a>
 
    ACTION 2012-09-18: Mike to submit Report to IMLS with copies of the main 
@@ -51,10 +51,10 @@ Finished deliverables
 
 ----------------------------------------------------------------------
 2) LLD II Proposal Narrative
-   <a href="/mediawiki_wiki/Implementation_Grant_Proposal.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Implementation_Grant_Proposal</a>
-   <a href="/archive/mediawiki_wiki/files/LLDImplementationFrameworkV2.png" class="external free" rel="nofollow">/archive/mediawiki_wiki/File:LLDImplementationFrameworkV2.png</a>
-   <a href="/archive/mediawiki_wiki/files/LLDImplementationTimeline.png" class="external free" rel="nofollow">/archive/mediawiki_wiki/File:LLDImplementationTimeline.png</a>
-   <a href="/archive/mediawiki_wiki/files/LLDImplementationTimeline2year.png" class="external free" rel="nofollow">/archive/mediawiki_wiki/File:LLDImplementationTimeline2year.png</a>
+   <a href="/mediawiki_wiki/Implementation_Grant_Proposal.md" class="external free" rel="nofollow">/mediawiki_wiki/Implementation_Grant_Proposal</a>
+   <a href="/mediawiki_wiki/files/LLDImplementationFrameworkV2.png" class="external free" rel="nofollow">/mediawiki_wiki/File:LLDImplementationFrameworkV2.png</a>
+   <a href="/mediawiki_wiki/files/LLDImplementationTimeline.png" class="external free" rel="nofollow">/mediawiki_wiki/File:LLDImplementationTimeline.png</a>
+   <a href="/mediawiki_wiki/files/LLDImplementationTimeline2year.png" class="external free" rel="nofollow">/mediawiki_wiki/File:LLDImplementationTimeline2year.png</a>
 
    ACTION 2012-09-28: David to plug Tom's text (final section of 
    LLD I Project report) into the section Project Design.
@@ -66,7 +66,7 @@ Finished deliverables
 
 ----------------------------------------------------------------------
 3) IMLS and UW Blog Postings
-   <a href="/mediawiki_wiki/Blog_Post.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Blog_Post</a>
+   <a href="/mediawiki_wiki/Blog_Post.md" class="external free" rel="nofollow">/mediawiki_wiki/Blog_Post</a>
    
    Need to be updated:
       <a href="http://lld.ischool.uw.edu/" class="external free" rel="nofollow">http://lld.ischool.uw.edu/</a>
@@ -98,8 +98,8 @@ Useful links for writing proposal
    <a href="http://www.imls.gov/news/national_leadership_grant_announcement.aspx#OH" class="external free" rel="nofollow">http://www.imls.gov/news/national_leadership_grant_announcement.aspx#OH</a> - Marcia's
    <a href="http://www.imls.gov/news/national_leadership_grant_announcement.aspx#WA" class="external free" rel="nofollow">http://www.imls.gov/news/national_leadership_grant_announcement.aspx#WA</a> - Learning Linked Data
 -- IMLS grant narratives
-   <a href="/archive/mediawiki_wiki/files/Zeng-NarrativeFinal.pdf" class="external free" rel="nofollow">http://wiki.dublincore.org/images/4/45/Zeng-NarrativeFinal.pdf</a>
-   <a href="/archive/mediawiki_wiki/files/IMLSPlanningGrantNarrative.pdf" class="external free" rel="nofollow">/archive/mediawiki_wiki/File:IMLSPlanningGrantNarrative.pdf</a>
+   <a href="/mediawiki_wiki/files/Zeng-NarrativeFinal.pdf" class="external free" rel="nofollow">http://wiki.dublincore.org/images/4/45/Zeng-NarrativeFinal.pdf</a>
+   <a href="/mediawiki_wiki/files/IMLSPlanningGrantNarrative.pdf" class="external free" rel="nofollow">/mediawiki_wiki/File:IMLSPlanningGrantNarrative.pdf</a>
 -- About the National Leadership Program
    <a href="http://www.imls.gov/applicants/detail.aspx?GrantId=14" class="external free" rel="nofollow">http://www.imls.gov/applicants/detail.aspx?GrantId=14</a>
    <a href="http://www.imls.gov/applicants/grants/nationalLeadership.shtm" class="external free" rel="nofollow">http://www.imls.gov/applicants/grants/nationalLeadership.shtm</a>
@@ -113,39 +113,39 @@ Useful links for writing proposal
    <a href="http://blog.imls.gov/" class="external free" rel="nofollow">http://blog.imls.gov/</a> - IMLS blog 
    <a href="http://www.imls.gov/news/upnext_blog_posts.aspx" class="external free" rel="nofollow">http://www.imls.gov/news/upnext_blog_posts.aspx</a> - IMLS blog overview of postings
 -- Good source of quotes:
-   <a href="/mediawiki_wiki/Learning_Linked_Data_Topics_with_comments.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Topics_with_comments</a>
+   <a href="/mediawiki_wiki/Learning_Linked_Data_Topics_with_comments.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Topics_with_comments</a>
 
 ----------------------------------------------------------------------
 Wiki pages on wiki.dublincore.org
 -- Administrative
-   <a href="/mediawiki_wiki/Usergroup:LearningLinkedData.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Usergroup:LearningLinkedData</a>
-   <a href="/mediawiki_wiki/Learning_Linked_Data.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data</a>
-   -- historical document, superseded by Identifier: <a href="/mediawiki_wiki/Learning_Linked_Data_Tracker.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Tracker</a>
+   <a href="/mediawiki_wiki/Usergroup:LearningLinkedData.md" class="external free" rel="nofollow">/mediawiki_wiki/Usergroup:LearningLinkedData</a>
+   <a href="/mediawiki_wiki/Learning_Linked_Data.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data</a>
+   -- historical document, superseded by Identifier: <a href="/mediawiki_wiki/Learning_Linked_Data_Tracker.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Tracker</a>
 
 -- Frozen pages about Seattle workshop (with date of last edit)
    -- Workshop agenda and joining instructions
-       <a href="/mediawiki_wiki/Learning_Linked_Data/Agenda.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data/Agenda</a> (Feb 2012)
-       <a href="/mediawiki_wiki/Learning_Linked_Data/Agenda-20120202.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data/Agenda-20120202</a> (Feb 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data/Agenda.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data/Agenda</a> (Feb 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data/Agenda-20120202.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data/Agenda-20120202</a> (Feb 2012)
    -- Workshop preparation
-       <a href="/mediawiki_wiki/Learning_Linked_Data_Inventory.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Inventory</a> (Jan 2012, then transferred to wiki)
-       <a href="/mediawiki_wiki/Learning_Linked_Data_Inventory2.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Inventory2</a> (Feb 2012)
-       <a href="/mediawiki_wiki/Learning_Linked_Data/Brainstorming.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data/Brainstorming</a> (Jan 2012)
-       <a href="/mediawiki_wiki/Learning_Linked_Data/Participants.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data/Participants</a> (Jan 2012)
-       <a href="/mediawiki_wiki/Learning_Linked_Data_Personas.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Personas</a> (Feb 2012)
-       <a href="/mediawiki_wiki/Learning_Linked_Data_Prerequisites.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Prerequisites</a> (Feb 2012)
-       <a href="/mediawiki_wiki/Learning_Linked_Data_Tasks.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Tasks</a> (Jan 2012)
-       <a href="/mediawiki_wiki/Learning_Linked_Data_Tools.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Tools</a> (Jan 2012)
-       <a href="/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes</a> (March 2012)
-       <a href="/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes</a> (March 2012)
-       <a href="/mediawiki_wiki/Planning_Grant_Report.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Planning_Grant_Report</a> (August 2012)
-       <a href="/mediawiki_wiki/Use_Cases_in_Instructional_Context.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Use_Cases_in_Instructional_Context</a> (August 2012)
-       <a href="/mediawiki_wiki/Learning_Linked_Data_Topics_with_comments.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Topics_with_comments</a> (August 2012)
-       <a href="/mediawiki_wiki/Learning_Linked_Data/Glossary.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data/Glossary</a> (August 2012)
-       <a href="/mediawiki_wiki/Learning_Linked_Data/Use_Cases.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data/Use_Cases</a> (August 2012)
-       <a href="/mediawiki_wiki/Planning_Grant_Report_IMLS.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Planning_Grant_Report_IMLS</a> (August 2012)
-       <a href="/mediawiki_wiki/Planning_Grant_Report_IMLS_Appendix.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Planning_Grant_Report_IMLS_Appendix</a> (August 2012)
-       <a href="/mediawiki_wiki/Learning_Linked_Data_Topics.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Topics</a> (August 2012)
-       <a href="/mediawiki_wiki/Learning_Linked_Data_Topics_with_comments.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/Learning_Linked_Data_Topics_with_comments</a>
+       <a href="/mediawiki_wiki/Learning_Linked_Data_Inventory.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Inventory</a> (Jan 2012, then transferred to wiki)
+       <a href="/mediawiki_wiki/Learning_Linked_Data_Inventory2.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Inventory2</a> (Feb 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data/Brainstorming.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data/Brainstorming</a> (Jan 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data/Participants.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data/Participants</a> (Jan 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data_Personas.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Personas</a> (Feb 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data_Prerequisites.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Prerequisites</a> (Feb 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data_Tasks.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Tasks</a> (Jan 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data_Tools.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Tools</a> (Jan 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes</a> (March 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes</a> (March 2012)
+       <a href="/mediawiki_wiki/Planning_Grant_Report.md" class="external free" rel="nofollow">/mediawiki_wiki/Planning_Grant_Report</a> (August 2012)
+       <a href="/mediawiki_wiki/Use_Cases_in_Instructional_Context.md" class="external free" rel="nofollow">/mediawiki_wiki/Use_Cases_in_Instructional_Context</a> (August 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data_Topics_with_comments.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Topics_with_comments</a> (August 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data/Glossary.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data/Glossary</a> (August 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data/Use_Cases.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data/Use_Cases</a> (August 2012)
+       <a href="/mediawiki_wiki/Planning_Grant_Report_IMLS.md" class="external free" rel="nofollow">/mediawiki_wiki/Planning_Grant_Report_IMLS</a> (August 2012)
+       <a href="/mediawiki_wiki/Planning_Grant_Report_IMLS_Appendix.md" class="external free" rel="nofollow">/mediawiki_wiki/Planning_Grant_Report_IMLS_Appendix</a> (August 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data_Topics.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Topics</a> (August 2012)
+       <a href="/mediawiki_wiki/Learning_Linked_Data_Topics_with_comments.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Topics_with_comments</a>
 
 ----------------------------------------------------------------------
 UW blog

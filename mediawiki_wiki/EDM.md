@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/EDM.html"
+- "/mediawiki_wiki/EDM.html"
 ---
 
  **This is an archived MediaWiki page.**  

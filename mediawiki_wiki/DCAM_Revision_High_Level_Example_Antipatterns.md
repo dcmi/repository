@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Antipatterns.html"
+- "/mediawiki_wiki/DCAM_Revision_High_Level_Example_Antipatterns.html"
 ---
 
  **This is an archived MediaWiki page.**  

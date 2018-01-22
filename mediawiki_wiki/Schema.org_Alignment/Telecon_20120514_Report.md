@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120514_Report.html"
+- "/mediawiki_wiki/Schema.org_Alignment/Telecon_20120514_Report.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -17,8 +17,8 @@ This page has been accessed 64,961 times.
 
 <pre>Schema.org Alignment Task Group telecon - 2012-05-14 - report
 
-This report: <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120514_Report" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120514_Report</a>
-Agenda: <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120514" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120514</a>
+This report: <a href="/mediawiki_wiki/Schema.org_Alignment/Telecon_20120514_Report" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Telecon_20120514_Report</a>
+Agenda: <a href="/mediawiki_wiki/Schema.org_Alignment/Telecon_20120514" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Telecon_20120514</a>
 Chair: Tom
 Date: Monday, 2012-05-14
 Time: 11:00 AM Eastern Daylight Time
@@ -42,7 +42,7 @@ Documenting and publishing mappings
      publication of mappings could therefore be simplified.
 
      [1] <a href="https://github.com/dcmi/schema.org/blob/master/mappings.html" class="external free" rel="nofollow">https://github.com/dcmi/schema.org/blob/master/mappings.html</a>
-     [2] <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
+     [2] <a href="/mediawiki_wiki/Schema.org_Alignment/Mappings_Details" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Mappings_Details</a>
      [3] <a href="https://github.com/dcmi/schema.org/issues/3" class="external free" rel="nofollow">https://github.com/dcmi/schema.org/issues/3</a>
      [4] <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind1202&amp;L=dc-architecture&amp;F=&amp;S=&amp;P=14738" class="external free" rel="nofollow">https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind1202&amp;L=dc-architecture&amp;F=&amp;S=&amp;P=14738</a>
 
@@ -135,7 +135,7 @@ Issue tracking
     [3] <a href="http://www.w3.org/2011/webschema/track/" class="external free" rel="nofollow">http://www.w3.org/2011/webschema/track/</a>
     [4] <a href="http://www.w3.org/2011/webschema/track/products" class="external free" rel="nofollow">http://www.w3.org/2011/webschema/track/products</a>
     [5] <a href="http://lists.w3.org/Archives/Public/public-vocabs/" class="external free" rel="nofollow">http://lists.w3.org/Archives/Public/public-vocabs/</a>
-    [6] <a href="/archive/mediawiki_wiki/Schema.org_Alignment/GithubIssueTracker" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/GithubIssueTracker</a>
+    [6] <a href="/mediawiki_wiki/Schema.org_Alignment/GithubIssueTracker" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/GithubIssueTracker</a>
 
 Dan: see <a href="http://www.w3.org/wiki/WebSchemas" class="external free" rel="nofollow">http://www.w3.org/wiki/WebSchemas</a> ... trackers mentioned.
 <a href="http://www.w3.org/2011/webschema/track/" class="external free" rel="nofollow">http://www.w3.org/2011/webschema/track/</a>
@@ -244,7 +244,7 @@ Source of mappings: Schema.org or Rdfs.org?
     discuss his reasons.
 
     [1] <a href="https://github.com/dcmi/schema.org/issues/9" class="external free" rel="nofollow">https://github.com/dcmi/schema.org/issues/9</a>
-    [2] <a href="/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120405_Report" class="external free" rel="nofollow">/archive/mediawiki_wiki/Schema.org_Alignment/Telecon_20120405_Report</a>
+    [2] <a href="/mediawiki_wiki/Schema.org_Alignment/Telecon_20120405_Report" class="external free" rel="nofollow">/mediawiki_wiki/Schema.org_Alignment/Telecon_20120405_Report</a>
 
 -- From the 2012-04-05 agenda:
 

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/TinyArchive.html"
+- "/mediawiki_wiki/TinyArchive.html"
 ---
 
  **This is an archived MediaWiki page.**  

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DC2011_ScienceMetadataCommunity.pdf.html"
+- "/mediawiki_wiki/files/File:/File_DC2011_ScienceMetadataCommunity.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/DC2011_ScienceMetadataCommunity.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/DC2011_ScienceMetadataCommunity.pdf)
 
-[DC2011\_ScienceMetadataCommunity.pdf](/archive/mediawiki_wiki/files/DC2011_ScienceMetadataCommunity.pdf "DC2011 ScienceMetadataCommunity.pdf")‎(file size: 118 KB, MIME type: application/pdf)
+[DC2011\_ScienceMetadataCommunity.pdf](/mediawiki_wiki/files/DC2011_ScienceMetadataCommunity.pdf "DC2011 ScienceMetadataCommunity.pdf")‎(file size: 118 KB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DC2011_ScienceMetadataCommunity.pdf">11:11, 22 September 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DC2011_ScienceMetadataCommunity.pdf">11:11, 22 September 2011</a></td>
     <td> <span style="white-space: nowrap;">(118 KB)</span>
     </td>
     <td>
@@ -68,13 +68,13 @@ The following 2 pages link to this file:
 - [DC2011 Science and Metadata Meeting Agenda](/index.php/DC2011_Science_and_Metadata_Meeting_Agenda "DC2011 Science and Metadata Meeting Agenda")
 - [DC2011 SAM Science and Metadata Agenda and Meeting Summary](/index.php/DC2011_SAM_Science_and_Metadata_Agenda_and_Meeting_Summary "DC2011 SAM Science and Metadata Agenda and Meeting Summary")
 
-Retrieved from " [/archive/mediawiki_wiki/File:DC2011\_ScienceMetadataCommunity.pdf](/archive/mediawiki_wiki/files/File:/File:DC2011_ScienceMetadataCommunity.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:DC2011\_ScienceMetadataCommunity.pdf](/mediawiki_wiki/files/File:/File:DC2011_ScienceMetadataCommunity.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DC2011_ScienceMetadataCommunity.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DC2011_ScienceMetadataCommunity.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DC2011_ScienceMetadataCommunity.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DC2011_ScienceMetadataCommunity.pdf&action=edit "This page is protected.
 You can view its source [e]")

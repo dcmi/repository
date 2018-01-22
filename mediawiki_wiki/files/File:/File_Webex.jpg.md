@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Webex.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Webex.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Webex.jpg" src="/images/9/9b/Webex.jpg" width="559" height="163">](/archive/mediawiki_wiki/files/Webex.jpg)  
+ [<img alt="File:Webex.jpg" src="/images/9/9b/Webex.jpg" width="559" height="163">](/mediawiki_wiki/files/Webex.jpg)  
 <small>No higher resolution available.</small>  
  [Webex.jpg](/images/9/9b/Webex.jpg)‎ (559 × 163 pixels, file size: 46 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Webex.jpg">22:03, 28 April 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Webex.jpg">22:03, 28 April 2014</a></td>
     <td><a href="/images/9/9b/Webex.jpg"><img alt="Thumbnail for version as of 22:03, 28 April 2014" src="/images/9/9b/Webex.jpg" width="120" height="35"></a></td>
     <td>559×163 <span style="white-space: nowrap;">(46 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [DCMI Handbook/procedures/webex](/index.php/DCMI_Handbook/procedures/webex "DCMI Handbook/procedures/webex")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Webex.jpg](/archive/mediawiki_wiki/files/File:/File:Webex.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Webex.jpg](/mediawiki_wiki/files/File:/File:Webex.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Webex.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Webex.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Webex.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Webex.jpg&action=edit "This page is protected.
 You can view its source [e]")

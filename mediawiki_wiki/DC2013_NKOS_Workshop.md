@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DC2013_NKOS_Workshop.html"
+- "/mediawiki_wiki/DC2013_NKOS_Workshop.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -55,13 +55,13 @@ The DCMI/NKOS Task Group’s overriding goal is to establish an Application Prof
 
 [1] [http://dublincore.org/groups/nkos/](http://dublincore.org/groups/nkos/)
 
-[2] [/archive/mediawiki_wiki/NKOS\_AP\_Worksheet](/archive/mediawiki_wiki/NKOS_AP_Worksheet)
+[2] [/mediawiki_wiki/NKOS\_AP\_Worksheet](/mediawiki_wiki/NKOS_AP_Worksheet)
 
-[3] [/archive/mediawiki_wiki/Core\_Elements](/archive/mediawiki_wiki/Core_Elements)
+[3] [/mediawiki_wiki/Core\_Elements](/mediawiki_wiki/Core_Elements)
 
-[4] [/archive/mediawiki_wiki/DCMI\_NKOS\_Task\_Group](/archive/mediawiki_wiki/DCMI_NKOS_Task_Group)
+[4] [/mediawiki_wiki/DCMI\_NKOS\_Task\_Group](/mediawiki_wiki/DCMI_NKOS_Task_Group)
 
-[5] [/archive/mediawiki_wiki/KOS\_example](/archive/mediawiki_wiki/KOS_example)
+[5] [/mediawiki_wiki/KOS\_example](/mediawiki_wiki/KOS_example)
 
 [6] [http://www.w3.org/TR/skos-reference/](http://www.w3.org/TR/skos-reference/) Section 4.6.1
 

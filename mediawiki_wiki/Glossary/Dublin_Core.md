@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Glossary/Dublin_Core.html"
+- "/mediawiki_wiki/Glossary/Dublin_Core.html"
 ---
 
  **This is an archived MediaWiki page.**  

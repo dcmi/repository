@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Planning_Grant_Report_IMLS.html"
+- "/mediawiki_wiki/Planning_Grant_Report_IMLS.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -116,7 +116,7 @@ The workshop, follow-up discussion, and feedback on the blog identified three br
 
 ### Planning the Learning Lab 
 
- [<img alt="LLDImplementationFrameworkV2.png" src="/archive/mediawiki_wiki/images/LLDImplementationFrameworkV2.png" width="600" height="555">](/archive/mediawiki_wiki/images/LLDImplementationFrameworkV2.png)
+ [<img alt="LLDImplementationFrameworkV2.png" src="/mediawiki_wiki/images/LLDImplementationFrameworkV2.png" width="600" height="555">](/mediawiki_wiki/images/LLDImplementationFrameworkV2.png)
 
 The planning project initially envisioned the "language lab" for learning Linked data as a software platform -- a set of analytical and data-processing tools, with documentation on how to use those tools for teaching, possibly packaged for download, and ideally integrated with an "orchestrator" interface. The participants concluded, however, that a project heavy on software development would be risky to undertake, subject to continual obsolescence, and thus unsustainably expensive to maintain.
 
@@ -149,6 +149,6 @@ Rather, the project converged on the concept of a learning environment comprisin
 9. ↑ [http://edrene.org/](http://edrene.org/)
 10. ↑ [http://www.thegateway.org/](http://www.thegateway.org/)
 
-- [PDF download](/archive/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf "LearningLinkedDataFinalProjectReport.pdf") (399KB)
+- [PDF download](/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf "LearningLinkedDataFinalProjectReport.pdf") (399KB)
 - [Word 2010 download](http://lld.ischool.uw.edu/wp/wp-content/uploads/2012/09/LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.docx) (219KB) -- The Word file is linked from the WordPress site because this wiki generated errors when trying to upload either the Word 2010 or Word 2003 versions.
 

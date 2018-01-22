@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Editing_Static_Pages.pdf.html"
+- "/mediawiki_wiki/files/File:/File_Editing_Static_Pages.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/Editing_Static_Pages.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Editing_Static_Pages.pdf)
 
-[Editing\_Static\_Pages.pdf](/archive/mediawiki_wiki/files/Editing_Static_Pages.pdf "Editing Static Pages.pdf")‎(file size: 3.47 MB, MIME type: application/pdf)
+[Editing\_Static\_Pages.pdf](/mediawiki_wiki/files/Editing_Static_Pages.pdf "Editing Static Pages.pdf")‎(file size: 3.47 MB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Editing_Static_Pages.pdf">15:10, 24 October 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Editing_Static_Pages.pdf">15:10, 24 October 2011</a></td>
     <td> <span style="white-space: nowrap;">(3.47 MB)</span>
     </td>
     <td>
@@ -67,13 +67,13 @@ The following page links to this file:
 
 - [DCMI Conferences/OCS Howto](/index.php/DCMI_Conferences/OCS_Howto "DCMI Conferences/OCS Howto")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Editing\_Static\_Pages.pdf](/archive/mediawiki_wiki/files/File:/File:Editing_Static_Pages.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:Editing\_Static\_Pages.pdf](/mediawiki_wiki/files/File:/File:Editing_Static_Pages.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Editing_Static_Pages.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Editing_Static_Pages.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Editing_Static_Pages.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Editing_Static_Pages.pdf&action=edit "This page is protected.
 You can view its source [e]")

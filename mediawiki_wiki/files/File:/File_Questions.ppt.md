@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Questions.ppt.html"
+- "/mediawiki_wiki/files/File:/File_Questions.ppt.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
-[Questions.ppt](/archive/mediawiki_wiki/files/Questions.ppt "Questions.ppt")‎(file size: 172 KB, MIME type: application/vnd.ms-powerpoint)
+[Questions.ppt](/mediawiki_wiki/files/Questions.ppt "Questions.ppt")‎(file size: 172 KB, MIME type: application/vnd.ms-powerpoint)
 
 **Warning** : This file type may contain malicious code. By executing it, your system may be compromised.
 <!-- 
@@ -46,7 +46,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Questions.ppt">02:24, 6 September 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Questions.ppt">02:24, 6 September 2013</a></td>
     <td> <span style="white-space: nowrap;">(172 KB)</span>
     </td>
     <td>
@@ -64,13 +64,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:Questions.ppt](/archive/mediawiki_wiki/files/File:/File:Questions.ppt.html)"
+Retrieved from " [/mediawiki_wiki/File:Questions.ppt](/mediawiki_wiki/files/File:/File:Questions.ppt.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Questions.ppt.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Questions.ppt.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Questions.ppt&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Questions.ppt&action=edit "This page is protected.
 You can view its source [e]")

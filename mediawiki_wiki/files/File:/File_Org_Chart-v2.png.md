@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Org_Chart-v2.png.html"
+- "/mediawiki_wiki/files/File:/File_Org_Chart-v2.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Org Chart-v2.png" src="/images/6/6f/Org_Chart-v2.png" width="656" height="600">](/archive/mediawiki_wiki/files/Org_Chart-v2.png)  
+ [<img alt="File:Org Chart-v2.png" src="/images/6/6f/Org_Chart-v2.png" width="656" height="600">](/mediawiki_wiki/files/Org_Chart-v2.png)  
 <small>Size of this preview: 656 × 600 pixels</small>  
  [Full resolution](/images/6/6f/Org_Chart-v2.png)‎ (1,000 × 914 pixels, file size: 152 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Org_Chart-v2.png">11:18, 14 December 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Org_Chart-v2.png">11:18, 14 December 2013</a></td>
     <td><a href="/images/6/6f/Org_Chart-v2.png"><img alt="Thumbnail for version as of 11:18, 14 December 2013" src="/images/6/6f/Org_Chart-v2.png" width="120" height="110"></a></td>
     <td>1,000×914 <span style="white-space: nowrap;">(152 KB)</span>
     </td>
@@ -70,13 +70,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:Org\_Chart-v2.png](/archive/mediawiki_wiki/files/File:/File:Org_Chart-v2.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Org\_Chart-v2.png](/mediawiki_wiki/files/File:/File:Org_Chart-v2.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Org_Chart-v2.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Org_Chart-v2.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Org_Chart-v2.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Org_Chart-v2.png&action=edit "This page is protected.
 You can view its source [e]")

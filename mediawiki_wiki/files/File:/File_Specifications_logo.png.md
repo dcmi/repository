@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Specifications_logo.png.html"
+- "/mediawiki_wiki/files/File:/File_Specifications_logo.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Specifications logo.png" src="/images/d/d4/Specifications_logo.png" width="768" height="108">](/archive/mediawiki_wiki/files/Specifications_logo.png)  
+ [<img alt="File:Specifications logo.png" src="/images/d/d4/Specifications_logo.png" width="768" height="108">](/mediawiki_wiki/files/Specifications_logo.png)  
 <small>No higher resolution available.</small>  
  [Specifications\_logo.png](/images/d/d4/Specifications_logo.png)‎ (768 × 108 pixels, file size: 25 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Specifications_logo.png">21:23, 23 March 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Specifications_logo.png">21:23, 23 March 2014</a></td>
     <td><a href="/images/d/d4/Specifications_logo.png"><img alt="Thumbnail for version as of 21:23, 23 March 2014" src="/images/d/d4/Specifications_logo.png" width="120" height="17"></a></td>
     <td>768×108 <span style="white-space: nowrap;">(25 KB)</span>
     </td>
@@ -94,13 +94,13 @@ The following 11 pages link to this file:
 - [Nkos/apNameSpace](/index.php/Nkos/apNameSpace "Nkos/apNameSpace")
 - [Nkos/apSKOS](/index.php/Nkos/apSKOS "Nkos/apSKOS")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Specifications\_logo.png](/archive/mediawiki_wiki/files/File:/File:Specifications_logo.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Specifications\_logo.png](/mediawiki_wiki/files/File:/File:Specifications_logo.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Specifications_logo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Specifications_logo.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Specifications_logo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Specifications_logo.png&action=edit "This page is protected.
 You can view its source [e]")

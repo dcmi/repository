@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_InteroperabilityLevels.jpg.html"
+- "/mediawiki_wiki/files/File:/File_InteroperabilityLevels.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:InteroperabilityLevels.jpg" src="/images/8/85/InteroperabilityLevels.jpg" width="562" height="310">](/archive/mediawiki_wiki/files/InteroperabilityLevels.jpg)  
+ [<img alt="File:InteroperabilityLevels.jpg" src="/images/8/85/InteroperabilityLevels.jpg" width="562" height="310">](/mediawiki_wiki/files/InteroperabilityLevels.jpg)  
 <small>No higher resolution available.</small>  
  [InteroperabilityLevels.jpg](/images/8/85/InteroperabilityLevels.jpg)‎ (562 × 310 pixels, file size: 32 KB, MIME type: image/jpeg)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/InteroperabilityLevels.jpg">16:00, 15 January 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/InteroperabilityLevels.jpg">16:00, 15 January 2013</a></td>
     <td><a href="/images/8/85/InteroperabilityLevels.jpg"><img alt="Thumbnail for version as of 16:00, 15 January 2013" src="/images/8/85/InteroperabilityLevels.jpg" width="120" height="66"></a></td>
     <td>562×310 <span style="white-space: nowrap;">(32 KB)</span>
     </td>
@@ -68,13 +68,13 @@ The following page links to this file:
 
 - [PT Traduções/Níveis de Interoperabilidade](/index.php/PT_Tradu%C3%A7%C3%B5es/N%C3%ADveis_de_Interoperabilidade "PT Traduções/Níveis de Interoperabilidade")
 
-Retrieved from " [/archive/mediawiki_wiki/File:InteroperabilityLevels.jpg](/archive/mediawiki_wiki/files/File:/File:InteroperabilityLevels.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:InteroperabilityLevels.jpg](/mediawiki_wiki/files/File:/File:InteroperabilityLevels.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:InteroperabilityLevels.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:InteroperabilityLevels.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:InteroperabilityLevels.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:InteroperabilityLevels.jpg&action=edit "This page is protected.
 You can view its source [e]")

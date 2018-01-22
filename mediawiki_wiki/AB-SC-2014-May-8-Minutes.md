@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/AB-SC-2014-May-8-Minutes.html"
+- "/mediawiki_wiki/AB-SC-2014-May-8-Minutes.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -82,7 +82,7 @@ A set of questions to be answered before next Steering Committee meeting: (this 
 ## III. Communications: 
 
 - • Committees can use mailing list for communications. Some are monitored. 
-- • Wiki should be used for documenting the actions, meeting minutes, etc. Wiki location: [/archive/mediawiki_wiki/DCMI\_Advisory\_Board](/archive/mediawiki_wiki/DCMI_Advisory_Board)
+- • Wiki should be used for documenting the actions, meeting minutes, etc. Wiki location: [/mediawiki_wiki/DCMI\_Advisory\_Board](/mediawiki_wiki/DCMI_Advisory_Board)
 
 IV. Future meeting schedule:
 

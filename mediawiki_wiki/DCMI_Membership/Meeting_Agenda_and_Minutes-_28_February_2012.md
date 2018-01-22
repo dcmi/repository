@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Membership/Meeting_Agenda_and_Minutes-_28_February_2012.html"
+- "/mediawiki_wiki/DCMI_Membership/Meeting_Agenda_and_Minutes-_28_February_2012.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 28 May 2017, at 11:49.  
 This page has been accessed 468 times.
 
-Return to [DCMI Membership](/archive/mediawiki_wiki/DCMI_Membership "DCMI Membership")
+Return to [DCMI Membership](/mediawiki_wiki/DCMI_Membership "DCMI Membership")
 
 <table id="toc" class="toc">
   <tr>
@@ -52,10 +52,10 @@ Return to [DCMI Membership](/archive/mediawiki_wiki/DCMI_Membership "DCMI Member
 ## Agenda 
 
 1. Roll call and status report- Mike Crandall (5 minutes)
-2. Update on [Work Item 1: DCMI Membership/Value Proposition](/archive/mediawiki_wiki/DCMI_Membership/Value_Proposition "DCMI Membership/Value Proposition")- Joseph Busch (15 minutes)
+2. Update on [Work Item 1: DCMI Membership/Value Proposition](/mediawiki_wiki/DCMI_Membership/Value_Proposition "DCMI Membership/Value Proposition")- Joseph Busch (15 minutes)
 3. Update on [Work Item 2: DCMI Membership/Member Value Proposition](/index.php?title=DCMI_Membership/Member_Value_Proposition&action=edit&redlink=1 "DCMI Membership/Member Value Proposition (page does not exist)")- Mike Crandall (for Rachel Bruce, who will be unable to join us) (5 minutes)
-4. Update on [Work Item 3: DCMI Membership/Membership Structure](/archive/mediawiki_wiki/DCMI_Membership/Membership_Structure "DCMI Membership/Membership Structure")- Paul or Stuart (15 minutes)
-5. Next steps for moving ahead (see [Task Group charter](/archive/mediawiki_wiki/DCMI_Membership#Charter "DCMI Membership") for desired end point)- Mike Crandall (15 minutes)
+4. Update on [Work Item 3: DCMI Membership/Membership Structure](/mediawiki_wiki/DCMI_Membership/Membership_Structure "DCMI Membership/Membership Structure")- Paul or Stuart (15 minutes)
+5. Next steps for moving ahead (see [Task Group charter](/mediawiki_wiki/DCMI_Membership#Charter "DCMI Membership") for desired end point)- Mike Crandall (15 minutes)
 6. Next meeting times- Mike Crandall (5 minutes)
 
 ## Minutes 
@@ -69,7 +69,7 @@ Call recordings from first (3 January, 2012) and second (28 February, 2012) meet
 
 ### Work Item 1- Potential Value
 
-[Work Item 1: Potential Value Proposition](/archive/mediawiki_wiki/DCMI_Membership/Value_Proposition "DCMI Membership/Value Proposition"): The group working on this item has distilled a list of products and services offered by DCMI to consider in thinking about present and future value. In addition, a number of organizational membership structures were analyzed for costs, membership categories, products and services, and benefits.
+[Work Item 1: Potential Value Proposition](/mediawiki_wiki/DCMI_Membership/Value_Proposition "DCMI Membership/Value Proposition"): The group working on this item has distilled a list of products and services offered by DCMI to consider in thinking about present and future value. In addition, a number of organizational membership structures were analyzed for costs, membership categories, products and services, and benefits.
 
 The organizations differ a great deal, with IDF standing out because no individual memberships are offered. Their business model clearly relates received benefits to level of contribution. AIS, on the other hand, is more focused on professionals as individuals, and mixes both institutional and individual memberships and benefits.
 
@@ -87,7 +87,7 @@ Currently, there seems to be a disconnect between the services and activities of
 
 ### Work Item 3- Membership Structure
 
-[Work Item 3: Membership Structures](/archive/mediawiki_wiki/DCMI_Membership/Membership_Structure "DCMI Membership/Membership Structure"): Stuart noted that this overlapped somewhat with the first task, but the work item page has the current breakdown, as well as examples of other organizations’ structure and a brief analysis of options available. Paul suggested that it might be worth getting feedback from other organizations on what had worked well for them in their approach. This also raises the question of whether the current member structure is viable long term. We will need to look at this in terms of modifications to the structure.
+[Work Item 3: Membership Structures](/mediawiki_wiki/DCMI_Membership/Membership_Structure "DCMI Membership/Membership Structure"): Stuart noted that this overlapped somewhat with the first task, but the work item page has the current breakdown, as well as examples of other organizations’ structure and a brief analysis of options available. Paul suggested that it might be worth getting feedback from other organizations on what had worked well for them in their approach. This also raises the question of whether the current member structure is viable long term. We will need to look at this in terms of modifications to the structure.
 
 Investigation of options besides an independent entity may be needed. DCMI was a project of OCLC for many years—are there other partnerships that might be beneficial for the organization moving forward? One example is the IA Institute/ASIST relationship where infrastructure for meetings and communication is provided by ASIST while IA Institute maintains its separate identity.
 
@@ -109,7 +109,7 @@ From the Doodle polls and members on the call, the following dates were establis
 Based on the results of the current investigation and our discussion, we determined that there are four new areas that need to be explored. Members volunteered to take on this work as a lead-in to our next call on April
 
 - [Work Item 4: Investigate audiences for DCMI services and products](/index.php?title=DCMI_Membership/Audiences&action=edit&redlink=1 "DCMI Membership/Audiences (page does not exist)") (Ana & Joseph in consultation with Raju, Rachel, Dixon as current members)
-- [Work Item 5: Investigate what works for other organizations—lessons learned](/archive/mediawiki_wiki/DCMI_Membership/Lessons_Learned "DCMI Membership/Lessons Learned") (Paul, Stuart)
+- [Work Item 5: Investigate what works for other organizations—lessons learned](/mediawiki_wiki/DCMI_Membership/Lessons_Learned "DCMI Membership/Lessons Learned") (Paul, Stuart)
 - [Work Item 6: Investigate partnership options as an alternative to an independent DCMI](/index.php?title=DCMI_Membership/Partnerships&action=edit&redlink=1 "DCMI Membership/Partnerships (page does not exist)") (Stuart)
 - [Work Item 7: Develop use cases for services and products](/index.php?title=DCMI_Membership/Use_Cases&action=edit&redlink=1 "DCMI Membership/Use Cases (page does not exist)") (Paul to provide example, others will contribute based on that)
 

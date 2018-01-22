@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Learning_Linked_Data_Inventory2.html"
+- "/mediawiki_wiki/Learning_Linked_Data_Inventory2.html"
 ---
 
  **This is an archived MediaWiki page.**  

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Mbrbutton_1.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Mbrbutton_1.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Mbrbutton 1.jpg" src="/images/d/db/Mbrbutton_1.jpg" width="100" height="30">](/archive/mediawiki_wiki/files/Mbrbutton_1.jpg)  
+ [<img alt="File:Mbrbutton 1.jpg" src="/images/d/db/Mbrbutton_1.jpg" width="100" height="30">](/mediawiki_wiki/files/Mbrbutton_1.jpg)  
 <small>No higher resolution available.</small>  
  [Mbrbutton\_1.jpg](/images/d/db/Mbrbutton_1.jpg)‎ (100 × 30 pixels, file size: 6 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Mbrbutton_1.jpg">22:26, 21 April 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Mbrbutton_1.jpg">22:26, 21 April 2014</a></td>
     <td><a href="/images/d/db/Mbrbutton_1.jpg"><img alt="Thumbnail for version as of 22:26, 21 April 2014" src="/images/d/db/Mbrbutton_1.jpg" width="120" height="36"></a></td>
     <td>100×30 <span style="white-space: nowrap;">(6 KB)</span>
     </td>
@@ -70,13 +70,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:Mbrbutton\_1.jpg](/archive/mediawiki_wiki/files/File:/File:Mbrbutton_1.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Mbrbutton\_1.jpg](/mediawiki_wiki/files/File:/File:Mbrbutton_1.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Mbrbutton_1.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Mbrbutton_1.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Mbrbutton_1.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Mbrbutton_1.jpg&action=edit "This page is protected.
 You can view its source [e]")

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Rauber.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Rauber.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Rauber.jpg" src="/images/7/7c/Rauber.jpg" width="200" height="300">](/archive/mediawiki_wiki/files/Rauber.jpg)  
+ [<img alt="File:Rauber.jpg" src="/images/7/7c/Rauber.jpg" width="200" height="300">](/mediawiki_wiki/files/Rauber.jpg)  
 <small>No higher resolution available.</small>  
  [Rauber.jpg](/images/7/7c/Rauber.jpg)‎ (200 × 300 pixels, file size: 12 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Rauber.jpg">19:22, 23 February 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Rauber.jpg">19:22, 23 February 2015</a></td>
     <td><a href="/images/7/7c/Rauber.jpg"><img alt="Thumbnail for version as of 19:22, 23 February 2015" src="/images/7/7c/Rauber.jpg" width="80" height="120"></a></td>
     <td>200×300 <span style="white-space: nowrap;">(12 KB)</span>
     </td>
@@ -73,13 +73,13 @@ The following 2 pages link to this file:
 - [DCMI Handbook/webinars](/index.php/DCMI_Handbook/webinars "DCMI Handbook/webinars")
 - [Template:Webinar20150408](/index.php/Template:Webinar20150408 "Template:Webinar20150408")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Rauber.jpg](/archive/mediawiki_wiki/files/File:/File:Rauber.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Rauber.jpg](/mediawiki_wiki/files/File:/File:Rauber.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Rauber.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Rauber.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Rauber.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Rauber.jpg&action=edit "This page is protected.
 You can view its source [e]")

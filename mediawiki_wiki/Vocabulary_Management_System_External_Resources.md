@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Vocabulary_Management_System_External_Resources.html"
+- "/mediawiki_wiki/Vocabulary_Management_System_External_Resources.html"
 ---
 
  **This is an archived MediaWiki page.**  

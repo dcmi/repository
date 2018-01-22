@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_SingaporeFramework.png.html"
+- "/mediawiki_wiki/files/File:/File_SingaporeFramework.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:SingaporeFramework.png" src="/images/0/03/SingaporeFramework.png" width="507" height="352">](/archive/mediawiki_wiki/files/SingaporeFramework.png)  
+ [<img alt="File:SingaporeFramework.png" src="/images/0/03/SingaporeFramework.png" width="507" height="352">](/mediawiki_wiki/files/SingaporeFramework.png)  
 <small>No higher resolution available.</small>  
  [SingaporeFramework.png](/images/0/03/SingaporeFramework.png)‎ (507 × 352 pixels, file size: 94 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/SingaporeFramework.png">14:11, 13 May 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/SingaporeFramework.png">14:11, 13 May 2011</a></td>
     <td><a href="/images/0/03/SingaporeFramework.png"><img alt="Thumbnail for version as of 14:11, 13 May 2011" src="/images/0/03/SingaporeFramework.png" width="120" height="83"></a></td>
     <td>507×352 <span style="white-space: nowrap;">(94 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [Glossary/Application Profile](/index.php/Glossary/Application_Profile "Glossary/Application Profile")
 
-Retrieved from " [/archive/mediawiki_wiki/File:SingaporeFramework.png](/archive/mediawiki_wiki/files/File:/File:SingaporeFramework.png.html)"
+Retrieved from " [/mediawiki_wiki/File:SingaporeFramework.png](/mediawiki_wiki/files/File:/File:SingaporeFramework.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:SingaporeFramework.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:SingaporeFramework.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:SingaporeFramework.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:SingaporeFramework.png&action=edit "This page is protected.
 You can view its source [e]")

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Conferences/OCS_Howto.html"
+- "/mediawiki_wiki/DCMI_Conferences/OCS_Howto.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -42,13 +42,13 @@ This page has been accessed 930 times.
 
 ## How to use OCS 
 
-- [File:Editing Static Pages.pdf](/archive/mediawiki_wiki/files/Editing_Static_Pages.pdf "File:Editing Static Pages.pdf")
+- [File:Editing Static Pages.pdf](/mediawiki_wiki/files/Editing_Static_Pages.pdf "File:Editing Static Pages.pdf")
 
 ### "Conference Managers" 
 
 #### Keep track of registrations 
 
-[File:Manager Stats and Reports.pdf](/archive/mediawiki_wiki/files/Manager_Stats_and_Reports.pdf "File:Manager Stats and Reports.pdf")
+[File:Manager Stats and Reports.pdf](/mediawiki_wiki/files/Manager_Stats_and_Reports.pdf "File:Manager Stats and Reports.pdf")
 
 2011-07-05. "Conference Managers" can track registrations. Start by clicking on the "Conference Manager" role link. You will see the list of manager administration functions. About 1/2 way down you'll see the section of functions specific to DC-2011. There are two functions of interest, "Registrations" and "Stats & Reports":
 

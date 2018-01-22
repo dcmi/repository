@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_LD4PE_Annoted_Competency_Index.pdf.html"
+- "/mediawiki_wiki/files/File:/File_LD4PE_Annoted_Competency_Index.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/LD4PE_Annoted_Competency_Index.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/LD4PE_Annoted_Competency_Index.pdf)
 
-[LD4PE\_Annoted\_Competency\_Index.pdf](/archive/mediawiki_wiki/files/LD4PE_Annoted_Competency_Index.pdf "LD4PE Annoted Competency Index.pdf")‎(file size: 376 KB, MIME type: application/pdf)
+[LD4PE\_Annoted\_Competency\_Index.pdf](/mediawiki_wiki/files/LD4PE_Annoted_Competency_Index.pdf "LD4PE Annoted Competency Index.pdf")‎(file size: 376 KB, MIME type: application/pdf)
 
 As we discussed in our meeting last week (02/08/2015), I have been looking through the resources which I've already cataloged and comparing them to the Competency Index to get a better sense of what we have so far and identify gaps (and possible additions).
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/LD4PE_Annoted_Competency_Index.pdf">05:05, 26 February 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/LD4PE_Annoted_Competency_Index.pdf">05:05, 26 February 2015</a></td>
     <td> <span style="white-space: nowrap;">(376 KB)</span>
     </td>
     <td>
@@ -68,17 +68,17 @@ Click on a date/time to view the file as it appeared at that time.
 
 The following file is a duplicate of this file ( [more details](/index.php/Special:FileDuplicateSearch/LD4PE_Annoted_Competency_Index.pdf "Special:FileDuplicateSearch/LD4PE Annoted Competency Index.pdf")):
 
-- [File:LD4PE Annotated Competency Index.pdf](/archive/mediawiki_wiki/files/File:/File:LD4PE_Annotated_Competency_Index.pdf.html "File:LD4PE Annotated Competency Index.pdf") 
+- [File:LD4PE Annotated Competency Index.pdf](/mediawiki_wiki/files/File:/File:LD4PE_Annotated_Competency_Index.pdf.html "File:LD4PE Annotated Competency Index.pdf") 
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:LD4PE\_Annoted\_Competency\_Index.pdf](/archive/mediawiki_wiki/files/File:/File:LD4PE_Annoted_Competency_Index.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:LD4PE\_Annoted\_Competency\_Index.pdf](/mediawiki_wiki/files/File:/File:LD4PE_Annoted_Competency_Index.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:LD4PE_Annoted_Competency_Index.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:LD4PE_Annoted_Competency_Index.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:LD4PE_Annoted_Competency_Index.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:LD4PE_Annoted_Competency_Index.pdf&action=edit "This page is protected.
 You can view its source [e]")

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_DcExplore.png.html"
+- "/mediawiki_wiki/files/File:/File_DcExplore.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:DcExplore.png" src="/images/3/36/DcExplore.png" width="665" height="129">](/archive/mediawiki_wiki/files/DcExplore.png)  
+ [<img alt="File:DcExplore.png" src="/images/3/36/DcExplore.png" width="665" height="129">](/mediawiki_wiki/files/DcExplore.png)  
 <small>No higher resolution available.</small>  
  [DcExplore.png](/images/3/36/DcExplore.png)‎ (665 × 129 pixels, file size: 34 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/DcExplore.png">15:09, 5 December 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/DcExplore.png">15:09, 5 December 2014</a></td>
     <td><a href="/images/3/36/DcExplore.png"><img alt="Thumbnail for version as of 15:09, 5 December 2014" src="/images/3/36/DcExplore.png" width="120" height="23"></a></td>
     <td>665×129 <span style="white-space: nowrap;">(34 KB)</span>
     </td>
@@ -94,13 +94,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:DcExplore.png](/archive/mediawiki_wiki/files/File:/File:DcExplore.png.html)"
+Retrieved from " [/mediawiki_wiki/File:DcExplore.png](/mediawiki_wiki/files/File:/File:DcExplore.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:DcExplore.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DcExplore.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:DcExplore.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DcExplore.png&action=edit "This page is protected.
 You can view its source [e]")

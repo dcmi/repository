@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/TaskGroup_Meeting_DC2013.html"
+- "/mediawiki_wiki/TaskGroup_Meeting_DC2013.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -54,13 +54,13 @@ Objective: In this session we will present the use of the Europeana Data Model (
 Agenda:
 
 - Welcome and introduction
-- [The usage of EDM in DDB](/archive/mediawiki_wiki/files/DC_DDB-EDM-Vortrag_FSch_SR_20130903_neu.pdf)
+- [The usage of EDM in DDB](/mediawiki_wiki/files/DC_DDB-EDM-Vortrag_FSch_SR_20130903_neu.pdf)
 - Discussion: How to describe provenance of cultural heritage object
 - Closing
 
 This meeting is intended to be accessible to all, including those who have not previously attended DCMI events. The participation of newcomers and non-experts is encouraged. If you have any immediate questions about the meeting, please contact Stefanie Rühle (sruehle(a)sub.uni-goettingen.de)
 
-**Web:** [/archive/mediawiki_wiki/Cultural\_Heritage\_Metadata\_Task\_Group](/archive/mediawiki_wiki/Cultural_Heritage_Metadata_Task_Group)
+**Web:** [/mediawiki_wiki/Cultural\_Heritage\_Metadata\_Task\_Group](/mediawiki_wiki/Cultural_Heritage_Metadata_Task_Group)
 
 **Mailing list:** [http://www.jiscmail.ac.uk/DC-CULTURAL-TG](http://www.jiscmail.ac.uk/DC-CULTURAL-TG)
 

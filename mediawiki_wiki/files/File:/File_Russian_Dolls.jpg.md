@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Russian_Dolls.jpg.html"
+- "/mediawiki_wiki/files/File:/File_Russian_Dolls.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Russian Dolls.jpg" src="/images/0/0a/Russian_Dolls.jpg" width="500" height="322">](/archive/mediawiki_wiki/files/Russian_Dolls.jpg)  
+ [<img alt="File:Russian Dolls.jpg" src="/images/0/0a/Russian_Dolls.jpg" width="500" height="322">](/mediawiki_wiki/files/Russian_Dolls.jpg)  
 <small>No higher resolution available.</small>  
  [Russian\_Dolls.jpg](/images/0/0a/Russian_Dolls.jpg)‎ (500 × 322 pixels, file size: 147 KB, MIME type: image/jpeg)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Russian_Dolls.jpg">15:29, 1 April 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Russian_Dolls.jpg">15:29, 1 April 2012</a></td>
     <td><a href="/images/0/0a/Russian_Dolls.jpg"><img alt="Thumbnail for version as of 15:29, 1 April 2012" src="/images/0/0a/Russian_Dolls.jpg" width="120" height="77"></a></td>
     <td>500×322 <span style="white-space: nowrap;">(147 KB)</span>
     </td>
@@ -69,13 +69,13 @@ The following 2 pages link to this file:
 - [DublinToDrupal Project](/index.php/DublinToDrupal_Project "DublinToDrupal Project")
 - [DublinToDrupal Project/Community](/index.php/DublinToDrupal_Project/Community "DublinToDrupal Project/Community")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Russian\_Dolls.jpg](/archive/mediawiki_wiki/files/File:/File:Russian_Dolls.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:Russian\_Dolls.jpg](/mediawiki_wiki/files/File:/File:Russian_Dolls.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Russian_Dolls.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Russian_Dolls.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Russian_Dolls.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Russian_Dolls.jpg&action=edit "This page is protected.
 You can view its source [e]")

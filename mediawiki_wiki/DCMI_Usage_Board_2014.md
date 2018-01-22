@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Usage_Board_2014.html"
+- "/mediawiki_wiki/DCMI_Usage_Board_2014.html"
 ---
 
  **This is an archived MediaWiki page.**  

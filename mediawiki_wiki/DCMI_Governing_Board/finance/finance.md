@@ -8,18 +8,18 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Governing_Board/finance/finance.html"
+- "/mediawiki_wiki/DCMI_Governing_Board/finance/finance.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 21 October 2014, at 19:36.  
 This page has been accessed 116,588 times.
 
-[<img alt="Finance &amp; Bylaws Committee logo" src="/archive/mediawiki_wiki/images/Finance_Logo.png" width="300" height="58">](/archive/mediawiki_wiki/images/Finance_Logo.png "Finance & Bylaws Committee logo")
+[<img alt="Finance &amp; Bylaws Committee logo" src="/mediawiki_wiki/images/Finance_Logo.png" width="300" height="58">](/mediawiki_wiki/images/Finance_Logo.png "Finance & Bylaws Committee logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](DCMI_Handbook "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](DCMI_Handbook "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <strong class="selflink">Membership &amp; Finance</strong> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -171,7 +171,7 @@ Specific issues which the Committee is charged to address:
 
 #### Task Forces 
 
-- [DCMI Task Force on the Financial Structure of the Dublin Core Annual Conference & DCMI Annual Meeting](/archive/mediawiki_wiki/DCMI_Governing_Board/finance/TF/Conference_Financial_Structure "DCMI Governing Board/finance/TF/Conference Financial Structure") (July 2014 - )
+- [DCMI Task Force on the Financial Structure of the Dublin Core Annual Conference & DCMI Annual Meeting](/mediawiki_wiki/DCMI_Governing_Board/finance/TF/Conference_Financial_Structure "DCMI Governing Board/finance/TF/Conference Financial Structure") (July 2014 - )
 
 * * *
 
@@ -183,20 +183,20 @@ Specific issues which the Committee is charged to address:
 
 #### Reporting 
 
-- _Reporting:_ The DCMI Membership & Finance Committee reports to the DCMI Governing Board in a manner set out in the [Board Policies & Procedures](/archive/mediawiki_wiki/DCMI_Governing_Board/procedures "DCMI Governing Board/procedures"). 
+- _Reporting:_ The DCMI Membership & Finance Committee reports to the DCMI Governing Board in a manner set out in the [Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures "DCMI Governing Board/procedures"). 
 
 * * *
 
 #### Communications 
 
 - JiscMail Committee Forum (Private): [dc-mfc@jiscmail.ac.uk](mailto:dc-mfc@jiscmail.ac.uk) | [Join/Leave](http://www.jiscmail.ac.uk/lists/dc-mfc.html) [Archive](http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-mfc&A=1)
-- [<img alt="+ symbol" src="/archive/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/archive/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
+- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
 
 * * *
 
 #### Key DCMI Handbook Pages 
 
-- [Governing Board Policies & Procedures](/archive/mediawiki_wiki/DCMI_Governing_Board/procedures "DCMI Governing Board/procedures")
+- [Governing Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures "DCMI Governing Board/procedures")
 - [Committee Policies & Procedures](/index.php?title=DCMI_Governing_Board/finance/procedures&action=edit&redlink=1 "DCMI Governing Board/finance/procedures (page does not exist)")
 
 * * *
@@ -213,7 +213,7 @@ Specific issues which the Committee is charged to address:
 
 * * *
 
-[<img alt="DCMI Handbook" src="/archive/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/archive/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
 
 [Click and become a DCMI member...](http://dublincore.org/support/#individualMember)
 

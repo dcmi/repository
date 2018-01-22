@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/KIM-recommendations.html"
+- "/mediawiki_wiki/KIM-recommendations.html"
 ---
 
  **This is an archived MediaWiki page.**  

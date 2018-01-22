@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_MediaWiki-All.jpg.html"
+- "/mediawiki_wiki/files/File:/File_MediaWiki-All.jpg.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:MediaWiki-All.jpg" src="/images/8/80/MediaWiki-All.jpg" width="335" height="28">](/archive/mediawiki_wiki/files/MediaWiki-All.jpg)  
+ [<img alt="File:MediaWiki-All.jpg" src="/images/8/80/MediaWiki-All.jpg" width="335" height="28">](/mediawiki_wiki/files/MediaWiki-All.jpg)  
 <small>No higher resolution available.</small>  
  [MediaWiki-All.jpg](/images/8/80/MediaWiki-All.jpg)‎ (335 × 28 pixels, file size: 27 KB, MIME type: image/jpeg)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/MediaWiki-All.jpg">23:56, 8 January 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/MediaWiki-All.jpg">23:56, 8 January 2012</a></td>
     <td><a href="/images/8/80/MediaWiki-All.jpg"><img alt="Thumbnail for version as of 23:56, 8 January 2012" src="/images/8/80/MediaWiki-All.jpg" width="120" height="10"></a></td>
     <td>335×28 <span style="white-space: nowrap;">(27 KB)</span>
     </td>
@@ -70,13 +70,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:MediaWiki-All.jpg](/archive/mediawiki_wiki/files/File:/File:MediaWiki-All.jpg.html)"
+Retrieved from " [/mediawiki_wiki/File:MediaWiki-All.jpg](/mediawiki_wiki/files/File:/File:MediaWiki-All.jpg.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:MediaWiki-All.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:MediaWiki-All.jpg.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:MediaWiki-All.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:MediaWiki-All.jpg&action=edit "This page is protected.
 You can view its source [e]")

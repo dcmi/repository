@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_ScheduleOfCompletion-2015-06-30.pdf.html"
+- "/mediawiki_wiki/files/File:/File_ScheduleOfCompletion-2015-06-30.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/ScheduleOfCompletion-2015-06-30.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/ScheduleOfCompletion-2015-06-30.pdf)
 
-[ScheduleOfCompletion-2015-06-30.pdf](/archive/mediawiki_wiki/files/ScheduleOfCompletion-2015-06-30.pdf "ScheduleOfCompletion-2015-06-30.pdf")‎(file size: 110 KB, MIME type: application/pdf)
+[ScheduleOfCompletion-2015-06-30.pdf](/mediawiki_wiki/files/ScheduleOfCompletion-2015-06-30.pdf "ScheduleOfCompletion-2015-06-30.pdf")‎(file size: 110 KB, MIME type: application/pdf)
 
 update of proposed schedule as of June 2015, with notes on progress to date
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/ScheduleOfCompletion-2015-06-30.pdf">00:25, 23 July 2015</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/ScheduleOfCompletion-2015-06-30.pdf">00:25, 23 July 2015</a></td>
     <td> <span style="white-space: nowrap;">(110 KB)</span>
     </td>
     <td>
@@ -70,13 +70,13 @@ The following page links to this file:
 
 - [LD4PE Meeting Minutes/2015-07-21](/index.php/LD4PE_Meeting_Minutes/2015-07-21 "LD4PE Meeting Minutes/2015-07-21")
 
-Retrieved from " [/archive/mediawiki_wiki/File:ScheduleOfCompletion-2015-06-30.pdf](/archive/mediawiki_wiki/files/File:/File:ScheduleOfCompletion-2015-06-30.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:ScheduleOfCompletion-2015-06-30.pdf](/mediawiki_wiki/files/File:/File:ScheduleOfCompletion-2015-06-30.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:ScheduleOfCompletion-2015-06-30.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:ScheduleOfCompletion-2015-06-30.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:ScheduleOfCompletion-2015-06-30.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:ScheduleOfCompletion-2015-06-30.pdf&action=edit "This page is protected.
 You can view its source [e]")

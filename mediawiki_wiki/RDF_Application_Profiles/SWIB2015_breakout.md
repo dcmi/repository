@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/RDF_Application_Profiles/SWIB2015_breakout.html"
+- "/mediawiki_wiki/RDF_Application_Profiles/SWIB2015_breakout.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -18,7 +18,7 @@ This page has been accessed 8,754 times.
 <pre>
 Session name: RDF Application Profiles 
     **Important note:** This session has been conceived as a face-to-face meeting of a pre-existing task force. But **everyone at SWIB is welcome to discuss with us!**
-    Two years ago, the SWIB conference has been instrumental in creating the "RDF Application Profiles" Task Group (/archive/mediawiki_wiki/RDF_Application_Profiles).
+    Two years ago, the SWIB conference has been instrumental in creating the "RDF Application Profiles" Task Group (/mediawiki_wiki/RDF_Application_Profiles).
     With the recent publication of its reports on use cases and requirements, the task group has completed an important milestone of its charter. We suggest to regroup and think of most important options we may want to continue working on.
     We'd like to propose a somewhat directed discussion of the related W3C work, both SHACL and ShEx, with the goal of discussing: 
 1) Do either of these replace the DCMI DSP? 
@@ -35,10 +35,10 @@ and finally
 
 Attendants: Antoine Isaac, Stefanie Rühle, Karen Coyle, MJ Han, Lars G. Svensson, Valentine Charles, Kai Eckert, Marc-Antoine Nüssli, Tom Baker, Simeon Waerner,Enno Meijers, Christina Harlow, Jana Hentschke
 
-Link to DCMI task group on RDF AP: /archive/mediawiki_wiki/RDF_Application_Profiles
+Link to DCMI task group on RDF AP: /mediawiki_wiki/RDF_Application_Profiles
 Group deliverables: 
-    /archive/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable
-    /archive/mediawiki_wiki/RDF_Application_Profiles/Requirements
+    /mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable
+    /mediawiki_wiki/RDF_Application_Profiles/Requirements
 
 ======
 History of work so far:

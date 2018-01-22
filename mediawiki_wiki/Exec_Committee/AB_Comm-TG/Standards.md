@@ -8,14 +8,14 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Standards.html"
+- "/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Standards.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 10 May 2015, at 10:49.  
 This page has been accessed 74,256 times.
 
-[Return to Advisory Board](/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG "Exec Committee/AB Comm-TG")Note the name of "Standards Committee" is changed to "Specifications/Documentation" Committee.
+[Return to Advisory Board](/mediawiki_wiki/Exec_Committee/AB_Comm-TG "Exec Committee/AB Comm-TG")Note the name of "Standards Committee" is changed to "Specifications/Documentation" Committee.
 
 <table id="toc" class="toc">
   <tr>
@@ -41,9 +41,9 @@ This page has been accessed 74,256 times.
 
 ### Related Resources 
 
-NOTE: Use browser back button, "Return to..." links take you to the [DCMI Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook") and not [Advisory Board](/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG "Exec Committee/AB Comm-TG").
+NOTE: Use browser back button, "Return to..." links take you to the [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook") and not [Advisory Board](/mediawiki_wiki/Exec_Committee/AB_Comm-TG "Exec Committee/AB Comm-TG").
 
-1. [DCMI Usage Committee](/archive/mediawiki_wiki/DCMI_Technical_Board/usage "DCMI Technical Board/usage")
+1. [DCMI Usage Committee](/mediawiki_wiki/DCMI_Technical_Board/usage "DCMI Technical Board/usage")
 2. Current (over specified) Usage Board processes within the <u>current narrower context of its charge</u> can be found at [http://dublincore.org/usage/documents/process/](http://dublincore.org/usage/documents/process/)
 
 _Extracted from Usage Board Guidelines:_
@@ -72,7 +72,7 @@ _**(JB)** Seems to me that the Usage Board and the Standards Committee should be
 
 _**(mz)** After our knowledge audit exercise we believe that there is a need for a committee to manage the community-generated products like application profiles, vocabularies, and best practices/guidelines._
 
-[<img alt="UB-standards.png" src="/archive/mediawiki_wiki/images/UB-standards.png" width="806" height="553">](/archive/mediawiki_wiki/images/UB-standards.png)
+[<img alt="UB-standards.png" src="/mediawiki_wiki/images/UB-standards.png" width="806" height="553">](/mediawiki_wiki/images/UB-standards.png)
 
 ## Members 
 

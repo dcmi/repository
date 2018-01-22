@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCMI_Localization_and_Internationalization_Wiki.html"
+- "/mediawiki_wiki/DCMI_Localization_and_Internationalization_Wiki.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -38,7 +38,7 @@ Issues arising may include:
 - Community model for developing culture- and domain-specific elements / qualifiers;
 - Translation and versioning of element/qualifier.
 
-For 2009-2011 the DCMI Localization and Internationalization Community has focused on developing **[Guidelines for Translating Dublin Core Specifications](/archive/mediawiki_wiki/Guidelines_for_Translating_Dublin_Core_Specifications "Guidelines for Translating Dublin Core Specifications")** through the work of the **[DCMI Translation Task Group](/archive/mediawiki_wiki/DCMI_Translation_Task_Group "DCMI Translation Task Group")**.
+For 2009-2011 the DCMI Localization and Internationalization Community has focused on developing **[Guidelines for Translating Dublin Core Specifications](/mediawiki_wiki/Guidelines_for_Translating_Dublin_Core_Specifications "Guidelines for Translating Dublin Core Specifications")** through the work of the **[DCMI Translation Task Group](/mediawiki_wiki/DCMI_Translation_Task_Group "DCMI Translation Task Group")**.
 
 ## Moderators 
 

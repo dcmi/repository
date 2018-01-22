@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104.html"
+- "/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -18,26 +18,26 @@ This page has been accessed 129,219 times.
 <pre>2011-01-04 DCAM editors' call - 9:00 EST
 
 Attended: Tom, Stuart, Richard, Kai, Michael, Jane
-This report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104</a>
+This report: <a href="/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104</a>
 
 ----------------------------------------------------------------------
 Summary of actions
 
 ACTION: Tom and Richard to put placeholder for introductory text into wiki document
-at <a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Draft</a>.
+at <a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Draft</a>.
 
 ACTION: Kai and Tom to work on technical part in wiki, e.g.:
-    <a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Tech</a>
-    <a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
-    <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
-    <a href="/mediawiki_wiki/DCAM_Revision_Graphics.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Graphics</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Tech</a>
+    <a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Graphics.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Graphics</a>
 
 ----------------------------------------------------------------------
 Discussion
 
 Tom: Substantive discussion occurs on the DC-Architecture list unless there are
 complaints about the traffic. We can start writing at
-<a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Draft</a>. Need to start
+<a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Draft</a>. Need to start
 builing a structure for the revised document(s). Need to give something to
 general readers, but technical documentation for more in-depth information.
 General document provides examples, rationale, and uses of DCAM. What are
@@ -68,7 +68,7 @@ may have seen it in overly simple terms. I thought we could just rewrite what
 is there. But I see we need to address potential issues.
 
 Tom: Introduction should describe function of DCAM; what are the requirements?
-See <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Scratchpad</a>: mapping of
+See <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Scratchpad</a>: mapping of
 concepts. Pete Johnston's work on DC-Text makes some things that are implicit
 in DCAM more explicit. Also important to see what is happening in the RDF
 Working Group. Notion of "Description Sets" may be clearer for general readers
@@ -97,7 +97,7 @@ Tom: These are useful points that need to be written up. Put a placeholder in
 the wiki with an introduction. Use the introduction as a place to collect text.
 
 ACTION: Tom and Richard to put placeholder for introductory text into wiki document
-at <a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Draft</a>.
+at <a href="/mediawiki_wiki/DCAM_Revision_Draft.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Draft</a>.
 
 Richard: Continue looking at other DCMI documentation (like the "using dublin
 core" revisions) to make sure that everything aligns and can lead users through
@@ -124,10 +124,10 @@ based on RDF?
 Tom: OK with me.
 
 ACTION: Kai and Tom to work on technical part in wiki, e.g.:
-    <a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Tech</a>
-	<a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision</a>
-    <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
-    <a href="/mediawiki_wiki/DCAM_Revision_Graphics.md" class="external free" rel="nofollow">/archive/mediawiki_wiki/DCAM_Revision_Graphics</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Tech.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Tech</a>
+	<a href="/mediawiki_wiki/DCAM_Revision.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Scratchpad.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Scratchpad</a>
+    <a href="/mediawiki_wiki/DCAM_Revision_Graphics.md" class="external free" rel="nofollow">/mediawiki_wiki/DCAM_Revision_Graphics</a>
 
 Kai: How would we define these concepts with RDF?
 

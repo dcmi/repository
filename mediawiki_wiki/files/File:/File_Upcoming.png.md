@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Upcoming.png.html"
+- "/mediawiki_wiki/files/File:/File_Upcoming.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Upcoming.png" src="/images/0/04/Upcoming.png" width="497" height="50">](/archive/mediawiki_wiki/files/Upcoming.png)  
+ [<img alt="File:Upcoming.png" src="/images/0/04/Upcoming.png" width="497" height="50">](/mediawiki_wiki/files/Upcoming.png)  
 <small>No higher resolution available.</small>  
  [Upcoming.png](/images/0/04/Upcoming.png)‎ (497 × 50 pixels, file size: 15 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Upcoming.png">13:21, 30 October 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Upcoming.png">13:21, 30 October 2014</a></td>
     <td><a href="/images/0/04/Upcoming.png"><img alt="Thumbnail for version as of 13:21, 30 October 2014" src="/images/0/04/Upcoming.png" width="120" height="12"></a></td>
     <td>497×50 <span style="white-space: nowrap;">(15 KB)</span>
     </td>
@@ -72,13 +72,13 @@ The following page links to this file:
 
 - [DCMI Handbook/webinars](/index.php/DCMI_Handbook/webinars "DCMI Handbook/webinars")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Upcoming.png](/archive/mediawiki_wiki/files/File:/File:Upcoming.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Upcoming.png](/mediawiki_wiki/files/File:/File:Upcoming.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Upcoming.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Upcoming.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Upcoming.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Upcoming.png&action=edit "This page is protected.
 You can view its source [e]")

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Standards_logo2.png.html"
+- "/mediawiki_wiki/files/File:/File_Standards_logo2.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Standards logo2.png" src="/images/1/11/Standards_logo2.png" width="636" height="107">](/archive/mediawiki_wiki/files/Standards_logo2.png)  
+ [<img alt="File:Standards logo2.png" src="/images/1/11/Standards_logo2.png" width="636" height="107">](/mediawiki_wiki/files/Standards_logo2.png)  
 <small>No higher resolution available.</small>  
  [Standards\_logo2.png](/images/1/11/Standards_logo2.png)‎ (636 × 107 pixels, file size: 22 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Standards_logo2.png">21:33, 23 March 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Standards_logo2.png">21:33, 23 March 2014</a></td>
     <td><a href="/images/1/11/Standards_logo2.png"><img alt="Thumbnail for version as of 21:33, 23 March 2014" src="/images/1/11/Standards_logo2.png" width="120" height="20"></a></td>
     <td>636×107 <span style="white-space: nowrap;">(22 KB)</span>
     </td>
@@ -70,19 +70,19 @@ Click on a date/time to view the file as it appeared at that time.
 
 The following file is a duplicate of this file ( [more details](/index.php/Special:FileDuplicateSearch/Standards_logo2.png "Special:FileDuplicateSearch/Standards logo2.png")):
 
-- [File:Standards logo.png](/archive/mediawiki_wiki/files/File:/File:Standards_logo.png.html "File:Standards logo.png") 
+- [File:Standards logo.png](/mediawiki_wiki/files/File:/File:Standards_logo.png.html "File:Standards logo.png") 
 
 The following page links to this file:
 
 - [DCMI Technical Board/standards](/index.php/DCMI_Technical_Board/standards "DCMI Technical Board/standards")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Standards\_logo2.png](/archive/mediawiki_wiki/files/File:/File:Standards_logo2.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Standards\_logo2.png](/mediawiki_wiki/files/File:/File:Standards_logo2.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Standards_logo2.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Standards_logo2.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Standards_logo2.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Standards_logo2.png&action=edit "This page is protected.
 You can view its source [e]")

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Fee_Structure-2009.pdf.html"
+- "/mediawiki_wiki/files/File:/File_Fee_Structure-2009.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/Fee_Structure-2009.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Fee_Structure-2009.pdf)
 
-[Fee\_Structure-2009.pdf](/archive/mediawiki_wiki/files/Fee_Structure-2009.pdf "Fee Structure-2009.pdf")‎(file size: 49 KB, MIME type: application/pdf)
+[Fee\_Structure-2009.pdf](/mediawiki_wiki/files/Fee_Structure-2009.pdf "Fee Structure-2009.pdf")‎(file size: 49 KB, MIME type: application/pdf)
 
 DCMI Fee Structure (2009) based on GNP
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Fee_Structure-2009.pdf">01:20, 16 October 2011</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Fee_Structure-2009.pdf">01:20, 16 October 2011</a></td>
     <td> <span style="white-space: nowrap;">(49 KB)</span>
     </td>
     <td>
@@ -70,13 +70,13 @@ The following page links to this file:
 
 - [DCMI Membership](/index.php/DCMI_Membership "DCMI Membership")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Fee\_Structure-2009.pdf](/archive/mediawiki_wiki/files/File:/File:Fee_Structure-2009.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:Fee\_Structure-2009.pdf](/mediawiki_wiki/files/File:/File:Fee_Structure-2009.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Fee_Structure-2009.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Fee_Structure-2009.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Fee_Structure-2009.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Fee_Structure-2009.pdf&action=edit "This page is protected.
 You can view its source [e]")

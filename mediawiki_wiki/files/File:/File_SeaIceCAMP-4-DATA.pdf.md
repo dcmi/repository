@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_SeaIceCAMP-4-DATA.pdf.html"
+- "/mediawiki_wiki/files/File:/File_SeaIceCAMP-4-DATA.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/SeaIceCAMP-4-DATA.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/SeaIceCAMP-4-DATA.pdf)
 
-[SeaIceCAMP-4-DATA.pdf](/archive/mediawiki_wiki/files/SeaIceCAMP-4-DATA.pdf "SeaIceCAMP-4-DATA.pdf")‎(file size: 1.5 MB, MIME type: application/pdf)
+[SeaIceCAMP-4-DATA.pdf](/mediawiki_wiki/files/SeaIceCAMP-4-DATA.pdf "SeaIceCAMP-4-DATA.pdf")‎(file size: 1.5 MB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/SeaIceCAMP-4-DATA.pdf">12:09, 6 September 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/SeaIceCAMP-4-DATA.pdf">12:09, 6 September 2013</a></td>
     <td> <span style="white-space: nowrap;">(1.5 MB)</span>
     </td>
     <td>
@@ -75,13 +75,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:SeaIceCAMP-4-DATA.pdf](/archive/mediawiki_wiki/files/File:/File:SeaIceCAMP-4-DATA.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:SeaIceCAMP-4-DATA.pdf](/mediawiki_wiki/files/File:/File:SeaIceCAMP-4-DATA.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:SeaIceCAMP-4-DATA.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:SeaIceCAMP-4-DATA.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:SeaIceCAMP-4-DATA.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:SeaIceCAMP-4-DATA.pdf&action=edit "This page is protected.
 You can view its source [e]")

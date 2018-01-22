@@ -55,39 +55,39 @@ Membership in the Task Group is open to anyone interested in helping to edit and
 
 #### Frequently Asked Questions (FAQ) 
 
-- [Frequently Asked Questions (FAQ)](/archive/mediawiki_wiki/FAQ "FAQ")
+- [Frequently Asked Questions (FAQ)](/mediawiki_wiki/FAQ "FAQ")
 
 #### DCMI Glossary 
 
-- ["DCMI Glossary"](/archive/mediawiki_wiki/Glossary "Glossary") - with links to mini-essays for disambiguation or historical context on:
-  - [Application profiles](/archive/mediawiki_wiki/Glossary/Application_Profile "Glossary/Application Profile") - needs to be written
-  - [DCMI Abstract Model](/archive/mediawiki_wiki/Glossary/DCMI_Abstract_Model "Glossary/DCMI Abstract Model")
-  - [DCMI Metadata Terms](/archive/mediawiki_wiki/Glossary/DCMI_Metadata_Terms "Glossary/DCMI Metadata Terms")
-  - [Description Set Profile](/archive/mediawiki_wiki/Glossary/Description_Set_Profile "Glossary/Description Set Profile")
-  - [Domains and Ranges](/archive/mediawiki_wiki/Glossary/Domains_and_Ranges "Glossary/Domains and Ranges")
-  - ["Dublin Core" - disambiguation page](/archive/mediawiki_wiki/Glossary/Dublin_Core "Glossary/Dublin Core")
-  - ["Dumb-down Principle"](/archive/mediawiki_wiki/Glossary/Dumb-Down_Principle "Glossary/Dumb-Down Principle")
-  - ["Encoding Scheme"](/archive/mediawiki_wiki/Glossary/Encoding_Scheme "Glossary/Encoding Scheme")
-  - [Metadata Enrichment](/archive/mediawiki_wiki/Glossary/Metadata_Enrichment "Glossary/Metadata Enrichment")
-  - ["Metadata Registry"](/archive/mediawiki_wiki/Glossary/Metadata_Registry "Glossary/Metadata Registry")
-  - [Namespace Policy](/archive/mediawiki_wiki/Glossary/Namespace_Policy "Glossary/Namespace Policy")
-  - [One-to-One Principle](/archive/mediawiki_wiki/Glossary/One-to-One_Principle "Glossary/One-to-One Principle")
+- ["DCMI Glossary"](/mediawiki_wiki/Glossary "Glossary") - with links to mini-essays for disambiguation or historical context on:
+  - [Application profiles](/mediawiki_wiki/Glossary/Application_Profile "Glossary/Application Profile") - needs to be written
+  - [DCMI Abstract Model](/mediawiki_wiki/Glossary/DCMI_Abstract_Model "Glossary/DCMI Abstract Model")
+  - [DCMI Metadata Terms](/mediawiki_wiki/Glossary/DCMI_Metadata_Terms "Glossary/DCMI Metadata Terms")
+  - [Description Set Profile](/mediawiki_wiki/Glossary/Description_Set_Profile "Glossary/Description Set Profile")
+  - [Domains and Ranges](/mediawiki_wiki/Glossary/Domains_and_Ranges "Glossary/Domains and Ranges")
+  - ["Dublin Core" - disambiguation page](/mediawiki_wiki/Glossary/Dublin_Core "Glossary/Dublin Core")
+  - ["Dumb-down Principle"](/mediawiki_wiki/Glossary/Dumb-Down_Principle "Glossary/Dumb-Down Principle")
+  - ["Encoding Scheme"](/mediawiki_wiki/Glossary/Encoding_Scheme "Glossary/Encoding Scheme")
+  - [Metadata Enrichment](/mediawiki_wiki/Glossary/Metadata_Enrichment "Glossary/Metadata Enrichment")
+  - ["Metadata Registry"](/mediawiki_wiki/Glossary/Metadata_Registry "Glossary/Metadata Registry")
+  - [Namespace Policy](/mediawiki_wiki/Glossary/Namespace_Policy "Glossary/Namespace Policy")
+  - [One-to-One Principle](/mediawiki_wiki/Glossary/One-to-One_Principle "Glossary/One-to-One Principle")
   - [Open-World Mindset](/index.php?title=Glossary/Open-World_Mindset&action=edit&redlink=1 "Glossary/Open-World Mindset (page does not exist)")
-  - [Resource Description Framework](/archive/mediawiki_wiki/Glossary/RDF "Glossary/RDF")
-  - [Record Paradigm and Graph Paradigm](/archive/mediawiki_wiki/Glossary/Record_Paradigm_and_Graph_Paradigm "Glossary/Record Paradigm and Graph Paradigm")
-  - [Resource Discovery and Resource Description](/archive/mediawiki_wiki/Glossary/Resource_Discovery "Glossary/Resource Discovery")
-  - ["Schema" - the word](/archive/mediawiki_wiki/Glossary/Schema "Glossary/Schema")
-  - ["Simple Dublin Core"](/archive/mediawiki_wiki/Glossary/Simple_Dublin_Core "Glossary/Simple Dublin Core")
+  - [Resource Description Framework](/mediawiki_wiki/Glossary/RDF "Glossary/RDF")
+  - [Record Paradigm and Graph Paradigm](/mediawiki_wiki/Glossary/Record_Paradigm_and_Graph_Paradigm "Glossary/Record Paradigm and Graph Paradigm")
+  - [Resource Discovery and Resource Description](/mediawiki_wiki/Glossary/Resource_Discovery "Glossary/Resource Discovery")
+  - ["Schema" - the word](/mediawiki_wiki/Glossary/Schema "Glossary/Schema")
+  - ["Simple Dublin Core"](/mediawiki_wiki/Glossary/Simple_Dublin_Core "Glossary/Simple Dublin Core")
 
 #### User Guide 
 
-- ["Using Dublin Core"](/archive/mediawiki_wiki/User_Guide "User Guide") - a user guide
-  - ["Creating Metadata"](/archive/mediawiki_wiki/User_Guide/Creating_Metadata "User Guide/Creating Metadata")
-  - ["Publishing Metadata"](/archive/mediawiki_wiki/User_Guide/Publishing_Metadata "User Guide/Publishing Metadata")
+- ["Using Dublin Core"](/mediawiki_wiki/User_Guide "User Guide") - a user guide
+  - ["Creating Metadata"](/mediawiki_wiki/User_Guide/Creating_Metadata "User Guide/Creating Metadata")
+  - ["Publishing Metadata"](/mediawiki_wiki/User_Guide/Publishing_Metadata "User Guide/Publishing Metadata")
 
 ### Workplan 
 
-Note: this revised workplan is based on the workplan of [4 December 2010](/archive/mediawiki_wiki/User_Documentation/Workplan_20101204 "User Documentation/Workplan 20101204").
+Note: this revised workplan is based on the workplan of [4 December 2010](/mediawiki_wiki/User_Documentation/Workplan_20101204 "User Documentation/Workplan 20101204").
 
 - Migration to new wiki (DONE):
   - DONE: Migrate the draft User Guide <sup id="cite_ref-0" class="reference"><a href="#cite_note-0">[1]</a></sup><sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[2]</a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[3]</a></sup> from the COLAB MediaWiki to the new DCMI MediaWiki and continue editing there (Tom and Stefanie). These documents will constitute a test case of the new DCMI MediaWiki as a publication platform.
@@ -114,9 +114,9 @@ References:
 ### Meetings and telecons 
 
 - 2011-05-02: New wiki pages of the DCMI User Documentation Task Group announced to the list (superseding [Glossary Task Group wiki](http://sites.google.com/site/dublincoreglossaryupdate/Home)).
-- 2011-03-16: [Progress report](/archive/mediawiki_wiki/User_Documentation/Progress_Report_20110316 "User Documentation/Progress Report 20110316")
-- 2010-12-04. [User Documentation Workplan](/archive/mediawiki_wiki/User_Documentation/Workplan_20101204 "User Documentation/Workplan 20101204").
-- 2010-10-21: [Face-to-face meeting](/archive/mediawiki_wiki/User_Documentation/Meeting_20101021 "User Documentation/Meeting 20101021") in Pittsburgh [Agenda](http://dublincore.org/groups/userguide/2010/2010-10-21.dcglossary-dcuser-agenda.html), [Meeting packet](/archive/mediawiki_wiki/files/Meeting_Packet_20101021.pdf "Meeting Packet 20101021.pdf"), [Report](http://dublincore.org/groups/userguide/2010/2010-10-21.dcglossary-meeting-report.html)
+- 2011-03-16: [Progress report](/mediawiki_wiki/User_Documentation/Progress_Report_20110316 "User Documentation/Progress Report 20110316")
+- 2010-12-04. [User Documentation Workplan](/mediawiki_wiki/User_Documentation/Workplan_20101204 "User Documentation/Workplan 20101204").
+- 2010-10-21: [Face-to-face meeting](/mediawiki_wiki/User_Documentation/Meeting_20101021 "User Documentation/Meeting 20101021") in Pittsburgh [Agenda](http://dublincore.org/groups/userguide/2010/2010-10-21.dcglossary-dcuser-agenda.html), [Meeting packet](/mediawiki_wiki/files/Meeting_Packet_20101021.pdf "Meeting Packet 20101021.pdf"), [Report](http://dublincore.org/groups/userguide/2010/2010-10-21.dcglossary-meeting-report.html)
 - 2010-05-07: Glossary/User Guide telecon - [Agenda](http://dublincore.org/groups/userguide/2010/2010-05-07.dcglossary-telecon-agenda.html), [report](http://dublincore.org/groups/userguide/2010/2010-05-07.dcglossary-telecon-report.html)
 - 2010-10-21: Glossary/User Guide telecon - [Agenda](http://dublincore.org/groups/userguide/2010/2010-09-28.dcglossary-telecon-agenda.html)
 - 2010-08-30, DCMI User Guide Task Group established 

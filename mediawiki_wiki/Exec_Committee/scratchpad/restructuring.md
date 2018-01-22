@@ -8,16 +8,16 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Exec_Committee/scratchpad/restructuring.html"
+- "/mediawiki_wiki/Exec_Committee/scratchpad/restructuring.html"
 ---
 
  **This is an archived MediaWiki page.**  
 This page was last modified on 28 May 2017, at 13:05.  
 This page has been accessed 2,504 times.
 
-[Return to Scratchpad General](/archive/mediawiki_wiki/Exec_Committee/scratchpad/general "Exec Committee/scratchpad/general")
+[Return to Scratchpad General](/mediawiki_wiki/Exec_Committee/scratchpad/general "Exec Committee/scratchpad/general")
 
-[<img alt="Executive Committee logo" src="/archive/mediawiki_wiki/images/EC_logo.png" width="300" height="82">](/archive/mediawiki_wiki/images/EC_logo.png "Executive Committee logo")
+[<img alt="Executive Committee logo" src="/mediawiki_wiki/images/EC_logo.png" width="300" height="82">](/mediawiki_wiki/images/EC_logo.png "Executive Committee logo")
 
 ## Scratchpad (Committee members only) 
 
@@ -62,32 +62,32 @@ This page has been accessed 2,504 times.
 
 ### Community Comments on Proposed Model 
 
-- [GB Comments on Organization Model](/archive/mediawiki_wiki/Exec_Committee/OC_Comm-TG/Comments "Exec Committee/OC Comm-TG/Comments")
-- [AB Comments on Organization Model](/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Comments "Exec Committee/AB Comm-TG/Comments")
+- [GB Comments on Organization Model](/mediawiki_wiki/Exec_Committee/OC_Comm-TG/Comments "Exec Committee/OC Comm-TG/Comments")
+- [AB Comments on Organization Model](/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Comments "Exec Committee/AB Comm-TG/Comments")
 
 ### Restructuring Process 
 
-- [Process Management](/archive/mediawiki_wiki/Exec_Committee/restructureProcess "Exec Committee/restructureProcess")
+- [Process Management](/mediawiki_wiki/Exec_Committee/restructureProcess "Exec Committee/restructureProcess")
 
 ### Restructuring FAQ 
 
-- [Public FAQ on Restructuring](/archive/mediawiki_wiki/Exec_Committee/QA_struct "Exec Committee/QA struct")
+- [Public FAQ on Restructuring](/mediawiki_wiki/Exec_Committee/QA_struct "Exec Committee/QA struct")
 
 ### Advisory Board 
 
-- [Restructuring](/archive/mediawiki_wiki/Exec_Committee/AB_Comm-TG "Exec Committee/AB Comm-TG")
+- [Restructuring](/mediawiki_wiki/Exec_Committee/AB_Comm-TG "Exec Committee/AB Comm-TG")
 
 ### Oversight Committee 
 
-- [Restructuring](/archive/mediawiki_wiki/Exec_Committee/OC_Comm-TG "Exec Committee/OC Comm-TG")
+- [Restructuring](/mediawiki_wiki/Exec_Committee/OC_Comm-TG "Exec Committee/OC Comm-TG")
 
 ### Usage Board 
 
-- [Restructuring](/archive/mediawiki_wiki/Exec_Committee/UB "Exec Committee/UB")
+- [Restructuring](/mediawiki_wiki/Exec_Committee/UB "Exec Committee/UB")
 
 ### Organizational Chart 
 
-[<img alt="Combined Org Chart-v3.jpg" src="/archive/mediawiki_wiki/images/Combined_Org_Chart-v3.jpg" width="600" height="1595">](/archive/mediawiki_wiki/images/Combined_Org_Chart-v3.jpg)
+[<img alt="Combined Org Chart-v3.jpg" src="/mediawiki_wiki/images/Combined_Org_Chart-v3.jpg" width="600" height="1595">](/mediawiki_wiki/images/Combined_Org_Chart-v3.jpg)
 
 ‡‡ PowerPoint Location: (Shared Dropbox) EXECUTIVE\_COMMITTEE/Documents-Restructuring/Combined\_Org\_Chart-v3.pptx
 

@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns.html"
+- "/mediawiki_wiki/DCAM_Revision_Design_Patterns.html"
 ---
 
  **This is an archived MediaWiki page.**  
@@ -66,11 +66,11 @@ This page has been accessed 120,032 times.
 
 ## DCAM design patterns 
 
-2012-05-25. Note: Previous contents of this page moved to [DCAM Revision Design Patterns Sources](/archive/mediawiki_wiki/DCAM_Revision_Design_Patterns_Sources "DCAM Revision Design Patterns Sources"). Re-purposing this page with transclusion links to examples as they are created.
+2012-05-25. Note: Previous contents of this page moved to [DCAM Revision Design Patterns Sources](/mediawiki_wiki/DCAM_Revision_Design_Patterns_Sources "DCAM Revision Design Patterns Sources"). Re-purposing this page with transclusion links to examples as they are created.
 
 * * *
 
-### [Publication statement](/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement "DCAM Revision High Level Example Publication Statement") 
+### [Publication statement](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement "DCAM Revision High Level Example Publication Statement") 
 
 In ISBD there is a high-level element "Publication, production, distribution, etc area" (URI: isbd:P1162). The documentations says "including the place of publication, production and/or distribution; the name of publisher, producer, and/or distributor; the date of publication, production, and/or distribution; the place of printing or manufacture; the name of printer or manufacturer; and the date of printing or manufacture." The element is not repeatable, but constituent elements are repeatable:
 
@@ -146,7 +146,7 @@ Back to **DCAM revision design patterns**
 
 * * *
 
-### [Resource Descriptions](/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions "DCAM Revision High Level Example Resource Descriptions") 
+### [Resource Descriptions](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions "DCAM Revision High Level Example Resource Descriptions") 
 
 The ISBD documentation defines "resource" as "An entity, tangible or intangible, that comprises intellectual and/or artistic content and is conceived, produced and/or issued as a unit, forming the basis of a single bibliographic description." In the ISBD namespace, Resource is a class, and is the domain of all properties based on ISBD attributes and aggregated statements.
 
@@ -194,7 +194,7 @@ Back to **DCAM revision design patterns**
 
 * * *
 
-### [Name heading](/archive/mediawiki_wiki/DCAM_Revision_Example_Name_Heading "DCAM Revision Example Name Heading") 
+### [Name heading](/mediawiki_wiki/DCAM_Revision_Example_Name_Heading "DCAM Revision Example Name Heading") 
 
 This example is similar to the publication statement, in that it is a grouping of elements in a particular order. It has some differences because the elements themselves are mostly not fixed and they are all optional except one. This type of heading is not part of ISBD, which is limited to description and does not include access.
 
@@ -242,7 +242,7 @@ there are exceptions. Therefore, the order must be assumed to be the order in wh
 
 * * *
 
-### [Core elements](/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements "DCAM Revision High Level Example Core Elements") 
+### [Core elements](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements "DCAM Revision High Level Example Core Elements") 
 
 The RDA documentation says "Certain elements in RDA are identified as core elements … As a minimum, a resource description … should include all the core elements that are applicable and readily ascertainable. The description should also include any additional elements that are required in a particular case to differentiate the resource from one or more other resources bearing similar identifying information."
 
@@ -291,13 +291,13 @@ Not mandatory:
 - [a] Applies only to musical works.
 - [b] Applies only to cartographic works.
 
-Note the intersection of ISBD elements with [Publication statement example](/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement "DCAM Revision High Level Example Publication Statement").
+Note the intersection of ISBD elements with [Publication statement example](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement "DCAM Revision High Level Example Publication Statement").
 
 Back to **DCAM revision design patterns**.
 
 * * *
 
-### [Antipatterns](/archive/mediawiki_wiki/DCAM_Revision_High_Level_Example_Antipatterns "DCAM Revision High Level Example Antipatterns") 
+### [Antipatterns](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Antipatterns "DCAM Revision High Level Example Antipatterns") 
 
 # Antipatterns
 
@@ -399,7 +399,7 @@ While unrestricted _dcam:description Sets_ seems a bit unlikely in design DCAM-c
 
 * * *
 
-### [ISBD DSP](/archive/mediawiki_wiki/DCAM_Revision_ISBD_DSP "DCAM Revision ISBD DSP") 
+### [ISBD DSP](/mediawiki_wiki/DCAM_Revision_ISBD_DSP "DCAM Revision ISBD DSP") 
 
 All comments and queries about this draft description set profile for the International Standard Bibliographic Description (ISBD) are welcome. Please post to list or directly to [Gordon Dunsire](mailto:gordon@gordondunsire.com).
 

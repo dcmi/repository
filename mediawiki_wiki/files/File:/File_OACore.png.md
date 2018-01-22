@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_OACore.png.html"
+- "/mediawiki_wiki/files/File:/File_OACore.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:OACore.png" src="/images/2/29/OACore.png" width="800" height="385">](/archive/mediawiki_wiki/files/OACore.png)  
+ [<img alt="File:OACore.png" src="/images/2/29/OACore.png" width="800" height="385">](/mediawiki_wiki/files/OACore.png)  
 <small>Size of this preview: 800 × 385 pixels</small>  
  [Full resolution](/images/2/29/OACore.png)‎ (1,086 × 522 pixels, file size: 71 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/OACore.png">18:46, 24 July 2013</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/OACore.png">18:46, 24 July 2013</a></td>
     <td><a href="/images/2/29/OACore.png"><img alt="Thumbnail for version as of 18:46, 24 July 2013" src="/images/2/29/OACore.png" width="120" height="58"></a></td>
     <td>1,086×522 <span style="white-space: nowrap;">(71 KB)</span>
     </td>
@@ -70,13 +70,13 @@ Click on a date/time to view the file as it appeared at that time.
 
 There are no pages that link to this file.
 
-Retrieved from " [/archive/mediawiki_wiki/File:OACore.png](/archive/mediawiki_wiki/files/File:/File:OACore.png.html)"
+Retrieved from " [/mediawiki_wiki/File:OACore.png](/mediawiki_wiki/files/File:/File:OACore.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:OACore.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:OACore.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:OACore.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:OACore.png&action=edit "This page is protected.
 You can view its source [e]")

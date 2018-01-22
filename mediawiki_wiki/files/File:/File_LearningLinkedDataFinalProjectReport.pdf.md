@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_LearningLinkedDataFinalProjectReport.pdf.html"
+- "/mediawiki_wiki/files/File:/File_LearningLinkedDataFinalProjectReport.pdf.html"
 ---
 
 <a id="top"></a>
@@ -22,9 +22,9 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/archive/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf)
+ [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf)
 
-[LearningLinkedDataFinalProjectReport.pdf](/archive/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf "LearningLinkedDataFinalProjectReport.pdf")‎(file size: 398 KB, MIME type: application/pdf)
+[LearningLinkedDataFinalProjectReport.pdf](/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf "LearningLinkedDataFinalProjectReport.pdf")‎(file size: 398 KB, MIME type: application/pdf)
 
 Final project report in PDF
 
@@ -49,7 +49,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf">18:49, 28 September 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf">18:49, 28 September 2012</a></td>
     <td> <span style="white-space: nowrap;">(398 KB)</span>
     </td>
     <td>
@@ -70,13 +70,13 @@ The following page links to this file:
 
 - [Planning Grant Report IMLS](/index.php/Planning_Grant_Report_IMLS "Planning Grant Report IMLS")
 
-Retrieved from " [/archive/mediawiki_wiki/File:LearningLinkedDataFinalProjectReport.pdf](/archive/mediawiki_wiki/files/File:/File:LearningLinkedDataFinalProjectReport.pdf.html)"
+Retrieved from " [/mediawiki_wiki/File:LearningLinkedDataFinalProjectReport.pdf](/mediawiki_wiki/files/File:/File:LearningLinkedDataFinalProjectReport.pdf.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:LearningLinkedDataFinalProjectReport.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:LearningLinkedDataFinalProjectReport.pdf.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:LearningLinkedDataFinalProjectReport.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:LearningLinkedDataFinalProjectReport.pdf&action=edit "This page is protected.
 You can view its source [e]")

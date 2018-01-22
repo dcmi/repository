@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/FAQ/Beyond_library_catalogs.html"
+- "/mediawiki_wiki/FAQ/Beyond_library_catalogs.html"
 ---
 
  **This is an archived MediaWiki page.**  

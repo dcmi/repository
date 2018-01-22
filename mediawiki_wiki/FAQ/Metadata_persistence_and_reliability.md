@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/FAQ/Metadata_persistence_and_reliability.html"
+- "/mediawiki_wiki/FAQ/Metadata_persistence_and_reliability.html"
 ---
 
  **This is an archived MediaWiki page.**  

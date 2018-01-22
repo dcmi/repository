@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_LLDImplementationTimeline2year.png.html"
+- "/mediawiki_wiki/files/File:/File_LLDImplementationTimeline2year.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:LLDImplementationTimeline2year.png" src="/images/0/07/LLDImplementationTimeline2year.png" width="800" height="454">](/archive/mediawiki_wiki/files/LLDImplementationTimeline2year.png)  
+ [<img alt="File:LLDImplementationTimeline2year.png" src="/images/0/07/LLDImplementationTimeline2year.png" width="800" height="454">](/mediawiki_wiki/files/LLDImplementationTimeline2year.png)  
 <small>Size of this preview: 800 × 454 pixels</small>  
  [Full resolution](/images/0/07/LLDImplementationTimeline2year.png)‎ (847 × 481 pixels, file size: 45 KB, MIME type: image/png)
 <!-- 
@@ -47,7 +47,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/LLDImplementationTimeline2year.png">16:31, 27 September 2012</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/LLDImplementationTimeline2year.png">16:31, 27 September 2012</a></td>
     <td><a href="/images/0/07/LLDImplementationTimeline2year.png"><img alt="Thumbnail for version as of 16:31, 27 September 2012" src="/images/0/07/LLDImplementationTimeline2year.png" width="120" height="68"></a></td>
     <td>847×481 <span style="white-space: nowrap;">(45 KB)</span>
     </td>
@@ -113,13 +113,13 @@ The following page links to this file:
 
 - [Implementation Grant Proposal](/index.php/Implementation_Grant_Proposal "Implementation Grant Proposal")
 
-Retrieved from " [/archive/mediawiki_wiki/File:LLDImplementationTimeline2year.png](/archive/mediawiki_wiki/files/File:/File:LLDImplementationTimeline2year.png.html)"
+Retrieved from " [/mediawiki_wiki/File:LLDImplementationTimeline2year.png](/mediawiki_wiki/files/File:/File:LLDImplementationTimeline2year.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:LLDImplementationTimeline2year.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:LLDImplementationTimeline2year.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:LLDImplementationTimeline2year.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:LLDImplementationTimeline2year.png&action=edit "This page is protected.
 You can view its source [e]")

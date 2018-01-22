@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Generic_Namespace_Policy.html"
+- "/mediawiki_wiki/Generic_Namespace_Policy.html"
 ---
 
  **This is an archived MediaWiki page.**  

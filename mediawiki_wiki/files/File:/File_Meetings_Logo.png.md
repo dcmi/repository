@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/files/File:/File_Meetings_Logo.png.html"
+- "/mediawiki_wiki/files/File:/File_Meetings_Logo.png.html"
 ---
 
 <a id="top"></a>
@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
- [<img alt="File:Meetings Logo.png" src="/images/e/e4/Meetings_Logo.png" width="730" height="111">](/archive/mediawiki_wiki/files/Meetings_Logo.png)  
+ [<img alt="File:Meetings Logo.png" src="/images/e/e4/Meetings_Logo.png" width="730" height="111">](/mediawiki_wiki/files/Meetings_Logo.png)  
 <small>No higher resolution available.</small>  
  [Meetings\_Logo.png](/images/e/e4/Meetings_Logo.png)‎ (730 × 111 pixels, file size: 25 KB, MIME type: image/png)
 
@@ -50,7 +50,7 @@ Click on a date/time to view the file as it appeared at that time.
   </tr>
   <tr>
     <td>current</td>
-    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/archive/mediawiki_wiki/files/Meetings_Logo.png">22:40, 20 January 2014</a></td>
+    <td class="filehistory-selected" style="white-space: nowrap;"><a href="/mediawiki_wiki/files/Meetings_Logo.png">22:40, 20 January 2014</a></td>
     <td><a href="/images/e/e4/Meetings_Logo.png"><img alt="Thumbnail for version as of 22:40, 20 January 2014" src="/images/e/e4/Meetings_Logo.png" width="120" height="18"></a></td>
     <td>730×111 <span style="white-space: nowrap;">(25 KB)</span>
     </td>
@@ -84,13 +84,13 @@ The following page links to this file:
 
 - [DCMI Advisory Board/meetings](/index.php/DCMI_Advisory_Board/meetings "DCMI Advisory Board/meetings")
 
-Retrieved from " [/archive/mediawiki_wiki/File:Meetings\_Logo.png](/archive/mediawiki_wiki/files/File:/File:Meetings_Logo.png.html)"
+Retrieved from " [/mediawiki_wiki/File:Meetings\_Logo.png](/mediawiki_wiki/files/File:/File:Meetings_Logo.png.html)"
 
 <!-- end content -->
 
 ##### Views
 
-- [File](/archive/mediawiki_wiki/files/File:/File:Meetings_Logo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Meetings_Logo.png.html "View the file page [c]")
 - [Discussion](/index.php?title=File_talk:Meetings_Logo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Meetings_Logo.png&action=edit "This page is protected.
 You can view its source [e]")

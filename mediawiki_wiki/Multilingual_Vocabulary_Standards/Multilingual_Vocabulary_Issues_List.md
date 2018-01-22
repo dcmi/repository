@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/Multilingual_Vocabulary_Standards/Multilingual_Vocabulary_Issues_List.html"
+- "/mediawiki_wiki/Multilingual_Vocabulary_Standards/Multilingual_Vocabulary_Issues_List.html"
 ---
 
  **This is an archived MediaWiki page.**  

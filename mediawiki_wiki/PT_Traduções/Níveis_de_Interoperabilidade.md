@@ -8,7 +8,7 @@ contributors: []
 publisher: 
 tags: []
 aliases:
-- "/archive/mediawiki_wiki/PT_Traduções/Níveis_de_Interoperabilidade.html"
+- "/mediawiki_wiki/PT_Traduções/Níveis_de_Interoperabilidade.html"
 ---
 
 <table id="toc" class="toc">
@@ -117,7 +117,7 @@ aliases:
       <p>Os níveis são apresentados com testes simples que servem como linhas de orientação para determinar o nível de interoperabilidade. Os níveis constroem-se com base uns nos outros, de forma a que, por exemplo, uma especificação que obedeça ao nível 3, obedeça automaticamente aos níveis 1 e 2 e uma especificação que obedeça ao nível 4 obedeça aos três primeiros. Nesta altura não existe um consenso mais alargado sobre estes níveis. Os autores esperam que este documento evolua à medida que os compromissos e benefícios da interoperabilidade aos vários níveis são explorados e esperam retorno dos seus leitores.
       </p>
       <p><br>
-        <a href="/archive/mediawiki_wiki/File:InteroperabilityLevels.jpg" class="image"><img alt="InteroperabilityLevels.jpg" src="/images/8/85/InteroperabilityLevels.jpg" width="562" height="310"></a>
+        <a href="/mediawiki_wiki/File:InteroperabilityLevels.jpg" class="image"><img alt="InteroperabilityLevels.jpg" src="/images/8/85/InteroperabilityLevels.jpg" width="562" height="310"></a>
       </p>
       <p><br>
       </p>

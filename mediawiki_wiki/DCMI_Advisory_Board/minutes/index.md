@@ -13,11 +13,11 @@ tags: []
 This page was last modified on 12 June 2014, at 12:18.  
 This page has been accessed 34,549 times.
 
-[<img alt="Planning Committee logo" src="/archive/mediawiki_wiki/images/Ed_Comm.png" width="300" height="81">](/archive/mediawiki_wiki/images/Ed_Comm.png "Planning Committee logo")
+[<img alt="Planning Committee logo" src="/mediawiki_wiki/images/Ed_Comm.png" width="300" height="81">](/mediawiki_wiki/images/Ed_Comm.png "Planning Committee logo")
 
 * * *
 
-##### [Handbook](/archive/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/archive/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -50,5 +50,5 @@ This page has been accessed 34,549 times.
 
 #### Agendas & Minutes 
 
-- 2014-04-09: [Minutes](/archive/mediawiki_wiki/DCMI_Advisory_Board/education/minutes/20140409 "DCMI Advisory Board/education/minutes/20140409") (9:00 AM EDT (World Clock: [http://bit.ly/1m6MpBi](http://bit.ly/1m6MpBi)) via Skype)
+- 2014-04-09: [Minutes](/mediawiki_wiki/DCMI_Advisory_Board/education/minutes/20140409 "DCMI Advisory Board/education/minutes/20140409") (9:00 AM EDT (World Clock: [http://bit.ly/1m6MpBi](http://bit.ly/1m6MpBi)) via Skype)
 
