@@ -74,7 +74,7 @@ Retrieved from " [/mediawiki_wiki/File:ClassesDCLAP\_v1.jpg](/mediawiki_wiki/fil
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:ClassesDCLAP_v1.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:ClassesDCLAP_v1.jpg.html)
 - [Discussion](/index.php?title=File_talk:ClassesDCLAP_v1.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:ClassesDCLAP_v1.jpg&action=edit "This page is protected.
 You can view its source [e]")

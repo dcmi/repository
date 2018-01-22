@@ -67,7 +67,7 @@ To join or leave:
 ## Resources 
 
 - [The Dublin Core metadata registry](http://dcmi.kc.tsukuba.ac.jp/dcregistry/)
-- [Vocabulary Management System General Requirements](/mediawiki_wiki/Vocabulary_Management_System_General_Requirements "Vocabulary Management System General Requirements")
-- [Vocabulary Management System Functional Requirements](/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements "Vocabulary Management System Functional Requirements")
-- [Vocabulary Management System External Resources](/mediawiki_wiki/Vocabulary_Management_System_External_Resources "Vocabulary Management System External Resources")
+- [Vocabulary Management System General Requirements](/mediawiki_wiki/Vocabulary_Management_System_General_Requirements)
+- [Vocabulary Management System Functional Requirements](/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements)
+- [Vocabulary Management System External Resources](/mediawiki_wiki/Vocabulary_Management_System_External_Resources)
 

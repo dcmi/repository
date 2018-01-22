@@ -15,11 +15,11 @@ aliases:
 This page was last modified on 8 April 2016, at 10:54.  
 This page has been accessed 135,971 times.
 
-[<img alt="Planning Committee logo" src="/mediawiki_wiki/images/Ed_Comm.png" width="300" height="81">](/mediawiki_wiki/images/Ed_Comm.png "Planning Committee logo")
+[<img alt="Planning Committee logo" src="/mediawiki_wiki/images/Ed_Comm.png" width="300" height="81">](/mediawiki_wiki/images/Ed_Comm.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -66,9 +66,9 @@ This page has been accessed 135,971 times.
 #### Current Activities 
 
 - Professional Education & Training
-  - [LD4PE Task Group (Linked Data for Professional Education—IMLS Grant Activity)](/mediawiki_wiki/Pet/ld4pe "Pet/ld4pe")
+  - [LD4PE Task Group (Linked Data for Professional Education—IMLS Grant Activity)](/mediawiki_wiki/Pet/ld4pe)
     - Professional Competencies Index Activity
-  - [DCMI/ASIS&T Webinar Series Development](/mediawiki_wiki/Pet/webinars "Pet/webinars")
+  - [DCMI/ASIS&T Webinar Series Development](/mediawiki_wiki/Pet/webinars)
 
 * * *
 
@@ -87,45 +87,45 @@ This page has been accessed 135,971 times.
 - _Scope:_ Advises the Advisory Board on education and training, and communications and publications.
 - _Reporting:_ The Committee Chairs report to the Advisory Board Chair in a manner set out in the [Advisory Board Policies & Procedures](/index.php?title=DCMI_Advisory_Board/procedures&action=edit&redlink=1 "DCMI Advisory Board/procedures (page does not exist)").
 
-- [Aspects to Work](/mediawiki_wiki/DCMI_Advisory_Board/education/AspectsToWork "DCMI Advisory Board/education/AspectsToWork")
+- [Aspects to Work](/mediawiki_wiki/DCMI_Advisory_Board/education/AspectsToWork)
 
 * * *
 
 #### Communications 
 
 - JiscMail Committee Forum (Moderated; Subscription by Chair): [dc-eoc@jiscmail.ac.uk](mailto:dc-eoc@jiscmail.ac.uk) | [Join/Leave](http://www.jiscmail.ac.uk/lists/dc-eoc.html) [Archive](http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-eoc&A=1)
-- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
+- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg) [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
 
 * * *
 
 #### Key DCMI Handbook Pages 
 
 1. Webinars
-  - [Call for Webinars](/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars/CallForWebinars "DCMI Handbook/ASIST Webinars/CallForWebinars")
-  - [Webinar Presenter Guidelines](/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars "DCMI Handbook/ASIST Webinars")
-  - [DCMI/ASIS&T Webinar Planning Calendar](/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars/calendar "DCMI Handbook/ASIST Webinars/calendar")
+  - [Call for Webinars](/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars/CallForWebinars)
+  - [Webinar Presenter Guidelines](/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars)
+  - [DCMI/ASIS&T Webinar Planning Calendar](/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars/calendar)
 2. Policies
-  - [Education - Policies and Procedures for Webinars](/mediawiki_wiki/DCMI_Advisory_Board/webinarsPolicies "DCMI Advisory Board/webinarsPolicies")
+  - [Education - Policies and Procedures for Webinars](/mediawiki_wiki/DCMI_Advisory_Board/webinarsPolicies)
 
 * * *
 
 #### Committee Resources 
 
-- [Calendar](/mediawiki_wiki/DCMI_Advisory_Board/education/calendar "DCMI Advisory Board/education/calendar")
+- [Calendar](/mediawiki_wiki/DCMI_Advisory_Board/education/calendar)
 
-- [Meeting Agendas & Minutes](/mediawiki_wiki/DCMI_Advisory_Board/education/minutes "DCMI Advisory Board/education/minutes")
+- [Meeting Agendas & Minutes](/mediawiki_wiki/DCMI_Advisory_Board/education/minutes)
 
-- [Documents & drafts](/mediawiki_wiki/DCMI_Advisory_Board/education/documents "DCMI Advisory Board/education/documents")
+- [Documents & drafts](/mediawiki_wiki/DCMI_Advisory_Board/education/documents)
 
 * * *
 
 #### Scratchpad (Committee Chairs only) 
 
-- [General](/mediawiki_wiki/DCMI_Advisory_Board/scratchpad/education "DCMI Advisory Board/scratchpad/education")
+- [General](/mediawiki_wiki/DCMI_Advisory_Board/scratchpad/education)
 
 * * *
 
-[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png)
 
 [Click and become a DCMI member...](http://dublincore.org/support/#individualMember)
 

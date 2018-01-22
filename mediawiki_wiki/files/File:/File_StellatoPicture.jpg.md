@@ -79,7 +79,7 @@ Retrieved from " [/mediawiki_wiki/File:StellatoPicture.JPG](/mediawiki_wiki/file
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:StellatoPicture.JPG.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:StellatoPicture.JPG.html)
 - [Discussion](/index.php?title=File_talk:StellatoPicture.JPG&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:StellatoPicture.JPG&action=edit "This page is protected.
 You can view its source [e]")

@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:MediaWiki-FileLink.jpg](/mediawiki_wiki/f
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:MediaWiki-FileLink.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:MediaWiki-FileLink.jpg.html)
 - [Discussion](/index.php?title=File_talk:MediaWiki-FileLink.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:MediaWiki-FileLink.jpg&action=edit "This page is protected.
 You can view its source [e]")

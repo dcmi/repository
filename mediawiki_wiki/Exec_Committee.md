@@ -13,11 +13,11 @@ tags: []
 This page was last modified on 2 February 2015, at 18:17.  
 This page has been accessed 189,849 times.
 
-[<img alt="Executive Committee logo" src="/mediawiki_wiki/images/EC_logo.png" width="300" height="82">](/mediawiki_wiki/images/EC_logo.png "Executive Committee logo")
+[<img alt="Executive Committee logo" src="/mediawiki_wiki/images/EC_logo.png" width="300" height="82">](/mediawiki_wiki/images/EC_logo.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -85,22 +85,22 @@ This page has been accessed 189,849 times.
 #### Scope, Work & Reporting 
 
 - (TBD) _Extended description of the jurisdiction, key activities and responsibilities of the Committee_
-- _Reporting:_ The Executive Committee Chair reports to the Governing Board in a manner set out in the [Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures "DCMI Governing Board/procedures")
+- _Reporting:_ The Executive Committee Chair reports to the Governing Board in a manner set out in the [Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures)
 
 * * *
 
 #### Communications 
 
 - JISCMAIL Forum: [TBD] (Private)
-- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
+- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg) [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
 
 * * *
 
 #### Key DCMI Handbook Pages 
 
-- [Governing Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures "DCMI Governing Board/procedures")
+- [Governing Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures)
 - [Committee Policies & Procedures](/index.php?title=Exec_Committee/procedures&action=edit&redlink=1 "Exec Committee/procedures (page does not exist)")
-- [DCMI Master Administrative Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar "DCMI Handbook/Administrative Calendar")
+- [DCMI Master Administrative Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar)
 
 * * *
 
@@ -112,11 +112,11 @@ This page has been accessed 189,849 times.
 
 #### Scratchpad (Committee Members only) 
 
-- [General](/mediawiki_wiki/Exec_Committee/scratchpad/general "Exec Committee/scratchpad/general")
+- [General](/mediawiki_wiki/Exec_Committee/scratchpad/general)
 
 * * *
 
-[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png)
 
 [Click and become a DCMI member...](http://dublincore.org/support/#individualMember)
 

@@ -74,7 +74,7 @@ Retrieved from " [/mediawiki_wiki/File:MilkingTheGoats.jpeg](/mediawiki_wiki/fil
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:MilkingTheGoats.jpeg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:MilkingTheGoats.jpeg.html)
 - [Discussion](/index.php?title=File_talk:MilkingTheGoats.jpeg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:MilkingTheGoats.jpeg&action=edit "This page is protected.
 You can view its source [e]")

@@ -15,11 +15,11 @@ aliases:
 This page was last modified on 7 July 2015, at 16:38.  
 This page has been accessed 132,460 times.
 
-[<img alt="Meetings &amp; Conferences Committee logo" src="/mediawiki_wiki/images/Meetings_Logo.png" width="500" height="76">](/mediawiki_wiki/images/Meetings_Logo.png "Meetings & Conferences Committee logo")
+[<img alt="Meetings &amp; Conferences Committee logo" src="/mediawiki_wiki/images/Meetings_Logo.png" width="500" height="76">](/mediawiki_wiki/images/Meetings_Logo.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -100,7 +100,7 @@ This page has been accessed 132,460 times.
 #### Communications 
 
 - JiscMail Committee Forum (Moderated; Subscription by Chair): [dc-cmc@jiscmail.ac.uk](mailto:dc-cmc@jiscmail.ac.uk) | [Join/Leave](http://www.jiscmail.ac.uk/lists/dc-cmc.html) [Archive](http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-cmc&A=1)
-- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
+- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg) [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
 
 * * *
 
@@ -117,13 +117,13 @@ This page has been accessed 132,460 times.
 #### Key DCMI Handbook Pages 
 
 1. Guidelines
-  - [Steering Committee Guidelines](/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Steering_Committee "DCMI Handbook/Conference Guidelines/Steering Committee")
+  - [Steering Committee Guidelines](/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Steering_Committee)
   - [Annual Conference Host Guidelines](/index.php?title=DCMI_Handbook/Int_Conf/Host_Guidelines&action=edit&redlink=1 "DCMI Handbook/Int Conf/Host Guidelines (page does not exist)")
-  - [Regional Meeting Host Guidelines](/mediawiki_wiki/DCMI_Handbook/Reg_Conf/Host_Guidelines "DCMI Handbook/Reg Conf/Host Guidelines")
-  - [Meeting & Conference Personnel Support](/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Personnel_Support "DCMI Handbook/Conference Guidelines/Personnel Support")
+  - [Regional Meeting Host Guidelines](/mediawiki_wiki/DCMI_Handbook/Reg_Conf/Host_Guidelines)
+  - [Meeting & Conference Personnel Support](/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Personnel_Support)
 2. Master Calendars
-  - [Three-Year Master Calendar](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Master_Calendar "DCMI Handbook/Int Conf/Master Calendar")
-  - [Annual Conference Master Calendar](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Annual_Meeting "DCMI Handbook/Int Conf/Annual Meeting")
+  - [Three-Year Master Calendar](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Master_Calendar)
+  - [Annual Conference Master Calendar](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Annual_Meeting)
   - International Conferences & Annual Meetings
     - [DC-2015 (São Paulo, Brazil - 1-4 September 2015)](/index.php?title=Dc2015&action=edit&redlink=1 "Dc2015 (page does not exist)")
     - [DC-2016 (Copenhagen, Denmark - 13-16 October 2016)(Collocated with ASIS&T)](/index.php?title=Dc2016&action=edit&redlink=1 "Dc2016 (page does not exist)")
@@ -145,7 +145,7 @@ This page has been accessed 132,460 times.
 
 * * *
 
-[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png)
 
 [Click and become a DCMI member...](http://dublincore.org/support/#individualMember)
 

@@ -79,7 +79,7 @@ Retrieved from " [/mediawiki_wiki/File:Ruben.Verborgh.jpg](/mediawiki_wiki/files
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Ruben.Verborgh.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Ruben.Verborgh.jpg.html)
 - [Discussion](/index.php?title=File_talk:Ruben.Verborgh.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Ruben.Verborgh.jpg&action=edit "This page is protected.
 You can view its source [e]")

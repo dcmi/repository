@@ -99,7 +99,7 @@ Retrieved from " [/mediawiki_wiki/File:ASIST-Thesaurus.png](/mediawiki_wiki/file
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:ASIST-Thesaurus.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:ASIST-Thesaurus.png.html)
 - [Discussion](/index.php?title=File_talk:ASIST-Thesaurus.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:ASIST-Thesaurus.png&action=edit "This page is protected.
 You can view its source [e]")

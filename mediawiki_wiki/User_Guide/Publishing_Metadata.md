@@ -19,7 +19,7 @@ This page has been accessed 219,659 times.
 - Contributer: Tom Baker 
 - Contributor: Pete Johnston
 
-Go to [User Guide](/mediawiki_wiki/User_Guide "User Guide") | [Creating Metadata](/mediawiki_wiki/User_Guide/Creating_Metadata "User Guide/Creating Metadata")
+Go to [User Guide](/mediawiki_wiki/User_Guide "User Guide") | [Creating Metadata](/mediawiki_wiki/User_Guide/Creating_Metadata)
 
 **How to use DCMI Metadata as linked data**
 

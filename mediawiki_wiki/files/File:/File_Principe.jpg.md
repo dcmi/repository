@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Principe.jpg](/mediawiki_wiki/files/File:
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Principe.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Principe.jpg.html)
 - [Discussion](/index.php?title=File_talk:Principe.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Principe.jpg&action=edit "This page is protected.
 You can view its source [e]")

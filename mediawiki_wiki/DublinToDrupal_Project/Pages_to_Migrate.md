@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 7 Mar 2012, at 12:28.  
 This page has been accessed 1,243 times.
 
-Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
+Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project)
 
 <table id="toc" class="toc">
   <tr>
@@ -57,9 +57,9 @@ Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinT
   </tr>
 </table>
 
-## [Content Types](/mediawiki_wiki/ContentTypes "ContentTypes") 
+## [Content Types](/mediawiki_wiki/ContentTypes) 
 
-### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Calendar\_Event](/mediawiki_wiki/Calendar_Event "Calendar Event") 
+### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Calendar\_Event](/mediawiki_wiki/Calendar_Event) 
 
 - Would this category include our own major events?
 <dl>
@@ -71,7 +71,7 @@ Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinT
 </dd>
 </dl>
 
-### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Recommendation](/mediawiki_wiki/Recommendation "Recommendation") 
+### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Recommendation](/mediawiki_wiki/Recommendation) 
 
 - [List of Semantic and "Other" (full) Recommendations](http://dublincore.org/documents/#recommendations)
 - [List of Proposed Recommendations](http://dublincore.org/documents/#proposedrecommendations)
@@ -95,13 +95,13 @@ Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinT
 </dd>
 </dl>
 
-### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Recommended\_Resource](/index.php?title=Recommended_Resource&action=edit&redlink=1 "Recommended Resource (page does not exist)") 
+### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Recommended\_Resource](/index.php?title=Recommended_Resource&action=edit&redlink=1) 
 
 See full list of Recommended Resources:
 
 - [Recommended Resources](http://dublincore.org/documents/#recommendedresources)
 
-### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Best\_Practice](/mediawiki_wiki/DublinToDrupal_Project/Best_Practice "DublinToDrupal Project/Best Practice") 
+### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Best\_Practice](/mediawiki_wiki/DublinToDrupal_Project/Best_Practice) 
 
 This would be a new category? How would it differ from a FAQ or Glossary entry -- which, like a "best practice" as I see it, provide a short description of something? Would this category include things like links to presentations? Or short descriptions of tools? Or the User Guide?
 
@@ -123,7 +123,7 @@ This would be a new category? How would it differ from a FAQ or Glossary entry -
 </dd>
 </dl>
 
-### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [FAQ\_Entry](/mediawiki_wiki/FAQ_Entry "FAQ Entry") 
+### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [FAQ\_Entry](/mediawiki_wiki/FAQ_Entry) 
 <dl>
 <dt>Frequently Asked Questions
 </dt>
@@ -168,7 +168,7 @@ This would be a new category? How would it differ from a FAQ or Glossary entry -
 
 * * *
 
-### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Glossary\_entry](/index.php?title=Glossary_entry&action=edit&redlink=1 "Glossary entry (page does not exist)") 
+### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): [Glossary\_entry](/index.php?title=Glossary_entry&action=edit&redlink=1) 
 <dl>
 <dt>Current Glossary (i.e., a list of Glossary entries showing "short" definitions)
 </dt>
@@ -225,7 +225,7 @@ This would be a new category? How would it differ from a FAQ or Glossary entry -
 
 * * *
 
-### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): Process document 
+### [Content Type](/mediawiki_wiki/ContentTypes): Process document 
 
 - Would this category include the namespace policy? Copyright? Software licenses? Is it about "process" or "policies"?
 <dl>
@@ -245,7 +245,7 @@ This would be a new category? How would it differ from a FAQ or Glossary entry -
 
 * * *
 
-### [Content Type](/mediawiki_wiki/ContentTypes "ContentTypes"): Bylaw 
+### [Content Type](/mediawiki_wiki/ContentTypes): Bylaw 
 
 A separate type for By-Laws?
 

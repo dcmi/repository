@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 1 January 2014, at 13:24.  
 This page has been accessed 14,946 times.
 
-[Return to Executive Committee](/mediawiki_wiki/Exec_Committee "Exec Committee")
+[Return to Executive Committee](/mediawiki_wiki/Exec_Committee)
 
 <table id="toc" class="toc">
   <tr>

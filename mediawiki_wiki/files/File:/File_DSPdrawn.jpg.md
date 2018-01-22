@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:DSPdrawn.JPG](/mediawiki_wiki/files/File:
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:DSPdrawn.JPG.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DSPdrawn.JPG.html)
 - [Discussion](/index.php?title=File_talk:DSPdrawn.JPG&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DSPdrawn.JPG&action=edit "This page is protected.
 You can view its source [e]")

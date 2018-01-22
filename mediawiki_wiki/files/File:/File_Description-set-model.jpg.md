@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:Description-set-model.jpg](/mediawiki_wik
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Description-set-model.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Description-set-model.jpg.html)
 - [Discussion](/index.php?title=File_talk:Description-set-model.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Description-set-model.jpg&action=edit "This page is protected.
 You can view its source [e]")

@@ -92,7 +92,7 @@ Retrieved from " [/mediawiki_wiki/File:DC-LRMI\_TG.png](/mediawiki_wiki/files/Fi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:DC-LRMI_TG.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DC-LRMI_TG.png.html)
 - [Discussion](/index.php?title=File_talk:DC-LRMI_TG.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DC-LRMI_TG.png&action=edit "This page is protected.
 You can view its source [e]")

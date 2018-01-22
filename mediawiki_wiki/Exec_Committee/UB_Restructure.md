@@ -15,11 +15,11 @@ aliases:
 This page was last modified on 28 May 2017, at 12:54.  
 This page has been accessed 13,355 times.
 
-[<img alt="Technical Board logo" src="/mediawiki_wiki/images/Technical_Board.png" width="200" height="63">](/mediawiki_wiki/images/Technical_Board.png "Technical Board logo")
+[<img alt="Technical Board logo" src="/mediawiki_wiki/images/Technical_Board.png" width="200" height="63">](/mediawiki_wiki/images/Technical_Board.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Technical_Board.md" title="DCMI Technical Board">Technical Board</a> Committees:</i> <a href="/mediawiki_wiki/DCMI_Technical_Board/usage.md" title="DCMI Technical Board/usage">Usage</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/standards.md" title="DCMI Technical Board/standards">Standards &amp; Liaisons</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/specifications.md" title="DCMI Technical Board/specifications">Community Specifications</a> ◘ <a href="/mediawiki_wiki/DCMI_FOAF_Cooperation.md" title="DCMI FOAF Cooperation">DCMI FOAF Cooperation</a>
 </dd>

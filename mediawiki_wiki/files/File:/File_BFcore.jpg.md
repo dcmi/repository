@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:BFcore.jpg](/mediawiki_wiki/files/File:/F
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:BFcore.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:BFcore.jpg.html)
 - [Discussion](/index.php?title=File_talk:BFcore.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:BFcore.jpg&action=edit "This page is protected.
 You can view its source [e]")

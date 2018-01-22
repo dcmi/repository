@@ -117,5 +117,5 @@ DCMI serves as publisher of the proceedings and the Executive handles the public
 
 ### How-tos 
 
-1. [How to use OCS](/mediawiki_wiki/DCMI_Conferences/OCS_Howto "DCMI Conferences/OCS Howto")
+1. [How to use OCS](/mediawiki_wiki/DCMI_Conferences/OCS_Howto)
 

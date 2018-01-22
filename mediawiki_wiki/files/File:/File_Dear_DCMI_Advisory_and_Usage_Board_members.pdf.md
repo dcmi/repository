@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Dear_DCMI_Advisory_and_Usage_Board_members.pdf)
 
-[Dear\_DCMI\_Advisory\_and\_Usage\_Board\_members.pdf](/mediawiki_wiki/files/Dear_DCMI_Advisory_and_Usage_Board_members.pdf "Dear DCMI Advisory and Usage Board members.pdf")‎(file size: 48 KB, MIME type: application/pdf)
+[Dear\_DCMI\_Advisory\_and\_Usage\_Board\_members.pdf](/mediawiki_wiki/files/Dear_DCMI_Advisory_and_Usage_Board_members.pdf)‎(file size: 48 KB, MIME type: application/pdf)
 
 draft letter to AB and UB for restructure review process
 
@@ -84,7 +84,7 @@ Retrieved from " [/mediawiki_wiki/File:Dear\_DCMI\_Advisory\_and\_Usage\_Board\_
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Dear_DCMI_Advisory_and_Usage_Board_members.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Dear_DCMI_Advisory_and_Usage_Board_members.pdf.html)
 - [Discussion](/index.php?title=File_talk:Dear_DCMI_Advisory_and_Usage_Board_members.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Dear_DCMI_Advisory_and_Usage_Board_members.pdf&action=edit "This page is protected.
 You can view its source [e]")

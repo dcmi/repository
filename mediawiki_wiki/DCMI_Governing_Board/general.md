@@ -15,13 +15,13 @@ aliases:
 This page was last modified on 28 May 2017, at 11:37.  
 This page has been accessed 21,969 times.
 
-[<img alt="Governing Board logo" src="/mediawiki_wiki/images/GB_logo.png" width="300" height="86">](/mediawiki_wiki/images/GB_logo.png "Governing Board logo")
+[<img alt="Governing Board logo" src="/mediawiki_wiki/images/GB_logo.png" width="300" height="86">](/mediawiki_wiki/images/GB_logo.png)
 
 ## Scratchpad 
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](DCMI_Handbook "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](DCMI_Handbook) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -60,8 +60,8 @@ This page has been accessed 21,969 times.
 
 - 2015-01-07: (9:00-10:30 EST ( [World Clock](http://bit.ly/1hki5ml))) (WebEx)
 - 2014-10-07: (9:00-10:30 EDT ( [World Clock](http://bit.ly/1hvkkUJ))) (F2F Austin + WebEx) 
-- 2014-07-09: [Agenda & Minutes](/mediawiki_wiki/DCMI_Governing_Board/2014-07-09 "DCMI Governing Board/2014-07-09") (9:00-10:30 EDT ( [World Clock](http://bit.ly/1eo3K97))) (WebEx)
-- 2014-04-09: [Agenda & Minutes](/mediawiki_wiki/DCMI_Governing_Board/2014-04-09 "DCMI Governing Board/2014-04-09") (9:00-10:30 EDT ( [World Clock](http://bit.ly/1pJCvHr)))
+- 2014-07-09: [Agenda & Minutes](/mediawiki_wiki/DCMI_Governing_Board/2014-07-09) (9:00-10:30 EDT ( [World Clock](http://bit.ly/1eo3K97))) (WebEx)
+- 2014-04-09: [Agenda & Minutes](/mediawiki_wiki/DCMI_Governing_Board/2014-04-09) (9:00-10:30 EDT ( [World Clock](http://bit.ly/1pJCvHr)))
 
 ## Committee Communications 
 

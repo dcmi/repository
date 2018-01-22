@@ -11,9 +11,9 @@ aliases:
 - "/mediawiki_wiki/Exec_Committee/scratchpad/general/restructuring.html"
 ---
 
-[Return to Scratchpad General](/mediawiki_wiki/Exec_Committee/scratchpad/general "Exec Committee/scratchpad/general")
+[Return to Scratchpad General](/mediawiki_wiki/Exec_Committee/scratchpad/general)
 
-[<img alt="Executive Committee logo" src="/mediawiki_wiki/images/EC_logo.png" width="300" height="82">](/mediawiki_wiki/File:EC_logo.png "Executive Committee logo")
+[<img alt="Executive Committee logo" src="/mediawiki_wiki/images/EC_logo.png" width="300" height="82">](/mediawiki_wiki/File:EC_logo.png)
 
 ## Scratchpad (Committee members only) 
 
@@ -58,28 +58,28 @@ aliases:
 
 ### Community Comments on Proposed Model 
 
-- [GB Comments on Organization Model](/mediawiki_wiki/Exec_Committee/OC_Comm-TG/Comments "Exec Committee/OC Comm-TG/Comments")
-- [AB Comments on Organization Model](/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Comments "Exec Committee/AB Comm-TG/Comments")
+- [GB Comments on Organization Model](/mediawiki_wiki/Exec_Committee/OC_Comm-TG/Comments)
+- [AB Comments on Organization Model](/mediawiki_wiki/Exec_Committee/AB_Comm-TG/Comments)
 
 ### Restructuring Process 
 
-- [Process Management](/mediawiki_wiki/Exec_Committee/restructureProcess "Exec Committee/restructureProcess")
+- [Process Management](/mediawiki_wiki/Exec_Committee/restructureProcess)
 
 ### Restructuring FAQ 
 
-- [Public FAQ on Restructuring](/mediawiki_wiki/Exec_Committee/QA_struct "Exec Committee/QA struct")
+- [Public FAQ on Restructuring](/mediawiki_wiki/Exec_Committee/QA_struct)
 
 ### Advisory Board 
 
-- [Restructuring](/mediawiki_wiki/Exec_Committee/AB_Comm-TG "Exec Committee/AB Comm-TG")
+- [Restructuring](/mediawiki_wiki/Exec_Committee/AB_Comm-TG)
 
 ### Oversight Committee 
 
-- [Restructuring](/mediawiki_wiki/Exec_Committee/OC_Comm-TG "Exec Committee/OC Comm-TG")
+- [Restructuring](/mediawiki_wiki/Exec_Committee/OC_Comm-TG)
 
 ### Usage Board 
 
-- [Restructuring](/mediawiki_wiki/Exec_Committee/UB "Exec Committee/UB")
+- [Restructuring](/mediawiki_wiki/Exec_Committee/UB)
 
 ### Organizational Chart 
 

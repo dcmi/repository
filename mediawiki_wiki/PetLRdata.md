@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 31 Dec 2014, at 05:47.  
 This page has been accessed 2,200 times.
 
-[<img alt="LD4PE Exploratorium logo" src="/mediawiki_wiki/images/Ld4pe-EX.png" width="250" height="100">](/mediawiki_wiki/images/Ld4pe-EX.png "LD4PE Exploratorium logo")
+[<img alt="LD4PE Exploratorium logo" src="/mediawiki_wiki/images/Ld4pe-EX.png" width="250" height="100">](/mediawiki_wiki/images/Ld4pe-EX.png)
 
 <table id="toc" class="toc">
   <tr>
@@ -32,7 +32,7 @@ This page has been accessed 2,200 times.
 </table>
 
 
-#### [Task Group Home Page](/mediawiki_wiki/Pet/ld4pe "Pet/ld4pe") 
+#### [Task Group Home Page](/mediawiki_wiki/Pet/ld4pe) 
 
 # Editor (Kent State) 
 

@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 25 September 2014, at 12:18.  
 This page has been accessed 268,791 times.
 
-Return to [Regional Conferences](/mediawiki_wiki/DCMI_Handbook/Reg_Conf "DCMI Handbook/Reg Conf")
+Return to [Regional Conferences](/mediawiki_wiki/DCMI_Handbook/Reg_Conf)
 
 <table id="toc" class="toc">
   <tr>

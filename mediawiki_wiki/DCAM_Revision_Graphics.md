@@ -41,17 +41,17 @@ _Example_
 
 _Example_
 
-### From: [Review of DCMI Abstract Model](/mediawiki_wiki/Review_of_DCMI_Abstract_Model "Review of DCMI Abstract Model") (2010) 
+### From: [Review of DCMI Abstract Model](/mediawiki_wiki/Review_of_DCMI_Abstract_Model) (2010) 
 
- [<img alt="Figure 1: Description Set Model (part of DCMI Abstract Model)" src="/mediawiki_wiki/images/DescriptionSetModel75.jpg" width="494" height="389">](/mediawiki_wiki/images/DescriptionSetModel75.jpg "Figure 1: Description Set Model (part of DCMI Abstract Model)")
+ [<img alt="Figure 1: Description Set Model (part of DCMI Abstract Model)" src="/mediawiki_wiki/images/DescriptionSetModel75.jpg" width="494" height="389">](/mediawiki_wiki/images/DescriptionSetModel75.jpg)
 
 **Figure 1: Description Set Model (part of DCMI Abstract Model)**
 
- [<img alt="Figure 2: Description Set Model slots with example URIs and character strings" src="/mediawiki_wiki/images/DescriptionSetModelValues75.jpg" width="530" height="370">](/mediawiki_wiki/images/DescriptionSetModelValues75.jpg "Figure 2: Description Set Model slots with example URIs and character strings")
+ [<img alt="Figure 2: Description Set Model slots with example URIs and character strings" src="/mediawiki_wiki/images/DescriptionSetModelValues75.jpg" width="530" height="370">](/mediawiki_wiki/images/DescriptionSetModelValues75.jpg)
 
 **Figure 2: Description Set Model slots with example URIs and character strings**
 
- [<img alt="Figure 3: Relationship of Description Set Profile components to RDF graphs" src="/mediawiki_wiki/images/DcamAndRdfGraph.jpg" width="579" height="437">](/mediawiki_wiki/images/DcamAndRdfGraph.jpg "Figure 3: Relationship of Description Set Profile components to RDF graphs")
+ [<img alt="Figure 3: Relationship of Description Set Profile components to RDF graphs" src="/mediawiki_wiki/images/DcamAndRdfGraph.jpg" width="579" height="437">](/mediawiki_wiki/images/DcamAndRdfGraph.jpg)
 
 **Figure 3: Relationship of Description Set Profile components to RDF graphs**
 

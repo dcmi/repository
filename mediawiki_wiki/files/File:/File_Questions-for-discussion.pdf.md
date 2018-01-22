@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Questions-for-discussion.pdf)
 
-[Questions-for-discussion.pdf](/mediawiki_wiki/files/Questions-for-discussion.pdf "Questions-for-discussion.pdf")‎(file size: 74 KB, MIME type: application/pdf)
+[Questions-for-discussion.pdf](/mediawiki_wiki/files/Questions-for-discussion.pdf)‎(file size: 74 KB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -73,7 +73,7 @@ Retrieved from " [/mediawiki_wiki/File:Questions-for-discussion.pdf](/mediawiki_
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Questions-for-discussion.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Questions-for-discussion.pdf.html)
 - [Discussion](/index.php?title=File_talk:Questions-for-discussion.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Questions-for-discussion.pdf&action=edit "This page is protected.
 You can view its source [e]")

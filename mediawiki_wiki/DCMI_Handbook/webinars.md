@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 16 June 2015, at 17:20.  
 This page has been accessed 96,513 times.
 
-[<img alt="DCMI Webinar Series logo" src="/mediawiki_wiki/images/DCMI_Webinars.png" width="450" height="127">](/mediawiki_wiki/images/DCMI_Webinars.png "DCMI Webinar Series logo")
+[<img alt="DCMI Webinar Series logo" src="/mediawiki_wiki/images/DCMI_Webinars.png" width="450" height="127">](/mediawiki_wiki/images/DCMI_Webinars.png)
 
 <table id="toc" class="toc">
   <tr>
@@ -78,7 +78,7 @@ This page has been accessed 96,513 times.
 </table>
 
 
-[<img alt="Upcoming webinars" src="/mediawiki_wiki/images/Upcoming.png" width="497" height="50">](/mediawiki_wiki/images/Upcoming.png "Upcoming webinars")
+[<img alt="Upcoming webinars" src="/mediawiki_wiki/images/Upcoming.png" width="497" height="50">](/mediawiki_wiki/images/Upcoming.png)
 
 ##   
 July 1, 2015
@@ -192,7 +192,7 @@ Redux: An update of a webinar first presented in 2013.
 > 
 > [View Webinar System Requirements](http://support.citrixonline.com/webinar/all_files/G2W010003)
 
-[<img alt="Past webinars" src="/mediawiki_wiki/images/Past.png" width="345" height="50">](/mediawiki_wiki/images/Past.png "Past webinars")
+[<img alt="Past webinars" src="/mediawiki_wiki/images/Past.png" width="345" height="50">](/mediawiki_wiki/images/Past.png)
 
 * * *
 
@@ -348,7 +348,7 @@ _VocBench 2.0: A Web Application for Collaborative Development of Multilingual T
 </table>
 
 
-***Presentation slides:*** [PDF](/mediawiki_wiki/files/Webinar-DCMI-3-4-2015-COMBINED.pdf "Webinar-DCMI-3-4-2015-COMBINED.pdf")
+***Presentation slides:*** [PDF](/mediawiki_wiki/files/Webinar-DCMI-3-4-2015-COMBINED.pdf)
 
 ## November 19, 2014 - Phil Barker & Lorna Campbell 
 
@@ -398,7 +398,7 @@ _The Learning Resource Metadata Initiative, describing learning resources with s
 </table>
 
 
-***Presentation slides:*** [PDF](/mediawiki_wiki/files/BarkerCampbell.pdf "BarkerCampbell.pdf")
+***Presentation slides:*** [PDF](/mediawiki_wiki/files/BarkerCampbell.pdf)
 
 * * *
 
@@ -456,7 +456,7 @@ _How to pick the low hanging fruits of Linked Data_
 </table>
 
 
-***Handout for the webinar:*** [PDF](http://freeyourmetadata.org/handouts/dcmi.pdf)***Presentation slides:*** [PDF](/mediawiki_wiki/files/VanHoolandVerborgh.pdf "VanHoolandVerborgh.pdf")
+***Handout for the webinar:*** [PDF](http://freeyourmetadata.org/handouts/dcmi.pdf)***Presentation slides:*** [PDF](/mediawiki_wiki/files/VanHoolandVerborgh.pdf)
 
 <pre> <strong>Categories:</strong> Metadata Modeling | Transactions on Metadata | Resource Description Framework (RDF)
 </pre>

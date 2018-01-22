@@ -35,7 +35,7 @@ Discussion of scenarios (3) submitted as potential Use Cases for this group to r
 
 Any other scenarios or Use Cases for consideration.
 
-Any comment on [Standards](/mediawiki_wiki/Multilingual_Vocabulary_Standards "Multilingual Vocabulary Standards") collected so far.
+Any comment on [Standards](/mediawiki_wiki/Multilingual_Vocabulary_Standards) collected so far.
 
 Discuss actions for next call and work to be done prior to April meeting in London.
 

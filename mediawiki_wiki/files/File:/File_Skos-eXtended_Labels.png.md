@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Skos-eXtended\_Labels.png](/mediawiki_wik
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Skos-eXtended_Labels.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Skos-eXtended_Labels.png.html)
 - [Discussion](/index.php?title=File_talk:Skos-eXtended_Labels.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Skos-eXtended_Labels.png&action=edit "This page is protected.
 You can view its source [e]")

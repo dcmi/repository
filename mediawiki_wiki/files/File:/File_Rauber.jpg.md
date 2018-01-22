@@ -79,7 +79,7 @@ Retrieved from " [/mediawiki_wiki/File:Rauber.jpg](/mediawiki_wiki/files/File:/F
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Rauber.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Rauber.jpg.html)
 - [Discussion](/index.php?title=File_talk:Rauber.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Rauber.jpg&action=edit "This page is protected.
 You can view its source [e]")

@@ -17,8 +17,8 @@ This page has been accessed 20,244 times.
 
 **Date/Time/Place:** Thursday, 22 September/14:00-15:30/The National Library of the Netherlands/Koninklijke Bibliotheek: [http://www.kb.nl/hpd/wegwijzer/plattegrond-en.html](http://www.kb.nl/hpd/wegwijzer/plattegrond-en.html)
 
-1. Welcome and Introductions (Jane Greenberg, UNC/Metadata Research Center.) 2. Context and brief updates for DC-SAM community (Jane Greenberg) ( [slides](/mediawiki_wiki/files/DC2011_ScienceMetadataCommunity.pdf "DC2011 ScienceMetadataCommunity.pdf"))  
-3. Status report: DataCite Dublin Core (DC2) Application Profile: Progress Report (Jian Qin, Syracuse U.) ( [slides](/mediawiki_wiki/files/DC2AP_progress_report_at_DC2011.pdf "DC2AP progress report at DC2011.pdf"))  
+1. Welcome and Introductions (Jane Greenberg, UNC/Metadata Research Center.) 2. Context and brief updates for DC-SAM community (Jane Greenberg) ( [slides](/mediawiki_wiki/files/DC2011_ScienceMetadataCommunity.pdf))  
+3. Status report: DataCite Dublin Core (DC2) Application Profile: Progress Report (Jian Qin, Syracuse U.) ( [slides](/mediawiki_wiki/files/DC2AP_progress_report_at_DC2011.pdf))  
 4. Presentations:
 
 - **Overview of Scientific Metadata for Data Publishing, Citation, and Curation** (Alex Ball, Research Officer, UKOLN) (slides: [http://opus.bath.ac.uk/26309](http://opus.bath.ac.uk/26309))  

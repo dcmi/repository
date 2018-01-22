@@ -70,7 +70,7 @@ Click on a date/time to view the file as it appeared at that time.
 
 The following file is a duplicate of this file ( [more details](/index.php/Special:FileDuplicateSearch/Standards_logo2.png "Special:FileDuplicateSearch/Standards logo2.png")):
 
-- [File:Standards logo.png](/mediawiki_wiki/files/File:/File:Standards_logo.png.html "File:Standards logo.png") 
+- [File:Standards logo.png](/mediawiki_wiki/files/File:/File:Standards_logo.png.html) 
 
 The following page links to this file:
 
@@ -82,7 +82,7 @@ Retrieved from " [/mediawiki_wiki/File:Standards\_logo2.png](/mediawiki_wiki/fil
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Standards_logo2.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Standards_logo2.png.html)
 - [Discussion](/index.php?title=File_talk:Standards_logo2.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Standards_logo2.png&action=edit "This page is protected.
 You can view its source [e]")

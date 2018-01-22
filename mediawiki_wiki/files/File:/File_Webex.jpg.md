@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:Webex.jpg](/mediawiki_wiki/files/File:/Fi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Webex.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Webex.jpg.html)
 - [Discussion](/index.php?title=File_talk:Webex.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Webex.jpg&action=edit "This page is protected.
 You can view its source [e]")

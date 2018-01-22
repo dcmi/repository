@@ -15,11 +15,11 @@ aliases:
 This page was last modified on 9 Mar 2015, at 11:40.  
 This page has been accessed 11,380 times.
 
-[<img alt="Nominations &amp; Bylaws Committee logo" src="/mediawiki_wiki/images/Nominations_Logo.png" width="500" height="97">](/mediawiki_wiki/images/Nominations_Logo.png "Nominations & Bylaws Committee logo")
+[<img alt="Nominations &amp; Bylaws Committee logo" src="/mediawiki_wiki/images/Nominations_Logo.png" width="500" height="97">](/mediawiki_wiki/images/Nominations_Logo.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](DCMI_Handbook "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](DCMI_Handbook) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -60,12 +60,12 @@ This page has been accessed 11,380 times.
 - Note: When meeting sessions have been recorded, the location of the recording files is noted in the meeting minutes.
 - Note: Meetings scheduled for Wednesday @ UTC 14:00:
 
-- 2014-09-03: [Agenda/Minutes](/mediawiki_wiki/DCMI_Governing_Board/nominations/2014-09-03 "DCMI Governing Board/nominations/2014-09-03") Wednesday
-- 2014-08-20: [Agenda/Minutes](/mediawiki_wiki/DCMI_Governing_Board/nominations/2014-08-20 "DCMI Governing Board/nominations/2014-08-20") Wednesday
+- 2014-09-03: [Agenda/Minutes](/mediawiki_wiki/DCMI_Governing_Board/nominations/2014-09-03) Wednesday
+- 2014-08-20: [Agenda/Minutes](/mediawiki_wiki/DCMI_Governing_Board/nominations/2014-08-20) Wednesday
 - 2014-07-09: Wednesday (meeting cancelled)
 - 2014-06-25: Wednesday (meeting cancelled)
-- 2014-06-11: [Agenda/Minutes](/mediawiki_wiki/DCMI_Governing_Board/nominations/2014-06-11 "DCMI Governing Board/nominations/2014-06-11") Wednesday 
+- 2014-06-11: [Agenda/Minutes](/mediawiki_wiki/DCMI_Governing_Board/nominations/2014-06-11) Wednesday 
 - 2014-05-28: Wednesday (meeting cancelled)
-- 2014-05-14: [Agenda/Minutes](/mediawiki_wiki/DCMI_Governing_Board/nominations/2014-05-14 "DCMI Governing Board/nominations/2014-05-14") Wednesday 
-- 2014-04-30: [Agenda/Minutes](/mediawiki_wiki/DCMI_Governing_Board/nominations/2014-04-30 "DCMI Governing Board/nominations/2014-04-30") ([World Clock: [http://bit.ly/1rG3XVJ](http://bit.ly/1rG3XVJ)])
+- 2014-05-14: [Agenda/Minutes](/mediawiki_wiki/DCMI_Governing_Board/nominations/2014-05-14) Wednesday 
+- 2014-04-30: [Agenda/Minutes](/mediawiki_wiki/DCMI_Governing_Board/nominations/2014-04-30) ([World Clock: [http://bit.ly/1rG3XVJ](http://bit.ly/1rG3XVJ)])
 

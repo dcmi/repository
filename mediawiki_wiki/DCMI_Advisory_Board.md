@@ -13,11 +13,11 @@ tags: []
 This page was last modified on 3 May 2016, at 22:36.  
 This page has been accessed 144,643 times.
 
-[<img alt="Advisory Board logo" src="/mediawiki_wiki/images/AB_logo.png" width="300" height="96">](/mediawiki_wiki/images/AB_logo.png "Advisory Board logo")
+[<img alt="Advisory Board logo" src="/mediawiki_wiki/images/AB_logo.png" width="300" height="96">](/mediawiki_wiki/images/AB_logo.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -62,9 +62,9 @@ This page has been accessed 144,643 times.
 
 * * *
 
-##### [Steering Committee Meetings](/mediawiki_wiki/DCMI_Advisory_Board/procedures/meetings "DCMI Advisory Board/procedures/meetings") (Schedule/Agendas/Minutes) 
+##### [Steering Committee Meetings](/mediawiki_wiki/DCMI_Advisory_Board/procedures/meetings) (Schedule/Agendas/Minutes) 
 
-- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
+- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg) [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
 
 * * *
 
@@ -161,34 +161,34 @@ Advisory Board
 - JiscMail Board Forums: 
   - Full Board (Private) [email to: dc-ab@jiscmail.ac.uk](mailto:dc-ab@jiscmail.ac.uk) | [Archive](http://www.jiscmail.ac.uk/lists/dc-ab.html) | [Join/Leave](http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-ab&A=1)
   - Steering Committee (Closed Membership) [email to: dc-ab-sc@jiscmail.ac.uk](mailto:dc-ab-sc@jiscmail.ac.uk) | [Archive](http://www.jiscmail.ac.uk/lists/dc-ab-sc.html) | [Join/Leave](http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-ab-sc&A=1)
-- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
+- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg) [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
 
 * * *
 
 #### Key DCMI Handbook Pages 
 
 - [Board Policies & Procedures](/index.php?title=DCMI_Advisory_Board/procedures&action=edit&redlink=1 "DCMI Advisory Board/procedures (page does not exist)")
-- [DCMI Master Administrative Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar "DCMI Handbook/Administrative Calendar")
-- [Community & Task Group Chairs](/mediawiki_wiki/DCMI_Advisory_Board/communityTGchairs "DCMI Advisory Board/communityTGchairs")
+- [DCMI Master Administrative Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar)
+- [Community & Task Group Chairs](/mediawiki_wiki/DCMI_Advisory_Board/communityTGchairs)
 
 * * *
 
 #### Board Resources 
 
-- AB Annual Meeting Notes [AB-AM-Minutes](/mediawiki_wiki/AB-AM-Minutes "AB-AM-Minutes")
-- AB Steering Committee Meeting Notes [AB-SC-Minutes](/mediawiki_wiki/AB-SC-Minutes "AB-SC-Minutes")
-- AB Education & Outreach Committee (EOC) Meeting Notes [AB-EOC-Minutes](/mediawiki_wiki/AB-EOC-Minutes "AB-EOC-Minutes")
-- AB Knowledge Audit (as of end of 2013) [AB-Knowledge-Audit](/mediawiki_wiki/AB-Knowledge-Audit "AB-Knowledge-Audit")
+- AB Annual Meeting Notes [AB-AM-Minutes](/mediawiki_wiki/AB-AM-Minutes)
+- AB Steering Committee Meeting Notes [AB-SC-Minutes](/mediawiki_wiki/AB-SC-Minutes)
+- AB Education & Outreach Committee (EOC) Meeting Notes [AB-EOC-Minutes](/mediawiki_wiki/AB-EOC-Minutes)
+- AB Knowledge Audit (as of end of 2013) [AB-Knowledge-Audit](/mediawiki_wiki/AB-Knowledge-Audit)
 
 * * *
 
 #### Scratchpad (Chairs only) 
 
-- [General](/mediawiki_wiki/DCMI_Advisory_Board/scratchpad/general "DCMI Advisory Board/scratchpad/general")
+- [General](/mediawiki_wiki/DCMI_Advisory_Board/scratchpad/general)
 
 * * *
 
-[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png)
 
 [Click and become a DCMI member...](http://dublincore.org/support/#individualMember)
 

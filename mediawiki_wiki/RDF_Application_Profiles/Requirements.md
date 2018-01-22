@@ -15,11 +15,11 @@ aliases:
 This page was last modified on 27 August 2015, at 15:36.  
 This page has been accessed 84,376 times.
 
-[<img alt="RDF AP TG logo" src="/mediawiki_wiki/images/RdfAP_tg.png" width="200" height="141">](/mediawiki_wiki/images/RdfAP_tg.png "RDF AP TG logo")
+[<img alt="RDF AP TG logo" src="/mediawiki_wiki/images/RdfAP_tg.png" width="200" height="141">](/mediawiki_wiki/images/RdfAP_tg.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>

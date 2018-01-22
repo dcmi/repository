@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/DC_2014_-_admin_day.pdf)
 
-[DC\_2014\_-\_admin\_day.pdf](/mediawiki_wiki/files/DC_2014_-_admin_day.pdf "DC 2014 - admin day.pdf")‎(file size: 82 KB, MIME type: application/pdf)
+[DC\_2014\_-\_admin\_day.pdf](/mediawiki_wiki/files/DC_2014_-_admin_day.pdf)‎(file size: 82 KB, MIME type: application/pdf)
 
 Options for DCMI Admin Meetings at annual meeting
 
@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:DC\_2014\_-\_admin\_day.pdf](/mediawiki_w
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:DC_2014_-_admin_day.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DC_2014_-_admin_day.pdf.html)
 - [Discussion](/index.php?title=File_talk:DC_2014_-_admin_day.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DC_2014_-_admin_day.pdf&action=edit "This page is protected.
 You can view its source [e]")

@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:Rdfexamplefig2.png](/mediawiki_wiki/files
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Rdfexamplefig2.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Rdfexamplefig2.png.html)
 - [Discussion](/index.php?title=File_talk:Rdfexamplefig2.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Rdfexamplefig2.png&action=edit "This page is protected.
 You can view its source [e]")

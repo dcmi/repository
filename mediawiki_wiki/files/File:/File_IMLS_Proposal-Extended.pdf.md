@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/IMLS_Proposal-Extended.pdf)
 
-[IMLS\_Proposal-Extended.pdf](/mediawiki_wiki/files/IMLS_Proposal-Extended.pdf "IMLS Proposal-Extended.pdf")‎(file size: 2.22 MB, MIME type: application/pdf)
+[IMLS\_Proposal-Extended.pdf](/mediawiki_wiki/files/IMLS_Proposal-Extended.pdf)‎(file size: 2.22 MB, MIME type: application/pdf)
 
 Extended IMLS Grant narrative
 
@@ -74,7 +74,7 @@ Retrieved from " [/mediawiki_wiki/File:IMLS\_Proposal-Extended.pdf](/mediawiki_w
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:IMLS_Proposal-Extended.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:IMLS_Proposal-Extended.pdf.html)
 - [Discussion](/index.php?title=File_talk:IMLS_Proposal-Extended.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:IMLS_Proposal-Extended.pdf&action=edit "This page is protected.
 You can view its source [e]")

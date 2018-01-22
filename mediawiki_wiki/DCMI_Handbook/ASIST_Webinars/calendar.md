@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 8 April 2016, at 11:08.  
 This page has been accessed 86,874 times.
 
-[<img alt="DCMI Webinar Series logo" src="/mediawiki_wiki/images/DCMI_Webinars.png" width="643" height="182">](/mediawiki_wiki/images/DCMI_Webinars.png "DCMI Webinar Series logo")
+[<img alt="DCMI Webinar Series logo" src="/mediawiki_wiki/images/DCMI_Webinars.png" width="643" height="182">](/mediawiki_wiki/images/DCMI_Webinars.png)
 
 <table id="toc" class="toc">
   <tr>

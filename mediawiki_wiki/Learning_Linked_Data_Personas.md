@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 2 Feb 2012, at 05:41.  
 This page has been accessed 8,106 times.
 
-Return to [Learning Linked Data Main Page](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
+Return to [Learning Linked Data Main Page](/mediawiki_wiki/Learning_Linked_Data)
 
 Defining "personas" -- typical users of the Linked Data learning platform -- will help us to design tools and approaches.
 

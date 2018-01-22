@@ -43,13 +43,13 @@ This page has been accessed 134,504 times.
 
 # Telecons and meetings 
 
-2012-02-15 [Report](/mediawiki_wiki/Multilingual_Vocabulary_Standards/TeleconReport-20120215 "Multilingual Vocabulary Standards/TeleconReport-20120215")
+2012-02-15 [Report](/mediawiki_wiki/Multilingual_Vocabulary_Standards/TeleconReport-20120215)
 
-2012-03-21 [Agenda](/mediawiki_wiki/Multilingual_Vocabulary_Standards/TeleconReport-20120321 "Multilingual Vocabulary Standards/TeleconReport-20120321")
+2012-03-21 [Agenda](/mediawiki_wiki/Multilingual_Vocabulary_Standards/TeleconReport-20120321)
 
 # Relevant links 
 
-[Multilingual Vocabulary Issues List](/mediawiki_wiki/Multilingual_Vocabulary_Standards/Multilingual_Vocabulary_Issues_List "Multilingual Vocabulary Standards/Multilingual Vocabulary Issues List")
+[Multilingual Vocabulary Issues List](/mediawiki_wiki/Multilingual_Vocabulary_Standards/Multilingual_Vocabulary_Issues_List)
 
 ## Links to existing standards and projects to be reviewed 
 

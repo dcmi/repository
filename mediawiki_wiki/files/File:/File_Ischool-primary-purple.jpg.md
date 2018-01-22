@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Ischool-primary-purple.jpg](/mediawiki_wi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Ischool-primary-purple.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Ischool-primary-purple.jpg.html)
 - [Discussion](/index.php?title=File_talk:Ischool-primary-purple.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Ischool-primary-purple.jpg&action=edit "This page is protected.
 You can view its source [e]")

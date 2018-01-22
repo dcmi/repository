@@ -19,8 +19,8 @@ This page has been accessed 146,554 times.
 
 == New mapping proposals
 
-- [File:Mapping schema.org-DC-sort by domain.rdf](/mediawiki_wiki/files/Mapping_schema.org-DC-sort_by_domain.rdf "File:Mapping schema.org-DC-sort by domain.rdf"), sorted by domain
-- [File:Mapping schema.org-DC-sort by id.rdf](/mediawiki_wiki/files/Mapping_schema.org-DC-sort_by_id.rdf "File:Mapping schema.org-DC-sort by id.rdf"), sorted by ID
+- [File:Mapping schema.org-DC-sort by domain.rdf](/mediawiki_wiki/files/Mapping_schema.org-DC-sort_by_domain.rdf), sorted by domain
+- [File:Mapping schema.org-DC-sort by id.rdf](/mediawiki_wiki/files/Mapping_schema.org-DC-sort_by_id.rdf), sorted by ID
 
 ### Immediate issues 
 

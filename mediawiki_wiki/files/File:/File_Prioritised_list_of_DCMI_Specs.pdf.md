@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Prioritised_list_of_DCMI_Specs.pdf)
 
-[Prioritised\_list\_of\_DCMI\_Specs.pdf](/mediawiki_wiki/files/Prioritised_list_of_DCMI_Specs.pdf "Prioritised list of DCMI Specs.pdf")‎(file size: 204 KB, MIME type: application/pdf)
+[Prioritised\_list\_of\_DCMI\_Specs.pdf](/mediawiki_wiki/files/Prioritised_list_of_DCMI_Specs.pdf)‎(file size: 204 KB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -84,7 +84,7 @@ Retrieved from " [/mediawiki_wiki/File:Prioritised\_list\_of\_DCMI\_Specs.pdf](/
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Prioritised_list_of_DCMI_Specs.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Prioritised_list_of_DCMI_Specs.pdf.html)
 - [Discussion](/index.php?title=File_talk:Prioritised_list_of_DCMI_Specs.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Prioritised_list_of_DCMI_Specs.pdf&action=edit "This page is protected.
 You can view its source [e]")

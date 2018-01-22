@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/3.5_Project-Scope-Statement-1.pdf)
 
-[3.5\_Project-Scope-Statement-1.pdf](/mediawiki_wiki/files/3.5_Project-Scope-Statement-1.pdf "3.5 Project-Scope-Statement-1.pdf")‎(file size: 101 KB, MIME type: application/pdf)
+[3.5\_Project-Scope-Statement-1.pdf](/mediawiki_wiki/files/3.5_Project-Scope-Statement-1.pdf)‎(file size: 101 KB, MIME type: application/pdf)
 
 Project scope statement
 
@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:3.5\_Project-Scope-Statement-1.pdf](/medi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:3.5_Project-Scope-Statement-1.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:3.5_Project-Scope-Statement-1.pdf.html)
 - [Discussion](/index.php?title=File_talk:3.5_Project-Scope-Statement-1.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:3.5_Project-Scope-Statement-1.pdf&action=edit "This page is protected.
 You can view its source [e]")

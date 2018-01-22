@@ -15,11 +15,11 @@ aliases:
 This page was last modified on 24 April 2016, at 22:19.  
 This page has been accessed 179,538 times.
 
-[<img alt="Governing Board logo" src="/mediawiki_wiki/images/GB_logo.png" width="300" height="86">](/mediawiki_wiki/images/GB_logo.png "Governing Board logo")
+[<img alt="Governing Board logo" src="/mediawiki_wiki/images/GB_logo.png" width="300" height="86">](/mediawiki_wiki/images/GB_logo.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><strong class="selflink">Governing Board</strong> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -72,8 +72,8 @@ This page has been accessed 179,538 times.
 
 #### Committees 
 
-- [Membership & Finance Committee](/mediawiki_wiki/DCMI_Governing_Board/finance "DCMI Governing Board/finance")
-- [Nominations & Bylaws Committee](/mediawiki_wiki/DCMI_Governing_Board/nominations "DCMI Governing Board/nominations")
+- [Membership & Finance Committee](/mediawiki_wiki/DCMI_Governing_Board/finance)
+- [Nominations & Bylaws Committee](/mediawiki_wiki/DCMI_Governing_Board/nominations)
 
 * * *
 
@@ -131,21 +131,21 @@ _**For full information on Board Members and their Affiliations, visit the [Boar
 - JiscMail Board Forums (Private): 
   - Full Board [dc-oc@jiscmail.ac.uk](mailto:dc-oc@jiscmail.ac.uk) | [Join/Leave](http://www.jiscmail.ac.uk/lists/dc-oc.html) [Archive](http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-oc&A=1)
   - Steering Committee [dc-gb-sc@jiscmail.ac.uk](mailto:dc-oc@jiscmail.ac.uk) | [Join/Leave](http://www.jiscmail.ac.uk/lists/dc-gb-sc.html) [Archive](http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-gb-sc&A=1)
-- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
+- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg) [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
 
 * * *
 
 #### Board Actions 
 
-- [2015 Actions](/mediawiki_wiki/DCMI_Governing_Board/actions14 "DCMI Governing Board/actions14")
-- [2014 Actions](/mediawiki_wiki/DCMI_Governing_Board/actions14 "DCMI Governing Board/actions14")
+- [2015 Actions](/mediawiki_wiki/DCMI_Governing_Board/actions14)
+- [2014 Actions](/mediawiki_wiki/DCMI_Governing_Board/actions14)
 
 * * *
 
 #### Key DCMI Handbook Pages 
 
-- [Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures "DCMI Governing Board/procedures")
-- [DCMI Master Administrative Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar "DCMI Handbook/Administrative Calendar")
+- [Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures)
+- [DCMI Master Administrative Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar)
 
 * * *
 
@@ -157,11 +157,11 @@ _**For full information on Board Members and their Affiliations, visit the [Boar
 
 ### Scratchpad (Board members only)
 
-- [General](/mediawiki_wiki/DCMI_Governing_Board/scratchpad/general "DCMI Governing Board/scratchpad/general")
+- [General](/mediawiki_wiki/DCMI_Governing_Board/scratchpad/general)
 
 * * *
 
-[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png)
 
 [Click and become a DCMI member...](http://dublincore.org/support/#individualMember)
 

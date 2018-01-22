@@ -38,8 +38,8 @@ This page has been accessed 548 times.
 
 ### Project Links 
 
-- [Learning Linked Data project home](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
-- [Inventory of Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Topics#Inventory_of_Learning_Topics "Learning Linked Data Topics") with reviewed text and reviewer comments
+- [Learning Linked Data project home](/mediawiki_wiki/Learning_Linked_Data)
+- [Inventory of Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Topics#Inventory_of_Learning_Topics) with reviewed text and reviewer comments
 - [WordPress public comment website](http://lld.ischool.uw.edu/wp/)
 - [IMLS Final Report Guidelines - Narrative](http://www.imls.gov/assets/1/AssetManager/FinalReport_Part1.pdf)
 - [IMLS Final Report Guidelines - Quantitative](http://www.imls.gov/assets/1/AssetManager/FinalReport_Part2.pdf)

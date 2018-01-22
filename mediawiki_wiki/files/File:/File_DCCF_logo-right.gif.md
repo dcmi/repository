@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:DCCF\_logo-right.gif](/mediawiki_wiki/fil
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:DCCF_logo-right.gif.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DCCF_logo-right.gif.html)
 - [Discussion](/index.php?title=File_talk:DCCF_logo-right.gif&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DCCF_logo-right.gif&action=edit "This page is protected.
 You can view its source [e]")

@@ -142,7 +142,7 @@ Click on a date/time to view the file as it appeared at that time.
 
 The following file is a duplicate of this file ( [more details](/index.php/Special:FileDuplicateSearch/Education_Logo.png "Special:FileDuplicateSearch/Education Logo.png")):
 
-- [File:Ed Comm.png](/mediawiki_wiki/files/File:/File:Ed_Comm.png.html "File:Ed Comm.png") 
+- [File:Ed Comm.png](/mediawiki_wiki/files/File:/File:Ed_Comm.png.html) 
 
 There are no pages that link to this file.
 
@@ -152,7 +152,7 @@ Retrieved from " [/mediawiki_wiki/File:Education\_Logo.png](/mediawiki_wiki/file
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Education_Logo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Education_Logo.png.html)
 - [Discussion](/index.php?title=File_talk:Education_Logo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Education_Logo.png&action=edit "This page is protected.
 You can view its source [e]")

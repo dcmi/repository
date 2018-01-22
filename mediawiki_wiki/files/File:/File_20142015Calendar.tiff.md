@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon.png" width="120" height="120">](/mediawiki_wiki/files/20142015Calendar.tiff)
 
-[20142015Calendar.tiff](/mediawiki_wiki/files/20142015Calendar.tiff "20142015Calendar.tiff")‎(969 × 411 pixels, file size: 119 KB, MIME type: image/tiff)
+[20142015Calendar.tiff](/mediawiki_wiki/files/20142015Calendar.tiff)‎(969 × 411 pixels, file size: 119 KB, MIME type: image/tiff)
 
 DC-EOC calendar for 2014/2015.
 
@@ -74,7 +74,7 @@ Retrieved from " [/mediawiki_wiki/File:20142015Calendar.tiff](/mediawiki_wiki/fi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:20142015Calendar.tiff.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:20142015Calendar.tiff.html)
 - [Discussion](/index.php?title=File_talk:20142015Calendar.tiff&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:20142015Calendar.tiff&action=edit "This page is protected.
 You can view its source [e]")

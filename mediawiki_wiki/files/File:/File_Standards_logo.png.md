@@ -118,7 +118,7 @@ Click on a date/time to view the file as it appeared at that time.
 
 The following file is a duplicate of this file ( [more details](/index.php/Special:FileDuplicateSearch/Standards_logo.png "Special:FileDuplicateSearch/Standards logo.png")):
 
-- [File:Standards logo2.png](/mediawiki_wiki/files/File:/File:Standards_logo2.png.html "File:Standards logo2.png") 
+- [File:Standards logo2.png](/mediawiki_wiki/files/File:/File:Standards_logo2.png.html) 
 
 The following 2 pages link to this file:
 
@@ -131,7 +131,7 @@ Retrieved from " [/mediawiki_wiki/File:Standards\_logo.png](/mediawiki_wiki/file
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Standards_logo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Standards_logo.png.html)
 - [Discussion](/index.php?title=File_talk:Standards_logo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Standards_logo.png&action=edit "This page is protected.
 You can view its source [e]")

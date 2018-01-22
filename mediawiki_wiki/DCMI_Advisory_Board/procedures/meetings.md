@@ -15,11 +15,11 @@ aliases:
 This page was last modified on 16 June 2014, at 12:55.  
 This page has been accessed 28,970 times.
 
-[<img alt="Governing Board logo" src="/mediawiki_wiki/images/AB_logo.png" width="300" height="96">](/mediawiki_wiki/images/AB_logo.png "Governing Board logo")
+[<img alt="Governing Board logo" src="/mediawiki_wiki/images/AB_logo.png" width="300" height="96">](/mediawiki_wiki/images/AB_logo.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -60,7 +60,7 @@ This page has been accessed 28,970 times.
   - April-October @ UTC 13:00 (9:00 EDT)
   - November-December 2014 @ UTC 14:00 (9:00 EDT)
 
-- 2014-07-10: [Agenda/Minutes](/mediawiki_wiki/DCMI_Advisory_Board/20140710 "DCMI Advisory Board/20140710") ( [World Clock](http://bit.ly/1i410zs))
-- 2014-06-12: [Agenda/Minutes](/mediawiki_wiki/AB-SC-Minutes "AB-SC-Minutes") ( [World Clock](http://bit.ly/TzByH4))
-- 2014-05-8: [Agenda/Minutes](/mediawiki_wiki/DCMI_Advisory_Board/20140508 "DCMI Advisory Board/20140508") ( [World Clock](http://bit.ly/QQfc2D))
+- 2014-07-10: [Agenda/Minutes](/mediawiki_wiki/DCMI_Advisory_Board/20140710) ( [World Clock](http://bit.ly/1i410zs))
+- 2014-06-12: [Agenda/Minutes](/mediawiki_wiki/AB-SC-Minutes) ( [World Clock](http://bit.ly/TzByH4))
+- 2014-05-8: [Agenda/Minutes](/mediawiki_wiki/DCMI_Advisory_Board/20140508) ( [World Clock](http://bit.ly/QQfc2D))
 

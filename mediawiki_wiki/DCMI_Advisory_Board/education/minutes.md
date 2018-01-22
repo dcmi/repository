@@ -11,11 +11,11 @@ aliases:
 - "/mediawiki_wiki/DCMI_Advisory_Board/education/minutes.html"
 ---
 
-[<img alt="Planning Committee logo" src="/images/Ed_Comm.png" width="300" height="81">](/mediawiki_wiki/File:Ed_Comm.png "Planning Committee logo")
+[<img alt="Planning Committee logo" src="/images/Ed_Comm.png" width="300" height="81">](/mediawiki_wiki/File:Ed_Comm.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -48,7 +48,7 @@ aliases:
 
 #### Agendas & Minutes 
 
-- 2014-04-09: [Minutes](/mediawiki_wiki/DCMI_Advisory_Board/education/minutes/20140409 "DCMI Advisory Board/education/minutes/20140409") (9:00 AM EDT (World Clock: [http://bit.ly/1m6MpBi](http://bit.ly/1m6MpBi)) via Skype)
+- 2014-04-09: [Minutes](/mediawiki_wiki/DCMI_Advisory_Board/education/minutes/20140409) (9:00 AM EDT (World Clock: [http://bit.ly/1m6MpBi](http://bit.ly/1m6MpBi)) via Skype)
 <!-- 
 NewPP limit report
 Preprocessor node count: 11/1000000

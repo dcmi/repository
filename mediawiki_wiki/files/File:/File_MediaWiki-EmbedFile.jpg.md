@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:MediaWiki-EmbedFile.jpg](/mediawiki_wiki/
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:MediaWiki-EmbedFile.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:MediaWiki-EmbedFile.jpg.html)
 - [Discussion](/index.php?title=File_talk:MediaWiki-EmbedFile.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:MediaWiki-EmbedFile.jpg&action=edit "This page is protected.
 You can view its source [e]")

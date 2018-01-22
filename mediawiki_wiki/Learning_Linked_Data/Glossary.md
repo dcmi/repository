@@ -17,9 +17,9 @@ This page has been accessed 334 times.
 
 ### Project Links 
 
-- [Project Home](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
-- [Learning\_Linked\_Data\_Topics](/mediawiki_wiki/Learning_Linked_Data_Topics "Learning Linked Data Topics")
-- [Learning\_Linked\_Data\_Tracker](/mediawiki_wiki/Learning_Linked_Data_Tracker "Learning Linked Data Tracker")
+- [Project Home](/mediawiki_wiki/Learning_Linked_Data)
+- [Learning\_Linked\_Data\_Topics](/mediawiki_wiki/Learning_Linked_Data_Topics)
+- [Learning\_Linked\_Data\_Tracker](/mediawiki_wiki/Learning_Linked_Data_Tracker)
 
 ### Glossary 
 

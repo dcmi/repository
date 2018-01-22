@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Manager_Stats_and_Reports.pdf)
 
-[Manager\_Stats\_and\_Reports.pdf](/mediawiki_wiki/files/Manager_Stats_and_Reports.pdf "Manager Stats and Reports.pdf")‎(file size: 832 KB, MIME type: application/pdf)
+[Manager\_Stats\_and\_Reports.pdf](/mediawiki_wiki/files/Manager_Stats_and_Reports.pdf)‎(file size: 832 KB, MIME type: application/pdf)
 
 Screen shots about how to access registration data.
 
@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Manager\_Stats\_and\_Reports.pdf](/mediaw
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Manager_Stats_and_Reports.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Manager_Stats_and_Reports.pdf.html)
 - [Discussion](/index.php?title=File_talk:Manager_Stats_and_Reports.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Manager_Stats_and_Reports.pdf&action=edit "This page is protected.
 You can view its source [e]")

@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 27 February 2014, at 23:07.  
 This page has been accessed 37,423 times.
 
-[<img alt="Usage Committee logo" src="/mediawiki_wiki/images/Usage_logo.png" width="300" height="82">](/mediawiki_wiki/images/Usage_logo.png "Usage Committee logo")
+[<img alt="Usage Committee logo" src="/mediawiki_wiki/images/Usage_logo.png" width="300" height="82">](/mediawiki_wiki/images/Usage_logo.png)
 
 <table id="toc" class="toc">
   <tr>

@@ -74,7 +74,7 @@ Retrieved from " [/mediawiki_wiki/File:DCMI.png](/mediawiki_wiki/files/File:/Fil
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:DCMI.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DCMI.png.html)
 - [Discussion](/index.php?title=File_talk:DCMI.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DCMI.png&action=edit "This page is protected.
 You can view its source [e]")

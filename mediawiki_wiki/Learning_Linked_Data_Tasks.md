@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 28 Jan 2012, at 05:42.  
 This page has been accessed 8,038 times.
 
-Return to [Learning Linked Data Main Page](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
+Return to [Learning Linked Data Main Page](/mediawiki_wiki/Learning_Linked_Data)
 
 <table id="toc" class="toc">
   <tr>
@@ -53,7 +53,7 @@ Some learners are best motivated, and best learn, when working towards practical
 
 At least the last two categories meet highly task-focused needs of learners with specific scopes of activity in mind.[1] Learners very frequently engage with documentation in a nonlinear fashion,[2] browsing for answers to specific functional questions that restore their ability to act.[3]
 
-[KarenC proposes](http://dublincore.org/pipermail/learninglinkeddata/2012-January/000045.html) that we ensure that everything in the [Inventory of Learning Objectives](/mediawiki_wiki/Learning_Linked_Data_Inventory "Learning Linked Data Inventory") is needed for a task, and that everything in the tasks is covered by the inventory. Karen notes that in continuing education in the library field, learners need to be able to go back to their library and do something with what they have learned -- and do something before they've forgotten what they learned, and that classes get slammed if they don't provide a good, practical outcome for the learners. This differs from classroom learning because students in classrooms expect a delay between learning and practice.
+[KarenC proposes](http://dublincore.org/pipermail/learninglinkeddata/2012-January/000045.html) that we ensure that everything in the [Inventory of Learning Objectives](/mediawiki_wiki/Learning_Linked_Data_Inventory) is needed for a task, and that everything in the tasks is covered by the inventory. Karen notes that in continuing education in the library field, learners need to be able to go back to their library and do something with what they have learned -- and do something before they've forgotten what they learned, and that classes get slammed if they don't provide a good, practical outcome for the learners. This differs from classroom learning because students in classrooms expect a delay between learning and practice.
 
 ## Defining a Metadata Project 
 

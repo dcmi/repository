@@ -149,6 +149,6 @@ Rather, the project converged on the concept of a learning environment comprisin
 9. ↑ [http://edrene.org/](http://edrene.org/)
 10. ↑ [http://www.thegateway.org/](http://www.thegateway.org/)
 
-- [PDF download](/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf "LearningLinkedDataFinalProjectReport.pdf") (399KB)
+- [PDF download](/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf) (399KB)
 - [Word 2010 download](http://lld.ischool.uw.edu/wp/wp-content/uploads/2012/09/LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.docx) (219KB) -- The Word file is linked from the WordPress site because this wiki generated errors when trying to upload either the Word 2010 or Word 2003 versions.
 

@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:Steering\_Committees-wiki.png](/mediawiki
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Steering_Committees-wiki.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Steering_Committees-wiki.png.html)
 - [Discussion](/index.php?title=File_talk:Steering_Committees-wiki.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Steering_Committees-wiki.png&action=edit "This page is protected.
 You can view its source [e]")

@@ -74,7 +74,7 @@ Retrieved from " [/mediawiki_wiki/File:IMG\_0458.jpg](/mediawiki_wiki/files/File
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:IMG_0458.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:IMG_0458.jpg.html)
 - [Discussion](/index.php?title=File_talk:IMG_0458.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:IMG_0458.jpg&action=edit "This page is protected.
 You can view its source [e]")

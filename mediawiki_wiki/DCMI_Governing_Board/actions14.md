@@ -15,11 +15,11 @@ aliases:
 This page was last modified on 16 August 2015, at 14:20.  
 This page has been accessed 60,027 times.
 
-[<img alt="Governing Board logo" src="/mediawiki_wiki/images/GB_logo.png" width="300" height="86">](/mediawiki_wiki/images/GB_logo.png "Governing Board logo")
+[<img alt="Governing Board logo" src="/mediawiki_wiki/images/GB_logo.png" width="300" height="86">](/mediawiki_wiki/images/GB_logo.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](DCMI_Handbook "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](DCMI_Handbook) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>

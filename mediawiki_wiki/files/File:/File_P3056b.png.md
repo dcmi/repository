@@ -72,7 +72,7 @@ Retrieved from " [/mediawiki_wiki/File:P3056b.png](/mediawiki_wiki/files/File:/F
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:P3056b.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:P3056b.png.html)
 - [Discussion](/index.php?title=File_talk:P3056b.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:P3056b.png&action=edit "This page is protected.
 You can view its source [e]")

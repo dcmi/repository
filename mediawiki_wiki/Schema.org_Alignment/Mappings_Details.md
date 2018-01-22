@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 12 December 2011, at 13:38.  
 This page has been accessed 79,119 times.
 
-Details in support of [raw mapping draft](/mediawiki_wiki/Schema.org_Alignment/Mappings "Schema.org Alignment/Mappings") from [BernardVatant](/mediawiki_wiki/User:BernardVatant "User:BernardVatant")
+Details in support of [raw mapping draft](/mediawiki_wiki/Schema.org_Alignment/Mappings "Schema.org Alignment/Mappings") from [BernardVatant](/mediawiki_wiki/User:BernardVatant)
 
 <table id="toc" class="toc">
   <tr>

@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Dublin-to-Drupal-Project-Charter-jtt-2.pdf)
 
-[Dublin-to-Drupal-Project-Charter-jtt-2.pdf](/mediawiki_wiki/files/Dublin-to-Drupal-Project-Charter-jtt-2.pdf "Dublin-to-Drupal-Project-Charter-jtt-2.pdf")‎(file size: 288 KB, MIME type: application/pdf)
+[Dublin-to-Drupal-Project-Charter-jtt-2.pdf](/mediawiki_wiki/files/Dublin-to-Drupal-Project-Charter-jtt-2.pdf)‎(file size: 288 KB, MIME type: application/pdf)
 
 Project charter
 
@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Dublin-to-Drupal-Project-Charter-jtt-2.pd
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Dublin-to-Drupal-Project-Charter-jtt-2.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Dublin-to-Drupal-Project-Charter-jtt-2.pdf.html)
 - [Discussion](/index.php?title=File_talk:Dublin-to-Drupal-Project-Charter-jtt-2.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Dublin-to-Drupal-Project-Charter-jtt-2.pdf&action=edit "This page is protected.
 You can view its source [e]")

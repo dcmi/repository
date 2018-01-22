@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:NkosAPDomainModel.png](/mediawiki_wiki/fi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:NkosAPDomainModel.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:NkosAPDomainModel.png.html)
 - [Discussion](/index.php?title=File_talk:NkosAPDomainModel.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:NkosAPDomainModel.png&action=edit "This page is protected.
 You can view its source [e]")

@@ -62,5 +62,5 @@ The work of the Schema Bib Extend Group will provide example and experience to i
 - Schema Bib Extend Group Wiki.
 - The 'Why Schema.org' Special Conference Session Thursday 5th 9:00-12:30
 
-Back to [VocDay workshop in Lisbon](/mediawiki_wiki/VocDay_workshop_in_Lisbon "VocDay workshop in Lisbon")
+Back to [VocDay workshop in Lisbon](/mediawiki_wiki/VocDay_workshop_in_Lisbon)
 

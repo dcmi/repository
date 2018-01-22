@@ -92,7 +92,7 @@ Retrieved from " [/mediawiki_wiki/File:Asistmbrbutton\_1.jpg](/mediawiki_wiki/fi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Asistmbrbutton_1.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Asistmbrbutton_1.jpg.html)
 - [Discussion](/index.php?title=File_talk:Asistmbrbutton_1.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Asistmbrbutton_1.jpg&action=edit "This page is protected.
 You can view its source [e]")

@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/ProjectDescription.pdf)
 
-[ProjectDescription.pdf](/mediawiki_wiki/files/ProjectDescription.pdf "ProjectDescription.pdf")‎(file size: 83 KB, MIME type: application/pdf)
+[ProjectDescription.pdf](/mediawiki_wiki/files/ProjectDescription.pdf)‎(file size: 83 KB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -73,7 +73,7 @@ Retrieved from " [/mediawiki_wiki/File:ProjectDescription.pdf](/mediawiki_wiki/f
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:ProjectDescription.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:ProjectDescription.pdf.html)
 - [Discussion](/index.php?title=File_talk:ProjectDescription.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:ProjectDescription.pdf&action=edit "This page is protected.
 You can view its source [e]")

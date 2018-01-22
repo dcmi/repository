@@ -79,7 +79,7 @@ Retrieved from " [/mediawiki_wiki/File:Outcomes\_Trajectories.jpg](/mediawiki_wi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Outcomes_Trajectories.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Outcomes_Trajectories.jpg.html)
 - [Discussion](/index.php?title=File_talk:Outcomes_Trajectories.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Outcomes_Trajectories.jpg&action=edit "This page is protected.
 You can view its source [e]")

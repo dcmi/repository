@@ -120,7 +120,7 @@ Retrieved from " [/mediawiki_wiki/File:Nominations\_Logo.png](/mediawiki_wiki/fi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Nominations_Logo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Nominations_Logo.png.html)
 - [Discussion](/index.php?title=File_talk:Nominations_Logo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Nominations_Logo.png&action=edit "This page is protected.
 You can view its source [e]")

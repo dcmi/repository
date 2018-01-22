@@ -79,7 +79,7 @@ Retrieved from " [/mediawiki_wiki/File:Lorna\_Campbell.gif](/mediawiki_wiki/file
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Lorna_Campbell.gif.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Lorna_Campbell.gif.html)
 - [Discussion](/index.php?title=File_talk:Lorna_Campbell.gif&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Lorna_Campbell.gif&action=edit "This page is protected.
 You can view its source [e]")

@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 6 October 2013, at 18:47.  
 This page has been accessed 80,590 times.
 
-Return to [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook")
+Return to [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook)
 
 <table id="toc" class="toc">
   <tr>

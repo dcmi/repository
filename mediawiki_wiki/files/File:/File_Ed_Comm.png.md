@@ -70,7 +70,7 @@ Click on a date/time to view the file as it appeared at that time.
 
 The following file is a duplicate of this file ( [more details](/index.php/Special:FileDuplicateSearch/Ed_Comm.png "Special:FileDuplicateSearch/Ed Comm.png")):
 
-- [File:Education Logo.png](/mediawiki_wiki/files/File:/File:Education_Logo.png.html "File:Education Logo.png") 
+- [File:Education Logo.png](/mediawiki_wiki/files/File:/File:Education_Logo.png.html) 
 
 The following 4 pages link to this file:
 
@@ -85,7 +85,7 @@ Retrieved from " [/mediawiki_wiki/File:Ed\_Comm.png](/mediawiki_wiki/files/File:
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Ed_Comm.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Ed_Comm.png.html)
 - [Discussion](/index.php?title=File_talk:Ed_Comm.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Ed_Comm.png&action=edit "This page is protected.
 You can view its source [e]")

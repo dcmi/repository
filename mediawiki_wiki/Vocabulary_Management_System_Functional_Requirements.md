@@ -17,7 +17,7 @@ This page has been accessed 127,899 times.
 
 The following functional requirements have been identified for the DCMI Vocabulary Management System.
 
-[Currently based on [Vocabulary Management System Functional Requirements notes from DC-2011](/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements_notes_from_DC-2011 "Vocabulary Management System Functional Requirements notes from DC-2011") and [Taxonomy tools requirements and capabilities](http://conferences.infotoday.com/stats/documents/default.aspx?id=6044&lnk=http%3A%2F%2Fconferences.infotoday.com%2Fdocuments%2F141%2F1315_Busch.pptx)]
+[Currently based on [Vocabulary Management System Functional Requirements notes from DC-2011](/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements_notes_from_DC-2011) and [Taxonomy tools requirements and capabilities](http://conferences.infotoday.com/stats/documents/default.aspx?id=6044&lnk=http%3A%2F%2Fconferences.infotoday.com%2Fdocuments%2F141%2F1315_Busch.pptx)]
 
 ## Functional requirements 
 
@@ -57,5 +57,5 @@ The following functional requirements have been identified for the DCMI Vocabula
 
 ## Resources 
 
-- [Vocabulary Management System Functional Requirements notes from DC-2011](/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements_notes_from_DC-2011 "Vocabulary Management System Functional Requirements notes from DC-2011")
+- [Vocabulary Management System Functional Requirements notes from DC-2011](/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements_notes_from_DC-2011)
 

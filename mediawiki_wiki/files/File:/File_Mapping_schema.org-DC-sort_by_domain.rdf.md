@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
-[Mapping\_schema.org-DC-sort\_by\_domain.rdf](/mediawiki_wiki/files/Mapping_schema.org-DC-sort_by_domain.rdf "Mapping schema.org-DC-sort by domain.rdf")‎(file size: 34 KB, MIME type: application/rdf+xml)
+[Mapping\_schema.org-DC-sort\_by\_domain.rdf](/mediawiki_wiki/files/Mapping_schema.org-DC-sort_by_domain.rdf)‎(file size: 34 KB, MIME type: application/rdf+xml)
 
 **Warning** : This file type may contain malicious code. By executing it, your system may be compromised.
 <!-- 
@@ -72,7 +72,7 @@ Retrieved from " [/mediawiki_wiki/File:Mapping\_schema.org-DC-sort\_by\_domain.r
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Mapping_schema.org-DC-sort_by_domain.rdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Mapping_schema.org-DC-sort_by_domain.rdf.html)
 - [Discussion](/index.php?title=File_talk:Mapping_schema.org-DC-sort_by_domain.rdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Mapping_schema.org-DC-sort_by_domain.rdf&action=edit "This page is protected.
 You can view its source [e]")

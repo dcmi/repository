@@ -364,5 +364,5 @@ The DC-Lib AP recommends the usage of the following Encoding Schemes:
 
 * * *
 
-Go back to [AP for Bibliographic Text Resources](/mediawiki_wiki/DCLib_AP#Description_Set_Profile_of_the_DC-Lib_AP_for_Bibliographic_Text_Resources "DCLib AP")
+Go back to [AP for Bibliographic Text Resources](/mediawiki_wiki/DCLib_AP#Description_Set_Profile_of_the_DC-Lib_AP_for_Bibliographic_Text_Resources)
 

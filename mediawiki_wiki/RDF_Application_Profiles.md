@@ -13,11 +13,11 @@ tags: []
 This page was last modified on 15 June 2016, at 02:33.  
 This page has been accessed 404,316 times.
 
-[<img alt="RDF AP TG logo" src="/mediawiki_wiki/images/RdfAP_tg.png" width="200" height="141">](/mediawiki_wiki/images/RdfAP_tg.png "RDF AP TG logo")
+[<img alt="RDF AP TG logo" src="/mediawiki_wiki/images/RdfAP_tg.png" width="200" height="141">](/mediawiki_wiki/images/RdfAP_tg.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -71,13 +71,13 @@ Welcome to the home page of the "RDF Application Profiles" Task Group within the
 
 ## Charter 
 
-[Charter](/mediawiki_wiki/RDF_Application_Profiles/Charter "RDF Application Profiles/Charter"), as approved in the June 10, 2014 meeting.
+[Charter](/mediawiki_wiki/RDF_Application_Profiles/Charter), as approved in the June 10, 2014 meeting.
 
-[RDF\_Application\_Profiles/2016Plan](/mediawiki_wiki/RDF_Application_Profiles/2016Plan "RDF Application Profiles/2016Plan") Plan for 2016
+[RDF\_Application\_Profiles/2016Plan](/mediawiki_wiki/RDF_Application_Profiles/2016Plan) Plan for 2016
 
 ## Deliverables 
 
-- [Deliverable 1: Report on the current state: use cases and validation requirements](/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable "RDF Application Profiles/UCR Deliverable")
+- [Deliverable 1: Report on the current state: use cases and validation requirements](/mediawiki_wiki/RDF_Application_Profiles/UCR_Deliverable)
 - [Deliverable 2: Requirements](/mediawiki_wiki/RDF_Application_Profiles/Requirements)
 - Deliverable 3: Recommended approaches for the development of solutions
   - [Link to initial spreadsheet](https://docs.google.com/spreadsheets/d/1fZLRRkKkCiR0ZQoiBtQGM_Q5NbUF2tn6g2iSidF2scc/edit?usp=sharing)
@@ -105,54 +105,54 @@ _Every 2 weeks, Thursdays__Default time for calls is 17:00 CET, 11:00 EST, 8:00 
 
 Task Group Calls:
 
-- 2015-11-24 [Breakout at SWIB2015](/mediawiki_wiki/RDF_Application_Profiles/SWIB2015_breakout "RDF Application Profiles/SWIB2015 breakout")
+- 2015-11-24 [Breakout at SWIB2015](/mediawiki_wiki/RDF_Application_Profiles/SWIB2015_breakout)
 
 Task Group Calls:
 
 - 2016-03-12 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-12-03-2016) [Minutes](/index.php?title=RDF_Application_Profiles/minutes20160312&action=edit&redlink=1 "RDF\_Application\_Profiles/minutes20160312 (page does not exist)")
-- 2016-02-25 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-25-02-2016) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20160225 "RDF\_Application\_Profiles/minutes20160225")
-- 2016-02-11 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-11-02-2016) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20160211 "RDF\_Application\_Profiles/minutes20160211")
-- 2016-01-28 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-28-01-2016) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20160128 "RDF\_Application\_Profiles/minutes20160128")
-- 2015-12-03 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-03-12-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20151203 "RDF\_Application\_Profiles/minutes20151203")
-- 2015-08-27 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-27-08-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150827 "RDF\_Application\_Profiles/minutes20150827")
-- 2015-08-13 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-13-08-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150813 "RDF\_Application\_Profiles/minutes20150813")
-- 2015-07-30 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-30-07-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150730 "RDF\_Application\_Profiles/minutes20150730")
-- 2015-07-16 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-16-07-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150716 "RDF\_Application\_Profiles/minutes20150716")
-- 2015-07-02 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-02-07-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150702 "RDF\_Application\_Profiles/minutes20150702")
-- 2015-06-20 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-18-06-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150620 "RDF\_Application\_Profiles/minutes20150620")
-- 2015-06-04 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-06-06-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150604 "RDF\_Application\_Profiles/minutes20150604")
-- 2015-05-21 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-21-05-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150521 "RDF\_Application\_Profiles/minutes20150521")
-- 2015-05-07 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-07-05-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150507 "RDF\_Application\_Profiles/minutes20150507")
-- 2015-04-23 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-23-04-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150423 "RDF\_Application\_Profiles/minutes20150423")
-- 2015-04-09 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-09-04-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150409 "RDF\_Application\_Profiles/minutes20150409")
-- 2015-03-12 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-12-03-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150312 "RDF\_Application\_Profiles/minutes20150312")
-- 2015-02-26 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-26-02-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150226 "RDF\_Application\_Profiles/minutes20150226")
-- 2015-02-03 [Raw notes](http://etherpad.wikimedia.org/p/dcmi-ap-rdf-03-02-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150203 "RDF\_Application\_Profiles/minutes20150203")
-- [2015-02-03](/mediawiki_wiki/RDF_Application_Profiles/minutes20150203 "RDF\_Application\_Profiles/minutes20150203") Minutes of call
-- [2015-01-20](/mediawiki_wiki/RDF_Application_Profiles/minutes20150120 "RDF\_Application\_Profiles/minutes20150120") Minutes of call
+- 2016-02-25 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-25-02-2016) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20160225)
+- 2016-02-11 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-11-02-2016) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20160211)
+- 2016-01-28 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-28-01-2016) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20160128)
+- 2015-12-03 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-03-12-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20151203)
+- 2015-08-27 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-27-08-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150827)
+- 2015-08-13 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-13-08-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150813)
+- 2015-07-30 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-30-07-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150730)
+- 2015-07-16 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-16-07-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150716)
+- 2015-07-02 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-02-07-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150702)
+- 2015-06-20 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-18-06-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150620)
+- 2015-06-04 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-06-06-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150604)
+- 2015-05-21 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-21-05-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150521)
+- 2015-05-07 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-07-05-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150507)
+- 2015-04-23 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-23-04-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150423)
+- 2015-04-09 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-09-04-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150409)
+- 2015-03-12 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-12-03-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150312)
+- 2015-02-26 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-26-02-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150226)
+- 2015-02-03 [Raw notes](http://etherpad.wikimedia.org/p/dcmi-ap-rdf-03-02-2015) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20150203)
+- [2015-02-03](/mediawiki_wiki/RDF_Application_Profiles/minutes20150203) Minutes of call
+- [2015-01-20](/mediawiki_wiki/RDF_Application_Profiles/minutes20150120) Minutes of call
 - [2015-01-13 recording of call](https://meetings.webex.com/collabs/meetings/playRecording?recordID=14095416&meetingInstanceID=I3A3Z6I8DUK3304O30PHLY2IC2-JV0D)
 - [2015-01-06](https://meetings.webex.com/collabs/url/21gCU8MT9PMJ3O-gz9oVu1TqK-7cPzvEDoD-vS_B8dS00000) recording of call [raw notes](http://etherpad.wikimedia.org/p/dcmi-ap-rdf-06-01-2015)
 - [2014-12-16](http://etherpad.wikimedia.org/p/dcmi-ap-rdf-16-12-2014) Minutes of call
 - [2014-12-09](http://etherpad.wikimedia.org/p/dcmi-ap-rdf-08-12-2014) Minutes of call
-- [2014-11-25](/mediawiki_wiki/RDF_Application_Profiles/minutes20141125 "RDF\_Application\_Profiles/minutes20141125") Minutes of call
-- [2014-11-11](/mediawiki_wiki/RDF_Application_Profiles/minutes20141111 "RDF\_Application\_Profiles/minutes20141111") Minutes of call
-- [2014-10-28](/mediawiki_wiki/RDF_Application_Profiles/minutes20141028 "RDF\_Application\_Profiles/minutes20141028") Minutes of call
-- [2014-10-14](/mediawiki_wiki/RDF_Application_Profiles/minutes20141014 "RDF\_Application\_Profiles/minutes20141014") Minutes of call
-- [2014-09-30](/mediawiki_wiki/RDF_Application_Profiles/minutes20140930 "RDF\_Application\_Profiles/minutes20140930") Minutes of call
-- [2014-09-16](/mediawiki_wiki/RDF_Application_Profiles/minutes20140916 "RDF\_Application\_Profiles/minutes20140916") Minutes of call
-- [2014-09-02](/mediawiki_wiki/RDF_Application_Profiles/minutes20140902 "RDF\_Application\_Profiles/minutes20140902") Minutes of call
-- [2014-08-19](/mediawiki_wiki/RDF_Application_Profiles/minutes20140819 "RDF\_Application\_Profiles/minutes20140819") Minutes of call
-- [2014-08-05](/mediawiki_wiki/RDF_Application_Profiles/minutes20140805 "RDF Application Profiles/minutes20140805") Minutes of call
-- [2014-07-22](/mediawiki_wiki/RDF_Application_Profiles/minutes20140722 "RDF Application Profiles/minutes20140722") Minutes of call
-- [2014-07-08](/mediawiki_wiki/RDF_Application_Profiles/minutes20140708 "RDF Application Profiles/minutes20140708") Minutes of call
-- [2014-06-24](/mediawiki_wiki/RDF_Application_Profiles/minutes20140624 "RDF Application Profiles/minutes20140624") Minutes of call
+- [2014-11-25](/mediawiki_wiki/RDF_Application_Profiles/minutes20141125) Minutes of call
+- [2014-11-11](/mediawiki_wiki/RDF_Application_Profiles/minutes20141111) Minutes of call
+- [2014-10-28](/mediawiki_wiki/RDF_Application_Profiles/minutes20141028) Minutes of call
+- [2014-10-14](/mediawiki_wiki/RDF_Application_Profiles/minutes20141014) Minutes of call
+- [2014-09-30](/mediawiki_wiki/RDF_Application_Profiles/minutes20140930) Minutes of call
+- [2014-09-16](/mediawiki_wiki/RDF_Application_Profiles/minutes20140916) Minutes of call
+- [2014-09-02](/mediawiki_wiki/RDF_Application_Profiles/minutes20140902) Minutes of call
+- [2014-08-19](/mediawiki_wiki/RDF_Application_Profiles/minutes20140819) Minutes of call
+- [2014-08-05](/mediawiki_wiki/RDF_Application_Profiles/minutes20140805) Minutes of call
+- [2014-07-22](/mediawiki_wiki/RDF_Application_Profiles/minutes20140722) Minutes of call
+- [2014-07-08](/mediawiki_wiki/RDF_Application_Profiles/minutes20140708) Minutes of call
+- [2014-06-24](/mediawiki_wiki/RDF_Application_Profiles/minutes20140624) Minutes of call
 
 Pre-Task Group calls, within the [Architecture Forum](http://dublincore.org/groups/architecture/)
 
-- [2014-06-10 Notes and action items.](/mediawiki_wiki/RDF_Application_Profiles/Minutes20140610 "RDF\_Application\_Profiles/Minutes20140610")
-- [2014-05-27 Organizing committee / Agenda and minutes](/mediawiki_wiki/RDF_Application_Profiles/Minutes20140527 "RDF Application Profiles/Minutes20140527")
-- [2014-04-16 Agenda and meeting notes.](/mediawiki_wiki/RDF_Application_Profiles/Agenda20140416 "RDF Application Profiles/Agenda20140416")
-- [2014-03-19 Notes and action items.](/mediawiki_wiki/RDF_Application_Profiles/Minutes20140319 "RDF\_Application\_Profiles/Minutes20140319")
+- [2014-06-10 Notes and action items.](/mediawiki_wiki/RDF_Application_Profiles/Minutes20140610)
+- [2014-05-27 Organizing committee / Agenda and minutes](/mediawiki_wiki/RDF_Application_Profiles/Minutes20140527)
+- [2014-04-16 Agenda and meeting notes.](/mediawiki_wiki/RDF_Application_Profiles/Agenda20140416)
+- [2014-03-19 Notes and action items.](/mediawiki_wiki/RDF_Application_Profiles/Minutes20140319)
 - [2014-03-19 Agenda.](/index.php?title=RDF_Application_Profiles/Agenda20140319&action=edit&redlink=1 "RDF\_Application\_Profiles/Agenda20140319 (page does not exist)")
 - [2014-02-19 Notes and action items.](/index.php?title=RDF_Application_Profiles/Minutes20140219&action=edit&redlink=1 "RDF\_Application\_Profiles/Minutes20140219 (page does not exist)")
 - [2014-01-20 Notes and action items.](/index.php?title=RDF_Application_Profiles/Minutes20140120&action=edit&redlink=1 "RDF\_Application\_Profiles/Minutes20140120 (page does not exist)")
@@ -260,14 +260,14 @@ Pre-Task Group calls, within the [Architecture Forum](http://dublincore.org/grou
 
 - [Blending DCAM, DCAP, DSP, & SHACL](/mediawiki_wiki/RDF_Application_Profiles/blendingDoc)
 - [EDM validation rules, comparison of EDM with the DM2E model and the DDB profile](https://docs.google.com/spreadsheet/ccc?key=0AoN3jJ2PToabdFZDTzJmS2hNUHBMUTBHMzgzMmI5dEE&usp=drive_web#gid=0)
-- [DSP as RDF](/mediawiki_wiki/RDF_Application_Profiles/DSPanalysis "RDF Application Profiles/DSPanalysis")
+- [DSP as RDF](/mediawiki_wiki/RDF_Application_Profiles/DSPanalysis)
 - [DSP-SPIN Mapping](https://github.com/dcmi/DSP-SPIN-Mapping)
 - [Demo Validation with DSP in RDF](http://purl.org/net/rdfval-demo)
-- [Draft analysis on Bibframe vs. requirements](/mediawiki_wiki/RDF_Application_Profiles/BibframeAnalysis "RDF Application Profiles/BibframeAnalysis"), by Thomas
+- [Draft analysis on Bibframe vs. requirements](/mediawiki_wiki/RDF_Application_Profiles/BibframeAnalysis), by Thomas
 
 ## Resources
 
-- [RDF Validator](/mediawiki_wiki/RDF_Application_Profiles/RDF_Validator "RDF Application Profiles/RDF Validator")
+- [RDF Validator](/mediawiki_wiki/RDF_Application_Profiles/RDF_Validator)
 - [VoID vocablulary](http://vocab.deri.ie/void) (especially the vocabulary property!)
 - RDF Validation Workshop: [http://www.w3.org/2012/12/rdf-val](http://www.w3.org/2012/12/rdf-val)
 - CEN/CWA Guidelines for machine-processable representation of DCAPs: [ftp://ftp.cenorm.be/PUBLIC/CWAs/e-Europe/MMI-DC/cwa15248-00-2005-Apr.pdf](ftp://ftp.cenorm.be/PUBLIC/CWAs/e-Europe/MMI-DC/cwa15248-00-2005-Apr.pdf)
@@ -283,7 +283,7 @@ Pre-Task Group calls, within the [Architecture Forum](http://dublincore.org/grou
 - [Wiki syntax for DSPs](http://dublincore.org/documents/dsp-wiki-syntax/#DC-DSP)
 - [dcmi-dsp.xsd](http://dublincore.org/moinmoin-wiki-archive/architecturewiki/attachments/dcmi-dsp.xsd) (Experimental)
 - ["Son of Dublin Core"](http://aliman.googlecode.com/svn/trunk/sodc/SoDC-0.2/constraints/index.html) (alpha)
-- [Dublin Core Application Profile proposal](/mediawiki_wiki/Proposal_DCAPs_DanBri "Proposal DCAPs DanBri") by Dan Brickley, 2005
+- [Dublin Core Application Profile proposal](/mediawiki_wiki/Proposal_DCAPs_DanBri) by Dan Brickley, 2005
 - ...
 
 ## People 
@@ -329,7 +329,7 @@ _If you want to join or leave, just add or remove your name here. Write Tom Bake
 
 ## Activities
 
-DC2014: [Pre-conference](/mediawiki_wiki/RDF_Application_Profiles/dc2014 "RDF Application Profiles/dc2014"); [Special Session](/mediawiki_wiki/RDF_Application_Profiles/dc2014specialsession "RDF Application Profiles/dc2014specialsession")
+DC2014: [Pre-conference](/mediawiki_wiki/RDF_Application_Profiles/dc2014 "RDF Application Profiles/dc2014"); [Special Session](/mediawiki_wiki/RDF_Application_Profiles/dc2014specialsession)
 
-SWIB2014: [Pre-conference](/mediawiki_wiki/RDF_Application_Profiles/swib2014 "RDF Application Profiles/swib2014")
+SWIB2014: [Pre-conference](/mediawiki_wiki/RDF_Application_Profiles/swib2014)
 

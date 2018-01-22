@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf)
 
-[LearningLinkedDataFinalProjectReport.pdf](/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf "LearningLinkedDataFinalProjectReport.pdf")‎(file size: 398 KB, MIME type: application/pdf)
+[LearningLinkedDataFinalProjectReport.pdf](/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport.pdf)‎(file size: 398 KB, MIME type: application/pdf)
 
 Final project report in PDF
 
@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:LearningLinkedDataFinalProjectReport.pdf]
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:LearningLinkedDataFinalProjectReport.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:LearningLinkedDataFinalProjectReport.pdf.html)
 - [Discussion](/index.php?title=File_talk:LearningLinkedDataFinalProjectReport.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:LearningLinkedDataFinalProjectReport.pdf&action=edit "This page is protected.
 You can view its source [e]")

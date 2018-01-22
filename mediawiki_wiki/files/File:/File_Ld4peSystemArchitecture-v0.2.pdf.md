@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Ld4peSystemArchitecture-v0.2.pdf)
 
-[Ld4peSystemArchitecture-v0.2.pdf](/mediawiki_wiki/files/Ld4peSystemArchitecture-v0.2.pdf "Ld4peSystemArchitecture-v0.2.pdf")‎(file size: 229 KB, MIME type: application/pdf)
+[Ld4peSystemArchitecture-v0.2.pdf](/mediawiki_wiki/files/Ld4peSystemArchitecture-v0.2.pdf)‎(file size: 229 KB, MIME type: application/pdf)
 
 draft version of LD4PE system architecture
 
@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Ld4peSystemArchitecture-v0.2.pdf](/mediaw
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Ld4peSystemArchitecture-v0.2.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Ld4peSystemArchitecture-v0.2.pdf.html)
 - [Discussion](/index.php?title=File_talk:Ld4peSystemArchitecture-v0.2.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Ld4peSystemArchitecture-v0.2.pdf&action=edit "This page is protected.
 You can view its source [e]")

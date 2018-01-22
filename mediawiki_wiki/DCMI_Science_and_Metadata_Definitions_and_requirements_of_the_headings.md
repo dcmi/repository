@@ -47,5 +47,5 @@ The organization or person responsible for the maintenance of the scheme, typica
 
 The date the first edition of the metadata scheme was created. (format examples: If we know the date for sure, 2012; if we can infer, [2012]; if we can’t find it, N/A.)
 
-Return to [DCMI Science and Metadata ~ Research Data Alliance (RDA) Metadata Directory](/mediawiki_wiki/DCMI_Science_and_Metadata_%7E_Research_Data_Alliance_(RDA)_Metadata_Directory "DCMI Science and Metadata ~ Research Data Alliance (RDA) Metadata Directory")
+Return to [DCMI Science and Metadata ~ Research Data Alliance (RDA) Metadata Directory](/mediawiki_wiki/DCMI_Science_and_Metadata_%7E_Research_Data_Alliance_(RDA)_Metadata_Directory)
 

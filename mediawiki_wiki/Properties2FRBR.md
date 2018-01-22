@@ -76,5 +76,5 @@ If you want to assign the properties of the Description Set Profile of the DC-Li
 </pre>
 * * *
 
-Go to [DCLib AP](/mediawiki_wiki/DCLib_AP "DCLib AP")
+Go to [DCLib AP](/mediawiki_wiki/DCLib_AP)
 

@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 31 Jan 2012, at 05:41.  
 This page has been accessed 8,559 times.
 
-Return to [Learning Linked Data Main Page](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
+Return to [Learning Linked Data Main Page](/mediawiki_wiki/Learning_Linked_Data)
 
 Topics and skills related to Linked Data, the learning of which would be supported by the tool platform proposed in a deliverable of the Learning Linked Data Project.
 

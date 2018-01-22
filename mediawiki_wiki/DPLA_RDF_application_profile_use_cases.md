@@ -35,7 +35,7 @@ This page has been accessed 34,675 times.
 
 ## Overview
 
-DPLA maintains an access portal to digitized cultural heritage objects held by libraries, archives, museums, and historical societies throughout the United States, and provides bulk and programmatic access to this data. The [DPLA Metadata Application Profile version 3](http://dp.la/info/developers/map/) (MAPv3) builds on the [Europeana Data Model](http://pro.europeana.eu/edm-documentation). As such, our use case is somewhat similar to the [EDM](/mediawiki_wiki/EDM "EDM") and the [DDB-EDM](/mediawiki_wiki/DDB-EDM "DDB-EDM") use cases.
+DPLA maintains an access portal to digitized cultural heritage objects held by libraries, archives, museums, and historical societies throughout the United States, and provides bulk and programmatic access to this data. The [DPLA Metadata Application Profile version 3](http://dp.la/info/developers/map/) (MAPv3) builds on the [Europeana Data Model](http://pro.europeana.eu/edm-documentation). As such, our use case is somewhat similar to the [EDM](/mediawiki_wiki/EDM "EDM") and the [DDB-EDM](/mediawiki_wiki/DDB-EDM) use cases.
 
 We harvest data using several different methods (file transfer, OAI-PMH, site-specific APIs, etc.) and process data in different formats (MODS, MARCXML, qualified and unqualified DC, and site-specific serializations). DPLA augments and normalizes data received from partners (_content hubs_ and _service hubs_) as an _enrichment_ pipeline that is part of our ingestion process. While MAPv3 builds on EDM, we currently use JSON-LD as our sole storage and serialization format. Currently, our primary concern relates to the need to check cardinality constraints and occurrences and (in limited cases) checking value types.
 

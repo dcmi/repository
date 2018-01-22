@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Keith-Jeffery-A-3-layerModel-for-Metadata.pdf)
 
-[Keith-Jeffery-A-3-layerModel-for-Metadata.pdf](/mediawiki_wiki/files/Keith-Jeffery-A-3-layerModel-for-Metadata.pdf "Keith-Jeffery-A-3-layerModel-for-Metadata.pdf")‎(file size: 543 KB, MIME type: application/pdf)
+[Keith-Jeffery-A-3-layerModel-for-Metadata.pdf](/mediawiki_wiki/files/Keith-Jeffery-A-3-layerModel-for-Metadata.pdf)‎(file size: 543 KB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -73,7 +73,7 @@ Retrieved from " [/mediawiki_wiki/File:Keith-Jeffery-A-3-layerModel-for-Metadata
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Keith-Jeffery-A-3-layerModel-for-Metadata.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Keith-Jeffery-A-3-layerModel-for-Metadata.pdf.html)
 - [Discussion](/index.php?title=File_talk:Keith-Jeffery-A-3-layerModel-for-Metadata.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Keith-Jeffery-A-3-layerModel-for-Metadata.pdf&action=edit "This page is protected.
 You can view its source [e]")

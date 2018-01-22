@@ -15,11 +15,11 @@ aliases:
 This page was last modified on 24 January 2017, at 22:04.  
 This page has been accessed 19,739 times.
 
-[<img alt="Technical Infrastructure Committee logo" src="/mediawiki_wiki/images/Tech_infrastructure.png" width="516" height="57">](/mediawiki_wiki/images/Tech_infrastructure.png "Technical Infrastructure Committee logo")
+[<img alt="Technical Infrastructure Committee logo" src="/mediawiki_wiki/images/Tech_infrastructure.png" width="516" height="57">](/mediawiki_wiki/images/Tech_infrastructure.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>

@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:Org-community\_tg.png](/mediawiki_wiki/fi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Org-community_tg.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Org-community_tg.png.html)
 - [Discussion](/index.php?title=File_talk:Org-community_tg.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Org-community_tg.png&action=edit "This page is protected.
 You can view its source [e]")

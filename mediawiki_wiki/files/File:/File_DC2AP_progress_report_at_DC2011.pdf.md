@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/DC2AP_progress_report_at_DC2011.pdf)
 
-[DC2AP\_progress\_report\_at\_DC2011.pdf](/mediawiki_wiki/files/DC2AP_progress_report_at_DC2011.pdf "DC2AP progress report at DC2011.pdf")‎(file size: 673 KB, MIME type: application/pdf)
+[DC2AP\_progress\_report\_at\_DC2011.pdf](/mediawiki_wiki/files/DC2AP_progress_report_at_DC2011.pdf)‎(file size: 673 KB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -74,7 +74,7 @@ Retrieved from " [/mediawiki_wiki/File:DC2AP\_progress\_report\_at\_DC2011.pdf](
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:DC2AP_progress_report_at_DC2011.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DC2AP_progress_report_at_DC2011.pdf.html)
 - [Discussion](/index.php?title=File_talk:DC2AP_progress_report_at_DC2011.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DC2AP_progress_report_at_DC2011.pdf&action=edit "This page is protected.
 You can view its source [e]")

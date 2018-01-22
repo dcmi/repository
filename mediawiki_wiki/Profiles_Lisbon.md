@@ -79,7 +79,7 @@ Taking a simple example of the description of the publisher of a work, we can se
 
 The original Dublin Core vocabulary of 15 terms includes “dc:publisher.” In RDF representation, this term is defined as:
 
- [<img alt="Figure 1: dc:publisher" src="/mediawiki_wiki/images/Dcpublisher2.png" width="320" height="102">](/mediawiki_wiki/images/Dcpublisher2.png "Figure 1: dc:publisher")
+ [<img alt="Figure 1: dc:publisher" src="/mediawiki_wiki/images/Dcpublisher2.png" width="320" height="102">](/mediawiki_wiki/images/Dcpublisher2.png)
 
 The use of rdf:Resource for the domain means that anything can be the subject of a statement using dc:publisher. As the range, rdf:Resource means that the object value can also be anything. This means that the value can be either a literal or an identified resource. The following are valid statements based on this definition:
 
@@ -99,7 +99,7 @@ Note that nothing about the property definition itself results in any validation
 
 The current revision of the Dublin Core terms brings the definitions more in line with RDF, and defines publisher as:
 
- [<img alt="Figure 2: dct:publisher" src="/mediawiki_wiki/images/Dctpublisher2.png" width="320" height="98">](/mediawiki_wiki/images/Dctpublisher2.png "Figure 2: dct:publisher")
+ [<img alt="Figure 2: dct:publisher" src="/mediawiki_wiki/images/Dctpublisher2.png" width="320" height="98">](/mediawiki_wiki/images/Dctpublisher2.png)
 
 **Figure 2: dct:publisher**
 
@@ -124,7 +124,7 @@ _node1:
 
 Another example of a property that covers the same semantic area as the two Dublin Core properties for publisher is that of frbrer:P3056, which means “has publisher or distributor”:
 
- [<img alt="Figure 3: FRBR property P3056" src="/mediawiki_wiki/images/P3056a2.png" width="320" height="75">](/mediawiki_wiki/images/P3056a2.png "Figure 3: FRBR property P3056")
+ [<img alt="Figure 3: FRBR property P3056" src="/mediawiki_wiki/images/P3056a2.png" width="320" height="75">](/mediawiki_wiki/images/P3056a2.png)
 
 **Figure 2: FRBRer property P3056**
 
@@ -132,13 +132,13 @@ The range of this property is any rdf:Resource, which means that the value space
 
 This embeds the property P3056 in a semantic environment with possibilities for inferencing. For each statement that includes P3056, it can be inferred that there is at least one Expression even if that Expression is not immediately available or known. And for each Expression one can infer that there is one and only one Work, again with or without the existence of an actual Work in the environment.
 
- [<img alt="Figure 4: FRBR property P3056" src="/mediawiki_wiki/images/P3056b2.png" width="320" height="197">](/mediawiki_wiki/images/P3056b2.png "Figure 4: FRBR property P3056")
+ [<img alt="Figure 4: FRBR property P3056" src="/mediawiki_wiki/images/P3056b2.png" width="320" height="197">](/mediawiki_wiki/images/P3056b2.png)
 
 **Figure 4: FRBR property P3056 plus classes related to its domain class**
 
 There are additional semantic commitments made in this ontology, not all of which are shown here, but one set of those commitments is the declaration of disjointness between the classes that are entailed by P3056.
 
- [<img alt="Figure 5: FRBR property P3056" src="/mediawiki_wiki/images/P3056c2.png" width="600" height="450">](/mediawiki_wiki/images/P3056c2.png "Figure 5: FRBR property P3056")
+ [<img alt="Figure 5: FRBR property P3056" src="/mediawiki_wiki/images/P3056c2.png" width="600" height="450">](/mediawiki_wiki/images/P3056c2.png)
 
 **Figure 5: FRBR property P3056 plus classes related to its domain class**
 
@@ -180,11 +180,11 @@ As mentioned above, the use of OWL to specify a complex of relationships within 
 
 Quality Control can take place at the point of creation or use of metadata. QC is an action on the metadata and is not inherent in the data itself. In the creation phase, persons and applications that facilitate data creation need a clear set of actionable rules that are applied to the data. These rules can manage various aspects of the metadata including enforcing a definition of "completeness" of the overall description of a resource; cardinality of individual entities and properties; property ranges, even as specific as selection from pre-defined controlled lists of values. This type of QC may imitate the creation of structured records that are now commonly created as metadata.
 
- [<img alt="Figure 6: Title to be added" src="/mediawiki_wiki/images/P3056uncons.png" width="320" height="77">](/mediawiki_wiki/images/P3056uncons.png "Figure 6: Title to be added")
+ [<img alt="Figure 6: Title to be added" src="/mediawiki_wiki/images/P3056uncons.png" width="320" height="77">](/mediawiki_wiki/images/P3056uncons.png)
 
 **Figure 6: Title to be added**
 
- [<img alt="Figure 7: Title to be added" src="/mediawiki_wiki/images/ProfileTable2.png" width="600" height="450">](/mediawiki_wiki/images/ProfileTable2.png "Figure 7: Title to be added")
+ [<img alt="Figure 7: Title to be added" src="/mediawiki_wiki/images/ProfileTable2.png" width="600" height="450">](/mediawiki_wiki/images/ProfileTable2.png)
 
 **Figure 7: Title to be added**
 

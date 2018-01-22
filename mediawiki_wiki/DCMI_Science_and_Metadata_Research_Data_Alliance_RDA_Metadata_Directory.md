@@ -159,9 +159,9 @@ This wiki page presents early prototype work for a directory listing metadata sc
 
 ## Information about the Directory
 
-[DCMI Science and Metadata ~ Definitions and requirements of the headings](/mediawiki_wiki/DCMI_Science_and_Metadata_%7E_Definitions_and_requirements_of_the_headings "DCMI Science and Metadata ~ Definitions and requirements of the headings")
+[DCMI Science and Metadata ~ Definitions and requirements of the headings](/mediawiki_wiki/DCMI_Science_and_Metadata_%7E_Definitions_and_requirements_of_the_headings)
 
-[DCMI Science and Metadata ~ Policy for maintaining the directory](/mediawiki_wiki/DCMI_Science_and_Metadata_%7E_Policy_for_maintaining_the_directory "DCMI Science and Metadata ~ Policy for maintaining the directory")
+[DCMI Science and Metadata ~ Policy for maintaining the directory](/mediawiki_wiki/DCMI_Science_and_Metadata_%7E_Policy_for_maintaining_the_directory)
 
 ## About this Project
 

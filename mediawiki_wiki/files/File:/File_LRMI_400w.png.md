@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:LRMI\_400w.png](/mediawiki_wiki/files/Fil
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:LRMI_400w.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:LRMI_400w.png.html)
 - [Discussion](/index.php?title=File_talk:LRMI_400w.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:LRMI_400w.png&action=edit "This page is protected.
 You can view its source [e]")

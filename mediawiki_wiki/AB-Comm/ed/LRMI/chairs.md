@@ -11,11 +11,11 @@ aliases:
 - "/mediawiki_wiki/AB-Comm/ed/LRMI/chairs.html"
 ---
 
-[<img alt="DCMI/LRMI Tas Group" src="/images/DC-LRMI_TG.png" width="200" height="121">](/mediawiki_wiki/File:DC-LRMI_TG.png "DCMI/LRMI Tas Group")
+[<img alt="DCMI/LRMI Tas Group" src="/images/DC-LRMI_TG.png" width="200" height="121">](/mediawiki_wiki/File:DC-LRMI_TG.png)
 
 * * *
 
-##### [[edit](http://wiki.dublincore.org/index.php?title=Template:LrmiTG&action=edit&section=T-1 "Template:LrmiTG")] [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook") 
+##### [[edit](http://wiki.dublincore.org/index.php?title=Template:LrmiTG&action=edit&section=T-1 "Template:LrmiTG")] [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -29,7 +29,7 @@ aliases:
 
 * * *
 
-[Return to TG homepage](/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG")
+[Return to TG homepage](/mediawiki_wiki/AB-Comm/ed/LRMI/TG)
 
 <table id="toc" class="toc">
   <tbody>
@@ -54,7 +54,7 @@ aliases:
 </table>
 <script>if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
 
-[Task Group Homepage](/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG")
+[Task Group Homepage](/mediawiki_wiki/AB-Comm/ed/LRMI/TG)
 
 # [[edit](http://wiki.dublincore.org/index.php?title=AB-Comm/ed/LRMI/chairs&action=edit&section=1 "Edit section: DCMI/LRMI Chair's Work Pages")] DCMI/LRMI Chair's Work Pages 
 

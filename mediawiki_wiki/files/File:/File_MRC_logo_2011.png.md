@@ -74,7 +74,7 @@ Retrieved from " [/mediawiki_wiki/File:MRC\_logo\_2011.png](/mediawiki_wiki/file
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:MRC_logo_2011.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:MRC_logo_2011.png.html)
 - [Discussion](/index.php?title=File_talk:MRC_logo_2011.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:MRC_logo_2011.png&action=edit "This page is protected.
 You can view its source [e]")

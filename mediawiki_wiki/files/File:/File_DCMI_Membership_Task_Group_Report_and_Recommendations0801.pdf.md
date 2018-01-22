@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/DCMI_Membership_Task_Group_Report_and_Recommendations0801.pdf)
 
-[DCMI\_Membership\_Task\_Group\_Report\_and\_Recommendations0801.pdf](/mediawiki_wiki/files/DCMI_Membership_Task_Group_Report_and_Recommendations0801.pdf "DCMI Membership Task Group Report and Recommendations0801.pdf")‎(file size: 323 KB, MIME type: application/pdf)
+[DCMI\_Membership\_Task\_Group\_Report\_and\_Recommendations0801.pdf](/mediawiki_wiki/files/DCMI_Membership_Task_Group_Report_and_Recommendations0801.pdf)‎(file size: 323 KB, MIME type: application/pdf)
 
 Summary slides for DCMI Membership Task Group Report
 
@@ -96,7 +96,7 @@ Retrieved from " [/mediawiki_wiki/File:DCMI\_Membership\_Task\_Group\_Report\_an
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:DCMI_Membership_Task_Group_Report_and_Recommendations0801.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DCMI_Membership_Task_Group_Report_and_Recommendations0801.pdf.html)
 - [Discussion](/index.php?title=File_talk:DCMI_Membership_Task_Group_Report_and_Recommendations0801.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DCMI_Membership_Task_Group_Report_and_Recommendations0801.pdf&action=edit "This page is protected.
 You can view its source [e]")

@@ -37,7 +37,7 @@ This page has been accessed 369 times.
 
 ### Project Links 
 
-- [Project home](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
+- [Project home](/mediawiki_wiki/Learning_Linked_Data)
 
 This page represents one possible way of presenting use cases for Linked Data instruction highlighting instructional priorities of each.
 

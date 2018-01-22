@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/IMLSPlanningGrantNarrative.pdf)
 
-[IMLSPlanningGrantNarrative.pdf](/mediawiki_wiki/files/IMLSPlanningGrantNarrative.pdf "IMLSPlanningGrantNarrative.pdf")‎(file size: 203 KB, MIME type: application/pdf)
+[IMLSPlanningGrantNarrative.pdf](/mediawiki_wiki/files/IMLSPlanningGrantNarrative.pdf)‎(file size: 203 KB, MIME type: application/pdf)
 
 Narrative of proposal as submitted in February 2011.
 
@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:IMLSPlanningGrantNarrative.pdf](/mediawik
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:IMLSPlanningGrantNarrative.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:IMLSPlanningGrantNarrative.pdf.html)
 - [Discussion](/index.php?title=File_talk:IMLSPlanningGrantNarrative.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:IMLSPlanningGrantNarrative.pdf&action=edit "This page is protected.
 You can view its source [e]")

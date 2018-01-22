@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Jak_pids4terms_d1mwg.pptx.pdf)
 
-[Jak\_pids4terms\_d1mwg.pptx.pdf](/mediawiki_wiki/files/Jak_pids4terms_d1mwg.pptx.pdf "Jak pids4terms d1mwg.pptx.pdf")‎(file size: 1.03 MB, MIME type: application/pdf)
+[Jak\_pids4terms\_d1mwg.pptx.pdf](/mediawiki_wiki/files/Jak_pids4terms_d1mwg.pptx.pdf)‎(file size: 1.03 MB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -83,7 +83,7 @@ Retrieved from " [/mediawiki_wiki/File:Jak\_pids4terms\_d1mwg.pptx.pdf](/mediawi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Jak_pids4terms_d1mwg.pptx.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Jak_pids4terms_d1mwg.pptx.pdf.html)
 - [Discussion](/index.php?title=File_talk:Jak_pids4terms_d1mwg.pptx.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Jak_pids4terms_d1mwg.pptx.pdf&action=edit "This page is protected.
 You can view its source [e]")

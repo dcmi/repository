@@ -15,9 +15,9 @@ aliases:
 This page was last modified on 8 Sep 2012, at 05:37.  
 This page has been accessed 1,638 times.
 
-- [Draft grant proposal](/mediawiki_wiki/Implementation_Grant_Proposal "Implementation Grant Proposal")
+- [Draft grant proposal](/mediawiki_wiki/Implementation_Grant_Proposal)
 
-[<img alt="Figure 1: Components, outcomes, and trajectories" src="/mediawiki_wiki/images/Outcomes_Trajectories.jpg" width="720" height="540">](/mediawiki_wiki/images/Outcomes_Trajectories.jpg "Figure 1: Components, outcomes, and trajectories")
+[<img alt="Figure 1: Components, outcomes, and trajectories" src="/mediawiki_wiki/images/Outcomes_Trajectories.jpg" width="720" height="540">](/mediawiki_wiki/images/Outcomes_Trajectories.jpg)
 
 <table id="toc" class="toc">
   <tr>

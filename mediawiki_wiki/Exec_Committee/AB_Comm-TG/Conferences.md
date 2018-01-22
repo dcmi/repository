@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 19 February 2014, at 17:28.  
 This page has been accessed 47,027 times.
 
-[Return to Advisory Board](/mediawiki_wiki/Exec_Committee/AB_Comm-TG "Exec Committee/AB Comm-TG")
+[Return to Advisory Board](/mediawiki_wiki/Exec_Committee/AB_Comm-TG)
 
 <table id="toc" class="toc">
   <tr>
@@ -48,19 +48,19 @@ This page has been accessed 47,027 times.
 
 ### Related Resources 
 
-NOTE: Use browser back button, "Return to..." links take you to the [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook") and not [Advisory Board](/mediawiki_wiki/Exec_Committee/AB_Comm-TG "Exec Committee/AB Comm-TG").
+NOTE: Use browser back button, "Return to..." links take you to the [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook") and not [Advisory Board](/mediawiki_wiki/Exec_Committee/AB_Comm-TG).
 
 1. Bylaws: [Annual Meeting & Conference](http://dublincore.org/about/bylaws/index.shtml#article4d)
 2. Bylaws: [Regional Meetings](http://dublincore.org/about/bylaws/index.shtml#article4e)
-3. [Conference and Meeting Committee Guidelines](/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Steering_Committee "DCMI Handbook/Conference Guidelines/Steering Committee")
-4. [Conference Exploratory Team Guidelines](/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Exploratory_Team_Guidelines "DCMI Handbook/Conference Guidelines/Exploratory Team Guidelines")
-5. [DCMI Annual International Conference](/mediawiki_wiki/DCMI_Handbook/Int_Conf "DCMI Handbook/Int Conf")
+3. [Conference and Meeting Committee Guidelines](/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Steering_Committee)
+4. [Conference Exploratory Team Guidelines](/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Exploratory_Team_Guidelines)
+5. [DCMI Annual International Conference](/mediawiki_wiki/DCMI_Handbook/Int_Conf)
   1. [Conference Host Guidelines](/index.php?title=DCMI_Handbook/Int_Conf/Host_Guidelines&action=edit&redlink=1 "DCMI Handbook/Int Conf/Host Guidelines (page does not exist)")
-  2. [Master 3-Year Planning Calendar](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Master_Calendar "DCMI Handbook/Int Conf/Master Calendar")
-  3. [Annual Conference Committee Planning Calendar](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Annual_Meeting "DCMI Handbook/Int Conf/Annual Meeting")
-6. [Regional Conferences and Meetings](/mediawiki_wiki/DCMI_Handbook/Reg_Conf "DCMI Handbook/Reg Conf")
-  1. [Regional Meeting Host Guidelines](/mediawiki_wiki/DCMI_Handbook/Reg_Conf/Host_Guidelines "DCMI Handbook/Reg Conf/Host Guidelines")
-7. [Meeting Personnel Expenses](/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Personnel_Support "DCMI Handbook/Conference Guidelines/Personnel Support")
+  2. [Master 3-Year Planning Calendar](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Master_Calendar)
+  3. [Annual Conference Committee Planning Calendar](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Annual_Meeting)
+6. [Regional Conferences and Meetings](/mediawiki_wiki/DCMI_Handbook/Reg_Conf)
+  1. [Regional Meeting Host Guidelines](/mediawiki_wiki/DCMI_Handbook/Reg_Conf/Host_Guidelines)
+7. [Meeting Personnel Expenses](/mediawiki_wiki/DCMI_Handbook/Conference_Guidelines/Personnel_Support)
 
 # Conferences & Meetings Committee 
 

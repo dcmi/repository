@@ -66,5 +66,5 @@ Presentation of the problem, based on real examples encountered in LOV project (
 
 - [Agreement between DCMI and the FOAF Project](http://dublincore.org/documents/2011/05/02/dcmi-foaf/)
 
-Back to [VocDay workshop in Lisbon](/mediawiki_wiki/VocDay_workshop_in_Lisbon "VocDay workshop in Lisbon")
+Back to [VocDay workshop in Lisbon](/mediawiki_wiki/VocDay_workshop_in_Lisbon)
 

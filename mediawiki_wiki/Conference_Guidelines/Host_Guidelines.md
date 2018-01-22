@@ -11,7 +11,7 @@ aliases:
 - "/mediawiki_wiki/Conference_Guidelines/Host_Guidelines.html"
 ---
 
-Return to [Conference\_Guidelines](/mediawiki_wiki/Conference_Guidelines "Conference Guidelines")
+Return to [Conference\_Guidelines](/mediawiki_wiki/Conference_Guidelines)
 
 ***The DCMI International Conference Series: Outline of Responsibilities and Guidelines***
 

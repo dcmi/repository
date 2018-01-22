@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/FinalInventoryLLD.pdf)
 
-[FinalInventoryLLD.pdf](/mediawiki_wiki/files/FinalInventoryLLD.pdf "FinalInventoryLLD.pdf")‎(file size: 314 KB, MIME type: application/pdf)
+[FinalInventoryLLD.pdf](/mediawiki_wiki/files/FinalInventoryLLD.pdf)‎(file size: 314 KB, MIME type: application/pdf)
 
 Final inventory of learning topics from Learning Linked Data planning grant
 
@@ -74,7 +74,7 @@ Retrieved from " [/mediawiki_wiki/File:FinalInventoryLLD.pdf](/mediawiki_wiki/fi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:FinalInventoryLLD.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:FinalInventoryLLD.pdf.html)
 - [Discussion](/index.php?title=File_talk:FinalInventoryLLD.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:FinalInventoryLLD.pdf&action=edit "This page is protected.
 You can view its source [e]")

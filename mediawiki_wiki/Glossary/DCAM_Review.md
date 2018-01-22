@@ -15,5 +15,5 @@ aliases:
 This page was last modified on 6 November 2011, at 23:26.  
 This page has been accessed 30,489 times.
 
-See [Review of DCMI Abstract Model](/mediawiki_wiki/Review_of_DCMI_Abstract_Model "Review of DCMI Abstract Model")
+See [Review of DCMI Abstract Model](/mediawiki_wiki/Review_of_DCMI_Abstract_Model)
 

@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
-[Dc2011\_TTG\_Agenda.ppt](/mediawiki_wiki/files/Dc2011_TTG_Agenda.ppt "Dc2011 TTG Agenda.ppt")‎(file size: 489 KB, MIME type: application/vnd.ms-powerpoint)
+[Dc2011\_TTG\_Agenda.ppt](/mediawiki_wiki/files/Dc2011_TTG_Agenda.ppt)‎(file size: 489 KB, MIME type: application/vnd.ms-powerpoint)
 
 **Warning** : This file type may contain malicious code. By executing it, your system may be compromised.
 <!-- 
@@ -70,7 +70,7 @@ Retrieved from " [/mediawiki_wiki/File:Dc2011\_TTG\_Agenda.ppt](/mediawiki_wiki/
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Dc2011_TTG_Agenda.ppt.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Dc2011_TTG_Agenda.ppt.html)
 - [Discussion](/index.php?title=File_talk:Dc2011_TTG_Agenda.ppt&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Dc2011_TTG_Agenda.ppt&action=edit "This page is protected.
 You can view its source [e]")

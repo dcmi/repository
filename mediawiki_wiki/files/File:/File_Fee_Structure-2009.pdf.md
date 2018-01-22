@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Fee_Structure-2009.pdf)
 
-[Fee\_Structure-2009.pdf](/mediawiki_wiki/files/Fee_Structure-2009.pdf "Fee Structure-2009.pdf")‎(file size: 49 KB, MIME type: application/pdf)
+[Fee\_Structure-2009.pdf](/mediawiki_wiki/files/Fee_Structure-2009.pdf)‎(file size: 49 KB, MIME type: application/pdf)
 
 DCMI Fee Structure (2009) based on GNP
 
@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Fee\_Structure-2009.pdf](/mediawiki_wiki/
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Fee_Structure-2009.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Fee_Structure-2009.pdf.html)
 - [Discussion](/index.php?title=File_talk:Fee_Structure-2009.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Fee_Structure-2009.pdf&action=edit "This page is protected.
 You can view its source [e]")

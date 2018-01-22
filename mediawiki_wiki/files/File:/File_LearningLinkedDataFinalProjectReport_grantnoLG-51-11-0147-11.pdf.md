@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf)
 
-[LearningLinkedDataFinalProjectReport\_grantnoLG-51-11-0147-11.pdf](/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf "LearningLinkedDataFinalProjectReport grantnoLG-51-11-0147-11.pdf")‎(file size: 399 KB, MIME type: application/pdf)
+[LearningLinkedDataFinalProjectReport\_grantnoLG-51-11-0147-11.pdf](/mediawiki_wiki/files/LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf)‎(file size: 399 KB, MIME type: application/pdf)
 
 Learning Linked Data project planning grant, Final Project Report
 
@@ -74,7 +74,7 @@ Retrieved from " [/mediawiki_wiki/File:LearningLinkedDataFinalProjectReport\_gra
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf.html)
 - [Discussion](/index.php?title=File_talk:LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:LearningLinkedDataFinalProjectReport_grantnoLG-51-11-0147-11.pdf&action=edit "This page is protected.
 You can view its source [e]")

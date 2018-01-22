@@ -17,7 +17,7 @@ This page has been accessed 140,372 times.
 
 ## Introduction 
 
-The following suggested core requirements were used as the basis of discussion on [Vocabulary Management System Functional Requirements](/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements "Vocabulary Management System Functional Requirements") during the [DCMI Registry Community](http://www.dublincore.org/groups/registry/) session at DC-2011.
+The following suggested core requirements were used as the basis of discussion on [Vocabulary Management System Functional Requirements](/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements) during the [DCMI Registry Community](http://www.dublincore.org/groups/registry/) session at DC-2011.
 
 ## Core Requirements for a DCMI Vocabulary Management System 
 

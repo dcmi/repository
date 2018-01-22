@@ -95,11 +95,11 @@ Properties used with Bibliographic Text Resource
 - A parallel/transliterated title is considered a main title, i.e. the title property is repeated. 
 - If no title is available, best practice is to give a constructed title, derive a title from the resource or supply [no title]. 
 - Retain initial articles and use local sorting algorithms based on language. (For example, see: [Initial Definite and Indefinite Articles](http://lcweb.loc.gov/marc/bibliographic/bdapp-e.html) for a list of articles in various languages).
-- A language qualifier may be used to indicate language of title if appropriate.(See [Guidelines for the Creation of Title Content](/mediawiki_wiki/User_Guide/Creating_Metadata#Titles "User Guide/Creating Metadata")) 
+- A language qualifier may be used to indicate language of title if appropriate.(See [Guidelines for the Creation of Title Content](/mediawiki_wiki/User_Guide/Creating_Metadata#Titles)) 
 
 **Has Range:**
 
-- dc:title may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcTitle_RDF "User Guide/Publishing Metadata")
+- dc:title may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcTitle_RDF)
 
 **Obligation:** M
 
@@ -119,9 +119,9 @@ Properties used with Bibliographic Text Resource
 
 - Assigned title such as uniform or key title is Alternative. Best practice is to use this element for titles other than the main title. 
 - Retain initial articles and use local sorting algorithms based on language. (For example, see: [Initial Definite and Indefinite Articles](http://lcweb.loc.gov/marc/bibliographic/bdapp-e.html) for a list of articles in various languages)
-- A language qualifier may be used to indicate language of title if appropriate.(See [Guidelines for the Creation of Title Content](/mediawiki_wiki/User_Guide/Creating_Metadata#Titles "User Guide/Creating Metadata")) 
+- A language qualifier may be used to indicate language of title if appropriate.(See [Guidelines for the Creation of Title Content](/mediawiki_wiki/User_Guide/Creating_Metadata#Titles)) 
 
-**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsAlternative_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsAlternative_RDF))
 
 **Obligation:** R
 
@@ -140,11 +140,11 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment:**
 
 - If you want to describe the function resp. role of a person or corporate body more specific (e.g. author, colorist, Illustrator, Interviewer, etc.) use one of the terms of the ["MARC Code List for Relators"](http://id.loc.gov/vocabulary/relators.html) instead of Creator. URIs are available for every role code. 
-- Structured values to provide more information about a creator could be provided by using a complex type definition (in XML Schema) or a [blank node] (in RDF). The DCMI Usage Board prefers the usage of a URI which is an interlinking between the description of a Bibliographic Text Resource and the description of an Agent as a creator. (See [Guidelines for the creation of content for agents](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_agents "User Guide/Creating Metadata")) 
+- Structured values to provide more information about a creator could be provided by using a complex type definition (in XML Schema) or a [blank node] (in RDF). The DCMI Usage Board prefers the usage of a URI which is an interlinking between the description of a Bibliographic Text Resource and the description of an Agent as a creator. (See [Guidelines for the creation of content for agents](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_agents)) 
 
 **Has Range:**
 
-- dc:creator may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcCreator_RDF "User Guide/Publishing Metadata").
+- dc:creator may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcCreator_RDF).
 
 **Obligation:** O
 
@@ -163,11 +163,11 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment:**
 
 - If you want to describe the function resp. role of a person or corporate body more specific (e.g. Editor, Book Designer, Translator, etc.) use one of the terms of the ["MARC Code List for Relators"](http://id.loc.gov/vocabulary/relators.html) instead of Contributor. URIs are available for every role code. 
-- Structured values to provide more information about a contributor could be provide by using a complex type definition (in XML Schema) or a [blank node] (in RDF). The DCMI Usage Board prefers the usage of a URI which is an interlinking between the description of a Bibliographic Text Resource and the description of an Agent as a contributor. (See [Guidelines for the creation of content for agents](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_agents "User Guide/Creating Metadata")) 
+- Structured values to provide more information about a contributor could be provide by using a complex type definition (in XML Schema) or a [blank node] (in RDF). The DCMI Usage Board prefers the usage of a URI which is an interlinking between the description of a Bibliographic Text Resource and the description of an Agent as a contributor. (See [Guidelines for the creation of content for agents](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_agents)) 
 
 **Has Range:**
 
-- dc:contributor may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcContributor_RDF "User Guide/Publishing Metadata").
+- dc:contributor may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcContributor_RDF).
 
 **Obligation:** MA
 
@@ -185,11 +185,11 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- Structured values to provide more information about a publisher could be provide by using a complex type definition (in XML Schema) or a [blank node] (in RDF). The DCMI Usage Board prefers the usage of a URI which is an interlinking between the description of a Bibliographic Text Resource and the description of an Agent as a publisher. (See [Guidelines for the creation of content for agents](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_agents "User Guide/Creating Metadata"))
+- Structured values to provide more information about a publisher could be provide by using a complex type definition (in XML Schema) or a [blank node] (in RDF). The DCMI Usage Board prefers the usage of a URI which is an interlinking between the description of a Bibliographic Text Resource and the description of an Agent as a publisher. (See [Guidelines for the creation of content for agents](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_agents))
 
 **Has Range:**
 
-- dc:publisher may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcPublisher_RDF "User Guide/Publishing Metadata").
+- dc:publisher may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcPublisher_RDF).
 
 **Obligation:** O
 
@@ -208,11 +208,11 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment:**
 
 - If a geographic or temporal topic is recorded use the element Coverage, Spatial or Temporal.
-- It is highly recommended to use controlled vocabulary with Subject. It is also recommended that terms of controlled vocabularies be specified by encoding scheme or by using a URI.(See [Guidelines for describing the subject of a resource](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_describing_the_subject_of_a_resource "User Guide/Creating Metadata")) 
+- It is highly recommended to use controlled vocabulary with Subject. It is also recommended that terms of controlled vocabularies be specified by encoding scheme or by using a URI.(See [Guidelines for describing the subject of a resource](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_describing_the_subject_of_a_resource)) 
 
 **Has Range:**
 
-- dc:subject may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcSubject_RDF "User Guide/Publishing Metadata").
+- dc:subject may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcSubject_RDF).
 
 **VES:** The following encoding schemes are currently listed by DCMI. Additional encoding schemes may be used, mainly those identified by a URI.
 
@@ -236,9 +236,9 @@ Properties used with Bibliographic Text Resource
 
 **Type of Term:** Property
 
-**DCLIB-Comment:** Use text (and not only a URL) to describe the resource. ( [Guidelines for the creation of descriptions](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_descriptions "User Guide/Creating Metadata"))
+**DCLIB-Comment:** Use text (and not only a URL) to describe the resource. ( [Guidelines for the creation of descriptions](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_descriptions))
 
-**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see: [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsAbstract_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see: [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsAbstract_RDF))
 
 **SES:** [http://purl.org/dc/terms/URI](http://purl.org/dc/terms/URI)
 
@@ -258,7 +258,7 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:** Use text (and not only a URL) to describe the resource. ([See: [User\_Guide/Creating\_Metadata#Guidelines\_for\_the\_creation\_of\_descriptions|Guidelines for the creation of descriptions]])
 
-**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsTableOfContents_RDF "User Guide/Publishing Metadata")
+**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsTableOfContents_RDF)
 
 **SES:** [http://purl.org/dc/terms/URI](http://purl.org/dc/terms/URI)
 
@@ -279,11 +279,11 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment:**
 
 - Use dc:date only if none of the other date properties fit or if you want to describe a date with a non-literal value.
-- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates "User Guide/Creating Metadata"))
+- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates))
 
 **Has Range:**
 
-- dc:date may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcDate_RDF "User Guide/Publishing Metadata").
+- dc:date may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcDate_RDF).
 
 **SES:**
 
@@ -307,9 +307,9 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment:**
 
 - Use only for ambiguous or uncertain dates. Otherwise use dclib:contentCreated for the date of the creation of the intellectual and dclib:dateOfReproduction for the date of the creation of an electronic reproduction, a reprint, a mirror of a website etc.
-- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates "User Guide/Creating Metadata"))
+- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates))
 
-**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsCreated_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsCreated_RDF))
 
 **SES:**
 
@@ -332,9 +332,9 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates "User Guide/Creating Metadata"))
+- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates))
 
-**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsValid_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsValid_RDF))
 
 **SES:**
 
@@ -357,9 +357,9 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates "User Guide/Creating Metadata"))
+- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates))
 
-**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsAvailable_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsAvailable_RDF))
 
 **SES:**
 
@@ -382,7 +382,7 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:** Use for the instantiation.
 
-**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsIssued_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsIssued_RDF))
 
 **SES:**
 
@@ -405,9 +405,9 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates "User Guide/Creating Metadata"))
+- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates))
 
-**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsModified_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsModified_RDF))
 
 **SES:**
 
@@ -430,9 +430,9 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates "User Guide/Creating Metadata"))
+- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates))
 
-**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsDateCopyrighted_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsDateCopyrighted_RDF))
 
 **SES:**
 
@@ -456,9 +456,9 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment:**
 
 - Recommended for theses and dissertations.
-- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates "User Guide/Creating Metadata"))
+- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates))
 
-**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsDateSubmitted_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsDateSubmitted_RDF))
 
 **SES:**
 
@@ -482,9 +482,9 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment:**
 
 - Recommended for theses and dissertations.
-- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates "User Guide/Creating Metadata"))
+- Dates should be encoded using W3C-DTF (a profile of ISO 8601 structured with hyphens)or ISO 8601 (structured without hyphens) (See: [Guidelines for the creation of content for dates](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_dates))
 
-**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsDateAccepted_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsDateAccepted_RDF))
 
 **SES:**
 
@@ -570,7 +570,7 @@ Properties used with Bibliographic Text Resource
 
 **Has Range:**
 
-- dc:type may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcType_RDF "User Guide/Publishing Metadata").
+- dc:type may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcType_RDF).
 
 **VES:** The following VES could be used:
 
@@ -596,12 +596,12 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment:**
 
 - dc:format may include the media-type or dimensions of the resource and may be used to determine the software, hardware or other equipment needed to display or operate the resource. 
-- Recommended best practice is to select a value from a controlled vocabulary (for example, the list of Internet Media Types [MIME] defining computer media formats). (See [Guidelines for the creation of format content](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_format_content "User Guide/Creating Metadata"))
+- Recommended best practice is to select a value from a controlled vocabulary (for example, the list of Internet Media Types [MIME] defining computer media formats). (See [Guidelines for the creation of format content](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_format_content))
 - Use dc:format only if dcterms:extent or dcterms:medium don't fit or if you have to describe the information with a literal value.
 
 **Has Range:**
 
-- May be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcFormat_RDF "User Guide/Publishing Metadata")
+- May be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcFormat_RDF)
 
 **VES:**
 
@@ -623,9 +623,9 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- Best practice is to distinguish between number and caption. For further information see [Guidelines for the creation of extent content](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_extent_content "User Guide/Creating Metadata")
+- Best practice is to distinguish between number and caption. For further information see [Guidelines for the creation of extent content](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_extent_content)
 
-**Has Range:** [http://purl.org/dc/terms/SizeOrDuration](http://purl.org/dc/terms/SizeOrDuration) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsExtent_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://purl.org/dc/terms/SizeOrDuration](http://purl.org/dc/terms/SizeOrDuration) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsExtent_RDF))
 
 **Obligation:** O
 
@@ -645,9 +645,9 @@ Properties used with Bibliographic Text Resource
 
 - Used to specify the medium of the physical carrier of a resource. 
 - May only be used describing a physical resource.
-- We recommend to use controlled vocabulary. (See [Guidelines for the creation of medium content](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_medium_content "User Guide/Creating Metadata")
+- We recommend to use controlled vocabulary. (See [Guidelines for the creation of medium content](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_medium_content)
 
-**Has Range:** [http://purl.org/dc/terms/PhysicalMedium](http://purl.org/dc/terms/PhysicalMedium) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsMedium_RDF "User Guide/Publishing Metadata")
+**Has Range:** [http://purl.org/dc/terms/PhysicalMedium](http://purl.org/dc/terms/PhysicalMedium) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsMedium_RDF)
 
 **Has Domain:** [http://purl.org/dc/terms/PhysicalResource](http://purl.org/dc/terms/PhysicalResource)
 
@@ -668,12 +668,12 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment:**
 
 - _Standard identifier:_ Provide at least one standard identifier from a standard scheme (e.g., ISSN, ISBN, etc.) if such identifier / identifiers have been assigned to the resource and are known to the metadata agency. These identifiers should be expressed as HTTP URIs in order to make them actionable in the Web. For instance, [http://urn.fi/URN:ISBN:978-952-10-6454-8](http://urn.fi/URN:ISBN:978-952-10-6454-8) is an HTTP URI representation of [ISBN 978-952-10-6454-8](/mediawiki_wiki/Special:BookSources/9789521064548). Single identifier may have 1-n HTTP URI representations which provide persistent links to 1-n services relevant to the human or other users (such as a link to Amazon; link to open repository; link to the national library’s deposit collections).
-- _Citation:_ Provide a citation if no standard identifier is assigned and a formal citation is a common means of identifying the resource being described (e.g., a journal article). - Use the element Identifier on a more abstract level; identifier for local library holdings like call number could be put into the DC-Lib element Location. (OpenURL may be registered as an encoding scheme). (See [Guidelines for the creation of identifier content](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_identifier_content "User Guide/Creating Metadata"))
+- _Citation:_ Provide a citation if no standard identifier is assigned and a formal citation is a common means of identifying the resource being described (e.g., a journal article). - Use the element Identifier on a more abstract level; identifier for local library holdings like call number could be put into the DC-Lib element Location. (OpenURL may be registered as an encoding scheme). (See [Guidelines for the creation of identifier content](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_identifier_content))
 - For _Unique-resource identifier_ see the term Identifier from the "ItemProperties"
 
 **Has Range:**
 
-- dc:identifier may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcIdentifier_RDF "User Guide/Publishing Metadata").
+- dc:identifier may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcIdentifier_RDF).
 
 **SES:**
 
@@ -695,9 +695,9 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- See [Guidelines for the creation of identifier contentor](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_identifier_content "User Guide/Creating Metadata") [Guidelines for Encoding Bibliographic Citation Information in Dublin Core Metadata](http://dublincore.org/documents/dc-citation-guidelines/index.shtml)
+- See [Guidelines for the creation of identifier contentor](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_identifier_content) [Guidelines for Encoding Bibliographic Citation Information in Dublin Core Metadata](http://dublincore.org/documents/dc-citation-guidelines/index.shtml)
 
-**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsBibliographicCitation_RDF "User Guide/Publishing Metadata")
+**Has Range:** [http://www.w3.org/2000/01/rdf-schema#Literal](http://www.w3.org/2000/01/rdf-schema#Literal) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsBibliographicCitation_RDF)
 
 **Has Domain:** [http://purl.org/dc/terms/BibliographicResource](http://purl.org/dc/terms/BibliographicResource)
 
@@ -717,11 +717,11 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- Use only when the described resource is the result of digitization of non-digital originals. Otherwise, use Relation. (See: [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source "User Guide/Creating Metadata"))
+- Use only when the described resource is the result of digitization of non-digital originals. Otherwise, use Relation. (See: [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source))
 
 **Has Range:**
 
-- dc:source may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcSource_RDF "User Guide/Publishing Metadata")
+- dc:source may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcSource_RDF)
 
 **Obligation:** O
 
@@ -739,10 +739,10 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- Recommend usage of codes taken from ISO 639-3 rather than text (See [Guidelines for the creation of language content](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_language_content "User Guide/Creating Metadata"))
+- Recommend usage of codes taken from ISO 639-3 rather than text (See [Guidelines for the creation of language content](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_language_content))
 - Recommend usage of ISO 639-3 URIs (see [http://www.lexvo.org/](http://www.lexvo.org/))
 
-**Has Range:** dc:language may be used with literal or non-literal values. For further information see [**RDF** Examples](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsLanguage_RDF "User Guide/Publishing Metadata").
+**Has Range:** dc:language may be used with literal or non-literal values. For further information see [**RDF** Examples](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsLanguage_RDF).
 
 **SES:**
 
@@ -769,9 +769,9 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- Use dc:relation only if non of the other relation properties fit or if you want to describe a relation with a literal value. (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source "User Guide/Creating Metadata")) 
+- Use dc:relation only if non of the other relation properties fit or if you want to describe a relation with a literal value. (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source)) 
 
-**Has Range:** dc:relation may be used further with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcRelation_RDF "User Guide/Publishing Metadata")
+**Has Range:** dc:relation may be used further with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcRelation_RDF)
 
 **SES:**
 
@@ -794,10 +794,10 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment** :
 
-- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source "User Guide/Creating Metadata"))
+- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source))
 - If you want to describe the relation by a literal value, you have to use dc:relation.
 
-**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsIsVersionOf_RDF "User Guide/Publishing Metadata")
+**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsIsVersionOf_RDF)
 
 **Obligation:** R
 
@@ -816,10 +816,10 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment:**
 
 - Use only when the described resource references alternative physical formats (e.g. PDF, Postscript, etc.)
-- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source "User Guide/Creating Metadata"))
+- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source))
 - If you want to describe the relation by a literal value, you have to use dc:relation.
 
-**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsIsFormatOf_RDF "User Guide/Publishing Metadata")
+**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsIsFormatOf_RDF)
 
 **Obligation:** R
 
@@ -838,10 +838,10 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment** :
 
 - Use only when the described resource references alternative physical formats (e.g. PDF, Postscript, etc.)
-- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source "User Guide/Creating Metadata"))
+- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source))
 - If you want to describe the relation by a literal value, you have to use dc:relation.
 
-**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsHasFormat_RDF "User Guide/Publishing Metadata")
+**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsHasFormat_RDF)
 
 **Obligation:** R
 
@@ -860,10 +860,10 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment:**
 
 - Used for succeeding version.
-- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source "User Guide/Creating Metadata"))
+- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source))
 - If you want to describe the relation by a literal value, you have to use dc:relation.
 
-**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsIsReplacedBy_RDF "User Guide/Publishing Metadata")
+**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsIsReplacedBy_RDF)
 
 **Obligation:** O
 
@@ -882,10 +882,10 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment:**
 
 - Used for preceding version.
-- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source "User Guide/Creating Metadata"))
+- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source))
 - If you want to describe the relation by a literal value, you have to use dc:relation.
 
-**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsReplaces_RDF "User Guide/Publishing Metadata")
+**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsReplaces_RDF)
 
 **Obligation:** O
 
@@ -904,10 +904,10 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment:**
 
 - Recommended use when documents in hand are parts of "host documents" (e.g. journal, monographic series) and when there is no citation information in dc:identifier or dcterms:bibliographicCitation.
-- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source "User Guide/Creating Metadata"))
+- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source))
 - If you want to describe the relation by a literal value, you have to use dc:relation.
 
-**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsIsPartOf_RDF "User Guide/Publishing Metadata")
+**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsIsPartOf_RDF)
 
 **Obligation:** R
 
@@ -925,10 +925,10 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source "User Guide/Creating Metadata"))
+- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source))
 - If you want to describe the relation by a literal value, you have to use dc:relation.
 
-**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsHasPart_RDF "User Guide/Publishing Metadata")
+**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsHasPart_RDF)
 
 **Obligation:** O
 
@@ -946,10 +946,10 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source "User Guide/Creating Metadata"))
+- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source))
 - If you want to describe the relation by a literal value, you have to use dc:relation.
 
-**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsRequires_RDF "User Guide/Publishing Metadata")
+**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsRequires_RDF)
 
 **Obligation:** R
 
@@ -967,10 +967,10 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source "User Guide/Creating Metadata"))
+- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source))
 - If you want to describe the relation by a literal value, you have to use dc:relation.
 
-**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsIsReferencedBy_RDF "User Guide/Publishing Metadata")
+**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsIsReferencedBy_RDF)
 
 **Obligation:** O
 
@@ -988,10 +988,10 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source "User Guide/Creating Metadata"))
+- We recommend to use a URI to interlink between two resources. If no URI exist describe the other resource by using a blank node (See [Guidelines for the creation of content for relations and source](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_relations_and_source))
 - If you want to describe the relation by a literal value, you have to use dc:relation.
 
-**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsReferences_RDF "User Guide/Publishing Metadata")
+**Has Range:** This term is intended to be used with non-literal values as defined in the DCMI Abstract Model ( [http://dublincore.org/documents/abstract-model/](http://dublincore.org/documents/abstract-model/)). As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsReferences_RDF)
 
 **Obligation:** O
 
@@ -1032,13 +1032,13 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- Use dc:coverage only if dcterms:spatial or or dcterms:temporal don't fit or if you want to describe the information with a literal value. (See [Guidelines for describing the coverage, spatial or temporal character of a resource](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_describing_the_coverage.2C_spatial_or_temporal_character_of_a_resource "User Guide/Creating Metadata"))
+- Use dc:coverage only if dcterms:spatial or or dcterms:temporal don't fit or if you want to describe the information with a literal value. (See [Guidelines for describing the coverage, spatial or temporal character of a resource](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_describing_the_coverage.2C_spatial_or_temporal_character_of_a_resource))
 - Recommended best practice is to select a value from a controlled vocabulary 
 - Where appropriate, next to numeric identifiers - such as sets of coordinates or date ranges - named places or time periods should be used.
 
 **Has Range:**
 
-- dc:coverage may be used either with a literal or a non-literal value. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcCoverage_RDF "User Guide/Publishing Metadata")
+- dc:coverage may be used either with a literal or a non-literal value. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcCoverage_RDF)
 
 **SES:**
 
@@ -1065,11 +1065,11 @@ Properties used with Bibliographic Text Resource
 
 - Use this element for geographic coverage.
 - Recommend best practice is to select a value from a controlled vocabulary (for example, the [Getty Thesaurus of Geographic Names](http://www.getty.edu/research/tools/vocabulary/tgn/index.html))
-- Where appropriate, use named places next to numeric identifiers such as sets of coordinates.(See [Guidelines for describing the coverage, spatial or temporal character of a resource](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_describing_the_coverage.2C_spatial_or_temporal_character_of_a_resource "User Guide/Creating Metadata"))
+- Where appropriate, use named places next to numeric identifiers such as sets of coordinates.(See [Guidelines for describing the coverage, spatial or temporal character of a resource](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_describing_the_coverage.2C_spatial_or_temporal_character_of_a_resource))
 - dcterms:spatial has to be used with non-literal values. We recommend to link to a controlled vocabulary value by using a URI. If no URI exist use a blank node describing the place.
 - If you want to describe the spatial characteristic by a literal value, you have to use dc:coverage.
 
-**Has Range:** [http://purl.org/dc/terms/Location](http://purl.org/dc/terms/Location) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsSpatial_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://purl.org/dc/terms/Location](http://purl.org/dc/terms/Location) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsSpatial_RDF))
 
 **VES:**
 
@@ -1096,10 +1096,10 @@ Properties used with Bibliographic Text Resource
 - Use this element to describe the temporal coverage.
 - Recommend best practice is to select a value from a controlled vocabulary
 - Where appropriate, use named time periods next to numeric identifiers.
-- dcterms:temporal has to be used with non-literal values. We recommend to link to a controlled vocabulary value by using a URI.. If no URI exist use a blank node describing the time period (See [Guidelines for describing the coverage, spatial or temporal character of a resource](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_describing_the_coverage.2C_spatial_or_temporal_character_of_a_resource "User Guide/Creating Metadata"))
+- dcterms:temporal has to be used with non-literal values. We recommend to link to a controlled vocabulary value by using a URI.. If no URI exist use a blank node describing the time period (See [Guidelines for describing the coverage, spatial or temporal character of a resource](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_describing_the_coverage.2C_spatial_or_temporal_character_of_a_resource))
 - If you want to describe the temporal characteristic by a literal value, you have to use dc:coverage.
 
-**Has Range:** [http://purl.org/dc/terms/PeriodOfTime](http://purl.org/dc/terms/PeriodOfTime) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsTemporal_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://purl.org/dc/terms/PeriodOfTime](http://purl.org/dc/terms/PeriodOfTime) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsTemporal_RDF))
 
 **Obligation:** MA
 
@@ -1118,11 +1118,11 @@ Properties used with Bibliographic Text Resource
 **DCLIB-Comment:**
 
 - Includes information as access rights, Intellectual Property Rights (IPR), copyrights, references to legal documents describing how to use a resource, etc.
-- We recommend to reference a service providing such information like [creative commons](http://creativecommons.org/). (See [Guidelines for the creation of rights content](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_rights_content "User Guide/Creating Metadata"))
+- We recommend to reference a service providing such information like [creative commons](http://creativecommons.org/). (See [Guidelines for the creation of rights content](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_rights_content))
 
 **Has Range:**
 
-- dc:rights may be use with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcRights_RDF "User Guide/Publishing Metadata")
+- dc:rights may be use with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcRights_RDF)
 
 **Obligation:** R
 
@@ -1140,9 +1140,9 @@ Properties used with Bibliographic Text Resource
 
 **DCLIB-Comment:**
 
-- dcterms:audience has to be used with non-literal values where the value is an instance of the class AgentClass. We recommend to link to a controlled vocabulary value by using a URI. If no URI exist use a blank node describing the audience. (See [Guidelines for the creation of content for properties describing education material](/mediawiki_wiki/User_Guide/Creating_Metadata#Audience "User Guide/Creating Metadata")) 
+- dcterms:audience has to be used with non-literal values where the value is an instance of the class AgentClass. We recommend to link to a controlled vocabulary value by using a URI. If no URI exist use a blank node describing the audience. (See [Guidelines for the creation of content for properties describing education material](/mediawiki_wiki/User_Guide/Creating_Metadata#Audience)) 
 
-**Has Range:** [http://purl.org/dc/terms/AgentClass](http://purl.org/dc/terms/AgentClass) (For further Information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsAudience_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://purl.org/dc/terms/AgentClass](http://purl.org/dc/terms/AgentClass) (For further Information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsAudience_RDF))
 
 **VES:**
 
@@ -1176,5 +1176,5 @@ Properties used with Bibliographic Text Resource
 
 * * *
 
-Go back to [AP for Bibliographic Text Resources](/mediawiki_wiki/DCLib_AP#Description_Set_Profile_of_the_DC-Lib_AP_for_Bibliographic_Text_Resources "DCLib AP")
+Go back to [AP for Bibliographic Text Resources](/mediawiki_wiki/DCLib_AP#Description_Set_Profile_of_the_DC-Lib_AP_for_Bibliographic_Text_Resources)
 

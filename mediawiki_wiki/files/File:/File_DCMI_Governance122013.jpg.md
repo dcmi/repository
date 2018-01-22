@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:DCMI\_Governance122013.jpg](/mediawiki_wi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:DCMI_Governance122013.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DCMI_Governance122013.jpg.html)
 - [Discussion](/index.php?title=File_talk:DCMI_Governance122013.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DCMI_Governance122013.jpg&action=edit "This page is protected.
 You can view its source [e]")

@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 28 May 2017, at 11:53.  
 This page has been accessed 573 times.
 
-Return to [DCMI Membership](/mediawiki_wiki/DCMI_Membership "DCMI Membership")
+Return to [DCMI Membership](/mediawiki_wiki/DCMI_Membership)
 
 <table id="toc" class="toc">
   <tr>
@@ -54,7 +54,7 @@ Return to [DCMI Membership](/mediawiki_wiki/DCMI_Membership "DCMI Membership")
 1. Roll call and status report- Mike Crandall (3 minutes)
 2. Discussion of JISC Transition Group findings and implications for DCMI- Rachel/Stuart (10 minutes)
 3. Update on [Work Item 4: Investigate audiences for DCMI services and products](/index.php?title=DCMI_Membership/Audiences&action=edit&redlink=1 "DCMI Membership/Audiences (page does not exist)") Ana (5 minutes)
-4. Next steps for moving ahead (see [Task Group charter](/mediawiki_wiki/DCMI_Membership#Charter "DCMI Membership") for desired end point)- Mike Crandall (1 minute)
+4. Next steps for moving ahead (see [Task Group charter](/mediawiki_wiki/DCMI_Membership#Charter) for desired end point)- Mike Crandall (1 minute)
 5. Next meeting times- Mike Crandall (1 minute)
 
 ## Minutes 
@@ -83,7 +83,7 @@ Our next meeting is scheduled for (at the same times as our last two meetings):
 Continue work on the four new work items (plus the original three); post any updates to the appropriate wiki pages:
 
 - [Work Item 4: Investigate audiences for DCMI services and products](/index.php?title=DCMI_Membership/Audiences&action=edit&redlink=1 "DCMI Membership/Audiences (page does not exist)") (Ana & Joseph in consultation with Raju, Rachel, Dixon as current members)
-- [Work Item 5: Investigate what works for other organizations—lessons learned](/mediawiki_wiki/DCMI_Membership/Lessons_Learned "DCMI Membership/Lessons Learned") (Paul, Stuart)
+- [Work Item 5: Investigate what works for other organizations—lessons learned](/mediawiki_wiki/DCMI_Membership/Lessons_Learned) (Paul, Stuart)
 - [Work Item 6: Investigate partnership options as an alternative to an independent DCMI](/index.php?title=DCMI_Membership/Partnerships&action=edit&redlink=1 "DCMI Membership/Partnerships (page does not exist)") (Stuart)
 - [Work Item 7: Develop use cases for services and products](/index.php?title=DCMI_Membership/Use_Cases&action=edit&redlink=1 "DCMI Membership/Use Cases (page does not exist)") (Paul to provide example, others will contribute based on that)
 - Statements of Direction: Please find a few minutes to comment on these statements (or add others), this may help us come to a set of recommendations to pass on to the OC for consideration at the annual meeting.

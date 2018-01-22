@@ -103,7 +103,7 @@ Retrieved from " [/mediawiki_wiki/File:Entity\_Structure.jpg](/mediawiki_wiki/fi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Entity_Structure.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Entity_Structure.jpg.html)
 - [Discussion](/index.php?title=File_talk:Entity_Structure.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Entity_Structure.jpg&action=edit "This page is protected.
 You can view its source [e]")

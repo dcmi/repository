@@ -46,7 +46,7 @@ This page has been accessed 61,389 times.
 
 ## Vocabulary Management Options 
 
-See also [Vocabulary\_Management\_System\_General\_Requirements](/mediawiki_wiki/Vocabulary_Management_System_General_Requirements "Vocabulary Management System General Requirements") and [Vocabulary\_Management\_System\_Task\_Group](/mediawiki_wiki/Vocabulary_Management_System_Task_Group "Vocabulary Management System Task Group")
+See also [Vocabulary\_Management\_System\_General\_Requirements](/mediawiki_wiki/Vocabulary_Management_System_General_Requirements "Vocabulary Management System General Requirements") and [Vocabulary\_Management\_System\_Task\_Group](/mediawiki_wiki/Vocabulary_Management_System_Task_Group)
 
 ### W3C best practices for publishing vocabularies (see httpRange-14, etc...) 
 

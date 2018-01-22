@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 2 Feb 2012, at 05:42.  
 This page has been accessed 9,193 times.
 
-Return to [Learning Linked Data Main Page](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data")
+Return to [Learning Linked Data Main Page](/mediawiki_wiki/Learning_Linked_Data)
 
 <table id="toc" class="toc">
   <tr>

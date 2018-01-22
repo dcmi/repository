@@ -32,16 +32,16 @@ This page has been accessed 168,467 times.
 # DCMI Conference & Meetings Steering Committee 
 
 - **_Conference Guidelines_**
-  - [_Steering Committee Guidelines_](/mediawiki_wiki/Conference_Guidelines/Steering_Committee "Conference Guidelines/Steering Committee")
+  - [_Steering Committee Guidelines_](/mediawiki_wiki/Conference_Guidelines/Steering_Committee)
   - [_Exploratory Team Guidelines_](/index.php?title=Conference_Guidelines/Exploratory_Team_Guidelines&action=edit&redlink=1 "Conference Guidelines/Exploratory Team Guidelines (page does not exist)")
 
 # DCMI International Conference 
 
-- [_Master Planning Calendar_](/mediawiki_wiki/Conference_Guidelines/Master_Calendar "Conference Guidelines/Master Calendar")
+- [_Master Planning Calendar_](/mediawiki_wiki/Conference_Guidelines/Master_Calendar)
 
-- [_Host: Outline of Responsibilities and Guidelines_](/mediawiki_wiki/Conference_Guidelines/Host_Guidelines "Conference Guidelines/Host Guidelines")
+- [_Host: Outline of Responsibilities and Guidelines_](/mediawiki_wiki/Conference_Guidelines/Host_Guidelines)
 
-- [_Conference Committee Responsibilities and Guidelines_](/mediawiki_wiki/Conference_Guidelines/Conference_Committee "Conference Guidelines/Conference Committee")
+- [_Conference Committee Responsibilities and Guidelines_](/mediawiki_wiki/Conference_Guidelines/Conference_Committee)
 
 # DCMI Regional Meetings and Conferences 
 

@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/LD4PE_Annotated_Competency_Index.pdf)
 
-[LD4PE\_Annotated\_Competency\_Index.pdf](/mediawiki_wiki/files/LD4PE_Annotated_Competency_Index.pdf "LD4PE Annotated Competency Index.pdf")‎(file size: 376 KB, MIME type: application/pdf)
+[LD4PE\_Annotated\_Competency\_Index.pdf](/mediawiki_wiki/files/LD4PE_Annotated_Competency_Index.pdf)‎(file size: 376 KB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -65,7 +65,7 @@ Click on a date/time to view the file as it appeared at that time.
 
 The following file is a duplicate of this file ( [more details](/index.php/Special:FileDuplicateSearch/LD4PE_Annotated_Competency_Index.pdf "Special:FileDuplicateSearch/LD4PE Annotated Competency Index.pdf")):
 
-- [File:LD4PE Annoted Competency Index.pdf](/mediawiki_wiki/files/File:/File:LD4PE_Annoted_Competency_Index.pdf.html "File:LD4PE Annoted Competency Index.pdf") 
+- [File:LD4PE Annoted Competency Index.pdf](/mediawiki_wiki/files/File:/File:LD4PE_Annoted_Competency_Index.pdf.html) 
 
 The following page links to this file:
 
@@ -77,7 +77,7 @@ Retrieved from " [/mediawiki_wiki/File:LD4PE\_Annotated\_Competency\_Index.pdf](
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:LD4PE_Annotated_Competency_Index.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:LD4PE_Annotated_Competency_Index.pdf.html)
 - [Discussion](/index.php?title=File_talk:LD4PE_Annotated_Competency_Index.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:LD4PE_Annotated_Competency_Index.pdf&action=edit "This page is protected.
 You can view its source [e]")

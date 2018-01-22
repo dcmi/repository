@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
-[Questions.ppt](/mediawiki_wiki/files/Questions.ppt "Questions.ppt")‎(file size: 172 KB, MIME type: application/vnd.ms-powerpoint)
+[Questions.ppt](/mediawiki_wiki/files/Questions.ppt)‎(file size: 172 KB, MIME type: application/vnd.ms-powerpoint)
 
 **Warning** : This file type may contain malicious code. By executing it, your system may be compromised.
 <!-- 
@@ -70,7 +70,7 @@ Retrieved from " [/mediawiki_wiki/File:Questions.ppt](/mediawiki_wiki/files/File
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Questions.ppt.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Questions.ppt.html)
 - [Discussion](/index.php?title=File_talk:Questions.ppt&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Questions.ppt&action=edit "This page is protected.
 You can view its source [e]")

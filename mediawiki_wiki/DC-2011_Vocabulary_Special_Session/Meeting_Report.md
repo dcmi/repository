@@ -171,7 +171,7 @@ Two follow up tasks: Jane Greenburg remembered that an ALCTS subcommittee gather
 
 ### Breakout session on "Preservation of RDF vocabularies" 
 
-[File:2011-09-21.dc2011vocabs-preservation-breakout.pdf](/mediawiki_wiki/files/2011-09-21.dc2011vocabs-preservation-breakout.pdf "File:2011-09-21.dc2011vocabs-preservation-breakout.pdf")
+[File:2011-09-21.dc2011vocabs-preservation-breakout.pdf](/mediawiki_wiki/files/2011-09-21.dc2011vocabs-preservation-breakout.pdf)
 
 Participants: Tom Baker (discussion leader and note-taker), Kevin Clair, Jian Qin, Shigeo Sugimoto, Raju Buddharaju, Juha Hakala, Bob Boelhouvwer, Doug Moncur
 

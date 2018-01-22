@@ -15,5 +15,5 @@ aliases:
 This page was last modified on 22 December 2011, at 18:44.  
 This page has been accessed 112,745 times.
 
-Return to [Conference\_Guidelines](/mediawiki_wiki/Conference_Guidelines "Conference Guidelines")
+Return to [Conference\_Guidelines](/mediawiki_wiki/Conference_Guidelines)
 

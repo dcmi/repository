@@ -15,11 +15,11 @@ aliases:
 This page was last modified on 22 November 2016, at 19:07.  
 This page has been accessed 131,687 times.
 
-[<img alt="LD4PE logo" src="/mediawiki_wiki/images/Ld4pe.png" width="100" height="99">](/mediawiki_wiki/images/Ld4pe.png "LD4PE logo") [<img alt="IMLS logo" src="/images/4/4e/IMLS.png" width="250" height="102">](http://www.imls.gov/ "IMLS logo") [<img alt="LD4PE Exploratorium logo" src="/mediawiki_wiki/images/Ld4peLogo.png" width="250" height="51">](/mediawiki_wiki/images/Ld4peLogo.png "LD4PE Exploratorium logo")
+[<img alt="LD4PE logo" src="/mediawiki_wiki/images/Ld4pe.png" width="100" height="99">](/mediawiki_wiki/images/Ld4pe.png "LD4PE logo") [<img alt="IMLS logo" src="/images/4/4e/IMLS.png" width="250" height="102">](http://www.imls.gov/ "IMLS logo") [<img alt="LD4PE Exploratorium logo" src="/mediawiki_wiki/images/Ld4peLogo.png" width="250" height="51">](/mediawiki_wiki/images/Ld4peLogo.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -74,33 +74,33 @@ Project communications will be through the [JiscMail PET listserv](http://www.ji
 
 ## Meeting Notes 
 
-- 2014-10-10: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2014-10-10 "LD4PE Meeting Minutes/2014-10-10")
-- 2014-10-21: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2014-10-21 "LD4PE Meeting Minutes/2014-10-21")
-- 2014-11-02: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2014-11-02 "LD4PE Meeting Minutes/2014-11-02")
-- 2014-12-17: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2014-12-17 "LD4PE Meeting Minutes/2014-12-17")
-- 2015-01-21: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-01-21 "LD4PE Meeting Minutes/2015-01-21")
-- 2015-02-18: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-02-18 "LD4PE Meeting Minutes/2015-02-18")
-- 2015-03-17: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-03-17 "LD4PE Meeting Minutes/2015-03-17")
-- 2015-04-15: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-04-15 "LD4PE Meeting Minutes/2015-04-15")
-- 2015-05-12: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-05-12 "LD4PE Meeting Minutes/2015-05-12")
-- 2015-06-16: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-06-16 "LD4PE Meeting Minutes/2015-06-16")
-- 2015-07-21: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-07-21 "LD4PE Meeting Minutes/2015-07-21")
-- 2015-08-18: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-08-18 "LD4PE Meeting Minutes/2015-08-18")
-- 2015-09-15: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-09-15 "LD4PE Meeting Minutes/2015-09-15")
-- 2015-10-20: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-10-20 "LD4PE Meeting Minutes/2015-10-20")
-- 2015-11-17: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-11-17 "LD4PE Meeting Minutes/2015-11-17")
-- 2015-12-15: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-12-15 "LD4PE Meeting Minutes/2015-12-15")
-- 2016-01-19: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-01-19 "LD4PE Meeting Minutes/2016-01-19")
-- 2016-02-16: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-02-16 "LD4PE Meeting Minutes/2016-02-16")
-- 2016-03-15: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-03-15 "LD4PE Meeting Minutes/2016-03-15")
-- 2016-04-19: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-04-19 "LD4PE Meeting Minutes/2016-04-19")
-- 2016-05-17: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-05-17 "LD4PE Meeting Minutes/2016-05-17")
-- 2016-06-21: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-06-21 "LD4PE Meeting Minutes/2016-06-21")
-- 2016-07-19: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-07-19 "LD4PE Meeting Minutes/2016-07-19")
-- 2016-08-16: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-08-16 "LD4PE Meeting Minutes/2016-08-16")
-- 2016-09-20: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-09-20 "LD4PE Meeting Minutes/2016-09-20")
-- 2016-10-18: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-10-18 "LD4PE Meeting Minutes/2016-10-18")
-- 2016-11-22: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-11-22 "LD4PE Meeting Minutes/2016-11-22")
+- 2014-10-10: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2014-10-10)
+- 2014-10-21: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2014-10-21)
+- 2014-11-02: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2014-11-02)
+- 2014-12-17: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2014-12-17)
+- 2015-01-21: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-01-21)
+- 2015-02-18: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-02-18)
+- 2015-03-17: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-03-17)
+- 2015-04-15: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-04-15)
+- 2015-05-12: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-05-12)
+- 2015-06-16: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-06-16)
+- 2015-07-21: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-07-21)
+- 2015-08-18: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-08-18)
+- 2015-09-15: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-09-15)
+- 2015-10-20: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-10-20)
+- 2015-11-17: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-11-17)
+- 2015-12-15: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2015-12-15)
+- 2016-01-19: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-01-19)
+- 2016-02-16: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-02-16)
+- 2016-03-15: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-03-15)
+- 2016-04-19: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-04-19)
+- 2016-05-17: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-05-17)
+- 2016-06-21: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-06-21)
+- 2016-07-19: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-07-19)
+- 2016-08-16: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-08-16)
+- 2016-09-20: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-09-20)
+- 2016-10-18: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-10-18)
+- 2016-11-22: [Minutes](/mediawiki_wiki/LD4PE_Meeting_Minutes/2016-11-22)
 
 ## Task Group Members 
 
@@ -124,10 +124,10 @@ Project communications will be through the [JiscMail PET listserv](http://www.ji
 
 ## Workstreams
 
-- [Technical](/mediawiki_wiki/Pet/ld4pe/confidential "Pet/ld4pe/confidential")- Stuart Sutton, lead
-- [Resource Collection](/mediawiki_wiki/Resource_Collection "Resource Collection")- Marcia Zeng, lead
+- [Technical](/mediawiki_wiki/Pet/ld4pe/confidential)- Stuart Sutton, lead
+- [Resource Collection](/mediawiki_wiki/Resource_Collection)- Marcia Zeng, lead
 - [Editorial Board](/index.php?title=CompIndexEB&action=edit&redlink=1 "CompIndexEB (page does not exist)")- Tom Baker, lead
-- [Marketing and Community Building](/mediawiki_wiki/Marketing_and_Community_Building "Marketing and Community Building")- Mike Lauruhn, lead
+- [Marketing and Community Building](/mediawiki_wiki/Marketing_and_Community_Building)- Mike Lauruhn, lead
 
 ## Resources 
 
@@ -142,5 +142,5 @@ Project communications will be through the [JiscMail PET listserv](http://www.ji
     - [Overview of Editing Environment (Stuart Sutton) [MP4](http://bit.ly/LD4PE-EdOver)]
     - [ASN-LD Overview and Competency Grammar (Stuart Sutton) [MP4](http://bit.ly/ASN-DF_Overview)]
 
-# [Task Group Only Pages](/mediawiki_wiki/Pet/ld4pe/confidential "Pet/ld4pe/confidential") 
+# [Task Group Only Pages](/mediawiki_wiki/Pet/ld4pe/confidential) 
 

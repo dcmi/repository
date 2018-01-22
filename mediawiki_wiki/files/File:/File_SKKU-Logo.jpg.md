@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:SKKU-Logo.jpg](/mediawiki_wiki/files/File
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:SKKU-Logo.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:SKKU-Logo.jpg.html)
 - [Discussion](/index.php?title=File_talk:SKKU-Logo.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:SKKU-Logo.jpg&action=edit "This page is protected.
 You can view its source [e]")

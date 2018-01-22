@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Dc-ed-logo.png](/mediawiki_wiki/files/Fil
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Dc-ed-logo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Dc-ed-logo.png.html)
 - [Discussion](/index.php?title=File_talk:Dc-ed-logo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Dc-ed-logo.png&action=edit "This page is protected.
 You can view its source [e]")

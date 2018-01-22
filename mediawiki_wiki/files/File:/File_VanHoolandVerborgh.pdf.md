@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/VanHoolandVerborgh.pdf)
 
-[VanHoolandVerborgh.pdf](/mediawiki_wiki/files/VanHoolandVerborgh.pdf "VanHoolandVerborgh.pdf")‎(file size: 7.17 MB, MIME type: application/pdf)
+[VanHoolandVerborgh.pdf](/mediawiki_wiki/files/VanHoolandVerborgh.pdf)‎(file size: 7.17 MB, MIME type: application/pdf)
 
 Low Hanging Fruits Webinar
 
@@ -77,7 +77,7 @@ Retrieved from " [/mediawiki_wiki/File:VanHoolandVerborgh.pdf](/mediawiki_wiki/f
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:VanHoolandVerborgh.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:VanHoolandVerborgh.pdf.html)
 - [Discussion](/index.php?title=File_talk:VanHoolandVerborgh.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:VanHoolandVerborgh.pdf&action=edit "This page is protected.
 You can view its source [e]")

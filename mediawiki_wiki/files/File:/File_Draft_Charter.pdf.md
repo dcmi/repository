@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Draft_Charter.pdf)
 
-[Draft\_Charter.pdf](/mediawiki_wiki/files/Draft_Charter.pdf "Draft Charter.pdf")‎(file size: 280 KB, MIME type: application/pdf)
+[Draft\_Charter.pdf](/mediawiki_wiki/files/Draft_Charter.pdf)‎(file size: 280 KB, MIME type: application/pdf)
 
 Mike Crandall's draft charter for the TG
 
@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Draft\_Charter.pdf](/mediawiki_wiki/files
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Draft_Charter.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Draft_Charter.pdf.html)
 - [Discussion](/index.php?title=File_talk:Draft_Charter.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Draft_Charter.pdf&action=edit "This page is protected.
 You can view its source [e]")

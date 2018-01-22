@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:Elsevier\_ORlogo.png](/mediawiki_wiki/fil
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Elsevier_ORlogo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Elsevier_ORlogo.png.html)
 - [Discussion](/index.php?title=File_talk:Elsevier_ORlogo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Elsevier_ORlogo.png&action=edit "This page is protected.
 You can view its source [e]")

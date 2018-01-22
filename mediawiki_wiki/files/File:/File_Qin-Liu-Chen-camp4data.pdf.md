@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Qin-Liu-Chen-camp4data.pdf)
 
-[Qin-Liu-Chen-camp4data.pdf](/mediawiki_wiki/files/Qin-Liu-Chen-camp4data.pdf "Qin-Liu-Chen-camp4data.pdf")‎(file size: 1.11 MB, MIME type: application/pdf)
+[Qin-Liu-Chen-camp4data.pdf](/mediawiki_wiki/files/Qin-Liu-Chen-camp4data.pdf)‎(file size: 1.11 MB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -73,7 +73,7 @@ Retrieved from " [/mediawiki_wiki/File:Qin-Liu-Chen-camp4data.pdf](/mediawiki_wi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Qin-Liu-Chen-camp4data.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Qin-Liu-Chen-camp4data.pdf.html)
 - [Discussion](/index.php?title=File_talk:Qin-Liu-Chen-camp4data.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Qin-Liu-Chen-camp4data.pdf&action=edit "This page is protected.
 You can view its source [e]")

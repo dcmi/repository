@@ -53,7 +53,7 @@ The purpose of the DCMI Libraries Application Profile Task Group is to finalise 
 
 ## Work Plan 
 
-The Task Group is working on a new version of the Application Profile since August 2009. Current draft is the [DC-Library Application Profile for Bibliographic Text Resources (revision Nov. 2010)](/mediawiki_wiki/DCLib_AP "DCLib AP").
+The Task Group is working on a new version of the Application Profile since August 2009. Current draft is the [DC-Library Application Profile for Bibliographic Text Resources (revision Nov. 2010)](/mediawiki_wiki/DCLib_AP).
 
 Next Steps:
 
@@ -65,7 +65,7 @@ Timeline: The DCLib AP for Bibliographic Text Resources will be published in Aug
 
 ## Latest version of DC Libraries Application Profile (DC-Lib) 
 
-See the latest version of [DC-Lib](/mediawiki_wiki/DCLib_AP "DCLib AP"), which supersedes the [draft of 2004](http://dublincore.org/documents/2004/09/10/library-application-profile/).
+See the latest version of [DC-Lib](/mediawiki_wiki/DCLib_AP), which supersedes the [draft of 2004](http://dublincore.org/documents/2004/09/10/library-application-profile/).
 
 DC-Lib is a draft application profile that proposes how to use the Dublin Core Metadata Element Set in libraries and library-related applications and projects. It was originally prepared by the DCMI-Libraries Application Profile drafting committee, a subset of the DCMI-Libraries Working Group.
 
@@ -73,17 +73,17 @@ The most recent version was prepared in August 2004 and incorporates decisions m
 
 ## Current Documents 
 
-[DC-Library Application Profile for Bibliographic Text Resources (revision Nov. 2010)](/mediawiki_wiki/DCLib_AP "DCLib AP").
+[DC-Library Application Profile for Bibliographic Text Resources (revision Nov. 2010)](/mediawiki_wiki/DCLib_AP).
 
 ## Related Activities 
 
-- [Libraries\_Community\_Activity\_DC2007](/mediawiki_wiki/Libraries_Community_Activity_DC2007 "Libraries Community Activity DC2007")
+- [Libraries\_Community\_Activity\_DC2007](/mediawiki_wiki/Libraries_Community_Activity_DC2007)
 
 - [Task Group Report DC 2008](http://dublincore.org/groups/libraries/dc2008/20080923_DCLIBMeeting_6.pdf)
 
 - DC 2009 DC-Lib AP [report](http://dublincore.org/groups/libraries/dc2009/20091014_DCLIBMeeting_3.pdf) and [discussion](http://www.facebook.com/topic.php?uid=24728343159&topic=12765)
 
-- [Pittsburgh\_Workshop](/mediawiki_wiki/Pittsburgh_Workshop "Pittsburgh Workshop") at DC 2010
+- [Pittsburgh\_Workshop](/mediawiki_wiki/Pittsburgh_Workshop) at DC 2010
 
-- [Libraries\_Community\_Activity\_DC2013](/mediawiki_wiki/Libraries_Community_Activity_DC2013 "Libraries Community Activity DC2013")
+- [Libraries\_Community\_Activity\_DC2013](/mediawiki_wiki/Libraries_Community_Activity_DC2013)
 

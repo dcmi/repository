@@ -108,7 +108,7 @@ Return to [Exec Scratchpad](/index.php?title=Exec_Scratchpad&action=edit&redlink
     - Juha's email and ISO representation (Leif)
     - Process documentation
       - Process documentation on wiki: edit=Exec team; view=public
-      - [Conference Host Guidelines](/mediawiki_wiki/Conference_Guidelines/Host_Guidelines "Conference Guidelines/Host Guidelines"); [Master Planning Calendar](/mediawiki_wiki/Conference_Guidelines/Master_Calendar "Conference Guidelines/Master Calendar");
+      - [Conference Host Guidelines](/mediawiki_wiki/Conference_Guidelines/Host_Guidelines "Conference Guidelines/Host Guidelines"); [Master Planning Calendar](/mediawiki_wiki/Conference_Guidelines/Master_Calendar);
       - Invoicing information; bank transfer requirements 
     - Subordinate work units (name & authority to create)
     - Letter agreements
@@ -168,7 +168,7 @@ Return to [Exec Scratchpad](/index.php?title=Exec_Scratchpad&action=edit&redlink
 
 1. Brief report on DC-2012
   - Two keynote speaker proposals by end of September
-  - DCMI Conference Series: [_Outline of Responsibilities and Guidelines_](/mediawiki_wiki/Exec_Scratchpad/Conference_Resources "Exec Scratchpad/Conference Resources")
+  - DCMI Conference Series: [_Outline of Responsibilities and Guidelines_](/mediawiki_wiki/Exec_Scratchpad/Conference_Resources)
 2. Brief report on Learning Resources Metadata Initiative (LRMI) in Mountain View, CA
 3. Executive status at DC-2012
   - Executive f2f meeting Monday evening?
@@ -245,7 +245,7 @@ Return to [Exec Scratchpad](/index.php?title=Exec_Scratchpad&action=edit&redlink
 
 - DC-2011 outcomes for DCMI strategy on vocabulary management, alignment & preservation
 - DC-2011 outcomes for DCMI technical vocabulary management infrastructure
-  - See [Vocabulary Management System General Requirements](/mediawiki_wiki/Vocabulary_Management_System_General_Requirements "Vocabulary Management System General Requirements")
+  - See [Vocabulary Management System General Requirements](/mediawiki_wiki/Vocabulary_Management_System_General_Requirements)
 
 ##### Minutes 
 
@@ -255,7 +255,7 @@ Return to [Exec Scratchpad](/index.php?title=Exec_Scratchpad&action=edit&redlink
 - DCMI vocabulary management infrastructure TG
   - Approach Corey Harper and Gordon Dunsire as co-chairs
   - Tentative TG charge:
-    - Aggregate existing requirements for vocabulary management infrastructure (in addition to DCMI general requirements at [Vocabulary Management System General Requirements](/mediawiki_wiki/Vocabulary_Management_System_General_Requirements "Vocabulary Management System General Requirements"))
+    - Aggregate existing requirements for vocabulary management infrastructure (in addition to DCMI general requirements at [Vocabulary Management System General Requirements](/mediawiki_wiki/Vocabulary_Management_System_General_Requirements))
     - Augment existing requirements through TG
     - Develop _solution_ assessment rubric from requirements
     - _Solicit_ submission of candidate _solutions_ for assessment against rubric

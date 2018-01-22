@@ -101,7 +101,7 @@ Retrieved from " [/mediawiki_wiki/File:Combined\_Org\_Chart-v3.jpg](/mediawiki_w
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Combined_Org_Chart-v3.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Combined_Org_Chart-v3.jpg.html)
 - [Discussion](/index.php?title=File_talk:Combined_Org_Chart-v3.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Combined_Org_Chart-v3.jpg&action=edit "This page is protected.
 You can view its source [e]")

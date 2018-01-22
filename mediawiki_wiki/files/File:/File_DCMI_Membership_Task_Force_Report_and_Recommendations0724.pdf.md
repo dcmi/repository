@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/DCMI_Membership_Task_Force_Report_and_Recommendations0724.pdf)
 
-[DCMI\_Membership\_Task\_Force\_Report\_and\_Recommendations0724.pdf](/mediawiki_wiki/files/DCMI_Membership_Task_Force_Report_and_Recommendations0724.pdf "DCMI Membership Task Force Report and Recommendations0724.pdf")‎(file size: 321 KB, MIME type: application/pdf)
+[DCMI\_Membership\_Task\_Force\_Report\_and\_Recommendations0724.pdf](/mediawiki_wiki/files/DCMI_Membership_Task_Force_Report_and_Recommendations0724.pdf)‎(file size: 321 KB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -71,7 +71,7 @@ Retrieved from " [/mediawiki_wiki/File:DCMI\_Membership\_Task\_Force\_Report\_an
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:DCMI_Membership_Task_Force_Report_and_Recommendations0724.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DCMI_Membership_Task_Force_Report_and_Recommendations0724.pdf.html)
 - [Discussion](/index.php?title=File_talk:DCMI_Membership_Task_Force_Report_and_Recommendations0724.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DCMI_Membership_Task_Force_Report_and_Recommendations0724.pdf&action=edit "This page is protected.
 You can view its source [e]")

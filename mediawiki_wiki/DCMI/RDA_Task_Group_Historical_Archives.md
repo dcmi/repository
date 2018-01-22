@@ -65,13 +65,13 @@ The planning for the London meeting was originally located on the [DC-Libraries 
 
 ## Wiki Pages 
 
-[Use Cases](/mediawiki_wiki/Use_Cases "Use Cases")
+[Use Cases](/mediawiki_wiki/Use_Cases)
 
-[Cataloger Scenarios](/mediawiki_wiki/Cataloger_Scenarios "Cataloger Scenarios")
+[Cataloger Scenarios](/mediawiki_wiki/Cataloger_Scenarios)
 
-[User Scenarios](/mediawiki_wiki/User_Scenarios "User Scenarios")
+[User Scenarios](/mediawiki_wiki/User_Scenarios)
 
-[Developer Scenarios](/mediawiki_wiki/Developer_Scenarios "Developer Scenarios")
+[Developer Scenarios](/mediawiki_wiki/Developer_Scenarios)
 
 ### Task Analyses
 

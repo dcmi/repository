@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Greenberg-CAMP-SeaIce.pdf)
 
-[Greenberg-CAMP-SeaIce.pdf](/mediawiki_wiki/files/Greenberg-CAMP-SeaIce.pdf "Greenberg-CAMP-SeaIce.pdf")‎(file size: 2.81 MB, MIME type: application/pdf)
+[Greenberg-CAMP-SeaIce.pdf](/mediawiki_wiki/files/Greenberg-CAMP-SeaIce.pdf)‎(file size: 2.81 MB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -73,7 +73,7 @@ Retrieved from " [/mediawiki_wiki/File:Greenberg-CAMP-SeaIce.pdf](/mediawiki_wik
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Greenberg-CAMP-SeaIce.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Greenberg-CAMP-SeaIce.pdf.html)
 - [Discussion](/index.php?title=File_talk:Greenberg-CAMP-SeaIce.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Greenberg-CAMP-SeaIce.pdf&action=edit "This page is protected.
 You can view its source [e]")

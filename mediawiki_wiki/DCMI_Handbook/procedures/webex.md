@@ -17,7 +17,7 @@ This page has been accessed 44,823 times.
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -31,7 +31,7 @@ This page has been accessed 44,823 times.
 
 * * *
 
-[<img alt="WebEx logo" src="/mediawiki_wiki/images/Webex.jpg" width="300" height="87">](/mediawiki_wiki/images/Webex.jpg "WebEx logo")
+[<img alt="WebEx logo" src="/mediawiki_wiki/images/Webex.jpg" width="300" height="87">](/mediawiki_wiki/images/Webex.jpg)
 
 # Chair WebEx Guidelines 
 <table id="toc" class="toc">

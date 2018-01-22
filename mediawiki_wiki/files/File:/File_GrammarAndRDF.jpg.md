@@ -79,7 +79,7 @@ Retrieved from " [/mediawiki_wiki/File:GrammarAndRDF.jpg](/mediawiki_wiki/files/
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:GrammarAndRDF.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:GrammarAndRDF.jpg.html)
 - [Discussion](/index.php?title=File_talk:GrammarAndRDF.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:GrammarAndRDF.jpg&action=edit "This page is protected.
 You can view its source [e]")

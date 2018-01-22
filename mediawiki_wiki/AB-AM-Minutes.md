@@ -15,11 +15,11 @@ aliases:
 This page was last modified on 13 November 2014, at 11:47.  
 This page has been accessed 23,410 times.
 
-[<img alt="Advisory Board logo" src="/mediawiki_wiki/images/AB_logo.png" width="300" height="96">](/mediawiki_wiki/images/AB_logo.png "Advisory Board logo")
+[<img alt="Advisory Board logo" src="/mediawiki_wiki/images/AB_logo.png" width="300" height="96">](/mediawiki_wiki/images/AB_logo.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -59,7 +59,7 @@ Advisory Board Annual Meetings are held at the DCMI conference. All Advisory Boa
 
 #### Agenda and Minutes 
 
-October 11, 2014 in Austin, Texas, USA. Download [File:DCMI AB Annual Meeting-Agenda and Report-20141011.pdf](/mediawiki_wiki/files/DCMI_AB_Annual_Meeting-Agenda_and_Report-20141011.pdf "File:DCMI AB Annual Meeting-Agenda and Report-20141011.pdf")
+October 11, 2014 in Austin, Texas, USA. Download [File:DCMI AB Annual Meeting-Agenda and Report-20141011.pdf](/mediawiki_wiki/files/DCMI_AB_Annual_Meeting-Agenda_and_Report-20141011.pdf)
 
 * * *
 

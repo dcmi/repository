@@ -13,11 +13,11 @@ tags: []
 This page was last modified on 27 August 2015, at 14:52.  
 This page has been accessed 158,680 times.
 
-[<img alt="DCMI/LRMI Tas Group" src="/mediawiki_wiki/images/DC-LRMI_TG.png" width="200" height="121">](/mediawiki_wiki/images/DC-LRMI_TG.png "DCMI/LRMI Tas Group")
+[<img alt="DCMI/LRMI Tas Group" src="/mediawiki_wiki/images/DC-LRMI_TG.png" width="200" height="121">](/mediawiki_wiki/images/DC-LRMI_TG.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -66,52 +66,52 @@ This page has been accessed 158,680 times.
 
 **Work Package #2:**
 
-- [Plan to Coordinate LRMI Communication Channels](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp2 "AB-Comm/ed/LRMI/TG/wp2")
+- [Plan to Coordinate LRMI Communication Channels](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp2)
   - ***Leads:*** David Gladney & Stuart Sutton
 
 **Work Package #3:**
 
-- [Value (Controlled) Vocabularies Development](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp3 "AB-Comm/ed/LRMI/TG/wp3")
+- [Value (Controlled) Vocabularies Development](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp3)
   - ***Leads:*** Jim Goodell & Stuart Sutton
   - ***Github:*** [Draft Controlled Vocabularies (Github<sup id="cite_ref-0" class="reference"><a href="#cite_note-0">[1]</a></sup>)](https://github.com/stuartasutton/LRMI_Vocabs)
 
 **Work Package #4:**
 
-- [Terms Development (properties/classes)](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp4 "AB-Comm/ed/LRMI/TG/wp4")
+- [Terms Development (properties/classes)](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp4)
   - ***Leads:*** Phil Barker
   - ***Github:***
 
 **Work Package #5:**
 
-- [User Documentation (Form, Place, & Substance)](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp5 "AB-Comm/ed/LRMI/TG/wp5")
+- [User Documentation (Form, Place, & Substance)](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp5)
   - ***Leads:***
 
 **Work Package #6:**
 
-- [Tools Inventory & Development](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp6 "AB-Comm/ed/LRMI/TG/wp6")
+- [Tools Inventory & Development](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp6)
   - ***Leads:***
 
 **Work Package #7:**
 
-- [Course Extension to schema.org](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp7 "AB-Comm/ed/LRMI/TG/wp7")
+- [Course Extension to schema.org](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp7)
   - ***Leads:*** Phil Barker
 
 **Work Package #8:**
 
-- [Develop plan for permanent structures to handle conferences/meetings & education/outreach (placeholder)](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp8 "AB-Comm/ed/LRMI/TG/wp8")
+- [Develop plan for permanent structures to handle conferences/meetings & education/outreach (placeholder)](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp8)
   - ***Leads:*** Michael Jay & David Gladney
 
 **Work Package #9:**
 
-- [Educational Frameworks (inventorying, enabling, best-practices in alignment etc.) (placeholder)](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp9 "AB-Comm/ed/LRMI/TG/wp9")
+- [Educational Frameworks (inventorying, enabling, best-practices in alignment etc.) (placeholder)](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp9)
   - ***Leads:***
 <pre><b>COMPLETED</b>
 </pre>
-- [Work Package #1: LRMI Transition to DCMI](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp1 "AB-Comm/ed/LRMI/TG/wp1")
+- [Work Package #1: LRMI Transition to DCMI](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/wp1)
 
 ## Purculating<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[2]</a></sup> Community Matters (no particular order) 
 
-1. [Courses/VLEs](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/courses "AB-Comm/ed/LRMI/TG/courses")
+1. [Courses/VLEs](/mediawiki_wiki/AB-Comm/ed/LRMI/TG/courses)
 2. [Adding rangeIncludes URL to reference value vocabularies (Github<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[3]</a></sup>)](https://github.com/stuartasutton/LRMI-Terms/issues/1)
 3. [Adding domainIncludes of Event as well as CreativeWork (Github<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[4]</a></sup>)](https://github.com/stuartasutton/LRMI-Terms/issues/2)
 4. [References to examples & usage notes in property/class definitions (Github<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[5]</a></sup>)](https://github.com/stuartasutton/LRMI-Terms/issues/3)
@@ -220,7 +220,7 @@ Lastly, DCMI has entered into collaboration through the Digital Learning Metadat
 <dl><dd> The DCMI/LRMI Task Group (TG) has been created and charged by the DC-Education Community (DC-Ed). A resulting assignment of a status of <i>DCMI Community Specification</i> to TG work product is a determination of the Community Specifications Committee (CSC). Deferential, expedited review by the DCMI Technical Board (TB) and the Governing Board (GB) will follow on the decision of the CSC. All relevant personnel recognize the compressed timeframe for action and that the LRMI transition presents novel circumstances of first impression for DCMI.
 </dd></dl>
 
-# [Task Group Scratchpad (Members Only)](/mediawiki_wiki/AB-Comm/ed/LRMI/chairs "AB-Comm/ed/LRMI/chairs") 
+# [Task Group Scratchpad (Members Only)](/mediawiki_wiki/AB-Comm/ed/LRMI/chairs) 
 
 # References 
 

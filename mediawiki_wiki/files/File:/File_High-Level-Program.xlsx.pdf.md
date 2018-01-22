@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/High-Level-Program.xlsx.pdf)
 
-[High-Level-Program.xlsx.pdf](/mediawiki_wiki/files/High-Level-Program.xlsx.pdf "High-Level-Program.xlsx.pdf")‎(file size: 26 KB, MIME type: application/pdf)
+[High-Level-Program.xlsx.pdf](/mediawiki_wiki/files/High-Level-Program.xlsx.pdf)‎(file size: 26 KB, MIME type: application/pdf)
 
 Uploaded 2011-08-29
 
@@ -84,7 +84,7 @@ Retrieved from " [/mediawiki_wiki/File:High-Level-Program.xlsx.pdf](/mediawiki_w
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:High-Level-Program.xlsx.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:High-Level-Program.xlsx.pdf.html)
 - [Discussion](/index.php?title=File_talk:High-Level-Program.xlsx.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:High-Level-Program.xlsx.pdf&action=edit "This page is protected.
 You can view its source [e]")

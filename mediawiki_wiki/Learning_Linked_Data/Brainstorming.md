@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 31 Jan 2012, at 05:39.  
 This page has been accessed 9,163 times.
 
-Return to [Learning Linked Data](/mediawiki_wiki/Learning_Linked_Data "Learning Linked Data") Homepage
+Return to [Learning Linked Data](/mediawiki_wiki/Learning_Linked_Data) Homepage
 
 <table id="toc" class="toc">
   <tr>
@@ -92,5 +92,5 @@ NSDL Science Literacy Maps are a tool for teachers and students to find resource
 
 ### Who Are the Learners 
 
-See also [Learning\_Linked\_Data\_Personas](/mediawiki_wiki/Learning_Linked_Data_Personas "Learning Linked Data Personas")
+See also [Learning\_Linked\_Data\_Personas](/mediawiki_wiki/Learning_Linked_Data_Personas)
 

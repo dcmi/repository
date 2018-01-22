@@ -13,11 +13,11 @@ tags: []
 This page was last modified on 8 March 2017, at 11:06.  
 This page has been accessed 73,173 times.
 
-[<img alt="Standards Committee logo" src="/mediawiki_wiki/images/Standards_logo2.png" width="300" height="50">](/mediawiki_wiki/images/Standards_logo2.png "Standards Committee logo")
+[<img alt="Standards Committee logo" src="/mediawiki_wiki/images/Standards_logo2.png" width="300" height="50">](/mediawiki_wiki/images/Standards_logo2.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -91,7 +91,7 @@ This page has been accessed 73,173 times.
 #### Scope, Work & Reporting 
 
 - (TBD) _Extended description of the jurisdiction, key activities and responsibilities of the Board_
-- _Reporting:_ The Standards Committee Chair reports to the Technical Board Chair in a manner set out in the [Board Policies & Procedures](/mediawiki_wiki/DCMI_Technical_Board/procedures "DCMI Technical Board/procedures")
+- _Reporting:_ The Standards Committee Chair reports to the Technical Board Chair in a manner set out in the [Board Policies & Procedures](/mediawiki_wiki/DCMI_Technical_Board/procedures)
 
 * * *
 
@@ -99,7 +99,7 @@ This page has been accessed 73,173 times.
 
 - ISO 15836
   - Five-year Systematic Review
-  - [ISO 15836-2: Part 2](/mediawiki_wiki/DCMI_Technical_Board/standards/ISO_Part2 "DCMI Technical Board/standards/ISO Part2") (Fast-track proposal)
+  - [ISO 15836-2: Part 2](/mediawiki_wiki/DCMI_Technical_Board/standards/ISO_Part2) (Fast-track proposal)
 - ANSI/NISO Z39.85 
 
 * * *
@@ -107,7 +107,7 @@ This page has been accessed 73,173 times.
 #### Communications 
 
 - JiscMail Committee Forum (Members only): [dc-slc@jiscmail.ac.uk](mailto:dc-slc@jiscmail.ac.uk) | [Join/Leave](http://www.jiscmail.ac.uk/lists/dc-slc.html) [Archive](http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-slc&A=1)
-- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
+- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg) [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
 
 * * *
 
@@ -130,7 +130,7 @@ This page has been accessed 73,173 times.
 
 * * *
 
-[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png)
 
 [Click and become a DCMI member...](http://dublincore.org/support/#individualMember)
 

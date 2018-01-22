@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/DCMI_AB_Annual_Meeting-Agenda_and_Report-20141011.pdf)
 
-[DCMI\_AB\_Annual\_Meeting-Agenda\_and\_Report-20141011.pdf](/mediawiki_wiki/files/DCMI_AB_Annual_Meeting-Agenda_and_Report-20141011.pdf "DCMI AB Annual Meeting-Agenda and Report-20141011.pdf")‎(file size: 763 KB, MIME type: application/pdf)
+[DCMI\_AB\_Annual\_Meeting-Agenda\_and\_Report-20141011.pdf](/mediawiki_wiki/files/DCMI_AB_Annual_Meeting-Agenda_and_Report-20141011.pdf)‎(file size: 763 KB, MIME type: application/pdf)
 
 Agenda and minutes of Advisory Board Annual Meeting held on October 11, 2014 in Austin, TX, USA.
 
@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:DCMI\_AB\_Annual\_Meeting-Agenda\_and\_Re
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:DCMI_AB_Annual_Meeting-Agenda_and_Report-20141011.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:DCMI_AB_Annual_Meeting-Agenda_and_Report-20141011.pdf.html)
 - [Discussion](/index.php?title=File_talk:DCMI_AB_Annual_Meeting-Agenda_and_Report-20141011.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:DCMI_AB_Annual_Meeting-Agenda_and_Report-20141011.pdf&action=edit "This page is protected.
 You can view its source [e]")

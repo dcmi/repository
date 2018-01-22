@@ -34,18 +34,18 @@ This page has been accessed 238,503 times.
 
 Discussion takes place on the [DCMI Architecture Forum mailing list](http://www.jiscmail.ac.uk/lists/dc-architecture.html). Telecons use the IRC channel at [irc://irc.freenode.net/#dcmi](irc://irc.freenode.net/#dcmi).
 
-- 2012-08-14. [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120814 "DCAM Revision/TeleconReport-20120814")
-- 2012-08-09. [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120809 "DCAM Revision/TeleconReport-20120809")
-- 2012-07-16. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120716 "DCAM Revision/TeleconAgenda-20120716"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120716 "DCAM Revision/TeleconReport-20120716")
-- 2012-06-08. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-201206xx "DCAM Revision/TeleconAgenda-201206xx"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-201206xx "DCAM Revision/TeleconReport-201206xx")
-- 2012-05-15. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120515 "DCAM Revision/TeleconAgenda-20120515"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515 "DCAM Revision/TeleconReport-20120515")
-- 2012-04-09. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120409 "DCAM Revision/TeleconAgenda-20120409"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120409 "DCAM Revision/TeleconReport-20120409")
-- 2012-03-22. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120322 "DCAM Revision/TeleconAgenda-20120322"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120322 "DCAM Revision/TeleconReport-20120322")
-- 2012-02-29. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120229 "DCAM Revision/TeleconAgenda-20120229"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120229 "DCAM Revision/TeleconReport-20120229")
-- 2012-02-15. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120215 "DCAM Revision/TeleconAgenda-20120215"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120215 "DCAM Revision/TeleconReport-20120215")
-- 2012-01-30. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120130 "DCAM Revision/TeleconAgenda-20120130"), [(Report)](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130 "DCAM Revision/TeleconReport-20120130")
-- 2012-01-04. Editorial Group will informally meet on Skype in early January [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120104 "DCAM Revision/TeleconAgenda-20120104"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104 "DCAM Revision/TeleconReport-20120104")
-- 2011-12-21. Architecture Forum telecon on DCAM Revision - [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20111221 "DCAM Revision/TeleconAgenda-20111221"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221 "DCAM Revision/TeleconReport-20111221"), [IRC channel](/mediawiki_wiki/DCAM_Revision/TeleconIRC-20111221 "DCAM Revision/TeleconIRC-20111221")
+- 2012-08-14. [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120814)
+- 2012-08-09. [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120809)
+- 2012-07-16. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120716 "DCAM Revision/TeleconAgenda-20120716"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120716)
+- 2012-06-08. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-201206xx "DCAM Revision/TeleconAgenda-201206xx"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-201206xx)
+- 2012-05-15. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120515 "DCAM Revision/TeleconAgenda-20120515"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120515)
+- 2012-04-09. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120409 "DCAM Revision/TeleconAgenda-20120409"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120409)
+- 2012-03-22. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120322 "DCAM Revision/TeleconAgenda-20120322"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120322)
+- 2012-02-29. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120229 "DCAM Revision/TeleconAgenda-20120229"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120229)
+- 2012-02-15. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120215 "DCAM Revision/TeleconAgenda-20120215"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120215)
+- 2012-01-30. [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120130 "DCAM Revision/TeleconAgenda-20120130"), [(Report)](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120130)
+- 2012-01-04. Editorial Group will informally meet on Skype in early January [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20120104 "DCAM Revision/TeleconAgenda-20120104"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20120104)
+- 2011-12-21. Architecture Forum telecon on DCAM Revision - [Agenda](/mediawiki_wiki/DCAM_Revision/TeleconAgenda-20111221 "DCAM Revision/TeleconAgenda-20111221"), [Report](/mediawiki_wiki/DCAM_Revision/TeleconReport-20111221 "DCAM Revision/TeleconReport-20111221"), [IRC channel](/mediawiki_wiki/DCAM_Revision/TeleconIRC-20111221)
 - 2010-10-22. Joint meeting with the W3C Library Linked Data Incubator Group - [Minutes](http://www.w3.org/2005/Incubator/lld/minutes/2010/10/22-lld-minutes.html)]
 
 ### Current work 

@@ -82,7 +82,7 @@ As of November 2014, Dan is maintaining Schema.org mappings in [17]. If we wante
 
 2012-01-09: [Agenda](https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind1201&L=dc-architecture&P=31754), Report: Informal call to discuss the practicalities of issues tracking and publication.
 
-2011-12-12: [Agenda](/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212 "Schema.org Alignment/Telecon 20111212"), [Report](/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212_Report "Schema.org Alignment/Telecon 20111212 Report"): Methods and process for deciding alignments; start to discuss alignment proposal.
+2011-12-12: [Agenda](/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212 "Schema.org Alignment/Telecon 20111212"), [Report](/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212_Report): Methods and process for deciding alignments; start to discuss alignment proposal.
 
 ### Purpose and objectives 
 
@@ -90,9 +90,9 @@ The Schema.org initiative<sup id="cite_ref-1" class="reference"><a href="#cite_n
 
 The Task Group will work with the maintainers of Schema.RDFS.org -- "a complementary effort by people from the Linked Data community to support Schema.org deployment and usage with a special focus on Linked Data"<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[3]</a></sup> -- which has already published a placeholder for future mappings to Dublin Core<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[4]</a></sup>. The Task Group will identify use cases for the mappings and define a process and workflow to create, publish, and maintain the mappings.
 
-Membership in the Task Group is open to any interested member of the public. Unless the volume of traffic warrants the creation of a separate mailing list, discussion in the Task Group will take place on the [dc-architecture](http://www.jiscmail.ac.uk/lists/dc-architecture.html) mailing list.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[5]</a></sup> (See also an initial [scratchpad for issues](/mediawiki_wiki/Schema.org_Alignment/MappingIssues "Schema.org Alignment/MappingIssues").)
+Membership in the Task Group is open to any interested member of the public. Unless the volume of traffic warrants the creation of a separate mailing list, discussion in the Task Group will take place on the [dc-architecture](http://www.jiscmail.ac.uk/lists/dc-architecture.html) mailing list.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[5]</a></sup> (See also an initial [scratchpad for issues](/mediawiki_wiki/Schema.org_Alignment/MappingIssues).)
 
-Starting with a [draft set of mappings](/mediawiki_wiki/Schema.org_Alignment/Mappings "Schema.org Alignment/Mappings") from Bernard Vatant, the group aims at completing a review and publishing a final version in the first quarter of 2012.
+Starting with a [draft set of mappings](/mediawiki_wiki/Schema.org_Alignment/Mappings) from Bernard Vatant, the group aims at completing a review and publishing a final version in the first quarter of 2012.
 
 1. ↑ [http://www.jiscmail.ac.uk/lists/dc-architecture.html](http://www.jiscmail.ac.uk/lists/dc-architecture.html)
 2. ↑ [http://schema.org/](http://schema.org/)

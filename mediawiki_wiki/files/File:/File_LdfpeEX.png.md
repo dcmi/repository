@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:LdfpeEX.png](/mediawiki_wiki/files/File:/
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:LdfpeEX.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:LdfpeEX.png.html)
 - [Discussion](/index.php?title=File_talk:LdfpeEX.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:LdfpeEX.png&action=edit "This page is protected.
 You can view its source [e]")

@@ -15,8 +15,8 @@ aliases:
 This page was last modified on 27 May 2017, at 12:29.  
 This page has been accessed 1,173 times.
 
-- Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
-- Return to [Dublin to Drupal Taxonomies Index](/mediawiki_wiki/DublinToDrupal_Project#Taxonomies "DublinToDrupal Project")
+- Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project)
+- Return to [Dublin to Drupal Taxonomies Index](/mediawiki_wiki/DublinToDrupal_Project#Taxonomies)
 
 <table id="toc" class="toc">
   <tr>

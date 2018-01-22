@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/2010_DCLibAPsummary.pdf)
 
-[2010\_DCLibAPsummary.pdf](/mediawiki_wiki/files/2010_DCLibAPsummary.pdf "2010 DCLibAPsummary.pdf")‎(file size: 75 KB, MIME type: application/pdf)
+[2010\_DCLibAPsummary.pdf](/mediawiki_wiki/files/2010_DCLibAPsummary.pdf)‎(file size: 75 KB, MIME type: application/pdf)
 
 <!-- 
 NewPP limit report
@@ -71,7 +71,7 @@ Retrieved from " [/mediawiki_wiki/File:2010\_DCLibAPsummary.pdf](/mediawiki_wiki
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:2010_DCLibAPsummary.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:2010_DCLibAPsummary.pdf.html)
 - [Discussion](/index.php?title=File_talk:2010_DCLibAPsummary.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:2010_DCLibAPsummary.pdf&action=edit "This page is protected.
 You can view its source [e]")

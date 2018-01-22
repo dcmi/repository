@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:MediaWiki-IgnoreFormat.jpg](/mediawiki_wi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:MediaWiki-IgnoreFormat.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:MediaWiki-IgnoreFormat.jpg.html)
 - [Discussion](/index.php?title=File_talk:MediaWiki-IgnoreFormat.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:MediaWiki-IgnoreFormat.jpg&action=edit "This page is protected.
 You can view its source [e]")

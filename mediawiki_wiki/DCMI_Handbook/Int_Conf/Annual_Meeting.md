@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 15 January 2017, at 00:03.  
 This page has been accessed 194,564 times.
 
-Return to [International Conference](/mediawiki_wiki/DCMI_Handbook/Int_Conf "DCMI Handbook/Int Conf")
+Return to [International Conference](/mediawiki_wiki/DCMI_Handbook/Int_Conf)
 
 <table id="toc" class="toc">
   <tr>
@@ -36,7 +36,7 @@ Return to [International Conference](/mediawiki_wiki/DCMI_Handbook/Int_Conf "DCM
 </table>
 
 
-For the Annual Meeting and Conference Steering Committee calendar, see [Master Calendar](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Master_Calendar "DCMI Handbook/Int Conf/Master Calendar")
+For the Annual Meeting and Conference Steering Committee calendar, see [Master Calendar](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Master_Calendar)
 
 ## Annual Meeting & Conference Committee Planning Calendar 
 

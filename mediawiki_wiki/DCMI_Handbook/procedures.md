@@ -13,7 +13,7 @@ tags: []
 This page was last modified on 30 April 2014, at 22:17.  
 This page has been accessed 25,776 times.
 
-[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Handbook.png" width="300" height="86">](/mediawiki_wiki/images/Handbook.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Handbook.png" width="300" height="86">](/mediawiki_wiki/images/Handbook.png)
 
 <table id="toc" class="toc">
   <tr>

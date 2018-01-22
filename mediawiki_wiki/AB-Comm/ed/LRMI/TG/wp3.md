@@ -15,11 +15,11 @@ aliases:
 This page was last modified on 7 July 2015, at 21:39.  
 This page has been accessed 19,446 times.
 
-[<img alt="DCMI/LRMI Tas Group" src="/mediawiki_wiki/images/DC-LRMI_TG.png" width="200" height="121">](/mediawiki_wiki/images/DC-LRMI_TG.png "DCMI/LRMI Tas Group")
+[<img alt="DCMI/LRMI Tas Group" src="/mediawiki_wiki/images/DC-LRMI_TG.png" width="200" height="121">](/mediawiki_wiki/images/DC-LRMI_TG.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -33,7 +33,7 @@ This page has been accessed 19,446 times.
 
 * * *
 
-[Return to TG homepage](/mediawiki_wiki/AB-Comm/ed/LRMI/TG "AB-Comm/ed/LRMI/TG")
+[Return to TG homepage](/mediawiki_wiki/AB-Comm/ed/LRMI/TG)
 
 <table id="toc" class="toc">
   <tr>
@@ -60,7 +60,7 @@ This page has been accessed 19,446 times.
 
 ## Vocabulary Community Surveys 
 
-- [Initial Survey - 2015-07-01](/mediawiki_wiki/Survey-20150701 "Survey-20150701")
+- [Initial Survey - 2015-07-01](/mediawiki_wiki/Survey-20150701)
 
 # NOTES 
 

@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Seth.vanHooland.jpg](/mediawiki_wiki/file
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Seth.vanHooland.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Seth.vanHooland.jpg.html)
 - [Discussion](/index.php?title=File_talk:Seth.vanHooland.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Seth.vanHooland.jpg&action=edit "This page is protected.
 You can view its source [e]")

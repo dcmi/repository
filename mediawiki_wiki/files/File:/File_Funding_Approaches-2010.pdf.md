@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Funding_Approaches-2010.pdf)
 
-[Funding\_Approaches-2010.pdf](/mediawiki_wiki/files/Funding_Approaches-2010.pdf "Funding Approaches-2010.pdf")‎(file size: 76 KB, MIME type: application/pdf)
+[Funding\_Approaches-2010.pdf](/mediawiki_wiki/files/Funding_Approaches-2010.pdf)‎(file size: 76 KB, MIME type: application/pdf)
 
 DCMI Additional Funding Approaches
 
@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Funding\_Approaches-2010.pdf](/mediawiki_
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Funding_Approaches-2010.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Funding_Approaches-2010.pdf.html)
 - [Discussion](/index.php?title=File_talk:Funding_Approaches-2010.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Funding_Approaches-2010.pdf&action=edit "This page is protected.
 You can view its source [e]")

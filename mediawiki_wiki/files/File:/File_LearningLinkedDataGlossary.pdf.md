@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/LearningLinkedDataGlossary.pdf)
 
-[LearningLinkedDataGlossary.pdf](/mediawiki_wiki/files/LearningLinkedDataGlossary.pdf "LearningLinkedDataGlossary.pdf")‎(file size: 229 KB, MIME type: application/pdf)
+[LearningLinkedDataGlossary.pdf](/mediawiki_wiki/files/LearningLinkedDataGlossary.pdf)‎(file size: 229 KB, MIME type: application/pdf)
 
 Learning Linked Data project glossary
 
@@ -74,7 +74,7 @@ Retrieved from " [/mediawiki_wiki/File:LearningLinkedDataGlossary.pdf](/mediawik
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:LearningLinkedDataGlossary.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:LearningLinkedDataGlossary.pdf.html)
 - [Discussion](/index.php?title=File_talk:LearningLinkedDataGlossary.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:LearningLinkedDataGlossary.pdf&action=edit "This page is protected.
 You can view its source [e]")

@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Report_of_the_DCMI_Membership_Task_Group.pdf)
 
-[Report\_of\_the\_DCMI\_Membership\_Task\_Group.pdf](/mediawiki_wiki/files/Report_of_the_DCMI_Membership_Task_Group.pdf "Report of the DCMI Membership Task Group.pdf")‎(file size: 1.33 MB, MIME type: application/pdf)
+[Report\_of\_the\_DCMI\_Membership\_Task\_Group.pdf](/mediawiki_wiki/files/Report_of_the_DCMI_Membership_Task_Group.pdf)‎(file size: 1.33 MB, MIME type: application/pdf)
 
 Final report of the DCMI Membership Task Group
 
@@ -116,7 +116,7 @@ Retrieved from " [/mediawiki_wiki/File:Report\_of\_the\_DCMI\_Membership\_Task\_
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Report_of_the_DCMI_Membership_Task_Group.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Report_of_the_DCMI_Membership_Task_Group.pdf.html)
 - [Discussion](/index.php?title=File_talk:Report_of_the_DCMI_Membership_Task_Group.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Report_of_the_DCMI_Membership_Task_Group.pdf&action=edit "This page is protected.
 You can view its source [e]")

@@ -47,9 +47,9 @@ This is a domain model that help the group to sort out the entities and attribut
 
 Updated 2013-05-12
 
-Refer to KOS Relation-Type Vocabulary at [NKOS\_Vocabularies](/mediawiki_wiki/NKOS_Vocabularies "NKOS Vocabularies") page
+Refer to KOS Relation-Type Vocabulary at [NKOS\_Vocabularies](/mediawiki_wiki/NKOS_Vocabularies) page
 
-Note: These are identified relationships between Work, Expression, and Manifestation entities. For an example of a thesaurus, see: [KOS\_example](/mediawiki_wiki/KOS_example "KOS example")
+Note: These are identified relationships between Work, Expression, and Manifestation entities. For an example of a thesaurus, see: [KOS\_example](/mediawiki_wiki/KOS_example)
 
 <table border="1" cellpadding="0" cellspacing="0" width="324" style="border-collapse: collapse;table-layout:fixed;width:324pt">
   <tr style="height:16.0pt">
@@ -143,7 +143,7 @@ Note: These are identified relationships between Work, Expression, and Manifesta
 
 ## NKOS Attributes and Metadata Elements Overview 
 
-(The core elements were identified based on the previous studies of over 10 KOS registries and a survey of related researchers and implementors) Updated 2013-09-09: changed "size" to "sizeNote"; added "usedBy" to work level; added "#" to "audience"._See also_ [NKOS AP Elements](/mediawiki_wiki/NKOS_AP_Elements "NKOS AP Elements") Defined
+(The core elements were identified based on the previous studies of over 10 KOS registries and a survey of related researchers and implementors) Updated 2013-09-09: changed "size" to "sizeNote"; added "usedBy" to work level; added "#" to "audience"._See also_ [NKOS AP Elements](/mediawiki_wiki/NKOS_AP_Elements) Defined
 
 Symbols used in the following tables:
 

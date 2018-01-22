@@ -13,11 +13,11 @@ tags: []
 This page was last modified on 24 April 2014, at 21:11.  
 This page has been accessed 109,536 times.
 
-[<img alt="Usage Committee logo" src="/mediawiki_wiki/images/Usage_logo.png" width="300" height="82">](/mediawiki_wiki/images/Usage_logo.png "Usage Committee logo")
+[<img alt="Usage Committee logo" src="/mediawiki_wiki/images/Usage_logo.png" width="300" height="82">](/mediawiki_wiki/images/Usage_logo.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -96,7 +96,7 @@ The commitment applies first and foremost to [DCMI Metadata Terms](http://dublin
 
 Agreements with other vocabulary maintainers, such as the [Agreement between DCMI and the FOAF Project](http://dublincore.org/documents/2011/05/02/dcmi-foaf/) <sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[4]</a></sup>, also fall under the remit of the Usage Committee.
 
-Resources permitting, the Usage Committee may extend its scope to other technical specifications subject to the procedures set out in the [Technical Board's Process Manual](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"), the relevant sections of the DCMI Bylaws (as revised from time-to-time), and the oversight of the Governing Board.
+Resources permitting, the Usage Committee may extend its scope to other technical specifications subject to the procedures set out in the [Technical Board's Process Manual](/mediawiki_wiki/DCMI_Handbook), the relevant sections of the DCMI Bylaws (as revised from time-to-time), and the oversight of the Governing Board.
 
 Compared to charge of the existing Usage Board, the charge of the new Usage Committee is slightly broader inasmuch it:
 
@@ -115,7 +115,7 @@ The UC may address matters and proposals within its charge that originate throug
 1. the ongoing need to systematically assess and maintain existing specifications;
 2. available and projected resources needed to create and maintain new specifications.
 
-**Reporting:** The Usage Committee Chair reports to the Technical Committee in a manner set out in the [Board Policies & Procedures](/mediawiki_wiki/DCMI_Technical_Board/procedures "DCMI Technical Board/procedures")
+**Reporting:** The Usage Committee Chair reports to the Technical Committee in a manner set out in the [Board Policies & Procedures](/mediawiki_wiki/DCMI_Technical_Board/procedures)
 
 * * *
 
@@ -123,13 +123,13 @@ The UC may address matters and proposals within its charge that originate throug
 
 - Matters of record will be discussed on the closed-subscription JISCMAIL list [dc-usage](http://www.jiscmail.ac.uk/lists/dc-usage.html), the archives of which are world-readable.
   - [dc-usage@jiscmail.ac.uk](mailto:dc-usage@jiscmail.ac.uk) | [Join/Leave](http://www.jiscmail.ac.uk/lists/dc-usage.html) [Archive](http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=dc-usage&A=1)
-- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg "+ symbol") [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
+- [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg) [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
 
 * * *
 
 #### Key DCMI Handbook Pages 
 
-- [Committee Policies & Procedures](/mediawiki_wiki/DCMI_Technical_Board/procedures "DCMI Technical Board/procedures")
+- [Committee Policies & Procedures](/mediawiki_wiki/DCMI_Technical_Board/procedures)
 
 * * *
 
@@ -160,7 +160,7 @@ The UC may address matters and proposals within its charge that originate throug
 
 * * *
 
-[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png "DCMI Handbook")
+[<img alt="DCMI Handbook" src="/mediawiki_wiki/images/Join_us-150.png" width="150" height="43">](/mediawiki_wiki/images/Join_us-150.png)
 
 [Click and become a DCMI member...](http://dublincore.org/support/#individualMember)
 

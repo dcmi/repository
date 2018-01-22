@@ -17,7 +17,7 @@ This page has been accessed 152,301 times.
 
 ## Encoding Scheme 
 
-The notion of "scheme" (also known as "encoding scheme") entered the discourse around Dublin Core at a [March 1997 Dublin Core workshop](http://www.dlib.org/dlib/june97/metadata/06weibel.html) in Canberra, Australia. As originally defined, a "scheme" was a "qualifier" which "specifie[d] a context for the interpretation of a given element". As described in the glossary entry for [DCMI Metadata Terms](/mediawiki_wiki/Glossary/DCMI_Metadata_Terms "Glossary/DCMI Metadata Terms"), the encoding scheme came by 2000 to be differentiated into "syntax encoding schemes" and "vocabulary encoding schemes".
+The notion of "scheme" (also known as "encoding scheme") entered the discourse around Dublin Core at a [March 1997 Dublin Core workshop](http://www.dlib.org/dlib/june97/metadata/06weibel.html) in Canberra, Australia. As originally defined, a "scheme" was a "qualifier" which "specifie[d] a context for the interpretation of a given element". As described in the glossary entry for [DCMI Metadata Terms](/mediawiki_wiki/Glossary/DCMI_Metadata_Terms), the encoding scheme came by 2000 to be differentiated into "syntax encoding schemes" and "vocabulary encoding schemes".
 
 Note that the word "scheme" is often confused with "schema," most commonly used to refer to the specification of a data format.
 

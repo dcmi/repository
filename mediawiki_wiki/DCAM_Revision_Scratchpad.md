@@ -17,7 +17,7 @@ This page has been accessed 68,903 times.
 
 ### Scratchpad 
 
-See: [DCAM\_Revision\_Gap\_Analysis](/mediawiki_wiki/DCAM_Revision_Gap_Analysis "DCAM Revision Gap Analysis") - tables comparing terminology and constructs used in DCAM, DC-TEXT, RDF 1.1, and (proposed) for DCAM 2.0 - MOVED.
+See: [DCAM\_Revision\_Gap\_Analysis](/mediawiki_wiki/DCAM_Revision_Gap_Analysis) - tables comparing terminology and constructs used in DCAM, DC-TEXT, RDF 1.1, and (proposed) for DCAM 2.0 - MOVED.
 
 #### Vocabulary used in Mikael Nilsson's [RDF variant of DC-DSP](http://dublincore.org/documents/dc-dsp/#sect-8) 
 

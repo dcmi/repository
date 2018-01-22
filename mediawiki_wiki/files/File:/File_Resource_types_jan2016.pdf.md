@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Resource_types_jan2016.pdf)
 
-[Resource\_types\_jan2016.pdf](/mediawiki_wiki/files/Resource_types_jan2016.pdf "Resource types jan2016.pdf")‎(file size: 178 KB, MIME type: application/pdf)
+[Resource\_types\_jan2016.pdf](/mediawiki_wiki/files/Resource_types_jan2016.pdf)‎(file size: 178 KB, MIME type: application/pdf)
 
 gap analysis by resource type
 
@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Resource\_types\_jan2016.pdf](/mediawiki_
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Resource_types_jan2016.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Resource_types_jan2016.pdf.html)
 - [Discussion](/index.php?title=File_talk:Resource_types_jan2016.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Resource_types_jan2016.pdf&action=edit "This page is protected.
 You can view its source [e]")

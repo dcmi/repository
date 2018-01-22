@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 4 May 2012, at 11:25.  
 This page has been accessed 137,331 times.
 
-### [DCMI Vocabulary Management Community](/mediawiki_wiki/DCMI_Vocabulary_Management_Community "DCMI Vocabulary Management Community"), first meeting: April 26, 2012
+### [DCMI Vocabulary Management Community](/mediawiki_wiki/DCMI_Vocabulary_Management_Community), first meeting: April 26, 2012
 
 The DCMI Vocabulary Management Community will be holding its inaugural Meeting in London on April 26, 2012, in conjunction with and immediately following the [DCMI Bibliographic Metadata Task Group](/mediawiki_wiki/Bibliographic_Metadata_Task_Group#). The meetings will be followed on April 27 by a seminar examining the impact of the London Meeting of 2007, which brought DCMI and the Joint Steering Committee for Development of RDA (JSC) together to build the RDA Vocabularies. The DCMI meetings are free and open to all (although registration is required for attendance, and is now closed).
 

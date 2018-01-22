@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
-[Reviewer-invitation\_to\_review.txt](/mediawiki_wiki/files/Reviewer-invitation_to_review.txt "Reviewer-invitation to review.txt")‎(file size: 1 KB, MIME type: text/plain)
+[Reviewer-invitation\_to\_review.txt](/mediawiki_wiki/files/Reviewer-invitation_to_review.txt)‎(file size: 1 KB, MIME type: text/plain)
 
 **Warning** : This file type may contain malicious code. By executing it, your system may be compromised.
 
@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Reviewer-invitation\_to\_review.txt](/med
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Reviewer-invitation_to_review.txt.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Reviewer-invitation_to_review.txt.html)
 - [Discussion](/index.php?title=File_talk:Reviewer-invitation_to_review.txt&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Reviewer-invitation_to_review.txt&action=edit "This page is protected.
 You can view its source [e]")

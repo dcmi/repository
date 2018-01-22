@@ -15,9 +15,9 @@ aliases:
 This page was last modified on 11 Dec 2014, at 05:45.  
 This page has been accessed 537 times.
 
-[<img alt="LRMI logo" src="/mediawiki_wiki/images/LRMI_400w.png" width="300" height="119">](/mediawiki_wiki/images/LRMI_400w.png "LRMI logo")
+[<img alt="LRMI logo" src="/mediawiki_wiki/images/LRMI_400w.png" width="300" height="119">](/mediawiki_wiki/images/LRMI_400w.png)
 
-[Task Group Home Page](/mediawiki_wiki/Pet/ld4pe "Pet/ld4pe")
+[Task Group Home Page](/mediawiki_wiki/Pet/ld4pe)
 
 <table id="toc" class="toc">
   <tr>

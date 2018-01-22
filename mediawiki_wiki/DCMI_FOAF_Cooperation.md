@@ -13,11 +13,11 @@ tags: []
 This page was last modified on 26 February 2015, at 11:09.  
 This page has been accessed 140,076 times.
 
-[<img alt="Technical Board logo" src="/mediawiki_wiki/images/Technical_Board.png" width="200" height="63">](/mediawiki_wiki/images/Technical_Board.png "Technical Board logo")
+[<img alt="Technical Board logo" src="/mediawiki_wiki/images/Technical_Board.png" width="200" height="63">](/mediawiki_wiki/images/Technical_Board.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/ "DCMI Handbook") 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Technical_Board.md" title="DCMI Technical Board">Technical Board</a> Committees:</i> <a href="/mediawiki_wiki/DCMI_Technical_Board/usage.md" title="DCMI Technical Board/usage">Usage</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/standards.md" title="DCMI Technical Board/standards">Standards &amp; Liaisons</a> ◘ <a href="/mediawiki_wiki/DCMI_Technical_Board/specifications.md" title="DCMI Technical Board/specifications">Community Specifications</a> ◘ <strong class="selflink">DCMI FOAF Cooperation</strong>
 </dd>
@@ -68,7 +68,7 @@ This page has been accessed 140,076 times.
 
 The Task Group has the following tasks:
 
-- implement and monitor the [specific agreements](/mediawiki_wiki/DCMI_FOAF_Cooperation/Specific_Agreements "DCMI FOAF Cooperation/Specific Agreements") outlined in the DCMI FOAF Agreement. These include the following commitments:
+- implement and monitor the [specific agreements](/mediawiki_wiki/DCMI_FOAF_Cooperation/Specific_Agreements) outlined in the DCMI FOAF Agreement. These include the following commitments:
   - The FOAF Project will grant DCMI administrative and technical access to the domain xmlns.com.
   - DCMI will monitor payment of domain name fees by the FOAF Project.
   - The FOAF Project will provide public notice of impending semantic changes in the FOAF vocabulary.
@@ -81,9 +81,9 @@ The Task Group has the following tasks:
 
 ### Updates 
 
-- 2012-09-03 [meeting at DC-2012 in Kuching, Malaysia](/mediawiki_wiki/DCMI_FOAF_Cooperation/Update_201209 "DCMI FOAF Cooperation/Update 201209")
-- 2013-08-20 [update report](/mediawiki_wiki/DCMI_FOAF_Cooperation/Update_201308 "DCMI FOAF Cooperation/Update 201308")
-- 2014-06-15 [update report](/mediawiki_wiki/DCMI_FOAF_Cooperation/Update_201406 "DCMI FOAF Cooperation/Update 201406")
+- 2012-09-03 [meeting at DC-2012 in Kuching, Malaysia](/mediawiki_wiki/DCMI_FOAF_Cooperation/Update_201209)
+- 2013-08-20 [update report](/mediawiki_wiki/DCMI_FOAF_Cooperation/Update_201308)
+- 2014-06-15 [update report](/mediawiki_wiki/DCMI_FOAF_Cooperation/Update_201406)
 
 ### Links 
 
@@ -96,7 +96,7 @@ The Task Group has the following tasks:
   - [DCMI/FOAF Cooperation Task Group](/mediawiki_wiki/DCMI_FOAF_Cooperation) ( [specific agreements](/mediawiki_wiki/DCMI_FOAF_Cooperation/Specific_Agreements))
   - [http://dublincore.org/documents/dcmi-foaf/](http://dublincore.org/documents/dcmi-foaf/) ( [announcement in February 2011](http://dublincore.org/news/2011/#dcmi-news-20110221-01))
   - [DC-FOAF](http://www.jiscmail.ac.uk/dc-foaf) - public mailing list for the Task Group
-  - Scratchpad for [ideas and issues](/mediawiki_wiki/DCMI_FOAF_Cooperation/Ideas "DCMI FOAF Cooperation/Ideas")
+  - Scratchpad for [ideas and issues](/mediawiki_wiki/DCMI_FOAF_Cooperation/Ideas)
   - [Generic Namespace Policy](http://dublincore.org/documents/dcmi-namespace-generic/)
 - FOAF Snapshots
   - 2013-05-16 [http://dublincore.org/FOAF/2013-05-16/svn.foaf-project.org\_foaf\_trunk\_xmlns.com\_htdocs.tar.Z](http://dublincore.org/FOAF/2013-05-16/svn.foaf-project.org_foaf_trunk_xmlns.com_htdocs.tar.Z)

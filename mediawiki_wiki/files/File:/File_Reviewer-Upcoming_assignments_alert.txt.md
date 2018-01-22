@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
-[Reviewer-Upcoming\_assignments\_alert.txt](/mediawiki_wiki/files/Reviewer-Upcoming_assignments_alert.txt "Reviewer-Upcoming assignments alert.txt")‎(file size: 1 KB, MIME type: text/plain)
+[Reviewer-Upcoming\_assignments\_alert.txt](/mediawiki_wiki/files/Reviewer-Upcoming_assignments_alert.txt)‎(file size: 1 KB, MIME type: text/plain)
 
 **Warning** : This file type may contain malicious code. By executing it, your system may be compromised.
 
@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Reviewer-Upcoming\_assignments\_alert.txt
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Reviewer-Upcoming_assignments_alert.txt.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Reviewer-Upcoming_assignments_alert.txt.html)
 - [Discussion](/index.php?title=File_talk:Reviewer-Upcoming_assignments_alert.txt&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Reviewer-Upcoming_assignments_alert.txt&action=edit "This page is protected.
 You can view its source [e]")

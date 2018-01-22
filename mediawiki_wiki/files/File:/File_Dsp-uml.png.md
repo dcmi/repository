@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:Dsp-uml.png](/mediawiki_wiki/files/File:/
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Dsp-uml.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Dsp-uml.png.html)
 - [Discussion](/index.php?title=File_talk:Dsp-uml.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Dsp-uml.png&action=edit "This page is protected.
 You can view its source [e]")

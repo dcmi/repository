@@ -50,7 +50,7 @@ Properties used with an Item
 
 **Has Range:**
 
-- dc:identifier may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcIdentifier_RDF "User Guide/Publishing Metadata")..
+- dc:identifier may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcIdentifier_RDF)..
 
 **SES:**
 
@@ -92,11 +92,11 @@ Properties used with an Item
 
 **DCLIB-Comment:**
 
-- It is permitted to link one or more external descriptions using a URI. (See [Guidelines for the creation of descriptions](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_descriptions "User Guide/Creating Metadata")) 
+- It is permitted to link one or more external descriptions using a URI. (See [Guidelines for the creation of descriptions](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_descriptions)) 
 
 **Has Range:**
 
-- dc:description may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcDescription_RDF "User Guide/Publishing Metadata").
+- dc:description may be used with literal or non-literal values. For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dcDescription_RDF).
 
 **SES:** Using a URL the Syntax Encoding [http://purl.org/dc/terms/URI](http://purl.org/dc/terms/URI) should be used.
 
@@ -116,9 +116,9 @@ Properties used with an Item
 
 **DCLIB-Comment:**
 
-- Has to be used with non-literal values.You may link to a provenance statement by URI. If no URI exist use a blank node describing the provenance (See [Guidelines for the creation of content for provenance](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_provenance "User Guide/Creating Metadata"))
+- Has to be used with non-literal values.You may link to a provenance statement by URI. If no URI exist use a blank node describing the provenance (See [Guidelines for the creation of content for provenance](/mediawiki_wiki/User_Guide/Creating_Metadata#Guidelines_for_the_creation_of_content_for_provenance))
 
-**Has Range:** [http://purl.org/dc/terms/ProvenanceStatement](http://purl.org/dc/terms/ProvenanceStatement) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsProvenance_RDF "User Guide/Publishing Metadata"))
+**Has Range:** [http://purl.org/dc/terms/ProvenanceStatement](http://purl.org/dc/terms/ProvenanceStatement) (For further information see [**RDF Examples**](/mediawiki_wiki/User_Guide/Publishing_Metadata#dctermsProvenance_RDF))
 
 **Obligation:** O
 
@@ -146,5 +146,5 @@ Properties used with an Item
 
 * * *
 
-Go back to [AP for Bibliographic Text Resources](/mediawiki_wiki/DCLib_AP#Description_Set_Profile_of_the_DC-Lib_AP_for_Bibliographic_Text_Resources "DCLib AP")
+Go back to [AP for Bibliographic Text Resources](/mediawiki_wiki/DCLib_AP#Description_Set_Profile_of_the_DC-Lib_AP_for_Bibliographic_Text_Resources)
 

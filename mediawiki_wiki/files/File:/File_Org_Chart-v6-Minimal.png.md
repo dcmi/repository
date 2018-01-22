@@ -76,7 +76,7 @@ Retrieved from " [/mediawiki_wiki/File:Org\_Chart-v6-Minimal.png](/mediawiki_wik
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Org_Chart-v6-Minimal.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Org_Chart-v6-Minimal.png.html)
 - [Discussion](/index.php?title=File_talk:Org_Chart-v6-Minimal.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Org_Chart-v6-Minimal.png&action=edit "This page is protected.
 You can view its source [e]")

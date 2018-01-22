@@ -11,8 +11,8 @@ aliases:
 - "/mediawiki_wiki/Glossary_Entry.html"
 ---
 
-- Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
-- Return to [Dublin to Drupal Content Types Index](/mediawiki_wiki/DublinToDrupal_Project#Content_Types "DublinToDrupal Project")
+- Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project)
+- Return to [Dublin to Drupal Content Types Index](/mediawiki_wiki/DublinToDrupal_Project#Content_Types)
 
 <table id="toc" class="toc">
   <tr>
@@ -33,7 +33,7 @@ aliases:
 
 DCMI maintains a glossary (under editorial control by one or more glossary contributors and editors). Work is currently underway to consolidate [new](/mediawiki_wiki/Glossary) and [old](http://dublincore.org/documents/usageguide/glossary.shtml) versions of the existing glossary.
 
-We would like to publish glossary terms as Drupal nodes that can be commented on by the DCMI community members as well as simple like/dislike [<img alt="Thumbs up-down image" src="/mediawiki_wiki/images/ThumbsupThumbsdown.jpg" width="50" height="39">](/mediawiki_wiki/File:ThumbsupThumbsdown.jpg "Thumbs up-down image")
+We would like to publish glossary terms as Drupal nodes that can be commented on by the DCMI community members as well as simple like/dislike [<img alt="Thumbs up-down image" src="/mediawiki_wiki/images/ThumbsupThumbsdown.jpg" width="50" height="39">](/mediawiki_wiki/File:ThumbsupThumbsdown.jpg)
 
 ## Fields 
 

@@ -24,7 +24,7 @@ Jump to: navigation, search
 
  [<img alt="" src="/skins/common/images/icons/fileicon-pdf.png" width="120" height="120">](/mediawiki_wiki/files/Webinar-DCMI-3-4-2015-COMBINED.pdf)
 
-[Webinar-DCMI-3-4-2015-COMBINED.pdf](/mediawiki_wiki/files/Webinar-DCMI-3-4-2015-COMBINED.pdf "Webinar-DCMI-3-4-2015-COMBINED.pdf")‎(file size: 3.14 MB, MIME type: application/pdf)
+[Webinar-DCMI-3-4-2015-COMBINED.pdf](/mediawiki_wiki/files/Webinar-DCMI-3-4-2015-COMBINED.pdf)‎(file size: 3.14 MB, MIME type: application/pdf)
 
 Stellato & Carracciolo presentation
 
@@ -77,7 +77,7 @@ Retrieved from " [/mediawiki_wiki/File:Webinar-DCMI-3-4-2015-COMBINED.pdf](/medi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Webinar-DCMI-3-4-2015-COMBINED.pdf.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Webinar-DCMI-3-4-2015-COMBINED.pdf.html)
 - [Discussion](/index.php?title=File_talk:Webinar-DCMI-3-4-2015-COMBINED.pdf&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Webinar-DCMI-3-4-2015-COMBINED.pdf&action=edit "This page is protected.
 You can view its source [e]")

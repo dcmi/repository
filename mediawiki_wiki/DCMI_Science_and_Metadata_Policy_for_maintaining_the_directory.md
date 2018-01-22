@@ -56,5 +56,5 @@ This page has been accessed 150,097 times.
 
 * * *
 
-Return to [DCMI Science and Metadata ~ Research Data Alliance (RDA) Metadata Directory](/mediawiki_wiki/DCMI_Science_and_Metadata_%7E_Research_Data_Alliance_(RDA)_Metadata_Directory "DCMI Science and Metadata ~ Research Data Alliance (RDA) Metadata Directory")
+Return to [DCMI Science and Metadata ~ Research Data Alliance (RDA) Metadata Directory](/mediawiki_wiki/DCMI_Science_and_Metadata_%7E_Research_Data_Alliance_(RDA)_Metadata_Directory)
 

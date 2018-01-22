@@ -17,6 +17,6 @@ This page has been accessed 29,895 times.
 
 **Drafts**
 
-- [Objectives](/mediawiki_wiki/Objectives "Objectives")
+- [Objectives](/mediawiki_wiki/Objectives)
 - [Activities](/index.php?title=Activities&action=edit&redlink=1 "Activities (page does not exist)")
 

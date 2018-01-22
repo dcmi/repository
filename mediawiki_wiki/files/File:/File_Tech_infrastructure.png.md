@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:Tech\_infrastructure.png](/mediawiki_wiki
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:Tech_infrastructure.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:Tech_infrastructure.png.html)
 - [Discussion](/index.php?title=File_talk:Tech_infrastructure.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:Tech_infrastructure.png&action=edit "This page is protected.
 You can view its source [e]")

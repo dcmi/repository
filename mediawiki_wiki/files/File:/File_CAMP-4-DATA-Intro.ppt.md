@@ -22,7 +22,7 @@ Jump to: navigation, search
 - File history
 - File links
 
-[CAMP-4-DATA-Intro.ppt](/mediawiki_wiki/files/CAMP-4-DATA-Intro.ppt "CAMP-4-DATA-Intro.ppt")‎(file size: 501 KB, MIME type: application/vnd.ms-powerpoint)
+[CAMP-4-DATA-Intro.ppt](/mediawiki_wiki/files/CAMP-4-DATA-Intro.ppt)‎(file size: 501 KB, MIME type: application/vnd.ms-powerpoint)
 
 **Warning** : This file type may contain malicious code. By executing it, your system may be compromised.
 <!-- 
@@ -70,7 +70,7 @@ Retrieved from " [/mediawiki_wiki/File:CAMP-4-DATA-Intro.ppt](/mediawiki_wiki/fi
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:CAMP-4-DATA-Intro.ppt.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:CAMP-4-DATA-Intro.ppt.html)
 - [Discussion](/index.php?title=File_talk:CAMP-4-DATA-Intro.ppt&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:CAMP-4-DATA-Intro.ppt&action=edit "This page is protected.
 You can view its source [e]")

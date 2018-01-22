@@ -80,7 +80,7 @@ Retrieved from " [/mediawiki_wiki/File:EC\_logo.png](/mediawiki_wiki/files/File:
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:EC_logo.png.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:EC_logo.png.html)
 - [Discussion](/index.php?title=File_talk:EC_logo.png&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:EC_logo.png&action=edit "This page is protected.
 You can view its source [e]")

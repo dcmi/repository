@@ -78,7 +78,7 @@ Retrieved from " [/mediawiki_wiki/File:MediaWiki-Level2Head.jpg](/mediawiki_wiki
 
 ##### Views
 
-- [File](/mediawiki_wiki/files/File:/File:MediaWiki-Level2Head.jpg.html "View the file page [c]")
+- [File](/mediawiki_wiki/files/File:/File:MediaWiki-Level2Head.jpg.html)
 - [Discussion](/index.php?title=File_talk:MediaWiki-Level2Head.jpg&action=edit&redlink=1 "Discussion about the content page [t]")
 - [View source](/index.php?title=File:MediaWiki-Level2Head.jpg&action=edit "This page is protected.
 You can view its source [e]")

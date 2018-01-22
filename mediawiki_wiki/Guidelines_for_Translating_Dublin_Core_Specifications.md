@@ -148,7 +148,7 @@ Depending on local requirements the following DCMI documents and web pages may a
 <pre>&lt;Add table&gt;
 </pre>
 
-[Media:Prioritised\_list\_of\_DCMI\_Specs.pdf‎](/mediawiki_wiki/files/Prioritised_list_of_DCMI_Specs.pdf "Prioritised list of DCMI Specs.pdf")
+[Media:Prioritised\_list\_of\_DCMI\_Specs.pdf‎](/mediawiki_wiki/files/Prioritised_list_of_DCMI_Specs.pdf)
 
 ## Publishing translations of DCMI specifications 
 

@@ -120,7 +120,7 @@ This page has been accessed 2,020 times.
 
 Attendees introduce themselves. Backgrounds include academia, IT development and deployment, software, LIS, metadata design and application.
 
-### Initial walk-through of [Inventory of Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Inventory "Learning Linked Data Inventory") 
+### Initial walk-through of [Inventory of Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Inventory) 
 <dl>
 <dt>Tom</dt>
 <dd> Intended Results from today and tomorrow:
@@ -181,7 +181,7 @@ Attendees introduce themselves. Backgrounds include academia, IT development and
 </dd>
 </dl>
 
-### Start focusing on top-level [Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Inventory "Learning Linked Data Inventory") 
+### Start focusing on top-level [Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Inventory) 
 <dl>
 <dt>Tom</dt>
 <dd> Let's stop looking at the details at focus on the top-level headings: "Reading linked data", in turn divided into "grammar", "vocabulary", and "syntax (abstract and concrete)". To what extent is this about understanding the concepts underlying Linked Data as opposed to actually creating Linked Data applications? Do we assume we are aiming at giving the intended audience a high-level understanding of RDF?
@@ -926,7 +926,7 @@ Is anyone suggesting this not be a separate category?
 </dl>
 
 
-[<img alt="Singapore Framework" src="/mediawiki_wiki/images/Singapore-framework-newdiagram.jpg" width="924" height="553">](/mediawiki_wiki/images/Singapore-framework-newdiagram.jpg "Singapore Framework")
+[<img alt="Singapore Framework" src="/mediawiki_wiki/images/Singapore-framework-newdiagram.jpg" width="924" height="553">](/mediawiki_wiki/images/Singapore-framework-newdiagram.jpg)
 
 <dl>
 <dt>Tom</dt>

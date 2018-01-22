@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 8 Oct 2012, at 12:24.  
 This page has been accessed 515 times.
 
-Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project "DublinToDrupal Project")
+Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project)
 
 <table id="toc" class="toc">
   <tr>

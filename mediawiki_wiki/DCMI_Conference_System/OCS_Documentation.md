@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 24 Mar 2012, at 10:58.  
 This page has been accessed 2,055 times.
 
-See also [OCS Howto](/mediawiki_wiki/DCMI_Conferences/OCS_Howto "DCMI Conferences/OCS Howto")
+See also [OCS Howto](/mediawiki_wiki/DCMI_Conferences/OCS_Howto)
 
 <table id="toc" class="toc">
   <tr>
