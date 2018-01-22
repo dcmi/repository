@@ -82,7 +82,7 @@ As of November 2014, Dan is maintaining Schema.org mappings in [17]. If we wante
 
 2012-01-09: [Agenda](https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind1201&L=dc-architecture&P=31754), Report: Informal call to discuss the practicalities of issues tracking and publication.
 
-2011-12-12: [Agenda](/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212 "Schema.org Alignment/Telecon 20111212"), [Report](/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212_Report): Methods and process for deciding alignments; start to discuss alignment proposal.
+2011-12-12: [Agenda](/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212), [Report](/mediawiki_wiki/Schema.org_Alignment/Telecon_20111212_Report): Methods and process for deciding alignments; start to discuss alignment proposal.
 
 ### Purpose and objectives 
 

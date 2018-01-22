@@ -15,11 +15,11 @@ aliases:
 This page was last modified on 22 November 2016, at 19:07.  
 This page has been accessed 131,687 times.
 
-[<img alt="LD4PE logo" src="/mediawiki_wiki/images/Ld4pe.png" width="100" height="99">](/mediawiki_wiki/images/Ld4pe.png "LD4PE logo") [<img alt="IMLS logo" src="/images/4/4e/IMLS.png" width="250" height="102">](http://www.imls.gov/ "IMLS logo") [<img alt="LD4PE Exploratorium logo" src="/mediawiki_wiki/images/Ld4peLogo.png" width="250" height="51">](/mediawiki_wiki/images/Ld4peLogo.png)
+[<img alt="LD4PE logo" src="/mediawiki_wiki/images/Ld4pe.png" width="100" height="99">](/mediawiki_wiki/images/Ld4pe.png) [<img alt="IMLS logo" src="/images/4/4e/IMLS.png" width="250" height="102">](http://www.imls.gov/) [<img alt="LD4PE Exploratorium logo" src="/mediawiki_wiki/images/Ld4peLogo.png" width="250" height="51">](/mediawiki_wiki/images/Ld4peLogo.png)
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>

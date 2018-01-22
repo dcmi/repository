@@ -48,7 +48,7 @@ This page has been accessed 47,027 times.
 
 ### Related Resources 
 
-NOTE: Use browser back button, "Return to..." links take you to the [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook") and not [Advisory Board](/mediawiki_wiki/Exec_Committee/AB_Comm-TG).
+NOTE: Use browser back button, "Return to..." links take you to the [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook) and not [Advisory Board](/mediawiki_wiki/Exec_Committee/AB_Comm-TG).
 
 1. Bylaws: [Annual Meeting & Conference](http://dublincore.org/about/bylaws/index.shtml#article4d)
 2. Bylaws: [Regional Meetings](http://dublincore.org/about/bylaws/index.shtml#article4e)

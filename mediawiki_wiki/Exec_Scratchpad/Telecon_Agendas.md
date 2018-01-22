@@ -108,7 +108,7 @@ Return to [Exec Scratchpad](/index.php?title=Exec_Scratchpad&action=edit&redlink
     - Juha's email and ISO representation (Leif)
     - Process documentation
       - Process documentation on wiki: edit=Exec team; view=public
-      - [Conference Host Guidelines](/mediawiki_wiki/Conference_Guidelines/Host_Guidelines "Conference Guidelines/Host Guidelines"); [Master Planning Calendar](/mediawiki_wiki/Conference_Guidelines/Master_Calendar);
+      - [Conference Host Guidelines](/mediawiki_wiki/Conference_Guidelines/Host_Guidelines); [Master Planning Calendar](/mediawiki_wiki/Conference_Guidelines/Master_Calendar);
       - Invoicing information; bank transfer requirements 
     - Subordinate work units (name & authority to create)
     - Letter agreements

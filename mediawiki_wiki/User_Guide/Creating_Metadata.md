@@ -19,7 +19,7 @@ This page has been accessed 221,673 times.
 - Contributer: Tom Baker 
 - Contributor: Pete Johnston
 
-Go to [User Guide](/mediawiki_wiki/User_Guide "User Guide") | [Publishing Metadata](/mediawiki_wiki/User_Guide/Publishing_Metadata)
+Go to [User Guide](/mediawiki_wiki/User_Guide) | [Publishing Metadata](/mediawiki_wiki/User_Guide/Publishing_Metadata)
 
 <table id="toc" class="toc">
   <tr>

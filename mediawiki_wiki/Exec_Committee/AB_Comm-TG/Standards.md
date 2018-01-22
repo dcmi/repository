@@ -41,7 +41,7 @@ This page has been accessed 74,256 times.
 
 ### Related Resources 
 
-NOTE: Use browser back button, "Return to..." links take you to the [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook") and not [Advisory Board](/mediawiki_wiki/Exec_Committee/AB_Comm-TG).
+NOTE: Use browser back button, "Return to..." links take you to the [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook) and not [Advisory Board](/mediawiki_wiki/Exec_Committee/AB_Comm-TG).
 
 1. [DCMI Usage Committee](/mediawiki_wiki/DCMI_Technical_Board/usage)
 2. Current (over specified) Usage Board processes within the <u>current narrower context of its charge</u> can be found at [http://dublincore.org/usage/documents/process/](http://dublincore.org/usage/documents/process/)

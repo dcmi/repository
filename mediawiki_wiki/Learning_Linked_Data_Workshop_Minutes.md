@@ -93,7 +93,7 @@ The guiding metaphor was that of a "language lab" for learning Linked Data and, 
 
 The backgrounds of attendees included: academia, IT development and deployment, software, LIS, metadata design and application.
 
-A [first-draft inventory of Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Inventory "Learning Linked Data Inventory") was discussed point-by-point and refined into a [second-draft inventory of Learning Topics associated with supporting Software Tools](/mediawiki_wiki/Learning_Linked_Data_Topics).
+A [first-draft inventory of Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Inventory) was discussed point-by-point and refined into a [second-draft inventory of Learning Topics associated with supporting Software Tools](/mediawiki_wiki/Learning_Linked_Data_Topics).
 
 ## Scope of workshop discussion 
 

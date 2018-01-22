@@ -15,7 +15,7 @@ aliases:
 
 * * *
 
-##### [[edit](http://wiki.dublincore.org/index.php?title=Template:LrmiTG&action=edit&section=T-1 "Template:LrmiTG")] [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook) 
+##### [[edit](http://wiki.dublincore.org/index.php?title=Template:LrmiTG&action=edit&section=T-1 "Template:LrmiTG")] [Handbook](/mediawiki_wiki/DCMI_Handbook): [Table of Contents](/mediawiki_wiki/DCMI_Handbook) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>

@@ -44,7 +44,7 @@ This page has been accessed 439,387 times.
 
 The [Dublin Core Metadata Initiative](http://dublincore.org) ("DCMI") is an open organization engaged in the development of interoperable metadata standards that support a broad range of purposes and business models. DCMI's activities include work on architecture and modeling, discussions and collaborative work in DCMI Communities and DCMI Task Groups, annual conferences and workshops, standards liaison, and educational efforts to promote widespread acceptance of metadata standards and practices.
 
-This is the MediaWiki for DCMI. Wiki users can check whether they have a Username by consulting [Special:ListUsers](/mediawiki_wiki/Special:ListUsers "Special:ListUsers"); if you have a Username but have forgotten your password, you can ask for a new password to be sent by email. Please contact [User:WikiSysop](/mediawiki_wiki/User:WikiSysop) for more information or to request a Username.
+This is the MediaWiki for DCMI. Wiki users can check whether they have a Username by consulting [Special:ListUsers](/mediawiki_wiki/Special:ListUsers); if you have a Username but have forgotten your password, you can ask for a new password to be sent by email. Please contact [User:WikiSysop](/mediawiki_wiki/User:WikiSysop) for more information or to request a Username.
 
 ### DCMI governance 
 

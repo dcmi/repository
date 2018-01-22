@@ -116,7 +116,7 @@ References:
 - 2011-05-02: New wiki pages of the DCMI User Documentation Task Group announced to the list (superseding [Glossary Task Group wiki](http://sites.google.com/site/dublincoreglossaryupdate/Home)).
 - 2011-03-16: [Progress report](/mediawiki_wiki/User_Documentation/Progress_Report_20110316)
 - 2010-12-04. [User Documentation Workplan](/mediawiki_wiki/User_Documentation/Workplan_20101204).
-- 2010-10-21: [Face-to-face meeting](/mediawiki_wiki/User_Documentation/Meeting_20101021 "User Documentation/Meeting 20101021") in Pittsburgh [Agenda](http://dublincore.org/groups/userguide/2010/2010-10-21.dcglossary-dcuser-agenda.html), [Meeting packet](/mediawiki_wiki/files/Meeting_Packet_20101021.pdf), [Report](http://dublincore.org/groups/userguide/2010/2010-10-21.dcglossary-meeting-report.html)
+- 2010-10-21: [Face-to-face meeting](/mediawiki_wiki/User_Documentation/Meeting_20101021) in Pittsburgh [Agenda](http://dublincore.org/groups/userguide/2010/2010-10-21.dcglossary-dcuser-agenda.html), [Meeting packet](/mediawiki_wiki/files/Meeting_Packet_20101021.pdf), [Report](http://dublincore.org/groups/userguide/2010/2010-10-21.dcglossary-meeting-report.html)
 - 2010-05-07: Glossary/User Guide telecon - [Agenda](http://dublincore.org/groups/userguide/2010/2010-05-07.dcglossary-telecon-agenda.html), [report](http://dublincore.org/groups/userguide/2010/2010-05-07.dcglossary-telecon-report.html)
 - 2010-10-21: Glossary/User Guide telecon - [Agenda](http://dublincore.org/groups/userguide/2010/2010-09-28.dcglossary-telecon-agenda.html)
 - 2010-08-30, DCMI User Guide Task Group established 

@@ -17,7 +17,7 @@ This page has been accessed 404,316 times.
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook "DCMI Handbook"): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -329,7 +329,7 @@ _If you want to join or leave, just add or remove your name here. Write Tom Bake
 
 ## Activities
 
-DC2014: [Pre-conference](/mediawiki_wiki/RDF_Application_Profiles/dc2014 "RDF Application Profiles/dc2014"); [Special Session](/mediawiki_wiki/RDF_Application_Profiles/dc2014specialsession)
+DC2014: [Pre-conference](/mediawiki_wiki/RDF_Application_Profiles/dc2014); [Special Session](/mediawiki_wiki/RDF_Application_Profiles/dc2014specialsession)
 
 SWIB2014: [Pre-conference](/mediawiki_wiki/RDF_Application_Profiles/swib2014)
 

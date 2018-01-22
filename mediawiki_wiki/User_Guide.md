@@ -17,7 +17,7 @@ This page has been accessed 333,749 times.
 - Contributer: Tom Baker 
 - Contributor: Pete Johnston
 
-Go to [Creating Metadata](/mediawiki_wiki/User_Guide/Creating_Metadata.md "User Guide/Creating Metadata") | [Publishing Metadata](/mediawiki_wiki/User_Guide/Publishing_Metadata.md)
+Go to [Creating Metadata](/mediawiki_wiki/User_Guide/Creating_Metadata.md) | [Publishing Metadata](/mediawiki_wiki/User_Guide/Publishing_Metadata.md)
 
 <table id="toc" class="toc">
   <tr>
