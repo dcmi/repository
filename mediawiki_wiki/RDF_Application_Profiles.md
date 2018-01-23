@@ -109,7 +109,7 @@ Task Group Calls:
 
 Task Group Calls:
 
-- 2016-03-12 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-12-03-2016) [Minutes](/index.php?title=RDF_Application_Profiles/minutes20160312&action=edit&redlink=1 "RDF\_Application\_Profiles/minutes20160312 (page does not exist)")
+- 2016-03-12 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-12-03-2016)
 - 2016-02-25 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-25-02-2016) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20160225.md)
 - 2016-02-11 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-11-02-2016) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20160211.md)
 - 2016-01-28 [Raw notes](https://etherpad.wikimedia.org/p/dcmi-ap-28-01-2016) [Minutes](/mediawiki_wiki/RDF_Application_Profiles/minutes20160128.md)
