@@ -55,39 +55,39 @@ Membership in the Task Group is open to anyone interested in helping to edit and
 
 #### Frequently Asked Questions (FAQ) 
 
-- [Frequently Asked Questions (FAQ)](/mediawiki_wiki/FAQ)
+- [Frequently Asked Questions (FAQ)](/mediawiki_wiki/FAQ.md)
 
 #### DCMI Glossary 
 
-- ["DCMI Glossary"](/mediawiki_wiki/Glossary) - with links to mini-essays for disambiguation or historical context on:
-  - [Application profiles](/mediawiki_wiki/Glossary/Application_Profile) - needs to be written
-  - [DCMI Abstract Model](/mediawiki_wiki/Glossary/DCMI_Abstract_Model)
-  - [DCMI Metadata Terms](/mediawiki_wiki/Glossary/DCMI_Metadata_Terms)
-  - [Description Set Profile](/mediawiki_wiki/Glossary/Description_Set_Profile)
-  - [Domains and Ranges](/mediawiki_wiki/Glossary/Domains_and_Ranges)
-  - ["Dublin Core" - disambiguation page](/mediawiki_wiki/Glossary/Dublin_Core)
-  - ["Dumb-down Principle"](/mediawiki_wiki/Glossary/Dumb-Down_Principle)
-  - ["Encoding Scheme"](/mediawiki_wiki/Glossary/Encoding_Scheme)
-  - [Metadata Enrichment](/mediawiki_wiki/Glossary/Metadata_Enrichment)
-  - ["Metadata Registry"](/mediawiki_wiki/Glossary/Metadata_Registry)
-  - [Namespace Policy](/mediawiki_wiki/Glossary/Namespace_Policy)
-  - [One-to-One Principle](/mediawiki_wiki/Glossary/One-to-One_Principle)
+- ["DCMI Glossary"](/mediawiki_wiki/Glossary.md) - with links to mini-essays for disambiguation or historical context on:
+  - [Application profiles](/mediawiki_wiki/Glossary/Application_Profile.md) - needs to be written
+  - [DCMI Abstract Model](/mediawiki_wiki/Glossary/DCMI_Abstract_Model.md)
+  - [DCMI Metadata Terms](/mediawiki_wiki/Glossary/DCMI_Metadata_Terms.md)
+  - [Description Set Profile](/mediawiki_wiki/Glossary/Description_Set_Profile.md)
+  - [Domains and Ranges](/mediawiki_wiki/Glossary/Domains_and_Ranges.md)
+  - ["Dublin Core" - disambiguation page](/mediawiki_wiki/Glossary/Dublin_Core.md)
+  - ["Dumb-down Principle"](/mediawiki_wiki/Glossary/Dumb-Down_Principle.md)
+  - ["Encoding Scheme"](/mediawiki_wiki/Glossary/Encoding_Scheme.md)
+  - [Metadata Enrichment](/mediawiki_wiki/Glossary/Metadata_Enrichment.md)
+  - ["Metadata Registry"](/mediawiki_wiki/Glossary/Metadata_Registry.md)
+  - [Namespace Policy](/mediawiki_wiki/Glossary/Namespace_Policy.md)
+  - [One-to-One Principle](/mediawiki_wiki/Glossary/One-to-One_Principle.md)
   - [Open-World Mindset](/index.php?title=Glossary/Open-World_Mindset&action=edit&redlink=1 "Glossary/Open-World Mindset (page does not exist)")
-  - [Resource Description Framework](/mediawiki_wiki/Glossary/RDF)
-  - [Record Paradigm and Graph Paradigm](/mediawiki_wiki/Glossary/Record_Paradigm_and_Graph_Paradigm)
-  - [Resource Discovery and Resource Description](/mediawiki_wiki/Glossary/Resource_Discovery)
-  - ["Schema" - the word](/mediawiki_wiki/Glossary/Schema)
-  - ["Simple Dublin Core"](/mediawiki_wiki/Glossary/Simple_Dublin_Core)
+  - [Resource Description Framework](/mediawiki_wiki/Glossary/RDF.md)
+  - [Record Paradigm and Graph Paradigm](/mediawiki_wiki/Glossary/Record_Paradigm_and_Graph_Paradigm.md)
+  - [Resource Discovery and Resource Description](/mediawiki_wiki/Glossary/Resource_Discovery.md)
+  - ["Schema" - the word](/mediawiki_wiki/Glossary/Schema.md)
+  - ["Simple Dublin Core"](/mediawiki_wiki/Glossary/Simple_Dublin_Core.md)
 
 #### User Guide 
 
-- ["Using Dublin Core"](/mediawiki_wiki/User_Guide) - a user guide
-  - ["Creating Metadata"](/mediawiki_wiki/User_Guide/Creating_Metadata)
-  - ["Publishing Metadata"](/mediawiki_wiki/User_Guide/Publishing_Metadata)
+- ["Using Dublin Core"](/mediawiki_wiki/User_Guide.md) - a user guide
+  - ["Creating Metadata"](/mediawiki_wiki/User_Guide/Creating_Metadata.md)
+  - ["Publishing Metadata"](/mediawiki_wiki/User_Guide/Publishing_Metadata.md)
 
 ### Workplan 
 
-Note: this revised workplan is based on the workplan of [4 December 2010](/mediawiki_wiki/User_Documentation/Workplan_20101204).
+Note: this revised workplan is based on the workplan of [4 December 2010](/mediawiki_wiki/User_Documentation/Workplan_20101204.md).
 
 - Migration to new wiki (DONE):
   - DONE: Migrate the draft User Guide <sup id="cite_ref-0" class="reference"><a href="#cite_note-0">[1]</a></sup><sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[2]</a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[3]</a></sup> from the COLAB MediaWiki to the new DCMI MediaWiki and continue editing there (Tom and Stefanie). These documents will constitute a test case of the new DCMI MediaWiki as a publication platform.
@@ -114,9 +114,9 @@ References:
 ### Meetings and telecons 
 
 - 2011-05-02: New wiki pages of the DCMI User Documentation Task Group announced to the list (superseding [Glossary Task Group wiki](http://sites.google.com/site/dublincoreglossaryupdate/Home)).
-- 2011-03-16: [Progress report](/mediawiki_wiki/User_Documentation/Progress_Report_20110316)
-- 2010-12-04. [User Documentation Workplan](/mediawiki_wiki/User_Documentation/Workplan_20101204).
-- 2010-10-21: [Face-to-face meeting](/mediawiki_wiki/User_Documentation/Meeting_20101021) in Pittsburgh [Agenda](http://dublincore.org/groups/userguide/2010/2010-10-21.dcglossary-dcuser-agenda.html), [Meeting packet](/mediawiki_wiki/files/Meeting_Packet_20101021.pdf), [Report](http://dublincore.org/groups/userguide/2010/2010-10-21.dcglossary-meeting-report.html)
+- 2011-03-16: [Progress report](/mediawiki_wiki/User_Documentation/Progress_Report_20110316.md)
+- 2010-12-04. [User Documentation Workplan](/mediawiki_wiki/User_Documentation/Workplan_20101204.md).
+- 2010-10-21: [Face-to-face meeting](/mediawiki_wiki/User_Documentation/Meeting_20101021.md) in Pittsburgh [Agenda](http://dublincore.org/groups/userguide/2010/2010-10-21.dcglossary-dcuser-agenda.html), [Meeting packet](/mediawiki_wiki/files/Meeting_Packet_20101021.pdf), [Report](http://dublincore.org/groups/userguide/2010/2010-10-21.dcglossary-meeting-report.html)
 - 2010-05-07: Glossary/User Guide telecon - [Agenda](http://dublincore.org/groups/userguide/2010/2010-05-07.dcglossary-telecon-agenda.html), [report](http://dublincore.org/groups/userguide/2010/2010-05-07.dcglossary-telecon-report.html)
 - 2010-10-21: Glossary/User Guide telecon - [Agenda](http://dublincore.org/groups/userguide/2010/2010-09-28.dcglossary-telecon-agenda.html)
 - 2010-08-30, DCMI User Guide Task Group established 

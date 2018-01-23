@@ -17,7 +17,7 @@ This page has been accessed 189,849 times.
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook.md): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -85,7 +85,7 @@ This page has been accessed 189,849 times.
 #### Scope, Work & Reporting 
 
 - (TBD) _Extended description of the jurisdiction, key activities and responsibilities of the Committee_
-- _Reporting:_ The Executive Committee Chair reports to the Governing Board in a manner set out in the [Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures)
+- _Reporting:_ The Executive Committee Chair reports to the Governing Board in a manner set out in the [Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures.md)
 
 * * *
 
@@ -98,9 +98,9 @@ This page has been accessed 189,849 times.
 
 #### Key DCMI Handbook Pages 
 
-- [Governing Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures)
+- [Governing Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures.md)
 - [Committee Policies & Procedures](/index.php?title=Exec_Committee/procedures&action=edit&redlink=1 "Exec Committee/procedures (page does not exist)")
-- [DCMI Master Administrative Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar)
+- [DCMI Master Administrative Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar.md)
 
 * * *
 
@@ -112,7 +112,7 @@ This page has been accessed 189,849 times.
 
 #### Scratchpad (Committee Members only) 
 
-- [General](/mediawiki_wiki/Exec_Committee/scratchpad/general)
+- [General](/mediawiki_wiki/Exec_Committee/scratchpad/general.md)
 
 * * *
 

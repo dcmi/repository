@@ -19,7 +19,7 @@ This page has been accessed 179,538 times.
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook.md): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><strong class="selflink">Governing Board</strong> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -72,8 +72,8 @@ This page has been accessed 179,538 times.
 
 #### Committees 
 
-- [Membership & Finance Committee](/mediawiki_wiki/DCMI_Governing_Board/finance)
-- [Nominations & Bylaws Committee](/mediawiki_wiki/DCMI_Governing_Board/nominations)
+- [Membership & Finance Committee](/mediawiki_wiki/DCMI_Governing_Board/finance.md)
+- [Nominations & Bylaws Committee](/mediawiki_wiki/DCMI_Governing_Board/nominations.md)
 
 * * *
 
@@ -137,15 +137,15 @@ _**For full information on Board Members and their Affiliations, visit the [Boar
 
 #### Board Actions 
 
-- [2015 Actions](/mediawiki_wiki/DCMI_Governing_Board/actions14)
-- [2014 Actions](/mediawiki_wiki/DCMI_Governing_Board/actions14)
+- [2015 Actions](/mediawiki_wiki/DCMI_Governing_Board/actions14.md)
+- [2014 Actions](/mediawiki_wiki/DCMI_Governing_Board/actions14.md)
 
 * * *
 
 #### Key DCMI Handbook Pages 
 
-- [Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures)
-- [DCMI Master Administrative Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar)
+- [Board Policies & Procedures](/mediawiki_wiki/DCMI_Governing_Board/procedures.md)
+- [DCMI Master Administrative Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar.md)
 
 * * *
 
@@ -157,7 +157,7 @@ _**For full information on Board Members and their Affiliations, visit the [Boar
 
 ### Scratchpad (Board members only)
 
-- [General](/mediawiki_wiki/DCMI_Governing_Board/scratchpad/general)
+- [General](/mediawiki_wiki/DCMI_Governing_Board/scratchpad/general.md)
 
 * * *
 

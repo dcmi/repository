@@ -358,9 +358,9 @@ The following DSP allows for two kinds of resources: a single "document", and mu
 </pre>
 ## Higher level examples from library and archive communities 
 
-- Example: [Publication statement](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement)
-- Example: [Name heading](/mediawiki_wiki/DCAM_Revision_Example_Name_Heading)
-- Example: [Core elements](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements)
-- Example: [Resource descriptions](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions)
-- [ISBD description set profile](/mediawiki_wiki/DCAM_Revision_ISBD_DSP)
+- Example: [Publication statement](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement.md)
+- Example: [Name heading](/mediawiki_wiki/DCAM_Revision_Example_Name_Heading.md)
+- Example: [Core elements](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Core_Elements.md)
+- Example: [Resource descriptions](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Resource_Descriptions.md)
+- [ISBD description set profile](/mediawiki_wiki/DCAM_Revision_ISBD_DSP.md)
 

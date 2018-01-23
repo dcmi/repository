@@ -31,5 +31,5 @@ Scientific data as a resource type is very hard to characterize, not least becau
 5. Open discussion   
 6. Future charter and group activity
 
-<pre><b>Link back to DCMI Science and Metadata main page:</b> <a href="/mediawiki_wiki/DCMI_Science_And_Metadata.md" class="external free" rel="nofollow">/mediawiki_wiki/DCMI_Science_And_Metadata</a>
-</pre>
+<pre><b>Link back to DCMI Science and Metadata main page:</b> <a href="/mediawiki_wiki/DCMI_Science_And_Metadata.md" class="external free" rel="nofollow">/mediawiki_wiki/DCMI_Science_And_Metadata.md</a>
+</pre>.md

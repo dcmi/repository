@@ -70,8 +70,8 @@ DCMI’s Vocabulary Maintenance Officer and the Chief Information Officer, and o
 
 #### Resources 
 
-1. ↑ [Vocabulary Management System Task Group](/mediawiki_wiki/Vocabulary_Management_System_Task_Group)
-2. ↑ [Vocabulary Management System Functional Requirements](/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements)
-3. ↑ [Vocabulary Management System General Requirements](/mediawiki_wiki/Vocabulary_Management_System_General_Requirements)
-4. ↑ [Schema.org Alignment](/mediawiki_wiki/Schema.org_Alignment)
+1. ↑ [Vocabulary Management System Task Group](/mediawiki_wiki/Vocabulary_Management_System_Task_Group.md)
+2. ↑ [Vocabulary Management System Functional Requirements](/mediawiki_wiki/Vocabulary_Management_System_Functional_Requirements.md)
+3. ↑ [Vocabulary Management System General Requirements](/mediawiki_wiki/Vocabulary_Management_System_General_Requirements.md)
+4. ↑ [Schema.org Alignment](/mediawiki_wiki/Schema.org_Alignment.md)
 

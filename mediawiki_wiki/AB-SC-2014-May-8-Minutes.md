@@ -82,7 +82,7 @@ A set of questions to be answered before next Steering Committee meeting: (this 
 ## III. Communications: 
 
 - • Committees can use mailing list for communications. Some are monitored. 
-- • Wiki should be used for documenting the actions, meeting minutes, etc. Wiki location: [/mediawiki_wiki/DCMI\_Advisory\_Board](/mediawiki_wiki/DCMI_Advisory_Board)
+- • Wiki should be used for documenting the actions, meeting minutes, etc. Wiki location: [/mediawiki_wiki/DCMI\_Advisory\_Board](/mediawiki_wiki/DCMI_Advisory_Board.md)
 
 IV. Future meeting schedule:
 

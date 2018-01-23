@@ -88,29 +88,29 @@ To join or leave:
 
 ## Work in Progress Document (Go to sub-pages)
 
-### Functional requirements / [User Tasks](/mediawiki_wiki/User_Tasks) 
+### Functional requirements / [User Tasks](/mediawiki_wiki/User_Tasks.md) 
 
 - KOS Metadata Users
 - KOS Metadata Use Cases
 - NKOS AP Core Attributes in the context of user tasks
 
-### The Domain Model and the [Core Elements](/mediawiki_wiki/Core_Elements) Overview 
+### The Domain Model and the [Core Elements](/mediawiki_wiki/Core_Elements.md) Overview 
 
 - NKOS AP Domain Model
 - NKOS AP Entity Relationships
 - NKOS Attributes and Metadata Elements Overview
 
-### [NKOS AP Elements](/mediawiki_wiki/NKOS_AP_Elements) Defined 
+### [NKOS AP Elements](/mediawiki_wiki/NKOS_AP_Elements.md) Defined 
 
 - Work
 - Expression
 - Manifestation
 
-### A [KOS example](/mediawiki_wiki/KOS_example) 
+### A [KOS example](/mediawiki_wiki/KOS_example.md) 
 
 - Modeling the ASIST Thesaurus' different versions and translations, using the Entity Relationships defined.
 
-### [NKOS Vocabularies](/mediawiki_wiki/NKOS_Vocabularies) 
+### [NKOS Vocabularies](/mediawiki_wiki/NKOS_Vocabularies.md) 
 
 - KOS Relation-Type Vocabulary 
 - KOS Types Vocabulary
@@ -199,9 +199,9 @@ Maja Zumer, University of Ljubljana, Slovenia [[[3]](http://www.ff.uni-lj.si/odd
 
 ### Meeting Notes 
 
-- 2013-10, [DC2013 NKOS Workshop](/mediawiki_wiki/DC2013_NKOS_Workshop), Lisbon, Portugal. Changes of proposed KOS-AP properties and KOS-Types vocabulary are reflected in the wiki.
-- 2011-10 [DC2012 NKOS Workshop](/mediawiki_wiki/DC2012_NKOS_Workshop), The Hague, The Netherlands \*\*
-- 2010-10 [DC2011 NKOS Workshop](/mediawiki_wiki/DC2011_NKOS_Workshop), Pittsburgh, PA, USA\*\*
+- 2013-10, [DC2013 NKOS Workshop](/mediawiki_wiki/DC2013_NKOS_Workshop.md), Lisbon, Portugal. Changes of proposed KOS-AP properties and KOS-Types vocabulary are reflected in the wiki.
+- 2011-10 [DC2012 NKOS Workshop](/mediawiki_wiki/DC2012_NKOS_Workshop.md), The Hague, The Netherlands \*\*
+- 2010-10 [DC2011 NKOS Workshop](/mediawiki_wiki/DC2011_NKOS_Workshop.md), Pittsburgh, PA, USA\*\*
 
 ### References 
 

@@ -17,7 +17,7 @@ This page has been accessed 109,536 times.
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook.md): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -96,7 +96,7 @@ The commitment applies first and foremost to [DCMI Metadata Terms](http://dublin
 
 Agreements with other vocabulary maintainers, such as the [Agreement between DCMI and the FOAF Project](http://dublincore.org/documents/2011/05/02/dcmi-foaf/) <sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[4]</a></sup>, also fall under the remit of the Usage Committee.
 
-Resources permitting, the Usage Committee may extend its scope to other technical specifications subject to the procedures set out in the [Technical Board's Process Manual](/mediawiki_wiki/DCMI_Handbook), the relevant sections of the DCMI Bylaws (as revised from time-to-time), and the oversight of the Governing Board.
+Resources permitting, the Usage Committee may extend its scope to other technical specifications subject to the procedures set out in the [Technical Board's Process Manual](/mediawiki_wiki/DCMI_Handbook.md), the relevant sections of the DCMI Bylaws (as revised from time-to-time), and the oversight of the Governing Board.
 
 Compared to charge of the existing Usage Board, the charge of the new Usage Committee is slightly broader inasmuch it:
 
@@ -115,7 +115,7 @@ The UC may address matters and proposals within its charge that originate throug
 1. the ongoing need to systematically assess and maintain existing specifications;
 2. available and projected resources needed to create and maintain new specifications.
 
-**Reporting:** The Usage Committee Chair reports to the Technical Committee in a manner set out in the [Board Policies & Procedures](/mediawiki_wiki/DCMI_Technical_Board/procedures)
+**Reporting:** The Usage Committee Chair reports to the Technical Committee in a manner set out in the [Board Policies & Procedures](/mediawiki_wiki/DCMI_Technical_Board/procedures.md)
 
 * * *
 
@@ -129,7 +129,7 @@ The UC may address matters and proposals within its charge that originate throug
 
 #### Key DCMI Handbook Pages 
 
-- [Committee Policies & Procedures](/mediawiki_wiki/DCMI_Technical_Board/procedures)
+- [Committee Policies & Procedures](/mediawiki_wiki/DCMI_Technical_Board/procedures.md)
 
 * * *
 

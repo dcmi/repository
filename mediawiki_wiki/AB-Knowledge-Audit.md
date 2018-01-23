@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 12 November 2014, at 20:37.  
 This page has been accessed 31,187 times.
 
-[Return to Advisory Board](/mediawiki_wiki/DCMI_Advisory_Board)
+[Return to Advisory Board](/mediawiki_wiki/DCMI_Advisory_Board.md)
 
 **DCMI Communities (com), Task Groups (TG) and Products (Actions needed)**
 

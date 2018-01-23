@@ -42,37 +42,37 @@ How does DCMI do webinars? <a href="/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars
 
 
 *  DCMI Governance, Administration & Advisory Bodies 
-  *  DCMI Organizational Structure: [Wiki](/mediawiki_wiki/DCMI_Handbook/orgStructure)
+  *  DCMI Organizational Structure: [Wiki](/mediawiki_wiki/DCMI_Handbook/orgStructure.md)
   *  DCMI Bylaws [Website](http://dublincore.org/about/bylaws/index.shtml)
   *  Governing Bodies: 
-    *  Governing Board: [Website](http://dublincore.org/about/oversight/)[Wiki](/mediawiki_wiki/DCMI_Governing_Board)
-    *  Technical Board: [Website](http://dublincore.org/about/technicalBoard/)[Wiki](/mediawiki_wiki/DCMI_Technical_Board)
-    *  Advisory Board: [Website](http://dublincore.org/about/advisory/)[Wiki](/mediawiki_wiki/DCMI_Advisory_Board)
+    *  Governing Board: [Website](http://dublincore.org/about/oversight/)[Wiki](/mediawiki_wiki/DCMI_Governing_Board.md)
+    *  Technical Board: [Website](http://dublincore.org/about/technicalBoard/)[Wiki](/mediawiki_wiki/DCMI_Technical_Board.md)
+    *  Advisory Board: [Website](http://dublincore.org/about/advisory/)[Wiki](/mediawiki_wiki/DCMI_Advisory_Board.md)
   *  Management Bodies: 
-    *  Executive Committee: [Wiki](/mediawiki_wiki/Exec_Committee)
-    *  Directorate: [Website](http://dublincore.org/about/executive/)[Wiki](/mediawiki_wiki/Exec_Committee/directorate)
+    *  Executive Committee: [Wiki](/mediawiki_wiki/Exec_Committee.md)
+    *  Directorate: [Website](http://dublincore.org/about/executive/)[Wiki](/mediawiki_wiki/Exec_Committee/directorate.md)
   *  Administrative Master Calendars 
-    *  [General Master Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar)
+    *  [General Master Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar.md)
     *  [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
-*  [Handbook: Amendment Policies & Procedures](/mediawiki_wiki/DCMI_Handbook/procedures)
+*  [Handbook: Amendment Policies & Procedures](/mediawiki_wiki/DCMI_Handbook/procedures.md)
 *  Standing Committees 
   *  Governing Board 
-    *  Membership & Finance Committee: [Wiki](/mediawiki_wiki/DCMI_Governing_Board/finance)
-    *  Nominations & Bylaws Committee: [Wiki](/mediawiki_wiki/DCMI_Governing_Board/nominations)
+    *  Membership & Finance Committee: [Wiki](/mediawiki_wiki/DCMI_Governing_Board/finance.md)
+    *  Nominations & Bylaws Committee: [Wiki](/mediawiki_wiki/DCMI_Governing_Board/nominations.md)
   *  Technical Board 
-    *  Usage Committee: [Wiki](/mediawiki_wiki/DCMI_Technical_Board/usage)
-    *  Standards & Liaisons Committee: [Wiki](/mediawiki_wiki/DCMI_Technical_Board/standards)
-    *  Community Specifications Committee: [Wiki](/mediawiki_wiki/DCMI_Technical_Board/specifications)
-    *  Infrastructure Advisory Committee: [Wiki](/mediawiki_wiki/DCMI_Technical_Board/infrastructure)
+    *  Usage Committee: [Wiki](/mediawiki_wiki/DCMI_Technical_Board/usage.md)
+    *  Standards & Liaisons Committee: [Wiki](/mediawiki_wiki/DCMI_Technical_Board/standards.md)
+    *  Community Specifications Committee: [Wiki](/mediawiki_wiki/DCMI_Technical_Board/specifications.md)
+    *  Infrastructure Advisory Committee: [Wiki](/mediawiki_wiki/DCMI_Technical_Board/infrastructure.md)
   *  Advisory Board 
-    *  Conferences & Meetings Committee: [Wiki](/mediawiki_wiki/DCMI_Advisory_Board/meetings)
-    *  Education & Outreach Committee: [Wiki](/mediawiki_wiki/DCMI_Advisory_Board/documentation)
-      - [LD4PE Task Group](/mediawiki_wiki/Pet/ld4pe)
+    *  Conferences & Meetings Committee: [Wiki](/mediawiki_wiki/DCMI_Advisory_Board/meetings.md)
+    *  Education & Outreach Committee: [Wiki](/mediawiki_wiki/DCMI_Advisory_Board/documentation.md)
+      - [LD4PE Task Group](/mediawiki_wiki/Pet/ld4pe.md)
 - Communities of the Advisory Board 
 *  Accessibility Community
 *  AsiaPac Community
 *  Education Community 
-  *  [LRMI Standing Task Group](/mediawiki_wiki/AB-Comm/ed/LRMI/TG)
+  *  [LRMI Standing Task Group](/mediawiki_wiki/AB-Comm/ed/LRMI/TG.md)
 *  Government Community
 *  Kernel Community
 *  Knowledge Management Community
@@ -92,12 +92,12 @@ How does DCMI do webinars? <a href="/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars
 - Public Guidelines 
 *  Host Guidelines: 
   *  Annual Conference & Meeting: [Wiki](/mediawiki_wiki/DCMI_Handbook/Int_Conf/Host_Guidelines/)
-  *  Regional Meeting: [Wiki](/mediawiki_wiki/DCMI_Handbook/Reg_Conf/Host_Guidelines)
-*  Webinars Presenter Guidelines: [Wiki](/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars)
+  *  Regional Meeting: [Wiki](/mediawiki_wiki/DCMI_Handbook/Reg_Conf/Host_Guidelines.md)
+*  Webinars Presenter Guidelines: [Wiki](/mediawiki_wiki/DCMI_Handbook/ASIST_Webinars.md)
 - DCMI Communication Channels
 
 * [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
-* [WebEx Procedures for DCMI Chairs](/mediawiki_wiki/DCMI_Handbook/procedures/webex)
+* [WebEx Procedures for DCMI Chairs](/mediawiki_wiki/DCMI_Handbook/procedures/webex.md)
 *  Announcement (listserves)
 *  RSS Feed
 *  Twitter

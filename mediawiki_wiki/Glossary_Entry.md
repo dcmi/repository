@@ -11,8 +11,8 @@ aliases:
 - "/mediawiki_wiki/Glossary_Entry.html"
 ---
 
-- Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project)
-- Return to [Dublin to Drupal Content Types Index](/mediawiki_wiki/DublinToDrupal_Project#Content_Types)
+- Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project.md)
+- Return to [Dublin to Drupal Content Types Index](/mediawiki_wiki/DublinToDrupal_Project#Content_Types.md)
 
 <table id="toc" class="toc">
   <tr>
@@ -31,15 +31,15 @@ aliases:
 
 ## Glossary Entry (Content Type) 
 
-DCMI maintains a glossary (under editorial control by one or more glossary contributors and editors). Work is currently underway to consolidate [new](/mediawiki_wiki/Glossary) and [old](http://dublincore.org/documents/usageguide/glossary.shtml) versions of the existing glossary.
+DCMI maintains a glossary (under editorial control by one or more glossary contributors and editors). Work is currently underway to consolidate [new](/mediawiki_wiki/Glossary.md) and [old](http://dublincore.org/documents/usageguide/glossary.shtml) versions of the existing glossary.
 
 We would like to publish glossary terms as Drupal nodes that can be commented on by the DCMI community members as well as simple like/dislike [<img alt="Thumbs up-down image" src="/mediawiki_wiki/images/ThumbsupThumbsdown.jpg" width="50" height="39">](/mediawiki_wiki/File:ThumbsupThumbsdown.jpg)
 
 ## Fields 
 
 1. Term (required)
-2. Definition (required) (see definition of [Application Profile](/mediawiki_wiki/Glossary))
-3. Discussion (optional) (see discussion of [Application Profile](/mediawiki_wiki/Glossary/Application_Profile))
+2. Definition (required) (see definition of [Application Profile](/mediawiki_wiki/Glossary.md))
+3. Discussion (optional) (see discussion of [Application Profile](/mediawiki_wiki/Glossary/Application_Profile.md))
 4. See Also: (required where an expanded/contracted phrasing of the same term exists in the glossary)
 5. References (optional)
 <!-- 

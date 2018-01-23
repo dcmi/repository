@@ -60,7 +60,7 @@ Agenda:
 
 This meeting is intended to be accessible to all, including those who have not previously attended DCMI events. The participation of newcomers and non-experts is encouraged. If you have any immediate questions about the meeting, please contact Stefanie Rühle (sruehle(a)sub.uni-goettingen.de)
 
-**Web:** [/mediawiki_wiki/Cultural\_Heritage\_Metadata\_Task\_Group](/mediawiki_wiki/Cultural_Heritage_Metadata_Task_Group)
+**Web:** [/mediawiki_wiki/Cultural\_Heritage\_Metadata\_Task\_Group](/mediawiki_wiki/Cultural_Heritage_Metadata_Task_Group.md)
 
 **Mailing list:** [http://www.jiscmail.ac.uk/DC-CULTURAL-TG](http://www.jiscmail.ac.uk/DC-CULTURAL-TG)
 

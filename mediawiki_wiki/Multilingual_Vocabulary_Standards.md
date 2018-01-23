@@ -43,13 +43,13 @@ This page has been accessed 134,504 times.
 
 # Telecons and meetings 
 
-2012-02-15 [Report](/mediawiki_wiki/Multilingual_Vocabulary_Standards/TeleconReport-20120215)
+2012-02-15 [Report](/mediawiki_wiki/Multilingual_Vocabulary_Standards/TeleconReport-20120215.md)
 
-2012-03-21 [Agenda](/mediawiki_wiki/Multilingual_Vocabulary_Standards/TeleconReport-20120321)
+2012-03-21 [Agenda](/mediawiki_wiki/Multilingual_Vocabulary_Standards/TeleconReport-20120321.md)
 
 # Relevant links 
 
-[Multilingual Vocabulary Issues List](/mediawiki_wiki/Multilingual_Vocabulary_Standards/Multilingual_Vocabulary_Issues_List)
+[Multilingual Vocabulary Issues List](/mediawiki_wiki/Multilingual_Vocabulary_Standards/Multilingual_Vocabulary_Issues_List.md)
 
 ## Links to existing standards and projects to be reviewed 
 
@@ -85,5 +85,5 @@ Most recent first:
 
 [MSW 2010: 1st International Workshop on the Multilingual Semantic Web](http://ceur-ws.org/Vol-571/) (Raleigh, North Carolina, USA, April 27th, 2010)
 
-Back to the [Vocabulary Management Community main page](/mediawiki_wiki/DCMI_Vocabulary_Management_Community)
+Back to the [Vocabulary Management Community main page](/mediawiki_wiki/DCMI_Vocabulary_Management_Community.md)
 

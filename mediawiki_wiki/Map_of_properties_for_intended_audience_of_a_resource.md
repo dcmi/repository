@@ -136,5 +136,5 @@ uncrda:intendedAudience rdfs:subPropertyOf uncisbd:P1091 .
 
 </pre>
 
-[Maps between bibliographic element sets](/mediawiki_wiki/Maps_between_bibliographic_element_sets)
+[Maps between bibliographic element sets](/mediawiki_wiki/Maps_between_bibliographic_element_sets.md)
 

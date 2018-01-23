@@ -19,9 +19,9 @@ This page links to maps, or sets of mappings, between two or more value vocabula
 
 ## Maps 
 
-- [Map of value vocabularies for frequency of issue of continuing resources](/mediawiki_wiki/Map_of_value_vocabularies_for_frequency_of_issue_of_continuing_resources)
+- [Map of value vocabularies for frequency of issue of continuing resources](/mediawiki_wiki/Map_of_value_vocabularies_for_frequency_of_issue_of_continuing_resources.md)
 
 ## Further information 
 
-[Maps between bibliographic vocabularies](/mediawiki_wiki/Maps_between_bibliographic_vocabularies)
+[Maps between bibliographic vocabularies](/mediawiki_wiki/Maps_between_bibliographic_vocabularies.md)
 

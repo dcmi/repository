@@ -62,7 +62,7 @@ Not mandatory:
 - [a] Applies only to musical works.
 - [b] Applies only to cartographic works.
 
-Note the intersection of ISBD elements with [Publication statement example](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement).
+Note the intersection of ISBD elements with [Publication statement example](/mediawiki_wiki/DCAM_Revision_High_Level_Example_Publication_Statement.md).
 
-Back to [DCAM revision design patterns](/mediawiki_wiki/DCAM_Revision_Design_Patterns).
+Back to [DCAM revision design patterns](/mediawiki_wiki/DCAM_Revision_Design_Patterns.md).
 

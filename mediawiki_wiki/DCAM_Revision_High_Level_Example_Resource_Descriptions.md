@@ -57,5 +57,5 @@ This "record" is related to a graph of ISBD triples with an instance of Resource
 
 ISBD’s Resource and FRBR’s Work, Expression, Manifestation, and Item classes may be more appropriately considered to be sub-classes of the "Named graph" class (without needing the alter their basic semantics). Each graph is a set of properties whose domain is the class.
 
-Back to [DCAM revision design patterns](/mediawiki_wiki/DCAM_Revision_Design_Patterns)
+Back to [DCAM revision design patterns](/mediawiki_wiki/DCAM_Revision_Design_Patterns.md)
 

@@ -82,7 +82,7 @@ In this regard the Profile will describe
 - Functional Requirements - the functions that the DC-Library Application Profile is designed to support 
 - Entity-Relationship Model - the basic entities described by the application profile and their fundamental relationships 
 - Description Set Profile - the terms with their templates and constraints that are required to fulfil the Functional Requirements 
-- [Properties2FRBR](/mediawiki_wiki/Properties2FRBR) - a mapping of the the properties of the Description Set Profile to FRBR-Entities. 
+- [Properties2FRBR](/mediawiki_wiki/Properties2FRBR.md) - a mapping of the the properties of the Description Set Profile to FRBR-Entities. 
 
 Target user groups of this profile are:
 
@@ -213,10 +213,10 @@ According to Singapore Framework the Description Set Profile defines
 
 The Description Set Profile of the DC-Lib AP for Bibliographic Text Resources
 
-- provides the [DCLib classes](/mediawiki_wiki/DCLib_AP/DCLib_Classes) - **classes** , whose instances are the subjects in subject-predicate-object triples describing these instances.
-- declares the [properties of a Bibliographic Text Resource](/mediawiki_wiki/DCLib_AP/Bibliographic_Resource_Properties) - **properties** used as predicate of the subject-predicate-object triple describing instances of the class bibliographicTextResource.
-- declares the [properties of an Item](/mediawiki_wiki/DCLib_AP/Item_Properties) - **properties** used as predicate of the subject-predicate-object triple describing instances of the class Item.
-- defines [Encoding Schemes](/mediawiki_wiki/DCLib_AP/Encoding_Schemes) - **syntax encoding schemes** and **vocabulary encoding schemes** constraining values used as an object in the subject-predicate-object triple discribing instances of the class bibliographicTextResource or of the class Item. 
+- provides the [DCLib classes](/mediawiki_wiki/DCLib_AP/DCLib_Classes.md) - **classes** , whose instances are the subjects in subject-predicate-object triples describing these instances.
+- declares the [properties of a Bibliographic Text Resource](/mediawiki_wiki/DCLib_AP/Bibliographic_Resource_Properties.md) - **properties** used as predicate of the subject-predicate-object triple describing instances of the class bibliographicTextResource.
+- declares the [properties of an Item](/mediawiki_wiki/DCLib_AP/Item_Properties.md) - **properties** used as predicate of the subject-predicate-object triple describing instances of the class Item.
+- defines [Encoding Schemes](/mediawiki_wiki/DCLib_AP/Encoding_Schemes.md) - **syntax encoding schemes** and **vocabulary encoding schemes** constraining values used as an object in the subject-predicate-object triple discribing instances of the class bibliographicTextResource or of the class Item. 
 
 Terms used in this Application Profile are taken from the following **namespaces** :
 

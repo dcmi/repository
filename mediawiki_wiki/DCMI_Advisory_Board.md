@@ -17,7 +17,7 @@ This page has been accessed 144,643 times.
 
 * * *
 
-##### [Handbook](/mediawiki_wiki/DCMI_Handbook): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
+##### [Handbook](/mediawiki_wiki/DCMI_Handbook.md): [Table of Contents](/mediawiki_wiki/DCMI_Handbook/) 
 <dl>
 <dd> ► <i><a href="/mediawiki_wiki/DCMI_Governing_Board.md" title="DCMI Governing Board">Governing Board</a> committees:</i> <a href="/mediawiki_wiki/DCMI_Governing_Board/finance.md" title="DCMI Governing Board/finance">Membership &amp; Finance</a> ◘ <a href="/mediawiki_wiki/DCMI_Governing_Board/nominations.md" title="DCMI Governing Board/nominations">Nominations &amp; Bylaws</a> 
 </dd>
@@ -62,7 +62,7 @@ This page has been accessed 144,643 times.
 
 * * *
 
-##### [Steering Committee Meetings](/mediawiki_wiki/DCMI_Advisory_Board/procedures/meetings) (Schedule/Agendas/Minutes) 
+##### [Steering Committee Meetings](/mediawiki_wiki/DCMI_Advisory_Board/procedures/meetings.md) (Schedule/Agendas/Minutes) 
 
 - [<img alt="+ symbol" src="/mediawiki_wiki/images/Plus.jpg" width="36" height="21">](/mediawiki_wiki/images/Plus.jpg) [DCMI Administrative WebEx Calendar](https://www.google.com/calendar/embed?title=DCMI%20WebEx%20Calendar&height=600&wkst=2&bgcolor=%23ff6600&src=99h1apmg3h74clla4ufl6a009g%40group.calendar.google.com&color=%23853104&ctz=America%2FNew_York)
 
@@ -168,23 +168,23 @@ Advisory Board
 #### Key DCMI Handbook Pages 
 
 - [Board Policies & Procedures](/index.php?title=DCMI_Advisory_Board/procedures&action=edit&redlink=1 "DCMI Advisory Board/procedures (page does not exist)")
-- [DCMI Master Administrative Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar)
-- [Community & Task Group Chairs](/mediawiki_wiki/DCMI_Advisory_Board/communityTGchairs)
+- [DCMI Master Administrative Calendar](/mediawiki_wiki/DCMI_Handbook/Administrative_Calendar.md)
+- [Community & Task Group Chairs](/mediawiki_wiki/DCMI_Advisory_Board/communityTGchairs.md)
 
 * * *
 
 #### Board Resources 
 
-- AB Annual Meeting Notes [AB-AM-Minutes](/mediawiki_wiki/AB-AM-Minutes)
-- AB Steering Committee Meeting Notes [AB-SC-Minutes](/mediawiki_wiki/AB-SC-Minutes)
-- AB Education & Outreach Committee (EOC) Meeting Notes [AB-EOC-Minutes](/mediawiki_wiki/AB-EOC-Minutes)
-- AB Knowledge Audit (as of end of 2013) [AB-Knowledge-Audit](/mediawiki_wiki/AB-Knowledge-Audit)
+- AB Annual Meeting Notes [AB-AM-Minutes](/mediawiki_wiki/AB-AM-Minutes.md)
+- AB Steering Committee Meeting Notes [AB-SC-Minutes](/mediawiki_wiki/AB-SC-Minutes.md)
+- AB Education & Outreach Committee (EOC) Meeting Notes [AB-EOC-Minutes](/mediawiki_wiki/AB-EOC-Minutes.md)
+- AB Knowledge Audit (as of end of 2013) [AB-Knowledge-Audit](/mediawiki_wiki/AB-Knowledge-Audit.md)
 
 * * *
 
 #### Scratchpad (Chairs only) 
 
-- [General](/mediawiki_wiki/DCMI_Advisory_Board/scratchpad/general)
+- [General](/mediawiki_wiki/DCMI_Advisory_Board/scratchpad/general.md)
 
 * * *
 

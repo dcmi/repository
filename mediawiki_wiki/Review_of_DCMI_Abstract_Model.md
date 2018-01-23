@@ -69,7 +69,7 @@ This page has been accessed 167,918 times.
 
 Creator &nbsp;: Tom Baker  
 Creator &nbsp;: Pete Johnston  
-Identifier: [/mediawiki_wiki/Review\_of\_DCMI\_Abstract\_Model](/mediawiki_wiki/Review_of_DCMI_Abstract_Model)  
+Identifier: [/mediawiki_wiki/Review\_of\_DCMI\_Abstract\_Model](/mediawiki_wiki/Review_of_DCMI_Abstract_Model.md)  
 Originally written: 2010-10-15  
 Revised: 2011-05-12
 
@@ -283,13 +283,13 @@ The question does not affect just the Abstract Model, but the suite of related s
 
 It is worth noting that the Dublin Core "grammar" for "statements" of circa 2000, pictured in Figure 4, was in part an early attempt to popularize the notion of metadata as being based on meaningful "statements" by way of analogy to commonly understood notions of natural-language grammar.
 
- [<img alt='Figure 4: Early "grammar" of Dublin Core "statements" (circa 2000)' src="/mediawiki_wiki/images/Grammar2000.jpg" width="547" height="358">](/mediawiki_wiki/images/Grammar2000.jpg "Figure 4: Early "grammar" of Dublin Core)
+ [<img alt='Figure 4: Early "grammar" of Dublin Core "statements" (circa 2000)' src="/mediawiki_wiki/images/Grammar2000.jpg" width="547" height="358">](/mediawiki_wiki/images/Grammar2000.jpg .md"Figure 4: Early "grammar" of Dublin Core)
 
 **Figure 4: Early "grammar" of Dublin Core "statements" (circa 2000)**
 
 As part of the model, a rough mapping of the Dublin Core "grammar" to RDF "statements" was provided, as pictured in Figure 5.
 
- [<img alt='Figure 5: Mapping of early Dublin Core "grammar" to RDF statements (circa 2000)' src="/mediawiki_wiki/images/GrammarAndRDF.jpg" width="568" height="358">](/mediawiki_wiki/images/GrammarAndRDF.jpg "Figure 5: Mapping of early Dublin Core)
+ [<img alt='Figure 5: Mapping of early Dublin Core "grammar" to RDF statements (circa 2000)' src="/mediawiki_wiki/images/GrammarAndRDF.jpg" width="568" height="358">](/mediawiki_wiki/images/GrammarAndRDF.jpg .md"Figure 5: Mapping of early Dublin Core)
 
 **Figure 5: Mapping of early Dublin Core "grammar" to RDF statements (circa 2000)**
 

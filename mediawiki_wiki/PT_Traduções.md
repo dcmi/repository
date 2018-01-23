@@ -11,7 +11,7 @@ tags: []
 
 ## Traduções em Português 
 
-[Interoperability Levels for Dublin Core Metadata](/mediawiki_wiki/PT_Tradu%C3%A7%C3%B5es/N%C3%ADveis_de_Interoperabilidade)
+[Interoperability Levels for Dublin Core Metadata](/mediawiki_wiki/PT_Tradu%C3%A7%C3%B5es/N%C3%ADveis_de_Interoperabilidade.md)
 
 <!-- 
 NewPP limit report

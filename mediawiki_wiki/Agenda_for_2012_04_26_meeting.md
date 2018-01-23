@@ -15,9 +15,9 @@ aliases:
 This page was last modified on 4 May 2012, at 11:25.  
 This page has been accessed 137,331 times.
 
-### [DCMI Vocabulary Management Community](/mediawiki_wiki/DCMI_Vocabulary_Management_Community), first meeting: April 26, 2012
+### [DCMI Vocabulary Management Community](/mediawiki_wiki/DCMI_Vocabulary_Management_Community.md), first meeting: April 26, 2012
 
-The DCMI Vocabulary Management Community will be holding its inaugural Meeting in London on April 26, 2012, in conjunction with and immediately following the [DCMI Bibliographic Metadata Task Group](/mediawiki_wiki/Bibliographic_Metadata_Task_Group#). The meetings will be followed on April 27 by a seminar examining the impact of the London Meeting of 2007, which brought DCMI and the Joint Steering Committee for Development of RDA (JSC) together to build the RDA Vocabularies. The DCMI meetings are free and open to all (although registration is required for attendance, and is now closed).
+The DCMI Vocabulary Management Community will be holding its inaugural Meeting in London on April 26, 2012, in conjunction with and immediately following the [DCMI Bibliographic Metadata Task Group](/mediawiki_wiki/Bibliographic_Metadata_Task_Group#.md). The meetings will be followed on April 27 by a seminar examining the impact of the London Meeting of 2007, which brought DCMI and the Joint Steering Committee for Development of RDA (JSC) together to build the RDA Vocabularies. The DCMI meetings are free and open to all (although registration is required for attendance, and is now closed).
 
 - 2:00 pm (14:00): Welcome and short agenda review
 
@@ -40,7 +40,7 @@ Discussion will focus on identification of priority issues in this area, and whe
 - [1] [http://blog.hubjects.com/2012/03/lov-stories-part-1-commons.html](http://blog.hubjects.com/2012/03/lov-stories-part-1-commons.html)
 - [2] [http://blog.hubjects.com/2012/03/lov-stories-part-2-gardeners-and.html](http://blog.hubjects.com/2012/03/lov-stories-part-2-gardeners-and.html)
 - [3] [http://blog.hubjects.com/2012/04/lov-stories-part-3-vocabularies-as.html](http://blog.hubjects.com/2012/04/lov-stories-part-3-vocabularies-as.html)
-- [4] [/mediawiki_wiki/DC-2011\_Vocabulary\_Special\_Session/Meeting\_Report](/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/Meeting_Report)
-- [5] [/mediawiki_wiki/Multilingual\_Vocabulary\_Standards](/mediawiki_wiki/Multilingual_Vocabulary_Standards)
+- [4] [/mediawiki_wiki/DC-2011\_Vocabulary\_Special\_Session/Meeting\_Report](/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/Meeting_Report.md)
+- [5] [/mediawiki_wiki/Multilingual\_Vocabulary\_Standards](/mediawiki_wiki/Multilingual_Vocabulary_Standards.md)
 - [6] [https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind1204&L=DC-RDA&P=5240](https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind1204&L=DC-RDA&P=5240)
 

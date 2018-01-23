@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 3 July 2012, at 19:20.  
 This page has been accessed 129,575 times.
 
-Go back to DCMI\_NKOS\_Task\_Group [[1]](/mediawiki_wiki/DCMI_NKOS_Task_Group) Main Page
+Go back to DCMI\_NKOS\_Task\_Group [[1]](/mediawiki_wiki/DCMI_NKOS_Task_Group.md) Main Page
 
 # KOS as intellectual products -- How can they be modelled 
 

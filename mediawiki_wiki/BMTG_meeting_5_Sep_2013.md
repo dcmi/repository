@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 5 September 2013, at 16:08.  
 This page has been accessed 64,344 times.
 
-[Bibliographic Metadata Task Group](/mediawiki_wiki/Bibliographic_Metadata_Task_Group) meeting, 5 September 2013
+[Bibliographic Metadata Task Group](/mediawiki_wiki/Bibliographic_Metadata_Task_Group.md) meeting, 5 September 2013
 
 ## Announcement 
 

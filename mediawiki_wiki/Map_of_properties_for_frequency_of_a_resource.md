@@ -30,7 +30,7 @@ m2100:M00Fre aggregates the properties representing MARC 21 fixed field codes fo
 
 The map can be used to process data triples using the properties with "intelligent dumb-down".
 
-See the [Map of value vocabularies for frequency of issue of continuing resources](/mediawiki_wiki/Map_of_value_vocabularies_for_frequency_of_issue_of_continuing_resources) for vocabulary encoding schemes for potential values of these properties.
+See the [Map of value vocabularies for frequency of issue of continuing resources](/mediawiki_wiki/Map_of_value_vocabularies_for_frequency_of_issue_of_continuing_resources.md) for vocabulary encoding schemes for potential values of these properties.
 
 <pre>
 #
@@ -120,5 +120,5 @@ dct:accrualPeriodicity rdfs:subPropertyOf uncrda:frequency .
 
 </pre>
 
-[Maps between bibliographic element sets](/mediawiki_wiki/Maps_between_bibliographic_element_sets)
+[Maps between bibliographic element sets](/mediawiki_wiki/Maps_between_bibliographic_element_sets.md)
 

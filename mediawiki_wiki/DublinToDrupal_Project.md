@@ -106,7 +106,7 @@ Some DCMI groups are of long, active duration (e.g., communities). Others groups
 
 The only direct relationship between DCMI's current static document repository website and the activity of groups to be enabled in the new Drupal site is that the current repository's documents were authored by various groups. This relationship between generated assets (e.g., documents etc.) and the DCMI groups that generate those assets <u>is not apparent</u> on the current website.
 
-The goal of the new community forum is <u>not</u> to blindly migrate [all of the content](/mediawiki_wiki/DublinToDrupal_Project/Pages_to_Migrate) from the current document repository. Instead, we will be selectively moving key content to the community forum by tying that content to the authoring groups based on importance and need. It is likely that archival documents <u>may</u> remain on the document repository site and be referenced from the community forum. Decisions on which resources get moved from the document repository to the community forum will likely be an evolving proposition over the next 18 months to 2 year. New assets (documents etc.) going forward will be generated through the new community forum website using well-defined content types (see the Work Activity functionality in the image above and described below).
+The goal of the new community forum is <u>not</u> to blindly migrate [all of the content](/mediawiki_wiki/DublinToDrupal_Project/Pages_to_Migrate.md) from the current document repository. Instead, we will be selectively moving key content to the community forum by tying that content to the authoring groups based on importance and need. It is likely that archival documents <u>may</u> remain on the document repository site and be referenced from the community forum. Decisions on which resources get moved from the document repository to the community forum will likely be an evolving proposition over the next 18 months to 2 year. New assets (documents etc.) going forward will be generated through the new community forum website using well-defined content types (see the Work Activity functionality in the image above and described below).
 
 ## Categories of Group Activity ('A', 'B', & 'C') 
 
@@ -218,12 +218,12 @@ Suggestive terms:
 
 ## Content Types 
 
-- [Formatted Specification](/mediawiki_wiki/Recommendation)
-- [Best Practice](/mediawiki_wiki/DublinToDrupal_Project/Best_Practice)
-- [Glossary entry](/mediawiki_wiki/Glossary_Entry)
-- [FAQ entry](/mediawiki_wiki/FAQ_Entry)
+- [Formatted Specification](/mediawiki_wiki/Recommendation.md)
+- [Best Practice](/mediawiki_wiki/DublinToDrupal_Project/Best_Practice.md)
+- [Glossary entry](/mediawiki_wiki/Glossary_Entry.md)
+- [FAQ entry](/mediawiki_wiki/FAQ_Entry.md)
 - Watch Activities Content Types
-  - [Calendar Event](/mediawiki_wiki/Calendar_Event)
+  - [Calendar Event](/mediawiki_wiki/Calendar_Event.md)
   - [Tool](/index.php?title=DublinToDrupal_Project/Tool&action=edit&redlink=1 "DublinToDrupal Project/Tool (page does not exist)")
   - [Data Repository](/index.php?title=DublinToDrupal_Project/DataStores&action=edit&redlink=1 "DublinToDrupal Project/DataStores (page does not exist)")
   - [Project](/index.php?title=DublinToDrupal_Project/Projects&action=edit&redlink=1 "DublinToDrupal Project/Projects (page does not exist)")
@@ -233,11 +233,11 @@ Suggestive terms:
 - [Groups](/index.php?title=EntityTypes&action=edit&redlink=1 "EntityTypes (page does not exist)")
 - [Group Status](/index.php?title=EntityStatus&action=edit&redlink=1 "EntityStatus (page does not exist)")
 - ['Formatted' Specification Document Types](/index.php?title=ResourceType&action=edit&redlink=1 "ResourceType (page does not exist)")
-- [Document Status](/mediawiki_wiki/ResourceStatus)
+- [Document Status](/mediawiki_wiki/ResourceStatus.md)
 
 - [Memberships](/index.php?title=Memberships&action=edit&redlink=1 "Memberships (page does not exist)")
-- [Domains](/mediawiki_wiki/Domains)
-- [Domain Concepts](/mediawiki_wiki/DomainConcepts)
+- [Domains](/mediawiki_wiki/Domains.md)
+- [Domain Concepts](/mediawiki_wiki/DomainConcepts.md)
 
 ## Drupal Commerce / Recurly 
 

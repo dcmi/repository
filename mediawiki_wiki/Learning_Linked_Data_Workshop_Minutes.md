@@ -62,16 +62,16 @@ This page has been accessed 731 times.
 <dd> <a href="/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Workshop_Minutes</a>
 </dd>
 <dt>Meeting agenda</dt>
-<dd> <a href="/mediawiki_wiki/Learning_Linked_Data/Agenda.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data/Agenda</a>
+<dd> <a href=.md"/mediawiki_wiki/Learning_Linked_Data/Agenda.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data/Agenda</a>
 </dd>
 <dt>Full meeting notes</dt>
-<dd> <a href="/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes</a>
+<dd> <a href=.md"/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes.md" class="external free" rel="nofollow">/mediawiki_wiki/Learning_Linked_Data_Workshop_Notes</a>
 </dd>
 <dt>Attendees</dt>
 <dd> Tom Baker, Joseph Tennis, Marjorie Hlava, Riley Stormer, Marcia Zeng, David Talley, Joseph Busch, Karen Wickett, Corey Harper, Ed Summers, Craig Willis, Diane Hillmann, Karen Coyle, Randy Orwin, Stuart Sutton, Mike Crandall
 </dd>
 <dt>
-<a href="/mediawiki_wiki/files/IMLSPlanningGrantNarrative.pdf" class="external text" rel="nofollow">IMLS Grant Narrative</a>
+<a href=.md"/mediawiki_wiki/files/IMLSPlanningGrantNarrative.pdf" class="external text" rel="nofollow">IMLS Grant Narrative</a>
 </dt>
 <dd>What we proposed to do in the grant (and in this key workshop).
 </dd>
@@ -93,7 +93,7 @@ The guiding metaphor was that of a "language lab" for learning Linked Data and, 
 
 The backgrounds of attendees included: academia, IT development and deployment, software, LIS, metadata design and application.
 
-A [first-draft inventory of Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Inventory) was discussed point-by-point and refined into a [second-draft inventory of Learning Topics associated with supporting Software Tools](/mediawiki_wiki/Learning_Linked_Data_Topics).
+A [first-draft inventory of Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Inventory.md) was discussed point-by-point and refined into a [second-draft inventory of Learning Topics associated with supporting Software Tools](/mediawiki_wiki/Learning_Linked_Data_Topics.md).
 
 ## Scope of workshop discussion 
 
@@ -108,7 +108,7 @@ The workshop began with a discussion of scope and objectives:
 
 ## Discussion of Learning Topics 
 
-The results of this discussion have been incorporated into the revised [Inventory of Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Topics), not repeated here. A few highlights:
+The results of this discussion have been incorporated into the revised [Inventory of Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Topics.md), not repeated here. A few highlights:
 
 - While the participants acknowledged that the "language" metaphor is particularly apt for RDF, and usefully underlines the nature of RDF as a model in contrast to specific data formats or concrete syntaxes, consistently using the language metaphor as upper-level headings for the Learning Topics (e.g., "grammar", "composition", "translation"...) risks imposing an interpretation not generally used in writing about RDF. It was agreed, therefore, that topic headings should use the native jargon of RDF. 
 - In the native jargon of RDF, "everything is just data". In other words, distinctions made in other fields between, say, "element sets", "value vocabularies", and "datasets" are not native to RDF. Indeed, ontologies, RDF vocabularies, and SKOS concept schemes are themselves considered data. The Inventory of Learning Topics -- and the narrative in which the future tool platform will be wrapped -- should therefore take care to label topics primarily with native-RDF terminology and point to corresponding terminology from other fields by way of explanation. Cloaking RDF in the terminology of, say, library science, may help students grasp concepts in the short term but will not prepare them well for working with RDF in other contexts. The participants felt that it is the job of instructors (not of the platform itself) to shape the material into a form that their students will grasp.
@@ -132,7 +132,7 @@ The results of this discussion have been incorporated into the revised [Inventor
 
 The workshop concluded by determining, for each Learning Topic, what type of software would be needed by instructors and learners. Each type of software was illustrated, where possible, with an exemplar.
 
-The resulting [inventory of Learning Topics and supporting Software Tools](/mediawiki_wiki/Learning_Linked_Data_Topics) provides the rough outline of a software tool platform needed by a "language lab" for learning Linked Data. The software tool platform is seen as providing a palette of functionality on which instructors can draw in realizing a particular course concept. The metaphor of a "kitchen" was proposed, the challenge being that of equipping a workspace with utensils that will allow cooks to prepare a wide range of "courses".
+The resulting [inventory of Learning Topics and supporting Software Tools](/mediawiki_wiki/Learning_Linked_Data_Topics.md) provides the rough outline of a software tool platform needed by a "language lab" for learning Linked Data. The software tool platform is seen as providing a palette of functionality on which instructors can draw in realizing a particular course concept. The metaphor of a "kitchen" was proposed, the challenge being that of equipping a workspace with utensils that will allow cooks to prepare a wide range of "courses".
 
 The original Inventory of Learning Topics tried to classify topics into "beginning", "intermediate", and "advanced" levels. The discussion ignored these as distinctions among \_topics\_ in acknowledgement of the diversity of backgrounds from which learners will approach the topics. In the discussion of tools, however, the participants recognized a rough distinction between tools usable by anyone with a mouse and tools that required command-line input or writing lines of code. It was therefore suggested that the software platform might need to distinguish tools by required IT competence.
 
@@ -144,7 +144,7 @@ ACTION 2012-02-03: Everyone, starting with Stuart, to write up a brief use case 
 
 ACTION 2012-02-03: Tom to revise the Inventory of Learning Topics, providing definitions of basic concepts where necessary.
 
-## Putting the [Inventory of Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Topics) out for comment 
+## Putting the [Inventory of Learning Topics](/mediawiki_wiki/Learning_Linked_Data_Topics.md) out for comment 
 
 - First, review within this group. As a next step, maybe selected reviewers, then go to a blast:
   - ALISE - ALA's Association for Library and Information Science Education

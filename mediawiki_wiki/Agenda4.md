@@ -51,5 +51,5 @@ This page has been accessed 67,894 times.
 
 #### Resources
 
-Back to [VocDay workshop in Lisbon](/mediawiki_wiki/VocDay_workshop_in_Lisbon)
+Back to [VocDay workshop in Lisbon](/mediawiki_wiki/VocDay_workshop_in_Lisbon.md)
 

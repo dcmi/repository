@@ -139,5 +139,5 @@ Email: ewestbrooks2 (at) unl (dot) edu
 58. Brian Westra, University of Oregon, [Science Data Services](http://libweb.uoregon.edu/faculty/SciDataInfo.html)  
 Email: bwestra (at) uoregon (dot) edu
 
-(back to [DC-SAM main](/mediawiki_wiki/DCMI_Science_And_Metadata))
+(back to [DC-SAM main](/mediawiki_wiki/DCMI_Science_And_Metadata.md))
 

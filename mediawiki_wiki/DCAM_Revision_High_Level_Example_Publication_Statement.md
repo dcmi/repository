@@ -83,7 +83,7 @@ I don't know if this changes the solution, but we should avoid assumptions such 
 
 The URIs given for MARC21 elements are placeholders.
 
-Back to [DCAM revision design patterns](/mediawiki_wiki/DCAM_Revision_Design_Patterns)
+Back to [DCAM revision design patterns](/mediawiki_wiki/DCAM_Revision_Design_Patterns.md)
 
 [kc: In MARC, at least, each "statement" must have at least one $a, one $b and one $c. If the information is missing (e.g. no place of publication), then you get a "$a no place of publication". In MARC, elements $a $b $c are repeatable, but the cataloging rules seem to require at least one of each: $a[S.l.&nbsp;:$bs.n.,$c15--?] .] [gd: In ISBD, place of publication uses the string "s.l." and name of publisher "s.n." if the information is missing. Note that the MARC example given by kc is using the Anglo-American Cataloguing Rules (not ISBD) which are generally being superseded by RDA; RDA also mandates the use of a default string for these two elements.]
 

@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 11 October 2015, at 00:57.  
 This page has been accessed 161,383 times.
 
-Go back to DCMI\_NKOS\_Task\_Group [[1]](/mediawiki_wiki/DCMI_NKOS_Task_Group) Main Page
+Go back to DCMI\_NKOS\_Task\_Group [[1]](/mediawiki_wiki/DCMI_NKOS_Task_Group.md) Main Page
 
 [updated 2015-10-03]
 
@@ -68,7 +68,7 @@ Go back to DCMI\_NKOS\_Task\_Group [[1]](/mediawiki_wiki/DCMI_NKOS_Task_Group) M
 
 - This Dublin Core Application Profile for describing KOS resources is developed based on the work the Networked Knowledge Organization Systems (NKOS) group " [http://nkos.slis.kent.edu/](http://nkos.slis.kent.edu/)" [[5]](http://nkos.slis.kent.edu/) members have done since 1998.
 
-[1] For the types of KOS resources, consult NKOS-Types vocabulary [[6]](/mediawiki_wiki/NKOS_Vocabularies).
+[1] For the types of KOS resources, consult NKOS-Types vocabulary [[6]](/mediawiki_wiki/NKOS_Vocabularies.md).
 
 ## Vocabulary Terms at a Glance
 <table width="98%" border="1" cellpadding="0" cellspacing="0">

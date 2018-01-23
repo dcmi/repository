@@ -17,8 +17,8 @@ This page has been accessed 25,033 times.
 
 **Project Links**
 
-- [Project home](/mediawiki_wiki/Learning_Linked_Data)
-- [IMLS proposal draft](/mediawiki_wiki/Implementation_Grant_Proposal)
+- [Project home](/mediawiki_wiki/Learning_Linked_Data.md)
+- [IMLS proposal draft](/mediawiki_wiki/Implementation_Grant_Proposal.md)
 <table id="toc" class="toc">
   <tr>
     <td>

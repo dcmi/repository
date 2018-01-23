@@ -17,7 +17,7 @@ This page has been accessed 537 times.
 
 [<img alt="LRMI logo" src="/mediawiki_wiki/images/LRMI_400w.png" width="300" height="119">](/mediawiki_wiki/images/LRMI_400w.png)
 
-[Task Group Home Page](/mediawiki_wiki/Pet/ld4pe)
+[Task Group Home Page](/mediawiki_wiki/Pet/ld4pe.md)
 
 <table id="toc" class="toc">
   <tr>

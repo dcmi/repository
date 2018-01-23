@@ -25,13 +25,13 @@ For RDF value vocabularies, the components are usually SKOS **concepts**.
 
 For RDF element set vocabularies, the components are **properties** or **classes**.
 
-- [Maps between bibliographic value vocabularies](/mediawiki_wiki/Maps_between_bibliographic_value_vocabularies)
-- [Maps between bibliographic element sets](/mediawiki_wiki/Maps_between_bibliographic_element_sets)
+- [Maps between bibliographic value vocabularies](/mediawiki_wiki/Maps_between_bibliographic_value_vocabularies.md)
+- [Maps between bibliographic element sets](/mediawiki_wiki/Maps_between_bibliographic_element_sets.md)
 
 ## Further information 
 
 - [Library Linked Data Incubator Group: Datasets, Value Vocabularies, and Metadata Element Sets](http://www.w3.org/2005/Incubator/lld/XGR-lld-vocabdataset-20111025/)
 - [A reconsideration of mapping in a semantic world](http://dcevents.dublincore.org/index.php/IntConf/dc-2011/paper/view/52/6)
 
-[Bibliographic Metadata Task Group](/mediawiki_wiki/Bibliographic_Metadata_Task_Group)
+[Bibliographic Metadata Task Group](/mediawiki_wiki/Bibliographic_Metadata_Task_Group.md)
 

@@ -54,9 +54,9 @@ Mailing list archive: [http://dublincore.org/pipermail/learninglinkeddata/](http
 
 ### Workshop in Seattle (2-3 February 2012) 
 
-- [Agenda](/mediawiki_wiki/Learning_Linked_Data/Agenda)
+- [Agenda](/mediawiki_wiki/Learning_Linked_Data/Agenda.md)
   - See Mike's email about [[hotel and travel](http://dublincore.org/pipermail/learninglinkeddata/2011-November/000007.html)], with [[clarifications regarding submission of receipts](http://dublincore.org/pipermail/learninglinkeddata/2011-November/000009.html)]
-  - List of [participants](/mediawiki_wiki/Learning_Linked_Data/Participants) with links to self-introductions, opening thoughts, statements of position...
+  - List of [participants](/mediawiki_wiki/Learning_Linked_Data/Participants.md) with links to self-introductions, opening thoughts, statements of position...
 - Reimbursement (where applicable):
   - [Reimbursement form](/index.php?title=Special:Upload&wpDestFile=TravelReimbursementLinkedDataWorkshop.xls "File:TravelReimbursementLinkedDataWorkshop.xls")
   - Economy airfare, hotel, and all meals (included with the workshop), airport transportation.
@@ -83,22 +83,22 @@ Mailing list archive: [http://dublincore.org/pipermail/learninglinkeddata/](http
 
 ### Workshop Preparation (before February 2012) 
 
-- [Inventory of Learning Objectives](/mediawiki_wiki/Learning_Linked_Data_Inventory)
+- [Inventory of Learning Objectives](/mediawiki_wiki/Learning_Linked_Data_Inventory.md)
   - Topics and skills related to Linked Data, the learning of which would be supported by the tool platform proposed in a deliverable of the Learning Linked Data Project.
 
-- [Prerequisites for learning Linked Data](/mediawiki_wiki/Learning_Linked_Data_Prerequisites)
+- [Prerequisites for learning Linked Data](/mediawiki_wiki/Learning_Linked_Data_Prerequisites.md)
   - Prerequisites for the study of the topics and skills listed in the Inventory of Learning Objectives.
 
-- [Task Objectives](/mediawiki_wiki/Learning_Linked_Data_Tasks) for Linked Data learners
+- [Task Objectives](/mediawiki_wiki/Learning_Linked_Data_Tasks.md) for Linked Data learners
   - Practical tasks enabled by learning things listed in the Inventory of Learning Objectives.
 
-- [Personas](/mediawiki_wiki/Learning_Linked_Data_Personas): Types of LD Learning Platform users
+- [Personas](/mediawiki_wiki/Learning_Linked_Data_Personas.md): Types of LD Learning Platform users
   - Types of audience to whom different topics and skills listed in the Inventory of Learning Objectives may be relevant.
 
-- [Tools](/mediawiki_wiki/Learning_Linked_Data_Tools) potentially usable in the LD Learning Platform
+- [Tools](/mediawiki_wiki/Learning_Linked_Data_Tools.md) potentially usable in the LD Learning Platform
   - Existing tools usable in support of learning objectives.
 
-- [Brainstorming](/mediawiki_wiki/Learning_Linked_Data/Brainstorming) page for capturing ideas (most of which are moved to the pages above)
+- [Brainstorming](/mediawiki_wiki/Learning_Linked_Data/Brainstorming.md) page for capturing ideas (most of which are moved to the pages above)
 
 ### Background on the project (as proposed in 2011) 
 
@@ -160,7 +160,7 @@ The intended results of this IMLS planning grant will therefore be:
 </dd>
 </dl>
 
-### Workshop [participants](/mediawiki_wiki/Learning_Linked_Data/Participants) 
+### Workshop [participants](/mediawiki_wiki/Learning_Linked_Data/Participants.md) 
 
 Note: For now, access to this page is restricted to participants in the workshop of the Learning Linked Data project. These members are:
 
@@ -197,11 +197,11 @@ Note: For now, access to this page is restricted to participants in the workshop
 
 ### Project Document Drafts 
 
-- [Final project report](/mediawiki_wiki/Planning_Grant_Report) for the LLD I planning grant: To be submitted to IMLS and referenced in the LLD II implementation grant proposal
-- [Blog\_Post](/mediawiki_wiki/Blog_Post) to be posted on the [LLD WordPress site](http://lld.ischool.uw.edu/wp), with a link to the full report in PDF, and submitted for posting (possibly with modifications?) on the [IMLS blog](http://blog.imls.gov/)
+- [Final project report](/mediawiki_wiki/Planning_Grant_Report.md) for the LLD I planning grant: To be submitted to IMLS and referenced in the LLD II implementation grant proposal
+- [Blog\_Post](/mediawiki_wiki/Blog_Post.md) to be posted on the [LLD WordPress site](http://lld.ischool.uw.edu/wp), with a link to the full report in PDF, and submitted for posting (possibly with modifications?) on the [IMLS blog](http://blog.imls.gov/)
   - [IMLS blog contributor guidelines](http://www.imls.gov/assets/1/AssetManager/Blog_Contributor.pdf)
   - [IMLS commenting and posting policy](http://www.imls.gov/news/imls_commenting_policy.aspx)
-- [Proposal for a panel](/mediawiki_wiki/ALISE_Panel_Proposal) at the [ALISE 2013 conference](http://www.alise.org/conferences) in Seattle, January 22-25, 2013
-- [Draft proposal for LLD II implementation grant](/mediawiki_wiki/Implementation_Grant_Proposal): To be completed 31 Aug 2012, reviewed during September 2012, and submitted to IMLS January 2013
-- [Use Cases in Instructional Context](/mediawiki_wiki/Use_Cases_in_Instructional_Context): The list of use cases identifying instructional priorities for each
+- [Proposal for a panel](/mediawiki_wiki/ALISE_Panel_Proposal.md) at the [ALISE 2013 conference](http://www.alise.org/conferences) in Seattle, January 22-25, 2013
+- [Draft proposal for LLD II implementation grant](/mediawiki_wiki/Implementation_Grant_Proposal.md): To be completed 31 Aug 2012, reviewed during September 2012, and submitted to IMLS January 2013
+- [Use Cases in Instructional Context](/mediawiki_wiki/Use_Cases_in_Instructional_Context.md): The list of use cases identifying instructional priorities for each
 

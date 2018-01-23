@@ -17,7 +17,7 @@ This page has been accessed 26,787 times.
 
 [http://dcevents.dublincore.org/index.php/IntConf/index/pages/view/specialSessions-2011](http://dcevents.dublincore.org/index.php/IntConf/index/pages/view/specialSessions-2011)
 
-- [IRC notes](/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/IRC_notes)
-- [Meeting Report](/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/Meeting_Report)
-- [Transcribed flipcharts](/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/Transcribed_flipcharts)
+- [IRC notes](/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/IRC_notes.md)
+- [Meeting Report](/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/Meeting_Report.md)
+- [Transcribed flipcharts](/mediawiki_wiki/DC-2011_Vocabulary_Special_Session/Transcribed_flipcharts.md)
 

@@ -17,9 +17,9 @@ This page has been accessed 12,871 times.
 
 **Project Links**
 
-- [Project home](/mediawiki_wiki/Learning_Linked_Data)
-- [Original Notes on Implementation Grant Proposal](/mediawiki_wiki/Implementation_Grant_Proposal_Notes)
-- [Discussion draft edited during meetings 17-18 Sept.](/mediawiki_wiki/Implementation_Grant_Discussion_Draft)
+- [Project home](/mediawiki_wiki/Learning_Linked_Data.md)
+- [Original Notes on Implementation Grant Proposal](/mediawiki_wiki/Implementation_Grant_Proposal_Notes.md)
+- [Discussion draft edited during meetings 17-18 Sept.](/mediawiki_wiki/Implementation_Grant_Discussion_Draft.md)
 - IMLS National Leadership Grant guidelines, 10 pp. overall:
   - [General guidelines](http://www.imls.gov/applicants/national_leadership_grant_guidelines.aspx#toc4)
   - [Narrative guidelines](http://www.imls.gov/applicants/national_leadership_grant_guidelines.aspx#narrative)

@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 4 October 2015, at 01:19.  
 This page has been accessed 174,697 times.
 
-Go back to [DCMI\_NKOS\_Task\_Group](/mediawiki_wiki/DCMI_NKOS_Task_Group) Main Page
+Go back to [DCMI\_NKOS\_Task\_Group](/mediawiki_wiki/DCMI_NKOS_Task_Group.md) Main Page
 
 <table id="toc" class="toc">
   <tr>
@@ -52,7 +52,7 @@ Updated 2015-10-02
 
 2. Expression (E)-to-Manifestation (M): (M) _embodies_ (E)
 
-- Refer to [NKOS AP Elements](/mediawiki_wiki/NKOS_AP_Elements)
+- Refer to [NKOS AP Elements](/mediawiki_wiki/NKOS_AP_Elements.md)
 
 ### Relationships between entities of the same type 
 

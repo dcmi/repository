@@ -15,8 +15,8 @@ aliases:
 This page was last modified on 27 May 2017, at 12:29.  
 This page has been accessed 2,767 times.
 
-- Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project)
-- Return to [Dublin to Drupal Content Types Index](/mediawiki_wiki/DublinToDrupal_Project#Content_Types)
+- Return to [Dublin to Drupal Top](/mediawiki_wiki/DublinToDrupal_Project.md)
+- Return to [Dublin to Drupal Content Types Index](/mediawiki_wiki/DublinToDrupal_Project#Content_Types.md)
 
 <table id="toc" class="toc">
   <tr>
@@ -49,7 +49,7 @@ The Formatted Specification content type is used for all documents issued by DCM
 
 The current index page on the DCMI document repository website for resources needing to conform to the Formatted Specification content type is [http://dublincore.org/documents/](http://dublincore.org/documents/).
 
-In addition to other metadata fields set out below, an instance of a Formatted Specification has: (1) an authority, source or context ((see, [Groups taxonomy](/index.php?title=DublinToDrupal_Project/EntityTypes&action=edit&redlink=1 "DublinToDrupal Project/EntityTypes (page does not exist)")); (2) a specific document type (genre) (see [Resource Type taxonomy](/index.php?title=DublinToDrupal_Project/ResourceType&action=edit&redlink=1 "DublinToDrupal Project/ResourceType (page does not exist)")); and (3) a status defining position in the resource life-cycle (see, [Document Status taxonomy](/mediawiki_wiki/DublinToDrupal_Project/ResourceStatus)).
+In addition to other metadata fields set out below, an instance of a Formatted Specification has: (1) an authority, source or context ((see, [Groups taxonomy](/index.php?title=DublinToDrupal_Project/EntityTypes&action=edit&redlink=1 "DublinToDrupal Project/EntityTypes (page does not exist)")); (2) a specific document type (genre) (see [Resource Type taxonomy](/index.php?title=DublinToDrupal_Project/ResourceType&action=edit&redlink=1 "DublinToDrupal Project/ResourceType (page does not exist)")); and (3) a status defining position in the resource life-cycle (see, [Document Status taxonomy](/mediawiki_wiki/DublinToDrupal_Project/ResourceStatus.md)).
 
 The current header for Formatted Specifications above in yellow includes a number of fields referencing earlier versions of the same specification. It illustrates the current mechanism of linking these versions in the manner of linked lists using "Replaces", "Replaced By" and "Latest Version". We want to change that with the Drupal implementation and include instead a History block as part of the header that includes references to earlier versions of the resource.
 
@@ -68,7 +68,7 @@ The current header for Formatted Specifications above in yellow includes a numbe
   10. Latest Version (unless this is handled by History)
   11. Document Type (genre) (taxonomy: [Resource Type taxonomy](/index.php?title=DublinToDrupal_Project/ResourceType&action=edit&redlink=1 "DublinToDrupal Project/ResourceType (page does not exist)"))
   12. DCMI Context (taxonomy: [Groups taxonomy)](/index.php?title=DublinToDrupal_Project/EntityTypes&action=edit&redlink=1 "DublinToDrupal Project/EntityTypes (page does not exist)")
-  13. Status (taxonomy: [Document Status taxonomy](/mediawiki_wiki/DublinToDrupal_Project/ResourceStatus))
+  13. Status (taxonomy: [Document Status taxonomy](/mediawiki_wiki/DublinToDrupal_Project/ResourceStatus.md))
   14. Language (ISO language code selection) 
   15. Translation Of: (Node URI of document translated)
 - Document Body

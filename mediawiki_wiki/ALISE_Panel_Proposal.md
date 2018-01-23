@@ -36,7 +36,7 @@ This page has been accessed 421 times.
 
 ### Project Links 
 
-- [Learning Linked Data project home](/mediawiki_wiki/Learning_Linked_Data)
+- [Learning Linked Data project home](/mediawiki_wiki/Learning_Linked_Data.md)
 
 ### ALISE Panel Proposal 
 

@@ -47,8 +47,8 @@ Discussions of what the DCMI-NKOS Task Group has done (by then) and start thinki
 ### 1. Reports of the first three components required by the Guidelines for Dublin Core Application Profiles [note 1]&nbsp;: 
 
 - Functional Requirements -- \*\*Leader: Margie Hlava\*\* and \*\*Ahsan Morshed\*\*
-- Notes on [user needs](/mediawiki_wiki/User_needs)
-- Margie Hlava's [straw man](/mediawiki_wiki/Straw_man) draft (five groups) and full ppt
+- Notes on [user needs](/mediawiki_wiki/User_needs.md)
+- Margie Hlava's [straw man](/mediawiki_wiki/Straw_man.md) draft (five groups) and full ppt
 
 - Domain Model -- \*\*Leader: Maja Zumer\*\*
 - Domain Model [File:Zumernkos.pdf](/mediawiki_wiki/files/Zumernkos.pdf) Power Point slides, including a graph of FRBR-based AP model

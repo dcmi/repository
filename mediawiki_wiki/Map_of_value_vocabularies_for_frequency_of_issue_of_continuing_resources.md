@@ -24,7 +24,7 @@ Assumptions:
 1. A collection, a continuing resource, and an integrating resource are all types of resource with content that changes through time.
 2. A lower frequency is a broader concept than a higher frequency within similar concepts; weekly (excluding weekend) is broader than weekly (including weekend).
 
-See the [Map of properties for frequency of a resource](/mediawiki_wiki/Map_of_properties_for_frequency_of_a_resource) for properties that can take these values.
+See the [Map of properties for frequency of a resource](/mediawiki_wiki/Map_of_properties_for_frequency_of_a_resource.md) for properties that can take these values.
 
 <pre>
 #
@@ -163,5 +163,5 @@ unimarc:z skos:closeMatch marc21:z .
 
 </pre>
 
-[Maps between bibliographic value vocabularies](/mediawiki_wiki/Maps_between_bibliographic_value_vocabularies)
+[Maps between bibliographic value vocabularies](/mediawiki_wiki/Maps_between_bibliographic_value_vocabularies.md)
 

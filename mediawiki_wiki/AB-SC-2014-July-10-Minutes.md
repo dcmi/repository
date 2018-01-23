@@ -111,7 +111,7 @@ Stuart reminders that sometimes silence means approval; do not wait if need acti
 
 - (1) AB Membership Proposal.
   - • Marcia explained the action to be established: to propose the AB membership solution, including who should be on and how to maintain the list. Stuart suggested to reassess what ‘active’ means, which was defined at DCMI bylaw. 
-  - • Marcia shared a Knowledge Audit sheet prepared last year regarding the active levels of the communities and task groups. (Refer to the communities and task force list: [/mediawiki_wiki/AB-Knowledge-Audit](/mediawiki_wiki/AB-Knowledge-Audit)). 
+  - • Marcia shared a Knowledge Audit sheet prepared last year regarding the active levels of the communities and task groups. (Refer to the communities and task force list: [/mediawiki_wiki/AB-Knowledge-Audit](/mediawiki_wiki/AB-Knowledge-Audit.md)). 
 
 Stuart questioned about the accuracy of the sheet, as some groups did not seem to be active according to the monthly mailing list data. Marcia explained that these were based on the Wiki pages as well as on the annual conference/ meeting activities.
 
@@ -136,5 +136,5 @@ Stuart questioned about the accuracy of the sheet, as some groups did not seem t
 - 
   - • No August meeting for AB SC.
   - • Next meeting: Second Thursday (11th) of September 9:00 am. NY time; Joseph will lead the meeting.) 
-  - • SC previous meeting minutes are available at: [/mediawiki_wiki/AB-SC-Minutes](/mediawiki_wiki/AB-SC-Minutes)
+  - • SC previous meeting minutes are available at: [/mediawiki_wiki/AB-SC-Minutes](/mediawiki_wiki/AB-SC-Minutes.md)
 

@@ -41,7 +41,7 @@ _Example_
 
 _Example_
 
-### From: [Review of DCMI Abstract Model](/mediawiki_wiki/Review_of_DCMI_Abstract_Model) (2010) 
+### From: [Review of DCMI Abstract Model](/mediawiki_wiki/Review_of_DCMI_Abstract_Model.md) (2010) 
 
  [<img alt="Figure 1: Description Set Model (part of DCMI Abstract Model)" src="/mediawiki_wiki/images/DescriptionSetModel75.jpg" width="494" height="389">](/mediawiki_wiki/images/DescriptionSetModel75.jpg)
 

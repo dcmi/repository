@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 28 May 2017, at 11:43.  
 This page has been accessed 254 times.
 
-Return to [DCMI Membership](/mediawiki_wiki/DCMI_Membership)
+Return to [DCMI Membership](/mediawiki_wiki/DCMI_Membership.md)
 
 Leads: Paul, Stuart
 

@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 21 Feb 2013, at 05:42.  
 This page has been accessed 8,287 times.
 
-Return to [Learning Linked Data Main Page](/mediawiki_wiki/Learning_Linked_Data)
+Return to [Learning Linked Data Main Page](/mediawiki_wiki/Learning_Linked_Data.md)
 
 - [Web Protege](http://protegewiki.stanford.edu/wiki/WebProtege), used in [Marcia's IMLS Project](http://www.imls.gov/news/national_leadership_grant_announcement.aspx#OH)
 - [RDFLib](http://rdflib.net), a Python library for working with RDF, of which Ed is an owner

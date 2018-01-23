@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 10 December 2013, at 07:17.  
 This page has been accessed 177,498 times.
 
-Go back to DCMI\_NKOS\_Task\_Group [[1]](/mediawiki_wiki/DCMI_NKOS_Task_Group) Main Page || Link to [Core Elements](/mediawiki_wiki/Core_Elements) (Go to another page)
+Go back to DCMI\_NKOS\_Task\_Group [[1]](/mediawiki_wiki/DCMI_NKOS_Task_Group.md) Main Page || Link to [Core Elements](/mediawiki_wiki/Core_Elements.md) (Go to another page)
 
 <table id="toc" class="toc">
   <tr>

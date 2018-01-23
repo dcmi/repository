@@ -67,7 +67,7 @@ This page has been accessed 339,449 times.
       <ul>
         <li> <a href="/mediawiki_wiki/DCMI_Science_and_Metadata_Literature.md" title="DCMI Science and Metadata Literature">Literature</a>
         </li>
-        <li> <a href="/mediawiki_wiki/DCMI_Science_and_Metadata_%7E_Research_Data_Alliance_(RDA)_Metadata_Directory.md" title="DCMI Science and Metadata ~ Research Data Alliance (RDA) Metadata Directory">Research Data Alliance Metadata Directory</a>
+        <li> <a href="/mediawiki_wiki/DCMI_Science_and_Metadata_%7E_Research_Data_Alliance_(RDA.md)_Metadata_Directory.md" title="DCMI Science and Metadata ~ Research Data Alliance (RDA) Metadata Directory">Research Data Alliance Metadata Directory</a>
         </li>
       </ul>
       <h2> <span class="mw-headline" id="People"> People </span>

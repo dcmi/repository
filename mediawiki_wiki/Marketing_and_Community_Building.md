@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 18 August 2015, at 15:07.  
 This page has been accessed 64,739 times.
 
-[<img alt="LD4PE logo" src="/mediawiki_wiki/images/Ld4pe.png" width="100" height="99">](/mediawiki_wiki/images/Ld4pe.png) [LD4PE Task Group Homepage](/mediawiki_wiki/Pet/ld4pe)
+[<img alt="LD4PE logo" src="/mediawiki_wiki/images/Ld4pe.png" width="100" height="99">](/mediawiki_wiki/images/Ld4pe.png) [LD4PE Task Group Homepage](/mediawiki_wiki/Pet/ld4pe.md)
 
 # Marketing and Community Building 
 <table id="toc" class="toc">

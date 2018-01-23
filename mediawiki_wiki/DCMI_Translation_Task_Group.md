@@ -59,17 +59,17 @@ The name of this group is: DCMI Translation Task Group
 
 ## Meetings 
 
-#### [Report of the DCMI Localization and Internationalization Community Meeting, 22 September 2011, held at The Hague, Netherlands](/mediawiki_wiki/Report_of_the_DCMI_Localization_and_Internationalization_Community_Meeting,_22_September_2011,_held_at_The_Hague,_Netherlands) 
+#### [Report of the DCMI Localization and Internationalization Community Meeting, 22 September 2011, held at The Hague, Netherlands](/mediawiki_wiki/Report_of_the_DCMI_Localization_and_Internationalization_Community_Meeting,_22_September_2011,_held_at_The_Hague,_Netherlands.md) 
 
 #### Meeting announcement of the DCMI translation Task Group Workshop, DC 2011 The Hague, 22 September 2011 [[1]](http://dcevents.dublincore.org/index.php/IntConf/index/pages/view/workshops-2011#translation) 
 
-#### [Report of the DCMI Localization And Internationalization Community Meeting, 22 October 2010, held at Pittsburgh, DC2010](/mediawiki_wiki/Report_of_the_DCMI_Localization_And_Internationalization_Community_Meeting,_22_October_2010,_held_at_Pittsburgh,_DC2010) 
+#### [Report of the DCMI Localization And Internationalization Community Meeting, 22 October 2010, held at Pittsburgh, DC2010](/mediawiki_wiki/Report_of_the_DCMI_Localization_And_Internationalization_Community_Meeting,_22_October_2010,_held_at_Pittsburgh,_DC2010.md) 
 
-#### [Meeting announcement: DCMI Localization & Internationalization Meeting, DC2010 Pittsburgh, 22 October, 16:00-17:30](/mediawiki_wiki/Meeting_announcement:_DCMI_Localization_%26_Internationalization_Meeting,_DC2010_Pittsburgh,_22_October,_16:00-17:30) 
+#### [Meeting announcement: DCMI Localization & Internationalization Meeting, DC2010 Pittsburgh, 22 October, 16:00-17:30](/mediawiki_wiki/Meeting_announcement:_DCMI_Localization_%26_Internationalization_Meeting,_DC2010_Pittsburgh,_22_October,_16:00-17:30.md) 
 
-#### [Report of the DCMI Localization and Internationalization Community Meeting, 13 October 2009, held at the National Library of Korea](/mediawiki_wiki/Report_of_the_DCMI_Localization_and_Internationalization_Community_Meeting,_13_October_2009,_held_at_the_National_Library_of_Korea) 
+#### [Report of the DCMI Localization and Internationalization Community Meeting, 13 October 2009, held at the National Library of Korea](/mediawiki_wiki/Report_of_the_DCMI_Localization_and_Internationalization_Community_Meeting,_13_October_2009,_held_at_the_National_Library_of_Korea.md) 
 
-#### [Report of the DCMI Localization and Internationalization Community Meeting, 25th September 2008, held at the Humboldt-Universität zu Berlin, Berlin](/mediawiki_wiki/Report_of_the_DCMI_Localization_and_Internationalization_Community_Meeting,_25th_September_2008,_held_at_the_Humboldt-Universit%C3%A4t_zu_Berlin,_Berlin) 
+#### [Report of the DCMI Localization and Internationalization Community Meeting, 25th September 2008, held at the Humboldt-Universität zu Berlin, Berlin](/mediawiki_wiki/Report_of_the_DCMI_Localization_and_Internationalization_Community_Meeting,_25th_September_2008,_held_at_the_Humboldt-Universit%C3%A4t_zu_Berlin,_Berlin.md) 
 
 ## Scope of the Guidelines 
 
@@ -137,7 +137,7 @@ Submit to DCMI Advisory Board and DCMI Oversight Committee "Guidelines for trans
 
 ## Issues 
 
-The following have been identified at DCMI Localization And Internationalization Community meetings and DCMI Translation Task Group meetings as issues to resolve for [Guidelines for Translating Dublin Core Specifications](/mediawiki_wiki/Guidelines_for_Translating_Dublin_Core_Specifications)
+The following have been identified at DCMI Localization And Internationalization Community meetings and DCMI Translation Task Group meetings as issues to resolve for [Guidelines for Translating Dublin Core Specifications](/mediawiki_wiki/Guidelines_for_Translating_Dublin_Core_Specifications.md)
 
 1. **How to have authorized versions of DC translations when DCMI are unable to approve all language translations**. **For discussion** : W3C see the original W3C documents as the **Official** documents [[9]](http://www.w3.org/Consortium/Translation/). There are two more categories, **Authorised** and **Unoffical** translations. Maybe DCMI could also differentiate the really good DCMI translations written by organisations who follow good process and review, versus those that put together by volunteers and students.
 
@@ -157,7 +157,7 @@ It would be useful for DCMI to consider this, especially when in some instances 
 
 7. **Is there a need for a high level document providing introduction to DC specifications for local translations.**
 
-8. **Document format of the Guidelines, that is, [Guidelines for Translating Dublin Core Specifications](/mediawiki_wiki/Guidelines_for_Translating_Dublin_Core_Specifications) provided as a web page or as pdf.**
+8. **Document format of the Guidelines, that is, [Guidelines for Translating Dublin Core Specifications](/mediawiki_wiki/Guidelines_for_Translating_Dublin_Core_Specifications.md) provided as a web page or as pdf.**
 
 9. **And provide other support for translators? e.g. FAQ, Ask a Question; Contact, Listservs.**
 

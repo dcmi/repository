@@ -15,7 +15,7 @@ aliases:
 This page was last modified on 6 January 2012, at 16:02.  
 This page has been accessed 129,728 times.
 
-[Back to TG Historical Archives page](/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives)
+[Back to TG Historical Archives page](/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives.md)
 
 <table id="toc" class="toc">
   <tr>
@@ -653,5 +653,5 @@ _(N.B. Original was in French. First published in Paris in 1892. The LC Name Aut
 * dih 1/6/12 moved to new DCMI wiki
 </pre>
 
-[Back to TG Historical Archives page](/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives)
+[Back to TG Historical Archives page](/mediawiki_wiki/DCMI/RDA_Task_Group_Historical_Archives.md)
 

@@ -38,33 +38,33 @@ This page has been accessed 439,387 times.
 
 ### [Purculating](http://www.urbandictionary.com/define.php?term=purculating) activities 
 
-2014-06-20. [RDF\_Application\_Profiles](/mediawiki_wiki/RDF_Application_Profiles) co-chaired by Antoine Isaac and Karen Coyle. Since March, the topic has been discussed on the [DC-Architecture mailing list](http://www.jiscmail.ac.uk/lists/dc-architecture.html), on this wiki, and in a series of teleconferences. The DCMI draft [Description Profile Constraint Language](http://dublincore.org/documents/dc-dsp) is being compared with a W3C draft, [Shape Expressions](http://www.w3.org/2013/ShEx/Primer), and we are looking at software tools such as [RDForms from MetaSolutions](https://bitbucket.org/metasolutions/rdforms). The questions are: How can validatable constraints be defined for RDF data, and what kinds of tools and processes can this support?
+2014-06-20. [RDF\_Application\_Profiles](/mediawiki_wiki/RDF_Application_Profiles.md) co-chaired by Antoine Isaac and Karen Coyle. Since March, the topic has been discussed on the [DC-Architecture mailing list](http://www.jiscmail.ac.uk/lists/dc-architecture.html), on this wiki, and in a series of teleconferences. The DCMI draft [Description Profile Constraint Language](http://dublincore.org/documents/dc-dsp) is being compared with a W3C draft, [Shape Expressions](http://www.w3.org/2013/ShEx/Primer), and we are looking at software tools such as [RDForms from MetaSolutions](https://bitbucket.org/metasolutions/rdforms). The questions are: How can validatable constraints be defined for RDF data, and what kinds of tools and processes can this support?
 
 ### About DCMI (and this wiki) 
 
 The [Dublin Core Metadata Initiative](http://dublincore.org) ("DCMI") is an open organization engaged in the development of interoperable metadata standards that support a broad range of purposes and business models. DCMI's activities include work on architecture and modeling, discussions and collaborative work in DCMI Communities and DCMI Task Groups, annual conferences and workshops, standards liaison, and educational efforts to promote widespread acceptance of metadata standards and practices.
 
-This is the MediaWiki for DCMI. Wiki users can check whether they have a Username by consulting [Special:ListUsers](/mediawiki_wiki/Special:ListUsers); if you have a Username but have forgotten your password, you can ask for a new password to be sent by email. Please contact [User:WikiSysop](/mediawiki_wiki/User:WikiSysop) for more information or to request a Username.
+This is the MediaWiki for DCMI. Wiki users can check whether they have a Username by consulting [Special:ListUsers](/mediawiki_wiki/Special:ListUsers.md); if you have a Username but have forgotten your password, you can ask for a new password to be sent by email. Please contact [User:WikiSysop](/mediawiki_wiki/User:WikiSysop.md) for more information or to request a Username.
 
 ### DCMI governance 
 
-- [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook)
-- [Governing Board wiki](/mediawiki_wiki/DCMI_Governing_Board)
-- [Technical Board wiki](/mediawiki_wiki/DCMI_Technical_Board)
-- [Advisory Board wiki](/mediawiki_wiki/DCMI_Advisory_Board)
-- [Executive Committee wiki](/mediawiki_wiki/Exec_Committee)
+- [DCMI Handbook](/mediawiki_wiki/DCMI_Handbook.md)
+- [Governing Board wiki](/mediawiki_wiki/DCMI_Governing_Board.md)
+- [Technical Board wiki](/mediawiki_wiki/DCMI_Technical_Board.md)
+- [Advisory Board wiki](/mediawiki_wiki/DCMI_Advisory_Board.md)
+- [Executive Committee wiki](/mediawiki_wiki/Exec_Committee.md)
 
 ### Other links 
 
-- [DCMI Libraries Wiki](/mediawiki_wiki/LibrariesWiki)
-- [Bibliographic Metadata Task Group](/mediawiki_wiki/Bibliographic_Metadata_Task_Group#)
-- [DCMI Science and Metadata Wiki](/mediawiki_wiki/DCMI_Science_And_Metadata)
-- [DCMI Vocabulary Management Community](/mediawiki_wiki/DCMI_Vocabulary_Management_Community)
-- [User Guide](/mediawiki_wiki/User_Guide)
-- [DCMI Localization and Internationalization Wiki](/mediawiki_wiki/DCMI_Localization_and_Internationalization_Wiki)
-- [Conference and Meeting Guidelines](/mediawiki_wiki/Conference_Guidelines)
-- [Cultural Heritage Metadata Task Group Wiki](/mediawiki_wiki/Cultural_Heritage_Metadata_Task_Group)
-- [LRMI Task Group](/mediawiki_wiki/AB-Comm/ed/LRMI/TG)
+- [DCMI Libraries Wiki](/mediawiki_wiki/LibrariesWiki.md)
+- [Bibliographic Metadata Task Group](/mediawiki_wiki/Bibliographic_Metadata_Task_Group#.md)
+- [DCMI Science and Metadata Wiki](/mediawiki_wiki/DCMI_Science_And_Metadata.md)
+- [DCMI Vocabulary Management Community](/mediawiki_wiki/DCMI_Vocabulary_Management_Community.md)
+- [User Guide](/mediawiki_wiki/User_Guide.md)
+- [DCMI Localization and Internationalization Wiki](/mediawiki_wiki/DCMI_Localization_and_Internationalization_Wiki.md)
+- [Conference and Meeting Guidelines](/mediawiki_wiki/Conference_Guidelines.md)
+- [Cultural Heritage Metadata Task Group Wiki](/mediawiki_wiki/Cultural_Heritage_Metadata_Task_Group.md)
+- [LRMI Task Group](/mediawiki_wiki/AB-Comm/ed/LRMI/TG.md)
 
 * * *
 
