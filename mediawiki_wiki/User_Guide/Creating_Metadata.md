@@ -161,7 +161,7 @@ Go to [User Guide](/mediawiki_wiki/User_Guide) | [Publishing Metadata](/mediawik
             <li class="toclevel-2 tocsection-73"><a href="#Audience"><span class="tocnumber">16.1</span> <span class="toctext">Audience</span></a></li>
             <li class="toclevel-2 tocsection-74"><a href="#Mediator"><span class="tocnumber">16.2</span> <span class="toctext">Mediator</span></a></li>
             <li class="toclevel-2 tocsection-75"><a href="#EducationLevel"><span class="tocnumber">16.3</span> <span class="toctext">EducationLevel</span></a></li>
-            <li class="toclevel-2 tocsection-76"><a href="#InsctructionalMethod"><span class="tocnumber">16.4</span> <span class="toctext">InsctructionalMethod</span></a></li>
+            <li class="toclevel-2 tocsection-76"><a href="#InstructionalMethod"><span class="tocnumber">16.4</span> <span class="toctext">InstructionalMethod</span></a></li>
             <li class="toclevel-2 tocsection-77"><a href="#Guidelines_for_the_creation_of_content_for_properties_describing_education_material"><span class="tocnumber">16.5</span> <span class="toctext">Guidelines for the creation of content for properties describing education material</span></a></li>
           </ul>
         </li>
@@ -3003,7 +3003,7 @@ This property represents the relationship between a resource and the class of pe
 
 This property refers to information about the progress of an audience through the educational or training context, for which the described resource is intended (e.g. the resource is an English workbook for students of the 4th - 5th grade).
 
-## [InsctructionalMethod](http://dublincore.org/documents/dcmi-terms/#terms-instructionalMethod) 
+## [InstructionalMethod](http://dublincore.org/documents/dcmi-terms/#terms-instructionalMethod) 
 
 This property refers to the process used to engender knowledge, attitudes and skills, that the described resource is designed to support. Typically it includes ways of presenting instructional materials or conducting instructional activities, patterns of learner-to-learner and learner-to-instructor interactions, and mechanisms by which group and individual levels of learning are measured. Instructional methods include all aspects of the instruction and learning processes from planning and implementation through evaluation and feedback.
 
