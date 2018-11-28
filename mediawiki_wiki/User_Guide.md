@@ -26,19 +26,19 @@ Go to [Creating Metadata](/mediawiki_wiki/User_Guide/Creating_Metadata.md) | [Pu
         <h2>Contents</h2>
       </div>
       <ul>
-        <li class="toclevel-1 tocsection-1"><a href="#Purpose_and_Scope_of_this_Guide"><span class="tocnumber">1</span> <span class="toctext">Purpose and Scope of this Guide</span></a></li>
-        <li class="toclevel-1 tocsection-2"><a href="#What_is_Metadata.3F"><span class="tocnumber">2</span> <span class="toctext">What is Metadata?</span></a></li>
-        <li class="toclevel-1 tocsection-3"><a href="#What_is_Dublin_Core.3F"><span class="tocnumber">3</span> <span class="toctext">What is Dublin Core?</span></a></li>
-        <li class="toclevel-1 tocsection-4"><a href="#Dublin_Core_Terms"><span class="tocnumber">4</span> <span class="toctext">Dublin Core Terms</span></a></li>
-        <li class="toclevel-1 tocsection-5"><a href="#Dublin_Core_URIs_and_namespaces"><span class="tocnumber">5</span> <span class="toctext">Dublin Core URIs and namespaces</span></a></li>
-        <li class="toclevel-1 tocsection-6"><a href="#What_is_Linked_Data.3F"><span class="tocnumber">6</span> <span class="toctext">What is Linked Data?</span></a></li>
+        <li class="toclevel-1 tocsection-1"><a href="#purpose-and-scope-of-this-guide"><span class="tocnumber">1</span> <span class="toctext">Purpose and Scope of this Guide</span></a></li>
+        <li class="toclevel-1 tocsection-2"><a href="#what-is-metadata"><span class="tocnumber">2</span> <span class="toctext">What is Metadata?</span></a></li>
+        <li class="toclevel-1 tocsection-3"><a href="#what-is-dublin-core"><span class="tocnumber">3</span> <span class="toctext">What is Dublin Core?</span></a></li>
+        <li class="toclevel-1 tocsection-4"><a href="#dublin-core-terms"><span class="tocnumber">4</span> <span class="toctext">Dublin Core Terms</span></a></li>
+        <li class="toclevel-1 tocsection-5"><a href="#dublin-core-uris-and-namespaces"><span class="tocnumber">5</span> <span class="toctext">Dublin Core URIs and namespaces</span></a></li>
+        <li class="toclevel-1 tocsection-6"><a href="#what-is-linked-data"><span class="tocnumber">6</span> <span class="toctext">What is Linked Data?</span></a></li>
         <li class="toclevel-1 tocsection-7">
-          <a href="#Dublin_Core_and_Linked_Data"><span class="tocnumber">7</span> <span class="toctext">Dublin Core and Linked Data</span></a>
+          <a href="#dublin-core-and-linked-data"><span class="tocnumber">7</span> <span class="toctext">Dublin Core and Linked Data</span></a>
           <ul>
             <li class="toclevel-2 tocsection-8">
-              <a href="#Levels_of_Interoperability"><span class="tocnumber">7.1</span> <span class="toctext">Levels of Interoperability</span></a>
+              <a href="#levels-of-interoperability"><span class="tocnumber">7.1</span> <span class="toctext">Levels of Interoperability</span></a>
               <ul>
-                <li class="toclevel-3 tocsection-9"><a href="#References"><span class="tocnumber">7.1.1</span> <span class="toctext">References</span></a></li>
+                <li class="toclevel-3 tocsection-9"><a href="#references"><span class="tocnumber">7.1.1</span> <span class="toctext">References</span></a></li>
               </ul>
             </li>
           </ul>
