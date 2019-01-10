@@ -15,6 +15,8 @@ notes:
 annotation: 
 ---
 
+2019-01-10 This file appears to date from circa October 2000, when the Architecture Working Group was started.
+
 ## DCMI Architecture WG Issues LIST
 
 Issues are listed in no particular order, but are characterized as follows:
