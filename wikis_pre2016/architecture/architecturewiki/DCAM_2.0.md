@@ -13,50 +13,7 @@ aliases:
 
 **2012-01-05. Frozen archive - links may not resolve - see directory of files at [MoinMoin wiki archive](/moinmoin-wiki-archive/)**
 
-# > [DCAM-2.0](http://dublincore.org/architecturewiki/DCAM_2d2_2e0?action=fullsearch&value=DCAM-2.0&literal=1&case=1&context=40 "Click here to do a full-text search for this title")
-
-User
-
- [UserPreferences](http://dublincore.org/architecturewiki/UserPreferences)
-  
-
-Site
-
-- [FrontPage](http://dublincore.org/architecturewiki/FrontPage)
-- [RecentChanges](http://dublincore.org/architecturewiki/RecentChanges)
-- [FindPage](http://dublincore.org/architecturewiki/FindPage)
-- [HelpContents](http://dublincore.org/architecturewiki/HelpContents)
-
-Page
-
-- [Edit](http://dublincore.org/architecturewiki/DCAM_2d2_2e0?action=edit "Edit")
-- [View](http://dublincore.org/architecturewiki/DCAM_2d2_2e0 "View")
-- [Diffs](http://dublincore.org/architecturewiki/DCAM_2d2_2e0?action=diff "Diffs")
-- [Info](http://dublincore.org/architecturewiki/DCAM_2d2_2e0?action=info "Info")
-- [Subscribe](http://dublincore.org/architecturewiki/DCAM_2d2_2e0?action=subscribe "Subscribe")
-- [Raw](http://dublincore.org/architecturewiki/DCAM_2d2_2e0?action=raw "Raw")
-- [Print](http://dublincore.org/architecturewiki/DCAM_2d2_2e0?action=print "Print")
-
-Actions
-
-- [AttachFile](http://dublincore.org/architecturewiki/DCAM_2d2_2e0?action=AttachFile)
-- [DSP2XML](http://dublincore.org/architecturewiki/DCAM_2d2_2e0?action=DSP2XML)
-- [DeletePage](http://dublincore.org/architecturewiki/DCAM_2d2_2e0?action=DeletePage)
-- [LikePages](http://dublincore.org/architecturewiki/DCAM_2d2_2e0?action=LikePages)
-- [LocalSiteMap](http://dublincore.org/architecturewiki/DCAM_2d2_2e0?action=LocalSiteMap)
-- [SpellCheck](http://dublincore.org/architecturewiki/DCAM_2d2_2e0?action=SpellCheck)
-
-Search
-
-<form method="POST" action="/architecturewiki/DCAM_2d2_2e0">
-<p>
-<input name="action" value="inlinesearch" type="hidden">
-<input name="context" value="40" type="hidden">
-Title: <input name="text_title" size="15" maxlength="50" type="text"><input src="DCAM_2d2_2e0_files/moin-search.png" name="button_title" alt="[?]" type="image"><br>Text: <input name="text_full" size="15" maxlength="50" type="text"><input src="DCAM_2d2_2e0_files/moin-search.png" name="button_full" alt="[?]" type="image">
-</p>
-</form>
-
-## Dublin Core Abstract Model, RDF-based version
+## DCAM 2.0: Dublin Core Abstract Model, RDF-based version
 
 Note: This is is work in progress.
 
@@ -157,9 +114,5 @@ The mapping to RDF triples is trivial based on the above definitions.
 
 ...
 
-== ==
-
- [RefreshCache](http://dublincore.org/architecturewiki/DCAM_2d2_2e0?action=refresh&arena=Page.py&key=DCAM_2d2_2e0.text_html) for this page (cached 2013-01-01 04:26:18)  
-
-Immutable page (last edited 2009-01-03 20:13:52 by MikaelNilsson)
+Last edited 2009-01-03 20:13:52 by MikaelNilsson (re-formatted 2019-01-15)
 
