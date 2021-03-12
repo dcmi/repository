@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Adoption of Dublin Core by Governments</title>
+<!--#exec cgi="/cgi-bin/metawriter.cgi"-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="meta" href="index.shtml.rdf" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<script src="/js/default.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/ssi/header.shtml" -->
+<h1>Adoption of Dublin Core by Governments</h1>
+<h2>Australia</h2>
+<ul>
+<li>Original recommendation for the development of a resource discovery metadata standard for Australian government use, <a href="http://www.dcita.gov.au/ogo/imsc/chapter6.htm">http://www.dcita.gov.au/ogo/imsc/chapter6.htm</a></li>
+<li>Mandate for Commonwealth agency use of AGLS for resource description, <a href="http://www.govonline.gov.au/projects/strategy/GovOnlineStrategy.htm#STRATEGICPRIORITY2">http://www.govonline.gov.au/projects/strategy/GovOnlineStrategy.htm#STRATEGICPRIORITY2</a></li>
+<li>The AGLS pages on the National Archives Website, <a href="http://www.naa.gov.au/agls">http://www.naa.gov.au/agls</a></li></ul>
+<h2>Canada</h2>
+<ul>
+<li>TBITS 39: Treasury Board Information Management Standard, Part 1: Government On-Line Metadata Standard,<br />
+<a href="http://www.cio-dpi.gc.ca/its-nit/standards/tbits39/crit391_e.asp">http://www.cio-dpi.gc.ca/its-nit/standards/tbits39/crit391_e.asp</a></li>
+<li>NCTTI 39: Normes de l'information et de la technologie du Conseil du Tr&eacute;sor, Partie 1: Norme des m&eacute;tadonn&eacute;es du Gouvernement en direct, <a href="http://www.cio-dpi.gc.ca/its-nit/standards/tbits39/crit391_f.asp">http://www.cio-dpi.gc.ca/its-nit/standards/tbits39/crit391_f.asp</a></li></ul>
+<h2>Denmark</h2>
+<ul>
+<li>Use of Dublin Core in general, <a href="http://www.oio.dk">http://www.oio.dk</a></li>
+<li>Use of Dublin Core for dynamic web-sites, <a href="http://www2.si.dk/netsteder/raad/metadata/index.html">http://www2.si.dk/netsteder/raad/metadata/index.html</a></li>
+<li>Use of Dublin Core for static electronic publications (&quot;Net-publications&quot;), <a href="http://www2.si.dk/netsteder/netpublikationer.html">http://www2.si.dk/netsteder/netpublikationer.html</a></li>
+<li>Use of Dublin Core for electronic forms, <a href="http://www2.si.dk/netsteder/publ/eblanketter/">http://www2.si.dk/netsteder/publ/eblanketter/</a></li></ul>
+<h2>Finland</h2>
+<ul>
+<li>Finnish Dublin Core extension for government publications (in Finnish): <a href="http://www.intermin.fi/juhta/suositukset/jhs143.htm">http://www.intermin.fi/juhta/suositukset/jhs143.htm</a></li>
+<li style="list-style: none">It is fully compliant superset of the SFS 5895, the Finnish DC.</li></ul>
+<h2>Ireland</h2>
+<ul>
+<li>Irish Public Service Metadata Standard (IPSMS), <a href="http://www.gov.ie/webstandards/metastandards/index.html">http://www.gov.ie/webstandards/metastandards/index.html</a></li></ul>
+<blockquote>
+<p>Through this URL is the User Guide entry page and access to the framework document (Parts 1 &amp; 2). The Dublin Core Metadata Standard forms the basis of the IPSMS, which in essence, is the set of rules and guidelines for implementation of metadata.</p></blockquote>
+<h2>New Zealand</h2>
+<ul>
+<li>NZGLS schema and related documents on the New Zealand E-government website:<br />
+<a href="http://www.e-government.govt.nz/nzgls/index.asp">http://www.e-government.govt.nz/nzgls/index.asp</a></li></ul>
+<h2>United Kingdom</h2>
+<ul>
+<li>Towards e-Government: e-Government Metadata Framework, <a href="http://www.govtalk.gov.uk/interoperability/metadata_document.asp?docnum=473">http://www.govtalk.gov.uk/interoperability/metadata_document.asp?docnum=473</a></li>
+<li>Documents relating to the e-Government Metadata Framework, <a href="http://www.govtalk.gov.uk/interoperability/metadata.asp?order=title">http://www.govtalk.gov.uk/interoperability/metadata.asp?order=title</a></li>
+<li>An Introduction to the e-Government Metadata Framework,<br />
+<a href="http://www.e-envoy.gov.uk/publications/frameworks/metadata/metadata.htm">http://www.e-envoy.gov.uk/publications/frameworks/metadata/metadata.htm</a></li>
+<li>Cumming, Maewyn. 2001. <em><strong>Metadata in the UK</strong></em>. In <em>DC-2001: Proceedings of the International Conference on Dublin Core and Metadata Applications 2001</em>. <a href="http://www.nii.ac.jp/dc2001/proceedings/product/paper-40.pdf">http://www.nii.ac.jp/dc2001/proceedings/product/paper-40.pdf</a></li></ul>
+<!--#include virtual="/ssi/footer.shtml" -->
+</body>
+</html>
