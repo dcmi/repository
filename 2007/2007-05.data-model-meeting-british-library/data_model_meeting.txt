@@ -1,0 +1,36 @@
+2026-04-14 Captured from https://web.archive.org/web/20081207022601/www.bl.uk/bibliographic/meeting.html
+
+Data Model Meeting
+
+British Library, London 30 April – 1 May 2007
+
+A meeting was held which examined the fit between RDA: Resource Description and Access and models used in other metadata communities.
+
+Participants: Tom Baker, Robina Clayphan, Tom Delsey, Gordon Dunsire, Diane Hillmann, Alistair Miles, Mikael Nilsson, Andy Powell, Barbara Tillett
+
+Recommendations:
+
+The meeting participants agreed that RDA and DCMI should work together to build on the existing work of both communities.
+
+The participants recommend that the RDA Committee of Principals and DCMI seek funding for work to develop an RDA Application Profile -- specifically that the following activities be undertaken:
+
+- development of an RDA Element Vocabulary
+- development of an RDA DC Application Profile based on FRBR and FRAD
+- disclosure of RDA Value Vocabularies using RDF/RDFS/SKOS
+
+Outcomes:
+
+The benefits of this activity will be that:
+
+- the library community gets a metadata standard that is compatible with the Web Architecture and that is fully interoperable with other Semantic Web initiatives
+
+- the DCMI community gets a libraries application profile firmly based on the DCAM and FRBR (which will be a high profile exemplar for others to follow)
+
+- the Semantic Web community get a significant pool of well thought-out metadata terms to re-use
+
+- there is wider uptake of RDA
+
+Further suggestion:
+
+The meeting further suggests that DCMI and DC Application Profile developers consider the value of using conceptual models such as FRBR as the basis for describing intellectual or artistic creations.
+

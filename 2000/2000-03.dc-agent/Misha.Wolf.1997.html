@@ -1,0 +1,281 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>dc-general archives - October 1997: Qualifiers, Sub-elements, T</TITLE>
+<META NAME="Author" CONTENT="Misha Wolf (misha.wolf@reuters.com)">
+<META NAME="Subject" CONTENT="Qualifiers, Sub-elements, Types and the Meaning of Life">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1 ALIGN=CENTER>Qualifiers, Sub-elements, Types and the Meaning of Life</H1>
+<HR>
+<P>
+<!-- received="Wed Oct 22 23:40:36 1997" -->
+<!-- isoreceived="19971022224036" -->
+<!-- sent="Wed, 22 Oct 1997 18:39:35 +0000 (GMT)" -->
+<!-- isosent="19971022183935" -->
+<!-- name="Misha Wolf" -->
+<!-- email="misha.wolf@reuters.com" -->
+<!-- subject="Qualifiers, Sub-elements, Types and the Meaning of Life" -->
+<!-- id="B0000750661@ritig6.rit.reuters.com" -->
+<STRONG>Subject: </STRONG>Qualifiers, Sub-elements, Types and the Meaning of Life<BR>
+<STRONG>From: </STRONG>Misha Wolf (<EM>misha.wolf@reuters.com</EM>)<BR>
+<STRONG>Date: </STRONG>Wed 22 Oct 1997 - 19:39:35 BST
+<P>
+<UL>
+<LI><STRONG>Messages sorted by:</STRONG> 
+<A HREF="welcome.html#97">[ date ]</A>
+<A HREF="thread.html#97">[ thread ]</A>
+<A HREF="subject.html#97">[ subject ]</A>
+<A HREF="author.html#97">[ author ]</A>
+<!-- next="start" -->
+<LI><STRONG>Next message:</STRONG> <A HREF="0098.html">Mark Scherling: "additions to type"</A>
+<LI><STRONG>Previous message:</STRONG> <A HREF="0096.html">Carl Lagoze: "Rights Management element working group"</A>
+<!-- nextthread="start" -->
+<LI><STRONG>Next in thread:</STRONG> <A HREF="0099.html">Peter Graham, RUL: "Re: Qualifiers, Sub-elements, Types and the Meaning of Life"</A>
+</UL>
+<!-- body="start" -->
+</PRE>
+<P>
+This is a brief note on the above topic.  I'm sending it to the meta2 list 
+<BR>
+rather than to one of the numerous working group lists as it has general 
+<BR>
+relevance, though it is especially related to the work of the Data Model 
+<BR>
+and Sub-elements working groups.
+<BR>
+<P>1.  Qualifiers at Canberra
+<BR>
+---------------------------
+<BR>
+<P>At Canberra we agreed to divide the Qualifiers into:
+<BR>
+<P>&nbsp;&nbsp;&nbsp;(a)  Language
+<BR>
+&nbsp;&nbsp;&nbsp;(b)  Scheme
+<BR>
+&nbsp;&nbsp;&nbsp;(c)  Type (aka Sub-element Name)
+<BR>
+<P>For details, see &quot;The 4th Dublin Core Metadata Workshop Report&quot; (at 
+<BR>
+<A HREF="http://www.dlib.org/dlib/june97/metadata/06weibel.html">http://www.dlib.org/dlib/june97/metadata/06weibel.html</A>).
+<BR>
+<P>This so exhausted us, we didn't have the time to discuss what constitues a 
+<BR>
+legal Type/Sub-element from a *topological* or *data model* point of view.
+<BR>
+We did, of course, discuss legality from a *semantic* point of view, in 
+<BR>
+particular the &quot;... criterion of a sub-element narrowing the semantics 
+<BR>
+of the element which it modifies&quot;.
+<BR>
+<P>2.  Qualifiers at Helsinki
+<BR>
+---------------------------
+<BR>
+<P>Following a day during which a lot of time was lost due to different groups 
+<BR>
+using the same word (&quot;record&quot;) to mean different things, Stu asked us not 
+<BR>
+to use the word &quot;qualifier&quot;, but to spell out *which* qualifier we are 
+<BR>
+talking about.  The aim was to improve communication, not to ban future use 
+<BR>
+of the word &quot;qualifier&quot;.
+<BR>
+<P>3.  Qualifiers since Helsinki
+<BR>
+------------------------------
+<BR>
+<P>The Language and Scheme qualifiers may turn out to be generically applicable 
+<BR>
+sub-elements for which we have devised a minimised representation in HTML.
+<BR>
+This affects their representation in RDF and is one of the questions before 
+<BR>
+the Data Model working group.
+<BR>
+<P>Sub-elements are, from a data model point of view, more difficult, as they 
+<BR>
+have been, unintentionally, abused.  An example of a sub-element which does 
+<BR>
+not fit any plausible data model is (please forgive my syntax):
+<BR>
+<P>&nbsp;&nbsp;&nbsp;DC.Creator.PersonalName=&quot;Misha Wolf&quot;
+<BR>
+&nbsp;&nbsp;&nbsp;DC.Creator.PersonalName.Address=&quot;85 Fleet Street&quot;
+<BR>
+<P>Another very dodgy example is:
+<BR>
+<P>&nbsp;&nbsp;&nbsp;DC.Date.Created=&quot;1997&quot;
+<BR>
+<P>It is my view that the above result from a desire to, *at all costs*, 
+<BR>
+minimise the amount of typing required to enter the metadata manually and 
+<BR>
+that the &quot;correct&quot; metadata would look rather like this:
+<BR>
+<P>&nbsp;&nbsp;&nbsp;DC.Creator.Name=&quot;Misha Wolf&quot;
+<BR>
+&nbsp;&nbsp;&nbsp;DC.Creator.Address=&quot;85 Fleet Street&quot;
+<BR>
+&nbsp;&nbsp;&nbsp;DC.Creator.Type=&quot;Person&quot;
+<BR>
+&nbsp;&nbsp;&nbsp;
+<BR>
+and:
+<BR>
+<P>&nbsp;&nbsp;&nbsp;DC.Date.Value=&quot;1997&quot;
+<BR>
+&nbsp;&nbsp;&nbsp;DC.Date.Type=&quot;Created&quot;
+<BR>
+<P>Obviously, one could minimise DC.Creator.Name to DC.Creator and 
+<BR>
+DC.Date.Value to DC.Date.  I have no problem with that.
+<BR>
+<P>Note that the sub-element called &quot;Type&quot; is not the same thing as the 
+<BR>
+qualifier we previously called &quot;Type&quot; and now call &quot;Sub-element&quot;.  I know 
+<BR>
+it's confusing.  Let me give a less confusing example.  At Helsinki we 
+<BR>
+agreed on two sub-elements for DC.Relation, namely:
+<BR>
+<P>&nbsp;&nbsp;&nbsp;DC.Relation.Type
+<BR>
+&nbsp;&nbsp;&nbsp;DC.Relation.Identifier
+<BR>
+<P>In this example, it is clear that &quot;Type&quot; refers to a type of Relation.  
+<BR>
+Similarly, in the previous examples, &quot;Type&quot; referred to a type of Creator 
+<BR>
+and to a type of Date, respectively.
+<BR>
+<P>All of this is much clearer when written out using XML (no, this isn't RDF):
+<BR>
+<P>&nbsp;&nbsp;&nbsp;&lt;DC:Creator&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Name&gt;Misha Wolf&lt;/Name&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Address&gt;85 Fleet Street&lt;/Address&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Type&gt;Person&lt;/Type&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&lt;/DC:Creator&gt;
+<BR>
+<P>&nbsp;&nbsp;&nbsp;&lt;DC:Date&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Value&gt;1997&lt;/Value&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Type&gt;Created&lt;/Type&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&lt;/DC:Date&gt;
+<BR>
+<P>&nbsp;&nbsp;&nbsp;&lt;DC:Relation&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Type&gt;Some-relation-type&lt;/Type&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Identifier&gt;<A HREF="http://www.somewhere.org/abc"</Identifier>http://www.somewhere.org/abc</Identifier></A>&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&lt;/DC:Relation&gt;
+<BR>
+<P>You can now add Scheme information, if required:
+<BR>
+<P>&nbsp;&nbsp;&nbsp;&lt;DC:Date&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Value&gt;1997&lt;/Value&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Scheme&gt;ISO-8601&lt;/SCheme&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Type&gt;Created&lt;/Type&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&lt;/DC:Date&gt;
+<BR>
+<P>and even:
+<BR>
+<P>&nbsp;&nbsp;&nbsp;&lt;DC:Date&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Value&gt;1997&lt;/Value&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Scheme&gt;ISO-8601&lt;/SCheme&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Type&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Value&gt;Created&lt;/Value&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Scheme&gt;DC:DateType&lt;/Scheme&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/Type&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&lt;/DC:Date&gt;
+<BR>
+<P>and:
+<BR>
+<P>&nbsp;&nbsp;&nbsp;&lt;DC:Creator&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Name&gt;Misha Wolf&lt;/Name&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Address&gt;85 Fleet Street&lt;/Address&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Type&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Value&gt;Person&lt;/Value&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Scheme&gt;DC:CreatorType&lt;/Scheme&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/Type&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Role&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Value&gt;Something-or-other&lt;/Value&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Scheme&gt;AAT-POR&lt;/Scheme&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/Role&gt;
+<BR>
+&nbsp;&nbsp;&nbsp;&lt;/DC:Creator&gt;
+<BR>
+<P>Ooops!  I just remembered saying it was a brief note, so I'd better stop.
+<BR>
+<P>---------------------------------------------------------------------------
+<BR>
+&nbsp;&nbsp;Misha Wolf            Email: misha.wolf@reuters.com     85 Fleet Street
+<BR>
+&nbsp;&nbsp;Standards Manager     Voice: +44 171 542 6722           London EC4P 4AJ
+<BR>
+&nbsp;&nbsp;Reuters Limited       Fax  : +44 171 542 8314           UK
+<BR>
+---------------------------------------------------------------------------
+<BR>
+12th International Unicode Conference, 8-9 Apr 1998, Tokyo, www.unicode.org
+<BR>
+&nbsp;&nbsp;&nbsp;7th World Wide Web Conference, 14-18 Apr 1998, Brisbane, www7.conf.au
+<BR>
+<P>------------------------------------------------------------------------
+<BR>
+Any views expressed in this message are those of the individual  sender,
+<BR>
+except  where  the  sender  specifically  states them to be the views of
+<BR>
+Reuters Ltd.
+<BR>
+<P><!-- body="end" -->
+<P>
+<UL>
+<!-- next="start" -->
+<LI><STRONG>Next message:</STRONG> <A HREF="0098.html">Mark Scherling: "additions to type"</A>
+<LI><STRONG>Previous message:</STRONG> <A HREF="0096.html">Carl Lagoze: "Rights Management element working group"</A>
+<!-- nextthread="start" -->
+<LI><STRONG>Next in thread:</STRONG> <A HREF="0099.html">Peter Graham, RUL: "Re: Qualifiers, Sub-elements, Types and the Meaning of Life"</A>
+</UL>
+<!-- trailer="footer" -->
+<P>
+<SMALL>
+<EM>
+This archive was generated by <A HREF="http://www.mailbase.ac.uk/docs/hypermail.html">hypermail 2a23</A> 
+: <EM>Wed 21 Jul 1999 - 08:49:19 BST</EM>
+</EM>
+</SMALL>
+</BODY>
+</HTML>

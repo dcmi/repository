@@ -1,0 +1,798 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+
+<HTML>
+<HEAD>
+<TITLE>The Dublin Core Metadata Initiative Qualifiers</TITLE>
+<link rel="stylesheet" href="/style/dcqballot" type = "text/css">
+</HEAD>
+
+<BODY>
+
+<A HREF = "http://purl.org/dc/"><IMG SRC =
+"http://purl.org/dc/images/dcmi/dcmi_22.gif" ALT = "DCMI Home Page"
+BORDER = "0" ></A> 
+
+<h2>The Dublin Core Metadata Initiative Qualifiers</h2> 
+
+<h2>DCMI Working Draft</h2>
+
+<h3>Ballot Document v1.3 - 20000324</h3>
+
+
+<P><B>Editors:</B>
+<BR ><A href="mailto:emiller@oclc.org">Eric Miller, emiller@oclc.org</A>
+<BR ><A href="mailto:renato@dsct.edu.au">Renato Iannella, renato@dstc.edu.au</A> 
+<BR ><A href="mailto:weibel@oclc.org">Stuart Weibel, weibel@oclc.org</A> 
+<BR ><A href="mailto:childree@oclc.org">Eric Childress, childree@oclc.org</A> 
+</P>
+
+
+<h4>Introduction</h4>
+
+<P>This document is a Working Draft of the Dublin Core Metadata
+Initiative (<A HREF = "http://purl.org/dc/">DCMI</A>). It is a
+normalized summary of individual Dublin Core Element <A HREF =
+"http://purl.org/dc/groups/">Working Group</A> reports.  This document
+is under discussion and balloting until Feb 11, 2000 by the DCMI Usage
+Committee. An archive of these discussions can be found at the <A HREF
+= "http://www.mailbase.ac.uk/lists/dc-usage/">dc-usage</A> listserv.</P>
+
+<P>The present document represents a composite view of the following
+working group proposals in addition to the <A href = "http://www.mailbase.ac.uk/lists/dc-usage">extensive discussions on the dc-usage list</A>:</P>
+
+<UL>
+   <DT>Creator, Contributor and Publisher (Agents)</DT>
+
+   <DD><A HREF =
+   "http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html">
+   http://www.mailbase.ac.uk/lists/dc-agents/files/wd-agent-qual.html</A></DD>
+
+    <DT>Type</DT>
+
+    <DD><A HREF =
+    "http://www.loc.gov/marc/dc/typequalif-19991210.html">
+    http://www.loc.gov/marc/dc/typequalif-19991210.html</A></DD>
+
+    <DT>Format</DT>
+
+    <DD><A HREF =
+    "http://www.mailbase.ac.uk/lists/dc-usage/1999-12/0050.html">
+    http://www.mailbase.ac.uk/lists/dc-usage/1999-12/0050.html</A></DD>
+
+    <DD><A HREF =
+    "http://www.mailbase.ac.uk/lists/dc-usage/1999-12/0051.html">
+    http://www.mailbase.ac.uk/lists/dc-usage/1999-12/0051.html</A></DD>
+
+     <DD> <A HREF =
+     "http://www.mailbase.ac.uk/lists/dc-usage/1999-12/0052.html">
+     http://www.mailbase.ac.uk/lists/dc-usage/1999-12/0052.html</A></DD>
+
+   <DT>Date</DT>
+
+     <DD> <A HREF =
+     "http://www.mailbase.ac.uk/lists/dc-usage/files/date-final.html">
+     http://www.mailbase.ac.uk/lists/dc-usage/files/date-final.html
+     </A></DD>
+
+   <DT>Subject, Description, and Language</DT>
+
+     <DD><A HREF =
+     "http://www.mailbase.ac.uk/lists/dc-subdesc/files/dcsubdesc-final.html">
+     http://www.mailbase.ac.uk/lists/dc-subdesc/files/dcsubdesc-final.html</A></dd>
+
+   <DT>Coverage</DT>
+
+     <DD> <A HREF =
+     "http://www.mailbase.ac.uk/lists/dc-coverage/1999-12/0003.html">
+     http://www.mailbase.ac.uk/lists/dc-coverage/1999-12/0003.html</A></DD>
+
+    <DT>Relation and Source</DT>
+
+     <DD> <A
+     HREF="http://www.mailbase.ac.uk/lists/dc-general/1999-12/0015.html">
+     http://www.mailbase.ac.uk/lists/dc-general/1999-12/0015.html</A></dd>
+     </dd>
+
+    <DT>Title and Identifier</DT>
+
+     <DD> <A HREF
+     ="http://www.mailbase.ac.uk/lists/dc-usage/1999-12/0066.html">
+     http://www.mailbase.ac.uk/lists/dc-usage/1999-12/0066.html</A></dd>
+     </DD>
+ 
+ </ul>
+
+<h3>Principals of Qualification </h3>
+
+<P>This document presents the results of a process to develop exemplary 
+qualifiers for the Dublin Core Metadata Element Set (DCMES). The 
+qualifiers listed here were identified in element-specific working 
+groups of the Dublin Core Metadata Initiative (DCMI) and found by a 
+DCMI Usage Committee to be in conformance with principles of good 
+practice for the qualification of Dublin Core metadata elements. The 
+element-specific working groups sought to identify qualifiers that are 
+likely to be of widespread use. In determining the makeup of these 
+qualifiers, preference was given to vocabularies, notations, and terms 
+for which the reference documentation is already being maintained by 
+established institutions. </P>
+
+<P>Inevitably, there will be situations where an agent or client will 
+encounter DCMES descriptions that use unfamiliar qualifiers developed 
+by implementors for specialized local needs (eg, for describing maps, 
+moving images, or museum objects). The useful interpretation of such a 
+DCMES description will depend on the ability to ignore the unknown 
+qualifiers and fall back on the broader meaning of the element in its 
+unqualified form. The guiding principle for the qualification of 
+Dublin Core elements, also known as the Dumb-Down Principle, is that a 
+client should be able to ignore any qualifier and use the description 
+as if it were unqualified. While this may result in some loss of 
+specific meaning, the remaining element value (minus the qualifier) 
+must continue to be generally correct. </P>
+
+<P>As of February 2000, the DCMI recognizes two broad classes of 
+qualifiers: </P>
+
+<UL> 
+
+<LI> Encoding Scheme. These qualifiers are pointers to schemes
+that aid in the interpretation of an element value. These schemes
+include controlled vocabularies and formal notations. A value
+expressed using an Encoding Scheme will thus be a token selected from
+a vocabulary (e.g., a term from a classification system or set of
+subject headings) or a string formatted in accordance with a notation
+(e.g., "2000-01-01" as the standard expression of a date). If a Value
+Encoding Scheme is not understood by a client or agent (eg, in an
+indexing application), this should not render the value useless. The
+definitive description of a scheme must be clearly identified and
+available for public use. </LI>
+
+<LI> Element Refinement. These qualifiers make an element's meaning
+more specific without extending its meaning. A refined element shares
+the meaning of the unqualified element, but with a more restricted
+scope. A client that does not understand a specific element refinement
+term should be able to ignore the qualifier and treat the qualified
+value as if it were a value of the unqualified (broader) element. The
+definitions of element refinement terms must be clear and publicly
+available. </LI>
+
+</UL>
+
+<P>All of the qualifiers listed in this document fall clearly into one of 
+these two categories. Additional categorization for these qualifiers 
+will evolve over time and with implementation experience. Proposed 
+qualifiers which appeared to the Usage Committee to fall outside of 
+these categories, or which fell short in some other respect (e.g., 
+clarity of definition), will become the focus of further discussion and 
+be reconsidered for approval in the future. </P>
+
+<P>The qualifiers listed here do not constitute a closed set, designed 
+to meet all of the descriptive needs of implementors. Rather, they 
+seed a larger database of qualifiers that will evolve as qualifiers are 
+developed by various communities and submitted to the Usage Committee 
+for review. </P>
+
+<P>In the meantime, implementors may deploy these qualifiers with 
+confidence that they conform to the Dumb-Down Principle, and they may 
+take these qualifiers as examples to guide their own development of 
+`principled' qualifiers for Dublin Core metadata elements. </P>
+
+
+<P>For each data element in the ballot, the following information is provided:
+
+<UL>
+
+<LI><B>Label: </B> The human-readable label assigned to the data element.</LI> 
+
+<LI><B>Name: </B> The machine-understandable token assigned to the
+data element (the concatenation of the 'Name' to the 'NameSpace'
+provides a URI uniquely identifying the data element).</LI>
+
+<LI><B>Definition: </B> A statement that clearly represents the concept and essential nature of the data element.</LI>
+
+<LI><B>Comment: </B> Addition information associate with the data element.</LI>
+
+<LI><B>See Also: </B> A link to more information about the data element (if available).</LI>
+
+</UL>
+</P>
+
+<h2>The Proposed Dublin Core Qualifiers</h2>
+
+
+
+<div class = 'blockResource'><hr class = 'break' /><div class = 'introProse'>
+<h3>Date</h3>
+
+<P> 
+The qualifiers below are proposed for the Date element. 
+</P>
+</div><div class = 'subPropertyOf'>Qualifiers that refine 'Date':</div>
+<UL><div class='label'>1)&nbsp;&nbsp;Created</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Created</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>created</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#created ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#created</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Date of creation of the resource.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>2)&nbsp;&nbsp;Valid</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Valid</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>valid</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#valid ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#valid</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Date (often a range) of validity of a resource.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>3)&nbsp;&nbsp;Available</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Available</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>available</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#available ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#available</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Date (often a range) that the resource will become or did become available.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>4)&nbsp;&nbsp;Issued</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Issued</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>issued</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#issued ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#issued</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Date of formal issuance (e.g., publication) of the resource.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>5)&nbsp;&nbsp;Modified</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Modified</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>modified</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#modified ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#modified</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Date on which the resource was changed.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div></UL><div class = 'datatype'>Encoding Schemes for 'Date':</div>
+<UL><div class='label'>6)&nbsp;&nbsp;DCMI Period</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>DCMI Period</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>Period</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#Period ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#Period</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A specification of the limits of a time interval.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "http://www.agcrc.csiro.au/projects/3018CO/metadata/dcperiod/ ">http://www.agcrc.csiro.au/projects/3018CO/metadata/dcperiod/</A></TD></TR>
+</TABLE></UL></div><div class='label'>7)&nbsp;&nbsp;W3C-DTF</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>W3C-DTF</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>W3CDTF</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#W3CDTF ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#W3CDTF</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>W3C Encoding rules for dates and times - a profile based on ISO8601 </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "http://www.w3.org/TR/NOTE-datetime ">http://www.w3.org/TR/NOTE-datetime</A></TD></TR>
+</TABLE></UL></div></UL></div>
+<div class = 'blockResource'><hr class = 'break' /><div class = 'introProse'>
+<h3>Coverage</h3>
+
+<P> The qualifiers below are proposed for the Coverage element. </P>
+
+</div><div class = 'subPropertyOf'>Qualifiers that refine 'Coverage':</div>
+<UL><div class='label'>8)&nbsp;&nbsp;Place</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Place</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>place</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#place ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#place</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Spatial characteristics of the intellectual content of the resoure.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class = 'datatype'>Encoding Schemes for 'Place':</div>
+<UL><div class='label'>9)&nbsp;&nbsp;DCMI Point</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>DCMI Point</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>Point</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#Point ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#Point</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The DCMI Point identifies a point in space using its geographic coordinates.</TD></TR>
+<TR><TD></TD><TD><B>Comment: </B></TD><TD>A DCMI proposed encoding scheme</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "http://www.agcrc.csiro.au/projects/3018CO/metadata/dcpoint/ ">http://www.agcrc.csiro.au/projects/3018CO/metadata/dcpoint/</A></TD></TR>
+</TABLE></UL></div><div class='label'>10)&nbsp;&nbsp;ISO3166</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>ISO3166</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>ISO3166</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#ISO3166 ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#ISO3166</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>ISO3166 Codes for the representation of names of countries</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "ftp://dkuug.dk/i18n/ISO_3166 ">ftp://dkuug.dk/i18n/ISO_3166</A></TD></TR>
+</TABLE></UL></div><div class='label'>11)&nbsp;&nbsp;DCMI Box</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>DCMI Box</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>BOX</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#BOX ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#BOX</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The DCMI Box identifies a region of space using its geographic limits.</TD></TR>
+<TR><TD></TD><TD><B>Comment: </B></TD><TD>A DCMI proposed encoding scheme</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "http://www.agcrc.csiro.au/projects/3018CO/metadata/dcbox/ ">http://www.agcrc.csiro.au/projects/3018CO/metadata/dcbox/</A></TD></TR>
+</TABLE></UL></div><div class='label'>12)&nbsp;&nbsp;Degrees, minutes, seconds</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Degrees, minutes, seconds</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>DMS</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#DMS ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#DMS</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A latitude and longitude expressed in degrees, minutes, seconds.</TD></TR>
+<TR><TD></TD><TD><B>Comment: </B></TD><TD>Note: A DCMI proposed encoding scheme</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+</TABLE></UL></div><div class='label'>13)&nbsp;&nbsp;TGN</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>TGN</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>TGN</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#TGN ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#TGN</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The Getty Thesaurus of Geographic Names</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "http://www.gii.getty.edu/vocabulary/tgn.html ">http://www.gii.getty.edu/vocabulary/tgn.html</A></TD></TR>
+</TABLE></UL></div><div class='label'>14)&nbsp;&nbsp;Decimal Degrees</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Decimal Degrees</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>DD</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#DD ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#DD</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A latitude and longitude expressed in decimal degrees</TD></TR>
+<TR><TD></TD><TD><B>Comment: </B></TD><TD>Note: A DCMI proposed encoding scheme</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+</TABLE></UL></div></UL><div class='label'>15)&nbsp;&nbsp;Time</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Time</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>time</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#time ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#time</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Temporal characteristics of the intellectual content of the resource.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class = 'datatype'>Encoding Schemes for 'Time':</div>
+<UL><div class='label'>16)&nbsp;&nbsp;DCMI Period</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>DCMI Period</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>Period</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#Period ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#Period</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A specification of the limits of a time interval.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "http://www.agcrc.csiro.au/projects/3018CO/metadata/dcperiod/ ">http://www.agcrc.csiro.au/projects/3018CO/metadata/dcperiod/</A></TD></TR>
+</TABLE></UL></div><div class='label'>17)&nbsp;&nbsp;W3C-DTF</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>W3C-DTF</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>W3CDTF</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#W3CDTF ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#W3CDTF</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>W3C Encoding rules for dates and times - a profile based on ISO8601 </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "http://www.w3.org/TR/NOTE-datetime ">http://www.w3.org/TR/NOTE-datetime</A></TD></TR>
+</TABLE></UL></div></UL></UL></div>
+<div class = 'blockResource'><hr class = 'break' /><div class = 'introProse'>
+<h3>Description</h3>
+
+<P> 
+The qualifiers below are proposed for the Description element. 
+</P>
+</div><div class = 'subPropertyOf'>Qualifiers that refine 'Description':</div>
+<UL><div class='label'>18)&nbsp;&nbsp;Table Of Contents</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Table Of Contents</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>tableOfContents</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#tableOfContents ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#tableOfContents</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A list of subunits of the content of the resource.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>19)&nbsp;&nbsp;Release</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Release</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>release</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#release ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#release</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>An identification of the edition, release or version of the resource.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>20)&nbsp;&nbsp;Abstract</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Abstract</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>abstract</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#abstract ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#abstract</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A summary of the content of the resource.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>21)&nbsp;&nbsp;Note</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Note</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>note</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#note ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#note</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Any additional information about the content of the resource.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div></UL></div>
+<div class = 'blockResource'><hr class = 'break' /><div class = 'introProse'>
+<h3>Format</h3>
+
+<P> 
+The qualifiers below are proposed for the Format element. 
+</P>
+</div><div class = 'subPropertyOf'>Qualifiers that refine 'Format':</div>
+<UL><div class='label'>22)&nbsp;&nbsp;Extent</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Extent</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>extent</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#extent ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#extent</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The size or duration of the resource.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>23)&nbsp;&nbsp;Medium</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Medium</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>medium</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#medium ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#medium</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The media-type of the resource.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class = 'datatype'>Encoding Schemes for 'Medium':</div>
+<UL><div class='label'>24)&nbsp;&nbsp;IMT</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>IMT</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>IMT</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#IMT ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#IMT</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The Internet MIME Type of the resource.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "http://www.isi.edu/in-notes/iana/assignments/media-types/media-types ">http://www.isi.edu/in-notes/iana/assignments/media-types/media-types</A></TD></TR>
+</TABLE></UL></div></UL></UL></div>
+<div class = 'blockResource'><hr class = 'break' /><div class = 'introProse'>
+<h3>Resource Identifier</h3>
+
+<P> 
+The qualifiers below are recommended for the Resource Identifier element. 
+</P>
+</div><div class = 'datatype'>Encoding Schemes for 'Resource Identifier':</div>
+<UL><div class='label'>25)&nbsp;&nbsp;URI</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>URI</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>URI</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#URI ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#URI</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A URI Uniform Resource Identifier</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "http://www.ietf.org/rfc/rfc2396.txt ">http://www.ietf.org/rfc/rfc2396.txt</A></TD></TR>
+</TABLE></UL></div></UL></div>
+<div class = 'blockResource'><hr class = 'break' /><div class = 'introProse'>
+<h3>Language</h3>
+
+<P> 
+The qualifiers below are proposed for the Language element. 
+</P>
+</div><div class = 'datatype'>Encoding Schemes for 'Language':</div>
+<UL><div class='label'>26)&nbsp;&nbsp;ISO639-2</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>ISO639-2</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>ISO639-2</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#ISO639-2 ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#ISO639-2</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Technical contents of ISO 639:1988 'Code for the representation of names of languages'.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "http://www.loc.gov/standards/iso639-2/langhome.html ">http://www.loc.gov/standards/iso639-2/langhome.html</A></TD></TR>
+</TABLE></UL></div><div class='label'>27)&nbsp;&nbsp;RFC1766</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>RFC1766</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>RFC1766</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#RFC1766 ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#RFC1766</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Internet RFC 1766 'Tags for the identification of Language' specifies a two letter code taken from ISO 639, followed optionally by a two letter country code taken from ISO 3166.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "http://www.ietf.org/rfc/rfc1766.txt ">http://www.ietf.org/rfc/rfc1766.txt</A></TD></TR>
+</TABLE></UL></div></UL></div>
+<div class = 'blockResource'><hr class = 'break' /><div class = 'introProse'>
+<h3>Relation</h3>
+
+<P> 
+The qualifiers below are proposed for the Relation element. 
+</P>
+</div><div class = 'subPropertyOf'>Qualifiers that refine 'Relation':</div>
+<UL><div class='label'>28)&nbsp;&nbsp;Is Version Of</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Is Version Of</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>isVersionOf</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#isVersionOf ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#isVersionOf</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The described resource is a version, edition, or adaptation
+of the referenced resource. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>29)&nbsp;&nbsp;Replaces</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Replaces</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>replaces</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#replaces ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#replaces</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The described resource supplants, displaces, or supersedes the referenced resource. 
+</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>30)&nbsp;&nbsp;Requires</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Requires</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>requires</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#requires ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#requires</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The described resource requires the referenced resource, either physically or logically. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>31)&nbsp;&nbsp;Is Part Of</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Is Part Of</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>isPartOf</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#isPartOf ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#isPartOf</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The described resource is a physical or logical part 
+of the referenced resource.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>32)&nbsp;&nbsp;References</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>References</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>references</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#references ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#references</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The described resource references, cites, or otherwise points to the referenced resource.  </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>33)&nbsp;&nbsp;Has Part</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Has Part</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>hasPart</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#hasPart ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#hasPart</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The described resource includes the referenced resource either physically or logically. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>34)&nbsp;&nbsp;Has Version</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Has Version</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>hasVersion</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#hasVersion ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#hasVersion</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The described resource has a version, edition, or adaptation, namely,
+the referenced resource. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>35)&nbsp;&nbsp;Is Referenced By</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Is Referenced By</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>isReferencedBy</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#isReferencedBy ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#isReferencedBy</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The described resource is referenced, cited, or otherwise pointed to by the referenced resource. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>36)&nbsp;&nbsp;Is Replaced By</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Is Replaced By</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>isReplacedBy</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#isReplacedBy ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#isReplacedBy</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The described resource is supplanted, displaced, or superceded by the referenced resource.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>37)&nbsp;&nbsp;Is Format Of</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Is Format Of</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>isFormatOf</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#isFormatOf ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#isFormatOf</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The described resource is essentially the same intellectual content of the pre-existing referenced resource and is 
+presented in another format. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>38)&nbsp;&nbsp;Has Format</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Has Format</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>hasFormat</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#hasFormat ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#hasFormat</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The described resource pre-existed the referenced resource, which is essentially the same intellectual content presented in another format. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>39)&nbsp;&nbsp;Is Required By</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Is Required By</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>isRequiredBy</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#isRequiredBy ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#isRequiredBy</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>The described resource is required by the referenced resource, either physically or logically.  </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div></UL><div class = 'datatype'>Encoding Schemes for 'Relation':</div>
+<UL><div class='label'>40)&nbsp;&nbsp;URI</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>URI</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>URI</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#URI ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#URI</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A URI Uniform Resource Identifier</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "http://www.ietf.org/rfc/rfc2396.txt ">http://www.ietf.org/rfc/rfc2396.txt</A></TD></TR>
+</TABLE></UL></div></UL></div>
+<div class = 'blockResource'><hr class = 'break' /><div class = 'introProse'>
+<h3>Subject</h3>
+
+<P> 
+The qualifiers below are proposed for the Subject element. 
+</P>
+</div><div class = 'subPropertyOf'>Qualifiers that refine 'Subject':</div>
+<UL><div class='label'>41)&nbsp;&nbsp;Classification</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Classification</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>classification</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#classification ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#classification</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Subject identified by notation (code) taken from a controlled classification scheme.</TD></TR>
+<TR><TD></TD><TD><B>Comment: </B></TD><TD>The name of the controlled classification scheme from
+which the classification is derived should always be identified as a
+value qualifier Existing resource discovery implementations treat
+classification notation (codes) differently to 'words' describing
+`subject.  Typically notation is used to create a browsing structure
+whereas words are not, notation is not displayed in retrieved lists
+whereas 'subject words' are displayed. It is important for software to
+precisely recognise notations as different from 'subject
+words'. Looking for numeric strings cannot be relied on as notations
+may be alphanumeric so it is useful to identify them by means of a
+qualifier. It is unrealistic to expect software to identify notations
+as such by means of the value qualifier for subject, as there is a
+potentially huge list of value qualifiers which cover subject
+headings, and thesauri as well as classification
+notations. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div></UL><div class = 'datatype'>Encoding Schemes for 'Subject':</div>
+<UL><div class='label'>42)&nbsp;&nbsp;LCSH</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>LCSH</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>LCSH</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#LCSH ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#LCSH</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Library of Congress Subject Headings</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+</TABLE></UL></div><div class='label'>43)&nbsp;&nbsp;MeSH</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>MeSH</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>MESH</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#MESH ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#MESH</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Medical Subject Headings</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+</TABLE></UL></div><div class='label'>44)&nbsp;&nbsp;DDC</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>DDC</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>DDC</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#DDC ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#DDC</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Dewey Decimal Classification</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "http://www.oclc.org/fp/ ">http://www.oclc.org/fp/</A></TD></TR>
+</TABLE></UL></div><div class='label'>45)&nbsp;&nbsp;LCC</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>LCC</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>LCC</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#LCC ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#LCC</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Library of Congress Classification</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+</TABLE></UL></div><div class='label'>46)&nbsp;&nbsp;UDC</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>UDC</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>UDC</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#UDC ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#UDC</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Universal Decimal Classification</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Encoding Scheme</TD></TR>
+</TABLE></UL></div></UL></div>
+<div class = 'blockResource'><hr class = 'break' /><div class = 'introProse'>
+<h3>Title</h3>
+
+<P> 
+The qualifiers below are proposed for the
+Title element. 
+</P>
+</div><div class = 'subPropertyOf'>Qualifiers that refine 'Title':</div>
+<UL><div class='label'>47)&nbsp;&nbsp;Alternative</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Alternative</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>alternative</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dcq#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dcq#alternative ">http://rdf.dev.oclc.org/eor/2000/03/13-dcq#alternative</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>Any known or used form of the title used as a substitute or alternative to the formal title (or title under which the resource is formally known).</TD></TR>
+<TR><TD></TD><TD><B>Comment: </B></TD><TD>This qualifier can include Title abbreviations as well as translations.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div></UL></div>
+<div class = 'blockResource'><hr class = 'break' /><div class = 'introProse'>
+<h3>Resource Type</h3>
+
+<P> 
+The qualifiers below are proposed for the Resource Type element. 
+</P>
+</div><div class='label'>48)&nbsp;&nbsp;The DCT1 Type Vocabulary</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Resource</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>Resource</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dctype#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Resource ">http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Resource</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A general class of describable resources.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Class</TD></TR>
+<TR><TD></TD><TD><B>See also: </B></TD><TD><A HREF = "http://www.loc.gov/marc/dc/typequalif-19991210.html ">http://www.loc.gov/marc/dc/typequalif-19991210.html</A></TD></TR>
+</TABLE></UL></div><div class = 'subClassOf'>Types of 'Resource':</div>
+<UL><div class='label'>49)&nbsp;&nbsp;Interactive Resource</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Interactive Resource</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>InteractiveResource</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dctype#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#InteractiveResource ">http://rdf.dev.oclc.org/eor/2000/03/13-dctype#InteractiveResource</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>An interactive resource is a resource which requires interaction from the user to be understood, executed, or experienced. For example - forms on web pages, applets, multimedia learning objects, chat services, virtual reality. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Class Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>50)&nbsp;&nbsp;Dataset</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Dataset</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>Dataset</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dctype#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Dataset ">http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Dataset</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A dataset is a structured information encoded in lists, tables, databases, etc., which will normally be in a format available for direct machine processing. For example - spreadsheets, databases, GIS data, midi data. Note that unstructured numbers and words will normally be considered to be type text.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Class Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>51)&nbsp;&nbsp;Event</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Event</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>Event</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dctype#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Event ">http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Event</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>An event is a non-persistent, time-based occurrence. Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, responsible agents, and links to related events and resources. The resource of type event may not be retrievable if the described instantiation has expired or is yet to occur. Examples - exhibition, web-cast, conference, workshop, open-day, performance, battle, trial, wedding, tea-party, conflagration.  </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Class Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>52)&nbsp;&nbsp;Image</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Image</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>Image</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dctype#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Image ">http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Image</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>An image is a primarily symbolic visual representation other than text. For example - images and photographs of physical objects, paintings, prints, drawings, other images and graphics, animations and moving pictures, film, diagrams, maps, musical notation. Note that image may include both electronic  and physical representations.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Class Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>53)&nbsp;&nbsp;Model</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Model</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>Model</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dctype#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Model ">http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Model</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A model is an abstraction of the real thing, i.e. some generalisation and interpretation. Models could be considered a symbolic representation. Examples include  performance models, cost models, mechanical models, etc. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Class Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>54)&nbsp;&nbsp;Place</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Place</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>Place</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dctype#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Place ">http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Place</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A geographic area.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Class Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>55)&nbsp;&nbsp;Sound</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Sound</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>Sound</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dctype#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Sound ">http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Sound</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A sound is a resource whose content is primarily audio or intended to be realized in audio. For example - music, speech, recorded sounds. This category includes  musical notation, including score, which is unrealized in sound.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Class Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>56)&nbsp;&nbsp;Physical Object</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Physical Object</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>PhysicalObject</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dctype#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#PhysicalObject ">http://rdf.dev.oclc.org/eor/2000/03/13-dctype#PhysicalObject</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A Physical Object is a non-human object or substance. This category includes objects that do not fit into any of the other categories on this list. In addition these objects must  be approached physically to make use of them. For example - a computer, the great pyramid, a sculpture, wheat. Note that digital representations of, or  surrogates for, these things should use image, text or one of the other types. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Class Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>57)&nbsp;&nbsp;Service</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Service</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>Service</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dctype#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Service ">http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Service</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A service is a system that provides one or more functions of value to the end-user. Examples include: a photocopying service, a banking service, an authentication service, interlibrary loans, a Z39.50 or Web server. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Class Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>58)&nbsp;&nbsp;Software</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Software</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>Software</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dctype#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Software ">http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Software</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>a computer program in source or compiled form which may be available for installation non-transiently on another machine. For software which exists only to create an interactive environment, use interactive instead. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Class Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>59)&nbsp;&nbsp;Collection</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Collection</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>Collection</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dctype#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Collection ">http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Collection</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A collection is an aggregation of items. The term collection means that the resource is described as a group; its parts may be separately described and navigated.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Class Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>60)&nbsp;&nbsp;Text</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Text</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>Text</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-dctype#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Text ">http://rdf.dev.oclc.org/eor/2000/03/13-dctype#Text</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>A text is a resource whose content is primarily words for reading. For example - books, letters, dissertations, poems, newspapers, articles, archives of mailing lists.  Note that facsimiles or images of texts are still of the genre text. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Class Refinement</TD></TR>
+</TABLE></UL></div>
+<UL></UL></UL></div>
+<div class = 'blockResource'><hr class = 'break' /><div class = 'introProse'>
+<h3>Creator</h3>
+
+<P> The qualifiers below are proposed for the creator element. </P>
+
+</div>
+<div class = 'subPropertyOf'>Qualifiers that refine 'Author/Creator':</div>
+<UL><div class='label'>61)&nbsp;&nbsp;Adaptor</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Adaptor</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>adp</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#adp ">http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#adp</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>An agent who reworks a resource usually for a
+different medium</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>62)&nbsp;&nbsp;Editor</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Editor</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>edt</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#edt ">http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#edt</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>An agent who prepares for publication a work not primarily
+his/her own, such as by elucidating text, adding introductory or
+other critical matter, or technically directing an editorial staff. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>63)&nbsp;&nbsp;Performer</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Performer</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>prf</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#prf ">http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#prf</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>An agent who exhibits musical or acting skills in a musical
+or dramatic presentation or entertainment.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div></UL></div>
+<div class = 'blockResource'><hr class = 'break' /><div class = 'introProse'>
+<h3>Contributor</h3>
+
+<P> The qualifiers below are proposed for the contributor element. </P>
+
+</div>
+<div class = 'subPropertyOf'>Qualifiers that refine 'Contributor':</div>
+<UL><div class='label'>64)&nbsp;&nbsp;Adaptor</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Adaptor</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>adp</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#adp ">http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#adp</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>An agent who reworks a resource usually for a
+different medium</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>65)&nbsp;&nbsp;Editor</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Editor</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>edt</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#edt ">http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#edt</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>An agent who prepares for publication a work not primarily
+his/her own, such as by elucidating text, adding introductory or
+other critical matter, or technically directing an editorial staff. </TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>66)&nbsp;&nbsp;Performer</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Performer</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>prf</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#prf ">http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#prf</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>An agent who exhibits musical or acting skills in a musical
+or dramatic presentation or entertainment.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>67)&nbsp;&nbsp;Sponsor</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Sponsor</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>spn</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#spn ">http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#spn</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>An agent that issued a contract or under the
+auspices of which a work has been written, printed, published, etc.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div><div class='label'>68)&nbsp;&nbsp;Translator</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Translator</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>trl</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#trl ">http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#trl</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>An agent who renders a text from one language into another,
+or from an older form of a language into the modern form.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div></UL></div>
+<div class = 'blockResource'><hr class = 'break' /><div class = 'introProse'>
+<h3>Publisher</h3>
+
+<P> The qualifiers below are proposed for the publisher element. </P>
+
+</div>
+<div class = 'subPropertyOf'>Qualifiers that refine 'Publisher':</div>
+<UL><div class='label'>69)&nbsp;&nbsp;Distributor</div><div class='mainResource'><UL><TABLE><TR><TD></TD><TD><B>Label:</B></TD><TD>Distributor</TD></TR>
+<TR><TD></TD><TD><B>Name: </B></TD><TD>dst</TD></TR>
+<TR><TD></TD><TD><B>Namespace: </B></TD><TD>http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#</TD></TR>
+<TR><TD></TD><TD><B>Identifier: </B></TD><TD><A HREF = "http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#dst ">http://rdf.dev.oclc.org/eor/2000/03/13-marcrel#dst</A></TD></TR>
+<TR><TD></TD><TD><B>Definition: </B></TD><TD>An agent or agency that has exclusive or shared marketing
+rights for an item.</TD></TR>
+<TR><TD></TD><TD><B>Type:&nbsp;&nbsp;&nbsp;</B></TD><TD>Element Refinement</TD></TR>
+</TABLE></UL></div></UL></div>
+
+<HR />
+ <H2>Acknowledgements</h2>
+
+<p>The Editors wish to thank the Chairs and all members of the Element
+Working Groups and the DC Usage Committee who helped to develop the
+ideas expressed here and the editors apologise if any of their inputs
+have been misrepresented in this document. A special thanks goes to <A
+HREF = "mailto:micsik@sztaki.hu">Andras Micsik, micsik@sztaki.hu</A>
+for all of his work on the voting system used in this balloting
+process. </p>
+
+<hr />
+<A href="mailto:emiller@oclc.org">Eric Miller, emiller@oclc.org</A>, 
+<A href="mailto:renato@dsct.edu.au">Renato Iannella, renato@dstc.edu.au</A>, 
+<A href="mailto:weibel@oclc.org">Stuart Weibel, weibel@oclc.org</A>, 
+<A href="mailto:childree@oclc.org">Eric Childress, childree@oclc.org</A> 
+</BODY>
+</HTML>
+
